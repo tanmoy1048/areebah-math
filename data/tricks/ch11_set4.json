@@ -1,0 +1,172 @@
+{
+  "ch11_ex4_q1a": [
+    "Picture a $1 \\times 1$ square split 0.7 across and 0.4 down: the corner rectangle has area $0.7 \\times 0.4 = 0.28$. Independence makes probability work like area."
+  ],
+  "ch11_ex4_q1b": [
+    "Shortcut without complements: $\\Pr(A' \\cap B) = \\Pr(B) - \\Pr(A \\cap B) = 0.4 - 0.28 = 0.12$. This works for any events, independent or not."
+  ],
+  "ch11_ex4_q1c": [
+    "Same shortcut: $\\Pr(A \\cap B') = \\Pr(A) - \\Pr(A \\cap B) = 0.7 - 0.28 = 0.42$."
+  ],
+  "ch11_ex4_q1d": [
+    "Fill a $2 \\times 2$ table with $0.28, 0.42, 0.12, 0.18$: each row should add to $\\Pr(A)$ or $\\Pr(A')$ and each column to $\\Pr(B)$ or $\\Pr(B')$.",
+    "Link: $\\Pr(A' \\cap B') = 1 - \\Pr(A \\cup B)$, and $\\Pr(A \\cup B) = 0.7 + 0.4 - 0.28 = 0.82$."
+  ],
+  "ch11_ex4_q2": [
+    "Sanity check first: an intersection can never be bigger than either event's probability. Here $\\Pr(A \\cap B) = 0.96 > \\Pr(A) = 0.6$, so the printed numbers cannot all be correct; still, the method of testing is the same."
+  ],
+  "ch11_ex4_q3": [
+    "Multiplying by 0.25 is the same as taking a quarter: a quarter of $0.72$ is $0.18$.",
+    "Three-step routine for any independence question: find $\\Pr(A \\cap B)$, find $\\Pr(A) \\times \\Pr(B)$, compare."
+  ],
+  "ch11_ex4_q4a": [
+    "Ask: if I told you the die showed a 6, would you change your guess for the coin? If not, the events are independent."
+  ],
+  "ch11_ex4_q4bi": [
+    "In a two-way table of coin by die (12 cells), the Head row holds 6 of the 12 cells, which is still $\\frac{1}{2}$."
+  ],
+  "ch11_ex4_q4bii": [
+    "In the 12-cell coin-by-die table, the 6 column holds 2 cells (H6 and T6): $\\frac{2}{12} = \\frac{1}{6}$."
+  ],
+  "ch11_ex4_q4c": [
+    "Check by counting: H6 is just 1 of the $2 \\times 6 = 12$ equally likely outcomes."
+  ],
+  "ch11_ex4_q5": [
+    "Outcome-count check: $4 \\times 10 = 40$ equally likely pairs, and only one of them is $(3, 8)$."
+  ],
+  "ch11_ex4_q6": [
+    "Linked result: 'exactly one 5' (either die) is twice this, $\\frac{10}{36}$, because the green die could be the one showing 5 instead."
+  ],
+  "ch11_ex4_q7a": [
+    "As decimals: $0.8 \\times 0.8 = 0.64$, so Dean hits twice in a row about 64% of the time."
+  ],
+  "ch11_ex4_q7b": [
+    "Pattern: $n$ hits in a row has probability $\\left(\\frac{4}{5}\\right)^n$, which shrinks each time: 0.8, 0.64, 0.512..."
+  ],
+  "ch11_ex4_q7c": [
+    "Find the miss probability first: $1 - \\frac{4}{5} = \\frac{1}{5}$, then square it.",
+    "Check with a tree: hit-hit $\\frac{16}{25}$, hit-miss $\\frac{4}{25}$, miss-hit $\\frac{4}{25}$, miss-miss $\\frac{1}{25}$ add to 1."
+  ],
+  "ch11_ex4_q7d": [
+    "Exactly one hit in any order would be $2 \\times \\frac{4}{25} = \\frac{8}{25}$. Read the question for 'first...then' versus 'exactly one'."
+  ],
+  "ch11_ex4_q8a": [
+    "Simplify first: $\\frac{5}{20} = \\frac{1}{4}$, so two picks give $\\left(\\frac{1}{4}\\right)^2 = \\frac{1}{16}$."
+  ],
+  "ch11_ex4_q8b": [
+    "With $\\Pr(\\text{bruised}) = \\frac{1}{4}$ and $\\Pr(\\text{good}) = \\frac{3}{4}$, the four outcomes are $\\frac{1}{16}, \\frac{3}{16}, \\frac{3}{16}, \\frac{9}{16}$, adding to 1."
+  ],
+  "ch11_ex4_q9a": [
+    "When denominators are different primes (7 and 11), the product denominator is just $7 \\times 11 = 77$, and nothing will cancel unless a numerator shares a factor."
+  ],
+  "ch11_ex4_q9b": [
+    "Multiply the two 'on time' probabilities: $\\frac{6}{7} \\times \\frac{8}{11} = \\frac{48}{77}$.",
+    "Link: 'at least one late' $= 1 - \\frac{48}{77} = \\frac{29}{77}$."
+  ],
+  "ch11_ex4_q9c": [
+    "$\\frac{1}{7} \\times \\frac{8}{11} = \\frac{8}{77}$. Keeping everything over 77 makes the final check easy."
+  ],
+  "ch11_ex4_q9d": [
+    "Check over 77: $3 + 48 + 8 + 18 = 77$, so the four cases cover everything."
+  ],
+  "ch11_ex4_q10a": [
+    "Every single number on this wheel has the same chance, so the choice of number 8 makes no difference."
+  ],
+  "ch11_ex4_q10b": [
+    "Square shortcut: $37^2 = (40 - 3)^2 = 1600 - 240 + 9 = 1369$."
+  ],
+  "ch11_ex4_q10c": [
+    "Complement route: $1 - \\left(\\frac{36}{37}\\right)^2 = \\frac{1369 - 1296}{1369} = \\frac{73}{1369}$.",
+    "Addition Law check: $\\frac{1}{37} + \\frac{1}{37} - \\frac{1}{1369} = \\frac{74 - 1}{1369}$. Subtract the overlap (winning both) once."
+  ],
+  "ch11_ex4_q11": [
+    "This assumes the two exam results are independent; $0.72 = 0.8 \\times \\Pr(M)$ only holds under that assumption.",
+    "Check: $0.8 \\times 0.9 = 0.72$. Also, $\\Pr(M)$ must be at least $0.72$, because passing both can never be more likely than passing Maths."
+  ],
+  "ch11_ex4_q12": [
+    "Cancel before multiplying: $\\frac{2}{7} \\times \\frac{1}{4} = \\frac{1}{7} \\times \\frac{1}{2}$, giving $\\frac{1}{14}$ straight away."
+  ],
+  "ch11_ex4_q13a": [
+    "Draw a two-way table: 5 shoe pairs by 6 sock pairs gives 30 equally likely combinations. Reebok shoes with Reebok socks fill $3 \\times 2 = 6$ cells, so $\\frac{6}{30}$."
+  ],
+  "ch11_ex4_q13b": [
+    "Table check: $2 \\times 3 = 6$ cells of 30, the same $\\frac{1}{5}$ as part (a), by coincidence of the counts."
+  ],
+  "ch11_ex4_q13c": [
+    "Table check: $3 \\times 1 = 3$ cells of 30, which is $\\frac{1}{10}$."
+  ],
+  "ch11_ex4_q13d": [
+    "Table check: $2 \\times 5 = 10$ cells of 30, which is $\\frac{1}{3}$."
+  ],
+  "ch11_ex4_q14a": [
+    "Combination check: $\\frac{^{13}C_2}{^{52}C_2} = \\frac{78}{1326} = \\frac{1}{17}$. Any single suit gives this same answer."
+  ],
+  "ch11_ex4_q14b": [
+    "Cancel early: $\\frac{4}{52} \\times \\frac{3}{51} = \\frac{1}{13} \\times \\frac{1}{17} = \\frac{1}{221}$."
+  ],
+  "ch11_ex4_q14c": [
+    "Estimate: with replacement it would be $\\frac{1}{4}$; without replacement it is just under, and $\\frac{25}{102} \\approx 0.245$ fits."
+  ],
+  "ch11_ex4_q15a": [
+    "First find the non-Music group: $30 - 17 = 13$. Then $\\frac{13}{30} \\times \\frac{12}{29}$."
+  ],
+  "ch11_ex4_q15b": [
+    "Check all three cases together, over 435: neither $= 78$, both $= 136$, exactly one $= 221$, and $78 + 136 + 221 = 435$."
+  ],
+  "ch11_ex4_q15c": [
+    "Quick route: exactly one $= 1 - \\Pr(\\text{both}) - \\Pr(\\text{neither}) = 1 - \\frac{136}{435} - \\frac{78}{435} = \\frac{221}{435}$."
+  ],
+  "ch11_ex4_q16": [
+    "This mistake is called the gambler's fallacy. A coin has no memory, so each toss starts fresh.",
+    "Nine Tails in a row is unlikely ($\\frac{1}{512}$) before you start, but once it has happened it does not affect the next toss."
+  ],
+  "ch11_ex4_q17": [
+    "General rule: $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B \\mid A)$ always. For independent events $\\Pr(B \\mid A) = \\Pr(B)$, so the general rule becomes the simpler Multiplication Law."
+  ],
+  "ch11_ex4_q18": [
+    "Intuition: if $A$ and $B$ are mutually exclusive, knowing $A$ happened tells you for certain that $B$ did not, which is the opposite of 'no effect'.",
+    "Test it: mutually exclusive gives $\\Pr(A \\cap B) = 0$, but $\\Pr(A) \\times \\Pr(B) > 0$ when both are possible, so the independence test fails."
+  ],
+  "ch11_ex4_q19a": [
+    "Count test: independent when $n(A \\cap B) \\times n(\\xi) = n(A) \\times n(B)$. Here $3 \\times 20 = 60$ and $10 \\times 6 = 60$, so yes."
+  ],
+  "ch11_ex4_q19b": [
+    "Count test again: $1 \\times 10 = 10$ but $5 \\times 3 = 15$, so the events are no longer independent.",
+    "Intuition: among $\\{3, 6, 9\\}$ only one third are even, not one half, so knowing 'multiple of 3' changes the chance of 'even'."
+  ],
+  "ch11_ex4_q20": [
+    "Because each coin is equally likely to be chosen, the $\\frac{1}{3}$ cancels: $\\Pr(\\text{fair} \\mid H) = \\frac{0.5}{0.5 + 0.8 + 0.4} = \\frac{5}{17}$.",
+    "Common slip: $\\Pr(H \\mid \\text{fair}) = 0.5$ is not the same as $\\Pr(\\text{fair} \\mid H)$. The 'given' event goes in the denominator.",
+    "Imagine 300 trials: 100 per coin give $50 + 80 + 40 = 170$ Heads, and 50 of those came from the fair coin."
+  ],
+  "ch11_ex4_q21a": [
+    "Quick test: after one duck falls, is the total still 15? No, it is 14, so later probabilities change and the events are dependent."
+  ],
+  "ch11_ex4_q21b": [
+    "Check: $7 + 5 + 3 = 15$ ducks, so $\\frac{7}{15} + \\frac{5}{15} + \\frac{3}{15} = 1$."
+  ],
+  "ch11_ex4_q21c": [
+    "Count the outcomes: 3 branches at each of 3 stages gives $3^3 = 27$ paths. None is impossible, because there are at least three ducks of every number.",
+    "Every complete path has the same denominator, $15 \\times 14 \\times 13 = 2730$, so you only need to multiply the numerators."
+  ],
+  "ch11_ex4_q21di": [
+    "Combination check: choose 3 of the seven 1s out of 3 of all 15 ducks: $\\frac{^7C_3}{^{15}C_3} = \\frac{35}{455} = \\frac{1}{13}$."
+  ],
+  "ch11_ex4_q21dii": [
+    "Combination check: $\\frac{^5C_3}{^{15}C_3} = \\frac{10}{455} = \\frac{2}{91}$."
+  ],
+  "ch11_ex4_q21diii": [
+    "There is exactly one way to choose all three 3s, out of $^{15}C_3 = 455$ possible groups of three ducks, so $\\frac{1}{455}$."
+  ],
+  "ch11_ex4_q21div": [
+    "No 3s means all three ducks come from the 12 others: $\\frac{12}{15} \\times \\frac{11}{14} \\times \\frac{10}{13} = \\frac{44}{91}$, then $1 - \\frac{44}{91} = \\frac{47}{91}$."
+  ],
+  "ch11_ex4_q22a": [
+    "Check that the four prize probabilities add to 1: over 455 they are $1 + 66 + 248 + 140 = 455$, since $\\frac{4}{13} = \\frac{140}{455}$.",
+    "Since order does not matter for the sum, you can count unordered groups: there are $^{15}C_3 = 455$ equally likely groups, which explains the denominator."
+  ],
+  "ch11_ex4_q22b": [
+    "Work per game first: expected payout $= \\frac{30(1) + 10(66) + 2(248)}{455} = \\frac{1186}{455} \\approx \\$2.61$, so the owner keeps about 39 cents per $\\$3$ game.",
+    "Expected profit per day $=$ (number of games) $\\times$ (fee $-$ expected payout per game). A profit near $\\$393$ for 1000 games fits about 39 cents each."
+  ]
+}

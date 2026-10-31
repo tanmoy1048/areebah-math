@@ -1,0 +1,82 @@
+{
+  "ch14_ex8_q1a": [
+    "Shortcut: shifting sine right by $\\frac{\\pi}{2}$ gives $-\\cos$, so $y = 3\\sin\\left(\\theta - \\frac{\\pi}{2}\\right) = -3\\cos\\theta$. That explains why the cycle starts at the minimum $(0,-3)$.",
+    "To find where a shifted cycle 'starts', set the bracket equal to zero: $\\theta - \\frac{\\pi}{2} = 0$ gives $\\theta = \\frac{\\pi}{2}$, where the graph crosses the centre line going up."
+  ],
+  "ch14_ex8_q1b": [
+    "Expand the bracket: $\\sin 2(\\theta + \\pi) = \\sin(2\\theta + 2\\pi)$, and adding $2\\pi$ to the angle never changes sine. Expanding often reveals a 'hidden' full-period shift.",
+    "Compare the shift with the period: the shift $\\pi$ equals exactly one period of $\\sin 2\\theta$, so the graph lands on itself."
+  ],
+  "ch14_ex8_q1c": [
+    "Find the start of a cycle by setting the bracket to zero ($\\theta = -\\frac{\\pi}{4}$), then step along in quarter-periods of $\\frac{\\pi}{6}$: $-\\frac{\\pi}{4}, -\\frac{\\pi}{12}, \\frac{\\pi}{12}, \\frac{\\pi}{4}, \\frac{5\\pi}{12}$.",
+    "Quick check: the $y$-intercept is $2\\sin\\frac{3\\pi}{4} = \\sqrt{2} \\approx 1.41$, so at $\\theta = 0$ the graph should be between the peak at $-\\frac{\\pi}{12}$ and the zero at $\\frac{\\pi}{12}$, heading down."
+  ],
+  "ch14_ex8_q1d": [
+    "Expand first: $\\sqrt{3}\\sin 2\\left(\\theta - \\frac{\\pi}{2}\\right) = \\sqrt{3}\\sin(2\\theta - \\pi) = -\\sqrt{3}\\sin 2\\theta$, so the graph just goes down first from the origin.",
+    "Spot-check a key point: at $\\theta = \\frac{3\\pi}{4}$ the angle is $2\\left(\\frac{3\\pi}{4} - \\frac{\\pi}{2}\\right) = \\frac{\\pi}{2}$, giving $\\sqrt{3}\\sin\\frac{\\pi}{2} = \\sqrt{3}$, the maximum."
+  ],
+  "ch14_ex8_q1e": [
+    "Read $n$ as 'cycles per $2\\pi$': $\\sin 2x$ fits 2 cycles into $[0, 2\\pi]$, so one cycle takes $\\pi$.",
+    "Calculus check: the gradient at the origin is $a \\times n = 3 \\times 2 = 6$, so the graph leaves the origin much more steeply than $y = \\sin x$ does."
+  ],
+  "ch14_ex8_q1f": [
+    "Cosine cycles begin at a peak, so set the bracket to zero ($\\theta = -\\frac{\\pi}{4}$) for the first maximum, then add quarter-periods of $\\frac{\\pi}{6}$.",
+    "Check the $y$-intercept: $2\\cos\\frac{3\\pi}{4} = -\\sqrt{2} \\approx -1.41$, which fits with $\\theta = 0$ lying between the minimum at $\\frac{\\pi}{12}$ and the zero at $-\\frac{\\pi}{12}$."
+  ],
+  "ch14_ex8_q1g": [
+    "Cycle starts where the bracket is zero, $\\theta = \\frac{\\pi}{3}$; the quarter-period is $\\frac{\\pi}{4}$, so key $\\theta$-values go up by $\\frac{3\\pi}{12}$ each: $\\frac{4\\pi}{12}, \\frac{7\\pi}{12}, \\frac{10\\pi}{12}, \\frac{13\\pi}{12}, \\frac{16\\pi}{12}$.",
+    "The $y$-intercept is $\\sqrt{2}\\sin\\left(-\\frac{2\\pi}{3}\\right) = -\\frac{\\sqrt{6}}{2} \\approx -1.22$, a useful extra point if you sketch from $\\theta = 0$."
+  ],
+  "ch14_ex8_q1h": [
+    "Sign of $a$ tells you the first move: with $a < 0$ the sine graph goes down first from the origin, so the first quarter-point $\\left(\\frac{\\pi}{4}, -3\\right)$ is a minimum.",
+    "Because sine is odd, $-3\\sin 2x = 3\\sin(-2x)$: reflecting in the $x$-axis and reflecting in the $y$-axis give the same graph here."
+  ],
+  "ch14_ex8_q1i": [
+    "Expand: $-3\\cos 2\\left(\\theta + \\frac{\\pi}{2}\\right) = -3\\cos(2\\theta + \\pi) = 3\\cos 2\\theta$. Two 'flips' (a half-period shift and a negative $a$) cancel.",
+    "Check with $\\theta = 0$: $-3\\cos\\pi = 3$, matching the maximum of $3\\cos 2\\theta$ at the origin."
+  ],
+  "ch14_ex8_q2a": [
+    "The domain $[0, 2\\pi]$ has length exactly one period, so $f(0)$ and $f(2\\pi)$ must match; only one calculation is needed.",
+    "Unit-circle view: $-\\frac{\\pi}{3}$ and $\\frac{5\\pi}{3}$ are the same point on the circle, so both have cosine $\\frac{1}{2}$."
+  ],
+  "ch14_ex8_q2b": [
+    "Every feature of $y = \\cos x$ just moves $\\frac{\\pi}{3}$ to the right: max at $0 \\to \\frac{\\pi}{3}$, zeros at $\\frac{\\pi}{2}, \\frac{3\\pi}{2} \\to \\frac{5\\pi}{6}, \\frac{11\\pi}{6}$, min at $\\pi \\to \\frac{4\\pi}{3}$.",
+    "Graphics calculator check: graph it in radian mode with window $0 \\le x \\le 2\\pi$ and use the zero tool; $\\frac{5\\pi}{6} \\approx 2.618$ and $\\frac{11\\pi}{6} \\approx 5.760$."
+  ],
+  "ch14_ex8_q3a": [
+    "The period is $\\pi$, so $[0, 2\\pi]$ is exactly two periods and $f(0) = f(2\\pi)$ automatically.",
+    "Picture $-\\frac{2\\pi}{3}$ on the unit circle: it is in quadrant 3, where sine is negative, confirming the minus sign."
+  ],
+  "ch14_ex8_q3b": [
+    "Zeros of a sine graph are half a period apart. Starting at $\\frac{\\pi}{3}$ and adding $\\frac{\\pi}{2}$ repeatedly gives $\\frac{\\pi}{3}, \\frac{5\\pi}{6}, \\frac{4\\pi}{3}, \\frac{11\\pi}{6}$.",
+    "Each turning point sits exactly halfway between neighbouring zeros, for example the max $\\frac{7\\pi}{12}$ is the average of $\\frac{\\pi}{3}$ and $\\frac{5\\pi}{6}$."
+  ],
+  "ch14_ex8_q4a": [
+    "The domain $[-\\pi, \\pi]$ has length $2\\pi$, which is exactly three periods of $\\frac{2\\pi}{3}$, so $f(-\\pi) = f(\\pi)$: compute one and copy it.",
+    "Calculator check in radian mode: $\\sin\\left(3 \\times \\frac{5\\pi}{4}\\right) \\approx -0.707$, which is $-\\frac{\\sqrt{2}}{2}$."
+  ],
+  "ch14_ex8_q4b": [
+    "Start from one zero, $x = -\\frac{\\pi}{4}$ (bracket equals zero), then add or subtract half-periods of $\\frac{\\pi}{3} = \\frac{4\\pi}{12}$ until you leave $[-\\pi, \\pi]$.",
+    "Count check: 3 periods with 2 zeros each gives 6 zeros, and 3 maxima and 3 minima."
+  ],
+  "ch14_ex8_q5a": [
+    "Track one point to check: the peak $\\left(\\frac{\\pi}{2}, 1\\right)$ moves to $(\\pi, 1)$ then $(\\pi, 3)$, and indeed $3\\sin\\frac{\\pi}{2} = 3$.",
+    "A dilation of factor $k$ from the $y$-axis multiplies the period by $k$: here the period becomes $4\\pi$."
+  ],
+  "ch14_ex8_q5b": [
+    "Period check: factor $\\frac{1}{2}$ from the $y$-axis halves the period from $2\\pi$ to $\\pi$, which matches $\\frac{2\\pi}{2}$ for $\\sin 2x$.",
+    "Dilations from different axes act on different coordinates, so their order does not matter; order only matters when a translation is involved."
+  ],
+  "ch14_ex8_q5c": [
+    "Memory aid: 'from the $y$-axis' means points move away from the $y$-axis, i.e. horizontally, so it changes $x$ (period $6\\pi$); 'from the $x$-axis' changes $y$ (amplitude 2).",
+    "Point check: $\\left(\\frac{\\pi}{2}, 1\\right) \\to \\left(\\frac{3\\pi}{2}, 2\\right)$, and $2\\sin\\left(\\frac{3\\pi}{2} \\div 3\\right) = 2\\sin\\frac{\\pi}{2} = 2$."
+  ],
+  "ch14_ex8_q5d": [
+    "Track the origin: $(0,0) \\to (0,0) \\to \\left(\\frac{\\pi}{3}, 0\\right)$. Check: $\\sin 2\\left(\\frac{\\pi}{3} - \\frac{\\pi}{3}\\right) = 0$.",
+    "Order matters: translating first and then dilating would give $\\sin\\left(2x - \\frac{\\pi}{3}\\right)$, a shift of only $\\frac{\\pi}{6}$."
+  ],
+  "ch14_ex8_q5e": [
+    "Track the origin: it ends at $\\left(-\\frac{\\pi}{3}, 0\\right)$, and $\\sin\\left(-\\frac{\\pi}{6} + \\frac{\\pi}{6}\\right) = 0$ confirms the rule.",
+    "In the expanded form $\\sin\\left(\\frac{x}{2} + \\frac{\\pi}{6}\\right)$ the shift is not $\\frac{\\pi}{6}$; always factor out the coefficient of $x$ to read the true translation."
+  ]
+}

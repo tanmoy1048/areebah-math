@@ -1,0 +1,151 @@
+{
+  "ch5_ex8_q1a": [
+    "N...E bearings are the easy case: the true bearing is just the angle, padded to three digits. The NE quadrant covers $000^\\circ$T to $090^\\circ$T."
+  ],
+  "ch5_ex8_q1b": [
+    "Picture a clock hand that starts at north and turns clockwise. To end up $20^\\circ$ west of north it must go almost all the way round: $360^\\circ - 20^\\circ$."
+  ],
+  "ch5_ex8_q1c": [
+    "Quadrant ranges to memorise: NE $0$-$90$, SE $90$-$180$, SW $180$-$270$, NW $270$-$360$. S$35^\\circ$W is in SW, so the answer must lie between 180 and 270."
+  ],
+  "ch5_ex8_q2a": [
+    "S$x^\\circ$E means start at south ($180^\\circ$) and turn back towards east, so you go back $x^\\circ$: $180^\\circ - 28^\\circ = 152^\\circ$."
+  ],
+  "ch5_ex8_q2b": [
+    "Three-digit habit: writing $034^\\circ$T rather than $34^\\circ$T prevents misreading, the same reason pilots and sailors use it."
+  ],
+  "ch5_ex8_q2c": [
+    "Start at south ($180^\\circ$) and keep turning clockwise towards west, so add: $180^\\circ + 42^\\circ$."
+  ],
+  "ch5_ex8_q3a": [
+    "Under $090^\\circ$T, the compass bearing is simply N$\\theta$E with the same number."
+  ],
+  "ch5_ex8_q3b": [
+    "Ask how far the bearing is from the nearer of N ($0^\\circ$/$360^\\circ$) or S ($180^\\circ$). $132^\\circ$ is $48^\\circ$ short of south, on the east side."
+  ],
+  "ch5_ex8_q3c": [
+    "Check by converting back: S$87^\\circ$W gives $180^\\circ + 87^\\circ = 267^\\circ$T. Reversing the conversion is a quick self-test."
+  ],
+  "ch5_ex8_q4a": [
+    "$330^\\circ$ is $30^\\circ$ short of a full turn back to north, so it is $30^\\circ$ west of north: N$30^\\circ$W."
+  ],
+  "ch5_ex8_q4b": [
+    "$086^\\circ$T is just $4^\\circ$ north of due east. Compass bearings still measure from N, so it is N$86^\\circ$E, not E$4^\\circ$N."
+  ],
+  "ch5_ex8_q4c": [
+    "$234^\\circ$ is between $180^\\circ$ and $270^\\circ$, so it is in the SW quadrant. Subtract $180^\\circ$ to get the angle from south."
+  ],
+  "ch5_ex8_q5a": [
+    "West of north is the anticlockwise side, so true bearing $= 360^\\circ - 35^\\circ$. Any path drawn up and to the left has a bearing between $270^\\circ$ and $360^\\circ$."
+  ],
+  "ch5_ex8_q5b": [
+    "Below east means turning further clockwise past $090^\\circ$, so add: $90^\\circ + 22^\\circ = 112^\\circ$T."
+  ],
+  "ch5_ex8_q5c": [
+    "Below west means short of west going clockwise, so subtract: $270^\\circ - 35^\\circ = 235^\\circ$T. Check: it is in the SW range, 180 to 270."
+  ],
+  "ch5_ex8_q6a": [
+    "Due east, south, west and north are always $090^\\circ$, $180^\\circ$, $270^\\circ$ and $000^\\circ$T. No calculation is needed."
+  ],
+  "ch5_ex8_q6b": [
+    "An angle marked from south means the leg is S$65^\\circ$E, so true bearing $= 180^\\circ - 65^\\circ = 115^\\circ$T."
+  ],
+  "ch5_ex8_q6c": [
+    "The first leg is N$50^\\circ$W and the second is S$40^\\circ$W. Converting each to a compass bearing first makes the true bearing easy: $360^\\circ - 50^\\circ$ and $180^\\circ + 40^\\circ$."
+  ],
+  "ch5_ex8_q7a": [
+    "A bearing just over $090^\\circ$ (like $100^\\circ$) points slightly below east on the page. Use the compass points as landmarks before measuring the exact angle."
+  ],
+  "ch5_ex8_q7b": [
+    "$135^\\circ$T is exactly south-east (halfway between E and S), and $240^\\circ$T is $60^\\circ$ past south, nearer to west than to south."
+  ],
+  "ch5_ex8_q8a": [
+    "Landmark check: $260^\\circ$ is $10^\\circ$ short of west, $120^\\circ$ is $30^\\circ$ past east, and $032^\\circ$ is about a third of the way from N to E."
+  ],
+  "ch5_ex8_q8b": [
+    "Turn each compass bearing into a true bearing to check your sketch: N$40^\\circ$W $= 320^\\circ$, S$30^\\circ$W $= 210^\\circ$, S$50^\\circ$E $= 130^\\circ$."
+  ],
+  "ch5_ex8_q8c": [
+    "In true bearings these are $020^\\circ$, $070^\\circ$ and $150^\\circ$. Each leg turns further clockwise, so the path curves round to the right."
+  ],
+  "ch5_ex8_q9a": [
+    "Universal shortcut: for any true bearing $\\theta$, east displacement $= d\\sin\\theta$ and north displacement $= d\\cos\\theta$. Negative results mean west or south, so this works in every quadrant."
+  ],
+  "ch5_ex8_q9b": [
+    "Check: $13.38^2 + 14.86^2 \\approx 400 = 20^2$. Also $42^\\circ < 45^\\circ$, so north should be bigger than east, and it is."
+  ],
+  "ch5_ex8_q9c": [
+    "The return trip is the same line walked backwards, so it points exactly opposite: add or subtract $180^\\circ$. The distance stays 20 km."
+  ],
+  "ch5_ex8_q9d": [
+    "$130^\\circ$T is $40^\\circ$ past east, heading down-right. In the sketch, C ends up well to the east and south of A."
+  ],
+  "ch5_ex8_q9e": [
+    "Using the shortcut: $80\\cos 130^\\circ \\approx -51.42$. The negative sign tells you it is 51.42 km south."
+  ],
+  "ch5_ex8_q9f": [
+    "Shortcut: $80\\sin 130^\\circ = 80\\sin 50^\\circ \\approx 61.28$ km east. Note that $\\sin 130^\\circ = \\sin 50^\\circ$."
+  ],
+  "ch5_ex8_q9g": [
+    "$130^\\circ + 180^\\circ = 310^\\circ$. Rule: if the original bearing is under 180, add 180; if it is over 180, subtract 180."
+  ],
+  "ch5_ex8_q10": [
+    "For a compass bearing, just swap both letters: the reverse of N$35^\\circ$E is S$35^\\circ$W, which is $215^\\circ$T."
+  ],
+  "ch5_ex8_q11": [
+    "Both legs make $60^\\circ$ with the north-south line ($240^\\circ$ = S$60^\\circ$W, $300^\\circ$ = N$60^\\circ$W), so west $= (0.7 + 1.3)\\sin 60^\\circ = 2 \\times \\dfrac{\\sqrt{3}}{2} = \\sqrt{3}$.",
+    "That is why the answer is 1.732: it is $\\sqrt{3}$ to 3 decimal places."
+  ],
+  "ch5_ex8_q12a": [
+    "Shortcut: east $= 6\\sin 120^\\circ + 4\\sin 80^\\circ$. Type it straight into the calculator; no quadrant diagram is needed."
+  ],
+  "ch5_ex8_q12b": [
+    "Shortcut: north $= 6\\cos 120^\\circ + 4\\cos 80^\\circ \\approx -2.305$. The minus sign means south.",
+    "Exact value: $\\cos 120^\\circ = -\\tfrac{1}{2}$, so the first leg goes exactly 3 km south."
+  ],
+  "ch5_ex8_q12c": [
+    "The boat is far east and only a little south, so the bearing should be a bit more than $090^\\circ$. $104^\\circ 10'$ fits.",
+    "Bearing $= 90^\\circ + \\tan^{-1}\\left(\\dfrac{\\text{south}}{\\text{east}}\\right)$ when the point is in the SE quadrant."
+  ],
+  "ch5_ex8_q13": [
+    "Shortcut: north $= 450\\cos 320^\\circ + 130\\cos 350^\\circ + 330\\cos 50^\\circ$. Calculator cosines of true bearings handle the signs for you."
+  ],
+  "ch5_ex8_q14": [
+    "Position from the tent: east $= 4.12 + 3.31\\sin 20^\\circ$, north $= 3.31\\cos 20^\\circ$. The tent lies back towards the south-west, so the answer bearing is between $180^\\circ$ and $270^\\circ$.",
+    "Find the bearing of the walker from the tent (about $059^\\circ$), then add $180^\\circ$ for the way home."
+  ],
+  "ch5_ex8_q15": [
+    "$\\tan^{-1}\\left(\\dfrac{3}{8}\\right) \\approx 21^\\circ$ is measured below east, so the bearing is $90^\\circ + 21^\\circ$. Alternatively, $\\tan^{-1}\\left(\\dfrac{8}{3}\\right) \\approx 69^\\circ$ from south gives $180^\\circ - 69^\\circ$, the same $111^\\circ$."
+  ],
+  "ch5_ex8_q16a": [
+    "Think of it as turning around to face the way you came: that is always a half-turn, $180^\\circ$."
+  ],
+  "ch5_ex8_q16b": [
+    "Adding 180 would go past 360, so subtract instead. A back bearing must always stay between $000^\\circ$ and $360^\\circ$."
+  ],
+  "ch5_ex8_q17a": [
+    "Convert to true bearings first: E$12^\\circ$S $= 102^\\circ$T and S$27^\\circ$E $= 153^\\circ$T. Then east $= 10\\sin 102^\\circ + 20\\sin 153^\\circ$ and north $= 10\\cos 102^\\circ + 20\\cos 153^\\circ$."
+  ],
+  "ch5_ex8_q17b": [
+    "The boat ends up at about $137^\\circ$T from A (south-east), so the way back is $137^\\circ + 180^\\circ \\approx 317^\\circ$T, which is north-west."
+  ],
+  "ch5_ex8_q18a": [
+    "Choose a scale that makes both lengths whole centimetres. 1 cm = 2 km turns 12 km and 6 km into 6 cm and 3 cm."
+  ],
+  "ch5_ex8_q18b": [
+    "Exact values help: north $= 12\\cos 60^\\circ - 6\\cos 45^\\circ = 6 - 3\\sqrt{2} \\approx 1.76$ km."
+  ],
+  "ch5_ex8_q18c": [
+    "Exact values: east $= 12\\sin 60^\\circ + 6\\sin 45^\\circ = 6\\sqrt{3} + 3\\sqrt{2} \\approx 14.63$ km."
+  ],
+  "ch5_ex8_q18d": [
+    "The lunch stop is far east and only a little north, so the bearing should be close to $090^\\circ$. $083.15^\\circ$ fits."
+  ],
+  "ch5_ex8_q18e": [
+    "Range check: a straight line home is shorter than the $12 + 6 = 18$ km route taken. It is only slightly longer than the 14.63 km east distance, because the north part is small."
+  ],
+  "ch5_ex8_q19": [
+    "Using east $= d\\sin(\\text{bearing})$ and north $= d\\cos(\\text{bearing})$ for all three legs avoids drawing three separate quadrant triangles.",
+    "The group ends at about $288^\\circ$T from base, so home is $288^\\circ - 180^\\circ = 108^\\circ$T."
+  ]
+}

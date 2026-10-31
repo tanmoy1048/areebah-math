@@ -1,0 +1,218 @@
+{
+  "ch6_ex2_q1a": [
+    "This is why we say 'four squared': $4^2$ is literally the area of a square with side 4, made of 16 unit squares."
+  ],
+  "ch6_ex2_q1b": [
+    "Picture 4 rows of 12 one-centimetre squares: $4 \\times 12 = 48$ squares, so $48\\text{ cm}^2$.",
+    "Check: this rectangle has the same area as a square of side $\\sqrt{48} \\approx 6.9$ cm, which sits between the 4 and the 12."
+  ],
+  "ch6_ex2_q1c": [
+    "A triangle is half of the rectangle that surrounds it: the $10 \\times 15$ box has area 150, so the triangle is 75.",
+    "Mental shortcut: halve whichever number is even first, $5 \\times 15 = 75$."
+  ],
+  "ch6_ex2_q2a": [
+    "The average of the parallel sides is $\\frac{12 + 18}{2} = 15$, so the trapezium has the same area as a $15 \\times 8$ rectangle.",
+    "Check: the area must lie between $12 \\times 8 = 96$ and $18 \\times 8 = 144$."
+  ],
+  "ch6_ex2_q2b": [
+    "Estimate with $\\pi \\approx 3$: $3 \\times 225 = 675$, a little under the true $706.86$, which is what you expect since $\\pi > 3$.",
+    "For exact answers, write $225\\pi$ and only press the $\\pi$ button at the end."
+  ],
+  "ch6_ex2_q2c": [
+    "It helps to turn the page (or your sketch) so the parallel sides are horizontal; then the 7 mm is clearly the height.",
+    "Halving the 7 first can be messy; instead halve the sum: $\\frac{8 + 13}{2} = 10.5$, then $10.5 \\times 7 = 73.5$."
+  ],
+  "ch6_ex2_q3a": [
+    "Diameter version of the formula: $A = \\frac{\\pi d^2}{4}$. Here $\\frac{\\pi \\times 324}{4} = 81\\pi$, the same as $\\pi \\times 9^2$.",
+    "A circle fills about $\\frac{3}{4}$ of the square around it: $\\frac{3}{4} \\times 18^2 = 243$, close to $254$."
+  ],
+  "ch6_ex2_q3b": [
+    "Draw the rectangle with sides equal to the two diagonals ($6 \\times 7 = 42$). The rhombus fills exactly half of it, which is where $\\frac{1}{2}xy$ comes from."
+  ],
+  "ch6_ex2_q3c": [
+    "The diagonals cut the rhombus into 4 right-angled triangles, each with legs $7.5$ and $5$: $4 \\times \\frac{1}{2} \\times 7.5 \\times 5 = 75$.",
+    "The same $\\frac{1}{2}xy$ formula works for a kite and a square, because their diagonals are also perpendicular."
+  ],
+  "ch6_ex2_q4a": [
+    "Built-in check: $(s-a) + (s-b) + (s-c)$ always equals $s$. Here $11.5 + 0.5 + 4.5 = 16.5$, so your brackets are right.",
+    "Since $5 + 12$ only just beats 16, this triangle is long and thin, so a small area like $20.66$ makes sense."
+  ],
+  "ch6_ex2_q4b": [
+    "Check the brackets: $0.5 + 5.5 + 2.5 = 8.5 = s$.",
+    "Type the whole product under one square root on the calculator, $\\sqrt{(8.5 \\times 0.5 \\times 5.5 \\times 2.5)}$, so nothing is rounded early."
+  ],
+  "ch6_ex2_q5a": [
+    "An ellipse has the same area as a circle whose radius is between $a$ and $b$: here $\\pi \\times 9 \\times 4 = \\pi \\times 6^2$, a circle of radius 6.",
+    "Check: it must be less than the $18 \\times 8 = 144\\text{ mm}^2$ box around it."
+  ],
+  "ch6_ex2_q5b": [
+    "Multiplication order doesn't matter, $ab = ba$, which is why turning the ellipse sideways cannot change its area.",
+    "Keep it exact as $60\\pi$, then $60 \\times 3.14 \\approx 188$ is a quick check."
+  ],
+  "ch6_ex2_q6a": [
+    "Clock-face link: $30^\\circ$ is the angle between two hour marks, one twelfth of a full turn, so the sector is $\\frac{1}{12}$ of $144\\pi$.",
+    "Exact answers are written as a number times $\\pi$; the decimal answer is just that number times $3.14159\\ldots$"
+  ],
+  "ch6_ex2_q6b": [
+    "Easier route: take the whole circle and subtract the $15^\\circ$ gap: $36\\pi - \\frac{15}{360} \\times 36\\pi = 36\\pi - 1.5\\pi = 34.5\\pi$.",
+    "Since $345^\\circ$ is nearly a full turn, the answer should be just under $36\\pi \\approx 113$."
+  ],
+  "ch6_ex2_q6c": [
+    "Simplify before multiplying: $\\frac{290}{360} \\times 324 = 29 \\times 9 = 261$, so the area is $261\\pi$ with no calculator needed."
+  ],
+  "ch6_ex2_q7": [
+    "Compare C and D: a rhombus with diagonals 16 and 4 fits inside a $16 \\times 4$ rectangle and is exactly half of it, so D gives 32, not 64.",
+    "For B, $4.51^2 \\approx 20.3$ and $\\pi \\times 20.3 \\approx 64$; note $4.51 \\approx \\sqrt{64 / \\pi}$."
+  ],
+  "ch6_ex2_q8": [
+    "The diagonal AC is a shared base for two triangles, so the area is $\\frac{1}{2} \\times AC \\times (BE + DF)$.",
+    "A quadrilateral is not rigid: you can push four fixed-length sides into a flatter shape with less area, which is why option A fails."
+  ],
+  "ch6_ex2_q9a": [
+    "Since $15 < 20$, the two semicircles (each 7.5 cm deep) fit without overlapping: $2 \\times 7.5 = 15 \\le 20$. Always check cut-outs don't overlap.",
+    "Answer check: the circle removed is $\\pi \\times 7.5^2 \\approx 177$, a bit over half the 300 rectangle, leaving about 123."
+  ],
+  "ch6_ex2_q9b": [
+    "Estimate: rectangle $1120$ plus a semicircle of about $\\frac{1}{2} \\times 3 \\times 196 \\approx 294$ gives roughly $1414$, close to $1427.88$."
+  ],
+  "ch6_ex2_q9c": [
+    "Notch problems: the area drops by the notch area ($3 \\times 4 = 12$), but the perimeter actually increases, by the two 3 cm edges ($32 + 6 = 38$ cm)."
+  ],
+  "ch6_ex2_q10a": [
+    "Two identical triangles make one rectangle, so four triangles equal $2 \\times (3.8 \\times 2.1) = 15.96$.",
+    "Total $= 3.8 \\times (3.8 + 2 \\times 2.1) = 3.8 \\times 8 = 30.4$, a neat factorised shortcut."
+  ],
+  "ch6_ex2_q10b": [
+    "When two triangles share the same base, subtract the heights first: $\\frac{1}{2} \\times 12 \\times (18 - 5) = 6 \\times 13 = 78$."
+  ],
+  "ch6_ex2_q10c": [
+    "Write it exactly as $28^2 + 2\\pi \\times 14^2 = 784 + 392\\pi$, then use the calculator once at the end."
+  ],
+  "ch6_ex2_q11a": [
+    "Difference of two squares: $7^2 - 3^2 = (7+3)(7-3) = 10 \\times 4 = 40$, so the ring is $40\\pi$.",
+    "Another view: a ring has area = (average circumference) $\\times$ (width): $2\\pi \\times 5 \\times 4 = 40\\pi$."
+  ],
+  "ch6_ex2_q11b": [
+    "Exact form: $128 - 8\\pi$. Since $8\\pi \\approx 25$, the answer is about $103$."
+  ],
+  "ch6_ex2_q12a": [
+    "The four corners always make up $1 - \\frac{\\pi}{4} \\approx 21.5\\%$ of the square, whatever its size: $0.215 \\times 64 \\approx 13.7$.",
+    "Exact form: $64 - 16\\pi = 16(4 - \\pi)$."
+  ],
+  "ch6_ex2_q12b": [
+    "Use the difference of squares: $8^2 - 3^2 = 11 \\times 5 = 55$, then the remaining $320^\\circ$ is $\\frac{8}{9}$ of the ring: $\\frac{8}{9} \\times 55\\pi$."
+  ],
+  "ch6_ex2_q13a": [
+    "List 'whole minus holes' as one line: $52 - 21 - \\pi$. Then the exact answer is $31 - \\pi \\approx 27.86$."
+  ],
+  "ch6_ex2_q13b": [
+    "The two triangles have bases adding to 15 m (the full length) and the same 5 m height, so together they are exactly half the rectangle, no matter where the apexes sit.",
+    "So the shaded part is also half: $\\frac{1}{2} \\times 75 = 37.5$."
+  ],
+  "ch6_ex2_q14": [
+    "Unit trap: $1\\text{ m}^2 = 100 \\times 100 = 10\\,000\\text{ cm}^2$, not $100\\text{ cm}^2$. So $11\\,707.92\\text{ cm}^2 \\approx 1.17\\text{ m}^2$.",
+    "Heron check: $(15-12) + (15-10) + (15-8) = 3 + 5 + 7 = 15 = s$."
+  ],
+  "ch6_ex2_q15": [
+    "Shortcut for a path of width $w$ around a rectangle: area $= \\text{perimeter} \\times w + 4w^2$. Here $40 \\times 0.5 + 4 \\times 0.25 = 21$.",
+    "The $4w^2$ is the four little corner squares that the perimeter strips miss."
+  ],
+  "ch6_ex2_q16": [
+    "Count in each direction to be sure the slabs fit: $20 \\div 1 = 20$ along and $1.5 \\div 0.5 = 3$ across, so $20 \\times 3 = 60$ with no cutting."
+  ],
+  "ch6_ex2_q17": [
+    "The perimeter-times-width shortcut works here too: the L has perimeter $12 + 8 + 4 + 3 + 8 + 5 = 40$ m, and path area $= 40 \\times 0.5 + 4 \\times 0.5^2 = 21\\text{ m}^2$.",
+    "Any shape with only right-angled corners has 4 more outside corners than inside corners, so the '$+4w^2$' still works for an L-shape."
+  ],
+  "ch6_ex2_q18a": [
+    "Estimate: $24 \\times 11 = 264$, close to $260.87\\text{ m}^2$."
+  ],
+  "ch6_ex2_q18b": [
+    "Quick check: the singles court is less wide by $10.97 - 8.23 = 2.74$ m, so it loses $2.74 \\times 23.78 \\approx 65\\text{ m}^2$: $260.87 - 65.16 = 195.71$."
+  ],
+  "ch6_ex2_q18c": [
+    "Since both courts have the same length, the length cancels: the percentage is just $\\frac{8.23}{10.97} \\times 100\\% \\approx 75\\%$. No areas needed."
+  ],
+  "ch6_ex2_q19a": [
+    "A hectare is a $100\\text{ m} \\times 100\\text{ m}$ square, and $1\\text{ km}^2 = 100$ ha. Working in km: $9.875\\text{ km}^2 = 987.5$ ha.",
+    "Big numbers are easier in km: $1 \\times 2 + 3 \\times 3 - \\frac{1}{2} \\times 1.5 \\times 1.5 = 9.875\\text{ km}^2$."
+  ],
+  "ch6_ex2_q19b": [
+    "Before calculating, think about length: an east–west fence through the wide part can be at most 3000 m long, while a north–south fence in the left strip must be 5000 m, so east–west is likely cheaper.",
+    "Check the answer: area above the fence is $3\\,375\\,000 + 3000 \\times 520.83 \\approx 4\\,937\\,500$, which is half."
+  ],
+  "ch6_ex2_q20a": [
+    "Dividing by 2 gives $x + y = 50$: one length plus one width is always half the perimeter. This simpler form makes the next steps easier."
+  ],
+  "ch6_ex2_q20b": [
+    "Check with a pair of numbers: if $x = 20$ then $y = 30$, and $2(20) + 2(30) = 100$. Correct."
+  ],
+  "ch6_ex2_q20c": [
+    "Keep it factorised as $A = x(50 - x)$: this form shows straight away that $A = 0$ when $x = 0$ or $x = 50$."
+  ],
+  "ch6_ex2_q20d": [
+    "Use $A = x(50 - x)$ for mental arithmetic: $x = 15$ gives $15 \\times 35 = 525$.",
+    "Pairs of $x$ values that add to 50 give the same area, because swapping $x$ and $y$ just turns the rectangle on its side."
+  ],
+  "ch6_ex2_q20e": [
+    "At exactly $x = 50$, $y = 0$, so the 'rectangle' collapses into a double line with zero area, which matches $A = 0$ in the table."
+  ],
+  "ch6_ex2_q20f": [
+    "The negative $x^2$ term tells you the parabola opens downwards (a 'frown'), so it has a maximum, not a minimum.",
+    "Plot the intercepts $(0, 0)$ and $(50, 0)$ and the turning point $(25, 625)$ first, then use the table for the shape."
+  ],
+  "ch6_ex2_q20g": [
+    "Completing the square shows it clearly: $A = 625 - (x - 25)^2$. The squared bracket can't be negative, so $A$ is largest when $x = 25$."
+  ],
+  "ch6_ex2_q20h": [
+    "Since $x + y = 50$, once $x = 25$ the other side must also be 25."
+  ],
+  "ch6_ex2_q20i": [
+    "Intuition: a long thin rectangle wastes mesh on length that encloses little area; balancing the sides (a square) makes the best use of the fence."
+  ],
+  "ch6_ex2_q20j": [
+    "General result: with perimeter $P$, the largest rectangle is a square of area $\\left(\\frac{P}{4}\\right)^2$. Here $25^2 = 625$."
+  ],
+  "ch6_ex2_q20k": [
+    "Estimate: $r \\approx \\frac{100}{6.28} \\approx 16$, since $2\\pi \\approx 6.28$."
+  ],
+  "ch6_ex2_q20l": [
+    "Shortcut straight from the circumference: $A = \\frac{C^2}{4\\pi} = \\frac{10\\,000}{4\\pi} \\approx 795.77$.",
+    "Because $\\pi \\times \\left(\\frac{50}{\\pi}\\right)^2 = \\frac{2500}{\\pi}$, the exact area is $\\frac{2500}{\\pi}\\text{ m}^2$."
+  ],
+  "ch6_ex2_q20m": [
+    "As a percentage, the circle gives about $27\\%$ more area than the best rectangle ($\\frac{795.77}{625} \\approx 1.27$)."
+  ],
+  "ch6_ex2_q21a": [
+    "Use the shortcuts: square $= \\left(\\frac{150}{4}\\right)^2 = 37.5^2$ and circle $= \\frac{150^2}{4\\pi}$.",
+    "Check the ratio: $\\frac{1790.49}{1406.25} \\approx 1.27$, the same as for 100 m. That pattern is what part b proves."
+  ],
+  "ch6_ex2_q21b": [
+    "The ratio $\\frac{4}{\\pi} \\approx 1.27$ does not depend on $n$. In fact, of all shapes with the same perimeter, the circle encloses the most area.",
+    "Nature uses this: soap bubbles and water droplets become round because a sphere holds the most volume for its surface."
+  ],
+  "ch6_ex2_q22a": [
+    "Fence-post pattern: $n$ beds in a row need $n + 1$ paths between and around them, just as $n$ gaps need $n + 1$ posts."
+  ],
+  "ch6_ex2_q22b": [
+    "$160 \\div 25 = 6.4$, and 6 bags would only cover $150\\text{ m}^2$, so 7 bags are needed even though 6.4 rounds to 6."
+  ],
+  "ch6_ex2_q22c": [
+    "Path area $= 258.1 - 160 = 98.1\\text{ m}^2$, which is just under 2 lots of 50, so 2 lots: $2 \\times \\$39.50 = \\$79$."
+  ],
+  "ch6_ex2_q22d": [
+    "Mental trick for the mulch: $7 \\times \\$29.50 = 7 \\times \\$30 - 7 \\times \\$0.50 = \\$210 - \\$3.50 = \\$206.50$."
+  ],
+  "ch6_ex2_q23a": [
+    "Check another way: large square minus four corner triangles, $100 - 4 \\times \\frac{1}{2} \\times 3 \\times 7 = 100 - 42 = 58$. So the fraction is $\\frac{58}{100} = \\frac{29}{50}$.",
+    "This picture is a classic proof of Pythagoras: the tilted square's area is $3^2 + 7^2$."
+  ],
+  "ch6_ex2_q23b": [
+    "The inner square's area is $x^2 + y^2 = 100 - 2xy$. Setting it to 50 gives $xy = 25$, and with $x + y = 10$ the only answer is $x = y = 5$.",
+    "Since half is the smallest any such inner square can be, the midpoint square is the smallest square that fits with its corners on all four sides."
+  ],
+  "ch6_ex2_q24": [
+    "Since $\\sin 120^\\circ = \\sin 60^\\circ = \\frac{\\sqrt{3}}{2}$, the second triangle is $25\\sqrt{3}$; the $90^\\circ$ triangle is simply half of a $10 \\times 10$ square.",
+    "Exact difference: $\\left(\\frac{100\\pi}{3} - 25\\sqrt{3}\\right) - (25\\pi - 50) = \\frac{25\\pi}{3} + 50 - 25\\sqrt{3}$."
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "ch6_ex5_q1": [
+    "Factor out $\\frac{1}{2}\\pi$: $\\frac{1}{2}\\pi(5^2 - 3.5^2 + 1.5^2) = \\frac{1}{2}\\pi(25 - 12.25 + 2.25) = 7.5\\pi \\approx 23.56$.",
+    "Sense check: the answer must be less than the big semicircle alone ($12.5\\pi \\approx 39.3$), because more is cut out than added."
+  ],
+  "ch6_ex5_q2": [
+    "Net effect: two semicircles out and one in means just one semicircle out: $90 - \\frac{1}{2}\\pi \\times 2.5^2 = 90 - 3.125\\pi \\approx 80.18$.",
+    "Elimination: the answer must be a bit less than 90 (D is the plain rectangle), which leaves only C."
+  ],
+  "ch6_ex5_q3": [
+    "Difference of squares: $7^2 - 2^2 = 9 \\times 5 = 45$, and $\\frac{330}{360} = \\frac{11}{12}$, so the area is $\\frac{11}{12} \\times 45\\pi = 41.25\\pi$."
+  ],
+  "ch6_ex5_q4": [
+    "Factorise: $2\\pi r^2 + \\pi r l = \\pi r(2r + l) = 28\\pi(56 + 40) = 2688\\pi \\approx 8444.6$.",
+    "Since both parts share $r = 28$, keeping $\\pi$ as a common factor means only one calculator step."
+  ],
+  "ch6_ex5_q5a": [
+    "Halve the even number first: $6 \\times 14 = 84$."
+  ],
+  "ch6_ex5_q5b": [
+    "The average of the parallel sides is $12.5$, and $12.5 \\times 8 = 100$. Multiplying by 8 is the same as doubling three times."
+  ],
+  "ch6_ex5_q5c": [
+    "Check another way: since $7^2 = 3^2 + 5^2 + 3 \\times 5$, the angle opposite the 7 is $120^\\circ$. Then $\\frac{1}{2} \\times 3 \\times 5 \\times \\sin 120^\\circ \\approx 6.50$, matching Heron.",
+    "Heron's check: $(7.5 - 3) + (7.5 - 7) + (7.5 - 5) = 4.5 + 0.5 + 2.5 = 7.5 = s$."
+  ],
+  "ch6_ex5_q6a": [
+    "Exact: $\\pi \\times 6 \\times 3 = 18\\pi$. That is exactly half of a circle of radius 6, because the ellipse is squashed to half height."
+  ],
+  "ch6_ex5_q6b": [
+    "Half of the $10 \\times 12$ rectangle drawn around the rhombus: $\\frac{120}{2} = 60$."
+  ],
+  "ch6_ex5_q6c": [
+    "Simplify: $\\frac{280}{360} = \\frac{7}{9}$, so the area is $\\frac{7}{9} \\times 100\\pi = \\frac{700\\pi}{9}$."
+  ],
+  "ch6_ex5_q7a": [
+    "Slide the semicircle cut from the left end across to fill the right end: you are left with a plain $20 \\times 15$ rectangle, so no $\\pi$ is needed."
+  ],
+  "ch6_ex5_q7b": [
+    "Exact form: $120 + 48 + 18\\pi = 168 + 18\\pi$, then evaluate once."
+  ],
+  "ch6_ex5_q7c": [
+    "Alternative split: a $20 \\times 5$ rectangle on the bottom ($100$) plus a trapezium on top with parallel sides 10 and 14 and height 5 ($60$) gives 160.",
+    "The bounding box ($20 \\times 10 = 200$) is a quick upper limit to check against."
+  ],
+  "ch6_ex5_q8a": [
+    "Exact form: $225\\pi - 207$. This makes it easy to see the circle is about 707 and the triangle takes away 207."
+  ],
+  "ch6_ex5_q8b": [
+    "A quarter-circle segment is always $\\left(\\frac{\\pi}{4} - \\frac{1}{2}\\right)r^2 \\approx 0.285r^2$. Here $0.285 \\times 156.25 \\approx 44.6$."
+  ],
+  "ch6_ex5_q8c": [
+    "Each circle sits in its own $10 \\times 10$ square and leaves $1 - \\frac{\\pi}{4} \\approx 21.5\\%$ uncovered, so the shaded area is $21.5\\%$ of 600, about 129.",
+    "Exact: $600 - 150\\pi$."
+  ],
+  "ch6_ex5_q9a": [
+    "Exact: $2\\pi \\times 35 \\times 85 = 5950\\pi$."
+  ],
+  "ch6_ex5_q9b": [
+    "Exact: $\\pi \\times 14 \\times (14 + 20) = 476\\pi$. The curved part ($280\\pi$) is bigger than the base ($196\\pi$) because $l > r$."
+  ],
+  "ch6_ex5_q9c": [
+    "Exact: $4\\pi \\times 64 = 256\\pi$. Estimate: $256 \\times 3 = 768$, a little under 804."
+  ],
+  "ch6_ex5_q10a": [
+    "Exact height: $\\sqrt{14^2 - 6^2} = \\sqrt{160} = 4\\sqrt{10} \\approx 12.65$, so each end is $24\\sqrt{10}$.",
+    "The three rectangles together are perimeter $\\times$ length: $40 \\times 18 = 720$, which is most of the answer."
+  ],
+  "ch6_ex5_q10b": [
+    "Shortcut: full TSA of the big cylinder plus only the curved side of the small one: $238\\pi + 40\\pi = 278\\pi \\approx 873.36$."
+  ],
+  "ch6_ex5_q10c": [
+    "Spot the 5-12-13 Pythagorean triple: half the base is 5 and the height is 12, so the slant height is exactly 13.",
+    "Then $5 \\times 100 + 4 \\times \\frac{1}{2} \\times 10 \\times 13 = 500 + 260 = 760$, with no rounding needed."
+  ],
+  "ch6_ex5_q11a": [
+    "Worth memorising the cubes up to $10^3$: $7^3 = 343$ comes up often."
+  ],
+  "ch6_ex5_q11b": [
+    "Easy order: $12 \\times 7 = 84$, then $84 \\times 8 = 672$ (double three times: $168, 336, 672$)."
+  ],
+  "ch6_ex5_q11c": [
+    "Exact: $\\pi \\times 1225 \\times 40 = 49\\,000\\pi$. Estimate: $3 \\times 49\\,000 = 147\\,000$, a bit under the answer."
+  ],
+  "ch6_ex5_q12a": [
+    "Exact: $\\frac{1}{2}\\pi \\times 0.5^2 \\times 3.7 = 0.4625\\pi$. Remember the radius is $0.5$ m, not 1 m."
+  ],
+  "ch6_ex5_q12b": [
+    "Half of the $12 \\times 10 \\times 30$ box: $\\frac{3600}{2} = 1800$."
+  ],
+  "ch6_ex5_q12c": [
+    "Cancel the third first: $\\frac{1}{3} \\times 12 = 4$, so $V = \\pi \\times 100 \\times 4 = 400\\pi$."
+  ],
+  "ch6_ex5_q13a": [
+    "Cancel the third into the base area: $\\frac{81}{3} = 27$, then $27 \\times 11 = 297$."
+  ],
+  "ch6_ex5_q13b": [
+    "Mental: $42 \\times 20 = 840$, times 10 is $8400$."
+  ],
+  "ch6_ex5_q13c": [
+    "Exact: $\\frac{4}{3} \\times 1728 = 2304$, so $V = 2304\\pi$."
+  ],
+  "ch6_ex5_q14a": [
+    "Path shortcut: perimeter $\\times$ width $+ 4 \\times$ width$^2$ $= 58 \\times 1 + 4 = 62\\text{ m}^2$."
+  ],
+  "ch6_ex5_q14b": [
+    "Mental: $62 \\times 45 = 62 \\times 90 \\div 2 = 5580 \\div 2 = 2790$."
+  ],
+  "ch6_ex5_q15": [
+    "Volume factor $= 3^2 \\times \\frac{1}{6} = \\frac{9}{6} = 1.5$.",
+    "Test it: $r = 1, h = 6$ gives $6\\pi$; $r = 3, h = 1$ gives $9\\pi$, which is 1.5 times bigger."
+  ],
+  "ch6_ex5_q16": [
+    "Factor $= \\frac{1}{2} \\times 3 \\times 2 = 3$. The order of the changes doesn't matter because multiplication can be done in any order."
+  ],
+  "ch6_ex5_q17a": [
+    "Exact: $\\pi r(3r + 2h) = 14\\pi(42 + 40) = 1148\\pi$, since $\\pi r^2 + 2\\pi r^2 = 3\\pi r^2$."
+  ],
+  "ch6_ex5_q17b": [
+    "5 cents per $\\text{cm}^2$ is the same as dividing the area by 20: $3606.55 \\div 20 \\approx \\$180.33$."
+  ],
+  "ch6_ex5_q17c": [
+    "Write it as $\\pi r^2\\left(h + \\frac{2}{3}r\\right) = 196\\pi\\left(20 + \\frac{28}{3}\\right)$. The hemisphere acts like an extra $\\frac{2}{3}r$ of cylinder."
+  ],
+  "ch6_ex5_q17d": [
+    "Exact: old holder $= \\frac{1}{4}\\pi \\times 324 \\times 35 = 2835\\pi$, so the difference is $\\frac{17\\,248\\pi}{3} - 2835\\pi = \\frac{8743\\pi}{3}$."
+  ],
+  "ch6_ex5_q18a": [
+    "Sense check: the slant height (1.33 m) must be longer than both the cone height (1.1 m) and the radius (0.75 m)."
+  ],
+  "ch6_ex5_q18b": [
+    "Work out one silo fully (about $28.47\\text{ m}^2$) before multiplying by 32, and keep the unrounded value so the final answer is accurate."
+  ],
+  "ch6_ex5_q18c": [
+    "Painted area $= 32 \\times (\\text{one silo} - \\text{its base}) \\approx 854.4\\text{ m}^2$; $854.4 \\div 40 \\approx 21.4$ L, so 22 whole litres if paint only comes in litres."
+  ],
+  "ch6_ex5_q18d": [
+    "The cone top holds the same as a cylinder of height $\\frac{1.1}{3}$, so each silo acts like a cylinder of height $5 + \\frac{1.1}{3} \\approx 5.37$ m: $\\pi \\times 0.75^2 \\times 5.37 \\approx 9.48\\text{ m}^3$."
+  ],
+  "ch6_ex5_q18e": [
+    "Each truck holds $2.4 \\times 5 \\times 2.5 = 30\\text{ m}^3$; $303.48 \\div 30 \\approx 10.1$, so the 11th truck carries only about $3.5\\text{ m}^3$."
+  ],
+  "ch6_ex5_q18f": [
+    "Rates: $\\frac{\\text{m}^3}{\\text{m}^3/\\text{min}} = \\text{min}$. At this rate, emptying all the silos takes $303.48 \\div 2.5 \\approx 121$ minutes, about 2 hours."
+  ],
+  "ch6_ex5_q19a": [
+    "The parallel sun rays plus the line through C and A form a 'Z' shape, so the angle at the stick equals the angle at the Earth's centre."
+  ],
+  "ch6_ex5_q19b": [
+    "Mental: circumference $= 50 \\times 787 = 39\\,350$ km, then $r = \\frac{39\\,350}{2\\pi} \\approx 6263$ km.",
+    "This is a sector question in disguise: the arc is the same fraction of the circumference as the angle is of $360^\\circ$."
+  ],
+  "ch6_ex5_q19c": [
+    "Error $= 6380 - 6263 = 117$ km, and $\\frac{117}{6380} \\approx 0.018$, so less than 2%. Remarkably accurate for a stick and a shadow."
+  ]
+}

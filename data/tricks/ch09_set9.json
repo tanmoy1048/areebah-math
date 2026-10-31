@@ -1,0 +1,107 @@
+{
+  "ch9_ex9_q1a": [
+    "Why it is a circle: $x^2 + y^2 = r^2$ is Pythagoras' theorem. Every point $(x, y)$ is exactly $r$ units from the origin."
+  ],
+  "ch9_ex9_q1b": [
+    "For a neater sketch, add the 45° points $\\left(\\pm\\frac{r}{\\sqrt{2}}, \\pm\\frac{r}{\\sqrt{2}}\\right)$. For $r = 4$ these are about $(\\pm 2.83, \\pm 2.83)$."
+  ],
+  "ch9_ex9_q2a": [
+    "Quick test for any point: it lies on the circle exactly when $x^2 + y^2 = 36$. For example, $(6, 0)$ works and $(4, 4)$ gives $32$, so it lies just inside."
+  ],
+  "ch9_ex9_q2b": [
+    "Inside or outside test: a point with $x^2 + y^2 < 81$ is inside the circle and one with $x^2 + y^2 > 81$ is outside."
+  ],
+  "ch9_ex9_q3a": [
+    "Bonus points from the 3-4-5 triangle: since $3^2 + 4^2 = 25$, points like $(3, 4)$, $(4, -3)$ and $(-3, -4)$ also lie on this circle."
+  ],
+  "ch9_ex9_q3b": [
+    "Decimal check: $\\frac{10}{3} \\approx 3.33$, and $3.33^2 \\approx 11.1 \\approx \\frac{100}{9}$. Correct."
+  ],
+  "ch9_ex9_q4a": [
+    "Extra points from 3-4-5: since $3^2 + 4^2 = 5^2$, moving 3 across and 4 up from the centre gives $(4, 6)$ on the circle."
+  ],
+  "ch9_ex9_q4b": [
+    "Axis test: the centre is 2 from the y-axis and 3 from the x-axis, and both are less than $r = 6$, so the circle crosses both axes twice."
+  ],
+  "ch9_ex9_q5a": [
+    "Axis test: the centre is 3 from the y-axis and 1 from the x-axis, both less than 7, so expect two x-intercepts and two y-intercepts."
+  ],
+  "ch9_ex9_q5b": [
+    "Extremes shortcut: left and right are $4 \\pm 8$; bottom and top are $-5 \\pm 8$. Four quick points for the sketch."
+  ],
+  "ch9_ex9_q6a": [
+    "Axis test: the centre is 3 below the x-axis but $r = 2$, so the circle never reaches the x-axis."
+  ],
+  "ch9_ex9_q6b": [
+    "y-intercepts: $25 + y^2 = 100$ gives $y = \\pm\\sqrt{75} = \\pm 5\\sqrt{3} \\approx \\pm 8.66$."
+  ],
+  "ch9_ex9_q7a": [
+    "Touching check: the centre is 2 from the y-axis and the radius is 2, so the circle just touches the y-axis at one point."
+  ],
+  "ch9_ex9_q7b": [
+    "Shortcut for $x^2 + y^2 + Dx + Ey + F = 0$: centre $\\left(-\\frac{D}{2}, -\\frac{E}{2}\\right)$, $r^2 = \\frac{D^2}{4} + \\frac{E^2}{4} - F$. Here $25 + 1 - 10 = 16$."
+  ],
+  "ch9_ex9_q8a": [
+    "The centre $(7, -3)$ is 7 from the y-axis and $r = 7$, so the circle touches the y-axis at $(0, -3)$."
+  ],
+  "ch9_ex9_q8b": [
+    "Check: $r^2$ must be positive. If completing the square ever gives a negative right-hand side, there is no circle, so recheck your arithmetic."
+  ],
+  "ch9_ex9_q9a": [
+    "Quick y-intercepts straight from the original: $x = 0$ gives $y^2 - 18y - 19 = (y - 19)(y + 1) = 0$, so $y = 19$ and $y = -1$, i.e. $9 \\pm 10$."
+  ],
+  "ch9_ex9_q9b": [
+    "A genuine circle needs equal coefficients on $x^2$ and $y^2$. If they are equal but not 1, divide them out before anything else."
+  ],
+  "ch9_ex9_q10": [
+    "Point test: the lowest point should be $(2, -7)$. Substitute: $0 + (-2)^2 = 4$. Check your chosen graph passes there."
+  ],
+  "ch9_ex9_q11": [
+    "Eliminate fast: the radius must be $\\sqrt{4} = 2$, which removes A and C. Then the sign flip in the brackets picks B."
+  ],
+  "ch9_ex9_q12": [
+    "No constant term means $(0, 0)$ satisfies the equation, so the circle passes through the origin and $r = \\sqrt{4^2 + 5^2} = \\sqrt{41}$."
+  ],
+  "ch9_ex9_q13": [
+    "Check with the edge point: $(9, 3)$ gives $(9 - 5)^2 + 0 = 16$. Correct."
+  ],
+  "ch9_ex9_q14a": [
+    "Estimate: $13^2 = 169$ and $14^2 = 196$, so $\\sqrt{190}$ is just under 14. 13.8 fits."
+  ],
+  "ch9_ex9_q14b": [
+    "Speed is change in radius over time: $\\frac{13.78 - 2}{3} \\approx 3.9$ cm/s. Same idea as the gradient of a distance-time graph."
+  ],
+  "ch9_ex9_q15": [
+    "Distance test: the centres are 1 apart and the radii differ by $3 - 2 = 1$, so the small circle touches the big one from the inside at exactly one point.",
+    "Check: $(-2, 0)$ gives $4 + 0 = 4$ and $(-3)^2 + 0 = 9$. Both equations hold."
+  ],
+  "ch9_ex9_q16a": [
+    "Notice that $(1, 1)$ is on the line and parabola but outside the circle, since $1 + 1 = 2 > 1$. Use this to place the curves correctly."
+  ],
+  "ch9_ex9_q16bi": [
+    "Link to trigonometry: $\\frac{\\sqrt{2}}{2} = \\frac{1}{\\sqrt{2}}$ is $\\sin 45^\\circ = \\cos 45^\\circ$, because $y = x$ makes a 45° angle."
+  ],
+  "ch9_ex9_q16bii": [
+    "Move everything to one side and factorise: $x^2 - x = x(x - 1) = 0$ keeps both solutions."
+  ],
+  "ch9_ex9_q16biii": [
+    "Substitute $x^2 = y$ (not $y = x^2$ into $y^2$) to get the simpler $y^2 + y - 1 = 0$.",
+    "$\\frac{\\sqrt{5} - 1}{2} \\approx 0.618$ is the golden ratio number, a nice surprise."
+  ],
+  "ch9_ex9_q17": [
+    "y-intercepts by Pythagoras: $100 - 36 = 64$, so $y - 3 = \\pm 8$, giving $11$ and $-5$.",
+    "Estimate check: $\\sqrt{91}$ is just over $\\sqrt{81} = 9$, so the x-intercepts are about $-6 \\pm 9.5$."
+  ],
+  "ch9_ex9_q18": [
+    "Substitute $x^2 = y + 5$ into the circle to get $y^2 + y - 20 = 0$, which factorises as $(y + 5)(y - 4) = 0$.",
+    "$(3, 4)$ is the 3-4-5 triangle again, which is why it lies on the circle of radius 5."
+  ],
+  "ch9_ex9_q19": [
+    "Subtracting the two equations cancels $x^2 + y^2$ and the $y$ terms, leaving $6x - 18 = 0$, so $x = 3$ immediately.",
+    "Distance check: centres $(1, 1)$ and $(4, 1)$ are 3 apart, which equals $2 + 1$, so the circles just touch."
+  ],
+  "ch9_ex9_q20": [
+    "Geometry shortcut: $(0, 5)$ and $(4, 5)$ are at the same height, so the centre is on their perpendicular bisector $x = 2$.",
+    "Check: all three points are 2 units from $(2, 5)$. For example, $(2, 3)$ is directly below it."
+  ]
+}

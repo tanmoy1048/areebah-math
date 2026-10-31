@@ -1,0 +1,125 @@
+{
+  "ch14_ex14_q1a": [
+    "Degrees view: $\\frac{\\pi}{6}t$ radians is $30^\\circ$ per hour, so 12 hours gives $360^\\circ$, one full tide cycle.",
+    "Quarter-periods are 3 hours, so plot at $t = 0, 3, 6, \\ldots, 24$; a 12-hour tidal cycle is close to real tides, a handy sense check."
+  ],
+  "ch14_ex14_q1b": [
+    "High tide is a quarter-period after the rising zero at $t = 0$: $\\frac{12}{4} = 3$; the next one is a full period later, $3 + 12 = 15$."
+  ],
+  "ch14_ex14_q1c": [
+    "Because the centre line is mean sea level ($b = 0$), the high tide height is just the amplitude; the full range from high to low tide is $2 \\times 5 = 10$ m."
+  ],
+  "ch14_ex14_q1d": [
+    "At $30^\\circ$ per hour, 2 a.m. is an angle of $60^\\circ$, so the height is $5\\sin 60^\\circ$.",
+    "Sense check: 2 a.m. is one hour before high tide (3 a.m.), so the height should be close to, but below, 5 m."
+  ],
+  "ch14_ex14_q1e": [
+    "2 p.m. is $t = 14 = 2 + 12$, exactly one tidal period after 2 a.m., so you can copy that answer without new working."
+  ],
+  "ch14_ex14_q1f": [
+    "2.5 m is exactly half the amplitude, and $\\sin u = \\frac{1}{2}$ is a standard exact value: that is a hint the times will be whole hours.",
+    "The safe window is symmetric about high tide: $3 \\pm 2$ gives 1 a.m. to 5 a.m.; add 12 hours for the afternoon window."
+  ],
+  "ch14_ex14_q2a": [
+    "The greatest distance is centre plus amplitude, $3 + 2$; the $3$ inside $\\sin(3t)$ only changes how fast it oscillates, not how far."
+  ],
+  "ch14_ex14_q2b": [
+    "Since the centre (3) is bigger than the amplitude (2), the particle never reaches $O$, so it never changes side."
+  ],
+  "ch14_ex14_q2c": [
+    "Maxima are one period apart: $\\frac{2\\pi}{3} \\approx 2.09$ s. Starting from $\\frac{\\pi}{6} \\approx 0.52$, keep adding $2.09$ until you pass 5."
+  ],
+  "ch14_ex14_q2d": [
+    "$x = 3$ is the centre line, crossed every half-period ($\\frac{\\pi}{3} \\approx 1.05$ s): $0, 1.05, 2.09$, and the next, $3.14$, is past 3."
+  ],
+  "ch14_ex14_q2e": [
+    "Calculus link: velocity $\\frac{dx}{dt} = 6\\cos 3t$, so at $t = 0$ it moves at 6 m/s in the positive direction, the fastest it ever goes (passing through the centre)."
+  ],
+  "ch14_ex14_q3a": [
+    "With $\\sin(2\\pi t)$ the period is 1, so $t$ counts complete cycles directly; this is a common way to set up models with whole-number periods."
+  ],
+  "ch14_ex14_q3b": [
+    "Centre minus amplitude: $5 - 2 = 3$; positive, so the particle stays on one side of $O$ and distance equals position."
+  ],
+  "ch14_ex14_q3c": [
+    "First maximum is a quarter-period in: $\\frac{1}{4}$ of 1 s, so $t = 0.25$; then add 1 s each time."
+  ],
+  "ch14_ex14_q3d": [
+    "Each pair of solutions is symmetric about a maximum: $\\frac{1}{12}$ and $\\frac{5}{12}$ average to $\\frac{3}{12} = 0.25$, the first maximum.",
+    "Then add the period (1 s) to each pair: $\\frac{1}{12} + 1 = \\frac{13}{12}$, $\\frac{5}{12} + 1 = \\frac{17}{12}$, and so on."
+  ],
+  "ch14_ex14_q3e": [
+    "Calculus link: velocity is $4\\pi\\cos(2\\pi t)$, so the particle starts at $x = 5$ moving at $4\\pi \\approx 12.6$ m/s in the positive direction."
+  ],
+  "ch14_ex14_q4ai": [
+    "The centre of the circle is 10 m up and the radius is 10 m, so the lowest point of the circle just touches the ground."
+  ],
+  "ch14_ex14_q4aii": [
+    "One revolution takes 6 s, so the particle turns $60^\\circ$ each second; after 1 s it is $10\\sin 60^\\circ = 5\\sqrt{3}$ m above the centre."
+  ],
+  "ch14_ex14_q4aiii": [
+    "After 2 s the particle has turned $120^\\circ$, and $\\sin 120^\\circ = \\sin 60^\\circ$: it is at the mirror-image point across the vertical diameter."
+  ],
+  "ch14_ex14_q4aiv": [
+    "After 4 s it has turned $240^\\circ$, so it is $5\\sqrt{3} \\approx 8.66$ m below the centre: $10 - 8.66 = 1.34$ m."
+  ],
+  "ch14_ex14_q4av": [
+    "After 5 s it has turned $300^\\circ$, the mirror image of $240^\\circ$ across the vertical diameter, so the height matches $t = 4$."
+  ],
+  "ch14_ex14_q4b": [
+    "Check with the circle: at $\\frac{\\pi}{3}$ radians per second, one full turn of $2\\pi$ takes $2\\pi \\div \\frac{\\pi}{3} = 6$ s."
+  ],
+  "ch14_ex14_q4c": [
+    "Greatest height = diameter = 20 m, since the lowest point is at ground level; it happens a quarter-period in, at $t = 1.5$ s."
+  ],
+  "ch14_ex14_q4d": [
+    "15 m is half a radius above the centre, so the particle has turned $30^\\circ$ or $150^\\circ$; at $60^\\circ$ per second that is $0.5$ s and $2.5$ s."
+  ],
+  "ch14_ex14_q4e": [
+    "Shortcut: 5 m is the reflection of 15 m in the centre line, and $\\sin(u + \\pi) = -\\sin u$, so just add half a period (3 s) to the 15 m times: $0.5 + 3 = 3.5$, $2.5 + 3 = 5.5$."
+  ],
+  "ch14_ex14_q5a": [
+    "With $-8\\cos$, $t = 0$ gives the lowest value: centre minus amplitude, $17 - 8 = 9$."
+  ],
+  "ch14_ex14_q5b": [
+    "Read the model directly: 17 is the average temperature and 8 is half the daily range, so the range is $17 \\pm 8$.",
+    "Period is 24 h, so the maximum is half a period after the minimum at midnight: noon."
+  ],
+  "ch14_ex14_q5c": [
+    "Solve only once: the graph is symmetric about the noon maximum, so if $T = 20$ at about 7:28 a.m. ($4$ h $32$ min before noon), it is also 20 at 4:32 p.m.",
+    "Calculator: $\\cos^{-1}(-0.375) \\approx 1.955$ rad, and $t = \\frac{12 \\times 1.955}{\\pi} \\approx 7.468$ h; $0.468 \\times 60 \\approx 28$ minutes."
+  ],
+  "ch14_ex14_q5d": [
+    "Since $-\\cos u = \\cos(u - \\pi)$, the rule is also $T = 17 + 8\\cos\\left(\\frac{\\pi(t - 12)}{12}\\right)$: an ordinary cosine with its peak shifted to noon.",
+    "The curve crosses the average 17 °C at 6 a.m. and 6 p.m., a quarter-period either side of noon."
+  ],
+  "ch14_ex14_q6a": [
+    "Sketch the centre line $D = 10$ first, then dashed lines at $7$ and $13$; the curve touches each guide line once per 12-hour cycle."
+  ],
+  "ch14_ex14_q6b": [
+    "8.5 m is half the amplitude below the centre, so the low-water intervals are symmetric about each low tide: $9 \\pm 2$ and $21 \\pm 2$.",
+    "It is often easier to find when $D < 8.5$, namely $(7, 11)$ and $(19, 23)$, and take what is left of $[0, 24]$."
+  ],
+  "ch14_ex14_q6c": [
+    "Why centre on the peak: moving the window either way lowers one of its ends, so the worst depth gets worse.",
+    "The window $[2.5, 3.5]$ has ends half an hour, i.e. $15^\\circ$, from the peak at $90^\\circ$; $\\sin 75^\\circ \\approx 0.966$, giving $10 + 2.90 \\approx 12.9$."
+  ],
+  "ch14_ex14_q7a": [
+    "Cosine is the natural choice because $t$ is measured from high tide, where cosine already starts at its maximum; that is also why $q$ is positive.",
+    "High to low is half a period, so the period is 12 h and $r = \\frac{360}{12} = 30$ degrees per hour."
+  ],
+  "ch14_ex14_q7b": [
+    "At $30^\\circ$ per hour, $t = 3$ gives $\\cos 90^\\circ = 0$, so the depth is at the centre value 5 m, confirming the quarter-period points."
+  ],
+  "ch14_ex14_q7c": [
+    "4 m is half the amplitude below the centre, so the times are symmetric about low tide ($t = 6$): the depth is below 4 m from $t = 4$ to $t = 8$.",
+    "Common slip: $t = 8$ is measured from high tide; subtract the 6 hours to low tide."
+  ],
+  "ch14_ex14_q8a": [
+    "Check your model by its range: $4.5 \\pm 1.5$ gives exactly $[3, 6]$. Any phase shift or a cosine version is also valid unless a starting condition is given."
+  ],
+  "ch14_ex14_q8b": [
+    "Reality check: halfway between the extremes, near the equinoxes, the model gives 12 hours of daylight, matching day and night being about equal then.",
+    "Using cosine with $t = 0$ on the longest day means no phase shift is needed: start the clock at a maximum and cosine fits naturally."
+  ]
+}

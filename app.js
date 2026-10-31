@@ -252,7 +252,8 @@
     if (activeEl && activeEl.scrollIntoView) activeEl.scrollIntoView({ block: 'nearest' });
   }
 
-  function solutionHtml(sol) {
+  function solutionHtml(sol, tricks) {
+    tricks = tricks || [];
     var steps = (sol.steps || []).map(function (s) { return '<li>' + esc(s) + '</li>'; }).join('');
     return '<section class="solution" aria-label="Solution">' +
       (sol.formula ? '<div class="block key"><h3>Key idea</h3><p>' + esc(sol.formula) + '</p></div>' : '') +
@@ -260,6 +261,8 @@
       (sol.finalAnswer ? '<div class="block answer"><h3>Answer</h3><p>' + esc(sol.finalAnswer) + '</p></div>' : '') +
       figures(sol.solutionFigures) +
       (sol.tip ? '<div class="block tip"><h3>Tip</h3><p>' + esc(sol.tip) + '</p></div>' : '') +
+      (tricks.length ? '<div class="block tricks"><h3>Tricks to remember</h3><ul>' +
+        tricks.map(function (t) { return '<li>' + esc(t) + '</li>'; }).join('') + '</ul></div>' : '') +
       '</section>';
   }
 
@@ -292,7 +295,7 @@
           '<button type="button" class="btn primary" data-act="reveal" aria-expanded="' + view.reveal + '">' +
             (view.reveal ? 'Hide solution' : 'Show solution') + '</button>' +
         '</div>' +
-        (view.reveal ? solutionHtml(ex.solution || {}) : '') +
+        (view.reveal ? solutionHtml(ex.solution || {}, ex.tricks) : '') +
         '<nav class="pager-nav" aria-label="Exercise navigation">' +
           (prev ? '<a class="btn" rel="prev" href="' + href(view.scope, prev.ex.id) + '">← ' + esc(prev.ex.number) + '</a>' : '<span></span>') +
           '<span class="pos">' + (i + 1) + ' of ' + vis.length + '</span>' +

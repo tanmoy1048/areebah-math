@@ -1,0 +1,195 @@
+{
+  "ch11_ex3_q1": [
+    "Two golden rules: multiply ALONG a path (this AND then that), add DOWN the ends (this path OR that path).",
+    "Every set of branches from one point must add to 1, so you can always fill a missing branch with the complement rule."
+  ],
+  "ch11_ex3_q2a": [
+    "Multiplication principle: 4 colours $\\times$ 3 animals $= 12$ outcomes, no need to draw every branch to count them."
+  ],
+  "ch11_ex3_q2b": [
+    "Quick test: if the branches at any stage have different probabilities, the outcomes cannot all be equally likely. Here they range from $\\frac{3}{200}$ (red fish) to $\\frac{7}{20}$ (indigo elephant)."
+  ],
+  "ch11_ex3_q2c": [
+    "Compare as decimals: $0.15 \\times 0.1 = 0.015$ against $0.1 \\times 0.7 = 0.07$. The green elephant is more than four times as likely."
+  ],
+  "ch11_ex3_q2d": [
+    "Similarly, the least likely outcome uses the smallest branch at each stage: green fish, $\\frac{1}{10} \\times \\frac{1}{10} = \\frac{1}{100}$."
+  ],
+  "ch11_ex3_q2ei": [
+    "Decimal check: $0.25 \\times 0.7 = 0.175$, and $\\frac{7}{40} = 0.175$."
+  ],
+  "ch11_ex3_q2eii": [
+    "Half of the time the colour is indigo, and 70% of those are elephants: half of 0.7 is 0.35."
+  ],
+  "ch11_ex3_q2eiii": [
+    "Shortcut: the animal branches are the same after every colour, so the colour does not matter and $\\Pr(\\text{donkey})$ is just the donkey branch, $\\frac{1}{5}$.",
+    "Adding the four paths gives $\\frac{1}{5} \\times (\\text{sum of colour probabilities}) = \\frac{1}{5} \\times 1$, which is why the shortcut works."
+  ],
+  "ch11_ex3_q3a": [
+    "Grouping by the number of primes gives counts of paths $1, 3, 3, 1$, the same pattern as tossing a coin three times.",
+    "Check: $8 + 3(4) + 3(2) + 1 = 27$, so the outcomes add to $\\frac{27}{27} = 1$."
+  ],
+  "ch11_ex3_q3bi": [
+    "For the same event every time, raise the probability to a power: $\\left(\\frac{2}{3}\\right)^3 = \\frac{8}{27}$."
+  ],
+  "ch11_ex3_q3bii": [
+    "The order does not change the product: $PPP'$, $PP'P$ and $P'PP$ all give $\\frac{2}{3} \\times \\frac{2}{3} \\times \\frac{1}{3} = \\frac{4}{27}$."
+  ],
+  "ch11_ex3_q3biii": [
+    "'Any order' $=$ (number of arrangements) $\\times$ (probability of one arrangement): $3 \\times \\frac{4}{27}$.",
+    "Count arrangements by choosing where the odd one out goes: 3 spins means 3 places."
+  ],
+  "ch11_ex3_q4ai": [
+    "On a fair die, 'less than 4' is $\\{1, 2, 3\\}$, exactly half the faces. Writing the set out avoids boundary mistakes."
+  ],
+  "ch11_ex3_q4aii": [
+    "The three branches $<4$, $=4$ and $>4$ should add to 1: $\\frac{3}{6} + \\frac{1}{6} + \\frac{2}{6} = 1$, a handy check for the tree in part b."
+  ],
+  "ch11_ex3_q4aiii": [
+    "'Other than a 6' is the same set as 'less than 6', which is useful later when the tree uses $6'$."
+  ],
+  "ch11_ex3_q4b": [
+    "The six outcome probabilities should add to 1. Using a common denominator of 36: $3 + 15 + 1 + 5 + 2 + 10 = 36$."
+  ],
+  "ch11_ex3_q4ci": [
+    "A specific number then a specific number on two dice is always $\\frac{1}{6} \\times \\frac{1}{6} = \\frac{1}{36}$, one cell of the $6 \\times 6$ grid."
+  ],
+  "ch11_ex3_q4cii": [
+    "Grid check: 3 rows ($1, 2, 3$) meet 1 column (6), giving 3 of 36 cells, which is $\\frac{1}{12}$."
+  ],
+  "ch11_ex3_q4ciii": [
+    "Grid check: row 4 meets the 5 columns that are not 6, giving 5 of 36 cells."
+  ],
+  "ch11_ex3_q4civ": [
+    "Grid check: 2 rows (5, 6) times 5 columns (1 to 5) gives 10 of 36 cells, which simplifies to $\\frac{5}{18}$."
+  ],
+  "ch11_ex3_q5a": [
+    "Pattern: each outcome is $0.7^{\\text{(number of H)}} \\times 0.3^{\\text{(number of T)}}$, so outcomes with the same number of Heads share a probability.",
+    "Check: $0.343 + 3(0.147) + 3(0.063) + 0.027 = 1$."
+  ],
+  "ch11_ex3_q5b": [
+    "Mental route: $0.7 \\times 0.7 = 0.49$, then $0.49 \\times 0.7 = 0.343$. Because $7^3 = 343$, the digits are easy to remember."
+  ],
+  "ch11_ex3_q5c": [
+    "The opposite of 'at least one Tail' is 'no Tails', which is HHH. So the answer is $1 - 0.343$."
+  ],
+  "ch11_ex3_q5d": [
+    "Three arrangements (HTT, THT, TTH) each with probability $0.7 \\times 0.3^2 = 0.063$, so $3 \\times 0.063 = 0.189$."
+  ],
+  "ch11_ex3_q6a": [
+    "Use the pattern $0.8^{\\text{(Heads)}} \\times 0.2^{\\text{(Tails)}}$: e.g. one Tail gives $0.8^2 \\times 0.2 = 0.128$.",
+    "Path counts by number of Tails are $1, 3, 3, 1$, the same shape as for any three-stage, two-branch tree."
+  ],
+  "ch11_ex3_q6b": [
+    "'All the same' is two paths: $0.8^3 + 0.2^3 = 0.512 + 0.008$. Do not forget the rare all-Tails path."
+  ],
+  "ch11_ex3_q7a": [
+    "The two middle paths $MM'$ and $M'M$ both mean 'exactly one multiple of 3', so together they give $\\frac{4}{9}$.",
+    "Check: $1 + 2 + 2 + 4 = 9$ ninths, so the outcomes add to 1."
+  ],
+  "ch11_ex3_q7b": [
+    "Grid check: 2 choices on each die (3 or 6) give $2 \\times 2 = 4$ cells of 36, which is $\\frac{1}{9}$."
+  ],
+  "ch11_ex3_q8a": [
+    "Shortcut for each outcome: $\\frac{1}{2}$ for every 1 and $\\frac{1}{4}$ for every 2 or 3, then multiply.",
+    "Check the totals: $\\frac{1}{8} + \\frac{6}{16} + \\frac{12}{32} + \\frac{8}{64} = \\frac{1}{8} + \\frac{3}{8} + \\frac{3}{8} + \\frac{1}{8} = 1$."
+  ],
+  "ch11_ex3_q8b": [
+    "Since $\\Pr(1) = \\frac{1}{2}$, '1 or not 1' behaves exactly like a fair coin, so exactly two 1s in three spins is like exactly two Heads in three tosses: $\\frac{3}{8}$."
+  ],
+  "ch11_ex3_q8c": [
+    "Complement: $1 - \\Pr(111) = 1 - \\frac{1}{8}$. 'At most' and 'at least' questions are usually quickest this way."
+  ],
+  "ch11_ex3_q9a": [
+    "Counting check: $3 \\times 4 \\times 2 = 24$ branch ends. If your tree has a different number, a branch is missing."
+  ],
+  "ch11_ex3_q9b": [
+    "Equivalent multiplication: $\\frac{1}{3} \\times \\frac{1}{4} \\times \\frac{1}{2} = \\frac{1}{24}$, one choice from each stage."
+  ],
+  "ch11_ex3_q9c": [
+    "Only colours that appear in every list can work: grey and blue are in all three, so there are just 2 favourable outcomes out of 24."
+  ],
+  "ch11_ex3_q9d": [
+    "$5 \\times 48 = 240$ workdays, and $240 \\div 24 = 10$. This is an expected value, so random choices will make some outfits appear more often than others."
+  ],
+  "ch11_ex3_q9e": [
+    "Recount with the new numbers: $3 \\times 5 \\times 3 = 45$. Adding one item to a stage multiplies, so the total grows faster than you might expect."
+  ],
+  "ch11_ex3_q10a": [
+    "Each set of branches from one point must add to 1: $0.3 + 0.7$, $0.2 + 0.5 + 0.3$ and $0.75 + 0.25$. Check these before multiplying.",
+    "Count outcomes with the multiplication principle: $2 \\times 3 \\times 2 = 12$."
+  ],
+  "ch11_ex3_q10b": [
+    "Mental route: $0.3 \\times 0.5 = 0.15$, then three-quarters of $0.15$ is $0.1125$."
+  ],
+  "ch11_ex3_q10c": [
+    "Estimate first: $0.1125$ is a bit over $\\frac{1}{9}$, and $210 \\div 9 \\approx 23$, so an answer near 24 is sensible."
+  ],
+  "ch11_ex3_q11ai": [
+    "Check: $0.49 + 0.21 + 0.21 + 0.09 = 1$. The pattern $0.7^2$, $2(0.7)(0.3)$, $0.3^2$ is like expanding $(0.7 + 0.3)^2$."
+  ],
+  "ch11_ex3_q11aii": [
+    "The first draw always uses the full bag: $7 + 3 = 10$ balls, which gives $\\Pr(R) = \\frac{7}{10}$."
+  ],
+  "ch11_ex3_q11aiii": [
+    "Replacement resets the experiment, so every draw is like the first one. That is why the tree's branch labels repeat."
+  ],
+  "ch11_ex3_q11aiv": [
+    "Test: does knowing the first colour change the second-draw branches? With replacement, no, so the draws are independent."
+  ],
+  "ch11_ex3_q11av": [
+    "Compare with part b: without replacement $\\Pr(RR) = \\frac{7}{15} \\approx 0.467$, a bit smaller, because one red is already gone."
+  ],
+  "ch11_ex3_q11bi": [
+    "After each draw without replacement the total drops by 1: 10, then 9, then 8 and so on."
+  ],
+  "ch11_ex3_q11bii": [
+    "Draw both second-stage branch sets. If they differ ($\\frac{6}{9}$ red after red, $\\frac{7}{9}$ red after white), the events are dependent."
+  ],
+  "ch11_ex3_q11biii": [
+    "Check: $\\frac{14}{30} + \\frac{7}{30} + \\frac{7}{30} + \\frac{2}{30} = 1$.",
+    "Surprising fact: overall, the second ball is still red with probability $\\frac{7}{15} + \\frac{7}{30} = \\frac{7}{10}$; dependence changes the conditional branches, not the overall chance."
+  ],
+  "ch11_ex3_q11biv": [
+    "Combination check: $\\frac{^7C_2}{^{10}C_2} = \\frac{21}{45} = \\frac{7}{15}$, the same answer without a tree."
+  ],
+  "ch11_ex3_q12a": [
+    "Use the pattern $\\left(\\frac{1}{8}\\right)^{\\text{(5s)}} \\left(\\frac{7}{8}\\right)^{\\text{(not 5s)}}$; the numerators are powers of 7: 1, 7, 49, 343.",
+    "Check: $1 + 3(7) + 3(49) + 343 = 512$, so the outcomes add to 1."
+  ],
+  "ch11_ex3_q12bi": [
+    "Very unlikely: $\\frac{1}{512}$ is about 0.2%, roughly once in 500 sets of three rolls."
+  ],
+  "ch11_ex3_q12bii": [
+    "Link: $\\Pr(\\text{at least one 5}) = 1 - \\frac{343}{512} = \\frac{169}{512}$, using this as the complement."
+  ],
+  "ch11_ex3_q12biii": [
+    "Arrangements $\\times$ one path: $3 \\times \\frac{1 \\times 1 \\times 7}{512} = \\frac{21}{512}$."
+  ],
+  "ch11_ex3_q12biv": [
+    "Add the cases and simplify: $\\frac{21}{512} + \\frac{1}{512} = \\frac{22}{512} = \\frac{11}{256}$."
+  ],
+  "ch11_ex3_q13a": [
+    "A two-way table works well for exactly two stages; for three or more stages, a tree diagram is easier.",
+    "Count check: $2 \\times 4 = 8$ cells."
+  ],
+  "ch11_ex3_q13b": [
+    "All outcomes are equally likely here because every branch at each stage is equal: $\\frac{1}{2} \\times \\frac{1}{4} = \\frac{1}{8}$ for each path."
+  ],
+  "ch11_ex3_q13c": [
+    "The coin and die are independent, so multiply: $\\Pr(H) \\times \\Pr(\\text{even}) = \\frac{1}{2} \\times \\frac{2}{4} = \\frac{1}{4}$."
+  ],
+  "ch11_ex3_q14a": [
+    "Square twice in your head: $0.8^2 = 0.64$, then $0.64^2 = 0.4096$."
+  ],
+  "ch11_ex3_q14b": [
+    "Pair them up: $0.8^2 = 0.64$ and $0.2^2 = 0.04$, then $0.64 \\times 0.04 = 0.0256$."
+  ],
+  "ch11_ex3_q14c": [
+    "Count arrangements by choosing which 2 of the 4 flips are Heads: $^4C_2 = 6$. Then $6 \\times 0.0256 = 0.1536$."
+  ],
+  "ch11_ex3_q14d": [
+    "'More Tails' means 3 or 4 Tails: $4 \\times 0.2^3 \\times 0.8 + 0.2^4 = 0.0256 + 0.0016$.",
+    "A coin this biased towards Heads should rarely give more Tails, so a small answer (under 3%) makes sense."
+  ]
+}

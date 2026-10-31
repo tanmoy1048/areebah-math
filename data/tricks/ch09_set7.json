@@ -1,0 +1,144 @@
+{
+  "ch9_ex7_q1a": [
+    "Product test: inverse proportion means $s \\times t$ stays the same. Here that product is the lap length, which is fixed."
+  ],
+  "ch9_ex7_q1b": [
+    "Quotient test: here $\\frac{D}{n}$ (the price of one card) stays the same, not $D \\times n$. A constant quotient means direct proportion."
+  ],
+  "ch9_ex7_q1c": [
+    "Product test: time per pair $\\times$ number of pairs $=$ total working time in the day, which is fixed, so the relationship is inverse."
+  ],
+  "ch9_ex7_q1d": [
+    "Product test: price per litre $\\times$ litres $= \\$80$ every time, so $P \\times L$ is constant."
+  ],
+  "ch9_ex7_q1e": [
+    "Here $\\frac{C}{P} = 80$ stays fixed, not the product. Doubling the price doubles the cost: direct proportion."
+  ],
+  "ch9_ex7_q1f": [
+    "Sanity check: double the questions in the same test time and each question gets half the time. Halving when the other doubles is the signature of inverse proportion."
+  ],
+  "ch9_ex7_q2": [
+    "Recipe for examples: find something fixed (a distance, a budget, a job) that equals one variable times the other. Fixed total $=$ variable $\\times$ variable gives inverse proportion."
+  ],
+  "ch9_ex7_q3a": [
+    "Memory aid: direct proportion uses $k = \\frac{y}{x}$, inverse proportion uses $k = xy$. \"Inverse multiplies.\""
+  ],
+  "ch9_ex7_q3b": [
+    "Check every point: each pair must multiply to 1000, e.g. $8 \\times 125 = 1000$.",
+    "The factor pairs show the symmetry: $(4, 250)$ and $(250, 4)$ would both be on the curve, which is symmetric about $y = x$."
+  ],
+  "ch9_ex7_q4a": [
+    "Quick check of the rule: $q = 4$ in $p = \\frac{48}{q}$ gives back $p = 12$."
+  ],
+  "ch9_ex7_q4b": [
+    "Mirror pairs: $(6, 8)$ and $(8, 6)$ are both on the graph because $6 \\times 8 = 48$. Swapping the coordinates always gives another point."
+  ],
+  "ch9_ex7_q5a": [
+    "With inverse proportion, $k$ is the value of $y$ when $x = 1$, just as in direct proportion, so a point with $x = 1$ gives $k$ instantly."
+  ],
+  "ch9_ex7_q5b": [
+    "Notice $(6, 7)$ and $(7, 6)$: swapped coordinates both lie on the curve, a quick check of your table.",
+    "Each time $x$ doubles, $y$ halves: $(2, 21) \\to (4, 10.5) \\to (8, 5.25)$."
+  ],
+  "ch9_ex7_q6a": [
+    "Link to science: $F = ma$, so $k = 40 \\times 100 = 4000$ is the force in newtons."
+  ],
+  "ch9_ex7_q6b": [
+    "Check the rule with the given data: $\\frac{4000}{100} = 40$. Correct."
+  ],
+  "ch9_ex7_q6c": [
+    "Ratio shortcut: the mass is multiplied by 2, so the acceleration is divided by 2: $40 \\div 2 = 20$."
+  ],
+  "ch9_ex7_q6d": [
+    "Ratio shortcut: the mass is 10 times 100 kg, so the acceleration is one-tenth of 40, which is 4 m/s$^2$."
+  ],
+  "ch9_ex7_q7a": [
+    "Mental maths: $2000 \\times 0.25$ is a quarter of 2000, which is 500."
+  ],
+  "ch9_ex7_q7b": [
+    "Mental maths: $500 \\div 0.20 = 500 \\times 5 = 2500$, since dividing by $\\frac{1}{5}$ means multiplying by 5."
+  ],
+  "ch9_ex7_q7c": [
+    "Mental maths: dividing by $0.5$ is the same as doubling, so $500 \\div 0.5 = 1000$."
+  ],
+  "ch9_ex7_q8a": [
+    "Units tell you the meaning: km/h $\\times$ h $=$ km, so $k$ must be a distance."
+  ],
+  "ch9_ex7_q8b": [
+    "Ratio method without $k$: new time $= 4.5 \\times \\frac{75}{85} \\approx 3.97$ h. The speed ratio is flipped because the relationship is inverse.",
+    "Calculator tip: subtract 3 and multiply by 60 to get the minutes: $0.9706 \\times 60 \\approx 58$."
+  ],
+  "ch9_ex7_q8c": [
+    "Estimate: $337.5 \\div 3.5$ is a bit less than $350 \\div 3.5 = 100$, so about 96 km/h is reasonable."
+  ],
+  "ch9_ex7_q8d": [
+    "Speed $\\times$ time is the same trip distance every time; a constant product is exactly what inverse proportion means."
+  ],
+  "ch9_ex7_q9a": [
+    "Mental maths: $350 \\times 50 = 350 \\times 100 \\div 2 = 17\\,500$."
+  ],
+  "ch9_ex7_q9b": [
+    "Ratio check: 75 people is $1.5$ times 50, so the cost per person is $350 \\div 1.5 \\approx \\$233.33$."
+  ],
+  "ch9_ex7_q9c": [
+    "Rearrange first: $n = \\frac{17\\,500}{C}$. Check: $70 \\times 250 = 17\\,500$."
+  ],
+  "ch9_ex7_q9d": [
+    "Total $=$ cost per person $\\times$ people, and this product stays fixed whatever the group size."
+  ],
+  "ch9_ex7_q10a": [
+    "Link to science: Ohm's law $V = IR$, so $k = 10 \\times 20 = 200$ is the voltage."
+  ],
+  "ch9_ex7_q10b": [
+    "Check: $1 \\times 200 = 200 = k$. The product of the pair always equals $k$."
+  ],
+  "ch9_ex7_q10c": [
+    "Estimate: 15 A is $1.5$ times 10 A, so the resistance should be $20 \\div 1.5 \\approx 13.3$ ohms."
+  ],
+  "ch9_ex7_q10d": [
+    "A point lies on $I = \\frac{200}{R}$ exactly when $I \\times R = 200$, so you can also check graph readings by multiplying the coordinates."
+  ],
+  "ch9_ex7_q11a": [
+    "Remember Boyle's law as \"squeeze it and the pressure goes up\": $PV = 3 \\times 5 = 15$ stays constant."
+  ],
+  "ch9_ex7_q11b": [
+    "Ratio check: the pressure fell from 5 to $0.75$, a factor of $\\frac{20}{3}$, so the volume grows by the same factor: $3 \\times \\frac{20}{3} = 20$ L."
+  ],
+  "ch9_ex7_q11c": [
+    "Check: $2.5 \\times 6 = 15$, the same product as $5 \\times 3$."
+  ],
+  "ch9_ex7_q12": [
+    "Compare the constants as a ratio: $\\frac{7}{5} = 1.4$, so at any equal speed the second trip always takes 40% longer.",
+    "On a graph, the curve with the larger $k$ sits further from the axes."
+  ],
+  "ch9_ex7_q13a": [
+    "Person-hours: 2 people for 5 hours is the same work as 1 person for 10 hours or 10 people for 1 hour."
+  ],
+  "ch9_ex7_q13b": [
+    "Real-world limit: the model assumes every picker works at the same rate and nobody gets in each other's way."
+  ],
+  "ch9_ex7_q13c": [
+    "Ratio check: 6 pickers is 3 times as many as 2, so the time is $5 \\div 3 = 1\\frac{2}{3}$ hours."
+  ],
+  "ch9_ex7_q14a": [
+    "The product $100.048$ m is just over 100 m, so this is a 100 m sprint once you allow for rounding in the data."
+  ],
+  "ch9_ex7_q14b": [
+    "Check the rule: $\\frac{100.048}{9.62} = 10.4$, which gives back the original speed."
+  ],
+  "ch9_ex7_q14c": [
+    "Speed went up by a tiny amount, so time drops by a tiny amount: a change from 9.62 s to 9.58 s is about right."
+  ],
+  "ch9_ex7_q14d": [
+    "Estimate: $6.67 \\approx \\frac{20}{3}$, and $100 \\div \\frac{20}{3} = 15$, so 15.00 s is reasonable."
+  ],
+  "ch9_ex7_q15a": [
+    "Mental maths: $20 \\times 67.50 = 1350$ (think $20 \\times 67.5 = 10 \\times 135$)."
+  ],
+  "ch9_ex7_q15b": [
+    "Check: fewer people means a higher share, so the answer must be above $\\$67.50$. $1350 \\div 14 \\approx \\$96.43$ fits."
+  ],
+  "ch9_ex7_q15c": [
+    "On the graph of $C = \\frac{1350}{n}$ the cost keeps falling as $n$ grows, so the lowest cost is at the largest allowed $n$."
+  ]
+}

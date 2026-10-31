@@ -1,0 +1,131 @@
+{
+  "ch11_ex5_q1a": [
+    "Check with the complement: students not in $J$ are $35 + 14 = 49$, and $90 - 49 = 41$, which matches $n(J)$.",
+    "Estimate: 41 out of 90 is a bit under half, so expect an answer just below 0.5 ($\\approx 0.46$)."
+  ],
+  "ch11_ex5_q1b": [
+    "Pattern for every Venn conditional: the numerator is always the overlap, and the denominator is the whole circle named after the bar.",
+    "Swapping the order changes the answer: $\\Pr(J \\mid H) = \\frac{12}{47}$, because the hip hop circle holds $35 + 12 = 47$ students."
+  ],
+  "ch11_ex5_q2a": [
+    "Quick check with the complement: not in $S$ is $15 + 2 = 17$, and $30 - 17 = 13$."
+  ],
+  "ch11_ex5_q2b": [
+    "Conditioning on a bigger region that contains all of $S$ can only shrink the denominator, so $\\frac{13}{28}$ must be at least as big as $\\Pr(S) = \\frac{13}{30}$.",
+    "Picture it: cover the 2 students outside both circles with your hand; whatever is left is the new sample space."
+  ],
+  "ch11_ex5_q3a": [
+    "Fill in the whole Venn diagram: $A$ only $= 0.4$, $B$ only $= 0.2$, neither $= 1 - 0.9 = 0.1$. The four regions $0.4 + 0.3 + 0.2 + 0.1$ add to 1, confirming the answer.",
+    "Sanity check: $\\Pr(A \\cap B)$ can never be larger than the smaller of $\\Pr(A)$ and $\\Pr(B)$, and $0.3 \\le 0.5$."
+  ],
+  "ch11_ex5_q3b": [
+    "A conditional probability is never smaller than the joint one: dividing 0.3 by a number below 1 makes it bigger.",
+    "Compare: $\\Pr(A \\mid B) = \\frac{0.3}{0.5} = 0.6$, a different answer from $\\frac{3}{7}$, so always check which event comes after the bar."
+  ],
+  "ch11_ex5_q4a": [
+    "Independence check: $0.65 \\times 0.75 = 0.4875 \\ne 0.45$, so $A$ and $B$ are dependent, which is why $\\Pr(B \\mid A) \\approx 0.69$ differs from $\\Pr(B) = 0.75$."
+  ],
+  "ch11_ex5_q4b": [
+    "Cross-check both parts: $\\Pr(A \\mid B) \\times \\Pr(B) = 0.6 \\times 0.75 = 0.45$ and $\\Pr(B \\mid A) \\times \\Pr(A) = \\frac{9}{13} \\times 0.65 = 0.45$. Both must give back $\\Pr(A \\cap B)$."
+  ],
+  "ch11_ex5_q5": [
+    "Think of 100 students: 52 passed aptitude, and 30 of those passed both, so the answer is simply 30 out of 52.",
+    "Estimate: $\\frac{30}{52}$ is a little under $\\frac{30}{50} = 0.6$, so 0.58 is believable."
+  ],
+  "ch11_ex5_q6": [
+    "Picture 100 students: 92 take Music and 20 of them take Physics, so the answer is 20 out of 92, just over 0.2."
+  ],
+  "ch11_ex5_q7": [
+    "Imagine 1000 students: 50 miss a shift, and 45 of those are well, so the answer is 45 out of 50 = 0.9.",
+    "Reasonableness: a high value makes sense, since nearly all of the shift-missers are counted as well."
+  ],
+  "ch11_ex5_q8": [
+    "Dividing by 0.8 is the same as multiplying by 1.25: $0.1641 \\times 1.25 = 0.205125$.",
+    "The answer must be bigger than 0.1641, because you are dividing by a number less than 1."
+  ],
+  "ch11_ex5_q9": [
+    "Draw the Venn diagram: dancers only $= 54 - 9 = 45$, both $= 9$, singers only $= 35 - 9 = 26$; check $45 + 9 + 26 = 80$.",
+    "In multiple choice, 0.11 is $\\frac{9}{80}$, a trap that divides by everyone instead of only the dancers."
+  ],
+  "ch11_ex5_q10a": [
+    "For two dice, the number of ways to make a sum $s$ is $s - 1$ when $s \\le 7$ and $13 - s$ when $s \\ge 7$. For 10: $13 - 10 = 3$."
+  ],
+  "ch11_ex5_q10bi": [
+    "Reduced sample space: once black shows 2, only 6 outcomes remain (red 1 to 6), and just one has red 5, so $\\frac{1}{6}$ with no formula needed."
+  ],
+  "ch11_ex5_q10bii": [
+    "For two separate dice, the joint probability is just the product: $\\frac{1}{6} \\times \\frac{1}{6} = \\frac{1}{36}$. That is exactly the independence test."
+  ],
+  "ch11_ex5_q10biii": [
+    "Knowing red is 5 (a high number) makes a sum of 10 easier, which is why the probability doubles from $\\frac{1}{12}$ to $\\frac{1}{6}$.",
+    "Reverse it: $\\Pr(A \\mid C) = \\frac{1}{3}$, since one of the three sum-10 outcomes $(4,6), (5,5), (6,4)$ has red 5."
+  ],
+  "ch11_ex5_q10biv": [
+    "Fast check: the largest possible sum with black on 2 is $6 + 2 = 8$, which is less than 10.",
+    "Here $B$ and $C$ are mutually exclusive, and mutually exclusive events with non-zero probabilities are never independent."
+  ],
+  "ch11_ex5_q11a": [
+    "Estimate: half of 232 is 116, and 109 is a little less, so the answer should be just under 0.5."
+  ],
+  "ch11_ex5_q11b": [
+    "Check with the other row: $146 + 86 = 232$, so $\\Pr(60 \\text{ or above}) = \\frac{86}{232}$ and the two answers add to 1."
+  ],
+  "ch11_ex5_q11c": [
+    "Compare with the unconditional $\\Pr(\\text{high}) = \\frac{33}{232} \\approx 0.14$: older patients are almost twice as likely to have high blood pressure.",
+    "Hand trick: cover every row except the one named after 'given', and work only with what is still visible."
+  ],
+  "ch11_ex5_q11d": [
+    "Compare with $\\Pr(\\text{under } 60) \\approx 0.63$: among medium-pressure patients the share drops to about 0.49, so medium pressure is relatively more common in the older group."
+  ],
+  "ch11_ex5_q12": [
+    "Picture it as zooming in: the circle $B$ becomes the new rectangle, and you only ask what fraction of $B$ is also in $A$.",
+    "A condition is not symmetric: $\\Pr(A \\mid B)$ and $\\Pr(B \\mid A)$ share a numerator but usually have different denominators."
+  ],
+  "ch11_ex5_q13a": [
+    "Picture 100 students: 35 are female, and 25% of 35 is 8.75, so 8.75 per 100 = 0.0875."
+  ],
+  "ch11_ex5_q13b": [
+    "Females are more likely to prefer dancing (25% vs 10%), yet the totals are close (6.5 vs 8.75 per 100) because there are many more males."
+  ],
+  "ch11_ex5_q13ci": [
+    "Shortcut: the $M$ branch splits into $MD$ and $MD'$, so $\\Pr(M \\cap D') = 0.65 - 0.065 = 0.585$."
+  ],
+  "ch11_ex5_q13cii": [
+    "The overall rate must lie between 10% and 25%, and closer to 10% because males are the majority. 15.25% fits.",
+    "Turn the tree around: $\\Pr(F \\mid D) = \\frac{0.0875}{0.1525} = \\frac{35}{61} \\approx 0.57$, so most dancers are female even though most students are male."
+  ],
+  "ch11_ex5_q14ai": [
+    "$A$ is exactly the first half of $\\xi$, so its probability is $\\frac{1}{2}$ without counting."
+  ],
+  "ch11_ex5_q14aii": [
+    "Memory check for primes up to 20: 2, 3, 5, 7, 11, 13, 17, 19. 1 is not prime, and 2 is the only even prime."
+  ],
+  "ch11_ex5_q14aiii": [
+    "$A \\cap B$ is just the primes up to 10, a list worth knowing by heart: 2, 3, 5, 7."
+  ],
+  "ch11_ex5_q14aiv": [
+    "Half of the primes up to 20 are at most 10, the same as half of all numbers up to 20 being at most 10. That match is what independence means."
+  ],
+  "ch11_ex5_q14av": [
+    "Primes make up $\\frac{4}{10}$ of the first ten numbers and $\\frac{8}{20}$ of all twenty: the same fraction, so knowing $A$ tells you nothing new about $B$."
+  ],
+  "ch11_ex5_q14b": [
+    "Independence depends on the sample space: with $\\xi = \\{1, \\dots, 30\\}$ there are 10 primes, and $\\Pr(A)\\Pr(B) = \\frac{1}{3} \\times \\frac{1}{3} = \\frac{1}{9}$ but $\\Pr(A \\cap B) = \\frac{4}{30}$, so not independent.",
+    "Do not mix up independent with mutually exclusive: these events share 4 numbers, yet they are independent."
+  ],
+  "ch11_ex5_q14c": [
+    "Memory aid: independent means 'the condition makes no difference', so the bar can be crossed out: $\\Pr(A \\mid B) = \\Pr(A)$."
+  ],
+  "ch11_ex5_q15": [
+    "Picture 1000 people: 50 have COVID and 49 test positive; 950 do not, and 38 of them test positive. Total positives: 87.",
+    "Surprise link: of those 87 positives only 49 are sick, so $\\Pr(C \\mid +) = \\frac{49}{87} \\approx 0.56$, far below 0.98."
+  ],
+  "ch11_ex5_q16": [
+    "Sanity check: $\\Pr(G_1 \\cap R_2)$ can never exceed $\\Pr(G_1)$, so the quotient must be at most 1.",
+    "The other branch from $G_1$ follows at once: $\\Pr(G_2 \\mid G_1) = 1 - \\frac{72}{85} = \\frac{13}{85}$."
+  ],
+  "ch11_ex5_q17": [
+    "Check with the complement: $\\Pr(\\text{drink on Wednesday}) = 0.7 \\times 0.3 + 0.3 \\times 0.6 = 0.39$, and $0.61 + 0.39 = 1$.",
+    "Each day only depends on the day before. Day by day the ice-cream chance goes 1, 0.7, 0.61, ... and settles towards $\\frac{4}{7} \\approx 0.57$."
+  ]
+}

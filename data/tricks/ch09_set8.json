@@ -1,0 +1,127 @@
+{
+  "ch9_ex8_q1": [
+    "Odd symmetry: each negative $x$ gives the negative of the matching positive value, e.g. $y(-2) = -5$ and $y(2) = 5$. Fill one half, then flip the signs.",
+    "Every pair in the table multiplies to 10, which is a quick check on each entry."
+  ],
+  "ch9_ex8_q2a": [
+    "Plot the point where the curve is closest to the origin: $x = y = \\sqrt{5} \\approx 2.24$, which helps the bend look right."
+  ],
+  "ch9_ex8_q2b": [
+    "Why $x = 0$: you cannot divide by zero. Why $y = 0$: $\\frac{5}{x}$ gets tiny for huge $x$ but never equals 0 because the numerator is 5."
+  ],
+  "ch9_ex8_q3a": [
+    "The bend of $y = \\frac{20}{x}$ passes through $(\\sqrt{20}, \\sqrt{20}) \\approx (4.47, 4.47)$, between the points $(4, 5)$ and $(5, 4)$."
+  ],
+  "ch9_ex8_q3b": [
+    "Numerical check: $x = 1000$ gives $y = 0.02$, very close to 0. The curve hugs the x-axis far out."
+  ],
+  "ch9_ex8_q4a": [
+    "The corner of the curve is at $(10, 10)$ because $10 \\times 10 = 100$; plot it first, then the points $(1, 100)$ and $(100, 1)$."
+  ],
+  "ch9_ex8_q4b": [
+    "Pattern: for any $y = \\frac{k}{x}$ the asymptotes are always the two axes, whatever $k$ is."
+  ],
+  "ch9_ex8_q5": [
+    "Compare at one $x$-value: at $x = 2$ the curves are at $1$, $1.5$ and $2$, so the order of the curves is clear."
+  ],
+  "ch9_ex8_q6": [
+    "The point on the curve closest to the origin is $(\\sqrt{k}, \\sqrt{k})$, so a larger $k$ pushes that corner further out along the line $y = x$."
+  ],
+  "ch9_ex8_q7": [
+    "Sign check: positive $x$ gives negative $y$, so the branch on the right lies below the x-axis, in quadrant 4."
+  ],
+  "ch9_ex8_q8": [
+    "Together the two curves are symmetric about both axes, like a four-leaf pattern around the origin."
+  ],
+  "ch9_ex8_q9": [
+    "Memory aid: positive $k$ means $x$ and $y$ have the same sign (quadrants 1 and 3); negative $k$ means they have opposite signs (quadrants 2 and 4)."
+  ],
+  "ch9_ex8_q10": [
+    "Every value is the $y = \\frac{1}{x}$ table shifted one place right: $y = \\frac{1}{x - 1}$ at $x = 3$ equals $\\frac{1}{x}$ at $x = 2$."
+  ],
+  "ch9_ex8_q11a": [
+    "Plot the two \"unit\" points one step either side of the asymptote: $(3, 1)$ and $(1, -1)$. They anchor each branch."
+  ],
+  "ch9_ex8_q11b": [
+    "y-intercept check: $\\frac{1}{0 - 3} = -\\frac{1}{3}$. When the asymptote is to the right of the y-axis, the y-intercept is negative."
+  ],
+  "ch9_ex8_q12": [
+    "Points one step either side of $x = -1$: $(0, 1)$ and $(-2, -1)$. The y-intercept is one of these anchor points."
+  ],
+  "ch9_ex8_q13": [
+    "Why the sign looks backwards: the asymptote is where $x - a = 0$, i.e. at $x = a$. The graph moves to wherever that zero now happens."
+  ],
+  "ch9_ex8_q14a": [
+    "Shortcut: a negative numerator means the branches sit top-left and bottom-right of where the asymptotes cross, just like $y = -\\frac{1}{x}$."
+  ],
+  "ch9_ex8_q14b": [
+    "Anchor points: one step either side of $x = 1$ gives $y = \\pm 2$, i.e. $(2, 2)$ and $(0, -2)$. The step size is 1 and the height is the numerator."
+  ],
+  "ch9_ex8_q15a": [
+    "Anchor points: $(-1, 5)$ and $(-3, -5)$ sit one step either side of $x = -2$, with height equal to the numerator 5."
+  ],
+  "ch9_ex8_q15b": [
+    "Both intercepts are $-0.5$. That is no accident: the centre $(-2, -2)$ is on the line $y = x$, so the graph is symmetric about $y = x$.",
+    "Build from part a in your head: same branches, shifted down 2, so the asymptote $y = 0$ becomes $y = -2$."
+  ],
+  "ch9_ex8_q16a": [
+    "Read the asymptotes straight from the form $\\frac{a}{x - h} + k$: the vertical one is where the denominator is 0, and the horizontal one is the number added on."
+  ],
+  "ch9_ex8_q16b": [
+    "Sign check: for $x$ just below 3, $3 - x$ is a small positive number, so $y$ is very large. The branch to the left of $x = 3$ shoots up."
+  ],
+  "ch9_ex8_q17a": [
+    "Check by trying $x = 3$: the denominator becomes 0, so the function is undefined there."
+  ],
+  "ch9_ex8_q17b": [
+    "Check: $x = -10$ makes $x + 10 = 0$. You can also add any constant, e.g. $y = \\frac{1}{x + 10} + 5$, and the vertical asymptote stays $x = -10$."
+  ],
+  "ch9_ex8_q18a": [
+    "Template: asymptotes $x = h$ and $y = k$ come from $y = \\frac{a}{x - h} + k$. Put in $h$ and $k$, then pick any non-zero $a$."
+  ],
+  "ch9_ex8_q18b": [
+    "Check: $x = 0$ gives $\\frac{-14}{2} + 4 = -7 + 4 = -3$. Correct.",
+    "Sign check: the y-intercept $-3$ is below the asymptote $y = 4$ on the right of $x = -2$, so $a$ must be negative."
+  ],
+  "ch9_ex8_q19": [
+    "Follow one point through the steps: $(1, 1) \\to (1, -1) \\to (1, -2) \\to (-2, -3)$. Then check: $\\frac{-2}{-2 + 3} - 1 = -3$. Correct."
+  ],
+  "ch9_ex8_q20a": [
+    "Because $x$ is squared, $x$ and $-x$ give the same $y$, so you only need to calculate half the table."
+  ],
+  "ch9_ex8_q20b": [
+    "Since $x^2 > 0$ for all $x \\ne 0$, $y$ is always positive, so both branches sit above the x-axis."
+  ],
+  "ch9_ex8_q20c": [
+    "Reflecting in the x-axis always means putting a minus in front of the whole expression: $y \\to -y$."
+  ],
+  "ch9_ex8_q20d": [
+    "Any graph whose equation only contains $x^2$ (not $x$ alone) is symmetric about the y-axis, so this reflection changes nothing."
+  ],
+  "ch9_ex8_q21a": [
+    "$\\frac{780}{10} = 78$ and $78 + 22 = 100$, so the coffee starts at the boiling point of water, which makes sense."
+  ],
+  "ch9_ex8_q21b": [
+    "Sanity check: after an hour the coffee should be close to, but above, the 22 °C asymptote. 33.1 °C fits."
+  ],
+  "ch9_ex8_q21c": [
+    "Work backwards: $50 - 22 = 28$, so you need $t + 10 = \\frac{780}{28} \\approx 27.9$, giving $t \\approx 17.9$, rounded up to 18 minutes so the coffee is below 50 °C."
+  ],
+  "ch9_ex8_q21d": [
+    "$\\frac{780}{t + 10}$ is always positive for $t \\ge 0$, so $T$ is always more than 22. No algebra needed."
+  ],
+  "ch9_ex8_q22a": [
+    "Check: $x = 1$ gives $\\frac{6}{1 - 4} + 2 = -2 + 2 = 0$. Correct."
+  ],
+  "ch9_ex8_q22b": [
+    "Difference of two squares: $x^2 - 4 = (x - 2)(x + 2)$, so the denominator is zero at two places, giving two vertical asymptotes."
+  ],
+  "ch9_ex8_q22c": [
+    "The equation only contains $x^2$, so the graph is symmetric about the y-axis. Sketch the right half and mirror it.",
+    "Between $-2$ and $2$ the denominator is negative, so the fraction is negative and the middle branch is below $y = 2$."
+  ],
+  "ch9_ex8_q23": [
+    "Follow one point: $(1, 1) \\to (1, -1) \\to (1, -3) \\to (0, -1)$. Check: $-\\frac{3}{(0 + 1)^2} + 2 = -1$. Correct.",
+    "The whole curve lies below the asymptote $y = 2$, because $-\\frac{3}{(x + 1)^2}$ is always negative."
+  ]
+}

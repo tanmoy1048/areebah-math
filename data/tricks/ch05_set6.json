@@ -1,0 +1,111 @@
+{
+  "ch5_ex6_q1a": [
+    "Read the ratio before pressing anything: $\\dfrac{4.8}{5.2} \\approx 0.92$ is close to 1, and sine near 1 means an angle near $90^\\circ$. So expect a large angle.",
+    "Benchmarks: $\\sin 30^\\circ = 0.5$, $\\sin 45^\\circ \\approx 0.71$, $\\sin 60^\\circ \\approx 0.87$. Since 0.92 is above 0.87, $\\theta$ must be above $60^\\circ$."
+  ],
+  "ch5_ex6_q1b": [
+    "Benchmark check: $\\cos 45^\\circ \\approx 0.707$. Our ratio $\\dfrac{3.2}{4.7} \\approx 0.68$ is a little smaller, and cosine gets smaller as the angle grows, so $\\theta$ is just over $45^\\circ$."
+  ],
+  "ch5_ex6_q1c": [
+    "Check with the other angle: $\\tan^{-1}\\left(\\dfrac{3}{8}\\right) \\approx 20.6^\\circ$, and $69.4^\\circ + 20.6^\\circ = 90^\\circ$. Flipping the fraction gives the other acute angle."
+  ],
+  "ch5_ex6_q2a": [
+    "To convert by hand, multiply the decimal part by 60: $0.7824 \\times 60 \\approx 46.9'$, which rounds to $47'$.",
+    "Since $17 > 12$, the opposite side is longer, so the angle must be over $45^\\circ$."
+  ],
+  "ch5_ex6_q2b": [
+    "Quick check: $\\dfrac{4}{7.2} \\approx 0.56$ is just above $\\sin 30^\\circ = 0.5$, so $\\beta$ should be a bit more than $30^\\circ$.",
+    "Minutes are sixtieths: a decimal of about $0.75^\\circ$ is three quarters of 60, which is $45'$."
+  ],
+  "ch5_ex6_q2c": [
+    "$\\dfrac{10}{12} = \\dfrac{5}{6}$. Simplifying first doesn't change the angle, because only the ratio matters, not the actual lengths.",
+    "Check with Pythagoras: the third side is $\\sqrt{144 - 100} = \\sqrt{44}$, and $\\tan^{-1}\\left(\\dfrac{\\sqrt{44}}{10}\\right)$ gives the same $33^\\circ 33'$."
+  ],
+  "ch5_ex6_q3a": [
+    "Since $\\dfrac{2}{8} = \\dfrac{1}{4}$, $\\theta = \\cos^{-1}(0.25)$. A small adjacent side next to a long hypotenuse means a steep, large angle.",
+    "Two-step conversion: $0.5225^\\circ \\times 60 = 31.35'$, then $0.35' \\times 60 = 21''$."
+  ],
+  "ch5_ex6_q3b": [
+    "This is the famous 3-4-5 triangle. Its acute angles are always about $36^\\circ 52'$ and $53^\\circ 8'$, so it is worth remembering.",
+    "Any multiple, such as 6-8-10 or 9-12-15, has exactly the same angles, because the ratios don't change."
+  ],
+  "ch5_ex6_q3c": [
+    "Since $2.7 < 3.5$, opposite is shorter than adjacent, so $\\alpha < 45^\\circ$. The answer $37^\\circ 38' 51''$ passes this check."
+  ],
+  "ch5_ex6_q4a": [
+    "The legs 13.5 and 15.3 are nearly equal, so the angle should be close to $45^\\circ$. It is a bit less because the opposite side (13.5) is the shorter one."
+  ],
+  "ch5_ex6_q4b": [
+    "Recognise the ratio: $\\dfrac{77.3}{89.4} \\approx 0.865$, almost exactly $\\cos 30^\\circ = \\dfrac{\\sqrt{3}}{2} \\approx 0.866$, so $c \\approx 30^\\circ$."
+  ],
+  "ch5_ex6_q4c": [
+    "Equivalent shortcut: the other acute angle is $\\tan^{-1}\\left(\\dfrac{92.7}{106.4}\\right) \\approx 41^\\circ$, so $b \\approx 90^\\circ - 41^\\circ = 49^\\circ$."
+  ],
+  "ch5_ex6_q5a": [
+    "Since $\\dfrac{18.7}{43.7}$ is a little under 0.5 and $\\cos 60^\\circ = 0.5$, the angle must be a little over $60^\\circ$."
+  ],
+  "ch5_ex6_q5b": [
+    "Measured sides are rounded, so $\\cos^{-1}$, $\\sin^{-1}$ and $\\tan^{-1}$ give slightly different decimals (about $48.24^\\circ$ to $48.26^\\circ$). All round to $48^\\circ$."
+  ],
+  "ch5_ex6_q5c": [
+    "Sanity check that the sides fit: $7.3^2 + 9.8^2 \\approx 149.3$ and $12.2^2 \\approx 148.8$. They are close but not exact, so tiny differences between ratios are normal."
+  ],
+  "ch5_ex6_q6a": [
+    "The side opposite the top angle $a$ is the short bottom side, 27.2. A tall, thin triangle has a small angle at the top.",
+    "Once you have $a$, get $b = 90^\\circ - a$ for free. No second inverse trig calculation is needed."
+  ],
+  "ch5_ex6_q6b": [
+    "One ratio gives both angles: $\\dfrac{0.342}{0.798}$ is $\\sin d$ and also $\\cos e$, since the side opposite $d$ is adjacent to $e$."
+  ],
+  "ch5_ex6_q6c": [
+    "Pattern: $\\cos x = \\sin y$ whenever $x + y = 90^\\circ$. That is where the name co-sine comes from: the sine of the complementary angle."
+  ],
+  "ch5_ex6_q7a": [
+    "Exterior angle to interior: $180^\\circ - 125^\\circ = 55^\\circ$. Spotting the hidden right-angled triangle ADB is the key step.",
+    "Check $h$ another way: $\\sqrt{l^2 - 20^2} = \\sqrt{34.87^2 - 400} \\approx 28.56$."
+  ],
+  "ch5_ex6_q7b": [
+    "Check: area $= \\dfrac{1}{2} \\times AB \\times BC \\times \\sin(\\angle ABC) = \\dfrac{1}{2} \\times 34.87 \\times 30 \\times \\sin 125^\\circ \\approx 428$. This links to the sine area rule you may meet later."
+  ],
+  "ch5_ex6_q7c": [
+    "Angle sum check: the third angle is $180^\\circ - 125^\\circ - 29.7^\\circ = 25.3^\\circ$, a sensible small angle at A."
+  ],
+  "ch5_ex6_q8a": [
+    "Picture the wings as the hypotenuse (8 m) and the gap as its horizontal shadow. As $\\dfrac{\\text{gap}}{8}$ shrinks from $\\tfrac{7}{8}$ to $\\tfrac{5}{8}$, the tilt grows.",
+    "If the gap were half the wingspan (4 m), $\\cos\\theta = 0.5$ would give exactly $60^\\circ$. That is a nice benchmark."
+  ],
+  "ch5_ex6_q8b": [
+    "Each answer is 96 plus about one km/h per degree, because 0.98 is just under 1. So the extra speed is a little less than the tilt angle: $29 \\to 28.4$, $41.4 \\to 40.6$."
+  ],
+  "ch5_ex6_q9": [
+    "Think of trig functions as machines: sin, cos and tan turn an angle into a ratio, and $\\sin^{-1}$, $\\cos^{-1}$, $\\tan^{-1}$ run the machine backwards, turning a ratio into an angle."
+  ],
+  "ch5_ex6_q10": [
+    "Memory aid for the $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle: sides $1, \\sqrt{3}, 2$ go with the angles $30^\\circ, 60^\\circ, 90^\\circ$. The smallest side faces the smallest angle.",
+    "Check both with Pythagoras: $1^2 + (\\sqrt{3})^2 = 4 = 2^2$ and $1^2 + 1^2 = 2 = (\\sqrt{2})^2$."
+  ],
+  "ch5_ex6_q11a": [
+    "Pattern for sines: $\\sin 30^\\circ, \\sin 45^\\circ, \\sin 60^\\circ = \\dfrac{\\sqrt{1}}{2}, \\dfrac{\\sqrt{2}}{2}, \\dfrac{\\sqrt{3}}{2}$. Cosines run the same list backwards.",
+    "Calculator check: $\\tan 30^\\circ \\approx 0.577$ and $\\dfrac{\\sqrt{3}}{3} \\approx 0.577$."
+  ],
+  "ch5_ex6_q11b": [
+    "When two fractions have the same denominator, dividing them is just dividing the numerators: $\\dfrac{1/2}{\\sqrt{3}/2} = \\dfrac{1}{\\sqrt{3}}$."
+  ],
+  "ch5_ex6_q11c": [
+    "This identity is a handy calculator check: $\\sin\\theta \\div \\cos\\theta$ should always equal $\\tan\\theta$ (for example $\\sin 50^\\circ \\div \\cos 50^\\circ \\approx 1.19 \\approx \\tan 50^\\circ$)."
+  ],
+  "ch5_ex6_q12": [
+    "The $100^\\circ$ angle means the right side leans outward by $10^\\circ$ from vertical, adding $5\\tan 10^\\circ \\approx 0.88$ to the overhang. The left overhang is then $6 - 2 - 0.88 \\approx 3.12$.",
+    "Check: the angle at the top-right vertex is $180^\\circ - 100^\\circ = 80^\\circ$, by co-interior angles."
+  ],
+  "ch5_ex6_q13a": [
+    "Choose the ratio from the sides you have: given a vertical drop and path length, use $\\sin^{-1}$; given a horizontal distance and path length, use $\\cos^{-1}$."
+  ],
+  "ch5_ex6_q13b": [
+    "Another way to compare steepness is the gradient, $\\tan\\theta$: $\\tan 75^\\circ \\approx 3.7$ versus $\\tan 18^\\circ \\approx 0.32$. Bigger gradient means steeper."
+  ],
+  "ch5_ex6_q14": [
+    "Rates to remember: the minute hand turns $6^\\circ$ per minute and the hour hand turns $0.5^\\circ$ per minute, so the minute hand is 12 times faster.",
+    "$0.25^\\circ = \\tfrac{1}{4}$ of $60' = 15'$, so $12.25^\\circ = 12^\\circ 15'$."
+  ]
+}

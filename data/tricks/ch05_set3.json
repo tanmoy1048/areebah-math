@@ -1,0 +1,78 @@
+{
+  "ch5_ex3_q1a": [
+    "Cube shortcut: the space diagonal of a cube with side $s$ is $s\\sqrt{3}$, because $s^2 + s^2 + s^2 = 3s^2$. Here $8\\sqrt{3} \\approx 13.86$.",
+    "Compare it with a face diagonal, which is $s\\sqrt{2}$. Each extra dimension adds another $s^2$ under the square root."
+  ],
+  "ch5_ex3_q1b": [
+    "One-step formula: $AG = \\sqrt{5^2 + 5^2 + 12^2} = \\sqrt{194}$. Check: $\\sqrt{196} = 14$, so the answer is just under 14."
+  ],
+  "ch5_ex3_q1c": [
+    "Estimate check: $AG^2 = 11.5^2 + 9.2^2 + 10.4^2 = 325.05$ and $18^2 = 324$, so AG is just over 18. 18.03 fits.",
+    "The order of the three dimensions does not matter in $l^2 + w^2 + h^2$, so you can add them in whatever order is easiest."
+  ],
+  "ch5_ex3_q2": [
+    "AC is a space diagonal of the $10 \\times 7 \\times 4$ box that contains the wedge, so $AC = \\sqrt{10^2 + 7^2 + 4^2} = \\sqrt{165} \\approx 12.85$ in one step."
+  ],
+  "ch5_ex3_q3": [
+    "Difference of squares: $AD^2 = 5.8^2 - 3.2^2 = (5.8 - 3.2)(5.8 + 3.2) = 2.6 \\times 9 = 23.4$.",
+    "Opposite sides of the rectangle ABCD are equal, so $BC = AD$. That lets you reuse $23.4$ in triangle BCF: $BF^2 = 23.4 - 4.5^2 = 3.15$."
+  ],
+  "ch5_ex3_q4": [
+    "Look at triangle VBD: its sides are 6, 6 and $6\\sqrt{2}$, which is a right-angled isosceles triangle with the right angle at V. Its height is half the hypotenuse, $3\\sqrt{2} \\approx 4.24$.",
+    "Exact working: $h^2 = 36 - (3\\sqrt{2})^2 = 36 - 18 = 18$, so $h = 3\\sqrt{2}$."
+  ],
+  "ch5_ex3_q5": [
+    "Keep it exact: $MC^2 = 900 - 400 = 500$, so the diagonal is $2\\sqrt{500}$ and the side is $\\frac{2\\sqrt{500}}{\\sqrt{2}} = \\sqrt{1000} = 10\\sqrt{10} \\approx 31.62$ cm."
+  ],
+  "ch5_ex3_q6": [
+    "Difference of squares: $16^2 - 12^2 = (16 - 12)(16 + 12) = 4 \\times 28 = 112$, so $r = \\sqrt{112} = 4\\sqrt{7} \\approx 10.58$ cm."
+  ],
+  "ch5_ex3_q7": [
+    "The fly's path is a space diagonal of a $20 \\times 10 \\times 4$ box, so $AC = \\sqrt{20^2 + 10^2 + 4^2} = \\sqrt{516} \\approx 22.7$ mm. Check: $23^2 = 529$, so the answer is just under 23."
+  ],
+  "ch5_ex3_q8ai": [
+    "Take out the factor 40: $200 = 40 \\times 5$ and $120 = 40 \\times 3$, so the diagonal is $40\\sqrt{25 + 9} = 40\\sqrt{34} \\approx 233.24$ m."
+  ],
+  "ch5_ex3_q8aii": [
+    "When one leg is tiny compared with the other, the hypotenuse is only slightly longer than the long leg. Roughly, $c \\approx 200 + \\frac{7^2}{2 \\times 200} \\approx 200.12$ m."
+  ],
+  "ch5_ex3_q8aiii": [
+    "The same small-leg estimate works: $120 + \\frac{49}{240} \\approx 120.20$ m. The 7 m pole adds only about 20 cm to the distance."
+  ],
+  "ch5_ex3_q8b": [
+    "The centre is 100 m and 60 m from the sides at the pole's corner, so the flight is $\\sqrt{100^2 + 60^2 + 7^2} = \\sqrt{13\\,649} \\approx 116.83$ m. This is the 3D diagonal formula again."
+  ],
+  "ch5_ex3_q9": [
+    "Slant height equal to diameter means the cone's cross-section is an equilateral triangle. So each height is $\\frac{\\sqrt{3}}{2} \\times$ diameter.",
+    "Total height $= \\frac{\\sqrt{3}}{2}(7 + 10) = \\frac{17\\sqrt{3}}{2} \\approx 14.72$ cm."
+  ],
+  "ch5_ex3_q10": [
+    "Exact working: half the base diagonal squared is $\\left(\\frac{11\\sqrt{2}}{2}\\right)^2 = \\frac{121}{2} = 60.5$. So the edge is $\\sqrt{10^2 + 60.5} = \\sqrt{160.5} \\approx 12.67$ cm."
+  ],
+  "ch5_ex3_q11": [
+    "Difference of squares: $32^2 - 30^2 = 2 \\times 62 = 124$, so the overhang on each side is $\\sqrt{124} \\approx 11.14$ cm and the base diameter is $20 + 2\\sqrt{124}$."
+  ],
+  "ch5_ex3_q12": [
+    "The numbers work out exactly: $(4\\sqrt{2})^2 + 2^2 = 32 + 4 = 36$, so the length is exactly 6 m. Equivalently $\\sqrt{4^2 + 4^2 + 2^2} = 6$, a 3D version of a Pythagorean triple."
+  ],
+  "ch5_ex3_q13": [
+    "Estimate check: the slant height must be longer than the height (146.71) but shorter than height plus half-base ($146.71 + 115.175$). 186.5 m sits comfortably between."
+  ],
+  "ch5_ex3_q14a": [
+    "Working in metres: $\\sqrt{1.4^2 + 0.5^2} = \\sqrt{2.21}$. Since $1.5^2 = 2.25$, the answer is just under 1.5 m."
+  ],
+  "ch5_ex3_q14b": [
+    "Calculator technique: keep $\\sqrt{2.21}$ in memory and compute $2 \\times 2.5 \\times \\sqrt{2.21} = 5\\sqrt{2.21} \\approx 7.43$ m$^2$ in one line."
+  ],
+  "ch5_ex3_q15": [
+    "Check whether the surd simplifies: $1265 = 5 \\times 11 \\times 23$ has no square factor, so $\\sqrt{1265}$ is already in simplest form.",
+    "As a decimal, $\\sqrt{1265} \\approx 35.6$ cm. That is only a little more than the 32 cm length, as expected for a flat box."
+  ],
+  "ch5_ex3_q16": [
+    "Symmetry shortcut: add all three Pythagoras equations to get $2(AB^2 + BC^2 + h^2) = 35^2 + 36^2 + 37^2 = 3890$. Then $h^2 = 1945 - 36^2 = 649$, so $h = \\sqrt{649}$."
+  ],
+  "ch5_ex3_q17": [
+    "First find $y^2 = 57.08^2 - 35^2$. Then the two triangles give $x^2 = h^2 + 20^2$ and $y^2 = h^2 + x^2 = 2h^2 + 400$, so $h = \\sqrt{\\frac{y^2 - 400}{2}}$.",
+    "Keep $y^2$ unrounded in the calculator memory. The final answer is sensitive to rounding because it is a difference of squares."
+  ]
+}

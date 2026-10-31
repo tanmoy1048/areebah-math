@@ -4,6 +4,7 @@
 Inputs:
   data/chunks/ch{NN}_set{M}.json   one file per exercise set (written by the extraction step)
   data/figure_manifest.json        {entry id: [image paths]} from the figure crop step
+  data/tricks/ch{NN}_set{M}.json   optional {entry id: [short tricks]} written per set; merged as entry["tricks"]
 Outputs:
   data/solutions.json
   data/solutions.js                window.SOLUTIONS = [...] so index.html works from disk
@@ -30,6 +31,15 @@ def main():
 
     chunks = sorted(glob.glob(os.path.join(ROOT, 'data', 'chunks', 'ch*_set*.json')),
                     key=lambda p: (os.path.basename(p)[:4], set_order(p)))
+    tricks = {}
+    for path in sorted(glob.glob(os.path.join(ROOT, 'data', 'tricks', '*.json'))):
+        try:
+            for entry_id, items in json.load(open(path)).items():
+                tricks[entry_id] = items
+        except json.JSONDecodeError as e:
+            print(f'PROBLEM: {os.path.basename(path)} is not valid JSON ({e})')
+            return 1
+
     chapters = {}
     problems = []
     seen_ids = set()
@@ -61,9 +71,14 @@ def main():
                 if not sol.get('steps'):
                     problems.append(f'empty steps ({where})')
                 ex['questionFigures'] = manifest.get(ex['id'], [])
+                items = tricks.get(ex['id'], [])
+                if not isinstance(items, list) or not all(isinstance(t, str) and t.strip() for t in items):
+                    problems.append(f'tricks must be a list of non-empty strings ({where})')
+                ex['tricks'] = items if isinstance(items, list) else []
                 target['exercises'].append(ex)
 
     unmatched = sorted(set(manifest) - seen_ids)
+    unmatched_tricks = sorted(set(tricks) - seen_ids)
     chapter_list = [chapters[k] for k in sorted(chapters)]
 
     out_json = os.path.join(ROOT, 'data', 'solutions.json')
@@ -80,8 +95,11 @@ def main():
     for c in chapter_list:
         n = sum(len(t['exercises']) for t in c['topics'])
         print(f'  {c["chapterId"]} {c["chapterTitle"]}: {len(c["topics"])} topics, {n} entries')
+    print(f'entries with tricks: {sum(1 for c in chapter_list for t in c["topics"] for e in t["exercises"] if e["tricks"])}')
     if unmatched:
         print(f'figure keys with no matching entry ({len(unmatched)}): {unmatched[:15]}')
+    if unmatched_tricks:
+        print(f'trick keys with no matching entry ({len(unmatched_tricks)}): {unmatched_tricks[:15]}')
     if problems:
         print(f'PROBLEMS ({len(problems)}):')
         for p in problems[:50]:

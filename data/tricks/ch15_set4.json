@@ -1,0 +1,108 @@
+{
+  "ch15_ex4_q1": [
+    "Why it works: $b\\sin(C)$ is the perpendicular height onto side $a$, so $\\frac{1}{2}ab\\sin(C)$ is just $\\frac{1}{2} \\times \\text{base} \\times \\text{height}$.",
+    "Estimate: $\\sin(68^\\circ) \\approx 0.93$, so the area is a little under $\\frac{1}{2} \\times 7 \\times 4 = 14$."
+  ],
+  "ch15_ex4_q2": [
+    "Upper bound: the area can never exceed $\\frac{1}{2}ac = 39.42$ (the right-angle case). An angle near $90^\\circ$ gives an answer just below this.",
+    "$\\sin(104^\\circ 40') = \\sin(75^\\circ 20')$, because supplementary angles share the same sine."
+  ],
+  "ch15_ex4_q3": [
+    "Since $82^\\circ 17'$ is close to $90^\\circ$, the sine is nearly 1, so the area should be just under $\\frac{1}{2} \\times 23.1 \\times 18.6 = 214.83$."
+  ],
+  "ch15_ex4_q4": [
+    "Sense check: the area can be at most $\\frac{1}{2} \\times 10 \\times 14 = 70\\text{ cm}^2$; $B \\approx 100^\\circ$ is near $90^\\circ$, so 68.95 is reasonable."
+  ],
+  "ch15_ex4_q5": [
+    "Upper bound check: $\\frac{1}{2} \\times 17 \\times 22 = 187\\text{ m}^2$. Since $B \\approx 84^\\circ$ has a sine close to 1, the area is just below 187."
+  ],
+  "ch15_ex4_q6": [
+    "$\\sin(125.226^\\circ) = \\sin(54.774^\\circ)$, so an obtuse included angle needs no special treatment in the area formula.",
+    "Calculator technique: compute $A$ as $180 - 38 - \\text{Ans}$ straight after finding $C$, so no rounded angle is ever typed back in."
+  ],
+  "ch15_ex4_q7": [
+    "Elimination: the largest possible area is $\\frac{1}{2} \\times 15 \\times 20 = 150\\text{ m}^2$, so D is impossible. C, just under 150, means the included angle is near $90^\\circ$."
+  ],
+  "ch15_ex4_q8": [
+    "Bracket check for Heron's formula: $(s - a) + (s - b) + (s - c)$ always equals $s$. Here $4.5 + 3.5 + 1.5 = 9.5$."
+  ],
+  "ch15_ex4_q9": [
+    "Bracket check: $23.5 + 33.5 + 6.5 = 63.5 = s$.",
+    "Unit link: $1\\text{ cm}^2 = 100\\text{ mm}^2$, so the area is also about $5.70\\text{ cm}^2$."
+  ],
+  "ch15_ex4_q10": [
+    "Bracket check: $2.05 + 0.65 + 0.95 = 3.65 = s$.",
+    "Unit link: $2.15\\text{ cm}^2 = 215\\text{ mm}^2$, since $1\\text{ cm}^2 = 100\\text{ mm}^2$."
+  ],
+  "ch15_ex4_q11": [
+    "Elimination: two sides of 10 and 14 enclose at most $\\frac{1}{2} \\times 10 \\times 14 = 70\\text{ cm}^2$, so C and D are impossible."
+  ],
+  "ch15_ex4_q12": [
+    "Bracket check: $22.5 + 64.5 + 49.5 = 136.5 = s$.",
+    "Calculator technique: type the whole product under one square root in a single line rather than rounding partial products."
+  ],
+  "ch15_ex4_q13": [
+    "No ambiguous case: once a triangle has a $115^\\circ$ angle, every other angle must be acute, so $\\sin^{-1}$ gives the correct $B$."
+  ],
+  "ch15_ex4_q14a": [
+    "Shortcut: with a $30^\\circ$ included angle, the area is exactly a quarter of the product of the sides: $\\frac{25 \\times 30}{4} = 187.5$."
+  ],
+  "ch15_ex4_q14b": [
+    "A small included angle gives a short third side. It must still be more than $30 - 25 = 5$ cm, by the triangle inequality."
+  ],
+  "ch15_ex4_q15": [
+    "Exact trick: $\\cos(\\theta) = 0.9$ gives $\\sin(\\theta) = \\sqrt{1 - 0.81} = \\sqrt{0.19}$, so the triangle area is $10\\sqrt{0.19} \\approx 4.359\\text{ m}^2$ without finding $\\theta$."
+  ],
+  "ch15_ex4_q16": [
+    "Either angle of the parallelogram works ($72^\\circ$ or $108^\\circ$) because they have the same sine.",
+    "Option D (252) is the area of a 14 by 18 rectangle, which is the largest any parallelogram with these sides can have."
+  ],
+  "ch15_ex4_q17": [
+    "Option A (9 L) is the paint for only one coat: always reread the question for multipliers like 'two coats'."
+  ],
+  "ch15_ex4_q18a": [
+    "Shortcut: a parallelogram's area is $\\frac{1}{2}d_1 d_2\\sin(\\theta)$, here $\\frac{1}{2} \\times 10 \\times 17 \\times \\sin(125^\\circ) \\approx 69.63\\text{ cm}^2$."
+  ],
+  "ch15_ex4_q18b": [
+    "The longer side of the parallelogram always faces the obtuse angle between the diagonals; the shorter side faces the acute one."
+  ],
+  "ch15_ex4_q19": [
+    "Bracket check: $10.6 + 6.6 + 4.4 = 21.6 = s$."
+  ],
+  "ch15_ex4_q20": [
+    "Unit link: 1 hectare is $100\\text{ m} \\times 100\\text{ m} = 10\\,000\\text{ m}^2$, so $1\\text{ km}^2 = 100$ ha.",
+    "The second triangle is long and thin ($s - c \\approx 0.095$), so Heron's formula is sensitive to rounding. Keep $PT = \\sqrt{4.04}$ exact in the calculator."
+  ],
+  "ch15_ex4_q21": [
+    "Sense check: both slanted sides lean inwards, so the top must be shorter than the 5 m base. A top length of about 3.44 m fits.",
+    "Volume of any prism = cross-section area × length, whatever shape the cross-section is."
+  ],
+  "ch15_ex4_q22": [
+    "Because $\\cos(60^\\circ) = \\frac{1}{2}$, the diagonal comes out exactly 7 m.",
+    "The triangle 3.5, 4, 7 is very flat ($3.5 + 4$ is only just above 7), so expect a small area for it."
+  ],
+  "ch15_ex4_q23a": [
+    "Exact form: $34 \\times \\frac{\\sqrt{3}}{2} = 17\\sqrt{3} \\approx 29.44\\text{ km}^2$."
+  ],
+  "ch15_ex4_q23b": [
+    "With $60^\\circ$ the rule simplifies to $AC^2 = DC^2 + DA^2 - DC \\times DA = 64 + 72.25 - 68$."
+  ],
+  "ch15_ex4_q23c": [
+    "Sense check: in triangle ABC, $AC$ is opposite the $115^\\circ$ angle, so it must be longer than $CB = 6$. It is ($8.26$)."
+  ],
+  "ch15_ex4_q23d": [
+    "$\\angle ACB \\approx 24^\\circ$ is the smallest angle in triangle ABC, so $AB$ (opposite it) must turn out to be the shortest side, below 6 km."
+  ],
+  "ch15_ex4_q23e": [
+    "Check the ordering: angles $24^\\circ < 41^\\circ < 115^\\circ$ means sides $AB < CB < AC$, i.e. $3.68 < 6 < 8.26$."
+  ],
+  "ch15_ex4_q23f": [
+    "Pick the side pair with the most reliable values: $CB = 6$ and $B = 115^\\circ$ are given exactly, so only $AB$ carries rounding error."
+  ],
+  "ch15_ex4_q23g": [
+    "Any quadrilateral splits into two triangles along a diagonal; finding that diagonal first (here $AC$) unlocks both areas."
+  ],
+  "ch15_ex4_q24": [
+    "Memory formula: an equilateral triangle of side $s$ has area $\\frac{\\sqrt{3}}{4}s^2$, so a regular hexagon has area $\\frac{3\\sqrt{3}}{2}s^2 = 216\\sqrt{3}$ for $s = 12$."
+  ]
+}

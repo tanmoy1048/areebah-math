@@ -1,0 +1,289 @@
+{
+  "ch5_ex4_q1a": [
+    "Why it is exactly 0.5: cut an equilateral triangle in half. The side opposite the $30^\\circ$ angle is half the hypotenuse, so $\\sin 30^\\circ = \\frac{1}{2}$."
+  ],
+  "ch5_ex4_q1b": [
+    "Exact value: a $45^\\circ$ right triangle has sides $1, 1, \\sqrt{2}$, so $\\cos 45^\\circ = \\frac{1}{\\sqrt{2}} = \\frac{\\sqrt{2}}{2} \\approx 0.7071$. It is worth memorising."
+  ],
+  "ch5_ex4_q1c": [
+    "Sense check: $\\tan 45^\\circ = 1$ and tan increases with the angle, so $\\tan 25^\\circ$ must be between 0 and 1. 0.4663 fits."
+  ],
+  "ch5_ex4_q1d": [
+    "Benchmarks: $\\sin 45^\\circ \\approx 0.707$ and $\\sin 60^\\circ \\approx 0.866$, so $\\sin 57^\\circ$ should be just under 0.866. 0.8387 fits."
+  ],
+  "ch5_ex4_q1e": [
+    "Link: $\\tan 83^\\circ = \\frac{1}{\\tan 7^\\circ}$, because the two acute angles of a right triangle swap opposite and adjacent. $\\frac{1}{0.1228} \\approx 8.144$."
+  ],
+  "ch5_ex4_q1f": [
+    "$44^\\circ$ is just below $45^\\circ$, and cosine decreases as the angle grows, so $\\cos 44^\\circ$ is just above $0.7071$. 0.7193 fits.",
+    "Also $\\cos 44^\\circ = \\sin 46^\\circ$, since $44^\\circ + 46^\\circ = 90^\\circ$."
+  ],
+  "ch5_ex4_q2a": [
+    "Benchmarks: $\\sin 30^\\circ = 0.5$ and $\\sin 45^\\circ \\approx 0.707$. An angle of $40.5^\\circ$ should give a value closer to 0.707, and 0.6494 does."
+  ],
+  "ch5_ex4_q2b": [
+    "$53^\\circ 57'$ is only $3'$ short of $54^\\circ$, so the answer should be very close to $\\cos 54^\\circ \\approx 0.5878$ and slightly bigger. 0.5885 checks out."
+  ],
+  "ch5_ex4_q2c": [
+    "Mental check: $34' \\approx 0.57^\\circ$, so the angle is about $27.6^\\circ$. That is between $\\tan 25^\\circ \\approx 0.466$ and $\\tan 30^\\circ \\approx 0.577$."
+  ],
+  "ch5_ex4_q2d": [
+    "Link: $\\tan(180^\\circ - \\theta) = -\\tan\\theta$. Since $180^\\circ - 123^\\circ 40' = 56^\\circ 20'$, the answer is $-\\tan(56^\\circ 20') \\approx -1.5013$."
+  ],
+  "ch5_ex4_q2e": [
+    "Sine is symmetric about $90^\\circ$: $\\sin(92^\\circ 32') = \\sin(87^\\circ 28')$. Both are $2^\\circ 32'$ from $90^\\circ$."
+  ],
+  "ch5_ex4_q2f": [
+    "Estimate: $\\sin 42^\\circ \\approx 0.669$, and $8'$ adds only a tiny bit, so expect a value just above 0.669. 0.6709 fits."
+  ],
+  "ch5_ex4_q3a": [
+    "Estimate: the angle is about $35.7^\\circ$, between $30^\\circ$ ($\\cos \\approx 0.866$) and $45^\\circ$ ($\\cos \\approx 0.707$). 0.8120 is in range."
+  ],
+  "ch5_ex4_q3b": [
+    "Quick check: the angle is a little under $28^\\circ$, so $\\tan$ should be a bit below $\\tan 30^\\circ \\approx 0.577$. 0.5253 fits."
+  ],
+  "ch5_ex4_q3c": [
+    "Link: $\\cos(180^\\circ - \\theta) = -\\cos\\theta$. Here $180^\\circ - 143^\\circ 25' 23'' = 36^\\circ 34' 37''$, so the answer is $-\\cos(36^\\circ 34' 37'')$."
+  ],
+  "ch5_ex4_q3d": [
+    "$23^\\circ 58' 21''$ is almost exactly $24^\\circ$ (only $1' 39''$ short), so the answer should be just under $\\sin 24^\\circ \\approx 0.4067$."
+  ],
+  "ch5_ex4_q3e": [
+    "Pattern: for small angles, cosine changes slowly and stays close to 1. Even at about $9^\\circ$, the cosine has dropped by only about 0.012."
+  ],
+  "ch5_ex4_q4a": [
+    "Reference angle: $360^\\circ - 286^\\circ = 74^\\circ$, and in the fourth quadrant sine is negative. So $\\sin 286^\\circ = -\\sin 74^\\circ \\approx -0.9613$.",
+    "Memory aid for signs, quadrants 1 to 4: \"All Students Take Calculus\" (All positive, Sine positive, Tan positive, Cos positive)."
+  ],
+  "ch5_ex4_q4b": [
+    "$420^\\circ - 360^\\circ = 60^\\circ$, and $\\tan 60^\\circ = \\sqrt{3} \\approx 1.7321$ exactly. Learn it from the half-equilateral triangle with sides $1, \\sqrt{3}, 2$."
+  ],
+  "ch5_ex4_q4c": [
+    "Remove two full turns: $845^\\circ - 720^\\circ = 125^\\circ$. Then $\\cos 125^\\circ = -\\cos 55^\\circ \\approx -0.5736$."
+  ],
+  "ch5_ex4_q4d": [
+    "Small-angle check: after removing $360^\\circ$, the angle is $7^\\circ 35'$, about 0.132 radians. For small angles, $\\sin\\theta$ is close to the angle in radians, so about 0.132."
+  ],
+  "ch5_ex4_q5a": [
+    "Check by reversing: $\\sin 50^\\circ \\approx 0.766$, very close to 0.763, so $50^\\circ$ is right."
+  ],
+  "ch5_ex4_q5b": [
+    "Cosine near 1 means a small angle. Since $\\cos 30^\\circ \\approx 0.866$, a value of 0.912 must be an angle less than $30^\\circ$."
+  ],
+  "ch5_ex4_q5c": [
+    "Watch the rounding: $\\tan^{-1}(1.351) \\approx 53.49^\\circ$, which is just below the halfway point, so it rounds down to $53^\\circ$, not up to $54^\\circ$."
+  ],
+  "ch5_ex4_q6a": [
+    "Benchmark: $\\cos 60^\\circ = 0.5$ and cosine falls towards 0 at $90^\\circ$. So 0.321 must give an angle between $60^\\circ$ and $90^\\circ$."
+  ],
+  "ch5_ex4_q6b": [
+    "Handy identity: $\\tan^{-1}(k) = 90^\\circ - \\tan^{-1}\\left(\\frac{1}{k}\\right)$ for positive $k$. Since $\\frac{1}{12.86} \\approx 0.078$ is small, the angle is about $90^\\circ - 4.5^\\circ$."
+  ],
+  "ch5_ex4_q6c": [
+    "Sense check: 0.756 is just above $\\cos 45^\\circ \\approx 0.707$, so the angle should be a little under $45^\\circ$. $41^\\circ$ fits."
+  ],
+  "ch5_ex4_q7a": [
+    "Manual conversion if you have no DMS key: $54.49^\\circ \\to 0.49 \\times 60 \\approx 29'$, giving $54^\\circ 29'$. Use the full decimal from the calculator, not the rounded 0.49."
+  ],
+  "ch5_ex4_q7b": [
+    "Small-angle estimate: for small values, $\\sin^{-1}(k) \\approx k$ radians. $0.110 \\times \\frac{180}{\\pi} \\approx 6.3^\\circ$, which matches $6^\\circ 19'$."
+  ],
+  "ch5_ex4_q7c": [
+    "Small-angle estimate: $\\tan^{-1}(0.015) \\approx 0.015$ radians $= 0.015 \\times \\frac{180}{\\pi} \\approx 0.86^\\circ \\approx 52'$."
+  ],
+  "ch5_ex4_q8a": [
+    "Sense check: 0.296 is small, so the angle is fairly close to $90^\\circ$. It is past $60^\\circ$ because $\\cos 60^\\circ = 0.5$."
+  ],
+  "ch5_ex4_q8b": [
+    "Near $45^\\circ$, a tan value just below 1 gives an angle just below $45^\\circ$. Here the gap is only $12'$, so the answer is $44^\\circ 48'$."
+  ],
+  "ch5_ex4_q8c": [
+    "Benchmark: $\\sin 30^\\circ = 0.5$, so $\\sin\\theta = 0.450$ must give an angle a bit less than $30^\\circ$."
+  ],
+  "ch5_ex4_q9a": [
+    "Pattern: $\\tan^{-1}(0.5) + \\tan^{-1}(2) = 90^\\circ$, because they are the two acute angles of the triangle with legs 1 and 2. So $\\tan^{-1}(2) = 63^\\circ 26' 6''$."
+  ],
+  "ch5_ex4_q9b": [
+    "Calculator technique: press $\\cos^{-1}(0.438)$, then the DMS key, and read off degrees, minutes and seconds directly. A small minutes value like $1'$ is easy to miss when converting by hand."
+  ],
+  "ch5_ex4_q9c": [
+    "When rounding to the nearest second, do not round the degrees or minutes along the way. Only the final seconds figure should be rounded."
+  ],
+  "ch5_ex4_q10a": [
+    "Sense check: $\\tan\\theta$ is a little more than 1, so $\\theta$ is a little more than $45^\\circ$. $48^\\circ$ is reasonable."
+  ],
+  "ch5_ex4_q10b": [
+    "Same angle, three ways: $\\cos^{-1}(0.8) = \\sin^{-1}(0.6) = \\tan^{-1}(0.75)$, all from the 3-4-5 triangle. Its other acute angle is $53^\\circ 7' 48''$."
+  ],
+  "ch5_ex4_q10c": [
+    "Use $90^\\circ - \\tan^{-1}\\left(\\frac{1}{43.76}\\right)$ as a check. $\\frac{1}{43.76} \\approx 0.023$ radians $\\approx 1.3^\\circ$, so $\\theta \\approx 88.7^\\circ$."
+  ],
+  "ch5_ex4_q11a": [
+    "Estimate: $\\cos 42^\\circ$ is a little above $\\cos 45^\\circ \\approx 0.71$, so the answer is about $3.8 \\times 0.74 \\approx 2.8$."
+  ],
+  "ch5_ex4_q11b": [
+    "Link to 3-4-5: $\\sin 37^\\circ \\approx 0.6$, so $118 \\times 0.6 = 70.8$ is a fast estimate of 71.014."
+  ],
+  "ch5_ex4_q11c": [
+    "Mental check: $\\tan 83^\\circ \\approx 8.1$, so $2.5 \\times 8.1 \\approx 20$. Steep angles give large tangents."
+  ],
+  "ch5_ex4_q11d": [
+    "Exact value: $\\frac{2}{\\sin 45^\\circ} = \\frac{2}{1/\\sqrt{2}} = 2\\sqrt{2} \\approx 2.828$. No calculator is needed for the trig part."
+  ],
+  "ch5_ex4_q12a": [
+    "Dividing by $\\cos\\theta$ is the same as finding a hypotenuse from an adjacent side. That is why the result (226.7) is just a bit longer than 220 for a small angle."
+  ],
+  "ch5_ex4_q12b": [
+    "Calculator technique: type it as $(2\\cos(23)) \\div (5\\sin(18))$ with both sets of brackets. Without them, the calculator divides by 5 and then multiplies by $\\sin 18^\\circ$."
+  ],
+  "ch5_ex4_q12c": [
+    "Estimate: $60^\\circ 32'$ is just over $60^\\circ$, and $\\tan 60^\\circ = \\sqrt{3}$, so the answer is a bit less than $\\frac{12.8}{\\sqrt{3}} \\approx 7.39$."
+  ],
+  "ch5_ex4_q12d": [
+    "Sense check: $\\sin(35^\\circ 25' 42'')$ is about 0.58, so the answer should be a bit less than $18.7 \\div 0.5 = 37.4$. 32.259 is reasonable."
+  ],
+  "ch5_ex4_q13a": [
+    "$\\cos(89^\\circ 21') = \\sin(0^\\circ 39')$, which is about $0.65^\\circ$ in radians $\\approx 0.01134$. So the answer is about $55.7 \\div 0.01134 \\approx 4910$, a quick check on the huge result."
+  ],
+  "ch5_ex4_q13b": [
+    "Sense check: $\\tan(1^\\circ 51' 44'')$ is tiny (about 0.03), so the whole numerator is small and the result should be well below 1. 0.063 fits."
+  ],
+  "ch5_ex4_q13c": [
+    "$\\cos(83^\\circ 2') = \\sin(6^\\circ 58')$, which is small (about 0.12). That is why a small numerator can still give a result near 1."
+  ],
+  "ch5_ex4_q13d": [
+    "Simplify the numbers first: $\\frac{3.2}{0.8} = 4$, so the expression is $4 \\times \\frac{\\cos(34^\\circ 52')}{\\sin(12^\\circ 48')}$, which needs fewer keystrokes."
+  ],
+  "ch5_ex4_q14a": [
+    "Mnemonic: SOH-CAH-TOA, or \"Some Old Hens Cackle And Howl Till Old Age\". Sine is Opposite over Hypotenuse: $\\frac{e}{f}$.",
+    "Check: sine of an acute angle is always less than 1, because the hypotenuse is on the bottom and it is the longest side."
+  ],
+  "ch5_ex4_q14b": [
+    "Pythagoras link: $\\sin^2\\theta + \\cos^2\\theta = \\frac{e^2 + d^2}{f^2} = 1$, because $d^2 + e^2 = f^2$. This is a handy check that your sin and cos ratios are a matching pair."
+  ],
+  "ch5_ex4_q14c": [
+    "Check: $\\frac{\\sin\\theta}{\\cos\\theta} = \\frac{e/f}{d/f} = \\frac{e}{d}$, which is the same as your tan ratio."
+  ],
+  "ch5_ex4_q15a": [
+    "Quick way to find H in any orientation: look for the right-angle box. The hypotenuse is the one side that does not touch it."
+  ],
+  "ch5_ex4_q15b": [
+    "Of the two sides that touch $\\alpha$, one is the hypotenuse and the other is the adjacent side. Only the adjacent side touches both $\\alpha$ and the right angle."
+  ],
+  "ch5_ex4_q15c": [
+    "Check: $\\tan\\alpha = \\frac{\\sin\\alpha}{\\cos\\alpha} = \\frac{i/g}{h/g} = \\frac{i}{h}$. The hypotenuse cancels out."
+  ],
+  "ch5_ex4_q16a": [
+    "Finger trick: put your finger on $\\beta$. The side your finger is not touching (and that is not the hypotenuse) is the opposite side, here $l$."
+  ],
+  "ch5_ex4_q16b": [
+    "Orientation does not matter: \"adjacent\" means \"next to\", so the vertical side $j$ is adjacent to $\\beta$ because it forms one arm of the angle."
+  ],
+  "ch5_ex4_q16c": [
+    "Pattern: tan of one acute angle is the reciprocal of tan of the other. If the bottom-right angle is $\\gamma$, then $\\tan\\gamma = \\frac{j}{l}$, which is the flip of $\\frac{l}{j}$."
+  ],
+  "ch5_ex4_q17a": [
+    "Ignore the letters used as side names. Decide O, A and H from the diagram, then substitute the letters. That is how you avoid confusing the side named $o$ with O for opposite."
+  ],
+  "ch5_ex4_q17b": [
+    "Check with Pythagoras: $\\sin^2\\gamma + \\cos^2\\gamma = \\frac{n^2 + o^2}{m^2} = 1$. This confirms that $n$ and $o$ are the two legs and $m$ is the hypotenuse."
+  ],
+  "ch5_ex4_q17c": [
+    "$\\tan\\gamma = \\frac{\\sin\\gamma}{\\cos\\gamma} = \\frac{n/m}{o/m} = \\frac{n}{o}$, so you can build the tan ratio from your answers to parts a and b."
+  ],
+  "ch5_ex4_q18a": [
+    "Link: $\\sin\\beta = \\frac{b}{c}$ is also $\\cos$ of the other acute angle (at the bottom right), since $b$ is adjacent to that angle. Sine and cosine of complementary angles match."
+  ],
+  "ch5_ex4_q18b": [
+    "Using standard labelling, side $a$ is usually opposite angle A. Here the letters are just names, so always relabel O, A and H from the diagram."
+  ],
+  "ch5_ex4_q18c": [
+    "Build it from parts a and b: $\\frac{\\sin\\beta}{\\cos\\beta} = \\frac{b/c}{a/c} = \\frac{b}{a}$."
+  ],
+  "ch5_ex4_q19a": [
+    "The opposite side is the one across the triangle from the angle, directly facing it. From the bottom-right corner, that is the vertical side $v$."
+  ],
+  "ch5_ex4_q19b": [
+    "Check the pair: $\\sin^2\\gamma + \\cos^2\\gamma = \\frac{v^2 + t^2}{u^2} = 1$ only if $u$ is the hypotenuse, which confirms your labels."
+  ],
+  "ch5_ex4_q19c": [
+    "Tan measures the steepness of the hypotenuse seen from angle $\\gamma$: rise over run, $\\frac{v}{t}$. This links trig to gradient in coordinate geometry."
+  ],
+  "ch5_ex4_q20a": [
+    "Simplify the fraction: $\\sin\\theta = \\frac{15}{18} = \\frac{5}{6}$. Smaller numbers make the next step, $\\theta = \\sin^{-1}\\left(\\frac{5}{6}\\right) \\approx 56.4^\\circ$, easier to check."
+  ],
+  "ch5_ex4_q20b": [
+    "Simplify: $\\cos\\theta = \\frac{22}{30} = \\frac{11}{15}$. A cos value must be less than 1, which confirms that 30 is on the bottom."
+  ],
+  "ch5_ex4_q20c": [
+    "Quick decision rule: if the hypotenuse is not involved, it is always tan. Then only the order matters, opposite on top."
+  ],
+  "ch5_ex4_q21a": [
+    "Plan ahead: to solve for $p$, rearrange to $p = \\frac{3.6}{\\tan\\theta}$. When the unknown is on the bottom, it swaps places with the trig value."
+  ],
+  "ch5_ex4_q21b": [
+    "Solving gives $t = \\frac{13}{\\sin 25^\\circ} \\approx 30.76$. Check: the hypotenuse must be longer than 13, and a small angle makes the opposite side much shorter than the hypotenuse."
+  ],
+  "ch5_ex4_q21c": [
+    "Sense check: $\\frac{18.6}{23.5} \\approx 0.79$ is less than 1, as every sine of an acute angle must be. A ratio above 1 would mean the sides were swapped."
+  ],
+  "ch5_ex4_q22a": [
+    "Order of labelling: H (opposite the right angle) first, then O (opposite the given angle). Whatever side is left must be A."
+  ],
+  "ch5_ex4_q22bi": [
+    "Link: $\\sin 37^\\circ \\approx 0.60$, $\\cos 37^\\circ \\approx 0.80$ and $\\tan 37^\\circ \\approx 0.75$ match the 3-4-5 triangle ($\\frac{3}{5}, \\frac{4}{5}, \\frac{3}{4}$). A $37^\\circ$ right triangle is very nearly a 3-4-5 triangle."
+  ],
+  "ch5_ex4_q22bii": [
+    "Check with $\\sin^2 + \\cos^2 = 1$: $0.60^2 + 0.80^2 = 0.36 + 0.64 = 1$."
+  ],
+  "ch5_ex4_q22biii": [
+    "Think of it as $\\frac{3}{4}$ from the near 3-4-5 triangle. Since $37^\\circ < 45^\\circ$, tan must be less than 1."
+  ],
+  "ch5_ex4_q22c": [
+    "Shortcut: in any right-angled triangle the other acute angle is $90^\\circ$ minus the given one, so $90^\\circ - 37^\\circ = 53^\\circ$. You do not need the full angle sum."
+  ],
+  "ch5_ex4_q23ai": [
+    "No new calculation needed: $\\sin 53^\\circ = \\cos 37^\\circ \\approx 0.80$, because the side opposite $53^\\circ$ is the side adjacent to $37^\\circ$."
+  ],
+  "ch5_ex4_q23aii": [
+    "$\\cos 53^\\circ = \\sin 37^\\circ \\approx 0.60$. In the 3-4-5 picture, the 3 and the 4 simply swap roles."
+  ],
+  "ch5_ex4_q23aiii": [
+    "$\\tan 53^\\circ \\approx \\frac{4}{3} \\approx 1.33$, the reciprocal of $\\frac{3}{4}$. Since $53^\\circ > 45^\\circ$, tan is greater than 1."
+  ],
+  "ch5_ex4_q23b": [
+    "The name says it: \"cosine\" is short for \"complement's sine\". $\\cos\\alpha$ is the sine of the angle that makes $90^\\circ$ with $\\alpha$, which is $37^\\circ$."
+  ],
+  "ch5_ex4_q23c": [
+    "Same pattern the other way round: $\\sin(90^\\circ - \\theta) = \\cos\\theta$. Try it on a calculator with any pair, such as $\\sin 70^\\circ$ and $\\cos 20^\\circ$."
+  ],
+  "ch5_ex4_q23d": [
+    "Bonus pattern: $\\tan(90^\\circ - \\theta) = \\frac{1}{\\tan\\theta}$, because opposite and adjacent swap when you switch to the complementary angle."
+  ],
+  "ch5_ex4_q24": [
+    "Why it works: dividing both sin and cos by the same hypotenuse means $h$ cancels, leaving only $\\frac{o}{a}$.",
+    "A related identity follows the same way: dividing $o^2 + a^2 = h^2$ by $h^2$ gives $\\sin^2\\theta + \\cos^2\\theta = 1$."
+  ],
+  "ch5_ex4_q25a": [
+    "Choose the right triangle by its labels: triangle BDC has hypotenuse $a$ and leg $x$, so it gives $h^2$ in terms of $a$ and $x$ directly."
+  ],
+  "ch5_ex4_q25b": [
+    "Expand carefully: $(b - x)^2 = b^2 - 2bx + x^2$. The middle term $-2bx$ is the part most often forgotten."
+  ],
+  "ch5_ex4_q25c": [
+    "Strategy: when two different expressions both equal $h^2$, set them equal to each other to remove $h$. This is the same trick used whenever two right triangles share a side."
+  ],
+  "ch5_ex4_q25d": [
+    "In triangle BDC, $\\cos C = \\frac{x}{a}$, so $x = a\\cos C$. Substitute it into $c^2 = a^2 + b^2 - 2bx$.",
+    "Think of the cosine rule as \"Pythagoras plus a correction\": the $-2ab\\cos C$ term shrinks $c$ when $C$ is acute and grows it when $C$ is obtuse."
+  ],
+  "ch5_ex4_q26": [
+    "Limiting-case check: if $\\theta = 90^\\circ$, side DA is vertical, $\\frac{y}{\\tan\\theta} \\to 0$ and $DC = x$, which is correct for a rectangle."
+  ],
+  "ch5_ex4_q27": [
+    "Decision rule: first ask \"Is the hypotenuse involved?\" If not, use tan. If it is, ask \"Is the other side opposite or adjacent?\" Opposite means sin, adjacent means cos."
+  ],
+  "ch5_ex4_q28": [
+    "Check with a special case: if $\\theta = 0$, there is no lighthouse, and the formula gives $t = 110\\tan\\alpha - 110\\tan\\alpha = 0$, as it should."
+  ]
+}

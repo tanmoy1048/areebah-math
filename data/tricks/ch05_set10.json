@@ -1,0 +1,104 @@
+{
+  "ch5_ex10_q1": [
+    "Eliminate options fast: the third side must be shorter than the 5.6 m hypotenuse but more than $5.6 - 2.84 = 2.76$ m. That rules out 483 m and 23.3 cm straight away.",
+    "Work in metres: $\\sqrt{5.6^2 - 2.84^2} \\approx 4.826$ m, which is 4826 mm. The answer options mix units on purpose."
+  ],
+  "ch5_ex10_q2": [
+    "Quick bounds: the hypotenuse must be longer than the longest leg (9) but less than $5 + 9 = 14$. Since $\\sqrt{106}$ is just over $\\sqrt{100} = 10$, choose 10.3."
+  ],
+  "ch5_ex10_q3": [
+    "Memorise: a cube's space diagonal is side $\\times \\sqrt{3} \\approx 1.73 \\times$ side, so for side 10 it is about 17.3."
+  ],
+  "ch5_ex10_q4": [
+    "Picture the unit circle: sine is the height of the point. $38^\\circ$ and $142^\\circ$ are mirror images across the vertical axis, so they have the same height.",
+    "Quick test: $38^\\circ + 142^\\circ = 180^\\circ$. Two angles adding to $180^\\circ$ always have equal sines."
+  ],
+  "ch5_ex10_q5": [
+    "Estimate: $52'$ is a bit less than $1^\\circ$ ($52 \\div 60 \\approx 0.87$), so the answer must be about $118.87^\\circ$. Only D fits."
+  ],
+  "ch5_ex10_q6": [
+    "Shortcut: $\\sin\\alpha$ and $\\cos\\alpha$ can't both equal $\\dfrac{a}{c}$ unless $\\alpha = 45^\\circ$. Spot the pair that clash (B and C) and test which one is wrong."
+  ],
+  "ch5_ex10_q7": [
+    "Look for pairs that add to $90^\\circ$: $42 + 48 = 90$. Only complementary angles swap sine for cosine."
+  ],
+  "ch5_ex10_q8": [
+    "The answer must be shorter than the hypotenuse 28.7. Option D divides by a number less than 1, so it gives something longer and can be ruled out at once."
+  ],
+  "ch5_ex10_q9": [
+    "When finding an angle, the answer must use an inverse function, which rules out A. Then the sine ratio must be at most 1, which rules out C."
+  ],
+  "ch5_ex10_q10": [
+    "Trap: C ($222^\\circ$T) is just S$42^\\circ$W converted to a true bearing. It answers the wrong direction: school from station, not station from school."
+  ],
+  "ch5_ex10_q11a": [
+    "Difference of squares shortcut: $c^2 - b^2 = (c - b)(c + b) = 74.4 \\times 171.8$, then take the square root."
+  ],
+  "ch5_ex10_q11b": [
+    "Difference of squares: $117^2 - 82^2 = 35 \\times 199 = 6965$, which is easy without squaring large numbers. Then $\\sqrt{6965} \\approx 83.46$.",
+    "Notice $x$ comes out slightly longer than 82. The hypotenuse 117 is still the longest side, so this is fine."
+  ],
+  "ch5_ex10_q12": [
+    "In a $45^\\circ$-$45^\\circ$-$90^\\circ$ triangle, the leg is hypotenuse $\\div \\sqrt{2}$, so $x = \\dfrac{13.4}{\\sqrt{2}} \\approx 9.48$ in one step."
+  ],
+  "ch5_ex10_q13": [
+    "Half-diagonal of an 8 mm square is $4\\sqrt{2}$, so its square is 32. Then $h = \\sqrt{100 - 32} = \\sqrt{68} = 2\\sqrt{17}$."
+  ],
+  "ch5_ex10_q14": [
+    "Estimate: $\\tan 35^\\circ \\approx 0.7$, so $0.7 \\times 23 \\approx 16.1$, plus 1.5 gives about 17.6 m."
+  ],
+  "ch5_ex10_q15": [
+    "The eye is $27 + 1.8 = 28.8$ m up. Because $47^\\circ$ is just over $45^\\circ$, the horizontal distance comes out a little less than 28.8 m.",
+    "Avoid dividing: distance $= 28.8\\tan 43^\\circ$, using the angle at the man measured from the vertical."
+  ],
+  "ch5_ex10_q16": [
+    "$185^\\circ$T is only $5^\\circ$ past due south, so the westward part is small: about $780 \\times \\sin 5^\\circ$, roughly $780 \\times 0.087 \\approx 68$ km."
+  ],
+  "ch5_ex10_q17": [
+    "Shortcut: west $= -(3.2\\sin 250^\\circ + 1.8\\sin 320^\\circ)$. The calculator's negative sines automatically mean west.",
+    "The first leg is $20^\\circ$ below west and the second is $50^\\circ$ above west, so west parts are $3.2\\cos 20^\\circ + 1.8\\cos 50^\\circ$."
+  ],
+  "ch5_ex10_q18": [
+    "Since $\\dfrac{2.6}{4} = 0.65$ is above $\\sin 30^\\circ = 0.5$ but below $\\sin 45^\\circ \\approx 0.71$, the angle is between $30^\\circ$ and $45^\\circ$."
+  ],
+  "ch5_ex10_q19a": [
+    "Use the complement to avoid dividing: half-edge $= 13\\tan 23^\\circ$, so edge $= 26\\tan 23^\\circ \\approx 11.04$ cm."
+  ],
+  "ch5_ex10_q19b": [
+    "Diagonal $= \\text{edge} \\times \\sqrt{2}$. One multiplication instead of a full Pythagoras."
+  ],
+  "ch5_ex10_q19c": [
+    "Square-pyramid link: $\\tan(\\text{edge angle}) = \\dfrac{\\tan(\\text{face angle})}{\\sqrt{2}} = \\dfrac{\\tan 67^\\circ}{\\sqrt{2}}$, which gives $59^\\circ 1'$ directly."
+  ],
+  "ch5_ex10_q20a": [
+    "Speeds in m/s: $72 \\div 3.6 = 20$ and $90 \\div 3.6 = 25$. In 40 s the cars cover 800 m and 1000 m.",
+    "The 6 m height barely matters: $\\sqrt{800^2 + 1000^2} \\approx 1280.62$, and adding $6^2$ changes it only to 1280.64."
+  ],
+  "ch5_ex10_q20b": [
+    "Solve $800^2 + (25t)^2 + 6^2 = 3500^2$ for $t$ directly, with $t$ in seconds after noon. Then convert: 136.3 s is 2 min 16.3 s."
+  ],
+  "ch5_ex10_q21": [
+    "Height difference $= 20(\\tan 59^\\circ - \\tan 31^\\circ)$. Since $59^\\circ + 31^\\circ = 90^\\circ$, $\\tan 59^\\circ = \\dfrac{1}{\\tan 31^\\circ}$, a neat check on your calculator."
+  ],
+  "ch5_ex10_q22a": [
+    "Factor out $b$ first: the triangle is just a 2-6-? triangle scaled by $b$. So find $\\sqrt{36 - 4} = \\sqrt{32} = 4\\sqrt{2}$, then attach $b$."
+  ],
+  "ch5_ex10_q22b": [
+    "The smallest angle is opposite the shortest side: $\\sin^{-1}\\left(\\dfrac{2b}{6b}\\right) = \\sin^{-1}\\left(\\dfrac{1}{3}\\right) \\approx 19.5^\\circ$."
+  ],
+  "ch5_ex10_q22c": [
+    "Check with a number: if $b = 1$, the legs are 2 and $4\\sqrt{2} \\approx 5.66$, so the area is $\\tfrac{1}{2} \\times 2 \\times 5.66 \\approx 5.66 = 4\\sqrt{2}$."
+  ],
+  "ch5_ex10_q23a": [
+    "Spot it: 2.3 is exactly half of 4.6, so $\\cos\\theta = \\tfrac{1}{2}$ and the angle is exactly $60^\\circ$. This is the 1-$\\sqrt{3}$-2 triangle."
+  ],
+  "ch5_ex10_q23b": [
+    "Since this is a $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle scaled by 2.3, the third side is $2.3\\sqrt{3} \\approx 3.98$ km exactly, with no subtraction needed."
+  ],
+  "ch5_ex10_q23c": [
+    "The club-to-station side ($2.3\\sqrt{3}$) is unchanged and is opposite the yacht's angle, so $\\sin\\theta = \\dfrac{2.3\\sqrt{3}}{4.2}$."
+  ],
+  "ch5_ex10_q23d": [
+    "Check with part c: distance $= \\dfrac{2.3\\sqrt{3}}{\\tan 71.5^\\circ} \\approx 1.33$ km, which agrees with the Pythagoras answer."
+  ]
+}

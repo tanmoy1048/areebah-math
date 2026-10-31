@@ -1,0 +1,194 @@
+{
+  "ch11_ex7_q1": [
+    "Venn picture: $M$ is the circle and $M'$ is everything else in the rectangle. Together they fill the rectangle exactly once."
+  ],
+  "ch11_ex7_q2": [
+    "One shared element is enough to rule a pair out, so scan each pair for a single common number and move on as soon as you find one."
+  ],
+  "ch11_ex7_q3": [
+    "Size check: 'both happen' can never be more likely than either event alone. Multiplying numbers between 0 and 1 makes the result smaller, which fits.",
+    "The law needs independence; for dependent events use $\\Pr(A) \\times \\Pr(B \\mid A)$."
+  ],
+  "ch11_ex7_q4": [
+    "Memory aid: $\\cup$ looks like a U for Union (everything in either set); $\\cap$ is the upside-down version for the overlap."
+  ],
+  "ch11_ex7_q5": [
+    "Shortcut: you do not need to list $B'$. Start with $A$ and cross out anything that is also in $B$."
+  ],
+  "ch11_ex7_q6": [
+    "If the two people were simply chosen with no titles, divide by 2: ${}^{12}C_{2} = 66$."
+  ],
+  "ch11_ex7_q7a": [
+    "Shortcut: $A' \\cup B$ is the complement of $A \\cap B'$, so shade everything except the '$A$ only' region."
+  ],
+  "ch11_ex7_q7b": [
+    "In words, $A' \\cap B'$ means 'neither $A$ nor $B$', so its probability is $1 - \\Pr(A \\cup B)$."
+  ],
+  "ch11_ex7_q7c": [
+    "A three-circle Venn diagram has 8 regions, and an expression using every set once, like $A' \\cap B' \\cap C$, picks out exactly one of them."
+  ],
+  "ch11_ex7_q8a": [
+    "Memory aid: P for 'Positions matter' (permutations), C for 'Choose a group' (combinations)."
+  ],
+  "ch11_ex7_q8b": [
+    "Pattern: ${}^{n}P_{r}$ is $r$ numbers counting down from $n$, so ${}^{10}P_{3} = 10 \\times 9 \\times 8$ straight away."
+  ],
+  "ch11_ex7_q8c": [
+    "Test the formula on a small case: $n = 5$, $r = 2$ gives $\\frac{120}{6} = 20 = 5 \\times 4$.",
+    "Edge check: $r = n$ gives $\\frac{n!}{0!} = n!$, which agrees with arranging all $n$ objects because $0! = 1$."
+  ],
+  "ch11_ex7_q9": [
+    "Trap alert: A and B are both the 'wet' probability. Turn 1% into a fraction: $1\\% = \\frac{1}{100}$."
+  ],
+  "ch11_ex7_q10": [
+    "Card facts: hearts and diamonds are red, clubs and spades are black, so each colour is exactly half the deck."
+  ],
+  "ch11_ex7_q11": [
+    "Pattern: totals or counts built from several equally likely outcomes are usually not equally likely. The middle values can be made in more ways, as with the dice totals in Question 18."
+  ],
+  "ch11_ex7_q12": [
+    "Experimental probability is only an estimate: the more matches it is based on, the more you can trust it."
+  ],
+  "ch11_ex7_q13a": [
+    "Shortcut: there are 13 ranks and every rank appears equally often, so any one rank has probability $\\frac{1}{13}$."
+  ],
+  "ch11_ex7_q13b": [
+    "A spade has the same chance whatever its rank, so think '1 suit out of 4' rather than '13 out of 52'."
+  ],
+  "ch11_ex7_q13c": [
+    "Contrast: 'queen or heart' does overlap (the queen of hearts), giving $\\frac{4 + 13 - 1}{52} = \\frac{16}{52}$."
+  ],
+  "ch11_ex7_q13d": [
+    "Not a heart means one of the other 3 suits, so $\\frac{3}{4}$ immediately."
+  ],
+  "ch11_ex7_q14a": [
+    "Five rolls give $6^5 = 7776$ equally likely sequences, and 66666 is just one of them."
+  ],
+  "ch11_ex7_q14b": [
+    "When the answer is $1 - \\frac{1}{N}$, write it as $\\frac{N-1}{N}$ to avoid fraction work: $\\frac{7775}{7776}$."
+  ],
+  "ch11_ex7_q15a": [
+    "Only one dog can win, so the three 'their dog wins' events are mutually exclusive and their chances simply add."
+  ],
+  "ch11_ex7_q15b": [
+    "Count directly as a check: 5 of the 8 dogs belong to other owners, so $\\frac{5}{8}$."
+  ],
+  "ch11_ex7_q16a": [
+    "Mutually exclusive is not the same as independent. Here $\\Pr(A \\cap B) = 0 \\ne \\frac{1}{2} \\times \\frac{1}{6}$, so these events are dependent: rolling a 3 tells you the number is not even."
+  ],
+  "ch11_ex7_q16b": [
+    "Half the faces of a die are even, so $\\Pr(A) = \\frac{1}{2}$ without counting."
+  ],
+  "ch11_ex7_q16c": [
+    "Complement check: the outcomes not in $A \\cup B$ are 1 and 5, so $1 - \\frac{2}{6} = \\frac{2}{3}$."
+  ],
+  "ch11_ex7_q17a": [
+    "Not mutually exclusive, but independent: knowing a card is a club does not change its chance of being an ace ($\\frac{1}{13}$ either way)."
+  ],
+  "ch11_ex7_q17b": [
+    "Notice $\\frac{1}{4} \\times \\frac{1}{13} = \\frac{1}{52} = \\Pr(A \\cap B)$, which confirms suit and rank are independent."
+  ],
+  "ch11_ex7_q17c": [
+    "Count directly: 13 clubs plus the 3 aces that are not clubs gives 16 cards, so $\\frac{16}{52}$."
+  ],
+  "ch11_ex7_q18a": [
+    "In the table, each diagonal running from top-right to bottom-left has the same total. That makes the next parts easy to read off."
+  ],
+  "ch11_ex7_q18b": [
+    "Count along the diagonals: 1, 2, 3, 4, 3, 2, 1, a rise-and-fall pattern like the totals for two ordinary dice."
+  ],
+  "ch11_ex7_q18c": [
+    "A total of 0 needs both dice to show 0: $\\frac{1}{4} \\times \\frac{1}{4} = \\frac{1}{16}$."
+  ],
+  "ch11_ex7_q18d": [
+    "The most likely total is the middle one, halfway between the smallest and largest: $\\frac{0 + 6}{2} = 3$."
+  ],
+  "ch11_ex7_q18e": [
+    "Why the pairs match: swap every face $x$ for $3 - x$, and a total $t$ becomes $6 - t$, so $t$ and $6 - t$ are equally likely."
+  ],
+  "ch11_ex7_q19a": [
+    "Combinations check: $\\frac{{}^{5}C_{2}}{{}^{20}C_{2}} = \\frac{10}{190} = \\frac{1}{19}$."
+  ],
+  "ch11_ex7_q19b": [
+    "Combinations check: $\\frac{{}^{15}C_{2}}{{}^{20}C_{2}} = \\frac{105}{190} = \\frac{21}{38}$."
+  ],
+  "ch11_ex7_q19c": [
+    "Quickest route: $1 - \\Pr(BB) - \\Pr(GG) = 1 - \\frac{2}{38} - \\frac{21}{38} = \\frac{15}{38}$."
+  ],
+  "ch11_ex7_q20a": [
+    "With replacement, 'two aces' is just $\\left(\\frac{1}{13}\\right)^2$."
+  ],
+  "ch11_ex7_q20b": [
+    "$\\frac{1}{221}$ is smaller than $\\frac{1}{169}$ because one ace is gone. Check with combinations: $\\frac{{}^{4}C_{2}}{{}^{52}C_{2}} = \\frac{6}{1326} = \\frac{1}{221}$."
+  ],
+  "ch11_ex7_q21": [
+    "If only the group of top 3 mattered (not who came first), divide by $3!$: $\\frac{2730}{6} = 455$."
+  ],
+  "ch11_ex7_q22": [
+    "Tally letters by rewriting the word alphabetically: AA BB G LL N OOOO W, which gives 13 letters."
+  ],
+  "ch11_ex7_q23": [
+    "Use symmetry to shorten the work: ${}^{8}C_{5} = {}^{8}C_{3}$ and ${}^{9}C_{5} = {}^{9}C_{4}$."
+  ],
+  "ch11_ex7_q24a": [
+    "Handshake reasoning: each of 16 players plays 15 others, giving $16 \\times 15$, but that counts every match twice."
+  ],
+  "ch11_ex7_q24b": [
+    "Unit check: matches $\\div$ (matches per day) gives days, so make sure the 12 is per day, not per court."
+  ],
+  "ch11_ex7_q25a": [
+    "Compare with Question 24: splitting into two pools cuts the matches from 120 to 57, less than half."
+  ],
+  "ch11_ex7_q25b": [
+    "Time slots must be whole numbers, so always round up: $\\frac{56}{3}$ needs 19 slots, not $18\\frac{2}{3}$."
+  ],
+  "ch11_ex7_q26a": [
+    "The 'one loser per match' argument works for any number of players: 13 players in a knock out also need $13 - 1 = 12$ matches."
+  ],
+  "ch11_ex7_q26b": [
+    "Lower bound: there are 4 rounds that must happen one after another, so at least 4 slots are needed however many courts you have."
+  ],
+  "ch11_ex7_q27a": [
+    "Complement shortcut: $1 - \\Pr(\\text{neither}) = 1 - \\frac{10}{25} = \\frac{15}{25}$."
+  ],
+  "ch11_ex7_q27b": [
+    "Reverse it to see the difference: $\\Pr(S \\mid B) = \\frac{8}{13}$, because the beach circle holds $5 + 8 = 13$."
+  ],
+  "ch11_ex7_q28a": [
+    "Check the finished tree: the four end products $0.4875 + 0.2625 + 0.1 + 0.15$ must add to 1."
+  ],
+  "ch11_ex7_q28b": [
+    "Estimate: the overall win chance must lie between 0.40 and 0.65, and closer to 0.65 because full training is more common."
+  ],
+  "ch11_ex7_q28c": [
+    "Picture 400 games: 300 with full training (195 wins) and 100 without (40 wins). Of the 235 wins, 40 had incomplete training: $\\frac{40}{235} = \\frac{8}{47}$.",
+    "$\\frac{8}{47} \\approx 0.17$ is less than 0.25: a win makes poor training less likely, which makes sense."
+  ],
+  "ch11_ex7_q29a": [
+    "Complement link: $\\Pr(\\text{at least one right}) = 1 - \\frac{3}{5} = \\frac{2}{5}$."
+  ],
+  "ch11_ex7_q29b": [
+    "Compare fractions on a common denominator: $\\frac{3}{5} = \\frac{9}{15}$ against $\\frac{8}{15}$."
+  ],
+  "ch11_ex7_q30a": [
+    "Simplify first: 4 OFF out of 20 is 1 card in every 5."
+  ],
+  "ch11_ex7_q30b": [
+    "Once the card is replaced, every student faces the same box, so the order of drawing does not matter."
+  ],
+  "ch11_ex7_q30c": [
+    "Contrast: without replacement it would be $\\frac{4}{20} \\times \\frac{3}{19} = \\frac{3}{95}$, slightly less than $\\frac{1}{25}$."
+  ],
+  "ch11_ex7_q31a": [
+    "Tree method gives the same result: $\\frac{13}{52} \\times \\frac{12}{51} \\times \\frac{11}{50} \\times \\frac{10}{49} \\times \\frac{9}{48} \\approx 0.000\\,495$."
+  ],
+  "ch11_ex7_q31b": [
+    "In everyday terms: about 1 hand in every 505 is a flush."
+  ],
+  "ch11_ex7_q32a": [
+    "With one sibling, 'at least one sister' is just 'the sibling is a girl'."
+  ],
+  "ch11_ex7_q32b": [
+    "General pattern: with $n$ siblings, $\\Pr(\\text{at least one sister}) = 1 - \\left(\\frac{1}{2}\\right)^n$. For $n = 3$, $1 - \\frac{1}{8} = \\frac{7}{8}$."
+  ]
+}

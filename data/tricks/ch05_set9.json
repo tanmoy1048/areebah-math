@@ -1,0 +1,147 @@
+{
+  "ch5_ex9_q1": [
+    "Isosceles triangles hide two identical right-angled triangles. Drop the line from the apex to the midpoint and the 10.6 m span becomes two 5.3 m bases.",
+    "Estimate: $\\cos 30^\\circ \\approx 0.87$, so $PR \\approx 5.3 \\div 0.87 \\approx 6.1$ m."
+  ],
+  "ch5_ex9_q2": [
+    "The mast (7.7 m) is almost twice the 4 m base distance, so $\\tan\\theta \\approx 2$. That puts the angle a bit above $60^\\circ$ ($\\tan 60^\\circ \\approx 1.73$)."
+  ],
+  "ch5_ex9_q3a": [
+    "Estimate: $\\tan 20^\\circ \\approx 0.36$, so the height is about $0.36 \\times 5 = 1.8$ m."
+  ],
+  "ch5_ex9_q3b": [
+    "Each strut joins the right angle to the midpoint of a rafter, which is the hypotenuse. The midpoint of a hypotenuse is the same distance from all three corners, so each strut is exactly half a rafter.",
+    "So total steel $= 10 + 2R + 1.82 + R = 11.82 + 3R$, where $R = \\dfrac{5}{\\cos 20^\\circ} \\approx 5.321$."
+  ],
+  "ch5_ex9_q4": [
+    "Moving the foot away makes the ladder lean more, so the angle with the wall must increase from $20^\\circ$. The answer $31^\\circ 49'$ passes that check.",
+    "The ladder length stays 2.7 m: it is the hypotenuse both before and after the move."
+  ],
+  "ch5_ex9_q5": [
+    "Estimate: $\\tan 38^\\circ \\approx 0.78$, so $AB \\approx 5 \\div 0.78 \\approx 6.4$ m and half of it is about 3.2. Then $\\sqrt{5^2 + 3.2^2} \\approx 5.9$."
+  ],
+  "ch5_ex9_q6": [
+    "South and east are at right angles, so the two ground distances are the legs of a flat right triangle. Find both with $\\dfrac{20}{\\tan\\theta}$, then use Pythagoras.",
+    "The smaller elevation angle ($27^\\circ$) means Ginger is further away than Atlanta."
+  ],
+  "ch5_ex9_q7": [
+    "The vertical leg is the height difference, $350 - 155 = 195$ cm. The angle is measured from the vertical wall, so the horizontal distance is opposite it: $195\\tan 55^\\circ$.",
+    "Common trap: the $55^\\circ$ is not an angle of elevation. Check which line the angle touches before choosing tan or its reciprocal."
+  ],
+  "ch5_ex9_q8": [
+    "Exact value: $\\tan 30^\\circ = \\dfrac{1}{\\sqrt{3}}$, so the height is $\\dfrac{500}{\\sqrt{3}} \\approx 288.68$ m.",
+    "To hit a 40 m-high target from 500 m, the angle needed is only $\\tan^{-1}\\left(\\dfrac{40}{500}\\right) \\approx 4.6^\\circ$."
+  ],
+  "ch5_ex9_q9": [
+    "One line: distance walked $= 220\\left(\\dfrac{1}{\\tan 41^\\circ} - \\dfrac{1}{\\tan 75^\\circ}\\right)$.",
+    "Using complements avoids dividing: $\\dfrac{1}{\\tan 41^\\circ} = \\tan 49^\\circ$, so the distance is $220(\\tan 49^\\circ - \\tan 15^\\circ)$."
+  ],
+  "ch5_ex9_q10": [
+    "Distance sailed $= 893(\\tan 76^\\circ - \\tan 63^\\circ) \\approx 1829$ m, using the angles measured at the peak ($90^\\circ - 14^\\circ$ and $90^\\circ - 27^\\circ$)."
+  ],
+  "ch5_ex9_q11a": [
+    "$\\dfrac{10}{50} = 0.2$, and for small angles $\\sin\\theta \\approx \\theta$ in radians. $0.2$ rad $\\approx 11.5^\\circ$, matching $11^\\circ 32'$."
+  ],
+  "ch5_ex9_q11b": [
+    "BE is the diagonal across the desk top: $\\sqrt{1.2^2 + 0.5^2} = 1.3$ m exactly. This is a scaled 5-12-13 triangle, so no calculator is needed.",
+    "Same 10 cm rise over a longer slope (1.3 m instead of 0.5 m) gives a gentler angle, so expect much less than $11^\\circ$."
+  ],
+  "ch5_ex9_q12a": [
+    "Every square's diagonal is side $\\times \\sqrt{2}$ (about 1.414 times the side). This is quicker than writing out Pythagoras."
+  ],
+  "ch5_ex9_q12b": [
+    "$BG = \\sqrt{25^2 + 45^2} = \\sqrt{2650} = 5\\sqrt{106}$. Factoring out 5 first ($5\\sqrt{5^2 + 9^2}$) keeps the numbers small."
+  ],
+  "ch5_ex9_q12c": [
+    "Symmetry shortcut: because the end is square, the bottom face and the side face are identical $25 \\times 45$ rectangles, so their diagonals are equal."
+  ],
+  "ch5_ex9_q12d": [
+    "Space-diagonal formula: $\\sqrt{l^2 + w^2 + h^2} = \\sqrt{45^2 + 25^2 + 25^2} = \\sqrt{3275}$. It is Pythagoras used twice in one step."
+  ],
+  "ch5_ex9_q12e": [
+    "The ratio $\\dfrac{25}{45} = \\dfrac{5}{9}$ is under 1, so the angle is under $45^\\circ$."
+  ],
+  "ch5_ex9_q12f": [
+    "The angle between a line and a plane is measured to the line's shadow on the plane. Here BE is the shadow of BH on the base, so the right angle is at E."
+  ],
+  "ch5_ex9_q12g": [
+    "The diagonals of a rectangle bisect each other, so $OF = \\tfrac{1}{2}BE \\approx 25.74$. No new Pythagoras is needed."
+  ],
+  "ch5_ex9_q12h": [
+    "FG is just a vertical edge of the cuboid, the same as the 25 cm height, so its midpoint splits it into 12.5 cm halves."
+  ],
+  "ch5_ex9_q12i": [
+    "Both legs of triangle OFX are half those of triangle BEH ($OF = \\tfrac{1}{2}BE$, $FX = \\tfrac{1}{2}EH$), so the two triangles are similar. Scaling a triangle never changes its angles, so $\\angle FOX = \\angle EBH$."
+  ],
+  "ch5_ex9_q12j": [
+    "Because triangle OFX is a half-scale copy of triangle BEH, $OX = \\tfrac{1}{2}BH$. Check: $\\sqrt{25.74^2 + 12.5^2} \\approx 28.61$."
+  ],
+  "ch5_ex9_q13a": [
+    "The angle a face makes with the base sits in the triangle with height 26 and half-side 6. Draw that triangle on its own before calculating.",
+    "A tall, thin pyramid (height more than four times the half-side) must have steep faces, so a large angle like $77^\\circ$ makes sense."
+  ],
+  "ch5_ex9_q13b": [
+    "Half-diagonal $= 6\\sqrt{2} \\approx 8.49$. It is longer than the half-side 6, so the edge angle is less steep than the face angle."
+  ],
+  "ch5_ex9_q13c": [
+    "Exact working: edge $= \\sqrt{26^2 + (6\\sqrt{2})^2} = \\sqrt{676 + 72} = \\sqrt{748}$. No rounded angles are needed."
+  ],
+  "ch5_ex9_q14a": [
+    "The adjacent side is half the base, $2.85$ cm. A common error is to use the full 5.7 cm."
+  ],
+  "ch5_ex9_q14b": [
+    "General link for square pyramids: $\\tan(\\text{edge angle}) = \\dfrac{\\tan(\\text{face angle})}{\\sqrt{2}}$, because the half-diagonal is $\\sqrt{2}$ times the half-side. Here $\\dfrac{\\tan 68^\\circ}{\\sqrt{2}} \\approx 1.75$."
+  ],
+  "ch5_ex9_q14c": [
+    "Check: edge $= \\dfrac{h}{\\sin(\\text{edge angle})} = \\dfrac{7.054}{\\sin 60.26^\\circ} \\approx 8.12$ cm."
+  ],
+  "ch5_ex9_q15a": [
+    "Use the complement to avoid dividing: half-side $= 47\\tan 17^\\circ$, so side $= 94\\tan 17^\\circ \\approx 28.74$ cm."
+  ],
+  "ch5_ex9_q15b": [
+    "Diagonal $= \\text{side} \\times \\sqrt{2}$. Multiply the stored unrounded side by 1.414..., using the $\\sqrt{\\ }$ key."
+  ],
+  "ch5_ex9_q15c": [
+    "Shortcut from the face angle: $\\tan(\\text{edge angle}) = \\dfrac{\\tan 73^\\circ}{\\sqrt{2}}$, giving $66^\\circ 37'$ without needing the side length at all."
+  ],
+  "ch5_ex9_q16": [
+    "Sine values creep up to 1 as the angle approaches $90^\\circ$ but never reach it for an acute angle: $\\sin 89^\\circ \\approx 0.9998$.",
+    "Link: cosine of an acute angle is also between 0 and 1, but tangent can be any positive number."
+  ],
+  "ch5_ex9_q17a": [
+    "Only the depth (7.4) and height (4.8) matter. The 10 cm length runs along the blade's edge, so it never appears in the triangle.",
+    "Angles on a straight line: the blade is $\\tan^{-1}\\left(\\dfrac{7.4}{4.8}\\right) \\approx 57.03^\\circ$ from the downward vertical, so $180^\\circ - 57.03^\\circ$ from the upward vertical."
+  ],
+  "ch5_ex9_q17b": [
+    "Halving the horizontal distance makes the blade closer to vertical, so the angle from the downward vertical drops (from $57^\\circ$ to about $38^\\circ$)."
+  ],
+  "ch5_ex9_q18a": [
+    "Scale factor: 1 cm : 20 m means multiply plan lengths by 20 to get metres, so $4.5 \\times 20 = 90$ m."
+  ],
+  "ch5_ex9_q18b": [
+    "Easier-to-remember form: $h = \\dfrac{d}{\\dfrac{1}{\\tan\\theta_1} + \\dfrac{1}{\\tan\\theta_2}}$, because the two base pieces are $\\dfrac{h}{\\tan\\theta_1}$ and $\\dfrac{h}{\\tan\\theta_2}$."
+  ],
+  "ch5_ex9_q18c": [
+    "Both angles are steep ($72^\\circ$ and $88^\\circ$), so the tree is much further away than the baseline is long. 250 m against a 90 m baseline is reasonable."
+  ],
+  "ch5_ex9_q19a": [
+    "$140^\\circ$T is $50^\\circ$ past east, or equivalently S$40^\\circ$E. Writing it as a compass bearing tells you which acute angle to mark."
+  ],
+  "ch5_ex9_q19b": [
+    "Shortcut: north $= 7 + 13\\cos 140^\\circ \\approx -2.96$. The negative result means south."
+  ],
+  "ch5_ex9_q19c": [
+    "East $= 13\\sin 140^\\circ \\approx 8.36$ km and south $\\approx 2.96$ km. Bearing $= 90^\\circ + \\tan^{-1}\\left(\\dfrac{2.96}{8.36}\\right) \\approx 109.5^\\circ$, right on the rounding boundary."
+  ],
+  "ch5_ex9_q20": [
+    "Set up axes along the direct line: the ball is $315\\cos 10^\\circ \\approx 310.2$ m along it and $315\\sin 10^\\circ \\approx 54.7$ m off to the side.",
+    "Remaining distance along the line is $630 - 310.2 \\approx 319.8$ m. The ball is still about halfway, so 324.4 m to go is sensible."
+  ],
+  "ch5_ex9_q21a": [
+    "A radius meets a tangent at $90^\\circ$, which creates the right-angled triangle tip-contact-centre. That is the key fact for any ball-in-cone problem."
+  ],
+  "ch5_ex9_q21b": [
+    "Tip to centre $= \\dfrac{2.5}{\\sin 18^\\circ} \\approx 8.09$. The bottom of the ball is one radius lower, at $8.09 - 2.5 \\approx 5.59$ above the tip, so $h = 12.5 - 5.59$.",
+    "Fun exact value: $\\sin 18^\\circ = \\dfrac{\\sqrt{5} - 1}{4}$, so tip to centre $= 2.5(\\sqrt{5} + 1)$ exactly."
+  ]
+}

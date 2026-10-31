@@ -1,0 +1,161 @@
+{
+  "ch9_ex5_q1": [
+    "Think \"S-I-T\": Shape (sign of $a$), Intercepts (x and y), Turning point. Check all three and the sketch is complete.",
+    "The discriminant $b^2 - 4ac$ tells you before solving whether to expect 2, 1 or 0 x-intercepts, so you know what to look for."
+  ],
+  "ch9_ex5_q2a": [
+    "Shortcut for $y = (x - p)(x - q)$: the minimum value is $-\\left(\\frac{q - p}{2}\\right)^2$. Here the roots are 3 apart, so the minimum is $-(1.5)^2 = -2.25$.",
+    "The y-intercept is just the product of the two numbers in the brackets: $(-5)(-2) = 10$."
+  ],
+  "ch9_ex5_q2b": [
+    "The roots $-4$ and $7$ are 11 apart, so half the gap is 5.5 and the minimum is $-(5.5)^2 = -30.25$, which matches the turning point.",
+    "Opposite signs in the brackets mean one root is negative and one is positive, so the y-axis lies between them and the y-intercept must be negative."
+  ],
+  "ch9_ex5_q3a": [
+    "Roots $-5$ and $-3$ are only 2 apart, so the dip is shallow: minimum $= -1^2 = -1$. Close roots always mean a small dip when $a = 1$."
+  ],
+  "ch9_ex5_q3b": [
+    "Rewrite $(2x + 3)(x + 5)$ as $2(x + 1.5)(x + 5)$. Now the roots are visible and the minimum is $2 \\times -(1.75)^2 = -6.125$.",
+    "Quick check: the y-intercept $3 \\times 5 = 15$ is positive and both roots are negative, so the whole dip sits to the left of the y-axis."
+  ],
+  "ch9_ex5_q4a": [
+    "Write $(4 - x)(x + 2) = -(x - 4)(x + 2)$. The roots are 6 apart, so the maximum is $+3^2 = 9$.",
+    "Sign check: test $x = 0$, which lies between the roots. $y = 8 > 0$, so the graph is above the axis between the roots, meaning it opens downward."
+  ],
+  "ch9_ex5_q4b": [
+    "Take out the fractions: $\\left(\\frac{x}{2} + 3\\right)(5 - x) = -\\frac{1}{2}(x + 6)(x - 5)$. Half the gap is 5.5, so the maximum is $\\frac{1}{2}(5.5)^2 = 15.125$."
+  ],
+  "ch9_ex5_q5a": [
+    "From turning point form $a(x - h)^2 + k$, the roots are $h \\pm \\sqrt{-k/a}$. Here $(x + 2)^2 - 2$ gives $-2 \\pm \\sqrt{2}$ with no quadratic formula needed.",
+    "Estimate check: $\\sqrt{2} \\approx 1.41$, so the roots are about $-3.41$ and $-0.59$, which are equally spaced around $x = -2$."
+  ],
+  "ch9_ex5_q5b": [
+    "Sum and product check: the roots $-1$ and $5$ add to $4 = -\\frac{b}{a}$ and multiply to $-5 = \\frac{c}{a}$.",
+    "Once you know the vertex is at $x = 2$, substituting gives the minimum directly: $4 - 8 - 5 = -9$."
+  ],
+  "ch9_ex5_q5c": [
+    "Do the turning point first: $(1, -5)$. Then the roots are $1 \\pm \\sqrt{\\frac{5}{2}}$, and $\\sqrt{2.5} = \\frac{\\sqrt{10}}{2} \\approx 1.58$.",
+    "Upright with a negative y-intercept means the graph must cross the x-axis twice, once on each side of the y-axis."
+  ],
+  "ch9_ex5_q6a": [
+    "Check the roots with the sum rule: their sum must equal $-\\frac{b}{a} = \\frac{11}{2} = 5.5$, and $-0.42 + 5.92 = 5.5$.",
+    "Calculator tip: store the vertex x-value $2.75$ in memory and substitute it, which avoids rounding errors in the maximum $20.125$."
+  ],
+  "ch9_ex5_q6b": [
+    "No constant term means $x$ is a factor, so one root is always $0$. Factorising out $-2x$ gives $-2x(x - 6)$, and the other root is $6$.",
+    "The vertex is halfway between $0$ and $6$, so $x = 3$ needs no formula."
+  ],
+  "ch9_ex5_q6c": [
+    "Use the vertex $(-1, -2)$: the roots are $-1 \\pm \\sqrt{\\frac{2}{3}}$, and $\\sqrt{\\frac{2}{3}} = \\frac{\\sqrt{6}}{3} \\approx 0.82$.",
+    "Both roots are negative because they sit within about 0.82 of $x = -1$, which is consistent with the positive y-intercept."
+  ],
+  "ch9_ex5_q7a": [
+    "Check the vertex: the midpoint of the roots $-2$ and $\\frac{1}{3}$ is $\\frac{-2 + \\frac{1}{3}}{2} = -\\frac{5}{6}$, which agrees with $-\\frac{b}{2a}$.",
+    "Factorise $3x^2 + 5x - 2 = (3x - 1)(x + 2)$, then put the minus sign back in front."
+  ],
+  "ch9_ex5_q7b": [
+    "Always look for a common factor first: $2x^2 + 8x - 10 = 2(x^2 + 4x - 5) = 2(x + 5)(x - 1)$.",
+    "The minimum is $2 \\times (-2 + 5)(-2 - 1) = 2 \\times 3 \\times (-3) = -18$. Substituting into factored form is quick."
+  ],
+  "ch9_ex5_q7c": [
+    "Shortcut: the turning point y-value is $-\\frac{\\Delta}{4a}$. Here $\\Delta = 85$ and $a = -3$, so $y = \\frac{85}{12}$.",
+    "The same $\\sqrt{85}$ appears in the roots, so you only have to compute the discriminant once."
+  ],
+  "ch9_ex5_q8a": [
+    "Use different scales on the axes: the width is 24 m but the height is only 1 m. Equal scales would make the curve look almost flat.",
+    "Factorise inside the bracket first: $x^2 - 24x = x(x - 24)$, so the zeros $0$ and $24$ appear immediately."
+  ],
+  "ch9_ex5_q8b": [
+    "By symmetry the ball lands twice as far away as the point where it is highest: $2 \\times 12 = 24$ m."
+  ],
+  "ch9_ex5_q8c": [
+    "Substitute into the factored form: $-\\frac{1}{144} \\times 12 \\times (12 - 24) = -\\frac{1}{144} \\times (-144) = 1$. Spotting $144 = 12^2$ makes this exact."
+  ],
+  "ch9_ex5_q9a": [
+    "Divide out the common factor 3 first: $3(x^2 - 5x - 6) = 3(x - 6)(x + 1)$.",
+    "The minimum is $3 \\times (2.5 - 6)(2.5 + 1) = 3 \\times (-3.5)(3.5) = -36.75$, a loss of $\\$36\\,750$."
+  ],
+  "ch9_ex5_q9b": [
+    "Sign check: an upright parabola is negative between its roots and positive outside them, so the profit is positive for every $x > 6$. Test: $p(7) = 24 > 0$."
+  ],
+  "ch9_ex5_q9c": [
+    "After moving 54 across, divide by 3: $x^2 - 5x - 24 = 0$ factorises to $(x - 8)(x + 3) = 0$.",
+    "Check: $p(8) = 192 - 120 - 18 = 54$. Reject $x = -3$ because months cannot be negative."
+  ],
+  "ch9_ex5_q10a": [
+    "The zeros come straight from the factors: $4t = 0$ and $50 - t = 0$ give $t = 0$ and $t = 50$, so the graph starts and ends on the axis."
+  ],
+  "ch9_ex5_q10b": [
+    "Because $t$ is a factor, $h$ is automatically $0$ at $t = 0$. Any factor of $t$ means the graph starts at the origin."
+  ],
+  "ch9_ex5_q10c": [
+    "Why the middle wins: two numbers with a fixed sum of 50 have their biggest product when they are equal. $25 \\times 25 = 625$, so $h = 4 \\times 625 = 2500$.",
+    "Estimate check: $t = 20$ gives $4 \\times 20 \\times 30 = 2400$, which is slightly less, as it should be."
+  ],
+  "ch9_ex5_q10d": [
+    "The turning point is halfway between the zeros $0$ and $50$, so the time is $25$ s with no formula needed."
+  ],
+  "ch9_ex5_q10e": [
+    "Time up equals time down for any parabola-shaped flight that starts and ends at the same height."
+  ],
+  "ch9_ex5_q11": [
+    "Sum and product: for $x^2 + bx + c$, the roots add to $-b$ and multiply to $c$. $-150 + (-50) = -200$, so $b = 200$.",
+    "Built-in check: $(-150)(-50) = 7500$, which matches the given $c$, so the information is consistent."
+  ],
+  "ch9_ex5_q12": [
+    "Pattern: expanding $(x - m)(x - n)$ always gives $x^2 - (m + n)x + mn$. Remember \"$b$ is minus the sum, $c$ is the product\".",
+    "Link: the axis of symmetry $x = -\\frac{b}{2} = \\frac{m + n}{2}$ is exactly the midpoint of the roots."
+  ],
+  "ch9_ex5_q13": [
+    "Use the third point as a check: with $y = -\\frac{1}{2}(x - 2)^2 + 11$, $x = 6$ gives $-8 + 11 = 3$. Correct.",
+    "Symmetry gives a free point: $(0, 9)$ is 2 left of the axis $x = 2$, so $(4, 9)$ is also on the path."
+  ],
+  "ch9_ex5_q14a": [
+    "Factorise $-(x^2 - 4x - 21) = -(x - 7)(x + 3)$. The y-intercept 21 is the height of the building the ball is thrown from."
+  ],
+  "ch9_ex5_q14b": [
+    "Complete the square: $-x^2 + 4x + 21 = -(x - 2)^2 + 25$. Since $-(x - 2)^2 \\le 0$, the height can never exceed 25."
+  ],
+  "ch9_ex5_q14c": [
+    "The full parabola has roots $-3$ and $7$; their midpoint $\\frac{-3 + 7}{2} = 2$ is the x-value of the maximum."
+  ],
+  "ch9_ex5_q14d": [
+    "From the turning point form $-(x - 2)^2 + 25 = 0$: $(x - 2)^2 = 25$, so $x = 2 \\pm 5$, giving $7$ (and $-3$, rejected)."
+  ],
+  "ch9_ex5_q15a": [
+    "Turning point form $T = (h - 4)^2 + 5$ shows straight away that $T \\ge 5$, so the graph can never reach the axis."
+  ],
+  "ch9_ex5_q15b": [
+    "Every term containing $h$ vanishes at $h = 0$, so only the constant survives. That is why the y-intercept is always $c$."
+  ],
+  "ch9_ex5_q15c": [
+    "Number check: $T(3) = 6$ and $T(3.5) = 5.25$. The value went down, so the temperature is decreasing at 3 hours."
+  ],
+  "ch9_ex5_q15d": [
+    "Number check: $T(5) = 6$ and $T(6) = 9$. The value went up, so the temperature is increasing after the 4-hour minimum."
+  ],
+  "ch9_ex5_q15e": [
+    "A square is never negative, so $(h - 4)^2 + 5$ is smallest when the square is $0$, that is at $h = 4$, giving $5\\,^\\circ\\text{C}$."
+  ],
+  "ch9_ex5_q15f": [
+    "$h = 8$ is as far right of the axis $h = 4$ as $h = 0$ is to the left, so the temperatures must match: $21\\,^\\circ\\text{C}$."
+  ],
+  "ch9_ex5_q16a": [
+    "After $c = 7$, the equations are $36a + 6b = 11$ and $324a + 18b = 21$. Multiply the first by 3 and subtract to eliminate $b$: $216a = -12$.",
+    "Always check with the point you did not use last: $x = 18$ gives $-18 + 39 + 7 = 28$. Correct."
+  ],
+  "ch9_ex5_q16b": [
+    "Sanity check: a starting height of 7 m is believable for an upper-storey window, so the model makes sense."
+  ],
+  "ch9_ex5_q16c": [
+    "Estimate check: the ball passes $(18, 28)$ before its peak at $x = 19.5$, so the maximum must be just above 28 m. $28.125$ fits.",
+    "Using fractions keeps it exact: $x = \\frac{13/6}{2/18} = \\frac{39}{2}$."
+  ],
+  "ch9_ex5_q16d": [
+    "Symmetry check: the roots must be equally spaced around $x = 19.5$. $19.5 \\pm 22.5$ gives $42$ and $-3$.",
+    "$x^2 - 39x - 126 = (x - 42)(x + 3)$: look for two numbers that multiply to $-126$ and add to $-39$."
+  ],
+  "ch9_ex5_q16e": [
+    "Plot a mirror point for shape: $(0, 7)$ reflected in $x = 19.5$ gives $(39, 7)$ on the way down."
+  ]
+}

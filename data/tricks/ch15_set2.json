@@ -1,0 +1,113 @@
+{
+  "ch15_ex2_q1": [
+    "Ambiguity shortcut: the given angle $B$ is opposite the longer given side ($b = 12 > a = 10$), so only one triangle exists and $A$ must be acute.",
+    "To convert $44.968^\\circ$ to minutes, multiply the decimal part by 60: $0.968 \\times 60 \\approx 58'$. The calculator DMS key does this for you."
+  ],
+  "ch15_ex2_q2": [
+    "If the given angle is obtuse, there is never a second triangle, and the side opposite it must be the longest side. Here $a = 26.82$ is longest, as expected."
+  ],
+  "ch15_ex2_q3": [
+    "Mental shortcut: $\\sin(30^\\circ) = \\frac{1}{2}$, so $\\frac{a}{\\sin(A)} = 10$. Then $b = 10\\sin(80^\\circ)$ and $c = 10\\sin(70^\\circ)$."
+  ],
+  "ch15_ex2_q4": [
+    "Calculator technique: store $\\frac{27}{\\sin(42^\\circ)} \\approx 40.35$ in memory, then $a$ and $b$ are just that value times $\\sin(105^\\circ)$ and $\\sin(33^\\circ)$.",
+    "$\\sin(105^\\circ) = \\sin(75^\\circ)$, since supplementary angles have the same sine."
+  ],
+  "ch15_ex2_q5": [
+    "One-triangle test: the given angle $68^\\circ$ is opposite the longer given side ($7 > 5$), so there is no ambiguous case.",
+    "Check: $B \\approx 70.5^\\circ$ is the largest angle, so $b$ should be the longest side, just over 7. It is."
+  ]
+,
+  "ch15_ex2_q6": [
+    "Store the common ratio $\\frac{48.2}{\\sin(57^\\circ)} \\approx 57.47$; every side is then $57.47 \\times \\sin(\\text{its opposite angle})$.",
+    "Order check: angles $51^\\circ < 57^\\circ < 72^\\circ$, so sides must go $c < a < b$: $44.66 < 48.2 < 54.66$."
+  ],
+  "ch15_ex2_q7": [
+    "Exact value: $\\sin(60^\\circ) = \\frac{\\sqrt{3}}{2}$, so $\\frac{105}{\\sin(60^\\circ)} = 70\\sqrt{3} \\approx 121.24$. Every side is this times the sine of its opposite angle.",
+    "The tiny angle $15^\\circ$ must sit opposite a short side, so a small $c$ is expected."
+  ],
+  "ch15_ex2_q8": [
+    "Height test: $b\\sin(A) = 51\\sin(28^\\circ) \\approx 23.9$. Since $23.9 < a = 32 < 51$, side $a$ can swing to two positions, giving two triangles.",
+    "Neat check: the two values of $c$ always add to $2b\\cos(A)$. Here $2 \\times 51 \\times \\cos(28^\\circ) \\approx 90.06 = 66.26 + 23.80$."
+  ],
+  "ch15_ex2_q9": [
+    "$C \\approx 92.5^\\circ$ is nearly a right angle, so $c$ should be just over $\\sqrt{7.8^2 + 6.2^2} \\approx 9.96$. The answer 10.17 fits."
+  ],
+  "ch15_ex2_q10": [
+    "Height test: $c\\sin(B) = 3\\sin(40^\\circ) \\approx 1.93$. Since $1.93 < b = 2.6 < c = 3$, two triangles exist, so expect two answers that add to $180^\\circ$."
+  ],
+  "ch15_ex2_q11": [
+    "Height test: $a\\sin(C) = 10\\sin(50^\\circ) \\approx 7.66$, and $7.66 < c = 8 < 10$, so two triangles are possible.",
+    "Check: the two values of $b$ add to $2a\\cos(C) = 20\\cos(50^\\circ) \\approx 12.86$, and $8.73 + 4.12 = 12.85$ (rounding)."
+  ],
+  "ch15_ex2_q12": [
+    "Height test: $a\\sin(B) = 20\\sin(35^\\circ) \\approx 11.47$, only just below $b = 12$, so the second triangle exists but is close to the borderline.",
+    "The two values of $c$ add to $2a\\cos(B) = 40\\cos(35^\\circ) \\approx 32.77$; a quick way to check both perimeters."
+  ],
+  "ch15_ex2_q13": [
+    "$C = 110^\\circ$ is obtuse, so $c = 6.4$ must be the longest side; both $a$ and $b$ have to come out below 6.4.",
+    "$\\sin(110^\\circ) = \\sin(70^\\circ)$, which is handy if you are using a sine table or checking mentally."
+  ]
+,
+  "ch15_ex2_q14": [
+    "Store $\\frac{2.1}{\\sin(38^\\circ)} \\approx 3.41$ and multiply by each sine. Since $A = 100^\\circ$ is the largest angle, $a$ must be the longest side."
+  ],
+  "ch15_ex2_q15": [
+    "Height test: $b\\sin(A) = 17\\sin(25^\\circ) \\approx 7.18$, and $7.18 < a = 13 < 17$, confirming two triangles.",
+    "Check: the two $c$ values add to $2b\\cos(A) = 34\\cos(25^\\circ) \\approx 30.81 = 26.24 + 4.57$."
+  ],
+  "ch15_ex2_q16": [
+    "Exterior angle theorem: the $64^\\circ$ angle equals $48^\\circ$ plus the angle at the top, which is why the top angle is $16^\\circ$.",
+    "Reusable formula: for elevations $\\alpha < \\beta$ taken a distance $d$ apart, $h = \\frac{d\\sin(\\alpha)\\sin(\\beta)}{\\sin(\\beta - \\alpha)}$. Here $\\frac{18\\sin(48^\\circ)\\sin(64^\\circ)}{\\sin(16^\\circ)} \\approx 43.62$."
+  ],
+  "ch15_ex2_q17": [
+    "Pattern: if an exterior angle is double the far interior angle ($70^\\circ = 2 \\times 35^\\circ$), the other interior angle equals it too, so the triangle is isosceles.",
+    "Once you see $CD = AD = 8$, the answer is simply $h = 8\\sin(70^\\circ)$ with no sine rule needed."
+  ],
+  "ch15_ex2_q18": [
+    "Coordinate check: the first leg goes $10\\cos(15^\\circ) \\approx 9.66$ km north. To lose that while heading S$85^\\circ$E, the boat moves $9.66\\tan(85^\\circ) \\approx 110.4$ km east. Adding $10\\sin(15^\\circ) \\approx 2.59$ gives 113 km.",
+    "A very small angle like $5^\\circ$ in the denominator makes the answer sensitive, so keep full calculator values."
+  ],
+  "ch15_ex2_q19": [
+    "Sense check: $PQ$ is opposite the largest angle ($110^\\circ$), so it must be longer than the 8 m tree. An answer under 8 m means an angle is wrong."
+  ],
+  "ch15_ex2_q20": [
+    "Store $\\frac{37}{\\sin(115^\\circ)} \\approx 40.83$, then $TR = 40.83\\sin(25^\\circ)$ and $RG = 40.83\\sin(40^\\circ)$.",
+    "Sense check: the rope path must be longer than the straight 37 m drop (triangle inequality). At 43.5 m it is, but only by a few metres."
+  ],
+  "ch15_ex2_q21a": [
+    "For bearings measured from a line running east–west, turn each true bearing into an angle from the bank: $90^\\circ - 47^\\circ$ at P and $305^\\circ - 270^\\circ$ at Q."
+  ],
+  "ch15_ex2_q21b": [
+    "Tan-only shortcut: the width is the height of the triangle on base $PQ$, so $w = \\frac{PQ}{\\frac{1}{\\tan(43^\\circ)} + \\frac{1}{\\tan(35^\\circ)}} = \\frac{10}{1.072 + 1.428} \\approx 4.0$ m."
+  ],
+  "ch15_ex2_q22a": [
+    "Bearings on the same side: S$20^\\circ$W and N$65^\\circ$W both point west, so the angle between them is $180^\\circ - 20^\\circ - 65^\\circ$."
+  ],
+  "ch15_ex2_q22b": [
+    "Convert to a true bearing to check: N$20^\\circ 47'$W is $360^\\circ - 20^\\circ 47' = 339^\\circ 13'$T.",
+    "Sense check: the ship first went south, then ends up north-west of the start, so the 20 km leg must head roughly north. A bearing near N$20^\\circ$W fits."
+  ]
+,
+  "ch15_ex2_q23a": [
+    "To find the angle at a turning point, reverse the incoming bearing ($150^\\circ + 180^\\circ = 330^\\circ$), then find the gap to the outgoing bearing, going past north: $30^\\circ + 53^\\circ = 83^\\circ$."
+  ],
+  "ch15_ex2_q23b": [
+    "Dividing by $\\frac{4}{3}$ h is the same as multiplying by 0.75.",
+    "Sense check: she took more than an hour to cover 8.63 km, so her speed must be less than 8.63 km/h."
+  ],
+  "ch15_ex2_q23c": [
+    "Coordinate check: since Q is due east of O, $OQ$ is the sum of the east movements: $6\\sin(150^\\circ) + 8.634\\sin(53^\\circ) = 3 + 6.90 \\approx 9.90$ km."
+  ],
+  "ch15_ex2_q24": [
+    "Sense check: $AF$ is opposite the $51^\\circ$ angle and $BF$ is opposite $75^\\circ$, so the fire must be closer to tower A.",
+    "Store $\\frac{23}{\\sin(54^\\circ)} \\approx 28.43$ and multiply by $\\sin(51^\\circ)$ and $\\sin(75^\\circ)$."
+  ],
+  "ch15_ex2_q25a": [
+    "Turning shortcut: the yacht changes bearing by $127^\\circ - 65^\\circ = 62^\\circ$, so the interior angle at the turn is $180^\\circ - 62^\\circ = 118^\\circ$.",
+    "With two sides and an obtuse included angle, the third side must be longer than $\\sqrt{3.5^2 + 5^2} \\approx 6.1$ km."
+  ],
+  "ch15_ex2_q25b": [
+    "Coordinate check: east $= 3.5\\sin(65^\\circ) + 5\\sin(127^\\circ) \\approx 7.17$, north $= 3.5\\cos(65^\\circ) + 5\\cos(127^\\circ) \\approx -1.53$. So Y is $\\tan^{-1}\\left(\\frac{1.53}{7.17}\\right) \\approx 12^\\circ$ south of east, at about $102^\\circ$T."
+  ]
+}

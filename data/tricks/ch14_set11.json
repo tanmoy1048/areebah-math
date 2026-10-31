@@ -1,0 +1,49 @@
+{
+  "ch14_ex11_q1a": [
+    "Think of $n$ as 'branches per $\\pi$': $\\tan 4x$ fits 4 complete branches into any interval of length $\\pi$, so each takes $\\frac{\\pi}{4}$."
+  ],
+  "ch14_ex11_q1b": [
+    "Check with asymptotes: $\\frac{2x}{3} = \\pm\\frac{\\pi}{2}$ gives $x = \\pm\\frac{3\\pi}{4}$, which are $\\frac{3\\pi}{2}$ apart, the period."
+  ],
+  "ch14_ex11_q1c": [
+    "Tangent has no amplitude at all (its range is $\\mathbb{R}$), so $-3$ only stretches and reflects the branches; it cannot change where they repeat."
+  ],
+  "ch14_ex11_q2a": [
+    "Asymptotes sit exactly halfway between consecutive $x$-intercepts: intercepts every $\\frac{\\pi}{2}$ means asymptotes at $\\pm\\frac{\\pi}{4}, \\pm\\frac{3\\pi}{4}$.",
+    "Guide point: halfway from an intercept to the next asymptote, $\\tan$ equals $\\pm 1$; here $x = \\frac{\\pi}{8}$ gives $\\tan\\frac{\\pi}{4} = 1$."
+  ],
+  "ch14_ex11_q2b": [
+    "Count check: the domain length $2\\pi$ holds $6$ periods of $\\frac{\\pi}{3}$, so expect 6 asymptotes and 7 intercepts (including both endpoints).",
+    "Guide point: halfway between the intercept $0$ and the asymptote $\\frac{\\pi}{6}$, at $x = \\frac{\\pi}{12}$, the value is $a = 2$."
+  ],
+  "ch14_ex11_q2c": [
+    "Because tangent is odd, $-\\tan x = \\tan(-x)$: reflecting in the $x$-axis gives the same graph as reflecting in the $y$-axis.",
+    "Sanity check: just to the right of $x = -\\frac{\\pi}{2}$, $\\tan x$ is huge and negative, so $-\\tan x$ starts near $+\\infty$ and falls."
+  ],
+  "ch14_ex11_q3a": [
+    "Count check: $\\tan 2x$ has 4 periods in $[-\\pi, \\pi]$ and takes each value once per period, so expect 4 solutions, spaced $\\frac{\\pi}{2}$ apart.",
+    "Link to the graph of $y = \\tan 2x$: the solutions are where it meets $y = 1$, for example the point $\\left(\\frac{\\pi}{8}, 1\\right)$."
+  ],
+  "ch14_ex11_q3b": [
+    "Count check: 6 periods of $\\frac{\\pi}{3}$ means 6 solutions; step from $\\frac{\\pi}{18}$ by $\\pm\\frac{6\\pi}{18}$ until you leave the interval.",
+    "Calculator check: $3\\tan\\left(3 \\times \\frac{\\pi}{18}\\right) = 3\\tan\\frac{\\pi}{6} \\approx 1.732 = \\sqrt{3}$."
+  ],
+  "ch14_ex11_q3c": [
+    "Step from $\\frac{\\pi}{6}$ by the period of $\\tan 2x$, which is $\\frac{\\pi}{2}$: $\\frac{\\pi}{6} - \\pi, \\frac{\\pi}{6} - \\frac{\\pi}{2}, \\frac{\\pi}{6}, \\frac{\\pi}{6} + \\frac{\\pi}{2}$."
+  ],
+  "ch14_ex11_q3d": [
+    "Shortcut: this equation is the previous one with the sign flipped, and tangent is odd, so the solutions are just the negatives of those for $3\\tan 3x = \\sqrt{3}$ (for example $\\frac{\\pi}{18} \\to -\\frac{\\pi}{18}$).",
+    "Because $[-\\pi, \\pi]$ is symmetric about 0, negating every solution of the related equation keeps them all inside the interval."
+  ],
+  "ch14_ex11_q4a": [
+    "Since $\\tan(\\pm\\pi) = 0 = \\tan 0$, the endpoints have the same height as the $y$-intercept, $\\sqrt{3}$.",
+    "The two $x$-intercepts are exactly one period ($\\pi$) apart: $-\\frac{\\pi}{6}$ and $\\frac{5\\pi}{6}$."
+  ],
+  "ch14_ex11_q4b": [
+    "Factorise: $2\\tan x + 2 = 2(\\tan x + 1)$, so the intercepts are where $\\tan x = -1$; the 2 in front does not affect them."
+  ],
+  "ch14_ex11_q4c": [
+    "Compare with $y = 2\\tan x + 2$: there the intercepts came from $\\tan x = -1$, here from $\\tan x = 1$, so they are the reflections $\\frac{\\pi}{4}$ and $-\\frac{3\\pi}{4}$.",
+    "Quick sketch check: the graph passes through $\\left(\\frac{\\pi}{4}, 0\\right)$ while increasing, so it is below the axis just to the left of $\\frac{\\pi}{4}$, consistent with the $y$-intercept $-3$."
+  ]
+}

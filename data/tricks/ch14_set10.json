@@ -1,0 +1,64 @@
+{
+  "ch14_ex10_q1a": [
+    "Graph view: $y = \\cos x$ is symmetric about the $y$-axis, so $x$ and $-x$ give the same height.",
+    "Of the three, only cosine is even; sine and tangent are odd, so $\\cos(-\\alpha)$ is the one case where the minus sign simply disappears."
+  ],
+  "ch14_ex10_q1b": [
+    "Graph view: shifting $y = \\sin x$ left by $\\frac{\\pi}{2}$ lands exactly on $y = \\cos x$, which is why $\\sin\\left(\\frac{\\pi}{2} + \\alpha\\right) = \\cos\\alpha$.",
+    "Sign check: for small positive $\\alpha$, $\\frac{\\pi}{2} + \\alpha$ is in quadrant 2, where sine is positive, so the answer is positive."
+  ],
+  "ch14_ex10_q1c": [
+    "Graph view: $y = \\tan x$ has rotational symmetry about the origin, so changing the sign of the angle changes the sign of the value."
+  ],
+  "ch14_ex10_q1d": [
+    "Memory aid: the 'co' in cosine stands for 'complement', so cosine of an angle is the sine of its complement $\\frac{\\pi}{2} - x$.",
+    "Right-triangle picture: the side opposite one acute angle is adjacent to the other, so $\\sin$ of one equals $\\cos$ of the other."
+  ],
+  "ch14_ex10_q1e": [
+    "Calculator check: in radian mode, $x = \\sin^{-1}(0.3) \\approx 0.305$, and $\\sin(-0.305) \\approx -0.3$."
+  ],
+  "ch14_ex10_q1f": [
+    "Since 'co-tangent' means tangent of the complement, $\\tan\\left(\\frac{\\pi}{2} - \\theta\\right) = \\frac{1}{\\tan\\theta}$; check with $\\theta = \\frac{\\pi}{4}$, where both are 1.",
+    "Right-triangle view: swapping to the other acute angle swaps opposite and adjacent, so tangent flips to its reciprocal: $\\frac{1}{0.7} = \\frac{10}{7}$."
+  ],
+  "ch14_ex10_q1g": [
+    "Graph view: shifting $y = \\cos x$ left by $\\frac{\\pi}{2}$ gives $y = -\\sin x$ (it now goes down first from the origin)."
+  ],
+  "ch14_ex10_q1h": [
+    "General rule: adding or subtracting an odd multiple of $\\frac{\\pi}{2}$ swaps sine and cosine; then pick the sign from the quadrant, treating the angle as small and positive.",
+    "Here $\\frac{\\pi}{2} - \\alpha$ is in quadrant 1 for small $\\alpha$, so no sign change."
+  ],
+  "ch14_ex10_q1i": [
+    "Odd multiple of $\\frac{\\pi}{2}$, so sine becomes cosine; for small $\\alpha$, $\\frac{3\\pi}{2} + \\alpha$ is in quadrant 4 where sine is negative, giving $-\\cos\\alpha$.",
+    "Check with $\\alpha = 0$: $\\sin\\frac{3\\pi}{2} = -1 = -\\cos 0$."
+  ],
+  "ch14_ex10_q1j": [
+    "Odd multiple of $\\frac{\\pi}{2}$, so cosine becomes sine; for small $x$, $\\frac{3\\pi}{2} - x$ is in quadrant 3 where cosine is negative, giving $-\\sin x$."
+  ],
+  "ch14_ex10_q2a": [
+    "Think of the 30-60-90 triangle: $\\sin 30^\\circ = \\cos 60^\\circ = \\frac{1}{2}$, so $\\theta = 60^\\circ = \\frac{\\pi}{3}$.",
+    "Alternative: evaluate $\\sin\\frac{\\pi}{6} = \\frac{1}{2}$ first, then solve $\\cos\\theta = \\frac{1}{2}$ directly."
+  ],
+  "ch14_ex10_q2b": [
+    "Evaluate first: $\\cos\\frac{\\pi}{6} = \\frac{\\sqrt{3}}{2}$, and the only angle in $\\left(0, \\frac{\\pi}{2}\\right)$ with that sine is $\\frac{\\pi}{3}$."
+  ],
+  "ch14_ex10_q2c": [
+    "Degree check: $\\frac{\\pi}{12} = 15^\\circ$ and the complement is $75^\\circ = \\frac{5\\pi}{12}$.",
+    "No exact value of $\\sin\\frac{\\pi}{12}$ is needed: the complement relationship gets the answer without evaluating anything."
+  ],
+  "ch14_ex10_q2d": [
+    "Calculator check in radian mode: $\\cos\\frac{3\\pi}{7} \\approx 0.2225$ and $\\sin\\frac{\\pi}{14} \\approx 0.2225$.",
+    "This works for any angle, nice or not: the complement relationship avoids needing an exact value."
+  ],
+  "ch14_ex10_q3": [
+    "Draw a right triangle with adjacent 3 and hypotenuse 5; the 3-4-5 triple gives opposite 4. Then attach signs: only cosine is positive in quadrant 4 (ASTC).",
+    "Read $\\tan$ straight off the triangle as $\\frac{\\text{opp}}{\\text{adj}} = \\frac{4}{3}$, then make it negative; no fraction division needed."
+  ],
+  "ch14_ex10_q4": [
+    "Triangle: opposite 5, hypotenuse 13, adjacent 12. In quadrant 2 only sine is positive, so both $\\cos x$ and $\\tan x$ are negative."
+  ],
+  "ch14_ex10_q5": [
+    "Triangle: adjacent 1, hypotenuse 5, so opposite $= \\sqrt{25 - 1} = \\sqrt{24} = 2\\sqrt{6}$, and $\\tan x = \\frac{\\text{opp}}{\\text{adj}}$ in size is $2\\sqrt{6}$.",
+    "Check: $\\left(\\frac{1}{5}\\right)^2 + \\left(\\frac{2\\sqrt{6}}{5}\\right)^2 = \\frac{1}{25} + \\frac{24}{25} = 1$."
+  ]
+}

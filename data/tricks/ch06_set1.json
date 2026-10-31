@@ -1,0 +1,62 @@
+{
+  "ch6_ex1_q1": [
+    "Think of a trapezium as a rectangle whose width is the average of the parallel sides: $\\frac{7.3+15.2}{2} = 11.25$, so the area is $11.25 \\times 6.1$.",
+    "Quick estimate: about $11 \\times 6 = 66$, so an answer near $68.6\\text{ mm}^2$ is sensible."
+  ],
+  "ch6_ex1_q2": [
+    "An ellipse is a circle stretched in one direction, so $\\pi r^2 = \\pi r \\times r$ becomes $\\pi a b$. If $a = b$ you get the circle formula back.",
+    "Check: the ellipse must be smaller than the $16 \\times 10$ bounding rectangle ($160\\text{ cm}^2$) and bigger than a circle of radius 5 ($\\approx 78.5\\text{ cm}^2$)."
+  ],
+  "ch6_ex1_q3": [
+    "Option A ($9.6$) is $3.2 \\times 2 \\times 1.5$, which is the volume in $\\text{m}^3$, not a surface area. Watch for distractors built from the wrong formula.",
+    "Sketch the net: three different rectangles, each appearing twice (top/bottom, front/back, left/right)."
+  ],
+  "ch6_ex1_q4": [
+    "Since $r = \\frac{d}{2}$, $4\\pi r^2 = \\pi d^2$. So you can go straight to $\\pi \\times 15^2 = 225\\pi$ without halving.",
+    "Memory aid: a sphere's surface is exactly 4 times the area of its 'equator' circle, $\\pi r^2$."
+  ],
+  "ch6_ex1_q5": [
+    "Any pointed solid (cone or pyramid) has $V = \\frac{1}{3} \\times \\text{base area} \\times \\text{height}$. When the base area is given, you don't need $\\pi$ or $r$ at all.",
+    "Units check: $\\text{cm}^2 \\times \\text{cm} = \\text{cm}^3$, so the answer is a volume."
+  ],
+  "ch6_ex1_q6": [
+    "Find the whole ring first: $\\pi(5^2 - 2^2) = 21\\pi$. Removing a $45^\\circ$ sector leaves $\\frac{315}{360} = \\frac{7}{8}$ of it, so the area is $\\frac{7}{8} \\times 21\\pi$.",
+    "Use $\\pi(R^2 - r^2)$, not $\\pi(R - r)^2$: squaring the 3 cm width gives the wrong answer."
+  ],
+  "ch6_ex1_q7": [
+    "Alternative method: take the full $240 \\times 130$ rectangle and subtract the missing $80 \\times 30$ corner: $31\\,200 - 2400 = 28\\,800\\text{ m}^2$. Both methods should agree.",
+    "Dividing by 1000 just moves the decimal point 3 places, so $28\\,800\\text{ m}^2$ is 28.8 lots of $\\$30$."
+  ],
+  "ch6_ex1_q8": [
+    "$l = \\sqrt{2.5^2 + 9^2} = \\sqrt{87.25} \\approx 9.34$. The slant height must always be longer than the vertical height, so if your $l$ is less than 9, recheck.",
+    "Don't include the circular base: it is hidden where the hemisphere and cone join."
+  ],
+  "ch6_ex1_q9": [
+    "Spot the 3-4-5 Pythagorean triple: with a 3 and a hypotenuse of 5, the missing side is 4 without any calculation.",
+    "Only the two perpendicular sides go into $\\frac{1}{2}bh$: $\\frac{1}{2} \\times 3 \\times 4 = 6$, never the hypotenuse."
+  ],
+  "ch6_ex1_q10": [
+    "Shortcut: a cone of height 15 holds the same as a cylinder of height $\\frac{15}{3} = 5$ with the same base. So the total is like one cylinder of height $25$: $\\pi \\times 5^2 \\times 25 \\approx 1963.5$.",
+    "Option D ($7854$) is exactly 4 times the correct answer: that is what happens if the diameter 10 is used as the radius. A factor-of-4 error usually means radius and diameter were mixed up."
+  ],
+  "ch6_ex1_q11": [
+    "Test the options with special cases: if $y = x$ the solid is a prism, so $V = hx^2$; if $y = 0$ it is a pyramid, so $V = \\frac{1}{3}hx^2$. Only D passes both.",
+    "Dimension check: a volume needs length$^3$. Option A and B have no $h$, so they are only length$^2$ and cannot be volumes."
+  ],
+  "ch6_ex1_q12": [
+    "Estimate first: $\\frac{4}{3}\\pi \\approx 4.19$, so $r^3 \\approx 384.66 \\div 4.19 \\approx 92$. Since $4.5^3 \\approx 91$, $r \\approx 4.5$ is believable.",
+    "On a calculator use the $\\sqrt[3]{\\ }$ key, or raise to the power $(1/3)$ with brackets: $(\\ldots)^{(1/3)}$."
+  ],
+  "ch6_ex1_q13": [
+    "Use scale factors: the volume changes by (radius factor)$^2 \\times$ (height factor) $= 2^2 \\times \\frac{1}{2} = 2$.",
+    "Test with easy numbers: $r = 1, h = 2$ gives $\\frac{2}{3}\\pi$; $r = 2, h = 1$ gives $\\frac{4}{3}\\pi$, which is double."
+  ],
+  "ch6_ex1_q14": [
+    "Here $s = 10$, so the product is $10 \\times 1 \\times 6 \\times 3 = 180$ and $A = \\sqrt{180} = 6\\sqrt{5} \\approx 13.4$.",
+    "Check: each of $s-a$, $s-b$, $s-c$ must be positive. A zero or negative value means the three sides cannot form a triangle."
+  ],
+  "ch6_ex1_q15": [
+    "A half-full can holds the same as a full can of half the height, so you can use $h = 7.15$ directly: $\\pi \\times 3.2^2 \\times 7.15 \\approx 230$.",
+    "Estimate: $\\pi r^2 \\approx 3 \\times 10 = 30$, times $7$ is about $210$, so 230 mL is reasonable."
+  ]
+}

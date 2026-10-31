@@ -1,0 +1,62 @@
+{
+  "ch11_ex1_q1": [
+    "Think of the overlap as the 'excess': $\\Pr(A) + \\Pr(B) = 0.7$ but the union is only $0.5$, so $0.2$ must have been counted twice.",
+    "Sanity check: an intersection can never be bigger than the smaller of $\\Pr(A)$ and $\\Pr(B)$, so here it must be at most $0.3$."
+  ],
+  "ch11_ex1_q2": [
+    "Mutually exclusive means the circles do not overlap, so the union is just the two pieces stuck together: $0.89 - 0.38$ gives the other piece directly.",
+    "Quick check: for mutually exclusive events $\\Pr(A) + \\Pr(B)$ can never exceed 1. Here $0.51 + 0.38 = 0.89 \\le 1$, so the answer is sensible."
+  ],
+  "ch11_ex1_q3": [
+    "Different physical objects (a bag of marbles and a die) with no link between them almost always give independent events.",
+    "Do not confuse independent with mutually exclusive: these two events can both happen at once, so they are not mutually exclusive, yet they are independent."
+  ],
+  "ch11_ex1_q4": [
+    "Check the regions add to the total: $5 + 13 + 7 = 25$, so no one is outside both circles.",
+    "Watch the wording: 'owns a tablet' would be $\\frac{18}{25}$, but 'owns only a tablet' is just the crescent, $\\frac{5}{25}$."
+  ],
+  "ch11_ex1_q5": [
+    "Draw a $4 \\times 4$ grid of sums. Equal sums lie on diagonals, with counts $1, 2, 3, 4, 3, 2, 1$ for totals 2 to 8, so a sum of 6 has 3 cells.",
+    "Symmetry shortcut: sum 6 is as likely as sum 4 (since $6 + 4 = 10$, twice the middle total of 5)."
+  ],
+  "ch11_ex1_q6": [
+    "De Morgan's law: $(A \\cup B)' = A' \\cap B'$, 'not (A or B)' is the same as 'not A and not B', which is the region outside both circles.",
+    "Compare with $(A \\cap B)'$, which shades everything except the overlap. The bracket decides which picture you get."
+  ],
+  "ch11_ex1_q7": [
+    "Fast route: $\\Pr(\\text{neither}) = 1 - \\Pr(F \\cup S)$, and the regions inside the circles are $6 + 6 + 8 = 20$, leaving 5 out of 25.",
+    "Check: all four regions must add to 25, so $6 + 6 + 8 + 5 = 25$ confirms it."
+  ],
+  "ch11_ex1_q8": [
+    "Draw a two-stage tree: Bus (0.7) then Not late (0.8). Multiply along the branch to get $0.56$.",
+    "Check: bus and late is $0.7 \\times 0.2 = 0.14$, and $0.56 + 0.14 = 0.7$, the whole bus branch."
+  ],
+  "ch11_ex1_q9": [
+    "'Given $B$' means cover up everything outside circle $B$. You are left with $4 + 3 = 7$ people, and 4 of them are in $A$.",
+    "Common slip: $\\Pr(B \\mid A)$ would be $\\frac{4}{6}$, a different answer. Always check which event comes after the bar."
+  ],
+  "ch11_ex1_q10": [
+    "Count-based test: events are independent when $n(A \\cap B) \\times n(\\xi) = n(A) \\times n(B)$. Here $20 \\times 50 = 1000$ but $27 \\times 33 = 891$, so they are not.",
+    "Another check: $\\Pr(A \\mid B) = \\frac{20}{33} \\approx 0.61$ is not equal to $\\Pr(A) = 0.54$, so knowing $B$ changes the chance of $A$."
+  ],
+  "ch11_ex1_q11": [
+    "Compare your answer with $\\Pr(B) = 0.4$. Since $\\Pr(B \\mid A) = 0.2$ is different, knowing $A$ halves the chance of $B$, so $A$ and $B$ are not independent.",
+    "A conditional probability must lie between 0 and 1. If you get more than 1, you probably divided the wrong way."
+  ],
+  "ch11_ex1_q12": [
+    "Draw the Venn: soccer only $10 - 8 = 2$, both 8, Aussie Rules only $15 - 8 = 7$. Then 'given Aussie Rules' keeps only the 15 inside that circle.",
+    "Reverse it to see the difference: $\\Pr(\\text{Aussie Rules} \\mid \\text{soccer}) = \\frac{8}{10}$, not $\\frac{8}{15}$."
+  ],
+  "ch11_ex1_q13": [
+    "Estimate: with replacement the answer would be $\\frac{1}{4} \\times \\frac{1}{4} = \\frac{1}{16}$. Without replacement it is a little smaller, and $\\frac{1}{17}$ fits.",
+    "Combination check: $\\frac{^{13}C_2}{^{52}C_2} = \\frac{78}{1326} = \\frac{1}{17}$, the same answer counted a different way."
+  ],
+  "ch11_ex1_q14": [
+    "Overlap shortcut: overlap $=$ (sum of the circles) $-$ (number in at least one) $= 175 - 150 = 25$.",
+    "Fill a two-way table (Bus/No bus by Train/No train) with total 800. The 'both' cell is the one that makes every row and column add up."
+  ],
+  "ch11_ex1_q15": [
+    "When a question gives 'no less than' conditions, turn each into an inequality for the unknown. Here one gives $x \\ge 4$ and the other gives $x \\le 4$, which pins $x$ down exactly.",
+    "Label every region of the three-circle diagram with a number or a letter first; then 'all regions add to 30' gives you an equation for free."
+  ]
+}

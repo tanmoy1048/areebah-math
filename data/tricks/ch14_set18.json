@@ -1,0 +1,36 @@
+{
+  "ch14_ex18_q1": [
+    "Elimination: the smallest angle in a right triangle must be under $45^\\circ$, which leaves B or C; and $\\sin\\theta = \\frac{3}{5} = 0.6$ is well above $\\sin 23^\\circ \\approx 0.39$.",
+    "The two acute angles in a 3-4-5 triangle are about $37^\\circ$ and $53^\\circ$, adding to $90^\\circ$; option D is the trap."
+  ],
+  "ch14_ex18_q2": [
+    "With a negative coefficient, the minimum of $3 - 10\\cos 2x$ happens when $\\cos 2x = +1$: $3 - 10 = -7$. The $2$ inside does not affect the range."
+  ],
+  "ch14_ex18_q3": [
+    "Elimination: a sine with amplitude 4 and no vertical shift has a range symmetric about 0, and only $[-4, 4]$ is symmetric and bounded.",
+    "Rewrite: $4\\sin\\left(2x - \\frac{\\pi}{2}\\right) = -4\\cos 2x$, which clearly takes both $4$ and $-4$ on $[0, 2\\pi]$."
+  ],
+  "ch14_ex18_q4": [
+    "Ignore everything except the coefficient of $x$: $\\frac{2\\pi}{1/2} = 4\\pi$. Options A, B, D and E each come from reading the wrong constant."
+  ],
+  "ch14_ex18_q5": [
+    "Test-point elimination: the origin maps to $\\left(\\frac{\\pi}{4}, 0\\right)$. Option E gives $\\sin 0 = 0$ there; option D gives $\\sin\\frac{\\pi}{4} \\ne 0$, so D is out."
+  ],
+  "ch14_ex18_q6": [
+    "Test with simple numbers: if $b = 1$ the function is $a\\sin x + c$ with period $2\\pi$; only $\\frac{2\\pi}{b}$ gives $2\\pi$."
+  ],
+  "ch14_ex18_q7": [
+    "Adjacent asymptotes are one period apart: $\\frac{\\pi}{6} - \\left(-\\frac{\\pi}{6}\\right) = \\frac{\\pi}{3} = \\frac{\\pi}{a}$, so $a = 3$.",
+    "Check: with $a = 3$, $3x = \\frac{\\pi}{2}$ gives the asymptote $x = \\frac{\\pi}{6}$."
+  ],
+  "ch14_ex18_q8": [
+    "Test the options: $b = 4$ gives $\\sin x = 1$, which has only $x = \\frac{\\pi}{2}$ in $[0, 2\\pi]$; any $b$ strictly between $-2$ and $4$ gives two or more solutions."
+  ],
+  "ch14_ex18_q9": [
+    "Try concrete values: $a = 2$, $b = 1$ gives $\\sin x = \\frac{1}{2}$, with solutions $-\\frac{11\\pi}{6}, -\\frac{7\\pi}{6}, \\frac{\\pi}{6}, \\frac{5\\pi}{6}$: four.",
+    "The endpoints $\\pm 2\\pi$ do not add extra solutions, because $\\sin(\\pm 2\\pi) = 0 \\ne \\frac{b}{a}$."
+  ],
+  "ch14_ex18_q10": [
+    "For multiple choice, substitute options in order: $D(0) = 8$, $D(1) = 8 + 2\\sin\\frac{\\pi}{6} = 9$. The first that works is the answer."
+  ]
+}

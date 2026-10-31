@@ -1,0 +1,85 @@
+{
+  "ch15_ex3_q1": [
+    "Estimate: $80^\\circ$ is close to $90^\\circ$, so $c$ should be a little under the Pythagoras value $\\sqrt{3.4^2 + 7.8^2} \\approx 8.5$.",
+    "Link: when $C = 90^\\circ$, $\\cos(C) = 0$ and the cosine rule becomes Pythagoras' theorem."
+  ],
+  "ch15_ex3_q2": [
+    "Sense check: $A$ is slightly less than $60^\\circ$. At exactly $60^\\circ$ the rule becomes $a^2 = b^2 + c^2 - bc$, giving about 56.2, so $a$ should be a bit under 56."
+  ],
+  "ch15_ex3_q3": [
+    "Obtuse test: $B$ is obtuse exactly when $b^2 > a^2 + c^2$. Here $532.7 > 389$, which confirms $b$ is the longest side.",
+    "After finding $b$, any remaining angle is safe to find with the sine rule, because a triangle with an obtuse angle cannot have another one."
+  ],
+  "ch15_ex3_q4": [
+    "Scaling shortcut: sides 4, 6, 8 are $2 \\times (2, 3, 4)$, and scaling does not change angles. So $\\cos(A) = \\frac{9 + 16 - 4}{2 \\times 3 \\times 4} = \\frac{21}{24} = \\frac{7}{8}$.",
+    "With whole-number sides the cosine is an exact fraction; simplify it before using $\\cos^{-1}$."
+  ],
+  "ch15_ex3_q5": [
+    "Quick obtuse test: compare $a^2 = 126\\,736$ with $b^2 + c^2 = 130\\,465$. It is slightly smaller, so the largest angle is acute but close to $90^\\circ$."
+  ],
+  "ch15_ex3_q6": [
+    "Find the largest angle ($C$, opposite 26.4) with the cosine rule first. Then the other two must be acute, so the sine rule can find them with no ambiguity.",
+    "Since $26.4^2 = 696.96 < 23.6^2 + 17.3^2 = 856.25$, the triangle has no obtuse angle."
+  ],
+  "ch15_ex3_q7": [
+    "Work in kilometres to keep numbers small: $d^2 = 1.5^2 + 1.2^2 - 2(1.5)(1.2)\\cos(110^\\circ) \\approx 4.92$, so $d \\approx 2.218$ km $= 2218$ m."
+  ],
+  "ch15_ex3_q8a": [
+    "Coordinate check: east $= -12\\sin(68^\\circ) + 7\\sin(34^\\circ) \\approx -7.21$, north $= 12\\cos(68^\\circ) + 7\\cos(34^\\circ) \\approx 10.30$. Distance $= \\sqrt{7.21^2 + 10.30^2} \\approx 12.57$ km."
+  ],
+  "ch15_ex3_q8b": [
+    "Shortcut: find the bearing of F from S first (about N$35^\\circ$W), then reverse it by swapping N/S and E/W to get S$35^\\circ$E."
+  ],
+  "ch15_ex3_q9a": [
+    "Check the type of triangle: $5.2^2 = 27.04 < 3^2 + 4.5^2 = 29.25$, so every angle is acute."
+  ],
+  "ch15_ex3_q9b": [
+    "The area formula works with any angle: choose the angle you already know and multiply the two sides that form it."
+  ],
+  "ch15_ex3_q10": [
+    "Sense check: the goal mouth (3 m) is the shortest side, so the angle opposite it is the smallest angle and must be under $60^\\circ$."
+  ],
+  "ch15_ex3_q11": [
+    "Alternative route: find the area with Heron's formula ($s = 127.5$, area $\\approx 1559.6\\text{ m}^2$), then height $= \\frac{2 \\times \\text{area}}{\\text{base}} = \\frac{2 \\times 1559.6}{35} \\approx 89.12$ m."
+  ],
+  "ch15_ex3_q12a": [
+    "With $60^\\circ$, $\\cos(60^\\circ) = \\frac{1}{2}$ turns the rule into $c^2 = a^2 + b^2 - ab$, so everything stays whole: $6400 + 22\\,500 - 12\\,000 = 16\\,900$.",
+    "Scaling shortcut: 80, 150 and 130 are $10 \\times (8, 15, 13)$, a whole-number triangle with a $60^\\circ$ angle."
+  ],
+  "ch15_ex3_q12b": [
+    "Use the scaled triangle 8, 13, 15: $\\cos(O) = \\frac{64 + 169 - 225}{2 \\times 8 \\times 13} = \\frac{8}{208} = \\frac{1}{26}$, an exact value."
+  ],
+  "ch15_ex3_q13": [
+    "Sense check: $AB$ must be between $31.6 - 16.2 = 15.4$ km and $47.8$ km. The $64^\\circ$ angle is less than $90^\\circ$, so $AB$ is also below $\\sqrt{16.2^2 + 31.6^2} \\approx 35.5$ km."
+  ],
+  "ch15_ex3_q14": [
+    "If the difference between two true bearings is more than $180^\\circ$, subtract it from $360^\\circ$ to get the angle inside the triangle.",
+    "The included angle $135^\\circ$ is obtuse, so the distance must be more than $\\sqrt{50^2 + 30^2} \\approx 58.3$ km."
+  ],
+  "ch15_ex3_q15": [
+    "Since $14^2 = 196 < 11^2 + 13^2 = 290$, even the largest angle is acute, so the answer must be below $90^\\circ$."
+  ],
+  "ch15_ex3_q16a": [
+    "With $60^\\circ$ the rule simplifies to $d^2 = p^2 + q^2 - pq = 49 + 100 - 70 = 79$, with no calculator needed."
+  ],
+  "ch15_ex3_q16b": [
+    "Exact form: $\\cos(B) = \\frac{28}{14\\sqrt{79}} = \\frac{2}{\\sqrt{79}}$, which avoids any rounding of the diagonal."
+  ],
+  "ch15_ex3_q16c": [
+    "Calculator technique: keep $B$ in memory, then type $150 - \\text{Ans}$ to get the upper included angle without retyping a rounded value."
+  ],
+  "ch15_ex3_q17": [
+    "Angles of depression from the cliff top equal the angles of elevation from the yacht (alternate angles), so you can work in the right-angled triangles at sea level.",
+    "10 minutes is $\\frac{1}{6}$ h, so multiply the distance in km by 6 to get km/h."
+  ],
+  "ch15_ex3_q18": [
+    "Quick angle-type check: $AC^2 = 89$ is less than $AB^2 + BC^2 = 97$, so angle $ABC$ is acute but close to $90^\\circ$.",
+    "Face diagonals of a box are just Pythagoras on each face: length², width² and height² pair up in twos."
+  ],
+  "ch15_ex3_q19a": [
+    "Shortcut: $AC^2 = (AB^2 - DB^2) + (BC^2 - DB^2) = 27.04 + 22.09 - 2(13.69) = 21.75$."
+  ],
+  "ch15_ex3_q19b": [
+    "From part (a), $AB^2 + BC^2 - AC^2 = 2DB^2$, so $\\cos(\\angle ABC) = \\frac{DB^2}{AB \\times BC} = \\frac{13.69}{24.44} \\approx 0.5601$."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ch14_ex12_q1a": [
+    "Party trick: in radian mode, type any number and press $\\cos$ over and over; the display settles on $0.739\\ldots$, the solution of $\\cos x = x$.",
+    "Why only one solution: $x - \\cos x$ has derivative $1 + \\sin x \\ge 0$, so it is increasing and can cross zero only once."
+  ],
+  "ch14_ex12_q1b": [
+    "Estimate first: at $x = \\frac{\\pi}{6} \\approx 0.524$, $\\sin x = 0.5$ while $1 - x \\approx 0.476$, so the root is just below $0.524$, matching $0.51$.",
+    "Uniqueness: $\\sin x + x - 1$ has derivative $\\cos x + 1 \\ge 0$, so it is increasing and has only one zero."
+  ],
+  "ch14_ex12_q1c": [
+    "Since $\\cos x \\le 1$, any solution needs $x^2 \\le 1$, so a window of $-1.5 \\le x \\le 1.5$ is enough to see every intersection.",
+    "Check: $\\cos(0.82) \\approx 0.68$ and $0.82^2 \\approx 0.67$, close enough at two decimal places."
+  ],
+  "ch14_ex12_q1d": [
+    "Why no negative solutions: for $-\\pi < x < 0$, $\\sin x < 0 < x^2$; for $x \\le -\\pi$, $x^2 > 1 \\ge \\sin x$.",
+    "Similarly $x > 1$ gives $x^2 > 1$, so the non-zero solution must lie in $(0, 1)$; check $\\sin(0.88) \\approx 0.77 \\approx 0.88^2$."
+  ],
+  "ch14_ex12_q2a": [
+    "Spot the surd: $2.4 \\approx 1 + \\sqrt{2}$, a hint that $\\frac{3\\pi}{4}$-type angles are involved; indeed $2\\sin\\frac{3\\pi}{4} + 1 = \\sqrt{2} + 1$.",
+    "With $b = 1$ and $a = 2$, the value $-1$ at $\\theta = \\frac{\\pi}{2}$ is the minimum, so $\\sin\\frac{n\\pi}{2} = -1$; the smallest positive choice is $n = 3$."
+  ],
+  "ch14_ex12_q2b": [
+    "The equal values at $0.4$ and $0.6$ put the maximum at $\\theta = 0.5$, so half a period is $1$, the period is $2$, and $n = \\frac{2\\pi}{2} = \\pi$.",
+    "Check: $3\\sin(0.2\\pi) \\approx 3 \\times 0.588 = 1.76$, which matches $1.77$ to rounding."
+  ],
+  "ch14_ex12_q2c": [
+    "The data dips to almost 0 but starts at 5, suggesting centre 5 and amplitude 5; the rule $5(1 - \\sin 3\\theta)$ can never go negative, which fits.",
+    "The minimum of $5 - 5\\sin 3\\theta$ is at $\\theta = \\frac{\\pi}{6} \\approx 0.52$, neatly between the two smallest data values at $0.4$ and $0.6$."
+  ]
+}

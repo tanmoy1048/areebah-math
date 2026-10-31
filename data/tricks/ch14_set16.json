@@ -1,0 +1,143 @@
+{
+  "ch14_ex16_q1a": [
+    "Think of it as one turn minus a bit: $330^\\circ = 360^\\circ - 30^\\circ$, so $2\\pi - \\frac{\\pi}{6} = \\frac{11\\pi}{6}$."
+  ],
+  "ch14_ex16_q1b": [
+    "Count in right angles: $810^\\circ = 9 \\times 90^\\circ$, and each $90^\\circ$ is $\\frac{\\pi}{2}$, giving $\\frac{9\\pi}{2}$."
+  ],
+  "ch14_ex16_q1c": [
+    "Quick check: $6\\pi \\approx 18.85$ radians, and $1080 \\div 57.3 \\approx 18.85$, using $1$ radian $\\approx 57.3^\\circ$."
+  ],
+  "ch14_ex16_q1d": [
+    "Another route: $1035^\\circ = 1080^\\circ - 45^\\circ = 6\\pi - \\frac{\\pi}{4} = \\frac{23\\pi}{4}$."
+  ],
+  "ch14_ex16_q1e": [
+    "Think of $135^\\circ$ as $180^\\circ - 45^\\circ$: $\\pi - \\frac{\\pi}{4} = \\frac{3\\pi}{4}$, which also places it in quadrant 2."
+  ],
+  "ch14_ex16_q1f": [
+    "Count in $45^\\circ$ steps: $405 \\div 45 = 9$, so the answer is $9 \\times \\frac{\\pi}{4}$."
+  ],
+  "ch14_ex16_q1g": [
+    "Count in $30^\\circ$ steps: $390 \\div 30 = 13$, and each $30^\\circ$ is $\\frac{\\pi}{6}$, so $\\frac{13\\pi}{6}$."
+  ],
+  "ch14_ex16_q1h": [
+    "Count in $60^\\circ$ steps: $420 \\div 60 = 7$, and each $60^\\circ$ is $\\frac{\\pi}{3}$, so $\\frac{7\\pi}{3}$."
+  ],
+  "ch14_ex16_q1i": [
+    "Estimate check: 1 radian $\\approx 57.3^\\circ$, so $80^\\circ \\approx 1.4$ rad, and $\\frac{4\\pi}{9} \\approx 1.396$."
+  ],
+  "ch14_ex16_q2a": [
+    "Think of $\\frac{5\\pi}{6}$ as $\\pi - \\frac{\\pi}{6}$: $180^\\circ - 30^\\circ = 150^\\circ$."
+  ],
+  "ch14_ex16_q2b": [
+    "Think of $\\frac{7\\pi}{4}$ as $2\\pi - \\frac{\\pi}{4}$: $360^\\circ - 45^\\circ = 315^\\circ$."
+  ],
+  "ch14_ex16_q2c": [
+    "Split off a full turn: $\\frac{11\\pi}{4} = 2\\pi + \\frac{3\\pi}{4}$, so $360^\\circ + 135^\\circ = 495^\\circ$."
+  ],
+  "ch14_ex16_q2d": [
+    "Even without simplifying: $\\frac{\\pi}{12} = 15^\\circ$, and $3 \\times 15^\\circ = 45^\\circ$."
+  ],
+  "ch14_ex16_q2e": [
+    "Split into turns: $\\frac{15\\pi}{2} = 6\\pi + \\frac{3\\pi}{2}$, which is 3 full turns plus $270^\\circ$: $1080^\\circ + 270^\\circ = 1350^\\circ$."
+  ],
+  "ch14_ex16_q2f": [
+    "On the unit circle, $-135^\\circ$ ends at the same point as $225^\\circ$ (add $360^\\circ$), in quadrant 3; useful later when finding exact values."
+  ],
+  "ch14_ex16_q2g": [
+    "$\\frac{\\pi}{4} = 45^\\circ$ is a 'just know it' conversion; with the sign, $-\\frac{\\pi}{4}$ is $45^\\circ$ clockwise."
+  ],
+  "ch14_ex16_q2h": [
+    "Reuse earlier work: $\\frac{11\\pi}{4} = 495^\\circ$, so its negative is $-495^\\circ$; spotting such pairs saves time."
+  ],
+  "ch14_ex16_q2i": [
+    "This is the reverse of converting $1035^\\circ$ to $\\frac{23\\pi}{4}$, with a minus sign; conversions in opposite directions should undo each other."
+  ],
+  "ch14_ex16_q3a": [
+    "$\\frac{11\\pi}{4} - 2\\pi = \\frac{3\\pi}{4}$, in quadrant 2 where sine is positive, so the value is $+\\sin\\frac{\\pi}{4}$."
+  ],
+  "ch14_ex16_q3b": [
+    "Add a full turn to a negative angle: $-\\frac{7\\pi}{4} + 2\\pi = \\frac{\\pi}{4}$, so the answer is just $\\cos\\frac{\\pi}{4}$."
+  ],
+  "ch14_ex16_q3c": [
+    "$\\frac{11\\pi}{6}$ is the same point as $-\\frac{\\pi}{6}$, and sine is odd, so the value is $-\\sin\\frac{\\pi}{6}$."
+  ],
+  "ch14_ex16_q3d": [
+    "Add $2\\pi$: $-\\frac{7\\pi}{6} + \\frac{12\\pi}{6} = \\frac{5\\pi}{6}$, in quadrant 2 where cosine is negative.",
+    "Calculator check in radian mode: $\\cos\\left(-\\frac{7\\pi}{6}\\right) \\approx -0.866 = -\\frac{\\sqrt{3}}{2}$."
+  ],
+  "ch14_ex16_q3e": [
+    "Any angle of the form $\\frac{(12k+1)\\pi}{6}$ is $\\frac{\\pi}{6}$ plus whole turns, so its cosine is $\\frac{\\sqrt{3}}{2}$."
+  ],
+  "ch14_ex16_q3f": [
+    "$\\frac{23\\pi}{6}$ is just $\\frac{\\pi}{6}$ short of $\\frac{24\\pi}{6} = 4\\pi$, so it is the same point as $-\\frac{\\pi}{6}$."
+  ],
+  "ch14_ex16_q3g": [
+    "Add $8\\pi = \\frac{24\\pi}{3}$: $-\\frac{23\\pi}{3} + \\frac{24\\pi}{3} = \\frac{\\pi}{3}$, so the value is $\\cos\\frac{\\pi}{3} = \\frac{1}{2}$ in one step."
+  ],
+  "ch14_ex16_q3h": [
+    "Add $4\\pi = \\frac{16\\pi}{4}$: $-\\frac{17\\pi}{4} + \\frac{16\\pi}{4} = -\\frac{\\pi}{4}$, so the value is $\\sin\\left(-\\frac{\\pi}{4}\\right)$."
+  ],
+  "ch14_ex16_q4a": [
+    "Check the period by substitution: at $\\theta = 4\\pi$, the angle is $\\frac{4\\pi}{2} = 2\\pi$, exactly one full cycle."
+  ],
+  "ch14_ex16_q4b": [
+    "$n = 4$ means 4 cycles in every $2\\pi$, so each cycle is $\\frac{2\\pi}{4} = \\frac{\\pi}{2}$; the $-3$ only flips and stretches."
+  ],
+  "ch14_ex16_q4c": [
+    "An amplitude of $\\frac{1}{2}$ means the range is $\\left[-\\frac{1}{2}, \\frac{1}{2}\\right]$: the graph is squashed towards the axis."
+  ],
+  "ch14_ex16_q4d": [
+    "Range check: $-3\\cos 2x$ runs from $-3$ to $3$, so the amplitude is half of $3 - (-3)$, which is 3."
+  ],
+  "ch14_ex16_q4e": [
+    "Dividing $x$ by 3 slows the graph down by a factor of 3, so the period is $3 \\times 2\\pi = 6\\pi$."
+  ],
+  "ch14_ex16_q4f": [
+    "Check the period by substitution: at $x = 3\\pi$ the angle is $\\frac{2 \\times 3\\pi}{3} = 2\\pi$, one full cycle."
+  ],
+  "ch14_ex16_q5a": [
+    "The maximum is where the angle $2x = \\frac{\\pi}{2}$, i.e. $x = \\frac{\\pi}{4}$; finding where the inside equals $\\frac{\\pi}{2}, \\pi, \\frac{3\\pi}{2}$ places every key point."
+  ],
+  "ch14_ex16_q5b": [
+    "Check the middle point: at $x = 3\\pi$, $-3\\cos\\pi = 3$, the maximum, halfway through the cycle."
+  ],
+  "ch14_ex16_q5c": [
+    "Check the first quarter-point: $x = \\frac{\\pi}{6}$ gives $-2\\sin\\frac{\\pi}{2} = -2$, confirming the graph goes down first."
+  ],
+  "ch14_ex16_q5d": [
+    "Quarter-period is $\\frac{6\\pi}{4} = \\frac{3\\pi}{2}$, so the key $x$-values are $0, \\frac{3\\pi}{2}, 3\\pi, \\frac{9\\pi}{2}, 6\\pi$."
+  ],
+  "ch14_ex16_q5e": [
+    "Every key point of $y = \\sin x$ simply gets $\\frac{\\pi}{4}$ added to its $x$-coordinate.",
+    "The $y$-intercept $-\\frac{\\sqrt{2}}{2} \\approx -0.71$ is negative, consistent with the rising zero having moved right of the origin."
+  ],
+  "ch14_ex16_q5f": [
+    "Check a point: $x = \\frac{\\pi}{3}$ gives $\\sin\\pi = 0$, a falling zero, matching the sketch.",
+    "The $y$-intercept $\\frac{\\sqrt{3}}{2} \\approx 0.87$ is positive and the graph is falling at $x = 0$, since the max at $-\\frac{\\pi}{6}$ is just to the left."
+  ],
+  "ch14_ex16_q5g": [
+    "The minimum also occurs at $\\frac{11\\pi}{6} - 2\\pi = -\\frac{\\pi}{6}$, only $\\frac{\\pi}{6}$ from the $y$-axis, which is why the $y$-intercept $-\\sqrt{3} \\approx -1.73$ is close to $-2$."
+  ],
+  "ch14_ex16_q5h": [
+    "Since $-\\cos u = \\cos(u - \\pi)$, $y = -3\\cos\\left(x + \\frac{\\pi}{6}\\right) = 3\\cos\\left(x - \\frac{5\\pi}{6}\\right)$, which explains the maximum at $\\frac{5\\pi}{6}$.",
+    "$y$-intercept: $-3\\cos\\frac{\\pi}{6} = -\\frac{3\\sqrt{3}}{2} \\approx -2.6$."
+  ],
+  "ch14_ex16_q6a": [
+    "Solutions of $\\sin\\theta = k$ are symmetric about $\\pm\\frac{\\pi}{2}$: here $-\\frac{\\pi}{3}$ and $-\\frac{2\\pi}{3}$ average to $-\\frac{\\pi}{2}$."
+  ],
+  "ch14_ex16_q6b": [
+    "Pattern: solutions repeat every period of $\\sin 2\\theta$, which is $\\pi$; so $-\\frac{\\pi}{3} + \\pi = \\frac{2\\pi}{3}$ and $-\\frac{\\pi}{6} + \\pi = \\frac{5\\pi}{6}$.",
+    "Check: $\\theta = -\\frac{\\pi}{6}$ gives $\\sin\\left(-\\frac{\\pi}{3}\\right) = -\\frac{\\sqrt{3}}{2}$."
+  ],
+  "ch14_ex16_q6c": [
+    "Check both answers: $\\theta = \\frac{\\pi}{6}$ gives $\\sin\\left(-\\frac{\\pi}{6}\\right) = -\\frac{1}{2}$, and $\\theta = \\frac{3\\pi}{2}$ gives $\\sin\\frac{7\\pi}{6} = -\\frac{1}{2}$."
+  ],
+  "ch14_ex16_q6d": [
+    "Shortcut: $\\sin u = -1$ only at the minimum $u = \\frac{3\\pi}{2}$, so the graph's minimum is shifted left by $\\frac{\\pi}{3}$: $\\frac{3\\pi}{2} - \\frac{\\pi}{3} = \\frac{7\\pi}{6}$."
+  ],
+  "ch14_ex16_q6e": [
+    "Pattern: after using the odd property this becomes $\\sin\\left(\\theta - \\frac{\\pi}{3}\\right) = \\frac{1}{2}$, the previous equation with the sign of the right side flipped.",
+    "Check: $\\theta = \\frac{\\pi}{2}$ gives $\\sin\\left(-\\frac{\\pi}{6}\\right) = -\\frac{1}{2}$ and $\\theta = \\frac{7\\pi}{6}$ gives $\\sin\\left(-\\frac{5\\pi}{6}\\right) = -\\frac{1}{2}$."
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "ch6_ex4_q1a": [
+    "Picture a Rubik's cube: 3 layers, each a $3 \\times 3$ square of 9 small cubes, so $3 \\times 9 = 27$ unit cubes."
+  ],
+  "ch6_ex4_q1b": [
+    "Estimate: $4^3 = 64$ and $4.5^3 \\approx 91$, so $74.088$ sitting between them makes sense.",
+    "Calculator: use the $x^3$ key, or type $4.2$^$3$."
+  ],
+  "ch6_ex4_q1c": [
+    "Pair the numbers that make a round result: $20 \\times 15 = 300$, then $300 \\times 12 = 3600$."
+  ],
+  "ch6_ex4_q1d": [
+    "Easy order: $3 \\times 7.5 = 22.5$, then $22.5 \\times 4.2 = 94.5$; or $7.5 \\times 4.2 = 31.5$, then $\\times 3$."
+  ],
+  "ch6_ex4_q2a": [
+    "Think of the solid as a stack of identical thin slices, like a pile of coins. Volume = area of one slice $\\times$ the stack height, whatever the slice's shape."
+  ],
+  "ch6_ex4_q2b": [
+    "Unit check: $\\text{cm}^2 \\times \\text{cm} = \\text{cm}^3$. If your units don't come out cubed, a dimension is missing or doubled."
+  ],
+  "ch6_ex4_q3a": [
+    "Exact first: $\\pi \\times 144 \\times 14 = 2016\\pi$. Estimate: $3 \\times 2000 = 6000$, a bit under $6333.5$."
+  ],
+  "ch6_ex4_q3b": [
+    "Estimate with $\\pi \\approx 3$: $3 \\times 2.25 \\times 2.7 \\approx 18$, close to $19.1\\text{ m}^3$."
+  ],
+  "ch6_ex4_q3c": [
+    "A right-angled triangular prism is half of a box: the $8 \\times 7 \\times 10$ box is $560$, so the prism is $280$."
+  ],
+  "ch6_ex4_q4a": [
+    "Half-a-box trick again: $\\frac{1}{2} \\times 6 \\times 8 \\times 12 = \\frac{1}{2} \\times 576 = 288$."
+  ],
+  "ch6_ex4_q4b": [
+    "Estimate: $35^\\circ$ is about $\\frac{1}{10}$ of a full turn. The full cylinder is $\\pi \\times 6.5^2 \\times 7.1 \\approx 942$, so the wedge should be roughly 94; the answer 91.6 fits."
+  ],
+  "ch6_ex4_q4c": [
+    "Find the whole cylinder ($\\pi \\times 22.5^2 \\times 18 \\approx 28\\,628$), then take $\\frac{3}{4}$ of it."
+  ],
+  "ch6_ex4_q5a": [
+    "A sphere fills about $52\\%$ ($\\frac{\\pi}{6}$) of the cube that just encloses it: $2.4^3 \\approx 13.8$ and $0.52 \\times 13.8 \\approx 7.2$.",
+    "Memory aid: Volume uses $r^3$ (cm$^3$); Surface uses $r^2$ (cm$^2$). The power matches the unit."
+  ],
+  "ch6_ex4_q5b": [
+    "Simplify before using $\\pi$: $\\frac{4}{3} \\times 3375 = 4500$, so $V = 4500\\pi$."
+  ],
+  "ch6_ex4_q5c": [
+    "Quick estimate: $\\frac{4}{3}\\pi \\approx 4.19$, so $V \\approx 4.19 \\times 343 \\approx 1437$."
+  ],
+  "ch6_ex4_q5d": [
+    "Make it meaningful: $523\\,598.8\\text{ cm}^3 \\approx 0.52\\text{ m}^3$, or about 524 L, since $1000\\text{ cm}^3 = 1$ L."
+  ],
+  "ch6_ex4_q6a": [
+    "Exact: $\\frac{4}{3} \\times 27\\,000 = 36\\,000$, so $V = 36\\,000\\pi$."
+  ],
+  "ch6_ex4_q6b": [
+    "Diameter version: $V = \\frac{\\pi d^3}{6}$. Here $\\frac{\\pi \\times 1.4^3}{6} = \\frac{2.744\\pi}{6} \\approx 1.44$."
+  ],
+  "ch6_ex4_q6c": [
+    "Exact: $\\frac{2}{3} \\times 18^3 = \\frac{2}{3} \\times 5832 = 3888$, so $V = 3888\\pi$."
+  ],
+  "ch6_ex4_q6d": [
+    "Nice link: $\\frac{1}{3}\\pi r^3$ is also the volume of a cone with radius $r$ and height $r$. A quarter-sphere holds exactly as much as that cone."
+  ],
+  "ch6_ex4_q7a": [
+    "Find the cylinder first ($\\pi \\times 36 \\times 10 = 360\\pi$), then take a third: $120\\pi \\approx 377.0$.",
+    "Why one third? If you fill a cone with water and pour it into a cylinder with the same base and height, it takes exactly three cones to fill it."
+  ],
+  "ch6_ex4_q7b": [
+    "Lying on its side doesn't change anything: the 'height' is always measured from the base circle to the tip, at right angles to the base."
+  ],
+  "ch6_ex4_q8a": [
+    "Why $\\frac{1}{3}$: a cube can be cut into exactly 3 identical square pyramids, each using one face as its base and the same opposite corner as its apex."
+  ],
+  "ch6_ex4_q8b": [
+    "Cancel early: $\\frac{1}{3} \\times 42 = 14$, then $720 \\times 14 = 10\\,080$."
+  ],
+  "ch6_ex4_q9a": [
+    "Alternative: think of the block as the full $20 \\times 10 \\times 10$ box ($2000$) minus the missing $12 \\times 5 \\times 10$ chunk ($600$): $1400\\text{ cm}^3$."
+  ],
+  "ch6_ex4_q9b": [
+    "Exact form: $(240 + 18\\pi) \\times 35 = 8400 + 630\\pi$. Then a single calculator step gives $10\\,379.20$."
+  ],
+  "ch6_ex4_q10a": [
+    "Sense check: the pyramid's height ($\\approx 4.77$) must be less than the 5 cm slant height, because the slant height is the hypotenuse.",
+    "Since $\\frac{1}{3} \\times 3^2 = 3$, the pyramid's volume is just $3H$."
+  ],
+  "ch6_ex4_q10b": [
+    "A cone is like a cylinder one third as tall: the solid acts like a cylinder of length $3 + \\frac{2.5}{3} \\approx 3.83$, so $V \\approx 4\\pi \\times 3.83 \\approx 48.17$."
+  ],
+  "ch6_ex4_q11a": [
+    "Neat link: a hemisphere has the same volume as a cone of the same radius with height $2r$. So the whole solid is like one cone of height $2(3.5) + 10 = 17$: $\\frac{1}{3}\\pi \\times 3.5^2 \\times 17 \\approx 218.08$."
+  ],
+  "ch6_ex4_q11b": [
+    "Exact: $\\pi(7.5^2 \\times 12 + 5^2 \\times 20) = \\pi(675 + 500) = 1175\\pi$."
+  ],
+  "ch6_ex4_q12a": [
+    "Picture it: tripling the edges gives a $3 \\times 3 \\times 3$ arrangement of copies of the original cube, which is 27 copies."
+  ],
+  "ch6_ex4_q12b": [
+    "Picture it: 8 small cubes (2 by 2 by 2) fit together to make the original cube, so each small one is $\\frac{1}{8}$."
+  ],
+  "ch6_ex4_q12c": [
+    "Volume factor = (radius factor)$^2 \\times$ (height factor) $= 2^2 \\times \\frac{1}{2} = 2$."
+  ],
+  "ch6_ex4_q12d": [
+    "Factor: $2^2 \\times \\frac{1}{4} = 1$. A wider, flatter cylinder can hold exactly the same amount."
+  ],
+  "ch6_ex4_q12e": [
+    "Test with a $1 \\times 1 \\times 1$ cube: the new prism is $2 \\times 0.5 \\times 3 = 3$, three times the original."
+  ],
+  "ch6_ex4_q13": [
+    "Estimate: $\\frac{2}{3}\\pi \\approx 2.09$ and $10.5^3 \\approx 1158$, so $V \\approx 2420\\text{ cm}^3 \\approx 2.4$ L.",
+    "Conversion picture: 1 L is a $10\\text{ cm} \\times 10\\text{ cm} \\times 10\\text{ cm}$ cube, so divide $\\text{cm}^3$ by 1000 to get litres."
+  ],
+  "ch6_ex4_q14a": [
+    "The true value is $\\frac{4}{3}\\pi \\times 64 \\approx 268$, so using $\\pi \\approx 3$ underestimates by about $4.5\\%$ (since $3$ is $4.5\\%$ less than $\\pi$)."
+  ],
+  "ch6_ex4_q14b": [
+    "Each ball sits in its own $8 \\times 8 \\times 8$ cube of space and fills only about $52\\%$ ($\\frac{\\pi}{6}$) of it, which is why so much of a box of balls is air."
+  ],
+  "ch6_ex4_q14c": [
+    "Rounding $32$ to $30$ makes the multiplication easy ($40 \\times 30 \\times 10$) but loses $800\\text{ cm}^3$; that will matter in part f."
+  ],
+  "ch6_ex4_q14d": [
+    "So in this estimate, the balls take up less than half of the box."
+  ],
+  "ch6_ex4_q14e": [
+    "Type it in one go: $40 \\times 32 \\times 10 - 20 \\times \\frac{4}{3} \\times \\pi \\times 4^3$, so no rounding happens in the middle."
+  ],
+  "ch6_ex4_q14f": [
+    "Track the errors: the box estimate was $800$ too small and the balls estimate $20 \\times 12.08 \\approx 241.65$ too small, so the unfilled estimate is low by $800 - 241.65 = 558.35$."
+  ],
+  "ch6_ex4_q15": [
+    "Why $\\times 1000$: a $1\\text{ m}$ cube holds $10 \\times 10 \\times 10 = 1000$ one-litre cubes (each $10\\text{ cm}$ on a side).",
+    "Exact: $\\pi \\times 0.75^2 \\times 2.5 = 1.40625\\pi\\text{ m}^3$."
+  ],
+  "ch6_ex4_q16": [
+    "Write the total as one calculator line: $15\\,000 - \\left(160 + \\frac{4}{3}\\pi \\times 8.5^3 + \\frac{1}{3}\\pi \\times 14^2 \\times 10\\right)$.",
+    "Sense check: the packing (about $10\\,215$) is roughly two thirds of the box, which fits three fairly small objects."
+  ],
+  "ch6_ex4_q17a": [
+    "Similar triangles: $\\frac{H - 3}{H} = \\frac{4}{8}$, so the bottom is halfway to the apex and $H = 6$."
+  ],
+  "ch6_ex4_q17b": [
+    "Check with the frustum formula $\\frac{1}{3}h(X^2 + Xx + x^2) = \\frac{1}{3} \\times 3 \\times (64 + 32 + 16) = 112$.",
+    "The removed tip is a half-size copy, so its volume is $\\left(\\frac{1}{2}\\right)^3 = \\frac{1}{8}$ of the big pyramid: $\\frac{1}{8} \\times 128 = 16$."
+  ],
+  "ch6_ex4_q17c": [
+    "$112 \\div 6 \\approx 18.7$; 18 bins only hold $108\\text{ m}^3$, so 19 are needed."
+  ],
+  "ch6_ex4_q17d": [
+    "Shortcut: $\\text{m}^3 \\to$ L is $\\times 1000$, so $112\\text{ m}^3 = 112\\,000$ L. Equivalently, $1\\text{ m}^3$ of water is 1 tonne."
+  ],
+  "ch6_ex4_q17e": [
+    "Use volume scaling: a pyramid's volume is proportional to (height from apex)$^3$. Water plus tip is $\\frac{72}{128}$ of the full pyramid, so $y = 6 \\times \\sqrt[3]{0.5625} \\approx 4.95$.",
+    "Sense check: the answer must be more than half of 3 m (1.5 m) because the bottom half of the pool is narrower."
+  ],
+  "ch6_ex4_q18ai": [
+    "Rearranged: $r = \\sqrt[3]{\\frac{3V}{4\\pi}} = \\sqrt[3]{\\frac{300}{\\pi}}$. Since $4.5^3 \\approx 91$ and $\\frac{300}{\\pi} \\approx 95.5$, $r$ is just over 4.5."
+  ],
+  "ch6_ex4_q18aii": [
+    "Shortcut for a sphere: $\\text{SA} = \\frac{3V}{r}$ (because $4\\pi r^2 = 3 \\times \\frac{4}{3}\\pi r^3 \\div r$). So $\\frac{1200}{4.5708} \\approx 262.5$."
+  ],
+  "ch6_ex4_q18bi": [
+    "Check: $\\pi \\times 9 \\times 14.15 \\approx 400$. Substituting your answer back is the quickest way to catch a slip."
+  ],
+  "ch6_ex4_q18bii": [
+    "Since $V = \\pi r^2 h$, the curved surface $2\\pi r h = \\frac{2V}{r} = \\frac{800}{3} \\approx 266.67$ exactly, without using the rounded height."
+  ],
+  "ch6_ex4_q18ci": [
+    "Rearrange first: $H = \\frac{3V}{A} = \\frac{1200}{36} = \\frac{100}{3}$."
+  ],
+  "ch6_ex4_q18cii": [
+    "For a tall, thin pyramid the slant height is barely more than the vertical height ($33.47$ vs $33.33$), because half the base (3 cm) is tiny in comparison."
+  ],
+  "ch6_ex4_q18d": [
+    "The best cylinder has height equal to its diameter: for 400 mL that is $r \\approx 3.99$ cm with $\\text{SA} = 6\\pi r^2 \\approx 300.5\\text{ cm}^2$, close to the sphere but easy to stand up and stack."
+  ],
+  "ch6_ex4_q19a": [
+    "Check by substituting back: $\\pi r^2 \\times \\frac{V}{\\pi r^2} = V$."
+  ],
+  "ch6_ex4_q19bi": [
+    "Exact: $h = \\frac{1600}{16\\pi} = \\frac{100}{\\pi} \\approx 31.8$."
+  ],
+  "ch6_ex4_q19bii": [
+    "Link to part (i): the radius doubled, so $h$ is a quarter: $31.83 \\div 4 \\approx 7.96 \\approx 8.0$. Exactly, $h = \\frac{25}{\\pi}$."
+  ],
+  "ch6_ex4_q19c": [
+    "Undo in reverse order: $V$ was made by squaring $r$, then multiplying by $\\pi h$. So divide by $\\pi h$ first, then square root."
+  ],
+  "ch6_ex4_q19d": [
+    "For a real cylinder, $r$ must actually be greater than 0, and this needs $V > 0$ and $h > 0$ so the fraction under the root is positive."
+  ],
+  "ch6_ex4_q19ei": [
+    "Check: $\\pi \\times 7.57^2 \\times 10 \\approx 1800$."
+  ],
+  "ch6_ex4_q19eii": [
+    "Scaling: the height is 1.5 times bigger, so the radius shrinks by $\\sqrt{1.5} \\approx 1.22$: $7.57 \\div 1.22 \\approx 6.2$."
+  ],
+  "ch6_ex4_q20": [
+    "Surprise: the 1000 small balls have 10 times the total surface area of the big ball, because area only scales by $10^2 = 100$ while volume scales by $10^3$."
+  ],
+  "ch6_ex4_q21a": [
+    "Exact: $h = \\frac{2\\,000\\,000}{250\\,000\\pi} = \\frac{8}{\\pi} \\approx 2.55$ cm."
+  ],
+  "ch6_ex4_q21b": [
+    "Exact: $r = \\sqrt{\\frac{2\\,000\\,000}{500\\pi}} = \\sqrt{\\frac{4000}{\\pi}} \\approx 35.68$ cm."
+  ],
+  "ch6_ex4_q21c": [
+    "Tank (a) needs about 13 times as much material as tank (b) for the same 2000 L. Extreme shapes (very flat or very thin) waste material.",
+    "Units: $1\\text{ m}^2 = 10\\,000\\text{ cm}^2$, so convert lengths to metres first rather than dividing an area by 100."
+  ],
+  "ch6_ex4_q22a": [
+    "Test the formula: if $y = x$ it gives $\\frac{1}{3}h \\times 3x^2 = hx^2$ (a prism), and if $y = 0$ it gives $\\frac{1}{3}hx^2$ (a pyramid). Both make sense."
+  ],
+  "ch6_ex4_q22b": [
+    "The small pyramid is a $\\frac{4}{6} = \\frac{2}{3}$ scale copy of the full one, so its volume is $\\left(\\frac{2}{3}\\right)^3 = \\frac{8}{27}$ of 180: $\\frac{8}{27} \\times 180 \\approx 53.33$."
+  ],
+  "ch6_ex4_q23": [
+    "Handy fact: 1 mm of rain on $1\\text{ m}^2$ of roof is exactly 1 litre. So the tanks' $30\\,925$ L divided by $170\\text{ m}^2$ gives about 182 mm."
+  ],
+  "ch6_ex4_q24": [
+    "With $h = 2r$: volumes $2\\pi r^3$ vs $\\frac{4}{3}\\pi r^3$, areas $6\\pi r^2$ vs $4\\pi r^2$. Both ratios are $\\frac{3}{2}$.",
+    "Bonus: the sphere's area $4\\pi r^2$ equals the cylinder's curved side exactly ($2\\pi r \\times 2r$)."
+  ],
+  "ch6_ex4_q25": [
+    "Shortcut for a muffin cup: the frustum formula works for cones too: $\\frac{1}{3}\\pi h(R^2 + Rr + r^2) = \\frac{1}{3}\\pi \\times 4 \\times (16 + 8 + 4) = \\frac{112\\pi}{3}$.",
+    "Exact comparison: the mixture is $500\\pi \\approx 1571$, more than the tin's $1500$, so the tin overflows slightly."
+  ],
+  "ch6_ex4_q26": [
+    "Check $x = 0.3$ directly: the base is $1.4 \\times 1.4$ and the height 0.3, so $V = 1.96 \\times 0.3 = 0.588\\text{ m}^3$.",
+    "The two answers sit either side of $x = \\frac{1}{3}$ m, where the volume is largest: $\\frac{16}{27}\\text{ m}^3 \\approx 593$ L. For any square sheet, the best cut is $\\frac{1}{6}$ of the side."
+  ],
+  "ch6_ex4_q27": [
+    "Doubling a volume does not double the radius: if there were no entrance, $R = 1.5 \\times \\sqrt[3]{2} \\approx 1.89$ m. The answer is a bit more because the entrance doesn't grow.",
+    "Keep $\\pi$ as a common factor throughout; it cancels when you solve for $R^3$."
+  ],
+  "ch6_ex4_q28a": [
+    "Stacked balls touch top to bottom, so the height is (number of balls) $\\times$ (diameter): $6 \\times 2R$."
+  ],
+  "ch6_ex4_q28b": [
+    "Keep it in terms of $R$; no calculator is needed because $\\pi$ and $R$ stay as symbols."
+  ],
+  "ch6_ex4_q28c": [
+    "Write $\\pi R^2 \\times 12R$ and collect powers: $R^2 \\times R = R^3$."
+  ],
+  "ch6_ex4_q28d": [
+    "This is Archimedes' result in disguise: each ball fills $\\frac{2}{3}$ of its own slice of cylinder (radius $R$, height $2R$), so any number of stacked balls gives $2 : 3$."
+  ],
+  "ch6_ex4_q29a": [
+    "Base area is $X^2$, so this is just $\\frac{1}{3} \\times \\text{base} \\times \\text{height}$."
+  ],
+  "ch6_ex4_q29b": [
+    "Label a diagram: $H$ is the whole height, $h$ is the frustum part, so the small top pyramid is the leftover $H - h$."
+  ],
+  "ch6_ex4_q29c": [
+    "From $\\frac{H - h}{H} = \\frac{x}{X}$, cross-multiply to $XH - Xh = xH$, so $H(X - x) = Xh$.",
+    "Check: if $x = 0$ (no top cut off), the formula gives $H = h$, as it should."
+  ],
+  "ch6_ex4_q29d": [
+    "Memorise the difference of cubes: $a^3 - b^3 = (a - b)(a^2 + ab + b^2)$. It is the source of the middle $Xx$ term in the frustum formula."
+  ],
+  "ch6_ex4_q30": [
+    "Bar model: $\\frac{5}{8} - \\frac{2}{8} = \\frac{3}{8}$ of the container is 27 scoops, so $\\frac{1}{8}$ is 9 scoops. A quarter is $\\frac{2}{8}$, so 18 scoops are left.",
+    "Check: a full container holds $8 \\times 9 = 72$ scoops, and $\\frac{5}{8} \\times 72 = 45 = 27 + 18$."
+  ]
+}

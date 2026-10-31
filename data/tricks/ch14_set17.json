@@ -1,0 +1,66 @@
+{
+  "ch14_ex17_q1ai": [
+    "Why almost exactly 0: $d = 0$ when the angle is $\\pi$, i.e. $t + \\frac{1}{3} = 6$, so $t \\approx 5.67$ months, which is around 21 June, midwinter in Antarctica.",
+    "The range $[0, 24]$ makes sense on the Antarctic Circle: one day with no daylight, and one with 24 hours of daylight."
+  ],
+  "ch14_ex17_q1aii": [
+    "The angle is $\\frac{\\pi}{6}(3.03) \\approx 1.588$, just past $\\frac{\\pi}{2} \\approx 1.571$, where cosine is slightly negative, so $d$ is just under 12."
+  ],
+  "ch14_ex17_q1b": [
+    "Symmetry check: the two times should average to the minimum at $t = \\frac{17}{3} \\approx 5.67$; indeed $\\frac{3.86 + 7.48}{2} \\approx 5.67$.",
+    "Graphics calculator: graph $d$ and $y = 5$ for $0 \\le t \\le 12$ in radian mode and use the intersect tool to confirm both times."
+  ],
+  "ch14_ex17_q2a": [
+    "Degrees view: $\\frac{\\pi t}{12}$ radians is $15^\\circ$ per hour, so 4 hours is $60^\\circ$, a standard angle with $\\cos 60^\\circ = \\frac{1}{2}$."
+  ],
+  "ch14_ex17_q2b": [
+    "Treat $\\cos\\left(\\frac{\\pi t}{12}\\right)$ as a single unknown $c$: $(21 - 3c) - (22 - 5c) = -1 + 2c$. Same-argument trig terms combine like algebra."
+  ],
+  "ch14_ex17_q2c": [
+    "The $t$-intercepts come from $\\cos\\frac{\\pi t}{12} = \\frac{1}{2}$ and are symmetric about the minimum at $t = 12$: $12 \\pm 8$ gives $4$ and $20$."
+  ],
+  "ch14_ex17_q2d": [
+    "Physical check: at $t = 12$ (4 p.m.) the outside is hottest at $27^\\circ$C while inside is $24^\\circ$C, so 'inside cooler' should include mid-afternoon."
+  ],
+  "ch14_ex17_q3a": [
+    "Quarter-period is 3 h, so plot at $t = 0, 3, 6, \\ldots, 24$; label the clock times (3 a.m., 6 a.m., ...) under the $t$-values to avoid later confusion."
+  ],
+  "ch14_ex17_q3b": [
+    "Because the model uses $+\\cos$ and $t$ starts at 3 a.m., high tide is at the start of the clock; it then repeats every 12 hours."
+  ],
+  "ch14_ex17_q3c": [
+    "Low tides sit halfway between high tides: midway between 3 a.m. and 3 p.m. is 9 a.m."
+  ],
+  "ch14_ex17_q3d": [
+    "The too-shallow window is symmetric about low tide ($t = 6$, 9 a.m.): it runs $6 \\pm 1.875$ h, so solving once gives both ends.",
+    "Calculator: $\\cos^{-1}\\left(-\\frac{5}{9}\\right) \\approx 2.160$ rad, so $t = \\frac{6 \\times 2.160}{\\pi} \\approx 4.125$, and the other end is $12 - 4.125 = 7.875$."
+  ],
+  "ch14_ex17_q3ei": [
+    "Work backwards from the 8 p.m. deadline: $8{:}00 - 50 - 5 - 50$ min $= 6{:}15$ p.m.; then check arrival at 7:05 p.m. is before the depth drops below 2 m at about 7:07 p.m."
+  ],
+  "ch14_ex17_q3eii": [
+    "Fence-post count: departures run from 10:02:30 a.m. to 6:15 p.m. (492.5 min); $\\lfloor 492.5 \\div 110 \\rfloor = 4$ gaps, so $4 + 1 = 5$ departures fit."
+  ],
+  "ch14_ex17_q4a": [
+    "$p$ is the centre line, the average of low and high: $\\frac{2 + 6}{2} = 4$; and $-2\\cos$ already starts at a minimum, matching low tide at $t = 0$."
+  ],
+  "ch14_ex17_q4b": [
+    "Quarter-period is 4 h, so key points are at $t = 0, 4, 8, 12, 16$; the curve looks like a hill, low at both ends."
+  ],
+  "ch14_ex17_q4c": [
+    "4 a.m. plus 16 hours is 8 p.m.; adding the full period gets you from one low tide to the next."
+  ],
+  "ch14_ex17_q4d": [
+    "Centre-line crossings occur every half-period (8 h): starting from 8 a.m. gives 8 a.m., 4 p.m., midnight, ..."
+  ],
+  "ch14_ex17_q4ei": [
+    "High tide depth is centre plus amplitude, $4 + 2 = 6$ m, so $7.5 - 6 = 1.5$ m of pole shows."
+  ],
+  "ch14_ex17_q4eii": [
+    "2 p.m. is 2 hours after high tide at noon, which is $\\frac{\\pi}{4}$ past the peak, so $D = 4 + 2\\cos\\frac{\\pi}{4} = 4 + \\sqrt{2} \\approx 5.41$ m."
+  ],
+  "ch14_ex17_q4f": [
+    "Sense check: 3.5 m is just below the centre line of 4 m, so the mussel is covered for a little over half the 16-hour period, i.e. a bit more than 8 hours.",
+    "Use symmetry about high tide ($t = 8$): solve once to get $t \\approx 3.357$, and the covered time is $2(8 - 3.357) \\approx 9.29$ h."
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "ch5_ex7_q1": [
+    "The angle is over $45^\\circ$, so the tree (opposite) must be taller than the distance to it (adjacent). An answer below 12.19 m makes sense.",
+    "To avoid dividing, use the angle at the treetop, $90^\\circ - 54^\\circ 22' = 35^\\circ 38'$: distance $= 12.19 \\times \\tan(35^\\circ 38') \\approx 8.74$ m."
+  ],
+  "ch5_ex7_q2": [
+    "Memory aid: depression means looking DOWN from a horizontal line, like feeling down. The angle sits at the top of the cliff, between the horizontal and the line of sight.",
+    "Small angle, long distance: $\\tan 9^\\circ 15' \\approx 0.16$, so the boat is about $112 \\div 0.16 \\approx 700$ m away."
+  ],
+  "ch5_ex7_q3a": [
+    "Estimate: $\\tan 12^\\circ \\approx 0.21$, so the height is about $0.21 \\times 830 \\approx 175$ m."
+  ],
+  "ch5_ex7_q3b": [
+    "Draw the lighthouse as a short segment stacked on the cliff. The trig height is the whole stack, so the cliff alone is the stack minus the top piece."
+  ],
+  "ch5_ex7_q4": [
+    "The shadow is shorter than the post, so the sun must be higher than $45^\\circ$ in the sky. That fits $65^\\circ 46'$.",
+    "Shadow pattern: the higher the sun, the shorter the shadow. At $45^\\circ$ a shadow is exactly as long as the object."
+  ],
+  "ch5_ex7_q5": [
+    "Draw a horizontal line from the eye to the building. Trig gives the part above that line ($47\\tan 17^\\circ \\approx 14.37$ m), and the eye height fills in the part below it."
+  ],
+  "ch5_ex7_q6a": [
+    "Label the shared vertical side $h$ in both triangles. Two triangles with one common side is the signal to write two equations and set them equal."
+  ],
+  "ch5_ex7_q6b": [
+    "Formula pattern for these two-point problems: $x = \\dfrac{38\\tan(35^\\circ 50')}{\\tan(47^\\circ 12') - \\tan(35^\\circ 50')}$. Enter it in one go with brackets.",
+    "Check: substitute $x$ back into both expressions. Each should give $h \\approx 82.82$ m."
+  ],
+  "ch5_ex7_q6c": [
+    "Units: 180 cm is 1.80 m. A quick way to convert is to move the decimal point two places left."
+  ],
+  "ch5_ex7_q7a": [
+    "Same set-up as any two-angle problem: the near point uses $x$, the far point uses $x$ plus the gap (here $x + 75$)."
+  ],
+  "ch5_ex7_q7b": [
+    "Shortcut formula: $x = \\dfrac{75\\tan(32^\\circ 18')}{\\tan(43^\\circ 35') - \\tan(32^\\circ 18')}$. Typing it as one expression keeps every decimal.",
+    "Sense check: the nearer site is about twice as far from the building as the gap between sites, which is plausible for angles this far apart."
+  ],
+  "ch5_ex7_q7c": [
+    "Check with the far triangle: $(148.37 + 75)\\tan(32^\\circ 18') + 1.89$ should give the same 143.10 m."
+  ],
+  "ch5_ex7_q8": [
+    "One line: deck height above cliff $= 5800(\\tan 16^\\circ - \\tan 15.7^\\circ) \\approx 32.8$ m. Factoring out 5800 avoids subtracting two big rounded numbers.",
+    "Why such a small angle change matters: over 5.8 km, a $0.3^\\circ$ difference still covers about 33 m vertically."
+  ],
+  "ch5_ex7_q9": [
+    "Height gained on a slope = length $\\times \\sin(\\text{angle})$. So the cliff is $1500\\sin 10^\\circ + 1300\\sin 20^\\circ \\approx 705$ m high.",
+    "The tree top is 150 m up, so the vertical drop to it is $705 - 150 = 555$ m, not 705 m."
+  ],
+  "ch5_ex7_q10": [
+    "One-line version: $46\\left(\\dfrac{1}{\\tan 32^\\circ} - \\dfrac{1}{\\tan 58^\\circ}\\right) \\approx 44.87$ m.",
+    "Since $32^\\circ + 58^\\circ = 90^\\circ$, $\\tan 58^\\circ = \\dfrac{1}{\\tan 32^\\circ}$. So the distances are $46\\tan 58^\\circ$ and $46\\tan 32^\\circ$."
+  ],
+  "ch5_ex7_q11a": [
+    "Only the man's triangle (2.05 m tall, 1.5 m shadow) is fully known, so use it. Opposite is longer than adjacent, so expect an angle over $45^\\circ$."
+  ],
+  "ch5_ex7_q11b": [
+    "No trig needed: the man and the pole make similar triangles. Shadow tip to pole $= 1.5 \\times \\dfrac{3.08}{2.05} \\approx 2.254$ m, so the man is $2.254 - 1.5 \\approx 0.75$ m from the pole."
+  ],
+  "ch5_ex7_q12": [
+    "The angle of depression from A to B equals the angle of elevation from B to A. They are alternate angles between two horizontal (parallel) lines."
+  ],
+  "ch5_ex7_q13a": [
+    "Use a different letter for the eye height ($h$) and the part of the house above eye level ($x$). Mixing them up is the most common error in part b."
+  ],
+  "ch5_ex7_q13b": [
+    "Estimate: $\\tan 42^\\circ \\approx 0.9$, so the part above eye level is about $0.9 \\times 15 \\approx 13.5$ m. Adding 1.76 gives about 15.3 m."
+  ],
+  "ch5_ex7_q14a": [
+    "Factor first: height gained $= 300(\\tan 61^\\circ - \\tan 27^\\circ) \\approx 388.4$ m in 180 s.",
+    "To go from m/s to km/h, multiply by 3.6, because $1$ m/s $= 3600$ m/h $= 3.6$ km/h."
+  ],
+  "ch5_ex7_q14b": [
+    "The balloon dropped, so the angle must drop below $61^\\circ$. The new height (about 421 m) is still more than 300 m, so the angle stays above $45^\\circ$."
+  ],
+  "ch5_ex7_q15": [
+    "Use the complementary angle trick: the horizontal distances are $100\\tan 50^\\circ$ and $100\\tan 28^\\circ$ (measured from the vertical), giving a difference of about 66 m."
+  ],
+  "ch5_ex7_q16": [
+    "Factor it: height $= 45(\\tan 65^\\circ - \\tan 30^\\circ) \\approx 70.522$ m. The tall building is $45\\tan 65^\\circ$ and the gap above the short roof is $45\\tan 30^\\circ$.",
+    "Exact value: $\\tan 30^\\circ = \\dfrac{1}{\\sqrt{3}}$, so the drop to the roof is $\\dfrac{45}{\\sqrt{3}} = 15\\sqrt{3} \\approx 25.98$ m."
+  ],
+  "ch5_ex7_q17": [
+    "Neat formula: height $= \\dfrac{120}{\\dfrac{1}{\\tan 36^\\circ} - \\dfrac{1}{\\tan 42^\\circ}} \\approx 451.5$ m. It comes from writing each distance as $\\dfrac{h}{\\tan\\theta}$.",
+    "Check: Q should be about $\\dfrac{451.5}{\\tan 42^\\circ} \\approx 501.5$ m from the mountain, and P about 621.5 m, exactly 120 m apart."
+  ]
+}

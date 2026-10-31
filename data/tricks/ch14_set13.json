@@ -1,0 +1,36 @@
+{
+  "ch14_ex13_q1a": [
+    "The '$12n$' in the numerator is just $2n\\pi$ written over 6: $2n\\pi = \\frac{12n\\pi}{6}$. Writing it this way lets you combine everything into one fraction.",
+    "Compact form: both families can be written as $x = n\\pi + (-1)^n\\frac{\\pi}{6}$; try $n = 0, 1$ to see $\\frac{\\pi}{6}$ and $\\frac{5\\pi}{6}$."
+  ],
+  "ch14_ex13_q1b": [
+    "Read the answer as $x = \\frac{2n\\pi}{3} \\pm \\frac{\\pi}{18}$: the repeat spacing $\\frac{2\\pi}{3}$ is the period of $\\cos 3x$, which is a good check.",
+    "Test $n = 0$: $2\\cos\\left(3 \\times \\frac{\\pi}{18}\\right) = 2\\cos\\frac{\\pi}{6} = \\sqrt{3}$."
+  ],
+  "ch14_ex13_q1c": [
+    "Check with $n = 1$: $x = \\frac{2\\pi}{3}$, and $\\tan\\frac{2\\pi}{3} = -\\sqrt{3}$ (quadrant 2, tangent negative).",
+    "$x = n\\pi - \\frac{\\pi}{3}$ and $x = n\\pi + \\frac{2\\pi}{3}$ describe the same set; different-looking general solutions can both be correct."
+  ],
+  "ch14_ex13_q2a": [
+    "Unit-circle picture: the two solutions of $\\sin x = a$ in one revolution are symmetric about $\\frac{\\pi}{2}$, so they add to $\\pi$: $\\frac{\\pi}{6} + \\frac{5\\pi}{6} = \\pi$."
+  ],
+  "ch14_ex13_q2b": [
+    "Solutions of a cosine equation come in pairs symmetric about each multiple of the period: $\\frac{2\\pi}{3} - \\frac{\\pi}{18} = \\frac{11\\pi}{18}$.",
+    "Common slip: taking $n = 1$ with the $+$ sign gives $\\frac{13\\pi}{18}$, which is a solution but not the second smallest; sort before choosing."
+  ],
+  "ch14_ex13_q2c": [
+    "Tangent is negative in quadrants 2 and 4, so look for angles with basic angle $\\frac{\\pi}{3}$ there: $\\pi - \\frac{\\pi}{3}$ and $2\\pi - \\frac{\\pi}{3}$."
+  ],
+  "ch14_ex13_q3": [
+    "Count check: the period of $\\cos\\left(2x + \\frac{\\pi}{4}\\right)$ is $\\pi$, so an interval of length $4\\pi$ would hold 8 solutions; the open interval loses $x = -2\\pi$, leaving 7.",
+    "Quick check: $x = 0$ gives $2\\cos\\frac{\\pi}{4} = \\sqrt{2}$, so $0$ must appear in your list."
+  ],
+  "ch14_ex13_q4": [
+    "Since $n$ runs over all integers, $-\\frac{n\\pi}{3}$ and $\\frac{n\\pi}{3}$ give the same set; you can drop a minus sign in front of $n$.",
+    "Alternatively use $\\tan(-u) = -\\tan u$ to rewrite as $\\tan\\left(3x - \\frac{\\pi}{6}\\right) = -\\frac{1}{\\sqrt{3}}$ so the $x$-term is positive. Check $x = 0$: $\\sqrt{3}\\tan\\frac{\\pi}{6} - 1 = 0$."
+  ],
+  "ch14_ex13_q5": [
+    "Count check: $\\sin(4\\pi x)$ has period $\\frac{2\\pi}{4\\pi} = \\frac{1}{2}$, so $[-1, 1]$ holds 4 periods and 8 solutions.",
+    "Check one answer: $x = -\\frac{1}{12}$ gives $2\\sin\\left(-\\frac{\\pi}{3}\\right) + \\sqrt{3} = -\\sqrt{3} + \\sqrt{3} = 0$."
+  ]
+}

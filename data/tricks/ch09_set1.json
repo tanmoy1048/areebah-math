@@ -1,0 +1,18 @@
+{
+  "ch9_ex1_q1": ["The axis of symmetry is $x = 2$, so $x = -3$ and $x = 7$ (both 5 units from 2) must give the same $y$-value. Use mirror pairs like this to check a table.", "At $x = 0$ you get the $y$-intercept: $\\frac{1}{2}(4) - 3 = -1$, which matches the last entry."],
+  "ch9_ex1_q2": ["Shortcut: set the bracket to zero. $x + 1 = 0$ gives $x = -1$, and that is the axis of symmetry.", "The $-3$ and the $-2$ change the shape and height, but never the axis of symmetry."],
+  "ch9_ex1_q3": ["Why $(-5, 8)$: $(x+5)^2$ is never negative, so $y \\ge 8$, and $y = 8$ happens only when $x = -5$.", "Quick check: substitute $x = -5$; you should get $y = 8$ exactly."],
+  "ch9_ex1_q4": ["Because $-(x-1)^2 \\le 0$, $y$ can never be more than $-3$. A ceiling on $y$ means a maximum.", "Memory aid: positive $a$ smiles (cup, minimum); negative $a$ frowns (cap, maximum)."],
+  "ch9_ex1_q5": ["The intercepts are symmetric about $h = 2$: $2 \\pm 2$ gives 0 and 4.", "In MC, test the options: $x = 0$ gives $2(4) - 8 = 0$ and $x = 4$ gives $2(4) - 8 = 0$, so D works without solving."],
+  "ch9_ex1_q6": ["Expanding gives $x^2 + 8x + 15 = (x+4)^2 - 1$, which confirms the turning point $(-4, -1)$.", "At the midpoint the two factors are always equal and opposite (here $-1$ and $+1$), so the $y$-value is negative for an upright parabola."],
+  "ch9_ex1_q7": ["Shortcut: the $x$-intercepts add to $-\\frac{b}{a}$. $-30 + 20 = -10 = -\\frac{b}{2}$, so $b = 20$.", "Check with the product: the intercepts multiply to $\\frac{c}{a}$, and $(-30)(20) = -600 = \\frac{-1200}{2}$. It matches."],
+  "ch9_ex1_q8": ["Two traps: forgetting to divide by 4 (you get 16 or 4) and forgetting the square root (you get 4). The radius is $\\sqrt{4} = 2$.", "Check: the point $(2, 0)$ gives $4(4) + 0 = 16$, so it lies on the circle."],
+  "ch9_ex1_q9": ["Shortcut: the centre is (minus half the $x$-coefficient, minus half the $y$-coefficient) = $(-\\frac{4}{2}, \\frac{6}{2}) = (-2, 3)$.", "Bonus: $r^2 = 2^2 + 3^2 - 9 = 4$, so the radius is 2."],
+  "ch9_ex1_q10": ["Substitute $x^2 = y$ straight into the circle to get $y^2 + y - 1 = 0$; solving for $y$ first is quicker than solving for $x$.", "Both graphs are symmetric about the $y$-axis, so the intersection points must come as a mirror pair $(\\pm x, y)$.", "Fun link: $y = \\frac{-1 + \\sqrt{5}}{2} \\approx 0.618$ is related to the golden ratio."],
+  "ch9_ex1_q11": ["Why: as $x$ gets large, $3^{-x}$ shrinks towards 0 but never reaches it, so $y$ gets close to 1.", "Check: the $y$-intercept is $3^0 + 1 = 2$, which is above the asymptote $y = 1$."],
+  "ch9_ex1_q12": ["Vertical asymptote: the $x$-value you cannot use (it makes the denominator 0). Horizontal asymptote: what is left when the fraction gets close to 0.", "Option A is a trap: the 2 in the numerator has nothing to do with the asymptotes."],
+  "ch9_ex1_q13a": ["Exponentials with base greater than 1 and a positive index grow: each step right doubles $y$ (1, 2, 4, 8, ...).", "Both $2^x$ and $2^{-x}$ pass through $(0, 1)$, so the $y$-intercept cannot tell them apart. Look at the direction instead."],
+  "ch9_ex1_q13b": ["$2^{-x} = \\left(\\frac{1}{2}\\right)^x$, so each step right halves $y$: 1, 0.5, 0.25, ...", "Mirror check: $2^{-x}$ at $x = 3$ equals $2^x$ at $x = -3$, so the two graphs are reflections in the $y$-axis."],
+  "ch9_ex1_q14": ["Sign check: the point $(0, -2)$ is to the right of $x = -2$ and below $y = -1$. A branch in the bottom-right means $a$ is negative.", "Substitute $x = 0$ into D: $\\frac{-2}{2} - 1 = -2$. It matches."],
+  "ch9_ex1_q15": ["$x^2 > 0$ for every $x \\ne 0$, so $-\\frac{1}{x^2}$ is always negative. Both branches must be below the $x$-axis.", "The asymptotes stay the same after the reflection: $x = 0$ and $y = 0$."]
+}

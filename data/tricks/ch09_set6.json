@@ -1,0 +1,166 @@
+{
+  "ch9_ex6_q1": [
+    "Fill the table from the middle: start at $3^0 = 1$, multiply by 3 for each step right and divide by 3 for each step left.",
+    "Why the curve never touches the x-axis: dividing a positive number by 3 again and again makes it smaller but never zero or negative."
+  ],
+  "ch9_ex6_q2a": [
+    "$y = 2^x$ doubles every time $x$ goes up by 1: $1, 2, 4, 8, \\dots$"
+  ],
+  "ch9_ex6_q2b": [
+    "$y = 3^x$ triples every time $x$ increases by 1. The base is the growth factor per step."
+  ],
+  "ch9_ex6_q2c": [
+    "$4^x = (2^x)^2$, so every y-value of $y = 4^x$ is the square of the matching y-value of $y = 2^x$."
+  ],
+  "ch9_ex6_q3a": [
+    "For $y = 10^x$ with whole-number $x$, the value is 1 followed by $x$ zeros. This links directly to scientific notation."
+  ],
+  "ch9_ex6_q3b": [
+    "A third easy point: $a^{-1} = \\frac{1}{a}$, so $\\left(-1, \\frac{1}{a}\\right)$ is also on every graph of $y = a^x$."
+  ],
+  "ch9_ex6_q4a": [
+    "Exponential vs. linear: a straight line adds the same amount each step, but $y = a^x$ multiplies by the same factor. That is why it curves up so sharply."
+  ],
+  "ch9_ex6_q4b": [
+    "At $x = -1$ the values are $\\frac{1}{2}, \\frac{1}{3}, \\frac{1}{4}$, so the steepest graph on the right is the lowest one on the left."
+  ],
+  "ch9_ex6_q4c": [
+    "$8^x = (2^x)^3$. For example, $8^{1/3} = 2$, so $y = 8^x$ reaches 2 already at $x = \\frac{1}{3}$, while $y = 2^x$ needs $x = 1$."
+  ],
+  "ch9_ex6_q5a": [
+    "The vertical gap between $y = 3^x + 5$ and $y = 3^x + 2$ is 3 at every $x$. Same shape, just stacked."
+  ],
+  "ch9_ex6_q5b": [
+    "Quick rule: the number added on the end is the asymptote, and the y-intercept is one more than it."
+  ],
+  "ch9_ex6_q5ci": [
+    "Shortcut: y-intercept $= 1 + k$, so $1 + 10 = 11$."
+  ],
+  "ch9_ex6_q5cii": [
+    "Why $y = 10$: as $x$ becomes very negative, $3^x$ shrinks towards 0, so $y$ gets closer and closer to $0 + 10$."
+  ],
+  "ch9_ex6_q6a": [
+    "Calculator check: typing -2^2 gives $-4$, but (-2)^2 gives $4$. Use brackets only when the negative belongs to the base.",
+    "Every point $(x, y)$ on $y = 2^x$ becomes $(x, -y)$ on $y = -2^x$."
+  ],
+  "ch9_ex6_q6b": [
+    "$y = -3^x$ is always negative, so it lies entirely below the x-axis, mirroring $y = 3^x$ point for point."
+  ],
+  "ch9_ex6_q6c": [
+    "The two curves are always the same distance from the x-axis; for example, at $x = 2$ they are at $36$ and $-36$."
+  ],
+  "ch9_ex6_q6d": [
+    "Memory aid: a minus outside flips the graph upside down (in the x-axis); a minus inside the index flips it left to right (in the y-axis)."
+  ],
+  "ch9_ex6_q7a": [
+    "$y = 2^{-x}$ halves every step to the right, so it is the decay version of the doubling graph $y = 2^x$."
+  ],
+  "ch9_ex6_q7b": [
+    "Point check: $(2, 9)$ is on $y = 3^x$ and $(-2, 9)$ is on $y = 3^{-x}$: same height, opposite side."
+  ],
+  "ch9_ex6_q7c": [
+    "$6^{-x} = \\left(\\frac{1}{6}\\right)^x$, so any exponential with a base between 0 and 1 is a reflected growth graph."
+  ],
+  "ch9_ex6_q7d": [
+    "Replacing $x$ with $-x$ swaps left and right, so the y-intercept $(0, 1)$ stays fixed and everything else mirrors across the y-axis."
+  ],
+  "ch9_ex6_q8a": [
+    "Shift your known points up 6: $(0, 1) \\to (0, 7)$ and $(1, 2) \\to (1, 8)$. The curve keeps exactly the same shape."
+  ],
+  "ch9_ex6_q8b": [
+    "Flip your known points: $(0, 1) \\to (0, -1)$ and $(1, 2) \\to (1, -2)$."
+  ],
+  "ch9_ex6_q8c": [
+    "Flip your known points left to right: $(1, 2) \\to (-1, 2)$ and $(2, 4) \\to (-2, 4)$."
+  ],
+  "ch9_ex6_q9a": [
+    "Extra points: $(1, 5)$ and $\\left(-1, 2\\frac{1}{3}\\right)$. The left point sits just above the asymptote $y = 2$."
+  ],
+  "ch9_ex6_q9b": [
+    "Sign check: every y-value of $y = -3^x$ is negative, so if your sketch goes above the x-axis anywhere, something is wrong."
+  ],
+  "ch9_ex6_q10a": [
+    "Estimate the x-intercept: solve $4^x = 3$. Since $4^{0.5} = 2$ and $4^1 = 4$, the answer is between 0.5 and 1, and $0.79$ fits."
+  ],
+  "ch9_ex6_q10b": [
+    "Plot $(-1, 4)$, $(0, 1)$ and $\\left(1, \\frac{1}{4}\\right)$: each step right divides by 4."
+  ],
+  "ch9_ex6_q11a": [
+    "Plot points to check: $(-1, 4)$, $(0, 3)$ and $\\left(1, 2\\frac{1}{2}\\right)$, so the curve falls towards $y = 2$."
+  ],
+  "ch9_ex6_q11b": [
+    "Estimate the x-intercept from $2^x = 3$: since $2^1 = 2$ and $2^2 = 4$, $x$ is between 1 and 2, closer to 2. That matches $1.58$."
+  ],
+  "ch9_ex6_q12a": [
+    "Estimate the x-intercept from $5^x = 10$: $5^1 = 5$ and $5^2 = 25$, so $x$ is between 1 and 2. That matches $1.43$."
+  ],
+  "ch9_ex6_q12b": [
+    "Extra point: at $x = -1$, $y = 5 + 10 = 15$, so the curve rises steeply to the left."
+  ],
+  "ch9_ex6_q13a": [
+    "Elimination strategy: first sort by above/below the axis and increasing/decreasing, then use the point at $x = 1$ to choose the base."
+  ],
+  "ch9_ex6_q13b": [
+    "Only one option has a minus in front, so a curve through $(0, -1)$ can only be $y = -4^x$."
+  ],
+  "ch9_ex6_q13c": [
+    "Only $y = 5^{-x}$ decreases while staying above the axis: check $5^{-(-1)} = 5^1 = 5$."
+  ],
+  "ch9_ex6_q13d": [
+    "Once the other three are matched, the last graph must be the remaining equation. Still check one point: $2^1 = 2$."
+  ],
+  "ch9_ex6_q14a": [
+    "Subtract the shift before reading the base: at $x = 1$, $y = 4$, so $a = 4 - 1 = 3$."
+  ],
+  "ch9_ex6_q14b": [
+    "Test a point: $x = -1$ in $y = 2^{-x} + 1$ gives $2 + 1 = 3$, which matches $(-1, 3)$."
+  ],
+  "ch9_ex6_q14c": [
+    "At $x = 1$, $y = 3$, so the base is $3 - 1 = 2$."
+  ],
+  "ch9_ex6_q14d": [
+    "Test the origin: $-2^0 + 1 = -1 + 1 = 0$. Only C passes through $(0, 0)$."
+  ],
+  "ch9_ex6_q15": [
+    "Test points: $x = -1$ gives $-3 - 3 = -6$ and $x = 1$ gives $-\\frac{1}{3} - 3 \\approx -3.33$, so the curve rises towards $y = -3$.",
+    "$-3^{-x}$ is always negative, so the curve is always below $-3$ and can never reach the x-axis."
+  ],
+  "ch9_ex6_q16": [
+    "Estimate first: $16^1 = 16$ and $16^{1.5} = 64$, so $x$ must be between 1 and 1.5.",
+    "Use base 2: $16 = 2^4$ and $32 = 2^5$, so $4x = 5$ and $x = 1.25$."
+  ],
+  "ch9_ex6_q17": [
+    "$36\\sqrt{6} = 6^2 \\times 6^{0.5} = 6^{2.5}$, so $x - 1 = 2.5$ and $x = 3.5$.",
+    "Graph-reading check: $6^2 = 36$ and $6^3 = 216$, so a y-value of about $88$ needs $x - 1$ between 2 and 3."
+  ],
+  "ch9_ex6_q18": [
+    "Test points: $x = -1$ gives $-2 + 2 = 0$ and $x = 0$ gives $-1 + 2 = 1$, so the curve rises towards $y = 2$ from below."
+  ],
+  "ch9_ex6_q19a": [
+    "Multiplying by $\\frac{1}{3}$ each hour means only one-third of the bacteria remain after each hour."
+  ],
+  "ch9_ex6_q19bi": [
+    "Mental check: $10\\,000 \\div 3 \\approx 3333$, then $\\div 3 \\approx 1111$. Two hours means divide by 3 twice."
+  ],
+  "ch9_ex6_q19bii": [
+    "Keep dividing by 3: $1111 \\to 370 \\to 123 \\to 41$. That matches $10\\,000 \\div 243 \\approx 41$."
+  ],
+  "ch9_ex6_q19biii": [
+    "$3^{10} = 59\\,049$, which is larger than $10\\,000$, so the result $\\approx 0.17$ is less than 1 bacterium."
+  ],
+  "ch9_ex6_q20a": [
+    "Spot the powers: $1.3^2 = 1.69$ and $1.3^3 = 2.197$, so the table is simply $1.3^0, 1.3^1, 1.3^2, \\dots$"
+  ],
+  "ch9_ex6_q20b": [
+    "Overall check: $8.157 \\div 1.0$ after 8 periods should equal $r^8$, and $1.3^8 \\approx 8.157$."
+  ],
+  "ch9_ex6_q20c": [
+    "Careful: 30% per decade is not 3% per year. The yearly factor is $1.3^{0.1} \\approx 1.027$, which is about 2.7% per year, because growth compounds."
+  ],
+  "ch9_ex6_q20d": [
+    "1895 is $\\frac{1895 - 1850}{10} = 4.5$ periods after 1850. Check: the answer must lie between the 1890 and 1900 values (2.856 and 3.713)."
+  ],
+  "ch9_ex6_q20e": [
+    "Shortcut: 1980 is 5 periods after 1930, so multiply $8.157$ by $1.3^5 \\approx 3.713$ to get about 30.29 million."
+  ]
+}

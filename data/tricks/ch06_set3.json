@@ -1,0 +1,186 @@
+{
+  "ch6_ex3_q1a": [
+    "Surface area scales with the square of length: doubling a cube's edge from 5 cm to 10 cm makes the area $2^2 = 4$ times bigger ($150 \\to 600$)."
+  ],
+  "ch6_ex3_q1b": [
+    "Remember this one: a cube of edge 8 has TSA 384. Question 9 runs it backwards.",
+    "Order of operations: $6l^2$ means $6 \\times 64$, while $(6l)^2 = 48^2 = 2304$ would be far too big."
+  ],
+  "ch6_ex3_q1c": [
+    "Imagine wrapping the box: you need two sheets of each size, $20 \\times 12$, $20 \\times 15$ and $12 \\times 15$.",
+    "Mental arithmetic: $240 + 300 + 180 = 720$, then double it to get 1440."
+  ],
+  "ch6_ex3_q1d": [
+    "Check the units: all lengths are in metres, so the answer is in $\\text{m}^2$. Converting one length to cm by mistake would give a wildly wrong total."
+  ],
+  "ch6_ex3_q2a": [
+    "Why $4\\pi r^2$? Archimedes showed a sphere has the same area as the curved side of the cylinder that just fits around it: $2\\pi r \\times 2r = 4\\pi r^2$.",
+    "Exact form first: $4\\pi \\times 9 = 36\\pi \\approx 113.1$."
+  ],
+  "ch6_ex3_q2b": [
+    "Unroll the curved side and it becomes a rectangle: width $= 2\\pi r$ (the circumference) and height $= h$.",
+    "Exact: $2\\pi \\times 21 \\times 51 = 2142\\pi$. Press $\\pi$ only once, at the end."
+  ],
+  "ch6_ex3_q2c": [
+    "Exact: $2\\pi \\times 0.5 \\times 2.6 = 2.6\\pi$, and $2.6 \\times 3.14 \\approx 8.2$."
+  ],
+  "ch6_ex3_q2d": [
+    "With the diameter, use $\\text{TSA} = \\pi d^2$ directly: $\\pi \\times 12^2 = 144\\pi$, the same as $4\\pi \\times 6^2$."
+  ],
+  "ch6_ex3_q3a": [
+    "Unrolled, the curved surface of a cone is a sector of a circle with radius $l$. Its area works out to $\\pi r l$.",
+    "Check: the slant height must be longer than the radius ($20 > 14$), otherwise the cone can't exist."
+  ],
+  "ch6_ex3_q3b": [
+    "Factorised form saves keystrokes: $\\pi \\times 8 \\times (8 + 12) = 160\\pi \\approx 502.7$."
+  ],
+  "ch6_ex3_q4a": [
+    "Alternative check: each face is a 12, 12, 15 triangle, so Heron's formula gives $\\sqrt{19.5 \\times 7.5 \\times 7.5 \\times 4.5} \\approx 70.26$, matching $\\frac{1}{2} \\times 15 \\times 9.37$.",
+    "The face height (about 9.37) must be shorter than the slant edge (12), because it is a leg, not the hypotenuse."
+  ],
+  "ch6_ex3_q4b": [
+    "Sense check: the face height $\\approx 2.38$ is a little less than the 2.5 m slant edge, as it should be, since the base is narrow.",
+    "Work in exact form until the end: $h = \\sqrt{5.6875}$; rounding $h$ early can change the first decimal place."
+  ],
+  "ch6_ex3_q4c": [
+    "The same pattern works for every prism and even the cylinder: $\\text{TSA} = 2 \\times \\text{end area} + \\text{perimeter of end} \\times \\text{length}$. For a cylinder the perimeter is $2\\pi r$."
+  ],
+  "ch6_ex3_q4d": [
+    "Check with the isosceles shortcut: the height to the 7 cm base is $\\sqrt{6^2 - 3.5^2} = \\sqrt{23.75} \\approx 4.87$, so the end is $\\frac{1}{2} \\times 7 \\times 4.87 \\approx 17.06$, same as Heron."
+  ],
+  "ch6_ex3_q5a": [
+    "Fraction trick: $1.5 = \\frac{3}{2}$, so $1.5^2 = \\frac{9}{4} = 2.25$ and $6 \\times \\frac{9}{4} = 13.5$."
+  ],
+  "ch6_ex3_q5b": [
+    "Mental sums: $24 + 12.6 + 8.4 = 45$ (the decimals add to a whole), then double to 90."
+  ],
+  "ch6_ex3_q5c": [
+    "Exact: $900\\pi + 2700\\pi = 3600\\pi$. Notice the curved part is exactly 3 times the base here because $2h = 3r$.",
+    "Think of a bucket or a cup: open at one end means one circle, open at both ends (a pipe) means no circles."
+  ],
+  "ch6_ex3_q6a": [
+    "Exact: $4\\pi \\times 28^2 = 3136\\pi$. Estimate: $3136 \\times 3 \\approx 9400$, a bit under 9852 as expected."
+  ],
+  "ch6_ex3_q6b": [
+    "The open cone unrolls to a sector of radius 10. Its angle is $\\frac{r}{l} \\times 360^\\circ = \\frac{4}{10} \\times 360^\\circ = 144^\\circ$, and $\\frac{144}{360} \\times \\pi \\times 10^2 = 40\\pi$. Same answer."
+  ],
+  "ch6_ex3_q6c": [
+    "Exact form: face height $= \\sqrt{800} = 20\\sqrt{2}$, so $\\text{TSA} = 400 + 4 \\times 10 \\times 20\\sqrt{2} = 400 + 800\\sqrt{2}$."
+  ],
+  "ch6_ex3_q7a": [
+    "Staircase shortcut: a shape with only right-angled steps that go 'up and across' has the same perimeter as its bounding rectangle: $2(20 + 10) = 60$ cm."
+  ],
+  "ch6_ex3_q7b": [
+    "Collect the $\\pi$ terms: the total is $2300 + 246\\pi$. Writing it this way means only one calculator step at the end.",
+    "Don't include a flat face under the curved top: the semicircle sits on the rectangle, so that $12 \\times 35$ face is inside the solid."
+  ],
+  "ch6_ex3_q7c": [
+    "Pattern for joined solids: TSA = (TSA of A) + (TSA of B) $- 2 \\times$ (area of the join). Here $54 + (9 + 30) - 2 \\times 9 = 75$."
+  ],
+  "ch6_ex3_q8a": [
+    "Sense check: the slant height $\\sqrt{10.25} \\approx 3.2$ is longer than both the radius 2 and the height 2.5, as a hypotenuse must be."
+  ],
+  "ch6_ex3_q8b": [
+    "No flat circles appear at all: the only circle is where the hemisphere and cone meet, and it is hidden inside.",
+    "Since $\\sqrt{112.25} \\approx 10.6$, the slant height is only slightly more than the 10 cm height because the radius is small."
+  ],
+  "ch6_ex3_q8c": [
+    "Shortcut: full TSA of the big cylinder plus only the curved side of the small one: $2\\pi \\times 7.5 \\times 19.5 + 200\\pi = 292.5\\pi + 200\\pi = 492.5\\pi$."
+  ],
+  "ch6_ex3_q9": [
+    "For MC, test the options: $6 \\times 8^2 = 384$. This is the cube from question 1b, run backwards.",
+    "In general $l = \\sqrt{\\frac{\\text{TSA}}{6}}$."
+  ],
+  "ch6_ex3_q10a": [
+    "Make a checklist of faces: 2 ends, 2 side walls, 1 curved roof, no floor, minus the door. Tick each off as you go.",
+    "The roof is half a cylinder's curved surface: $\\frac{1}{2} \\times 2\\pi r \\times 5 = 7.5\\pi$."
+  ],
+  "ch6_ex3_q10b": [
+    "Mental shortcut: $70 \\times 6.5 = 70 \\times 6 + 70 \\times 0.5 = 420 + 35 = 455$."
+  ],
+  "ch6_ex3_q11a": [
+    "Everything has $r = 15$, so write it in exact form: $225\\pi + 300\\pi + 450\\pi = 975\\pi$.",
+    "Note the hemisphere's curved surface ($2\\pi r^2$) is exactly twice the circle it covers."
+  ],
+  "ch6_ex3_q11b": [
+    "Split the rate: 5.5 cents $= 5$c $+ 0.5$c. So the cost is $\\$153.15 + \\$15.32 \\approx \\$168.47$.",
+    "Estimate: $3000 \\times 0.055 = \\$165$, so $\\$168.47$ is reasonable."
+  ],
+  "ch6_ex3_q12": [
+    "Perimeter shortcut: the bounding box is $12 \\times 24$ (perimeter 72). Each side notch adds twice its 5 cm depth, so $72 + 2 \\times 10 = 92$ cm.",
+    "Painting a long girder is mostly the long faces: the two ends only add $176\\text{ cm}^2$ out of $11\\,216$."
+  ],
+  "ch6_ex3_q13": [
+    "Keeping 95% is the same as multiplying by $0.95$: $0.95 \\times 12\\,000 = 11\\,400$.",
+    "Area division gives a best case: real sector-shaped nets leave gaps, so in practice you might fit fewer than 60."
+  ],
+  "ch6_ex3_q14": [
+    "Half-diagonals 6 and 8 form a 6-8-10 triangle (double 3-4-5), so each side is 10 cm without a calculator.",
+    "Then $\\text{TSA} = 2 \\times 96 + 40 \\times 25 = 1192$, using perimeter $\\times$ height for the four side faces."
+  ],
+  "ch6_ex3_q15": [
+    "Glass costs 30 times as much as concrete per $\\text{cm}^2$ ($\\$1.50$ vs $\\$0.05$), so the small dome costs more than twice the large cube.",
+    "Put both rates in dollars first: 5c $= \\$0.05$."
+  ],
+  "ch6_ex3_q16a": [
+    "Squaring a square root just removes it: $(\\sqrt{2})^2 = 2$, so $4\\pi \\times 2 = 8\\pi$ with no decimals."
+  ],
+  "ch6_ex3_q16b": [
+    "Sense check: the cone's radius $\\frac{\\sqrt{7}}{2} \\approx 1.32$ must be less than the sphere's radius $\\sqrt{2} \\approx 1.41$, since the rim is a circle on the sphere slightly off the centre.",
+    "Working with fractions: $2 - \\frac{1}{4} = \\frac{7}{4}$, and $\\sqrt{\\frac{7}{4}} = \\frac{\\sqrt{7}}{2}$."
+  ],
+  "ch6_ex3_q16c": [
+    "Simplify as you go: $\\pi \\times \\frac{\\sqrt{7}}{2} \\times 4 = 2\\sqrt{7}\\pi \\approx 16.6\\text{ m}^2$."
+  ],
+  "ch6_ex3_q17a": [
+    "Unfold the three walls into one long strip: $1.5 + 0.9 + 0.9 = 3.3$ m long and 2 m high, so $3.3 \\times 2 = 6.6\\text{ m}^2$."
+  ],
+  "ch6_ex3_q17b": [
+    "Dividing total area by tile area gives $6.6 \\div 0.04 = 165$, which is too few: the cut tiles at each wall's edge can't be shared, so count wall by wall."
+  ],
+  "ch6_ex3_q17c": [
+    "Per square metre the 20 cm tiles are cheapest ($\\$1.50 \\div 0.04 = \\$37.50$ vs $\\$3.50 \\div 0.09 \\approx \\$38.89$), but the 30 cm tiles fit the walls with less waste, so they win overall.",
+    "Lesson: compare total costs for the actual job, not just the unit price."
+  ],
+  "ch6_ex3_q18": [
+    "Convert to metres first ($180\\text{ mm} = 0.18\\text{ m}$, $50\\text{ mm} = 0.05\\text{ m}$) so every area comes out in $\\text{m}^2$ and can be added directly.",
+    "Look for faces that cancel: the leg tops hide 4 squares of the underside, but the 4 leg bases add back the same area."
+  ],
+  "ch6_ex3_q19a": [
+    "Exterior-angle shortcut: walking around a regular hexagon you turn $360^\\circ \\div 6 = 60^\\circ$ at each corner, so the inside angle is $180^\\circ - 60^\\circ = 120^\\circ$.",
+    "Three $120^\\circ$ angles make $360^\\circ$, which is why hexagons fit together with no gaps (like a honeycomb)."
+  ],
+  "ch6_ex3_q19b": [
+    "Memorise the 30-60-90 triangle: its sides are in the ratio $1 : \\sqrt{3} : 2$. With hypotenuse 2, the sides are 1 and $\\sqrt{3}$ straight away."
+  ],
+  "ch6_ex3_q19c": [
+    "Average the parallel sides: $\\frac{2 + 4}{2} = 3$, then multiply by $\\sqrt{3}$ to get $3\\sqrt{3}$."
+  ],
+  "ch6_ex3_q19d": [
+    "Check another way: a regular hexagon is 6 equilateral triangles. Each has area $\\frac{\\sqrt{3}}{4} \\times 2^2 = \\sqrt{3}$, so the total is $6\\sqrt{3}$."
+  ],
+  "ch6_ex3_q19e": [
+    "The surds cancel: $\\frac{192\\sqrt{3}}{6\\sqrt{3}} = \\frac{192}{6} = 32$. No calculator needed."
+  ],
+  "ch6_ex3_q20": [
+    "To add 20%, multiply by 1.2 in one step.",
+    "Reverse check: 1 m² of fabric only allows a TSA of $10\\,000 \\div 1.2 \\approx 8333\\text{ cm}^2$, but the stool needs about $8639\\text{ cm}^2$."
+  ],
+  "ch6_ex3_q21": [
+    "A cylinder with $h = r$ has $\\text{SA} = 2\\pi r^2 + 2\\pi r^2 = 4\\pi r^2$, the same formula as a sphere of radius $r$. So the ratio is just $\\frac{(3a)^2}{r^2} = \\frac{4}{3}$."
+  ],
+  "ch6_ex3_q22a": [
+    "Subtract the two arc equations: $(x + s)\\theta - x\\theta = s\\theta$, and $2\\pi r - 2\\pi t = 2\\pi(r - t)$. The unknown $x$ disappears, leaving $\\theta$.",
+    "In radians, a full turn is $2\\pi$, so arc $= R\\theta$ is just 'fraction of a turn times $2\\pi R$'."
+  ],
+  "ch6_ex3_q22bi": [
+    "Test the formula: if $t = 0$ there is no top cut off, and indeed $x = 0$. If $t$ gets close to $r$ (nearly a cylinder), $x$ becomes huge, as the apex moves far away."
+  ],
+  "ch6_ex3_q22bii": [
+    "Set up $\\frac{x}{t} = \\frac{x + s}{r}$ (slant over radius, small cone and full cone), cross-multiply to $xr = xt + st$, and factorise out $x$."
+  ],
+  "ch6_ex3_q22c": [
+    "Difference of squares speeds it up: $(x + s)^2 - x^2 = s(2x + s)$.",
+    "Check the final formula $\\pi(t^2 + r^2) + \\pi s(r + t)$: with $t = 0$ it gives a cone, $\\pi r^2 + \\pi r s$; with $t = r$ it gives a cylinder, $2\\pi r^2 + 2\\pi r s$."
+  ]
+}

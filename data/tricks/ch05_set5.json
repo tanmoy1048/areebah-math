@@ -1,0 +1,123 @@
+{
+  "ch5_ex5_q1a": [
+    "Avoid dividing altogether: the other acute angle is $90^\\circ - 71^\\circ = 19^\\circ$, and from there $m$ is opposite, so $m = 2.3\\tan(19^\\circ) \\approx 0.79$, the same answer.",
+    "Estimate check: $71^\\circ$ is a big angle, so the side opposite it (2.3 m) must be much longer than $m$. An answer under 1 m makes sense."
+  ],
+  "ch5_ex5_q1b": [
+    "For small angles $\\cos\\theta$ is close to 1 ($\\cos 13^\\circ \\approx 0.97$), so the hypotenuse is only a little longer than the adjacent side. Expect an answer just above 4.6.",
+    "Memory aid: SOH CAH TOA, or \"Some Old Horses Can Always Hear Their Owners Approach\"."
+  ],
+  "ch5_ex5_q1c": [
+    "Since $\\sin 68^\\circ \\approx 0.93$, the hypotenuse is about $94 \\div 0.93$, a bit more than 100 mm. That quick estimate confirms 101.38.",
+    "Cover-up triangle: put O on top and S, H underneath. Cover H and you see $H = \\dfrac{O}{S}$."
+  ],
+  "ch5_ex5_q2a": [
+    "$60^\\circ$ is a special angle: $\\sin 60^\\circ = \\dfrac{\\sqrt{3}}{2}$, so $a = 10 \\times \\dfrac{\\sqrt{3}}{2} = 5\\sqrt{3}$ exactly, which is about 8.660.",
+    "Half an equilateral triangle with side 10 has sides 5, $5\\sqrt{3}$ and 10. That is a picture of this exact triangle."
+  ],
+  "ch5_ex5_q2b": [
+    "Estimate: $\\cos 25^\\circ$ is about 0.9, so $a \\approx 0.9 \\times 8 = 7.2$. The exact 7.250 is close, so the setup is right.",
+    "The adjacent side is the leg that touches the angle and is not the hypotenuse, so here it is the base."
+  ],
+  "ch5_ex5_q2c": [
+    "Benchmark: $\\tan 30^\\circ \\approx 0.577$, so $\\tan 31^\\circ$ is about 0.6 and $x \\approx 0.6 \\times 14 = 8.4$.",
+    "Tan connects the two legs, so whenever the hypotenuse is neither given nor asked for, reach for tan."
+  ],
+  "ch5_ex5_q3a": [
+    "Convert minutes by hand: $26' = \\dfrac{26}{60} \\approx 0.433^\\circ$, so the angle is about $40.433^\\circ$. Think of it like time: 26 minutes is not 0.26 of an hour.",
+    "Estimate: $\\cos 40^\\circ \\approx 0.77$, so $x \\approx 0.77 \\times 44 \\approx 34$, close to 33.45."
+  ],
+  "ch5_ex5_q3b": [
+    "For small angles, $\\tan\\theta$ is close to the angle in radians. $8^\\circ 52' 45'' \\approx 0.155$ rad, so $P \\approx 11.7 \\div 0.155 \\approx 75$, a good check.",
+    "A small angle means the side opposite it is short, so the adjacent side $P$ should be several times longer than 11.7."
+  ],
+  "ch5_ex5_q3c": [
+    "Since $\\sin 18^\\circ \\approx 0.31$, the hypotenuse is roughly $14 \\div 0.31 \\approx 45$ m, which matches 44.82.",
+    "A small angle with a given opposite side always gives a long hypotenuse, here about three times the opposite side."
+  ],
+  "ch5_ex5_q4a": [
+    "Estimate: $\\tan 35^\\circ \\approx 0.7$, so $x \\approx 0.7 \\times 11.2 \\approx 7.8$ mm.",
+    "The angle is below $45^\\circ$, so the opposite side $x$ must be shorter than the adjacent side, 11.2 mm."
+  ],
+  "ch5_ex5_q4b": [
+    "On many calculators the DMS key is marked $^\\circ\\,'\\,''$. Type $21$ [DMS] $25$ [DMS] $34$ [DMS] and then press cos.",
+    "Estimate: $\\cos 21^\\circ \\approx 0.93$, so $x \\approx 75.23 \\div 0.93 \\approx 81$ km."
+  ],
+  "ch5_ex5_q4c": [
+    "Small-angle check: $\\sin\\theta \\approx \\theta$ in radians. $6^\\circ 25' \\approx 0.112$ rad, so $x \\approx 80.9 \\times 0.112 \\approx 9.06$, very close to 9.04."
+  ],
+  "ch5_ex5_q5a": [
+    "Find the side opposite an angle by looking straight across the triangle from that angle. From the bottom vertex you look across to the top side, $x$.",
+    "Since $46^\\circ$ is just over $45^\\circ$, $\\sin 46^\\circ \\approx 0.72$, so $x \\approx 0.72 \\times 43.9 \\approx 31.6$."
+  ],
+  "ch5_ex5_q5b": [
+    "Estimate: $\\tan 36.7^\\circ \\approx 0.75$, so $y \\approx \\tfrac{3}{4} \\times 23.7 \\approx 17.8$, which agrees with 17.67.",
+    "The angle is under $45^\\circ$, so $y$ (opposite) must be shorter than 23.7 (adjacent)."
+  ],
+  "ch5_ex5_q5c": [
+    "Estimate: $\\cos 34^\\circ \\approx 0.83$, so $z \\approx 12.3 \\div 0.83 \\approx 14.8$ m.",
+    "Check with tan: the third side is $12.3\\tan(34^\\circ 12') \\approx 8.36$, and $\\sqrt{12.3^2 + 8.36^2} \\approx 14.87$ agrees with $z$."
+  ],
+  "ch5_ex5_q6a": [
+    "Since $\\sin 13^\\circ \\approx 0.23$, $p \\approx 15.3 \\div 0.23 \\approx 67$. A small angle makes the hypotenuse several times the opposite side."
+  ],
+  "ch5_ex5_q6b": [
+    "Pythagoras check: $21.38^2 + 42.29^2 \\approx 2245.5$ and $47.385^2 \\approx 2245.3$. These agree up to rounding.",
+    "The angle is over $45^\\circ$, so the side opposite it ($q$) should be longer than the adjacent side ($p$). It is."
+  ],
+  "ch5_ex5_q6c": [
+    "Shortcut: once you have $a$, you could get $b$ from Pythagoras, $b = \\sqrt{0.732^2 - a^2}$. Using cos directly avoids rounding errors, though.",
+    "$\\sin\\theta$ and $\\cos\\theta$ are just the fractions of the hypotenuse taken up by each leg. Here $a$ is about 96% of it and $b$ about 29%."
+  ],
+  "ch5_ex5_q7a": [
+    "Because $42^\\circ < 45^\\circ$, $\\sin 42^\\circ < \\cos 42^\\circ$, so the opposite side must come out shorter than the adjacent side in part b."
+  ],
+  "ch5_ex5_q7b": [
+    "Link: $\\cos 42^\\circ = \\sin 48^\\circ$, because the other acute angle is $48^\\circ$. The side adjacent to one angle is opposite the other.",
+    "Pythagoras check: $6.0^2 + 6.7^2 \\approx 80.9$ and $8.95^2 \\approx 80.1$. That is close, and the gap comes from rounding."
+  ],
+  "ch5_ex5_q8": [
+    "Estimate: $\\tan 35^\\circ \\approx 0.7$, so the height is about $0.7 \\times 1.5 = 1.05$ m.",
+    "Sketch the wall, ground and ladder as a right triangle first. The ground distance touches the angle, so it is the adjacent side."
+  ],
+  "ch5_ex5_q9a": [
+    "Exact value: $\\tan 15^\\circ = 2 - \\sqrt{3} \\approx 0.268$, so $y = \\dfrac{8}{0.268} \\approx 29.9$.",
+    "Check that $x > y$: the sloping top is the hypotenuse of the side view, so it must be longer than the base."
+  ],
+  "ch5_ex5_q9b": [
+    "The top, bottom and back rectangles all share the width $z$, so factor it out: area $= z(x + y + 8) + 2 \\times \\tfrac{1}{2} \\times 8y$. Fewer multiplications means fewer slips.",
+    "Picture unfolding the box into a net to make sure every face is counted once: 3 rectangles and 2 triangles."
+  ],
+  "ch5_ex5_q10a": [
+    "Since $\\tan\\theta = \\dfrac{O}{A}$, equal sides mean $\\tan\\theta = 1$, and $\\tan 45^\\circ = 1$. Try it on your calculator.",
+    "Link: this is the $45^\\circ$-$45^\\circ$-$90^\\circ$ triangle with sides $1, 1, \\sqrt{2}$, half of a square cut along its diagonal."
+  ],
+  "ch5_ex5_q10b": [
+    "Adjacent longer than opposite means $\\tan\\theta < 1$. Tan increases from 0 at $0^\\circ$ to 1 at $45^\\circ$, so the answer is $\\theta < 45^\\circ$."
+  ],
+  "ch5_ex5_q11": [
+    "Spot the error with logic: $\\tan 29^\\circ < 1$, so the adjacent side $MC$ must be longer than $AM = 2.645$. Jack's $MC \\approx 1.47$ is too short.",
+    "Since $\\angle C$ is smaller than $\\angle B$, $C$ is further from the foot $M$, so $MC$ should be longer than $BM$."
+  ],
+  "ch5_ex5_q12a": [
+    "Two-angle problems always give two expressions for the same height. Write both, then set them equal; that is the plan for part b."
+  ],
+  "ch5_ex5_q12b": [
+    "General pattern: $x = \\dfrac{64\\tan(36^\\circ 24')}{\\tan(47^\\circ 48') - \\tan(36^\\circ 24')}$. Type this as one calculator expression with brackets to keep full accuracy.",
+    "Check: substitute $x \\approx 129.07$ into both expressions. Each gives $h \\approx 142.34$ m."
+  ],
+  "ch5_ex5_q12c": [
+    "Units trap: the eye level is 195 cm, which is $1.95$ m. Adding 195 instead would give an absurd building height."
+  ],
+  "ch5_ex5_q13": [
+    "The angle of depression from B equals the angle of elevation from A's top (alternate angles), so both triangles share the 110 m horizontal leg.",
+    "Estimate: $\\tan 15^\\circ \\approx 0.27$ and $\\tan 22^\\circ \\approx 0.4$, giving about 30 m and $30 + 44 \\approx 74$ m."
+  ],
+  "ch5_ex5_q14": [
+    "A $45^\\circ$ right triangle has equal legs, so $NP = h$ immediately. With $\\tan 30^\\circ = \\tfrac{1}{\\sqrt{3}}$, $MN = h\\sqrt{3}$, and $3h^2 + h^2 = 120^2$ gives $h = 60$.",
+    "Exact values for $30^\\circ$, $45^\\circ$ and $60^\\circ$ often make 3D problems come out as whole numbers. Use them instead of decimals."
+  ],
+  "ch5_ex5_q15": [
+    "Rule of thumb: finding a leg means multiply by the ratio, and finding the hypotenuse means divide by sin or cos. Because sin and cos are below 1, dividing makes the answer larger, as a hypotenuse should be."
+  ]
+}

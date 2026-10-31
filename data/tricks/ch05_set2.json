@@ -1,0 +1,150 @@
+{
+  "ch5_ex2_q1a": [
+    "Bounds check: the hypotenuse is longer than the longest leg (6.3) but shorter than the two legs added together ($4.7 + 6.3 = 11$). 7.86 fits."
+  ],
+  "ch5_ex2_q1b": [
+    "Estimate with round numbers: $\\sqrt{20^2 + 27^2} = \\sqrt{400 + 729} = \\sqrt{1129} \\approx 33.6$. That is close to 33.27, so the answer is reasonable."
+  ],
+  "ch5_ex2_q1c": [
+    "Quick estimate: 562 and 804 are roughly $7 \\times 80$ and $10 \\times 80$, so the hypotenuse is about $80\\sqrt{49 + 100} = 80\\sqrt{149} \\approx 977$. That is close to 980.95."
+  ],
+  "ch5_ex2_q2a": [
+    "Calculator technique: type the whole thing as $\\sqrt{(7.4^2 + 10.3^2)}$ in one line. Never round $c^2$ before taking the square root."
+  ],
+  "ch5_ex2_q2b": [
+    "Spot the ratio: 2.7 is $3 \\times 0.9$, so the hypotenuse is $0.9\\sqrt{1^2 + 3^2} = 0.9\\sqrt{10} \\approx 2.85$."
+  ],
+  "ch5_ex2_q2c": [
+    "Why the hypotenuse is only a little longer than 152: when one leg is much shorter than the other, it adds only a small amount to the hypotenuse."
+  ],
+  "ch5_ex2_q3a": [
+    "Difference of squares: $47.2^2 - 30.1^2 = (47.2 - 30.1)(47.2 + 30.1) = 17.1 \\times 77.3 = 1321.83$, then $s = \\sqrt{1321.83} \\approx 36.36$."
+  ],
+  "ch5_ex2_q3b": [
+    "Use $(c-b)(c+b)$: $(2.56 - 1.98)(2.56 + 1.98) = 0.58 \\times 4.54 = 2.6332$, so $t = \\sqrt{2.6332} \\approx 1.62$."
+  ],
+  "ch5_ex2_q3c": [
+    "Watch the rounding: $u^2 = 236.3904$ and $u = 15.37499...$, which is just below the halfway point. Use the full calculator value, which gives 15.37, not 15.38."
+  ],
+  "ch5_ex2_q4a": [
+    "Scale to whole numbers: multiply every side by 100 to get 28 and 67, find $\\sqrt{67^2 - 28^2} \\approx 60.9$, then divide by 100 to get 0.61. Similar triangles keep the same shape."
+  ],
+  "ch5_ex2_q4b": [
+    "Take out the common factor 10: $w = 10\\sqrt{287^2 - 192^2}$. Smaller numbers mean fewer keying errors.",
+    "Estimate: $2870^2 - 1920^2 = 950 \\times 4790 \\approx 4.55$ million, and $\\sqrt{4.55 \\text{ million}}$ is a bit over 2100."
+  ],
+  "ch5_ex2_q4c": [
+    "Difference of squares: $(468 - 114)(468 + 114) = 354 \\times 582 = 206\\,028$, and $\\sqrt{206\\,028} \\approx 453.90$."
+  ],
+  "ch5_ex2_q5": [
+    "Shortcut: $34^2 - 25^2 = (34-25)(34+25) = 9 \\times 59 = 531$, so the width is $\\sqrt{531} \\approx 23.04$ cm."
+  ],
+  "ch5_ex2_q6": [
+    "Take out the common factor: sides 4 and 12 are $4 \\times 1$ and $4 \\times 3$, so the hypotenuse is $4\\sqrt{1 + 9} = 4\\sqrt{10} \\approx 12.65$ cm."
+  ],
+  "ch5_ex2_q7a": [
+    "Memorise $\\sqrt{2} \\approx 1.414$: the diagonal of a 10 cm square is $10 \\times 1.414 = 14.14$ cm, with no squaring needed."
+  ],
+  "ch5_ex2_q7b": [
+    "Using diagonal $= s\\sqrt{2}$: $17 \\times 1.414 \\approx 24.04$ cm. This works for every square, so you only need one multiplication."
+  ],
+  "ch5_ex2_q7c": [
+    "Mental check: $3.2 \\times 1.4 = 4.48$, so a diagonal a little over 4.5 is right."
+  ],
+  "ch5_ex2_q8a": [
+    "Take out the factor 10: $\\sqrt{90^2 - 50^2} = 10\\sqrt{81 - 25} = 10\\sqrt{56} \\approx 74.83$ cm."
+  ],
+  "ch5_ex2_q8b": [
+    "Calculator technique: store $\\sqrt{90^2 - 50^2}$ in memory (for example STO A) and reuse it for both the perimeter and the area."
+  ],
+  "ch5_ex2_q8c": [
+    "Exact form: area $= 50 \\times 10\\sqrt{56} = 500\\sqrt{56} = 1000\\sqrt{14} \\approx 3741.66$ cm$^2$. Keeping the surd avoids rounding errors."
+  ],
+  "ch5_ex2_q9a": [
+    "Pattern: legs $x$ and $kx$ give hypotenuse $x\\sqrt{1 + k^2}$. Here $x\\sqrt{17} = 25$, so $x = \\frac{25}{\\sqrt{17}} \\approx 6.06$."
+  ],
+  "ch5_ex2_q9b": [
+    "In a right-angled isosceles triangle, hypotenuse $=$ leg $\\times \\sqrt{2}$. So $3x\\sqrt{2} = 18$ gives $x = \\frac{6}{\\sqrt{2}} = 3\\sqrt{2} \\approx 4.24$."
+  ],
+  "ch5_ex2_q9c": [
+    "Factor out $2x$: the legs are $2x \\times 1$ and $2x \\times 3$, so the hypotenuse is $2x\\sqrt{10} = 30$, giving $x = \\frac{15}{\\sqrt{10}} \\approx 4.74$."
+  ],
+  "ch5_ex2_q10": [
+    "Why halve the base: the height of an isosceles triangle meets the base at its midpoint, splitting it into two identical right-angled triangles with legs 12.5 and 8."
+  ],
+  "ch5_ex2_q11": [
+    "Formula worth remembering: an equilateral triangle of side $s$ has height $\\frac{\\sqrt{3}}{2}s$. So $9\\sqrt{3} \\approx 15.59$ cm.",
+    "The right-angled half has sides in the ratio $1 : \\sqrt{3} : 2$. That is the same triangle that gives the exact values of $\\sin 30^\\circ$ and $\\sin 60^\\circ$."
+  ],
+  "ch5_ex2_q12": [
+    "Legs $h$ and $\\frac{h}{2}$ give hypotenuse $\\frac{h}{2}\\sqrt{1 + 4} = 8.6\\sqrt{5} \\approx 19.23$ cm."
+  ],
+  "ch5_ex2_q13": [
+    "Shortcut formula: the area of an equilateral triangle of side $s$ is $\\frac{\\sqrt{3}}{4}s^2$. Here $\\frac{\\sqrt{3}}{4} \\times 84^2 = 1764\\sqrt{3} \\approx 3055.34$ cm$^2$.",
+    "Height $= \\frac{\\sqrt{3}}{2} \\times 84 = 42\\sqrt{3} \\approx 72.75$ cm."
+  ],
+  "ch5_ex2_q14": [
+    "5, 12, 13 is a Pythagorean triple, so each wire is exactly 13 m with no calculator. Learn 3-4-5, 5-12-13, 8-15-17 and 7-24-25."
+  ],
+  "ch5_ex2_q15": [
+    "The shortest way back is always the straight line (the hypotenuse), and it is always shorter than the 5.9 km already paddled. 4.34 km passes that check."
+  ],
+  "ch5_ex2_q16": [
+    "Square diagonal $= s\\sqrt{2}$: $27 \\times 1.414 \\approx 38.2$ m. Any time two points are opposite corners of a square, think $\\sqrt{2}$."
+  ],
+  "ch5_ex2_q17": [
+    "Converting to the smaller unit (mm) avoids decimals: $\\sqrt{56^2 + 29^2} = \\sqrt{3977}$. Check: $63^2 = 3969$, so the answer is just above 63."
+  ],
+  "ch5_ex2_q18a": [
+    "Divide every length by the common factor 8: $24 \\to 3$ and $40 \\to 5$, so the missing side is $4 \\times 8 = 32$. Scaling down first is often faster."
+  ],
+  "ch5_ex2_q18b": [
+    "Mental multiplication: $24 \\times 32 = 24 \\times 30 + 24 \\times 2 = 720 + 48 = 768$ cm$^2$."
+  ],
+  "ch5_ex2_q19": [
+    "A 2 : 1 rectangle has diagonal $w\\sqrt{5}$: $25\\sqrt{5} \\approx 55.9$ m. Estimate $1500 \\div 56 \\approx 27$ to check."
+  ],
+  "ch5_ex2_q20": [
+    "Work in hundreds: $2900 = 29 \\times 100$ and $3700 = 37 \\times 100$, so the distance is $100\\sqrt{29^2 + 37^2} = 100\\sqrt{2210} \\approx 4701.06$ m."
+  ],
+  "ch5_ex2_q21": [
+    "Reverse the $s\\sqrt{2}$ rule: side $= \\frac{d}{\\sqrt{2}} = \\frac{14}{\\sqrt{2}} = 7\\sqrt{2} \\approx 9.90$ cm."
+  ],
+  "ch5_ex2_q22a": [
+    "Last-digit check: $56^2$ ends in 6 and $33^2$ ends in 9, so the sum ends in 5. $65^2$ ends in 5 but $60^2$ ends in 0, so 65 must be the answer."
+  ],
+  "ch5_ex2_q22b": [
+    "Divide by the common factor 5: 60 and 175 become 12 and 35. 12-35-37 is a Pythagorean triple, so the hypotenuse is $37 \\times 5 = 185$."
+  ],
+  "ch5_ex2_q22c": [
+    "Last-digit check: $273^2$ ends in 9 and $136^2$ ends in 6, so the sum ends in 5. $305^2$ ends in 5 but $308^2$ ends in 4, so 305 is correct."
+  ],
+  "ch5_ex2_q23": [
+    "Link to algebra: solving $x^2 = 25$ on its own gives $x = \\pm 5$, but a context (a length, a time, a count of objects) can rule out solutions. Always check each solution against the situation."
+  ],
+  "ch5_ex2_q24a": [
+    "Why the hypotenuse is the longest side: it is opposite the right angle, which is the largest angle in the triangle. The longest side is always opposite the largest angle."
+  ],
+  "ch5_ex2_q24b": [
+    "Last-digit trick: $105^2$ ends in 5 and $208^2$ ends in 4, so the sum ends in 9. $233^2$ ends in 9 but $230^2$ ends in 0, which points to 105, 208, 233.",
+    "Confirm: $105^2 + 208^2 = 11\\,025 + 43\\,264 = 54\\,289 = 233^2$."
+  ],
+  "ch5_ex2_q25a": [
+    "Quick division: $588 \\div 28 = 21$. Check: $28 \\times 20 = 560$ and $560 + 28 = 588$."
+  ],
+  "ch5_ex2_q25b": [
+    "Divide by 7 first: 21 and 28 become 3 and 4, so MP $= 5 \\times 7 = 35$ cm without squaring anything."
+  ],
+  "ch5_ex2_q25c": [
+    "Shortcut from similar triangles: dropping a perpendicular to the hypotenuse gives $MQ^2 = MR \\times MP$, so $y = \\frac{21^2}{35} = 12.6$ cm.",
+    "By symmetry SP also equals 12.6, so RS $= 35 - 2 \\times 12.6 = 9.8$ cm."
+  ],
+  "ch5_ex2_q26": [
+    "Triangle BDE has sides 16 and 20, which is 4, 5 times 4, so BD $= 12$ (the 3-4-5 triple).",
+    "BD is the height of the equilateral triangle, so $\\frac{\\sqrt{3}}{2}x = 12$, giving $x = \\frac{24}{\\sqrt{3}} = 8\\sqrt{3} \\approx 13.86$ cm."
+  ],
+  "ch5_ex2_q27": [
+    "Scale factor first: the Sun is $147\\,000\\,000 \\div 385\\,000 \\approx 382$ times farther away than the Moon, so its diameter is about 382 times the Moon's: $3474 \\times 382 \\approx 1.33$ million km.",
+    "This is similar triangles, not Pythagoras: both triangles share the angle at Earth, so the sides are in proportion."
+  ]
+}

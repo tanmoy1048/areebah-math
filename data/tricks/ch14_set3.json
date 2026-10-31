@@ -1,0 +1,21 @@
+{
+  "ch14_ex3_q1a": ["Think of $\\tan\\theta$ as the gradient of the radius from the origin to the point $P(\\theta)$. At $\\pi$ the radius lies flat along the $x$-axis, so its gradient is 0."],
+  "ch14_ex3_q1b": ["Tan is odd, so $\\tan(-\\pi) = -\\tan\\pi = -0 = 0$. Odd functions always give 0 wherever the original value is 0."],
+  "ch14_ex3_q1c": ["Gradient picture: at $\\frac{7\\pi}{2}$ the radius points straight down, and a vertical line has undefined gradient.", "On the graph $y = \\tan x$, every odd multiple of $\\frac{\\pi}{2}$ is a vertical asymptote: $x = \\frac{\\pi}{2} + k\\pi$."],
+  "ch14_ex3_q1d": ["$-2\\pi$ is a full clockwise turn back to $(1, 0)$; $\\tan = \\frac{0}{1} = 0$."],
+  "ch14_ex3_q1e": ["$\\tan = \\frac{\\sin}{\\cos}$ and $\\cos\\frac{5\\pi}{2} = 0$. Whenever cosine is 0 you would be dividing by zero, so tan is undefined."],
+  "ch14_ex3_q1f": ["Graph check: as $x$ approaches $-\\frac{\\pi}{2}$ from the right, $\\tan x$ heads towards $-\\infty$, so there is no value at $-\\frac{\\pi}{2}$ itself."],
+  "ch14_ex3_q2a": ["Shortcut near an asymptote: $\\tan\\left(\\frac{\\pi}{2} + h\\right) \\approx -\\frac{1}{h}$ for small $h$. Here $h = 1.6 - 1.5708 \\approx 0.029$, so expect about $-34$.", "$1.6$ is just past $\\frac{\\pi}{2}$, in quadrant 2, so a large negative value is correct."],
+  "ch14_ex3_q2b": ["Tan is odd: $\\tan(-1.2) = -\\tan 1.2$. Since $1.2 > \\frac{\\pi}{4} \\approx 0.785$, $|\\tan| > 1$; $-2.57$ fits."],
+  "ch14_ex3_q2c": ["$136^\\circ = 180^\\circ - 44^\\circ$, and $\\tan 44^\\circ$ is just under $\\tan 45^\\circ = 1$, so expect just above $-1$: $-0.97$."],
+  "ch14_ex3_q2d": ["$-54^\\circ$ is a quadrant 4 angle, where tan is negative. Also $54^\\circ$ is between $45^\\circ$ ($\\tan = 1$) and $60^\\circ$ ($\\tan \\approx 1.73$)."],
+  "ch14_ex3_q2e": ["Tan has period $\\pi$, so $\\tan 3.9 = \\tan(3.9 - \\pi) \\approx \\tan 0.76$. That is just under $\\frac{\\pi}{4} \\approx 0.785$, so expect just under 1."],
+  "ch14_ex3_q2f": ["Add $\\pi$ (tan's period): $\\tan(-2.5) = \\tan(0.64)$, a first-quadrant angle below $\\frac{\\pi}{4}$, so the answer is positive and less than 1."],
+  "ch14_ex3_q2g": ["$\\tan 239^\\circ = \\tan 59^\\circ$, which is just below $\\tan 60^\\circ = \\sqrt{3} \\approx 1.73$. $1.66$ is a sensible answer."],
+  "ch14_ex3_q3a": ["On $y = \\tan x$ the $x$-intercepts are at $0^\\circ, \\pm 180^\\circ, \\pm 360^\\circ, \\dots$, exactly halfway between the asymptotes at $\\pm 90^\\circ, \\pm 270^\\circ, \\dots$"],
+  "ch14_ex3_q3b": ["Tan's period is only $180^\\circ$, so $\\tan 360^\\circ = \\tan 180^\\circ = \\tan 0^\\circ = 0$."],
+  "ch14_ex3_q3c": ["Gradient picture: $\\tan\\theta$ is the slope of the radius to $P(\\theta)$. At $\\theta = 0$ the radius is horizontal, so the slope is 0."],
+  "ch14_ex3_q3d": ["Tan is odd, so $\\tan(-180^\\circ) = -\\tan 180^\\circ = 0$."],
+  "ch14_ex3_q3e": ["Fast test: if the angle divided by $180^\\circ$ is a whole number, tan is 0. $-540 \\div 180 = -3$."],
+  "ch14_ex3_q3f": ["$720 \\div 180 = 4$, a whole number, so the point is on the $x$-axis and tan is 0. No need to remove turns first."]
+}

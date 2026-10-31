@@ -1,0 +1,59 @@
+{
+  "ch15_ex1_q1": [
+    "Memory pattern: $\\sin(0^\\circ), \\sin(30^\\circ), \\sin(45^\\circ), \\sin(60^\\circ), \\sin(90^\\circ)$ are $\\frac{\\sqrt{0}}{2}, \\frac{\\sqrt{1}}{2}, \\frac{\\sqrt{2}}{2}, \\frac{\\sqrt{3}}{2}, \\frac{\\sqrt{4}}{2}$. Cosine runs the same list backwards.",
+    "Complementary link: $\\sin(30^\\circ) = \\cos(60^\\circ)$, because the side opposite $30^\\circ$ is the side adjacent to $60^\\circ$."
+  ],
+  "ch15_ex1_q2": [
+    "Set up the sine rule with the unknown side on top ($\\frac{x}{\\sin(60^\\circ)} = \\frac{7}{\\sin(42^\\circ)}$) so a single multiplication finishes the job.",
+    "Estimate: $\\sin(60^\\circ) \\approx 0.87$ and $\\sin(42^\\circ) \\approx 0.67$, a ratio of about 1.3, so $x \\approx 7 \\times 1.3 \\approx 9.1$."
+  ],
+  "ch15_ex1_q3": [
+    "The ratio $\\frac{\\text{side}}{\\sin(\\text{opposite angle})}$ is the same for all three pairs. Here $\\frac{10}{\\sin(55^\\circ)} \\approx 12.21$; store it, then any side is this number times the sine of its opposite angle.",
+    "Angles $50^\\circ$ and $55^\\circ$ are close, so their opposite sides should be close too: $y$ just under 10 is the right size."
+  ],
+  "ch15_ex1_q4": [
+    "Why $B' = 180^\\circ - B$: triangle $BCB'$ is isosceles ($CB = CB'$), so its base angles are equal, and the angle $AB'C$ is supplementary to the base angle at $B'$.",
+    "Two triangles appear when the side opposite the given angle (11) is shorter than the other given side (19) but longer than the height $19\\sin(25^\\circ) \\approx 8.03$."
+  ],
+  "ch15_ex1_q5": [
+    "Quick ambiguity test: the given angle $63^\\circ$ is opposite the longer given side (7 > 5), so only one triangle is possible.",
+    "The side opposite the largest angle ($C \\approx 77^\\circ$) must be the longest side, so $x$ should beat 7. It does."
+  ],
+  "ch15_ex1_q6": [
+    "The cosine rule is Pythagoras with a correction: at $90^\\circ$, $x = \\sqrt{244} \\approx 15.6$. An acute angle like $37^\\circ$ subtracts a positive amount, so $x$ must be shorter than 15.6.",
+    "By the triangle inequality, $x$ must lie between $12 - 10 = 2$ and $22$; use this to catch a slip."
+  ],
+  "ch15_ex1_q7": [
+    "Estimate before choosing: $\\sin(55^\\circ) \\approx 0.8$, so the area is about $0.8 \\times 22.75 \\approx 18.2$, which points straight to B.",
+    "Why the formula works: $6.5\\sin(55^\\circ)$ is the perpendicular height onto the 7 cm side, so it is just $\\frac{1}{2} \\times \\text{base} \\times \\text{height}$."
+  ],
+  "ch15_ex1_q8": [
+    "The reference angle in the third quadrant is $203^\\circ - 180^\\circ = 23^\\circ$; there sine and cosine are both negative and tangent is positive."
+  ],
+  "ch15_ex1_q9": [
+    "Why it is exactly 0.5: the origin, $(1, 0)$ and the point at $60^\\circ$ form an equilateral triangle of side 1, so the perpendicular from P lands at the midpoint $x = \\frac{1}{2}$."
+  ],
+  "ch15_ex1_q10": [
+    "Picture a right triangle with hypotenuse 1 and adjacent side $p$; Pythagoras makes the opposite side $\\sqrt{1 - p^2}$.",
+    "Test a value to eliminate options: with $x = 60^\\circ$, $p = 0.5$ and $\\sin(120^\\circ) \\approx 0.866 = \\sqrt{0.75}$. Only D matches."
+  ],
+  "ch15_ex1_q11": [
+    "Memory aid: the number in front stretches the graph up and down (amplitude); the number inside squashes it sideways, giving $n$ full cycles every $360^\\circ$."
+  ],
+  "ch15_ex1_q12": [
+    "Fast elimination: substitute $x = 0$. Options C and D give 0, A gives 4, and only B gives $-4$.",
+    "Count peaks: two maxima between $0^\\circ$ and $360^\\circ$ means two cycles, so the number inside is 2."
+  ],
+  "ch15_ex1_q13": [
+    "The sine graph is symmetric about $x = 90^\\circ$, so the two solutions in $0^\\circ$ to $180^\\circ$ always add to $180^\\circ$: $30^\\circ + 150^\\circ = 180^\\circ$.",
+    "Option B is a trap: $\\sin(210^\\circ)$ is negative because $210^\\circ$ is in the third quadrant."
+  ],
+  "ch15_ex1_q14": [
+    "Doubling the angle doubles the number of cycles, so expect 4 solutions in $0^\\circ$ to $360^\\circ$ instead of the usual 2.",
+    "Check an option by substitution: $x = 67.5^\\circ$ gives $\\cos(135^\\circ) = -\\frac{\\sqrt{2}}{2}$, which is correct."
+  ],
+  "ch15_ex1_q15": [
+    "$\\sin(x) = 1$ and $\\sin(x) = -1$ are special: they hit only the top or bottom of the wave, so each has just one solution per $360^\\circ$ cycle.",
+    "Link: $y = 7\\sin(x)$ has amplitude 7, so $-7$ is its minimum value, which occurs at $270^\\circ$."
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "ch5_ex1_q1": [
+    "Difference-of-squares shortcut: $c^2 - b^2 = (c-b)(c+b)$, so $w^2 = (7.3-2.41)(7.3+2.41) = 4.89 \\times 9.71 = 47.4819$. Fewer big squares to key in.",
+    "Sanity check: the base is short, so $w$ should be only a little less than the hypotenuse 7.3. An answer of about 6.9 fits."
+  ],
+  "ch5_ex1_q2": [
+    "Spot the pattern: sides $x$ and $2x$ always give a hypotenuse of $x\\sqrt{1+4} = x\\sqrt{5}$. So $x\\sqrt{5} = 5$ gives $x = \\sqrt{5}$ straight away.",
+    "Check the answer: $\\sqrt{5} \\approx 2.24$ and $2x \\approx 4.47$, and $2.24^2 + 4.47^2 \\approx 25$."
+  ],
+  "ch5_ex1_q3": [
+    "The vertical triangle is 12, 16, 20, which is the 3, 4, 5 triple multiplied by 4, so the half-diagonal is 12 with no calculator.",
+    "A square's side is its diagonal divided by $\\sqrt{2}$: side $= 24 \\div \\sqrt{2} = 12\\sqrt{2} \\approx 16.97$ cm."
+  ],
+  "ch5_ex1_q4": [
+    "Difference of squares makes this quick: $32^2 - 30^2 = (32-30)(32+30) = 2 \\times 62 = 124$, so the overhang is $\\sqrt{124} \\approx 11.14$ cm.",
+    "Draw the cross-section as a rectangle with a right-angled triangle on each side. This trapezium picture works for any truncated cone (frustum)."
+  ],
+  "ch5_ex1_q5": [
+    "Estimate to check: $\\sin 20^\\circ \\approx 0.342$ and $\\sin 21^\\circ \\approx 0.358$, so $\\sin(20^\\circ 37')$ must lie between them. 0.3521 does.",
+    "Remember $37' = \\frac{37}{60}^\\circ \\approx 0.62^\\circ$, so the angle is about $20.62^\\circ$, not $20.37^\\circ$."
+  ],
+  "ch5_ex1_q6": [
+    "Benchmark: $\\cos 60^\\circ = 0.5$ and cosine decreases as the angle grows. Since 0.5712 is a bit more than 0.5, $\\theta$ must be a bit less than $60^\\circ$.",
+    "Calculator technique: press $\\cos^{-1}(0.5712)$ then the DMS (degrees-minutes-seconds) key to see $55^\\circ 10'$ directly, instead of converting 0.166 of a degree by hand."
+  ],
+  "ch5_ex1_q7": [
+    "Mnemonic: SOH-CAH-TOA (\"Some Old Horses Can Always Hear Their Owners Approaching\"). Opposite and adjacent are both known here, so it is TOA.",
+    "Spot the triple: 2.4 and 3.2 are $0.8 \\times 3$ and $0.8 \\times 4$, so $\\tan\\theta = \\frac{3}{4}$. The 3-4-5 triangle's angles are always about $36.87^\\circ$ and $53.13^\\circ$."
+  ],
+  "ch5_ex1_q8": [
+    "In any isosceles triangle, the line from the apex down to the base is perpendicular to it and cuts the base in half. That turns the problem into right-angled triangles with adjacent side 5.9.",
+    "Quick check: $y$ is a hypotenuse, so it must be longer than 5.9. An answer of 6.7 fits."
+  ],
+  "ch5_ex1_q9": [
+    "Since $62^\\circ > 45^\\circ$, $\\tan 62^\\circ > 1$. So the height above eye level must be more than the 12 m distance, which is a quick way to check your working.",
+    "Option D (207.56) is close to what you get by adding 185 instead of 1.85 m, which shows why converting units first matters."
+  ],
+  "ch5_ex1_q10a": [
+    "Quick rules for $\\theta$ from compass form: N$\\theta$E $= \\theta$, S$\\theta$E $= 180-\\theta$, S$\\theta$W $= 180+\\theta$, N$\\theta$W $= 360-\\theta$. For N$20^\\circ$E the bearing is just 020$^\\circ$T."
+  ],
+  "ch5_ex1_q10b": [
+    "S$\\theta$W means $180 + \\theta$: $180 + 47 = 227^\\circ$T. Check that it lands between 180 and 270, which is the south-west quadrant."
+  ],
+  "ch5_ex1_q10c": [
+    "N$\\theta$W means $360 - \\theta$: $360 - 33 = 327^\\circ$T. Think of it as turning 33° back anticlockwise from north."
+  ],
+  "ch5_ex1_q10d": [
+    "S$\\theta$E means $180 - \\theta$: $180 - 17 = 163^\\circ$T. Check that it lands between 090 and 180, which is the south-east quadrant."
+  ],
+  "ch5_ex1_q11": [
+    "Eliminate fast: both angles share the same height, but the edge angle has a longer horizontal distance (half-diagonal), so it must be smaller than $55^\\circ$. That rules out B and C.",
+    "The two horizontal distances differ by a factor of $\\sqrt{2}$ ($3.6$ versus $3.6\\sqrt{2}$), so $\\tan(\\text{edge angle}) = \\tan 55^\\circ \\div \\sqrt{2}$."
+  ],
+  "ch5_ex1_q12": [
+    "Compass-form shortcut: swap both letters. $032^\\circ$T is N$32^\\circ$E, so the reverse is S$32^\\circ$W $= 180 + 32 = 212^\\circ$T.",
+    "Check: a bearing and its back bearing always point in opposite directions, so they must be in opposite quadrants (NE and SW here)."
+  ],
+  "ch5_ex1_q13": [
+    "Convert $220^\\circ$T to compass form: $220 - 180 = 40$, so it is S$40^\\circ$W. Both legs then head west, so their west components add.",
+    "Pattern: if the angle is measured from the north-south line, sin gives the east/west part and cos gives the north/south part."
+  ],
+  "ch5_ex1_q14": [
+    "Formula to remember for two angles of elevation along a line: $h = \\dfrac{d}{\\frac{1}{\\tan A} - \\frac{1}{\\tan B}}$, where $d$ is the distance between the observers.",
+    "Check the order: the bigger angle ($41^\\circ 16'$) belongs to the closer point Q, because you look up more steeply when you are nearer the mountain."
+  ],
+  "ch5_ex1_q15": [
+    "A $45^\\circ$ angle in a right-angled triangle makes it isosceles, so the vertical side equals 8 with no trig needed.",
+    "Then $\\tan(25^\\circ 13') = \\frac{8}{8+x}$, so $8 + x = \\frac{8}{\\tan(25^\\circ 13')} \\approx 16.99$. The smaller angle gives a longer base, as expected."
+  ]
+}

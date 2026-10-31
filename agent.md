@@ -118,11 +118,13 @@ Rules:
 - **questionFigures:** leave empty. The merge fills it from the manifest.
 - **solutionFigures:** leave empty unless a step truly needs a diagram that the question doesn't supply. Then save an SVG to `assets/generated_diagrams/` and list the path.
 - **Roman sub-parts** (i, ii, iii) are answered inside their lettered entry.
+- **tricks (optional, merged from `data/tricks/`):** a list of 1–3 short memory aids, mental shortcuts, sanity checks or why-it-works notes per entry. Written separately from the chunks, in `data/tricks/chNN_setM.json` as `{entry id: ["...", "..."]}`, so the solution text is never touched. `build_data.py` attaches them as `entry["tricks"]` and the viewer shows them under "Tricks to remember". Add tricks for any new chapter the same way, and check that every trick is mathematically correct before including it.
 
 ## 5. Teaching standard for solutions
 
 - Written for Grade 10 learners. Show every algebraic and trigonometric step, including substitutions and simplifications.
 - Order: Given and goal → key formula named explicitly → working → final statement in words → one tip on a common error.
+- Then add 1–3 tricks in `data/tricks/` (see the rules above). Good tricks are a memory aid, a mental estimate that checks the answer, a why-it-works note, a calculator technique, or a common setup mistake.
 - Round only at the end, and state the rounding (for example, "correct to 2 decimal places").
 - LaTeX: `$...$` inline, `$$...$$` display. Double the backslashes inside JSON strings.
 - Check every final answer twice. Use the book's Answers section to check, not to copy.

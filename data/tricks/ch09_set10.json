@@ -1,0 +1,182 @@
+{
+  "ch9_ex10_q1": [
+    "Eliminate first: $x = -\\frac{b}{2a} = \\frac{4}{6} = \\frac{2}{3}$, and only option D has that x-value."
+  ],
+  "ch9_ex10_q2": [
+    "Shortcut: the gap between the x-intercepts is $\\frac{\\sqrt{\\Delta}}{|a|}$. The gaps are 1, 3, $\\frac{11}{2}$ and $\\frac{29}{4}$, so A is closest."
+  ],
+  "ch9_ex10_q3": [
+    "From turning point form the y-intercept is $ah^2 + k$. A: $12 + 9 = 21$, B: $5 + 8 = 13$, C: $2 + 19 = 21$, D: $50 + 4 = 54$.",
+    "A turning point far from the y-axis (large $h$) can give a large y-intercept even when $k$ is small."
+  ],
+  "ch9_ex10_q4": [
+    "Check with the vertex: $y = x^2$ has its vertex at $(0, 0)$ and the new graph has its vertex at $\\left(3, \\frac{1}{4}\\right)$, so it moved right 3 and up $\\frac{1}{4}$."
+  ],
+  "ch9_ex10_q5": [
+    "Test with numbers: for $y = \\frac{12}{x}$, the pairs $(2, 6)$ and $(3, 4)$ both multiply to 12, but their sums and quotients differ."
+  ],
+  "ch9_ex10_q6": [
+    "Ratio method: new sales $= 1000 \\times \\frac{22}{16} = 1375$. The price ratio is flipped because the relationship is inverse."
+  ],
+  "ch9_ex10_q7": [
+    "$-3 \\times 2^x$ is $2^x$ stretched by 3 and then flipped, so every y-value is negative and the curve doubles in size (downwards) each step."
+  ],
+  "ch9_ex10_q8a": [
+    "Check with $x = -\\frac{b}{2a} = 4$: $16 - 32 + 1 = -15$. Correct."
+  ],
+  "ch9_ex10_q8b": [
+    "Cross-check by factorising: $(x + 5)(x - 1)$ has roots $-5$ and $1$, and their midpoint is $-2$."
+  ],
+  "ch9_ex10_q9": [
+    "Since $y = (x + 4)^2 - 9$, every table value is a square minus 9: $25 - 9 = 16$, $16 - 9 = 7$, and so on.",
+    "Pattern check: going from the vertex the y-values rise by 1, 3, 5, 7, 9, which are the odd numbers."
+  ],
+  "ch9_ex10_q10a": [
+    "Quick y-intercept: $(0 - 3)^2 + 1 = 10$. Its mirror point in $x = 3$ is $(6, 10)$, which is a free second point."
+  ],
+  "ch9_ex10_q10b": [
+    "Mirror point: the y-intercept $(0, -3)$ reflected in $x = -1$ gives $(-2, -3)$.",
+    "Estimate check: $\\sqrt{2.5} \\approx 1.58$, so the roots $-1 \\pm 1.58$ are about $0.58$ and $-2.58$."
+  ],
+  "ch9_ex10_q11": [
+    "For $-(x + 5)(x - 3)$, the maximum is $(\\text{half the gap})^2 = 4^2 = 16$, because the roots are 8 apart."
+  ],
+  "ch9_ex10_q12": [
+    "Each step right multiplies by 3, so build the table from $(0, 10)$: $30, 90, 270, 810$ to the right, and $\\frac{10}{3}, \\frac{10}{9}$ to the left.",
+    "The values range from about 1 to 810, so pick a y-scale like 100 per grid line and mark the small values carefully."
+  ],
+  "ch9_ex10_q13": [
+    "$10^{-x} = (0.1)^x$: each step right moves the decimal point one place left."
+  ],
+  "ch9_ex10_q14a": [
+    "Decimal shortcut: $\\frac{1}{5} = 0.2$, and dividing by 5 is the same as multiplying by 2 then dividing by 10: $0.2 \\to 0.04 \\to 0.008$."
+  ],
+  "ch9_ex10_q14b": [
+    "The left side values (0.2, 0.04, 0.008) are so small they look like they sit on the axis. Draw the curve just above it."
+  ],
+  "ch9_ex10_q15a": [
+    "Doubling comparison: $1.5^2 = 2.25$ but $1.2^4 \\approx 2.07$, so $1.5^x$ doubles in under 2 steps while $1.2^x$ needs about 4."
+  ],
+  "ch9_ex10_q15b": [
+    "Three cases: $a > 1$ grows, $0 < a < 1$ decays, and $a = 1$ gives the flat line $y = 1$."
+  ],
+  "ch9_ex10_q16a": [
+    "Two quick points per curve: $(0, k)$ and $(1, 3k)$. So $(1, 6)$, $(1, 15)$ and $\\left(1, \\frac{3}{2}\\right)$."
+  ],
+  "ch9_ex10_q16b": [
+    "The ratio between two curves is the same at every $x$: $\\frac{5 \\times 3^x}{2 \\times 3^x} = 2.5$ always, which is why they never cross."
+  ],
+  "ch9_ex10_q17a": [
+    "$2.5^{-x} = \\left(\\frac{1}{2.5}\\right)^x = 0.4^x$, a base between 0 and 1, so it must be decreasing."
+  ],
+  "ch9_ex10_q17b": [
+    "Point check: $(1, 2.5)$ on $y = 2.5^x$ matches $(-1, 2.5)$ on $y = 2.5^{-x}$. Same height, opposite side."
+  ],
+  "ch9_ex10_q18a": [
+    "The bend is closest to the origin at $(2, 2)$, since $2 \\times 2 = 4$."
+  ],
+  "ch9_ex10_q18b": [
+    "Every point has $x \\times y = -2$, so $x$ and $y$ always have opposite signs: quadrants 2 and 4."
+  ],
+  "ch9_ex10_q19": [
+    "Anchor points one step either side of $x = 2$: $(3, -3)$ and $(1, 3)$. The height is the size of the numerator."
+  ],
+  "ch9_ex10_q20": [
+    "Any $y = \\frac{a}{x + 3} + k$ with $a \\ne 0$ works; the vertical asymptote depends only on the denominator."
+  ],
+  "ch9_ex10_q21a": [
+    "Pythagoras check: any point on the circle satisfies $x^2 + y^2 = 16$, e.g. $(4, 0)$, or about $(2.83, 2.83)$ on the line $y = x$."
+  ],
+  "ch9_ex10_q21b": [
+    "Axis test: the centre is 5 from the y-axis and 3 from the x-axis, both less than 8, so the circle crosses both axes twice."
+  ],
+  "ch9_ex10_q22a": [
+    "Shortcut: the centre is $\\left(-\\frac{4}{2}, -\\frac{-2}{2}\\right) = (-2, 1)$, and $r^2 = 4 + 2^2 + 1^2 = 9$."
+  ],
+  "ch9_ex10_q22b": [
+    "The centre $(-4, -4)$ lies on $y = x$, so the circle is symmetric about that line, and its x- and y-intercepts will match."
+  ],
+  "ch9_ex10_q23": [
+    "Any intercept gives $r$ directly when the centre is the origin. Check: $(0, -6)$ gives $0 + 36 = 36$."
+  ],
+  "ch9_ex10_q24a": [
+    "Factorise: $h = t(4 - t)$, so the zeros are $t = 0$ and $t = 4$, and the peak is halfway at $t = 2$."
+  ],
+  "ch9_ex10_q24b": [
+    "With $a = -1$ and roots 4 apart, the maximum is $(\\text{half the gap})^2 = 2^2 = 4$."
+  ],
+  "ch9_ex10_q24c": [
+    "Symmetry: the time up equals the time down, so the peak is at half the flight time, $4 \\div 2 = 2$ s."
+  ],
+  "ch9_ex10_q24d": [
+    "The landing time is the second zero of $t(4 - t)$. The flight time is twice the time to the peak: $2 \\times 2 = 4$ s."
+  ],
+  "ch9_ex10_q25a": [
+    "Link to physics: the $-5t^2$ comes from gravity, since $\\frac{1}{2} \\times 9.8 \\approx 5$. Most thrown-ball models on Earth have about $-5t^2$."
+  ],
+  "ch9_ex10_q25b": [
+    "$-5t(t - 4) = 0$ gives zeros 0 and 4, so the flight time is $4 - 0 = 4$ s."
+  ],
+  "ch9_ex10_q25c": [
+    "Symmetry check: the times at 15 m must be equally spaced around the peak at $t = 2$. $2 \\pm 1$ gives 1 and 3.",
+    "Sign check: an upside-down parabola is above a level between its two crossing times, so the answer is the interval between them."
+  ],
+  "ch9_ex10_q25d": [
+    "The maximum height is exactly 20 m (at $t = 2$), so the ball can touch 20 m but never go above it."
+  ],
+  "ch9_ex10_q26a": [
+    "Square brackets mean the endpoints are included: $[0, 12]$ covers 9 am to 9 pm inclusive."
+  ],
+  "ch9_ex10_q26b": [
+    "At $t = 0$ every $t$ term vanishes, leaving the constant $32$."
+  ],
+  "ch9_ex10_q26c": [
+    "Exact check without a graphics calculator: $t^2 - 12t + 25 = 0$ gives $(t - 6)^2 = 11$, so $t = 6 \\pm \\sqrt{11} \\approx 2.68$ or $9.32$.",
+    "The two times are symmetric about $t = 6$ (3 pm): about 3 h 19 min before and after it."
+  ],
+  "ch9_ex10_q27a": [
+    "Square check: $3^2 = 9$ and $15^2 = 225$. Recognising $225 = 15^2$ saves a calculator step."
+  ],
+  "ch9_ex10_q27b": [
+    "Same centre, different radii: these are concentric circles, like a target. The second is 5 times as wide as the first."
+  ],
+  "ch9_ex10_q27c": [
+    "The radius grew by $15 - 3 = 12$ cm in 5 s, so $12 \\div 5 = 2.4$ cm/s."
+  ],
+  "ch9_ex10_q27d": [
+    "Estimate: $200 \\div 2.4$ is a bit more than $200 \\div 2.5 = 80$, so about 80 seconds is reasonable."
+  ],
+  "ch9_ex10_q28a": [
+    "Mental maths: $\\frac{70}{500} = \\frac{14}{100} = 0.14$."
+  ],
+  "ch9_ex10_q28b": [
+    "Inverse proportion link: the mass of solute is fixed, so doubling the volume halves the concentration: $0.14 \\div 2 = 0.07$."
+  ],
+  "ch9_ex10_q29": [
+    "Check the whole-number answers by hand: $2^2 = 4 = 2^2$ and $2^4 = 16 = 4^2$.",
+    "Why only one negative solution: for $x < 0$, $x^2$ grows to the left while $2^x$ shrinks towards 0, so they can cross only once."
+  ],
+  "ch9_ex10_q30a": [
+    "The grass is the region between the curve and the axis, so the inequality has $P$ below the curve: \"under the arch\" means $\\le$."
+  ],
+  "ch9_ex10_q30b": [
+    "For $-x(x - 5)$, the maximum is $(\\text{half the gap})^2 = 2.5^2 = 6.25$."
+  ],
+  "ch9_ex10_q30ci": [
+    "Find the dilation factor as a ratio of the heights: $\\frac{3.5}{6.25} = 0.56$."
+  ],
+  "ch9_ex10_q30cii": [
+    "A vertical dilation multiplies every height by 0.56, so points on the x-axis (height 0) stay where they are."
+  ],
+  "ch9_ex10_q30d": [
+    "Dilating by 0.56 multiplies the area by 0.56: grass goes from $59.5\\%$ to $0.56 \\times 59.5\\% \\approx 33.3\\%$, leaving about $66.7\\%$ without lawn.",
+    "Archimedes' rule: the area under a parabolic arch is $\\frac{2}{3}$ of its bounding rectangle, so the original grass is $\\frac{2}{3} \\times 5 \\times 6.25 \\approx 20.8$ m$^2$."
+  ],
+  "ch9_ex10_q31a": [
+    "Use the factor form $b = ax(x - 50)$ with the peak at the midpoint $x = 25$: $a \\times 25 \\times (-25) = 4.5$, so $a = -\\frac{4.5}{625} = -0.0072$."
+  ],
+  "ch9_ex10_q31b": [
+    "Near the ends the arch is roughly a straight line with gradient $0.36$, so the height at 0.3 m is about $0.36 \\times 0.3 \\approx 0.108$ m. That is a quick estimate.",
+    "By symmetry the same height occurs 0.3 m from the other end, $x = 49.7$, so both sides give the same limit."
+  ]
+}

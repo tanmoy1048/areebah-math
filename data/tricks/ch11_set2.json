@@ -1,0 +1,283 @@
+{
+  "ch11_ex2_q1a": [
+    "The event space depends only on the device, not on the experiment's results: spin it 5 times or 5000 times and the list is the same six labels."
+  ],
+  "ch11_ex2_q1b": [
+    "Out of 50 shortcut: double the count and divide by 100. So $10 \\to 0.20$, $6 \\to 0.12$, $12 \\to 0.24$.",
+    "Compare each value with $\\frac{1}{6} \\approx 0.17$: segment V (0.24) and segment II (0.12) are furthest from theory, which is normal in only 50 spins."
+  ],
+  "ch11_ex2_q1c": [
+    "This is the Law of Large Numbers: as the number of trials grows, relative frequency settles towards the true probability.",
+    "Pooling results from the whole class is a quick way to get hundreds of spins without extra work."
+  ],
+  "ch11_ex2_q2a": [
+    "Look for friendly pairs: $80 + 70 = 150$ and $102 + 52 + 56 + 140 = 350$, giving a round 500."
+  ],
+  "ch11_ex2_q2b": [
+    "Dividing by 500 is the same as doubling and dividing by 1000: $80 \\times 2 = 160$, so $0.160$.",
+    "Relative frequency is also a percentage in disguise: 0.16 means 16% of the students chose silver."
+  ],
+  "ch11_ex2_q2c": [
+    "Use the doubling shortcut for $\\div 500$: $102 + 56 = 158$, and $158 \\times 2 = 316$, so $0.316$.",
+    "Adding is allowed because the categories are mutually exclusive: no student is counted in both black and green."
+  ],
+  "ch11_ex2_q2d": [
+    "The most appealing colour also has the largest relative frequency ($\\frac{140}{500} = 0.28$), so the mode of the data is the answer."
+  ],
+  "ch11_ex2_q3a": [
+    "Match the number of equally likely outcomes to a device: 2 means a coin, 6 means a die, 12 means a 12-sided die or spinner, and 10 means random digits 0 to 9."
+  ],
+  "ch11_ex2_q3b": [
+    "If the real probability were not $\\frac{1}{2}$, a spinner with unequal sectors or random numbers (e.g. 1 to 7 = satisfied, 8 to 10 = not) would be a better model."
+  ],
+  "ch11_ex2_q3c": [
+    "If every month is assumed equally likely, the chance two people share a birth month is $\\frac{12}{144} = \\frac{1}{12}$, so expect a match in about 1 in 12 simulated pairs."
+  ],
+  "ch11_ex2_q4a": [
+    "Pattern in the table: every number on the same diagonal (bottom-left to top-right) has the same sum, which makes counting ways easy."
+  ],
+  "ch11_ex2_q4b": [
+    "Formula to remember: the number of ways to roll a sum $s$ with two dice is $6 - |s - 7|$. For $s = 7$ this gives 6, the maximum."
+  ],
+  "ch11_ex2_q4c": [
+    "The extreme sums need both dice to be extreme: 2 needs (1, 1) and 12 needs (6, 6), so each has only one cell in the table."
+  ],
+  "ch11_ex2_q5": [
+    "List the outcomes that work: $\\{2, 4, 5, 6\\}$, four out of six. Listing avoids any worry about overlap.",
+    "Here 'even' and '5' are mutually exclusive (5 is odd), so $\\frac{3}{6} + \\frac{1}{6}$ works with no overlap to subtract."
+  ],
+  "ch11_ex2_q6a": [
+    "Deck facts to memorise: 52 cards, 4 suits of 13, 13 ranks of 4, 26 red and 26 black, 12 picture cards. Any rank gives $\\frac{4}{52} = \\frac{1}{13}$."
+  ],
+  "ch11_ex2_q6b": [
+    "Any single suit has probability $\\frac{13}{52} = \\frac{1}{4}$, and any single colour has $\\frac{1}{2}$."
+  ],
+  "ch11_ex2_q6c": [
+    "Count directly: 13 hearts plus the 3 kings that are not hearts gives 16 cards, and $\\frac{16}{52} = \\frac{4}{13}$.",
+    "General pattern: 'a rank or a suit' always gives $13 + 4 - 1 = 16$ cards."
+  ],
+  "ch11_ex2_q7a": [
+    "Test for complements: the two probabilities must add to exactly 1. Breakfast has more options (toast, nothing), so these two cannot add to 1."
+  ],
+  "ch11_ex2_q7b": [
+    "Check both conditions: can they happen together (overlap)? Is there anything left over (a gap)? Complements have no overlap and no gap."
+  ],
+  "ch11_ex2_q7c": [
+    "Picture a Venn diagram: an event and its complement fill the whole rectangle between them, with nothing outside."
+  ],
+  "ch11_ex2_q7d": [
+    "For number ranges, the complement of 'less than $k$' is 'greater than or equal to $k$'. The boundary number must go to exactly one side.",
+    "Check by counting faces: $\\{1, ..., 4\\}$ has 4 faces and $\\{5, ..., 10\\}$ has 6, and $4 + 6 = 10$, so nothing is missed."
+  ],
+  "ch11_ex2_q7e": [
+    "Because they are complements, $\\Pr(\\text{fail}) = 1 - \\Pr(\\text{pass})$. Knowing one probability gives you the other for free."
+  ],
+  "ch11_ex2_q8a": [
+    "Any rank (ace, 7, queen...) has 4 cards, so its probability is always $\\frac{4}{52} = \\frac{1}{13}$."
+  ],
+  "ch11_ex2_q8b": [
+    "Clubs, diamonds, hearts and spades each make up a quarter of the pack, so all four suits give the same answer, $\\frac{1}{4}$."
+  ],
+  "ch11_ex2_q8c": [
+    "Red cards are hearts and diamonds: $13 + 13 = 26$ cards, exactly half the pack."
+  ],
+  "ch11_ex2_q8d": [
+    "Shortcut: $1 - \\frac{1}{13} = \\frac{12}{13}$, using the fact that any rank has probability $\\frac{1}{13}$."
+  ],
+  "ch11_ex2_q8e": [
+    "If an outcome is not in the sample space at all, its probability is 0. A standard pack has only red and black cards."
+  ],
+  "ch11_ex2_q8f": [
+    "'Not red' is the same event as 'black', so the answer equals $\\Pr(\\text{black}) = \\frac{26}{52}$."
+  ],
+  "ch11_ex2_q9a": [
+    "Total is $4 + 7 + 9 = 20$, so each marble is worth $\\frac{1}{20} = 0.05$. Blue is $4 \\times 0.05 = 0.2$."
+  ],
+  "ch11_ex2_q9b": [
+    "Using 0.05 per marble: red is $7 \\times 0.05 = 0.35$, a handy decimal check on $\\frac{7}{20}$."
+  ],
+  "ch11_ex2_q9c": [
+    "Two routes, one answer: $1 - \\frac{9}{20}$ or $\\frac{4 + 7}{20}$. Doing both is a free check."
+  ],
+  "ch11_ex2_q9d": [
+    "Check: blue, red and yellow probabilities should add to 1 ($\\frac{4 + 7 + 9}{20} = 1$), which leaves nothing for any other colour."
+  ],
+  "ch11_ex2_q10a": [
+    "Think of it as 'too much': $0.5 + 0.4 = 0.9$ but the union is only $0.8$, so the overlap of $0.1$ was counted twice."
+  ],
+  "ch11_ex2_q10b": [
+    "Final check on a Venn diagram of probabilities: all four regions must add to 1. Here $0.4 + 0.1 + 0.3 + 0.2 = 1$."
+  ],
+  "ch11_ex2_q10c": [
+    "Formula version: $\\Pr(A \\cap B') = \\Pr(A) - \\Pr(A \\cap B) = 0.5 - 0.1$. 'A but not B' is always 'all of A minus the overlap'."
+  ],
+  "ch11_ex2_q11ai": [
+    "Sanity bounds: the union is at least the larger probability (0.65) and at most the sum (0.9). 0.85 sits inside that range."
+  ],
+  "ch11_ex2_q11aii": [
+    "Complement shortcut: $\\Pr[(A \\cap B)'] = 1 - 0.05$. The answer is large because almost everything is outside the small overlap.",
+    "De Morgan: $(A \\cap B)' = A' \\cup B'$, 'not both' is the same as 'not A or not B'."
+  ],
+  "ch11_ex2_q11b": [
+    "Picture test: $(A \\cap B)'$ shades nearly everything (only the lens is blank), so look for the diagram that is mostly shaded."
+  ],
+  "ch11_ex2_q12a": [
+    "Spot the rules: $A$ is the odd numbers and $B$ is the square numbers, so the overlap is the odd squares, 1 and 9.",
+    "Check the count: $2 + 8 + 2 + 8 = 20$ elements placed, matching $\\xi$."
+  ],
+  "ch11_ex2_q12bi": [
+    "Half the numbers from 1 to 20 are odd, so $\\Pr(A) = \\frac{1}{2}$ without counting."
+  ],
+  "ch11_ex2_q12bii": [
+    "The squares up to 20 are $1, 4, 9, 16$ (since $5^2 = 25$ is too big), so 4 out of 20."
+  ],
+  "ch11_ex2_q12biii": [
+    "An odd number squared is odd and an even number squared is even, so the odd squares come from 1 and 3: $1$ and $9$."
+  ],
+  "ch11_ex2_q12biv": [
+    "Formula check: $\\frac{10}{20} + \\frac{4}{20} - \\frac{2}{20} = \\frac{12}{20} = \\frac{3}{5}$, matching the region count."
+  ],
+  "ch11_ex2_q12bv": [
+    "Shortcut: $\\Pr(A' \\cap B') = 1 - \\Pr(A \\cup B) = 1 - \\frac{3}{5}$. These are the even numbers that are not squares."
+  ],
+  "ch11_ex2_q13a": [
+    "A game is fair when every player has the same probability of winning, even if they use different equipment.",
+    "Rough check: $\\frac{1}{8} = 0.125$ and $\\frac{1}{6} \\approx 0.167$, so the six-sided die wins about 4 more times in every 100 rolls."
+  ],
+  "ch11_ex2_q13b": [
+    "Any die with an even number of faces numbered $1$ to $n$ has exactly half odd faces, so $\\Pr(\\text{odd}) = \\frac{1}{2}$ every time."
+  ],
+  "ch11_ex2_q14": [
+    "This die behaves just like a coin: two outcomes, each on half the faces. Equal numbers of faces mean equally likely outcomes."
+  ],
+  "ch11_ex2_q15a": [
+    "Two faces out of six gives $\\frac{2}{6} = \\frac{1}{3}$, matching 'every third one'. So the expected count is $50 \\times \\frac{1}{3} \\approx 16.7$."
+  ],
+  "ch11_ex2_q15b": [
+    "Expect some spread: in 50 trials a result anywhere from about 10 to 23 free bars is quite normal, so do not worry if yours is not exactly 17."
+  ],
+  "ch11_ex2_q15c": [
+    "Expected number $=$ probability $\\times$ trials: $100 \\times \\frac{1}{3} = 33.3$, so about 33. Your experimental rate times 100 gives a similar estimate."
+  ],
+  "ch11_ex2_q16a": [
+    "Work from the centre outwards: centre, then the three 'two-only' regions, then the 'one-only' regions, then 'none'.",
+    "Check with the three-set formula: $15 + 14 + 18 - 6 - 7 - 9 + 5 = 30$, so everyone is in at least one circle and 'none' is 0."
+  ],
+  "ch11_ex2_q16bi": [
+    "The circle total was given in the question (15), so you can use it directly: $\\frac{15}{30}$."
+  ],
+  "ch11_ex2_q16bii": [
+    "The centre region is the smallest set that sits inside every circle, so it is a natural starting point when drawing the diagram."
+  ],
+  "ch11_ex2_q16biii": [
+    "'Volleyball and soccer' (6) includes the centre; 'but not tennis' strips the centre away: $6 - 5 = 1$."
+  ],
+  "ch11_ex2_q16biv": [
+    "Complement shortcut: $1 - \\Pr(\\text{tennis}) = 1 - \\frac{18}{30} = \\frac{12}{30}$."
+  ],
+  "ch11_ex2_q16bv": [
+    "Check from regions: $4 + 1 + 4 + 5 = 14$, matching the given soccer total."
+  ],
+  "ch11_ex2_q16ci": [
+    "Shortcut: everyone outside the volleyball circle is in soccer or tennis here (since 'none' is 0), so the answer is $30 - 15 = 15$ students."
+  ],
+  "ch11_ex2_q16cii": [
+    "Same shortcut as before: outside the soccer circle there are $30 - 14 = 16$ students, and with 'none' $= 0$ all of them play volleyball or tennis."
+  ],
+  "ch11_ex2_q17": [
+    "When probabilities depend on faces, think 'how many faces show this?', not 'how many different numbers are there?'."
+  ],
+  "ch11_ex2_q18": [
+    "Shade $A'$ in one colour and $B'$ in another; the area with both colours is only outside the circles, the same region as unshading $A \\cup B$.",
+    "The partner law is $(A \\cap B)' = A' \\cup B'$: when the dash moves inside the bracket, $\\cup$ and $\\cap$ swap."
+  ],
+  "ch11_ex2_q19": [
+    "Start with the facts: $\\frac{2}{9}$ with 10 red means 45 socks, so 35 purple. Then set up $\\frac{10 + r}{45 + r + p} = \\frac{3}{7}$.",
+    "This simplifies to $4r = 65 + 3p$. Adding only red socks ($p = 0$) fails because 65 is not a multiple of 4, so you must add at least one purple."
+  ],
+  "ch11_ex2_q20a": [
+    "Pair counts include the centre, so subtract 3 from each: $5 - 3 = 2$, $18 - 3 = 15$, $8 - 3 = 5$. Then each circle's 'only' region is what is left."
+  ],
+  "ch11_ex2_q20b": [
+    "Three-set rule: $n(B \\cup N \\cup S) = 35 + 25 + 39 - 5 - 18 - 8 + 3 = 71$, so $90 - 71 = 19$ played none.",
+    "Memory aid: add the singles, subtract the pairs, add back the triple."
+  ],
+  "ch11_ex2_q20c": [
+    "Check another way: $n(B \\cup N) = 35 + 25 - 5 = 55$, and those who also play soccer number $18 + 8 - 3 = 23$, so $55 - 23 = 32$."
+  ],
+  "ch11_ex2_q20d": [
+    "Translate set notation into words: $B \\cap N' \\cap S$ is 'basketball and soccer, but not netball', a single region of the diagram."
+  ],
+  "ch11_ex2_q20e": [
+    "15 out of 90 is the same as 1 out of 6, about 17% of students."
+  ],
+  "ch11_ex2_q20f": [
+    "A survey of 90 is a sample, so $\\frac{1}{30}$ is only an estimate. A bigger survey would give a more reliable value."
+  ],
+  "ch11_ex2_q21ai": [
+    "Add in an easy order: $7 + 12 + 8 = 27$ for the singles, $5 + 10 + 5 = 20$ for the pairs, plus 3 in the centre: $50$."
+  ],
+  "ch11_ex2_q21aii": [
+    "'Only' questions are always a single region, so the answer is read straight from the diagram with no adding."
+  ],
+  "ch11_ex2_q21aiii": [
+    "A whole circle is four regions: only, two pair-only regions and the centre. $7 + 5 + 10 + 3 = 25$."
+  ],
+  "ch11_ex2_q21aiv": [
+    "'A and B' without 'only' is the whole lens between two circles, which is two regions: the pair-only part plus the centre."
+  ],
+  "ch11_ex2_q21bi": [
+    "25 out of 50 is exactly half, a neat check that the circle total was added correctly."
+  ],
+  "ch11_ex2_q21bii": [
+    "As a decimal, $\\frac{3}{50} = 0.06$ (double top and bottom to get $\\frac{6}{100}$), so 6% of customers like all three."
+  ],
+  "ch11_ex2_q21biii": [
+    "Out of 50, double to get a percentage: $12 \\times 2 = 24\\%$, which matches $\\frac{6}{25} = 0.24$."
+  ],
+  "ch11_ex2_q21ci": [
+    "Each 'only' single region is the circle total minus its two pair-only regions minus the centre, e.g. fried rice only $= 22 - 6 - 8 - 2 = 6$.",
+    "The regions add to 44, so 6 customers liked none of the three foods. Always check whether the regions reach the stated total."
+  ],
+  "ch11_ex2_q21cii": [
+    "Compare surveys using probabilities, not counts: $\\frac{3}{50} = 0.06$ before and $\\frac{2}{50} = 0.04$ now."
+  ],
+  "ch11_ex2_q22a": [
+    "Fill the first row 2 to 7, then each row below is the row above plus 1. You only really need to write 2 to 12 along the diagonals."
+  ],
+  "ch11_ex2_q22b": [
+    "For every first die value 1 to 6 there is exactly one second value that makes 7, so a sum of 7 always has 6 ways."
+  ],
+  "ch11_ex2_q22c": [
+    "Equally likely outcomes need equal counts in the sample space. The sums have counts from 1 up to 6, so they are not equally likely."
+  ],
+  "ch11_ex2_q22d": [
+    "Check the frequencies add to 36: $1 + 2 + 3 + 4 + 5 + 6 + 5 + 4 + 3 + 2 + 1 = 36$.",
+    "Symmetry: sums equally far from 7 have equal frequency, e.g. 4 and 10 both have 3."
+  ],
+  "ch11_ex2_q22ei": [
+    "A sum of 2 needs a 1 on both dice: $\\frac{1}{6} \\times \\frac{1}{6} = \\frac{1}{36}$, matching the table."
+  ],
+  "ch11_ex2_q22eii": [
+    "Whatever the first die shows, exactly one value of the second die gives 7, so the chance is just $\\frac{1}{6}$."
+  ],
+  "ch11_ex2_q22eiii": [
+    "By symmetry, sum 11 is as likely as sum 3 (both are 4 away from 7), and both have 2 ways."
+  ],
+  "ch11_ex2_q22fi": [
+    "Sums 2 and 12 tie as the least likely, each $\\frac{1}{36}$, under 3%."
+  ],
+  "ch11_ex2_q22fii": [
+    "About 1 roll in 6 gives a 7, the same chance as rolling any particular number on one die."
+  ],
+  "ch11_ex2_q22fiii": [
+    "Use the rule $6 - |s - 7|$ for the number of ways: $6 - 4 = 2$, so $\\frac{2}{36}$."
+  ],
+  "ch11_ex2_q22g": [
+    "Mental shortcut: $300 \\div 6 = 50$. Multiplying by $\\frac{1}{6}$ is the same as dividing by 6."
+  ],
+  "ch11_ex2_q23": [
+    "Record each trial with a quick tally of the coin tosses so you can retrace the path if you lose your place.",
+    "Check: since there are only two outcomes, the two relative frequencies must add to 1."
+  ]
+}

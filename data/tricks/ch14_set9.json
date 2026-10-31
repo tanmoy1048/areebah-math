@@ -1,0 +1,57 @@
+{
+  "ch14_ex9_q1a": [
+    "Intercept pairs are symmetric about the turning point between them: $\\frac{7\\pi}{6}$ and $\\frac{11\\pi}{6}$ average to $\\frac{3\\pi}{2}$, the minimum.",
+    "$\\sin x = -\\frac{1}{2}$: basic angle $\\frac{\\pi}{6}$, sine negative in quadrants 3 and 4, so $\\pi + \\frac{\\pi}{6}$ and $2\\pi - \\frac{\\pi}{6}$."
+  ],
+  "ch14_ex9_q1b": [
+    "The maximum value is $2 - \\sqrt{3} \\approx 0.27$, so the graph only just pokes above the axis; the intercepts $\\frac{\\pi}{6}$ and $\\frac{\\pi}{3}$ hug the peak at $\\frac{\\pi}{4}$.",
+    "Once you have one pair of intercepts, add the period $\\pi$ to get the next pair: $\\frac{7\\pi}{6}, \\frac{4\\pi}{3}$."
+  ],
+  "ch14_ex9_q1c": [
+    "The intercepts $\\frac{3\\pi}{4}$ and $\\frac{5\\pi}{4}$ are symmetric about the minimum at $x = \\pi$, as cosine graphs are symmetric about every turning point.",
+    "$\\frac{1}{\\sqrt{2}} \\approx 0.71$ is worth recognising instantly: $\\cos x = -0.71$ means basic angle $\\frac{\\pi}{4}$."
+  ],
+  "ch14_ex9_q1d": [
+    "Factorise: $y = 2(\\sin 2x - 1)$, and since $\\sin 2x \\le 1$, $y \\le 0$ everywhere. The graph can only touch the axis where $\\sin 2x = 1$.",
+    "Touching points are one period apart: $\\frac{\\pi}{4}$ and $\\frac{\\pi}{4} + \\pi = \\frac{5\\pi}{4}$."
+  ],
+  "ch14_ex9_q1e": [
+    "Plugging in $x = 0$ gives $\\sqrt{2}\\sin\\left(-\\frac{\\pi}{4}\\right) + 1 = -1 + 1 = 0$, so the origin is both the $y$-intercept and an $x$-intercept.",
+    "Link to compound angles: $\\sqrt{2}\\sin\\left(x - \\frac{\\pi}{4}\\right) = \\sin x - \\cos x$, so $y = \\sin x - \\cos x + 1$; at $x = \\frac{3\\pi}{2}$ this is $-1 - 0 + 1 = 0$."
+  ],
+  "ch14_ex9_q2a": [
+    "Touching points are one period ($\\frac{2\\pi}{3}$) apart: from $\\frac{\\pi}{6}$, add or subtract $\\frac{2\\pi}{3}$ to get $-\\frac{\\pi}{2}, \\frac{5\\pi}{6}, \\frac{3\\pi}{2}$.",
+    "Factor as $y = 2(\\sin 3x - 1) \\le 0$: the graph never goes above the axis, so every $x$-intercept is a maximum."
+  ],
+  "ch14_ex9_q2b": [
+    "Count check: the domain has length $3\\pi$ and zeros come every $\\frac{\\pi}{3}$, so expect 9 zeros.",
+    "Graphics calculator: graph in radian mode with $-\\pi \\le x \\le 2\\pi$; the first zero $-\\frac{11\\pi}{12} \\approx -2.88$."
+  ],
+  "ch14_ex9_q2c": [
+    "One-line test: if $|b| > |a|$ the centre line is too far from the axis for the graph to reach it. Here $3 > 2$, so no $x$-intercepts."
+  ],
+  "ch14_ex9_q2d": [
+    "Count check: the domain length $3\\pi$ is three periods of $\\pi$, and each period has 2 intercepts, so expect 6.",
+    "Each intercept pair is symmetric about a minimum: $-\\frac{2\\pi}{3}$ and $-\\frac{\\pi}{3}$ average to $-\\frac{\\pi}{2}$."
+  ],
+  "ch14_ex9_q2e": [
+    "Each intercept pair is symmetric about a maximum: $-\\frac{5\\pi}{6}$ and $-\\frac{\\pi}{2}$ average to $-\\frac{2\\pi}{3}$, where the bracket is zero.",
+    "Once one pair is found, add the period $\\pi$ to get the others; three periods give 6 intercepts."
+  ],
+  "ch14_ex9_q2f": [
+    "Each intercept pair surrounds a minimum: $-\\frac{7\\pi}{12}$ and $-\\frac{\\pi}{4}$ average to $-\\frac{5\\pi}{12}$, where $2\\left(x + \\frac{\\pi}{6}\\right) = -\\frac{\\pi}{2}$.",
+    "Check the $y$-intercept: $2\\sin\\frac{\\pi}{3} + 1 = \\sqrt{3} + 1 \\approx 2.73$, just below the maximum of 3."
+  ],
+  "ch14_ex9_q3a": [
+    "Pattern: this is the graph from $y = 2\\sin 2\\left(x + \\frac{\\pi}{6}\\right) + 1$ moved a further $\\frac{\\pi}{6}$ left, so its intercepts are those minus $\\frac{\\pi}{6}$ (e.g. $\\frac{5\\pi}{12} \\to \\frac{\\pi}{4}$).",
+    "The domain $[-\\pi, \\pi]$ is two full periods, so both endpoints have the same $y$-value as $x = 0$."
+  ],
+  "ch14_ex9_q3b": [
+    "A negative $a$ swaps maxima and minima: the maxima here sit exactly where $y = 2\\sin 2\\left(x + \\frac{\\pi}{6}\\right) + 1$ has its minima ($-\\frac{5\\pi}{12}, \\frac{7\\pi}{12}$).",
+    "The $y$-intercept $1 - \\sqrt{3} \\approx -0.73$ is below the axis, so $x = 0$ must lie between two intercepts, $-\\frac{\\pi}{12}$ and $\\frac{\\pi}{4}$."
+  ],
+  "ch14_ex9_q3c": [
+    "Expand: $2\\cos\\left(2x + \\frac{\\pi}{2}\\right) = -2\\sin 2x$, so $y = \\sqrt{3} - 2\\sin 2x$. Check $x = \\frac{\\pi}{6}$: $\\sqrt{3} - 2 \\cdot \\frac{\\sqrt{3}}{2} = 0$.",
+    "The minimum value $\\sqrt{3} - 2 \\approx -0.27$ is only just below the axis, so intercept pairs are close together around each minimum."
+  ]
+}
