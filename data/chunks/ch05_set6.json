@@ -1,0 +1,655 @@
+{
+  "chapterId": "ch05",
+  "chapterTitle": "Trigonometry I",
+  "topics": [
+    {
+      "topicId": "5.6",
+      "topicTitle": "Using trigonometry to calculate angle size",
+      "exercises": [
+        {
+          "id": "ch5_ex6_q1a",
+          "number": "1(a)",
+          "category": "Practice",
+          "questionText": "Calculate the size of the angle, $\\theta$, giving your answer correct to the nearest degree. The diagram shows a right-angled triangle with the right angle at the bottom-right vertex. $\\theta$ is at the bottom-left vertex. The hypotenuse is $5.2$ and the vertical side is $4.8$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = \\dfrac{O}{H}$, so $\\theta = \\sin^{-1}\\left(\\dfrac{O}{H}\\right)$",
+            "steps": [
+              "Given: opposite $O = 4.8$, hypotenuse $H = 5.2$. Goal: $\\theta$.",
+              "O and H are known, so use sine: $\\sin(\\theta) = \\dfrac{4.8}{5.2}$",
+              "Apply the inverse: $\\theta = \\sin^{-1}\\left(\\dfrac{4.8}{5.2}\\right) = \\sin^{-1}(0.923077\\ldots)$",
+              "Calculate (degree mode): $\\theta = 67.380\\ldots^\\circ$",
+              "Round to the nearest degree: $\\theta \\approx 67^\\circ$"
+            ],
+            "finalAnswer": "$\\theta \\approx 67^\\circ$ (to the nearest degree)",
+            "solutionFigures": [],
+            "tip": "Use $\\sin^{-1}$ (SHIFT + sin), not $\\dfrac{1}{\\sin}$; these are different things."
+          }
+        },
+        {
+          "id": "ch5_ex6_q1b",
+          "number": "1(b)",
+          "category": "Practice",
+          "questionText": "Calculate the size of the angle, $\\theta$, giving your answer correct to the nearest degree. The diagram shows a right-angled triangle with the right angle at the bottom-right vertex. $\\theta$ is at the bottom-left vertex. The hypotenuse is $4.7$ and the horizontal base is $3.2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(\\theta) = \\dfrac{A}{H}$, so $\\theta = \\cos^{-1}\\left(\\dfrac{A}{H}\\right)$",
+            "steps": [
+              "Given: adjacent $A = 3.2$, hypotenuse $H = 4.7$. Goal: $\\theta$.",
+              "A and H are known, so use cosine: $\\cos(\\theta) = \\dfrac{3.2}{4.7}$",
+              "$\\theta = \\cos^{-1}\\left(\\dfrac{3.2}{4.7}\\right) = \\cos^{-1}(0.680851\\ldots)$",
+              "Calculate: $\\theta = 47.090\\ldots^\\circ$",
+              "Round to the nearest degree: $\\theta \\approx 47^\\circ$"
+            ],
+            "finalAnswer": "$\\theta \\approx 47^\\circ$ (to the nearest degree)",
+            "solutionFigures": [],
+            "tip": "Put the whole fraction in brackets after $\\cos^{-1}$ so the calculator divides first."
+          }
+        },
+        {
+          "id": "ch5_ex6_q1c",
+          "number": "1(c)",
+          "category": "Practice",
+          "questionText": "Calculate the size of the angle, $\\theta$, giving your answer correct to the nearest degree. The diagram shows a right-angled triangle with the right angle at the bottom-right vertex. $\\theta$ is at the bottom-left vertex. The vertical side is $8$ and the horizontal base is $3$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$, so $\\theta = \\tan^{-1}\\left(\\dfrac{O}{A}\\right)$",
+            "steps": [
+              "Given: opposite $O = 8$, adjacent $A = 3$. Goal: $\\theta$.",
+              "O and A are known, so use tangent: $\\tan(\\theta) = \\dfrac{8}{3}$",
+              "$\\theta = \\tan^{-1}\\left(\\dfrac{8}{3}\\right) = \\tan^{-1}(2.666667\\ldots)$",
+              "Calculate: $\\theta = 69.443\\ldots^\\circ$",
+              "Round to the nearest degree: $\\theta \\approx 69^\\circ$"
+            ],
+            "finalAnswer": "$\\theta \\approx 69^\\circ$ (to the nearest degree)",
+            "solutionFigures": [],
+            "tip": "A tangent ratio greater than 1 means the angle is more than $45^\\circ$, a handy check."
+          }
+        },
+        {
+          "id": "ch5_ex6_q2a",
+          "number": "2(a)",
+          "category": "Consolidate",
+          "questionText": "Calculate the size of the angle marked with the pronumeral, giving your answer correct to the nearest minute. The diagram shows a right-angled triangle with the right angle at the bottom-right vertex. $\\theta$ is at the bottom-left vertex. The vertical side is $17$ and the horizontal base is $12$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta = \\tan^{-1}\\left(\\dfrac{O}{A}\\right)$; $1^\\circ = 60'$",
+            "steps": [
+              "Given: $O = 17$, $A = 12$. Goal: $\\theta$ to the nearest minute.",
+              "Use tangent: $\\tan(\\theta) = \\dfrac{17}{12}$",
+              "$\\theta = \\tan^{-1}\\left(\\dfrac{17}{12}\\right) = 54.7824\\ldots^\\circ$",
+              "Convert the decimal part to minutes: $0.7824\\ldots \\times 60 = 46.94' $",
+              "Round to the nearest minute: $\\theta \\approx 54^\\circ 47'$"
+            ],
+            "finalAnswer": "$\\theta \\approx 54^\\circ 47'$ (to the nearest minute)",
+            "solutionFigures": [],
+            "tip": "Use the DMS key to convert; $54.78^\\circ$ is not $54^\\circ 78'$."
+          }
+        },
+        {
+          "id": "ch5_ex6_q2b",
+          "number": "2(b)",
+          "category": "Consolidate",
+          "questionText": "Calculate the size of the angle marked with the pronumeral, giving your answer correct to the nearest minute. The diagram shows a right-angled triangle with the right angle at the bottom vertex. $\\beta$ is at the top-left vertex. The top side (from $\\beta$ to the right vertex, the hypotenuse) is $7.2$ m, and the side from the right angle to the right vertex is $4$ m.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\beta = \\sin^{-1}\\left(\\dfrac{O}{H}\\right)$",
+            "steps": [
+              "Given: hypotenuse $H = 7.2$ m (opposite the right angle); the $4$ m side does not touch $\\beta$, so $O = 4$ m. Goal: $\\beta$ to the nearest minute.",
+              "Use sine: $\\sin(\\beta) = \\dfrac{4}{7.2}$",
+              "$\\beta = \\sin^{-1}\\left(\\dfrac{4}{7.2}\\right) = \\sin^{-1}(0.555556\\ldots) = 33.7490\\ldots^\\circ$",
+              "Convert: $0.7490\\ldots \\times 60 = 44.94'$",
+              "Round to the nearest minute: $\\beta \\approx 33^\\circ 45'$"
+            ],
+            "finalAnswer": "$\\beta \\approx 33^\\circ 45'$ (to the nearest minute)",
+            "solutionFigures": [],
+            "tip": "Find the hypotenuse first: it is always the side across from the right-angle box."
+          }
+        },
+        {
+          "id": "ch5_ex6_q2c",
+          "number": "2(c)",
+          "category": "Consolidate",
+          "questionText": "Calculate the size of the angle marked with the pronumeral, giving your answer correct to the nearest minute. The diagram shows a right-angled triangle with the right angle at the bottom-right vertex. $\\theta$ is at the bottom-left vertex. The hypotenuse is $12$ and the horizontal base is $10$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta = \\cos^{-1}\\left(\\dfrac{A}{H}\\right)$",
+            "steps": [
+              "Given: $A = 10$, $H = 12$. Goal: $\\theta$ to the nearest minute.",
+              "Use cosine: $\\cos(\\theta) = \\dfrac{10}{12}$",
+              "$\\theta = \\cos^{-1}\\left(\\dfrac{10}{12}\\right) = \\cos^{-1}(0.833333\\ldots) = 33.5573\\ldots^\\circ$",
+              "Convert: $0.5573\\ldots \\times 60 = 33.44'$",
+              "Round to the nearest minute: $\\theta \\approx 33^\\circ 33'$"
+            ],
+            "finalAnswer": "$\\theta \\approx 33^\\circ 33'$ (to the nearest minute)",
+            "solutionFigures": [],
+            "tip": "Make sure the calculator is in degree mode before using any inverse trig function."
+          }
+        },
+        {
+          "id": "ch5_ex6_q3a",
+          "number": "3(a)",
+          "category": "Master",
+          "questionText": "Calculate the size of the angle marked with the pronumeral, giving your answer correct to the nearest second. The diagram shows a right-angled triangle with the right angle at the bottom-right vertex. $\\theta$ is at the bottom-left vertex. The hypotenuse is $8$ and the horizontal base is $2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta = \\cos^{-1}\\left(\\dfrac{A}{H}\\right)$; $1^\\circ = 60'$, $1' = 60''$",
+            "steps": [
+              "Given: $A = 2$, $H = 8$. Goal: $\\theta$ to the nearest second.",
+              "Use cosine: $\\cos(\\theta) = \\dfrac{2}{8} = 0.25$",
+              "$\\theta = \\cos^{-1}(0.25) = 75.52249\\ldots^\\circ$",
+              "Minutes: $0.52249\\ldots \\times 60 = 31.349\\ldots'$, so $31'$",
+              "Seconds: $0.349\\ldots \\times 60 = 20.96''$, which rounds to $21''$",
+              "$\\theta \\approx 75^\\circ 31' 21''$"
+            ],
+            "finalAnswer": "$\\theta \\approx 75^\\circ 31' 21''$ (to the nearest second)",
+            "solutionFigures": [],
+            "tip": "Convert the leftover decimal of the minutes, not of the degrees, into seconds."
+          }
+        },
+        {
+          "id": "ch5_ex6_q3b",
+          "number": "3(b)",
+          "category": "Master",
+          "questionText": "Calculate the size of the angle marked with the pronumeral, giving your answer correct to the nearest second. The diagram shows a right-angled triangle with the right angle at the bottom-left vertex. $\\alpha$ is at the top vertex. The hypotenuse is $5$ m and the horizontal base is $3$ m.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\alpha = \\sin^{-1}\\left(\\dfrac{O}{H}\\right)$",
+            "steps": [
+              "Given: $\\alpha$ is at the top vertex, so the base $3$ m is opposite $\\alpha$; $H = 5$ m. Goal: $\\alpha$ to the nearest second.",
+              "Use sine: $\\sin(\\alpha) = \\dfrac{3}{5} = 0.6$",
+              "$\\alpha = \\sin^{-1}(0.6) = 36.86990\\ldots^\\circ$",
+              "Minutes: $0.86990\\ldots \\times 60 = 52.194\\ldots'$, so $52'$",
+              "Seconds: $0.194\\ldots \\times 60 = 11.6''$, which rounds to $12''$",
+              "$\\alpha \\approx 36^\\circ 52' 12''$"
+            ],
+            "finalAnswer": "$\\alpha \\approx 36^\\circ 52' 12''$ (to the nearest second)",
+            "solutionFigures": [],
+            "tip": "The base is not automatically the adjacent side; here it is opposite the marked angle."
+          }
+        },
+        {
+          "id": "ch5_ex6_q3c",
+          "number": "3(c)",
+          "category": "Master",
+          "questionText": "Calculate the size of the angle marked with the pronumeral, giving your answer correct to the nearest second. The diagram shows a right-angled triangle with the right angle at the bottom-right vertex. $\\alpha$ is at the bottom-left vertex. The vertical side is $2.7$ and the horizontal base is $3.5$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\alpha = \\tan^{-1}\\left(\\dfrac{O}{A}\\right)$",
+            "steps": [
+              "Given: $O = 2.7$, $A = 3.5$. Goal: $\\alpha$ to the nearest second.",
+              "Use tangent: $\\tan(\\alpha) = \\dfrac{2.7}{3.5}$",
+              "$\\alpha = \\tan^{-1}\\left(\\dfrac{2.7}{3.5}\\right) = \\tan^{-1}(0.771429\\ldots) = 37.64762\\ldots^\\circ$",
+              "Minutes: $0.64762\\ldots \\times 60 = 38.857\\ldots'$, so $38'$",
+              "Seconds: $0.857\\ldots \\times 60 = 51.4''$, which rounds to $51''$",
+              "$\\alpha \\approx 37^\\circ 38' 51''$"
+            ],
+            "finalAnswer": "$\\alpha \\approx 37^\\circ 38' 51''$ (to the nearest second)",
+            "solutionFigures": [],
+            "tip": "Use the calculator's DMS conversion to avoid arithmetic slips with minutes and seconds."
+          }
+        },
+        {
+          "id": "ch5_ex6_q4a",
+          "number": "4(a)",
+          "category": "Practice",
+          "questionText": "Calculate the size of the angle marked with the pronumeral, giving your answer correct to the nearest degree. The diagram shows a right-angled triangle with the right angle at the bottom-left vertex. $a^\\circ$ is at the right vertex. The side from the top-left vertex to the right angle is $13.5$ and the side from the right angle to the right vertex is $15.3$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$a = \\tan^{-1}\\left(\\dfrac{O}{A}\\right)$",
+            "steps": [
+              "Given: the $13.5$ side does not touch the angle, so $O = 13.5$; $A = 15.3$. Goal: $a$.",
+              "Use tangent: $\\tan(a^\\circ) = \\dfrac{13.5}{15.3}$",
+              "$a = \\tan^{-1}\\left(\\dfrac{13.5}{15.3}\\right) = \\tan^{-1}(0.882353\\ldots) = 41.42\\ldots$",
+              "Round to the nearest degree: $a \\approx 41$"
+            ],
+            "finalAnswer": "$a^\\circ \\approx 41^\\circ$ (to the nearest degree)",
+            "solutionFigures": [],
+            "tip": "When the two legs are given, tangent is the ratio to use."
+          }
+        },
+        {
+          "id": "ch5_ex6_q4b",
+          "number": "4(b)",
+          "category": "Practice",
+          "questionText": "Calculate the size of the angle marked with the pronumeral, giving your answer correct to the nearest degree. The diagram shows a right-angled triangle with the right angle at the right vertex. $c^\\circ$ is at the bottom-left vertex. The bottom side (from $c^\\circ$ to the right angle) is $77.3$ and the side from $c^\\circ$ to the top vertex (the hypotenuse) is $89.4$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$c = \\cos^{-1}\\left(\\dfrac{A}{H}\\right)$",
+            "steps": [
+              "Given: $A = 77.3$, $H = 89.4$. Goal: $c$.",
+              "Use cosine: $\\cos(c^\\circ) = \\dfrac{77.3}{89.4}$",
+              "$c = \\cos^{-1}\\left(\\dfrac{77.3}{89.4}\\right) = \\cos^{-1}(0.864653\\ldots) = 30.16\\ldots$",
+              "Round to the nearest degree: $c \\approx 30$"
+            ],
+            "finalAnswer": "$c^\\circ \\approx 30^\\circ$ (to the nearest degree)",
+            "solutionFigures": [],
+            "tip": "Always check the ratio is between 0 and 1 for sine and cosine; if not, you have used the wrong sides."
+          }
+        },
+        {
+          "id": "ch5_ex6_q4c",
+          "number": "4(c)",
+          "category": "Practice",
+          "questionText": "Calculate the size of the angle marked with the pronumeral, giving your answer correct to the nearest degree. The diagram shows a right-angled triangle with the right angle at the top-right vertex. $b^\\circ$ is at the bottom vertex. The top side (from the top-left vertex to the right angle) is $106.4$ and the side from the right angle down to $b^\\circ$ is $92.7$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$b = \\tan^{-1}\\left(\\dfrac{O}{A}\\right)$",
+            "steps": [
+              "Given: the $106.4$ side does not touch the bottom vertex, so $O = 106.4$; $A = 92.7$. Goal: $b$.",
+              "Use tangent: $\\tan(b^\\circ) = \\dfrac{106.4}{92.7}$",
+              "$b = \\tan^{-1}\\left(\\dfrac{106.4}{92.7}\\right) = \\tan^{-1}(1.147789\\ldots) = 48.94\\ldots$",
+              "Round to the nearest degree: $b \\approx 49$"
+            ],
+            "finalAnswer": "$b^\\circ \\approx 49^\\circ$ (to the nearest degree)",
+            "solutionFigures": [],
+            "tip": "Opposite is longer than adjacent here, so the angle should be more than $45^\\circ$, which it is."
+          }
+        },
+        {
+          "id": "ch5_ex6_q5a",
+          "number": "5(a)",
+          "category": "Consolidate",
+          "questionText": "Calculate the size of the angle marked with the pronumeral, giving your answer correct to the nearest degree. The diagram shows a right-angled triangle with the right angle at the bottom-right vertex. $d^\\circ$ is at the top vertex. The vertical side (from $d^\\circ$ to the right angle) is $18.7$ and the hypotenuse is $43.7$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$d = \\cos^{-1}\\left(\\dfrac{A}{H}\\right)$",
+            "steps": [
+              "Given: $A = 18.7$ (touches the angle, not the hypotenuse), $H = 43.7$. Goal: $d$.",
+              "Use cosine: $\\cos(d^\\circ) = \\dfrac{18.7}{43.7}$",
+              "$d = \\cos^{-1}\\left(\\dfrac{18.7}{43.7}\\right) = \\cos^{-1}(0.427918\\ldots) = 64.66\\ldots$",
+              "Round to the nearest degree: $d \\approx 65$"
+            ],
+            "finalAnswer": "$d^\\circ \\approx 65^\\circ$ (to the nearest degree)",
+            "solutionFigures": [],
+            "tip": "Round only at the end: $64.66$ rounds up to $65$."
+          }
+        },
+        {
+          "id": "ch5_ex6_q5b",
+          "number": "5(b)",
+          "category": "Consolidate",
+          "questionText": "Calculate the size of the angle marked with the pronumeral, giving your answer correct to the nearest degree. The diagram shows a right-angled triangle with the right angle at the top vertex. $e^\\circ$ is at the right vertex. The side from the right angle to $e^\\circ$ is $12.36$, the side from the right angle to the bottom-left vertex is $13.85$, and the hypotenuse (bottom side) is $18.56$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$e = \\cos^{-1}\\left(\\dfrac{A}{H}\\right)$ (any pair of sides may be used)",
+            "steps": [
+              "Given: $A = 12.36$, $O = 13.85$, $H = 18.56$. Goal: $e$.",
+              "Choose A and H, so use cosine: $\\cos(e^\\circ) = \\dfrac{12.36}{18.56}$",
+              "$e = \\cos^{-1}\\left(\\dfrac{12.36}{18.56}\\right) = \\cos^{-1}(0.665948\\ldots) = 48.24\\ldots$",
+              "Check with tangent: $\\tan^{-1}\\left(\\dfrac{13.85}{12.36}\\right) = 48.25\\ldots$ ✓",
+              "Round to the nearest degree: $e \\approx 48$"
+            ],
+            "finalAnswer": "$e^\\circ \\approx 48^\\circ$ (to the nearest degree)",
+            "solutionFigures": [],
+            "tip": "When all three sides are given, any correct ratio works; using a second ratio is a good check."
+          }
+        },
+        {
+          "id": "ch5_ex6_q5c",
+          "number": "5(c)",
+          "category": "Consolidate",
+          "questionText": "Calculate the size of the angle marked with the pronumeral, giving your answer correct to the nearest degree. The diagram shows a right-angled triangle with the right angle at the bottom-left vertex. $\\alpha^\\circ$ is at the bottom-right vertex. The vertical side is $7.3$ cm, the base (from the right angle to $\\alpha$) is $9.8$ cm and the hypotenuse is $12.2$ cm.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\alpha = \\cos^{-1}\\left(\\dfrac{A}{H}\\right)$",
+            "steps": [
+              "Given: $A = 9.8$ cm, $O = 7.3$ cm, $H = 12.2$ cm. Goal: $\\alpha$.",
+              "Use cosine: $\\cos(\\alpha) = \\dfrac{9.8}{12.2}$",
+              "$\\alpha = \\cos^{-1}\\left(\\dfrac{9.8}{12.2}\\right) = \\cos^{-1}(0.803279\\ldots) = 36.56\\ldots^\\circ$",
+              "Round to the nearest degree: $\\alpha \\approx 37^\\circ$"
+            ],
+            "finalAnswer": "$\\alpha \\approx 37^\\circ$ (to the nearest degree)",
+            "solutionFigures": [],
+            "tip": "Use the given values directly rather than lengths you have calculated, to avoid rounding error."
+          }
+        },
+        {
+          "id": "ch5_ex6_q6a",
+          "number": "6(a)",
+          "category": "Master",
+          "questionText": "Calculate the size of each of the angles, giving your answers correct to the nearest minute. The diagram shows a tall right-angled triangle with the right angle at the right-hand vertex. $a^\\circ$ is at the top vertex and $b^\\circ$ is at the bottom vertex. The side from the top vertex to the right angle is $56.3$ and the side from the right angle to the bottom vertex is $27.2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$a = \\tan^{-1}\\left(\\dfrac{O}{A}\\right)$; angle sum of a triangle is $180^\\circ$",
+            "steps": [
+              "Given: for angle $a$, $O = 27.2$ and $A = 56.3$. Goal: $a$ and $b$ to the nearest minute.",
+              "Use tangent: $\\tan(a^\\circ) = \\dfrac{27.2}{56.3}$",
+              "$a = \\tan^{-1}\\left(\\dfrac{27.2}{56.3}\\right) = \\tan^{-1}(0.483126\\ldots) = 25.7864\\ldots^\\circ$",
+              "Convert: $0.7864\\ldots \\times 60 = 47.18'$, so $a \\approx 25^\\circ 47'$",
+              "The two acute angles add to $90^\\circ$: $b = 90^\\circ - 25.7864\\ldots^\\circ = 64.2136\\ldots^\\circ$",
+              "Convert: $0.2136\\ldots \\times 60 = 12.82'$, so $b \\approx 64^\\circ 13'$"
+            ],
+            "finalAnswer": "$a^\\circ \\approx 25^\\circ 47'$ and $b^\\circ \\approx 64^\\circ 13'$ (to the nearest minute)",
+            "solutionFigures": [],
+            "tip": "Subtract the unrounded angle from $90^\\circ$ so the two answers are each correctly rounded."
+          }
+        },
+        {
+          "id": "ch5_ex6_q6b",
+          "number": "6(b)",
+          "category": "Master",
+          "questionText": "Calculate the size of each of the angles, giving your answers correct to the nearest minute. The diagram shows a right-angled triangle with the right angle at the bottom-left vertex. $d^\\circ$ is at the top vertex and $e^\\circ$ is at the right vertex. The hypotenuse is $0.798$ and the bottom side (from the right angle to $e^\\circ$) is $0.342$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$d = \\sin^{-1}\\left(\\dfrac{O}{H}\\right)$; the acute angles add to $90^\\circ$",
+            "steps": [
+              "Given: for angle $d$ (top vertex), the bottom side $0.342$ is opposite and $H = 0.798$. Goal: $d$ and $e$.",
+              "Use sine: $\\sin(d^\\circ) = \\dfrac{0.342}{0.798}$",
+              "$d = \\sin^{-1}(0.428571\\ldots) = 25.3769\\ldots^\\circ$",
+              "Convert: $0.3769\\ldots \\times 60 = 22.62'$, so $d \\approx 25^\\circ 23'$",
+              "$e = 90^\\circ - 25.3769\\ldots^\\circ = 64.6231\\ldots^\\circ$",
+              "Convert: $0.6231\\ldots \\times 60 = 37.38'$, so $e \\approx 64^\\circ 37'$"
+            ],
+            "finalAnswer": "$d^\\circ \\approx 25^\\circ 23'$ and $e^\\circ \\approx 64^\\circ 37'$ (to the nearest minute)",
+            "solutionFigures": [],
+            "tip": "Check: $25^\\circ 23' + 64^\\circ 37' = 90^\\circ$."
+          }
+        },
+        {
+          "id": "ch5_ex6_q6c",
+          "number": "6(c)",
+          "category": "Master",
+          "questionText": "Calculate the size of each of the angles, giving your answers correct to the nearest minute. The diagram shows a right-angled triangle with the right angle at the bottom-left vertex. $x^\\circ$ is at the top vertex and $y^\\circ$ is at the bottom-right vertex. The vertical side is $2.3$ and the hypotenuse is $5.7$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$x = \\cos^{-1}\\left(\\dfrac{A}{H}\\right)$; the acute angles add to $90^\\circ$",
+            "steps": [
+              "Given: for angle $x$ (top vertex), the vertical side $2.3$ is adjacent and $H = 5.7$. Goal: $x$ and $y$.",
+              "Use cosine: $\\cos(x^\\circ) = \\dfrac{2.3}{5.7}$",
+              "$x = \\cos^{-1}(0.403509\\ldots) = 66.2023\\ldots^\\circ$",
+              "Convert: $0.2023\\ldots \\times 60 = 12.14'$, so $x \\approx 66^\\circ 12'$",
+              "$y = 90^\\circ - 66.2023\\ldots^\\circ = 23.7977\\ldots^\\circ$",
+              "Convert: $0.7977\\ldots \\times 60 = 47.86'$, so $y \\approx 23^\\circ 48'$"
+            ],
+            "finalAnswer": "$x^\\circ \\approx 66^\\circ 12'$ and $y^\\circ \\approx 23^\\circ 48'$ (to the nearest minute)",
+            "solutionFigures": [],
+            "tip": "For $y$, the $2.3$ side is opposite, so $\\sin^{-1}\\left(\\frac{2.3}{5.7}\\right)$ gives the same $23^\\circ 48'$."
+          }
+        },
+        {
+          "id": "ch5_ex6_q7a",
+          "number": "7(a)",
+          "category": "Practice",
+          "questionText": "Answer the following for the triangle shown. In the diagram, D, B and C lie on a horizontal line with $DB = 20$ cm and $BC = 30$ cm. A is directly above D, with $AD = h$ and a right angle at D (AD and DB are dashed). $AB = l$, $AC = r$, and the obtuse angle $\\angle ABC = 125^\\circ$. Calculate the lengths of the sides $r$, $l$ and $h$. Write your answers correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Angles on a straight line add to $180^\\circ$; $\\cos(\\theta) = \\dfrac{A}{H}$, $\\tan(\\theta) = \\dfrac{O}{A}$; Pythagoras' theorem",
+            "steps": [
+              "Given: $DB = 20$ cm, $BC = 30$ cm, $\\angle ABC = 125^\\circ$, right angle at D. Goal: $l$, $h$, $r$.",
+              "Angle ABD is on a straight line with $\\angle ABC$: $\\angle ABD = 180^\\circ - 125^\\circ = 55^\\circ$",
+              "In right triangle ADB, for $55^\\circ$: $DB = 20$ is adjacent, $h$ is opposite, $l$ is the hypotenuse.",
+              "Find $l$: $\\cos(55^\\circ) = \\dfrac{20}{l}$, so $l = \\dfrac{20}{\\cos(55^\\circ)} = \\dfrac{20}{0.573576\\ldots} = 34.8689\\ldots \\approx 34.87$ cm",
+              "Find $h$: $\\tan(55^\\circ) = \\dfrac{h}{20}$, so $h = 20\\tan(55^\\circ) = 20 \\times 1.428148\\ldots = 28.5630\\ldots \\approx 28.56$ cm",
+              "Find $r$ in right triangle ADC, where $DC = 20 + 30 = 50$ cm: $r = \\sqrt{50^2 + h^2} = \\sqrt{2500 + 815.84} = \\sqrt{3315.84} = 57.5834\\ldots \\approx 57.58$ cm",
+              "Check: $l^2 = 20^2 + h^2$: $400 + 815.84 = 1215.84 = 34.8689^2$ ✓"
+            ],
+            "finalAnswer": "$r \\approx 57.58$ cm, $l \\approx 34.87$ cm, $h \\approx 28.56$ cm (correct to 2 decimal places)",
+            "solutionFigures": [],
+            "tip": "Trig ratios only work in right-angled triangles, so use the $55^\\circ$ angle inside triangle ADB, not the $125^\\circ$ angle."
+          }
+        },
+        {
+          "id": "ch5_ex6_q7b",
+          "number": "7(b)",
+          "category": "Practice",
+          "questionText": "Answer the following for the triangle shown. In the diagram, D, B and C lie on a horizontal line with $DB = 20$ cm and $BC = 30$ cm. A is directly above D, with $AD = h$ and a right angle at D. $AB = l$, $AC = r$, and $\\angle ABC = 125^\\circ$. Calculate the area of triangle ABC, correct to the nearest square centimetre.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a triangle $= \\dfrac{1}{2} \\times \\text{base} \\times \\text{perpendicular height}$",
+            "steps": [
+              "Given: base $BC = 30$ cm; the perpendicular height from A to the line BC (extended) is $h = AD = 28.5630\\ldots$ cm (from part a). Goal: area of triangle ABC.",
+              "Area $= \\dfrac{1}{2} \\times 30 \\times 28.5630\\ldots$",
+              "Area $= 428.444\\ldots$ cm$^2$",
+              "Round to the nearest square centimetre: $428$ cm$^2$"
+            ],
+            "finalAnswer": "The area of triangle ABC is approximately $428$ cm$^2$.",
+            "solutionFigures": [],
+            "tip": "For an obtuse triangle the perpendicular height can fall outside the triangle; AD is still the height for base BC."
+          }
+        },
+        {
+          "id": "ch5_ex6_q7c",
+          "number": "7(c)",
+          "category": "Practice",
+          "questionText": "Answer the following for the triangle shown. In the diagram, D, B and C lie on a horizontal line with $DB = 20$ cm and $BC = 30$ cm. A is directly above D, with $AD = h$ and a right angle at D. $AB = l$, $AC = r$, and $\\angle ABC = 125^\\circ$. Determine the size of $\\angle BCA$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta = \\tan^{-1}\\left(\\dfrac{O}{A}\\right)$",
+            "steps": [
+              "Given: in right triangle ADC, $DC = 50$ cm and $AD = h = 28.5630\\ldots$ cm (from part a). Goal: $\\angle BCA$ (the angle at C).",
+              "For the angle at C: $h$ is opposite and $DC$ is adjacent.",
+              "$\\tan(\\angle BCA) = \\dfrac{28.5630\\ldots}{50} = 0.571259\\ldots$",
+              "$\\angle BCA = \\tan^{-1}(0.571259\\ldots) = 29.74\\ldots^\\circ$",
+              "Round to 1 decimal place: $\\angle BCA \\approx 29.7^\\circ$",
+              "Check: $125^\\circ + 29.7^\\circ + \\angle BAC = 180^\\circ$ gives $\\angle BAC \\approx 25.3^\\circ$, which is acute, as expected."
+            ],
+            "finalAnswer": "$\\angle BCA \\approx 29.7^\\circ$ (correct to 1 decimal place; about $29^\\circ 44'$)",
+            "solutionFigures": [],
+            "tip": "Use the full length DC = 50 cm (DB + BC), not just BC = 30 cm."
+          }
+        },
+        {
+          "id": "ch5_ex6_q8a",
+          "number": "8(a)",
+          "category": "Consolidate",
+          "questionText": "In the sport of air racing, small aeroplanes have to travel between two large towers (or pylons). The gap between a pair of pylons is smaller than the wingspan of the plane, so the plane has to go through on an angle with one wing higher than the other. The wingspan of a competition plane is $8$ metres. Determine the angle, correct to 1 decimal place, that the plane has to tilt if the gap between pylons is: i. $7$ metres, ii. $6$ metres, iii. $5$ metres.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta = \\cos^{-1}\\left(\\dfrac{A}{H}\\right)$",
+            "steps": [
+              "Given: the tilted wingspan ($8$ m) is the hypotenuse; its horizontal width must equal the gap, which is the side adjacent to the tilt angle $\\theta$ (measured from the horizontal). Goal: $\\theta$ for each gap.",
+              "i. $\\cos(\\theta) = \\dfrac{7}{8} = 0.875$, so $\\theta = \\cos^{-1}(0.875) = 28.955\\ldots^\\circ \\approx 29.0^\\circ$",
+              "ii. $\\cos(\\theta) = \\dfrac{6}{8} = 0.75$, so $\\theta = \\cos^{-1}(0.75) = 41.409\\ldots^\\circ \\approx 41.4^\\circ$",
+              "iii. $\\cos(\\theta) = \\dfrac{5}{8} = 0.625$, so $\\theta = \\cos^{-1}(0.625) = 51.317\\ldots^\\circ \\approx 51.3^\\circ$"
+            ],
+            "finalAnswer": "i. $29.0^\\circ$, ii. $41.4^\\circ$, iii. $51.3^\\circ$ (correct to 1 decimal place)",
+            "solutionFigures": [],
+            "tip": "A narrower gap needs a bigger tilt, so the angles should increase from i to iii."
+          }
+        },
+        {
+          "id": "ch5_ex6_q8b",
+          "number": "8(b)",
+          "category": "Consolidate",
+          "questionText": "In the sport of air racing, small aeroplanes have to travel between two large towers (or pylons). The plane, with a wingspan of $8$ metres, has to tilt through the gap; in part a the tilt angles were found to be i. $29.0^\\circ$ (7 m gap), ii. $41.4^\\circ$ (6 m gap), iii. $51.3^\\circ$ (5 m gap). Because the plane has rolled away from the horizontal as it travels between the pylons it loses speed. If the plane's speed is below $96$ km/h it will stall and possibly crash. For each degree of 'tilt', the speed of the plane is reduced by $0.98$ km/h. Calculate the minimum speed the plane must go through each of the pylons in part a. Write your answer correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Minimum speed $= 96 + 0.98 \\times \\theta$ (km/h)",
+            "steps": [
+              "Given: stall speed $96$ km/h; speed loss $0.98$ km/h per degree of tilt; tilt angles from part a. Goal: the minimum entry speed so that the speed after the loss is still $96$ km/h.",
+              "i. $96 + 0.98 \\times 29.0 = 96 + 28.42 = 124.42$ km/h",
+              "ii. $96 + 0.98 \\times 41.4 = 96 + 40.572 = 136.572 \\approx 136.57$ km/h",
+              "iii. $96 + 0.98 \\times 51.3 = 96 + 50.274 = 146.274 \\approx 146.27$ km/h"
+            ],
+            "finalAnswer": "i. $124.42$ km/h, ii. $136.57$ km/h, iii. $146.27$ km/h (using the part a angles rounded to 1 decimal place)",
+            "solutionFigures": [],
+            "tip": "The speed lost must be added to 96 km/h, because the plane must still be at or above 96 km/h after the loss."
+          }
+        },
+        {
+          "id": "ch5_ex6_q9",
+          "number": "9",
+          "category": "Practice",
+          "questionText": "Explain how calculating the angle of a right-angled triangle is different to calculating a side length.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "If $\\sin(\\theta) = a$, then $\\theta = \\sin^{-1}(a)$ (similarly for $\\cos^{-1}$ and $\\tan^{-1}$)",
+            "steps": [
+              "Side length: the angle is known, so the trig ratio is a known number. Substitute and solve with multiplication or division, e.g. $x = 10\\sin(30^\\circ) = 5$.",
+              "Angle: two sides are known, so the ratio is a known fraction but the angle inside the trig function is unknown, e.g. $\\sin(\\theta) = \\dfrac{5}{10}$.",
+              "To undo the trig function, apply the inverse operation: $\\theta = \\sin^{-1}\\left(\\dfrac{5}{10}\\right) = 30^\\circ$."
+            ],
+            "finalAnswer": "To find a side, you use a known angle and solve by multiplying or dividing. To find an angle, you use two known sides to form the ratio and then apply an inverse trig function ($\\sin^{-1}$, $\\cos^{-1}$ or $\\tan^{-1}$).",
+            "solutionFigures": [],
+            "tip": "Inverse trig functions take a ratio as input and give an angle as output."
+          }
+        },
+        {
+          "id": "ch5_ex6_q10",
+          "number": "10",
+          "category": "Consolidate",
+          "questionText": "There are two important triangles commonly used in trigonometry. Complete the following steps and answer the questions to create these triangles. Triangle 1: Sketch an equilateral triangle with side length 2 units. Calculate the size of the internal angles. Bisect the triangle to form two right-angled triangles. Redraw one of the triangles formed. Calculate the side lengths of this right-angled triangle as exact values. Fully label your diagram showing all side lengths and angles. Triangle 2: Draw a right-angled isosceles triangle. Calculate the sizes of the internal angles. Let the sides of equal length be 1 unit long each. Calculate the length of the third side as an exact value. Fully label your diagram showing all side lengths and angles.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Angle sum of a triangle $= 180^\\circ$; Pythagoras' theorem $a^2 + b^2 = c^2$",
+            "steps": [
+              "Triangle 1: an equilateral triangle has three equal angles: $\\dfrac{180^\\circ}{3} = 60^\\circ$ each.",
+              "Bisecting it from a vertex to the midpoint of the opposite side gives two right-angled triangles. In one of them: hypotenuse $= 2$, base $= \\dfrac{2}{2} = 1$, angles $90^\\circ$, $60^\\circ$ (at the base) and $30^\\circ$ (at the top, half of $60^\\circ$).",
+              "Height by Pythagoras: $h^2 + 1^2 = 2^2 \\Rightarrow h^2 = 3 \\Rightarrow h = \\sqrt{3}$",
+              "Label: sides $1$ (opposite $30^\\circ$), $\\sqrt{3}$ (opposite $60^\\circ$), $2$ (hypotenuse); angles $30^\\circ$, $60^\\circ$, $90^\\circ$.",
+              "Triangle 2: a right-angled isosceles triangle has two equal acute angles: $\\dfrac{180^\\circ - 90^\\circ}{2} = 45^\\circ$ each.",
+              "Equal sides $1$ and $1$; hypotenuse by Pythagoras: $c^2 = 1^2 + 1^2 = 2 \\Rightarrow c = \\sqrt{2}$",
+              "Label: sides $1$, $1$, $\\sqrt{2}$ (hypotenuse); angles $45^\\circ$, $45^\\circ$, $90^\\circ$."
+            ],
+            "finalAnswer": "Triangle 1: a $30^\\circ$–$60^\\circ$–$90^\\circ$ triangle with sides $1$, $\\sqrt{3}$ and $2$ (the side $1$ is opposite $30^\\circ$, $\\sqrt{3}$ is opposite $60^\\circ$, $2$ is the hypotenuse). Triangle 2: a $45^\\circ$–$45^\\circ$–$90^\\circ$ triangle with sides $1$, $1$ and $\\sqrt{2}$ (hypotenuse).",
+            "solutionFigures": [],
+            "tip": "Leave answers as surds ($\\sqrt{3}$, $\\sqrt{2}$) for exact values; do not convert to decimals."
+          }
+        },
+        {
+          "id": "ch5_ex6_q11a",
+          "number": "11(a)",
+          "category": "Master",
+          "questionText": "Use the triangles formed in question 10 (Triangle 1: a right-angled triangle with angles $30^\\circ$, $60^\\circ$, $90^\\circ$ and sides $1$, $\\sqrt{3}$, $2$; Triangle 2: a right-angled isosceles triangle with sides $1$, $1$, $\\sqrt{2}$) to calculate exact values for $\\sin(30^\\circ)$, $\\cos(30^\\circ)$ and $\\tan(30^\\circ)$. Justify your answers.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = \\dfrac{O}{H}$, $\\cos(\\theta) = \\dfrac{A}{H}$, $\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Given: in Triangle 1, relative to the $30^\\circ$ angle: opposite $= 1$, adjacent $= \\sqrt{3}$, hypotenuse $= 2$. Goal: exact values.",
+              "$\\sin(30^\\circ) = \\dfrac{O}{H} = \\dfrac{1}{2}$",
+              "$\\cos(30^\\circ) = \\dfrac{A}{H} = \\dfrac{\\sqrt{3}}{2}$",
+              "$\\tan(30^\\circ) = \\dfrac{O}{A} = \\dfrac{1}{\\sqrt{3}} = \\dfrac{1}{\\sqrt{3}} \\times \\dfrac{\\sqrt{3}}{\\sqrt{3}} = \\dfrac{\\sqrt{3}}{3}$",
+              "Justification: the side of length 1 is half the equilateral triangle's base, and it lies opposite the $30^\\circ$ angle (half of $60^\\circ$); the side $\\sqrt{3}$ was found by Pythagoras."
+            ],
+            "finalAnswer": "$\\sin(30^\\circ) = \\dfrac{1}{2}$, $\\cos(30^\\circ) = \\dfrac{\\sqrt{3}}{2}$, $\\tan(30^\\circ) = \\dfrac{\\sqrt{3}}{3}$",
+            "solutionFigures": [],
+            "tip": "Rationalise the denominator: $\\dfrac{1}{\\sqrt{3}}$ is usually written as $\\dfrac{\\sqrt{3}}{3}$."
+          }
+        },
+        {
+          "id": "ch5_ex6_q11b",
+          "number": "11(b)",
+          "category": "Master",
+          "questionText": "Use the exact values $\\sin(30^\\circ) = \\dfrac{1}{2}$, $\\cos(30^\\circ) = \\dfrac{\\sqrt{3}}{2}$ and $\\tan(30^\\circ) = \\dfrac{\\sqrt{3}}{3}$ to show that $\\tan(30^\\circ) = \\dfrac{\\sin(30^\\circ)}{\\cos(30^\\circ)}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Dividing by a fraction is the same as multiplying by its reciprocal",
+            "steps": [
+              "Goal: show $\\dfrac{\\sin(30^\\circ)}{\\cos(30^\\circ)} = \\tan(30^\\circ)$.",
+              "LHS $= \\dfrac{\\sin(30^\\circ)}{\\cos(30^\\circ)} = \\dfrac{\\frac{1}{2}}{\\frac{\\sqrt{3}}{2}}$",
+              "$= \\dfrac{1}{2} \\times \\dfrac{2}{\\sqrt{3}} = \\dfrac{1}{\\sqrt{3}}$",
+              "Rationalise: $\\dfrac{1}{\\sqrt{3}} \\times \\dfrac{\\sqrt{3}}{\\sqrt{3}} = \\dfrac{\\sqrt{3}}{3}$",
+              "RHS $= \\tan(30^\\circ) = \\dfrac{\\sqrt{3}}{3}$, so LHS $=$ RHS."
+            ],
+            "finalAnswer": "$\\dfrac{\\sin(30^\\circ)}{\\cos(30^\\circ)} = \\dfrac{1}{2} \\times \\dfrac{2}{\\sqrt{3}} = \\dfrac{\\sqrt{3}}{3} = \\tan(30^\\circ)$, as required.",
+            "solutionFigures": [],
+            "tip": "The 2s in the denominators cancel, which is why the hypotenuse disappears from the result."
+          }
+        },
+        {
+          "id": "ch5_ex6_q11c",
+          "number": "11(c)",
+          "category": "Master",
+          "questionText": "Use the formulas $\\sin(\\theta) = \\dfrac{O}{H}$ and $\\cos(\\theta) = \\dfrac{A}{H}$ to prove that $\\tan(\\theta) = \\dfrac{\\sin(\\theta)}{\\cos(\\theta)}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = \\dfrac{O}{H}$, $\\cos(\\theta) = \\dfrac{A}{H}$, $\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Goal: prove $\\dfrac{\\sin(\\theta)}{\\cos(\\theta)} = \\tan(\\theta)$ for an acute angle $\\theta$ in a right-angled triangle.",
+              "Start with the LHS: $\\dfrac{\\sin(\\theta)}{\\cos(\\theta)} = \\dfrac{\\frac{O}{H}}{\\frac{A}{H}}$",
+              "Multiply by the reciprocal: $= \\dfrac{O}{H} \\times \\dfrac{H}{A}$",
+              "Cancel $H$: $= \\dfrac{O}{A}$",
+              "By definition, $\\dfrac{O}{A} = \\tan(\\theta)$, so $\\dfrac{\\sin(\\theta)}{\\cos(\\theta)} = \\tan(\\theta)$."
+            ],
+            "finalAnswer": "$\\dfrac{\\sin(\\theta)}{\\cos(\\theta)} = \\dfrac{O}{H} \\times \\dfrac{H}{A} = \\dfrac{O}{A} = \\tan(\\theta)$, which proves the identity.",
+            "solutionFigures": [],
+            "tip": "In a proof, start from one side and work step by step until you reach the other side."
+          }
+        },
+        {
+          "id": "ch5_ex6_q12",
+          "number": "12",
+          "category": "Practice",
+          "questionText": "Determine the angle $\\theta$ in degrees and minutes. The diagram shows a trapezium with a horizontal top side of length $6$ and a horizontal bottom side of length $2$. The vertical distance between the parallel sides is $5$. The interior angle at the bottom-right vertex is $100^\\circ$. $\\theta$ is the interior angle at the top-left vertex, between the top side and the left slanted side.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$; co-interior angles between parallel lines add to $180^\\circ$",
+            "steps": [
+              "Given: top $= 6$, bottom $= 2$, height $= 5$, bottom-right angle $= 100^\\circ$. Goal: $\\theta$.",
+              "Drop perpendiculars of height 5 from the ends of the bottom side to the top side. This splits off a right-angled triangle on each side.",
+              "Right side: the slanted side makes an angle of $100^\\circ - 90^\\circ = 10^\\circ$ with the vertical. Its horizontal overhang is $5\\tan(10^\\circ) = 5 \\times 0.176327\\ldots = 0.88163\\ldots$",
+              "Left side: horizontal overhang $= 6 - 2 - 0.88163\\ldots = 3.11837\\ldots$",
+              "In the left triangle, $\\theta$ has opposite side $5$ (the height) and adjacent side $3.11837\\ldots$",
+              "$\\tan(\\theta) = \\dfrac{5}{3.11837\\ldots} = 1.603404\\ldots$",
+              "$\\theta = \\tan^{-1}(1.603404\\ldots) = 58.0493\\ldots^\\circ$",
+              "Convert: $0.0493\\ldots \\times 60 = 2.96'$, so $\\theta \\approx 58^\\circ 3'$"
+            ],
+            "finalAnswer": "$\\theta \\approx 58^\\circ 3'$ (to the nearest minute)",
+            "solutionFigures": [],
+            "tip": "Split a trapezium into a rectangle and two right-angled triangles so you can use trigonometry."
+          }
+        },
+        {
+          "id": "ch5_ex6_q13a",
+          "number": "13(a)",
+          "category": "Consolidate",
+          "questionText": "During a Science excursion, a class visited an underground cave to observe rock formations. They were required to walk along a series of paths and steps as shown in the diagram. From Site 3 a straight path of length $1.6$ km goes down to the level of Site 2, a vertical drop of $1.4$ km. From there a path of length $2.1$ km slopes down to a point that is $2$ km horizontally from Site 1 (Site 1 is directly below Site 2, and the horizontal line from Site 1 to that point is $2$ km). From Site 1 a path of length $3.8$ km goes down to the bottom, ending $1$ km horizontally from the point directly below Site 1. Calculate the angle of the incline (slope) required to travel down between each site. Give your answers to the nearest whole number.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta = \\sin^{-1}\\left(\\dfrac{O}{H}\\right)$, $\\theta = \\cos^{-1}\\left(\\dfrac{A}{H}\\right)$; slope angle is measured from the horizontal",
+            "steps": [
+              "Goal: the angle each path makes with the horizontal.",
+              "Site 3 to Site 2: path (hypotenuse) $= 1.6$ km, vertical drop (opposite) $= 1.4$ km.",
+              "$\\sin(\\theta) = \\dfrac{1.4}{1.6} = 0.875$, so $\\theta = \\sin^{-1}(0.875) = 61.04\\ldots^\\circ \\approx 61^\\circ$",
+              "Site 2 to Site 1: path (hypotenuse) $= 2.1$ km, horizontal distance (adjacent) $= 2$ km.",
+              "$\\cos(\\theta) = \\dfrac{2}{2.1} = 0.952381\\ldots$, so $\\theta = \\cos^{-1}(0.952381\\ldots) = 17.75\\ldots^\\circ \\approx 18^\\circ$",
+              "Site 1 to bottom: path (hypotenuse) $= 3.8$ km, horizontal distance (adjacent) $= 1$ km.",
+              "$\\cos(\\theta) = \\dfrac{1}{3.8} = 0.263158\\ldots$, so $\\theta = \\cos^{-1}(0.263158\\ldots) = 74.74\\ldots^\\circ \\approx 75^\\circ$"
+            ],
+            "finalAnswer": "Site 3 to Site 2: $61^\\circ$; Site 2 to Site 1: $18^\\circ$; Site 1 to the bottom: $75^\\circ$ (to the nearest degree).",
+            "solutionFigures": [],
+            "tip": "A slope angle is always measured from the horizontal, so identify the horizontal side as the adjacent side."
+          }
+        },
+        {
+          "id": "ch5_ex6_q13b",
+          "number": "13(b)",
+          "category": "Consolidate",
+          "questionText": "During a Science excursion, a class visited an underground cave and walked along a series of paths. The slopes of the paths were found to be: Site 3 to Site 2, $61^\\circ$; Site 2 to Site 1, $18^\\circ$; Site 1 to the bottom, $75^\\circ$. Determine which path would have been the most challenging; that is, which path had the steepest slope.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The larger the angle with the horizontal, the steeper the slope",
+            "steps": [
+              "Compare the slope angles: $61^\\circ$, $18^\\circ$ and $75^\\circ$.",
+              "The largest is $75^\\circ$, for the path from Site 1 to the bottom."
+            ],
+            "finalAnswer": "The path between Site 1 and the bottom was the most challenging, with the steepest slope of $75^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Steepness depends on the angle, not on the length of the path."
+          }
+        },
+        {
+          "id": "ch5_ex6_q14",
+          "number": "14",
+          "category": "Master",
+          "questionText": "At midday, the hour hand and the minute hand on a standard clock are both pointing at the twelve. Calculate the angles the minute hand and the hour hand have moved 24.5 minutes later. Express both answers in degrees and minutes.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "A full turn is $360^\\circ$; $1^\\circ = 60'$",
+            "steps": [
+              "Minute hand: one full turn ($360^\\circ$) in 60 minutes, so it moves $\\dfrac{360^\\circ}{60} = 6^\\circ$ per minute.",
+              "In 24.5 minutes: $24.5 \\times 6^\\circ = 147^\\circ = 147^\\circ 0'$",
+              "Hour hand: one full turn in 12 hours $= 720$ minutes, so it moves $\\dfrac{360^\\circ}{720} = 0.5^\\circ$ per minute.",
+              "In 24.5 minutes: $24.5 \\times 0.5^\\circ = 12.25^\\circ$",
+              "Convert: $0.25 \\times 60 = 15'$, so $12.25^\\circ = 12^\\circ 15'$"
+            ],
+            "finalAnswer": "The minute hand has moved $147^\\circ 0'$ and the hour hand has moved $12^\\circ 15'$.",
+            "solutionFigures": [],
+            "tip": "The hour hand also moves between the numbers; it turns $30^\\circ$ every hour, i.e. $0.5^\\circ$ every minute."
+          }
+        }
+      ]
+    }
+  ]
+}

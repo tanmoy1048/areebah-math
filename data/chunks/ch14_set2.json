@@ -1,0 +1,471 @@
+{
+  "chapterId": "ch14",
+  "chapterTitle": "Circular functions (Methods 12)",
+  "topics": [
+    {
+      "topicId": "14B",
+      "topicTitle": "Defining circular functions: sine and cosine",
+      "exercises": [
+        {
+          "id": "ch14_ex2_q1a",
+          "number": "1(a)",
+          "category": null,
+          "questionText": "For the following angle $t$, determine the values of $\\sin t$ and $\\cos t$: $t = 0$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Unit circle definition: $P(t) = (\\cos t, \\sin t)$",
+            "steps": [
+              "Given: $t = 0$. Goal: $\\sin 0$ and $\\cos 0$.",
+              "A rotation of 0 leaves the point at the start, so $P(0) = (1, 0)$.",
+              "The $x$-coordinate is the cosine and the $y$-coordinate is the sine.",
+              "So $\\cos 0 = 1$ and $\\sin 0 = 0$."
+            ],
+            "finalAnswer": "$\\sin 0 = 0$, $\\cos 0 = 1$",
+            "solutionFigures": [],
+            "tip": "Remember the order: $P(t) = (\\cos t, \\sin t)$, with cosine first."
+          }
+        },
+        {
+          "id": "ch14_ex2_q1b",
+          "number": "1(b)",
+          "category": null,
+          "questionText": "For the following angle $t$, determine the values of $\\sin t$ and $\\cos t$: $t = \\dfrac{3\\pi}{2}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Unit circle definition: $P(t) = (\\cos t, \\sin t)$",
+            "steps": [
+              "Given: $t = \\dfrac{3\\pi}{2}$. Goal: $\\sin t$ and $\\cos t$.",
+              "$\\dfrac{3\\pi}{2}$ is three quarter-turns anticlockwise from $(1, 0)$, which lands on the negative $y$-axis.",
+              "So $P\\left(\\dfrac{3\\pi}{2}\\right) = (0, -1)$.",
+              "Therefore $\\cos\\dfrac{3\\pi}{2} = 0$ and $\\sin\\dfrac{3\\pi}{2} = -1$."
+            ],
+            "finalAnswer": "$\\sin\\dfrac{3\\pi}{2} = -1$, $\\cos\\dfrac{3\\pi}{2} = 0$",
+            "solutionFigures": [],
+            "tip": "Odd multiples of $\\frac{\\pi}{2}$ give points on the $y$-axis, so cosine is 0 and sine is $\\pm 1$."
+          }
+        },
+        {
+          "id": "ch14_ex2_q1c",
+          "number": "1(c)",
+          "category": null,
+          "questionText": "For the following angle $t$, determine the values of $\\sin t$ and $\\cos t$: $t = -\\dfrac{3\\pi}{2}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Unit circle definition: $P(t) = (\\cos t, \\sin t)$; $P(t + 2\\pi) = P(t)$",
+            "steps": [
+              "Given: $t = -\\dfrac{3\\pi}{2}$. Goal: $\\sin t$ and $\\cos t$.",
+              "Rotate three quarter-turns clockwise from $(1, 0)$: $(0, -1)$, then $(-1, 0)$, then $(0, 1)$.",
+              "So $P\\left(-\\dfrac{3\\pi}{2}\\right) = (0, 1)$.",
+              "Second route: $-\\dfrac{3\\pi}{2} + 2\\pi = \\dfrac{\\pi}{2}$, and $P\\left(\\dfrac{\\pi}{2}\\right) = (0, 1)$. ✓",
+              "Therefore $\\cos\\left(-\\dfrac{3\\pi}{2}\\right) = 0$ and $\\sin\\left(-\\dfrac{3\\pi}{2}\\right) = 1$."
+            ],
+            "finalAnswer": "$\\sin\\left(-\\dfrac{3\\pi}{2}\\right) = 1$, $\\cos\\left(-\\dfrac{3\\pi}{2}\\right) = 0$",
+            "solutionFigures": [],
+            "tip": "Negative angles go clockwise; adding $2\\pi$ turns them into a familiar positive angle."
+          }
+        },
+        {
+          "id": "ch14_ex2_q1d",
+          "number": "1(d)",
+          "category": null,
+          "questionText": "For the following angle $t$, determine the values of $\\sin t$ and $\\cos t$: $t = \\dfrac{5\\pi}{2}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Periodicity: $\\sin(2\\pi + \\theta) = \\sin\\theta$, $\\cos(2\\pi + \\theta) = \\cos\\theta$",
+            "steps": [
+              "Given: $t = \\dfrac{5\\pi}{2}$. Goal: $\\sin t$ and $\\cos t$.",
+              "Write $\\dfrac{5\\pi}{2} = 2\\pi + \\dfrac{\\pi}{2}$.",
+              "By periodicity, $P\\left(\\dfrac{5\\pi}{2}\\right) = P\\left(\\dfrac{\\pi}{2}\\right) = (0, 1)$.",
+              "Therefore $\\cos\\dfrac{5\\pi}{2} = 0$ and $\\sin\\dfrac{5\\pi}{2} = 1$."
+            ],
+            "finalAnswer": "$\\sin\\dfrac{5\\pi}{2} = 1$, $\\cos\\dfrac{5\\pi}{2} = 0$",
+            "solutionFigures": [],
+            "tip": "Strip off whole multiples of $2\\pi$ first; they do not change the point."
+          }
+        },
+        {
+          "id": "ch14_ex2_q1e",
+          "number": "1(e)",
+          "category": null,
+          "questionText": "For the following angle $t$, determine the values of $\\sin t$ and $\\cos t$: $t = -3\\pi$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Periodicity: $\\sin(\\theta + 2k\\pi) = \\sin\\theta$, $\\cos(\\theta + 2k\\pi) = \\cos\\theta$",
+            "steps": [
+              "Given: $t = -3\\pi$. Goal: $\\sin t$ and $\\cos t$.",
+              "Add $4\\pi$ (two full turns): $-3\\pi + 4\\pi = \\pi$.",
+              "So $P(-3\\pi) = P(\\pi) = (-1, 0)$.",
+              "Therefore $\\cos(-3\\pi) = -1$ and $\\sin(-3\\pi) = 0$."
+            ],
+            "finalAnswer": "$\\sin(-3\\pi) = 0$, $\\cos(-3\\pi) = -1$",
+            "solutionFigures": [],
+            "tip": "Any odd multiple of $\\pi$ lands on $(-1, 0)$."
+          }
+        },
+        {
+          "id": "ch14_ex2_q1f",
+          "number": "1(f)",
+          "category": null,
+          "questionText": "For the following angle $t$, determine the values of $\\sin t$ and $\\cos t$: $t = \\dfrac{9\\pi}{2}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Periodicity: $\\sin(\\theta + 2k\\pi) = \\sin\\theta$, $\\cos(\\theta + 2k\\pi) = \\cos\\theta$",
+            "steps": [
+              "Given: $t = \\dfrac{9\\pi}{2}$. Goal: $\\sin t$ and $\\cos t$.",
+              "Write $\\dfrac{9\\pi}{2} = 4\\pi + \\dfrac{\\pi}{2}$ (two full turns plus a quarter-turn).",
+              "So $P\\left(\\dfrac{9\\pi}{2}\\right) = P\\left(\\dfrac{\\pi}{2}\\right) = (0, 1)$.",
+              "Therefore $\\cos\\dfrac{9\\pi}{2} = 0$ and $\\sin\\dfrac{9\\pi}{2} = 1$."
+            ],
+            "finalAnswer": "$\\sin\\dfrac{9\\pi}{2} = 1$, $\\cos\\dfrac{9\\pi}{2} = 0$",
+            "solutionFigures": [],
+            "tip": "Write the angle as (multiple of $2\\pi$) + (angle in $[0, 2\\pi)$)."
+          }
+        },
+        {
+          "id": "ch14_ex2_q1g",
+          "number": "1(g)",
+          "category": null,
+          "questionText": "For the following angle $t$, determine the values of $\\sin t$ and $\\cos t$: $t = \\dfrac{7\\pi}{2}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Periodicity: $\\sin(2\\pi + \\theta) = \\sin\\theta$, $\\cos(2\\pi + \\theta) = \\cos\\theta$",
+            "steps": [
+              "Given: $t = \\dfrac{7\\pi}{2}$. Goal: $\\sin t$ and $\\cos t$.",
+              "Write $\\dfrac{7\\pi}{2} = 2\\pi + \\dfrac{3\\pi}{2}$.",
+              "So $P\\left(\\dfrac{7\\pi}{2}\\right) = P\\left(\\dfrac{3\\pi}{2}\\right) = (0, -1)$.",
+              "Therefore $\\cos\\dfrac{7\\pi}{2} = 0$ and $\\sin\\dfrac{7\\pi}{2} = -1$."
+            ],
+            "finalAnswer": "$\\sin\\dfrac{7\\pi}{2} = -1$, $\\cos\\dfrac{7\\pi}{2} = 0$",
+            "solutionFigures": [],
+            "tip": "Check the sign: $\\frac{3\\pi}{2}$ points straight down, so sine is $-1$."
+          }
+        },
+        {
+          "id": "ch14_ex2_q1h",
+          "number": "1(h)",
+          "category": null,
+          "questionText": "For the following angle $t$, determine the values of $\\sin t$ and $\\cos t$: $t = 4\\pi$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Periodicity: $\\sin(\\theta + 2k\\pi) = \\sin\\theta$, $\\cos(\\theta + 2k\\pi) = \\cos\\theta$",
+            "steps": [
+              "Given: $t = 4\\pi$. Goal: $\\sin t$ and $\\cos t$.",
+              "$4\\pi$ is exactly two full turns, so $P(4\\pi) = P(0) = (1, 0)$.",
+              "Therefore $\\cos 4\\pi = 1$ and $\\sin 4\\pi = 0$."
+            ],
+            "finalAnswer": "$\\sin 4\\pi = 0$, $\\cos 4\\pi = 1$",
+            "solutionFigures": [],
+            "tip": "Even multiples of $\\pi$ always return to $(1, 0)$."
+          }
+        },
+        {
+          "id": "ch14_ex2_q2a",
+          "number": "2(a)",
+          "category": null,
+          "questionText": "Evaluate using your calculator (check that your calculator is in radian mode): $\\sin 1.9$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin\\theta$ is the $y$-coordinate of $P(\\theta)$; $\\theta$ in radians",
+            "steps": [
+              "Given: $\\theta = 1.9$ radians. Goal: $\\sin 1.9$ (to four decimal places, since no accuracy is specified).",
+              "In radian mode: $\\sin 1.9 = 0.94630\\ldots$",
+              "Sign check: $\\frac{\\pi}{2} \\approx 1.57 < 1.9 < \\pi$, so $P(1.9)$ is in quadrant 2 where sine is positive. ✓",
+              "So $\\sin 1.9 \\approx 0.9463$."
+            ],
+            "finalAnswer": "$0.9463$ (to 4 d.p.)",
+            "solutionFigures": [],
+            "tip": "In degree mode you would get $\\sin 1.9^\\circ \\approx 0.0332$, a sure sign of the wrong mode."
+          }
+        },
+        {
+          "id": "ch14_ex2_q2b",
+          "number": "2(b)",
+          "category": null,
+          "questionText": "Evaluate using your calculator (check that your calculator is in radian mode): $\\sin 2.3$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin\\theta$ is the $y$-coordinate of $P(\\theta)$; $\\theta$ in radians",
+            "steps": [
+              "Given: $\\theta = 2.3$ radians. Goal: $\\sin 2.3$ (to four decimal places).",
+              "In radian mode: $\\sin 2.3 = 0.74570\\ldots$",
+              "Sign check: $2.3$ lies between $\\frac{\\pi}{2}$ and $\\pi$ (quadrant 2), so sine is positive. ✓",
+              "So $\\sin 2.3 \\approx 0.7457$."
+            ],
+            "finalAnswer": "$0.7457$ (to 4 d.p.)",
+            "solutionFigures": [],
+            "tip": "Always predict the sign from the quadrant before trusting the calculator."
+          }
+        },
+        {
+          "id": "ch14_ex2_q2c",
+          "number": "2(c)",
+          "category": null,
+          "questionText": "Evaluate using your calculator (check that your calculator is in radian mode): $\\sin 4.1$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin\\theta$ is the $y$-coordinate of $P(\\theta)$; $\\theta$ in radians",
+            "steps": [
+              "Given: $\\theta = 4.1$ radians. Goal: $\\sin 4.1$ (to four decimal places).",
+              "In radian mode: $\\sin 4.1 = -0.81827\\ldots$",
+              "Sign check: $\\pi \\approx 3.14 < 4.1 < \\frac{3\\pi}{2} \\approx 4.71$, quadrant 3, where sine is negative. ✓",
+              "So $\\sin 4.1 \\approx -0.8183$."
+            ],
+            "finalAnswer": "$-0.8183$ (to 4 d.p.)",
+            "solutionFigures": [],
+            "tip": "Quadrant boundaries in radians: $1.57, 3.14, 4.71, 6.28$."
+          }
+        },
+        {
+          "id": "ch14_ex2_q2d",
+          "number": "2(d)",
+          "category": null,
+          "questionText": "Evaluate using your calculator (check that your calculator is in radian mode): $\\cos 0.3$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos\\theta$ is the $x$-coordinate of $P(\\theta)$; $\\theta$ in radians",
+            "steps": [
+              "Given: $\\theta = 0.3$ radians. Goal: $\\cos 0.3$ (to four decimal places).",
+              "In radian mode: $\\cos 0.3 = 0.95533\\ldots$",
+              "Sign check: $0.3$ is in quadrant 1 and close to 0, so cosine is positive and close to 1. ✓",
+              "So $\\cos 0.3 \\approx 0.9553$."
+            ],
+            "finalAnswer": "$0.9553$ (to 4 d.p.)",
+            "solutionFigures": [],
+            "tip": "For small angles, $\\cos\\theta$ is close to 1."
+          }
+        },
+        {
+          "id": "ch14_ex2_q2e",
+          "number": "2(e)",
+          "category": null,
+          "questionText": "Evaluate using your calculator (check that your calculator is in radian mode): $\\cos 2.1$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos\\theta$ is the $x$-coordinate of $P(\\theta)$; $\\theta$ in radians",
+            "steps": [
+              "Given: $\\theta = 2.1$ radians. Goal: $\\cos 2.1$ (to four decimal places).",
+              "In radian mode: $\\cos 2.1 = -0.50485\\ldots$",
+              "Sign check: $2.1$ is in quadrant 2, where cosine is negative. ✓",
+              "So $\\cos 2.1 \\approx -0.5048$."
+            ],
+            "finalAnswer": "$-0.5048$ (to 4 d.p.)",
+            "solutionFigures": [],
+            "tip": "$2.1$ is just above $\\frac{2\\pi}{3} \\approx 2.094$, where $\\cos = -\\frac{1}{2}$, so the answer should be just below $-0.5$."
+          }
+        },
+        {
+          "id": "ch14_ex2_q2f",
+          "number": "2(f)",
+          "category": null,
+          "questionText": "Evaluate using your calculator (check that your calculator is in radian mode): $\\cos(-1.6)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos\\theta$ is the $x$-coordinate of $P(\\theta)$; $\\cos(-\\theta) = \\cos\\theta$",
+            "steps": [
+              "Given: $\\theta = -1.6$ radians. Goal: $\\cos(-1.6)$ (to four decimal places).",
+              "In radian mode: $\\cos(-1.6) = -0.02920\\ldots$",
+              "Check: $-1.6$ is just past $-\\frac{\\pi}{2} \\approx -1.571$ (clockwise into quadrant 3), so the $x$-coordinate is slightly negative. ✓",
+              "So $\\cos(-1.6) \\approx -0.0292$."
+            ],
+            "finalAnswer": "$-0.0292$ (to 4 d.p.)",
+            "solutionFigures": [],
+            "tip": "Use brackets around negative angles on the calculator."
+          }
+        },
+        {
+          "id": "ch14_ex2_q2g",
+          "number": "2(g)",
+          "category": null,
+          "questionText": "Evaluate using your calculator (check that your calculator is in radian mode): $\\sin(-2.1)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin\\theta$ is the $y$-coordinate of $P(\\theta)$; $\\sin(-\\theta) = -\\sin\\theta$",
+            "steps": [
+              "Given: $\\theta = -2.1$ radians. Goal: $\\sin(-2.1)$ (to four decimal places).",
+              "In radian mode: $\\sin(-2.1) = -0.86321\\ldots$",
+              "Check: $\\sin 2.1 = 0.8632\\ldots$ and $\\sin(-\\theta) = -\\sin\\theta$. ✓",
+              "So $\\sin(-2.1) \\approx -0.8632$."
+            ],
+            "finalAnswer": "$-0.8632$ (to 4 d.p.)",
+            "solutionFigures": [],
+            "tip": "Sine is an odd function: changing the sign of the angle changes the sign of the answer."
+          }
+        },
+        {
+          "id": "ch14_ex2_q2h",
+          "number": "2(h)",
+          "category": null,
+          "questionText": "Evaluate using your calculator (check that your calculator is in radian mode): $\\sin(-3.8)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin\\theta$ is the $y$-coordinate of $P(\\theta)$; $\\sin(-\\theta) = -\\sin\\theta$",
+            "steps": [
+              "Given: $\\theta = -3.8$ radians. Goal: $\\sin(-3.8)$ (to four decimal places).",
+              "In radian mode: $\\sin(-3.8) = 0.61186\\ldots$",
+              "Sign check: $-3.8 + 2\\pi \\approx 2.48$, which is in quadrant 2, where sine is positive. ✓",
+              "So $\\sin(-3.8) \\approx 0.6119$."
+            ],
+            "finalAnswer": "$0.6119$ (to 4 d.p.)",
+            "solutionFigures": [],
+            "tip": "A negative angle does not always give a negative sine; find the quadrant first."
+          }
+        },
+        {
+          "id": "ch14_ex2_q3a",
+          "number": "3(a)",
+          "category": null,
+          "questionText": "For the following angle $\\theta$, determine the values of $\\sin\\theta$ and $\\cos\\theta$: $\\theta = 27\\pi$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Periodicity: $\\sin(\\theta + 2k\\pi) = \\sin\\theta$, $\\cos(\\theta + 2k\\pi) = \\cos\\theta$",
+            "steps": [
+              "Given: $\\theta = 27\\pi$. Goal: $\\sin\\theta$ and $\\cos\\theta$.",
+              "Write $27\\pi = 26\\pi + \\pi = 13(2\\pi) + \\pi$.",
+              "So $P(27\\pi) = P(\\pi) = (-1, 0)$.",
+              "Therefore $\\sin 27\\pi = 0$ and $\\cos 27\\pi = -1$."
+            ],
+            "finalAnswer": "$\\sin 27\\pi = 0$, $\\cos 27\\pi = -1$",
+            "solutionFigures": [],
+            "tip": "An odd multiple of $\\pi$ gives $(-1, 0)$; an even multiple gives $(1, 0)$."
+          }
+        },
+        {
+          "id": "ch14_ex2_q3b",
+          "number": "3(b)",
+          "category": null,
+          "questionText": "For the following angle $\\theta$, determine the values of $\\sin\\theta$ and $\\cos\\theta$: $\\theta = -\\dfrac{5\\pi}{2}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Periodicity: $\\sin(\\theta + 2k\\pi) = \\sin\\theta$, $\\cos(\\theta + 2k\\pi) = \\cos\\theta$",
+            "steps": [
+              "Given: $\\theta = -\\dfrac{5\\pi}{2}$. Goal: $\\sin\\theta$ and $\\cos\\theta$.",
+              "Add $4\\pi$: $-\\dfrac{5\\pi}{2} + \\dfrac{8\\pi}{2} = \\dfrac{3\\pi}{2}$.",
+              "So $P\\left(-\\dfrac{5\\pi}{2}\\right) = P\\left(\\dfrac{3\\pi}{2}\\right) = (0, -1)$.",
+              "Second route: $-\\dfrac{5\\pi}{2} = -2\\pi - \\dfrac{\\pi}{2}$, a full turn clockwise then a quarter-turn clockwise, ending on the negative $y$-axis. ✓",
+              "Therefore $\\sin\\left(-\\dfrac{5\\pi}{2}\\right) = -1$ and $\\cos\\left(-\\dfrac{5\\pi}{2}\\right) = 0$."
+            ],
+            "finalAnswer": "$\\sin\\left(-\\dfrac{5\\pi}{2}\\right) = -1$, $\\cos\\left(-\\dfrac{5\\pi}{2}\\right) = 0$",
+            "solutionFigures": [],
+            "tip": "Add multiples of $2\\pi$ until the angle lies in $[0, 2\\pi)$."
+          }
+        },
+        {
+          "id": "ch14_ex2_q3c",
+          "number": "3(c)",
+          "category": null,
+          "questionText": "For the following angle $\\theta$, determine the values of $\\sin\\theta$ and $\\cos\\theta$: $\\theta = \\dfrac{27\\pi}{2}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Periodicity: $\\sin(\\theta + 2k\\pi) = \\sin\\theta$, $\\cos(\\theta + 2k\\pi) = \\cos\\theta$",
+            "steps": [
+              "Given: $\\theta = \\dfrac{27\\pi}{2}$. Goal: $\\sin\\theta$ and $\\cos\\theta$.",
+              "$\\dfrac{27\\pi}{2} = 13.5\\pi = 12\\pi + \\dfrac{3\\pi}{2}$, and $12\\pi$ is six full turns.",
+              "So $P\\left(\\dfrac{27\\pi}{2}\\right) = P\\left(\\dfrac{3\\pi}{2}\\right) = (0, -1)$.",
+              "Therefore $\\sin\\dfrac{27\\pi}{2} = -1$ and $\\cos\\dfrac{27\\pi}{2} = 0$."
+            ],
+            "finalAnswer": "$\\sin\\dfrac{27\\pi}{2} = -1$, $\\cos\\dfrac{27\\pi}{2} = 0$",
+            "solutionFigures": [],
+            "tip": "Remove the largest even multiple of $\\pi$ (here $12\\pi$), not just any multiple."
+          }
+        },
+        {
+          "id": "ch14_ex2_q3d",
+          "number": "3(d)",
+          "category": null,
+          "questionText": "For the following angle $\\theta$, determine the values of $\\sin\\theta$ and $\\cos\\theta$: $\\theta = -\\dfrac{9\\pi}{2}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Periodicity: $\\sin(\\theta + 2k\\pi) = \\sin\\theta$, $\\cos(\\theta + 2k\\pi) = \\cos\\theta$",
+            "steps": [
+              "Given: $\\theta = -\\dfrac{9\\pi}{2}$. Goal: $\\sin\\theta$ and $\\cos\\theta$.",
+              "Add $6\\pi$: $-\\dfrac{9\\pi}{2} + \\dfrac{12\\pi}{2} = \\dfrac{3\\pi}{2}$.",
+              "So $P\\left(-\\dfrac{9\\pi}{2}\\right) = P\\left(\\dfrac{3\\pi}{2}\\right) = (0, -1)$.",
+              "Check: $-\\dfrac{9\\pi}{2} = -4\\pi - \\dfrac{\\pi}{2}$, and $P\\left(-\\dfrac{\\pi}{2}\\right) = (0, -1)$. ✓",
+              "Therefore $\\sin\\left(-\\dfrac{9\\pi}{2}\\right) = -1$ and $\\cos\\left(-\\dfrac{9\\pi}{2}\\right) = 0$."
+            ],
+            "finalAnswer": "$\\sin\\left(-\\dfrac{9\\pi}{2}\\right) = -1$, $\\cos\\left(-\\dfrac{9\\pi}{2}\\right) = 0$",
+            "solutionFigures": [],
+            "tip": "$-\\frac{\\pi}{2}$ and $\\frac{3\\pi}{2}$ name the same point on the unit circle."
+          }
+        },
+        {
+          "id": "ch14_ex2_q3e",
+          "number": "3(e)",
+          "category": null,
+          "questionText": "For the following angle $\\theta$, determine the values of $\\sin\\theta$ and $\\cos\\theta$: $\\theta = \\dfrac{11\\pi}{2}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Periodicity: $\\sin(\\theta + 2k\\pi) = \\sin\\theta$, $\\cos(\\theta + 2k\\pi) = \\cos\\theta$",
+            "steps": [
+              "Given: $\\theta = \\dfrac{11\\pi}{2}$. Goal: $\\sin\\theta$ and $\\cos\\theta$.",
+              "$\\dfrac{11\\pi}{2} = 4\\pi + \\dfrac{3\\pi}{2}$.",
+              "So $P\\left(\\dfrac{11\\pi}{2}\\right) = P\\left(\\dfrac{3\\pi}{2}\\right) = (0, -1)$.",
+              "Therefore $\\sin\\dfrac{11\\pi}{2} = -1$ and $\\cos\\dfrac{11\\pi}{2} = 0$."
+            ],
+            "finalAnswer": "$\\sin\\dfrac{11\\pi}{2} = -1$, $\\cos\\dfrac{11\\pi}{2} = 0$",
+            "solutionFigures": [],
+            "tip": "An odd multiple of $\\frac{\\pi}{2}$ always has cosine 0; only the sign of the sine needs work."
+          }
+        },
+        {
+          "id": "ch14_ex2_q3f",
+          "number": "3(f)",
+          "category": null,
+          "questionText": "For the following angle $\\theta$, determine the values of $\\sin\\theta$ and $\\cos\\theta$: $\\theta = 57\\pi$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Periodicity: $\\sin(\\theta + 2k\\pi) = \\sin\\theta$, $\\cos(\\theta + 2k\\pi) = \\cos\\theta$",
+            "steps": [
+              "Given: $\\theta = 57\\pi$. Goal: $\\sin\\theta$ and $\\cos\\theta$.",
+              "$57\\pi = 56\\pi + \\pi = 28(2\\pi) + \\pi$.",
+              "So $P(57\\pi) = P(\\pi) = (-1, 0)$.",
+              "Therefore $\\sin 57\\pi = 0$ and $\\cos 57\\pi = -1$."
+            ],
+            "finalAnswer": "$\\sin 57\\pi = 0$, $\\cos 57\\pi = -1$",
+            "solutionFigures": [],
+            "tip": "57 is odd, so $57\\pi$ ends at $(-1, 0)$."
+          }
+        },
+        {
+          "id": "ch14_ex2_q3g",
+          "number": "3(g)",
+          "category": null,
+          "questionText": "For the following angle $\\theta$, determine the values of $\\sin\\theta$ and $\\cos\\theta$: $\\theta = 211\\pi$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Periodicity: $\\sin(\\theta + 2k\\pi) = \\sin\\theta$, $\\cos(\\theta + 2k\\pi) = \\cos\\theta$",
+            "steps": [
+              "Given: $\\theta = 211\\pi$. Goal: $\\sin\\theta$ and $\\cos\\theta$.",
+              "$211\\pi = 210\\pi + \\pi = 105(2\\pi) + \\pi$.",
+              "So $P(211\\pi) = P(\\pi) = (-1, 0)$.",
+              "Therefore $\\sin 211\\pi = 0$ and $\\cos 211\\pi = -1$."
+            ],
+            "finalAnswer": "$\\sin 211\\pi = 0$, $\\cos 211\\pi = -1$",
+            "solutionFigures": [],
+            "tip": "For $n\\pi$, $\\cos(n\\pi) = (-1)^n$ and $\\sin(n\\pi) = 0$."
+          }
+        },
+        {
+          "id": "ch14_ex2_q3h",
+          "number": "3(h)",
+          "category": null,
+          "questionText": "For the following angle $\\theta$, determine the values of $\\sin\\theta$ and $\\cos\\theta$: $\\theta = -53\\pi$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Periodicity: $\\sin(\\theta + 2k\\pi) = \\sin\\theta$, $\\cos(\\theta + 2k\\pi) = \\cos\\theta$",
+            "steps": [
+              "Given: $\\theta = -53\\pi$. Goal: $\\sin\\theta$ and $\\cos\\theta$.",
+              "Add $54\\pi$ (27 full turns): $-53\\pi + 54\\pi = \\pi$.",
+              "So $P(-53\\pi) = P(\\pi) = (-1, 0)$.",
+              "Check: $\\cos(n\\pi) = (-1)^n$ with $n = -53$ (odd) gives $-1$. ✓",
+              "Therefore $\\sin(-53\\pi) = 0$ and $\\cos(-53\\pi) = -1$."
+            ],
+            "finalAnswer": "$\\sin(-53\\pi) = 0$, $\\cos(-53\\pi) = -1$",
+            "solutionFigures": [],
+            "tip": "Clockwise or anticlockwise, an odd number of half-turns always ends at $(-1, 0)$."
+          }
+        }
+      ]
+    }
+  ]
+}

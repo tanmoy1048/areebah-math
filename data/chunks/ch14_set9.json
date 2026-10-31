@@ -1,0 +1,319 @@
+{
+  "chapterId": "ch14",
+  "chapterTitle": "Circular functions (Methods 12)",
+  "topics": [
+    {
+      "topicId": "14I",
+      "topicTitle": "Sketch graphs of $y = a\\sin n(t \\pm \\varepsilon) \\pm b$ and $y = a\\cos n(t \\pm \\varepsilon) \\pm b$",
+      "exercises": [
+        {
+          "id": "ch14_ex9_q1a",
+          "number": "1(a)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = 2\\sin(x) + 1$ for $x \\in [0, 2\\pi]$. Label the axis intercepts.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a\\sin(nx) + b$: the graph of $y = a\\sin(nx)$ translated $b$ units up; range $[b - |a|, b + |a|]$. $x$-intercepts come from solving $y = 0$.",
+            "steps": [
+              "Given: $y = 2\\sin x + 1$, $x \\in [0, 2\\pi]$. Goal: axis intercepts and key points.",
+              "Period $2\\pi$, amplitude $2$, centre line $y = 1$, range $[-1, 3]$.",
+              "$y$-intercept: $y = 2\\sin 0 + 1 = 1$, point $(0, 1)$.",
+              "$x$-intercepts: $2\\sin x + 1 = 0 \\Rightarrow \\sin x = -\\frac{1}{2}$. Sine is negative in quadrants 3 and 4, basic angle $\\frac{\\pi}{6}$: $x = \\pi + \\frac{\\pi}{6} = \\frac{7\\pi}{6}$ or $x = 2\\pi - \\frac{\\pi}{6} = \\frac{11\\pi}{6}$.",
+              "Turning points: maximum $\\left(\\frac{\\pi}{2}, 3\\right)$, minimum $\\left(\\frac{3\\pi}{2}, -1\\right)$. Endpoint $(2\\pi, 1)$.",
+              "Sketch: from $(0,1)$ up to $\\left(\\frac{\\pi}{2},3\\right)$, down through $\\left(\\frac{7\\pi}{6},0\\right)$ to $\\left(\\frac{3\\pi}{2},-1\\right)$, up through $\\left(\\frac{11\\pi}{6},0\\right)$ to $(2\\pi,1)$."
+            ],
+            "finalAnswer": "$y$-intercept $(0,1)$; $x$-intercepts $\\left(\\frac{7\\pi}{6},0\\right)$ and $\\left(\\frac{11\\pi}{6},0\\right)$; maximum $\\left(\\frac{\\pi}{2},3\\right)$, minimum $\\left(\\frac{3\\pi}{2},-1\\right)$, endpoint $(2\\pi,1)$.",
+            "solutionFigures": [],
+            "tip": "Check intercepts are consistent with the range: the graph only dips below the axis between $\\frac{7\\pi}{6}$ and $\\frac{11\\pi}{6}$."
+          }
+        },
+        {
+          "id": "ch14_ex9_q1b",
+          "number": "1(b)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = 2\\sin(2x) - \\sqrt{3}$ for $x \\in [0, 2\\pi]$. Label the axis intercepts.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Solve $a\\sin(nx) + b = 0$ by letting $u = nx$ and finding all $u$ in $[0, 2n\\pi]$.",
+            "steps": [
+              "Given: $y = 2\\sin(2x) - \\sqrt{3}$, $x \\in [0, 2\\pi]$. Goal: axis intercepts and key points.",
+              "Period $\\pi$, amplitude $2$, centre line $y = -\\sqrt{3}$, range $[-2 - \\sqrt{3}, 2 - \\sqrt{3}]$.",
+              "$y$-intercept: $y = -\\sqrt{3}$, point $(0, -\\sqrt{3})$.",
+              "$x$-intercepts: $\\sin(2x) = \\frac{\\sqrt{3}}{2}$, with $2x \\in [0, 4\\pi]$: $2x = \\frac{\\pi}{3}, \\frac{2\\pi}{3}, \\frac{7\\pi}{3}, \\frac{8\\pi}{3}$, so $x = \\frac{\\pi}{6}, \\frac{\\pi}{3}, \\frac{7\\pi}{6}, \\frac{4\\pi}{3}$.",
+              "Maxima $2 - \\sqrt{3}$ at $x = \\frac{\\pi}{4}, \\frac{5\\pi}{4}$; minima $-2 - \\sqrt{3}$ at $x = \\frac{3\\pi}{4}, \\frac{7\\pi}{4}$. Endpoint $(2\\pi, -\\sqrt{3})$.",
+              "Sketch: two cycles; the graph pokes just above the $x$-axis (max $\\approx 0.27$) between $\\frac{\\pi}{6}$ and $\\frac{\\pi}{3}$, and between $\\frac{7\\pi}{6}$ and $\\frac{4\\pi}{3}$."
+            ],
+            "finalAnswer": "$y$-intercept $(0,-\\sqrt{3})$; $x$-intercepts $\\frac{\\pi}{6}, \\frac{\\pi}{3}, \\frac{7\\pi}{6}, \\frac{4\\pi}{3}$; maxima $\\left(\\frac{\\pi}{4}, 2-\\sqrt{3}\\right), \\left(\\frac{5\\pi}{4}, 2-\\sqrt{3}\\right)$; minima $\\left(\\frac{3\\pi}{4}, -2-\\sqrt{3}\\right), \\left(\\frac{7\\pi}{4}, -2-\\sqrt{3}\\right)$; endpoint $(2\\pi,-\\sqrt{3})$.",
+            "solutionFigures": [],
+            "tip": "Doubling the angle doubles the interval to search: look for $2x$ in $[0, 4\\pi]$."
+          }
+        },
+        {
+          "id": "ch14_ex9_q1c",
+          "number": "1(c)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = \\sqrt{2}\\cos(x) + 1$ for $x \\in [0, 2\\pi]$. Label the axis intercepts.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a\\cos x + b$ has range $[b - |a|, b + |a|]$; solve $y = 0$ for the $x$-intercepts.",
+            "steps": [
+              "Given: $y = \\sqrt{2}\\cos x + 1$, $x \\in [0, 2\\pi]$. Goal: axis intercepts and key points.",
+              "Period $2\\pi$, amplitude $\\sqrt{2}$, centre line $y = 1$, range $[1 - \\sqrt{2}, 1 + \\sqrt{2}]$.",
+              "$y$-intercept: $y = \\sqrt{2} + 1$, point $(0, \\sqrt{2} + 1)$.",
+              "$x$-intercepts: $\\cos x = -\\frac{1}{\\sqrt{2}}$. Cosine is negative in quadrants 2 and 3, basic angle $\\frac{\\pi}{4}$: $x = \\frac{3\\pi}{4}$ or $\\frac{5\\pi}{4}$.",
+              "Minimum $(\\pi, 1 - \\sqrt{2})$; maxima at the endpoints $(0, 1 + \\sqrt{2})$ and $(2\\pi, 1 + \\sqrt{2})$.",
+              "Sketch: from $(0, 1+\\sqrt{2})$ down through $\\left(\\frac{3\\pi}{4},0\\right)$ to $(\\pi, 1-\\sqrt{2})$, up through $\\left(\\frac{5\\pi}{4},0\\right)$ to $(2\\pi, 1+\\sqrt{2})$."
+            ],
+            "finalAnswer": "$y$-intercept $(0, \\sqrt{2}+1)$; $x$-intercepts $\\left(\\frac{3\\pi}{4},0\\right)$ and $\\left(\\frac{5\\pi}{4},0\\right)$; minimum $(\\pi, 1-\\sqrt{2})$; endpoint $(2\\pi, \\sqrt{2}+1)$.",
+            "solutionFigures": [],
+            "tip": "$1 - \\sqrt{2} \\approx -0.41$, so the graph only just dips below the axis."
+          }
+        },
+        {
+          "id": "ch14_ex9_q1d",
+          "number": "1(d)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = 2\\sin(2x) - 2$ for $x \\in [0, 2\\pi]$. Label the axis intercepts.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a\\sin(nx) + b$ has range $[b - |a|, b + |a|]$; here the maximum value is $0$, so the graph touches the $x$-axis.",
+            "steps": [
+              "Given: $y = 2\\sin(2x) - 2$, $x \\in [0, 2\\pi]$. Goal: axis intercepts and key points.",
+              "Period $\\pi$, amplitude $2$, centre line $y = -2$, range $[-4, 0]$.",
+              "$y$-intercept: $y = -2$, point $(0, -2)$.",
+              "$x$-intercepts: $\\sin(2x) = 1$, $2x \\in [0, 4\\pi]$: $2x = \\frac{\\pi}{2}, \\frac{5\\pi}{2}$, so $x = \\frac{\\pi}{4}, \\frac{5\\pi}{4}$. These are maximum points, so the graph touches the axis there.",
+              "Minima $-4$ at $x = \\frac{3\\pi}{4}, \\frac{7\\pi}{4}$. Endpoint $(2\\pi, -2)$.",
+              "Sketch: two cycles lying on or below the $x$-axis, touching it at $\\frac{\\pi}{4}$ and $\\frac{5\\pi}{4}$."
+            ],
+            "finalAnswer": "$y$-intercept $(0,-2)$; the graph touches the $x$-axis at $\\left(\\frac{\\pi}{4},0\\right)$ and $\\left(\\frac{5\\pi}{4},0\\right)$ (maxima); minima $\\left(\\frac{3\\pi}{4},-4\\right)$ and $\\left(\\frac{7\\pi}{4},-4\\right)$; endpoint $(2\\pi,-2)$.",
+            "solutionFigures": [],
+            "tip": "When the maximum value is exactly 0 the $x$-intercepts are turning points, not crossings."
+          }
+        },
+        {
+          "id": "ch14_ex9_q1e",
+          "number": "1(e)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = \\sqrt{2}\\sin\\left(x - \\frac{\\pi}{4}\\right) + 1$ for $x \\in [0, 2\\pi]$. Label the axis intercepts.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Graph of $y = \\sqrt{2}\\sin x$ translated $\\frac{\\pi}{4}$ right and 1 up; solve $\\sin\\left(x - \\frac{\\pi}{4}\\right) = -\\frac{1}{\\sqrt{2}}$ with $x - \\frac{\\pi}{4} \\in \\left[-\\frac{\\pi}{4}, \\frac{7\\pi}{4}\\right]$.",
+            "steps": [
+              "Given: $y = \\sqrt{2}\\sin\\left(x - \\frac{\\pi}{4}\\right) + 1$, $x \\in [0, 2\\pi]$. Goal: axis intercepts and key points.",
+              "Period $2\\pi$, amplitude $\\sqrt{2}$, range $[1 - \\sqrt{2}, 1 + \\sqrt{2}]$.",
+              "$y$-intercept: $y = \\sqrt{2}\\sin\\left(-\\frac{\\pi}{4}\\right) + 1 = \\sqrt{2}\\left(-\\frac{1}{\\sqrt{2}}\\right) + 1 = 0$. So the graph passes through the origin.",
+              "$x$-intercepts: $\\sin\\left(x - \\frac{\\pi}{4}\\right) = -\\frac{1}{\\sqrt{2}}$. Let $u = x - \\frac{\\pi}{4} \\in \\left[-\\frac{\\pi}{4}, \\frac{7\\pi}{4}\\right]$: $u = -\\frac{\\pi}{4}, \\frac{5\\pi}{4}, \\frac{7\\pi}{4}$.",
+              "So $x = 0, \\frac{3\\pi}{2}, 2\\pi$.",
+              "Maximum $1 + \\sqrt{2}$ when $u = \\frac{\\pi}{2}$, i.e. $x = \\frac{3\\pi}{4}$. Minimum $1 - \\sqrt{2}$ when $u = \\frac{3\\pi}{2}$, i.e. $x = \\frac{7\\pi}{4}$.",
+              "Sketch: from the origin up to $\\left(\\frac{3\\pi}{4}, 1+\\sqrt{2}\\right)$, down through $\\left(\\frac{3\\pi}{2},0\\right)$ to $\\left(\\frac{7\\pi}{4}, 1-\\sqrt{2}\\right)$, then up to $(2\\pi, 0)$."
+            ],
+            "finalAnswer": "Axis intercepts $(0,0)$, $\\left(\\frac{3\\pi}{2},0\\right)$ and $(2\\pi,0)$; maximum $\\left(\\frac{3\\pi}{4}, 1+\\sqrt{2}\\right)$; minimum $\\left(\\frac{7\\pi}{4}, 1-\\sqrt{2}\\right)$.",
+            "solutionFigures": [],
+            "tip": "Shift the search interval along with the angle: for $u = x - \\frac{\\pi}{4}$ the interval starts at $-\\frac{\\pi}{4}$."
+          }
+        },
+        {
+          "id": "ch14_ex9_q2a",
+          "number": "2(a)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = 2\\sin(3x) - 2$ for $x \\in [-\\pi, 2\\pi]$. Label the axis intercepts.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Range of $y = a\\sin(nx) + b$ is $[b - |a|, b + |a|]$; solve $\\sin(3x) = 1$ with $3x \\in [-3\\pi, 6\\pi]$.",
+            "steps": [
+              "Given: $y = 2\\sin(3x) - 2$, $x \\in [-\\pi, 2\\pi]$. Goal: axis intercepts and key points.",
+              "Period $\\frac{2\\pi}{3}$, amplitude $2$, range $[-4, 0]$.",
+              "$y$-intercept: $(0, -2)$.",
+              "$x$-intercepts: $\\sin(3x) = 1$, $3x \\in [-3\\pi, 6\\pi]$: $3x = -\\frac{3\\pi}{2}, \\frac{\\pi}{2}, \\frac{5\\pi}{2}, \\frac{9\\pi}{2}$, so $x = -\\frac{\\pi}{2}, \\frac{\\pi}{6}, \\frac{5\\pi}{6}, \\frac{3\\pi}{2}$. These are maxima, so the graph touches the axis.",
+              "Minima ($y = -4$): $\\sin(3x) = -1 \\Rightarrow x = -\\frac{5\\pi}{6}, -\\frac{\\pi}{6}, \\frac{\\pi}{2}, \\frac{7\\pi}{6}, \\frac{11\\pi}{6}$.",
+              "Endpoints: $y(-\\pi) = 2\\sin(-3\\pi) - 2 = -2$ and $y(2\\pi) = 2\\sin(6\\pi) - 2 = -2$.",
+              "Sketch: four and a half cycles below the axis, touching it at the four $x$-intercepts."
+            ],
+            "finalAnswer": "$y$-intercept $(0,-2)$; graph touches the $x$-axis at $x = -\\frac{\\pi}{2}, \\frac{\\pi}{6}, \\frac{5\\pi}{6}, \\frac{3\\pi}{2}$; minima $y = -4$ at $x = -\\frac{5\\pi}{6}, -\\frac{\\pi}{6}, \\frac{\\pi}{2}, \\frac{7\\pi}{6}, \\frac{11\\pi}{6}$; endpoints $(-\\pi,-2)$, $(2\\pi,-2)$.",
+            "solutionFigures": [],
+            "tip": "Remember the negative part of the domain: $3x$ runs from $-3\\pi$, giving the solution $x = -\\frac{\\pi}{2}$."
+          }
+        },
+        {
+          "id": "ch14_ex9_q2b",
+          "number": "2(b)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = 2\\cos 3\\left(x - \\frac{\\pi}{4}\\right)$ for $x \\in [-\\pi, 2\\pi]$. Label the axis intercepts.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Zeros of cosine: $\\cos u = 0 \\iff u = \\frac{\\pi}{2} + k\\pi$, $k \\in \\mathbb{Z}$.",
+            "steps": [
+              "Given: $y = 2\\cos 3\\left(x - \\frac{\\pi}{4}\\right)$, $x \\in [-\\pi, 2\\pi]$. Goal: axis intercepts and key points.",
+              "Period $\\frac{2\\pi}{3}$, amplitude $2$, range $[-2, 2]$; graph of $y = 2\\cos 3x$ translated $\\frac{\\pi}{4}$ right.",
+              "$y$-intercept: $y = 2\\cos\\left(-\\frac{3\\pi}{4}\\right) = 2\\left(-\\frac{\\sqrt{2}}{2}\\right) = -\\sqrt{2}$.",
+              "$x$-intercepts: $3\\left(x - \\frac{\\pi}{4}\\right) = \\frac{\\pi}{2} + k\\pi \\Rightarrow x = \\frac{5\\pi}{12} + \\frac{k\\pi}{3}$. For $k = -4, \\dots, 4$: $x = -\\frac{11\\pi}{12}, -\\frac{7\\pi}{12}, -\\frac{\\pi}{4}, \\frac{\\pi}{12}, \\frac{5\\pi}{12}, \\frac{3\\pi}{4}, \\frac{13\\pi}{12}, \\frac{17\\pi}{12}, \\frac{7\\pi}{4}$.",
+              "Maxima ($y = 2$): $x = \\frac{\\pi}{4} + \\frac{2k\\pi}{3}$: $-\\frac{5\\pi}{12}, \\frac{\\pi}{4}, \\frac{11\\pi}{12}, \\frac{19\\pi}{12}$. Minima ($y = -2$): $x = \\frac{7\\pi}{12} + \\frac{2k\\pi}{3}$: $-\\frac{3\\pi}{4}, -\\frac{\\pi}{12}, \\frac{7\\pi}{12}, \\frac{5\\pi}{4}, \\frac{23\\pi}{12}$.",
+              "Endpoints: $y(-\\pi) = 2\\cos\\left(-\\frac{15\\pi}{4}\\right) = 2\\cos\\frac{\\pi}{4} = \\sqrt{2}$; $y(2\\pi) = 2\\cos\\frac{21\\pi}{4} = 2\\cos\\frac{5\\pi}{4} = -\\sqrt{2}$.",
+              "Sketch: four and a half cycles through these points."
+            ],
+            "finalAnswer": "$y$-intercept $(0,-\\sqrt{2})$; $x$-intercepts $-\\frac{11\\pi}{12}, -\\frac{7\\pi}{12}, -\\frac{\\pi}{4}, \\frac{\\pi}{12}, \\frac{5\\pi}{12}, \\frac{3\\pi}{4}, \\frac{13\\pi}{12}, \\frac{17\\pi}{12}, \\frac{7\\pi}{4}$; endpoints $(-\\pi,\\sqrt{2})$ and $(2\\pi,-\\sqrt{2})$; max 2, min $-2$.",
+            "solutionFigures": [],
+            "tip": "Consecutive zeros of $\\cos(3u)$ are $\\frac{\\pi}{3}$ apart, so once you have one zero just keep adding $\\frac{\\pi}{3}$."
+          }
+        },
+        {
+          "id": "ch14_ex9_q2c",
+          "number": "2(c)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = 2\\sin(2x) - 3$ for $x \\in [-\\pi, 2\\pi]$. Label the axis intercepts.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Range of $y = a\\sin(nx) + b$ is $[b - |a|, b + |a|]$.",
+            "steps": [
+              "Given: $y = 2\\sin(2x) - 3$, $x \\in [-\\pi, 2\\pi]$. Goal: axis intercepts and key points.",
+              "Period $\\pi$, amplitude $2$, range $[-5, -1]$.",
+              "Since the greatest value is $-1 < 0$, the equation $2\\sin(2x) - 3 = 0$ (i.e. $\\sin 2x = \\frac{3}{2}$) has no solution: there are no $x$-intercepts.",
+              "$y$-intercept: $(0, -3)$.",
+              "Maxima ($-1$) at $x = -\\frac{3\\pi}{4}, \\frac{\\pi}{4}, \\frac{5\\pi}{4}$; minima ($-5$) at $x = -\\frac{\\pi}{4}, \\frac{3\\pi}{4}, \\frac{7\\pi}{4}$. Endpoints $(-\\pi, -3)$, $(2\\pi, -3)$.",
+              "Sketch: three full cycles lying entirely below the $x$-axis about the centre line $y = -3$."
+            ],
+            "finalAnswer": "No $x$-intercepts; $y$-intercept $(0,-3)$; maxima $y=-1$ at $x = -\\frac{3\\pi}{4}, \\frac{\\pi}{4}, \\frac{5\\pi}{4}$; minima $y=-5$ at $x = -\\frac{\\pi}{4}, \\frac{3\\pi}{4}, \\frac{7\\pi}{4}$; endpoints $(-\\pi,-3)$, $(2\\pi,-3)$.",
+            "solutionFigures": [],
+            "tip": "Find the range first: if it does not include 0, there are no $x$-intercepts."
+          }
+        },
+        {
+          "id": "ch14_ex9_q2d",
+          "number": "2(d)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = 2\\cos(2x) + 1$ for $x \\in [-\\pi, 2\\pi]$. Label the axis intercepts.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos u = -\\frac{1}{2} \\iff u = \\pm\\frac{2\\pi}{3} + 2k\\pi$.",
+            "steps": [
+              "Given: $y = 2\\cos(2x) + 1$, $x \\in [-\\pi, 2\\pi]$. Goal: axis intercepts and key points.",
+              "Period $\\pi$, amplitude $2$, range $[-1, 3]$.",
+              "$y$-intercept: $y = 2 + 1 = 3$, point $(0, 3)$.",
+              "$x$-intercepts: $\\cos(2x) = -\\frac{1}{2}$ with $2x \\in [-2\\pi, 4\\pi]$: $2x = -\\frac{4\\pi}{3}, -\\frac{2\\pi}{3}, \\frac{2\\pi}{3}, \\frac{4\\pi}{3}, \\frac{8\\pi}{3}, \\frac{10\\pi}{3}$.",
+              "So $x = -\\frac{2\\pi}{3}, -\\frac{\\pi}{3}, \\frac{\\pi}{3}, \\frac{2\\pi}{3}, \\frac{4\\pi}{3}, \\frac{5\\pi}{3}$.",
+              "Maxima ($3$) at $x = -\\pi, 0, \\pi, 2\\pi$; minima ($-1$) at $x = -\\frac{\\pi}{2}, \\frac{\\pi}{2}, \\frac{3\\pi}{2}$.",
+              "Sketch: three cycles from $(-\\pi, 3)$ to $(2\\pi, 3)$, dipping below the axis between each pair of intercepts around the minima."
+            ],
+            "finalAnswer": "$y$-intercept $(0,3)$; $x$-intercepts $-\\frac{2\\pi}{3}, -\\frac{\\pi}{3}, \\frac{\\pi}{3}, \\frac{2\\pi}{3}, \\frac{4\\pi}{3}, \\frac{5\\pi}{3}$; maxima $3$ at $x = -\\pi, 0, \\pi, 2\\pi$; minima $-1$ at $x = -\\frac{\\pi}{2}, \\frac{\\pi}{2}, \\frac{3\\pi}{2}$.",
+            "solutionFigures": [],
+            "tip": "Each minimum of $-1$ sits midway between a pair of intercepts; use this to check your list."
+          }
+        },
+        {
+          "id": "ch14_ex9_q2e",
+          "number": "2(e)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = 2\\cos 2\\left(x - \\frac{\\pi}{3}\\right) - 1$ for $x \\in [-\\pi, 2\\pi]$. Label the axis intercepts.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos u = \\frac{1}{2} \\iff u = \\pm\\frac{\\pi}{3} + 2k\\pi$.",
+            "steps": [
+              "Given: $y = 2\\cos 2\\left(x - \\frac{\\pi}{3}\\right) - 1$, $x \\in [-\\pi, 2\\pi]$. Goal: axis intercepts and key points.",
+              "Period $\\pi$, amplitude $2$, range $[-3, 1]$.",
+              "$y$-intercept: $y = 2\\cos\\left(-\\frac{2\\pi}{3}\\right) - 1 = 2\\left(-\\frac{1}{2}\\right) - 1 = -2$, point $(0, -2)$.",
+              "$x$-intercepts: $\\cos 2\\left(x - \\frac{\\pi}{3}\\right) = \\frac{1}{2} \\Rightarrow 2\\left(x - \\frac{\\pi}{3}\\right) = \\pm\\frac{\\pi}{3} + 2k\\pi \\Rightarrow x = \\frac{\\pi}{3} \\pm \\frac{\\pi}{6} + k\\pi$.",
+              "So $x = \\frac{\\pi}{2} + k\\pi$ or $x = \\frac{\\pi}{6} + k\\pi$. In $[-\\pi, 2\\pi]$: $x = -\\frac{5\\pi}{6}, -\\frac{\\pi}{2}, \\frac{\\pi}{6}, \\frac{\\pi}{2}, \\frac{7\\pi}{6}, \\frac{3\\pi}{2}$.",
+              "Maxima ($1$) at $x = \\frac{\\pi}{3} + k\\pi$: $-\\frac{2\\pi}{3}, \\frac{\\pi}{3}, \\frac{4\\pi}{3}$. Minima ($-3$) at $x = \\frac{5\\pi}{6} + k\\pi$: $-\\frac{\\pi}{6}, \\frac{5\\pi}{6}, \\frac{11\\pi}{6}$.",
+              "Endpoints: $y(-\\pi) = 2\\cos\\left(-\\frac{8\\pi}{3}\\right) - 1 = -2$, $y(2\\pi) = 2\\cos\\frac{10\\pi}{3} - 1 = -2$.",
+              "Sketch: three cycles, mostly below the axis, rising just above it (to $y = 1$) between each pair of intercepts."
+            ],
+            "finalAnswer": "$y$-intercept $(0,-2)$; $x$-intercepts $-\\frac{5\\pi}{6}, -\\frac{\\pi}{2}, \\frac{\\pi}{6}, \\frac{\\pi}{2}, \\frac{7\\pi}{6}, \\frac{3\\pi}{2}$; maxima $1$ at $x = -\\frac{2\\pi}{3}, \\frac{\\pi}{3}, \\frac{4\\pi}{3}$; minima $-3$ at $x = -\\frac{\\pi}{6}, \\frac{5\\pi}{6}, \\frac{11\\pi}{6}$; endpoints $(-\\pi,-2)$, $(2\\pi,-2)$.",
+            "solutionFigures": [],
+            "tip": "Using the general solution $\\pm\\frac{\\pi}{3} + 2k\\pi$ and then restricting is faster than listing angles quadrant by quadrant."
+          }
+        },
+        {
+          "id": "ch14_ex9_q2f",
+          "number": "2(f)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = 2\\sin 2\\left(x + \\frac{\\pi}{6}\\right) + 1$ for $x \\in [-\\pi, 2\\pi]$. Label the axis intercepts.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin u = -\\frac{1}{2} \\iff u = -\\frac{\\pi}{6} + 2k\\pi$ or $u = \\frac{7\\pi}{6} + 2k\\pi$.",
+            "steps": [
+              "Given: $y = 2\\sin 2\\left(x + \\frac{\\pi}{6}\\right) + 1$, $x \\in [-\\pi, 2\\pi]$. Goal: axis intercepts and key points.",
+              "Period $\\pi$, amplitude $2$, range $[-1, 3]$.",
+              "$y$-intercept: $y = 2\\sin\\frac{\\pi}{3} + 1 = \\sqrt{3} + 1$, point $(0, \\sqrt{3} + 1)$.",
+              "$x$-intercepts: $\\sin 2\\left(x + \\frac{\\pi}{6}\\right) = -\\frac{1}{2}$, so $2\\left(x + \\frac{\\pi}{6}\\right) = -\\frac{\\pi}{6} + 2k\\pi$ or $\\frac{7\\pi}{6} + 2k\\pi$.",
+              "Hence $x = -\\frac{\\pi}{4} + k\\pi$ or $x = \\frac{5\\pi}{12} + k\\pi$. In $[-\\pi, 2\\pi]$: $x = -\\frac{7\\pi}{12}, -\\frac{\\pi}{4}, \\frac{5\\pi}{12}, \\frac{3\\pi}{4}, \\frac{17\\pi}{12}, \\frac{7\\pi}{4}$.",
+              "Maxima ($3$) at $x = \\frac{\\pi}{12} + k\\pi$: $-\\frac{11\\pi}{12}, \\frac{\\pi}{12}, \\frac{13\\pi}{12}$. Minima ($-1$) at $x = \\frac{7\\pi}{12} + k\\pi$: $-\\frac{5\\pi}{12}, \\frac{7\\pi}{12}, \\frac{19\\pi}{12}$.",
+              "Endpoints: $y(-\\pi) = 2\\sin\\left(-\\frac{5\\pi}{3}\\right) + 1 = \\sqrt{3} + 1$; $y(2\\pi) = 2\\sin\\frac{13\\pi}{3} + 1 = \\sqrt{3} + 1$.",
+              "Sketch: three cycles, mostly above the axis, dipping to $-1$ between each pair of intercepts."
+            ],
+            "finalAnswer": "$y$-intercept $(0, \\sqrt{3}+1)$; $x$-intercepts $-\\frac{7\\pi}{12}, -\\frac{\\pi}{4}, \\frac{5\\pi}{12}, \\frac{3\\pi}{4}, \\frac{17\\pi}{12}, \\frac{7\\pi}{4}$; maxima $3$ at $x = -\\frac{11\\pi}{12}, \\frac{\\pi}{12}, \\frac{13\\pi}{12}$; minima $-1$ at $x = -\\frac{5\\pi}{12}, \\frac{7\\pi}{12}, \\frac{19\\pi}{12}$; endpoints $(-\\pi, \\sqrt{3}+1)$, $(2\\pi, \\sqrt{3}+1)$.",
+            "solutionFigures": [],
+            "tip": "Subtract the phase $\\frac{\\pi}{6}$ after halving, not before."
+          }
+        },
+        {
+          "id": "ch14_ex9_q3a",
+          "number": "3(a)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = 2\\sin 2\\left(x + \\frac{\\pi}{3}\\right) + 1$ for $x \\in [-\\pi, \\pi]$. Label the axis intercepts.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin u = -\\frac{1}{2} \\iff u = -\\frac{\\pi}{6} + 2k\\pi$ or $u = \\frac{7\\pi}{6} + 2k\\pi$.",
+            "steps": [
+              "Given: $y = 2\\sin 2\\left(x + \\frac{\\pi}{3}\\right) + 1$, $x \\in [-\\pi, \\pi]$. Goal: axis intercepts and key points.",
+              "Period $\\pi$, amplitude $2$, range $[-1, 3]$.",
+              "$y$-intercept: $y = 2\\sin\\frac{2\\pi}{3} + 1 = \\sqrt{3} + 1$.",
+              "$x$-intercepts: $2\\left(x + \\frac{\\pi}{3}\\right) = -\\frac{\\pi}{6} + 2k\\pi$ or $\\frac{7\\pi}{6} + 2k\\pi$, so $x = -\\frac{5\\pi}{12} + k\\pi$ or $x = \\frac{\\pi}{4} + k\\pi$.",
+              "In $[-\\pi, \\pi]$: $x = -\\frac{3\\pi}{4}, -\\frac{5\\pi}{12}, \\frac{\\pi}{4}, \\frac{7\\pi}{12}$.",
+              "Check $x = \\frac{\\pi}{4}$: $2\\sin\\left(\\frac{\\pi}{2} + \\frac{2\\pi}{3}\\right) + 1 = 2\\sin\\frac{7\\pi}{6} + 1 = -1 + 1 = 0$. Correct.",
+              "Maxima ($3$) at $x = -\\frac{\\pi}{12} + k\\pi$: $-\\frac{\\pi}{12}, \\frac{11\\pi}{12}$. Minima ($-1$) at $x = \\frac{5\\pi}{12} + k\\pi$: $-\\frac{7\\pi}{12}, \\frac{5\\pi}{12}$.",
+              "Endpoints: $y(\\pm\\pi) = 2\\sin\\left(\\frac{2\\pi}{3} \\pm 2\\pi\\right) + 1 = \\sqrt{3} + 1$."
+            ],
+            "finalAnswer": "$y$-intercept $(0, \\sqrt{3}+1)$; $x$-intercepts $-\\frac{3\\pi}{4}, -\\frac{5\\pi}{12}, \\frac{\\pi}{4}, \\frac{7\\pi}{12}$; maxima $3$ at $x = -\\frac{\\pi}{12}, \\frac{11\\pi}{12}$; minima $-1$ at $x = -\\frac{7\\pi}{12}, \\frac{5\\pi}{12}$; endpoints $(\\pm\\pi, \\sqrt{3}+1)$.",
+            "solutionFigures": [],
+            "tip": "Substitute one intercept back into the rule as a quick check."
+          }
+        },
+        {
+          "id": "ch14_ex9_q3b",
+          "number": "3(b)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = -2\\sin 2\\left(x + \\frac{\\pi}{6}\\right) + 1$ for $x \\in [-\\pi, \\pi]$. Label the axis intercepts.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin u = \\frac{1}{2} \\iff u = \\frac{\\pi}{6} + 2k\\pi$ or $u = \\frac{5\\pi}{6} + 2k\\pi$; negative $a$ reflects in the centre line.",
+            "steps": [
+              "Given: $y = -2\\sin 2\\left(x + \\frac{\\pi}{6}\\right) + 1$, $x \\in [-\\pi, \\pi]$. Goal: axis intercepts and key points.",
+              "Period $\\pi$, amplitude $2$, range $[-1, 3]$.",
+              "$y$-intercept: $y = -2\\sin\\frac{\\pi}{3} + 1 = 1 - \\sqrt{3}$.",
+              "$x$-intercepts: $\\sin 2\\left(x + \\frac{\\pi}{6}\\right) = \\frac{1}{2}$, so $2\\left(x + \\frac{\\pi}{6}\\right) = \\frac{\\pi}{6} + 2k\\pi$ or $\\frac{5\\pi}{6} + 2k\\pi$, giving $x = -\\frac{\\pi}{12} + k\\pi$ or $x = \\frac{\\pi}{4} + k\\pi$.",
+              "In $[-\\pi, \\pi]$: $x = -\\frac{3\\pi}{4}, -\\frac{\\pi}{12}, \\frac{\\pi}{4}, \\frac{11\\pi}{12}$.",
+              "Maxima ($3$, where the sine is $-1$): $x = \\frac{7\\pi}{12} + k\\pi$: $-\\frac{5\\pi}{12}, \\frac{7\\pi}{12}$. Minima ($-1$, where the sine is $1$): $x = \\frac{\\pi}{12} + k\\pi$: $-\\frac{11\\pi}{12}, \\frac{\\pi}{12}$.",
+              "Endpoints: $y(\\pm\\pi) = 1 - \\sqrt{3}$."
+            ],
+            "finalAnswer": "$y$-intercept $(0, 1-\\sqrt{3})$; $x$-intercepts $-\\frac{3\\pi}{4}, -\\frac{\\pi}{12}, \\frac{\\pi}{4}, \\frac{11\\pi}{12}$; maxima $3$ at $x = -\\frac{5\\pi}{12}, \\frac{7\\pi}{12}$; minima $-1$ at $x = -\\frac{11\\pi}{12}, \\frac{\\pi}{12}$; endpoints $(\\pm\\pi, 1-\\sqrt{3})$.",
+            "solutionFigures": [],
+            "tip": "With a negative coefficient, maxima of $y$ occur where the sine is $-1$."
+          }
+        },
+        {
+          "id": "ch14_ex9_q3c",
+          "number": "3(c)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = 2\\cos 2\\left(x + \\frac{\\pi}{4}\\right) + \\sqrt{3}$ for $x \\in [-\\pi, \\pi]$. Label the axis intercepts.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complementary relation $\\cos\\left(\\theta + \\frac{\\pi}{2}\\right) = -\\sin\\theta$; $\\sin u = \\frac{\\sqrt{3}}{2} \\iff u = \\frac{\\pi}{3}, \\frac{2\\pi}{3}$ (+ $2k\\pi$).",
+            "steps": [
+              "Given: $y = 2\\cos 2\\left(x + \\frac{\\pi}{4}\\right) + \\sqrt{3}$, $x \\in [-\\pi, \\pi]$. Goal: axis intercepts and key points.",
+              "Simplify: $2\\cos\\left(2x + \\frac{\\pi}{2}\\right) = -2\\sin(2x)$, so $y = \\sqrt{3} - 2\\sin(2x)$.",
+              "Period $\\pi$, amplitude $2$, range $[\\sqrt{3} - 2, \\sqrt{3} + 2]$.",
+              "$y$-intercept: $y = \\sqrt{3}$, point $(0, \\sqrt{3})$.",
+              "$x$-intercepts: $\\sin(2x) = \\frac{\\sqrt{3}}{2}$, $2x \\in [-2\\pi, 2\\pi]$: $2x = -\\frac{5\\pi}{3}, -\\frac{4\\pi}{3}, \\frac{\\pi}{3}, \\frac{2\\pi}{3}$, so $x = -\\frac{5\\pi}{6}, -\\frac{2\\pi}{3}, \\frac{\\pi}{6}, \\frac{\\pi}{3}$.",
+              "Maxima ($2 + \\sqrt{3}$) where $\\sin 2x = -1$: $x = -\\frac{\\pi}{4}, \\frac{3\\pi}{4}$. Minima ($\\sqrt{3} - 2$) where $\\sin 2x = 1$: $x = -\\frac{3\\pi}{4}, \\frac{\\pi}{4}$.",
+              "Endpoints: $y(\\pm\\pi) = \\sqrt{3}$.",
+              "Sketch: two cycles mostly above the axis, dipping slightly below (to $\\approx -0.27$) between $-\\frac{5\\pi}{6}$ and $-\\frac{2\\pi}{3}$, and between $\\frac{\\pi}{6}$ and $\\frac{\\pi}{3}$."
+            ],
+            "finalAnswer": "$y$-intercept $(0, \\sqrt{3})$; $x$-intercepts $-\\frac{5\\pi}{6}, -\\frac{2\\pi}{3}, \\frac{\\pi}{6}, \\frac{\\pi}{3}$; maxima $2+\\sqrt{3}$ at $x = -\\frac{\\pi}{4}, \\frac{3\\pi}{4}$; minima $\\sqrt{3}-2$ at $x = -\\frac{3\\pi}{4}, \\frac{\\pi}{4}$; endpoints $(\\pm\\pi, \\sqrt{3})$.",
+            "solutionFigures": [],
+            "tip": "Rewriting with a complementary relation can turn a shifted cosine into a simple sine."
+          }
+        }
+      ]
+    }
+  ]
+}

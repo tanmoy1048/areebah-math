@@ -1,0 +1,370 @@
+{
+  "chapterId": "ch14",
+  "chapterTitle": "Circular functions (Methods 12)",
+  "topics": [
+    {
+      "topicId": "14C",
+      "topicTitle": "Another circular function: tangent",
+      "exercises": [
+        {
+          "id": "ch14_ex3_q1a",
+          "number": "1(a)",
+          "category": null,
+          "questionText": "Evaluate: $\\tan\\pi$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan\\theta = \\dfrac{\\sin\\theta}{\\cos\\theta}$, defined only when $\\cos\\theta \\neq 0$",
+            "steps": [
+              "Given: $\\theta = \\pi$. Goal: $\\tan\\pi$.",
+              "$P(\\pi) = (-1, 0)$, so $\\cos\\pi = -1$ and $\\sin\\pi = 0$.",
+              "$\\tan\\pi = \\dfrac{\\sin\\pi}{\\cos\\pi} = \\dfrac{0}{-1} = 0$.",
+              "Check: the line through $O$ and $P(\\pi)$ is the $x$-axis, which meets the tangent line $x = 1$ at $(1, 0)$, so $\\tan\\pi = 0$. ✓"
+            ],
+            "finalAnswer": "$\\tan\\pi = 0$",
+            "solutionFigures": [],
+            "tip": "$\\tan\\theta = 0$ whenever $\\sin\\theta = 0$, that is at every integer multiple of $\\pi$."
+          }
+        },
+        {
+          "id": "ch14_ex3_q1b",
+          "number": "1(b)",
+          "category": null,
+          "questionText": "Evaluate: $\\tan(-\\pi)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan\\theta = \\dfrac{\\sin\\theta}{\\cos\\theta}$",
+            "steps": [
+              "Given: $\\theta = -\\pi$. Goal: $\\tan(-\\pi)$.",
+              "A half-turn clockwise also reaches $(-1, 0)$, so $\\cos(-\\pi) = -1$ and $\\sin(-\\pi) = 0$.",
+              "$\\tan(-\\pi) = \\dfrac{0}{-1} = 0$.",
+              "Check: $\\tan(-\\theta) = -\\tan\\theta$, so $\\tan(-\\pi) = -\\tan\\pi = -0 = 0$. ✓"
+            ],
+            "finalAnswer": "$\\tan(-\\pi) = 0$",
+            "solutionFigures": [],
+            "tip": "Write $0$, not $-0$, as the final answer."
+          }
+        },
+        {
+          "id": "ch14_ex3_q1c",
+          "number": "1(c)",
+          "category": null,
+          "questionText": "Evaluate: $\\tan\\left(\\dfrac{7\\pi}{2}\\right)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan\\theta = \\dfrac{\\sin\\theta}{\\cos\\theta}$ is undefined when $\\cos\\theta = 0$, i.e. at odd multiples of $\\dfrac{\\pi}{2}$",
+            "steps": [
+              "Given: $\\theta = \\dfrac{7\\pi}{2}$. Goal: $\\tan\\theta$.",
+              "$\\dfrac{7\\pi}{2} = 2\\pi + \\dfrac{3\\pi}{2}$, so $P\\left(\\dfrac{7\\pi}{2}\\right) = (0, -1)$.",
+              "So $\\cos\\dfrac{7\\pi}{2} = 0$ and $\\sin\\dfrac{7\\pi}{2} = -1$.",
+              "$\\tan\\dfrac{7\\pi}{2} = \\dfrac{-1}{0}$, which is division by zero.",
+              "Geometric check: $OP$ lies along the $y$-axis, which is parallel to the tangent line $x = 1$, so they never meet. ✓",
+              "So $\\tan\\dfrac{7\\pi}{2}$ is undefined."
+            ],
+            "finalAnswer": "Undefined",
+            "solutionFigures": [],
+            "tip": "A calculator may give a huge number or an error here; the correct answer is 'undefined'."
+          }
+        },
+        {
+          "id": "ch14_ex3_q1d",
+          "number": "1(d)",
+          "category": null,
+          "questionText": "Evaluate: $\\tan(-2\\pi)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan\\theta = \\dfrac{\\sin\\theta}{\\cos\\theta}$",
+            "steps": [
+              "Given: $\\theta = -2\\pi$. Goal: $\\tan(-2\\pi)$.",
+              "A full clockwise turn returns to $(1, 0)$: $\\cos(-2\\pi) = 1$, $\\sin(-2\\pi) = 0$.",
+              "$\\tan(-2\\pi) = \\dfrac{0}{1} = 0$."
+            ],
+            "finalAnswer": "$\\tan(-2\\pi) = 0$",
+            "solutionFigures": [],
+            "tip": "Tangent has period $\\pi$, so $\\tan(k\\pi) = \\tan 0 = 0$ for every integer $k$."
+          }
+        },
+        {
+          "id": "ch14_ex3_q1e",
+          "number": "1(e)",
+          "category": null,
+          "questionText": "Evaluate: $\\tan\\left(\\dfrac{5\\pi}{2}\\right)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan\\theta = \\dfrac{\\sin\\theta}{\\cos\\theta}$ is undefined when $\\cos\\theta = 0$",
+            "steps": [
+              "Given: $\\theta = \\dfrac{5\\pi}{2}$. Goal: $\\tan\\theta$.",
+              "$\\dfrac{5\\pi}{2} = 2\\pi + \\dfrac{\\pi}{2}$, so $P\\left(\\dfrac{5\\pi}{2}\\right) = (0, 1)$.",
+              "So $\\cos\\dfrac{5\\pi}{2} = 0$ and $\\sin\\dfrac{5\\pi}{2} = 1$.",
+              "$\\tan\\dfrac{5\\pi}{2} = \\dfrac{1}{0}$, which is division by zero.",
+              "So $\\tan\\dfrac{5\\pi}{2}$ is undefined."
+            ],
+            "finalAnswer": "Undefined",
+            "solutionFigures": [],
+            "tip": "$\\frac{5\\pi}{2}$ is an odd multiple of $\\frac{\\pi}{2}$, which is excluded from the domain of tan."
+          }
+        },
+        {
+          "id": "ch14_ex3_q1f",
+          "number": "1(f)",
+          "category": null,
+          "questionText": "Evaluate: $\\tan\\left(-\\dfrac{\\pi}{2}\\right)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan\\theta = \\dfrac{\\sin\\theta}{\\cos\\theta}$ is undefined when $\\cos\\theta = 0$",
+            "steps": [
+              "Given: $\\theta = -\\dfrac{\\pi}{2}$. Goal: $\\tan\\theta$.",
+              "A quarter-turn clockwise gives $P\\left(-\\dfrac{\\pi}{2}\\right) = (0, -1)$.",
+              "So $\\cos\\left(-\\dfrac{\\pi}{2}\\right) = 0$ and $\\sin\\left(-\\dfrac{\\pi}{2}\\right) = -1$.",
+              "$\\tan\\left(-\\dfrac{\\pi}{2}\\right) = \\dfrac{-1}{0}$, which is division by zero.",
+              "So $\\tan\\left(-\\dfrac{\\pi}{2}\\right)$ is undefined."
+            ],
+            "finalAnswer": "Undefined",
+            "solutionFigures": [],
+            "tip": "The domain of tan is $\\mathbb{R} \\setminus \\{\\pm\\frac{\\pi}{2}, \\pm\\frac{3\\pi}{2}, \\ldots\\}$."
+          }
+        },
+        {
+          "id": "ch14_ex3_q2a",
+          "number": "2(a)",
+          "category": null,
+          "questionText": "Use a calculator to find, correct to two decimal places: $\\tan 1.6$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan\\theta = \\dfrac{\\sin\\theta}{\\cos\\theta}$; $\\theta$ in radians",
+            "steps": [
+              "Given: $\\theta = 1.6$ radians. Goal: $\\tan 1.6$ to 2 d.p.",
+              "Radian mode: $\\tan 1.6 = -34.2325\\ldots$",
+              "Check: $1.6$ is just past $\\frac{\\pi}{2} \\approx 1.571$, in quadrant 2, where $\\cos$ is a small negative number and $\\sin \\approx 1$, so $\\tan$ is large and negative. ✓",
+              "So $\\tan 1.6 \\approx -34.23$."
+            ],
+            "finalAnswer": "$-34.23$",
+            "solutionFigures": [],
+            "tip": "Near odd multiples of $\\frac{\\pi}{2}$, tan becomes very large in size; this is expected."
+          }
+        },
+        {
+          "id": "ch14_ex3_q2b",
+          "number": "2(b)",
+          "category": null,
+          "questionText": "Use a calculator to find, correct to two decimal places: $\\tan(-1.2)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan\\theta = \\dfrac{\\sin\\theta}{\\cos\\theta}$; $\\tan(-\\theta) = -\\tan\\theta$",
+            "steps": [
+              "Given: $\\theta = -1.2$ radians. Goal: $\\tan(-1.2)$ to 2 d.p.",
+              "Radian mode: $\\tan(-1.2) = -2.5721\\ldots$",
+              "Check: $-1.2$ is in quadrant 4 (sin negative, cos positive), so tan is negative. Also $\\tan 1.2 = 2.5721\\ldots$ ✓",
+              "So $\\tan(-1.2) \\approx -2.57$."
+            ],
+            "finalAnswer": "$-2.57$",
+            "solutionFigures": [],
+            "tip": "Use brackets around the negative angle when entering it."
+          }
+        },
+        {
+          "id": "ch14_ex3_q2c",
+          "number": "2(c)",
+          "category": null,
+          "questionText": "Use a calculator to find, correct to two decimal places: $\\tan 136^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(180^\\circ - \\theta) = -\\tan\\theta$",
+            "steps": [
+              "Given: $136^\\circ$. Goal: $\\tan 136^\\circ$ to 2 d.p.",
+              "Degree mode: $\\tan 136^\\circ = -0.9656\\ldots$",
+              "Check: $136^\\circ = 180^\\circ - 44^\\circ$, so $\\tan 136^\\circ = -\\tan 44^\\circ \\approx -0.966$; slightly smaller in size than $\\tan 45^\\circ = 1$. ✓",
+              "So $\\tan 136^\\circ \\approx -0.97$."
+            ],
+            "finalAnswer": "$-0.97$",
+            "solutionFigures": [],
+            "tip": "Switch to degree mode for angles given in degrees."
+          }
+        },
+        {
+          "id": "ch14_ex3_q2d",
+          "number": "2(d)",
+          "category": null,
+          "questionText": "Use a calculator to find, correct to two decimal places: $\\tan(-54^\\circ)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(-\\theta) = -\\tan\\theta$",
+            "steps": [
+              "Given: $-54^\\circ$. Goal: $\\tan(-54^\\circ)$ to 2 d.p.",
+              "Degree mode: $\\tan(-54^\\circ) = -1.3763\\ldots$",
+              "Check: $\\tan 54^\\circ \\approx 1.376$ and tan is odd, so the answer is its negative; it is quadrant 4, where tan is negative. ✓",
+              "So $\\tan(-54^\\circ) \\approx -1.38$."
+            ],
+            "finalAnswer": "$-1.38$",
+            "solutionFigures": [],
+            "tip": "Angles between $45^\\circ$ and $90^\\circ$ have $|\\tan| > 1$."
+          }
+        },
+        {
+          "id": "ch14_ex3_q2e",
+          "number": "2(e)",
+          "category": null,
+          "questionText": "Use a calculator to find, correct to two decimal places: $\\tan 3.9$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\pi + \\theta) = \\tan\\theta$",
+            "steps": [
+              "Given: $\\theta = 3.9$ radians. Goal: $\\tan 3.9$ to 2 d.p.",
+              "Radian mode: $\\tan 3.9 = 0.9474\\ldots$",
+              "Check: $3.9$ is in quadrant 3 (between $\\pi$ and $\\frac{3\\pi}{2}$), where sin and cos are both negative, so tan is positive. ✓",
+              "So $\\tan 3.9 \\approx 0.95$."
+            ],
+            "finalAnswer": "$0.95$",
+            "solutionFigures": [],
+            "tip": "Tan is positive in quadrants 1 and 3."
+          }
+        },
+        {
+          "id": "ch14_ex3_q2f",
+          "number": "2(f)",
+          "category": null,
+          "questionText": "Use a calculator to find, correct to two decimal places: $\\tan(-2.5)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan\\theta = \\dfrac{\\sin\\theta}{\\cos\\theta}$; $\\theta$ in radians",
+            "steps": [
+              "Given: $\\theta = -2.5$ radians. Goal: $\\tan(-2.5)$ to 2 d.p.",
+              "Radian mode: $\\tan(-2.5) = 0.7470\\ldots$",
+              "Check: $-2.5$ lies between $-\\pi$ and $-\\frac{\\pi}{2}$, in quadrant 3, where tan is positive. ✓",
+              "So $\\tan(-2.5) \\approx 0.75$."
+            ],
+            "finalAnswer": "$0.75$",
+            "solutionFigures": [],
+            "tip": "A negative angle can still give a positive tan; locate the quadrant first."
+          }
+        },
+        {
+          "id": "ch14_ex3_q2g",
+          "number": "2(g)",
+          "category": null,
+          "questionText": "Use a calculator to find, correct to two decimal places: $\\tan 239^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(180^\\circ + \\theta) = \\tan\\theta$",
+            "steps": [
+              "Given: $239^\\circ$. Goal: $\\tan 239^\\circ$ to 2 d.p.",
+              "Degree mode: $\\tan 239^\\circ = 1.6642\\ldots$",
+              "Check: $239^\\circ = 180^\\circ + 59^\\circ$, so $\\tan 239^\\circ = \\tan 59^\\circ \\approx 1.66$ (as in Example 7). ✓",
+              "So $\\tan 239^\\circ \\approx 1.66$."
+            ],
+            "finalAnswer": "$1.66$",
+            "solutionFigures": [],
+            "tip": "Tan repeats every $180^\\circ$, which gives a quick check."
+          }
+        },
+        {
+          "id": "ch14_ex3_q3a",
+          "number": "3(a)",
+          "category": null,
+          "questionText": "For the following value of $\\theta$, find $\\tan\\theta$: $\\theta = 180^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan\\theta = \\dfrac{\\sin\\theta}{\\cos\\theta}$",
+            "steps": [
+              "Given: $\\theta = 180^\\circ$. Goal: $\\tan\\theta$.",
+              "$P(180^\\circ) = (-1, 0)$: $\\sin 180^\\circ = 0$, $\\cos 180^\\circ = -1$.",
+              "$\\tan 180^\\circ = \\dfrac{0}{-1} = 0$."
+            ],
+            "finalAnswer": "$\\tan 180^\\circ = 0$",
+            "solutionFigures": [],
+            "tip": "Every multiple of $180^\\circ$ lies on the $x$-axis, so its tan is 0."
+          }
+        },
+        {
+          "id": "ch14_ex3_q3b",
+          "number": "3(b)",
+          "category": null,
+          "questionText": "For the following value of $\\theta$, find $\\tan\\theta$: $\\theta = 360^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan\\theta = \\dfrac{\\sin\\theta}{\\cos\\theta}$",
+            "steps": [
+              "Given: $\\theta = 360^\\circ$. Goal: $\\tan\\theta$.",
+              "$P(360^\\circ) = (1, 0)$: $\\sin 360^\\circ = 0$, $\\cos 360^\\circ = 1$.",
+              "$\\tan 360^\\circ = \\dfrac{0}{1} = 0$."
+            ],
+            "finalAnswer": "$\\tan 360^\\circ = 0$",
+            "solutionFigures": [],
+            "tip": "A full turn brings you back to the start, so $\\tan 360^\\circ = \\tan 0^\\circ$."
+          }
+        },
+        {
+          "id": "ch14_ex3_q3c",
+          "number": "3(c)",
+          "category": null,
+          "questionText": "For the following value of $\\theta$, find $\\tan\\theta$: $\\theta = 0$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan\\theta = \\dfrac{\\sin\\theta}{\\cos\\theta}$",
+            "steps": [
+              "Given: $\\theta = 0$. Goal: $\\tan 0$.",
+              "$P(0) = (1, 0)$: $\\sin 0 = 0$, $\\cos 0 = 1$.",
+              "$\\tan 0 = \\dfrac{0}{1} = 0$."
+            ],
+            "finalAnswer": "$\\tan 0 = 0$",
+            "solutionFigures": [],
+            "tip": "The angle 0 is the same in degrees and radians."
+          }
+        },
+        {
+          "id": "ch14_ex3_q3d",
+          "number": "3(d)",
+          "category": null,
+          "questionText": "For the following value of $\\theta$, find $\\tan\\theta$: $\\theta = -180^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan\\theta = \\dfrac{\\sin\\theta}{\\cos\\theta}$",
+            "steps": [
+              "Given: $\\theta = -180^\\circ$. Goal: $\\tan\\theta$.",
+              "A half-turn clockwise reaches $(-1, 0)$: $\\sin(-180^\\circ) = 0$, $\\cos(-180^\\circ) = -1$.",
+              "$\\tan(-180^\\circ) = \\dfrac{0}{-1} = 0$."
+            ],
+            "finalAnswer": "$\\tan(-180^\\circ) = 0$",
+            "solutionFigures": [],
+            "tip": "Zero divided by any non-zero number is zero."
+          }
+        },
+        {
+          "id": "ch14_ex3_q3e",
+          "number": "3(e)",
+          "category": null,
+          "questionText": "For the following value of $\\theta$, find $\\tan\\theta$: $\\theta = -540^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan\\theta = \\dfrac{\\sin\\theta}{\\cos\\theta}$; $P(\\theta + 360^\\circ) = P(\\theta)$",
+            "steps": [
+              "Given: $\\theta = -540^\\circ$. Goal: $\\tan\\theta$.",
+              "Add $720^\\circ$: $-540^\\circ + 720^\\circ = 180^\\circ$, so $P(-540^\\circ) = P(180^\\circ) = (-1, 0)$.",
+              "$\\tan(-540^\\circ) = \\dfrac{0}{-1} = 0$."
+            ],
+            "finalAnswer": "$\\tan(-540^\\circ) = 0$",
+            "solutionFigures": [],
+            "tip": "$-540^\\circ = -3 \\times 180^\\circ$, a multiple of $180^\\circ$, so tan is 0 immediately."
+          }
+        },
+        {
+          "id": "ch14_ex3_q3f",
+          "number": "3(f)",
+          "category": null,
+          "questionText": "For the following value of $\\theta$, find $\\tan\\theta$: $\\theta = 720^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan\\theta = \\dfrac{\\sin\\theta}{\\cos\\theta}$; $P(\\theta + 360^\\circ) = P(\\theta)$",
+            "steps": [
+              "Given: $\\theta = 720^\\circ$. Goal: $\\tan\\theta$.",
+              "$720^\\circ$ is two full turns, so $P(720^\\circ) = (1, 0)$.",
+              "$\\tan 720^\\circ = \\dfrac{0}{1} = 0$."
+            ],
+            "finalAnswer": "$\\tan 720^\\circ = 0$",
+            "solutionFigures": [],
+            "tip": "Remove whole turns of $360^\\circ$ before evaluating."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,488 @@
+{
+  "chapterId": "ch05",
+  "chapterTitle": "Trigonometry I",
+  "topics": [
+    {
+      "topicId": "5.3",
+      "topicTitle": "Pythagoras' theorem in three dimensions (10A)",
+      "exercises": [
+        {
+          "id": "ch5_ex3_q1a",
+          "number": "1(a)",
+          "category": "Practice",
+          "questionText": "Calculate the length of AG in the figure, correct to 2 decimal places. The figure is a cube ABCDEFGH with top face ABCD and bottom face EFGH (E below A, F below B, G below C, H below D). The edges HG = 8, GF = 8 and BF = 8. AG is the space diagonal from top corner A to the opposite bottom corner G.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem applied twice: base diagonal $EG^2 = EH^2 + HG^2$, then space diagonal $AG^2 = AE^2 + EG^2$",
+            "steps": [
+              "Given: cube with edges of length 8. Goal: space diagonal AG.",
+              "Step 1, base diagonal EG in the right triangle EHG: $EG^2 = 8^2 + 8^2 = 64 + 64 = 128$",
+              "Step 2, AG in the right triangle AEG (AE is vertical, so $\\angle AEG = 90^\\circ$): $AG^2 = AE^2 + EG^2$",
+              "$AG^2 = 8^2 + 128 = 64 + 128 = 192$",
+              "$AG = \\sqrt{192} \\approx 13.8564...$",
+              "Round to 2 decimal places: $AG \\approx 13.86$"
+            ],
+            "finalAnswer": "Therefore AG is approximately 13.86 units.",
+            "solutionFigures": [],
+            "tip": "Keep $EG^2 = 128$ rather than rounding EG; you only need its square in the next step."
+          }
+        },
+        {
+          "id": "ch5_ex3_q1b",
+          "number": "1(b)",
+          "category": "Practice",
+          "questionText": "Calculate the length of AG in the figure, correct to 2 decimal places. The figure is a rectangular prism ABCDEFGH with top face ABCD and bottom face EFGH (E below A, F below B, G below C, H below D). HG = 5, GF = 5 and the vertical edge BF = 12. AG is the space diagonal from top corner A to the opposite bottom corner G.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Space diagonal of a cuboid: $AG^2 = l^2 + w^2 + h^2$ (from Pythagoras used twice)",
+            "steps": [
+              "Given: base $5 \\times 5$, height $12$. Goal: AG.",
+              "Base diagonal: $EG^2 = 5^2 + 5^2 = 25 + 25 = 50$",
+              "Triangle AEG is right-angled at E: $AG^2 = AE^2 + EG^2 = 12^2 + 50 = 144 + 50 = 194$",
+              "$AG = \\sqrt{194} \\approx 13.9284...$",
+              "Round to 2 decimal places: $AG \\approx 13.93$"
+            ],
+            "finalAnswer": "Therefore AG is approximately 13.93 units.",
+            "solutionFigures": [],
+            "tip": "Find a right-angled triangle that contains the required line, then find any missing side of that triangle first."
+          }
+        },
+        {
+          "id": "ch5_ex3_q1c",
+          "number": "1(c)",
+          "category": "Practice",
+          "questionText": "Calculate the length of AG in the figure, correct to 2 decimal places. The figure is a rectangular prism ABCDEFGH with top face ABCD and bottom face EFGH (E below A, F below B, G below C, H below D). HG = 11.5, GF = 9.2 and the vertical edge BF = 10.4. AG is the space diagonal from top corner A to the opposite bottom corner G.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Space diagonal of a cuboid: $AG^2 = l^2 + w^2 + h^2$",
+            "steps": [
+              "Given: length $11.5$, width $9.2$, height $10.4$. Goal: AG.",
+              "Base diagonal: $EG^2 = 11.5^2 + 9.2^2 = 132.25 + 84.64 = 216.89$",
+              "Triangle AEG is right-angled at E: $AG^2 = 10.4^2 + 216.89 = 108.16 + 216.89 = 325.05$",
+              "$AG = \\sqrt{325.05} \\approx 18.0291...$",
+              "Round to 2 decimal places: $AG \\approx 18.03$"
+            ],
+            "finalAnswer": "Therefore AG is approximately 18.03 units.",
+            "solutionFigures": [],
+            "tip": "The vertical edge AE has the same length as BF (10.4)."
+          }
+        },
+        {
+          "id": "ch5_ex3_q2",
+          "number": "2",
+          "category": "Consolidate",
+          "questionText": "Consider the wedge shown. Calculate the length of CE in the wedge and, hence, obtain the length of AC. The wedge has a rectangular base DCFE with DC = 10 and CF = 7. The back vertical face has BF = 4 (B directly above F) and A directly above E, so AE = 4. The sloping rectangular face is ABCD. CE is a diagonal of the base, and AC runs from the top back corner A to the front corner C.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem in the base triangle CDE, then in the vertical triangle AEC",
+            "steps": [
+              "Given: DC = 10, CF = DE = 7, AE = BF = 4. Goal: CE, then AC.",
+              "Triangle CDE is right-angled at D: $CE^2 = DC^2 + DE^2 = 10^2 + 7^2 = 100 + 49 = 149$",
+              "$CE = \\sqrt{149} \\approx 12.2066 \\approx 12.21$",
+              "Triangle AEC is right-angled at E (AE is vertical): $AC^2 = AE^2 + CE^2 = 4^2 + 149 = 16 + 149 = 165$",
+              "$AC = \\sqrt{165} \\approx 12.8452 \\approx 12.85$"
+            ],
+            "finalAnswer": "Therefore CE ≈ 12.21 and AC ≈ 12.85 (2 decimal places).",
+            "solutionFigures": [],
+            "tip": "Use $CE^2 = 149$ exactly in the second step to avoid rounding errors."
+          }
+        },
+        {
+          "id": "ch5_ex3_q3",
+          "number": "3",
+          "category": "Master",
+          "questionText": "If DC = 3.2 m, AC = 5.8 m, and CF = 4.5 m in the figure, calculate the lengths of AD and BF. The figure is a wedge: the sloping rectangular face is ABCD (A top-left, B top-right, D bottom-left, C bottom-right), the base runs back from DC, and F is the bottom-back corner directly below B, so BF is vertical and triangle BCF is right-angled at F. AC is a diagonal of the sloping face.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $a^2 = c^2 - b^2$",
+            "steps": [
+              "Given: DC = 3.2 m, diagonal AC = 5.8 m, CF = 4.5 m. Goal: AD and BF.",
+              "ABCD is a rectangle, so triangle ADC is right-angled at D with hypotenuse AC.",
+              "$AD^2 = AC^2 - DC^2 = 5.8^2 - 3.2^2 = 33.64 - 10.24 = 23.4$",
+              "$AD = \\sqrt{23.4} \\approx 4.8374 \\approx 4.84$ m",
+              "Opposite sides of the rectangle are equal, so $BC = AD = \\sqrt{23.4}$ m.",
+              "Triangle BFC is right-angled at F with hypotenuse BC: $BF^2 = BC^2 - CF^2 = 23.4 - 4.5^2 = 23.4 - 20.25 = 3.15$",
+              "$BF = \\sqrt{3.15} \\approx 1.7748 \\approx 1.77$ m"
+            ],
+            "finalAnswer": "Therefore AD ≈ 4.84 m and BF ≈ 1.77 m.",
+            "solutionFigures": [],
+            "tip": "Using the rounded value 4.84 for BC gives 1.79 m; keep $BC^2 = 23.4$ exactly."
+          }
+        },
+        {
+          "id": "ch5_ex3_q4",
+          "number": "4",
+          "category": "Practice",
+          "questionText": "Consider the pyramid shown. Calculate the length of BD and, hence, the height of the pyramid. The pyramid VABCD has a square base ABCD with sides DC = 6 and CB = 6, and the sloping edge VB = 6 (all sloping edges are equal). BD is a diagonal of the base.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: diagonal $BD^2 = BC^2 + CD^2$; height $h^2 = VB^2 - \\left(\\frac{BD}{2}\\right)^2$",
+            "steps": [
+              "Given: square base of side 6, sloping edge 6. Goal: BD and the height $h$.",
+              "Triangle BCD is right-angled at C: $BD^2 = 6^2 + 6^2 = 72$",
+              "$BD = \\sqrt{72} \\approx 8.4853 \\approx 8.49$",
+              "The apex V is directly above the centre O of the base, and $OB = \\frac{1}{2}BD = \\frac{\\sqrt{72}}{2}$, so $OB^2 = \\frac{72}{4} = 18$.",
+              "Triangle VOB is right-angled at O: $h^2 = VB^2 - OB^2 = 36 - 18 = 18$",
+              "$h = \\sqrt{18} \\approx 4.2426 \\approx 4.24$"
+            ],
+            "finalAnswer": "Therefore BD ≈ 8.49 and the height of the pyramid is ≈ 4.24 units.",
+            "solutionFigures": [],
+            "tip": "The height meets the base at its centre, so use half of the diagonal, not the whole diagonal."
+          }
+        },
+        {
+          "id": "ch5_ex3_q5",
+          "number": "5",
+          "category": "Consolidate",
+          "questionText": "The pyramid ABCDE has a square base ABCD. The pyramid is 20 cm high (EM = 20 cm, where M is the centre of the base). Each sloping edge measures 30 cm. Calculate the length of the sides of the base.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $MC^2 = EC^2 - EM^2$, then $s^2 + s^2 = AC^2$",
+            "steps": [
+              "Given: height EM = 20 cm, sloping edge EC = 30 cm. Goal: side length $s$ of the base.",
+              "Triangle EMC is right-angled at M: $MC^2 = 30^2 - 20^2 = 900 - 400 = 500$",
+              "$MC = \\sqrt{500} \\approx 22.36$ cm, so the diagonal $AC = 2\\sqrt{500} \\approx 44.72$ cm, and $AC^2 = 4 \\times 500 = 2000$.",
+              "In the square base: $s^2 + s^2 = AC^2$, so $2s^2 = 2000$",
+              "$s^2 = 1000$",
+              "$s = \\sqrt{1000} \\approx 31.6228 \\approx 31.62$ cm"
+            ],
+            "finalAnswer": "Therefore each side of the base is approximately 31.62 cm.",
+            "solutionFigures": [],
+            "tip": "MC is half the diagonal of the base, not half a side."
+          }
+        },
+        {
+          "id": "ch5_ex3_q6",
+          "number": "6",
+          "category": "Master",
+          "questionText": "The sloping side of a cone is 16 cm and the height is 12 cm. Determine the length of the radius of the base, $r$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $r^2 = l^2 - h^2$ (slant height $l$ is the hypotenuse)",
+            "steps": [
+              "Given: slant height $l = 16$ cm, height $h = 12$ cm. Goal: radius $r$.",
+              "The height, radius and slant height form a right-angled triangle with the slant height as hypotenuse.",
+              "$r^2 = 16^2 - 12^2 = 256 - 144 = 112$",
+              "$r = \\sqrt{112} \\approx 10.5830 \\approx 10.58$ cm"
+            ],
+            "finalAnswer": "Therefore the radius of the base is approximately 10.58 cm.",
+            "solutionFigures": [],
+            "tip": "The sloping side is the longest side here, so subtract."
+          }
+        },
+        {
+          "id": "ch5_ex3_q7",
+          "number": "7",
+          "category": "Practice",
+          "questionText": "A piece of cheese in the shape of a right-angled wedge sits on a table. It has a base measuring 20 mm by 10 mm, and is 4 mm high at the thickest point, as shown in the figure. A fly crawls diagonally across the sloping face. Determine how far, to the nearest millimetre, the fly walks. In the figure the base is AD = 20 mm by DF = 10 mm, the vertical back edge CF = 4 mm (C above F), and the sloping face is ABCD; the fly walks from A to C.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem twice: $DC^2 = DF^2 + CF^2$, then $AC^2 = AD^2 + DC^2$",
+            "steps": [
+              "Given: AD = 20 mm, DF = 10 mm, CF = 4 mm. Goal: diagonal AC of the sloping face.",
+              "Triangle DFC is right-angled at F: $DC^2 = 10^2 + 4^2 = 100 + 16 = 116$",
+              "The sloping face ABCD is a rectangle, so triangle ADC is right-angled at D: $AC^2 = AD^2 + DC^2 = 20^2 + 116 = 400 + 116 = 516$",
+              "$AC = \\sqrt{516} \\approx 22.7156$ mm",
+              "Round to the nearest millimetre: $AC \\approx 23$ mm"
+            ],
+            "finalAnswer": "Therefore the fly walks approximately 23 mm.",
+            "solutionFigures": [],
+            "tip": "Find the sloping edge DC first; it is a side of the triangle containing AC."
+          }
+        },
+        {
+          "id": "ch5_ex3_q8ai",
+          "number": "8(a)(i)",
+          "category": "Consolidate",
+          "questionText": "A 7 m high flagpole is in the corner of a rectangular park that measures 200 m by 120 m. In the diagram the pole stands at one corner; A is the corner 200 m away along one side and B is the corner 120 m away along the other side. Give your answer correct to 2 decimal places. Calculate the length of the diagonal of the park.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $d^2 = l^2 + w^2$",
+            "steps": [
+              "Given: park 200 m by 120 m. Goal: diagonal $d$.",
+              "$d^2 = 200^2 + 120^2 = 40\\,000 + 14\\,400 = 54\\,400$",
+              "$d = \\sqrt{54\\,400} \\approx 233.2381$",
+              "Round to 2 decimal places: $d \\approx 233.24$ m"
+            ],
+            "finalAnswer": "Therefore the diagonal of the park is approximately 233.24 m.",
+            "solutionFigures": [],
+            "tip": "The park is flat, so this is an ordinary 2D Pythagoras calculation."
+          }
+        },
+        {
+          "id": "ch5_ex3_q8aii",
+          "number": "8(a)(ii)",
+          "category": "Consolidate",
+          "questionText": "A 7 m high flagpole is in the corner of a rectangular park that measures 200 m by 120 m. In the diagram the pole stands at one corner; A is the corner 200 m away along one side and B is the corner 120 m away along the other side. Give your answer correct to 2 decimal places. Calculate the distance from A to the top of the pole.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: A is 200 m from the base of the pole; pole height 7 m (vertical). Goal: distance $d_A$ from A to the top of the pole.",
+              "The pole, the ground from the pole to A, and the line from A to the top form a right-angled triangle.",
+              "$d_A^2 = 200^2 + 7^2 = 40\\,000 + 49 = 40\\,049$",
+              "$d_A = \\sqrt{40\\,049} \\approx 200.1225$",
+              "Round to 2 decimal places: $d_A \\approx 200.12$ m"
+            ],
+            "finalAnswer": "Therefore the distance from A to the top of the pole is approximately 200.12 m.",
+            "solutionFigures": [],
+            "tip": "The pole is vertical, so it is perpendicular to every line along the ground."
+          }
+        },
+        {
+          "id": "ch5_ex3_q8aiii",
+          "number": "8(a)(iii)",
+          "category": "Consolidate",
+          "questionText": "A 7 m high flagpole is in the corner of a rectangular park that measures 200 m by 120 m. In the diagram the pole stands at one corner; A is the corner 200 m away along one side and B is the corner 120 m away along the other side. Give your answer correct to 2 decimal places. Calculate the distance from B to the top of the pole.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: B is 120 m from the base of the pole; pole height 7 m. Goal: distance $d_B$ from B to the top of the pole.",
+              "$d_B^2 = 120^2 + 7^2 = 14\\,400 + 49 = 14\\,449$",
+              "$d_B = \\sqrt{14\\,449} \\approx 120.2040$",
+              "Round to 2 decimal places: $d_B \\approx 120.20$ m"
+            ],
+            "finalAnswer": "Therefore the distance from B to the top of the pole is approximately 120.20 m.",
+            "solutionFigures": [],
+            "tip": "Keep the trailing zero: 120.20 m shows 2 decimal places."
+          }
+        },
+        {
+          "id": "ch5_ex3_q8b",
+          "number": "8(b)",
+          "category": "Consolidate",
+          "questionText": "A 7 m high flagpole is in the corner of a rectangular park that measures 200 m by 120 m. Give your answer correct to 2 decimal places. A bird flies from the top of the pole to the centre of the park. Calculate how far it flies.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: diagonal of the park $= \\sqrt{54\\,400}$ m, pole height 7 m. Goal: distance from the top of the pole to the centre.",
+              "The centre is halfway along the diagonal: distance from the pole's base $= \\frac{1}{2}\\sqrt{54\\,400} \\approx 116.6190$ m, so its square is $\\frac{54\\,400}{4} = 13\\,600$.",
+              "$d^2 = 13\\,600 + 7^2 = 13\\,600 + 49 = 13\\,649$",
+              "$d = \\sqrt{13\\,649} \\approx 116.8289$",
+              "Round to 2 decimal places: $d \\approx 116.83$ m"
+            ],
+            "finalAnswer": "Therefore the bird flies approximately 116.83 m.",
+            "solutionFigures": [],
+            "tip": "The centre of a rectangle is the midpoint of its diagonal."
+          }
+        },
+        {
+          "id": "ch5_ex3_q9",
+          "number": "9",
+          "category": "Master",
+          "questionText": "A candlestick is in the shape of two cones, joined at the vertices as shown (a small cone on top, upside down, meeting a larger cone below at their points). The smaller cone has a diameter and sloping side of 7 cm, and the larger one has a diameter and sloping side of 10 cm. Calculate the total height of the candlestick, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Height of a cone: $h^2 = l^2 - r^2$ (slant height $l$ is the hypotenuse)",
+            "steps": [
+              "Given: small cone $l = 7$ cm, $r = 3.5$ cm; large cone $l = 10$ cm, $r = 5$ cm. Goal: total height.",
+              "Small cone: $h_1^2 = 7^2 - 3.5^2 = 49 - 12.25 = 36.75$, so $h_1 = \\sqrt{36.75} \\approx 6.0622$ cm",
+              "Large cone: $h_2^2 = 10^2 - 5^2 = 100 - 25 = 75$, so $h_2 = \\sqrt{75} \\approx 8.6603$ cm",
+              "Total height $= h_1 + h_2 \\approx 6.0622 + 8.6603 = 14.7224$ cm",
+              "Round to 2 decimal places: $14.72$ cm"
+            ],
+            "finalAnswer": "Therefore the total height of the candlestick is approximately 14.72 cm.",
+            "solutionFigures": [],
+            "tip": "Use the radius (half the diameter) in the right-angled triangle."
+          }
+        },
+        {
+          "id": "ch5_ex3_q10",
+          "number": "10",
+          "category": "Master",
+          "questionText": "The total height of the shape below is 15 cm. Calculate the length of the sloping side of the pyramid, correct to 2 decimal places. The shape is a square-based pyramid sitting on top of a square prism. The prism has a base 11 cm by 11 cm and height 5 cm; the total height from the bottom of the prism to the apex of the pyramid is 15 cm. The sloping side is a sloping edge of the pyramid, from the apex to a top corner of the prism.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: half-diagonal $= \\frac{s\\sqrt{2}}{2}$, then sloping edge$^2 = h^2 + (\\text{half-diagonal})^2$",
+            "steps": [
+              "Given: square side 11 cm, prism height 5 cm, total height 15 cm. Goal: sloping edge $e$.",
+              "Height of the pyramid: $h = 15 - 5 = 10$ cm",
+              "Diagonal of the square: $d^2 = 11^2 + 11^2 = 242$, so $d = \\sqrt{242} \\approx 15.556$ cm",
+              "Half-diagonal: $\\frac{d}{2} \\approx 7.7782$ cm, so $\\left(\\frac{d}{2}\\right)^2 = \\frac{242}{4} = 60.5$",
+              "Right triangle (height, half-diagonal, edge): $e^2 = 10^2 + 60.5 = 160.5$",
+              "$e = \\sqrt{160.5} \\approx 12.6689$",
+              "Round to 2 decimal places: $e \\approx 12.67$ cm"
+            ],
+            "finalAnswer": "Therefore the sloping side of the pyramid is approximately 12.67 cm.",
+            "solutionFigures": [],
+            "tip": "Subtract the prism height first: the pyramid alone is only 10 cm tall."
+          }
+        },
+        {
+          "id": "ch5_ex3_q11",
+          "number": "11",
+          "category": "Practice",
+          "questionText": "A sandcastle is in the shape of a truncated cone as shown. The top diameter is 20 cm, the vertical height is 30 cm and the sloping side is 32 cm. Calculate the length of the diameter of the base, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $x^2 = l^2 - h^2$",
+            "steps": [
+              "Given: top diameter 20 cm (radius 10 cm), height 30 cm, sloping side 32 cm. Goal: base diameter.",
+              "Drop a vertical from the edge of the top to the base. The right triangle has hypotenuse 32 cm, vertical side 30 cm and horizontal side $x$ (extra radius).",
+              "$x^2 = 32^2 - 30^2 = 1024 - 900 = 124$",
+              "$x = \\sqrt{124} \\approx 11.1355$ cm",
+              "Base radius $= 10 + 11.1355 = 21.1355$ cm",
+              "Base diameter $= 2 \\times 21.1355 \\approx 42.2711$ cm",
+              "Round to 2 decimal places: $42.27$ cm"
+            ],
+            "finalAnswer": "Therefore the diameter of the base is approximately 42.27 cm.",
+            "solutionFigures": [],
+            "tip": "The extra width appears on both sides, so the diameter increases by $2x$."
+          }
+        },
+        {
+          "id": "ch5_ex3_q12",
+          "number": "12",
+          "category": "Practice",
+          "questionText": "Stephano is renovating his apartment, which he accesses through two corridors. The corridors of the apartment building are 2 m wide with 2 m high ceilings, and the first corridor is at right angles to the second. Show that he can carry lengths of timber up to 6 m long to his apartment.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem in two dimensions (floor plan) then in three dimensions (tilting the timber up to the ceiling)",
+            "steps": [
+              "Given: two perpendicular corridors, each 2 m wide and 2 m high. Goal: show a 6 m length of timber can get around the corner.",
+              "Floor plan: the tightest position is when the timber touches the inner corner at $45^\\circ$ to both corridors, reaching from the outer wall of one corridor to the outer wall of the other.",
+              "In that position each half of the timber crosses a 2 m wide corridor at $45^\\circ$, forming an isosceles right triangle with shorter sides 2 m and 2 m: half-length$^2 = 2^2 + 2^2 = 8$, so each half is $\\sqrt{8} = 2\\sqrt{2}$ m.",
+              "Horizontal length that fits: $2 \\times 2\\sqrt{2} = 4\\sqrt{2} \\approx 5.66$ m, so $(4\\sqrt{2})^2 = 32$.",
+              "Now tilt the timber so one end is on the floor and the other at the 2 m ceiling. The horizontal length, the 2 m vertical rise and the timber form a right-angled triangle.",
+              "$L^2 = 32 + 2^2 = 32 + 4 = 36$",
+              "$L = \\sqrt{36} = 6$ m"
+            ],
+            "finalAnswer": "Therefore, by tilting the timber from floor to ceiling across the corner, a length of $\\sqrt{(4\\sqrt{2})^2 + 2^2} = \\sqrt{36} = 6$ m fits, so he can carry timber up to 6 m long.",
+            "solutionFigures": [],
+            "tip": "Using the height of the corridor adds a third dimension, which increases the length that will fit."
+          }
+        },
+        {
+          "id": "ch5_ex3_q13",
+          "number": "13",
+          "category": "Consolidate",
+          "questionText": "The Great Pyramid in Egypt is a square-based pyramid. The square base has a side length of 230.35 metres and the perpendicular height is 146.71 metres. Determine the slant height, $s$, of the great pyramid. Give your answer correct to 1 decimal place. (In the diagram, $s$ runs from the apex to the midpoint of a base edge, meeting that edge at a right angle.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $s^2 = h^2 + \\left(\\frac{b}{2}\\right)^2$",
+            "steps": [
+              "Given: base side $b = 230.35$ m, height $h = 146.71$ m. Goal: slant height $s$.",
+              "From the centre of the base to the midpoint of an edge is half the side length: $\\frac{230.35}{2} = 115.175$ m.",
+              "The height, this half-side and $s$ form a right-angled triangle with $s$ as hypotenuse.",
+              "$s^2 = 146.71^2 + 115.175^2 = 21\\,523.8241 + 13\\,265.2806... = 34\\,789.1047...$",
+              "$s = \\sqrt{34\\,789.1047...} \\approx 186.518$",
+              "Round to 1 decimal place: $s \\approx 186.5$ m"
+            ],
+            "finalAnswer": "Therefore the slant height of the Great Pyramid is approximately 186.5 m.",
+            "solutionFigures": [],
+            "tip": "The slant height goes to the middle of an edge, so use half the side, not half the diagonal."
+          }
+        },
+        {
+          "id": "ch5_ex3_q14a",
+          "number": "14(a)",
+          "category": "Master",
+          "questionText": "A tent is in the shape of a triangular prism, with a height of 140 cm as shown in the diagram. The width across the base of the door is 1 m and the tent is 2.5 m long. The door is an isosceles triangle. Calculate the length of each sloping side, in metres.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: height 140 cm = 1.4 m, door base 1 m. Goal: sloping side $l$ of the triangular door.",
+              "The height bisects the base, giving a right-angled triangle with shorter sides 1.4 m and 0.5 m.",
+              "$l^2 = 1.4^2 + 0.5^2 = 1.96 + 0.25 = 2.21$",
+              "$l = \\sqrt{2.21} \\approx 1.4866$",
+              "Round to 2 decimal places: $l \\approx 1.49$ m"
+            ],
+            "finalAnswer": "Therefore each sloping side is approximately 1.49 m.",
+            "solutionFigures": [],
+            "tip": "Convert 140 cm to 1.4 m so all lengths are in metres."
+          }
+        },
+        {
+          "id": "ch5_ex3_q14b",
+          "number": "14(b)",
+          "category": "Master",
+          "questionText": "A tent is in the shape of a triangular prism, with a height of 140 cm as shown in the diagram. The width across the base of the door is 1 m and the tent is 2.5 m long. Using your answer from part a calculate the area of fabric used in the construction of the sloping rectangles which form the sides. Show full working.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a rectangle $A = l \\times w$",
+            "steps": [
+              "Given: each sloping rectangle measures $\\sqrt{2.21} \\approx 1.4866$ m by 2.5 m; there are 2 of them. Goal: total area.",
+              "Area of one rectangle $= 2.5 \\times \\sqrt{2.21} \\approx 2.5 \\times 1.4866 = 3.7165$ m$^2$",
+              "Total area $= 2 \\times 3.7165 \\approx 7.4330$ m$^2$",
+              "Round to 2 decimal places: $7.43$ m$^2$"
+            ],
+            "finalAnswer": "Therefore about 7.43 m$^2$ of fabric is used for the two sloping sides. (Using the rounded 1.49 m gives $2 \\times 2.5 \\times 1.49 = 7.45$ m$^2$.)",
+            "solutionFigures": [],
+            "tip": "There are two sloping rectangles, so double the area of one."
+          }
+        },
+        {
+          "id": "ch5_ex3_q15",
+          "number": "15",
+          "category": "Practice",
+          "questionText": "Determine the exact length of the longest steel rod that can sit inside a cuboid with dimensions 32 cm × 15 cm × 4 cm. Ignore the thickness of the steel rod.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Space diagonal of a cuboid: $d^2 = l^2 + w^2 + h^2$",
+            "steps": [
+              "Given: $l = 32$, $w = 15$, $h = 4$ cm. Goal: exact longest rod length.",
+              "The longest rod lies along the space diagonal.",
+              "Base diagonal: $32^2 + 15^2 = 1024 + 225 = 1249$",
+              "Space diagonal: $d^2 = 1249 + 4^2 = 1249 + 16 = 1265$",
+              "$d = \\sqrt{1265}$ cm (approximately 35.57 cm)"
+            ],
+            "finalAnswer": "Therefore the longest rod is exactly $\\sqrt{1265}$ cm long.",
+            "solutionFigures": [],
+            "tip": "'Exact' means leave the answer as a surd; do not round."
+          }
+        },
+        {
+          "id": "ch5_ex3_q16",
+          "number": "16",
+          "category": "Consolidate",
+          "questionText": "Angles ABD, CBD and ABC are right angles. Determine the value of $h$, correct to 3 decimal places. In the diagram, BD = $h$ is vertical, AD = 35, CD = 37 and AC = 36.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem in the three right triangles ABD, CBD and ABC",
+            "steps": [
+              "Given: AD = 35, CD = 37, AC = 36, right angles at B in triangles ABD, CBD and ABC. Goal: $h = BD$.",
+              "Triangle ABD: $AB^2 + h^2 = 35^2 = 1225$ … (1)",
+              "Triangle CBD: $BC^2 + h^2 = 37^2 = 1369$ … (2)",
+              "Triangle ABC: $AB^2 + BC^2 = 36^2 = 1296$ … (3)",
+              "Add (1) and (2): $AB^2 + BC^2 + 2h^2 = 1225 + 1369 = 2594$",
+              "Substitute (3): $1296 + 2h^2 = 2594$",
+              "$2h^2 = 1298$, so $h^2 = 649$",
+              "$h = \\sqrt{649} \\approx 25.4755$",
+              "Round to 3 decimal places: $h \\approx 25.475$"
+            ],
+            "finalAnswer": "Therefore $h \\approx 25.475$.",
+            "solutionFigures": [],
+            "tip": "With three unknowns, write one Pythagoras equation per right triangle and combine them."
+          }
+        },
+        {
+          "id": "ch5_ex3_q17",
+          "number": "17",
+          "category": "Master",
+          "questionText": "The roof of a squash centre is constructed to allow for maximum use of sunlight. Determine the value of $h$, giving your answer correct to 1 decimal place. The diagram shows a roof shaped like a triangular prism lying on its side. The triangular end has a base split by the foot of the vertical height $h$ into a left part $x$ and a right part 20 m; the right sloping side has length $x$ and the left sloping side has length $y$, and $h$ meets the base at a right angle. The left sloping face is a rectangle 35 m deep with a diagonal of 57.08 m (its sides are $y$ and 35 m).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem in the sloping rectangle, then in the two right triangles either side of $h$",
+            "steps": [
+              "Given: sloping rectangle with sides $y$ and 35 m and diagonal 57.08 m; end triangle with base parts $x$ and 20 m, right sloping side $x$, left sloping side $y$, height $h$. Goal: $h$.",
+              "Sloping rectangle: $y^2 = 57.08^2 - 35^2 = 3258.1264 - 1225 = 2033.1264$",
+              "Right-hand triangle (height $h$, base 20, hypotenuse $x$): $x^2 = h^2 + 20^2 = h^2 + 400$",
+              "Left-hand triangle (height $h$, base $x$, hypotenuse $y$): $y^2 = h^2 + x^2$",
+              "Substitute $x^2$: $y^2 = h^2 + h^2 + 400 = 2h^2 + 400$",
+              "$2033.1264 = 2h^2 + 400$",
+              "$2h^2 = 1633.1264$, so $h^2 = 816.5632$",
+              "$h = \\sqrt{816.5632} \\approx 28.5756$",
+              "Round to 1 decimal place: $h \\approx 28.6$ m"
+            ],
+            "finalAnswer": "Therefore $h \\approx 28.6$ m.",
+            "solutionFigures": [],
+            "tip": "Both small triangles share the height $h$; expressing everything in terms of $h$ lets you solve one equation."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,952 @@
+{
+  "chapterId": "ch14",
+  "chapterTitle": "Circular functions (Methods 12)",
+  "topics": [
+    {
+      "topicId": "14A",
+      "topicTitle": "Measuring angles in degrees and radians",
+      "exercises": [
+        {
+          "id": "ch14_ex1_q1a",
+          "number": "1(a)",
+          "category": null,
+          "questionText": "Express the following angle in radian measure in terms of $\\pi$: $60^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Degrees to radians: $\\theta^c = \\theta^\\circ \\times \\dfrac{\\pi}{180}$",
+            "steps": [
+              "Given: $60^\\circ$. Goal: the radian measure as a multiple of $\\pi$.",
+              "Multiply by $\\dfrac{\\pi}{180}$: $60 \\times \\dfrac{\\pi}{180} = \\dfrac{60\\pi}{180}$.",
+              "Simplify the fraction (divide top and bottom by 60): $\\dfrac{60\\pi}{180} = \\dfrac{\\pi}{3}$.",
+              "Check: $\\dfrac{\\pi}{3} \\times \\dfrac{180}{\\pi} = 60^\\circ$. ✓",
+              "So $60^\\circ = \\dfrac{\\pi}{3}$ radians."
+            ],
+            "finalAnswer": "$\\dfrac{\\pi}{3}$",
+            "solutionFigures": [],
+            "tip": "Since $180^\\circ = \\pi$, a quick check is that $60^\\circ$ is one third of $180^\\circ$, so it is $\\frac{\\pi}{3}$."
+          }
+        },
+        {
+          "id": "ch14_ex1_q1b",
+          "number": "1(b)",
+          "category": null,
+          "questionText": "Express the following angle in radian measure in terms of $\\pi$: $144^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Degrees to radians: $\\theta^c = \\theta^\\circ \\times \\dfrac{\\pi}{180}$",
+            "steps": [
+              "Given: $144^\\circ$. Goal: the radian measure as a multiple of $\\pi$.",
+              "Multiply by $\\dfrac{\\pi}{180}$: $144 \\times \\dfrac{\\pi}{180} = \\dfrac{144\\pi}{180}$.",
+              "Simplify (HCF of 144 and 180 is 36): $\\dfrac{144\\pi}{180} = \\dfrac{4\\pi}{5}$.",
+              "Check: $\\dfrac{4\\pi}{5} \\times \\dfrac{180}{\\pi} = \\dfrac{720}{5} = 144^\\circ$. ✓",
+              "So $144^\\circ = \\dfrac{4\\pi}{5}$ radians."
+            ],
+            "finalAnswer": "$\\dfrac{4\\pi}{5}$",
+            "solutionFigures": [],
+            "tip": "Cancel by the highest common factor in one step to avoid arithmetic slips."
+          }
+        },
+        {
+          "id": "ch14_ex1_q1c",
+          "number": "1(c)",
+          "category": null,
+          "questionText": "Express the following angle in radian measure in terms of $\\pi$: $240^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Degrees to radians: $\\theta^c = \\theta^\\circ \\times \\dfrac{\\pi}{180}$",
+            "steps": [
+              "Given: $240^\\circ$. Goal: the radian measure as a multiple of $\\pi$.",
+              "Multiply by $\\dfrac{\\pi}{180}$: $240 \\times \\dfrac{\\pi}{180} = \\dfrac{240\\pi}{180}$.",
+              "Simplify (divide by 60): $\\dfrac{240\\pi}{180} = \\dfrac{4\\pi}{3}$.",
+              "Check: $\\dfrac{4\\pi}{3} \\times \\dfrac{180}{\\pi} = 240^\\circ$. ✓",
+              "So $240^\\circ = \\dfrac{4\\pi}{3}$ radians."
+            ],
+            "finalAnswer": "$\\dfrac{4\\pi}{3}$",
+            "solutionFigures": [],
+            "tip": "$240^\\circ = 180^\\circ + 60^\\circ$, so the answer must be $\\pi + \\frac{\\pi}{3} = \\frac{4\\pi}{3}$."
+          }
+        },
+        {
+          "id": "ch14_ex1_q1d",
+          "number": "1(d)",
+          "category": null,
+          "questionText": "Express the following angle in radian measure in terms of $\\pi$: $330^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Degrees to radians: $\\theta^c = \\theta^\\circ \\times \\dfrac{\\pi}{180}$",
+            "steps": [
+              "Given: $330^\\circ$. Goal: the radian measure as a multiple of $\\pi$.",
+              "Multiply by $\\dfrac{\\pi}{180}$: $330 \\times \\dfrac{\\pi}{180} = \\dfrac{330\\pi}{180}$.",
+              "Simplify (divide by 30): $\\dfrac{330\\pi}{180} = \\dfrac{11\\pi}{6}$.",
+              "Check: $330^\\circ = 360^\\circ - 30^\\circ$ and $2\\pi - \\dfrac{\\pi}{6} = \\dfrac{11\\pi}{6}$. ✓",
+              "So $330^\\circ = \\dfrac{11\\pi}{6}$ radians."
+            ],
+            "finalAnswer": "$\\dfrac{11\\pi}{6}$",
+            "solutionFigures": [],
+            "tip": "Writing the angle as $360^\\circ$ minus a familiar angle gives a fast second check."
+          }
+        },
+        {
+          "id": "ch14_ex1_q1e",
+          "number": "1(e)",
+          "category": null,
+          "questionText": "Express the following angle in radian measure in terms of $\\pi$: $420^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Degrees to radians: $\\theta^c = \\theta^\\circ \\times \\dfrac{\\pi}{180}$",
+            "steps": [
+              "Given: $420^\\circ$. Goal: the radian measure as a multiple of $\\pi$.",
+              "Multiply by $\\dfrac{\\pi}{180}$: $420 \\times \\dfrac{\\pi}{180} = \\dfrac{420\\pi}{180}$.",
+              "Simplify (divide by 60): $\\dfrac{420\\pi}{180} = \\dfrac{7\\pi}{3}$.",
+              "Check: $420^\\circ = 360^\\circ + 60^\\circ$ and $2\\pi + \\dfrac{\\pi}{3} = \\dfrac{7\\pi}{3}$. ✓",
+              "So $420^\\circ = \\dfrac{7\\pi}{3}$ radians."
+            ],
+            "finalAnswer": "$\\dfrac{7\\pi}{3}$",
+            "solutionFigures": [],
+            "tip": "Angles larger than $360^\\circ$ convert in exactly the same way; do not subtract $360^\\circ$ unless asked."
+          }
+        },
+        {
+          "id": "ch14_ex1_q1f",
+          "number": "1(f)",
+          "category": null,
+          "questionText": "Express the following angle in radian measure in terms of $\\pi$: $480^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Degrees to radians: $\\theta^c = \\theta^\\circ \\times \\dfrac{\\pi}{180}$",
+            "steps": [
+              "Given: $480^\\circ$. Goal: the radian measure as a multiple of $\\pi$.",
+              "Multiply by $\\dfrac{\\pi}{180}$: $480 \\times \\dfrac{\\pi}{180} = \\dfrac{480\\pi}{180}$.",
+              "Simplify (divide by 60): $\\dfrac{480\\pi}{180} = \\dfrac{8\\pi}{3}$.",
+              "Check: $480^\\circ = 360^\\circ + 120^\\circ$ and $2\\pi + \\dfrac{2\\pi}{3} = \\dfrac{8\\pi}{3}$. ✓",
+              "So $480^\\circ = \\dfrac{8\\pi}{3}$ radians."
+            ],
+            "finalAnswer": "$\\dfrac{8\\pi}{3}$",
+            "solutionFigures": [],
+            "tip": "Leave the answer as an improper fraction of $\\pi$, not a mixed number."
+          }
+        },
+        {
+          "id": "ch14_ex1_q2a",
+          "number": "2(a)",
+          "category": null,
+          "questionText": "Express, in degrees, the angle with the following radian measure: $\\dfrac{2\\pi}{3}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Radians to degrees: $\\theta^\\circ = \\theta^c \\times \\dfrac{180}{\\pi}$ (equivalently, replace $\\pi$ by $180^\\circ$)",
+            "steps": [
+              "Given: $\\dfrac{2\\pi}{3}$ radians. Goal: the angle in degrees.",
+              "Multiply by $\\dfrac{180}{\\pi}$: $\\dfrac{2\\pi}{3} \\times \\dfrac{180}{\\pi} = \\dfrac{2 \\times 180}{3}$.",
+              "Evaluate: $\\dfrac{360}{3} = 120$.",
+              "Check: $120 \\times \\dfrac{\\pi}{180} = \\dfrac{2\\pi}{3}$. ✓",
+              "So $\\dfrac{2\\pi}{3} = 120^\\circ$."
+            ],
+            "finalAnswer": "$120^\\circ$",
+            "solutionFigures": [],
+            "tip": "A shortcut: substitute $\\pi = 180^\\circ$ directly, giving $\\frac{2 \\times 180^\\circ}{3}$."
+          }
+        },
+        {
+          "id": "ch14_ex1_q2b",
+          "number": "2(b)",
+          "category": null,
+          "questionText": "Express, in degrees, the angle with the following radian measure: $\\dfrac{5\\pi}{6}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Radians to degrees: $\\theta^\\circ = \\theta^c \\times \\dfrac{180}{\\pi}$",
+            "steps": [
+              "Given: $\\dfrac{5\\pi}{6}$ radians. Goal: the angle in degrees.",
+              "Multiply by $\\dfrac{180}{\\pi}$: $\\dfrac{5\\pi}{6} \\times \\dfrac{180}{\\pi} = \\dfrac{5 \\times 180}{6}$.",
+              "Evaluate: $5 \\times 30 = 150$.",
+              "Check: $150 \\times \\dfrac{\\pi}{180} = \\dfrac{5\\pi}{6}$. ✓",
+              "So $\\dfrac{5\\pi}{6} = 150^\\circ$."
+            ],
+            "finalAnswer": "$150^\\circ$",
+            "solutionFigures": [],
+            "tip": "Since $\\frac{\\pi}{6} = 30^\\circ$, any multiple of $\\frac{\\pi}{6}$ is that multiple of $30^\\circ$."
+          }
+        },
+        {
+          "id": "ch14_ex1_q2c",
+          "number": "2(c)",
+          "category": null,
+          "questionText": "Express, in degrees, the angle with the following radian measure: $\\dfrac{7\\pi}{6}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Radians to degrees: $\\theta^\\circ = \\theta^c \\times \\dfrac{180}{\\pi}$",
+            "steps": [
+              "Given: $\\dfrac{7\\pi}{6}$ radians. Goal: the angle in degrees.",
+              "Multiply by $\\dfrac{180}{\\pi}$: $\\dfrac{7\\pi}{6} \\times \\dfrac{180}{\\pi} = \\dfrac{7 \\times 180}{6}$.",
+              "Evaluate: $7 \\times 30 = 210$.",
+              "Check: $210 \\times \\dfrac{\\pi}{180} = \\dfrac{7\\pi}{6}$. ✓",
+              "So $\\dfrac{7\\pi}{6} = 210^\\circ$."
+            ],
+            "finalAnswer": "$210^\\circ$",
+            "solutionFigures": [],
+            "tip": "$\\frac{7\\pi}{6} = \\pi + \\frac{\\pi}{6}$, i.e. $180^\\circ + 30^\\circ$: a quick sanity check."
+          }
+        },
+        {
+          "id": "ch14_ex1_q2d",
+          "number": "2(d)",
+          "category": null,
+          "questionText": "Express, in degrees, the angle with the following radian measure: $0.9\\pi$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Radians to degrees: $\\theta^\\circ = \\theta^c \\times \\dfrac{180}{\\pi}$",
+            "steps": [
+              "Given: $0.9\\pi$ radians. Goal: the angle in degrees.",
+              "Multiply by $\\dfrac{180}{\\pi}$: $0.9\\pi \\times \\dfrac{180}{\\pi} = 0.9 \\times 180$.",
+              "Evaluate: $0.9 \\times 180 = 162$.",
+              "Check: $162 \\times \\dfrac{\\pi}{180} = 0.9\\pi$. ✓",
+              "So $0.9\\pi = 162^\\circ$."
+            ],
+            "finalAnswer": "$162^\\circ$",
+            "solutionFigures": [],
+            "tip": "Decimal multiples of $\\pi$ convert the same way: just multiply the decimal by 180."
+          }
+        },
+        {
+          "id": "ch14_ex1_q2e",
+          "number": "2(e)",
+          "category": null,
+          "questionText": "Express, in degrees, the angle with the following radian measure: $\\dfrac{5\\pi}{9}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Radians to degrees: $\\theta^\\circ = \\theta^c \\times \\dfrac{180}{\\pi}$",
+            "steps": [
+              "Given: $\\dfrac{5\\pi}{9}$ radians. Goal: the angle in degrees.",
+              "Multiply by $\\dfrac{180}{\\pi}$: $\\dfrac{5\\pi}{9} \\times \\dfrac{180}{\\pi} = \\dfrac{5 \\times 180}{9}$.",
+              "Evaluate: $5 \\times 20 = 100$.",
+              "Check: $100 \\times \\dfrac{\\pi}{180} = \\dfrac{5\\pi}{9}$. ✓",
+              "So $\\dfrac{5\\pi}{9} = 100^\\circ$."
+            ],
+            "finalAnswer": "$100^\\circ$",
+            "solutionFigures": [],
+            "tip": "$\\frac{\\pi}{9} = 20^\\circ$, so multiply 20 by the numerator's coefficient."
+          }
+        },
+        {
+          "id": "ch14_ex1_q2f",
+          "number": "2(f)",
+          "category": null,
+          "questionText": "Express, in degrees, the angle with the following radian measure: $\\dfrac{9\\pi}{5}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Radians to degrees: $\\theta^\\circ = \\theta^c \\times \\dfrac{180}{\\pi}$",
+            "steps": [
+              "Given: $\\dfrac{9\\pi}{5}$ radians. Goal: the angle in degrees.",
+              "Multiply by $\\dfrac{180}{\\pi}$: $\\dfrac{9\\pi}{5} \\times \\dfrac{180}{\\pi} = \\dfrac{9 \\times 180}{5}$.",
+              "Evaluate: $9 \\times 36 = 324$.",
+              "Check: $324 \\times \\dfrac{\\pi}{180} = \\dfrac{324\\pi}{180} = \\dfrac{9\\pi}{5}$. ✓",
+              "So $\\dfrac{9\\pi}{5} = 324^\\circ$."
+            ],
+            "finalAnswer": "$324^\\circ$",
+            "solutionFigures": [],
+            "tip": "$\\frac{\\pi}{5} = 36^\\circ$; knowing these unit fractions speeds up conversions."
+          }
+        },
+        {
+          "id": "ch14_ex1_q2g",
+          "number": "2(g)",
+          "category": null,
+          "questionText": "Express, in degrees, the angle with the following radian measure: $\\dfrac{11\\pi}{9}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Radians to degrees: $\\theta^\\circ = \\theta^c \\times \\dfrac{180}{\\pi}$",
+            "steps": [
+              "Given: $\\dfrac{11\\pi}{9}$ radians. Goal: the angle in degrees.",
+              "Multiply by $\\dfrac{180}{\\pi}$: $\\dfrac{11\\pi}{9} \\times \\dfrac{180}{\\pi} = \\dfrac{11 \\times 180}{9}$.",
+              "Evaluate: $11 \\times 20 = 220$.",
+              "Check: $220 \\times \\dfrac{\\pi}{180} = \\dfrac{11\\pi}{9}$. ✓",
+              "So $\\dfrac{11\\pi}{9} = 220^\\circ$."
+            ],
+            "finalAnswer": "$220^\\circ$",
+            "solutionFigures": [],
+            "tip": "Cancel the $\\pi$ terms first; the remaining arithmetic is then simple."
+          }
+        },
+        {
+          "id": "ch14_ex1_q2h",
+          "number": "2(h)",
+          "category": null,
+          "questionText": "Express, in degrees, the angle with the following radian measure: $1.8\\pi$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Radians to degrees: $\\theta^\\circ = \\theta^c \\times \\dfrac{180}{\\pi}$",
+            "steps": [
+              "Given: $1.8\\pi$ radians. Goal: the angle in degrees.",
+              "Multiply by $\\dfrac{180}{\\pi}$: $1.8\\pi \\times \\dfrac{180}{\\pi} = 1.8 \\times 180$.",
+              "Evaluate: $1.8 \\times 180 = 324$.",
+              "Check: $1.8 = \\dfrac{9}{5}$, and part (f) gave $\\dfrac{9\\pi}{5} = 324^\\circ$. ✓",
+              "So $1.8\\pi = 324^\\circ$."
+            ],
+            "finalAnswer": "$324^\\circ$",
+            "solutionFigures": [],
+            "tip": "Notice $1.8\\pi$ and $\\frac{9\\pi}{5}$ are the same angle written two ways."
+          }
+        },
+        {
+          "id": "ch14_ex1_q3a",
+          "number": "3(a)",
+          "category": null,
+          "questionText": "Use a calculator to convert the following angle from radians to degrees: $0.6$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Radians to degrees: $\\theta^\\circ = \\theta^c \\times \\dfrac{180}{\\pi}$",
+            "steps": [
+              "Given: $0.6$ radians. Goal: the angle in degrees (rounded to two decimal places, since no accuracy is specified).",
+              "$0.6 \\times \\dfrac{180}{\\pi} = \\dfrac{108}{\\pi}$.",
+              "Calculator: $\\dfrac{108}{\\pi} = 34.3775\\ldots$",
+              "Check: 1 radian $\\approx 57.3^\\circ$, and $0.6 \\times 57.3 \\approx 34.4$. ✓",
+              "So $0.6$ radians $\\approx 34.38^\\circ$ (to 2 d.p.)."
+            ],
+            "finalAnswer": "$34.38^\\circ$ (to 2 d.p.)",
+            "solutionFigures": [],
+            "tip": "Use the exact $\\pi$ key, not 3.14, so the rounding error does not creep in."
+          }
+        },
+        {
+          "id": "ch14_ex1_q3b",
+          "number": "3(b)",
+          "category": null,
+          "questionText": "Use a calculator to convert the following angle from radians to degrees: $1.89$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Radians to degrees: $\\theta^\\circ = \\theta^c \\times \\dfrac{180}{\\pi}$",
+            "steps": [
+              "Given: $1.89$ radians. Goal: the angle in degrees (to two decimal places).",
+              "$1.89 \\times \\dfrac{180}{\\pi} = \\dfrac{340.2}{\\pi}$.",
+              "Calculator: $\\dfrac{340.2}{\\pi} = 108.2890\\ldots$",
+              "Check: $1.89 \\times 57.3 \\approx 108.3$. ✓",
+              "So $1.89$ radians $\\approx 108.29^\\circ$ (to 2 d.p.)."
+            ],
+            "finalAnswer": "$108.29^\\circ$ (to 2 d.p.)",
+            "solutionFigures": [],
+            "tip": "An angle a bit bigger than $\\frac{\\pi}{2} \\approx 1.57$ must be a bit bigger than $90^\\circ$."
+          }
+        },
+        {
+          "id": "ch14_ex1_q3c",
+          "number": "3(c)",
+          "category": null,
+          "questionText": "Use a calculator to convert the following angle from radians to degrees: $2.9$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Radians to degrees: $\\theta^\\circ = \\theta^c \\times \\dfrac{180}{\\pi}$",
+            "steps": [
+              "Given: $2.9$ radians. Goal: the angle in degrees (to two decimal places).",
+              "$2.9 \\times \\dfrac{180}{\\pi} = \\dfrac{522}{\\pi}$.",
+              "Calculator: $\\dfrac{522}{\\pi} = 166.1578\\ldots$",
+              "Check: $2.9$ is a little less than $\\pi \\approx 3.14$, so the angle is a little less than $180^\\circ$. ✓",
+              "So $2.9$ radians $\\approx 166.16^\\circ$ (to 2 d.p.)."
+            ],
+            "finalAnswer": "$166.16^\\circ$ (to 2 d.p.)",
+            "solutionFigures": [],
+            "tip": "Compare with $\\pi \\approx 3.14$ (that is, $180^\\circ$) to check the size of your answer."
+          }
+        },
+        {
+          "id": "ch14_ex1_q3d",
+          "number": "3(d)",
+          "category": null,
+          "questionText": "Use a calculator to convert the following angle from radians to degrees: $4.31$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Radians to degrees: $\\theta^\\circ = \\theta^c \\times \\dfrac{180}{\\pi}$",
+            "steps": [
+              "Given: $4.31$ radians. Goal: the angle in degrees (to two decimal places).",
+              "$4.31 \\times \\dfrac{180}{\\pi} = \\dfrac{775.8}{\\pi}$.",
+              "Calculator: $\\dfrac{775.8}{\\pi} = 246.9448\\ldots$",
+              "Check: $4.31 \\times 57.3 \\approx 247$. ✓",
+              "So $4.31$ radians $\\approx 246.94^\\circ$ (to 2 d.p.)."
+            ],
+            "finalAnswer": "$246.94^\\circ$ (to 2 d.p.)",
+            "solutionFigures": [],
+            "tip": "Round only the final result, not the intermediate fraction."
+          }
+        },
+        {
+          "id": "ch14_ex1_q3e",
+          "number": "3(e)",
+          "category": null,
+          "questionText": "Use a calculator to convert the following angle from radians to degrees: $3.72$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Radians to degrees: $\\theta^\\circ = \\theta^c \\times \\dfrac{180}{\\pi}$",
+            "steps": [
+              "Given: $3.72$ radians. Goal: the angle in degrees (to two decimal places).",
+              "$3.72 \\times \\dfrac{180}{\\pi} = \\dfrac{669.6}{\\pi}$.",
+              "Calculator: $\\dfrac{669.6}{\\pi} = 213.1403\\ldots$",
+              "Check: $3.72 \\times 57.3 \\approx 213.2$. ✓",
+              "So $3.72$ radians $\\approx 213.14^\\circ$ (to 2 d.p.)."
+            ],
+            "finalAnswer": "$213.14^\\circ$ (to 2 d.p.)",
+            "solutionFigures": [],
+            "tip": "1 radian is about $57.3^\\circ$; use this for a quick estimate."
+          }
+        },
+        {
+          "id": "ch14_ex1_q3f",
+          "number": "3(f)",
+          "category": null,
+          "questionText": "Use a calculator to convert the following angle from radians to degrees: $5.18$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Radians to degrees: $\\theta^\\circ = \\theta^c \\times \\dfrac{180}{\\pi}$",
+            "steps": [
+              "Given: $5.18$ radians. Goal: the angle in degrees (to two decimal places).",
+              "$5.18 \\times \\dfrac{180}{\\pi} = \\dfrac{932.4}{\\pi}$.",
+              "Calculator: $\\dfrac{932.4}{\\pi} = 296.7921\\ldots$",
+              "Check: $5.18 \\times 57.3 \\approx 296.8$. ✓",
+              "So $5.18$ radians $\\approx 296.79^\\circ$ (to 2 d.p.)."
+            ],
+            "finalAnswer": "$296.79^\\circ$ (to 2 d.p.)",
+            "solutionFigures": [],
+            "tip": "Make sure you multiply by $\\frac{180}{\\pi}$, not $\\frac{\\pi}{180}$, when going to degrees."
+          }
+        },
+        {
+          "id": "ch14_ex1_q3g",
+          "number": "3(g)",
+          "category": null,
+          "questionText": "Use a calculator to convert the following angle from radians to degrees: $4.73$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Radians to degrees: $\\theta^\\circ = \\theta^c \\times \\dfrac{180}{\\pi}$",
+            "steps": [
+              "Given: $4.73$ radians. Goal: the angle in degrees (to two decimal places).",
+              "$4.73 \\times \\dfrac{180}{\\pi} = \\dfrac{851.4}{\\pi}$.",
+              "Calculator: $\\dfrac{851.4}{\\pi} = 271.0090\\ldots$",
+              "Check: $\\frac{3\\pi}{2} \\approx 4.712$ is $270^\\circ$, and $4.73$ is just above it. ✓",
+              "So $4.73$ radians $\\approx 271.01^\\circ$ (to 2 d.p.)."
+            ],
+            "finalAnswer": "$271.01^\\circ$ (to 2 d.p.)",
+            "solutionFigures": [],
+            "tip": "Keep the trailing zero in 271.01 so the stated accuracy is clear."
+          }
+        },
+        {
+          "id": "ch14_ex1_q3h",
+          "number": "3(h)",
+          "category": null,
+          "questionText": "Use a calculator to convert the following angle from radians to degrees: $6.00$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Radians to degrees: $\\theta^\\circ = \\theta^c \\times \\dfrac{180}{\\pi}$",
+            "steps": [
+              "Given: $6.00$ radians. Goal: the angle in degrees (to two decimal places).",
+              "$6 \\times \\dfrac{180}{\\pi} = \\dfrac{1080}{\\pi}$.",
+              "Calculator: $\\dfrac{1080}{\\pi} = 343.7746\\ldots$",
+              "Check: $2\\pi \\approx 6.283$ is $360^\\circ$, and $6$ is a little less. ✓",
+              "So $6.00$ radians $\\approx 343.77^\\circ$ (to 2 d.p.)."
+            ],
+            "finalAnswer": "$343.77^\\circ$ (to 2 d.p.)",
+            "solutionFigures": [],
+            "tip": "Six radians is slightly less than one full revolution ($2\\pi \\approx 6.28$)."
+          }
+        },
+        {
+          "id": "ch14_ex1_q4a",
+          "number": "4(a)",
+          "category": null,
+          "questionText": "Use a calculator to express the following in radian measure: $38^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Degrees to radians: $\\theta^c = \\theta^\\circ \\times \\dfrac{\\pi}{180}$",
+            "steps": [
+              "Given: $38^\\circ$. Goal: the radian measure (to two decimal places, since no accuracy is specified).",
+              "$38 \\times \\dfrac{\\pi}{180} = \\dfrac{19\\pi}{90}$.",
+              "Calculator: $\\dfrac{19\\pi}{90} = 0.6632\\ldots$",
+              "Check: $0.6632 \\times 57.3 \\approx 38$. ✓",
+              "So $38^\\circ \\approx 0.66$ radians (to 2 d.p.)."
+            ],
+            "finalAnswer": "$0.66$ (to 2 d.p.)",
+            "solutionFigures": [],
+            "tip": "Radian values are usually small numbers; $90^\\circ$ is only about $1.57$."
+          }
+        },
+        {
+          "id": "ch14_ex1_q4b",
+          "number": "4(b)",
+          "category": null,
+          "questionText": "Use a calculator to express the following in radian measure: $73^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Degrees to radians: $\\theta^c = \\theta^\\circ \\times \\dfrac{\\pi}{180}$",
+            "steps": [
+              "Given: $73^\\circ$. Goal: the radian measure (to two decimal places).",
+              "$73 \\times \\dfrac{\\pi}{180} = \\dfrac{73\\pi}{180}$.",
+              "Calculator: $\\dfrac{73\\pi}{180} = 1.2741\\ldots$",
+              "Check: $1.2741 \\times 57.3 \\approx 73$. ✓",
+              "So $73^\\circ \\approx 1.27$ radians (to 2 d.p.)."
+            ],
+            "finalAnswer": "$1.27$ (to 2 d.p.)",
+            "solutionFigures": [],
+            "tip": "Check that an acute angle gives a value below $\\frac{\\pi}{2} \\approx 1.57$."
+          }
+        },
+        {
+          "id": "ch14_ex1_q4c",
+          "number": "4(c)",
+          "category": null,
+          "questionText": "Use a calculator to express the following in radian measure: $107^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Degrees to radians: $\\theta^c = \\theta^\\circ \\times \\dfrac{\\pi}{180}$",
+            "steps": [
+              "Given: $107^\\circ$. Goal: the radian measure (to two decimal places).",
+              "$107 \\times \\dfrac{\\pi}{180} = \\dfrac{107\\pi}{180}$.",
+              "Calculator: $\\dfrac{107\\pi}{180} = 1.8675\\ldots$",
+              "Check: $1.8675 \\times 57.3 \\approx 107$. ✓",
+              "So $107^\\circ \\approx 1.87$ radians (to 2 d.p.)."
+            ],
+            "finalAnswer": "$1.87$ (to 2 d.p.)",
+            "solutionFigures": [],
+            "tip": "Round 1.8675 up to 1.87, because the third decimal place is 7."
+          }
+        },
+        {
+          "id": "ch14_ex1_q4d",
+          "number": "4(d)",
+          "category": null,
+          "questionText": "Use a calculator to express the following in radian measure: $161^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Degrees to radians: $\\theta^c = \\theta^\\circ \\times \\dfrac{\\pi}{180}$",
+            "steps": [
+              "Given: $161^\\circ$. Goal: the radian measure (to two decimal places).",
+              "$161 \\times \\dfrac{\\pi}{180} = \\dfrac{161\\pi}{180}$.",
+              "Calculator: $\\dfrac{161\\pi}{180} = 2.8100\\ldots$",
+              "Check: just under $180^\\circ = \\pi \\approx 3.14$. ✓",
+              "So $161^\\circ \\approx 2.81$ radians (to 2 d.p.)."
+            ],
+            "finalAnswer": "$2.81$ (to 2 d.p.)",
+            "solutionFigures": [],
+            "tip": "Use the calculator's $\\pi$ key for the conversion rather than typing 3.14."
+          }
+        },
+        {
+          "id": "ch14_ex1_q4e",
+          "number": "4(e)",
+          "category": null,
+          "questionText": "Use a calculator to express the following in radian measure: $84.1^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Degrees to radians: $\\theta^c = \\theta^\\circ \\times \\dfrac{\\pi}{180}$",
+            "steps": [
+              "Given: $84.1^\\circ$. Goal: the radian measure (to two decimal places).",
+              "$84.1 \\times \\dfrac{\\pi}{180} = \\dfrac{84.1\\pi}{180}$.",
+              "Calculator: $\\dfrac{84.1\\pi}{180} = 1.4678\\ldots$",
+              "Check: just under $90^\\circ = \\frac{\\pi}{2} \\approx 1.571$. ✓",
+              "So $84.1^\\circ \\approx 1.47$ radians (to 2 d.p.)."
+            ],
+            "finalAnswer": "$1.47$ (to 2 d.p.)",
+            "solutionFigures": [],
+            "tip": "Decimal degrees convert in exactly the same way as whole degrees."
+          }
+        },
+        {
+          "id": "ch14_ex1_q4f",
+          "number": "4(f)",
+          "category": null,
+          "questionText": "Use a calculator to express the following in radian measure: $228^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Degrees to radians: $\\theta^c = \\theta^\\circ \\times \\dfrac{\\pi}{180}$",
+            "steps": [
+              "Given: $228^\\circ$. Goal: the radian measure (to two decimal places).",
+              "$228 \\times \\dfrac{\\pi}{180} = \\dfrac{19\\pi}{15}$.",
+              "Calculator: $\\dfrac{19\\pi}{15} = 3.9794\\ldots$",
+              "Check: $3.9794 \\times 57.3 \\approx 228$. ✓",
+              "So $228^\\circ \\approx 3.98$ radians (to 2 d.p.)."
+            ],
+            "finalAnswer": "$3.98$ (to 2 d.p.)",
+            "solutionFigures": [],
+            "tip": "Simplifying to $\\frac{19\\pi}{15}$ first is optional but gives an exact form too."
+          }
+        },
+        {
+          "id": "ch14_ex1_q4g",
+          "number": "4(g)",
+          "category": null,
+          "questionText": "Use a calculator to express the following in radian measure: $136.4^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Degrees to radians: $\\theta^c = \\theta^\\circ \\times \\dfrac{\\pi}{180}$",
+            "steps": [
+              "Given: $136.4^\\circ$. Goal: the radian measure (to two decimal places).",
+              "$136.4 \\times \\dfrac{\\pi}{180} = \\dfrac{136.4\\pi}{180}$.",
+              "Calculator: $\\dfrac{136.4\\pi}{180} = 2.3806\\ldots$",
+              "Check: $2.3806 \\times 57.3 \\approx 136.4$. ✓",
+              "So $136.4^\\circ \\approx 2.38$ radians (to 2 d.p.)."
+            ],
+            "finalAnswer": "$2.38$ (to 2 d.p.)",
+            "solutionFigures": [],
+            "tip": "Do not round 136.4 to 136 before converting."
+          }
+        },
+        {
+          "id": "ch14_ex1_q4h",
+          "number": "4(h)",
+          "category": null,
+          "questionText": "Use a calculator to express the following in radian measure: $329^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Degrees to radians: $\\theta^c = \\theta^\\circ \\times \\dfrac{\\pi}{180}$",
+            "steps": [
+              "Given: $329^\\circ$. Goal: the radian measure (to two decimal places).",
+              "$329 \\times \\dfrac{\\pi}{180} = \\dfrac{329\\pi}{180}$.",
+              "Calculator: $\\dfrac{329\\pi}{180} = 5.7421\\ldots$",
+              "Check: just under $360^\\circ = 2\\pi \\approx 6.28$. ✓",
+              "So $329^\\circ \\approx 5.74$ radians (to 2 d.p.)."
+            ],
+            "finalAnswer": "$5.74$ (to 2 d.p.)",
+            "solutionFigures": [],
+            "tip": "Any angle between $0^\\circ$ and $360^\\circ$ must give a radian value between 0 and about 6.28."
+          }
+        },
+        {
+          "id": "ch14_ex1_q5a",
+          "number": "5(a)",
+          "category": null,
+          "questionText": "Express, in degrees, the angle with the following radian measure: $-\\dfrac{\\pi}{3}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Radians to degrees: $\\theta^\\circ = \\theta^c \\times \\dfrac{180}{\\pi}$; a negative angle is measured clockwise",
+            "steps": [
+              "Given: $-\\dfrac{\\pi}{3}$ radians. Goal: the angle in degrees.",
+              "Multiply by $\\dfrac{180}{\\pi}$: $-\\dfrac{\\pi}{3} \\times \\dfrac{180}{\\pi} = -\\dfrac{180}{3}$.",
+              "Evaluate: $-60$.",
+              "Check: $-60 \\times \\dfrac{\\pi}{180} = -\\dfrac{\\pi}{3}$. ✓",
+              "So $-\\dfrac{\\pi}{3} = -60^\\circ$ (a clockwise rotation of $60^\\circ$)."
+            ],
+            "finalAnswer": "$-60^\\circ$",
+            "solutionFigures": [],
+            "tip": "Keep the negative sign: it tells you the rotation is clockwise."
+          }
+        },
+        {
+          "id": "ch14_ex1_q5b",
+          "number": "5(b)",
+          "category": null,
+          "questionText": "Express, in degrees, the angle with the following radian measure: $-4\\pi$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Radians to degrees: $\\theta^\\circ = \\theta^c \\times \\dfrac{180}{\\pi}$",
+            "steps": [
+              "Given: $-4\\pi$ radians. Goal: the angle in degrees.",
+              "Multiply by $\\dfrac{180}{\\pi}$: $-4\\pi \\times \\dfrac{180}{\\pi} = -4 \\times 180$.",
+              "Evaluate: $-720$.",
+              "Check: $-4\\pi$ is two full clockwise revolutions, and $2 \\times 360^\\circ = 720^\\circ$. ✓",
+              "So $-4\\pi = -720^\\circ$."
+            ],
+            "finalAnswer": "$-720^\\circ$",
+            "solutionFigures": [],
+            "tip": "Each $2\\pi$ is one full revolution of $360^\\circ$."
+          }
+        },
+        {
+          "id": "ch14_ex1_q5c",
+          "number": "5(c)",
+          "category": null,
+          "questionText": "Express, in degrees, the angle with the following radian measure: $-3\\pi$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Radians to degrees: $\\theta^\\circ = \\theta^c \\times \\dfrac{180}{\\pi}$",
+            "steps": [
+              "Given: $-3\\pi$ radians. Goal: the angle in degrees.",
+              "Multiply by $\\dfrac{180}{\\pi}$: $-3\\pi \\times \\dfrac{180}{\\pi} = -3 \\times 180$.",
+              "Evaluate: $-540$.",
+              "Check: $-540 \\times \\dfrac{\\pi}{180} = -3\\pi$. ✓",
+              "So $-3\\pi = -540^\\circ$."
+            ],
+            "finalAnswer": "$-540^\\circ$",
+            "solutionFigures": [],
+            "tip": "Replace $\\pi$ by $180^\\circ$ directly for whole multiples of $\\pi$."
+          }
+        },
+        {
+          "id": "ch14_ex1_q5d",
+          "number": "5(d)",
+          "category": null,
+          "questionText": "Express, in degrees, the angle with the following radian measure: $-\\pi$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Radians to degrees: $\\theta^\\circ = \\theta^c \\times \\dfrac{180}{\\pi}$",
+            "steps": [
+              "Given: $-\\pi$ radians. Goal: the angle in degrees.",
+              "Multiply by $\\dfrac{180}{\\pi}$: $-\\pi \\times \\dfrac{180}{\\pi} = -180$.",
+              "Check: $\\pi$ radians is a half-turn, $180^\\circ$, so $-\\pi$ is a clockwise half-turn. ✓",
+              "So $-\\pi = -180^\\circ$."
+            ],
+            "finalAnswer": "$-180^\\circ$",
+            "solutionFigures": [],
+            "tip": "$\\pi$ radians $= 180^\\circ$ is the key fact behind every conversion."
+          }
+        },
+        {
+          "id": "ch14_ex1_q5e",
+          "number": "5(e)",
+          "category": null,
+          "questionText": "Express, in degrees, the angle with the following radian measure: $\\dfrac{5\\pi}{3}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Radians to degrees: $\\theta^\\circ = \\theta^c \\times \\dfrac{180}{\\pi}$",
+            "steps": [
+              "Given: $\\dfrac{5\\pi}{3}$ radians. Goal: the angle in degrees.",
+              "Multiply by $\\dfrac{180}{\\pi}$: $\\dfrac{5\\pi}{3} \\times \\dfrac{180}{\\pi} = \\dfrac{5 \\times 180}{3}$.",
+              "Evaluate: $5 \\times 60 = 300$.",
+              "Check: $2\\pi - \\dfrac{\\pi}{3} = \\dfrac{5\\pi}{3}$ and $360^\\circ - 60^\\circ = 300^\\circ$. ✓",
+              "So $\\dfrac{5\\pi}{3} = 300^\\circ$."
+            ],
+            "finalAnswer": "$300^\\circ$",
+            "solutionFigures": [],
+            "tip": "$\\frac{\\pi}{3} = 60^\\circ$, so $\\frac{5\\pi}{3} = 5 \\times 60^\\circ$."
+          }
+        },
+        {
+          "id": "ch14_ex1_q5f",
+          "number": "5(f)",
+          "category": null,
+          "questionText": "Express, in degrees, the angle with the following radian measure: $-\\dfrac{11\\pi}{6}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Radians to degrees: $\\theta^\\circ = \\theta^c \\times \\dfrac{180}{\\pi}$",
+            "steps": [
+              "Given: $-\\dfrac{11\\pi}{6}$ radians. Goal: the angle in degrees.",
+              "Multiply by $\\dfrac{180}{\\pi}$: $-\\dfrac{11\\pi}{6} \\times \\dfrac{180}{\\pi} = -\\dfrac{11 \\times 180}{6}$.",
+              "Evaluate: $-11 \\times 30 = -330$.",
+              "Check: $-330 \\times \\dfrac{\\pi}{180} = -\\dfrac{11\\pi}{6}$. ✓",
+              "So $-\\dfrac{11\\pi}{6} = -330^\\circ$."
+            ],
+            "finalAnswer": "$-330^\\circ$",
+            "solutionFigures": [],
+            "tip": "$\\frac{\\pi}{6} = 30^\\circ$; multiply 30 by the coefficient and keep the sign."
+          }
+        },
+        {
+          "id": "ch14_ex1_q5g",
+          "number": "5(g)",
+          "category": null,
+          "questionText": "Express, in degrees, the angle with the following radian measure: $\\dfrac{23\\pi}{6}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Radians to degrees: $\\theta^\\circ = \\theta^c \\times \\dfrac{180}{\\pi}$",
+            "steps": [
+              "Given: $\\dfrac{23\\pi}{6}$ radians. Goal: the angle in degrees.",
+              "Multiply by $\\dfrac{180}{\\pi}$: $\\dfrac{23\\pi}{6} \\times \\dfrac{180}{\\pi} = \\dfrac{23 \\times 180}{6}$.",
+              "Evaluate: $23 \\times 30 = 690$.",
+              "Check: $\\dfrac{23\\pi}{6} = 4\\pi - \\dfrac{\\pi}{6}$, and $720^\\circ - 30^\\circ = 690^\\circ$. ✓",
+              "So $\\dfrac{23\\pi}{6} = 690^\\circ$."
+            ],
+            "finalAnswer": "$690^\\circ$",
+            "solutionFigures": [],
+            "tip": "Angles larger than $360^\\circ$ are valid; they just go round more than once."
+          }
+        },
+        {
+          "id": "ch14_ex1_q5h",
+          "number": "5(h)",
+          "category": null,
+          "questionText": "Express, in degrees, the angle with the following radian measure: $-\\dfrac{23\\pi}{6}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Radians to degrees: $\\theta^\\circ = \\theta^c \\times \\dfrac{180}{\\pi}$",
+            "steps": [
+              "Given: $-\\dfrac{23\\pi}{6}$ radians. Goal: the angle in degrees.",
+              "Multiply by $\\dfrac{180}{\\pi}$: $-\\dfrac{23\\pi}{6} \\times \\dfrac{180}{\\pi} = -\\dfrac{23 \\times 180}{6}$.",
+              "Evaluate: $-23 \\times 30 = -690$.",
+              "Check: this is the negative of part (g), $690^\\circ$. ✓",
+              "So $-\\dfrac{23\\pi}{6} = -690^\\circ$."
+            ],
+            "finalAnswer": "$-690^\\circ$",
+            "solutionFigures": [],
+            "tip": "Converting the negative of an angle just negates the answer."
+          }
+        },
+        {
+          "id": "ch14_ex1_q6a",
+          "number": "6(a)",
+          "category": null,
+          "questionText": "Express the following in radian measure in terms of $\\pi$: $-360^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Degrees to radians: $\\theta^c = \\theta^\\circ \\times \\dfrac{\\pi}{180}$",
+            "steps": [
+              "Given: $-360^\\circ$. Goal: the radian measure in terms of $\\pi$.",
+              "$-360 \\times \\dfrac{\\pi}{180} = -2\\pi$.",
+              "Check: one full clockwise revolution is $-2\\pi$. ✓",
+              "So $-360^\\circ = -2\\pi$ radians."
+            ],
+            "finalAnswer": "$-2\\pi$",
+            "solutionFigures": [],
+            "tip": "$360^\\circ = 2\\pi$ is worth memorising alongside $180^\\circ = \\pi$."
+          }
+        },
+        {
+          "id": "ch14_ex1_q6b",
+          "number": "6(b)",
+          "category": null,
+          "questionText": "Express the following in radian measure in terms of $\\pi$: $-540^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Degrees to radians: $\\theta^c = \\theta^\\circ \\times \\dfrac{\\pi}{180}$",
+            "steps": [
+              "Given: $-540^\\circ$. Goal: the radian measure in terms of $\\pi$.",
+              "$-540 \\times \\dfrac{\\pi}{180} = -3\\pi$.",
+              "Check: $540 = 3 \\times 180$. ✓",
+              "So $-540^\\circ = -3\\pi$ radians."
+            ],
+            "finalAnswer": "$-3\\pi$",
+            "solutionFigures": [],
+            "tip": "Count how many lots of $180^\\circ$ there are: each one is a $\\pi$."
+          }
+        },
+        {
+          "id": "ch14_ex1_q6c",
+          "number": "6(c)",
+          "category": null,
+          "questionText": "Express the following in radian measure in terms of $\\pi$: $-240^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Degrees to radians: $\\theta^c = \\theta^\\circ \\times \\dfrac{\\pi}{180}$",
+            "steps": [
+              "Given: $-240^\\circ$. Goal: the radian measure in terms of $\\pi$.",
+              "$-240 \\times \\dfrac{\\pi}{180} = -\\dfrac{240\\pi}{180}$.",
+              "Simplify (divide by 60): $-\\dfrac{4\\pi}{3}$.",
+              "Check: $-\\dfrac{4\\pi}{3} \\times \\dfrac{180}{\\pi} = -240^\\circ$. ✓",
+              "So $-240^\\circ = -\\dfrac{4\\pi}{3}$ radians."
+            ],
+            "finalAnswer": "$-\\dfrac{4\\pi}{3}$",
+            "solutionFigures": [],
+            "tip": "Simplify the fraction fully before writing the answer."
+          }
+        },
+        {
+          "id": "ch14_ex1_q6d",
+          "number": "6(d)",
+          "category": null,
+          "questionText": "Express the following in radian measure in terms of $\\pi$: $-720^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Degrees to radians: $\\theta^c = \\theta^\\circ \\times \\dfrac{\\pi}{180}$",
+            "steps": [
+              "Given: $-720^\\circ$. Goal: the radian measure in terms of $\\pi$.",
+              "$-720 \\times \\dfrac{\\pi}{180} = -4\\pi$.",
+              "Check: two clockwise revolutions $= 2 \\times (-2\\pi) = -4\\pi$. ✓",
+              "So $-720^\\circ = -4\\pi$ radians."
+            ],
+            "finalAnswer": "$-4\\pi$",
+            "solutionFigures": [],
+            "tip": "Whole revolutions are always even multiples of $\\pi$."
+          }
+        },
+        {
+          "id": "ch14_ex1_q6e",
+          "number": "6(e)",
+          "category": null,
+          "questionText": "Express the following in radian measure in terms of $\\pi$: $-330^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Degrees to radians: $\\theta^c = \\theta^\\circ \\times \\dfrac{\\pi}{180}$",
+            "steps": [
+              "Given: $-330^\\circ$. Goal: the radian measure in terms of $\\pi$.",
+              "$-330 \\times \\dfrac{\\pi}{180} = -\\dfrac{330\\pi}{180}$.",
+              "Simplify (divide by 30): $-\\dfrac{11\\pi}{6}$.",
+              "Check: $-\\dfrac{11\\pi}{6} \\times \\dfrac{180}{\\pi} = -330^\\circ$. ✓",
+              "So $-330^\\circ = -\\dfrac{11\\pi}{6}$ radians."
+            ],
+            "finalAnswer": "$-\\dfrac{11\\pi}{6}$",
+            "solutionFigures": [],
+            "tip": "Multiples of $30^\\circ$ always become multiples of $\\frac{\\pi}{6}$."
+          }
+        },
+        {
+          "id": "ch14_ex1_q6f",
+          "number": "6(f)",
+          "category": null,
+          "questionText": "Express the following in radian measure in terms of $\\pi$: $-210^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Degrees to radians: $\\theta^c = \\theta^\\circ \\times \\dfrac{\\pi}{180}$",
+            "steps": [
+              "Given: $-210^\\circ$. Goal: the radian measure in terms of $\\pi$.",
+              "$-210 \\times \\dfrac{\\pi}{180} = -\\dfrac{210\\pi}{180}$.",
+              "Simplify (divide by 30): $-\\dfrac{7\\pi}{6}$.",
+              "Check: $-\\dfrac{7\\pi}{6} \\times \\dfrac{180}{\\pi} = -210^\\circ$. ✓",
+              "So $-210^\\circ = -\\dfrac{7\\pi}{6}$ radians."
+            ],
+            "finalAnswer": "$-\\dfrac{7\\pi}{6}$",
+            "solutionFigures": [],
+            "tip": "Keep the minus sign in front of the whole fraction."
+          }
+        },
+        {
+          "id": "ch14_ex1_q7a",
+          "number": "7(a)",
+          "category": null,
+          "questionText": "On a set of axes, draw a unit circle centred at the origin and indicate the position on the unit circle corresponding to each of the following: (i) $\\dfrac{\\pi}{4}$ (ii) $\\dfrac{3\\pi}{4}$ (iii) $\\dfrac{5\\pi}{4}$ (iv) $\\dfrac{7\\pi}{4}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The point $P(\\theta)$ is reached by rotating from $(1, 0)$ through $\\theta$ radians (anticlockwise if $\\theta > 0$); $\\frac{\\pi}{2}$ is a quarter-turn",
+            "steps": [
+              "Given: four angles that are odd multiples of $\\dfrac{\\pi}{4}$ ($45^\\circ$). Goal: mark each point on the unit circle.",
+              "Draw the circle $x^2 + y^2 = 1$ and start each rotation at $(1, 0)$, turning anticlockwise.",
+              "(i) $\\dfrac{\\pi}{4} = 45^\\circ$: halfway through quadrant 1, at $\\left(\\dfrac{1}{\\sqrt{2}}, \\dfrac{1}{\\sqrt{2}}\\right)$.",
+              "(ii) $\\dfrac{3\\pi}{4} = 135^\\circ$: halfway through quadrant 2, at $\\left(-\\dfrac{1}{\\sqrt{2}}, \\dfrac{1}{\\sqrt{2}}\\right)$.",
+              "(iii) $\\dfrac{5\\pi}{4} = 225^\\circ$: halfway through quadrant 3, at $\\left(-\\dfrac{1}{\\sqrt{2}}, -\\dfrac{1}{\\sqrt{2}}\\right)$.",
+              "(iv) $\\dfrac{7\\pi}{4} = 315^\\circ$: halfway through quadrant 4, at $\\left(\\dfrac{1}{\\sqrt{2}}, -\\dfrac{1}{\\sqrt{2}}\\right)$.",
+              "Check: consecutive points differ by $\\dfrac{\\pi}{2}$, so they are a quarter-turn apart and form the corners of a square inscribed in the circle. ✓"
+            ],
+            "finalAnswer": "(i) on the line $y = x$ in quadrant 1; (ii) on $y = -x$ in quadrant 2; (iii) on $y = x$ in quadrant 3; (iv) on $y = -x$ in quadrant 4. The points are $\\left(\\pm\\frac{1}{\\sqrt{2}}, \\pm\\frac{1}{\\sqrt{2}}\\right)$ with the signs of that quadrant.",
+            "solutionFigures": [],
+            "tip": "Mark the four quadrant boundaries $0, \\frac{\\pi}{2}, \\pi, \\frac{3\\pi}{2}$ first, then place each angle between them."
+          }
+        },
+        {
+          "id": "ch14_ex1_q7b",
+          "number": "7(b)",
+          "category": null,
+          "questionText": "On a set of axes, draw a unit circle centred at the origin and indicate the position on the unit circle corresponding to each of the following: (i) $\\dfrac{\\pi}{3}$ (ii) $-\\dfrac{\\pi}{3}$ (iii) $\\dfrac{2\\pi}{3}$ (iv) $\\dfrac{4\\pi}{3}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The point $P(\\theta)$ is reached by rotating from $(1, 0)$ through $\\theta$: anticlockwise for $\\theta > 0$, clockwise for $\\theta < 0$",
+            "steps": [
+              "Given: multiples of $\\dfrac{\\pi}{3}$ ($60^\\circ$). Goal: mark each point on the unit circle.",
+              "(i) $\\dfrac{\\pi}{3} = 60^\\circ$ anticlockwise: quadrant 1, at $\\left(\\dfrac{1}{2}, \\dfrac{\\sqrt{3}}{2}\\right)$.",
+              "(ii) $-\\dfrac{\\pi}{3}$: $60^\\circ$ clockwise, quadrant 4, at $\\left(\\dfrac{1}{2}, -\\dfrac{\\sqrt{3}}{2}\\right)$ (the reflection of (i) in the $x$-axis).",
+              "(iii) $\\dfrac{2\\pi}{3} = 120^\\circ$: quadrant 2, at $\\left(-\\dfrac{1}{2}, \\dfrac{\\sqrt{3}}{2}\\right)$ (the reflection of (i) in the $y$-axis).",
+              "(iv) $\\dfrac{4\\pi}{3} = 240^\\circ$: quadrant 3, at $\\left(-\\dfrac{1}{2}, -\\dfrac{\\sqrt{3}}{2}\\right)$ (diametrically opposite (i)).",
+              "Check: $\\dfrac{4\\pi}{3} = \\pi + \\dfrac{\\pi}{3}$, so (iv) is a half-turn from (i). ✓"
+            ],
+            "finalAnswer": "(i) quadrant 1, $\\left(\\frac{1}{2}, \\frac{\\sqrt{3}}{2}\\right)$; (ii) quadrant 4, $\\left(\\frac{1}{2}, -\\frac{\\sqrt{3}}{2}\\right)$; (iii) quadrant 2, $\\left(-\\frac{1}{2}, \\frac{\\sqrt{3}}{2}\\right)$; (iv) quadrant 3, $\\left(-\\frac{1}{2}, -\\frac{\\sqrt{3}}{2}\\right)$",
+            "solutionFigures": [],
+            "tip": "A negative angle is measured clockwise from the positive $x$-axis."
+          }
+        },
+        {
+          "id": "ch14_ex1_q7c",
+          "number": "7(c)",
+          "category": null,
+          "questionText": "On a set of axes, draw a unit circle centred at the origin and indicate the position on the unit circle corresponding to each of the following: (i) $\\dfrac{\\pi}{6}$ (ii) $-\\dfrac{7\\pi}{6}$ (iii) $\\dfrac{13\\pi}{6}$ (iv) $\\dfrac{17\\pi}{6}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Adding or subtracting $2\\pi$ gives the same point: $P(\\theta + 2k\\pi) = P(\\theta)$",
+            "steps": [
+              "Given: multiples of $\\dfrac{\\pi}{6}$ ($30^\\circ$). Goal: mark each point on the unit circle.",
+              "(i) $\\dfrac{\\pi}{6} = 30^\\circ$: quadrant 1, at $\\left(\\dfrac{\\sqrt{3}}{2}, \\dfrac{1}{2}\\right)$.",
+              "(ii) $-\\dfrac{7\\pi}{6}$: add $2\\pi$ to get $-\\dfrac{7\\pi}{6} + \\dfrac{12\\pi}{6} = \\dfrac{5\\pi}{6}$ ($150^\\circ$). Quadrant 2, at $\\left(-\\dfrac{\\sqrt{3}}{2}, \\dfrac{1}{2}\\right)$.",
+              "(iii) $\\dfrac{13\\pi}{6} = 2\\pi + \\dfrac{\\pi}{6}$: one full turn then $\\dfrac{\\pi}{6}$, so the same point as (i).",
+              "(iv) $\\dfrac{17\\pi}{6} = 2\\pi + \\dfrac{5\\pi}{6}$: one full turn then $\\dfrac{5\\pi}{6}$, so the same point as (ii).",
+              "Check: (i) and (ii) are mirror images in the $y$-axis since $\\dfrac{5\\pi}{6} = \\pi - \\dfrac{\\pi}{6}$. ✓"
+            ],
+            "finalAnswer": "(i) and (iii) are the same point $\\left(\\frac{\\sqrt{3}}{2}, \\frac{1}{2}\\right)$ in quadrant 1; (ii) and (iv) are the same point $\\left(-\\frac{\\sqrt{3}}{2}, \\frac{1}{2}\\right)$ in quadrant 2",
+            "solutionFigures": [],
+            "tip": "Reduce large or negative angles by adding or subtracting $2\\pi$ until they lie in $[0, 2\\pi)$."
+          }
+        }
+      ]
+    }
+  ]
+}

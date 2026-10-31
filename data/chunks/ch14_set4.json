@@ -1,0 +1,747 @@
+{
+  "chapterId": "ch14",
+  "chapterTitle": "Circular functions (Methods 12)",
+  "topics": [
+    {
+      "topicId": "14D",
+      "topicTitle": "Symmetry properties of circular functions",
+      "exercises": [
+        {
+          "id": "ch14_ex4_q1a",
+          "number": "1(a)",
+          "category": null,
+          "questionText": "If $\\sin\\theta = 0.42$, $\\cos x = 0.7$ and $\\tan\\alpha = 0.38$, write down the value of $\\sin(\\pi + \\theta)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadrant 3 symmetry: $\\sin(\\pi + \\theta) = -\\sin\\theta$",
+            "steps": [
+              "Given: $\\sin\\theta = 0.42$. Goal: $\\sin(\\pi + \\theta)$.",
+              "$P(\\pi + \\theta)$ is the point $P(\\theta)$ rotated by a half-turn about $O$, so both coordinates change sign.",
+              "Hence $\\sin(\\pi + \\theta) = -\\sin\\theta = -0.42$."
+            ],
+            "finalAnswer": "$-0.42$",
+            "solutionFigures": [],
+            "tip": "Adding $\\pi$ sends a point to the diametrically opposite point: sine and cosine both change sign."
+          }
+        },
+        {
+          "id": "ch14_ex4_q1b",
+          "number": "1(b)",
+          "category": null,
+          "questionText": "If $\\sin\\theta = 0.42$, $\\cos x = 0.7$ and $\\tan\\alpha = 0.38$, write down the value of $\\cos(\\pi - x)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadrant 2 symmetry: $\\cos(\\pi - x) = -\\cos x$",
+            "steps": [
+              "Given: $\\cos x = 0.7$. Goal: $\\cos(\\pi - x)$.",
+              "$P(\\pi - x)$ is the reflection of $P(x)$ in the $y$-axis, so the $x$-coordinate changes sign.",
+              "Hence $\\cos(\\pi - x) = -\\cos x = -0.7$."
+            ],
+            "finalAnswer": "$-0.7$",
+            "solutionFigures": [],
+            "tip": "Reflection in the $y$-axis changes the sign of cosine only."
+          }
+        },
+        {
+          "id": "ch14_ex4_q1c",
+          "number": "1(c)",
+          "category": null,
+          "questionText": "If $\\sin\\theta = 0.42$, $\\cos x = 0.7$ and $\\tan\\alpha = 0.38$, write down the value of $\\sin(2\\pi - \\theta)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadrant 4 symmetry: $\\sin(2\\pi - \\theta) = -\\sin\\theta$",
+            "steps": [
+              "Given: $\\sin\\theta = 0.42$. Goal: $\\sin(2\\pi - \\theta)$.",
+              "$P(2\\pi - \\theta) = P(-\\theta)$ is the reflection of $P(\\theta)$ in the $x$-axis, so the $y$-coordinate changes sign.",
+              "Hence $\\sin(2\\pi - \\theta) = -\\sin\\theta = -0.42$."
+            ],
+            "finalAnswer": "$-0.42$",
+            "solutionFigures": [],
+            "tip": "$2\\pi - \\theta$ and $-\\theta$ give the same point on the unit circle."
+          }
+        },
+        {
+          "id": "ch14_ex4_q1d",
+          "number": "1(d)",
+          "category": null,
+          "questionText": "If $\\sin\\theta = 0.42$, $\\cos x = 0.7$ and $\\tan\\alpha = 0.38$, write down the value of $\\tan(\\pi - \\alpha)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\pi - \\alpha) = \\dfrac{\\sin(\\pi - \\alpha)}{\\cos(\\pi - \\alpha)} = \\dfrac{\\sin\\alpha}{-\\cos\\alpha} = -\\tan\\alpha$",
+            "steps": [
+              "Given: $\\tan\\alpha = 0.38$. Goal: $\\tan(\\pi - \\alpha)$.",
+              "Reflection in the $y$-axis: $\\sin(\\pi - \\alpha) = \\sin\\alpha$ and $\\cos(\\pi - \\alpha) = -\\cos\\alpha$.",
+              "So $\\tan(\\pi - \\alpha) = \\dfrac{\\sin\\alpha}{-\\cos\\alpha} = -\\tan\\alpha$.",
+              "Hence $\\tan(\\pi - \\alpha) = -0.38$."
+            ],
+            "finalAnswer": "$-0.38$",
+            "solutionFigures": [],
+            "tip": "Build tan results from the sine and cosine results rather than memorising them separately."
+          }
+        },
+        {
+          "id": "ch14_ex4_q1e",
+          "number": "1(e)",
+          "category": null,
+          "questionText": "If $\\sin\\theta = 0.42$, $\\cos x = 0.7$ and $\\tan\\alpha = 0.38$, write down the value of $\\sin(\\pi - \\theta)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadrant 2 symmetry: $\\sin(\\pi - \\theta) = \\sin\\theta$",
+            "steps": [
+              "Given: $\\sin\\theta = 0.42$. Goal: $\\sin(\\pi - \\theta)$.",
+              "$P(\\pi - \\theta)$ is the reflection of $P(\\theta)$ in the $y$-axis, so the $y$-coordinate is unchanged.",
+              "Hence $\\sin(\\pi - \\theta) = \\sin\\theta = 0.42$."
+            ],
+            "finalAnswer": "$0.42$",
+            "solutionFigures": [],
+            "tip": "Sine keeps its sign under reflection in the $y$-axis."
+          }
+        },
+        {
+          "id": "ch14_ex4_q1f",
+          "number": "1(f)",
+          "category": null,
+          "questionText": "If $\\sin\\theta = 0.42$, $\\cos x = 0.7$ and $\\tan\\alpha = 0.38$, write down the value of $\\tan(2\\pi - \\alpha)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(2\\pi - \\alpha) = \\dfrac{-\\sin\\alpha}{\\cos\\alpha} = -\\tan\\alpha$",
+            "steps": [
+              "Given: $\\tan\\alpha = 0.38$. Goal: $\\tan(2\\pi - \\alpha)$.",
+              "Reflection in the $x$-axis: $\\sin(2\\pi - \\alpha) = -\\sin\\alpha$, $\\cos(2\\pi - \\alpha) = \\cos\\alpha$.",
+              "So $\\tan(2\\pi - \\alpha) = \\dfrac{-\\sin\\alpha}{\\cos\\alpha} = -\\tan\\alpha$.",
+              "Hence $\\tan(2\\pi - \\alpha) = -0.38$."
+            ],
+            "finalAnswer": "$-0.38$",
+            "solutionFigures": [],
+            "tip": "Tan is negative in quadrants 2 and 4."
+          }
+        },
+        {
+          "id": "ch14_ex4_q1g",
+          "number": "1(g)",
+          "category": null,
+          "questionText": "If $\\sin\\theta = 0.42$, $\\cos x = 0.7$ and $\\tan\\alpha = 0.38$, write down the value of $\\cos(\\pi + x)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadrant 3 symmetry: $\\cos(\\pi + x) = -\\cos x$",
+            "steps": [
+              "Given: $\\cos x = 0.7$. Goal: $\\cos(\\pi + x)$.",
+              "A half-turn about $O$ changes the sign of both coordinates.",
+              "Hence $\\cos(\\pi + x) = -\\cos x = -0.7$."
+            ],
+            "finalAnswer": "$-0.7$",
+            "solutionFigures": [],
+            "tip": "In quadrant 3 both sine and cosine are negative."
+          }
+        },
+        {
+          "id": "ch14_ex4_q1h",
+          "number": "1(h)",
+          "category": null,
+          "questionText": "If $\\sin\\theta = 0.42$, $\\cos x = 0.7$ and $\\tan\\alpha = 0.38$, write down the value of $\\cos(2\\pi - x)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadrant 4 symmetry: $\\cos(2\\pi - x) = \\cos x$",
+            "steps": [
+              "Given: $\\cos x = 0.7$. Goal: $\\cos(2\\pi - x)$.",
+              "$P(2\\pi - x)$ is the reflection of $P(x)$ in the $x$-axis, so the $x$-coordinate is unchanged.",
+              "Hence $\\cos(2\\pi - x) = \\cos x = 0.7$."
+            ],
+            "finalAnswer": "$0.7$",
+            "solutionFigures": [],
+            "tip": "Cosine is unchanged by reflection in the $x$-axis."
+          }
+        },
+        {
+          "id": "ch14_ex4_q2a",
+          "number": "2(a)",
+          "category": null,
+          "questionText": "If $\\sin x^\\circ = 0.7$, $\\cos\\theta^\\circ = 0.6$ and $\\tan\\alpha^\\circ = 0.4$, write down the value of $\\sin(180 + x)^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(180^\\circ + x^\\circ) = -\\sin x^\\circ$",
+            "steps": [
+              "Given: $\\sin x^\\circ = 0.7$. Goal: $\\sin(180 + x)^\\circ$.",
+              "Adding $180^\\circ$ moves to the diametrically opposite point, so the sine changes sign.",
+              "Hence $\\sin(180 + x)^\\circ = -0.7$."
+            ],
+            "finalAnswer": "$-0.7$",
+            "solutionFigures": [],
+            "tip": "The symmetry rules are the same in degrees: $180^\\circ$ plays the role of $\\pi$."
+          }
+        },
+        {
+          "id": "ch14_ex4_q2b",
+          "number": "2(b)",
+          "category": null,
+          "questionText": "If $\\sin x^\\circ = 0.7$, $\\cos\\theta^\\circ = 0.6$ and $\\tan\\alpha^\\circ = 0.4$, write down the value of $\\cos(180 + \\theta)^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(180^\\circ + \\theta^\\circ) = -\\cos\\theta^\\circ$",
+            "steps": [
+              "Given: $\\cos\\theta^\\circ = 0.6$. Goal: $\\cos(180 + \\theta)^\\circ$.",
+              "A half-turn changes the sign of the $x$-coordinate.",
+              "Hence $\\cos(180 + \\theta)^\\circ = -0.6$."
+            ],
+            "finalAnswer": "$-0.6$",
+            "solutionFigures": [],
+            "tip": "Half-turn: both sine and cosine change sign, tan does not."
+          }
+        },
+        {
+          "id": "ch14_ex4_q2c",
+          "number": "2(c)",
+          "category": null,
+          "questionText": "If $\\sin x^\\circ = 0.7$, $\\cos\\theta^\\circ = 0.6$ and $\\tan\\alpha^\\circ = 0.4$, write down the value of $\\tan(360 - \\alpha)^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(360^\\circ - \\alpha^\\circ) = -\\tan\\alpha^\\circ$",
+            "steps": [
+              "Given: $\\tan\\alpha^\\circ = 0.4$. Goal: $\\tan(360 - \\alpha)^\\circ$.",
+              "$P(360^\\circ - \\alpha^\\circ)$ is the reflection of $P(\\alpha^\\circ)$ in the $x$-axis: sine changes sign, cosine does not.",
+              "So $\\tan(360 - \\alpha)^\\circ = \\dfrac{-\\sin\\alpha^\\circ}{\\cos\\alpha^\\circ} = -\\tan\\alpha^\\circ = -0.4$."
+            ],
+            "finalAnswer": "$-0.4$",
+            "solutionFigures": [],
+            "tip": "If exactly one of sine and cosine changes sign, tan changes sign."
+          }
+        },
+        {
+          "id": "ch14_ex4_q2d",
+          "number": "2(d)",
+          "category": null,
+          "questionText": "If $\\sin x^\\circ = 0.7$, $\\cos\\theta^\\circ = 0.6$ and $\\tan\\alpha^\\circ = 0.4$, write down the value of $\\cos(180 - \\theta)^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(180^\\circ - \\theta^\\circ) = -\\cos\\theta^\\circ$",
+            "steps": [
+              "Given: $\\cos\\theta^\\circ = 0.6$. Goal: $\\cos(180 - \\theta)^\\circ$.",
+              "Reflection in the $y$-axis changes the sign of the $x$-coordinate.",
+              "Hence $\\cos(180 - \\theta)^\\circ = -0.6$."
+            ],
+            "finalAnswer": "$-0.6$",
+            "solutionFigures": [],
+            "tip": "Cosine is negative in quadrant 2."
+          }
+        },
+        {
+          "id": "ch14_ex4_q2e",
+          "number": "2(e)",
+          "category": null,
+          "questionText": "If $\\sin x^\\circ = 0.7$, $\\cos\\theta^\\circ = 0.6$ and $\\tan\\alpha^\\circ = 0.4$, write down the value of $\\sin(360 - x)^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(360^\\circ - x^\\circ) = -\\sin x^\\circ$",
+            "steps": [
+              "Given: $\\sin x^\\circ = 0.7$. Goal: $\\sin(360 - x)^\\circ$.",
+              "Reflection in the $x$-axis changes the sign of the $y$-coordinate.",
+              "Hence $\\sin(360 - x)^\\circ = -0.7$."
+            ],
+            "finalAnswer": "$-0.7$",
+            "solutionFigures": [],
+            "tip": "Sine is negative in quadrant 4."
+          }
+        },
+        {
+          "id": "ch14_ex4_q2f",
+          "number": "2(f)",
+          "category": null,
+          "questionText": "If $\\sin x^\\circ = 0.7$, $\\cos\\theta^\\circ = 0.6$ and $\\tan\\alpha^\\circ = 0.4$, write down the value of $\\sin(-x)^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Negative angle: $\\sin(-x) = -\\sin x$",
+            "steps": [
+              "Given: $\\sin x^\\circ = 0.7$. Goal: $\\sin(-x)^\\circ$.",
+              "$P(-x^\\circ)$ is the reflection of $P(x^\\circ)$ in the $x$-axis.",
+              "Hence $\\sin(-x)^\\circ = -\\sin x^\\circ = -0.7$."
+            ],
+            "finalAnswer": "$-0.7$",
+            "solutionFigures": [],
+            "tip": "$-x$ and $360 - x$ give the same point, so parts (e) and (f) agree."
+          }
+        },
+        {
+          "id": "ch14_ex4_q2g",
+          "number": "2(g)",
+          "category": null,
+          "questionText": "If $\\sin x^\\circ = 0.7$, $\\cos\\theta^\\circ = 0.6$ and $\\tan\\alpha^\\circ = 0.4$, write down the value of $\\tan(360 + \\alpha)^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Periodicity: $\\tan(360^\\circ + \\alpha^\\circ) = \\tan\\alpha^\\circ$",
+            "steps": [
+              "Given: $\\tan\\alpha^\\circ = 0.4$. Goal: $\\tan(360 + \\alpha)^\\circ$.",
+              "Adding $360^\\circ$ is a full turn, which returns to the same point.",
+              "Hence $\\tan(360 + \\alpha)^\\circ = 0.4$."
+            ],
+            "finalAnswer": "$0.4$",
+            "solutionFigures": [],
+            "tip": "A full turn never changes any circular function value."
+          }
+        },
+        {
+          "id": "ch14_ex4_q2h",
+          "number": "2(h)",
+          "category": null,
+          "questionText": "If $\\sin x^\\circ = 0.7$, $\\cos\\theta^\\circ = 0.6$ and $\\tan\\alpha^\\circ = 0.4$, write down the value of $\\cos(-\\theta)^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Negative angle: $\\cos(-\\theta) = \\cos\\theta$",
+            "steps": [
+              "Given: $\\cos\\theta^\\circ = 0.6$. Goal: $\\cos(-\\theta)^\\circ$.",
+              "Reflection in the $x$-axis does not change the $x$-coordinate.",
+              "Hence $\\cos(-\\theta)^\\circ = 0.6$."
+            ],
+            "finalAnswer": "$0.6$",
+            "solutionFigures": [],
+            "tip": "Cosine is an even function: $\\cos(-\\theta) = \\cos\\theta$."
+          }
+        },
+        {
+          "id": "ch14_ex4_q3a",
+          "number": "3(a)",
+          "category": null,
+          "questionText": "If $\\cos x = -\\cos\\left(\\dfrac{\\pi}{6}\\right)$ and $\\dfrac{\\pi}{2} < x < \\pi$, find the value of $x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadrant 2 symmetry: $\\cos(\\pi - \\theta) = -\\cos\\theta$",
+            "steps": [
+              "Given: $\\cos x = -\\cos\\dfrac{\\pi}{6}$ with $x$ in quadrant 2. Goal: $x$.",
+              "Using $\\cos(\\pi - \\theta) = -\\cos\\theta$ with $\\theta = \\dfrac{\\pi}{6}$: $-\\cos\\dfrac{\\pi}{6} = \\cos\\left(\\pi - \\dfrac{\\pi}{6}\\right)$.",
+              "So $x = \\pi - \\dfrac{\\pi}{6} = \\dfrac{5\\pi}{6}$.",
+              "Check: $\\dfrac{\\pi}{2} < \\dfrac{5\\pi}{6} < \\pi$ ✓, and $\\cos\\dfrac{5\\pi}{6} = -\\dfrac{\\sqrt{3}}{2} = -\\cos\\dfrac{\\pi}{6}$. ✓"
+            ],
+            "finalAnswer": "$x = \\dfrac{5\\pi}{6}$",
+            "solutionFigures": [],
+            "tip": "Quadrant 2 angles have the form $\\pi - \\theta$."
+          }
+        },
+        {
+          "id": "ch14_ex4_q3b",
+          "number": "3(b)",
+          "category": null,
+          "questionText": "If $\\cos x = -\\cos\\left(\\dfrac{\\pi}{6}\\right)$ and $\\pi < x < \\dfrac{3\\pi}{2}$, find the value of $x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadrant 3 symmetry: $\\cos(\\pi + \\theta) = -\\cos\\theta$",
+            "steps": [
+              "Given: $\\cos x = -\\cos\\dfrac{\\pi}{6}$ with $x$ in quadrant 3. Goal: $x$.",
+              "Using $\\cos(\\pi + \\theta) = -\\cos\\theta$: $-\\cos\\dfrac{\\pi}{6} = \\cos\\left(\\pi + \\dfrac{\\pi}{6}\\right)$.",
+              "So $x = \\pi + \\dfrac{\\pi}{6} = \\dfrac{7\\pi}{6}$.",
+              "Check: $\\pi < \\dfrac{7\\pi}{6} < \\dfrac{3\\pi}{2}$ ✓, and $\\cos\\dfrac{7\\pi}{6} = -\\dfrac{\\sqrt{3}}{2}$. ✓"
+            ],
+            "finalAnswer": "$x = \\dfrac{7\\pi}{6}$",
+            "solutionFigures": [],
+            "tip": "Quadrant 3 angles have the form $\\pi + \\theta$."
+          }
+        },
+        {
+          "id": "ch14_ex4_q3c",
+          "number": "3(c)",
+          "category": null,
+          "questionText": "If $\\cos x = \\cos\\left(\\dfrac{\\pi}{6}\\right)$ and $\\dfrac{3\\pi}{2} < x < 2\\pi$, find the value of $x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadrant 4 symmetry: $\\cos(2\\pi - \\theta) = \\cos\\theta$",
+            "steps": [
+              "Given: $\\cos x = \\cos\\dfrac{\\pi}{6}$ with $x$ in quadrant 4. Goal: $x$.",
+              "Using $\\cos(2\\pi - \\theta) = \\cos\\theta$: $\\cos\\dfrac{\\pi}{6} = \\cos\\left(2\\pi - \\dfrac{\\pi}{6}\\right)$.",
+              "So $x = 2\\pi - \\dfrac{\\pi}{6} = \\dfrac{11\\pi}{6}$.",
+              "Check: $\\dfrac{3\\pi}{2} = \\dfrac{9\\pi}{6} < \\dfrac{11\\pi}{6} < \\dfrac{12\\pi}{6}$. ✓"
+            ],
+            "finalAnswer": "$x = \\dfrac{11\\pi}{6}$",
+            "solutionFigures": [],
+            "tip": "Quadrant 4 angles have the form $2\\pi - \\theta$."
+          }
+        },
+        {
+          "id": "ch14_ex4_q4a",
+          "number": "4(a)",
+          "category": null,
+          "questionText": "A unit circle centred at the origin shows the point $\\left(\\dfrac{1}{2}, \\dfrac{\\sqrt{3}}{2}\\right)$ at angle $\\theta$ (first quadrant), the point $(a, b)$ at angle $\\pi - \\theta$ (second quadrant) and the point $(c, d)$ at angle $-\\theta$ (fourth quadrant). Write down the value of $a = \\cos(\\pi - \\theta)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(\\pi - \\theta) = -\\cos\\theta$ (reflection in the $y$-axis)",
+            "steps": [
+              "Given: $P(\\theta) = \\left(\\dfrac{1}{2}, \\dfrac{\\sqrt{3}}{2}\\right)$, so $\\cos\\theta = \\dfrac{1}{2}$ and $\\sin\\theta = \\dfrac{\\sqrt{3}}{2}$. Goal: $a$.",
+              "$(a, b)$ is the reflection of $P(\\theta)$ in the $y$-axis.",
+              "$a = \\cos(\\pi - \\theta) = -\\cos\\theta = -\\dfrac{1}{2}$."
+            ],
+            "finalAnswer": "$a = -\\dfrac{1}{2}$",
+            "solutionFigures": [],
+            "tip": "Read $\\cos\\theta$ and $\\sin\\theta$ straight off the given coordinates."
+          }
+        },
+        {
+          "id": "ch14_ex4_q4b",
+          "number": "4(b)",
+          "category": null,
+          "questionText": "A unit circle centred at the origin shows the point $\\left(\\dfrac{1}{2}, \\dfrac{\\sqrt{3}}{2}\\right)$ at angle $\\theta$ (first quadrant), the point $(a, b)$ at angle $\\pi - \\theta$ (second quadrant) and the point $(c, d)$ at angle $-\\theta$ (fourth quadrant). Write down the value of $b = \\sin(\\pi - \\theta)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\pi - \\theta) = \\sin\\theta$ (reflection in the $y$-axis)",
+            "steps": [
+              "Given: $\\sin\\theta = \\dfrac{\\sqrt{3}}{2}$. Goal: $b$.",
+              "Reflection in the $y$-axis keeps the $y$-coordinate.",
+              "$b = \\sin(\\pi - \\theta) = \\sin\\theta = \\dfrac{\\sqrt{3}}{2}$."
+            ],
+            "finalAnswer": "$b = \\dfrac{\\sqrt{3}}{2}$",
+            "solutionFigures": [],
+            "tip": "Check: $a^2 + b^2 = \\frac{1}{4} + \\frac{3}{4} = 1$, so $(a, b)$ is on the unit circle."
+          }
+        },
+        {
+          "id": "ch14_ex4_q4c",
+          "number": "4(c)",
+          "category": null,
+          "questionText": "A unit circle centred at the origin shows the point $\\left(\\dfrac{1}{2}, \\dfrac{\\sqrt{3}}{2}\\right)$ at angle $\\theta$ (first quadrant), the point $(a, b)$ at angle $\\pi - \\theta$ (second quadrant) and the point $(c, d)$ at angle $-\\theta$ (fourth quadrant). Write down the value of $c = \\cos(-\\theta)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(-\\theta) = \\cos\\theta$ (reflection in the $x$-axis)",
+            "steps": [
+              "Given: $\\cos\\theta = \\dfrac{1}{2}$. Goal: $c$.",
+              "$(c, d)$ is the reflection of $P(\\theta)$ in the $x$-axis, which keeps the $x$-coordinate.",
+              "$c = \\cos(-\\theta) = \\cos\\theta = \\dfrac{1}{2}$."
+            ],
+            "finalAnswer": "$c = \\dfrac{1}{2}$",
+            "solutionFigures": [],
+            "tip": "Cosine is even: the sign of the angle does not matter."
+          }
+        },
+        {
+          "id": "ch14_ex4_q4d",
+          "number": "4(d)",
+          "category": null,
+          "questionText": "A unit circle centred at the origin shows the point $\\left(\\dfrac{1}{2}, \\dfrac{\\sqrt{3}}{2}\\right)$ at angle $\\theta$ (first quadrant), the point $(a, b)$ at angle $\\pi - \\theta$ (second quadrant) and the point $(c, d)$ at angle $-\\theta$ (fourth quadrant). Write down the value of $d = \\sin(-\\theta)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(-\\theta) = -\\sin\\theta$ (reflection in the $x$-axis)",
+            "steps": [
+              "Given: $\\sin\\theta = \\dfrac{\\sqrt{3}}{2}$. Goal: $d$.",
+              "Reflection in the $x$-axis changes the sign of the $y$-coordinate.",
+              "$d = \\sin(-\\theta) = -\\sin\\theta = -\\dfrac{\\sqrt{3}}{2}$."
+            ],
+            "finalAnswer": "$d = -\\dfrac{\\sqrt{3}}{2}$",
+            "solutionFigures": [],
+            "tip": "Sine is odd: $\\sin(-\\theta) = -\\sin\\theta$."
+          }
+        },
+        {
+          "id": "ch14_ex4_q4e",
+          "number": "4(e)",
+          "category": null,
+          "questionText": "A unit circle centred at the origin shows the point $\\left(\\dfrac{1}{2}, \\dfrac{\\sqrt{3}}{2}\\right)$ at angle $\\theta$ (first quadrant), the point $(a, b)$ at angle $\\pi - \\theta$ (second quadrant) and the point $(c, d)$ at angle $-\\theta$ (fourth quadrant). Write down the value of $\\tan(\\pi - \\theta)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\pi - \\theta) = \\dfrac{\\sin(\\pi - \\theta)}{\\cos(\\pi - \\theta)} = \\dfrac{b}{a}$",
+            "steps": [
+              "Given: from (a) and (b), $a = -\\dfrac{1}{2}$, $b = \\dfrac{\\sqrt{3}}{2}$. Goal: $\\tan(\\pi - \\theta)$.",
+              "$\\tan(\\pi - \\theta) = \\dfrac{b}{a} = \\dfrac{\\sqrt{3}/2}{-1/2} = -\\sqrt{3}$.",
+              "Check: $\\tan\\theta = \\dfrac{\\sqrt{3}/2}{1/2} = \\sqrt{3}$ and $\\tan(\\pi - \\theta) = -\\tan\\theta$. ✓"
+            ],
+            "finalAnswer": "$\\tan(\\pi - \\theta) = -\\sqrt{3}$",
+            "solutionFigures": [],
+            "tip": "Dividing by $-\\frac{1}{2}$ is multiplying by $-2$."
+          }
+        },
+        {
+          "id": "ch14_ex4_q4f",
+          "number": "4(f)",
+          "category": null,
+          "questionText": "A unit circle centred at the origin shows the point $\\left(\\dfrac{1}{2}, \\dfrac{\\sqrt{3}}{2}\\right)$ at angle $\\theta$ (first quadrant), the point $(a, b)$ at angle $\\pi - \\theta$ (second quadrant) and the point $(c, d)$ at angle $-\\theta$ (fourth quadrant). Write down the value of $\\tan(-\\theta)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(-\\theta) = \\dfrac{\\sin(-\\theta)}{\\cos(-\\theta)} = \\dfrac{d}{c}$",
+            "steps": [
+              "Given: from (c) and (d), $c = \\dfrac{1}{2}$, $d = -\\dfrac{\\sqrt{3}}{2}$. Goal: $\\tan(-\\theta)$.",
+              "$\\tan(-\\theta) = \\dfrac{d}{c} = \\dfrac{-\\sqrt{3}/2}{1/2} = -\\sqrt{3}$.",
+              "Check: $\\tan(-\\theta) = -\\tan\\theta = -\\sqrt{3}$. ✓"
+            ],
+            "finalAnswer": "$\\tan(-\\theta) = -\\sqrt{3}$",
+            "solutionFigures": [],
+            "tip": "Tan is odd, like sine: $\\tan(-\\theta) = -\\tan\\theta$."
+          }
+        },
+        {
+          "id": "ch14_ex4_q5a",
+          "number": "5(a)",
+          "category": null,
+          "questionText": "A unit circle centred at the origin shows the point $\\left(-\\dfrac{1}{2}, \\dfrac{\\sqrt{3}}{2}\\right)$ at angle $\\theta$ (second quadrant), and the point $(c, d)$ at angle $\\pi + \\theta$ (fourth quadrant, diametrically opposite). Write down the value of $d = \\sin(\\pi + \\theta)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\pi + \\theta) = -\\sin\\theta$ (half-turn about $O$)",
+            "steps": [
+              "Given: $P(\\theta) = \\left(-\\dfrac{1}{2}, \\dfrac{\\sqrt{3}}{2}\\right)$, so $\\cos\\theta = -\\dfrac{1}{2}$, $\\sin\\theta = \\dfrac{\\sqrt{3}}{2}$. Goal: $d$.",
+              "$(c, d)$ is diametrically opposite $P(\\theta)$, so both coordinates change sign.",
+              "$d = \\sin(\\pi + \\theta) = -\\sin\\theta = -\\dfrac{\\sqrt{3}}{2}$."
+            ],
+            "finalAnswer": "$d = -\\dfrac{\\sqrt{3}}{2}$",
+            "solutionFigures": [],
+            "tip": "The rule $\\sin(\\pi + \\theta) = -\\sin\\theta$ holds for any $\\theta$, not only first-quadrant ones."
+          }
+        },
+        {
+          "id": "ch14_ex4_q5b",
+          "number": "5(b)",
+          "category": null,
+          "questionText": "A unit circle centred at the origin shows the point $\\left(-\\dfrac{1}{2}, \\dfrac{\\sqrt{3}}{2}\\right)$ at angle $\\theta$ (second quadrant), and the point $(c, d)$ at angle $\\pi + \\theta$ (fourth quadrant, diametrically opposite). Write down the value of $c = \\cos(\\pi + \\theta)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(\\pi + \\theta) = -\\cos\\theta$",
+            "steps": [
+              "Given: $\\cos\\theta = -\\dfrac{1}{2}$. Goal: $c$.",
+              "$c = \\cos(\\pi + \\theta) = -\\cos\\theta = -\\left(-\\dfrac{1}{2}\\right) = \\dfrac{1}{2}$.",
+              "Check: $(c, d) = \\left(\\dfrac{1}{2}, -\\dfrac{\\sqrt{3}}{2}\\right)$ is in quadrant 4, matching the diagram. ✓"
+            ],
+            "finalAnswer": "$c = \\dfrac{1}{2}$",
+            "solutionFigures": [],
+            "tip": "Watch the double negative: $-\\cos\\theta$ is positive when $\\cos\\theta$ is negative."
+          }
+        },
+        {
+          "id": "ch14_ex4_q5c",
+          "number": "5(c)",
+          "category": null,
+          "questionText": "A unit circle centred at the origin shows the point $\\left(-\\dfrac{1}{2}, \\dfrac{\\sqrt{3}}{2}\\right)$ at angle $\\theta$ (second quadrant), and the point $(c, d)$ at angle $\\pi + \\theta$ (fourth quadrant, diametrically opposite). Write down the value of $\\tan(\\pi + \\theta)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\pi + \\theta) = \\tan\\theta$",
+            "steps": [
+              "Given: $c = \\dfrac{1}{2}$, $d = -\\dfrac{\\sqrt{3}}{2}$. Goal: $\\tan(\\pi + \\theta)$.",
+              "$\\tan(\\pi + \\theta) = \\dfrac{d}{c} = \\dfrac{-\\sqrt{3}/2}{1/2} = -\\sqrt{3}$.",
+              "Check: $\\tan\\theta = \\dfrac{\\sqrt{3}/2}{-1/2} = -\\sqrt{3}$ and $\\tan(\\pi + \\theta) = \\tan\\theta$. ✓"
+            ],
+            "finalAnswer": "$\\tan(\\pi + \\theta) = -\\sqrt{3}$",
+            "solutionFigures": [],
+            "tip": "Tan has period $\\pi$, so a half-turn never changes it."
+          }
+        },
+        {
+          "id": "ch14_ex4_q5d",
+          "number": "5(d)",
+          "category": null,
+          "questionText": "A unit circle centred at the origin shows the point $\\left(-\\dfrac{1}{2}, \\dfrac{\\sqrt{3}}{2}\\right)$ at angle $\\theta$ (second quadrant), and the point $(c, d)$ at angle $\\pi + \\theta$ (fourth quadrant, diametrically opposite). Write down the value of $\\sin(2\\pi - \\theta)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(2\\pi - \\theta) = -\\sin\\theta$ (reflection in the $x$-axis)",
+            "steps": [
+              "Given: $\\sin\\theta = \\dfrac{\\sqrt{3}}{2}$. Goal: $\\sin(2\\pi - \\theta)$.",
+              "$P(2\\pi - \\theta)$ is the reflection of $P(\\theta)$ in the $x$-axis, i.e. the point $\\left(-\\dfrac{1}{2}, -\\dfrac{\\sqrt{3}}{2}\\right)$.",
+              "$\\sin(2\\pi - \\theta) = -\\dfrac{\\sqrt{3}}{2}$."
+            ],
+            "finalAnswer": "$\\sin(2\\pi - \\theta) = -\\dfrac{\\sqrt{3}}{2}$",
+            "solutionFigures": [],
+            "tip": "Here $2\\pi - \\theta$ is in quadrant 3 because $\\theta$ itself is in quadrant 2; trust the identity, not the label 'quadrant 4'."
+          }
+        },
+        {
+          "id": "ch14_ex4_q5e",
+          "number": "5(e)",
+          "category": null,
+          "questionText": "A unit circle centred at the origin shows the point $\\left(-\\dfrac{1}{2}, \\dfrac{\\sqrt{3}}{2}\\right)$ at angle $\\theta$ (second quadrant), and the point $(c, d)$ at angle $\\pi + \\theta$ (fourth quadrant, diametrically opposite). Write down the value of $\\cos(2\\pi - \\theta)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(2\\pi - \\theta) = \\cos\\theta$ (reflection in the $x$-axis)",
+            "steps": [
+              "Given: $\\cos\\theta = -\\dfrac{1}{2}$. Goal: $\\cos(2\\pi - \\theta)$.",
+              "Reflection in the $x$-axis keeps the $x$-coordinate.",
+              "$\\cos(2\\pi - \\theta) = \\cos\\theta = -\\dfrac{1}{2}$."
+            ],
+            "finalAnswer": "$\\cos(2\\pi - \\theta) = -\\dfrac{1}{2}$",
+            "solutionFigures": [],
+            "tip": "Apply the symmetry rule to the given value, including its sign."
+          }
+        },
+        {
+          "id": "ch14_ex4_q6a",
+          "number": "6(a)",
+          "category": null,
+          "questionText": "A unit circle centred at the origin shows the point $(a, b)$ at angle $40^\\circ$ and the point $(c, d)$ at angle $140^\\circ$ (both on the circle of radius 1; $(c, d)$ is the reflection of $(a, b)$ in the $y$-axis). Use your calculator to find $a$ and $b$ correct to four decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$P(\\theta) = (\\cos\\theta, \\sin\\theta)$",
+            "steps": [
+              "Given: $(a, b) = P(40^\\circ)$. Goal: $a$ and $b$ to 4 d.p.",
+              "$a = \\cos 40^\\circ = 0.76604\\ldots$",
+              "$b = \\sin 40^\\circ = 0.64278\\ldots$",
+              "Check (Pythagorean identity): $0.7660^2 + 0.6428^2 = 0.5868 + 0.4132 = 1.0000$. ✓",
+              "So $a \\approx 0.7660$ and $b \\approx 0.6428$."
+            ],
+            "finalAnswer": "$a = 0.7660$, $b = 0.6428$",
+            "solutionFigures": [],
+            "tip": "Set the calculator to degree mode for this question."
+          }
+        },
+        {
+          "id": "ch14_ex4_q6b",
+          "number": "6(b)",
+          "category": null,
+          "questionText": "A unit circle centred at the origin shows the point $(a, b)$ at angle $40^\\circ$ and the point $(c, d)$ at angle $140^\\circ$ ($(c, d)$ is the reflection of $(a, b)$ in the $y$-axis). Hence find the values of $c$ and $d$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Reflection in the $y$-axis: $\\cos(180^\\circ - \\theta) = -\\cos\\theta$, $\\sin(180^\\circ - \\theta) = \\sin\\theta$",
+            "steps": [
+              "Given: $a = 0.7660$, $b = 0.6428$ and $140^\\circ = 180^\\circ - 40^\\circ$. Goal: $c$ and $d$.",
+              "$c = \\cos 140^\\circ = -\\cos 40^\\circ = -a = -0.7660$.",
+              "$d = \\sin 140^\\circ = \\sin 40^\\circ = b = 0.6428$."
+            ],
+            "finalAnswer": "$c = -0.7660$, $d = 0.6428$",
+            "solutionFigures": [],
+            "tip": "'Hence' means use part (a) and symmetry rather than starting again."
+          }
+        },
+        {
+          "id": "ch14_ex4_q6ci",
+          "number": "6(c)(i)",
+          "category": null,
+          "questionText": "Use your calculator to find $\\cos 140^\\circ$ and $\\sin 140^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$P(140^\\circ) = (\\cos 140^\\circ, \\sin 140^\\circ)$",
+            "steps": [
+              "Goal: $\\cos 140^\\circ$ and $\\sin 140^\\circ$ (to 4 d.p., matching part (a)).",
+              "Degree mode: $\\cos 140^\\circ = -0.76604\\ldots$",
+              "Degree mode: $\\sin 140^\\circ = 0.64278\\ldots$",
+              "These agree with $c$ and $d$ found in part (b). ✓"
+            ],
+            "finalAnswer": "$\\cos 140^\\circ \\approx -0.7660$, $\\sin 140^\\circ \\approx 0.6428$",
+            "solutionFigures": [],
+            "tip": "The calculator confirms the symmetry result from part (b)."
+          }
+        },
+        {
+          "id": "ch14_ex4_q6cii",
+          "number": "6(c)(ii)",
+          "category": null,
+          "questionText": "Write $\\cos 140^\\circ$ in terms of $\\cos 40^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(180^\\circ - \\theta) = -\\cos\\theta$",
+            "steps": [
+              "Goal: express $\\cos 140^\\circ$ using $\\cos 40^\\circ$.",
+              "$140^\\circ = 180^\\circ - 40^\\circ$.",
+              "So $\\cos 140^\\circ = \\cos(180^\\circ - 40^\\circ) = -\\cos 40^\\circ$.",
+              "Check: $-\\cos 40^\\circ = -0.7660 = \\cos 140^\\circ$ from (c)(i). ✓"
+            ],
+            "finalAnswer": "$\\cos 140^\\circ = -\\cos 40^\\circ$",
+            "solutionFigures": [],
+            "tip": "Supplementary angles have equal sines and opposite cosines."
+          }
+        },
+        {
+          "id": "ch14_ex4_q7a",
+          "number": "7(a)",
+          "category": null,
+          "questionText": "If $\\sin x^\\circ = \\sin 60^\\circ$ and $90^\\circ < x^\\circ < 180^\\circ$, find the value of $x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(180^\\circ - \\theta) = \\sin\\theta$",
+            "steps": [
+              "Given: $\\sin x^\\circ = \\sin 60^\\circ$, $x$ in quadrant 2. Goal: $x$.",
+              "$\\sin 60^\\circ = \\sin(180^\\circ - 60^\\circ) = \\sin 120^\\circ$.",
+              "So $x = 120$.",
+              "Check: $90 < 120 < 180$ ✓ and $\\sin 120^\\circ = \\dfrac{\\sqrt{3}}{2} = \\sin 60^\\circ$. ✓"
+            ],
+            "finalAnswer": "$x = 120$",
+            "solutionFigures": [],
+            "tip": "Quadrant 2: subtract the basic angle from $180^\\circ$."
+          }
+        },
+        {
+          "id": "ch14_ex4_q7b",
+          "number": "7(b)",
+          "category": null,
+          "questionText": "If $\\sin x^\\circ = -\\sin 60^\\circ$ and $180^\\circ < x^\\circ < 270^\\circ$, find the value of $x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(180^\\circ + \\theta) = -\\sin\\theta$",
+            "steps": [
+              "Given: $\\sin x^\\circ = -\\sin 60^\\circ$, $x$ in quadrant 3. Goal: $x$.",
+              "$-\\sin 60^\\circ = \\sin(180^\\circ + 60^\\circ) = \\sin 240^\\circ$.",
+              "So $x = 240$.",
+              "Check: $180 < 240 < 270$ ✓ and $\\sin 240^\\circ = -\\dfrac{\\sqrt{3}}{2}$. ✓"
+            ],
+            "finalAnswer": "$x = 240$",
+            "solutionFigures": [],
+            "tip": "Quadrant 3: add the basic angle to $180^\\circ$."
+          }
+        },
+        {
+          "id": "ch14_ex4_q7c",
+          "number": "7(c)",
+          "category": null,
+          "questionText": "If $\\sin x^\\circ = -\\sin 60^\\circ$ and $-90^\\circ < x^\\circ < 0^\\circ$, find the value of $x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(-\\theta) = -\\sin\\theta$",
+            "steps": [
+              "Given: $\\sin x^\\circ = -\\sin 60^\\circ$, $x$ between $-90^\\circ$ and $0^\\circ$ (quadrant 4, measured clockwise). Goal: $x$.",
+              "$-\\sin 60^\\circ = \\sin(-60^\\circ)$.",
+              "So $x = -60$.",
+              "Check: $-90 < -60 < 0$ ✓ and $\\sin(-60^\\circ) = -\\dfrac{\\sqrt{3}}{2}$. ✓"
+            ],
+            "finalAnswer": "$x = -60$",
+            "solutionFigures": [],
+            "tip": "Give a negative answer when the interval is negative; $300$ is outside the stated range."
+          }
+        },
+        {
+          "id": "ch14_ex4_q7d",
+          "number": "7(d)",
+          "category": null,
+          "questionText": "If $\\cos x^\\circ = -\\cos 60^\\circ$ and $90^\\circ < x^\\circ < 180^\\circ$, find the value of $x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(180^\\circ - \\theta) = -\\cos\\theta$",
+            "steps": [
+              "Given: $\\cos x^\\circ = -\\cos 60^\\circ$, $x$ in quadrant 2. Goal: $x$.",
+              "$-\\cos 60^\\circ = \\cos(180^\\circ - 60^\\circ) = \\cos 120^\\circ$.",
+              "So $x = 120$.",
+              "Check: $\\cos 120^\\circ = -\\dfrac{1}{2} = -\\cos 60^\\circ$. ✓"
+            ],
+            "finalAnswer": "$x = 120$",
+            "solutionFigures": [],
+            "tip": "Cosine is negative in quadrants 2 and 3."
+          }
+        },
+        {
+          "id": "ch14_ex4_q7e",
+          "number": "7(e)",
+          "category": null,
+          "questionText": "If $\\cos x^\\circ = -\\cos 60^\\circ$ and $180^\\circ < x^\\circ < 270^\\circ$, find the value of $x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(180^\\circ + \\theta) = -\\cos\\theta$",
+            "steps": [
+              "Given: $\\cos x^\\circ = -\\cos 60^\\circ$, $x$ in quadrant 3. Goal: $x$.",
+              "$-\\cos 60^\\circ = \\cos(180^\\circ + 60^\\circ) = \\cos 240^\\circ$.",
+              "So $x = 240$.",
+              "Check: $\\cos 240^\\circ = -\\dfrac{1}{2}$. ✓"
+            ],
+            "finalAnswer": "$x = 240$",
+            "solutionFigures": [],
+            "tip": "Use the interval to decide which symmetry ($180 - \\theta$ or $180 + \\theta$) applies."
+          }
+        },
+        {
+          "id": "ch14_ex4_q7f",
+          "number": "7(f)",
+          "category": null,
+          "questionText": "If $\\cos x^\\circ = \\cos 60^\\circ$ and $270^\\circ < x^\\circ < 360^\\circ$, find the value of $x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(360^\\circ - \\theta) = \\cos\\theta$",
+            "steps": [
+              "Given: $\\cos x^\\circ = \\cos 60^\\circ$, $x$ in quadrant 4. Goal: $x$.",
+              "$\\cos 60^\\circ = \\cos(360^\\circ - 60^\\circ) = \\cos 300^\\circ$.",
+              "So $x = 300$.",
+              "Check: $270 < 300 < 360$ ✓ and $\\cos 300^\\circ = \\dfrac{1}{2}$. ✓"
+            ],
+            "finalAnswer": "$x = 300$",
+            "solutionFigures": [],
+            "tip": "Quadrant 4: subtract the basic angle from $360^\\circ$."
+          }
+        }
+      ]
+    }
+  ]
+}

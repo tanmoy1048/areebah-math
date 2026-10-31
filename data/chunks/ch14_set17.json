@@ -1,0 +1,404 @@
+{
+  "chapterId": "ch14",
+  "chapterTitle": "Circular functions (Methods 12)",
+  "topics": [
+    {
+      "topicId": "14 Review 3",
+      "topicTitle": "Review",
+      "exercises": [
+        {
+          "id": "ch14_ex17_q1ai",
+          "number": "1(a)(i)",
+          "category": null,
+          "questionText": "The number of hours of daylight at a point on the Antarctic Circle is modelled by the function $d = 12 + 12\\cos\\left(\\dfrac{1}{6}\\pi\\left(t + \\dfrac{1}{3}\\right)\\right)$, where $t$ is the number of months which have elapsed since 1 January. Find $d$ on 21 June ($t \\approx 5.7$).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute into $d = 12 + 12\\cos\\left(\\frac{\\pi}{6}\\left(t + \\frac{1}{3}\\right)\\right)$ (calculator in radian mode)",
+            "steps": [
+              "Given: $t = 5.7$. Goal: hours of daylight $d$.",
+              "$t + \\frac{1}{3} = 5.7 + 0.3\\overline{3} = 6.0\\overline{3}$",
+              "Angle: $\\frac{\\pi}{6} \\times 6.0\\overline{3} = \\pi + \\frac{\\pi}{6} \\times \\frac{1}{30} = \\pi + \\frac{\\pi}{180}$ (that is, $181^\\circ$), $\\approx 3.1590$ rad.",
+              "$\\cos\\left(\\pi + \\frac{\\pi}{180}\\right) = -\\cos\\frac{\\pi}{180} \\approx -0.99985$",
+              "$d = 12 + 12(-0.99985) = 12(1 - 0.99985) \\approx 0.0018$",
+              "So on 21 June there is essentially no daylight: $d \\approx 0.002$ hours (about 0 hours)."
+            ],
+            "finalAnswer": "$d \\approx 0.0018$ hours, i.e. approximately 0 hours of daylight",
+            "solutionFigures": [],
+            "tip": "Use radian mode; in degree mode you would get a meaningless value close to 24."
+          }
+        },
+        {
+          "id": "ch14_ex17_q1aii",
+          "number": "1(a)(ii)",
+          "category": null,
+          "questionText": "The number of hours of daylight at a point on the Antarctic Circle is modelled by the function $d = 12 + 12\\cos\\left(\\dfrac{1}{6}\\pi\\left(t + \\dfrac{1}{3}\\right)\\right)$, where $t$ is the number of months which have elapsed since 1 January. Find $d$ on 21 March ($t \\approx 2.7$).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute into $d = 12 + 12\\cos\\left(\\frac{\\pi}{6}\\left(t + \\frac{1}{3}\\right)\\right)$; $\\cos\\left(\\frac{\\pi}{2} + x\\right) = -\\sin x$",
+            "steps": [
+              "Given: $t = 2.7$. Goal: $d$.",
+              "$t + \\frac{1}{3} = 3.0\\overline{3}$",
+              "Angle: $\\frac{\\pi}{6} \\times 3.0\\overline{3} = \\frac{\\pi}{2} + \\frac{\\pi}{180}$ ($91^\\circ$).",
+              "$\\cos\\left(\\frac{\\pi}{2} + \\frac{\\pi}{180}\\right) = -\\sin\\frac{\\pi}{180} \\approx -0.017452$",
+              "$d = 12 + 12(-0.017452) = 12 - 0.2094 \\approx 11.79$",
+              "So on 21 March (near the equinox) there are about 11.79 hours of daylight, close to 12 hours as expected."
+            ],
+            "finalAnswer": "$d \\approx 11.79$ hours (2 d.p.)",
+            "solutionFigures": [],
+            "tip": "A sanity check: at an equinox daylight should be close to 12 hours."
+          }
+        },
+        {
+          "id": "ch14_ex17_q1b",
+          "number": "1(b)",
+          "category": null,
+          "questionText": "The number of hours of daylight at a point on the Antarctic Circle is modelled by the function $d = 12 + 12\\cos\\left(\\dfrac{1}{6}\\pi\\left(t + \\dfrac{1}{3}\\right)\\right)$, where $t$ is the number of months which have elapsed since 1 January. When will there be 5 hours of daylight?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Solve $\\cos u = k$: $u = \\pi \\pm \\cos^{-1}(|k|)$ when $k < 0$ (quadrants 2 and 3)",
+            "steps": [
+              "Given: $d = 5$, $0 \\le t \\le 12$. Goal: $t$.",
+              "$12 + 12\\cos u = 5$ where $u = \\frac{\\pi}{6}\\left(t + \\frac{1}{3}\\right)$, so $\\cos u = -\\dfrac{7}{12}$.",
+              "For $t \\in [0, 12]$, $u \\in \\left[\\frac{\\pi}{18}, 2\\pi + \\frac{\\pi}{18}\\right]$.",
+              "Basic angle $\\alpha = \\cos^{-1}\\frac{7}{12} \\approx 0.94797$. Cosine negative in quadrants 2 and 3: $u = \\pi - \\alpha$ or $u = \\pi + \\alpha$.",
+              "$t = \\frac{6u}{\\pi} - \\frac{1}{3}$, so $t = \\frac{17}{3} \\mp \\frac{6\\alpha}{\\pi} = 5.6667 \\mp 1.8105$.",
+              "$t \\approx 3.86$ or $t \\approx 7.48$.",
+              "Check: $12 + 12\\cos\\left(\\frac{\\pi}{6}(3.856 + 0.333)\\right) \\approx 5.00$ ✓",
+              "$t \\approx 3.86$ months after 1 January is late April (about 26 April); $t \\approx 7.48$ months is mid-August (about 15 August)."
+            ],
+            "finalAnswer": "$t \\approx 3.86$ and $t \\approx 7.48$ months, i.e. around late April (about 26 April) and mid-August (about 15 August)",
+            "solutionFigures": [],
+            "tip": "Find the range of $u$ first so that you collect every solution in the year."
+          }
+        },
+        {
+          "id": "ch14_ex17_q2a",
+          "number": "2(a)",
+          "category": null,
+          "questionText": "The temperature, $A^\\circ$C, inside a house at $t$ hours after 4 a.m. is given by the rule $A = 21 - 3\\cos\\left(\\dfrac{\\pi t}{12}\\right)$, for $0 \\le t \\le 24$. The temperature, $B^\\circ$C, outside the house at the same time is given by the rule $B = 22 - 5\\cos\\left(\\dfrac{\\pi t}{12}\\right)$, for $0 \\le t \\le 24$. Find the temperature inside the house at 8 a.m.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos\\frac{\\pi}{3} = \\frac{1}{2}$",
+            "steps": [
+              "8 a.m. is 4 hours after 4 a.m., so $t = 4$.",
+              "$A = 21 - 3\\cos\\left(\\frac{4\\pi}{12}\\right) = 21 - 3\\cos\\frac{\\pi}{3}$",
+              "$= 21 - 3 \\times \\frac{1}{2} = 21 - 1.5 = 19.5$",
+              "The inside temperature at 8 a.m. is $19.5^\\circ$C."
+            ],
+            "finalAnswer": "$19.5^\\circ$C",
+            "solutionFigures": [],
+            "tip": "$t$ is measured from 4 a.m., not midnight: 8 a.m. is $t = 4$, not $t = 8$."
+          }
+        },
+        {
+          "id": "ch14_ex17_q2b",
+          "number": "2(b)",
+          "category": null,
+          "questionText": "The temperature, $A^\\circ$C, inside a house at $t$ hours after 4 a.m. is given by $A = 21 - 3\\cos\\left(\\dfrac{\\pi t}{12}\\right)$, and the temperature outside, $B^\\circ$C, is $B = 22 - 5\\cos\\left(\\dfrac{\\pi t}{12}\\right)$, for $0 \\le t \\le 24$. Write down an expression for $D = A - B$, the difference between the inside and outside temperatures.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Collect like terms in $\\cos\\left(\\frac{\\pi t}{12}\\right)$",
+            "steps": [
+              "$D = A - B = \\left(21 - 3\\cos\\frac{\\pi t}{12}\\right) - \\left(22 - 5\\cos\\frac{\\pi t}{12}\\right)$",
+              "$= 21 - 22 - 3\\cos\\frac{\\pi t}{12} + 5\\cos\\frac{\\pi t}{12}$",
+              "$= -1 + 2\\cos\\left(\\frac{\\pi t}{12}\\right)$",
+              "Check at $t = 4$: $A = 19.5$, $B = 22 - 2.5 = 19.5$, so $D = 0$; formula gives $-1 + 2 \\times \\frac{1}{2} = 0$ ✓"
+            ],
+            "finalAnswer": "$D = 2\\cos\\left(\\dfrac{\\pi t}{12}\\right) - 1$, $0 \\le t \\le 24$",
+            "solutionFigures": [],
+            "tip": "Bracket $B$ before subtracting so that both of its terms change sign."
+          }
+        },
+        {
+          "id": "ch14_ex17_q2c",
+          "number": "2(c)",
+          "category": null,
+          "questionText": "For the house temperatures $A = 21 - 3\\cos\\left(\\dfrac{\\pi t}{12}\\right)$ (inside) and $B = 22 - 5\\cos\\left(\\dfrac{\\pi t}{12}\\right)$ (outside), $t$ hours after 4 a.m., sketch the graph of $D = A - B$ for $0 \\le t \\le 24$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$D = 2\\cos\\left(\\frac{\\pi t}{12}\\right) - 1$: amplitude 2, period $\\frac{2\\pi}{\\pi/12} = 24$, centre line $D = -1$",
+            "steps": [
+              "From (b), $D = 2\\cos\\left(\\frac{\\pi t}{12}\\right) - 1$. Amplitude 2, period 24, so the domain is exactly one cycle; range $[-3, 1]$.",
+              "Key points: $t = 0$: $D = 1$ (max); $t = 6$: $D = -1$; $t = 12$: $D = -3$ (min); $t = 18$: $D = -1$; $t = 24$: $D = 1$ (max).",
+              "$t$-intercepts: $2\\cos\\frac{\\pi t}{12} = 1 \\Rightarrow \\cos\\frac{\\pi t}{12} = \\frac{1}{2} \\Rightarrow \\frac{\\pi t}{12} = \\frac{\\pi}{3}$ or $\\frac{5\\pi}{3}$, so $t = 4$ or $t = 20$.",
+              "Sketch a cosine curve from $(0,1)$ down through $(4,0)$, $(6,-1)$ to the minimum $(12,-3)$, then up through $(18,-1)$, $(20,0)$ to $(24,1)$."
+            ],
+            "finalAnswer": "One cycle of $D = 2\\cos\\frac{\\pi t}{12} - 1$: endpoints $(0,1)$ and $(24,1)$, minimum $(12,-3)$, $t$-intercepts at $t = 4$ and $t = 20$",
+            "solutionFigures": [],
+            "tip": "Mark the centre line $D = -1$ first, then go up and down 2 units from it."
+          }
+        },
+        {
+          "id": "ch14_ex17_q2d",
+          "number": "2(d)",
+          "category": null,
+          "questionText": "For the house temperatures $A = 21 - 3\\cos\\left(\\dfrac{\\pi t}{12}\\right)$ (inside) and $B = 22 - 5\\cos\\left(\\dfrac{\\pi t}{12}\\right)$ (outside), $t$ hours after 4 a.m., $0 \\le t \\le 24$, determine when the inside temperature is less than the outside temperature.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$A < B \\iff D = A - B < 0$, with $D = 2\\cos\\left(\\frac{\\pi t}{12}\\right) - 1$",
+            "steps": [
+              "$A < B \\iff 2\\cos\\left(\\frac{\\pi t}{12}\\right) - 1 < 0 \\iff \\cos\\left(\\frac{\\pi t}{12}\\right) < \\frac{1}{2}$.",
+              "With $\\frac{\\pi t}{12} \\in [0, 2\\pi]$, $\\cos u < \\frac{1}{2}$ for $\\frac{\\pi}{3} < u < \\frac{5\\pi}{3}$.",
+              "So $4 < t < 20$ (matching the graph in (c), where $D$ is below the $t$-axis between the intercepts).",
+              "$t = 4$ is 8 a.m. and $t = 20$ is midnight.",
+              "Check $t = 12$ (4 p.m.): $A = 21 + 3 = 24$, $B = 22 + 5 = 27$, so $A < B$ ✓"
+            ],
+            "finalAnswer": "For $4 < t < 20$: the inside is cooler than outside from 8 a.m. until midnight",
+            "solutionFigures": [],
+            "tip": "Convert $t$ back to clock time; the question is about times of day."
+          }
+        },
+        {
+          "id": "ch14_ex17_q3a",
+          "number": "3(a)",
+          "category": null,
+          "questionText": "At a certain time of the year the depth of water, $d$ metres, in the harbour at Bunk Island is given by the rule $d = 3 + 1.8\\cos\\left(\\dfrac{\\pi}{6}t\\right)$, where $t$ is the time in hours after 3 a.m. Sketch the graph of $d$ against $t$ for a 24-hour period from 3 a.m. to 3 a.m.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$d = 3 + 1.8\\cos\\left(\\frac{\\pi t}{6}\\right)$: amplitude 1.8, period $\\frac{2\\pi}{\\pi/6} = 12$, centre line $d = 3$",
+            "steps": [
+              "Domain $t \\in [0, 24]$: two full cycles. Range $[3 - 1.8, 3 + 1.8] = [1.2, 4.8]$.",
+              "Maxima ($\\cos = 1$): $t = 0, 12, 24$, $d = 4.8$.",
+              "Minima ($\\cos = -1$): $t = 6, 18$, $d = 1.2$.",
+              "Centre-line crossings ($\\cos = 0$): $t = 3, 9, 15, 21$, $d = 3$.",
+              "Sketch a cosine wave through $(0,4.8)$, $(3,3)$, $(6,1.2)$, $(9,3)$, $(12,4.8)$, $(15,3)$, $(18,1.2)$, $(21,3)$, $(24,4.8)$."
+            ],
+            "finalAnswer": "Two cycles of a cosine curve, period 12 h: maxima 4.8 m at $t = 0, 12, 24$; minima 1.2 m at $t = 6, 18$; $d = 3$ at $t = 3, 9, 15, 21$",
+            "solutionFigures": [],
+            "tip": "The graph never touches the $t$-axis: the minimum depth is 1.2 m."
+          }
+        },
+        {
+          "id": "ch14_ex17_q3b",
+          "number": "3(b)",
+          "category": null,
+          "questionText": "The depth of water, $d$ metres, in the harbour at Bunk Island is given by $d = 3 + 1.8\\cos\\left(\\dfrac{\\pi}{6}t\\right)$, where $t$ is the time in hours after 3 a.m. At what time(s) does high tide occur for $t \\in [0, 24]$?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Maximum when $\\cos\\left(\\frac{\\pi t}{6}\\right) = 1 \\iff \\frac{\\pi t}{6} = 2k\\pi$",
+            "steps": [
+              "High tide is the maximum, $d = 4.8$, when $\\cos\\frac{\\pi t}{6} = 1$.",
+              "$\\frac{\\pi t}{6} = 0, 2\\pi, 4\\pi \\Rightarrow t = 0, 12, 24$.",
+              "Convert from 3 a.m.: $t = 0$ is 3 a.m., $t = 12$ is 3 p.m., $t = 24$ is 3 a.m. the next day."
+            ],
+            "finalAnswer": "High tide (4.8 m) at 3 a.m., 3 p.m. and 3 a.m. the next day ($t = 0, 12, 24$)",
+            "solutionFigures": [],
+            "tip": "Include both endpoints of the closed interval $[0, 24]$."
+          }
+        },
+        {
+          "id": "ch14_ex17_q3c",
+          "number": "3(c)",
+          "category": null,
+          "questionText": "The depth of water, $d$ metres, in the harbour at Bunk Island is given by $d = 3 + 1.8\\cos\\left(\\dfrac{\\pi}{6}t\\right)$, where $t$ is the time in hours after 3 a.m. At what time(s) does low tide occur for $t \\in [0, 24]$?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Minimum when $\\cos\\left(\\frac{\\pi t}{6}\\right) = -1 \\iff \\frac{\\pi t}{6} = \\pi + 2k\\pi$",
+            "steps": [
+              "Low tide is the minimum, $d = 1.2$, when $\\cos\\frac{\\pi t}{6} = -1$.",
+              "$\\frac{\\pi t}{6} = \\pi, 3\\pi \\Rightarrow t = 6, 18$.",
+              "$t = 6$ is 9 a.m. and $t = 18$ is 9 p.m."
+            ],
+            "finalAnswer": "Low tide (1.2 m) at 9 a.m. and 9 p.m. ($t = 6, 18$)",
+            "solutionFigures": [],
+            "tip": "Low tide is half a period (6 h) after high tide."
+          }
+        },
+        {
+          "id": "ch14_ex17_q3d",
+          "number": "3(d)",
+          "category": null,
+          "questionText": "The depth of water, $d$ metres, in the harbour at Bunk Island is given by $d = 3 + 1.8\\cos\\left(\\dfrac{\\pi}{6}t\\right)$, where $t$ is the time in hours after 3 a.m. A passenger ferry operates between Main Beach and Bunk Island. It takes 50 minutes to go from Main Beach to Bunk Island. The ferry only runs between the hours of 8 a.m. and 8 p.m., and is only able to enter the harbour at Bunk Island if the depth of water is at least 2 metres. What is the earliest time the ferry should leave Main Beach so that it arrives at Bunk Island and can immediately enter the harbour?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Solve $3 + 1.8\\cos\\left(\\frac{\\pi t}{6}\\right) = 2$; cosine negative in quadrants 2 and 3",
+            "steps": [
+              "Goal: the first time after 8 a.m. at which the depth is at least 2 m, then subtract 50 minutes.",
+              "$3 + 1.8\\cos\\frac{\\pi t}{6} = 2 \\Rightarrow \\cos\\frac{\\pi t}{6} = -\\frac{1}{1.8} = -\\frac{5}{9}$.",
+              "Let $\\alpha = \\cos^{-1}\\frac{5}{9} \\approx 0.98177$. Around the low tide at $\\frac{\\pi t}{6} = \\pi$: $\\frac{\\pi t}{6} = \\pi \\pm \\alpha$, so $t = 6 \\pm \\frac{6\\alpha}{\\pi} = 6 \\pm 1.8750$.",
+              "So $d < 2$ for $4.125 < t < 7.875$, i.e. from 7:07:30 a.m. to 10:52:30 a.m.",
+              "At 8 a.m. the depth is below 2 m (e.g. a ferry leaving at 8:00 arrives at 8:50, inside this interval), so the ferry must arrive no earlier than 10:52:30 a.m.",
+              "Leave Main Beach 50 minutes earlier: 10:02:30 a.m., i.e. 10:03 a.m. to the nearest minute (10:02 would arrive just before the depth reaches 2 m).",
+              "Check: $t = 7.875$ gives $d = 3 + 1.8\\cos(1.3125\\pi) = 3 + 1.8(-0.5556) \\approx 2.00$ ✓"
+            ],
+            "finalAnswer": "About 10:03 a.m. (exactly 10:02:30 a.m.), arriving at Bunk Island at about 10:53 a.m.",
+            "solutionFigures": [],
+            "tip": "Remember to convert $t$ (hours after 3 a.m.) to clock time and then subtract the 50-minute crossing."
+          }
+        },
+        {
+          "id": "ch14_ex17_q3ei",
+          "number": "3(e)(i)",
+          "category": null,
+          "questionText": "The depth of water, $d$ metres, in the harbour at Bunk Island is given by $d = 3 + 1.8\\cos\\left(\\dfrac{\\pi}{6}t\\right)$, where $t$ is the time in hours after 3 a.m. A passenger ferry takes 50 minutes to go from Main Beach to Bunk Island, only runs between 8 a.m. and 8 p.m., and can only enter the harbour at Bunk Island if the depth is at least 2 metres. The time to go from Bunk Island to Main Beach is also 50 minutes. The minimum time the ferry takes at Bunk Island harbour is 5 minutes. The minimum time at Main Beach is also 5 minutes. What is the latest time the ferry can leave Main Beach to complete a round trip in 105 minutes?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Round trip $= 50 + 5 + 50 = 105$ min; depth $\\ge 2$ m for $7.875 \\le t \\le 16.125$ (from (d), by symmetry about the high tide at $t = 12$)",
+            "steps": [
+              "Constraint 1 (operating hours): the round trip must finish by 8 p.m., so departure $\\le$ 8 p.m. $-$ 105 min $=$ 6:15 p.m.",
+              "Constraint 2 (depth): the second low-depth interval is $t = 12 + 4.125 = 16.125$ to $19.875$, i.e. the depth falls below 2 m at 7:07:30 p.m.; the ferry must arrive at Bunk Island by then, so leave Main Beach by 6:17:30 p.m.",
+              "Constraint 1 is stricter, so the latest departure is 6:15 p.m.",
+              "Check: leaving 6:15 p.m., arrival at Bunk Island 7:05 p.m. ($t \\approx 16.083$): $d = 3 + 1.8\\cos(2.6806\\pi) \\approx 3 + 1.8(-0.537) \\approx 2.03 \\ge 2$ ✓; back at Main Beach 8:00 p.m. ✓"
+            ],
+            "finalAnswer": "6:15 p.m. (arrives Bunk Island 7:05 p.m., back at Main Beach 8:00 p.m.)",
+            "solutionFigures": [],
+            "tip": "Check every constraint (operating hours and depth) and take the most restrictive."
+          }
+        },
+        {
+          "id": "ch14_ex17_q3eii",
+          "number": "3(e)(ii)",
+          "category": null,
+          "questionText": "The depth of water, $d$ metres, in the harbour at Bunk Island is given by $d = 3 + 1.8\\cos\\left(\\dfrac{\\pi}{6}t\\right)$, where $t$ is the time in hours after 3 a.m. A passenger ferry takes 50 minutes each way between Main Beach and Bunk Island, only runs between 8 a.m. and 8 p.m., and can only enter the harbour at Bunk Island if the depth is at least 2 metres. The minimum time the ferry takes at Bunk Island harbour is 5 minutes and the minimum time at Main Beach is also 5 minutes. How many complete round trips can the ferry make in a day?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Time between successive departures from Main Beach $\\ge 50 + 5 + 50 + 5 = 110$ minutes",
+            "steps": [
+              "From (d), the earliest departure is 10:02:30 a.m. (about 10:03 a.m.); from (e)(i), the latest departure is 6:15 p.m.",
+              "Available window for departures: 10:02:30 a.m. to 6:15 p.m. $= 8$ h $12.5$ min $= 492.5$ min.",
+              "With $n$ trips, departures are at least 110 min apart, so we need $110(n - 1) \\le 492.5$, giving $n - 1 \\le 4.48$, so $n \\le 5$.",
+              "Schedule check (leaving at 10:03 a.m.): departures 10:03, 11:53 a.m., 1:43, 3:33, 5:23 p.m.; arrivals at Bunk Island 10:53 a.m., 12:43, 2:33, 4:23, 6:13 p.m., all between 10:52:30 a.m. and 7:07:30 p.m. when the depth is at least 2 m ✓",
+              "A sixth departure at 7:13 p.m. would be after 6:15 p.m. ✗"
+            ],
+            "finalAnswer": "5 complete round trips",
+            "solutionFigures": [],
+            "tip": "Include the 5-minute stop at Main Beach between trips: the cycle is 110 minutes, not 105."
+          }
+        },
+        {
+          "id": "ch14_ex17_q4a",
+          "number": "4(a)",
+          "category": null,
+          "questionText": "The depth of water, $D$ metres, at the end of Brighton pier $t$ hours after low tide is given by the rule $D = p - 2\\cos(rt)$, where $p$ and $r$ are suitable constants. At low tide ($t = 0$) the depth is 2 metres; at high tide, which occurs 8 hours later, the depth is 6 metres. Show that $r = \\dfrac{\\pi}{8}$ and $p = 4$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Low tide to high tide is half a period; period of $\\cos(rt)$ is $\\frac{2\\pi}{r}$",
+            "steps": [
+              "At $t = 0$: $D = p - 2\\cos 0 = p - 2 = 2$, so $p = 4$.",
+              "At $t = 8$ (high tide): $4 - 2\\cos(8r) = 6$, so $\\cos(8r) = -1$.",
+              "Since $t = 8$ is the first high tide after $t = 0$, $8r = \\pi$ (the smallest positive solution), so $r = \\frac{\\pi}{8}$.",
+              "Second route: low to high tide is half a period, so the period is 16 h, and $\\frac{2\\pi}{r} = 16 \\Rightarrow r = \\frac{\\pi}{8}$ ✓",
+              "Hence $r = \\frac{\\pi}{8}$ and $p = 4$, as required."
+            ],
+            "finalAnswer": "$p = 4$ and $r = \\dfrac{\\pi}{8}$ (shown)",
+            "solutionFigures": [],
+            "tip": "Use the first high tide, so take the smallest positive solution of $\\cos(8r) = -1$."
+          }
+        },
+        {
+          "id": "ch14_ex17_q4b",
+          "number": "4(b)",
+          "category": null,
+          "questionText": "The depth of water, $D$ metres, at the end of Brighton pier $t$ hours after low tide is given by $D = 4 - 2\\cos\\left(\\dfrac{\\pi}{8}t\\right)$. Sketch the graph of $D = 4 - 2\\cos\\left(\\dfrac{\\pi}{8}t\\right)$ for $0 \\le t \\le 16$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Amplitude 2, period $\\frac{2\\pi}{\\pi/8} = 16$, centre line $D = 4$; $-\\cos$ starts at a minimum",
+            "steps": [
+              "Domain $[0, 16]$ is exactly one cycle. Range $[2, 6]$.",
+              "$t = 0$: $D = 4 - 2 = 2$ (min); $t = 4$: $D = 4 - 2\\cos\\frac{\\pi}{2} = 4$; $t = 8$: $D = 4 + 2 = 6$ (max)",
+              "$t = 12$: $D = 4 - 2\\cos\\frac{3\\pi}{2} = 4$; $t = 16$: $D = 4 - 2\\cos 2\\pi = 2$ (min)",
+              "Sketch an inverted cosine curve through $(0,2)$, $(4,4)$, $(8,6)$, $(12,4)$, $(16,2)$."
+            ],
+            "finalAnswer": "One cycle: minimum $(0,2)$, $(4,4)$, maximum $(8,6)$, $(12,4)$, minimum $(16,2)$",
+            "solutionFigures": [],
+            "tip": "Start the sketch at the low tide value $D = 2$, not at the centre line."
+          }
+        },
+        {
+          "id": "ch14_ex17_q4c",
+          "number": "4(c)",
+          "category": null,
+          "questionText": "The depth of water, $D$ metres, at the end of Brighton pier $t$ hours after low tide is given by $D = 4 - 2\\cos\\left(\\dfrac{\\pi}{8}t\\right)$. If the first low tide occurs at 4 a.m., when will the next low tide occur?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Period $= \\dfrac{2\\pi}{\\pi/8} = 16$ hours",
+            "steps": [
+              "Consecutive low tides are one period apart: 16 hours.",
+              "4 a.m. + 16 hours = 8 p.m.",
+              "Check: at $t = 16$, $D = 4 - 2\\cos 2\\pi = 2$, the minimum ✓"
+            ],
+            "finalAnswer": "8 p.m. the same day",
+            "solutionFigures": [],
+            "tip": "Low tide to low tide is a full period, not half."
+          }
+        },
+        {
+          "id": "ch14_ex17_q4d",
+          "number": "4(d)",
+          "category": null,
+          "questionText": "The depth of water, $D$ metres, at the end of Brighton pier $t$ hours after low tide is given by $D = 4 - 2\\cos\\left(\\dfrac{\\pi}{8}t\\right)$, and the first low tide occurs at 4 a.m. At what times will the depth be equal to 4 metres?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos u = 0 \\iff u = \\frac{\\pi}{2} + k\\pi$",
+            "steps": [
+              "$4 - 2\\cos\\frac{\\pi t}{8} = 4 \\Rightarrow \\cos\\frac{\\pi t}{8} = 0$.",
+              "$\\frac{\\pi t}{8} = \\frac{\\pi}{2}, \\frac{3\\pi}{2}, \\ldots \\Rightarrow t = 4, 12, \\ldots$ (in general $t = 4 + 8k$).",
+              "In the first cycle ($0 \\le t \\le 16$): $t = 4$ and $t = 12$.",
+              "With low tide at 4 a.m. ($t = 0$): $t = 4$ is 8 a.m. and $t = 12$ is 4 p.m.; the pattern then repeats every 8 hours (midnight, 8 a.m., ...)."
+            ],
+            "finalAnswer": "$t = 4$ and $t = 12$ hours after low tide: 8 a.m. and 4 p.m. (then every 8 hours)",
+            "solutionFigures": [],
+            "tip": "The depth equals the mean level halfway between low and high tide."
+          }
+        },
+        {
+          "id": "ch14_ex17_q4ei",
+          "number": "4(e)(i)",
+          "category": null,
+          "questionText": "The depth of water, $D$ metres, at the end of Brighton pier $t$ hours after low tide is given by $D = 4 - 2\\cos\\left(\\dfrac{\\pi}{8}t\\right)$, and the first low tide occurs at 4 a.m. The poles that support the Brighton pier stand 7.5 metres above the sea bed. How much of a particular pole is exposed at high tide?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Exposed length $= 7.5 - D$",
+            "steps": [
+              "At high tide $D$ is maximal: $D = 4 + 2 = 6$ m.",
+              "Exposed length $= 7.5 - 6 = 1.5$ m."
+            ],
+            "finalAnswer": "1.5 m",
+            "solutionFigures": [],
+            "tip": "The exposed part is the pole height minus the water depth."
+          }
+        },
+        {
+          "id": "ch14_ex17_q4eii",
+          "number": "4(e)(ii)",
+          "category": null,
+          "questionText": "The depth of water, $D$ metres, at the end of Brighton pier $t$ hours after low tide is given by $D = 4 - 2\\cos\\left(\\dfrac{\\pi}{8}t\\right)$, and the first low tide occurs at 4 a.m. The poles that support the Brighton pier stand 7.5 metres above the sea bed. How much of a particular pole is exposed at 2 p.m.?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos\\frac{5\\pi}{4} = -\\cos\\frac{\\pi}{4} = -\\frac{\\sqrt{2}}{2}$; exposed length $= 7.5 - D$",
+            "steps": [
+              "2 p.m. is 10 hours after 4 a.m., so $t = 10$.",
+              "$D = 4 - 2\\cos\\frac{10\\pi}{8} = 4 - 2\\cos\\frac{5\\pi}{4} = 4 - 2\\left(-\\frac{\\sqrt{2}}{2}\\right) = 4 + \\sqrt{2} \\approx 5.414$ m.",
+              "Exposed length $= 7.5 - (4 + \\sqrt{2}) = 3.5 - \\sqrt{2} \\approx 2.086$ m.",
+              "Sense check: $t = 10$ is just after high tide ($t = 8$), so the depth should be a little below 6 m ✓"
+            ],
+            "finalAnswer": "$3.5 - \\sqrt{2} \\approx 2.09$ m (2 d.p.)",
+            "solutionFigures": [],
+            "tip": "$\\frac{5\\pi}{4}$ is in quadrant 3, where cosine is negative."
+          }
+        },
+        {
+          "id": "ch14_ex17_q4f",
+          "number": "4(f)",
+          "category": null,
+          "questionText": "The depth of water, $D$ metres, at the end of Brighton pier $t$ hours after low tide is given by $D = 4 - 2\\cos\\left(\\dfrac{\\pi}{8}t\\right)$. The poles that support the Brighton pier stand 7.5 metres above the sea bed. Over the years mussels have attached themselves to the pole. A particular mussel is attached 4 metres from the top of the pole so that some of the time it is exposed and some of the time it is covered by water. For how long will the mussel be covered by water during the time from one low tide to the next?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Mussel height above sea bed $= 7.5 - 4 = 3.5$ m; covered when $D > 3.5$",
+            "steps": [
+              "The mussel is $3.5$ m above the sea bed, so it is covered when $4 - 2\\cos\\frac{\\pi t}{8} > 3.5$, i.e. $\\cos\\frac{\\pi t}{8} < \\frac{1}{4}$.",
+              "Over one cycle $0 \\le t \\le 16$, $\\frac{\\pi t}{8} \\in [0, 2\\pi]$. Let $\\beta = \\cos^{-1}\\frac{1}{4} \\approx 1.31812$.",
+              "$\\cos u < \\frac{1}{4}$ for $\\beta < u < 2\\pi - \\beta$, so $\\frac{8\\beta}{\\pi} < t < 16 - \\frac{8\\beta}{\\pi}$.",
+              "$\\frac{8\\beta}{\\pi} \\approx 3.3566$, so the mussel is covered for $3.3566 < t < 12.6434$.",
+              "Duration $= 16 - 2(3.3566) \\approx 9.287$ hours $\\approx 9$ h $17$ min.",
+              "Check: at $t = 3.3566$, $D = 4 - 2 \\times 0.25 = 3.5$ ✓"
+            ],
+            "finalAnswer": "About 9.29 hours (approximately 9 hours 17 minutes)",
+            "solutionFigures": [],
+            "tip": "Measure the mussel's height from the sea bed, not from the top of the pole."
+          }
+        }
+      ]
+    }
+  ]
+}

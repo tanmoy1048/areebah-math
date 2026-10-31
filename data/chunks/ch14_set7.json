@@ -1,0 +1,686 @@
+{
+  "chapterId": "ch14",
+  "chapterTitle": "Circular functions (Methods 12)",
+  "topics": [
+    {
+      "topicId": "14G",
+      "topicTitle": "Solution of trigonometric equations",
+      "exercises": [
+        {
+          "id": "ch14_ex7_q1a",
+          "number": "1(a)",
+          "category": null,
+          "questionText": "Find all the values of $x$ between 0 and $4\\pi$ for which $\\cos x = \\dfrac{1}{2}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine is positive in quadrants 1 and 4: if $\\cos x = \\cos\\alpha$ then $x = \\alpha$ or $x = 2\\pi - \\alpha$, plus multiples of $2\\pi$",
+            "steps": [
+              "Given: $\\cos x = \\frac{1}{2}$, $x \\in [0, 4\\pi]$. Goal: all solutions.",
+              "Basic angle: $\\cos\\frac{\\pi}{3} = \\frac{1}{2}$, so $\\alpha = \\frac{\\pi}{3}$.",
+              "Solutions in $[0, 2\\pi]$: $x = \\frac{\\pi}{3}$ (quadrant 1) and $x = 2\\pi - \\frac{\\pi}{3} = \\frac{5\\pi}{3}$ (quadrant 4).",
+              "Add $2\\pi$ to each: $\\frac{\\pi}{3} + 2\\pi = \\frac{7\\pi}{3}$ and $\\frac{5\\pi}{3} + 2\\pi = \\frac{11\\pi}{3}$, both $\\le 4\\pi$.",
+              "Check: $\\cos\\frac{11\\pi}{3} = \\cos\\left(4\\pi - \\frac{\\pi}{3}\\right) = \\cos\\frac{\\pi}{3} = \\frac{1}{2}$. ✓"
+            ],
+            "finalAnswer": "$x = \\dfrac{\\pi}{3}, \\dfrac{5\\pi}{3}, \\dfrac{7\\pi}{3}, \\dfrac{11\\pi}{3}$",
+            "solutionFigures": [],
+            "tip": "An interval of length $4\\pi$ covers two cycles, so expect twice as many solutions as in $[0, 2\\pi]$."
+          }
+        },
+        {
+          "id": "ch14_ex7_q1b",
+          "number": "1(b)",
+          "category": null,
+          "questionText": "Find all the values of $x$ between 0 and $4\\pi$ for which $\\sin x = \\dfrac{1}{\\sqrt{2}}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine is positive in quadrants 1 and 2: if $\\sin x = \\sin\\alpha$ then $x = \\alpha$ or $x = \\pi - \\alpha$, plus multiples of $2\\pi$",
+            "steps": [
+              "Given: $\\sin x = \\frac{1}{\\sqrt{2}}$, $x \\in [0, 4\\pi]$.",
+              "Basic angle: $\\alpha = \\frac{\\pi}{4}$.",
+              "Solutions in $[0, 2\\pi]$: $\\frac{\\pi}{4}$ and $\\pi - \\frac{\\pi}{4} = \\frac{3\\pi}{4}$.",
+              "Add $2\\pi$: $\\frac{9\\pi}{4}$ and $\\frac{11\\pi}{4}$.",
+              "Check: $\\sin\\frac{11\\pi}{4} = \\sin\\frac{3\\pi}{4} = \\frac{1}{\\sqrt{2}}$. ✓"
+            ],
+            "finalAnswer": "$x = \\dfrac{\\pi}{4}, \\dfrac{3\\pi}{4}, \\dfrac{9\\pi}{4}, \\dfrac{11\\pi}{4}$",
+            "solutionFigures": [],
+            "tip": "Find all solutions in the first cycle before adding $2\\pi$."
+          }
+        },
+        {
+          "id": "ch14_ex7_q1c",
+          "number": "1(c)",
+          "category": null,
+          "questionText": "Find all the values of $x$ between 0 and $4\\pi$ for which $\\sin x = \\dfrac{\\sqrt{3}}{2}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "If $\\sin x = \\sin\\alpha$ then $x = \\alpha$ or $x = \\pi - \\alpha$, plus multiples of $2\\pi$",
+            "steps": [
+              "Given: $\\sin x = \\frac{\\sqrt{3}}{2}$, $x \\in [0, 4\\pi]$.",
+              "Basic angle: $\\alpha = \\frac{\\pi}{3}$.",
+              "Solutions in $[0, 2\\pi]$: $\\frac{\\pi}{3}$ and $\\pi - \\frac{\\pi}{3} = \\frac{2\\pi}{3}$.",
+              "Add $2\\pi$: $\\frac{7\\pi}{3}$ and $\\frac{8\\pi}{3}$.",
+              "Check: $\\sin\\frac{8\\pi}{3} = \\sin\\frac{2\\pi}{3} = \\frac{\\sqrt{3}}{2}$. ✓"
+            ],
+            "finalAnswer": "$x = \\dfrac{\\pi}{3}, \\dfrac{2\\pi}{3}, \\dfrac{7\\pi}{3}, \\dfrac{8\\pi}{3}$",
+            "solutionFigures": [],
+            "tip": "$\\frac{\\sqrt{3}}{2}$ belongs to $\\frac{\\pi}{3}$ for sine (and to $\\frac{\\pi}{6}$ for cosine)."
+          }
+        },
+        {
+          "id": "ch14_ex7_q2a",
+          "number": "2(a)",
+          "category": null,
+          "questionText": "Find, correct to two decimal places, all the values of $x$ between 0 and $2\\pi$ for which $\\sin x = 0.8$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "If $\\sin x = b > 0$: $x = \\sin^{-1} b$ or $x = \\pi - \\sin^{-1} b$",
+            "steps": [
+              "Given: $\\sin x = 0.8$, $x \\in [0, 2\\pi]$. Positive sine: quadrants 1 and 2.",
+              "Calculator (radian mode): $\\sin^{-1}(0.8) = 0.92729\\ldots$",
+              "Second solution: $\\pi - 0.92729\\ldots = 2.21430\\ldots$",
+              "Check: $\\sin(2.2143) = 0.8000$. ✓",
+              "Rounded to 2 d.p.: $x = 0.93$ or $x = 2.21$."
+            ],
+            "finalAnswer": "$x \\approx 0.93$ or $x \\approx 2.21$",
+            "solutionFigures": [],
+            "tip": "Use the unrounded calculator value when computing $\\pi - \\alpha$."
+          }
+        },
+        {
+          "id": "ch14_ex7_q2b",
+          "number": "2(b)",
+          "category": null,
+          "questionText": "Find, correct to two decimal places, all the values of $x$ between 0 and $2\\pi$ for which $\\cos x = -0.4$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine is negative in quadrants 2 and 3: with basic angle $\\alpha = \\cos^{-1}(0.4)$, $x = \\pi - \\alpha$ or $x = \\pi + \\alpha$",
+            "steps": [
+              "Given: $\\cos x = -0.4$, $x \\in [0, 2\\pi]$.",
+              "Basic angle: $\\alpha = \\cos^{-1}(0.4) = 1.15928\\ldots$",
+              "Quadrant 2: $x = \\pi - 1.15928\\ldots = 1.98231\\ldots$",
+              "Quadrant 3: $x = \\pi + 1.15928\\ldots = 4.30087\\ldots$",
+              "Second route: $\\cos^{-1}(-0.4) = 1.98231\\ldots$ and $2\\pi - 1.98231\\ldots = 4.30087\\ldots$ ✓",
+              "Rounded: $x = 1.98$ or $x = 4.30$."
+            ],
+            "finalAnswer": "$x \\approx 1.98$ or $x \\approx 4.30$",
+            "solutionFigures": [],
+            "tip": "Find the basic angle from the positive value $0.4$, then place it in the correct quadrants."
+          }
+        },
+        {
+          "id": "ch14_ex7_q2c",
+          "number": "2(c)",
+          "category": null,
+          "questionText": "Find, correct to two decimal places, all the values of $x$ between 0 and $2\\pi$ for which $\\sin x = -0.35$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine is negative in quadrants 3 and 4: with $\\alpha = \\sin^{-1}(0.35)$, $x = \\pi + \\alpha$ or $x = 2\\pi - \\alpha$",
+            "steps": [
+              "Given: $\\sin x = -0.35$, $x \\in [0, 2\\pi]$.",
+              "Basic angle: $\\alpha = \\sin^{-1}(0.35) = 0.35757\\ldots$",
+              "Quadrant 3: $x = \\pi + 0.35757\\ldots = 3.49916\\ldots$",
+              "Quadrant 4: $x = 2\\pi - 0.35757\\ldots = 5.92561\\ldots$",
+              "Check: $\\sin(3.4992) \\approx -0.35$ and $\\sin(5.9256) \\approx -0.35$. ✓",
+              "Rounded: $x = 3.50$ or $x = 5.93$."
+            ],
+            "finalAnswer": "$x \\approx 3.50$ or $x \\approx 5.93$",
+            "solutionFigures": [],
+            "tip": "The calculator's $\\sin^{-1}(-0.35) = -0.36$ is outside $[0, 2\\pi]$; do not give it as an answer."
+          }
+        },
+        {
+          "id": "ch14_ex7_q2d",
+          "number": "2(d)",
+          "category": null,
+          "questionText": "Find, correct to two decimal places, all the values of $x$ between 0 and $2\\pi$ for which $\\sin x = 0.4$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "If $\\sin x = b > 0$: $x = \\sin^{-1} b$ or $x = \\pi - \\sin^{-1} b$",
+            "steps": [
+              "Given: $\\sin x = 0.4$, $x \\in [0, 2\\pi]$ (quadrants 1 and 2).",
+              "$\\sin^{-1}(0.4) = 0.41152\\ldots$",
+              "Second solution: $\\pi - 0.41152\\ldots = 2.73007\\ldots$",
+              "Rounded: $x = 0.41$ or $x = 2.73$."
+            ],
+            "finalAnswer": "$x \\approx 0.41$ or $x \\approx 2.73$",
+            "solutionFigures": [],
+            "tip": "Check the two answers add to $\\pi$: $0.41 + 2.73 = 3.14$. ✓"
+          }
+        },
+        {
+          "id": "ch14_ex7_q2e",
+          "number": "2(e)",
+          "category": null,
+          "questionText": "Find, correct to two decimal places, all the values of $x$ between 0 and $2\\pi$ for which $\\cos x = -0.7$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine negative in quadrants 2 and 3: $x = \\pi - \\alpha$ or $x = \\pi + \\alpha$ with $\\alpha = \\cos^{-1}(0.7)$",
+            "steps": [
+              "Given: $\\cos x = -0.7$, $x \\in [0, 2\\pi]$.",
+              "Basic angle: $\\alpha = \\cos^{-1}(0.7) = 0.79540\\ldots$",
+              "Quadrant 2: $x = \\pi - 0.79540\\ldots = 2.34619\\ldots$",
+              "Quadrant 3: $x = \\pi + 0.79540\\ldots = 3.93699\\ldots$",
+              "Check: the two answers add to $2\\pi \\approx 6.28$ ($2.35 + 3.94 = 6.29$, rounding). ✓",
+              "Rounded: $x = 2.35$ or $x = 3.94$."
+            ],
+            "finalAnswer": "$x \\approx 2.35$ or $x \\approx 3.94$",
+            "solutionFigures": [],
+            "tip": "Solutions of $\\cos x = b$ in $[0, 2\\pi]$ are symmetric about $x = \\pi$."
+          }
+        },
+        {
+          "id": "ch14_ex7_q2f",
+          "number": "2(f)",
+          "category": null,
+          "questionText": "Find, correct to two decimal places, all the values of $x$ between 0 and $2\\pi$ for which $\\cos x = -0.2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine negative in quadrants 2 and 3: $x = \\pi - \\alpha$ or $x = \\pi + \\alpha$ with $\\alpha = \\cos^{-1}(0.2)$",
+            "steps": [
+              "Given: $\\cos x = -0.2$, $x \\in [0, 2\\pi]$.",
+              "Basic angle: $\\alpha = \\cos^{-1}(0.2) = 1.36944\\ldots$",
+              "Quadrant 2: $x = \\pi - 1.36944\\ldots = 1.77215\\ldots$",
+              "Quadrant 3: $x = \\pi + 1.36944\\ldots = 4.51103\\ldots$",
+              "Rounded: $x = 1.77$ or $x = 4.51$."
+            ],
+            "finalAnswer": "$x \\approx 1.77$ or $x \\approx 4.51$",
+            "solutionFigures": [],
+            "tip": "Both answers should be close to $\\frac{\\pi}{2}$ and $\\frac{3\\pi}{2}$ since $-0.2$ is close to 0."
+          }
+        },
+        {
+          "id": "ch14_ex7_q3a",
+          "number": "3(a)",
+          "category": null,
+          "questionText": "Without using a calculator, find all the values of $\\theta^\\circ$ between $0^\\circ$ and $360^\\circ$ for which $\\cos\\theta^\\circ = -\\dfrac{\\sqrt{3}}{2}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine negative in quadrants 2 and 3: $\\theta = 180^\\circ - \\alpha$ or $180^\\circ + \\alpha$",
+            "steps": [
+              "Given: $\\cos\\theta^\\circ = -\\frac{\\sqrt{3}}{2}$. Basic angle: $\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$, so $\\alpha = 30^\\circ$.",
+              "Quadrant 2: $\\theta = 180 - 30 = 150$.",
+              "Quadrant 3: $\\theta = 180 + 30 = 210$.",
+              "Check: $\\cos 150^\\circ = -\\cos 30^\\circ = -\\frac{\\sqrt{3}}{2}$. ✓"
+            ],
+            "finalAnswer": "$\\theta = 150$ or $\\theta = 210$",
+            "solutionFigures": [],
+            "tip": "The basic angle is always found from the positive value."
+          }
+        },
+        {
+          "id": "ch14_ex7_q3b",
+          "number": "3(b)",
+          "category": null,
+          "questionText": "Without using a calculator, find all the values of $\\theta^\\circ$ between $0^\\circ$ and $360^\\circ$ for which $\\sin\\theta^\\circ = \\dfrac{1}{2}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine positive in quadrants 1 and 2: $\\theta = \\alpha$ or $180^\\circ - \\alpha$",
+            "steps": [
+              "Given: $\\sin\\theta^\\circ = \\frac{1}{2}$. Basic angle $\\alpha = 30^\\circ$.",
+              "Quadrant 1: $\\theta = 30$.",
+              "Quadrant 2: $\\theta = 180 - 30 = 150$."
+            ],
+            "finalAnswer": "$\\theta = 30$ or $\\theta = 150$",
+            "solutionFigures": [],
+            "tip": "Sketching $y = \\sin\\theta$ and $y = \\frac{1}{2}$ confirms there are exactly two solutions."
+          }
+        },
+        {
+          "id": "ch14_ex7_q3c",
+          "number": "3(c)",
+          "category": null,
+          "questionText": "Without using a calculator, find all the values of $\\theta^\\circ$ between $0^\\circ$ and $360^\\circ$ for which $\\cos\\theta^\\circ = -\\dfrac{1}{2}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine negative in quadrants 2 and 3: $\\theta = 180^\\circ - \\alpha$ or $180^\\circ + \\alpha$",
+            "steps": [
+              "Given: $\\cos\\theta^\\circ = -\\frac{1}{2}$. Basic angle: $\\cos 60^\\circ = \\frac{1}{2}$, $\\alpha = 60^\\circ$.",
+              "Quadrant 2: $\\theta = 120$.",
+              "Quadrant 3: $\\theta = 240$."
+            ],
+            "finalAnswer": "$\\theta = 120$ or $\\theta = 240$",
+            "solutionFigures": [],
+            "tip": "Check: $120 + 240 = 360$, as expected for the symmetric cosine solutions."
+          }
+        },
+        {
+          "id": "ch14_ex7_q3d",
+          "number": "3(d)",
+          "category": null,
+          "questionText": "Without using a calculator, find all the values of $\\theta^\\circ$ between $0^\\circ$ and $360^\\circ$ for which $2\\cos(\\theta^\\circ) + 1 = 0$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Rearrange to $\\cos\\theta^\\circ = b$, then use quadrant symmetry",
+            "steps": [
+              "Given: $2\\cos\\theta^\\circ + 1 = 0$.",
+              "Rearrange: $2\\cos\\theta^\\circ = -1 \\Rightarrow \\cos\\theta^\\circ = -\\frac{1}{2}$.",
+              "This is the equation of part (c): basic angle $60^\\circ$, quadrants 2 and 3.",
+              "$\\theta = 180 - 60 = 120$ or $\\theta = 180 + 60 = 240$.",
+              "Check: $2\\cos 120^\\circ + 1 = 2\\left(-\\frac{1}{2}\\right) + 1 = 0$. ✓"
+            ],
+            "finalAnswer": "$\\theta = 120$ or $\\theta = 240$",
+            "solutionFigures": [],
+            "tip": "Isolate the trig function first, exactly as you would isolate $x$ in a linear equation."
+          }
+        },
+        {
+          "id": "ch14_ex7_q3e",
+          "number": "3(e)",
+          "category": null,
+          "questionText": "Without using a calculator, find all the values of $\\theta^\\circ$ between $0^\\circ$ and $360^\\circ$ for which $2\\sin\\theta^\\circ = \\sqrt{3}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine positive in quadrants 1 and 2: $\\theta = \\alpha$ or $180^\\circ - \\alpha$",
+            "steps": [
+              "Given: $2\\sin\\theta^\\circ = \\sqrt{3} \\Rightarrow \\sin\\theta^\\circ = \\frac{\\sqrt{3}}{2}$.",
+              "Basic angle: $\\sin 60^\\circ = \\frac{\\sqrt{3}}{2}$, $\\alpha = 60^\\circ$.",
+              "$\\theta = 60$ or $\\theta = 180 - 60 = 120$.",
+              "Check: $2\\sin 120^\\circ = 2 \\times \\frac{\\sqrt{3}}{2} = \\sqrt{3}$. ✓"
+            ],
+            "finalAnswer": "$\\theta = 60$ or $\\theta = 120$",
+            "solutionFigures": [],
+            "tip": "Divide both sides by 2 before finding the basic angle."
+          }
+        },
+        {
+          "id": "ch14_ex7_q3f",
+          "number": "3(f)",
+          "category": null,
+          "questionText": "Without using a calculator, find all the values of $\\theta^\\circ$ between $0^\\circ$ and $360^\\circ$ for which $\\sqrt{2}\\sin(\\theta^\\circ) - 1 = 0$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine positive in quadrants 1 and 2: $\\theta = \\alpha$ or $180^\\circ - \\alpha$",
+            "steps": [
+              "Given: $\\sqrt{2}\\sin\\theta^\\circ - 1 = 0 \\Rightarrow \\sin\\theta^\\circ = \\frac{1}{\\sqrt{2}}$.",
+              "Basic angle: $\\alpha = 45^\\circ$.",
+              "$\\theta = 45$ or $\\theta = 180 - 45 = 135$.",
+              "Check: $\\sqrt{2}\\sin 135^\\circ - 1 = \\sqrt{2} \\cdot \\frac{1}{\\sqrt{2}} - 1 = 0$. ✓"
+            ],
+            "finalAnswer": "$\\theta = 45$ or $\\theta = 135$",
+            "solutionFigures": [],
+            "tip": "$\\frac{1}{\\sqrt{2}}$ and $\\frac{\\sqrt{2}}{2}$ both signal the $45^\\circ$ basic angle."
+          }
+        },
+        {
+          "id": "ch14_ex7_q4a",
+          "number": "4(a)",
+          "category": null,
+          "questionText": "Without using a calculator, find all the values of $x$ between 0 and $2\\pi$ for which $2\\cos x = \\sqrt{3}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine positive in quadrants 1 and 4: $x = \\alpha$ or $2\\pi - \\alpha$",
+            "steps": [
+              "Given: $2\\cos x = \\sqrt{3} \\Rightarrow \\cos x = \\frac{\\sqrt{3}}{2}$.",
+              "Basic angle: $\\cos\\frac{\\pi}{6} = \\frac{\\sqrt{3}}{2}$, $\\alpha = \\frac{\\pi}{6}$.",
+              "$x = \\frac{\\pi}{6}$ or $x = 2\\pi - \\frac{\\pi}{6} = \\frac{11\\pi}{6}$."
+            ],
+            "finalAnswer": "$x = \\dfrac{\\pi}{6}$ or $x = \\dfrac{11\\pi}{6}$",
+            "solutionFigures": [],
+            "tip": "For cosine, $\\frac{\\sqrt{3}}{2}$ corresponds to $\\frac{\\pi}{6}$, not $\\frac{\\pi}{3}$."
+          }
+        },
+        {
+          "id": "ch14_ex7_q4b",
+          "number": "4(b)",
+          "category": null,
+          "questionText": "Without using a calculator, find all the values of $x$ between 0 and $2\\pi$ for which $\\sqrt{2}\\sin(x) + 1 = 0$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine negative in quadrants 3 and 4: $x = \\pi + \\alpha$ or $2\\pi - \\alpha$",
+            "steps": [
+              "Given: $\\sqrt{2}\\sin x + 1 = 0 \\Rightarrow \\sin x = -\\frac{1}{\\sqrt{2}}$.",
+              "Basic angle: $\\alpha = \\frac{\\pi}{4}$.",
+              "Quadrant 3: $x = \\pi + \\frac{\\pi}{4} = \\frac{5\\pi}{4}$.",
+              "Quadrant 4: $x = 2\\pi - \\frac{\\pi}{4} = \\frac{7\\pi}{4}$.",
+              "Check: $\\sqrt{2}\\sin\\frac{5\\pi}{4} + 1 = \\sqrt{2}\\left(-\\frac{1}{\\sqrt{2}}\\right) + 1 = 0$. ✓"
+            ],
+            "finalAnswer": "$x = \\dfrac{5\\pi}{4}$ or $x = \\dfrac{7\\pi}{4}$",
+            "solutionFigures": [],
+            "tip": "A negative sine value means the solutions are below the $x$-axis: quadrants 3 and 4."
+          }
+        },
+        {
+          "id": "ch14_ex7_q4c",
+          "number": "4(c)",
+          "category": null,
+          "questionText": "Without using a calculator, find all the values of $x$ between 0 and $2\\pi$ for which $\\sqrt{2}\\cos(x) - 1 = 0$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine positive in quadrants 1 and 4: $x = \\alpha$ or $2\\pi - \\alpha$",
+            "steps": [
+              "Given: $\\sqrt{2}\\cos x - 1 = 0 \\Rightarrow \\cos x = \\frac{1}{\\sqrt{2}}$.",
+              "Basic angle: $\\alpha = \\frac{\\pi}{4}$.",
+              "$x = \\frac{\\pi}{4}$ or $x = 2\\pi - \\frac{\\pi}{4} = \\frac{7\\pi}{4}$."
+            ],
+            "finalAnswer": "$x = \\dfrac{\\pi}{4}$ or $x = \\dfrac{7\\pi}{4}$",
+            "solutionFigures": [],
+            "tip": "Substitute each answer back into the original equation as a check."
+          }
+        },
+        {
+          "id": "ch14_ex7_q5a",
+          "number": "5(a)",
+          "category": null,
+          "questionText": "Find all the values of $x$ between $-\\pi$ and $\\pi$ for which $\\cos x = -\\dfrac{1}{\\sqrt{2}}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine negative in quadrants 2 and 3; on $[-\\pi, \\pi]$, quadrant 3 angles are written as $-\\pi + \\alpha$",
+            "steps": [
+              "Given: $\\cos x = -\\frac{1}{\\sqrt{2}}$, $x \\in [-\\pi, \\pi]$. Basic angle $\\alpha = \\frac{\\pi}{4}$.",
+              "Quadrant 2: $x = \\pi - \\frac{\\pi}{4} = \\frac{3\\pi}{4}$.",
+              "Quadrant 3 (measured clockwise): $x = -\\left(\\pi - \\frac{\\pi}{4}\\right) = -\\frac{3\\pi}{4}$.",
+              "Check: cosine is even, so $\\cos\\left(-\\frac{3\\pi}{4}\\right) = \\cos\\frac{3\\pi}{4} = -\\frac{1}{\\sqrt{2}}$. ✓"
+            ],
+            "finalAnswer": "$x = -\\dfrac{3\\pi}{4}$ or $x = \\dfrac{3\\pi}{4}$",
+            "solutionFigures": [],
+            "tip": "On $[-\\pi, \\pi]$ the cosine solutions come in $\\pm$ pairs."
+          }
+        },
+        {
+          "id": "ch14_ex7_q5b",
+          "number": "5(b)",
+          "category": null,
+          "questionText": "Find all the values of $x$ between $-\\pi$ and $\\pi$ for which $\\sin x = \\dfrac{\\sqrt{3}}{2}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine positive in quadrants 1 and 2: $x = \\alpha$ or $\\pi - \\alpha$",
+            "steps": [
+              "Given: $\\sin x = \\frac{\\sqrt{3}}{2}$, $x \\in [-\\pi, \\pi]$. Basic angle $\\alpha = \\frac{\\pi}{3}$.",
+              "Quadrant 1: $x = \\frac{\\pi}{3}$. Quadrant 2: $x = \\pi - \\frac{\\pi}{3} = \\frac{2\\pi}{3}$.",
+              "The negative part of the interval, $[-\\pi, 0)$, is quadrants 3 and 4, where sine is negative, so there are no further solutions."
+            ],
+            "finalAnswer": "$x = \\dfrac{\\pi}{3}$ or $x = \\dfrac{2\\pi}{3}$",
+            "solutionFigures": [],
+            "tip": "Check each part of the interval for the sign of the function before listing solutions."
+          }
+        },
+        {
+          "id": "ch14_ex7_q5c",
+          "number": "5(c)",
+          "category": null,
+          "questionText": "Find all the values of $x$ between $-\\pi$ and $\\pi$ for which $\\cos x = -\\dfrac{1}{2}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine negative in quadrants 2 and 3; $\\cos(-x) = \\cos x$",
+            "steps": [
+              "Given: $\\cos x = -\\frac{1}{2}$, $x \\in [-\\pi, \\pi]$. Basic angle $\\alpha = \\frac{\\pi}{3}$.",
+              "Quadrant 2: $x = \\pi - \\frac{\\pi}{3} = \\frac{2\\pi}{3}$.",
+              "Quadrant 3, written as a negative angle: $x = -\\frac{2\\pi}{3}$.",
+              "Check: $\\cos\\left(-\\frac{2\\pi}{3}\\right) = \\cos\\frac{2\\pi}{3} = -\\frac{1}{2}$. ✓"
+            ],
+            "finalAnswer": "$x = -\\dfrac{2\\pi}{3}$ or $x = \\dfrac{2\\pi}{3}$",
+            "solutionFigures": [],
+            "tip": "Do not write $\\frac{4\\pi}{3}$: it is outside $[-\\pi, \\pi]$. Use $-\\frac{2\\pi}{3}$ instead."
+          }
+        },
+        {
+          "id": "ch14_ex7_q6a",
+          "number": "6(a)",
+          "category": null,
+          "questionText": "Sketch the graph of $f: [-2\\pi, 2\\pi] \\to \\mathbb{R}$, $f(x) = \\cos x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\cos x$: amplitude 1, period $2\\pi$, even function",
+            "steps": [
+              "Domain length $4\\pi$: two cycles.",
+              "Maxima ($y = 1$) at $x = -2\\pi, 0, 2\\pi$.",
+              "Minima ($y = -1$) at $x = -\\pi, \\pi$.",
+              "$x$-intercepts at $x = -\\frac{3\\pi}{2}, -\\frac{\\pi}{2}, \\frac{\\pi}{2}, \\frac{3\\pi}{2}$.",
+              "Sketch: a cosine wave symmetric about the $y$-axis, from $(-2\\pi, 1)$ to $(2\\pi, 1)$."
+            ],
+            "finalAnswer": "Two cycles: endpoints $(-2\\pi, 1)$ and $(2\\pi, 1)$, maximum $(0, 1)$, minima $(\\pm\\pi, -1)$, intercepts $x = \\pm\\frac{\\pi}{2}, \\pm\\frac{3\\pi}{2}$",
+            "solutionFigures": [],
+            "tip": "Cosine is even, so draw the right half and reflect it in the $y$-axis."
+          }
+        },
+        {
+          "id": "ch14_ex7_q6b",
+          "number": "6(b)",
+          "category": null,
+          "questionText": "On the graph of $f: [-2\\pi, 2\\pi] \\to \\mathbb{R}$, $f(x) = \\cos x$, mark the points with $y$-coordinate $\\dfrac{1}{2}$ and give the associated $x$-values.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Solve $\\cos x = \\frac{1}{2}$: basic angle $\\frac{\\pi}{3}$, quadrants 1 and 4; then use $\\cos(-x) = \\cos x$",
+            "steps": [
+              "Goal: all $x \\in [-2\\pi, 2\\pi]$ with $\\cos x = \\frac{1}{2}$.",
+              "In $[0, 2\\pi]$: $x = \\frac{\\pi}{3}$ and $x = 2\\pi - \\frac{\\pi}{3} = \\frac{5\\pi}{3}$.",
+              "By symmetry (cosine is even), in $[-2\\pi, 0]$: $x = -\\frac{\\pi}{3}$ and $x = -\\frac{5\\pi}{3}$.",
+              "Check: $\\cos\\left(-\\frac{5\\pi}{3}\\right) = \\cos\\frac{5\\pi}{3} = \\frac{1}{2}$. ✓",
+              "Mark the points $\\left(\\pm\\frac{\\pi}{3}, \\frac{1}{2}\\right)$ and $\\left(\\pm\\frac{5\\pi}{3}, \\frac{1}{2}\\right)$."
+            ],
+            "finalAnswer": "$x = -\\dfrac{5\\pi}{3}, -\\dfrac{\\pi}{3}, \\dfrac{\\pi}{3}, \\dfrac{5\\pi}{3}$",
+            "solutionFigures": [],
+            "tip": "Draw the horizontal line $y = \\frac{1}{2}$ to count the intersections: there are four."
+          }
+        },
+        {
+          "id": "ch14_ex7_q6c",
+          "number": "6(c)",
+          "category": null,
+          "questionText": "On the graph of $f: [-2\\pi, 2\\pi] \\to \\mathbb{R}$, $f(x) = \\cos x$, mark the points with $y$-coordinate $-\\dfrac{1}{2}$ and give the associated $x$-values.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Solve $\\cos x = -\\frac{1}{2}$: basic angle $\\frac{\\pi}{3}$, quadrants 2 and 3; then use $\\cos(-x) = \\cos x$",
+            "steps": [
+              "Goal: all $x \\in [-2\\pi, 2\\pi]$ with $\\cos x = -\\frac{1}{2}$.",
+              "In $[0, 2\\pi]$: $x = \\pi - \\frac{\\pi}{3} = \\frac{2\\pi}{3}$ and $x = \\pi + \\frac{\\pi}{3} = \\frac{4\\pi}{3}$.",
+              "By symmetry, in $[-2\\pi, 0]$: $x = -\\frac{2\\pi}{3}$ and $x = -\\frac{4\\pi}{3}$.",
+              "Mark the points $\\left(\\pm\\frac{2\\pi}{3}, -\\frac{1}{2}\\right)$ and $\\left(\\pm\\frac{4\\pi}{3}, -\\frac{1}{2}\\right)$."
+            ],
+            "finalAnswer": "$x = -\\dfrac{4\\pi}{3}, -\\dfrac{2\\pi}{3}, \\dfrac{2\\pi}{3}, \\dfrac{4\\pi}{3}$",
+            "solutionFigures": [],
+            "tip": "These points lie either side of each minimum at $x = \\pm\\pi$, a distance $\\frac{\\pi}{3}$ away."
+          }
+        },
+        {
+          "id": "ch14_ex7_q7a",
+          "number": "7(a)",
+          "category": null,
+          "questionText": "Solve the equation $\\sin(2\\theta) = -\\dfrac{1}{2}$ for $\\theta \\in [0, 2\\pi]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute $x = 2\\theta$; then $\\theta \\in [0, 2\\pi] \\Rightarrow x \\in [0, 4\\pi]$. Sine negative in quadrants 3 and 4",
+            "steps": [
+              "Let $x = 2\\theta$. Solve $\\sin x = -\\frac{1}{2}$ for $x \\in [0, 4\\pi]$.",
+              "Basic angle $\\frac{\\pi}{6}$. In $[0, 2\\pi]$: $x = \\pi + \\frac{\\pi}{6} = \\frac{7\\pi}{6}$ and $x = 2\\pi - \\frac{\\pi}{6} = \\frac{11\\pi}{6}$.",
+              "Add $2\\pi$: $x = \\frac{19\\pi}{6}$ and $x = \\frac{23\\pi}{6}$.",
+              "Divide by 2: $\\theta = \\frac{7\\pi}{12}, \\frac{11\\pi}{12}, \\frac{19\\pi}{12}, \\frac{23\\pi}{12}$.",
+              "Check: $\\sin\\left(2 \\cdot \\frac{23\\pi}{12}\\right) = \\sin\\frac{23\\pi}{6} = \\sin\\left(4\\pi - \\frac{\\pi}{6}\\right) = -\\frac{1}{2}$. ✓"
+            ],
+            "finalAnswer": "$\\theta = \\dfrac{7\\pi}{12}, \\dfrac{11\\pi}{12}, \\dfrac{19\\pi}{12}, \\dfrac{23\\pi}{12}$",
+            "solutionFigures": [],
+            "tip": "Change the interval before solving: forgetting to extend it to $[0, 4\\pi]$ loses half the solutions."
+          }
+        },
+        {
+          "id": "ch14_ex7_q7b",
+          "number": "7(b)",
+          "category": null,
+          "questionText": "Solve the equation $\\cos(2\\theta) = \\dfrac{\\sqrt{3}}{2}$ for $\\theta \\in [0, 2\\pi]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute $x = 2\\theta$, $x \\in [0, 4\\pi]$. Cosine positive in quadrants 1 and 4",
+            "steps": [
+              "Let $x = 2\\theta$. Solve $\\cos x = \\frac{\\sqrt{3}}{2}$ for $x \\in [0, 4\\pi]$.",
+              "Basic angle $\\frac{\\pi}{6}$. In $[0, 2\\pi]$: $x = \\frac{\\pi}{6}$, $x = \\frac{11\\pi}{6}$.",
+              "Add $2\\pi$: $x = \\frac{13\\pi}{6}$, $x = \\frac{23\\pi}{6}$.",
+              "Divide by 2: $\\theta = \\frac{\\pi}{12}, \\frac{11\\pi}{12}, \\frac{13\\pi}{12}, \\frac{23\\pi}{12}$.",
+              "Check: $\\cos\\left(2 \\cdot \\frac{13\\pi}{12}\\right) = \\cos\\frac{13\\pi}{6} = \\cos\\frac{\\pi}{6} = \\frac{\\sqrt{3}}{2}$. ✓"
+            ],
+            "finalAnswer": "$\\theta = \\dfrac{\\pi}{12}, \\dfrac{11\\pi}{12}, \\dfrac{13\\pi}{12}, \\dfrac{23\\pi}{12}$",
+            "solutionFigures": [],
+            "tip": "Period of $\\cos(2\\theta)$ is $\\pi$, so solutions repeat every $\\pi$: $\\frac{\\pi}{12} + \\pi = \\frac{13\\pi}{12}$. ✓"
+          }
+        },
+        {
+          "id": "ch14_ex7_q7c",
+          "number": "7(c)",
+          "category": null,
+          "questionText": "Solve the equation $\\sin(2\\theta) = \\dfrac{1}{2}$ for $\\theta \\in [0, 2\\pi]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute $x = 2\\theta$, $x \\in [0, 4\\pi]$. Sine positive in quadrants 1 and 2",
+            "steps": [
+              "Let $x = 2\\theta$. Solve $\\sin x = \\frac{1}{2}$ for $x \\in [0, 4\\pi]$.",
+              "In $[0, 2\\pi]$: $x = \\frac{\\pi}{6}$, $x = \\pi - \\frac{\\pi}{6} = \\frac{5\\pi}{6}$.",
+              "Add $2\\pi$: $x = \\frac{13\\pi}{6}$, $x = \\frac{17\\pi}{6}$.",
+              "Divide by 2: $\\theta = \\frac{\\pi}{12}, \\frac{5\\pi}{12}, \\frac{13\\pi}{12}, \\frac{17\\pi}{12}$.",
+              "Check: $\\sin\\left(2 \\cdot \\frac{5\\pi}{12}\\right) = \\sin\\frac{5\\pi}{6} = \\frac{1}{2}$. ✓"
+            ],
+            "finalAnswer": "$\\theta = \\dfrac{\\pi}{12}, \\dfrac{5\\pi}{12}, \\dfrac{13\\pi}{12}, \\dfrac{17\\pi}{12}$",
+            "solutionFigures": [],
+            "tip": "Divide every solution for $x$ by 2 only at the end."
+          }
+        },
+        {
+          "id": "ch14_ex7_q7d",
+          "number": "7(d)",
+          "category": null,
+          "questionText": "Solve the equation $\\sin(3\\theta) = -\\dfrac{1}{\\sqrt{2}}$ for $\\theta \\in [0, 2\\pi]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute $x = 3\\theta$; $\\theta \\in [0, 2\\pi] \\Rightarrow x \\in [0, 6\\pi]$. Sine negative in quadrants 3 and 4",
+            "steps": [
+              "Let $x = 3\\theta$. Solve $\\sin x = -\\frac{1}{\\sqrt{2}}$ for $x \\in [0, 6\\pi]$ (three cycles).",
+              "Basic angle $\\frac{\\pi}{4}$. In $[0, 2\\pi]$: $x = \\frac{5\\pi}{4}$, $x = \\frac{7\\pi}{4}$.",
+              "Add $2\\pi$: $x = \\frac{13\\pi}{4}, \\frac{15\\pi}{4}$. Add $4\\pi$: $x = \\frac{21\\pi}{4}, \\frac{23\\pi}{4}$ (all $\\le 6\\pi = \\frac{24\\pi}{4}$).",
+              "Divide by 3: $\\theta = \\frac{5\\pi}{12}, \\frac{7\\pi}{12}, \\frac{13\\pi}{12}, \\frac{15\\pi}{12}, \\frac{21\\pi}{12}, \\frac{23\\pi}{12}$.",
+              "Simplify: $\\frac{15\\pi}{12} = \\frac{5\\pi}{4}$ and $\\frac{21\\pi}{12} = \\frac{7\\pi}{4}$.",
+              "Check: $\\sin\\left(3 \\cdot \\frac{5\\pi}{4}\\right) = \\sin\\frac{15\\pi}{4} = \\sin\\left(4\\pi - \\frac{\\pi}{4}\\right) = -\\frac{1}{\\sqrt{2}}$. ✓"
+            ],
+            "finalAnswer": "$\\theta = \\dfrac{5\\pi}{12}, \\dfrac{7\\pi}{12}, \\dfrac{13\\pi}{12}, \\dfrac{5\\pi}{4}, \\dfrac{7\\pi}{4}, \\dfrac{23\\pi}{12}$",
+            "solutionFigures": [],
+            "tip": "With $3\\theta$ there are three cycles in $[0, 2\\pi]$, so expect six solutions."
+          }
+        },
+        {
+          "id": "ch14_ex7_q7e",
+          "number": "7(e)",
+          "category": null,
+          "questionText": "Solve the equation $\\cos(2\\theta) = -\\dfrac{\\sqrt{3}}{2}$ for $\\theta \\in [0, 2\\pi]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute $x = 2\\theta$, $x \\in [0, 4\\pi]$. Cosine negative in quadrants 2 and 3",
+            "steps": [
+              "Let $x = 2\\theta$. Solve $\\cos x = -\\frac{\\sqrt{3}}{2}$ for $x \\in [0, 4\\pi]$.",
+              "Basic angle $\\frac{\\pi}{6}$. In $[0, 2\\pi]$: $x = \\pi - \\frac{\\pi}{6} = \\frac{5\\pi}{6}$, $x = \\pi + \\frac{\\pi}{6} = \\frac{7\\pi}{6}$.",
+              "Add $2\\pi$: $x = \\frac{17\\pi}{6}$, $x = \\frac{19\\pi}{6}$.",
+              "Divide by 2: $\\theta = \\frac{5\\pi}{12}, \\frac{7\\pi}{12}, \\frac{17\\pi}{12}, \\frac{19\\pi}{12}$.",
+              "Check: $\\cos\\left(2 \\cdot \\frac{17\\pi}{12}\\right) = \\cos\\frac{17\\pi}{6} = \\cos\\frac{5\\pi}{6} = -\\frac{\\sqrt{3}}{2}$. ✓"
+            ],
+            "finalAnswer": "$\\theta = \\dfrac{5\\pi}{12}, \\dfrac{7\\pi}{12}, \\dfrac{17\\pi}{12}, \\dfrac{19\\pi}{12}$",
+            "solutionFigures": [],
+            "tip": "Check that the solutions repeat with period $\\pi$: $\\frac{5\\pi}{12} + \\pi = \\frac{17\\pi}{12}$. ✓"
+          }
+        },
+        {
+          "id": "ch14_ex7_q7f",
+          "number": "7(f)",
+          "category": null,
+          "questionText": "Solve the equation $\\sin(2\\theta) = -\\dfrac{1}{\\sqrt{2}}$ for $\\theta \\in [0, 2\\pi]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute $x = 2\\theta$, $x \\in [0, 4\\pi]$. Sine negative in quadrants 3 and 4",
+            "steps": [
+              "Let $x = 2\\theta$. Solve $\\sin x = -\\frac{1}{\\sqrt{2}}$ for $x \\in [0, 4\\pi]$.",
+              "Basic angle $\\frac{\\pi}{4}$. In $[0, 2\\pi]$: $x = \\frac{5\\pi}{4}$, $x = \\frac{7\\pi}{4}$.",
+              "Add $2\\pi$: $x = \\frac{13\\pi}{4}$, $x = \\frac{15\\pi}{4}$.",
+              "Divide by 2: $\\theta = \\frac{5\\pi}{8}, \\frac{7\\pi}{8}, \\frac{13\\pi}{8}, \\frac{15\\pi}{8}$.",
+              "Check: $\\sin\\left(2 \\cdot \\frac{13\\pi}{8}\\right) = \\sin\\frac{13\\pi}{4} = \\sin\\frac{5\\pi}{4} = -\\frac{1}{\\sqrt{2}}$. ✓"
+            ],
+            "finalAnswer": "$\\theta = \\dfrac{5\\pi}{8}, \\dfrac{7\\pi}{8}, \\dfrac{13\\pi}{8}, \\dfrac{15\\pi}{8}$",
+            "solutionFigures": [],
+            "tip": "Dividing quarters of $\\pi$ by 2 gives eighths of $\\pi$."
+          }
+        },
+        {
+          "id": "ch14_ex7_q8a",
+          "number": "8(a)",
+          "category": null,
+          "questionText": "Solve the equation $\\sin(2\\theta) = -0.8$ for $\\theta \\in [0, 2\\pi]$. (Give answers correct to two decimal places.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute $x = 2\\theta$, $x \\in [0, 4\\pi]$; with $\\alpha = \\sin^{-1}(0.8)$, sine is negative at $x = \\pi + \\alpha$ and $2\\pi - \\alpha$",
+            "steps": [
+              "Let $x = 2\\theta$. Solve $\\sin x = -0.8$ for $x \\in [0, 4\\pi]$. Accuracy: 2 d.p. (calculator question; no exact values exist).",
+              "Basic angle: $\\alpha = \\sin^{-1}(0.8) = 0.92730\\ldots$",
+              "In $[0, 2\\pi]$: $x = \\pi + \\alpha = 4.06889\\ldots$ and $x = 2\\pi - \\alpha = 5.35589\\ldots$",
+              "Add $2\\pi$: $x = 10.35207\\ldots$ and $x = 11.63908\\ldots$",
+              "Divide by 2: $\\theta = 2.03444\\ldots, 2.67794\\ldots, 5.17604\\ldots, 5.81954\\ldots$",
+              "Check: $\\sin(2 \\times 2.03444) = \\sin(4.06889) = -0.8000$. ✓",
+              "Rounded to 2 d.p.: $\\theta = 2.03, 2.68, 5.18, 5.82$."
+            ],
+            "finalAnswer": "$\\theta \\approx 2.03, 2.68, 5.18, 5.82$",
+            "solutionFigures": [],
+            "tip": "Keep full calculator precision until the final division and rounding."
+          }
+        },
+        {
+          "id": "ch14_ex7_q8b",
+          "number": "8(b)",
+          "category": null,
+          "questionText": "Solve the equation $\\sin(2\\theta) = -0.6$ for $\\theta \\in [0, 2\\pi]$. (Give answers correct to two decimal places.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute $x = 2\\theta$, $x \\in [0, 4\\pi]$; $x = \\pi + \\alpha$, $2\\pi - \\alpha$ (plus $2\\pi$) with $\\alpha = \\sin^{-1}(0.6)$",
+            "steps": [
+              "Let $x = 2\\theta$. Solve $\\sin x = -0.6$ for $x \\in [0, 4\\pi]$.",
+              "Basic angle: $\\alpha = \\sin^{-1}(0.6) = 0.64350\\ldots$",
+              "In $[0, 2\\pi]$: $x = \\pi + \\alpha = 3.78509\\ldots$, $x = 2\\pi - \\alpha = 5.63968\\ldots$",
+              "Add $2\\pi$: $x = 10.06828\\ldots$, $x = 11.92287\\ldots$",
+              "Divide by 2: $\\theta = 1.89255\\ldots, 2.81984\\ldots, 5.03414\\ldots, 5.96143\\ldots$",
+              "Rounded to 2 d.p.: $\\theta = 1.89, 2.82, 5.03, 5.96$."
+            ],
+            "finalAnswer": "$\\theta \\approx 1.89, 2.82, 5.03, 5.96$",
+            "solutionFigures": [],
+            "tip": "Check the solutions repeat every $\\pi$: $1.89 + 3.14 = 5.03$. ✓"
+          }
+        },
+        {
+          "id": "ch14_ex7_q8c",
+          "number": "8(c)",
+          "category": null,
+          "questionText": "Solve the equation $\\cos(2\\theta) = 0.4$ for $\\theta \\in [0, 2\\pi]$. (Give answers correct to two decimal places.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute $x = 2\\theta$, $x \\in [0, 4\\pi]$; cosine positive at $x = \\alpha$ and $2\\pi - \\alpha$ (plus $2\\pi$), $\\alpha = \\cos^{-1}(0.4)$",
+            "steps": [
+              "Let $x = 2\\theta$. Solve $\\cos x = 0.4$ for $x \\in [0, 4\\pi]$.",
+              "Basic angle: $\\alpha = \\cos^{-1}(0.4) = 1.15928\\ldots$",
+              "In $[0, 2\\pi]$: $x = 1.15928\\ldots$, $x = 2\\pi - 1.15928\\ldots = 5.12391\\ldots$",
+              "Add $2\\pi$: $x = 7.44246\\ldots$, $x = 11.40709\\ldots$",
+              "Divide by 2: $\\theta = 0.57964\\ldots, 2.56195\\ldots, 3.72123\\ldots, 5.70354\\ldots$",
+              "Check: $\\cos(2 \\times 0.57964) = \\cos(1.15928) = 0.4000$. ✓",
+              "Rounded to 2 d.p.: $\\theta = 0.58, 2.56, 3.72, 5.70$."
+            ],
+            "finalAnswer": "$\\theta \\approx 0.58, 2.56, 3.72, 5.70$",
+            "solutionFigures": [],
+            "tip": "Write 5.70, not 5.7, to show two-decimal-place accuracy."
+          }
+        },
+        {
+          "id": "ch14_ex7_q8d",
+          "number": "8(d)",
+          "category": null,
+          "questionText": "Solve the equation $\\cos(3\\theta) = 0.6$ for $\\theta \\in [0, 2\\pi]$. (Give answers correct to two decimal places.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute $x = 3\\theta$, $x \\in [0, 6\\pi]$; $x = \\alpha, 2\\pi - \\alpha$ plus multiples of $2\\pi$, $\\alpha = \\cos^{-1}(0.6)$",
+            "steps": [
+              "Let $x = 3\\theta$. Solve $\\cos x = 0.6$ for $x \\in [0, 6\\pi]$ (three cycles, so six solutions).",
+              "Basic angle: $\\alpha = \\cos^{-1}(0.6) = 0.92730\\ldots$",
+              "In $[0, 2\\pi]$: $x = 0.92730\\ldots$, $x = 2\\pi - \\alpha = 5.35589\\ldots$",
+              "Add $2\\pi$: $x = 7.21048\\ldots$, $11.63908\\ldots$; add $4\\pi$: $x = 13.49367\\ldots$, $17.92226\\ldots$",
+              "Divide by 3: $\\theta = 0.30910\\ldots, 1.78530\\ldots, 2.40349\\ldots, 3.87969\\ldots, 4.49789\\ldots, 5.97409\\ldots$",
+              "Check: $\\cos(3 \\times 5.97409) = \\cos(17.92226) = 0.6000$. ✓",
+              "Rounded to 2 d.p.: $\\theta = 0.31, 1.79, 2.40, 3.88, 4.50, 5.97$."
+            ],
+            "finalAnswer": "$\\theta \\approx 0.31, 1.79, 2.40, 3.88, 4.50, 5.97$",
+            "solutionFigures": [],
+            "tip": "Successive pairs differ by the period $\\frac{2\\pi}{3} \\approx 2.09$: $0.31 + 2.09 = 2.40$. ✓"
+          }
+        }
+      ]
+    }
+  ]
+}

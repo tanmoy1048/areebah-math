@@ -1,0 +1,953 @@
+{
+  "chapterId": "ch05",
+  "chapterTitle": "Trigonometry I",
+  "topics": [
+    {
+      "topicId": "5.2",
+      "topicTitle": "Pythagoras' theorem",
+      "exercises": [
+        {
+          "id": "ch5_ex2_q1a",
+          "number": "1(a)",
+          "category": "Practice",
+          "questionText": "Calculate the length of the hypotenuse of the triangle, giving the answer correct to 2 decimal places. The right-angled triangle has the right angle at the top right; the two shorter sides are $4.7$ (top) and $6.3$ (right side).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $c^2 = a^2 + b^2$, where $c$ is the hypotenuse",
+            "steps": [
+              "Given: shorter sides $a = 4.7$, $b = 6.3$. Goal: hypotenuse $c$.",
+              "Substitute: $c^2 = 4.7^2 + 6.3^2$",
+              "$c^2 = 22.09 + 39.69 = 61.78$",
+              "$c = \\sqrt{61.78} \\approx 7.8600...$",
+              "Round to 2 decimal places: $c \\approx 7.86$"
+            ],
+            "finalAnswer": "Therefore the hypotenuse is approximately 7.86 units.",
+            "solutionFigures": [],
+            "tip": "To find the hypotenuse, add the squares of the two shorter sides."
+          }
+        },
+        {
+          "id": "ch5_ex2_q1b",
+          "number": "1(b)",
+          "category": "Practice",
+          "questionText": "Calculate the length of the hypotenuse of the triangle, giving the answer correct to 2 decimal places. The right-angled triangle has shorter sides $19.3$ and $27.1$ meeting at the right angle.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: shorter sides $a = 19.3$, $b = 27.1$. Goal: hypotenuse $c$.",
+              "Substitute: $c^2 = 19.3^2 + 27.1^2$",
+              "$c^2 = 372.49 + 734.41 = 1106.9$",
+              "$c = \\sqrt{1106.9} \\approx 33.2701...$",
+              "Round to 2 decimal places: $c \\approx 33.27$"
+            ],
+            "finalAnswer": "Therefore the hypotenuse is approximately 33.27 units.",
+            "solutionFigures": [],
+            "tip": "The hypotenuse is the side opposite the right-angle box, even when the triangle is tilted."
+          }
+        },
+        {
+          "id": "ch5_ex2_q1c",
+          "number": "1(c)",
+          "category": "Practice",
+          "questionText": "Calculate the length of the hypotenuse of the triangle, giving the answer correct to 2 decimal places. The right-angled triangle has the right angle at the bottom left; the vertical side is $804$ and the base is $562$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: shorter sides $a = 804$, $b = 562$. Goal: hypotenuse $c$.",
+              "Substitute: $c^2 = 804^2 + 562^2$",
+              "$c^2 = 646\\,416 + 315\\,844 = 962\\,260$",
+              "$c = \\sqrt{962\\,260} \\approx 980.9485...$",
+              "Round to 2 decimal places: $c \\approx 980.95$"
+            ],
+            "finalAnswer": "Therefore the hypotenuse is approximately 980.95 units.",
+            "solutionFigures": [],
+            "tip": "Check: the hypotenuse must be longer than both shorter sides (980.95 > 804)."
+          }
+        },
+        {
+          "id": "ch5_ex2_q2a",
+          "number": "2(a)",
+          "category": "Consolidate",
+          "questionText": "Calculate the length of the hypotenuse of the triangle, giving the answer correct to 2 decimal places. The right-angled triangle has the right angle at the bottom left; the vertical side is $7.4$ and the base is $10.3$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: shorter sides $7.4$ and $10.3$. Goal: hypotenuse $c$.",
+              "Substitute: $c^2 = 7.4^2 + 10.3^2$",
+              "$c^2 = 54.76 + 106.09 = 160.85$",
+              "$c = \\sqrt{160.85} \\approx 12.6826...$",
+              "Round to 2 decimal places: $c \\approx 12.68$"
+            ],
+            "finalAnswer": "Therefore the hypotenuse is approximately 12.68 units.",
+            "solutionFigures": [],
+            "tip": "Square each side separately before adding; $(7.4 + 10.3)^2$ is not the same."
+          }
+        },
+        {
+          "id": "ch5_ex2_q2b",
+          "number": "2(b)",
+          "category": "Consolidate",
+          "questionText": "Calculate the length of the hypotenuse of the triangle, giving the answer correct to 2 decimal places. The right-angled triangle has shorter sides $0.9$ and $2.7$ meeting at the right angle.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: shorter sides $0.9$ and $2.7$. Goal: hypotenuse $c$.",
+              "Substitute: $c^2 = 0.9^2 + 2.7^2$",
+              "$c^2 = 0.81 + 7.29 = 8.1$",
+              "$c = \\sqrt{8.1} \\approx 2.8460...$",
+              "Round to 2 decimal places: $c \\approx 2.85$"
+            ],
+            "finalAnswer": "Therefore the hypotenuse is approximately 2.85 units.",
+            "solutionFigures": [],
+            "tip": "Squaring a decimal less than 1 makes it smaller: $0.9^2 = 0.81$."
+          }
+        },
+        {
+          "id": "ch5_ex2_q2c",
+          "number": "2(c)",
+          "category": "Consolidate",
+          "questionText": "Calculate the length of the hypotenuse of the triangle, giving the answer correct to 2 decimal places. The right-angled triangle has the right angle at the top left; the top side is $152$ and the vertical side is $87$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: shorter sides $152$ and $87$. Goal: hypotenuse $c$.",
+              "Substitute: $c^2 = 152^2 + 87^2$",
+              "$c^2 = 23\\,104 + 7569 = 30\\,673$",
+              "$c = \\sqrt{30\\,673} \\approx 175.1370...$",
+              "Round to 2 decimal places: $c \\approx 175.14$"
+            ],
+            "finalAnswer": "Therefore the hypotenuse is approximately 175.14 units.",
+            "solutionFigures": [],
+            "tip": "Estimate first: the hypotenuse should be a bit longer than the longest side, 152."
+          }
+        },
+        {
+          "id": "ch5_ex2_q3a",
+          "number": "3(a)",
+          "category": "Consolidate",
+          "questionText": "Determine the value of the pronumeral, correct to 2 decimal places. The right-angled triangle has the right angle at the top right. The shorter sides are $s$ (top) and $30.1$ (right side), and the hypotenuse is $47.2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem for a shorter side: $a^2 = c^2 - b^2$",
+            "steps": [
+              "Given: hypotenuse $c = 47.2$, shorter side $30.1$. Goal: shorter side $s$.",
+              "Substitute: $s^2 = 47.2^2 - 30.1^2$",
+              "$s^2 = 2227.84 - 906.01 = 1321.83$",
+              "$s = \\sqrt{1321.83} \\approx 36.3569...$",
+              "Round to 2 decimal places: $s \\approx 36.36$"
+            ],
+            "finalAnswer": "Therefore $s \\approx 36.36$.",
+            "solutionFigures": [],
+            "tip": "When the unknown is a shorter side, subtract: hypotenuse squared minus the known side squared."
+          }
+        },
+        {
+          "id": "ch5_ex2_q3b",
+          "number": "3(b)",
+          "category": "Consolidate",
+          "questionText": "Determine the value of the pronumeral, correct to 2 decimal places. The right-angled triangle has shorter sides $1.98$ and $t$ meeting at the right angle, and hypotenuse $2.56$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem for a shorter side: $a^2 = c^2 - b^2$",
+            "steps": [
+              "Given: hypotenuse $2.56$, shorter side $1.98$. Goal: shorter side $t$.",
+              "Substitute: $t^2 = 2.56^2 - 1.98^2$",
+              "$t^2 = 6.5536 - 3.9204 = 2.6332$",
+              "$t = \\sqrt{2.6332} \\approx 1.6227...$",
+              "Round to 2 decimal places: $t \\approx 1.62$"
+            ],
+            "finalAnswer": "Therefore $t \\approx 1.62$.",
+            "solutionFigures": [],
+            "tip": "Check: a shorter side must be less than the hypotenuse (1.62 < 2.56)."
+          }
+        },
+        {
+          "id": "ch5_ex2_q3c",
+          "number": "3(c)",
+          "category": "Consolidate",
+          "questionText": "Determine the value of the pronumeral, correct to 2 decimal places. The right-angled triangle has shorter sides $8.4$ and $u$ meeting at the right angle, and hypotenuse $17.52$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem for a shorter side: $a^2 = c^2 - b^2$",
+            "steps": [
+              "Given: hypotenuse $17.52$, shorter side $8.4$. Goal: shorter side $u$.",
+              "Substitute: $u^2 = 17.52^2 - 8.4^2$",
+              "$u^2 = 306.9504 - 70.56 = 236.3904$",
+              "$u = \\sqrt{236.3904} \\approx 15.3749...$",
+              "Round to 2 decimal places: $u \\approx 15.37$"
+            ],
+            "finalAnswer": "Therefore $u \\approx 15.37$.",
+            "solutionFigures": [],
+            "tip": "Identify the hypotenuse first: it is the side not touching the right angle."
+          }
+        },
+        {
+          "id": "ch5_ex2_q4a",
+          "number": "4(a)",
+          "category": "Master",
+          "questionText": "Determine the value of the pronumeral, correct to 2 decimal places. The right-angled triangle has shorter sides $0.28$ and $v$ meeting at the right angle, and hypotenuse $0.67$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem for a shorter side: $a^2 = c^2 - b^2$",
+            "steps": [
+              "Given: hypotenuse $0.67$, shorter side $0.28$. Goal: shorter side $v$.",
+              "Substitute: $v^2 = 0.67^2 - 0.28^2$",
+              "$v^2 = 0.4489 - 0.0784 = 0.3705$",
+              "$v = \\sqrt{0.3705} \\approx 0.6086...$",
+              "Round to 2 decimal places: $v \\approx 0.61$"
+            ],
+            "finalAnswer": "Therefore $v \\approx 0.61$.",
+            "solutionFigures": [],
+            "tip": "Keep the decimal places when squaring small numbers: $0.28^2 = 0.0784$."
+          }
+        },
+        {
+          "id": "ch5_ex2_q4b",
+          "number": "4(b)",
+          "category": "Master",
+          "questionText": "Determine the value of the pronumeral, correct to 2 decimal places. The right-angled triangle has shorter sides $w$ and $1920$ meeting at the right angle, and hypotenuse $2870$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem for a shorter side: $a^2 = c^2 - b^2$",
+            "steps": [
+              "Given: hypotenuse $2870$, shorter side $1920$. Goal: shorter side $w$.",
+              "Substitute: $w^2 = 2870^2 - 1920^2$",
+              "$w^2 = 8\\,236\\,900 - 3\\,686\\,400 = 4\\,550\\,500$",
+              "$w = \\sqrt{4\\,550\\,500} \\approx 2133.1900...$",
+              "Round to 2 decimal places: $w \\approx 2133.19$"
+            ],
+            "finalAnswer": "Therefore $w \\approx 2133.19$.",
+            "solutionFigures": [],
+            "tip": "Large numbers work the same way; use brackets on the calculator to avoid entry errors."
+          }
+        },
+        {
+          "id": "ch5_ex2_q4c",
+          "number": "4(c)",
+          "category": "Master",
+          "questionText": "Determine the value of the pronumeral, correct to 2 decimal places. The right-angled triangle has shorter sides $114$ (bottom) and $x$ meeting at the right angle, and hypotenuse $468$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem for a shorter side: $a^2 = c^2 - b^2$",
+            "steps": [
+              "Given: hypotenuse $468$, shorter side $114$. Goal: shorter side $x$.",
+              "Substitute: $x^2 = 468^2 - 114^2$",
+              "$x^2 = 219\\,024 - 12\\,996 = 206\\,028$",
+              "$x = \\sqrt{206\\,028} \\approx 453.9030...$",
+              "Round to 2 decimal places: $x \\approx 453.90$"
+            ],
+            "finalAnswer": "Therefore $x \\approx 453.90$.",
+            "solutionFigures": [],
+            "tip": "Keep the trailing zero (453.90) to show 2 decimal places."
+          }
+        },
+        {
+          "id": "ch5_ex2_q5",
+          "number": "5",
+          "category": "Practice",
+          "questionText": "The diagonal of the rectangular NO SMOKING sign is 34 cm. If the height of this sign is 25 cm, calculate the width of the sign, in cm correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $\\text{width}^2 = \\text{diagonal}^2 - \\text{height}^2$",
+            "steps": [
+              "Given: diagonal (hypotenuse) $= 34$ cm, height $= 25$ cm. Goal: width $w$.",
+              "The diagonal splits the rectangle into two right-angled triangles with the diagonal as hypotenuse.",
+              "Substitute: $w^2 = 34^2 - 25^2$",
+              "$w^2 = 1156 - 625 = 531$",
+              "$w = \\sqrt{531} \\approx 23.0434...$",
+              "Round to 2 decimal places: $w \\approx 23.04$ cm"
+            ],
+            "finalAnswer": "Therefore the width of the sign is approximately 23.04 cm.",
+            "solutionFigures": [],
+            "tip": "The diagonal of a rectangle is always the hypotenuse of the right-angled triangle formed."
+          }
+        },
+        {
+          "id": "ch5_ex2_q6",
+          "number": "6",
+          "category": "Master",
+          "questionText": "A right-angled triangle has a base of 4 cm and a height of 12 cm. Calculate the length of the hypotenuse in cm correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: base $= 4$ cm, height $= 12$ cm (the two shorter sides). Goal: hypotenuse $c$.",
+              "Substitute: $c^2 = 4^2 + 12^2$",
+              "$c^2 = 16 + 144 = 160$",
+              "$c = \\sqrt{160} \\approx 12.6491...$",
+              "Round to 2 decimal places: $c \\approx 12.65$ cm"
+            ],
+            "finalAnswer": "Therefore the hypotenuse is approximately 12.65 cm.",
+            "solutionFigures": [],
+            "tip": "In a right-angled triangle, the base and height are the two sides that meet at the right angle."
+          }
+        },
+        {
+          "id": "ch5_ex2_q7a",
+          "number": "7(a)",
+          "category": "Practice",
+          "questionText": "Calculate the length of the diagonal (in cm to 2 decimal places) of a square that has side length 10 cm.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $d^2 = s^2 + s^2 = 2s^2$",
+            "steps": [
+              "Given: side $s = 10$ cm. Goal: diagonal $d$.",
+              "The diagonal splits the square into two right-angled triangles with both shorter sides equal to 10 cm.",
+              "Substitute: $d^2 = 10^2 + 10^2 = 100 + 100 = 200$",
+              "$d = \\sqrt{200} \\approx 14.1421...$",
+              "Round to 2 decimal places: $d \\approx 14.14$ cm"
+            ],
+            "finalAnswer": "Therefore the diagonal is approximately 14.14 cm.",
+            "solutionFigures": [],
+            "tip": "Shortcut: the diagonal of a square is $s\\sqrt{2}$."
+          }
+        },
+        {
+          "id": "ch5_ex2_q7b",
+          "number": "7(b)",
+          "category": "Practice",
+          "questionText": "Calculate the length of the diagonal (in cm to 2 decimal places) of a square that has side length 17 cm.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $d^2 = s^2 + s^2 = 2s^2$",
+            "steps": [
+              "Given: side $s = 17$ cm. Goal: diagonal $d$.",
+              "Substitute: $d^2 = 17^2 + 17^2 = 289 + 289 = 578$",
+              "$d = \\sqrt{578} \\approx 24.0416...$",
+              "Round to 2 decimal places: $d \\approx 24.04$ cm"
+            ],
+            "finalAnswer": "Therefore the diagonal is approximately 24.04 cm.",
+            "solutionFigures": [],
+            "tip": "Both shorter sides are the same in a square, so square the side and double it."
+          }
+        },
+        {
+          "id": "ch5_ex2_q7c",
+          "number": "7(c)",
+          "category": "Practice",
+          "questionText": "Calculate the length of the diagonal (in cm to 2 decimal places) of a square that has side length 3.2 cm.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $d^2 = s^2 + s^2 = 2s^2$",
+            "steps": [
+              "Given: side $s = 3.2$ cm. Goal: diagonal $d$.",
+              "Substitute: $d^2 = 3.2^2 + 3.2^2 = 10.24 + 10.24 = 20.48$",
+              "$d = \\sqrt{20.48} \\approx 4.5254...$",
+              "Round to 2 decimal places: $d \\approx 4.53$ cm"
+            ],
+            "finalAnswer": "Therefore the diagonal is approximately 4.53 cm.",
+            "solutionFigures": [],
+            "tip": "Round only at the end: 4.5254... rounds up to 4.53."
+          }
+        },
+        {
+          "id": "ch5_ex2_q8a",
+          "number": "8(a)",
+          "category": "Consolidate",
+          "questionText": "The diagonal of a rectangle is 90 cm. One side has a length of 50 cm. Determine, correct to 2 decimal places, the length of the other side.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $a^2 = c^2 - b^2$",
+            "steps": [
+              "Given: diagonal (hypotenuse) $= 90$ cm, one side $= 50$ cm. Goal: other side $x$.",
+              "Substitute: $x^2 = 90^2 - 50^2$",
+              "$x^2 = 8100 - 2500 = 5600$",
+              "$x = \\sqrt{5600} \\approx 74.8331...$",
+              "Round to 2 decimal places: $x \\approx 74.83$ cm"
+            ],
+            "finalAnswer": "Therefore the other side is approximately 74.83 cm.",
+            "solutionFigures": [],
+            "tip": "The diagonal is the hypotenuse, so subtract to find a side."
+          }
+        },
+        {
+          "id": "ch5_ex2_q8b",
+          "number": "8(b)",
+          "category": "Consolidate",
+          "questionText": "The diagonal of a rectangle is 90 cm. One side has a length of 50 cm. Determine, correct to 2 decimal places, the perimeter of the rectangle.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Perimeter of a rectangle $P = 2(l + w)$; other side from Pythagoras: $w = \\sqrt{90^2 - 50^2}$",
+            "steps": [
+              "Given: sides $50$ cm and $\\sqrt{5600} \\approx 74.8331$ cm (from part a). Goal: perimeter.",
+              "$P = 2(50 + \\sqrt{5600})$",
+              "$P \\approx 2(50 + 74.8331) = 2 \\times 124.8331 = 249.6663$",
+              "Round to 2 decimal places: $P \\approx 249.67$ cm"
+            ],
+            "finalAnswer": "Therefore the perimeter is approximately 249.67 cm.",
+            "solutionFigures": [],
+            "tip": "Use the unrounded side length; using 74.83 gives 249.66, which is slightly off."
+          }
+        },
+        {
+          "id": "ch5_ex2_q8c",
+          "number": "8(c)",
+          "category": "Consolidate",
+          "questionText": "The diagonal of a rectangle is 90 cm. One side has a length of 50 cm. Determine, correct to 2 decimal places, the area of the rectangle.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a rectangle $A = l \\times w$; other side from Pythagoras: $w = \\sqrt{90^2 - 50^2}$",
+            "steps": [
+              "Given: sides $50$ cm and $\\sqrt{5600} \\approx 74.8331$ cm. Goal: area.",
+              "$A = 50 \\times \\sqrt{5600}$",
+              "$A \\approx 50 \\times 74.83315 \\approx 3741.6574$",
+              "Round to 2 decimal places: $A \\approx 3741.66$ cm$^2$"
+            ],
+            "finalAnswer": "Therefore the area is approximately 3741.66 cm$^2$.",
+            "solutionFigures": [],
+            "tip": "Area is in square units (cm$^2$)."
+          }
+        },
+        {
+          "id": "ch5_ex2_q9a",
+          "number": "9(a)",
+          "category": "Master",
+          "questionText": "Determine the value of the pronumeral, correct to 2 decimal places. The right-angled triangle has shorter sides $4x$ and $x$ meeting at the right angle, and hypotenuse $25$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: shorter sides $4x$ and $x$, hypotenuse $25$. Goal: $x$.",
+              "Substitute: $25^2 = (4x)^2 + x^2$",
+              "$625 = 16x^2 + x^2 = 17x^2$",
+              "$x^2 = \\dfrac{625}{17} \\approx 36.7647$",
+              "$x = \\sqrt{36.7647...} \\approx 6.0634$ (positive, as it is a length)",
+              "Round to 2 decimal places: $x \\approx 6.06$"
+            ],
+            "finalAnswer": "Therefore $x \\approx 6.06$.",
+            "solutionFigures": [],
+            "tip": "$(4x)^2 = 16x^2$: square the number and the pronumeral."
+          }
+        },
+        {
+          "id": "ch5_ex2_q9b",
+          "number": "9(b)",
+          "category": "Master",
+          "questionText": "Determine the value of the pronumeral, correct to 2 decimal places. The right-angled isosceles triangle has two equal shorter sides $3x$ and $3x$ meeting at the right angle, and hypotenuse $18$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: shorter sides $3x$ and $3x$, hypotenuse $18$. Goal: $x$.",
+              "Substitute: $18^2 = (3x)^2 + (3x)^2$",
+              "$324 = 9x^2 + 9x^2 = 18x^2$",
+              "$x^2 = \\dfrac{324}{18} = 18$",
+              "$x = \\sqrt{18} \\approx 4.2426...$",
+              "Round to 2 decimal places: $x \\approx 4.24$"
+            ],
+            "finalAnswer": "Therefore $x \\approx 4.24$.",
+            "solutionFigures": [],
+            "tip": "Collect like terms ($9x^2 + 9x^2 = 18x^2$) before dividing."
+          }
+        },
+        {
+          "id": "ch5_ex2_q9c",
+          "number": "9(c)",
+          "category": "Master",
+          "questionText": "Determine the value of the pronumeral, correct to 2 decimal places. The right-angled triangle has the right angle at the top right; the shorter sides are $2x$ (top) and $6x$ (right side), and the hypotenuse is $30$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: shorter sides $2x$ and $6x$, hypotenuse $30$. Goal: $x$.",
+              "Substitute: $30^2 = (2x)^2 + (6x)^2$",
+              "$900 = 4x^2 + 36x^2 = 40x^2$",
+              "$x^2 = \\dfrac{900}{40} = 22.5$",
+              "$x = \\sqrt{22.5} \\approx 4.7434...$",
+              "Round to 2 decimal places: $x \\approx 4.74$"
+            ],
+            "finalAnswer": "Therefore $x \\approx 4.74$.",
+            "solutionFigures": [],
+            "tip": "Only take the positive square root, since $x$ represents a length."
+          }
+        },
+        {
+          "id": "ch5_ex2_q10",
+          "number": "10",
+          "category": "Practice",
+          "questionText": "An isosceles triangle has a base of 25 cm and a height of 8 cm. Calculate the length of the two equal sides, in cm correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: base $= 25$ cm, height $= 8$ cm. Goal: length $s$ of each equal side.",
+              "The height of an isosceles triangle bisects the base, giving a right-angled triangle with shorter sides $25 \\div 2 = 12.5$ cm and $8$ cm, and hypotenuse $s$.",
+              "Substitute: $s^2 = 12.5^2 + 8^2$",
+              "$s^2 = 156.25 + 64 = 220.25$",
+              "$s = \\sqrt{220.25} \\approx 14.8408...$",
+              "Round to 2 decimal places: $s \\approx 14.84$ cm"
+            ],
+            "finalAnswer": "Therefore each of the equal sides is approximately 14.84 cm.",
+            "solutionFigures": [],
+            "tip": "Use half the base, not the whole base, in the right-angled triangle."
+          }
+        },
+        {
+          "id": "ch5_ex2_q11",
+          "number": "11",
+          "category": "Practice",
+          "questionText": "An equilateral triangle has sides of length 18 cm. Determine the height of the triangle, in cm correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $a^2 = c^2 - b^2$",
+            "steps": [
+              "Given: all sides $18$ cm. Goal: height $h$.",
+              "The height bisects the base, giving a right-angled triangle with hypotenuse $18$ cm and base $9$ cm.",
+              "Substitute: $h^2 = 18^2 - 9^2$",
+              "$h^2 = 324 - 81 = 243$",
+              "$h = \\sqrt{243} \\approx 15.5885...$",
+              "Round to 2 decimal places: $h \\approx 15.59$ cm"
+            ],
+            "finalAnswer": "Therefore the height of the triangle is approximately 15.59 cm.",
+            "solutionFigures": [],
+            "tip": "The sloping side (18 cm) is the hypotenuse, so subtract to find the height."
+          }
+        },
+        {
+          "id": "ch5_ex2_q12",
+          "number": "12",
+          "category": "Consolidate",
+          "questionText": "A right-angled triangle has a height of 17.2 cm, and a base that is half the height. Calculate the length of the hypotenuse, in cm correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: height $= 17.2$ cm, base $= 17.2 \\div 2 = 8.6$ cm. Goal: hypotenuse $c$.",
+              "Substitute: $c^2 = 17.2^2 + 8.6^2$",
+              "$c^2 = 295.84 + 73.96 = 369.8$",
+              "$c = \\sqrt{369.8} \\approx 19.2302...$",
+              "Round to 2 decimal places: $c \\approx 19.23$ cm"
+            ],
+            "finalAnswer": "Therefore the hypotenuse is approximately 19.23 cm.",
+            "solutionFigures": [],
+            "tip": "Work out the base (8.6 cm) before substituting into the theorem."
+          }
+        },
+        {
+          "id": "ch5_ex2_q13",
+          "number": "13",
+          "category": "Master",
+          "questionText": "The road sign shown (a GIVE WAY sign) is based on an equilateral triangle with side length 84 cm. Determine the height of the sign and, hence, calculate its area. Round your answers to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem $a^2 = c^2 - b^2$; area of a triangle $A = \\frac{1}{2}bh$",
+            "steps": [
+              "Given: equilateral triangle with sides $84$ cm. Goal: height $h$ and area $A$.",
+              "The height bisects a side, giving a right-angled triangle with hypotenuse $84$ cm and base $42$ cm.",
+              "Substitute: $h^2 = 84^2 - 42^2$",
+              "$h^2 = 7056 - 1764 = 5292$",
+              "$h = \\sqrt{5292} \\approx 72.7461...$, so $h \\approx 72.75$ cm",
+              "Area: $A = \\frac{1}{2} \\times 84 \\times \\sqrt{5292}$",
+              "$A \\approx 42 \\times 72.74613 \\approx 3055.3376$",
+              "Round to 2 decimal places: $A \\approx 3055.34$ cm$^2$"
+            ],
+            "finalAnswer": "Therefore the height is approximately 72.75 cm and the area is approximately 3055.34 cm$^2$.",
+            "solutionFigures": [],
+            "tip": "Use the unrounded height in the area; using 72.75 gives 3055.50 cm$^2$."
+          }
+        },
+        {
+          "id": "ch5_ex2_q14",
+          "number": "14",
+          "category": "Practice",
+          "questionText": "A flagpole, 12 m high, is supported by three wires, attached from the top of the pole to the ground. Each wire is pegged into the ground 5 m from the pole. Determine how much wire is needed to support the pole, correct to the nearest metre.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: pole height $= 12$ m, distance from pole to peg $= 5$ m, 3 wires. Goal: total wire length.",
+              "Each wire is the hypotenuse of a right-angled triangle with shorter sides 12 m and 5 m.",
+              "Substitute: $w^2 = 12^2 + 5^2 = 144 + 25 = 169$",
+              "$w = \\sqrt{169} = 13$ m",
+              "Total for three wires: $3 \\times 13 = 39$ m"
+            ],
+            "finalAnswer": "Therefore 39 m of wire is needed.",
+            "solutionFigures": [],
+            "tip": "Read the question carefully: there are three wires, so multiply one wire's length by 3."
+          }
+        },
+        {
+          "id": "ch5_ex2_q15",
+          "number": "15",
+          "category": "Consolidate",
+          "questionText": "Sarah goes canoeing in a large lake. She paddles 2.1 km to the north, then 3.8 km to the west. Use the triangle shown to determine how far she must then paddle to get back to her starting point in the shortest possible way, in km correct to 2 decimal places. The diagram is a right-angled triangle: from the starting point she goes up 2.1 km (north), then left 3.8 km (west), with the right angle at the top right corner; the return path is the hypotenuse back to the starting point.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: north leg $2.1$ km, west leg $3.8$ km at right angles. Goal: direct distance $d$ back to the start (the hypotenuse).",
+              "Substitute: $d^2 = 2.1^2 + 3.8^2$",
+              "$d^2 = 4.41 + 14.44 = 18.85$",
+              "$d = \\sqrt{18.85} \\approx 4.3417...$",
+              "Round to 2 decimal places: $d \\approx 4.34$ km"
+            ],
+            "finalAnswer": "Therefore Sarah must paddle approximately 4.34 km to get back to her starting point.",
+            "solutionFigures": [],
+            "tip": "North and west are perpendicular directions, so the two legs form a right angle."
+          }
+        },
+        {
+          "id": "ch5_ex2_q16",
+          "number": "16",
+          "category": "Master",
+          "questionText": "A baseball diamond is a square of side length 27 m. When a runner on first base tries to steal second base, the catcher has to throw the ball from home base to second base. Calculate the distance of the throw, in metres correct to 1 decimal place. (Home base and second base are opposite corners of the square.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $d^2 = s^2 + s^2$",
+            "steps": [
+              "Given: square of side $27$ m. Home and second base are opposite corners. Goal: diagonal $d$.",
+              "Substitute: $d^2 = 27^2 + 27^2 = 729 + 729 = 1458$",
+              "$d = \\sqrt{1458} \\approx 38.1838...$",
+              "Round to 1 decimal place: $d \\approx 38.2$ m"
+            ],
+            "finalAnswer": "Therefore the throw is approximately 38.2 m.",
+            "solutionFigures": [],
+            "tip": "Note this question asks for 1 decimal place, not 2."
+          }
+        },
+        {
+          "id": "ch5_ex2_q17",
+          "number": "17",
+          "category": "Practice",
+          "questionText": "A rectangle measures 56 mm by 2.9 cm. Calculate the length of its diagonal in millimetres correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $d^2 = l^2 + w^2$",
+            "steps": [
+              "Given: length $56$ mm, width $2.9$ cm $= 29$ mm. Goal: diagonal $d$ in mm.",
+              "Substitute: $d^2 = 56^2 + 29^2$",
+              "$d^2 = 3136 + 841 = 3977$",
+              "$d = \\sqrt{3977} \\approx 63.0635...$",
+              "Round to 2 decimal places: $d \\approx 63.06$ mm"
+            ],
+            "finalAnswer": "Therefore the diagonal is approximately 63.06 mm.",
+            "solutionFigures": [],
+            "tip": "Convert to the same units first: 2.9 cm = 29 mm."
+          }
+        },
+        {
+          "id": "ch5_ex2_q18a",
+          "number": "18(a)",
+          "category": "Master",
+          "questionText": "A rectangular envelope has a length of 24 cm and a diagonal measuring 40 cm. Calculate the width of the envelope, correct to the nearest cm.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $w^2 = d^2 - l^2$",
+            "steps": [
+              "Given: length $24$ cm, diagonal (hypotenuse) $40$ cm. Goal: width $w$.",
+              "Substitute: $w^2 = 40^2 - 24^2$",
+              "$w^2 = 1600 - 576 = 1024$",
+              "$w = \\sqrt{1024} = 32$ cm"
+            ],
+            "finalAnswer": "Therefore the width of the envelope is 32 cm.",
+            "solutionFigures": [],
+            "tip": "24, 32, 40 is a multiple of the 3, 4, 5 Pythagorean triple ($\\times 8$)."
+          }
+        },
+        {
+          "id": "ch5_ex2_q18b",
+          "number": "18(b)",
+          "category": "Master",
+          "questionText": "A rectangular envelope has a length of 24 cm and a diagonal measuring 40 cm. Calculate the area of the envelope, correct to the nearest cm$^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a rectangle $A = l \\times w$",
+            "steps": [
+              "Given: length $24$ cm, width $32$ cm (from part a). Goal: area.",
+              "$A = 24 \\times 32 = 768$ cm$^2$"
+            ],
+            "finalAnswer": "Therefore the area of the envelope is 768 cm$^2$.",
+            "solutionFigures": [],
+            "tip": "Area uses the two sides, not the diagonal."
+          }
+        },
+        {
+          "id": "ch5_ex2_q19",
+          "number": "19",
+          "category": "Consolidate",
+          "questionText": "A swimming pool is 50 m by 25 m. Peter is bored by his usual training routine, and decides to swim the diagonal of the pool. Determine how many diagonals he must swim to complete his normal distance of 1500 m.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $d^2 = l^2 + w^2$; number of laps $= \\dfrac{\\text{total distance}}{d}$",
+            "steps": [
+              "Given: pool $50$ m by $25$ m, total distance $1500$ m. Goal: number of diagonals.",
+              "Diagonal: $d^2 = 50^2 + 25^2 = 2500 + 625 = 3125$",
+              "$d = \\sqrt{3125} \\approx 55.9017$ m",
+              "Number of diagonals $= \\dfrac{1500}{55.9017} \\approx 26.83$",
+              "He cannot stop part-way and still reach 1500 m, so round up to 27."
+            ],
+            "finalAnswer": "Therefore he must swim 27 diagonals (26.83 diagonals exactly, so he needs to complete 27).",
+            "solutionFigures": [],
+            "tip": "In a 'how many needed' problem, round up, even though 26.83 would normally round to 27 anyway."
+          }
+        },
+        {
+          "id": "ch5_ex2_q20",
+          "number": "20",
+          "category": "Consolidate",
+          "questionText": "A hiker walks 2.9 km north, then 3.7 km east. Determine how far in metres she is from her starting point. Give your answer in metres to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: 2.9 km = 2900 m north, 3.7 km = 3700 m east (perpendicular). Goal: distance $d$ from start in metres.",
+              "Substitute: $d^2 = 2900^2 + 3700^2$",
+              "$d^2 = 8\\,410\\,000 + 13\\,690\\,000 = 22\\,100\\,000$",
+              "$d = \\sqrt{22\\,100\\,000} \\approx 4701.0637...$",
+              "Round to 2 decimal places: $d \\approx 4701.06$ m"
+            ],
+            "finalAnswer": "Therefore the hiker is approximately 4701.06 m from her starting point.",
+            "solutionFigures": [],
+            "tip": "Convert km to m first (multiply by 1000) so the answer comes out in metres."
+          }
+        },
+        {
+          "id": "ch5_ex2_q21",
+          "number": "21",
+          "category": "Practice",
+          "questionText": "A square has a diagonal of 14 cm. Calculate the length of each side, in cm correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $d^2 = s^2 + s^2 = 2s^2$",
+            "steps": [
+              "Given: diagonal $d = 14$ cm. Goal: side $s$.",
+              "Substitute: $14^2 = s^2 + s^2$",
+              "$196 = 2s^2$",
+              "$s^2 = 98$",
+              "$s = \\sqrt{98} \\approx 9.8995...$",
+              "Round to 2 decimal places: $s \\approx 9.90$ cm"
+            ],
+            "finalAnswer": "Therefore each side is approximately 9.90 cm.",
+            "solutionFigures": [],
+            "tip": "Both shorter sides of the triangle are the unknown side $s$, giving $2s^2$."
+          }
+        },
+        {
+          "id": "ch5_ex2_q22a",
+          "number": "22(a)",
+          "category": "Practice",
+          "questionText": "The triangle below is a right-angled triangle. Two possible measurements have been suggested for the hypotenuse. Complete calculations to determine which of the lengths is correct for the hypotenuse. Show your working. The triangle has shorter sides $56$ (base) and $33$ (vertical) meeting at the right angle; the hypotenuse is labelled '60 or 65'.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: shorter sides $33$ and $56$. Goal: decide whether the hypotenuse is 60 or 65.",
+              "$c^2 = 33^2 + 56^2 = 1089 + 3136 = 4225$",
+              "$c = \\sqrt{4225} = 65$",
+              "Check: $60^2 = 3600 \\neq 4225$, but $65^2 = 4225$."
+            ],
+            "finalAnswer": "Therefore the hypotenuse is 65.",
+            "solutionFigures": [],
+            "tip": "Calculate the hypotenuse from the two shorter sides rather than guessing."
+          }
+        },
+        {
+          "id": "ch5_ex2_q22b",
+          "number": "22(b)",
+          "category": "Practice",
+          "questionText": "The triangle below is a right-angled triangle. Two possible measurements have been suggested for the hypotenuse. Complete calculations to determine which of the lengths is correct for the hypotenuse. Show your working. The triangle has shorter sides $60$ and $175$ meeting at the right angle; the hypotenuse is labelled '185 or 195'.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: shorter sides $60$ and $175$. Goal: decide whether the hypotenuse is 185 or 195.",
+              "$c^2 = 60^2 + 175^2 = 3600 + 30\\,625 = 34\\,225$",
+              "$c = \\sqrt{34\\,225} = 185$",
+              "Check: $185^2 = 34\\,225$ but $195^2 = 38\\,025$."
+            ],
+            "finalAnswer": "Therefore the hypotenuse is 185.",
+            "solutionFigures": [],
+            "tip": "Squaring both options and comparing to $a^2 + b^2$ is a quick check."
+          }
+        },
+        {
+          "id": "ch5_ex2_q22c",
+          "number": "22(c)",
+          "category": "Practice",
+          "questionText": "The triangle below is a right-angled triangle. Two possible measurements have been suggested for the hypotenuse. Complete calculations to determine which of the lengths is correct for the hypotenuse. Show your working. The triangle has shorter sides $273$ and $136$ meeting at the right angle; the hypotenuse is labelled '305 or 308'.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: shorter sides $273$ and $136$. Goal: decide whether the hypotenuse is 305 or 308.",
+              "$c^2 = 273^2 + 136^2 = 74\\,529 + 18\\,496 = 93\\,025$",
+              "$c = \\sqrt{93\\,025} = 305$",
+              "Check: $305^2 = 93\\,025$ but $308^2 = 94\\,864$."
+            ],
+            "finalAnswer": "Therefore the hypotenuse is 305.",
+            "solutionFigures": [],
+            "tip": "Use brackets or the $x^2$ key carefully with large numbers."
+          }
+        },
+        {
+          "id": "ch5_ex2_q23",
+          "number": "23",
+          "category": "Consolidate",
+          "questionText": "The square root of a number usually gives us both a positive and negative answer. Explain why we take only the positive answer when using Pythagoras' theorem.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "If $c^2 = k$ then $c = \\pm\\sqrt{k}$, but a length must satisfy $c > 0$.",
+            "steps": [
+              "Given: an equation such as $c^2 = 25$ has two solutions, $c = 5$ and $c = -5$.",
+              "In Pythagoras' theorem, $c$ (and $a$, $b$) represent the side lengths of a triangle.",
+              "A length is a distance, and a distance cannot be negative (or zero for a real triangle).",
+              "So the negative solution has no physical meaning and is rejected."
+            ],
+            "finalAnswer": "The value found using Pythagoras' theorem represents a length, and lengths cannot be negative, so only the positive square root is taken.",
+            "solutionFigures": [],
+            "tip": "Always check that your answer makes sense in context."
+          }
+        },
+        {
+          "id": "ch5_ex2_q24a",
+          "number": "24(a)",
+          "category": "Master",
+          "questionText": "Four possible side length measurements are 105, 208, 230 and 233. Three of them together produce a right-angled triangle. Explain which of the measurements could not be the hypotenuse of the triangle.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The hypotenuse is the longest side of a right-angled triangle.",
+            "steps": [
+              "Given: possible sides 105, 208, 230, 233. Goal: which cannot be the hypotenuse.",
+              "The hypotenuse must be longer than each of the other two sides in the triangle.",
+              "105 is the smallest value, so it can never be longer than two of the others.",
+              "208 is the second-smallest; any triangle using it as the longest side would need two sides smaller than 208, but only one (105) exists.",
+              "230 and 233 could each be the hypotenuse, provided the other two chosen sides satisfy $a^2 + b^2 = c^2$."
+            ],
+            "finalAnswer": "Neither 105 nor 208 can be the hypotenuse, because they are the two smallest values. Only 230 or 233 could be the hypotenuse.",
+            "solutionFigures": [],
+            "tip": "Narrow the options by size before doing any calculation."
+          }
+        },
+        {
+          "id": "ch5_ex2_q24b",
+          "number": "24(b)",
+          "category": "Master",
+          "questionText": "Four possible side length measurements are 105, 208, 230 and 233. Three of them together produce a right-angled triangle. Complete as few calculations as possible to calculate which combination of side lengths will produce a right-angled triangle.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem (converse): if $a^2 + b^2 = c^2$, the triangle is right-angled.",
+            "steps": [
+              "Given: from part a the hypotenuse is 230 or 233. Goal: find the right-angled combination.",
+              "Try the two smallest sides with the largest: $105^2 + 208^2 = 11\\,025 + 43\\,264 = 54\\,289$",
+              "$233^2 = 54\\,289$, which matches exactly.",
+              "So 105, 208, 233 forms a right-angled triangle. (Check of the other option: $105^2 + 208^2 = 54\\,289 \\neq 230^2 = 52\\,900$.)"
+            ],
+            "finalAnswer": "Therefore the side lengths 105, 208 and 233 produce a right-angled triangle.",
+            "solutionFigures": [],
+            "tip": "The converse of Pythagoras' theorem lets you test whether three lengths form a right angle."
+          }
+        },
+        {
+          "id": "ch5_ex2_q25a",
+          "number": "25(a)",
+          "category": "Practice",
+          "questionText": "The area of the rectangle MNPQ is 588 cm$^2$. Angles MRQ and NSP are right angles. In the diagram, M is top left, N top right, P bottom right and Q bottom left; MN = 28 cm and NP = $x$ cm. The diagonal MP is drawn, R and S lie on MP, QR is perpendicular to MP and NS is perpendicular to MP, with MR = $y$ cm and SP = $y$ cm. Determine the integer value of $x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a rectangle $A = l \\times w$",
+            "steps": [
+              "Given: area $= 588$ cm$^2$, length MN $= 28$ cm, width NP $= x$ cm. Goal: $x$.",
+              "$28x = 588$",
+              "$x = \\dfrac{588}{28} = 21$"
+            ],
+            "finalAnswer": "Therefore $x = 21$ cm.",
+            "solutionFigures": [],
+            "tip": "Use the area formula first; Pythagoras is needed only in the later parts."
+          }
+        },
+        {
+          "id": "ch5_ex2_q25b",
+          "number": "25(b)",
+          "category": "Practice",
+          "questionText": "The area of the rectangle MNPQ is 588 cm$^2$. Angles MRQ and NSP are right angles. In the diagram, M is top left, N top right, P bottom right and Q bottom left; MN = 28 cm and NP = $x$ cm. The diagonal MP is drawn, R and S lie on MP, QR is perpendicular to MP and NS is perpendicular to MP, with MR = $y$ cm and SP = $y$ cm. Determine the length of MP.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: MN $= 28$ cm, NP $= x = 21$ cm (from part a). Goal: diagonal MP.",
+              "Triangle MNP has a right angle at N, with MP as hypotenuse.",
+              "$MP^2 = 28^2 + 21^2 = 784 + 441 = 1225$",
+              "$MP = \\sqrt{1225} = 35$ cm"
+            ],
+            "finalAnswer": "Therefore MP = 35 cm.",
+            "solutionFigures": [],
+            "tip": "21, 28, 35 is the 3, 4, 5 triple multiplied by 7."
+          }
+        },
+        {
+          "id": "ch5_ex2_q25c",
+          "number": "25(c)",
+          "category": "Practice",
+          "questionText": "The area of the rectangle MNPQ is 588 cm$^2$. Angles MRQ and NSP are right angles. In the diagram, M is top left, N top right, P bottom right and Q bottom left; MN = 28 cm and NP = $x$ cm. The diagonal MP is drawn, R and S lie on MP, QR is perpendicular to MP and NS is perpendicular to MP, with MR = $y$ cm and SP = $y$ cm. Calculate the value of $y$ and hence determine the length of RS, in cm correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem in triangles MRQ and QRP: $QR^2 = MQ^2 - MR^2 = QP^2 - RP^2$",
+            "steps": [
+              "Given: MQ $= 21$ cm, QP $= 28$ cm, MP $= 35$ cm, MR $= y$, so RP $= 35 - y$. Goal: $y$ and RS.",
+              "In right triangle MRQ: $QR^2 = 21^2 - y^2$",
+              "In right triangle PRQ: $QR^2 = 28^2 - (35 - y)^2$",
+              "Equate: $441 - y^2 = 784 - (1225 - 70y + y^2)$",
+              "$441 - y^2 = 784 - 1225 + 70y - y^2$",
+              "$441 = -441 + 70y$",
+              "$70y = 882$, so $y = 12.6$ cm",
+              "By symmetry SP $= y = 12.6$ cm, so $RS = MP - MR - SP = 35 - 12.6 - 12.6 = 9.8$ cm"
+            ],
+            "finalAnswer": "Therefore $y = 12.6$ cm and RS = 9.8 cm.",
+            "solutionFigures": [],
+            "tip": "When a side is shared by two right triangles, write it twice using Pythagoras and set the expressions equal."
+          }
+        },
+        {
+          "id": "ch5_ex2_q26",
+          "number": "26",
+          "category": "Consolidate",
+          "questionText": "Triangle ABC is an equilateral triangle of side length $x$ cm. Angles ADB and DBE are right angles. Determine the value of $x$ in cm, correct to 2 decimal places. In the diagram, A and C are at the bottom with D on AC between them, and B is the top vertex directly above D (BD vertical). E is to the right of B with BE horizontal and BE = 16 cm. The segment DE = 20 cm. Side AB is marked $x$ cm.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $a^2 = c^2 - b^2$",
+            "steps": [
+              "Given: BE $= 16$ cm, DE $= 20$ cm, $\\angle DBE = 90^\\circ$; ABC equilateral with side $x$; BD is the height ($\\angle ADB = 90^\\circ$). Goal: $x$.",
+              "Triangle DBE: $BD^2 = DE^2 - BE^2 = 20^2 - 16^2 = 400 - 256 = 144$, so $BD = 12$ cm.",
+              "In an equilateral triangle the height bisects the base, so $AD = \\dfrac{x}{2}$.",
+              "Triangle ADB: $x^2 = \\left(\\dfrac{x}{2}\\right)^2 + 12^2$",
+              "$x^2 - \\dfrac{x^2}{4} = 144$",
+              "$\\dfrac{3x^2}{4} = 144$",
+              "$x^2 = 192$",
+              "$x = \\sqrt{192} \\approx 13.8564...$",
+              "Round to 2 decimal places: $x \\approx 13.86$ cm"
+            ],
+            "finalAnswer": "Therefore $x \\approx 13.86$ cm.",
+            "solutionFigures": [],
+            "tip": "Find the shared side (BD) from the triangle where two sides are known, then use it in the other triangle."
+          }
+        },
+        {
+          "id": "ch5_ex2_q27",
+          "number": "27",
+          "category": "Master",
+          "questionText": "The distance from Earth to the Moon is approximately 385 000 km and the distance from Earth to the Sun is approximately 147 million kilometres. In a total eclipse of the Sun, the moon moves between the Sun and Earth, thus blocking the light of the Sun from reaching Earth and causing a total eclipse of the Sun. If the diameter of the Moon is approximately 3474 km, evaluate the diameter of the Sun. Express your answer to the nearest 10 000 km. (The diagram shows two lines from Earth touching opposite edges of the Sun, with the Moon fitting exactly between them; the distance from Earth to the Sun is 147 000 000 km and from Earth to the Moon is 385 000 km.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Similar triangles: corresponding sides are in the same ratio, $\\dfrac{D_{\\text{Sun}}}{d_{\\text{Sun}}} = \\dfrac{D_{\\text{Moon}}}{d_{\\text{Moon}}}$",
+            "steps": [
+              "Given: Moon diameter $= 3474$ km, Earth–Moon distance $= 385\\,000$ km, Earth–Sun distance $= 147\\,000\\,000$ km. Goal: Sun diameter $D$.",
+              "In a total eclipse, the Moon exactly covers the Sun, so the lines from Earth to the edges of the Moon also reach the edges of the Sun. This makes two similar triangles with a common vertex at Earth.",
+              "$\\dfrac{D}{147\\,000\\,000} = \\dfrac{3474}{385\\,000}$",
+              "$D = \\dfrac{3474 \\times 147\\,000\\,000}{385\\,000}$",
+              "$D \\approx 1\\,326\\,436$ km",
+              "Round to the nearest 10 000 km: $D \\approx 1\\,330\\,000$ km"
+            ],
+            "finalAnswer": "Therefore the diameter of the Sun is approximately 1 330 000 km (1.33 million km).",
+            "solutionFigures": [],
+            "tip": "Keep both distances measured from Earth so the ratio compares matching sides."
+          }
+        }
+      ]
+    }
+  ]
+}

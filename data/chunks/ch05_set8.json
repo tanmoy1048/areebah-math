@@ -1,0 +1,940 @@
+{
+  "chapterId": "ch05",
+  "chapterTitle": "Trigonometry I",
+  "topics": [
+    {
+      "topicId": "5.8",
+      "topicTitle": "Bearings",
+      "exercises": [
+        {
+          "id": "ch5_ex8_q1a",
+          "number": "1(a)",
+          "category": "Practice",
+          "questionText": "Change the following compass bearing to a true bearing: N$20^\\circ$E",
+          "questionFigures": [],
+          "solution": {
+            "formula": "A true bearing is measured clockwise from north and written with 3 digits: N$x^\\circ$E $= 0x^\\circ$T, S$x^\\circ$E $= (180^\\circ - x)$T, S$x^\\circ$W $= (180^\\circ + x)$T, N$x^\\circ$W $= (360^\\circ - x)$T.",
+            "steps": [
+              "Given: compass bearing N$20^\\circ$E. Goal: the true bearing.",
+              "N$20^\\circ$E means start facing north and turn $20^\\circ$ towards the east.",
+              "This turn is already clockwise from north, so the true bearing is $20^\\circ$.",
+              "Write it with three digits: $020^\\circ$T."
+            ],
+            "finalAnswer": "$020^\\circ$T",
+            "solutionFigures": [],
+            "tip": "Always write true bearings with three digits, e.g. $020^\\circ$T, not $20^\\circ$T."
+          }
+        },
+        {
+          "id": "ch5_ex8_q1b",
+          "number": "1(b)",
+          "category": "Practice",
+          "questionText": "Change the following compass bearing to a true bearing: N$20^\\circ$W",
+          "questionFigures": [],
+          "solution": {
+            "formula": "N$x^\\circ$W $= (360^\\circ - x)$T, since a true bearing is measured clockwise from north.",
+            "steps": [
+              "Given: compass bearing N$20^\\circ$W. Goal: the true bearing.",
+              "N$20^\\circ$W means turn $20^\\circ$ from north towards the west, which is anticlockwise.",
+              "Measured clockwise from north this is $360^\\circ - 20^\\circ = 340^\\circ$."
+            ],
+            "finalAnswer": "$340^\\circ$T",
+            "solutionFigures": [],
+            "tip": "A turn towards the west from north is anticlockwise, so subtract from $360^\\circ$."
+          }
+        },
+        {
+          "id": "ch5_ex8_q1c",
+          "number": "1(c)",
+          "category": "Practice",
+          "questionText": "Change the following compass bearing to a true bearing: S$35^\\circ$W",
+          "questionFigures": [],
+          "solution": {
+            "formula": "S$x^\\circ$W $= (180^\\circ + x)$T",
+            "steps": [
+              "Given: compass bearing S$35^\\circ$W. Goal: the true bearing.",
+              "South is $180^\\circ$T. Turning $35^\\circ$ from south towards west continues clockwise.",
+              "True bearing $= 180^\\circ + 35^\\circ = 215^\\circ$."
+            ],
+            "finalAnswer": "$215^\\circ$T",
+            "solutionFigures": [],
+            "tip": "Sketch a quick compass rose to see whether to add to or subtract from $180^\\circ$."
+          }
+        },
+        {
+          "id": "ch5_ex8_q2a",
+          "number": "2(a)",
+          "category": "Consolidate",
+          "questionText": "Change the following compass bearing to a true bearing: S$28^\\circ$E",
+          "questionFigures": [],
+          "solution": {
+            "formula": "S$x^\\circ$E $= (180^\\circ - x)$T",
+            "steps": [
+              "Given: compass bearing S$28^\\circ$E. Goal: the true bearing.",
+              "South is $180^\\circ$T. Turning $28^\\circ$ from south towards east is anticlockwise, back towards east ($090^\\circ$T).",
+              "True bearing $= 180^\\circ - 28^\\circ = 152^\\circ$."
+            ],
+            "finalAnswer": "$152^\\circ$T",
+            "solutionFigures": [],
+            "tip": "S...E bearings are always between $090^\\circ$T and $180^\\circ$T."
+          }
+        },
+        {
+          "id": "ch5_ex8_q2b",
+          "number": "2(b)",
+          "category": "Consolidate",
+          "questionText": "Change the following compass bearing to a true bearing: N$34^\\circ$E",
+          "questionFigures": [],
+          "solution": {
+            "formula": "N$x^\\circ$E $= 0x^\\circ$T",
+            "steps": [
+              "Given: compass bearing N$34^\\circ$E. Goal: the true bearing.",
+              "The angle is measured clockwise from north, so the true bearing is $34^\\circ$.",
+              "Written with three digits: $034^\\circ$T."
+            ],
+            "finalAnswer": "$034^\\circ$T",
+            "solutionFigures": [],
+            "tip": "Include the leading zero for true bearings under $100^\\circ$."
+          }
+        },
+        {
+          "id": "ch5_ex8_q2c",
+          "number": "2(c)",
+          "category": "Consolidate",
+          "questionText": "Change the following compass bearing to a true bearing: S$42^\\circ$W",
+          "questionFigures": [],
+          "solution": {
+            "formula": "S$x^\\circ$W $= (180^\\circ + x)$T",
+            "steps": [
+              "Given: compass bearing S$42^\\circ$W. Goal: the true bearing.",
+              "Start at south ($180^\\circ$T) and turn $42^\\circ$ clockwise towards west.",
+              "True bearing $= 180^\\circ + 42^\\circ = 222^\\circ$."
+            ],
+            "finalAnswer": "$222^\\circ$T",
+            "solutionFigures": [],
+            "tip": "S...W bearings are always between $180^\\circ$T and $270^\\circ$T."
+          }
+        },
+        {
+          "id": "ch5_ex8_q3a",
+          "number": "3(a)",
+          "category": "Practice",
+          "questionText": "Change the following true bearing to a compass bearing: $049^\\circ$T",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Compass bearings start at N or S and turn towards E or W by an angle less than $90^\\circ$. For $0^\\circ$ to $90^\\circ$T: N$\\theta^\\circ$E.",
+            "steps": [
+              "Given: true bearing $049^\\circ$T. Goal: the compass bearing.",
+              "$049^\\circ$ lies between north ($000^\\circ$) and east ($090^\\circ$), so it is in the NE quadrant.",
+              "The angle from north towards east is $49^\\circ$."
+            ],
+            "finalAnswer": "N$49^\\circ$E",
+            "solutionFigures": [],
+            "tip": "First decide which quadrant the true bearing is in, then measure from the nearer of N or S."
+          }
+        },
+        {
+          "id": "ch5_ex8_q3b",
+          "number": "3(b)",
+          "category": "Practice",
+          "questionText": "Change the following true bearing to a compass bearing: $132^\\circ$T",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $90^\\circ$ to $180^\\circ$T: S$(180^\\circ - \\theta)$E.",
+            "steps": [
+              "Given: true bearing $132^\\circ$T. Goal: the compass bearing.",
+              "$132^\\circ$ is between east ($090^\\circ$) and south ($180^\\circ$): SE quadrant.",
+              "Angle from south towards east $= 180^\\circ - 132^\\circ = 48^\\circ$."
+            ],
+            "finalAnswer": "S$48^\\circ$E",
+            "solutionFigures": [],
+            "tip": "Compass bearings are measured from north or south, never from east or west."
+          }
+        },
+        {
+          "id": "ch5_ex8_q3c",
+          "number": "3(c)",
+          "category": "Practice",
+          "questionText": "Change the following true bearing to a compass bearing: $267^\\circ$T",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $180^\\circ$ to $270^\\circ$T: S$(\\theta - 180^\\circ)$W.",
+            "steps": [
+              "Given: true bearing $267^\\circ$T. Goal: the compass bearing.",
+              "$267^\\circ$ is between south ($180^\\circ$) and west ($270^\\circ$): SW quadrant.",
+              "Angle from south towards west $= 267^\\circ - 180^\\circ = 87^\\circ$."
+            ],
+            "finalAnswer": "S$87^\\circ$W",
+            "solutionFigures": [],
+            "tip": "Even though $267^\\circ$ is close to west, the compass bearing is still measured from south."
+          }
+        },
+        {
+          "id": "ch5_ex8_q4a",
+          "number": "4(a)",
+          "category": "Master",
+          "questionText": "Change the following true bearing to a compass bearing: $330^\\circ$T",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $270^\\circ$ to $360^\\circ$T: N$(360^\\circ - \\theta)$W.",
+            "steps": [
+              "Given: true bearing $330^\\circ$T. Goal: the compass bearing.",
+              "$330^\\circ$ is between west ($270^\\circ$) and north ($360^\\circ$): NW quadrant.",
+              "Angle from north towards west $= 360^\\circ - 330^\\circ = 30^\\circ$."
+            ],
+            "finalAnswer": "N$30^\\circ$W",
+            "solutionFigures": [],
+            "tip": "In the NW quadrant, subtract the true bearing from $360^\\circ$."
+          }
+        },
+        {
+          "id": "ch5_ex8_q4b",
+          "number": "4(b)",
+          "category": "Master",
+          "questionText": "Change the following true bearing to a compass bearing: $086^\\circ$T",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $0^\\circ$ to $90^\\circ$T: N$\\theta^\\circ$E.",
+            "steps": [
+              "Given: true bearing $086^\\circ$T. Goal: the compass bearing.",
+              "$086^\\circ$ is between north and east: NE quadrant.",
+              "Angle from north towards east $= 86^\\circ$."
+            ],
+            "finalAnswer": "N$86^\\circ$E",
+            "solutionFigures": [],
+            "tip": "Drop the leading zero when writing a compass bearing."
+          }
+        },
+        {
+          "id": "ch5_ex8_q4c",
+          "number": "4(c)",
+          "category": "Master",
+          "questionText": "Change the following true bearing to a compass bearing: $234^\\circ$T",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $180^\\circ$ to $270^\\circ$T: S$(\\theta - 180^\\circ)$W.",
+            "steps": [
+              "Given: true bearing $234^\\circ$T. Goal: the compass bearing.",
+              "$234^\\circ$ is between south and west: SW quadrant.",
+              "Angle from south towards west $= 234^\\circ - 180^\\circ = 54^\\circ$."
+            ],
+            "finalAnswer": "S$54^\\circ$W",
+            "solutionFigures": [],
+            "tip": "Check: S$54^\\circ$W converts back to $180^\\circ + 54^\\circ = 234^\\circ$T."
+          }
+        },
+        {
+          "id": "ch5_ex8_q5a",
+          "number": "5(a)",
+          "category": "Consolidate",
+          "questionText": "Describe the following path using a true bearing. The diagram shows a north line and a path of length 3 km drawn up and to the left (north-west) of the north line, making an angle of $35^\\circ$ with north.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "True bearing = angle measured clockwise from north. A path $x^\\circ$ west of north has true bearing $(360^\\circ - x)$T.",
+            "steps": [
+              "Given: path 3 km, $35^\\circ$ west of north. Goal: describe it with a true bearing.",
+              "The path is $35^\\circ$ anticlockwise from north (towards west), i.e. compass bearing N$35^\\circ$W.",
+              "True bearing $= 360^\\circ - 35^\\circ = 325^\\circ$."
+            ],
+            "finalAnswer": "3 km on a true bearing of $325^\\circ$T",
+            "solutionFigures": [],
+            "tip": "Give both the distance and the bearing when describing a path."
+          }
+        },
+        {
+          "id": "ch5_ex8_q5b",
+          "number": "5(b)",
+          "category": "Consolidate",
+          "questionText": "Describe the following path using a true bearing. The diagram shows a compass rose (N, E, S, W) and a path of length 2.5 km drawn from the centre into the south-east quadrant, making an angle of $22^\\circ$ below the east direction.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "True bearing = angle measured clockwise from north. East is $090^\\circ$T.",
+            "steps": [
+              "Given: path 2.5 km, $22^\\circ$ south of east. Goal: the true bearing.",
+              "East is $090^\\circ$T. Turning a further $22^\\circ$ clockwise (towards south) gives $90^\\circ + 22^\\circ = 112^\\circ$."
+            ],
+            "finalAnswer": "2.5 km on a true bearing of $112^\\circ$T",
+            "solutionFigures": [],
+            "tip": "When the angle is measured from east or west, add or subtract it from $090^\\circ$ or $270^\\circ$."
+          }
+        },
+        {
+          "id": "ch5_ex8_q5c",
+          "number": "5(c)",
+          "category": "Consolidate",
+          "questionText": "Describe the following path using a true bearing. The diagram shows a compass rose (N, E, S, W) and a path of length 8 km drawn from the centre into the south-west quadrant, making an angle of $35^\\circ$ below the west direction.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "True bearing = angle measured clockwise from north. West is $270^\\circ$T.",
+            "steps": [
+              "Given: path 8 km, $35^\\circ$ south of west. Goal: the true bearing.",
+              "West is $270^\\circ$T. The path is $35^\\circ$ from west back towards south, i.e. anticlockwise.",
+              "True bearing $= 270^\\circ - 35^\\circ = 235^\\circ$.",
+              "Check: angle from south $= 90^\\circ - 35^\\circ = 55^\\circ$, so S$55^\\circ$W $= 180^\\circ + 55^\\circ = 235^\\circ$T."
+            ],
+            "finalAnswer": "8 km on a true bearing of $235^\\circ$T",
+            "solutionFigures": [],
+            "tip": "Read carefully whether the marked angle is from the N–S line or from the E–W line."
+          }
+        },
+        {
+          "id": "ch5_ex8_q6a",
+          "number": "6(a)",
+          "category": "Master",
+          "questionText": "Describe the following path using true bearings. The diagram shows a path that first goes 4 km due east (horizontally to the right). At the end of this leg a dashed north–south line is drawn and the second leg of 2.5 km goes up and to the right, making an angle of $35^\\circ$ with north.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "True bearing = angle measured clockwise from north; due east is $090^\\circ$T.",
+            "steps": [
+              "Given: leg 1 is 4 km due east; leg 2 is 2.5 km at $35^\\circ$ east of north. Goal: true bearings of each leg.",
+              "Leg 1: due east $= 090^\\circ$T.",
+              "Leg 2: the angle $35^\\circ$ is measured clockwise from the north line at the turning point, so the bearing is $035^\\circ$T."
+            ],
+            "finalAnswer": "4 km on $090^\\circ$T, then 2.5 km on $035^\\circ$T",
+            "solutionFigures": [],
+            "tip": "Draw a new north line at every turning point and measure each leg from that line."
+          }
+        },
+        {
+          "id": "ch5_ex8_q6b",
+          "number": "6(b)",
+          "category": "Master",
+          "questionText": "Describe the following path using true bearings. The diagram shows a first leg of 12 km going down and to the right from a point on a north–south line; the angle of $65^\\circ$ is marked between the path and the southward part of that line. At the end of this leg a new north line is drawn and the second leg of 7 km goes up and to the right, making $50^\\circ$ with north.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "True bearing = angle measured clockwise from north.",
+            "steps": [
+              "Given: leg 1 is 12 km heading down-right (south-east); the marked angle $65^\\circ$ is between the path and the north–south line at the start. Leg 2 is 7 km at $50^\\circ$ east of north.",
+              "Leg 1 heads south-east, so its true bearing is between $090^\\circ$ and $180^\\circ$. The $65^\\circ$ angle is measured from the south direction, so the compass bearing is S$65^\\circ$E.",
+              "True bearing of leg 1 $= 180^\\circ - 65^\\circ = 115^\\circ$T.",
+              "Leg 2: $50^\\circ$ clockwise from north $= 050^\\circ$T."
+            ],
+            "finalAnswer": "12 km on $115^\\circ$T, then 7 km on $050^\\circ$T",
+            "solutionFigures": [],
+            "tip": "A path that goes downwards on the page must have a bearing between $090^\\circ$ and $270^\\circ$."
+          }
+        },
+        {
+          "id": "ch5_ex8_q6c",
+          "number": "6(c)",
+          "category": "Master",
+          "questionText": "Describe the following path using true bearings. The diagram shows a path that starts at the lower right, at the bottom of a north line, and travels 300 m up and to the left, making an angle of $50^\\circ$ with that north line. At the top point a new north line is drawn, and the path then travels 500 m down and to the left, making an angle of $40^\\circ$ with the north–south line (measured from the south direction).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "True bearing = angle measured clockwise from north; N$x^\\circ$W $= (360^\\circ - x)$T; S$x^\\circ$W $= (180^\\circ + x)$T.",
+            "steps": [
+              "Given: leg 1 is 300 m at $50^\\circ$ west of north; leg 2 is 500 m at $40^\\circ$ west of south.",
+              "Leg 1: N$50^\\circ$W, so true bearing $= 360^\\circ - 50^\\circ = 310^\\circ$T.",
+              "Leg 2: S$40^\\circ$W, so true bearing $= 180^\\circ + 40^\\circ = 220^\\circ$T."
+            ],
+            "finalAnswer": "300 m on $310^\\circ$T, then 500 m on $220^\\circ$T",
+            "solutionFigures": [],
+            "tip": "Follow the arrows to see which way each leg is travelled before choosing the quadrant."
+          }
+        },
+        {
+          "id": "ch5_ex8_q7a",
+          "number": "7(a)",
+          "category": "Practice",
+          "questionText": "Show the following journey as a diagram: A ship travels $040^\\circ$T for 40 km and then $100^\\circ$T for 30 km.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Draw a north line at the start of each leg and measure the true bearing clockwise from it.",
+            "steps": [
+              "Given: leg 1: 40 km on $040^\\circ$T; leg 2: 30 km on $100^\\circ$T. Goal: a labelled diagram.",
+              "Mark the start point and draw a north line through it.",
+              "Measure $40^\\circ$ clockwise from north and draw a line labelled 40 km (heading up and to the right).",
+              "At the end of the first leg draw a new north line.",
+              "Measure $100^\\circ$ clockwise from this north line (i.e. $10^\\circ$ below east) and draw a line labelled 30 km.",
+              "Label both angles ($40^\\circ$ and $100^\\circ$) and both distances."
+            ],
+            "finalAnswer": "Diagram: from the start, a 40 km line at $40^\\circ$ clockwise from north; from its end, a 30 km line at $100^\\circ$ clockwise from a new north line (slightly south of east).",
+            "solutionFigures": [],
+            "tip": "Every leg needs its own north line; do not measure the second bearing from the first leg."
+          }
+        },
+        {
+          "id": "ch5_ex8_q7b",
+          "number": "7(b)",
+          "category": "Practice",
+          "questionText": "Show the following journey as a diagram: A plane flies for 230 km in a direction $135^\\circ$T and a further 140 km in a direction $240^\\circ$T.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Draw a north line at the start of each leg and measure the true bearing clockwise from it.",
+            "steps": [
+              "Given: leg 1: 230 km on $135^\\circ$T; leg 2: 140 km on $240^\\circ$T. Goal: a labelled diagram.",
+              "Draw a north line at the start. Measure $135^\\circ$ clockwise (exactly south-east) and draw a line labelled 230 km.",
+              "At the end of leg 1 draw a new north line.",
+              "Measure $240^\\circ$ clockwise from north ($60^\\circ$ past south, i.e. S$60^\\circ$W) and draw a line labelled 140 km heading down and to the left.",
+              "Label the angles $135^\\circ$ and $240^\\circ$ and both distances."
+            ],
+            "finalAnswer": "Diagram: a 230 km line heading south-east ($135^\\circ$ from north), then a 140 km line heading south-west at $240^\\circ$ from a new north line.",
+            "solutionFigures": [],
+            "tip": "Bearings over $180^\\circ$ point into the western half of the compass."
+          }
+        },
+        {
+          "id": "ch5_ex8_q8a",
+          "number": "8(a)",
+          "category": "Consolidate",
+          "questionText": "Show the following journey as a diagram: A bushwalker travels in a direction $260^\\circ$T for 0.8 km, then changes direction to $120^\\circ$T for 1.3 km, and finally travels in a direction of $32^\\circ$ for 2.1 km.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Draw a north line at the start of each leg and measure the true bearing clockwise from it.",
+            "steps": [
+              "Given: 0.8 km on $260^\\circ$T, 1.3 km on $120^\\circ$T, 2.1 km on $032^\\circ$T. Goal: a labelled diagram.",
+              "Leg 1: from the start draw a north line, measure $260^\\circ$ clockwise ($10^\\circ$ south of west) and draw 0.8 km heading left and slightly down.",
+              "Leg 2: draw a new north line, measure $120^\\circ$ clockwise ($30^\\circ$ south of east) and draw 1.3 km heading down-right.",
+              "Leg 3: draw a new north line, measure $32^\\circ$ clockwise and draw 2.1 km heading up-right.",
+              "Label each angle and each distance."
+            ],
+            "finalAnswer": "Diagram: 0.8 km at $260^\\circ$T (just south of west), then 1.3 km at $120^\\circ$T (south-east), then 2.1 km at $032^\\circ$T (north-east), each angle measured from its own north line.",
+            "solutionFigures": [],
+            "tip": "Draw roughly to scale so the shape of the journey looks sensible."
+          }
+        },
+        {
+          "id": "ch5_ex8_q8b",
+          "number": "8(b)",
+          "category": "Consolidate",
+          "questionText": "Show the following journey as a diagram: A boat travels N$40^\\circ$W for 8 km, then changes direction to S$30^\\circ$W for 5 km and then S$50^\\circ$E for 7 km.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Compass bearings: start at N or S, then turn the given angle towards E or W.",
+            "steps": [
+              "Given: 8 km N$40^\\circ$W, 5 km S$30^\\circ$W, 7 km S$50^\\circ$E. Goal: a labelled diagram.",
+              "Leg 1: draw a north line; measure $40^\\circ$ from north towards west; draw 8 km up-left.",
+              "Leg 2: draw a north–south line at the end; measure $30^\\circ$ from south towards west; draw 5 km down-left.",
+              "Leg 3: draw a north–south line; measure $50^\\circ$ from south towards east; draw 7 km down-right.",
+              "Label all angles and distances."
+            ],
+            "finalAnswer": "Diagram: 8 km up-left at $40^\\circ$ west of north, then 5 km down-left at $30^\\circ$ west of south, then 7 km down-right at $50^\\circ$ east of south.",
+            "solutionFigures": [],
+            "tip": "For compass bearings starting with S, measure the angle from the south direction, not from north."
+          }
+        },
+        {
+          "id": "ch5_ex8_q8c",
+          "number": "8(c)",
+          "category": "Consolidate",
+          "questionText": "Show the following journey as a diagram: A plane travels N$20^\\circ$E for 320 km, N$70^\\circ$E for 180 km and S$30^\\circ$E for 220 km.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Compass bearings: start at N or S, then turn the given angle towards E or W.",
+            "steps": [
+              "Given: 320 km N$20^\\circ$E, 180 km N$70^\\circ$E, 220 km S$30^\\circ$E. Goal: a labelled diagram.",
+              "Leg 1: draw a north line; measure $20^\\circ$ towards east; draw 320 km steeply up-right.",
+              "Leg 2: new north line; measure $70^\\circ$ towards east; draw 180 km up-right at a shallow angle.",
+              "Leg 3: new north–south line; measure $30^\\circ$ from south towards east; draw 220 km down-right.",
+              "Label all angles and distances."
+            ],
+            "finalAnswer": "Diagram: 320 km at $20^\\circ$ east of north, then 180 km at $70^\\circ$ east of north, then 220 km at $30^\\circ$ east of south.",
+            "solutionFigures": [],
+            "tip": "Keep lengths roughly in proportion (320 : 180 : 220) so the sketch is useful."
+          }
+        },
+        {
+          "id": "ch5_ex8_q9a",
+          "number": "9(a)",
+          "category": "Master",
+          "questionText": "A yacht travels 20 km from A to B on a bearing of $042^\\circ$T. Calculate how far east of A is B, in km correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "In the right-angled triangle formed with the north line: $\\sin(\\theta) = \\dfrac{O}{H}$",
+            "steps": [
+              "Given: AB = 20 km (hypotenuse), angle from north $\\theta = 42^\\circ$. Goal: easterly distance $x$.",
+              "Draw the north line at A. The east component is opposite the $42^\\circ$ angle.",
+              "$\\sin(42^\\circ) = \\dfrac{x}{20}$",
+              "$x = 20\\sin(42^\\circ)$",
+              "$x = 20 \\times 0.66913\\ldots = 13.3826\\ldots$",
+              "Rounded to 2 decimal places: $x \\approx 13.38$ km."
+            ],
+            "finalAnswer": "B is 13.38 km east of A.",
+            "solutionFigures": [],
+            "tip": "The bearing angle is at the north line, so the east component is opposite it (use sine)."
+          }
+        },
+        {
+          "id": "ch5_ex8_q9b",
+          "number": "9(b)",
+          "category": "Master",
+          "questionText": "A yacht travels 20 km from A to B on a bearing of $042^\\circ$T. Calculate how far north of A is B, in km correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(\\theta) = \\dfrac{A}{H}$",
+            "steps": [
+              "Given: AB = 20 km, angle from north $42^\\circ$. Goal: northerly distance $y$.",
+              "The north component is adjacent to the $42^\\circ$ angle.",
+              "$\\cos(42^\\circ) = \\dfrac{y}{20}$",
+              "$y = 20\\cos(42^\\circ) = 20 \\times 0.74314\\ldots = 14.8628\\ldots$",
+              "Check with Pythagoras: $13.3826^2 + 14.8628^2 = 179.09 + 220.90 \\approx 400 = 20^2$ ✓",
+              "Rounded: $y \\approx 14.86$ km."
+            ],
+            "finalAnswer": "B is 14.86 km north of A.",
+            "solutionFigures": [],
+            "tip": "The component along the north line is always adjacent to the bearing angle (cosine)."
+          }
+        },
+        {
+          "id": "ch5_ex8_q9c",
+          "number": "9(c)",
+          "category": "Master",
+          "questionText": "A yacht travels 20 km from A to B on a bearing of $042^\\circ$T. Calculate the bearing of A from B.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Back bearing: if the bearing is $\\theta < 180^\\circ$, the reverse bearing is $\\theta + 180^\\circ$.",
+            "steps": [
+              "Given: bearing of B from A is $042^\\circ$T. Goal: bearing of A from B.",
+              "A is in exactly the opposite direction from B, so add $180^\\circ$.",
+              "$42^\\circ + 180^\\circ = 222^\\circ$"
+            ],
+            "finalAnswer": "The bearing of A from B is $222^\\circ$T (S$42^\\circ$W).",
+            "solutionFigures": [],
+            "tip": "'Bearing of A from B' means stand at B and look towards A."
+          }
+        },
+        {
+          "id": "ch5_ex8_q9d",
+          "number": "9(d)",
+          "category": "Master",
+          "questionText": "A yacht travels 20 km from A to B on a bearing of $042^\\circ$T. The yacht then sails 80 km from B to C on a bearing of $130^\\circ$T. Show the journey using a diagram.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Draw a north line at each point and measure each true bearing clockwise from it.",
+            "steps": [
+              "Given: AB = 20 km on $042^\\circ$T; BC = 80 km on $130^\\circ$T.",
+              "At A draw a north line; draw AB 20 km at $42^\\circ$ clockwise from north (up-right).",
+              "At B draw a north line; draw BC 80 km at $130^\\circ$ clockwise from north ($40^\\circ$ below east, down-right).",
+              "Label points A, B, C, the angles $42^\\circ$ and $130^\\circ$, and the distances 20 km and 80 km."
+            ],
+            "finalAnswer": "Diagram: A to B is 20 km up-right at $42^\\circ$ from north; B to C is 80 km down-right at $130^\\circ$ from north, so C ends well south-east of A.",
+            "solutionFigures": [],
+            "tip": "BC is four times as long as AB, so make it much longer in the sketch."
+          }
+        },
+        {
+          "id": "ch5_ex8_q9e",
+          "number": "9(e)",
+          "category": "Master",
+          "questionText": "A yacht travels 20 km from A to B on a bearing of $042^\\circ$T. The yacht then sails 80 km from B to C on a bearing of $130^\\circ$T. Calculate how far south of B is C, in km correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(\\theta) = \\dfrac{A}{H}$, with $\\theta$ measured from the south line.",
+            "steps": [
+              "Given: BC = 80 km on $130^\\circ$T. Goal: southerly distance $s$.",
+              "Angle between BC and the south direction at B: $180^\\circ - 130^\\circ = 50^\\circ$ (compass bearing S$50^\\circ$E).",
+              "The south component is adjacent to this $50^\\circ$ angle.",
+              "$\\cos(50^\\circ) = \\dfrac{s}{80}$",
+              "$s = 80\\cos(50^\\circ) = 80 \\times 0.64279\\ldots = 51.423\\ldots$",
+              "Rounded: $s \\approx 51.42$ km."
+            ],
+            "finalAnswer": "C is 51.42 km south of B.",
+            "solutionFigures": [],
+            "tip": "Convert to a compass bearing first to get the acute angle inside the right triangle."
+          }
+        },
+        {
+          "id": "ch5_ex8_q9f",
+          "number": "9(f)",
+          "category": "Master",
+          "questionText": "A yacht travels 20 km from A to B on a bearing of $042^\\circ$T. The yacht then sails 80 km from B to C on a bearing of $130^\\circ$T. Calculate how far east of B is C, in km correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = \\dfrac{O}{H}$",
+            "steps": [
+              "Given: BC = 80 km, angle from south $50^\\circ$. Goal: easterly distance $e$.",
+              "The east component is opposite the $50^\\circ$ angle.",
+              "$\\sin(50^\\circ) = \\dfrac{e}{80}$",
+              "$e = 80\\sin(50^\\circ) = 80 \\times 0.76604\\ldots = 61.2836\\ldots$",
+              "Check: $51.423^2 + 61.284^2 = 2644.3 + 3755.7 = 6400 = 80^2$ ✓",
+              "Rounded: $e \\approx 61.28$ km."
+            ],
+            "finalAnswer": "C is 61.28 km east of B.",
+            "solutionFigures": [],
+            "tip": "Check your two components with Pythagoras: they must rebuild the hypotenuse."
+          }
+        },
+        {
+          "id": "ch5_ex8_q9g",
+          "number": "9(g)",
+          "category": "Master",
+          "questionText": "A yacht travels 20 km from A to B on a bearing of $042^\\circ$T. The yacht then sails 80 km from B to C on a bearing of $130^\\circ$T. Calculate the bearing of B from C.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Back bearing: reverse bearing $= \\theta + 180^\\circ$ when $\\theta < 180^\\circ$.",
+            "steps": [
+              "Given: bearing of C from B is $130^\\circ$T. Goal: bearing of B from C.",
+              "Reverse direction: $130^\\circ + 180^\\circ = 310^\\circ$."
+            ],
+            "finalAnswer": "The bearing of B from C is $310^\\circ$T (N$50^\\circ$W).",
+            "solutionFigures": [],
+            "tip": "A back bearing always differs from the original by exactly $180^\\circ$."
+          }
+        },
+        {
+          "id": "ch5_ex8_q10",
+          "number": "10",
+          "category": "Practice",
+          "questionText": "If a farmhouse is situated 220 m N$35^\\circ$E from a shed, calculate the true bearing of the shed from the house.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Back bearing: reverse bearing $= \\theta + 180^\\circ$ when $\\theta < 180^\\circ$.",
+            "steps": [
+              "Given: house is N$35^\\circ$E ($035^\\circ$T) from the shed. Goal: true bearing of the shed from the house.",
+              "The shed is in the opposite direction from the house: $35^\\circ + 180^\\circ = 215^\\circ$.",
+              "Check: S$35^\\circ$W $= 180^\\circ + 35^\\circ = 215^\\circ$T ✓. The 220 m distance is not needed."
+            ],
+            "finalAnswer": "The shed is on a true bearing of $215^\\circ$T from the house.",
+            "solutionFigures": [],
+            "tip": "Not every number given is needed; the distance does not change a bearing."
+          }
+        },
+        {
+          "id": "ch5_ex8_q11",
+          "number": "11",
+          "category": "Consolidate",
+          "questionText": "A pair of hikers travel 0.7 km on a true bearing of $240^\\circ$ and then 1.3 km on a true bearing of $300^\\circ$. Calculate how far west they have travelled from their starting point, in km correct to 3 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "West component $= d\\sin(\\theta)$, where $\\theta$ is the acute angle from the N–S line (opposite side).",
+            "steps": [
+              "Given: leg 1 = 0.7 km on $240^\\circ$T; leg 2 = 1.3 km on $300^\\circ$T. Goal: total distance west.",
+              "Leg 1: $240^\\circ$T = S$60^\\circ$W (since $240^\\circ - 180^\\circ = 60^\\circ$). West component $= 0.7\\sin(60^\\circ) = 0.7 \\times 0.86603 = 0.60622$ km.",
+              "Leg 2: $300^\\circ$T = N$60^\\circ$W (since $360^\\circ - 300^\\circ = 60^\\circ$). West component $= 1.3\\sin(60^\\circ) = 1.3 \\times 0.86603 = 1.12583$ km.",
+              "Total west $= 0.60622 + 1.12583 = 1.73205$ km",
+              "(Equivalently $2\\sin(60^\\circ) = \\sqrt{3} \\approx 1.732$.)",
+              "Rounded to 3 decimal places: 1.732 km."
+            ],
+            "finalAnswer": "The hikers have travelled 1.732 km west.",
+            "solutionFigures": [],
+            "tip": "Both legs head west, so their west components add; north and south parts would partly cancel."
+          }
+        },
+        {
+          "id": "ch5_ex8_q12a",
+          "number": "12(a)",
+          "category": "Consolidate",
+          "questionText": "A boat travels 6 km on a true bearing of $120^\\circ$ and then 4 km on a true bearing of $080^\\circ$. Calculate how far east the boat is from the starting point on the completion of its journey, in km correct to 3 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "East component of a leg $= d\\sin(\\text{angle from the N–S line})$",
+            "steps": [
+              "Given: leg 1 = 6 km on $120^\\circ$T; leg 2 = 4 km on $080^\\circ$T. Goal: total east distance.",
+              "Leg 1: $120^\\circ$T = S$60^\\circ$E. East $= 6\\sin(60^\\circ) = 6 \\times 0.866025 = 5.19615$ km.",
+              "Leg 2: $080^\\circ$T = N$80^\\circ$E. East $= 4\\sin(80^\\circ) = 4 \\times 0.984808 = 3.93923$ km.",
+              "Total east $= 5.19615 + 3.93923 = 9.13538$ km",
+              "Rounded to 3 decimal places: 9.135 km."
+            ],
+            "finalAnswer": "The boat is 9.135 km east of the starting point.",
+            "solutionFigures": [],
+            "tip": "Keep unrounded values for later parts so the bearing is accurate."
+          }
+        },
+        {
+          "id": "ch5_ex8_q12b",
+          "number": "12(b)",
+          "category": "Consolidate",
+          "questionText": "A boat travels 6 km on a true bearing of $120^\\circ$ and then 4 km on a true bearing of $080^\\circ$. Calculate how far south the boat is from the starting point on the completion of its journey, in km correct to 3 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "North/south component of a leg $= d\\cos(\\text{angle from the N–S line})$",
+            "steps": [
+              "Given: as in part (a). Goal: net south distance.",
+              "Leg 1 (S$60^\\circ$E): south $= 6\\cos(60^\\circ) = 6 \\times 0.5 = 3$ km.",
+              "Leg 2 (N$80^\\circ$E): north $= 4\\cos(80^\\circ) = 4 \\times 0.173648 = 0.69459$ km.",
+              "Net south $= 3 - 0.69459 = 2.30541$ km",
+              "Rounded to 3 decimal places: 2.305 km."
+            ],
+            "finalAnswer": "The boat is 2.305 km south of the starting point.",
+            "solutionFigures": [],
+            "tip": "North and south components have opposite directions, so subtract them."
+          }
+        },
+        {
+          "id": "ch5_ex8_q12c",
+          "number": "12(c)",
+          "category": "Consolidate",
+          "questionText": "A boat travels 6 km on a true bearing of $120^\\circ$ and then 4 km on a true bearing of $080^\\circ$. Calculate the bearing of the boat from the starting point on the completion of its journey, correct to the nearest minute.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Given: final position 9.13538 km east and 2.30541 km south of the start. Goal: true bearing of the boat from the start.",
+              "Form a right triangle with the east line: let $\\alpha$ be the angle below east.",
+              "$\\tan(\\alpha) = \\dfrac{2.30541}{9.13538}$",
+              "$\\alpha = \\tan^{-1}(0.252360) = 14.1634^\\circ \\approx 14^\\circ 10'$",
+              "East is $090^\\circ$T, and the boat is $\\alpha$ further clockwise (south of east).",
+              "Bearing $= 90^\\circ + 14^\\circ 10' = 104^\\circ 10'$"
+            ],
+            "finalAnswer": "The boat is on a bearing of $104^\\circ 10'$T from the starting point.",
+            "solutionFigures": [],
+            "tip": "Use unrounded components; rounding early can shift the answer by a minute or more."
+          }
+        },
+        {
+          "id": "ch5_ex8_q13",
+          "number": "13",
+          "category": "Master",
+          "questionText": "A plane flies on a true bearing of $320^\\circ$ for 450 km. It then flies on a true bearing of $350^\\circ$ for 130 km and finally on a true bearing of $050^\\circ$ for 330 km. Calculate how far north of its starting point the plane is. Write your answer in km correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "North component of a leg $= d\\cos(\\text{angle from north})$",
+            "steps": [
+              "Given: 450 km on $320^\\circ$T, 130 km on $350^\\circ$T, 330 km on $050^\\circ$T. Goal: total north distance.",
+              "Leg 1: $320^\\circ$T = N$40^\\circ$W. North $= 450\\cos(40^\\circ) = 450 \\times 0.766044 = 344.720$ km.",
+              "Leg 2: $350^\\circ$T = N$10^\\circ$W. North $= 130\\cos(10^\\circ) = 130 \\times 0.984808 = 128.025$ km.",
+              "Leg 3: $050^\\circ$T = N$50^\\circ$E. North $= 330\\cos(50^\\circ) = 330 \\times 0.642788 = 212.120$ km.",
+              "Total north $= 344.720 + 128.025 + 212.120 = 684.865$ km",
+              "Rounded to 2 decimal places: 684.86 km (unrounded total $684.8649\\ldots$)."
+            ],
+            "finalAnswer": "The plane is 684.86 km north of its starting point.",
+            "solutionFigures": [],
+            "tip": "All three legs have a northerly part, so all three north components add."
+          }
+        },
+        {
+          "id": "ch5_ex8_q14",
+          "number": "14",
+          "category": "Practice",
+          "questionText": "A bushwalker leaves her tent and walks due east for 4.12 km, then walks a further 3.31 km on a bearing of N$20^\\circ$E. If she wishes to return directly to her tent, determine how far she must walk and what bearing she should take. Write your answers in km correct to 2 decimal places and to the nearest degree.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras: $c^2 = a^2 + b^2$; $\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Given: 4.12 km due east, then 3.31 km on N$20^\\circ$E. Goal: distance and true bearing back to the tent.",
+              "Leg 2 east $= 3.31\\sin(20^\\circ) = 3.31 \\times 0.342020 = 1.13209$ km.",
+              "Leg 2 north $= 3.31\\cos(20^\\circ) = 3.31 \\times 0.939693 = 3.11038$ km.",
+              "Total east $= 4.12 + 1.13209 = 5.25209$ km; total north $= 3.11038$ km.",
+              "Distance: $d^2 = 5.25209^2 + 3.11038^2 = 27.5844 + 9.6745 = 37.2589$, so $d = \\sqrt{37.2589} = 6.1040$ km.",
+              "To return she must travel south-west. Angle from south towards west: $\\tan(\\theta) = \\dfrac{5.25209}{3.11038}$.",
+              "$\\theta = \\tan^{-1}(1.68857) = 59.37^\\circ$",
+              "True bearing $= 180^\\circ + 59.37^\\circ = 239.37^\\circ \\approx 239^\\circ$T."
+            ],
+            "finalAnswer": "She must walk 6.10 km on a bearing of $239^\\circ$T (about S$59^\\circ$W).",
+            "solutionFigures": [],
+            "tip": "The return trip points back towards the start, so it is in the opposite quadrant to where she is."
+          }
+        },
+        {
+          "id": "ch5_ex8_q15",
+          "number": "15",
+          "category": "Consolidate",
+          "questionText": "A car travels due south for 3 km and then due east for 8 km. Determine the bearing of the car from its starting point, to the nearest degree. Show full working.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Given: 3 km south, then 8 km east. Goal: true bearing of the car from the start.",
+              "The car is south-east of the start. Let $\\alpha$ be the angle below the east direction.",
+              "$\\tan(\\alpha) = \\dfrac{3}{8} = 0.375$",
+              "$\\alpha = \\tan^{-1}(0.375) = 20.56^\\circ$",
+              "Bearing $= 90^\\circ + 20.56^\\circ = 110.56^\\circ \\approx 111^\\circ$T.",
+              "Check via south: angle from south $= \\tan^{-1}(8/3) = 69.44^\\circ$, bearing $= 180^\\circ - 69.44^\\circ = 110.56^\\circ$ ✓"
+            ],
+            "finalAnswer": "The car is on a bearing of $111^\\circ$T from its starting point.",
+            "solutionFigures": [],
+            "tip": "Decide whether your angle is measured from east or from south before converting to a true bearing."
+          }
+        },
+        {
+          "id": "ch5_ex8_q16a",
+          "number": "16(a)",
+          "category": "Master",
+          "questionText": "If the bearing of A from O is $\\theta^\\circ$T, then (in terms of $\\theta$) determine the bearing of O from A if $0^\\circ < \\theta^\\circ < 180^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Reverse (back) bearing differs from the original by $180^\\circ$, and must lie between $0^\\circ$ and $360^\\circ$.",
+            "steps": [
+              "Given: bearing of A from O is $\\theta^\\circ$T with $0 < \\theta < 180$. Goal: bearing of O from A.",
+              "O is in exactly the opposite direction from A, so the bearing changes by $180^\\circ$.",
+              "Since $\\theta < 180$, adding gives $180 < \\theta + 180 < 360$, which is a valid bearing.",
+              "Bearing of O from A $= (180 + \\theta)^\\circ$T."
+            ],
+            "finalAnswer": "$(180 + \\theta)^\\circ$T",
+            "solutionFigures": [],
+            "tip": "Check with a number: $\\theta = 42^\\circ$ gives $222^\\circ$T."
+          }
+        },
+        {
+          "id": "ch5_ex8_q16b",
+          "number": "16(b)",
+          "category": "Master",
+          "questionText": "If the bearing of A from O is $\\theta^\\circ$T, then (in terms of $\\theta$) determine the bearing of O from A if $180^\\circ < \\theta^\\circ < 360^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Reverse bearing differs by $180^\\circ$ and must lie between $0^\\circ$ and $360^\\circ$.",
+            "steps": [
+              "Given: $180 < \\theta < 360$. Goal: bearing of O from A.",
+              "Adding $180^\\circ$ would give more than $360^\\circ$, so subtract instead.",
+              "$0 < \\theta - 180 < 180$, a valid bearing.",
+              "Bearing of O from A $= (\\theta - 180)^\\circ$T."
+            ],
+            "finalAnswer": "$(\\theta - 180)^\\circ$T",
+            "solutionFigures": [],
+            "tip": "Check: $\\theta = 310^\\circ$ gives $130^\\circ$T, matching Q9(g) in reverse."
+          }
+        },
+        {
+          "id": "ch5_ex8_q17a",
+          "number": "17(a)",
+          "category": "Practice",
+          "questionText": "A boat sails on a compass direction of E$12^\\circ$S for 10 km from A to B, then changes direction to S$27^\\circ$E for another 20 km to C. (Diagram: at A, the 10 km path to B is drawn $12^\\circ$ below east; at B, the 20 km path to C is drawn $27^\\circ$ east of south.) The pilot of the boat then decides to return to the starting point. Determine how far, correct to 2 decimal places, the boat is from its starting point.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Resolve each leg into east and south components, then Pythagoras: $d^2 = E^2 + S^2$.",
+            "steps": [
+              "Given: AB = 10 km at $12^\\circ$ south of east; BC = 20 km at $27^\\circ$ east of south. Goal: distance AC.",
+              "Leg AB: angle $12^\\circ$ is measured from east. East $= 10\\cos(12^\\circ) = 9.78148$ km; south $= 10\\sin(12^\\circ) = 2.07912$ km.",
+              "Leg BC: angle $27^\\circ$ is measured from south. East $= 20\\sin(27^\\circ) = 9.07981$ km; south $= 20\\cos(27^\\circ) = 17.82013$ km.",
+              "Total east $= 9.78148 + 9.07981 = 18.86129$ km",
+              "Total south $= 2.07912 + 17.82013 = 19.89925$ km",
+              "$d^2 = 18.86129^2 + 19.89925^2 = 355.749 + 395.980 = 751.729$",
+              "$d = \\sqrt{751.729} = 27.4177$ km $\\approx 27.42$ km"
+            ],
+            "finalAnswer": "The boat is 27.42 km from its starting point.",
+            "solutionFigures": [],
+            "tip": "E$12^\\circ$S measures $12^\\circ$ from east, so the east part uses cosine here."
+          }
+        },
+        {
+          "id": "ch5_ex8_q17b",
+          "number": "17(b)",
+          "category": "Practice",
+          "questionText": "A boat sails on a compass direction of E$12^\\circ$S for 10 km from A to B, then changes direction to S$27^\\circ$E for another 20 km to C. (Diagram: at A, the 10 km path to B is drawn $12^\\circ$ below east; at B, the 20 km path to C is drawn $27^\\circ$ east of south.) The pilot of the boat then decides to return to the starting point. Determine on what bearing the boat should travel to return to its starting point. Write the angle correct to the nearest degree.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Given: C is 18.86129 km east and 19.89925 km south of A. Goal: bearing of A from C.",
+              "From C, A is to the north and west. Let $\\theta$ be the angle from north towards west.",
+              "$\\tan(\\theta) = \\dfrac{18.86129}{19.89925} = 0.94784$",
+              "$\\theta = \\tan^{-1}(0.94784) = 43.47^\\circ \\approx 43^\\circ$",
+              "Compass bearing N$43^\\circ$W; true bearing $= 360^\\circ - 43^\\circ = 317^\\circ$T."
+            ],
+            "finalAnswer": "The boat should travel on N$43^\\circ$W, i.e. $317^\\circ$T.",
+            "solutionFigures": [],
+            "tip": "The return bearing points back to the start, the opposite way to where the boat is from A."
+          }
+        },
+        {
+          "id": "ch5_ex8_q18a",
+          "number": "18(a)",
+          "category": "Consolidate",
+          "questionText": "Samira and Tim set off early from the car park of a national park to hike for the day. Initially they walk N$60^\\circ$E for 12 km to see a spectacular waterfall. They then change direction and walk in a south-easterly direction for 6 km, then stop for lunch. Make a scale diagram of the hiking path they completed.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "South-east means S$45^\\circ$E ($135^\\circ$T). Choose a scale, e.g. 1 cm = 2 km.",
+            "steps": [
+              "Given: 12 km on N$60^\\circ$E, then 6 km on S$45^\\circ$E. Goal: scale diagram.",
+              "Choose a scale such as 1 cm : 2 km, so the legs are 6 cm and 3 cm.",
+              "At the car park draw a north line; measure $60^\\circ$ towards east; draw 6 cm to the waterfall.",
+              "At the waterfall draw a north–south line; measure $45^\\circ$ from south towards east; draw 3 cm to the lunch stop.",
+              "Label the car park, waterfall, lunch stop, the angles $60^\\circ$ and $45^\\circ$, and the real distances."
+            ],
+            "finalAnswer": "Scale diagram: 12 km (6 cm) at $60^\\circ$ east of north from the car park, then 6 km (3 cm) at $45^\\circ$ east of south to the lunch stop.",
+            "solutionFigures": [],
+            "tip": "State the scale on your diagram."
+          }
+        },
+        {
+          "id": "ch5_ex8_q18b",
+          "number": "18(b)",
+          "category": "Consolidate",
+          "questionText": "Samira and Tim set off early from the car park of a national park to hike for the day. Initially they walk N$60^\\circ$E for 12 km to see a spectacular waterfall. They then change direction and walk in a south-easterly direction for 6 km, then stop for lunch. Determine how far north of the car park they are at the lunch stop, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "North/south component $= d\\cos(\\text{angle from N–S line})$",
+            "steps": [
+              "Given: 12 km on N$60^\\circ$E, 6 km on S$45^\\circ$E. Goal: net north distance.",
+              "Leg 1 north $= 12\\cos(60^\\circ) = 12 \\times 0.5 = 6$ km.",
+              "Leg 2 south $= 6\\cos(45^\\circ) = 6 \\times 0.707107 = 4.24264$ km.",
+              "Net north $= 6 - 4.24264 = 1.75736$ km $\\approx 1.76$ km"
+            ],
+            "finalAnswer": "The lunch stop is 1.76 km north of the car park.",
+            "solutionFigures": [],
+            "tip": "The south-easterly leg takes them back south, so subtract it."
+          }
+        },
+        {
+          "id": "ch5_ex8_q18c",
+          "number": "18(c)",
+          "category": "Consolidate",
+          "questionText": "Samira and Tim set off early from the car park of a national park to hike for the day. Initially they walk N$60^\\circ$E for 12 km to see a spectacular waterfall. They then change direction and walk in a south-easterly direction for 6 km, then stop for lunch. Determine how far east of the car park they are at the lunch stop, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "East component $= d\\sin(\\text{angle from N–S line})$",
+            "steps": [
+              "Leg 1 east $= 12\\sin(60^\\circ) = 12 \\times 0.866025 = 10.39230$ km.",
+              "Leg 2 east $= 6\\sin(45^\\circ) = 6 \\times 0.707107 = 4.24264$ km.",
+              "Total east $= 10.39230 + 4.24264 = 14.63495$ km $\\approx 14.63$ km"
+            ],
+            "finalAnswer": "The lunch stop is 14.63 km east of the car park.",
+            "solutionFigures": [],
+            "tip": "Both legs head east, so add the east components."
+          }
+        },
+        {
+          "id": "ch5_ex8_q18d",
+          "number": "18(d)",
+          "category": "Consolidate",
+          "questionText": "Samira and Tim set off early from the car park of a national park to hike for the day. Initially they walk N$60^\\circ$E for 12 km to see a spectacular waterfall. They then change direction and walk in a south-easterly direction for 6 km, then stop for lunch. Determine the bearing of the lunch stop from the car park, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Given: lunch stop is 14.63495 km east and 1.75736 km north of the car park. Goal: bearing.",
+              "Let $\\theta$ be the angle from north towards east.",
+              "$\\tan(\\theta) = \\dfrac{14.63495}{1.75736} = 8.32780$",
+              "$\\theta = \\tan^{-1}(8.32780) = 83.15^\\circ$"
+            ],
+            "finalAnswer": "The lunch stop is on a bearing of N$83.15^\\circ$E ($083.15^\\circ$T) from the car park.",
+            "solutionFigures": [],
+            "tip": "Put the east distance over the north distance when the angle is measured from north."
+          }
+        },
+        {
+          "id": "ch5_ex8_q18e",
+          "number": "18(e)",
+          "category": "Consolidate",
+          "questionText": "Samira and Tim set off early from the car park of a national park to hike for the day. Initially they walk N$60^\\circ$E for 12 km to see a spectacular waterfall. They then change direction and walk in a south-easterly direction for 6 km, then stop for lunch. If Samira and Tim then walk directly back to the car park, calculate the distance they have covered after lunch, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras: $D^2 = E^2 + N^2$",
+            "steps": [
+              "Given: east 14.63495 km, north 1.75736 km. Goal: direct distance D.",
+              "$D^2 = 14.63495^2 + 1.75736^2 = 214.1817 + 3.0883 = 217.2700$",
+              "$D = \\sqrt{217.2700} = 14.7401$ km $\\approx 14.74$ km"
+            ],
+            "finalAnswer": "After lunch they walk 14.74 km back to the car park.",
+            "solutionFigures": [],
+            "tip": "The answer must be longer than both components but shorter than their sum."
+          }
+        },
+        {
+          "id": "ch5_ex8_q19",
+          "number": "19",
+          "category": "Master",
+          "questionText": "Starting from their base in the national park, a group of bushwalkers travel 1.5 km at a true bearing of $030^\\circ$, then 3.5 km at a true bearing of $160^\\circ$, and then 6.25 km at a true bearing of $300^\\circ$. Evaluate how far, and at what true bearing, the group should walk to return to their base. Write your answers in km correct to 2 decimal places and to the nearest degree.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Resolve each leg: east $= d\\sin(\\text{bearing})$, north $= d\\cos(\\text{bearing})$; then Pythagoras and $\\tan$.",
+            "steps": [
+              "Given: 1.5 km on $030^\\circ$T, 3.5 km on $160^\\circ$T (S$20^\\circ$E), 6.25 km on $300^\\circ$T (N$60^\\circ$W). Goal: distance and bearing back to base.",
+              "Leg 1: east $= 1.5\\sin(30^\\circ) = 0.75$; north $= 1.5\\cos(30^\\circ) = 1.29904$.",
+              "Leg 2: east $= 3.5\\sin(20^\\circ) = 1.19707$; south $= 3.5\\cos(20^\\circ) = 3.28892$.",
+              "Leg 3: west $= 6.25\\sin(60^\\circ) = 5.41266$; north $= 6.25\\cos(60^\\circ) = 3.125$.",
+              "Net east $= 0.75 + 1.19707 - 5.41266 = -3.46559$, i.e. 3.46559 km west.",
+              "Net north $= 1.29904 - 3.28892 + 3.125 = 1.13511$ km north.",
+              "Distance: $d^2 = 3.46559^2 + 1.13511^2 = 12.0103 + 1.2885 = 13.2988$, $d = 3.6468 \\approx 3.65$ km.",
+              "To return they head east and south. Angle below east: $\\tan(\\alpha) = \\dfrac{1.13511}{3.46559} = 0.32754$, $\\alpha = 18.14^\\circ$.",
+              "Bearing $= 90^\\circ + 18.14^\\circ = 108.14^\\circ \\approx 108^\\circ$T."
+            ],
+            "finalAnswer": "They should walk 3.65 km on a true bearing of $108^\\circ$T.",
+            "solutionFigures": [],
+            "tip": "Use signs (east +, west −; north +, south −) to keep track of directions."
+          }
+        }
+      ]
+    }
+  ]
+}

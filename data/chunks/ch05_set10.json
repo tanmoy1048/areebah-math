@@ -1,0 +1,616 @@
+{
+  "chapterId": "ch05",
+  "chapterTitle": "Trigonometry I",
+  "topics": [
+    {
+      "topicId": "5.10",
+      "topicTitle": "Review",
+      "exercises": [
+        {
+          "id": "ch5_ex10_q1",
+          "number": "1",
+          "category": null,
+          "questionText": "MC The most accurate measurement for the length of the third side in the triangle is: A. 483 m  B. 23.3 cm  C. 3.94 m  D. 4826 mm. (Diagram: a right-angled triangle in which the hypotenuse is 5.6 m and one shorter side is 2840 mm; the third side is the other shorter side.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras: $a^2 = c^2 - b^2$ (all lengths in the same unit)",
+            "steps": [
+              "Given: hypotenuse $c = 5.6$ m, one side $b = 2840$ mm $= 2.84$ m. Goal: the third side $a$.",
+              "Convert to the same unit: 2840 mm $= 2.84$ m.",
+              "$a^2 = 5.6^2 - 2.84^2 = 31.36 - 8.0656 = 23.2944$",
+              "$a = \\sqrt{23.2944} = 4.8264$ m",
+              "$4.8264$ m $= 4826$ mm, which matches option D."
+            ],
+            "finalAnswer": "D. 4826 mm",
+            "solutionFigures": [],
+            "tip": "Convert all sides to the same unit before using Pythagoras."
+          }
+        },
+        {
+          "id": "ch5_ex10_q2",
+          "number": "2",
+          "category": null,
+          "questionText": "MC The value of $x$ in this figure is: A. 5.4  B. 7.5  C. 10.1  D. 10.3. (Diagram: a right-angled triangle with a vertical side of 5 and a horizontal base made of two parts, 2 and 7, so the base is 9 in total; a line from the top vertex goes to the point 2 along the base, and $x$ is the hypotenuse from the top vertex to the far end of the base.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: vertical side 5, total base $2 + 7 = 9$. Goal: hypotenuse $x$ of the large triangle.",
+              "$x^2 = 5^2 + 9^2 = 25 + 81 = 106$",
+              "$x = \\sqrt{106} = 10.296 \\approx 10.3$"
+            ],
+            "finalAnswer": "D. 10.3",
+            "solutionFigures": [],
+            "tip": "Use the whole base (2 + 7), not just the 7 part."
+          }
+        },
+        {
+          "id": "ch5_ex10_q3",
+          "number": "3",
+          "category": null,
+          "questionText": "MC Select the closest length of AG of the cube. A. 10  B. 30  C. 20  D. 17. (Diagram: a cube ABCD-EFGH with edges of 10 units; A is a top back vertex and G is the bottom front vertex diagonally opposite, so AG is a space diagonal.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Space diagonal of a cube: $d^2 = s^2 + s^2 + s^2$, so $d = s\\sqrt{3}$",
+            "steps": [
+              "Given: edge 10. Goal: space diagonal AG.",
+              "Face diagonal: $\\sqrt{10^2 + 10^2} = \\sqrt{200}$.",
+              "$AG^2 = 200 + 10^2 = 300$",
+              "$AG = \\sqrt{300} = 17.32 \\approx 17$"
+            ],
+            "finalAnswer": "D. 17",
+            "solutionFigures": [],
+            "tip": "Apply Pythagoras twice: first a face diagonal, then the space diagonal."
+          }
+        },
+        {
+          "id": "ch5_ex10_q4",
+          "number": "4",
+          "category": null,
+          "questionText": "MC If $\\sin(38^\\circ) = 0.6157$, identify which of the following will also give this result. A. $\\sin(218^\\circ)$  B. $\\sin(322^\\circ)$  C. $\\sin(578^\\circ)$  D. $\\sin(142^\\circ)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(180^\\circ - \\theta) = \\sin(\\theta)$",
+            "steps": [
+              "Given: $\\sin(38^\\circ) = 0.6157$. Goal: the option with the same value.",
+              "$\\sin(180^\\circ - 38^\\circ) = \\sin(142^\\circ) = 0.6157$.",
+              "Check the others: $\\sin(218^\\circ) = -0.6157$, $\\sin(322^\\circ) = -0.6157$, $\\sin(578^\\circ) = \\sin(218^\\circ) = -0.6157$."
+            ],
+            "finalAnswer": "D. $\\sin(142^\\circ)$",
+            "solutionFigures": [],
+            "tip": "Sine is positive in the first and second quadrants only ($0^\\circ$ to $180^\\circ$)."
+          }
+        },
+        {
+          "id": "ch5_ex10_q5",
+          "number": "5",
+          "category": null,
+          "questionText": "MC The angle $118^\\circ 52' 34''$ is also equal to: A. $118.5234^\\circ$  B. $118\\frac{52}{34}^\\circ$  C. $118.861^\\circ$  D. $118.876^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$1^\\circ = 60'$ and $1' = 60''$, so degrees $= D + \\dfrac{M}{60} + \\dfrac{S}{3600}$",
+            "steps": [
+              "Given: $118^\\circ 52' 34''$. Goal: decimal degrees.",
+              "$\\dfrac{52}{60} = 0.86667$",
+              "$\\dfrac{34}{3600} = 0.00944$",
+              "$118 + 0.86667 + 0.00944 = 118.8761^\\circ \\approx 118.876^\\circ$"
+            ],
+            "finalAnswer": "D. $118.876^\\circ$",
+            "solutionFigures": [],
+            "tip": "Minutes and seconds are not decimals: divide minutes by 60 and seconds by 3600."
+          }
+        },
+        {
+          "id": "ch5_ex10_q6",
+          "number": "6",
+          "category": null,
+          "questionText": "MC Identify which trigonometric ratio for the triangle shown below is incorrect. A. $\\sin(\\alpha) = \\dfrac{b}{c}$  B. $\\sin(\\alpha) = \\dfrac{a}{c}$  C. $\\cos(\\alpha) = \\dfrac{a}{c}$  D. $\\tan(\\alpha) = \\dfrac{b}{a}$. (Diagram: a right-angled triangle with the right angle between sides $a$ and $b$; $c$ is the hypotenuse; angle $\\alpha$ is between sides $a$ and $c$, and angle $\\theta$ is between sides $b$ and $c$.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "SOH-CAH-TOA: $\\sin = \\dfrac{O}{H}$, $\\cos = \\dfrac{A}{H}$, $\\tan = \\dfrac{O}{A}$",
+            "steps": [
+              "Given: for $\\alpha$, opposite $= b$, adjacent $= a$, hypotenuse $= c$. Goal: the incorrect ratio.",
+              "$\\sin(\\alpha) = \\dfrac{b}{c}$ (A correct).",
+              "$\\cos(\\alpha) = \\dfrac{a}{c}$ (C correct).",
+              "$\\tan(\\alpha) = \\dfrac{b}{a}$ (D correct).",
+              "$\\sin(\\alpha) = \\dfrac{a}{c}$ is actually $\\cos(\\alpha)$, so B is incorrect."
+            ],
+            "finalAnswer": "B. $\\sin(\\alpha) = \\dfrac{a}{c}$ is incorrect.",
+            "solutionFigures": [],
+            "tip": "Label O, A and H relative to the angle you are using before writing any ratio."
+          }
+        },
+        {
+          "id": "ch5_ex10_q7",
+          "number": "7",
+          "category": null,
+          "questionText": "MC Identify which of the following statements is correct. A. $\\sin(55^\\circ) = \\cos(55^\\circ)$  B. $\\sin(45^\\circ) = \\cos(35^\\circ)$  C. $\\cos(15^\\circ) = \\sin(85^\\circ)$  D. $\\sin(42^\\circ) = \\cos(48^\\circ)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complementary angles: $\\sin(\\theta) = \\cos(90^\\circ - \\theta)$",
+            "steps": [
+              "Goal: the pair of angles that add to $90^\\circ$.",
+              "A: $55 + 55 = 110$ ✗; B: $45 + 35 = 80$ ✗; C: $15 + 85 = 100$ ✗; D: $42 + 48 = 90$ ✓.",
+              "So $\\sin(42^\\circ) = \\cos(90^\\circ - 42^\\circ) = \\cos(48^\\circ)$."
+            ],
+            "finalAnswer": "D. $\\sin(42^\\circ) = \\cos(48^\\circ)$",
+            "solutionFigures": [],
+            "tip": "Sine of an angle equals cosine of its complement because they are the two acute angles of the same right triangle."
+          }
+        },
+        {
+          "id": "ch5_ex10_q8",
+          "number": "8",
+          "category": null,
+          "questionText": "MC Identify which of the following can be used to determine the value of $x$ in the diagram. A. $28.7\\sin(35^\\circ)$  B. $28.7\\cos(35^\\circ)$  C. $28.7\\tan(35^\\circ)$  D. $\\dfrac{28.7}{\\sin(35^\\circ)}$. (Diagram: a right-angled triangle with hypotenuse 28.7, an angle of $35^\\circ$ at the left base vertex, and $x$ the horizontal base adjacent to the $35^\\circ$ angle.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(\\theta) = \\dfrac{A}{H}$",
+            "steps": [
+              "Given: hypotenuse 28.7, angle $35^\\circ$, $x$ adjacent. Goal: an expression for $x$.",
+              "$\\cos(35^\\circ) = \\dfrac{x}{28.7}$",
+              "$x = 28.7\\cos(35^\\circ)$"
+            ],
+            "finalAnswer": "B. $28.7\\cos(35^\\circ)$",
+            "solutionFigures": [],
+            "tip": "Adjacent and hypotenuse means CAH: cosine."
+          }
+        },
+        {
+          "id": "ch5_ex10_q9",
+          "number": "9",
+          "category": null,
+          "questionText": "MC Identify which of the following expressions can be used to determine the value of $a$ in the triangle shown. A. $35\\sin(75^\\circ)$  B. $\\sin^{-1}\\left(\\dfrac{35}{75}\\right)$  C. $\\sin^{-1}\\left(\\dfrac{75}{35}\\right)$  D. $\\cos^{-1}\\left(\\dfrac{35}{75}\\right)$. (Diagram: a right-angled triangle with hypotenuse 75, vertical side 35 opposite the angle $a$ at the left base vertex, right angle at the bottom right.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = \\dfrac{O}{H} \\Rightarrow \\theta = \\sin^{-1}\\left(\\dfrac{O}{H}\\right)$",
+            "steps": [
+              "Given: opposite $= 35$, hypotenuse $= 75$. Goal: expression for angle $a$.",
+              "$\\sin(a) = \\dfrac{35}{75}$",
+              "$a = \\sin^{-1}\\left(\\dfrac{35}{75}\\right)$ (about $27.8^\\circ$)."
+            ],
+            "finalAnswer": "B. $\\sin^{-1}\\left(\\dfrac{35}{75}\\right)$",
+            "solutionFigures": [],
+            "tip": "$\\sin^{-1}$ of a number larger than 1 (option C) is impossible."
+          }
+        },
+        {
+          "id": "ch5_ex10_q10",
+          "number": "10",
+          "category": null,
+          "questionText": "MC If a school is 320 m S$42^\\circ$W from the police station, calculate the true bearing of the police station from the school. A. $042^\\circ$T  B. $048^\\circ$T  C. $222^\\circ$T  D. $228^\\circ$T",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Back bearing: reverse the direction (add or subtract $180^\\circ$).",
+            "steps": [
+              "Given: school is S$42^\\circ$W ($222^\\circ$T) from the police station. Goal: bearing of the police station from the school.",
+              "Reverse: $222^\\circ - 180^\\circ = 042^\\circ$T, i.e. N$42^\\circ$E."
+            ],
+            "finalAnswer": "A. $042^\\circ$T",
+            "solutionFigures": [],
+            "tip": "Reversing a compass bearing swaps N↔S and E↔W but keeps the angle."
+          }
+        },
+        {
+          "id": "ch5_ex10_q11a",
+          "number": "11(a)",
+          "category": null,
+          "questionText": "Calculate $x$, correct to 2 decimal places. (Diagram: a right-angled triangle with hypotenuse 123.1 cm; the two shorter sides are 48.7 cm and $x$, meeting at the right angle.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras: $a^2 = c^2 - b^2$",
+            "steps": [
+              "Given: hypotenuse 123.1 cm, one side 48.7 cm. Goal: $x$.",
+              "$x^2 = 123.1^2 - 48.7^2 = 15153.61 - 2371.69 = 12781.92$",
+              "$x = \\sqrt{12781.92} = 113.057$ cm $\\approx 113.06$ cm"
+            ],
+            "finalAnswer": "$x = 113.06$ cm",
+            "solutionFigures": [],
+            "tip": "When finding a shorter side, subtract the squares."
+          }
+        },
+        {
+          "id": "ch5_ex10_q11b",
+          "number": "11(b)",
+          "category": null,
+          "questionText": "Calculate $x$, correct to 2 decimal places. (Diagram: a right-angled triangle with hypotenuse 117 mm; the two shorter sides are 82 mm and $x$, meeting at the right angle.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras: $a^2 = c^2 - b^2$",
+            "steps": [
+              "Given: hypotenuse 117 mm, one side 82 mm. Goal: $x$.",
+              "$x^2 = 117^2 - 82^2 = 13689 - 6724 = 6965$",
+              "$x = \\sqrt{6965} = 83.457$ mm $\\approx 83.46$ mm"
+            ],
+            "finalAnswer": "$x = 83.46$ mm",
+            "solutionFigures": [],
+            "tip": "The hypotenuse is always opposite the right angle; identify it first."
+          }
+        },
+        {
+          "id": "ch5_ex10_q12",
+          "number": "12",
+          "category": null,
+          "questionText": "Calculate the value of the pronumeral, correct to 2 decimal places. (Diagram: an isosceles right-angled triangle with hypotenuse 13.4 cm and both shorter sides equal to $x$.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras: $x^2 + x^2 = c^2$",
+            "steps": [
+              "Given: hypotenuse 13.4 cm, equal sides $x$. Goal: $x$.",
+              "$x^2 + x^2 = 13.4^2$",
+              "$2x^2 = 179.56$",
+              "$x^2 = 89.78$",
+              "$x = \\sqrt{89.78} = 9.4752$ cm $\\approx 9.48$ cm"
+            ],
+            "finalAnswer": "$x = 9.48$ cm",
+            "solutionFigures": [],
+            "tip": "Combine the like terms $x^2 + x^2 = 2x^2$ before dividing."
+          }
+        },
+        {
+          "id": "ch5_ex10_q13",
+          "number": "13",
+          "category": null,
+          "questionText": "Calculate the height of this pyramid, in mm correct to 2 decimal places. (Diagram: a right square-based pyramid with base 8 mm by 8 mm and sloping edges of 10 mm.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras in 3D: half-diagonal of the base, then $h^2 = e^2 - (\\text{half-diagonal})^2$",
+            "steps": [
+              "Given: base 8 mm by 8 mm, sloping edge 10 mm. Goal: height $h$.",
+              "Diagonal of base: $d^2 = 8^2 + 8^2 = 128$, $d = \\sqrt{128} = 11.3137$ mm.",
+              "Half-diagonal $= 5.6569$ mm, so (half-diagonal)$^2 = 32$.",
+              "The height, half-diagonal and sloping edge form a right triangle with the edge as hypotenuse.",
+              "$h^2 = 10^2 - 32 = 68$",
+              "$h = \\sqrt{68} = 8.2462$ mm $\\approx 8.25$ mm"
+            ],
+            "finalAnswer": "The height of the pyramid is 8.25 mm.",
+            "solutionFigures": [],
+            "tip": "The height meets the base at its centre, which is half a diagonal from each corner."
+          }
+        },
+        {
+          "id": "ch5_ex10_q14",
+          "number": "14",
+          "category": null,
+          "questionText": "A person standing 23 m away from a tree observes the top of the tree at an angle of elevation of $35^\\circ$. If the person's eye level is 1.5 m from the ground, calculate the height of the tree, in metres correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Given: horizontal distance 23 m (adjacent), elevation $35^\\circ$, eye level 1.5 m. Goal: tree height.",
+              "Height above eye level: $\\tan(35^\\circ) = \\dfrac{h}{23}$, so $h = 23\\tan(35^\\circ) = 23 \\times 0.700208 = 16.1048$ m.",
+              "Tree height $= 16.1048 + 1.5 = 17.6048$ m $\\approx 17.6$ m"
+            ],
+            "finalAnswer": "The tree is about 17.6 m tall.",
+            "solutionFigures": [],
+            "tip": "Remember to add the eye height; the angle is measured from eye level, not the ground."
+          }
+        },
+        {
+          "id": "ch5_ex10_q15",
+          "number": "15",
+          "category": null,
+          "questionText": "A man with an eye level height of 1.8 m stands at the window of a tall building. He observes his young daughter in the playground below. If the angle of depression from the man to the girl is $47^\\circ$ and the floor on which the man stands is 27 m above the ground, determine how far from the bottom of the building the child is, in metres correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$; angle of depression = angle of elevation (alternate angles).",
+            "steps": [
+              "Given: eye height above ground $= 27 + 1.8 = 28.8$ m; angle of depression $47^\\circ$. Goal: horizontal distance $x$.",
+              "The angle of elevation from the girl to the man is also $47^\\circ$ (alternate angles).",
+              "$\\tan(47^\\circ) = \\dfrac{28.8}{x}$",
+              "$x = \\dfrac{28.8}{\\tan(47^\\circ)} = \\dfrac{28.8}{1.072369} = 26.856$ m $\\approx 26.86$ m"
+            ],
+            "finalAnswer": "The child is 26.86 m from the bottom of the building.",
+            "solutionFigures": [],
+            "tip": "Include the man's eye height on top of the floor height."
+          }
+        },
+        {
+          "id": "ch5_ex10_q16",
+          "number": "16",
+          "category": null,
+          "questionText": "A plane flies 780 km in a direction of $185^\\circ$T. Evaluate how far west it has travelled from the starting point, in km correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = \\dfrac{O}{H}$",
+            "steps": [
+              "Given: 780 km on $185^\\circ$T. Goal: distance west.",
+              "$185^\\circ$T $=$ S$5^\\circ$W (since $185^\\circ - 180^\\circ = 5^\\circ$).",
+              "The west component is opposite the $5^\\circ$ angle: $w = 780\\sin(5^\\circ)$",
+              "$w = 780 \\times 0.0871557 = 67.981$ km $\\approx 67.98$ km"
+            ],
+            "finalAnswer": "The plane has travelled 67.98 km west.",
+            "solutionFigures": [],
+            "tip": "Convert to a compass bearing to find the small acute angle from south."
+          }
+        },
+        {
+          "id": "ch5_ex10_q17",
+          "number": "17",
+          "category": null,
+          "questionText": "A hiker travels 3.2 km on a bearing of $250^\\circ$T and then 1.8 km on a bearing of $320^\\circ$T. Calculate how far west she has travelled from the starting point, in km correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "West component $= d\\sin(\\text{angle from the N–S line})$",
+            "steps": [
+              "Given: 3.2 km on $250^\\circ$T, 1.8 km on $320^\\circ$T. Goal: total distance west.",
+              "Leg 1: $250^\\circ$T $=$ S$70^\\circ$W. West $= 3.2\\sin(70^\\circ) = 3.2 \\times 0.939693 = 3.00702$ km.",
+              "Leg 2: $320^\\circ$T $=$ N$40^\\circ$W. West $= 1.8\\sin(40^\\circ) = 1.8 \\times 0.642788 = 1.15702$ km.",
+              "Total west $= 3.00702 + 1.15702 = 4.16403$ km $\\approx 4.16$ km"
+            ],
+            "finalAnswer": "She has travelled 4.16 km west.",
+            "solutionFigures": [],
+            "tip": "Both bearings lie between $180^\\circ$ and $360^\\circ$, so both legs head west and add."
+          }
+        },
+        {
+          "id": "ch5_ex10_q18",
+          "number": "18",
+          "category": null,
+          "questionText": "If a 4 m ladder is placed against a wall and the foot of the ladder is 2.6 m from the wall, determine the angle (in degrees and minutes, correct to the nearest minute) the ladder makes with the wall.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = \\dfrac{O}{H}$",
+            "steps": [
+              "Given: ladder 4 m (hypotenuse), foot 2.6 m from the wall. Goal: angle $\\theta$ between ladder and wall.",
+              "At the top of the ladder, the 2.6 m ground distance is opposite $\\theta$.",
+              "$\\sin(\\theta) = \\dfrac{2.6}{4} = 0.65$",
+              "$\\theta = \\sin^{-1}(0.65) = 40.5416^\\circ$",
+              "$0.5416 \\times 60 = 32.5' \\approx 32'$, so $\\theta = 40^\\circ 32'$"
+            ],
+            "finalAnswer": "The ladder makes an angle of $40^\\circ 32'$ with the wall.",
+            "solutionFigures": [],
+            "tip": "The angle with the wall is at the top of the ladder; the angle with the ground would use cosine here."
+          }
+        },
+        {
+          "id": "ch5_ex10_q19a",
+          "number": "19(a)",
+          "category": null,
+          "questionText": "The height of a right square-based pyramid is 13 cm. If the angle the face makes with the base is $67^\\circ$, determine the length of the edge of the square base, in cm correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A} \\Rightarrow A = \\dfrac{O}{\\tan(\\theta)}$",
+            "steps": [
+              "Given: height 13 cm, face angle $67^\\circ$. Goal: base edge $s$.",
+              "Distance from the centre of the base to the midpoint of an edge, $m = \\dfrac{s}{2}$, is adjacent to $67^\\circ$.",
+              "$\\tan(67^\\circ) = \\dfrac{13}{m}$, so $m = \\dfrac{13}{2.355852} = 5.51817$ cm.",
+              "$s = 2m = 11.0363$ cm $\\approx 11.04$ cm"
+            ],
+            "finalAnswer": "The base edge is 11.04 cm.",
+            "solutionFigures": [],
+            "tip": "Double the half-width at the end."
+          }
+        },
+        {
+          "id": "ch5_ex10_q19b",
+          "number": "19(b)",
+          "category": null,
+          "questionText": "The height of a right square-based pyramid is 13 cm. If the angle the face makes with the base is $67^\\circ$, determine the length of the diagonal of the base, in cm correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras: diagonal $= \\sqrt{s^2 + s^2}$",
+            "steps": [
+              "Given: $s = 11.0363$ cm. Goal: diagonal.",
+              "$d^2 = 11.0363^2 + 11.0363^2 = 2 \\times 121.800 = 243.601$",
+              "$d = \\sqrt{243.601} = 15.6077$ cm $\\approx 15.61$ cm"
+            ],
+            "finalAnswer": "The diagonal of the base is 15.61 cm.",
+            "solutionFigures": [],
+            "tip": "Use the unrounded edge length."
+          }
+        },
+        {
+          "id": "ch5_ex10_q19c",
+          "number": "19(c)",
+          "category": null,
+          "questionText": "The height of a right square-based pyramid is 13 cm. If the angle the face makes with the base is $67^\\circ$, determine the angle the slanted edge makes with the base in degrees and minutes, correct to the nearest minute.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Given: height 13 cm, half-diagonal $= \\dfrac{15.6077}{2} = 7.80387$ cm. Goal: edge angle.",
+              "$\\tan(\\theta) = \\dfrac{13}{7.80387} = 1.66584$",
+              "$\\theta = \\tan^{-1}(1.66584) = 59.0237^\\circ$",
+              "$0.0237 \\times 60 = 1.4' \\approx 1'$, so $\\theta = 59^\\circ 1'$"
+            ],
+            "finalAnswer": "The slanted edge makes an angle of $59^\\circ 1'$ with the base.",
+            "solutionFigures": [],
+            "tip": "The edge angle uses the half-diagonal, so it is smaller than the $67^\\circ$ face angle."
+          }
+        },
+        {
+          "id": "ch5_ex10_q20a",
+          "number": "20(a)",
+          "category": null,
+          "questionText": "A car is travelling northwards on an elevated expressway 6 m above ground at a speed of 72 km/h. At noon another car passes under the expressway, at ground level, travelling west, at a speed of 90 km/h. Determine how far apart, in metres, the two cars are 40 seconds after noon, in metres correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Distance $=$ speed $\\times$ time; 3D Pythagoras $D^2 = x^2 + y^2 + z^2$",
+            "steps": [
+              "Given: car 1 north at 72 km/h, 6 m up; car 2 west at 90 km/h on the ground; both at the crossing point at noon. Goal: separation after 40 s.",
+              "Convert speeds: $72$ km/h $= \\dfrac{72000}{3600} = 20$ m/s; $90$ km/h $= \\dfrac{90000}{3600} = 25$ m/s.",
+              "After 40 s: car 1 is $20 \\times 40 = 800$ m north; car 2 is $25 \\times 40 = 1000$ m west.",
+              "North, west and vertical are mutually perpendicular: $D^2 = 800^2 + 1000^2 + 6^2 = 640000 + 1000000 + 36 = 1640036$",
+              "$D = \\sqrt{1640036} = 1280.64$ m"
+            ],
+            "finalAnswer": "The cars are 1280.64 m apart.",
+            "solutionFigures": [],
+            "tip": "Convert km/h to m/s by dividing by 3.6 before multiplying by seconds."
+          }
+        },
+        {
+          "id": "ch5_ex10_q20b",
+          "number": "20(b)",
+          "category": null,
+          "questionText": "A car is travelling northwards on an elevated expressway 6 m above ground at a speed of 72 km/h. At noon another car passes under the expressway, at ground level, travelling west, at a speed of 90 km/h. 40 seconds after noon the first car stops, while the second car keeps going. Determine the time when they will be 3.5 km apart. Write your answer correct to the nearest tenth of a second.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "3D Pythagoras $D^2 = x^2 + y^2 + z^2$; time $=\\dfrac{\\text{distance}}{\\text{speed}}$",
+            "steps": [
+              "Given: car 1 stays 800 m north and 6 m up; car 2 is $25t$ m west at $t$ seconds after noon; $D = 3500$ m. Goal: $t$.",
+              "$3500^2 = 800^2 + 6^2 + w^2$",
+              "$w^2 = 12250000 - 640000 - 36 = 11609964$",
+              "$w = \\sqrt{11609964} = 3407.34$ m",
+              "$t = \\dfrac{3407.34}{25} = 136.29$ s $\\approx 136.3$ s",
+              "$136.3$ s $= 2$ min $16.3$ s"
+            ],
+            "finalAnswer": "They are 3.5 km apart at 2 minutes 16.3 seconds past 12 noon.",
+            "solutionFigures": [],
+            "tip": "Measure time from noon, because car 2's distance $25t$ is counted from the crossing point at noon."
+          }
+        },
+        {
+          "id": "ch5_ex10_q21",
+          "number": "21",
+          "category": null,
+          "questionText": "Two towers face each other separated by a distance, $d$, of 20 metres. As seen from the top of the first tower, the angle of depression of the second tower's base is $59^\\circ$ and that of the top is $31^\\circ$. Calculate the height, in metres correct to 2 decimal places, of each of the towers.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$; angle of depression equals the corresponding angle of elevation.",
+            "steps": [
+              "Given: horizontal distance 20 m; depression to base $59^\\circ$, to top $31^\\circ$. Goal: heights $H_1$ and $H_2$.",
+              "First tower: the drop from its top to the base of tower 2 is $H_1$. $\\tan(59^\\circ) = \\dfrac{H_1}{20}$, so $H_1 = 20 \\times 1.664279 = 33.2856$ m.",
+              "Drop from the top of tower 1 to the top of tower 2: $\\tan(31^\\circ) = \\dfrac{k}{20}$, so $k = 20 \\times 0.600861 = 12.0172$ m.",
+              "Second tower: $H_2 = H_1 - k = 33.2856 - 12.0172 = 21.2684$ m.",
+              "Rounded: $H_1 \\approx 33.29$ m, $H_2 \\approx 21.27$ m."
+            ],
+            "finalAnswer": "The first tower is 33.29 m tall and the second tower is 21.27 m tall.",
+            "solutionFigures": [],
+            "tip": "The second tower is shorter: subtract the drop to its top from the first tower's height."
+          }
+        },
+        {
+          "id": "ch5_ex10_q22a",
+          "number": "22(a)",
+          "category": null,
+          "questionText": "A piece of flat pastry is cut in the shape of a right-angled triangle. The longest side is $6b$ cm and the shortest is $2b$ cm. Determine the length of the third side. Give your answer in exact form.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras: $a^2 = c^2 - b^2$; simplify surds: $\\sqrt{32} = 4\\sqrt{2}$",
+            "steps": [
+              "Given: hypotenuse $6b$, shortest side $2b$. Goal: third side $x$ in exact form.",
+              "$x^2 = (6b)^2 - (2b)^2 = 36b^2 - 4b^2 = 32b^2$",
+              "$x = \\sqrt{32b^2} = \\sqrt{16 \\times 2}\\, b = 4\\sqrt{2}\\, b$"
+            ],
+            "finalAnswer": "The third side is $4\\sqrt{2}\\,b$ cm.",
+            "solutionFigures": [],
+            "tip": "Square the whole term: $(6b)^2 = 36b^2$, not $6b^2$."
+          }
+        },
+        {
+          "id": "ch5_ex10_q22b",
+          "number": "22(b)",
+          "category": null,
+          "questionText": "A piece of flat pastry is cut in the shape of a right-angled triangle. The longest side is $6b$ cm and the shortest is $2b$ cm. Determine the sizes of the angles in the triangle.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = \\dfrac{O}{H}$; angle sum of a triangle is $180^\\circ$.",
+            "steps": [
+              "Given: hypotenuse $6b$, shortest side $2b$. Goal: all three angles.",
+              "The smallest angle $\\alpha$ is opposite the shortest side: $\\sin(\\alpha) = \\dfrac{2b}{6b} = \\dfrac{1}{3}$",
+              "$\\alpha = \\sin^{-1}\\left(\\dfrac{1}{3}\\right) = 19.47^\\circ \\approx 19.5^\\circ$",
+              "Third angle: $180^\\circ - 90^\\circ - 19.47^\\circ = 70.53^\\circ \\approx 70.5^\\circ$"
+            ],
+            "finalAnswer": "The angles are approximately $19.5^\\circ$, $70.5^\\circ$ and $90^\\circ$.",
+            "solutionFigures": [],
+            "tip": "The $b$ cancels, so the angles do not depend on the size of the triangle."
+          }
+        },
+        {
+          "id": "ch5_ex10_q22c",
+          "number": "22(c)",
+          "category": null,
+          "questionText": "A piece of flat pastry is cut in the shape of a right-angled triangle. The longest side is $6b$ cm and the shortest is $2b$ cm. Show that the area of the triangle is equal to $4\\sqrt{2}b^2$ cm$^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a triangle $= \\dfrac{1}{2} \\times \\text{base} \\times \\text{height}$",
+            "steps": [
+              "Given: the two shorter sides (which meet at the right angle) are $2b$ and $4\\sqrt{2}\\,b$ (from part a). Goal: show area $= 4\\sqrt{2}b^2$.",
+              "The perpendicular sides act as base and height.",
+              "Area $= \\dfrac{1}{2} \\times 2b \\times 4\\sqrt{2}\\,b$",
+              "$= \\dfrac{1}{2} \\times 8\\sqrt{2}\\,b^2$",
+              "$= 4\\sqrt{2}\\,b^2$ cm$^2$, as required."
+            ],
+            "finalAnswer": "Area $= \\dfrac{1}{2} \\times 2b \\times 4\\sqrt{2}b = 4\\sqrt{2}b^2$ cm$^2$ (shown).",
+            "solutionFigures": [],
+            "tip": "Use the two sides that meet at the right angle, never the hypotenuse, as base and height."
+          }
+        },
+        {
+          "id": "ch5_ex10_q23a",
+          "number": "23(a)",
+          "category": null,
+          "questionText": "A yacht is anchored off an island. It is 2.3 km from the yacht club and 4.6 km from a weather station. The three points form a right-angled triangle at the yacht club. (Diagram: the yacht club is directly above (north of) the yacht, 2.3 km away; the weather station is to the right of the yacht club, with the right angle at the yacht club; the yacht–weather station distance is 4.6 km.) Calculate the angle at the yacht between the yacht club and the weather station.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(\\theta) = \\dfrac{A}{H}$",
+            "steps": [
+              "Given: yacht–club = 2.3 km (adjacent to the angle at the yacht), yacht–station = 4.6 km (hypotenuse). Goal: angle $\\theta$ at the yacht.",
+              "$\\cos(\\theta) = \\dfrac{2.3}{4.6} = 0.5$",
+              "$\\theta = \\cos^{-1}(0.5) = 60^\\circ$"
+            ],
+            "finalAnswer": "The angle at the yacht is $60^\\circ$.",
+            "solutionFigures": [],
+            "tip": "The side opposite the right angle (yacht to weather station) is the hypotenuse."
+          }
+        },
+        {
+          "id": "ch5_ex10_q23b",
+          "number": "23(b)",
+          "category": null,
+          "questionText": "A yacht is anchored off an island. It is 2.3 km from the yacht club and 4.6 km from a weather station. The three points form a right-angled triangle at the yacht club. Evaluate the distance between the yacht club and the weather station, in km correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras: $a^2 = c^2 - b^2$",
+            "steps": [
+              "Given: hypotenuse 4.6 km, side 2.3 km. Goal: club–station distance $s$.",
+              "$s^2 = 4.6^2 - 2.3^2 = 21.16 - 5.29 = 15.87$",
+              "$s = \\sqrt{15.87} = 3.98372$ km $\\approx 3.98$ km",
+              "Check: $4.6\\sin(60^\\circ) = 3.98372$ ✓"
+            ],
+            "finalAnswer": "The yacht club is 3.98 km from the weather station.",
+            "solutionFigures": [],
+            "tip": "Keep $s^2 = 15.87$ exactly for the later parts."
+          }
+        },
+        {
+          "id": "ch5_ex10_q23c",
+          "number": "23(c)",
+          "category": null,
+          "questionText": "A yacht is anchored off an island. It is 2.3 km from the yacht club and 4.6 km from a weather station. The three points form a right-angled triangle at the yacht club. The next day the yacht travels directly towards the yacht club but is prevented from reaching the club because of dense fog. The weather station notifies the yacht that it is now 4.2 km from the station. Calculate the new angle at the yacht between the yacht club and the weather station, in degrees correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = \\dfrac{O}{H}$",
+            "steps": [
+              "Given: the yacht is still on the line to the club, so the right angle at the club remains. Club–station $= \\sqrt{15.87} = 3.98372$ km (opposite), yacht–station $= 4.2$ km (hypotenuse). Goal: new angle $\\theta$.",
+              "$\\sin(\\theta) = \\dfrac{3.98372}{4.2} = 0.948505$",
+              "$\\theta = \\sin^{-1}(0.948505) = 71.53^\\circ \\approx 71.5^\\circ$"
+            ],
+            "finalAnswer": "The new angle at the yacht is $71.5^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Moving closer to the club makes the angle at the yacht bigger, which is a good check."
+          }
+        },
+        {
+          "id": "ch5_ex10_q23d",
+          "number": "23(d)",
+          "category": null,
+          "questionText": "A yacht is anchored off an island. It is 2.3 km from the yacht club and 4.6 km from a weather station. The three points form a right-angled triangle at the yacht club. The next day the yacht travels directly towards the yacht club but is prevented from reaching the club because of dense fog. The weather station notifies the yacht that it is now 4.2 km from the station. Determine how far the yacht is now from the yacht club, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras: $a^2 = c^2 - b^2$",
+            "steps": [
+              "Given: hypotenuse 4.2 km, club–station $s^2 = 15.87$. Goal: yacht–club distance $y$.",
+              "$y^2 = 4.2^2 - 15.87 = 17.64 - 15.87 = 1.77$",
+              "$y = \\sqrt{1.77} = 1.33041$ km $\\approx 1.33$ km"
+            ],
+            "finalAnswer": "The yacht is now 1.33 km from the yacht club.",
+            "solutionFigures": [],
+            "tip": "Use the exact $15.87$ rather than $3.98^2$ to avoid rounding error."
+          }
+        }
+      ]
+    }
+  ]
+}

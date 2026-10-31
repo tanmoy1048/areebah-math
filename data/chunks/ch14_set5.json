@@ -1,0 +1,596 @@
+{
+  "chapterId": "ch14",
+  "chapterTitle": "Circular functions (Methods 12)",
+  "topics": [
+    {
+      "topicId": "14E",
+      "topicTitle": "Values of circular functions",
+      "exercises": [
+        {
+          "id": "ch14_ex5_q1a",
+          "number": "1(a)",
+          "category": null,
+          "questionText": "Without using a calculator, evaluate the sin, cos and tan of $120^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadrant 2 symmetry: $\\sin(180^\\circ - \\theta) = \\sin\\theta$, $\\cos(180^\\circ - \\theta) = -\\cos\\theta$, $\\tan(180^\\circ - \\theta) = -\\tan\\theta$; exact values for $60^\\circ$",
+            "steps": [
+              "Given: $120^\\circ$. Goal: exact $\\sin$, $\\cos$, $\\tan$.",
+              "$120^\\circ = 180^\\circ - 60^\\circ$ (quadrant 2, basic angle $60^\\circ$).",
+              "Exact values: $\\sin 60^\\circ = \\dfrac{\\sqrt{3}}{2}$, $\\cos 60^\\circ = \\dfrac{1}{2}$, $\\tan 60^\\circ = \\sqrt{3}$.",
+              "$\\sin 120^\\circ = \\sin 60^\\circ = \\dfrac{\\sqrt{3}}{2}$.",
+              "$\\cos 120^\\circ = -\\cos 60^\\circ = -\\dfrac{1}{2}$.",
+              "$\\tan 120^\\circ = \\dfrac{\\sin 120^\\circ}{\\cos 120^\\circ} = \\dfrac{\\sqrt{3}/2}{-1/2} = -\\sqrt{3}$.",
+              "Check: in quadrant 2 only sine is positive. ✓"
+            ],
+            "finalAnswer": "$\\sin 120^\\circ = \\dfrac{\\sqrt{3}}{2}$, $\\cos 120^\\circ = -\\dfrac{1}{2}$, $\\tan 120^\\circ = -\\sqrt{3}$",
+            "solutionFigures": [],
+            "tip": "Find the basic angle and the quadrant first; the quadrant fixes the signs."
+          }
+        },
+        {
+          "id": "ch14_ex5_q1b",
+          "number": "1(b)",
+          "category": null,
+          "questionText": "Without using a calculator, evaluate the sin, cos and tan of $135^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadrant 2 symmetry with basic angle $45^\\circ$: $\\sin 45^\\circ = \\cos 45^\\circ = \\dfrac{1}{\\sqrt{2}}$, $\\tan 45^\\circ = 1$",
+            "steps": [
+              "Given: $135^\\circ$. Goal: exact $\\sin$, $\\cos$, $\\tan$.",
+              "$135^\\circ = 180^\\circ - 45^\\circ$ (quadrant 2, basic angle $45^\\circ$).",
+              "$\\sin 135^\\circ = \\sin 45^\\circ = \\dfrac{1}{\\sqrt{2}}$.",
+              "$\\cos 135^\\circ = -\\cos 45^\\circ = -\\dfrac{1}{\\sqrt{2}}$.",
+              "$\\tan 135^\\circ = \\dfrac{1/\\sqrt{2}}{-1/\\sqrt{2}} = -1$.",
+              "Check: $\\sin^2 + \\cos^2 = \\dfrac{1}{2} + \\dfrac{1}{2} = 1$. ✓"
+            ],
+            "finalAnswer": "$\\sin 135^\\circ = \\dfrac{1}{\\sqrt{2}}$, $\\cos 135^\\circ = -\\dfrac{1}{\\sqrt{2}}$, $\\tan 135^\\circ = -1$",
+            "solutionFigures": [],
+            "tip": "$\\frac{1}{\\sqrt{2}}$ and $\\frac{\\sqrt{2}}{2}$ are the same value; either form is exact."
+          }
+        },
+        {
+          "id": "ch14_ex5_q1c",
+          "number": "1(c)",
+          "category": null,
+          "questionText": "Without using a calculator, evaluate the sin, cos and tan of $210^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadrant 3 symmetry: $\\sin(180^\\circ + \\theta) = -\\sin\\theta$, $\\cos(180^\\circ + \\theta) = -\\cos\\theta$, $\\tan(180^\\circ + \\theta) = \\tan\\theta$",
+            "steps": [
+              "Given: $210^\\circ$. Goal: exact $\\sin$, $\\cos$, $\\tan$.",
+              "$210^\\circ = 180^\\circ + 30^\\circ$ (quadrant 3, basic angle $30^\\circ$).",
+              "Exact values: $\\sin 30^\\circ = \\dfrac{1}{2}$, $\\cos 30^\\circ = \\dfrac{\\sqrt{3}}{2}$, $\\tan 30^\\circ = \\dfrac{1}{\\sqrt{3}}$.",
+              "$\\sin 210^\\circ = -\\dfrac{1}{2}$, $\\cos 210^\\circ = -\\dfrac{\\sqrt{3}}{2}$.",
+              "$\\tan 210^\\circ = \\dfrac{-1/2}{-\\sqrt{3}/2} = \\dfrac{1}{\\sqrt{3}}$.",
+              "Check: tan is positive in quadrant 3. ✓"
+            ],
+            "finalAnswer": "$\\sin 210^\\circ = -\\dfrac{1}{2}$, $\\cos 210^\\circ = -\\dfrac{\\sqrt{3}}{2}$, $\\tan 210^\\circ = \\dfrac{1}{\\sqrt{3}}$",
+            "solutionFigures": [],
+            "tip": "In quadrant 3 sine and cosine are both negative, so tan is positive."
+          }
+        },
+        {
+          "id": "ch14_ex5_q1d",
+          "number": "1(d)",
+          "category": null,
+          "questionText": "Without using a calculator, evaluate the sin, cos and tan of $240^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadrant 3 symmetry with basic angle $60^\\circ$",
+            "steps": [
+              "Given: $240^\\circ$. Goal: exact $\\sin$, $\\cos$, $\\tan$.",
+              "$240^\\circ = 180^\\circ + 60^\\circ$ (quadrant 3, basic angle $60^\\circ$).",
+              "$\\sin 240^\\circ = -\\sin 60^\\circ = -\\dfrac{\\sqrt{3}}{2}$.",
+              "$\\cos 240^\\circ = -\\cos 60^\\circ = -\\dfrac{1}{2}$.",
+              "$\\tan 240^\\circ = \\tan 60^\\circ = \\sqrt{3}$.",
+              "Check: $\\dfrac{-\\sqrt{3}/2}{-1/2} = \\sqrt{3}$. ✓"
+            ],
+            "finalAnswer": "$\\sin 240^\\circ = -\\dfrac{\\sqrt{3}}{2}$, $\\cos 240^\\circ = -\\dfrac{1}{2}$, $\\tan 240^\\circ = \\sqrt{3}$",
+            "solutionFigures": [],
+            "tip": "For $60^\\circ$ the sine is the larger value $\\frac{\\sqrt{3}}{2}$; do not swap with $30^\\circ$."
+          }
+        },
+        {
+          "id": "ch14_ex5_q1e",
+          "number": "1(e)",
+          "category": null,
+          "questionText": "Without using a calculator, evaluate the sin, cos and tan of $315^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadrant 4 symmetry: $\\sin(360^\\circ - \\theta) = -\\sin\\theta$, $\\cos(360^\\circ - \\theta) = \\cos\\theta$, $\\tan(360^\\circ - \\theta) = -\\tan\\theta$",
+            "steps": [
+              "Given: $315^\\circ$. Goal: exact $\\sin$, $\\cos$, $\\tan$.",
+              "$315^\\circ = 360^\\circ - 45^\\circ$ (quadrant 4, basic angle $45^\\circ$).",
+              "$\\sin 315^\\circ = -\\sin 45^\\circ = -\\dfrac{1}{\\sqrt{2}}$.",
+              "$\\cos 315^\\circ = \\cos 45^\\circ = \\dfrac{1}{\\sqrt{2}}$.",
+              "$\\tan 315^\\circ = -\\tan 45^\\circ = -1$.",
+              "Check: in quadrant 4 only cosine is positive. ✓"
+            ],
+            "finalAnswer": "$\\sin 315^\\circ = -\\dfrac{1}{\\sqrt{2}}$, $\\cos 315^\\circ = \\dfrac{1}{\\sqrt{2}}$, $\\tan 315^\\circ = -1$",
+            "solutionFigures": [],
+            "tip": "Remember 'All Stations To Central' for the positive function in quadrants 1 to 4."
+          }
+        },
+        {
+          "id": "ch14_ex5_q1f",
+          "number": "1(f)",
+          "category": null,
+          "questionText": "Without using a calculator, evaluate the sin, cos and tan of $390^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Periodicity: values repeat every $360^\\circ$",
+            "steps": [
+              "Given: $390^\\circ$. Goal: exact $\\sin$, $\\cos$, $\\tan$.",
+              "$390^\\circ = 360^\\circ + 30^\\circ$, so $P(390^\\circ) = P(30^\\circ)$.",
+              "$\\sin 390^\\circ = \\sin 30^\\circ = \\dfrac{1}{2}$.",
+              "$\\cos 390^\\circ = \\cos 30^\\circ = \\dfrac{\\sqrt{3}}{2}$.",
+              "$\\tan 390^\\circ = \\tan 30^\\circ = \\dfrac{1}{\\sqrt{3}}$."
+            ],
+            "finalAnswer": "$\\sin 390^\\circ = \\dfrac{1}{2}$, $\\cos 390^\\circ = \\dfrac{\\sqrt{3}}{2}$, $\\tan 390^\\circ = \\dfrac{1}{\\sqrt{3}}$",
+            "solutionFigures": [],
+            "tip": "Subtract $360^\\circ$ first, then use first-quadrant exact values."
+          }
+        },
+        {
+          "id": "ch14_ex5_q1g",
+          "number": "1(g)",
+          "category": null,
+          "questionText": "Without using a calculator, evaluate the sin, cos and tan of $420^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Periodicity: values repeat every $360^\\circ$",
+            "steps": [
+              "Given: $420^\\circ$. Goal: exact $\\sin$, $\\cos$, $\\tan$.",
+              "$420^\\circ = 360^\\circ + 60^\\circ$, so $P(420^\\circ) = P(60^\\circ)$.",
+              "$\\sin 420^\\circ = \\dfrac{\\sqrt{3}}{2}$, $\\cos 420^\\circ = \\dfrac{1}{2}$, $\\tan 420^\\circ = \\sqrt{3}$."
+            ],
+            "finalAnswer": "$\\sin 420^\\circ = \\dfrac{\\sqrt{3}}{2}$, $\\cos 420^\\circ = \\dfrac{1}{2}$, $\\tan 420^\\circ = \\sqrt{3}$",
+            "solutionFigures": [],
+            "tip": "A full turn leaves all three values unchanged."
+          }
+        },
+        {
+          "id": "ch14_ex5_q1h",
+          "number": "1(h)",
+          "category": null,
+          "questionText": "Without using a calculator, evaluate the sin, cos and tan of $-135^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$P(-\\theta)$ is measured clockwise; $-135^\\circ + 360^\\circ = 225^\\circ = 180^\\circ + 45^\\circ$",
+            "steps": [
+              "Given: $-135^\\circ$. Goal: exact $\\sin$, $\\cos$, $\\tan$.",
+              "$-135^\\circ$ is $135^\\circ$ clockwise, which lands in quadrant 3; equivalently $-135^\\circ + 360^\\circ = 225^\\circ = 180^\\circ + 45^\\circ$.",
+              "$\\sin(-135^\\circ) = -\\sin 45^\\circ = -\\dfrac{1}{\\sqrt{2}}$.",
+              "$\\cos(-135^\\circ) = -\\cos 45^\\circ = -\\dfrac{1}{\\sqrt{2}}$.",
+              "$\\tan(-135^\\circ) = \\dfrac{-1/\\sqrt{2}}{-1/\\sqrt{2}} = 1$.",
+              "Second route: $\\sin(-135^\\circ) = -\\sin 135^\\circ = -\\dfrac{1}{\\sqrt{2}}$, $\\cos(-135^\\circ) = \\cos 135^\\circ = -\\dfrac{1}{\\sqrt{2}}$. ✓"
+            ],
+            "finalAnswer": "$\\sin(-135^\\circ) = -\\dfrac{1}{\\sqrt{2}}$, $\\cos(-135^\\circ) = -\\dfrac{1}{\\sqrt{2}}$, $\\tan(-135^\\circ) = 1$",
+            "solutionFigures": [],
+            "tip": "Convert a negative angle to an equivalent positive one by adding $360^\\circ$."
+          }
+        },
+        {
+          "id": "ch14_ex5_q1i",
+          "number": "1(i)",
+          "category": null,
+          "questionText": "Without using a calculator, evaluate the sin, cos and tan of $-300^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Periodicity: $-300^\\circ + 360^\\circ = 60^\\circ$",
+            "steps": [
+              "Given: $-300^\\circ$. Goal: exact $\\sin$, $\\cos$, $\\tan$.",
+              "$-300^\\circ + 360^\\circ = 60^\\circ$, so $P(-300^\\circ) = P(60^\\circ)$ (quadrant 1).",
+              "$\\sin(-300^\\circ) = \\dfrac{\\sqrt{3}}{2}$, $\\cos(-300^\\circ) = \\dfrac{1}{2}$, $\\tan(-300^\\circ) = \\sqrt{3}$.",
+              "Check: $300^\\circ$ clockwise is $60^\\circ$ short of a full clockwise turn, so it ends $60^\\circ$ above the positive $x$-axis. ✓"
+            ],
+            "finalAnswer": "$\\sin(-300^\\circ) = \\dfrac{\\sqrt{3}}{2}$, $\\cos(-300^\\circ) = \\dfrac{1}{2}$, $\\tan(-300^\\circ) = \\sqrt{3}$",
+            "solutionFigures": [],
+            "tip": "Negative angles are not automatically in quadrant 4; locate them carefully."
+          }
+        },
+        {
+          "id": "ch14_ex5_q1j",
+          "number": "1(j)",
+          "category": null,
+          "questionText": "Without using a calculator, evaluate the sin, cos and tan of $-60^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(-\\theta) = -\\sin\\theta$, $\\cos(-\\theta) = \\cos\\theta$, $\\tan(-\\theta) = -\\tan\\theta$",
+            "steps": [
+              "Given: $-60^\\circ$ (quadrant 4). Goal: exact $\\sin$, $\\cos$, $\\tan$.",
+              "$\\sin(-60^\\circ) = -\\sin 60^\\circ = -\\dfrac{\\sqrt{3}}{2}$.",
+              "$\\cos(-60^\\circ) = \\cos 60^\\circ = \\dfrac{1}{2}$.",
+              "$\\tan(-60^\\circ) = -\\tan 60^\\circ = -\\sqrt{3}$."
+            ],
+            "finalAnswer": "$\\sin(-60^\\circ) = -\\dfrac{\\sqrt{3}}{2}$, $\\cos(-60^\\circ) = \\dfrac{1}{2}$, $\\tan(-60^\\circ) = -\\sqrt{3}$",
+            "solutionFigures": [],
+            "tip": "Cosine is even; sine and tan are odd."
+          }
+        },
+        {
+          "id": "ch14_ex5_q2a",
+          "number": "2(a)",
+          "category": null,
+          "questionText": "Write down the exact value of $\\sin\\left(\\dfrac{2\\pi}{3}\\right)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\pi - \\theta) = \\sin\\theta$; $\\sin\\dfrac{\\pi}{3} = \\dfrac{\\sqrt{3}}{2}$",
+            "steps": [
+              "Given: $\\dfrac{2\\pi}{3} = \\pi - \\dfrac{\\pi}{3}$ (quadrant 2, basic angle $\\dfrac{\\pi}{3}$). Goal: exact sine.",
+              "$\\sin\\dfrac{2\\pi}{3} = \\sin\\dfrac{\\pi}{3} = \\dfrac{\\sqrt{3}}{2}$.",
+              "Check: $\\dfrac{2\\pi}{3} = 120^\\circ$ and $\\sin 120^\\circ = \\dfrac{\\sqrt{3}}{2}$ (Q1a). ✓"
+            ],
+            "finalAnswer": "$\\dfrac{\\sqrt{3}}{2}$",
+            "solutionFigures": [],
+            "tip": "Sine is positive in quadrant 2."
+          }
+        },
+        {
+          "id": "ch14_ex5_q2b",
+          "number": "2(b)",
+          "category": null,
+          "questionText": "Write down the exact value of $\\cos\\left(\\dfrac{3\\pi}{4}\\right)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(\\pi - \\theta) = -\\cos\\theta$; $\\cos\\dfrac{\\pi}{4} = \\dfrac{1}{\\sqrt{2}}$",
+            "steps": [
+              "Given: $\\dfrac{3\\pi}{4} = \\pi - \\dfrac{\\pi}{4}$ (quadrant 2). Goal: exact cosine.",
+              "$\\cos\\dfrac{3\\pi}{4} = -\\cos\\dfrac{\\pi}{4} = -\\dfrac{1}{\\sqrt{2}}$.",
+              "Check: $\\dfrac{3\\pi}{4} = 135^\\circ$, matching Q1b. ✓"
+            ],
+            "finalAnswer": "$-\\dfrac{1}{\\sqrt{2}}$ (or $-\\dfrac{\\sqrt{2}}{2}$)",
+            "solutionFigures": [],
+            "tip": "Cosine is negative in quadrant 2."
+          }
+        },
+        {
+          "id": "ch14_ex5_q2c",
+          "number": "2(c)",
+          "category": null,
+          "questionText": "Write down the exact value of $\\tan\\left(\\dfrac{5\\pi}{6}\\right)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\pi - \\theta) = -\\tan\\theta$; $\\tan\\dfrac{\\pi}{6} = \\dfrac{1}{\\sqrt{3}}$",
+            "steps": [
+              "Given: $\\dfrac{5\\pi}{6} = \\pi - \\dfrac{\\pi}{6}$ (quadrant 2). Goal: exact tangent.",
+              "$\\tan\\dfrac{5\\pi}{6} = -\\tan\\dfrac{\\pi}{6} = -\\dfrac{1}{\\sqrt{3}}$.",
+              "Check: $\\dfrac{\\sin(5\\pi/6)}{\\cos(5\\pi/6)} = \\dfrac{1/2}{-\\sqrt{3}/2} = -\\dfrac{1}{\\sqrt{3}}$. ✓"
+            ],
+            "finalAnswer": "$-\\dfrac{1}{\\sqrt{3}}$ (or $-\\dfrac{\\sqrt{3}}{3}$)",
+            "solutionFigures": [],
+            "tip": "Tan is negative in quadrant 2."
+          }
+        },
+        {
+          "id": "ch14_ex5_q2d",
+          "number": "2(d)",
+          "category": null,
+          "questionText": "Write down the exact value of $\\sin\\left(\\dfrac{7\\pi}{6}\\right)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\pi + \\theta) = -\\sin\\theta$; $\\sin\\dfrac{\\pi}{6} = \\dfrac{1}{2}$",
+            "steps": [
+              "Given: $\\dfrac{7\\pi}{6} = \\pi + \\dfrac{\\pi}{6}$ (quadrant 3). Goal: exact sine.",
+              "$\\sin\\dfrac{7\\pi}{6} = -\\sin\\dfrac{\\pi}{6} = -\\dfrac{1}{2}$.",
+              "Check: $\\dfrac{7\\pi}{6} = 210^\\circ$, matching Q1c. ✓"
+            ],
+            "finalAnswer": "$-\\dfrac{1}{2}$",
+            "solutionFigures": [],
+            "tip": "Sine is negative in quadrant 3."
+          }
+        },
+        {
+          "id": "ch14_ex5_q2e",
+          "number": "2(e)",
+          "category": null,
+          "questionText": "Write down the exact value of $\\cos\\left(\\dfrac{5\\pi}{4}\\right)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(\\pi + \\theta) = -\\cos\\theta$; $\\cos\\dfrac{\\pi}{4} = \\dfrac{1}{\\sqrt{2}}$",
+            "steps": [
+              "Given: $\\dfrac{5\\pi}{4} = \\pi + \\dfrac{\\pi}{4}$ (quadrant 3). Goal: exact cosine.",
+              "$\\cos\\dfrac{5\\pi}{4} = -\\cos\\dfrac{\\pi}{4} = -\\dfrac{1}{\\sqrt{2}}$."
+            ],
+            "finalAnswer": "$-\\dfrac{1}{\\sqrt{2}}$ (or $-\\dfrac{\\sqrt{2}}{2}$)",
+            "solutionFigures": [],
+            "tip": "Cosine is negative in quadrant 3."
+          }
+        },
+        {
+          "id": "ch14_ex5_q2f",
+          "number": "2(f)",
+          "category": null,
+          "questionText": "Write down the exact value of $\\tan\\left(\\dfrac{4\\pi}{3}\\right)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\pi + \\theta) = \\tan\\theta$; $\\tan\\dfrac{\\pi}{3} = \\sqrt{3}$",
+            "steps": [
+              "Given: $\\dfrac{4\\pi}{3} = \\pi + \\dfrac{\\pi}{3}$ (quadrant 3). Goal: exact tangent.",
+              "$\\tan\\dfrac{4\\pi}{3} = \\tan\\dfrac{\\pi}{3} = \\sqrt{3}$.",
+              "Check: $\\dfrac{-\\sqrt{3}/2}{-1/2} = \\sqrt{3}$. ✓"
+            ],
+            "finalAnswer": "$\\sqrt{3}$",
+            "solutionFigures": [],
+            "tip": "Tan is positive in quadrant 3."
+          }
+        },
+        {
+          "id": "ch14_ex5_q2g",
+          "number": "2(g)",
+          "category": null,
+          "questionText": "Write down the exact value of $\\sin\\left(\\dfrac{5\\pi}{3}\\right)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(2\\pi - \\theta) = -\\sin\\theta$; $\\sin\\dfrac{\\pi}{3} = \\dfrac{\\sqrt{3}}{2}$",
+            "steps": [
+              "Given: $\\dfrac{5\\pi}{3} = 2\\pi - \\dfrac{\\pi}{3}$ (quadrant 4). Goal: exact sine.",
+              "$\\sin\\dfrac{5\\pi}{3} = -\\sin\\dfrac{\\pi}{3} = -\\dfrac{\\sqrt{3}}{2}$."
+            ],
+            "finalAnswer": "$-\\dfrac{\\sqrt{3}}{2}$",
+            "solutionFigures": [],
+            "tip": "Sine is negative in quadrant 4."
+          }
+        },
+        {
+          "id": "ch14_ex5_q2h",
+          "number": "2(h)",
+          "category": null,
+          "questionText": "Write down the exact value of $\\cos\\left(\\dfrac{7\\pi}{4}\\right)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(2\\pi - \\theta) = \\cos\\theta$; $\\cos\\dfrac{\\pi}{4} = \\dfrac{1}{\\sqrt{2}}$",
+            "steps": [
+              "Given: $\\dfrac{7\\pi}{4} = 2\\pi - \\dfrac{\\pi}{4}$ (quadrant 4). Goal: exact cosine.",
+              "$\\cos\\dfrac{7\\pi}{4} = \\cos\\dfrac{\\pi}{4} = \\dfrac{1}{\\sqrt{2}}$.",
+              "Check: $\\dfrac{7\\pi}{4} = 315^\\circ$, matching Q1e. ✓"
+            ],
+            "finalAnswer": "$\\dfrac{1}{\\sqrt{2}}$ (or $\\dfrac{\\sqrt{2}}{2}$)",
+            "solutionFigures": [],
+            "tip": "Cosine is positive in quadrant 4."
+          }
+        },
+        {
+          "id": "ch14_ex5_q2i",
+          "number": "2(i)",
+          "category": null,
+          "questionText": "Write down the exact value of $\\tan\\left(\\dfrac{11\\pi}{6}\\right)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(2\\pi - \\theta) = -\\tan\\theta$; $\\tan\\dfrac{\\pi}{6} = \\dfrac{1}{\\sqrt{3}}$",
+            "steps": [
+              "Given: $\\dfrac{11\\pi}{6} = 2\\pi - \\dfrac{\\pi}{6}$ (quadrant 4). Goal: exact tangent.",
+              "$\\tan\\dfrac{11\\pi}{6} = -\\tan\\dfrac{\\pi}{6} = -\\dfrac{1}{\\sqrt{3}}$.",
+              "Check: $\\dfrac{-1/2}{\\sqrt{3}/2} = -\\dfrac{1}{\\sqrt{3}}$. ✓"
+            ],
+            "finalAnswer": "$-\\dfrac{1}{\\sqrt{3}}$ (or $-\\dfrac{\\sqrt{3}}{3}$)",
+            "solutionFigures": [],
+            "tip": "Tan is negative in quadrant 4."
+          }
+        },
+        {
+          "id": "ch14_ex5_q3a",
+          "number": "3(a)",
+          "category": null,
+          "questionText": "Write down the exact value of $\\sin\\left(-\\dfrac{2\\pi}{3}\\right)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(-\\theta) = -\\sin\\theta$",
+            "steps": [
+              "Given: $-\\dfrac{2\\pi}{3}$. Goal: exact sine.",
+              "$\\sin\\left(-\\dfrac{2\\pi}{3}\\right) = -\\sin\\dfrac{2\\pi}{3} = -\\dfrac{\\sqrt{3}}{2}$ (using Q2a).",
+              "Second route: $-\\dfrac{2\\pi}{3} + 2\\pi = \\dfrac{4\\pi}{3} = \\pi + \\dfrac{\\pi}{3}$ (quadrant 3), so $\\sin = -\\sin\\dfrac{\\pi}{3} = -\\dfrac{\\sqrt{3}}{2}$. ✓"
+            ],
+            "finalAnswer": "$-\\dfrac{\\sqrt{3}}{2}$",
+            "solutionFigures": [],
+            "tip": "$-\\frac{2\\pi}{3}$ is in quadrant 3, where sine is negative."
+          }
+        },
+        {
+          "id": "ch14_ex5_q3b",
+          "number": "3(b)",
+          "category": null,
+          "questionText": "Write down the exact value of $\\cos\\left(\\dfrac{11\\pi}{4}\\right)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Periodicity $\\cos(\\theta + 2\\pi) = \\cos\\theta$; $\\cos(\\pi - \\theta) = -\\cos\\theta$",
+            "steps": [
+              "Given: $\\dfrac{11\\pi}{4}$. Goal: exact cosine.",
+              "$\\dfrac{11\\pi}{4} = 2\\pi + \\dfrac{3\\pi}{4}$, so $\\cos\\dfrac{11\\pi}{4} = \\cos\\dfrac{3\\pi}{4}$.",
+              "$\\dfrac{3\\pi}{4} = \\pi - \\dfrac{\\pi}{4}$, so $\\cos\\dfrac{3\\pi}{4} = -\\cos\\dfrac{\\pi}{4} = -\\dfrac{1}{\\sqrt{2}}$."
+            ],
+            "finalAnswer": "$-\\dfrac{1}{\\sqrt{2}}$",
+            "solutionFigures": [],
+            "tip": "Subtract $2\\pi = \\frac{8\\pi}{4}$ first to reach an angle in $[0, 2\\pi)$."
+          }
+        },
+        {
+          "id": "ch14_ex5_q3c",
+          "number": "3(c)",
+          "category": null,
+          "questionText": "Write down the exact value of $\\tan\\left(\\dfrac{13\\pi}{6}\\right)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Periodicity: $\\tan(\\theta + 2\\pi) = \\tan\\theta$",
+            "steps": [
+              "Given: $\\dfrac{13\\pi}{6}$. Goal: exact tangent.",
+              "$\\dfrac{13\\pi}{6} = 2\\pi + \\dfrac{\\pi}{6}$.",
+              "$\\tan\\dfrac{13\\pi}{6} = \\tan\\dfrac{\\pi}{6} = \\dfrac{1}{\\sqrt{3}}$."
+            ],
+            "finalAnswer": "$\\dfrac{1}{\\sqrt{3}}$ (or $\\dfrac{\\sqrt{3}}{3}$)",
+            "solutionFigures": [],
+            "tip": "Tan actually has period $\\pi$, so subtracting $2\\pi$ is certainly allowed."
+          }
+        },
+        {
+          "id": "ch14_ex5_q3d",
+          "number": "3(d)",
+          "category": null,
+          "questionText": "Write down the exact value of $\\tan\\left(\\dfrac{15\\pi}{6}\\right)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan\\theta = \\dfrac{\\sin\\theta}{\\cos\\theta}$ is undefined when $\\cos\\theta = 0$",
+            "steps": [
+              "Given: $\\dfrac{15\\pi}{6}$. Goal: exact tangent.",
+              "Simplify: $\\dfrac{15\\pi}{6} = \\dfrac{5\\pi}{2} = 2\\pi + \\dfrac{\\pi}{2}$.",
+              "So $P\\left(\\dfrac{15\\pi}{6}\\right) = P\\left(\\dfrac{\\pi}{2}\\right) = (0, 1)$: $\\cos = 0$, $\\sin = 1$.",
+              "$\\tan\\dfrac{15\\pi}{6} = \\dfrac{1}{0}$, which is undefined."
+            ],
+            "finalAnswer": "Undefined ($\\tan\\frac{15\\pi}{6} = \\tan\\frac{5\\pi}{2}$ does not exist)",
+            "solutionFigures": [],
+            "tip": "Always simplify the fraction first: $\\frac{15\\pi}{6}$ is really $\\frac{5\\pi}{2}$, an odd multiple of $\\frac{\\pi}{2}$."
+          }
+        },
+        {
+          "id": "ch14_ex5_q3e",
+          "number": "3(e)",
+          "category": null,
+          "questionText": "Write down the exact value of $\\cos\\left(\\dfrac{14\\pi}{4}\\right)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Periodicity: $\\cos(\\theta + 2\\pi) = \\cos\\theta$",
+            "steps": [
+              "Given: $\\dfrac{14\\pi}{4}$. Goal: exact cosine.",
+              "Simplify: $\\dfrac{14\\pi}{4} = \\dfrac{7\\pi}{2} = 2\\pi + \\dfrac{3\\pi}{2}$.",
+              "$P\\left(\\dfrac{3\\pi}{2}\\right) = (0, -1)$, so $\\cos\\dfrac{14\\pi}{4} = 0$."
+            ],
+            "finalAnswer": "$0$",
+            "solutionFigures": [],
+            "tip": "Simplifying $\\frac{14}{4}$ to $\\frac{7}{2}$ reveals that this is an odd multiple of $\\frac{\\pi}{2}$."
+          }
+        },
+        {
+          "id": "ch14_ex5_q3f",
+          "number": "3(f)",
+          "category": null,
+          "questionText": "Write down the exact value of $\\cos\\left(-\\dfrac{3\\pi}{4}\\right)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(-\\theta) = \\cos\\theta$",
+            "steps": [
+              "Given: $-\\dfrac{3\\pi}{4}$. Goal: exact cosine.",
+              "$\\cos\\left(-\\dfrac{3\\pi}{4}\\right) = \\cos\\dfrac{3\\pi}{4} = -\\cos\\dfrac{\\pi}{4} = -\\dfrac{1}{\\sqrt{2}}$.",
+              "Check: $-\\dfrac{3\\pi}{4}$ is in quadrant 3, where cosine is negative. ✓"
+            ],
+            "finalAnswer": "$-\\dfrac{1}{\\sqrt{2}}$",
+            "solutionFigures": [],
+            "tip": "Cosine is even, so drop the minus sign on the angle first."
+          }
+        },
+        {
+          "id": "ch14_ex5_q3g",
+          "number": "3(g)",
+          "category": null,
+          "questionText": "Write down the exact value of $\\sin\\left(\\dfrac{11\\pi}{4}\\right)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Periodicity $\\sin(\\theta + 2\\pi) = \\sin\\theta$; $\\sin(\\pi - \\theta) = \\sin\\theta$",
+            "steps": [
+              "Given: $\\dfrac{11\\pi}{4}$. Goal: exact sine.",
+              "$\\dfrac{11\\pi}{4} = 2\\pi + \\dfrac{3\\pi}{4}$, so $\\sin\\dfrac{11\\pi}{4} = \\sin\\dfrac{3\\pi}{4}$.",
+              "$\\sin\\dfrac{3\\pi}{4} = \\sin\\dfrac{\\pi}{4} = \\dfrac{1}{\\sqrt{2}}$."
+            ],
+            "finalAnswer": "$\\dfrac{1}{\\sqrt{2}}$",
+            "solutionFigures": [],
+            "tip": "Same point as part (b), so the cosine was negative and the sine is positive."
+          }
+        },
+        {
+          "id": "ch14_ex5_q3h",
+          "number": "3(h)",
+          "category": null,
+          "questionText": "Write down the exact value of $\\cos\\left(-\\dfrac{21\\pi}{3}\\right)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(n\\pi) = (-1)^n$ for integer $n$",
+            "steps": [
+              "Given: $-\\dfrac{21\\pi}{3}$. Goal: exact cosine.",
+              "Simplify: $-\\dfrac{21\\pi}{3} = -7\\pi$.",
+              "$-7\\pi + 8\\pi = \\pi$, so $P(-7\\pi) = P(\\pi) = (-1, 0)$.",
+              "$\\cos\\left(-\\dfrac{21\\pi}{3}\\right) = -1$."
+            ],
+            "finalAnswer": "$-1$",
+            "solutionFigures": [],
+            "tip": "Simplify $\\frac{21}{3} = 7$ before doing anything else."
+          }
+        },
+        {
+          "id": "ch14_ex5_q4a",
+          "number": "4(a)",
+          "category": null,
+          "questionText": "Compare the values of $\\theta$ and $\\sin\\theta$ for $\\theta = 0.1$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For small $\\theta$ (in radians), $\\sin\\theta \\approx \\theta$, with $|\\sin\\theta| < |\\theta|$ for $\\theta \\neq 0$",
+            "steps": [
+              "Given: $\\theta = 0.1$ radians. Goal: compare $\\theta$ with $\\sin\\theta$.",
+              "Radian mode: $\\sin 0.1 = 0.099833\\ldots$",
+              "Difference: $0.1 - 0.099833 = 0.000167$, about $0.17\\%$ of $\\theta$.",
+              "So $\\sin 0.1 \\approx 0.0998$, very close to, but slightly less than, $0.1$."
+            ],
+            "finalAnswer": "$\\sin 0.1 \\approx 0.0998$, which is very close to (slightly less than) $\\theta = 0.1$",
+            "solutionFigures": [],
+            "tip": "This approximation only works in radians; $\\sin 0.1^\\circ$ is nowhere near 0.1."
+          }
+        },
+        {
+          "id": "ch14_ex5_q4b",
+          "number": "4(b)",
+          "category": null,
+          "questionText": "Compare the values of $\\theta$ and $\\sin\\theta$ for $\\theta = 0.2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For small $\\theta$ (in radians), $\\sin\\theta \\approx \\theta$",
+            "steps": [
+              "Given: $\\theta = 0.2$ radians. Goal: compare $\\theta$ with $\\sin\\theta$.",
+              "Radian mode: $\\sin 0.2 = 0.198669\\ldots$",
+              "Difference: $0.2 - 0.198669 = 0.001331$, about $0.67\\%$ of $\\theta$.",
+              "So $\\sin 0.2 \\approx 0.1987$: still close to $0.2$ and slightly less, but the gap is larger than for $\\theta = 0.1$."
+            ],
+            "finalAnswer": "$\\sin 0.2 \\approx 0.1987$, slightly less than $\\theta = 0.2$; the approximation $\\sin\\theta \\approx \\theta$ is less accurate than at $0.1$",
+            "solutionFigures": [],
+            "tip": "The error grows roughly like $\\frac{\\theta^3}{6}$, so doubling $\\theta$ multiplies the gap by about 8."
+          }
+        },
+        {
+          "id": "ch14_ex5_q4c",
+          "number": "4(c)",
+          "category": null,
+          "questionText": "Compare the values of $\\theta$ and $\\sin\\theta$ for $\\theta = -0.1$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(-\\theta) = -\\sin\\theta$; for small $\\theta$, $\\sin\\theta \\approx \\theta$",
+            "steps": [
+              "Given: $\\theta = -0.1$ radians. Goal: compare $\\theta$ with $\\sin\\theta$.",
+              "$\\sin(-0.1) = -\\sin 0.1 = -0.099833\\ldots$",
+              "So $\\sin(-0.1) \\approx -0.0998$, very close to $-0.1$ and slightly greater (closer to zero)."
+            ],
+            "finalAnswer": "$\\sin(-0.1) \\approx -0.0998$, very close to $\\theta = -0.1$ (slightly closer to zero)",
+            "solutionFigures": [],
+            "tip": "For negative $\\theta$, $\\sin\\theta$ is slightly greater than $\\theta$, because sine is odd."
+          }
+        },
+        {
+          "id": "ch14_ex5_q4d",
+          "number": "4(d)",
+          "category": null,
+          "questionText": "Compare the values of $\\theta$ and $\\sin\\theta$ for $\\theta = -0.2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(-\\theta) = -\\sin\\theta$; for small $\\theta$, $\\sin\\theta \\approx \\theta$",
+            "steps": [
+              "Given: $\\theta = -0.2$ radians. Goal: compare $\\theta$ with $\\sin\\theta$.",
+              "$\\sin(-0.2) = -\\sin 0.2 = -0.198669\\ldots$",
+              "So $\\sin(-0.2) \\approx -0.1987$, close to $-0.2$ and slightly closer to zero.",
+              "Summary of Q4: for $\\theta$ near 0 (in radians), $\\sin\\theta \\approx \\theta$, and the approximation improves as $\\theta \\to 0$."
+            ],
+            "finalAnswer": "$\\sin(-0.2) \\approx -0.1987$, close to $\\theta = -0.2$ (slightly closer to zero)",
+            "solutionFigures": [],
+            "tip": "Graphically, $y = \\sin x$ and $y = x$ almost coincide near the origin."
+          }
+        }
+      ]
+    }
+  ]
+}

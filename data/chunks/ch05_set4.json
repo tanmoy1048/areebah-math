@@ -1,0 +1,1759 @@
+{
+  "chapterId": "ch05",
+  "chapterTitle": "Trigonometry I",
+  "topics": [
+    {
+      "topicId": "5.4",
+      "topicTitle": "Trigonometric ratios",
+      "exercises": [
+        {
+          "id": "ch5_ex4_q1a",
+          "number": "1(a)",
+          "category": "Practice",
+          "questionText": "Calculate the following, correct to 4 decimal places: $\\sin(30^\\circ)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Evaluate the trigonometric function directly on a calculator in degree mode.",
+            "steps": [
+              "Given: angle $30^\\circ$. Goal: $\\sin(30^\\circ)$ to 4 decimal places.",
+              "Calculator (degree mode): $\\sin(30^\\circ) = 0.5$",
+              "Write to 4 decimal places: $0.5000$"
+            ],
+            "finalAnswer": "Therefore $\\sin(30^\\circ) = 0.5000$.",
+            "solutionFigures": [],
+            "tip": "If you get $-0.9880$, your calculator is in radian mode; switch to degrees."
+          }
+        },
+        {
+          "id": "ch5_ex4_q1b",
+          "number": "1(b)",
+          "category": "Practice",
+          "questionText": "Calculate the following, correct to 4 decimal places: $\\cos(45^\\circ)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Evaluate the trigonometric function directly on a calculator in degree mode.",
+            "steps": [
+              "Given: angle $45^\\circ$. Goal: $\\cos(45^\\circ)$ to 4 decimal places.",
+              "Calculator (degree mode): $\\cos(45^\\circ) = \\dfrac{\\sqrt{2}}{2} \\approx 0.707107$",
+              "Round to 4 decimal places: $0.7071$"
+            ],
+            "finalAnswer": "Therefore $\\cos(45^\\circ) \\approx 0.7071$.",
+            "solutionFigures": [],
+            "tip": "Look at the 5th decimal place to decide whether to round up."
+          }
+        },
+        {
+          "id": "ch5_ex4_q1c",
+          "number": "1(c)",
+          "category": "Practice",
+          "questionText": "Calculate the following, correct to 4 decimal places: $\\tan(25^\\circ)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Evaluate the trigonometric function directly on a calculator in degree mode.",
+            "steps": [
+              "Given: angle $25^\\circ$. Goal: $\\tan(25^\\circ)$ to 4 decimal places.",
+              "Calculator (degree mode): $\\tan(25^\\circ) \\approx 0.466308$",
+              "Round to 4 decimal places: $0.4663$"
+            ],
+            "finalAnswer": "Therefore $\\tan(25^\\circ) \\approx 0.4663$.",
+            "solutionFigures": [],
+            "tip": "Check degree mode before every trig calculation."
+          }
+        },
+        {
+          "id": "ch5_ex4_q1d",
+          "number": "1(d)",
+          "category": "Practice",
+          "questionText": "Calculate the following, correct to 4 decimal places: $\\sin(57^\\circ)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Evaluate the trigonometric function directly on a calculator in degree mode.",
+            "steps": [
+              "Given: angle $57^\\circ$. Goal: $\\sin(57^\\circ)$ to 4 decimal places.",
+              "Calculator (degree mode): $\\sin(57^\\circ) \\approx 0.838671$",
+              "Round to 4 decimal places: $0.8387$"
+            ],
+            "finalAnswer": "Therefore $\\sin(57^\\circ) \\approx 0.8387$.",
+            "solutionFigures": [],
+            "tip": "The 5th decimal (7) rounds the 4th decimal up from 6 to 7."
+          }
+        },
+        {
+          "id": "ch5_ex4_q1e",
+          "number": "1(e)",
+          "category": "Practice",
+          "questionText": "Calculate the following, correct to 4 decimal places: $\\tan(83^\\circ)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Evaluate the trigonometric function directly on a calculator in degree mode.",
+            "steps": [
+              "Given: angle $83^\\circ$. Goal: $\\tan(83^\\circ)$ to 4 decimal places.",
+              "Calculator (degree mode): $\\tan(83^\\circ) \\approx 8.144346$",
+              "Round to 4 decimal places: $8.1443$"
+            ],
+            "finalAnswer": "Therefore $\\tan(83^\\circ) \\approx 8.1443$.",
+            "solutionFigures": [],
+            "tip": "Tangent can be greater than 1; sine and cosine of an acute angle cannot."
+          }
+        },
+        {
+          "id": "ch5_ex4_q1f",
+          "number": "1(f)",
+          "category": "Practice",
+          "questionText": "Calculate the following, correct to 4 decimal places: $\\cos(44^\\circ)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Evaluate the trigonometric function directly on a calculator in degree mode.",
+            "steps": [
+              "Given: angle $44^\\circ$. Goal: $\\cos(44^\\circ)$ to 4 decimal places.",
+              "Calculator (degree mode): $\\cos(44^\\circ) \\approx 0.719340$",
+              "Round to 4 decimal places: $0.7193$"
+            ],
+            "finalAnswer": "Therefore $\\cos(44^\\circ) \\approx 0.7193$.",
+            "solutionFigures": [],
+            "tip": "Check degree mode before every trig calculation."
+          }
+        },
+        {
+          "id": "ch5_ex4_q2a",
+          "number": "2(a)",
+          "category": "Consolidate",
+          "questionText": "Calculate the following, correct to 4 decimal places: $\\sin(40^\\circ 30')$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$D^\\circ M' = \\left(D + \\frac{M}{60}\\right)^\\circ$; then evaluate in degree mode.",
+            "steps": [
+              "Given: $40^\\circ 30'$. Goal: its sine to 4 decimal places.",
+              "Convert: $40 + \\frac{30}{60} = 40.5^\\circ$",
+              "$\\sin(40.5^\\circ) \\approx 0.649448$",
+              "Round to 4 decimal places: $0.6494$"
+            ],
+            "finalAnswer": "Therefore $\\sin(40^\\circ 30') \\approx 0.6494$.",
+            "solutionFigures": [],
+            "tip": "$30'$ is half a degree (0.5°), not 0.3°."
+          }
+        },
+        {
+          "id": "ch5_ex4_q2b",
+          "number": "2(b)",
+          "category": "Consolidate",
+          "questionText": "Calculate the following, correct to 4 decimal places: $\\cos(53^\\circ 57')$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$D^\\circ M' = \\left(D + \\frac{M}{60}\\right)^\\circ$; then evaluate in degree mode.",
+            "steps": [
+              "Given: $53^\\circ 57'$. Goal: its cosine to 4 decimal places.",
+              "Convert: $53 + \\frac{57}{60} = 53.95^\\circ$",
+              "$\\cos(53.95^\\circ) \\approx 0.588491$",
+              "Round to 4 decimal places: $0.5885$"
+            ],
+            "finalAnswer": "Therefore $\\cos(53^\\circ 57') \\approx 0.5885$.",
+            "solutionFigures": [],
+            "tip": "Use the DMS (° ′ ″) key or divide minutes by 60; never type 53.57."
+          }
+        },
+        {
+          "id": "ch5_ex4_q2c",
+          "number": "2(c)",
+          "category": "Consolidate",
+          "questionText": "Calculate the following, correct to 4 decimal places: $\\tan(27^\\circ 34')$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$D^\\circ M' = \\left(D + \\frac{M}{60}\\right)^\\circ$; then evaluate in degree mode.",
+            "steps": [
+              "Given: $27^\\circ 34'$. Goal: its tangent to 4 decimal places.",
+              "Convert: $27 + \\frac{34}{60} \\approx 27.566667^\\circ$",
+              "$\\tan(27.566667^\\circ) \\approx 0.522047$",
+              "Round to 4 decimal places: $0.5220$"
+            ],
+            "finalAnswer": "Therefore $\\tan(27^\\circ 34') \\approx 0.5220$.",
+            "solutionFigures": [],
+            "tip": "Keep the trailing zero (0.5220) to show 4 decimal places."
+          }
+        },
+        {
+          "id": "ch5_ex4_q2d",
+          "number": "2(d)",
+          "category": "Consolidate",
+          "questionText": "Calculate the following, correct to 4 decimal places: $\\tan(123^\\circ 40')$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$D^\\circ M' = \\left(D + \\frac{M}{60}\\right)^\\circ$; then evaluate in degree mode.",
+            "steps": [
+              "Given: $123^\\circ 40'$. Goal: its tangent to 4 decimal places.",
+              "Convert: $123 + \\frac{40}{60} \\approx 123.666667^\\circ$",
+              "$\\tan(123.666667^\\circ) \\approx -1.501328$",
+              "Round to 4 decimal places: $-1.5013$"
+            ],
+            "finalAnswer": "Therefore $\\tan(123^\\circ 40') \\approx -1.5013$.",
+            "solutionFigures": [],
+            "tip": "Tangent of an obtuse angle is negative, so a negative answer here is correct."
+          }
+        },
+        {
+          "id": "ch5_ex4_q2e",
+          "number": "2(e)",
+          "category": "Consolidate",
+          "questionText": "Calculate the following, correct to 4 decimal places: $\\sin(92^\\circ 32')$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$D^\\circ M' = \\left(D + \\frac{M}{60}\\right)^\\circ$; then evaluate in degree mode.",
+            "steps": [
+              "Given: $92^\\circ 32'$. Goal: its sine to 4 decimal places.",
+              "Convert: $92 + \\frac{32}{60} \\approx 92.533333^\\circ$",
+              "$\\sin(92.533333^\\circ) \\approx 0.999023$",
+              "Round to 4 decimal places: $0.9990$"
+            ],
+            "finalAnswer": "Therefore $\\sin(92^\\circ 32') \\approx 0.9990$.",
+            "solutionFigures": [],
+            "tip": "Angles near $90^\\circ$ have a sine very close to 1."
+          }
+        },
+        {
+          "id": "ch5_ex4_q2f",
+          "number": "2(f)",
+          "category": "Consolidate",
+          "questionText": "Calculate the following, correct to 4 decimal places: $\\sin(42^\\circ 8')$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$D^\\circ M' = \\left(D + \\frac{M}{60}\\right)^\\circ$; then evaluate in degree mode.",
+            "steps": [
+              "Given: $42^\\circ 8'$. Goal: its sine to 4 decimal places.",
+              "Convert: $42 + \\frac{8}{60} \\approx 42.133333^\\circ$",
+              "$\\sin(42.133333^\\circ) \\approx 0.670858$",
+              "Round to 4 decimal places: $0.6709$"
+            ],
+            "finalAnswer": "Therefore $\\sin(42^\\circ 8') \\approx 0.6709$.",
+            "solutionFigures": [],
+            "tip": "$8'$ is $\\frac{8}{60}$ of a degree, about 0.133°, not 0.08°."
+          }
+        },
+        {
+          "id": "ch5_ex4_q3a",
+          "number": "3(a)",
+          "category": "Master",
+          "questionText": "Calculate the following, correct to 4 decimal places: $\\cos(35^\\circ 42' 35'')$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$D^\\circ M' S'' = \\left(D + \\frac{M}{60} + \\frac{S}{3600}\\right)^\\circ$",
+            "steps": [
+              "Given: $35^\\circ 42' 35''$. Goal: its cosine to 4 decimal places.",
+              "Convert: $35 + \\frac{42}{60} + \\frac{35}{3600} \\approx 35.709722^\\circ$",
+              "$\\cos(35.709722^\\circ) \\approx 0.811984$",
+              "Round to 4 decimal places: $0.8120$"
+            ],
+            "finalAnswer": "Therefore $\\cos(35^\\circ 42' 35'') \\approx 0.8120$.",
+            "solutionFigures": [],
+            "tip": "Seconds are divided by 3600, since $1^\\circ = 3600''$."
+          }
+        },
+        {
+          "id": "ch5_ex4_q3b",
+          "number": "3(b)",
+          "category": "Master",
+          "questionText": "Calculate the following, correct to 4 decimal places: $\\tan(27^\\circ 42' 50'')$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$D^\\circ M' S'' = \\left(D + \\frac{M}{60} + \\frac{S}{3600}\\right)^\\circ$",
+            "steps": [
+              "Given: $27^\\circ 42' 50''$. Goal: its tangent to 4 decimal places.",
+              "Convert: $27 + \\frac{42}{60} + \\frac{50}{3600} \\approx 27.713889^\\circ$",
+              "$\\tan(27.713889^\\circ) \\approx 0.525321$",
+              "Round to 4 decimal places: $0.5253$"
+            ],
+            "finalAnswer": "Therefore $\\tan(27^\\circ 42' 50'') \\approx 0.5253$.",
+            "solutionFigures": [],
+            "tip": "Use the DMS key three times: 27, 42, 50."
+          }
+        },
+        {
+          "id": "ch5_ex4_q3c",
+          "number": "3(c)",
+          "category": "Master",
+          "questionText": "Calculate the following, correct to 4 decimal places: $\\cos(143^\\circ 25' 23'')$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$D^\\circ M' S'' = \\left(D + \\frac{M}{60} + \\frac{S}{3600}\\right)^\\circ$",
+            "steps": [
+              "Given: $143^\\circ 25' 23''$. Goal: its cosine to 4 decimal places.",
+              "Convert: $143 + \\frac{25}{60} + \\frac{23}{3600} \\approx 143.423056^\\circ$",
+              "$\\cos(143.423056^\\circ) \\approx -0.803057$",
+              "Round to 4 decimal places: $-0.8031$"
+            ],
+            "finalAnswer": "Therefore $\\cos(143^\\circ 25' 23'') \\approx -0.8031$.",
+            "solutionFigures": [],
+            "tip": "Cosine of an obtuse angle is negative."
+          }
+        },
+        {
+          "id": "ch5_ex4_q3d",
+          "number": "3(d)",
+          "category": "Master",
+          "questionText": "Calculate the following, correct to 4 decimal places: $\\sin(23^\\circ 58' 21'')$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$D^\\circ M' S'' = \\left(D + \\frac{M}{60} + \\frac{S}{3600}\\right)^\\circ$",
+            "steps": [
+              "Given: $23^\\circ 58' 21''$. Goal: its sine to 4 decimal places.",
+              "Convert: $23 + \\frac{58}{60} + \\frac{21}{3600} = 23.9725^\\circ$",
+              "$\\sin(23.9725^\\circ) \\approx 0.406298$",
+              "Round to 4 decimal places: $0.4063$"
+            ],
+            "finalAnswer": "Therefore $\\sin(23^\\circ 58' 21'') \\approx 0.4063$.",
+            "solutionFigures": [],
+            "tip": "Round only once, at the very end."
+          }
+        },
+        {
+          "id": "ch5_ex4_q3e",
+          "number": "3(e)",
+          "category": "Master",
+          "questionText": "Calculate the following, correct to 4 decimal places: $\\cos(8^\\circ 54' 2'')$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$D^\\circ M' S'' = \\left(D + \\frac{M}{60} + \\frac{S}{3600}\\right)^\\circ$",
+            "steps": [
+              "Given: $8^\\circ 54' 2''$. Goal: its cosine to 4 decimal places.",
+              "Convert: $8 + \\frac{54}{60} + \\frac{2}{3600} \\approx 8.900556^\\circ$",
+              "$\\cos(8.900556^\\circ) \\approx 0.987958$",
+              "Round to 4 decimal places: $0.9880$"
+            ],
+            "finalAnswer": "Therefore $\\cos(8^\\circ 54' 2'') \\approx 0.9880$.",
+            "solutionFigures": [],
+            "tip": "Small angles have a cosine close to 1."
+          }
+        },
+        {
+          "id": "ch5_ex4_q4a",
+          "number": "4(a)",
+          "category": "Master",
+          "questionText": "Calculate the following, correct to 4 decimal places: $\\sin(286^\\circ)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Evaluate the trigonometric function directly on a calculator in degree mode (it works for any angle size).",
+            "steps": [
+              "Given: angle $286^\\circ$. Goal: $\\sin(286^\\circ)$ to 4 decimal places.",
+              "Calculator (degree mode): $\\sin(286^\\circ) \\approx -0.961262$",
+              "Round to 4 decimal places: $-0.9613$"
+            ],
+            "finalAnswer": "Therefore $\\sin(286^\\circ) \\approx -0.9613$.",
+            "solutionFigures": [],
+            "tip": "Angles between $180^\\circ$ and $360^\\circ$ have negative sine values."
+          }
+        },
+        {
+          "id": "ch5_ex4_q4b",
+          "number": "4(b)",
+          "category": "Master",
+          "questionText": "Calculate the following, correct to 4 decimal places: $\\tan(420^\\circ)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Evaluate in degree mode. Angles differing by $360^\\circ$ give the same trig values.",
+            "steps": [
+              "Given: angle $420^\\circ$. Goal: $\\tan(420^\\circ)$ to 4 decimal places.",
+              "$420^\\circ - 360^\\circ = 60^\\circ$, so $\\tan(420^\\circ) = \\tan(60^\\circ)$",
+              "$\\tan(60^\\circ) = \\sqrt{3} \\approx 1.732051$",
+              "Round to 4 decimal places: $1.7321$"
+            ],
+            "finalAnswer": "Therefore $\\tan(420^\\circ) \\approx 1.7321$.",
+            "solutionFigures": [],
+            "tip": "Subtracting full turns of $360^\\circ$ is a good way to check calculator answers."
+          }
+        },
+        {
+          "id": "ch5_ex4_q4c",
+          "number": "4(c)",
+          "category": "Master",
+          "questionText": "Calculate the following, correct to 4 decimal places: $\\cos(845^\\circ)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Evaluate in degree mode. Angles differing by $360^\\circ$ give the same trig values.",
+            "steps": [
+              "Given: angle $845^\\circ$. Goal: $\\cos(845^\\circ)$ to 4 decimal places.",
+              "$845^\\circ - 2 \\times 360^\\circ = 125^\\circ$, so $\\cos(845^\\circ) = \\cos(125^\\circ)$",
+              "$\\cos(125^\\circ) \\approx -0.573576$",
+              "Round to 4 decimal places: $-0.5736$"
+            ],
+            "finalAnswer": "Therefore $\\cos(845^\\circ) \\approx -0.5736$.",
+            "solutionFigures": [],
+            "tip": "$125^\\circ$ is obtuse, so its cosine is negative."
+          }
+        },
+        {
+          "id": "ch5_ex4_q4d",
+          "number": "4(d)",
+          "category": "Master",
+          "questionText": "Calculate the following, correct to 4 decimal places: $\\sin(367^\\circ 35')$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$D^\\circ M' = \\left(D + \\frac{M}{60}\\right)^\\circ$; angles differing by $360^\\circ$ give the same trig values.",
+            "steps": [
+              "Given: $367^\\circ 35'$. Goal: its sine to 4 decimal places.",
+              "Convert: $367 + \\frac{35}{60} \\approx 367.583333^\\circ$, equivalent to $7.583333^\\circ$ (subtract $360^\\circ$)",
+              "$\\sin(367.583333^\\circ) = \\sin(7.583333^\\circ) \\approx 0.131968$",
+              "Round to 4 decimal places: $0.1320$"
+            ],
+            "finalAnswer": "Therefore $\\sin(367^\\circ 35') \\approx 0.1320$.",
+            "solutionFigures": [],
+            "tip": "Keep the trailing zero: 0.1320."
+          }
+        },
+        {
+          "id": "ch5_ex4_q5a",
+          "number": "5(a)",
+          "category": "Practice",
+          "questionText": "Calculate the size of angle $\\theta$, correct to the nearest degree: $\\sin(\\theta) = 0.763$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "If $\\sin(\\theta) = k$ then $\\theta = \\sin^{-1}(k)$",
+            "steps": [
+              "Given: $\\sin(\\theta) = 0.763$. Goal: $\\theta$ to the nearest degree.",
+              "$\\theta = \\sin^{-1}(0.763)$",
+              "Calculator (degree mode): $\\theta \\approx 49.73^\\circ$",
+              "Round to the nearest degree: $50^\\circ$"
+            ],
+            "finalAnswer": "Therefore $\\theta \\approx 50^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Use SHIFT/2nd + sin for $\\sin^{-1}$; $\\sin^{-1}$ does not mean $\\frac{1}{\\sin}$."
+          }
+        },
+        {
+          "id": "ch5_ex4_q5b",
+          "number": "5(b)",
+          "category": "Practice",
+          "questionText": "Calculate the size of angle $\\theta$, correct to the nearest degree: $\\cos(\\theta) = 0.912$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "If $\\cos(\\theta) = k$ then $\\theta = \\cos^{-1}(k)$",
+            "steps": [
+              "Given: $\\cos(\\theta) = 0.912$. Goal: $\\theta$ to the nearest degree.",
+              "$\\theta = \\cos^{-1}(0.912)$",
+              "Calculator (degree mode): $\\theta \\approx 24.22^\\circ$",
+              "Round to the nearest degree: $24^\\circ$"
+            ],
+            "finalAnswer": "Therefore $\\theta \\approx 24^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Check: $\\cos(24^\\circ) \\approx 0.914$, close to 0.912."
+          }
+        },
+        {
+          "id": "ch5_ex4_q5c",
+          "number": "5(c)",
+          "category": "Practice",
+          "questionText": "Calculate the size of angle $\\theta$, correct to the nearest degree: $\\tan(\\theta) = 1.351$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "If $\\tan(\\theta) = k$ then $\\theta = \\tan^{-1}(k)$",
+            "steps": [
+              "Given: $\\tan(\\theta) = 1.351$. Goal: $\\theta$ to the nearest degree.",
+              "$\\theta = \\tan^{-1}(1.351)$",
+              "Calculator (degree mode): $\\theta \\approx 53.49^\\circ$",
+              "Round to the nearest degree: $53^\\circ$"
+            ],
+            "finalAnswer": "Therefore $\\theta \\approx 53^\\circ$.",
+            "solutionFigures": [],
+            "tip": "$\\tan(\\theta) > 1$ means $\\theta > 45^\\circ$, a quick sense check."
+          }
+        },
+        {
+          "id": "ch5_ex4_q6a",
+          "number": "6(a)",
+          "category": "Consolidate",
+          "questionText": "Calculate the size of angle $\\theta$, correct to the nearest degree: $\\cos(\\theta) = 0.321$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "If $\\cos(\\theta) = k$ then $\\theta = \\cos^{-1}(k)$",
+            "steps": [
+              "Given: $\\cos(\\theta) = 0.321$. Goal: $\\theta$ to the nearest degree.",
+              "$\\theta = \\cos^{-1}(0.321)$",
+              "Calculator (degree mode): $\\theta \\approx 71.28^\\circ$",
+              "Round to the nearest degree: $71^\\circ$"
+            ],
+            "finalAnswer": "Therefore $\\theta \\approx 71^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Use the inverse key; $\\cos(0.321)$ is a different calculation."
+          }
+        },
+        {
+          "id": "ch5_ex4_q6b",
+          "number": "6(b)",
+          "category": "Consolidate",
+          "questionText": "Calculate the size of angle $\\theta$, correct to the nearest degree: $\\tan(\\theta) = 12.86$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "If $\\tan(\\theta) = k$ then $\\theta = \\tan^{-1}(k)$",
+            "steps": [
+              "Given: $\\tan(\\theta) = 12.86$. Goal: $\\theta$ to the nearest degree.",
+              "$\\theta = \\tan^{-1}(12.86)$",
+              "Calculator (degree mode): $\\theta \\approx 85.55^\\circ$",
+              "Round to the nearest degree: $86^\\circ$"
+            ],
+            "finalAnswer": "Therefore $\\theta \\approx 86^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Large tangent values correspond to angles close to $90^\\circ$."
+          }
+        },
+        {
+          "id": "ch5_ex4_q6c",
+          "number": "6(c)",
+          "category": "Consolidate",
+          "questionText": "Calculate the size of angle $\\theta$, correct to the nearest degree: $\\cos(\\theta) = 0.756$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "If $\\cos(\\theta) = k$ then $\\theta = \\cos^{-1}(k)$",
+            "steps": [
+              "Given: $\\cos(\\theta) = 0.756$. Goal: $\\theta$ to the nearest degree.",
+              "$\\theta = \\cos^{-1}(0.756)$",
+              "Calculator (degree mode): $\\theta \\approx 40.89^\\circ$",
+              "Round to the nearest degree: $41^\\circ$"
+            ],
+            "finalAnswer": "Therefore $\\theta \\approx 41^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Check degree mode: in radian mode you would get 0.71."
+          }
+        },
+        {
+          "id": "ch5_ex4_q7a",
+          "number": "7(a)",
+          "category": "Practice",
+          "questionText": "Calculate the size of the angle $\\theta$, correct to the nearest minute: $\\sin(\\theta) = 0.814$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta = \\sin^{-1}(k)$; minutes $=$ decimal part of degrees $\\times 60$",
+            "steps": [
+              "Given: $\\sin(\\theta) = 0.814$. Goal: $\\theta$ to the nearest minute.",
+              "$\\theta = \\sin^{-1}(0.814) \\approx 54.488604^\\circ$",
+              "Minutes: $0.488604 \\times 60 \\approx 29.32'$",
+              "$\\theta \\approx 54^\\circ 29.32'$, which rounds to $54^\\circ 29'$"
+            ],
+            "finalAnswer": "Therefore $\\theta \\approx 54^\\circ 29'$.",
+            "solutionFigures": [],
+            "tip": "Use the DMS key to convert the decimal answer to degrees and minutes."
+          }
+        },
+        {
+          "id": "ch5_ex4_q7b",
+          "number": "7(b)",
+          "category": "Practice",
+          "questionText": "Calculate the size of the angle $\\theta$, correct to the nearest minute: $\\sin(\\theta) = 0.110$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta = \\sin^{-1}(k)$; minutes $=$ decimal part of degrees $\\times 60$",
+            "steps": [
+              "Given: $\\sin(\\theta) = 0.110$. Goal: $\\theta$ to the nearest minute.",
+              "$\\theta = \\sin^{-1}(0.110) \\approx 6.315316^\\circ$",
+              "Minutes: $0.315316 \\times 60 \\approx 18.92'$",
+              "$\\theta \\approx 6^\\circ 18.92'$, which rounds to $6^\\circ 19'$"
+            ],
+            "finalAnswer": "Therefore $\\theta \\approx 6^\\circ 19'$.",
+            "solutionFigures": [],
+            "tip": "Round the minutes, not the degrees: 18.92′ rounds to 19′."
+          }
+        },
+        {
+          "id": "ch5_ex4_q7c",
+          "number": "7(c)",
+          "category": "Practice",
+          "questionText": "Calculate the size of the angle $\\theta$, correct to the nearest minute: $\\tan(\\theta) = 0.015$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta = \\tan^{-1}(k)$; minutes $=$ decimal part of degrees $\\times 60$",
+            "steps": [
+              "Given: $\\tan(\\theta) = 0.015$. Goal: $\\theta$ to the nearest minute.",
+              "$\\theta = \\tan^{-1}(0.015) \\approx 0.859372^\\circ$",
+              "Minutes: $0.859372 \\times 60 \\approx 51.56'$",
+              "$\\theta \\approx 0^\\circ 51.56'$, which rounds to $0^\\circ 52'$"
+            ],
+            "finalAnswer": "Therefore $\\theta \\approx 0^\\circ 52'$.",
+            "solutionFigures": [],
+            "tip": "An angle smaller than $1^\\circ$ is written with $0^\\circ$ in front of the minutes."
+          }
+        },
+        {
+          "id": "ch5_ex4_q8a",
+          "number": "8(a)",
+          "category": "Master",
+          "questionText": "Calculate the size of the angle $\\theta$, correct to the nearest minute: $\\cos(\\theta) = 0.296$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta = \\cos^{-1}(k)$; minutes $=$ decimal part of degrees $\\times 60$",
+            "steps": [
+              "Given: $\\cos(\\theta) = 0.296$. Goal: $\\theta$ to the nearest minute.",
+              "$\\theta = \\cos^{-1}(0.296) \\approx 72.782489^\\circ$",
+              "Minutes: $0.782489 \\times 60 \\approx 46.95'$",
+              "$\\theta \\approx 72^\\circ 46.95'$, which rounds to $72^\\circ 47'$"
+            ],
+            "finalAnswer": "Therefore $\\theta \\approx 72^\\circ 47'$.",
+            "solutionFigures": [],
+            "tip": "Do not round the degrees first; convert the full decimal to minutes."
+          }
+        },
+        {
+          "id": "ch5_ex4_q8b",
+          "number": "8(b)",
+          "category": "Master",
+          "questionText": "Calculate the size of the angle $\\theta$, correct to the nearest minute: $\\tan(\\theta) = 0.993$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta = \\tan^{-1}(k)$; minutes $=$ decimal part of degrees $\\times 60$",
+            "steps": [
+              "Given: $\\tan(\\theta) = 0.993$. Goal: $\\theta$ to the nearest minute.",
+              "$\\theta = \\tan^{-1}(0.993) \\approx 44.798761^\\circ$",
+              "Minutes: $0.798761 \\times 60 \\approx 47.93'$",
+              "$\\theta \\approx 44^\\circ 47.93'$, which rounds to $44^\\circ 48'$"
+            ],
+            "finalAnswer": "Therefore $\\theta \\approx 44^\\circ 48'$.",
+            "solutionFigures": [],
+            "tip": "$\\tan(\\theta)$ just below 1 means $\\theta$ just below $45^\\circ$."
+          }
+        },
+        {
+          "id": "ch5_ex4_q8c",
+          "number": "8(c)",
+          "category": "Master",
+          "questionText": "Calculate the size of the angle $\\theta$, correct to the nearest minute: $\\sin(\\theta) = 0.450$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta = \\sin^{-1}(k)$; minutes $=$ decimal part of degrees $\\times 60$",
+            "steps": [
+              "Given: $\\sin(\\theta) = 0.450$. Goal: $\\theta$ to the nearest minute.",
+              "$\\theta = \\sin^{-1}(0.450) \\approx 26.743684^\\circ$",
+              "Minutes: $0.743684 \\times 60 \\approx 44.62'$",
+              "$\\theta \\approx 26^\\circ 44.62'$, which rounds to $26^\\circ 45'$"
+            ],
+            "finalAnswer": "Therefore $\\theta \\approx 26^\\circ 45'$.",
+            "solutionFigures": [],
+            "tip": "Check degree mode before using an inverse function."
+          }
+        },
+        {
+          "id": "ch5_ex4_q9a",
+          "number": "9(a)",
+          "category": "Practice",
+          "questionText": "Calculate the size of the angle $\\theta$, correct to the nearest second: $\\tan(\\theta) = 0.5$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta = \\tan^{-1}(k)$; minutes $=$ decimal degrees $\\times 60$; seconds $=$ decimal minutes $\\times 60$",
+            "steps": [
+              "Given: $\\tan(\\theta) = 0.5$. Goal: $\\theta$ to the nearest second.",
+              "$\\theta = \\tan^{-1}(0.5) \\approx 26.565051^\\circ$",
+              "Minutes: $0.565051 \\times 60 \\approx 33.9031'$, so $33'$",
+              "Seconds: $0.9031 \\times 60 \\approx 54.18''$, which rounds to $54''$",
+              "$\\theta \\approx 26^\\circ 33' 54''$"
+            ],
+            "finalAnswer": "Therefore $\\theta \\approx 26^\\circ 33' 54''$.",
+            "solutionFigures": [],
+            "tip": "The DMS key converts directly; check the seconds are rounded, not truncated."
+          }
+        },
+        {
+          "id": "ch5_ex4_q9b",
+          "number": "9(b)",
+          "category": "Practice",
+          "questionText": "Calculate the size of the angle $\\theta$, correct to the nearest second: $\\cos(\\theta) = 0.438$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta = \\cos^{-1}(k)$; minutes $=$ decimal degrees $\\times 60$; seconds $=$ decimal minutes $\\times 60$",
+            "steps": [
+              "Given: $\\cos(\\theta) = 0.438$. Goal: $\\theta$ to the nearest second.",
+              "$\\theta = \\cos^{-1}(0.438) \\approx 64.023657^\\circ$",
+              "Minutes: $0.023657 \\times 60 \\approx 1.4194'$, so $1'$",
+              "Seconds: $0.4194 \\times 60 \\approx 25.17''$, which rounds to $25''$",
+              "$\\theta \\approx 64^\\circ 1' 25''$"
+            ],
+            "finalAnswer": "Therefore $\\theta \\approx 64^\\circ 1' 25''$.",
+            "solutionFigures": [],
+            "tip": "Small decimal parts still give minutes and seconds; don't drop them."
+          }
+        },
+        {
+          "id": "ch5_ex4_q9c",
+          "number": "9(c)",
+          "category": "Practice",
+          "questionText": "Calculate the size of the angle $\\theta$, correct to the nearest second: $\\sin(\\theta) = 0.9047$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta = \\sin^{-1}(k)$; minutes $=$ decimal degrees $\\times 60$; seconds $=$ decimal minutes $\\times 60$",
+            "steps": [
+              "Given: $\\sin(\\theta) = 0.9047$. Goal: $\\theta$ to the nearest second.",
+              "$\\theta = \\sin^{-1}(0.9047) \\approx 64.782908^\\circ$",
+              "Minutes: $0.782908 \\times 60 \\approx 46.9745'$, so $46'$",
+              "Seconds: $0.9745 \\times 60 \\approx 58.47''$, which rounds to $58''$",
+              "$\\theta \\approx 64^\\circ 46' 58''$"
+            ],
+            "finalAnswer": "Therefore $\\theta \\approx 64^\\circ 46' 58''$. (The textbook lists $64^\\circ 46' 59''$; the calculator value $58.47''$ rounds to $58''$.)",
+            "solutionFigures": [],
+            "tip": "Keep all decimals until the final seconds step to avoid being 1 second out."
+          }
+        },
+        {
+          "id": "ch5_ex4_q10a",
+          "number": "10(a)",
+          "category": "Master",
+          "questionText": "Calculate the size of the angle $\\theta$, correct to the nearest second: $\\tan(\\theta) = 1.1141$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta = \\tan^{-1}(k)$; minutes $=$ decimal degrees $\\times 60$; seconds $=$ decimal minutes $\\times 60$",
+            "steps": [
+              "Given: $\\tan(\\theta) = 1.1141$. Goal: $\\theta$ to the nearest second.",
+              "$\\theta = \\tan^{-1}(1.1141) \\approx 48.089311^\\circ$",
+              "Minutes: $0.089311 \\times 60 \\approx 5.3587'$, so $5'$",
+              "Seconds: $0.3587 \\times 60 \\approx 21.52''$, which rounds to $22''$",
+              "$\\theta \\approx 48^\\circ 5' 22''$"
+            ],
+            "finalAnswer": "Therefore $\\theta \\approx 48^\\circ 5' 22''$.",
+            "solutionFigures": [],
+            "tip": "Use the inverse tangent, not $\\frac{1}{\\tan}$."
+          }
+        },
+        {
+          "id": "ch5_ex4_q10b",
+          "number": "10(b)",
+          "category": "Master",
+          "questionText": "Calculate the size of the angle $\\theta$, correct to the nearest second: $\\cos(\\theta) = 0.8$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta = \\cos^{-1}(k)$; minutes $=$ decimal degrees $\\times 60$; seconds $=$ decimal minutes $\\times 60$",
+            "steps": [
+              "Given: $\\cos(\\theta) = 0.8$. Goal: $\\theta$ to the nearest second.",
+              "$\\theta = \\cos^{-1}(0.8) \\approx 36.869898^\\circ$",
+              "Minutes: $0.869898 \\times 60 \\approx 52.1939'$, so $52'$",
+              "Seconds: $0.1939 \\times 60 \\approx 11.63''$, which rounds to $12''$",
+              "$\\theta \\approx 36^\\circ 52' 12''$"
+            ],
+            "finalAnswer": "Therefore $\\theta \\approx 36^\\circ 52' 12''$.",
+            "solutionFigures": [],
+            "tip": "This is the angle in a 3–4–5 triangle opposite the side of length 3."
+          }
+        },
+        {
+          "id": "ch5_ex4_q10c",
+          "number": "10(c)",
+          "category": "Master",
+          "questionText": "Calculate the size of the angle $\\theta$, correct to the nearest second: $\\tan(\\theta) = 43.76$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta = \\tan^{-1}(k)$; minutes $=$ decimal degrees $\\times 60$; seconds $=$ decimal minutes $\\times 60$",
+            "steps": [
+              "Given: $\\tan(\\theta) = 43.76$. Goal: $\\theta$ to the nearest second.",
+              "$\\theta = \\tan^{-1}(43.76) \\approx 88.690909^\\circ$",
+              "Minutes: $0.690909 \\times 60 \\approx 41.4545'$, so $41'$",
+              "Seconds: $0.4545 \\times 60 \\approx 27.27''$, which rounds to $27''$",
+              "$\\theta \\approx 88^\\circ 41' 27''$"
+            ],
+            "finalAnswer": "Therefore $\\theta \\approx 88^\\circ 41' 27''$.",
+            "solutionFigures": [],
+            "tip": "A large tangent value gives an angle close to (but less than) $90^\\circ$."
+          }
+        },
+        {
+          "id": "ch5_ex4_q11a",
+          "number": "11(a)",
+          "category": "Practice",
+          "questionText": "Calculate the value of the expression, correct to 3 decimal places: $3.8\\cos(42^\\circ)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Evaluate the trig value in degree mode, then multiply.",
+            "steps": [
+              "Goal: $3.8\\cos(42^\\circ)$ to 3 decimal places.",
+              "$\\cos(42^\\circ) \\approx 0.743145$",
+              "$3.8 \\times 0.743145 \\approx 2.823950$",
+              "Round to 3 decimal places: $2.824$"
+            ],
+            "finalAnswer": "Therefore $3.8\\cos(42^\\circ) \\approx 2.824$.",
+            "solutionFigures": [],
+            "tip": "$3.8\\cos(42^\\circ)$ means $3.8 \\times \\cos(42^\\circ)$, not $\\cos(3.8 \\times 42^\\circ)$."
+          }
+        },
+        {
+          "id": "ch5_ex4_q11b",
+          "number": "11(b)",
+          "category": "Practice",
+          "questionText": "Calculate the value of the expression, correct to 3 decimal places: $118\\sin(37^\\circ)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Evaluate the trig value in degree mode, then multiply.",
+            "steps": [
+              "Goal: $118\\sin(37^\\circ)$ to 3 decimal places.",
+              "$\\sin(37^\\circ) \\approx 0.601815$",
+              "$118 \\times 0.601815 \\approx 71.014173$",
+              "Round to 3 decimal places: $71.014$"
+            ],
+            "finalAnswer": "Therefore $118\\sin(37^\\circ) \\approx 71.014$.",
+            "solutionFigures": [],
+            "tip": "Do the whole calculation in one line on the calculator to avoid rounding errors."
+          }
+        },
+        {
+          "id": "ch5_ex4_q11c",
+          "number": "11(c)",
+          "category": "Practice",
+          "questionText": "Calculate the value of the expression, correct to 3 decimal places: $2.5\\tan(83^\\circ)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Evaluate the trig value in degree mode, then multiply.",
+            "steps": [
+              "Goal: $2.5\\tan(83^\\circ)$ to 3 decimal places.",
+              "$\\tan(83^\\circ) \\approx 8.144346$",
+              "$2.5 \\times 8.144346 \\approx 20.360866$",
+              "Round to 3 decimal places: $20.361$"
+            ],
+            "finalAnswer": "Therefore $2.5\\tan(83^\\circ) \\approx 20.361$.",
+            "solutionFigures": [],
+            "tip": "Use the unrounded tangent value; rounding it first can change the 3rd decimal place."
+          }
+        },
+        {
+          "id": "ch5_ex4_q11d",
+          "number": "11(d)",
+          "category": "Practice",
+          "questionText": "Calculate the value of the expression, correct to 3 decimal places: $\\dfrac{2}{\\sin(45^\\circ)}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Evaluate the trig value in degree mode, then divide.",
+            "steps": [
+              "Goal: $\\dfrac{2}{\\sin(45^\\circ)}$ to 3 decimal places.",
+              "$\\sin(45^\\circ) \\approx 0.707107$",
+              "$\\dfrac{2}{0.707107} \\approx 2.828427$ (this equals $2\\sqrt{2}$)",
+              "Round to 3 decimal places: $2.828$"
+            ],
+            "finalAnswer": "Therefore $\\dfrac{2}{\\sin(45^\\circ)} \\approx 2.828$.",
+            "solutionFigures": [],
+            "tip": "Put the denominator in brackets on the calculator."
+          }
+        },
+        {
+          "id": "ch5_ex4_q12a",
+          "number": "12(a)",
+          "category": "Consolidate",
+          "questionText": "Calculate the value of the expression, correct to 3 decimal places: $\\dfrac{220}{\\cos(14^\\circ)}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Evaluate the trig value in degree mode, then divide.",
+            "steps": [
+              "Goal: $\\dfrac{220}{\\cos(14^\\circ)}$ to 3 decimal places.",
+              "$\\cos(14^\\circ) \\approx 0.970296$",
+              "$\\dfrac{220}{0.970296} \\approx 226.734998$",
+              "Round to 3 decimal places: $226.735$"
+            ],
+            "finalAnswer": "Therefore $\\dfrac{220}{\\cos(14^\\circ)} \\approx 226.735$.",
+            "solutionFigures": [],
+            "tip": "Dividing by a number less than 1 makes the answer bigger than 220, a quick check."
+          }
+        },
+        {
+          "id": "ch5_ex4_q12b",
+          "number": "12(b)",
+          "category": "Consolidate",
+          "questionText": "Calculate the value of the expression, correct to 3 decimal places: $\\dfrac{2\\cos(23^\\circ)}{5\\sin(18^\\circ)}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Evaluate numerator and denominator separately (degree mode), then divide.",
+            "steps": [
+              "Goal: $\\dfrac{2\\cos(23^\\circ)}{5\\sin(18^\\circ)}$ to 3 decimal places.",
+              "Numerator: $2\\cos(23^\\circ) \\approx 2 \\times 0.920505 = 1.841010$",
+              "Denominator: $5\\sin(18^\\circ) \\approx 5 \\times 0.309017 = 1.545085$",
+              "$\\dfrac{1.841010}{1.545085} \\approx 1.191527$",
+              "Round to 3 decimal places: $1.192$"
+            ],
+            "finalAnswer": "Therefore $\\dfrac{2\\cos(23^\\circ)}{5\\sin(18^\\circ)} \\approx 1.192$.",
+            "solutionFigures": [],
+            "tip": "Bracket the whole denominator, $(5\\sin(18^\\circ))$, when typing it in."
+          }
+        },
+        {
+          "id": "ch5_ex4_q12c",
+          "number": "12(c)",
+          "category": "Consolidate",
+          "questionText": "Calculate the value of the expression, correct to 3 decimal places: $\\dfrac{12.8}{\\tan(60^\\circ 32')}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$D^\\circ M' = \\left(D + \\frac{M}{60}\\right)^\\circ$; evaluate in degree mode, then divide.",
+            "steps": [
+              "Goal: $\\dfrac{12.8}{\\tan(60^\\circ 32')}$ to 3 decimal places.",
+              "$60^\\circ 32' = 60 + \\frac{32}{60} \\approx 60.533333^\\circ$",
+              "$\\tan(60.533333^\\circ) \\approx 1.769896$",
+              "$\\dfrac{12.8}{1.769896} \\approx 7.232064$",
+              "Round to 3 decimal places: $7.232$"
+            ],
+            "finalAnswer": "Therefore $\\dfrac{12.8}{\\tan(60^\\circ 32')} \\approx 7.232$.",
+            "solutionFigures": [],
+            "tip": "Enter the angle with the DMS key so the minutes are converted correctly."
+          }
+        },
+        {
+          "id": "ch5_ex4_q12d",
+          "number": "12(d)",
+          "category": "Consolidate",
+          "questionText": "Calculate the value of the expression, correct to 3 decimal places: $\\dfrac{18.7}{\\sin(35^\\circ 25' 42'')}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$D^\\circ M' S'' = \\left(D + \\frac{M}{60} + \\frac{S}{3600}\\right)^\\circ$; evaluate, then divide.",
+            "steps": [
+              "Goal: $\\dfrac{18.7}{\\sin(35^\\circ 25' 42'')}$ to 3 decimal places.",
+              "$35^\\circ 25' 42'' = 35 + \\frac{25}{60} + \\frac{42}{3600} \\approx 35.428333^\\circ$",
+              "$\\sin(35.428333^\\circ) \\approx 0.579684$",
+              "$\\dfrac{18.7}{0.579684} \\approx 32.258944$",
+              "Round to 3 decimal places: $32.259$"
+            ],
+            "finalAnswer": "Therefore $\\dfrac{18.7}{\\sin(35^\\circ 25' 42'')} \\approx 32.259$.",
+            "solutionFigures": [],
+            "tip": "Seconds are divided by 3600, not 60."
+          }
+        },
+        {
+          "id": "ch5_ex4_q13a",
+          "number": "13(a)",
+          "category": "Master",
+          "questionText": "Calculate the value of the expression, correct to 3 decimal places: $\\dfrac{55.7}{\\cos(89^\\circ 21')}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$D^\\circ M' = \\left(D + \\frac{M}{60}\\right)^\\circ$; evaluate in degree mode, then divide.",
+            "steps": [
+              "Goal: $\\dfrac{55.7}{\\cos(89^\\circ 21')}$ to 3 decimal places.",
+              "$89^\\circ 21' = 89 + \\frac{21}{60} = 89.35^\\circ$",
+              "$\\cos(89.35^\\circ) \\approx 0.01134437$",
+              "$\\dfrac{55.7}{0.01134437} \\approx 4909.912885$",
+              "Round to 3 decimal places: $4909.913$"
+            ],
+            "finalAnswer": "Therefore $\\dfrac{55.7}{\\cos(89^\\circ 21')} \\approx 4909.913$.",
+            "solutionFigures": [],
+            "tip": "Dividing by a very small number magnifies rounding errors, so never round the cosine first."
+          }
+        },
+        {
+          "id": "ch5_ex4_q13b",
+          "number": "13(b)",
+          "category": "Master",
+          "questionText": "Calculate the value of the expression, correct to 3 decimal places: $\\dfrac{3.8\\tan(1^\\circ 51' 44'')}{4.5\\sin(25^\\circ 45')}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Convert each angle to decimal degrees, evaluate numerator and denominator, then divide.",
+            "steps": [
+              "Goal: the value of the expression to 3 decimal places.",
+              "$1^\\circ 51' 44'' \\approx 1.862222^\\circ$; $\\tan(1.862222^\\circ) \\approx 0.032513$",
+              "Numerator: $3.8 \\times 0.032513 \\approx 0.123549$",
+              "$25^\\circ 45' = 25.75^\\circ$; $\\sin(25.75^\\circ) \\approx 0.434445$",
+              "Denominator: $4.5 \\times 0.434445 \\approx 1.955003$",
+              "$\\dfrac{0.123549}{1.955003} \\approx 0.063197$",
+              "Round to 3 decimal places: $0.063$"
+            ],
+            "finalAnswer": "Therefore the expression $\\approx 0.063$.",
+            "solutionFigures": [],
+            "tip": "Use brackets around both the numerator and the denominator on the calculator."
+          }
+        },
+        {
+          "id": "ch5_ex4_q13c",
+          "number": "13(c)",
+          "category": "Master",
+          "questionText": "Calculate the value of the expression, correct to 3 decimal places: $\\dfrac{2.5\\sin(27^\\circ 8')}{10.4\\cos(83^\\circ 2')}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Convert each angle to decimal degrees, evaluate numerator and denominator, then divide.",
+            "steps": [
+              "Goal: the value of the expression to 3 decimal places.",
+              "$27^\\circ 8' \\approx 27.133333^\\circ$; $\\sin(27.133333^\\circ) \\approx 0.456063$",
+              "Numerator: $2.5 \\times 0.456063 \\approx 1.140158$",
+              "$83^\\circ 2' \\approx 83.033333^\\circ$; $\\cos(83.033333^\\circ) \\approx 0.121292$",
+              "Denominator: $10.4 \\times 0.121292 \\approx 1.261437$",
+              "$\\dfrac{1.140158}{1.261437} \\approx 0.903857$",
+              "Round to 3 decimal places: $0.904$"
+            ],
+            "finalAnswer": "Therefore the expression $\\approx 0.904$.",
+            "solutionFigures": [],
+            "tip": "Check the angle units of each term before evaluating."
+          }
+        },
+        {
+          "id": "ch5_ex4_q13d",
+          "number": "13(d)",
+          "category": "Master",
+          "questionText": "Calculate the value of the expression, correct to 3 decimal places: $\\dfrac{3.2\\cos(34^\\circ 52')}{0.8\\sin(12^\\circ 48')}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Convert each angle to decimal degrees, evaluate numerator and denominator, then divide.",
+            "steps": [
+              "Goal: the value of the expression to 3 decimal places.",
+              "$34^\\circ 52' \\approx 34.866667^\\circ$; $\\cos(34.866667^\\circ) \\approx 0.820485$",
+              "Numerator: $3.2 \\times 0.820485 \\approx 2.625552$",
+              "$12^\\circ 48' = 12.8^\\circ$; $\\sin(12.8^\\circ) \\approx 0.221548$",
+              "Denominator: $0.8 \\times 0.221548 \\approx 0.177238$",
+              "$\\dfrac{2.625552}{0.177238} \\approx 14.8136$",
+              "Round to 3 decimal places: $14.814$"
+            ],
+            "finalAnswer": "Therefore the expression $\\approx 14.814$.",
+            "solutionFigures": [],
+            "tip": "$48'$ is $0.8^\\circ$, so $12^\\circ 48' = 12.8^\\circ$."
+          }
+        },
+        {
+          "id": "ch5_ex4_q14a",
+          "number": "14(a)",
+          "category": "Practice",
+          "questionText": "Write an expression for sine of $\\theta$. The right-angled triangle has the right angle at the top right. The top side is $d$, the right vertical side is $e$ and the hypotenuse is $f$. The angle $\\theta$ is at the top left vertex, between sides $d$ and $f$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = \\dfrac{\\text{opposite}}{\\text{hypotenuse}}$ (SOH)",
+            "steps": [
+              "Label sides relative to $\\theta$: hypotenuse (opposite the right angle) $= f$; opposite (across from $\\theta$) $= e$; adjacent (next to $\\theta$) $= d$.",
+              "$\\sin(\\theta) = \\dfrac{O}{H} = \\dfrac{e}{f}$"
+            ],
+            "finalAnswer": "$\\sin(\\theta) = \\dfrac{e}{f}$",
+            "solutionFigures": [],
+            "tip": "Always find the hypotenuse first: it is opposite the right angle."
+          }
+        },
+        {
+          "id": "ch5_ex4_q14b",
+          "number": "14(b)",
+          "category": "Practice",
+          "questionText": "Write an expression for cosine of $\\theta$. The right-angled triangle has the right angle at the top right. The top side is $d$, the right vertical side is $e$ and the hypotenuse is $f$. The angle $\\theta$ is at the top left vertex, between sides $d$ and $f$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(\\theta) = \\dfrac{\\text{adjacent}}{\\text{hypotenuse}}$ (CAH)",
+            "steps": [
+              "Label sides relative to $\\theta$: H $= f$, O $= e$, A $= d$.",
+              "$\\cos(\\theta) = \\dfrac{A}{H} = \\dfrac{d}{f}$"
+            ],
+            "finalAnswer": "$\\cos(\\theta) = \\dfrac{d}{f}$",
+            "solutionFigures": [],
+            "tip": "The adjacent side touches the angle but is not the hypotenuse."
+          }
+        },
+        {
+          "id": "ch5_ex4_q14c",
+          "number": "14(c)",
+          "category": "Practice",
+          "questionText": "Write an expression for tangent of $\\theta$. The right-angled triangle has the right angle at the top right. The top side is $d$, the right vertical side is $e$ and the hypotenuse is $f$. The angle $\\theta$ is at the top left vertex, between sides $d$ and $f$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{\\text{opposite}}{\\text{adjacent}}$ (TOA)",
+            "steps": [
+              "Label sides relative to $\\theta$: H $= f$, O $= e$, A $= d$.",
+              "$\\tan(\\theta) = \\dfrac{O}{A} = \\dfrac{e}{d}$"
+            ],
+            "finalAnswer": "$\\tan(\\theta) = \\dfrac{e}{d}$",
+            "solutionFigures": [],
+            "tip": "Tangent does not use the hypotenuse."
+          }
+        },
+        {
+          "id": "ch5_ex4_q15a",
+          "number": "15(a)",
+          "category": "Practice",
+          "questionText": "Write an expression for sine of $\\alpha$. The right-angled triangle has the right angle at the top vertex. The upper-left side is $i$, the upper-right side is $h$ and the base (hypotenuse) is $g$. The angle $\\alpha$ is at the bottom right vertex, between sides $h$ and $g$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\alpha) = \\dfrac{\\text{opposite}}{\\text{hypotenuse}}$",
+            "steps": [
+              "Label sides relative to $\\alpha$: H $= g$ (opposite the right angle), O $= i$ (across from $\\alpha$), A $= h$.",
+              "$\\sin(\\alpha) = \\dfrac{O}{H} = \\dfrac{i}{g}$"
+            ],
+            "finalAnswer": "$\\sin(\\alpha) = \\dfrac{i}{g}$",
+            "solutionFigures": [],
+            "tip": "The hypotenuse need not be slanted; here it is the horizontal base."
+          }
+        },
+        {
+          "id": "ch5_ex4_q15b",
+          "number": "15(b)",
+          "category": "Practice",
+          "questionText": "Write an expression for cosine of $\\alpha$. The right-angled triangle has the right angle at the top vertex. The upper-left side is $i$, the upper-right side is $h$ and the base (hypotenuse) is $g$. The angle $\\alpha$ is at the bottom right vertex, between sides $h$ and $g$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(\\alpha) = \\dfrac{\\text{adjacent}}{\\text{hypotenuse}}$",
+            "steps": [
+              "Label sides relative to $\\alpha$: H $= g$, O $= i$, A $= h$.",
+              "$\\cos(\\alpha) = \\dfrac{A}{H} = \\dfrac{h}{g}$"
+            ],
+            "finalAnswer": "$\\cos(\\alpha) = \\dfrac{h}{g}$",
+            "solutionFigures": [],
+            "tip": "Two sides touch $\\alpha$; the adjacent one is the one that is not the hypotenuse."
+          }
+        },
+        {
+          "id": "ch5_ex4_q15c",
+          "number": "15(c)",
+          "category": "Practice",
+          "questionText": "Write an expression for tangent of $\\alpha$. The right-angled triangle has the right angle at the top vertex. The upper-left side is $i$, the upper-right side is $h$ and the base (hypotenuse) is $g$. The angle $\\alpha$ is at the bottom right vertex, between sides $h$ and $g$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\alpha) = \\dfrac{\\text{opposite}}{\\text{adjacent}}$",
+            "steps": [
+              "Label sides relative to $\\alpha$: H $= g$, O $= i$, A $= h$.",
+              "$\\tan(\\alpha) = \\dfrac{O}{A} = \\dfrac{i}{h}$"
+            ],
+            "finalAnswer": "$\\tan(\\alpha) = \\dfrac{i}{h}$",
+            "solutionFigures": [],
+            "tip": "Tangent uses the two shorter sides only."
+          }
+        },
+        {
+          "id": "ch5_ex4_q16a",
+          "number": "16(a)",
+          "category": "Consolidate",
+          "questionText": "Write an expression for sine of $\\beta$. The right-angled triangle has the right angle at the bottom left. The left vertical side is $j$, the base is $l$ and the hypotenuse is $k$. The angle $\\beta$ is at the top vertex, between sides $j$ and $k$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\beta) = \\dfrac{\\text{opposite}}{\\text{hypotenuse}}$",
+            "steps": [
+              "Label sides relative to $\\beta$: H $= k$, O $= l$ (across from $\\beta$), A $= j$.",
+              "$\\sin(\\beta) = \\dfrac{O}{H} = \\dfrac{l}{k}$"
+            ],
+            "finalAnswer": "$\\sin(\\beta) = \\dfrac{l}{k}$",
+            "solutionFigures": [],
+            "tip": "Labels depend on which angle you use; re-label for each new angle."
+          }
+        },
+        {
+          "id": "ch5_ex4_q16b",
+          "number": "16(b)",
+          "category": "Consolidate",
+          "questionText": "Write an expression for cosine of $\\beta$. The right-angled triangle has the right angle at the bottom left. The left vertical side is $j$, the base is $l$ and the hypotenuse is $k$. The angle $\\beta$ is at the top vertex, between sides $j$ and $k$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(\\beta) = \\dfrac{\\text{adjacent}}{\\text{hypotenuse}}$",
+            "steps": [
+              "Label sides relative to $\\beta$: H $= k$, O $= l$, A $= j$.",
+              "$\\cos(\\beta) = \\dfrac{A}{H} = \\dfrac{j}{k}$"
+            ],
+            "finalAnswer": "$\\cos(\\beta) = \\dfrac{j}{k}$",
+            "solutionFigures": [],
+            "tip": "The adjacent side here is vertical, which is fine; what matters is that it touches $\\beta$."
+          }
+        },
+        {
+          "id": "ch5_ex4_q16c",
+          "number": "16(c)",
+          "category": "Consolidate",
+          "questionText": "Write an expression for tangent of $\\beta$. The right-angled triangle has the right angle at the bottom left. The left vertical side is $j$, the base is $l$ and the hypotenuse is $k$. The angle $\\beta$ is at the top vertex, between sides $j$ and $k$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\beta) = \\dfrac{\\text{opposite}}{\\text{adjacent}}$",
+            "steps": [
+              "Label sides relative to $\\beta$: H $= k$, O $= l$, A $= j$.",
+              "$\\tan(\\beta) = \\dfrac{O}{A} = \\dfrac{l}{j}$"
+            ],
+            "finalAnswer": "$\\tan(\\beta) = \\dfrac{l}{j}$",
+            "solutionFigures": [],
+            "tip": "Opposite over adjacent: do not flip the fraction."
+          }
+        },
+        {
+          "id": "ch5_ex4_q17a",
+          "number": "17(a)",
+          "category": "Consolidate",
+          "questionText": "Write an expression for sine of $\\gamma$. The right-angled triangle has the right angle at the top vertex. The short side from the left vertex to the right angle is $o$, the side from the right angle down to the bottom right vertex is $n$, and the hypotenuse is $m$. The angle $\\gamma$ is at the left vertex, between sides $o$ and $m$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\gamma) = \\dfrac{\\text{opposite}}{\\text{hypotenuse}}$",
+            "steps": [
+              "Label sides relative to $\\gamma$: H $= m$, O $= n$, A $= o$.",
+              "$\\sin(\\gamma) = \\dfrac{O}{H} = \\dfrac{n}{m}$"
+            ],
+            "finalAnswer": "$\\sin(\\gamma) = \\dfrac{n}{m}$",
+            "solutionFigures": [],
+            "tip": "The opposite side never touches the angle."
+          }
+        },
+        {
+          "id": "ch5_ex4_q17b",
+          "number": "17(b)",
+          "category": "Consolidate",
+          "questionText": "Write an expression for cosine of $\\gamma$. The right-angled triangle has the right angle at the top vertex. The short side from the left vertex to the right angle is $o$, the side from the right angle down to the bottom right vertex is $n$, and the hypotenuse is $m$. The angle $\\gamma$ is at the left vertex, between sides $o$ and $m$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(\\gamma) = \\dfrac{\\text{adjacent}}{\\text{hypotenuse}}$",
+            "steps": [
+              "Label sides relative to $\\gamma$: H $= m$, O $= n$, A $= o$.",
+              "$\\cos(\\gamma) = \\dfrac{A}{H} = \\dfrac{o}{m}$"
+            ],
+            "finalAnswer": "$\\cos(\\gamma) = \\dfrac{o}{m}$",
+            "solutionFigures": [],
+            "tip": "Don't confuse the side named $o$ with 'O' for opposite; here $o$ is the adjacent side."
+          }
+        },
+        {
+          "id": "ch5_ex4_q17c",
+          "number": "17(c)",
+          "category": "Consolidate",
+          "questionText": "Write an expression for tangent of $\\gamma$. The right-angled triangle has the right angle at the top vertex. The short side from the left vertex to the right angle is $o$, the side from the right angle down to the bottom right vertex is $n$, and the hypotenuse is $m$. The angle $\\gamma$ is at the left vertex, between sides $o$ and $m$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\gamma) = \\dfrac{\\text{opposite}}{\\text{adjacent}}$",
+            "steps": [
+              "Label sides relative to $\\gamma$: H $= m$, O $= n$, A $= o$.",
+              "$\\tan(\\gamma) = \\dfrac{O}{A} = \\dfrac{n}{o}$"
+            ],
+            "finalAnswer": "$\\tan(\\gamma) = \\dfrac{n}{o}$",
+            "solutionFigures": [],
+            "tip": "Tangent uses the two sides that form the right angle."
+          }
+        },
+        {
+          "id": "ch5_ex4_q18a",
+          "number": "18(a)",
+          "category": "Master",
+          "questionText": "Write an expression for sine of $\\beta$. The right-angled triangle has the right angle at the top vertex. The side from the left vertex to the right angle is $a$, the side from the right angle to the bottom right vertex is $b$, and the base (hypotenuse) is $c$. The angle $\\beta$ is at the left vertex, between sides $a$ and $c$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\beta) = \\dfrac{\\text{opposite}}{\\text{hypotenuse}}$",
+            "steps": [
+              "Label sides relative to $\\beta$: H $= c$, O $= b$, A $= a$.",
+              "$\\sin(\\beta) = \\dfrac{O}{H} = \\dfrac{b}{c}$"
+            ],
+            "finalAnswer": "$\\sin(\\beta) = \\dfrac{b}{c}$",
+            "solutionFigures": [],
+            "tip": "The hypotenuse is opposite the right-angle box, here the base $c$."
+          }
+        },
+        {
+          "id": "ch5_ex4_q18b",
+          "number": "18(b)",
+          "category": "Master",
+          "questionText": "Write an expression for cosine of $\\beta$. The right-angled triangle has the right angle at the top vertex. The side from the left vertex to the right angle is $a$, the side from the right angle to the bottom right vertex is $b$, and the base (hypotenuse) is $c$. The angle $\\beta$ is at the left vertex, between sides $a$ and $c$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(\\beta) = \\dfrac{\\text{adjacent}}{\\text{hypotenuse}}$",
+            "steps": [
+              "Label sides relative to $\\beta$: H $= c$, O $= b$, A $= a$.",
+              "$\\cos(\\beta) = \\dfrac{A}{H} = \\dfrac{a}{c}$"
+            ],
+            "finalAnswer": "$\\cos(\\beta) = \\dfrac{a}{c}$",
+            "solutionFigures": [],
+            "tip": "Here the side named $a$ happens to be the adjacent side A."
+          }
+        },
+        {
+          "id": "ch5_ex4_q18c",
+          "number": "18(c)",
+          "category": "Master",
+          "questionText": "Write an expression for tangent of $\\beta$. The right-angled triangle has the right angle at the top vertex. The side from the left vertex to the right angle is $a$, the side from the right angle to the bottom right vertex is $b$, and the base (hypotenuse) is $c$. The angle $\\beta$ is at the left vertex, between sides $a$ and $c$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\beta) = \\dfrac{\\text{opposite}}{\\text{adjacent}}$",
+            "steps": [
+              "Label sides relative to $\\beta$: H $= c$, O $= b$, A $= a$.",
+              "$\\tan(\\beta) = \\dfrac{O}{A} = \\dfrac{b}{a}$"
+            ],
+            "finalAnswer": "$\\tan(\\beta) = \\dfrac{b}{a}$",
+            "solutionFigures": [],
+            "tip": "Opposite over adjacent; the hypotenuse $c$ is not used."
+          }
+        },
+        {
+          "id": "ch5_ex4_q19a",
+          "number": "19(a)",
+          "category": "Master",
+          "questionText": "Write an expression for sine of $\\gamma$. The right-angled triangle has the right angle at the bottom left. The left vertical side is $v$, the base is $t$ and the hypotenuse is $u$. The angle $\\gamma$ is at the bottom right vertex, between sides $t$ and $u$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\gamma) = \\dfrac{\\text{opposite}}{\\text{hypotenuse}}$",
+            "steps": [
+              "Label sides relative to $\\gamma$: H $= u$, O $= v$, A $= t$.",
+              "$\\sin(\\gamma) = \\dfrac{O}{H} = \\dfrac{v}{u}$"
+            ],
+            "finalAnswer": "$\\sin(\\gamma) = \\dfrac{v}{u}$",
+            "solutionFigures": [],
+            "tip": "Remember SOH-CAH-TOA to pick the right pair of sides."
+          }
+        },
+        {
+          "id": "ch5_ex4_q19b",
+          "number": "19(b)",
+          "category": "Master",
+          "questionText": "Write an expression for cosine of $\\gamma$. The right-angled triangle has the right angle at the bottom left. The left vertical side is $v$, the base is $t$ and the hypotenuse is $u$. The angle $\\gamma$ is at the bottom right vertex, between sides $t$ and $u$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(\\gamma) = \\dfrac{\\text{adjacent}}{\\text{hypotenuse}}$",
+            "steps": [
+              "Label sides relative to $\\gamma$: H $= u$, O $= v$, A $= t$.",
+              "$\\cos(\\gamma) = \\dfrac{A}{H} = \\dfrac{t}{u}$"
+            ],
+            "finalAnswer": "$\\cos(\\gamma) = \\dfrac{t}{u}$",
+            "solutionFigures": [],
+            "tip": "The adjacent side lies between the angle and the right angle."
+          }
+        },
+        {
+          "id": "ch5_ex4_q19c",
+          "number": "19(c)",
+          "category": "Master",
+          "questionText": "Write an expression for tangent of $\\gamma$. The right-angled triangle has the right angle at the bottom left. The left vertical side is $v$, the base is $t$ and the hypotenuse is $u$. The angle $\\gamma$ is at the bottom right vertex, between sides $t$ and $u$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\gamma) = \\dfrac{\\text{opposite}}{\\text{adjacent}}$",
+            "steps": [
+              "Label sides relative to $\\gamma$: H $= u$, O $= v$, A $= t$.",
+              "$\\tan(\\gamma) = \\dfrac{O}{A} = \\dfrac{v}{t}$"
+            ],
+            "finalAnswer": "$\\tan(\\gamma) = \\dfrac{v}{t}$",
+            "solutionFigures": [],
+            "tip": "Tangent uses the two shorter sides."
+          }
+        },
+        {
+          "id": "ch5_ex4_q20a",
+          "number": "20(a)",
+          "category": "Consolidate",
+          "questionText": "Write the equation that relates the two marked sides and the marked angle in the triangle. The right-angled triangle has the right angle at the bottom left. The vertical side is $15$, the hypotenuse is $18$, and the angle $\\theta$ is at the bottom right vertex.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "SOH-CAH-TOA: choose the ratio that uses the two given sides.",
+            "steps": [
+              "Given: relative to $\\theta$, the side 15 is opposite and 18 is the hypotenuse. Goal: equation linking them.",
+              "Opposite and hypotenuse are used by sine: $\\sin(\\theta) = \\dfrac{O}{H}$",
+              "Substitute: $\\sin(\\theta) = \\dfrac{15}{18}$"
+            ],
+            "finalAnswer": "$\\sin(\\theta) = \\dfrac{15}{18}$",
+            "solutionFigures": [],
+            "tip": "Label O, A, H first, then match the two known labels to SOH, CAH or TOA."
+          }
+        },
+        {
+          "id": "ch5_ex4_q20b",
+          "number": "20(b)",
+          "category": "Consolidate",
+          "questionText": "Write the equation that relates the two marked sides and the marked angle in the triangle. The right-angled triangle has the angle $\\theta$ at the left vertex. The side from $\\theta$ to the right angle is $22$ and the hypotenuse (from $\\theta$ to the bottom right vertex) is $30$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "SOH-CAH-TOA: choose the ratio that uses the two given sides.",
+            "steps": [
+              "Given: relative to $\\theta$, 22 is adjacent and 30 is the hypotenuse.",
+              "Adjacent and hypotenuse are used by cosine: $\\cos(\\theta) = \\dfrac{A}{H}$",
+              "Substitute: $\\cos(\\theta) = \\dfrac{22}{30}$"
+            ],
+            "finalAnswer": "$\\cos(\\theta) = \\dfrac{22}{30}$",
+            "solutionFigures": [],
+            "tip": "The side between the angle and the right angle is the adjacent side."
+          }
+        },
+        {
+          "id": "ch5_ex4_q20c",
+          "number": "20(c)",
+          "category": "Consolidate",
+          "questionText": "Write the equation that relates the two marked sides and the marked angle in the triangle. The right-angled triangle has the right angle at the top left. The top side is $9$, the left vertical side is $7$, and the angle $\\theta$ is at the top right vertex.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "SOH-CAH-TOA: choose the ratio that uses the two given sides.",
+            "steps": [
+              "Given: relative to $\\theta$, 7 is opposite and 9 is adjacent.",
+              "Opposite and adjacent are used by tangent: $\\tan(\\theta) = \\dfrac{O}{A}$",
+              "Substitute: $\\tan(\\theta) = \\dfrac{7}{9}$"
+            ],
+            "finalAnswer": "$\\tan(\\theta) = \\dfrac{7}{9}$",
+            "solutionFigures": [],
+            "tip": "When neither marked side is the hypotenuse, the ratio is always tangent."
+          }
+        },
+        {
+          "id": "ch5_ex4_q21a",
+          "number": "21(a)",
+          "category": "Master",
+          "questionText": "Write the equation that relates the two marked sides and the marked angle in the triangle. The right-angled triangle has the right angle at the top. The side from the left vertex to the right angle is $3.6$; the side from the right angle to the bottom right vertex is $p$. The angle $\\theta$ is at the bottom right vertex.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "SOH-CAH-TOA: choose the ratio that uses the two given sides.",
+            "steps": [
+              "Given: relative to $\\theta$, 3.6 is opposite and $p$ is adjacent.",
+              "Opposite and adjacent are used by tangent: $\\tan(\\theta) = \\dfrac{O}{A}$",
+              "Substitute: $\\tan(\\theta) = \\dfrac{3.6}{p}$"
+            ],
+            "finalAnswer": "$\\tan(\\theta) = \\dfrac{3.6}{p}$",
+            "solutionFigures": [],
+            "tip": "A pronumeral can be in the denominator; the ratio is still opposite over adjacent."
+          }
+        },
+        {
+          "id": "ch5_ex4_q21b",
+          "number": "21(b)",
+          "category": "Master",
+          "questionText": "Write the equation that relates the two marked sides and the marked angle in the triangle. The right-angled triangle has the right angle at the bottom right. The angle $25^\\circ$ is at the left vertex; the hypotenuse (from the $25^\\circ$ vertex to the top vertex) is $t$, and the right side (from the top vertex down to the right angle) is $13$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "SOH-CAH-TOA: choose the ratio that uses the two given sides.",
+            "steps": [
+              "Given: relative to $25^\\circ$, 13 is opposite and $t$ is the hypotenuse.",
+              "Opposite and hypotenuse are used by sine: $\\sin(\\theta) = \\dfrac{O}{H}$",
+              "Substitute: $\\sin(25^\\circ) = \\dfrac{13}{t}$"
+            ],
+            "finalAnswer": "$\\sin(25^\\circ) = \\dfrac{13}{t}$",
+            "solutionFigures": [],
+            "tip": "The unknown here is the hypotenuse, so it goes in the denominator of the sine ratio."
+          }
+        },
+        {
+          "id": "ch5_ex4_q21c",
+          "number": "21(c)",
+          "category": "Master",
+          "questionText": "Write the equation that relates the two marked sides and the marked angle in the triangle. The right-angled triangle has the right angle at the top left. The top side is $18.6$, the hypotenuse is $23.5$, and the angle $\\alpha$ is at the bottom vertex.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "SOH-CAH-TOA: choose the ratio that uses the two given sides.",
+            "steps": [
+              "Given: relative to $\\alpha$, 18.6 is opposite and 23.5 is the hypotenuse.",
+              "Opposite and hypotenuse are used by sine.",
+              "Substitute: $\\sin(\\alpha) = \\dfrac{18.6}{23.5}$"
+            ],
+            "finalAnswer": "$\\sin(\\alpha) = \\dfrac{18.6}{23.5}$",
+            "solutionFigures": [],
+            "tip": "The top side does not touch $\\alpha$, so it is the opposite side."
+          }
+        },
+        {
+          "id": "ch5_ex4_q22a",
+          "number": "22(a)",
+          "category": "Practice",
+          "questionText": "Consider the right-angled triangle shown: the right angle is at the bottom right, the angle $37^\\circ$ is at the bottom left and the angle $\\alpha$ is at the top. Label each of the sides using the letters O, A and H with respect to the $37^\\circ$ angle.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "H is opposite the right angle; O is opposite the given angle; A is next to the given angle (not H).",
+            "steps": [
+              "Hypotenuse H: the sloping side, opposite the right angle.",
+              "Opposite O: the vertical side on the right, across from the $37^\\circ$ angle.",
+              "Adjacent A: the horizontal base, between the $37^\\circ$ angle and the right angle."
+            ],
+            "finalAnswer": "H = sloping side (hypotenuse), O = vertical right side, A = horizontal base.",
+            "solutionFigures": [],
+            "tip": "Always label H first, then O, and the remaining side is A."
+          }
+        },
+        {
+          "id": "ch5_ex4_q22bi",
+          "number": "22(b)(i)",
+          "category": "Practice",
+          "questionText": "Consider the right-angled triangle shown: the right angle is at the bottom right, the angle $37^\\circ$ is at the bottom left and the angle $\\alpha$ is at the top. Determine the value of $\\sin(37^\\circ)$, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(37^\\circ) = \\dfrac{O}{H}$; evaluate on a calculator in degree mode.",
+            "steps": [
+              "Goal: $\\sin(37^\\circ)$ to 2 decimal places.",
+              "Calculator (degree mode): $\\sin(37^\\circ) \\approx 0.6018$",
+              "Round to 2 decimal places: $0.60$"
+            ],
+            "finalAnswer": "$\\sin(37^\\circ) \\approx 0.60$",
+            "solutionFigures": [],
+            "tip": "This means the opposite side is about 0.60 times the hypotenuse."
+          }
+        },
+        {
+          "id": "ch5_ex4_q22bii",
+          "number": "22(b)(ii)",
+          "category": "Practice",
+          "questionText": "Consider the right-angled triangle shown: the right angle is at the bottom right, the angle $37^\\circ$ is at the bottom left and the angle $\\alpha$ is at the top. Determine the value of $\\cos(37^\\circ)$, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(37^\\circ) = \\dfrac{A}{H}$; evaluate on a calculator in degree mode.",
+            "steps": [
+              "Goal: $\\cos(37^\\circ)$ to 2 decimal places.",
+              "Calculator (degree mode): $\\cos(37^\\circ) \\approx 0.7986$",
+              "Round to 2 decimal places: $0.80$"
+            ],
+            "finalAnswer": "$\\cos(37^\\circ) \\approx 0.80$",
+            "solutionFigures": [],
+            "tip": "Keep the trailing zero: 0.80."
+          }
+        },
+        {
+          "id": "ch5_ex4_q22biii",
+          "number": "22(b)(iii)",
+          "category": "Practice",
+          "questionText": "Consider the right-angled triangle shown: the right angle is at the bottom right, the angle $37^\\circ$ is at the bottom left and the angle $\\alpha$ is at the top. Determine the value of $\\tan(37^\\circ)$, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(37^\\circ) = \\dfrac{O}{A}$; evaluate on a calculator in degree mode.",
+            "steps": [
+              "Goal: $\\tan(37^\\circ)$ to 2 decimal places.",
+              "Calculator (degree mode): $\\tan(37^\\circ) \\approx 0.7536$",
+              "Round to 2 decimal places: $0.75$"
+            ],
+            "finalAnswer": "$\\tan(37^\\circ) \\approx 0.75$",
+            "solutionFigures": [],
+            "tip": "Check: $\\dfrac{\\sin(37^\\circ)}{\\cos(37^\\circ)} \\approx \\dfrac{0.6018}{0.7986} \\approx 0.75$."
+          }
+        },
+        {
+          "id": "ch5_ex4_q22c",
+          "number": "22(c)",
+          "category": "Practice",
+          "questionText": "Consider the right-angled triangle shown: the right angle is at the bottom right, the angle $37^\\circ$ is at the bottom left and the angle $\\alpha$ is at the top. Determine the value of the unknown angle, $\\alpha$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Angle sum of a triangle: $180^\\circ$",
+            "steps": [
+              "Given: angles $90^\\circ$ and $37^\\circ$. Goal: $\\alpha$.",
+              "$\\alpha + 37^\\circ + 90^\\circ = 180^\\circ$",
+              "$\\alpha = 180^\\circ - 127^\\circ = 53^\\circ$"
+            ],
+            "finalAnswer": "Therefore $\\alpha = 53^\\circ$.",
+            "solutionFigures": [],
+            "tip": "The two acute angles in a right-angled triangle always add to $90^\\circ$."
+          }
+        },
+        {
+          "id": "ch5_ex4_q23ai",
+          "number": "23(a)(i)",
+          "category": "Consolidate",
+          "questionText": "Consider the right-angled triangle shown in question 22 (right angle at the bottom right, $37^\\circ$ at the bottom left, $\\alpha$ at the top). Determine the value of $\\sin(\\alpha)$, correct to 2 decimal places. (Hint: First relabel the sides of the triangle with respect to angle $\\alpha$.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\alpha = 53^\\circ$ (from 22c); $\\sin(\\alpha) = \\dfrac{O}{H}$",
+            "steps": [
+              "Relabel for $\\alpha$: O is now the horizontal base, A is the vertical side, H is still the sloping side.",
+              "$\\sin(\\alpha) = \\sin(53^\\circ) \\approx 0.7986$",
+              "Round to 2 decimal places: $0.80$"
+            ],
+            "finalAnswer": "$\\sin(\\alpha) = \\sin(53^\\circ) \\approx 0.80$",
+            "solutionFigures": [],
+            "tip": "O and A swap when you change to the other acute angle; H stays the same."
+          }
+        },
+        {
+          "id": "ch5_ex4_q23aii",
+          "number": "23(a)(ii)",
+          "category": "Consolidate",
+          "questionText": "Consider the right-angled triangle shown in question 22 (right angle at the bottom right, $37^\\circ$ at the bottom left, $\\alpha$ at the top). Determine the value of $\\cos(\\alpha)$, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\alpha = 53^\\circ$; $\\cos(\\alpha) = \\dfrac{A}{H}$",
+            "steps": [
+              "Relative to $\\alpha$: A is the vertical side, H is the sloping side.",
+              "$\\cos(\\alpha) = \\cos(53^\\circ) \\approx 0.6018$",
+              "Round to 2 decimal places: $0.60$"
+            ],
+            "finalAnswer": "$\\cos(\\alpha) = \\cos(53^\\circ) \\approx 0.60$",
+            "solutionFigures": [],
+            "tip": "Compare with $\\sin(37^\\circ) \\approx 0.60$ from question 22."
+          }
+        },
+        {
+          "id": "ch5_ex4_q23aiii",
+          "number": "23(a)(iii)",
+          "category": "Consolidate",
+          "questionText": "Consider the right-angled triangle shown in question 22 (right angle at the bottom right, $37^\\circ$ at the bottom left, $\\alpha$ at the top). Determine the value of $\\tan(\\alpha)$, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\alpha = 53^\\circ$; $\\tan(\\alpha) = \\dfrac{O}{A}$",
+            "steps": [
+              "Relative to $\\alpha$: O is the horizontal base, A is the vertical side.",
+              "$\\tan(\\alpha) = \\tan(53^\\circ) \\approx 1.3270$",
+              "Round to 2 decimal places: $1.33$"
+            ],
+            "finalAnswer": "$\\tan(\\alpha) = \\tan(53^\\circ) \\approx 1.33$",
+            "solutionFigures": [],
+            "tip": "$\\tan(53^\\circ) = \\dfrac{1}{\\tan(37^\\circ)}$ because O and A swap."
+          }
+        },
+        {
+          "id": "ch5_ex4_q23b",
+          "number": "23(b)",
+          "category": "Consolidate",
+          "questionText": "Consider the right-angled triangle shown in question 22 (right angle at the bottom right, $37^\\circ$ at the bottom left, $\\alpha$ at the top). What do you notice about the relationship between $\\sin(37^\\circ)$ and $\\cos(\\alpha)$? Explain your answer.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(37^\\circ) = \\dfrac{O_{37^\\circ}}{H}$, $\\cos(\\alpha) = \\dfrac{A_{\\alpha}}{H}$",
+            "steps": [
+              "$\\sin(37^\\circ) \\approx 0.60$ and $\\cos(\\alpha) = \\cos(53^\\circ) \\approx 0.60$.",
+              "The side opposite $37^\\circ$ (the vertical side) is the same side that is adjacent to $\\alpha$.",
+              "Both ratios are (vertical side) $\\div$ (hypotenuse), so they must be equal."
+            ],
+            "finalAnswer": "They are equal: $\\sin(37^\\circ) = \\cos(\\alpha)$, because the side opposite $37^\\circ$ is the side adjacent to $\\alpha$, and both use the same hypotenuse.",
+            "solutionFigures": [],
+            "tip": "'Co-sine' means sine of the complementary angle."
+          }
+        },
+        {
+          "id": "ch5_ex4_q23c",
+          "number": "23(c)",
+          "category": "Consolidate",
+          "questionText": "Consider the right-angled triangle shown in question 22 (right angle at the bottom right, $37^\\circ$ at the bottom left, $\\alpha$ at the top). What do you notice about the relationship between $\\sin(\\alpha)$ and $\\cos(37^\\circ)$? Explain your answer.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\alpha) = \\dfrac{O_{\\alpha}}{H}$, $\\cos(37^\\circ) = \\dfrac{A_{37^\\circ}}{H}$",
+            "steps": [
+              "$\\sin(\\alpha) = \\sin(53^\\circ) \\approx 0.80$ and $\\cos(37^\\circ) \\approx 0.80$.",
+              "The side opposite $\\alpha$ (the horizontal base) is the side adjacent to $37^\\circ$.",
+              "Both ratios are (base) $\\div$ (hypotenuse), so they are equal."
+            ],
+            "finalAnswer": "They are equal: $\\sin(\\alpha) = \\cos(37^\\circ)$, because the side opposite $\\alpha$ is the side adjacent to $37^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Re-labelling O and A for each angle explains the pattern."
+          }
+        },
+        {
+          "id": "ch5_ex4_q23d",
+          "number": "23(d)",
+          "category": "Consolidate",
+          "questionText": "Consider the right-angled triangle shown in question 22 (right angle at the bottom right, $37^\\circ$ at the bottom left, $\\alpha$ at the top). Make a general statement about the two angles.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complementary angles: $\\theta + \\alpha = 90^\\circ$, so $\\sin(\\theta) = \\cos(90^\\circ - \\theta)$",
+            "steps": [
+              "The two acute angles add to $90^\\circ$ ($37^\\circ + 53^\\circ = 90^\\circ$), so they are complementary.",
+              "From parts b and c, the sine of each angle equals the cosine of the other."
+            ],
+            "finalAnswer": "The sine of an angle is equal to the cosine of its complement: $\\sin(\\theta) = \\cos(90^\\circ - \\theta)$ and $\\cos(\\theta) = \\sin(90^\\circ - \\theta)$.",
+            "solutionFigures": [],
+            "tip": "Use this to check answers: $\\sin(20^\\circ) = \\cos(70^\\circ)$."
+          }
+        },
+        {
+          "id": "ch5_ex4_q24",
+          "number": "24",
+          "category": "Master",
+          "questionText": "Using a triangle labelled with $a$, $h$ and $o$ (adjacent, hypotenuse and opposite relative to angle $\\theta$), algebraically show that $\\tan(\\theta) = \\dfrac{\\sin(\\theta)}{\\cos(\\theta)}$. (Hint: Write all the sides in terms of the hypotenuse.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = \\dfrac{o}{h}$, $\\cos(\\theta) = \\dfrac{a}{h}$, $\\tan(\\theta) = \\dfrac{o}{a}$",
+            "steps": [
+              "Given: right-angled triangle with sides $o$, $a$, $h$ relative to $\\theta$. Goal: show $\\tan(\\theta) = \\dfrac{\\sin(\\theta)}{\\cos(\\theta)}$.",
+              "Start with the right-hand side: $\\dfrac{\\sin(\\theta)}{\\cos(\\theta)} = \\dfrac{o/h}{a/h}$",
+              "Dividing by a fraction is multiplying by its reciprocal: $= \\dfrac{o}{h} \\times \\dfrac{h}{a}$",
+              "Cancel $h$: $= \\dfrac{o}{a}$",
+              "$\\dfrac{o}{a} = \\tan(\\theta)$ by definition."
+            ],
+            "finalAnswer": "Therefore $\\dfrac{\\sin(\\theta)}{\\cos(\\theta)} = \\dfrac{o/h}{a/h} = \\dfrac{o}{a} = \\tan(\\theta)$.",
+            "solutionFigures": [],
+            "tip": "In a 'show that' question, start from one side and work step by step to reach the other."
+          }
+        },
+        {
+          "id": "ch5_ex4_q25a",
+          "number": "25(a)",
+          "category": "Practice",
+          "questionText": "ABC is a scalene triangle with side lengths $a$ (BC), $b$ (AC) and $c$ (AB). D is on AC, BD $= h$ is perpendicular to AC, AD $= b - x$ and DC $= x$. Angles BDA and BDC are right angles. Express $h^2$ in terms of $a$ and $x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem in triangle BDC: $a^2 = h^2 + x^2$",
+            "steps": [
+              "Triangle BDC is right-angled at D with hypotenuse BC $= a$ and shorter sides $h$ and $x$.",
+              "$a^2 = h^2 + x^2$",
+              "Rearrange: $h^2 = a^2 - x^2$"
+            ],
+            "finalAnswer": "$h^2 = a^2 - x^2$",
+            "solutionFigures": [],
+            "tip": "Use the triangle that contains $a$ and $x$: triangle BDC."
+          }
+        },
+        {
+          "id": "ch5_ex4_q25b",
+          "number": "25(b)",
+          "category": "Practice",
+          "questionText": "ABC is a scalene triangle with side lengths $a$ (BC), $b$ (AC) and $c$ (AB). D is on AC, BD $= h$ is perpendicular to AC, AD $= b - x$ and DC $= x$. Angles BDA and BDC are right angles. Express $h^2$ in terms of $b$, $c$ and $x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem in triangle BDA: $c^2 = h^2 + (b - x)^2$",
+            "steps": [
+              "Triangle BDA is right-angled at D with hypotenuse AB $= c$ and shorter sides $h$ and $b - x$.",
+              "$c^2 = h^2 + (b - x)^2$",
+              "$h^2 = c^2 - (b - x)^2$",
+              "Expand: $(b - x)^2 = b^2 - 2bx + x^2$",
+              "$h^2 = c^2 - b^2 + 2bx - x^2$"
+            ],
+            "finalAnswer": "$h^2 = c^2 - b^2 + 2bx - x^2$",
+            "solutionFigures": [],
+            "tip": "When subtracting a bracket, change the sign of every term inside it."
+          }
+        },
+        {
+          "id": "ch5_ex4_q25c",
+          "number": "25(c)",
+          "category": "Practice",
+          "questionText": "ABC is a scalene triangle with side lengths $a$ (BC), $b$ (AC) and $c$ (AB). D is on AC, BD $= h$ is perpendicular to AC, AD $= b - x$ and DC $= x$. Angles BDA and BDC are right angles. Equate the two equations for $h^2$ to show that $c^2 = a^2 + b^2 - 2bx$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "From parts a and b: $h^2 = a^2 - x^2$ and $h^2 = c^2 - b^2 + 2bx - x^2$",
+            "steps": [
+              "Equate the two expressions: $a^2 - x^2 = c^2 - b^2 + 2bx - x^2$",
+              "Add $x^2$ to both sides: $a^2 = c^2 - b^2 + 2bx$",
+              "Add $b^2$ and subtract $2bx$ on both sides: $a^2 + b^2 - 2bx = c^2$"
+            ],
+            "finalAnswer": "Therefore $c^2 = a^2 + b^2 - 2bx$, as required.",
+            "solutionFigures": [],
+            "tip": "The $x^2$ terms cancel, which is what makes this result neat."
+          }
+        },
+        {
+          "id": "ch5_ex4_q25d",
+          "number": "25(d)",
+          "category": "Practice",
+          "questionText": "ABC is a scalene triangle with side lengths $a$ (BC), $b$ (AC) and $c$ (AB). D is on AC, BD $= h$ is perpendicular to AC, AD $= b - x$ and DC $= x$. Angles BDA and BDC are right angles. Use your knowledge of trigonometry to produce the equation $c^2 = a^2 + b^2 - 2ab\\cos(C)$, which is known as the cosine rule for non-right-angled triangles.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(C) = \\dfrac{\\text{adjacent}}{\\text{hypotenuse}}$ in triangle BDC",
+            "steps": [
+              "In right triangle BDC, relative to angle C: adjacent $= x$, hypotenuse $= a$.",
+              "$\\cos(C) = \\dfrac{x}{a}$",
+              "Rearrange: $x = a\\cos(C)$",
+              "Substitute into $c^2 = a^2 + b^2 - 2bx$ (from part c): $c^2 = a^2 + b^2 - 2b \\times a\\cos(C)$",
+              "$c^2 = a^2 + b^2 - 2ab\\cos(C)$"
+            ],
+            "finalAnswer": "Therefore $c^2 = a^2 + b^2 - 2ab\\cos(C)$ (the cosine rule).",
+            "solutionFigures": [],
+            "tip": "If $C = 90^\\circ$ then $\\cos(C) = 0$ and the cosine rule becomes Pythagoras' theorem."
+          }
+        },
+        {
+          "id": "ch5_ex4_q26",
+          "number": "26",
+          "category": "Consolidate",
+          "questionText": "Determine the length of the side DC in terms of $x$, $y$ and $\\theta$. The figure is a right trapezium ABCD: B is top left, A is top right, C is bottom left and D is bottom right. BA $= x$ (top, horizontal), BC $= y$ (left, vertical), CD is the base, and the angle at D between the base DC and the slanted side DA is $\\theta$. Angles at B and C are right angles.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{\\text{opposite}}{\\text{adjacent}}$",
+            "steps": [
+              "Given: top BA $= x$, height BC $= y$, angle at D $= \\theta$. Goal: DC.",
+              "Drop a perpendicular from A to the base at E. Then CE $= BA = x$ and AE $= BC = y$.",
+              "In right triangle AED, relative to $\\theta$: opposite AE $= y$, adjacent ED.",
+              "$\\tan(\\theta) = \\dfrac{y}{ED}$, so $ED = \\dfrac{y}{\\tan(\\theta)}$",
+              "$DC = CE + ED = x + \\dfrac{y}{\\tan(\\theta)}$"
+            ],
+            "finalAnswer": "Therefore $DC = x + \\dfrac{y}{\\tan(\\theta)}$.",
+            "solutionFigures": [],
+            "tip": "Split a trapezium into a rectangle and a right-angled triangle."
+          }
+        },
+        {
+          "id": "ch5_ex4_q27",
+          "number": "27",
+          "category": "Consolidate",
+          "questionText": "Explain how we determine whether to use sin, cos or tan in trigonometry questions.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "SOH-CAH-TOA: $\\sin = \\dfrac{O}{H}$, $\\cos = \\dfrac{A}{H}$, $\\tan = \\dfrac{O}{A}$",
+            "steps": [
+              "Identify the angle that is given or required.",
+              "Label the sides relative to that angle: H (opposite the right angle), O (opposite the angle), A (next to the angle).",
+              "Note which two sides are involved (the one given and the one to find).",
+              "O and H → sine; A and H → cosine; O and A → tangent."
+            ],
+            "finalAnswer": "Label the sides relative to the angle in the question, identify which two sides are known or needed, and pick the ratio that links them: sin for O and H, cos for A and H, tan for O and A.",
+            "solutionFigures": [],
+            "tip": "The ratio depends on the angle you use; different angles give different labels."
+          }
+        },
+        {
+          "id": "ch5_ex4_q28",
+          "number": "28",
+          "category": "Master",
+          "questionText": "From an observer on a boat 110 m away from a vertical cliff with height $c$, the angle from the base of the cliff to the top of the cliff is $\\alpha^\\circ$. There is a lighthouse with height $t$ on the cliff. From the observer, the angle from the base of the lighthouse to the top of the lighthouse is another $\\theta^\\circ$ more than $\\alpha^\\circ$. Express the height of the lighthouse, $t$, in terms of $\\theta^\\circ$ and $\\alpha^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\text{angle}) = \\dfrac{\\text{opposite}}{\\text{adjacent}}$",
+            "steps": [
+              "Given: horizontal distance 110 m, angle of elevation to the top of the cliff $= \\alpha$, angle to the top of the lighthouse $= \\alpha + \\theta$. Goal: $t$.",
+              "Cliff: $\\tan(\\alpha) = \\dfrac{c}{110}$, so $c = 110\\tan(\\alpha)$",
+              "Cliff + lighthouse: $\\tan(\\alpha + \\theta) = \\dfrac{c + t}{110}$, so $c + t = 110\\tan(\\alpha + \\theta)$",
+              "Subtract: $t = 110\\tan(\\alpha + \\theta) - c$",
+              "$t = 110\\tan(\\alpha + \\theta) - 110\\tan(\\alpha)$"
+            ],
+            "finalAnswer": "Therefore $t = 110\\tan(\\theta + \\alpha) - 110\\tan(\\alpha)$ metres.",
+            "solutionFigures": [],
+            "tip": "$\\tan(\\alpha + \\theta) \\neq \\tan(\\alpha) + \\tan(\\theta)$, so you cannot simplify to $110\\tan(\\theta)$."
+          }
+        }
+      ]
+    }
+  ]
+}

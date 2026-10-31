@@ -1,0 +1,727 @@
+{
+  "chapterId": "ch14",
+  "chapterTitle": "Circular functions (Methods 12)",
+  "topics": [
+    {
+      "topicId": "14N",
+      "topicTitle": "Applications of circular functions",
+      "exercises": [
+        {
+          "id": "ch14_ex14_q1a",
+          "number": "1(a)",
+          "category": null,
+          "questionText": "It is suggested that the height, $h(t)$ metres, of the tide above mean sea level during a particular day at Seabreak is given approximately by the rule $h(t) = 5\\sin\\left(\\frac{\\pi}{6}t\\right)$, where $t$ is the number of hours after midnight. Draw the graph of $y = h(t)$ for $0 \\le t \\le 24$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a\\sin(nt)$: amplitude $a$, period $\\frac{2\\pi}{n}$.",
+            "steps": [
+              "Given: $h(t) = 5\\sin\\left(\\frac{\\pi t}{6}\\right)$, $0 \\le t \\le 24$. Goal: the graph.",
+              "Amplitude $5$; period $= 2\\pi \\div \\frac{\\pi}{6} = 12$ hours, so the interval holds two cycles.",
+              "Quarter period $= 3$ hours. Key points: $(0,0)$, $(3,5)$, $(6,0)$, $(9,-5)$, $(12,0)$, $(15,5)$, $(18,0)$, $(21,-5)$, $(24,0)$.",
+              "Sketch: two sine cycles through these points, with $t$ (hours) on the horizontal axis and $h$ (metres) from $-5$ to $5$ on the vertical axis."
+            ],
+            "finalAnswer": "Two cycles of a sine curve of amplitude 5 and period 12 h: $(0,0)$, $(3,5)$, $(6,0)$, $(9,-5)$, $(12,0)$, $(15,5)$, $(18,0)$, $(21,-5)$, $(24,0)$.",
+            "solutionFigures": [],
+            "tip": "Find the period first; it tells you how many cycles to draw."
+          }
+        },
+        {
+          "id": "ch14_ex14_q1b",
+          "number": "1(b)",
+          "category": null,
+          "questionText": "The height, $h(t)$ metres, of the tide above mean sea level at Seabreak is given by $h(t) = 5\\sin\\left(\\frac{\\pi}{6}t\\right)$, where $t$ is the number of hours after midnight. When was high tide?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Maximum of $5\\sin u$ is $5$, when $\\sin u = 1$, i.e. $u = \\frac{\\pi}{2} + 2k\\pi$.",
+            "steps": [
+              "Given: $h(t) = 5\\sin\\left(\\frac{\\pi t}{6}\\right)$, $0 \\le t \\le 24$. Goal: times of high tide.",
+              "High tide when $\\sin\\left(\\frac{\\pi t}{6}\\right) = 1$.",
+              "$\\frac{\\pi t}{6} \\in [0, 4\\pi]$: $\\frac{\\pi t}{6} = \\frac{\\pi}{2}$ or $\\frac{5\\pi}{2}$.",
+              "$t = 3$ or $t = 15$.",
+              "So high tide occurs at 3:00 a.m. and 3:00 p.m."
+            ],
+            "finalAnswer": "High tide at $t = 3$ and $t = 15$, i.e. 3 a.m. and 3 p.m.",
+            "solutionFigures": [],
+            "tip": "Convert $t$ (hours after midnight) back to a clock time in the final statement."
+          }
+        },
+        {
+          "id": "ch14_ex14_q1c",
+          "number": "1(c)",
+          "category": null,
+          "questionText": "The height, $h(t)$ metres, of the tide above mean sea level at Seabreak is given by $h(t) = 5\\sin\\left(\\frac{\\pi}{6}t\\right)$, where $t$ is the number of hours after midnight. What was the height of the high tide?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The maximum value of $a\\sin(nt)$ is $a$ (for $a > 0$).",
+            "steps": [
+              "Given: $h(t) = 5\\sin\\left(\\frac{\\pi t}{6}\\right)$. Goal: the height at high tide.",
+              "The greatest value of $\\sin$ is $1$, so the maximum of $h$ is $5 \\times 1 = 5$.",
+              "High tide is 5 metres above mean sea level."
+            ],
+            "finalAnswer": "5 metres above mean sea level",
+            "solutionFigures": [],
+            "tip": "Heights are measured from mean sea level, so negative values mean below mean level."
+          }
+        },
+        {
+          "id": "ch14_ex14_q1d",
+          "number": "1(d)",
+          "category": null,
+          "questionText": "The height, $h(t)$ metres, of the tide above mean sea level at Seabreak is given by $h(t) = 5\\sin\\left(\\frac{\\pi}{6}t\\right)$, where $t$ is the number of hours after midnight. What was the height of the tide at 2 a.m.?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute into the rule; exact value $\\sin\\frac{\\pi}{3} = \\frac{\\sqrt{3}}{2}$.",
+            "steps": [
+              "Given: 2 a.m. is $t = 2$. Goal: $h(2)$.",
+              "$h(2) = 5\\sin\\left(\\frac{2\\pi}{6}\\right) = 5\\sin\\frac{\\pi}{3} = 5 \\times \\frac{\\sqrt{3}}{2} = \\frac{5\\sqrt{3}}{2}$.",
+              "$\\frac{5\\sqrt{3}}{2} \\approx 4.33$ (2 d.p.).",
+              "The tide was $\\frac{5\\sqrt{3}}{2} \\approx 4.33$ m above mean sea level."
+            ],
+            "finalAnswer": "$\\frac{5\\sqrt{3}}{2} \\approx 4.33$ m above mean sea level",
+            "solutionFigures": [],
+            "tip": "Use radian mode if you check this on a calculator."
+          }
+        },
+        {
+          "id": "ch14_ex14_q1e",
+          "number": "1(e)",
+          "category": null,
+          "questionText": "The height, $h(t)$ metres, of the tide above mean sea level at Seabreak is given by $h(t) = 5\\sin\\left(\\frac{\\pi}{6}t\\right)$, where $t$ is the number of hours after midnight. What was the height of the tide at 2 p.m.?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute into the rule; periodicity $\\sin(u + 2\\pi) = \\sin u$.",
+            "steps": [
+              "Given: 2 p.m. is $t = 14$. Goal: $h(14)$.",
+              "$h(14) = 5\\sin\\left(\\frac{14\\pi}{6}\\right) = 5\\sin\\frac{7\\pi}{3} = 5\\sin\\left(\\frac{7\\pi}{3} - 2\\pi\\right) = 5\\sin\\frac{\\pi}{3} = \\frac{5\\sqrt{3}}{2}$.",
+              "This matches 2 a.m., as expected since 2 p.m. is exactly one period (12 h) later.",
+              "The tide was $\\frac{5\\sqrt{3}}{2} \\approx 4.33$ m above mean sea level."
+            ],
+            "finalAnswer": "$\\frac{5\\sqrt{3}}{2} \\approx 4.33$ m above mean sea level",
+            "solutionFigures": [],
+            "tip": "Times one period apart give equal heights."
+          }
+        },
+        {
+          "id": "ch14_ex14_q1f",
+          "number": "1(f)",
+          "category": null,
+          "questionText": "The height, $h(t)$ metres, of the tide above mean sea level at Seabreak is given by $h(t) = 5\\sin\\left(\\frac{\\pi}{6}t\\right)$, where $t$ is the number of hours after midnight. A boat can only cross the harbour bar when the tide is at least 2.5 metres above mean sea level. When could the boat cross the harbour bar on this day?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Solve the equation $h(t) = 2.5$ and use the graph to choose where $h(t) \\ge 2.5$; $\\sin u = \\frac{1}{2} \\iff u = \\frac{\\pi}{6}, \\frac{5\\pi}{6}$ (+ $2k\\pi$).",
+            "steps": [
+              "Given: need $h(t) \\ge 2.5$ for $0 \\le t \\le 24$. Goal: the time intervals.",
+              "$5\\sin\\left(\\frac{\\pi t}{6}\\right) = 2.5 \\Rightarrow \\sin\\left(\\frac{\\pi t}{6}\\right) = \\frac{1}{2}$.",
+              "With $\\frac{\\pi t}{6} \\in [0, 4\\pi]$: $\\frac{\\pi t}{6} = \\frac{\\pi}{6}, \\frac{5\\pi}{6}, \\frac{13\\pi}{6}, \\frac{17\\pi}{6}$.",
+              "So $t = 1, 5, 13, 17$.",
+              "From the graph, $h(t) \\ge 2.5$ around each high tide: $1 \\le t \\le 5$ and $13 \\le t \\le 17$.",
+              "Check: $h(3) = 5 \\ge 2.5$ lies in the first interval. Correct."
+            ],
+            "finalAnswer": "Between 1 a.m. and 5 a.m., and between 1 p.m. and 5 p.m.",
+            "solutionFigures": [],
+            "tip": "Solve for equality first, then use the graph to decide which intervals satisfy the inequality."
+          }
+        },
+        {
+          "id": "ch14_ex14_q2a",
+          "number": "2(a)",
+          "category": null,
+          "questionText": "A particle moves on a straight line, $OX$, and its distance $x$ metres from $O$ at time $t$ seconds is given by $x = 3 + 2\\sin(3t)$. Find its greatest distance from $O$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$-1 \\le \\sin(3t) \\le 1$, so $x = b + a\\sin(nt)$ lies in $[b - a, b + a]$ for $a > 0$.",
+            "steps": [
+              "Given: $x = 3 + 2\\sin(3t)$. Goal: maximum of $x$.",
+              "The greatest value of $\\sin(3t)$ is $1$.",
+              "$x_{\\max} = 3 + 2(1) = 5$.",
+              "The greatest distance from $O$ is 5 m."
+            ],
+            "finalAnswer": "5 m",
+            "solutionFigures": [],
+            "tip": "Centre $\\pm$ amplitude gives the extreme positions."
+          }
+        },
+        {
+          "id": "ch14_ex14_q2b",
+          "number": "2(b)",
+          "category": null,
+          "questionText": "A particle moves on a straight line, $OX$, and its distance $x$ metres from $O$ at time $t$ seconds is given by $x = 3 + 2\\sin(3t)$. Find its least distance from $O$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$-1 \\le \\sin(3t) \\le 1$.",
+            "steps": [
+              "Given: $x = 3 + 2\\sin(3t)$. Goal: minimum of $x$.",
+              "The least value of $\\sin(3t)$ is $-1$.",
+              "$x_{\\min} = 3 + 2(-1) = 1$.",
+              "The least distance from $O$ is 1 m (it never reaches $O$)."
+            ],
+            "finalAnswer": "1 m",
+            "solutionFigures": [],
+            "tip": "Because $x > 0$ always, distance and position are the same here."
+          }
+        },
+        {
+          "id": "ch14_ex14_q2c",
+          "number": "2(c)",
+          "category": null,
+          "questionText": "A particle moves on a straight line, $OX$, and its distance $x$ metres from $O$ at time $t$ seconds is given by $x = 3 + 2\\sin(3t)$. Find the times at which it is 5 metres from $O$ for $0 \\le t \\le 5$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin u = 1 \\iff u = \\frac{\\pi}{2} + 2k\\pi$, $k \\in \\mathbb{Z}$.",
+            "steps": [
+              "Given: $x = 5$, $0 \\le t \\le 5$. Goal: the times.",
+              "$3 + 2\\sin(3t) = 5 \\Rightarrow \\sin(3t) = 1$.",
+              "$3t = \\frac{\\pi}{2} + 2k\\pi \\Rightarrow t = \\frac{\\pi}{6} + \\frac{2k\\pi}{3}$.",
+              "$k = 0$: $t = \\frac{\\pi}{6} \\approx 0.52$; $k = 1$: $t = \\frac{5\\pi}{6} \\approx 2.62$; $k = 2$: $t = \\frac{3\\pi}{2} \\approx 4.71$; $k = 3$: $t = \\frac{13\\pi}{6} \\approx 6.81 > 5$, rejected.",
+              "So the particle is 5 m from $O$ at $t = \\frac{\\pi}{6}, \\frac{5\\pi}{6}, \\frac{3\\pi}{2}$ seconds."
+            ],
+            "finalAnswer": "$t = \\frac{\\pi}{6}, \\frac{5\\pi}{6}, \\frac{3\\pi}{2}$ s (approximately 0.52 s, 2.62 s, 4.71 s)",
+            "solutionFigures": [],
+            "tip": "Convert to decimals to check that each time lies inside $[0, 5]$."
+          }
+        },
+        {
+          "id": "ch14_ex14_q2d",
+          "number": "2(d)",
+          "category": null,
+          "questionText": "A particle moves on a straight line, $OX$, and its distance $x$ metres from $O$ at time $t$ seconds is given by $x = 3 + 2\\sin(3t)$. Find the times at which it is 3 metres from $O$ for $0 \\le t \\le 3$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin u = 0 \\iff u = k\\pi$, $k \\in \\mathbb{Z}$.",
+            "steps": [
+              "Given: $x = 3$, $0 \\le t \\le 3$. Goal: the times.",
+              "$3 + 2\\sin(3t) = 3 \\Rightarrow \\sin(3t) = 0$.",
+              "$3t = k\\pi \\Rightarrow t = \\frac{k\\pi}{3}$.",
+              "$k = 0, 1, 2$: $t = 0, \\frac{\\pi}{3} \\approx 1.05, \\frac{2\\pi}{3} \\approx 2.09$. $k = 3$ gives $t = \\pi \\approx 3.14 > 3$, rejected.",
+              "So $t = 0, \\frac{\\pi}{3}, \\frac{2\\pi}{3}$ seconds."
+            ],
+            "finalAnswer": "$t = 0, \\frac{\\pi}{3}, \\frac{2\\pi}{3}$ s",
+            "solutionFigures": [],
+            "tip": "$\\pi > 3$, so $t = \\pi$ is just outside the interval."
+          }
+        },
+        {
+          "id": "ch14_ex14_q2e",
+          "number": "2(e)",
+          "category": null,
+          "questionText": "A particle moves on a straight line, $OX$, and its distance $x$ metres from $O$ at time $t$ seconds is given by $x = 3 + 2\\sin(3t)$. Describe the motion of the particle.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$x = b + a\\sin(nt)$ describes oscillation about $x = b$ with amplitude $a$ and period $\\frac{2\\pi}{n}$.",
+            "steps": [
+              "Given: $x = 3 + 2\\sin(3t)$. Goal: describe the motion.",
+              "Centre $x = 3$, amplitude $2$, period $\\frac{2\\pi}{3} \\approx 2.09$ s.",
+              "At $t = 0$ the particle is at $x = 3$ and $x$ is increasing (sine increases from 0).",
+              "It moves out to $x = 5$ at $t = \\frac{\\pi}{6}$, back through $x = 3$ at $t = \\frac{\\pi}{3}$ to $x = 1$ at $t = \\frac{\\pi}{2}$, and returns to $x = 3$ at $t = \\frac{2\\pi}{3}$.",
+              "This pattern repeats every $\\frac{2\\pi}{3}$ seconds."
+            ],
+            "finalAnswer": "The particle oscillates between $x = 1$ and $x = 5$ about $x = 3$, with period $\\frac{2\\pi}{3}$ s; it starts at $x = 3$ moving away from $O$.",
+            "solutionFigures": [],
+            "tip": "A full description gives the centre, the extremes, the period and the starting position and direction."
+          }
+        },
+        {
+          "id": "ch14_ex14_q3a",
+          "number": "3(a)",
+          "category": null,
+          "questionText": "A particle moves on a straight line, $OX$, and its distance $x$ metres from $O$ at time $t$ seconds is given by $x = 5 + 2\\sin(2\\pi t)$. Find its greatest distance from $O$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$-1 \\le \\sin(2\\pi t) \\le 1$.",
+            "steps": [
+              "Given: $x = 5 + 2\\sin(2\\pi t)$. Goal: maximum of $x$.",
+              "$x_{\\max} = 5 + 2(1) = 7$.",
+              "Greatest distance from $O$ is 7 m."
+            ],
+            "finalAnswer": "7 m",
+            "solutionFigures": [],
+            "tip": "Centre plus amplitude gives the greatest value."
+          }
+        },
+        {
+          "id": "ch14_ex14_q3b",
+          "number": "3(b)",
+          "category": null,
+          "questionText": "A particle moves on a straight line, $OX$, and its distance $x$ metres from $O$ at time $t$ seconds is given by $x = 5 + 2\\sin(2\\pi t)$. Find its least distance from $O$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$-1 \\le \\sin(2\\pi t) \\le 1$.",
+            "steps": [
+              "Given: $x = 5 + 2\\sin(2\\pi t)$. Goal: minimum of $x$.",
+              "$x_{\\min} = 5 + 2(-1) = 3$.",
+              "Least distance from $O$ is 3 m."
+            ],
+            "finalAnswer": "3 m",
+            "solutionFigures": [],
+            "tip": "Centre minus amplitude gives the least value."
+          }
+        },
+        {
+          "id": "ch14_ex14_q3c",
+          "number": "3(c)",
+          "category": null,
+          "questionText": "A particle moves on a straight line, $OX$, and its distance $x$ metres from $O$ at time $t$ seconds is given by $x = 5 + 2\\sin(2\\pi t)$. Find the times at which it is 7 metres from $O$ for $0 \\le t \\le 5$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin u = 1 \\iff u = \\frac{\\pi}{2} + 2k\\pi$, $k \\in \\mathbb{Z}$.",
+            "steps": [
+              "Given: $x = 7$, $0 \\le t \\le 5$. Goal: the times.",
+              "$5 + 2\\sin(2\\pi t) = 7 \\Rightarrow \\sin(2\\pi t) = 1$.",
+              "$2\\pi t = \\frac{\\pi}{2} + 2k\\pi \\Rightarrow t = \\frac{1}{4} + k$.",
+              "For $0 \\le t \\le 5$: $k = 0, 1, 2, 3, 4$ gives $t = 0.25, 1.25, 2.25, 3.25, 4.25$."
+            ],
+            "finalAnswer": "$t = 0.25, 1.25, 2.25, 3.25, 4.25$ s",
+            "solutionFigures": [],
+            "tip": "The period is $\\frac{2\\pi}{2\\pi} = 1$ s, so the maxima are 1 s apart."
+          }
+        },
+        {
+          "id": "ch14_ex14_q3d",
+          "number": "3(d)",
+          "category": null,
+          "questionText": "A particle moves on a straight line, $OX$, and its distance $x$ metres from $O$ at time $t$ seconds is given by $x = 5 + 2\\sin(2\\pi t)$. Find the times at which it is 6 metres from $O$ for $0 \\le t \\le 3$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin u = \\frac{1}{2} \\iff u = \\frac{\\pi}{6} + 2k\\pi$ or $u = \\frac{5\\pi}{6} + 2k\\pi$.",
+            "steps": [
+              "Given: $x = 6$, $0 \\le t \\le 3$. Goal: the times.",
+              "$5 + 2\\sin(2\\pi t) = 6 \\Rightarrow \\sin(2\\pi t) = \\frac{1}{2}$.",
+              "$2\\pi t = \\frac{\\pi}{6} + 2k\\pi$ or $\\frac{5\\pi}{6} + 2k\\pi \\Rightarrow t = \\frac{1}{12} + k$ or $t = \\frac{5}{12} + k$.",
+              "For $0 \\le t \\le 3$ ($k = 0, 1, 2$): $t = \\frac{1}{12}, \\frac{5}{12}, \\frac{13}{12}, \\frac{17}{12}, \\frac{25}{12}, \\frac{29}{12}$.",
+              "Check $t = \\frac{5}{12}$: $5 + 2\\sin\\frac{5\\pi}{6} = 5 + 1 = 6$. Correct."
+            ],
+            "finalAnswer": "$t = \\frac{1}{12}, \\frac{5}{12}, \\frac{13}{12}, \\frac{17}{12}, \\frac{25}{12}, \\frac{29}{12}$ s",
+            "solutionFigures": [],
+            "tip": "Two solutions per period over three periods gives six solutions."
+          }
+        },
+        {
+          "id": "ch14_ex14_q3e",
+          "number": "3(e)",
+          "category": null,
+          "questionText": "A particle moves on a straight line, $OX$, and its distance $x$ metres from $O$ at time $t$ seconds is given by $x = 5 + 2\\sin(2\\pi t)$. Describe the motion of the particle.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$x = b + a\\sin(nt)$ describes oscillation about $x = b$ with amplitude $a$ and period $\\frac{2\\pi}{n}$.",
+            "steps": [
+              "Given: $x = 5 + 2\\sin(2\\pi t)$. Goal: describe the motion.",
+              "Centre $x = 5$, amplitude $2$, period $\\frac{2\\pi}{2\\pi} = 1$ s.",
+              "At $t = 0$ the particle is at $x = 5$ moving away from $O$.",
+              "It reaches $x = 7$ at $t = 0.25$, returns to $x = 5$ at $t = 0.5$, reaches $x = 3$ at $t = 0.75$ and is back at $x = 5$ at $t = 1$.",
+              "The motion repeats every second."
+            ],
+            "finalAnswer": "The particle oscillates between $x = 3$ and $x = 7$ about $x = 5$, with period 1 s; it starts at $x = 5$ moving away from $O$.",
+            "solutionFigures": [],
+            "tip": "State the period with units."
+          }
+        },
+        {
+          "id": "ch14_ex14_q4ai",
+          "number": "4(a)(i)",
+          "category": null,
+          "questionText": "A particle moves in a vertical circle of radius 10 m. The height, $h(t)$ m, of the particle above the ground at time $t$ seconds is given by $h(t) = 10\\sin\\left(\\frac{\\pi t}{3}\\right) + 10$, where $t \\ge 0$. Find the height of the particle above the ground for $t = 0$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute into $h(t) = 10\\sin\\left(\\frac{\\pi t}{3}\\right) + 10$.",
+            "steps": [
+              "Given: $t = 0$. Goal: $h(0)$.",
+              "$h(0) = 10\\sin 0 + 10 = 0 + 10 = 10$.",
+              "The particle is 10 m above the ground."
+            ],
+            "finalAnswer": "10 m",
+            "solutionFigures": [],
+            "tip": "At $t = 0$ the particle is level with the centre of the circle."
+          }
+        },
+        {
+          "id": "ch14_ex14_q4aii",
+          "number": "4(a)(ii)",
+          "category": null,
+          "questionText": "A particle moves in a vertical circle of radius 10 m. The height, $h(t)$ m, of the particle above the ground at time $t$ seconds is given by $h(t) = 10\\sin\\left(\\frac{\\pi t}{3}\\right) + 10$, where $t \\ge 0$. Find the height of the particle above the ground for $t = 1$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute; exact value $\\sin\\frac{\\pi}{3} = \\frac{\\sqrt{3}}{2}$.",
+            "steps": [
+              "Given: $t = 1$. Goal: $h(1)$.",
+              "$h(1) = 10\\sin\\frac{\\pi}{3} + 10 = 10 \\cdot \\frac{\\sqrt{3}}{2} + 10 = 5\\sqrt{3} + 10$.",
+              "$\\approx 18.66$ m (2 d.p.)."
+            ],
+            "finalAnswer": "$10 + 5\\sqrt{3} \\approx 18.66$ m",
+            "solutionFigures": [],
+            "tip": "Give the exact value first, then a decimal approximation."
+          }
+        },
+        {
+          "id": "ch14_ex14_q4aiii",
+          "number": "4(a)(iii)",
+          "category": null,
+          "questionText": "A particle moves in a vertical circle of radius 10 m. The height, $h(t)$ m, of the particle above the ground at time $t$ seconds is given by $h(t) = 10\\sin\\left(\\frac{\\pi t}{3}\\right) + 10$, where $t \\ge 0$. Find the height of the particle above the ground for $t = 2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute; $\\sin\\frac{2\\pi}{3} = \\sin\\left(\\pi - \\frac{\\pi}{3}\\right) = \\frac{\\sqrt{3}}{2}$.",
+            "steps": [
+              "Given: $t = 2$. Goal: $h(2)$.",
+              "$h(2) = 10\\sin\\frac{2\\pi}{3} + 10 = 10 \\cdot \\frac{\\sqrt{3}}{2} + 10 = 5\\sqrt{3} + 10$.",
+              "$\\approx 18.66$ m."
+            ],
+            "finalAnswer": "$10 + 5\\sqrt{3} \\approx 18.66$ m",
+            "solutionFigures": [],
+            "tip": "$t = 1$ and $t = 2$ are symmetric about the maximum at $t = 1.5$, so the heights agree."
+          }
+        },
+        {
+          "id": "ch14_ex14_q4aiv",
+          "number": "4(a)(iv)",
+          "category": null,
+          "questionText": "A particle moves in a vertical circle of radius 10 m. The height, $h(t)$ m, of the particle above the ground at time $t$ seconds is given by $h(t) = 10\\sin\\left(\\frac{\\pi t}{3}\\right) + 10$, where $t \\ge 0$. Find the height of the particle above the ground for $t = 4$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute; $\\sin\\frac{4\\pi}{3} = -\\sin\\frac{\\pi}{3} = -\\frac{\\sqrt{3}}{2}$ (3rd quadrant).",
+            "steps": [
+              "Given: $t = 4$. Goal: $h(4)$.",
+              "$h(4) = 10\\sin\\frac{4\\pi}{3} + 10 = 10\\left(-\\frac{\\sqrt{3}}{2}\\right) + 10 = 10 - 5\\sqrt{3}$.",
+              "$\\approx 1.34$ m."
+            ],
+            "finalAnswer": "$10 - 5\\sqrt{3} \\approx 1.34$ m",
+            "solutionFigures": [],
+            "tip": "Sine is negative in the 3rd quadrant, so the particle is below the centre."
+          }
+        },
+        {
+          "id": "ch14_ex14_q4av",
+          "number": "4(a)(v)",
+          "category": null,
+          "questionText": "A particle moves in a vertical circle of radius 10 m. The height, $h(t)$ m, of the particle above the ground at time $t$ seconds is given by $h(t) = 10\\sin\\left(\\frac{\\pi t}{3}\\right) + 10$, where $t \\ge 0$. Find the height of the particle above the ground for $t = 5$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute; $\\sin\\frac{5\\pi}{3} = -\\sin\\frac{\\pi}{3} = -\\frac{\\sqrt{3}}{2}$ (4th quadrant).",
+            "steps": [
+              "Given: $t = 5$. Goal: $h(5)$.",
+              "$h(5) = 10\\sin\\frac{5\\pi}{3} + 10 = 10\\left(-\\frac{\\sqrt{3}}{2}\\right) + 10 = 10 - 5\\sqrt{3}$.",
+              "$\\approx 1.34$ m."
+            ],
+            "finalAnswer": "$10 - 5\\sqrt{3} \\approx 1.34$ m",
+            "solutionFigures": [],
+            "tip": "$t = 4$ and $t = 5$ are symmetric about the minimum at $t = 4.5$."
+          }
+        },
+        {
+          "id": "ch14_ex14_q4b",
+          "number": "4(b)",
+          "category": null,
+          "questionText": "A particle moves in a vertical circle of radius 10 m. The height, $h(t)$ m, of the particle above the ground at time $t$ seconds is given by $h(t) = 10\\sin\\left(\\frac{\\pi t}{3}\\right) + 10$, where $t \\ge 0$. Find the period of the motion of the particle.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Period of $a\\sin(nt) + b$ is $\\frac{2\\pi}{n}$.",
+            "steps": [
+              "Given: $n = \\frac{\\pi}{3}$. Goal: the period.",
+              "Period $= 2\\pi \\div \\frac{\\pi}{3} = 2\\pi \\times \\frac{3}{\\pi} = 6$.",
+              "The particle completes one revolution every 6 seconds."
+            ],
+            "finalAnswer": "6 seconds",
+            "solutionFigures": [],
+            "tip": "Dividing by $\\frac{\\pi}{3}$ means multiplying by $\\frac{3}{\\pi}$."
+          }
+        },
+        {
+          "id": "ch14_ex14_q4c",
+          "number": "4(c)",
+          "category": null,
+          "questionText": "A particle moves in a vertical circle of radius 10 m. The height, $h(t)$ m, of the particle above the ground at time $t$ seconds is given by $h(t) = 10\\sin\\left(\\frac{\\pi t}{3}\\right) + 10$, where $t \\ge 0$. Find the greatest height of the particle above the ground.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Maximum of $a\\sin(nt) + b$ is $a + b$ (for $a > 0$).",
+            "steps": [
+              "Goal: maximum of $h$.",
+              "$h_{\\max} = 10(1) + 10 = 20$.",
+              "This first occurs when $\\frac{\\pi t}{3} = \\frac{\\pi}{2}$, i.e. $t = 1.5$ s.",
+              "The greatest height is 20 m (the top of the circle: centre 10 m plus radius 10 m)."
+            ],
+            "finalAnswer": "20 m",
+            "solutionFigures": [],
+            "tip": "Check against the physical picture: centre height plus radius."
+          }
+        },
+        {
+          "id": "ch14_ex14_q4d",
+          "number": "4(d)",
+          "category": null,
+          "questionText": "A particle moves in a vertical circle of radius 10 m. The height, $h(t)$ m, of the particle above the ground at time $t$ seconds is given by $h(t) = 10\\sin\\left(\\frac{\\pi t}{3}\\right) + 10$, where $t \\ge 0$. Find the first four times that the particle is at a height 15 m above the ground.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin u = \\frac{1}{2} \\iff u = \\frac{\\pi}{6} + 2k\\pi$ or $u = \\frac{5\\pi}{6} + 2k\\pi$.",
+            "steps": [
+              "Given: $h(t) = 15$, $t \\ge 0$. Goal: first four times.",
+              "$10\\sin\\left(\\frac{\\pi t}{3}\\right) + 10 = 15 \\Rightarrow \\sin\\left(\\frac{\\pi t}{3}\\right) = \\frac{1}{2}$.",
+              "$\\frac{\\pi t}{3} = \\frac{\\pi}{6}, \\frac{5\\pi}{6}, \\frac{13\\pi}{6}, \\frac{17\\pi}{6}, \\dots$",
+              "Multiply by $\\frac{3}{\\pi}$: $t = \\frac{1}{2}, \\frac{5}{2}, \\frac{13}{2}, \\frac{17}{2}$.",
+              "Check $t = \\frac{5}{2}$: $10\\sin\\frac{5\\pi}{6} + 10 = 5 + 10 = 15$. Correct."
+            ],
+            "finalAnswer": "$t = 0.5, 2.5, 6.5, 8.5$ seconds",
+            "solutionFigures": [],
+            "tip": "The second pair is the first pair plus one period (6 s)."
+          }
+        },
+        {
+          "id": "ch14_ex14_q4e",
+          "number": "4(e)",
+          "category": null,
+          "questionText": "A particle moves in a vertical circle of radius 10 m. The height, $h(t)$ m, of the particle above the ground at time $t$ seconds is given by $h(t) = 10\\sin\\left(\\frac{\\pi t}{3}\\right) + 10$, where $t \\ge 0$. Find the first four times that the particle is at a height 5 m above the ground.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin u = -\\frac{1}{2} \\iff u = \\frac{7\\pi}{6} + 2k\\pi$ or $u = \\frac{11\\pi}{6} + 2k\\pi$.",
+            "steps": [
+              "Given: $h(t) = 5$, $t \\ge 0$. Goal: first four times.",
+              "$10\\sin\\left(\\frac{\\pi t}{3}\\right) + 10 = 5 \\Rightarrow \\sin\\left(\\frac{\\pi t}{3}\\right) = -\\frac{1}{2}$.",
+              "$\\frac{\\pi t}{3} = \\frac{7\\pi}{6}, \\frac{11\\pi}{6}, \\frac{19\\pi}{6}, \\frac{23\\pi}{6}, \\dots$",
+              "Multiply by $\\frac{3}{\\pi}$: $t = \\frac{7}{2}, \\frac{11}{2}, \\frac{19}{2}, \\frac{23}{2}$.",
+              "Check $t = \\frac{7}{2}$: $10\\sin\\frac{7\\pi}{6} + 10 = -5 + 10 = 5$. Correct."
+            ],
+            "finalAnswer": "$t = 3.5, 5.5, 9.5, 11.5$ seconds",
+            "solutionFigures": [],
+            "tip": "Negative sine values lie in quadrants 3 and 4, so start from $\\pi + \\frac{\\pi}{6}$."
+          }
+        },
+        {
+          "id": "ch14_ex14_q5a",
+          "number": "5(a)",
+          "category": null,
+          "questionText": "The temperature, $T$ °C, in a town over a day is modelled by the function with rule $T = 17 - 8\\cos\\left(\\frac{\\pi t}{12}\\right)$, where $t$ is the time in hours after midnight, $0 \\le t \\le 24$. What is the temperature at midnight?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute $t = 0$; $\\cos 0 = 1$.",
+            "steps": [
+              "Given: midnight is $t = 0$. Goal: $T(0)$.",
+              "$T = 17 - 8\\cos 0 = 17 - 8 = 9$.",
+              "The temperature at midnight is 9 °C."
+            ],
+            "finalAnswer": "9 °C",
+            "solutionFigures": [],
+            "tip": "Midnight corresponds to $t = 0$ (and also $t = 24$)."
+          }
+        },
+        {
+          "id": "ch14_ex14_q5b",
+          "number": "5(b)",
+          "category": null,
+          "questionText": "The temperature, $T$ °C, in a town over a day is modelled by $T = 17 - 8\\cos\\left(\\frac{\\pi t}{12}\\right)$, where $t$ is the time in hours after midnight, $0 \\le t \\le 24$. What are the maximum and minimum temperatures reached?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$-1 \\le \\cos u \\le 1$, so $17 - 8\\cos u \\in [9, 25]$.",
+            "steps": [
+              "Given: $T = 17 - 8\\cos\\left(\\frac{\\pi t}{12}\\right)$. Goal: maximum and minimum of $T$.",
+              "Maximum when $\\cos\\left(\\frac{\\pi t}{12}\\right) = -1$, i.e. $\\frac{\\pi t}{12} = \\pi$, $t = 12$ (noon): $T = 17 + 8 = 25$.",
+              "Minimum when $\\cos\\left(\\frac{\\pi t}{12}\\right) = 1$, i.e. $t = 0$ or $24$ (midnight): $T = 17 - 8 = 9$."
+            ],
+            "finalAnswer": "Maximum 25 °C (at noon); minimum 9 °C (at midnight)",
+            "solutionFigures": [],
+            "tip": "With $-8\\cos$, the maximum of $T$ occurs where cosine is $-1$."
+          }
+        },
+        {
+          "id": "ch14_ex14_q5c",
+          "number": "5(c)",
+          "category": null,
+          "questionText": "The temperature, $T$ °C, in a town over a day is modelled by $T = 17 - 8\\cos\\left(\\frac{\\pi t}{12}\\right)$, where $t$ is the time in hours after midnight, $0 \\le t \\le 24$. At what times of the day, to the nearest minute, are temperatures warmer than 20 °C?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Solve $T = 20$ using $\\cos u = a \\Rightarrow u = \\cos^{-1}(a)$ or $2\\pi - \\cos^{-1}(a)$ on $[0, 2\\pi]$; then use the graph for the inequality.",
+            "steps": [
+              "Given: $T > 20$, $0 \\le t \\le 24$. Goal: the time interval, to the nearest minute.",
+              "$17 - 8\\cos\\left(\\frac{\\pi t}{12}\\right) = 20 \\Rightarrow \\cos\\left(\\frac{\\pi t}{12}\\right) = -\\frac{3}{8}$.",
+              "With $\\frac{\\pi t}{12} \\in [0, 2\\pi]$: $\\frac{\\pi t}{12} = \\cos^{-1}\\left(-\\frac{3}{8}\\right) \\approx 1.95519$ or $2\\pi - 1.95519 \\approx 4.32799$.",
+              "$t = \\frac{12}{\\pi} \\times 1.95519 \\approx 7.4683$ and $t = 24 - 7.4683 \\approx 16.5317$.",
+              "Since $T$ rises to its maximum at noon, $T > 20$ for $7.4683 < t < 16.5317$.",
+              "Convert: $0.4683 \\times 60 \\approx 28.1$ min, so 7:28 a.m.; $0.5317 \\times 60 \\approx 31.9$ min, so 16:32, i.e. 4:32 p.m."
+            ],
+            "finalAnswer": "Between about 7:28 a.m. and 4:32 p.m.",
+            "solutionFigures": [],
+            "tip": "Keep full calculator precision until converting hours to minutes."
+          }
+        },
+        {
+          "id": "ch14_ex14_q5d",
+          "number": "5(d)",
+          "category": null,
+          "questionText": "The temperature, $T$ °C, in a town over a day is modelled by $T = 17 - 8\\cos\\left(\\frac{\\pi t}{12}\\right)$, where $t$ is the time in hours after midnight, $0 \\le t \\le 24$. Sketch the graph for the temperatures over a day.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$T = b - a\\cos(nt)$: an inverted cosine about $T = b$ with amplitude $a$ and period $\\frac{2\\pi}{n}$.",
+            "steps": [
+              "Given: $T = 17 - 8\\cos\\left(\\frac{\\pi t}{12}\\right)$, $0 \\le t \\le 24$. Goal: the graph.",
+              "Period $= 2\\pi \\div \\frac{\\pi}{12} = 24$ h (one cycle), centre line $T = 17$, amplitude $8$.",
+              "Key points: $(0, 9)$, $(6, 17)$, $(12, 25)$, $(18, 17)$, $(24, 9)$.",
+              "Mark the level $T = 20$, crossed at $t \\approx 7.47$ and $t \\approx 16.53$ (from part (c)).",
+              "Sketch: a smooth curve rising from $9$ °C at midnight to $25$ °C at noon, then falling back to $9$ °C at midnight."
+            ],
+            "finalAnswer": "One cycle: $(0,9)$, $(6,17)$, $(12,25)$, $(18,17)$, $(24,9)$; minimum 9 °C at midnight, maximum 25 °C at noon.",
+            "solutionFigures": [],
+            "tip": "The negative cosine means the curve starts at its minimum."
+          }
+        },
+        {
+          "id": "ch14_ex14_q6a",
+          "number": "6(a)",
+          "category": null,
+          "questionText": "The depth, $D(t)$ metres, of water at the entrance to a harbour at $t$ hours after midnight on a particular day is given by $D(t) = 10 + 3\\sin\\left(\\frac{\\pi t}{6}\\right)$, $0 \\le t \\le 24$. Sketch the graph of $D(t)$ for $0 \\le t \\le 24$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$D = b + a\\sin(nt)$: centre $b$, amplitude $a$, period $\\frac{2\\pi}{n}$.",
+            "steps": [
+              "Given: $D(t) = 10 + 3\\sin\\left(\\frac{\\pi t}{6}\\right)$. Goal: the graph.",
+              "Period $= 2\\pi \\div \\frac{\\pi}{6} = 12$ h, so two cycles; centre $D = 10$, amplitude $3$, range $[7, 13]$.",
+              "Key points: $(0,10)$, $(3,13)$, $(6,10)$, $(9,7)$, $(12,10)$, $(15,13)$, $(18,10)$, $(21,7)$, $(24,10)$.",
+              "Sketch: two sine cycles between depths 7 m and 13 m."
+            ],
+            "finalAnswer": "Two cycles: $(0,10)$, $(3,13)$, $(6,10)$, $(9,7)$, $(12,10)$, $(15,13)$, $(18,10)$, $(21,7)$, $(24,10)$.",
+            "solutionFigures": [],
+            "tip": "The vertical axis need not start at 0; label 7, 10 and 13 clearly."
+          }
+        },
+        {
+          "id": "ch14_ex14_q6b",
+          "number": "6(b)",
+          "category": null,
+          "questionText": "The depth, $D(t)$ metres, of water at the entrance to a harbour at $t$ hours after midnight on a particular day is given by $D(t) = 10 + 3\\sin\\left(\\frac{\\pi t}{6}\\right)$, $0 \\le t \\le 24$. Find the values of $t$ for which $D(t) \\ge 8.5$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin u = -\\frac{1}{2} \\iff u = \\frac{7\\pi}{6} + 2k\\pi$ or $\\frac{11\\pi}{6} + 2k\\pi$.",
+            "steps": [
+              "Given: $D(t) \\ge 8.5$, $0 \\le t \\le 24$. Goal: the set of $t$.",
+              "Equality: $10 + 3\\sin\\left(\\frac{\\pi t}{6}\\right) = 8.5 \\Rightarrow \\sin\\left(\\frac{\\pi t}{6}\\right) = -\\frac{1}{2}$.",
+              "With $\\frac{\\pi t}{6} \\in [0, 4\\pi]$: $\\frac{\\pi t}{6} = \\frac{7\\pi}{6}, \\frac{11\\pi}{6}, \\frac{19\\pi}{6}, \\frac{23\\pi}{6}$, so $t = 7, 11, 19, 23$.",
+              "$D < 8.5$ only near the low tides at $t = 9$ and $t = 21$, i.e. for $7 < t < 11$ and $19 < t < 23$.",
+              "Hence $D(t) \\ge 8.5$ for $0 \\le t \\le 7$, $11 \\le t \\le 19$ and $23 \\le t \\le 24$."
+            ],
+            "finalAnswer": "$t \\in [0, 7] \\cup [11, 19] \\cup [23, 24]$",
+            "solutionFigures": [],
+            "tip": "Include the domain endpoints $t = 0$ and $t = 24$ where the inequality holds."
+          }
+        },
+        {
+          "id": "ch14_ex14_q6c",
+          "number": "6(c)",
+          "category": null,
+          "questionText": "The depth, $D(t)$ metres, of water at the entrance to a harbour at $t$ hours after midnight on a particular day is given by $D(t) = 10 + 3\\sin\\left(\\frac{\\pi t}{6}\\right)$, $0 \\le t \\le 24$. Boats which need a depth of $w$ metres are permitted to enter the harbour only if the depth of the water at the entrance is at least $w$ metres for a continuous period of 1 hour. Find, correct to one decimal place, the largest value of $w$ which satisfies this condition.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The 1-hour window with the greatest minimum depth is centred on a high tide; by symmetry its least depth occurs at both ends.",
+            "steps": [
+              "Given: need $D(t) \\ge w$ throughout some interval of length 1 hour. Goal: the largest possible $w$.",
+              "The depth is greatest around high tide at $t = 3$ (and $t = 15$). The best 1-hour window is $[2.5, 3.5]$, symmetric about $t = 3$, because moving it either way lowers the depth at one end.",
+              "On $[2.5, 3.5]$ the least depth is at the ends: $D(2.5) = D(3.5) = 10 + 3\\sin\\left(\\frac{2.5\\pi}{6}\\right) = 10 + 3\\sin\\frac{5\\pi}{12}$.",
+              "$\\sin\\frac{5\\pi}{12} = \\frac{\\sqrt{6} + \\sqrt{2}}{4} \\approx 0.96593$, so $D(2.5) \\approx 10 + 2.8978 = 12.8978$.",
+              "So the largest $w$ is $10 + 3\\sin\\frac{5\\pi}{12} \\approx 12.9$ m."
+            ],
+            "finalAnswer": "$w = 10 + 3\\sin\\frac{5\\pi}{12} \\approx 12.9$ m",
+            "solutionFigures": [],
+            "tip": "Centre the window on the peak; the minimum over the window then occurs at its endpoints."
+          }
+        },
+        {
+          "id": "ch14_ex14_q7a",
+          "number": "7(a)",
+          "category": null,
+          "questionText": "The depth of water at the entrance to a harbour $t$ hours after high tide is $D$ metres, where $D = p + q\\cos(rt)^\\circ$ for suitable constants $p$, $q$, $r$. At high tide the depth is 7 m; at low tide, 6 hours later, the depth is 3 m. Show that $r = 30$ and find the values of $p$ and $q$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "In degrees, $y = \\cos(rt)^\\circ$ has period $\\frac{360}{r}$; the maximum of $p + q\\cos(rt)^\\circ$ is $p + q$ and the minimum is $p - q$ (for $q > 0$).",
+            "steps": [
+              "Given: $D(0) = 7$ (high tide), low tide $D = 3$ at $t = 6$. Goal: $r$, $p$, $q$.",
+              "High to low tide is half a period, so the period is $2 \\times 6 = 12$ hours.",
+              "$\\frac{360}{r} = 12 \\Rightarrow r = 30$, as required.",
+              "At $t = 0$: $D = p + q\\cos 0^\\circ = p + q = 7$.",
+              "At $t = 6$: $D = p + q\\cos 180^\\circ = p - q = 3$.",
+              "Adding: $2p = 10 \\Rightarrow p = 5$; then $q = 2$.",
+              "Check: $D = 5 + 2\\cos(30t)^\\circ$ gives $7$ at $t = 0$ and $3$ at $t = 6$."
+            ],
+            "finalAnswer": "$r = 30$, $p = 5$, $q = 2$, so $D = 5 + 2\\cos(30t)^\\circ$",
+            "solutionFigures": [],
+            "tip": "The angle is in degrees here, so use 360 rather than $2\\pi$ for the period."
+          }
+        },
+        {
+          "id": "ch14_ex14_q7b",
+          "number": "7(b)",
+          "category": null,
+          "questionText": "The depth of water at the entrance to a harbour $t$ hours after high tide is $D$ metres, where $D = p + q\\cos(rt)^\\circ$. At high tide the depth is 7 m; at low tide, 6 hours later, the depth is 3 m (so $D = 5 + 2\\cos(30t)^\\circ$). Sketch the graph of $D$ against $t$ for $0 \\le t \\le 12$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$D = 5 + 2\\cos(30t)^\\circ$: centre 5, amplitude 2, period 12 h.",
+            "steps": [
+              "Given: $D = 5 + 2\\cos(30t)^\\circ$, $0 \\le t \\le 12$. Goal: the graph.",
+              "One full cycle. Key points: $(0, 7)$, $(3, 5)$, $(6, 3)$, $(9, 5)$, $(12, 7)$.",
+              "Check $t = 3$: $5 + 2\\cos 90^\\circ = 5$.",
+              "Sketch: a cosine curve falling from 7 m at high tide to 3 m at $t = 6$, then rising back to 7 m at $t = 12$."
+            ],
+            "finalAnswer": "One cosine cycle through $(0,7)$, $(3,5)$, $(6,3)$, $(9,5)$, $(12,7)$.",
+            "solutionFigures": [],
+            "tip": "Mark the high and low tide points first, then the centre-line crossings."
+          }
+        },
+        {
+          "id": "ch14_ex14_q7c",
+          "number": "7(c)",
+          "category": null,
+          "questionText": "The depth of water at the entrance to a harbour $t$ hours after high tide is $D$ metres, where $D = p + q\\cos(rt)^\\circ$. At high tide the depth is 7 m; at low tide, 6 hours later, the depth is 3 m (so $D = 5 + 2\\cos(30t)^\\circ$). Find how soon after low tide a ship that requires a depth of at least 4 m of water will be able to enter the harbour.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos\\theta^\\circ = -\\frac{1}{2} \\iff \\theta = 120$ or $240$ for $0 \\le \\theta \\le 360$.",
+            "steps": [
+              "Given: need $D \\ge 4$. Goal: the time after low tide ($t = 6$) when $D$ first reaches 4 again.",
+              "$5 + 2\\cos(30t)^\\circ = 4 \\Rightarrow \\cos(30t)^\\circ = -\\frac{1}{2}$.",
+              "For $0 \\le 30t \\le 360$: $30t = 120$ or $240$, so $t = 4$ or $t = 8$.",
+              "The depth falls below 4 m at $t = 4$ and rises back to 4 m at $t = 8$.",
+              "Low tide is at $t = 6$, so the ship can enter $8 - 6 = 2$ hours after low tide."
+            ],
+            "finalAnswer": "2 hours after low tide",
+            "solutionFigures": [],
+            "tip": "Answer the question asked: the time measured from low tide, not from high tide."
+          }
+        },
+        {
+          "id": "ch14_ex14_q8a",
+          "number": "8(a)",
+          "category": null,
+          "questionText": "Construct a formula involving a circular function which could be used to model the following situation: water depths in a canal vary between a minimum of 3 metres and a maximum of 6 metres over a 24-hour period.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$D = b + a\\sin(nt)$ with centre $b = \\frac{\\max + \\min}{2}$, amplitude $a = \\frac{\\max - \\min}{2}$, $n = \\frac{2\\pi}{\\text{period}}$.",
+            "steps": [
+              "Given: minimum 3 m, maximum 6 m, period 24 hours. Goal: a model $D(t)$, $t$ in hours.",
+              "Centre: $b = \\frac{6 + 3}{2} = 4.5$. Amplitude: $a = \\frac{6 - 3}{2} = 1.5$.",
+              "$n = \\frac{2\\pi}{24} = \\frac{\\pi}{12}$.",
+              "One model: $D(t) = 4.5 + 1.5\\sin\\left(\\frac{\\pi t}{12}\\right)$, $0 \\le t \\le 24$.",
+              "Check: range $[4.5 - 1.5, 4.5 + 1.5] = [3, 6]$ and period 24 h. Correct.",
+              "Other choices (cosine, or a phase shift) are equally valid; they only move the starting point."
+            ],
+            "finalAnswer": "For example $D(t) = 4.5 + 1.5\\sin\\left(\\frac{\\pi t}{12}\\right)$, where $D$ is the depth in metres and $t$ the time in hours",
+            "solutionFigures": [],
+            "tip": "State what each variable represents and its units."
+          }
+        },
+        {
+          "id": "ch14_ex14_q8b",
+          "number": "8(b)",
+          "category": null,
+          "questionText": "Construct a formula involving a circular function which could be used to model the following situation: at a certain town just south of the Arctic circle, the number of hours of daylight varies between 2 and 22 hours during a 365-day year.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$H = b + a\\cos(nt)$ with $b = \\frac{\\max + \\min}{2}$, $a = \\frac{\\max - \\min}{2}$, $n = \\frac{2\\pi}{\\text{period}}$.",
+            "steps": [
+              "Given: minimum 2 h, maximum 22 h, period 365 days. Goal: a model $H(t)$, $t$ in days.",
+              "Centre: $b = \\frac{22 + 2}{2} = 12$. Amplitude: $a = \\frac{22 - 2}{2} = 10$.",
+              "$n = \\frac{2\\pi}{365}$.",
+              "Taking $t = 0$ as the day with the most daylight: $H(t) = 12 + 10\\cos\\left(\\frac{2\\pi t}{365}\\right)$, $0 \\le t \\le 365$.",
+              "Check: $H(0) = 22$, and at $t = 182.5$, $H = 12 + 10\\cos\\pi = 2$. Correct.",
+              "A sine model, e.g. $H(t) = 12 + 10\\sin\\left(\\frac{2\\pi t}{365}\\right)$, is also valid with a different starting day."
+            ],
+            "finalAnswer": "For example $H(t) = 12 + 10\\cos\\left(\\frac{2\\pi t}{365}\\right)$, where $H$ is hours of daylight and $t$ is days after the longest day",
+            "solutionFigures": [],
+            "tip": "Say where $t = 0$ is, since the phase of the model depends on it."
+          }
+        }
+      ]
+    }
+  ]
+}

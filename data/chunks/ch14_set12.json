@@ -1,0 +1,158 @@
+{
+  "chapterId": "ch14",
+  "chapterTitle": "Circular functions (Methods 12)",
+  "topics": [
+    {
+      "topicId": "14L",
+      "topicTitle": "Numerical methods with a CAS calculator",
+      "exercises": [
+        {
+          "id": "ch14_ex12_q1a",
+          "number": "1(a)",
+          "category": null,
+          "questionText": "Solve the equation $\\cos x = x$ for $x$, correct to two decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Numerical solution: the solutions are the $x$-coordinates of the intersection points of $y = \\cos x$ and $y = x$ (CAS solve, or graph and find intersections).",
+            "steps": [
+              "Given: $\\cos x = x$. Goal: all real solutions to 2 decimal places.",
+              "Since $-1 \\le \\cos x \\le 1$, any solution has $-1 \\le x \\le 1$. For $-1 \\le x \\le 0$, $\\cos x > 0 \\ge x$, so there is no solution there. On $[0, 1]$, $\\cos x - x$ decreases from $1$ to $\\cos 1 - 1 \\approx -0.46$, so there is exactly one solution.",
+              "Using CAS (radian mode): solve$(\\cos(x) = x, x)$ gives $x \\approx 0.739085$.",
+              "Check: $\\cos(0.739) \\approx 0.7391$. Correct.",
+              "Rounded to 2 decimal places: $x \\approx 0.74$."
+            ],
+            "finalAnswer": "$x \\approx 0.74$",
+            "solutionFigures": [],
+            "tip": "Make sure the calculator is in radian mode."
+          }
+        },
+        {
+          "id": "ch14_ex12_q1b",
+          "number": "1(b)",
+          "category": null,
+          "questionText": "Solve the equation $\\sin x = 1 - x$ for $x$, correct to two decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Numerical solution: intersect $y = \\sin x$ and $y = 1 - x$.",
+            "steps": [
+              "Given: $\\sin x = 1 - x$. Goal: all real solutions to 2 decimal places.",
+              "Since $|\\sin x| \\le 1$, we need $0 \\le x \\le 2$. The function $g(x) = \\sin x + x - 1$ has $g'(x) = \\cos x + 1 \\ge 0$, so it is increasing and there is exactly one solution.",
+              "$g(0) = -1 < 0$ and $g(1) = \\sin 1 \\approx 0.84 > 0$, so the root lies in $(0, 1)$.",
+              "CAS (radian mode) gives $x \\approx 0.510973$.",
+              "Check: $\\sin(0.511) \\approx 0.489$ and $1 - 0.511 = 0.489$. Correct.",
+              "Rounded: $x \\approx 0.51$."
+            ],
+            "finalAnswer": "$x \\approx 0.51$",
+            "solutionFigures": [],
+            "tip": "Show that the solution is unique; a sketch of both graphs is enough."
+          }
+        },
+        {
+          "id": "ch14_ex12_q1c",
+          "number": "1(c)",
+          "category": null,
+          "questionText": "Solve the equation $\\cos x = x^2$ for $x$, correct to two decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Numerical solution: intersect $y = \\cos x$ and $y = x^2$; both functions are even, so solutions come in pairs $\\pm x$.",
+            "steps": [
+              "Given: $\\cos x = x^2$. Goal: all real solutions to 2 decimal places.",
+              "We need $x^2 \\le 1$, so $-1 \\le x \\le 1$. On $[0, 1]$, $\\cos x - x^2$ decreases from $1$ to $\\cos 1 - 1 < 0$, so there is one positive solution.",
+              "CAS gives $x \\approx 0.824132$.",
+              "Since $\\cos(-x) = \\cos x$ and $(-x)^2 = x^2$, $x \\approx -0.824132$ is also a solution.",
+              "Check: $\\cos(0.824) \\approx 0.679$ and $0.824^2 \\approx 0.679$. Correct.",
+              "Rounded: $x \\approx \\pm 0.82$."
+            ],
+            "finalAnswer": "$x \\approx -0.82$ or $x \\approx 0.82$",
+            "solutionFigures": [],
+            "tip": "Use symmetry: when both sides are even functions, negative solutions mirror the positive ones."
+          }
+        },
+        {
+          "id": "ch14_ex12_q1d",
+          "number": "1(d)",
+          "category": null,
+          "questionText": "Solve the equation $\\sin x = x^2$ for $x$, correct to two decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Numerical solution: intersect $y = \\sin x$ and $y = x^2$.",
+            "steps": [
+              "Given: $\\sin x = x^2$. Goal: all real solutions to 2 decimal places.",
+              "$x = 0$ is an exact solution: $\\sin 0 = 0 = 0^2$.",
+              "Since $x^2 \\ge 0$, any other solution has $\\sin x \\ge 0$; also $x^2 \\le 1$ gives $-1 \\le x \\le 1$. For $-1 \\le x < 0$, $\\sin x < 0 < x^2$, so there are no negative solutions.",
+              "For $0 < x \\le 1$: CAS gives a second solution $x \\approx 0.876726$.",
+              "Check: $\\sin(0.8767) \\approx 0.7686$ and $0.8767^2 \\approx 0.7686$. Correct.",
+              "Rounded: $x = 0$ or $x \\approx 0.88$."
+            ],
+            "finalAnswer": "$x = 0$ or $x \\approx 0.88$",
+            "solutionFigures": [],
+            "tip": "Do not miss the obvious exact solution $x = 0$."
+          }
+        },
+        {
+          "id": "ch14_ex12_q2a",
+          "number": "2(a)",
+          "category": null,
+          "questionText": "Find a suitable trigonometric rule (model) for the following data. $\\theta$: $0, \\frac{\\pi}{4}, \\frac{\\pi}{2}, \\frac{3\\pi}{4}, \\pi$; $y$: $1, 2.4, -1, 2.4, 1$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Model $y = a\\sin(n\\theta) + b$ (or use sinusoidal regression on a CAS); the centre line $b$ is the mean level and $a$ the amplitude.",
+            "steps": [
+              "Given: the table of values. Goal: a rule of the form $y = a\\sin(n\\theta + c) + b$ that fits the data.",
+              "The values at $\\theta = 0$ and $\\theta = \\pi$ are both $1$, and the data are symmetric about $\\theta = \\frac{\\pi}{2}$. Try a centre line $b = 1$ with $\\sin(n\\theta) = 0$ at $\\theta = 0$ and $\\pi$, so $n$ is a whole number.",
+              "At $\\theta = \\frac{\\pi}{2}$, $y = -1$, i.e. $a\\sin\\frac{n\\pi}{2} = -2$. Taking $n = 3$: $\\sin\\frac{3\\pi}{2} = -1$, so $a = 2$.",
+              "Test $y = 2\\sin(3\\theta) + 1$: at $\\theta = \\frac{\\pi}{4}$, $2\\sin\\frac{3\\pi}{4} + 1 = 2 \\cdot \\frac{\\sqrt{2}}{2} + 1 = \\sqrt{2} + 1 \\approx 2.41$. Correct.",
+              "At $\\theta = \\frac{3\\pi}{4}$: $2\\sin\\frac{9\\pi}{4} + 1 = \\sqrt{2} + 1 \\approx 2.41$. At $\\theta = \\pi$: $2\\sin 3\\pi + 1 = 1$. Correct.",
+              "All five points fit (to the 1 decimal place given)."
+            ],
+            "finalAnswer": "$y = 2\\sin(3\\theta) + 1$",
+            "solutionFigures": [],
+            "tip": "Five points spaced $\\frac{\\pi}{4}$ apart cannot rule out faster oscillations (for example $y = 1 - 2\\sin(5\\theta)$ also fits), so choose the simplest (lowest-frequency) model."
+          }
+        },
+        {
+          "id": "ch14_ex12_q2b",
+          "number": "2(b)",
+          "category": null,
+          "questionText": "Find a suitable trigonometric rule (model) for the following data. $\\theta$: $0, 0.2, 0.4, 0.6, 0.8$; $y$: $0, 1.77, 2.85, 2.85, 1.77$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Model $y = a\\sin(n\\theta)$: a maximum at $\\theta = \\theta_0$ gives $n\\theta_0 = \\frac{\\pi}{2}$.",
+            "steps": [
+              "Given: the table. Goal: a sinusoidal rule that fits.",
+              "$y = 0$ at $\\theta = 0$, and the values are symmetric about $\\theta = 0.5$ ($1.77, 2.85, 2.85, 1.77$), so the maximum is at $\\theta = 0.5$.",
+              "For $y = a\\sin(n\\theta)$: $n(0.5) = \\frac{\\pi}{2}$ gives $n = \\pi$.",
+              "Amplitude from $\\theta = 0.2$: $a\\sin(0.2\\pi) = 1.77 \\Rightarrow a = \\frac{1.77}{0.5878} \\approx 3.01$, so take $a = 3$.",
+              "Test $y = 3\\sin(\\pi\\theta)$: $\\theta = 0.4$: $3\\sin(0.4\\pi) = 3(0.9511) \\approx 2.85$. $\\theta = 0.6$: $2.85$. $\\theta = 0.8$: $3\\sin(0.8\\pi) \\approx 1.76$, matching $1.77$ to within rounding.",
+              "A CAS sinusoidal regression gives approximately the same rule, $y \\approx 3\\sin(3.14\\theta)$."
+            ],
+            "finalAnswer": "$y = 3\\sin(\\pi\\theta)$ (approximately $y = 3\\sin(3.14\\theta)$)",
+            "solutionFigures": [],
+            "tip": "Use the symmetry of the data to locate a maximum and so find $n$."
+          }
+        },
+        {
+          "id": "ch14_ex12_q2c",
+          "number": "2(c)",
+          "category": null,
+          "questionText": "Find a suitable trigonometric rule (model) for the following data. $\\theta$: $0, 0.2, 0.4, 0.6, 0.8$; $y$: $5, 2.18, 0.34, 0.13, 1.62$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Model $y = b + a\\sin(n\\theta)$, found with CAS sinusoidal regression and checked by substitution.",
+            "steps": [
+              "Given: the table. Goal: a sinusoidal rule that fits.",
+              "Sinusoidal regression on a CAS gives approximately $y = -4.94\\sin(3.02\\theta - 0.01) + 4.94$, which suggests $y = 5 - 5\\sin(3\\theta)$.",
+              "Test $y = 5 - 5\\sin(3\\theta)$ (radians): $\\theta = 0$: $5$. $\\theta = 0.2$: $5 - 5\\sin 0.6 = 5 - 2.823 = 2.18$.",
+              "$\\theta = 0.4$: $5 - 5\\sin 1.2 = 5 - 4.660 = 0.34$. $\\theta = 0.6$: $5 - 5\\sin 1.8 = 5 - 4.869 = 0.13$.",
+              "$\\theta = 0.8$: $5 - 5\\sin 2.4 = 5 - 3.377 = 1.62$. All five values match to 2 decimal places.",
+              "So the model has centre line $y = 5$, amplitude $5$, period $\\frac{2\\pi}{3} \\approx 2.09$, with a minimum of $0$ at $\\theta = \\frac{\\pi}{6} \\approx 0.52$."
+            ],
+            "finalAnswer": "$y = 5 - 5\\sin(3\\theta)$",
+            "solutionFigures": [],
+            "tip": "Round the regression coefficients to simple values, then check the simplified rule against every data point."
+          }
+        }
+      ]
+    }
+  ]
+}

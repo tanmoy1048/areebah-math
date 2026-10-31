@@ -1,0 +1,903 @@
+{
+  "chapterId": "ch14",
+  "chapterTitle": "Circular functions (Methods 12)",
+  "topics": [
+    {
+      "topicId": "14 Review 2",
+      "topicTitle": "Review",
+      "exercises": [
+        {
+          "id": "ch14_ex16_q1a",
+          "number": "1(a)",
+          "category": null,
+          "questionText": "Convert the following to radian measure in terms of $\\pi$: $330^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$1^\\circ = \\dfrac{\\pi}{180}$ radians, so $x^\\circ = \\dfrac{x\\pi}{180}$ radians",
+            "steps": [
+              "Given: $330^\\circ$. Goal: write it in radians as a multiple of $\\pi$.",
+              "Multiply by $\\dfrac{\\pi}{180}$: $330^\\circ = \\dfrac{330\\pi}{180}$",
+              "Simplify by dividing top and bottom by 30: $\\dfrac{330}{180} = \\dfrac{11}{6}$",
+              "So $330^\\circ = \\dfrac{11\\pi}{6}$.",
+              "Check: $\\dfrac{11\\pi}{6} \\times \\dfrac{180}{\\pi} = 11 \\times 30 = 330$ ✓"
+            ],
+            "finalAnswer": "$\\dfrac{11\\pi}{6}$",
+            "solutionFigures": [],
+            "tip": "Degrees to radians: multiply by $\\pi/180$; radians to degrees: multiply by $180/\\pi$."
+          }
+        },
+        {
+          "id": "ch14_ex16_q1b",
+          "number": "1(b)",
+          "category": null,
+          "questionText": "Convert the following to radian measure in terms of $\\pi$: $810^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$x^\\circ = \\dfrac{x\\pi}{180}$ radians",
+            "steps": [
+              "Given: $810^\\circ$. Goal: radians in terms of $\\pi$.",
+              "$810^\\circ = \\dfrac{810\\pi}{180}$",
+              "Divide top and bottom by 90: $\\dfrac{810}{180} = \\dfrac{9}{2}$",
+              "So $810^\\circ = \\dfrac{9\\pi}{2}$.",
+              "Check: $\\dfrac{9}{2} \\times 180 = 810$ ✓"
+            ],
+            "finalAnswer": "$\\dfrac{9\\pi}{2}$",
+            "solutionFigures": [],
+            "tip": "Angles larger than $360^\\circ$ convert in exactly the same way; there is no need to subtract $360^\\circ$ first."
+          }
+        },
+        {
+          "id": "ch14_ex16_q1c",
+          "number": "1(c)",
+          "category": null,
+          "questionText": "Convert the following to radian measure in terms of $\\pi$: $1080^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$x^\\circ = \\dfrac{x\\pi}{180}$ radians",
+            "steps": [
+              "Given: $1080^\\circ$. Goal: radians in terms of $\\pi$.",
+              "$1080^\\circ = \\dfrac{1080\\pi}{180}$",
+              "$\\dfrac{1080}{180} = 6$",
+              "So $1080^\\circ = 6\\pi$ (three full turns, since $360^\\circ = 2\\pi$).",
+              "Check: $6 \\times 180 = 1080$ ✓"
+            ],
+            "finalAnswer": "$6\\pi$",
+            "solutionFigures": [],
+            "tip": "Each full turn of $360^\\circ$ is $2\\pi$, so $1080^\\circ = 3 \\times 2\\pi$."
+          }
+        },
+        {
+          "id": "ch14_ex16_q1d",
+          "number": "1(d)",
+          "category": null,
+          "questionText": "Convert the following to radian measure in terms of $\\pi$: $1035^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$x^\\circ = \\dfrac{x\\pi}{180}$ radians",
+            "steps": [
+              "Given: $1035^\\circ$. Goal: radians in terms of $\\pi$.",
+              "$1035^\\circ = \\dfrac{1035\\pi}{180}$",
+              "Divide top and bottom by 45: $1035 \\div 45 = 23$ and $180 \\div 45 = 4$, so $\\dfrac{1035}{180} = \\dfrac{23}{4}$",
+              "So $1035^\\circ = \\dfrac{23\\pi}{4}$.",
+              "Check: $\\dfrac{23}{4} \\times 180 = 23 \\times 45 = 1035$ ✓"
+            ],
+            "finalAnswer": "$\\dfrac{23\\pi}{4}$",
+            "solutionFigures": [],
+            "tip": "Look for the highest common factor (here 45) to simplify in one step."
+          }
+        },
+        {
+          "id": "ch14_ex16_q1e",
+          "number": "1(e)",
+          "category": null,
+          "questionText": "Convert the following to radian measure in terms of $\\pi$: $135^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$x^\\circ = \\dfrac{x\\pi}{180}$ radians",
+            "steps": [
+              "Given: $135^\\circ$. Goal: radians in terms of $\\pi$.",
+              "$135^\\circ = \\dfrac{135\\pi}{180}$",
+              "Divide top and bottom by 45: $\\dfrac{135}{180} = \\dfrac{3}{4}$",
+              "So $135^\\circ = \\dfrac{3\\pi}{4}$.",
+              "Check: $\\dfrac{3}{4} \\times 180 = 135$ ✓"
+            ],
+            "finalAnswer": "$\\dfrac{3\\pi}{4}$",
+            "solutionFigures": [],
+            "tip": "$45^\\circ = \\frac{\\pi}{4}$ is worth memorising: $135^\\circ = 3 \\times 45^\\circ$."
+          }
+        },
+        {
+          "id": "ch14_ex16_q1f",
+          "number": "1(f)",
+          "category": null,
+          "questionText": "Convert the following to radian measure in terms of $\\pi$: $405^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$x^\\circ = \\dfrac{x\\pi}{180}$ radians",
+            "steps": [
+              "Given: $405^\\circ$. Goal: radians in terms of $\\pi$.",
+              "$405^\\circ = \\dfrac{405\\pi}{180}$",
+              "Divide top and bottom by 45: $\\dfrac{405}{180} = \\dfrac{9}{4}$",
+              "So $405^\\circ = \\dfrac{9\\pi}{4}$.",
+              "Check: $405^\\circ = 360^\\circ + 45^\\circ$ and $2\\pi + \\frac{\\pi}{4} = \\frac{9\\pi}{4}$ ✓"
+            ],
+            "finalAnswer": "$\\dfrac{9\\pi}{4}$",
+            "solutionFigures": [],
+            "tip": "Do not reduce to $\\frac{\\pi}{4}$: the question asks for the angle itself, not its position on the unit circle."
+          }
+        },
+        {
+          "id": "ch14_ex16_q1g",
+          "number": "1(g)",
+          "category": null,
+          "questionText": "Convert the following to radian measure in terms of $\\pi$: $390^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$x^\\circ = \\dfrac{x\\pi}{180}$ radians",
+            "steps": [
+              "Given: $390^\\circ$. Goal: radians in terms of $\\pi$.",
+              "$390^\\circ = \\dfrac{390\\pi}{180}$",
+              "Divide top and bottom by 30: $\\dfrac{390}{180} = \\dfrac{13}{6}$",
+              "So $390^\\circ = \\dfrac{13\\pi}{6}$.",
+              "Check: $360^\\circ + 30^\\circ \\to 2\\pi + \\frac{\\pi}{6} = \\frac{13\\pi}{6}$ ✓"
+            ],
+            "finalAnswer": "$\\dfrac{13\\pi}{6}$",
+            "solutionFigures": [],
+            "tip": "Splitting into full turns plus a familiar angle is a quick check."
+          }
+        },
+        {
+          "id": "ch14_ex16_q1h",
+          "number": "1(h)",
+          "category": null,
+          "questionText": "Convert the following to radian measure in terms of $\\pi$: $420^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$x^\\circ = \\dfrac{x\\pi}{180}$ radians",
+            "steps": [
+              "Given: $420^\\circ$. Goal: radians in terms of $\\pi$.",
+              "$420^\\circ = \\dfrac{420\\pi}{180}$",
+              "Divide top and bottom by 60: $\\dfrac{420}{180} = \\dfrac{7}{3}$",
+              "So $420^\\circ = \\dfrac{7\\pi}{3}$.",
+              "Check: $360^\\circ + 60^\\circ \\to 2\\pi + \\frac{\\pi}{3} = \\frac{7\\pi}{3}$ ✓"
+            ],
+            "finalAnswer": "$\\dfrac{7\\pi}{3}$",
+            "solutionFigures": [],
+            "tip": "Always simplify the fraction fully."
+          }
+        },
+        {
+          "id": "ch14_ex16_q1i",
+          "number": "1(i)",
+          "category": null,
+          "questionText": "Convert the following to radian measure in terms of $\\pi$: $80^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$x^\\circ = \\dfrac{x\\pi}{180}$ radians",
+            "steps": [
+              "Given: $80^\\circ$. Goal: radians in terms of $\\pi$.",
+              "$80^\\circ = \\dfrac{80\\pi}{180}$",
+              "Divide top and bottom by 20: $\\dfrac{80}{180} = \\dfrac{4}{9}$",
+              "So $80^\\circ = \\dfrac{4\\pi}{9}$.",
+              "Check: $\\dfrac{4}{9} \\times 180 = 80$ ✓"
+            ],
+            "finalAnswer": "$\\dfrac{4\\pi}{9}$",
+            "solutionFigures": [],
+            "tip": "The answer need not be a 'nice' angle; just simplify the fraction."
+          }
+        },
+        {
+          "id": "ch14_ex16_q2a",
+          "number": "2(a)",
+          "category": null,
+          "questionText": "Convert the following to degree measure: $\\dfrac{5\\pi^c}{6}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$1^c = \\dfrac{180^\\circ}{\\pi}$, so $\\theta^c = \\theta \\times \\dfrac{180}{\\pi}$ degrees",
+            "steps": [
+              "Given: $\\frac{5\\pi}{6}$ radians. Goal: degrees.",
+              "Multiply by $\\dfrac{180}{\\pi}$: $\\dfrac{5\\pi}{6} \\times \\dfrac{180}{\\pi} = 5 \\times 30$",
+              "$= 150^\\circ$",
+              "So $\\dfrac{5\\pi^c}{6} = 150^\\circ$."
+            ],
+            "finalAnswer": "$150^\\circ$",
+            "solutionFigures": [],
+            "tip": "Shortcut: replace $\\pi$ by $180^\\circ$, then simplify: $\\frac{5 \\times 180}{6} = 150$."
+          }
+        },
+        {
+          "id": "ch14_ex16_q2b",
+          "number": "2(b)",
+          "category": null,
+          "questionText": "Convert the following to degree measure: $\\dfrac{7\\pi^c}{4}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta^c = \\theta \\times \\dfrac{180}{\\pi}$ degrees",
+            "steps": [
+              "Given: $\\frac{7\\pi}{4}$ radians. Goal: degrees.",
+              "$\\dfrac{7\\pi}{4} \\times \\dfrac{180}{\\pi} = 7 \\times 45$",
+              "$= 315^\\circ$",
+              "So $\\dfrac{7\\pi^c}{4} = 315^\\circ$."
+            ],
+            "finalAnswer": "$315^\\circ$",
+            "solutionFigures": [],
+            "tip": "$\\frac{\\pi}{4} = 45^\\circ$, so any multiple of $\\frac{\\pi}{4}$ is that multiple of $45^\\circ$."
+          }
+        },
+        {
+          "id": "ch14_ex16_q2c",
+          "number": "2(c)",
+          "category": null,
+          "questionText": "Convert the following to degree measure: $\\dfrac{11\\pi^c}{4}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta^c = \\theta \\times \\dfrac{180}{\\pi}$ degrees",
+            "steps": [
+              "Given: $\\frac{11\\pi}{4}$ radians. Goal: degrees.",
+              "$\\dfrac{11\\pi}{4} \\times \\dfrac{180}{\\pi} = 11 \\times 45$",
+              "$= 495^\\circ$",
+              "So $\\dfrac{11\\pi^c}{4} = 495^\\circ$."
+            ],
+            "finalAnswer": "$495^\\circ$",
+            "solutionFigures": [],
+            "tip": "An angle above $2\\pi$ gives a degree measure above $360^\\circ$; that is expected."
+          }
+        },
+        {
+          "id": "ch14_ex16_q2d",
+          "number": "2(d)",
+          "category": null,
+          "questionText": "Convert the following to degree measure: $\\dfrac{3\\pi^c}{12}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta^c = \\theta \\times \\dfrac{180}{\\pi}$ degrees",
+            "steps": [
+              "Given: $\\frac{3\\pi}{12}$ radians. Goal: degrees.",
+              "Simplify first: $\\dfrac{3\\pi}{12} = \\dfrac{\\pi}{4}$",
+              "$\\dfrac{\\pi}{4} \\times \\dfrac{180}{\\pi} = 45$",
+              "So $\\dfrac{3\\pi^c}{12} = 45^\\circ$."
+            ],
+            "finalAnswer": "$45^\\circ$",
+            "solutionFigures": [],
+            "tip": "Simplify the fraction before converting to keep the arithmetic easy."
+          }
+        },
+        {
+          "id": "ch14_ex16_q2e",
+          "number": "2(e)",
+          "category": null,
+          "questionText": "Convert the following to degree measure: $\\dfrac{15\\pi^c}{2}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta^c = \\theta \\times \\dfrac{180}{\\pi}$ degrees",
+            "steps": [
+              "Given: $\\frac{15\\pi}{2}$ radians. Goal: degrees.",
+              "$\\dfrac{15\\pi}{2} \\times \\dfrac{180}{\\pi} = 15 \\times 90$",
+              "$= 1350^\\circ$",
+              "So $\\dfrac{15\\pi^c}{2} = 1350^\\circ$."
+            ],
+            "finalAnswer": "$1350^\\circ$",
+            "solutionFigures": [],
+            "tip": "$\\frac{\\pi}{2} = 90^\\circ$, so multiply 15 by 90."
+          }
+        },
+        {
+          "id": "ch14_ex16_q2f",
+          "number": "2(f)",
+          "category": null,
+          "questionText": "Convert the following to degree measure: $-\\dfrac{3\\pi^c}{4}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta^c = \\theta \\times \\dfrac{180}{\\pi}$ degrees",
+            "steps": [
+              "Given: $-\\frac{3\\pi}{4}$ radians. Goal: degrees.",
+              "$-\\dfrac{3\\pi}{4} \\times \\dfrac{180}{\\pi} = -3 \\times 45$",
+              "$= -135^\\circ$",
+              "So $-\\dfrac{3\\pi^c}{4} = -135^\\circ$."
+            ],
+            "finalAnswer": "$-135^\\circ$",
+            "solutionFigures": [],
+            "tip": "Keep the negative sign: it means a clockwise rotation."
+          }
+        },
+        {
+          "id": "ch14_ex16_q2g",
+          "number": "2(g)",
+          "category": null,
+          "questionText": "Convert the following to degree measure: $-\\dfrac{\\pi^c}{4}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta^c = \\theta \\times \\dfrac{180}{\\pi}$ degrees",
+            "steps": [
+              "Given: $-\\frac{\\pi}{4}$ radians. Goal: degrees.",
+              "$-\\dfrac{\\pi}{4} \\times \\dfrac{180}{\\pi} = -45$",
+              "So $-\\dfrac{\\pi^c}{4} = -45^\\circ$."
+            ],
+            "finalAnswer": "$-45^\\circ$",
+            "solutionFigures": [],
+            "tip": "Do not write $315^\\circ$: that is a different angle with the same terminal ray."
+          }
+        },
+        {
+          "id": "ch14_ex16_q2h",
+          "number": "2(h)",
+          "category": null,
+          "questionText": "Convert the following to degree measure: $-\\dfrac{11\\pi^c}{4}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta^c = \\theta \\times \\dfrac{180}{\\pi}$ degrees",
+            "steps": [
+              "Given: $-\\frac{11\\pi}{4}$ radians. Goal: degrees.",
+              "$-\\dfrac{11\\pi}{4} \\times \\dfrac{180}{\\pi} = -11 \\times 45$",
+              "$= -495^\\circ$",
+              "So $-\\dfrac{11\\pi^c}{4} = -495^\\circ$."
+            ],
+            "finalAnswer": "$-495^\\circ$",
+            "solutionFigures": [],
+            "tip": "Converting units never changes the sign of an angle."
+          }
+        },
+        {
+          "id": "ch14_ex16_q2i",
+          "number": "2(i)",
+          "category": null,
+          "questionText": "Convert the following to degree measure: $-\\dfrac{23\\pi^c}{4}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta^c = \\theta \\times \\dfrac{180}{\\pi}$ degrees",
+            "steps": [
+              "Given: $-\\frac{23\\pi}{4}$ radians. Goal: degrees.",
+              "$-\\dfrac{23\\pi}{4} \\times \\dfrac{180}{\\pi} = -23 \\times 45$",
+              "$= -1035^\\circ$",
+              "So $-\\dfrac{23\\pi^c}{4} = -1035^\\circ$ (compare Question 1(d): $1035^\\circ = \\frac{23\\pi}{4}$)."
+            ],
+            "finalAnswer": "$-1035^\\circ$",
+            "solutionFigures": [],
+            "tip": "$23 \\times 45 = 23 \\times 40 + 23 \\times 5 = 920 + 115 = 1035$."
+          }
+        },
+        {
+          "id": "ch14_ex16_q3a",
+          "number": "3(a)",
+          "category": null,
+          "questionText": "Give the exact value of $\\sin\\left(\\dfrac{11\\pi}{4}\\right)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Periodicity $\\sin(\\theta + 2k\\pi) = \\sin\\theta$; symmetry $\\sin(\\pi - \\theta) = \\sin\\theta$; $\\sin\\frac{\\pi}{4} = \\frac{1}{\\sqrt{2}}$",
+            "steps": [
+              "Given: $\\sin\\frac{11\\pi}{4}$. Goal: exact value.",
+              "Remove a full turn: $\\dfrac{11\\pi}{4} - 2\\pi = \\dfrac{11\\pi}{4} - \\dfrac{8\\pi}{4} = \\dfrac{3\\pi}{4}$, so $\\sin\\frac{11\\pi}{4} = \\sin\\frac{3\\pi}{4}$",
+              "$\\frac{3\\pi}{4} = \\pi - \\frac{\\pi}{4}$ is in quadrant 2, where sine is positive.",
+              "$\\sin\\left(\\pi - \\frac{\\pi}{4}\\right) = \\sin\\frac{\\pi}{4} = \\dfrac{1}{\\sqrt{2}} = \\dfrac{\\sqrt{2}}{2}$",
+              "So $\\sin\\frac{11\\pi}{4} = \\dfrac{\\sqrt{2}}{2}$."
+            ],
+            "finalAnswer": "$\\dfrac{\\sqrt{2}}{2}$ (that is, $\\dfrac{1}{\\sqrt{2}}$)",
+            "solutionFigures": [],
+            "tip": "Reduce by multiples of $2\\pi$ first, then use the quadrant to decide the sign."
+          }
+        },
+        {
+          "id": "ch14_ex16_q3b",
+          "number": "3(b)",
+          "category": null,
+          "questionText": "Give the exact value of $\\cos\\left(-\\dfrac{7\\pi}{4}\\right)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(-\\theta) = \\cos\\theta$; $\\cos(2\\pi - \\theta) = \\cos\\theta$; $\\cos\\frac{\\pi}{4} = \\frac{1}{\\sqrt{2}}$",
+            "steps": [
+              "Given: $\\cos\\left(-\\frac{7\\pi}{4}\\right)$. Goal: exact value.",
+              "Cosine is even: $\\cos\\left(-\\frac{7\\pi}{4}\\right) = \\cos\\frac{7\\pi}{4}$",
+              "$\\frac{7\\pi}{4} = 2\\pi - \\frac{\\pi}{4}$ is in quadrant 4, where cosine is positive.",
+              "$\\cos\\left(2\\pi - \\frac{\\pi}{4}\\right) = \\cos\\frac{\\pi}{4} = \\dfrac{\\sqrt{2}}{2}$",
+              "Check: $-\\frac{7\\pi}{4} + 2\\pi = \\frac{\\pi}{4}$, and $\\cos\\frac{\\pi}{4} = \\frac{\\sqrt{2}}{2}$ ✓"
+            ],
+            "finalAnswer": "$\\dfrac{\\sqrt{2}}{2}$",
+            "solutionFigures": [],
+            "tip": "$\\cos(-\\theta) = \\cos\\theta$ but $\\sin(-\\theta) = -\\sin\\theta$: do not mix them up."
+          }
+        },
+        {
+          "id": "ch14_ex16_q3c",
+          "number": "3(c)",
+          "category": null,
+          "questionText": "Give the exact value of $\\sin\\left(\\dfrac{11\\pi}{6}\\right)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(2\\pi - \\theta) = -\\sin\\theta$; $\\sin\\frac{\\pi}{6} = \\frac{1}{2}$",
+            "steps": [
+              "Given: $\\sin\\frac{11\\pi}{6}$. Goal: exact value.",
+              "$\\frac{11\\pi}{6} = 2\\pi - \\frac{\\pi}{6}$, which is in quadrant 4, where sine is negative.",
+              "$\\sin\\left(2\\pi - \\frac{\\pi}{6}\\right) = -\\sin\\frac{\\pi}{6} = -\\dfrac{1}{2}$",
+              "So $\\sin\\frac{11\\pi}{6} = -\\frac{1}{2}$."
+            ],
+            "finalAnswer": "$-\\dfrac{1}{2}$",
+            "solutionFigures": [],
+            "tip": "In quadrant 4 only cosine is positive."
+          }
+        },
+        {
+          "id": "ch14_ex16_q3d",
+          "number": "3(d)",
+          "category": null,
+          "questionText": "Give the exact value of $\\cos\\left(-\\dfrac{7\\pi}{6}\\right)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(-\\theta) = \\cos\\theta$; $\\cos(\\pi + \\theta) = -\\cos\\theta$; $\\cos\\frac{\\pi}{6} = \\frac{\\sqrt{3}}{2}$",
+            "steps": [
+              "Given: $\\cos\\left(-\\frac{7\\pi}{6}\\right)$. Goal: exact value.",
+              "Cosine is even: $\\cos\\left(-\\frac{7\\pi}{6}\\right) = \\cos\\frac{7\\pi}{6}$",
+              "$\\frac{7\\pi}{6} = \\pi + \\frac{\\pi}{6}$ is in quadrant 3, where cosine is negative.",
+              "$\\cos\\left(\\pi + \\frac{\\pi}{6}\\right) = -\\cos\\frac{\\pi}{6} = -\\dfrac{\\sqrt{3}}{2}$",
+              "So $\\cos\\left(-\\frac{7\\pi}{6}\\right) = -\\frac{\\sqrt{3}}{2}$."
+            ],
+            "finalAnswer": "$-\\dfrac{\\sqrt{3}}{2}$",
+            "solutionFigures": [],
+            "tip": "Find the quadrant before writing the value; the sign comes from the quadrant."
+          }
+        },
+        {
+          "id": "ch14_ex16_q3e",
+          "number": "3(e)",
+          "category": null,
+          "questionText": "Give the exact value of $\\cos\\left(\\dfrac{13\\pi}{6}\\right)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(\\theta + 2\\pi) = \\cos\\theta$; $\\cos\\frac{\\pi}{6} = \\frac{\\sqrt{3}}{2}$",
+            "steps": [
+              "Given: $\\cos\\frac{13\\pi}{6}$. Goal: exact value.",
+              "$\\frac{13\\pi}{6} = 2\\pi + \\frac{\\pi}{6}$, one full turn plus $\\frac{\\pi}{6}$ (quadrant 1).",
+              "$\\cos\\frac{13\\pi}{6} = \\cos\\frac{\\pi}{6} = \\dfrac{\\sqrt{3}}{2}$"
+            ],
+            "finalAnswer": "$\\dfrac{\\sqrt{3}}{2}$",
+            "solutionFigures": [],
+            "tip": "Subtracting $2\\pi = \\frac{12\\pi}{6}$ leaves the same point on the unit circle."
+          }
+        },
+        {
+          "id": "ch14_ex16_q3f",
+          "number": "3(f)",
+          "category": null,
+          "questionText": "Give the exact value of $\\sin\\left(\\dfrac{23\\pi}{6}\\right)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta + 2k\\pi) = \\sin\\theta$; $\\sin(-\\theta) = -\\sin\\theta$; $\\sin\\frac{\\pi}{6} = \\frac{1}{2}$",
+            "steps": [
+              "Given: $\\sin\\frac{23\\pi}{6}$. Goal: exact value.",
+              "$\\frac{23\\pi}{6} = 4\\pi - \\frac{\\pi}{6}$ (since $4\\pi = \\frac{24\\pi}{6}$).",
+              "Remove two full turns: $\\sin\\frac{23\\pi}{6} = \\sin\\left(-\\frac{\\pi}{6}\\right)$",
+              "Sine is odd: $\\sin\\left(-\\frac{\\pi}{6}\\right) = -\\sin\\frac{\\pi}{6} = -\\dfrac{1}{2}$",
+              "So $\\sin\\frac{23\\pi}{6} = -\\frac{1}{2}$ (the point is in quadrant 4)."
+            ],
+            "finalAnswer": "$-\\dfrac{1}{2}$",
+            "solutionFigures": [],
+            "tip": "Writing the angle as (multiple of $2\\pi$) $\\pm$ (basic angle) is often the quickest route."
+          }
+        },
+        {
+          "id": "ch14_ex16_q3g",
+          "number": "3(g)",
+          "category": null,
+          "questionText": "Give the exact value of $\\cos\\left(-\\dfrac{23}{3}\\pi\\right)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(-\\theta) = \\cos\\theta$; $\\cos(\\theta + 2k\\pi) = \\cos\\theta$; $\\cos\\frac{\\pi}{3} = \\frac{1}{2}$",
+            "steps": [
+              "Given: $\\cos\\left(-\\frac{23\\pi}{3}\\right)$. Goal: exact value.",
+              "Cosine is even: $\\cos\\left(-\\frac{23\\pi}{3}\\right) = \\cos\\frac{23\\pi}{3}$",
+              "$\\frac{23\\pi}{3} = 8\\pi - \\frac{\\pi}{3}$ (since $8\\pi = \\frac{24\\pi}{3}$).",
+              "Remove four full turns: $\\cos\\frac{23\\pi}{3} = \\cos\\left(-\\frac{\\pi}{3}\\right) = \\cos\\frac{\\pi}{3} = \\dfrac{1}{2}$",
+              "So $\\cos\\left(-\\frac{23\\pi}{3}\\right) = \\frac{1}{2}$."
+            ],
+            "finalAnswer": "$\\dfrac{1}{2}$",
+            "solutionFigures": [],
+            "tip": "Use the evenness of cosine to get rid of the negative sign straight away."
+          }
+        },
+        {
+          "id": "ch14_ex16_q3h",
+          "number": "3(h)",
+          "category": null,
+          "questionText": "Give the exact value of $\\sin\\left(-\\dfrac{17}{4}\\pi\\right)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(-\\theta) = -\\sin\\theta$; $\\sin(\\theta + 2k\\pi) = \\sin\\theta$; $\\sin\\frac{\\pi}{4} = \\frac{1}{\\sqrt{2}}$",
+            "steps": [
+              "Given: $\\sin\\left(-\\frac{17\\pi}{4}\\right)$. Goal: exact value.",
+              "Sine is odd: $\\sin\\left(-\\frac{17\\pi}{4}\\right) = -\\sin\\frac{17\\pi}{4}$",
+              "$\\frac{17\\pi}{4} = 4\\pi + \\frac{\\pi}{4}$, so $\\sin\\frac{17\\pi}{4} = \\sin\\frac{\\pi}{4} = \\frac{\\sqrt{2}}{2}$",
+              "Hence $\\sin\\left(-\\frac{17\\pi}{4}\\right) = -\\dfrac{\\sqrt{2}}{2}$",
+              "Check: $-\\frac{17\\pi}{4} + 4\\pi = -\\frac{\\pi}{4}$, and $\\sin\\left(-\\frac{\\pi}{4}\\right) = -\\frac{\\sqrt{2}}{2}$ ✓"
+            ],
+            "finalAnswer": "$-\\dfrac{\\sqrt{2}}{2}$ (that is, $-\\dfrac{1}{\\sqrt{2}}$)",
+            "solutionFigures": [],
+            "tip": "For sine, a negative angle flips the sign of the value."
+          }
+        },
+        {
+          "id": "ch14_ex16_q4a",
+          "number": "4(a)",
+          "category": null,
+          "questionText": "State the amplitude and period of $2\\sin\\left(\\dfrac{\\theta}{2}\\right)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $a\\sin(n\\theta)$ or $a\\cos(n\\theta)$ with $n > 0$: amplitude $= |a|$, period $= \\dfrac{2\\pi}{n}$",
+            "steps": [
+              "Given: $2\\sin\\left(\\frac{1}{2}\\theta\\right)$, so $a = 2$ and $n = \\frac{1}{2}$.",
+              "Amplitude $= |2| = 2$",
+              "Period $= \\dfrac{2\\pi}{1/2} = 4\\pi$",
+              "So the amplitude is 2 and the period is $4\\pi$."
+            ],
+            "finalAnswer": "Amplitude $2$, period $4\\pi$",
+            "solutionFigures": [],
+            "tip": "Dividing by a fraction multiplies: $2\\pi \\div \\frac{1}{2} = 4\\pi$, not $\\pi$."
+          }
+        },
+        {
+          "id": "ch14_ex16_q4b",
+          "number": "4(b)",
+          "category": null,
+          "questionText": "State the amplitude and period of $-3\\sin(4\\theta)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Amplitude $= |a|$, period $= \\dfrac{2\\pi}{n}$",
+            "steps": [
+              "Given: $a = -3$, $n = 4$.",
+              "Amplitude $= |-3| = 3$ (the negative sign is a reflection in the $\\theta$-axis, not a negative amplitude).",
+              "Period $= \\dfrac{2\\pi}{4} = \\dfrac{\\pi}{2}$",
+              "So the amplitude is 3 and the period is $\\frac{\\pi}{2}$."
+            ],
+            "finalAnswer": "Amplitude $3$, period $\\dfrac{\\pi}{2}$",
+            "solutionFigures": [],
+            "tip": "Amplitude is always positive."
+          }
+        },
+        {
+          "id": "ch14_ex16_q4c",
+          "number": "4(c)",
+          "category": null,
+          "questionText": "State the amplitude and period of $\\dfrac{1}{2}\\sin(3\\theta)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Amplitude $= |a|$, period $= \\dfrac{2\\pi}{n}$",
+            "steps": [
+              "Given: $a = \\frac{1}{2}$, $n = 3$.",
+              "Amplitude $= \\frac{1}{2}$",
+              "Period $= \\dfrac{2\\pi}{3}$",
+              "So the amplitude is $\\frac{1}{2}$ and the period is $\\frac{2\\pi}{3}$."
+            ],
+            "finalAnswer": "Amplitude $\\dfrac{1}{2}$, period $\\dfrac{2\\pi}{3}$",
+            "solutionFigures": [],
+            "tip": "The amplitude depends only on $a$; the period depends only on $n$."
+          }
+        },
+        {
+          "id": "ch14_ex16_q4d",
+          "number": "4(d)",
+          "category": null,
+          "questionText": "State the amplitude and period of $-3\\cos(2x)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Amplitude $= |a|$, period $= \\dfrac{2\\pi}{n}$",
+            "steps": [
+              "Given: $a = -3$, $n = 2$.",
+              "Amplitude $= |-3| = 3$",
+              "Period $= \\dfrac{2\\pi}{2} = \\pi$",
+              "So the amplitude is 3 and the period is $\\pi$."
+            ],
+            "finalAnswer": "Amplitude $3$, period $\\pi$",
+            "solutionFigures": [],
+            "tip": "Cosine graphs use the same amplitude and period rules as sine graphs."
+          }
+        },
+        {
+          "id": "ch14_ex16_q4e",
+          "number": "4(e)",
+          "category": null,
+          "questionText": "State the amplitude and period of $-4\\sin\\left(\\dfrac{x}{3}\\right)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Amplitude $= |a|$, period $= \\dfrac{2\\pi}{n}$",
+            "steps": [
+              "Given: $a = -4$, $n = \\frac{1}{3}$.",
+              "Amplitude $= |-4| = 4$",
+              "Period $= \\dfrac{2\\pi}{1/3} = 6\\pi$",
+              "So the amplitude is 4 and the period is $6\\pi$."
+            ],
+            "finalAnswer": "Amplitude $4$, period $6\\pi$",
+            "solutionFigures": [],
+            "tip": "$\\frac{x}{3}$ means $n = \\frac{1}{3}$, which stretches the graph, making the period longer."
+          }
+        },
+        {
+          "id": "ch14_ex16_q4f",
+          "number": "4(f)",
+          "category": null,
+          "questionText": "State the amplitude and period of $\\dfrac{2}{3}\\sin\\left(\\dfrac{2x}{3}\\right)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Amplitude $= |a|$, period $= \\dfrac{2\\pi}{n}$",
+            "steps": [
+              "Given: $a = \\frac{2}{3}$, $n = \\frac{2}{3}$.",
+              "Amplitude $= \\frac{2}{3}$",
+              "Period $= \\dfrac{2\\pi}{2/3} = 2\\pi \\times \\dfrac{3}{2} = 3\\pi$",
+              "So the amplitude is $\\frac{2}{3}$ and the period is $3\\pi$."
+            ],
+            "finalAnswer": "Amplitude $\\dfrac{2}{3}$, period $3\\pi$",
+            "solutionFigures": [],
+            "tip": "Invert and multiply when dividing by a fraction."
+          }
+        },
+        {
+          "id": "ch14_ex16_q5a",
+          "number": "5(a)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = 2\\sin(2x)$, showing one cycle.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a\\sin(nx)$: amplitude $|a|$, period $\\frac{2\\pi}{n}$; key points at quarter-periods",
+            "steps": [
+              "Given: $y = 2\\sin(2x)$. Goal: one cycle with key points labelled.",
+              "Amplitude $= 2$, period $= \\frac{2\\pi}{2} = \\pi$, so a quarter-period is $\\frac{\\pi}{4}$.",
+              "Take one cycle for $x \\in [0, \\pi]$ and evaluate at quarter-periods:",
+              "$x = 0$: $y = 0$; $x = \\frac{\\pi}{4}$: $y = 2\\sin\\frac{\\pi}{2} = 2$ (maximum); $x = \\frac{\\pi}{2}$: $y = 2\\sin\\pi = 0$",
+              "$x = \\frac{3\\pi}{4}$: $y = 2\\sin\\frac{3\\pi}{2} = -2$ (minimum); $x = \\pi$: $y = 2\\sin 2\\pi = 0$",
+              "Draw a smooth sine wave through $(0,0)$, $\\left(\\frac{\\pi}{4},2\\right)$, $\\left(\\frac{\\pi}{2},0\\right)$, $\\left(\\frac{3\\pi}{4},-2\\right)$, $(\\pi,0)$. Range $[-2, 2]$."
+            ],
+            "finalAnswer": "Sine wave of amplitude 2 and period $\\pi$ through $(0,0)$, max $\\left(\\frac{\\pi}{4},2\\right)$, $\\left(\\frac{\\pi}{2},0\\right)$, min $\\left(\\frac{3\\pi}{4},-2\\right)$, $(\\pi,0)$",
+            "solutionFigures": [],
+            "tip": "Divide the period into four equal parts to place the maximum, minimum and axis intercepts."
+          }
+        },
+        {
+          "id": "ch14_ex16_q5b",
+          "number": "5(b)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = -3\\cos\\left(\\dfrac{x}{3}\\right)$, showing one cycle.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a\\cos(nx)$: amplitude $|a|$, period $\\frac{2\\pi}{n}$; $a < 0$ reflects in the $x$-axis",
+            "steps": [
+              "Given: $y = -3\\cos\\left(\\frac{x}{3}\\right)$. Goal: one cycle.",
+              "Amplitude $= 3$, period $= \\frac{2\\pi}{1/3} = 6\\pi$, quarter-period $= \\frac{3\\pi}{2}$.",
+              "The negative sign reflects $y = 3\\cos\\frac{x}{3}$ in the $x$-axis, so the graph starts at a minimum.",
+              "$x = 0$: $y = -3\\cos 0 = -3$; $x = \\frac{3\\pi}{2}$: $y = -3\\cos\\frac{\\pi}{2} = 0$; $x = 3\\pi$: $y = -3\\cos\\pi = 3$",
+              "$x = \\frac{9\\pi}{2}$: $y = -3\\cos\\frac{3\\pi}{2} = 0$; $x = 6\\pi$: $y = -3\\cos 2\\pi = -3$",
+              "Plot $(0,-3)$, $\\left(\\frac{3\\pi}{2},0\\right)$, $(3\\pi,3)$, $\\left(\\frac{9\\pi}{2},0\\right)$, $(6\\pi,-3)$ and join smoothly. Range $[-3,3]$."
+            ],
+            "finalAnswer": "Inverted cosine wave, amplitude 3, period $6\\pi$: min $(0,-3)$, $\\left(\\frac{3\\pi}{2},0\\right)$, max $(3\\pi,3)$, $\\left(\\frac{9\\pi}{2},0\\right)$, min $(6\\pi,-3)$",
+            "solutionFigures": [],
+            "tip": "A negative coefficient in front of cosine means the cycle starts at a minimum, not a maximum."
+          }
+        },
+        {
+          "id": "ch14_ex16_q5c",
+          "number": "5(c)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = -2\\sin(3x)$, showing one cycle.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a\\sin(nx)$: amplitude $|a|$, period $\\frac{2\\pi}{n}$; $a < 0$ reflects in the $x$-axis",
+            "steps": [
+              "Given: $y = -2\\sin(3x)$. Goal: one cycle.",
+              "Amplitude $= 2$, period $= \\frac{2\\pi}{3}$, quarter-period $= \\frac{\\pi}{6}$.",
+              "$x = 0$: $y = 0$; $x = \\frac{\\pi}{6}$: $y = -2\\sin\\frac{\\pi}{2} = -2$ (minimum); $x = \\frac{\\pi}{3}$: $y = -2\\sin\\pi = 0$",
+              "$x = \\frac{\\pi}{2}$: $y = -2\\sin\\frac{3\\pi}{2} = 2$ (maximum); $x = \\frac{2\\pi}{3}$: $y = -2\\sin 2\\pi = 0$",
+              "Plot these five points and join smoothly. Range $[-2,2]$."
+            ],
+            "finalAnswer": "Reflected sine wave, amplitude 2, period $\\frac{2\\pi}{3}$: $(0,0)$, min $\\left(\\frac{\\pi}{6},-2\\right)$, $\\left(\\frac{\\pi}{3},0\\right)$, max $\\left(\\frac{\\pi}{2},2\\right)$, $\\left(\\frac{2\\pi}{3},0\\right)$",
+            "solutionFigures": [],
+            "tip": "With $-\\sin$, the graph goes down first after the origin."
+          }
+        },
+        {
+          "id": "ch14_ex16_q5d",
+          "number": "5(d)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = 2\\sin\\left(\\dfrac{x}{3}\\right)$, showing one cycle.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a\\sin(nx)$: amplitude $|a|$, period $\\frac{2\\pi}{n}$",
+            "steps": [
+              "Given: $y = 2\\sin\\left(\\frac{x}{3}\\right)$. Goal: one cycle.",
+              "Amplitude $= 2$, period $= \\frac{2\\pi}{1/3} = 6\\pi$, quarter-period $= \\frac{3\\pi}{2}$.",
+              "$x = 0$: $y = 0$; $x = \\frac{3\\pi}{2}$: $y = 2\\sin\\frac{\\pi}{2} = 2$; $x = 3\\pi$: $y = 2\\sin\\pi = 0$",
+              "$x = \\frac{9\\pi}{2}$: $y = 2\\sin\\frac{3\\pi}{2} = -2$; $x = 6\\pi$: $y = 0$",
+              "Join smoothly. Range $[-2,2]$."
+            ],
+            "finalAnswer": "Sine wave, amplitude 2, period $6\\pi$: $(0,0)$, max $\\left(\\frac{3\\pi}{2},2\\right)$, $(3\\pi,0)$, min $\\left(\\frac{9\\pi}{2},-2\\right)$, $(6\\pi,0)$",
+            "solutionFigures": [],
+            "tip": "Check a key point by substitution, e.g. $x = 3\\pi$ gives $\\sin\\pi = 0$."
+          }
+        },
+        {
+          "id": "ch14_ex16_q5e",
+          "number": "5(e)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = \\sin\\left(x - \\dfrac{\\pi}{4}\\right)$, showing one cycle.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\sin(x - h)$ is $y = \\sin x$ translated $h$ units in the positive $x$-direction",
+            "steps": [
+              "Given: $y = \\sin\\left(x - \\frac{\\pi}{4}\\right)$. Amplitude 1, period $2\\pi$.",
+              "This is $y = \\sin x$ translated $\\frac{\\pi}{4}$ units to the right, so every key point of $y = \\sin x$ moves right by $\\frac{\\pi}{4}$.",
+              "Key points of $\\sin x$: $(0,0)$, $\\left(\\frac{\\pi}{2},1\\right)$, $(\\pi,0)$, $\\left(\\frac{3\\pi}{2},-1\\right)$, $(2\\pi,0)$",
+              "Translated: $\\left(\\frac{\\pi}{4},0\\right)$, $\\left(\\frac{3\\pi}{4},1\\right)$, $\\left(\\frac{5\\pi}{4},0\\right)$, $\\left(\\frac{7\\pi}{4},-1\\right)$, $\\left(\\frac{9\\pi}{4},0\\right)$",
+              "$y$-intercept: $y = \\sin\\left(-\\frac{\\pi}{4}\\right) = -\\frac{\\sqrt{2}}{2}$, giving $\\left(0, -\\frac{\\sqrt{2}}{2}\\right)$.",
+              "Join smoothly for one cycle from $x = \\frac{\\pi}{4}$ to $x = \\frac{9\\pi}{4}$."
+            ],
+            "finalAnswer": "Sine wave shifted $\\frac{\\pi}{4}$ right: $\\left(\\frac{\\pi}{4},0\\right)$, max $\\left(\\frac{3\\pi}{4},1\\right)$, $\\left(\\frac{5\\pi}{4},0\\right)$, min $\\left(\\frac{7\\pi}{4},-1\\right)$, $\\left(\\frac{9\\pi}{4},0\\right)$; $y$-intercept $-\\frac{\\sqrt{2}}{2}$",
+            "solutionFigures": [],
+            "tip": "A minus sign inside the bracket shifts the graph to the right, not the left."
+          }
+        },
+        {
+          "id": "ch14_ex16_q5f",
+          "number": "5(f)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = \\sin\\left(x + \\dfrac{2\\pi}{3}\\right)$, showing one cycle.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\sin(x + h)$ is $y = \\sin x$ translated $h$ units in the negative $x$-direction",
+            "steps": [
+              "Given: $y = \\sin\\left(x + \\frac{2\\pi}{3}\\right)$. Amplitude 1, period $2\\pi$.",
+              "Translate $y = \\sin x$ by $\\frac{2\\pi}{3}$ to the left: subtract $\\frac{2\\pi}{3}$ from each key $x$-value.",
+              "Key points: $\\left(-\\frac{2\\pi}{3},0\\right)$, $\\left(-\\frac{\\pi}{6},1\\right)$, $\\left(\\frac{\\pi}{3},0\\right)$, $\\left(\\frac{5\\pi}{6},-1\\right)$, $\\left(\\frac{4\\pi}{3},0\\right)$",
+              "Check one: $x = \\frac{5\\pi}{6}$ gives $\\sin\\left(\\frac{5\\pi}{6} + \\frac{4\\pi}{6}\\right) = \\sin\\frac{3\\pi}{2} = -1$ ✓",
+              "$y$-intercept: $y = \\sin\\frac{2\\pi}{3} = \\frac{\\sqrt{3}}{2}$.",
+              "Join smoothly for one cycle from $x = -\\frac{2\\pi}{3}$ to $x = \\frac{4\\pi}{3}$."
+            ],
+            "finalAnswer": "Sine wave shifted $\\frac{2\\pi}{3}$ left: $\\left(-\\frac{2\\pi}{3},0\\right)$, max $\\left(-\\frac{\\pi}{6},1\\right)$, $\\left(\\frac{\\pi}{3},0\\right)$, min $\\left(\\frac{5\\pi}{6},-1\\right)$, $\\left(\\frac{4\\pi}{3},0\\right)$; $y$-intercept $\\frac{\\sqrt{3}}{2}$",
+            "solutionFigures": [],
+            "tip": "Always label the $y$-intercept; it confirms the direction of the shift."
+          }
+        },
+        {
+          "id": "ch14_ex16_q5g",
+          "number": "5(g)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = 2\\cos\\left(x - \\dfrac{5\\pi}{6}\\right)$, showing one cycle.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a\\cos(x - h)$: amplitude $|a|$, period $2\\pi$, translated $h$ units right",
+            "steps": [
+              "Given: $y = 2\\cos\\left(x - \\frac{5\\pi}{6}\\right)$. Amplitude 2, period $2\\pi$, quarter-period $\\frac{\\pi}{2}$.",
+              "Key points of $y = 2\\cos x$: $(0,2)$, $\\left(\\frac{\\pi}{2},0\\right)$, $(\\pi,-2)$, $\\left(\\frac{3\\pi}{2},0\\right)$, $(2\\pi,2)$",
+              "Add $\\frac{5\\pi}{6}$ to each $x$-value: $\\left(\\frac{5\\pi}{6},2\\right)$, $\\left(\\frac{4\\pi}{3},0\\right)$, $\\left(\\frac{11\\pi}{6},-2\\right)$, $\\left(\\frac{7\\pi}{3},0\\right)$, $\\left(\\frac{17\\pi}{6},2\\right)$",
+              "$y$-intercept: $y = 2\\cos\\left(-\\frac{5\\pi}{6}\\right) = 2 \\times \\left(-\\frac{\\sqrt{3}}{2}\\right) = -\\sqrt{3}$.",
+              "Join smoothly for one cycle from $x = \\frac{5\\pi}{6}$ to $x = \\frac{17\\pi}{6}$."
+            ],
+            "finalAnswer": "Cosine wave, amplitude 2, shifted $\\frac{5\\pi}{6}$ right: max $\\left(\\frac{5\\pi}{6},2\\right)$, $\\left(\\frac{4\\pi}{3},0\\right)$, min $\\left(\\frac{11\\pi}{6},-2\\right)$, $\\left(\\frac{7\\pi}{3},0\\right)$, max $\\left(\\frac{17\\pi}{6},2\\right)$; $y$-intercept $-\\sqrt{3}$",
+            "solutionFigures": [],
+            "tip": "Use a common denominator ($\\frac{5\\pi}{6} + \\frac{3\\pi}{6} = \\frac{8\\pi}{6} = \\frac{4\\pi}{3}$) when adding the shift."
+          }
+        },
+        {
+          "id": "ch14_ex16_q5h",
+          "number": "5(h)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = -3\\cos\\left(x + \\dfrac{\\pi}{6}\\right)$, showing one cycle.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a\\cos(x + h)$: amplitude $|a|$, period $2\\pi$, translated $h$ units left; $a < 0$ reflects in the $x$-axis",
+            "steps": [
+              "Given: $y = -3\\cos\\left(x + \\frac{\\pi}{6}\\right)$. Amplitude 3, period $2\\pi$.",
+              "Key points of $y = -3\\cos x$: $(0,-3)$, $\\left(\\frac{\\pi}{2},0\\right)$, $(\\pi,3)$, $\\left(\\frac{3\\pi}{2},0\\right)$, $(2\\pi,-3)$",
+              "Subtract $\\frac{\\pi}{6}$ from each $x$-value: $\\left(-\\frac{\\pi}{6},-3\\right)$, $\\left(\\frac{\\pi}{3},0\\right)$, $\\left(\\frac{5\\pi}{6},3\\right)$, $\\left(\\frac{4\\pi}{3},0\\right)$, $\\left(\\frac{11\\pi}{6},-3\\right)$",
+              "$y$-intercept: $y = -3\\cos\\frac{\\pi}{6} = -\\frac{3\\sqrt{3}}{2}$.",
+              "Check: $x = \\frac{5\\pi}{6}$ gives $-3\\cos\\pi = 3$ ✓",
+              "Join smoothly for one cycle from $x = -\\frac{\\pi}{6}$ to $x = \\frac{11\\pi}{6}$."
+            ],
+            "finalAnswer": "Inverted cosine, amplitude 3, shifted $\\frac{\\pi}{6}$ left: min $\\left(-\\frac{\\pi}{6},-3\\right)$, $\\left(\\frac{\\pi}{3},0\\right)$, max $\\left(\\frac{5\\pi}{6},3\\right)$, $\\left(\\frac{4\\pi}{3},0\\right)$, min $\\left(\\frac{11\\pi}{6},-3\\right)$; $y$-intercept $-\\frac{3\\sqrt{3}}{2}$",
+            "solutionFigures": [],
+            "tip": "Apply the reflection and the translation separately, then check one point by substitution."
+          }
+        },
+        {
+          "id": "ch14_ex16_q6a",
+          "number": "6(a)",
+          "category": null,
+          "questionText": "Solve for $\\theta$: $\\sin\\theta = -\\dfrac{\\sqrt{3}}{2}$, $\\theta \\in [-\\pi, \\pi]$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Basic angle: $\\sin\\frac{\\pi}{3} = \\frac{\\sqrt{3}}{2}$; sine is negative in quadrants 3 and 4",
+            "steps": [
+              "Given: $\\sin\\theta = -\\frac{\\sqrt{3}}{2}$ on $[-\\pi, \\pi]$. Goal: all solutions.",
+              "Basic angle: $\\frac{\\pi}{3}$.",
+              "Sine is negative in quadrants 3 and 4. Going clockwise (negative angles) within $[-\\pi, \\pi]$:",
+              "Quadrant 4: $\\theta = -\\frac{\\pi}{3}$",
+              "Quadrant 3: $\\theta = -\\pi + \\frac{\\pi}{3} = -\\frac{2\\pi}{3}$",
+              "Check: $\\sin\\left(-\\frac{2\\pi}{3}\\right) = -\\sin\\frac{2\\pi}{3} = -\\frac{\\sqrt{3}}{2}$ ✓"
+            ],
+            "finalAnswer": "$\\theta = -\\dfrac{2\\pi}{3}$ or $\\theta = -\\dfrac{\\pi}{3}$",
+            "solutionFigures": [],
+            "tip": "With domain $[-\\pi, \\pi]$, quadrants 3 and 4 correspond to negative angles."
+          }
+        },
+        {
+          "id": "ch14_ex16_q6b",
+          "number": "6(b)",
+          "category": null,
+          "questionText": "Solve for $\\theta$: $\\sin(2\\theta) = -\\dfrac{\\sqrt{3}}{2}$, $\\theta \\in [-\\pi, \\pi]$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Let $u = 2\\theta$; adjust the domain to $u \\in [-2\\pi, 2\\pi]$; basic angle $\\frac{\\pi}{3}$",
+            "steps": [
+              "Given: $\\sin(2\\theta) = -\\frac{\\sqrt{3}}{2}$, $\\theta \\in [-\\pi, \\pi]$.",
+              "Let $u = 2\\theta$. Then $u \\in [-2\\pi, 2\\pi]$ and $\\sin u = -\\frac{\\sqrt{3}}{2}$.",
+              "Basic angle $\\frac{\\pi}{3}$; sine negative in quadrants 3 and 4.",
+              "In $[0, 2\\pi]$: $u = \\pi + \\frac{\\pi}{3} = \\frac{4\\pi}{3}$ and $u = 2\\pi - \\frac{\\pi}{3} = \\frac{5\\pi}{3}$.",
+              "In $[-2\\pi, 0)$: subtract $2\\pi$: $u = -\\frac{2\\pi}{3}$ and $u = -\\frac{\\pi}{3}$.",
+              "Divide by 2: $\\theta = -\\frac{\\pi}{3}, -\\frac{\\pi}{6}, \\frac{2\\pi}{3}, \\frac{5\\pi}{6}$.",
+              "Check: $\\theta = \\frac{5\\pi}{6}$ gives $\\sin\\frac{5\\pi}{3} = -\\frac{\\sqrt{3}}{2}$ ✓; $\\theta = -\\frac{\\pi}{6}$ gives $\\sin\\left(-\\frac{\\pi}{3}\\right) = -\\frac{\\sqrt{3}}{2}$ ✓"
+            ],
+            "finalAnswer": "$\\theta = -\\dfrac{\\pi}{3}, -\\dfrac{\\pi}{6}, \\dfrac{2\\pi}{3}, \\dfrac{5\\pi}{6}$",
+            "solutionFigures": [],
+            "tip": "Doubling the angle doubles the number of cycles, so expect twice as many solutions; change the domain before solving."
+          }
+        },
+        {
+          "id": "ch14_ex16_q6c",
+          "number": "6(c)",
+          "category": null,
+          "questionText": "Solve for $\\theta$: $\\sin\\left(\\theta - \\dfrac{\\pi}{3}\\right) = -\\dfrac{1}{2}$, $\\theta \\in [0, 2\\pi]$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Let $u = \\theta - \\frac{\\pi}{3}$, so $u \\in \\left[-\\frac{\\pi}{3}, \\frac{5\\pi}{3}\\right]$; basic angle $\\sin\\frac{\\pi}{6} = \\frac{1}{2}$",
+            "steps": [
+              "Given: $\\sin\\left(\\theta - \\frac{\\pi}{3}\\right) = -\\frac{1}{2}$, $\\theta \\in [0, 2\\pi]$.",
+              "Let $u = \\theta - \\frac{\\pi}{3}$; then $u \\in \\left[-\\frac{\\pi}{3}, \\frac{5\\pi}{3}\\right]$ and $\\sin u = -\\frac{1}{2}$.",
+              "Basic angle $\\frac{\\pi}{6}$; sine negative in quadrants 3 and 4.",
+              "Candidates: $u = \\frac{7\\pi}{6}$, $u = \\frac{11\\pi}{6}$, $u = -\\frac{\\pi}{6}$, $u = -\\frac{5\\pi}{6}$.",
+              "In $\\left[-\\frac{\\pi}{3}, \\frac{5\\pi}{3}\\right]$ only $u = -\\frac{\\pi}{6}$ and $u = \\frac{7\\pi}{6}$ lie ($\\frac{11\\pi}{6} > \\frac{10\\pi}{6}$ and $-\\frac{5\\pi}{6} < -\\frac{2\\pi}{6}$).",
+              "$\\theta = u + \\frac{\\pi}{3}$: $\\theta = -\\frac{\\pi}{6} + \\frac{2\\pi}{6} = \\frac{\\pi}{6}$ and $\\theta = \\frac{7\\pi}{6} + \\frac{2\\pi}{6} = \\frac{9\\pi}{6} = \\frac{3\\pi}{2}$.",
+              "Check: $\\sin\\left(\\frac{3\\pi}{2} - \\frac{\\pi}{3}\\right) = \\sin\\frac{7\\pi}{6} = -\\frac{1}{2}$ ✓"
+            ],
+            "finalAnswer": "$\\theta = \\dfrac{\\pi}{6}$ or $\\theta = \\dfrac{3\\pi}{2}$",
+            "solutionFigures": [],
+            "tip": "Shift the domain along with the angle, otherwise you will miss $\\theta = \\frac{\\pi}{6}$ (from the negative $u$)."
+          }
+        },
+        {
+          "id": "ch14_ex16_q6d",
+          "number": "6(d)",
+          "category": null,
+          "questionText": "Solve for $\\theta$: $\\sin\\left(\\theta + \\dfrac{\\pi}{3}\\right) = -1$, $\\theta \\in [0, 2\\pi]$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin u = -1 \\iff u = \\frac{3\\pi}{2} + 2k\\pi$",
+            "steps": [
+              "Given: $\\sin\\left(\\theta + \\frac{\\pi}{3}\\right) = -1$, $\\theta \\in [0, 2\\pi]$.",
+              "Let $u = \\theta + \\frac{\\pi}{3}$, so $u \\in \\left[\\frac{\\pi}{3}, \\frac{7\\pi}{3}\\right]$.",
+              "$\\sin u = -1$ only at $u = \\frac{3\\pi}{2} + 2k\\pi$; in this interval only $u = \\frac{3\\pi}{2}$.",
+              "$\\theta = \\frac{3\\pi}{2} - \\frac{\\pi}{3} = \\frac{9\\pi}{6} - \\frac{2\\pi}{6} = \\frac{7\\pi}{6}$.",
+              "Check: $\\sin\\left(\\frac{7\\pi}{6} + \\frac{2\\pi}{6}\\right) = \\sin\\frac{3\\pi}{2} = -1$ ✓"
+            ],
+            "finalAnswer": "$\\theta = \\dfrac{7\\pi}{6}$",
+            "solutionFigures": [],
+            "tip": "$\\sin u = -1$ has only one solution per cycle (a minimum), not two."
+          }
+        },
+        {
+          "id": "ch14_ex16_q6e",
+          "number": "6(e)",
+          "category": null,
+          "questionText": "Solve for $\\theta$: $\\sin\\left(\\dfrac{\\pi}{3} - \\theta\\right) = -\\dfrac{1}{2}$, $\\theta \\in [0, 2\\pi]$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(-x) = -\\sin x$, so $\\sin\\left(\\frac{\\pi}{3} - \\theta\\right) = -\\sin\\left(\\theta - \\frac{\\pi}{3}\\right)$; basic angle $\\frac{\\pi}{6}$",
+            "steps": [
+              "Given: $\\sin\\left(\\frac{\\pi}{3} - \\theta\\right) = -\\frac{1}{2}$, $\\theta \\in [0, 2\\pi]$.",
+              "Since sine is odd, $\\sin\\left(\\frac{\\pi}{3} - \\theta\\right) = -\\sin\\left(\\theta - \\frac{\\pi}{3}\\right)$, so the equation becomes $\\sin\\left(\\theta - \\frac{\\pi}{3}\\right) = \\frac{1}{2}$.",
+              "Let $u = \\theta - \\frac{\\pi}{3}$, $u \\in \\left[-\\frac{\\pi}{3}, \\frac{5\\pi}{3}\\right]$. Sine positive in quadrants 1 and 2: $u = \\frac{\\pi}{6}$ or $u = \\frac{5\\pi}{6}$ (other solutions such as $\\frac{13\\pi}{6}$ lie outside).",
+              "$\\theta = u + \\frac{\\pi}{3}$: $\\theta = \\frac{\\pi}{6} + \\frac{2\\pi}{6} = \\frac{\\pi}{2}$ and $\\theta = \\frac{5\\pi}{6} + \\frac{2\\pi}{6} = \\frac{7\\pi}{6}$.",
+              "Check: $\\sin\\left(\\frac{\\pi}{3} - \\frac{\\pi}{2}\\right) = \\sin\\left(-\\frac{\\pi}{6}\\right) = -\\frac{1}{2}$ ✓; $\\sin\\left(\\frac{\\pi}{3} - \\frac{7\\pi}{6}\\right) = \\sin\\left(-\\frac{5\\pi}{6}\\right) = -\\frac{1}{2}$ ✓"
+            ],
+            "finalAnswer": "$\\theta = \\dfrac{\\pi}{2}$ or $\\theta = \\dfrac{7\\pi}{6}$",
+            "solutionFigures": [],
+            "tip": "Rewrite $\\sin(a - \\theta)$ using the odd property so that $\\theta$ has a positive coefficient."
+          }
+        }
+      ]
+    }
+  ]
+}

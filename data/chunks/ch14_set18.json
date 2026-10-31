@@ -1,0 +1,210 @@
+{
+  "chapterId": "ch14",
+  "chapterTitle": "Circular functions (Methods 12)",
+  "topics": [
+    {
+      "topicId": "14 Multiple choice",
+      "topicTitle": "Multiple-choice questions",
+      "exercises": [
+        {
+          "id": "ch14_ex18_q1",
+          "number": "1",
+          "category": null,
+          "questionText": "In a right-angled triangle, the two shorter side lengths are 3 cm and 4 cm. To the nearest degree, the magnitude of the smallest angle is A $1^\\circ$ B $23^\\circ$ C $37^\\circ$ D $53^\\circ$ E $92^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan\\theta = \\dfrac{\\text{opposite}}{\\text{adjacent}}$; the smallest angle is opposite the shortest side",
+            "steps": [
+              "Given: legs 3 cm and 4 cm (hypotenuse 5 cm). Goal: smallest angle.",
+              "The smallest angle $\\theta$ is opposite the 3 cm side, with the 4 cm side adjacent.",
+              "$\\tan\\theta = \\dfrac{3}{4} = 0.75$, so $\\theta = \\tan^{-1}(0.75) \\approx 36.87^\\circ$",
+              "Rounded to the nearest degree: $37^\\circ$.",
+              "Check: $\\sin\\theta = \\frac{3}{5} = 0.6$ and $\\sin 36.87^\\circ \\approx 0.6$ ✓",
+              "Wrong options: D ($53^\\circ$) is the larger acute angle; E is more than $90^\\circ$, impossible here; A and B do not match $\\tan^{-1}0.75$."
+            ],
+            "finalAnswer": "C. $37^\\circ$",
+            "solutionFigures": [],
+            "tip": "Make sure your calculator is in degree mode for this question."
+          }
+        },
+        {
+          "id": "ch14_ex18_q2",
+          "number": "2",
+          "category": null,
+          "questionText": "The minimum value of $3 - 10\\cos(2x)$ is A $-13$ B $-17$ C $-23$ D $-7$ E $-10$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$-1 \\le \\cos(2x) \\le 1$",
+            "steps": [
+              "Given: $y = 3 - 10\\cos(2x)$. Goal: minimum value.",
+              "Since $-1 \\le \\cos(2x) \\le 1$, we get $-10 \\le 10\\cos(2x) \\le 10$.",
+              "$y$ is smallest when $10\\cos(2x)$ is largest, i.e. $\\cos(2x) = 1$: $y = 3 - 10 = -7$.",
+              "(The maximum is $3 + 10 = 13$, when $\\cos(2x) = -1$.)",
+              "Wrong options: A ($-13$) comes from $-3 - 10$; E ($-10$) ignores the $+3$; B and C are not attainable."
+            ],
+            "finalAnswer": "D. $-7$",
+            "solutionFigures": [],
+            "tip": "Range of $b + a\\cos(nx)$ is $[b - |a|, b + |a|]$."
+          }
+        },
+        {
+          "id": "ch14_ex18_q3",
+          "number": "3",
+          "category": null,
+          "questionText": "The range of the function $f: [0, 2\\pi] \\to \\mathbb{R}$, $f(x) = 4\\sin\\left(2x - \\dfrac{\\pi}{2}\\right)$ is A $\\mathbb{R}$ B $[0, 4]$ C $[-4, 0]$ D $[0, 8]$ E $[-4, 4]$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Range of $a\\sin(\\ldots)$ over at least one full period is $[-|a|, |a|]$",
+            "steps": [
+              "Given: $f(x) = 4\\sin\\left(2x - \\frac{\\pi}{2}\\right)$ on $[0, 2\\pi]$.",
+              "Amplitude 4, period $\\frac{2\\pi}{2} = \\pi$. The domain has length $2\\pi$, which is two full periods.",
+              "So $f$ attains both its maximum 4 and minimum $-4$, e.g. $f(0) = 4\\sin\\left(-\\frac{\\pi}{2}\\right) = -4$ and $f\\left(\\frac{\\pi}{2}\\right) = 4\\sin\\frac{\\pi}{2} = 4$.",
+              "Range $= [-4, 4]$.",
+              "Wrong options: A ignores that sine is bounded; B, C and D cover only part of the values, or (D) shift the graph vertically, which there is no reason to do."
+            ],
+            "finalAnswer": "E. $[-4, 4]$",
+            "solutionFigures": [],
+            "tip": "A horizontal translation never changes the range when the domain covers a full period."
+          }
+        },
+        {
+          "id": "ch14_ex18_q4",
+          "number": "4",
+          "category": null,
+          "questionText": "The period of the graph of $y = 3\\sin\\left(\\dfrac{1}{2}x - \\pi\\right) + 4$ is A $\\pi$ B $3$ C $4\\pi$ D $\\pi + 4$ E $2\\pi$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Period of $a\\sin(nx + c) + b$ is $\\dfrac{2\\pi}{n}$",
+            "steps": [
+              "Given: $y = 3\\sin\\left(\\frac{1}{2}x - \\pi\\right) + 4$, so $n = \\frac{1}{2}$.",
+              "Period $= \\dfrac{2\\pi}{1/2} = 4\\pi$.",
+              "The 3 (amplitude), $-\\pi$ (horizontal shift) and $+4$ (vertical shift) do not affect the period.",
+              "Wrong options: A uses $2\\pi \\times \\frac{1}{2}$; B is the amplitude; D adds unrelated constants; E is the period of $\\sin x$."
+            ],
+            "finalAnswer": "C. $4\\pi$",
+            "solutionFigures": [],
+            "tip": "Only the coefficient of $x$ determines the period."
+          }
+        },
+        {
+          "id": "ch14_ex18_q5",
+          "number": "5",
+          "category": null,
+          "questionText": "The graph of $y = \\sin x$ is dilated by factor $\\dfrac{1}{2}$ from the $y$-axis and translated $\\dfrac{\\pi}{4}$ units in the positive direction of the $x$-axis. The equation of the image is A $y = \\sin\\left(\\dfrac{1}{2}x + \\dfrac{\\pi}{4}\\right)$ B $y = \\sin\\left(\\dfrac{1}{2}x - \\dfrac{\\pi}{4}\\right)$ C $y = 2\\sin\\left(x - \\dfrac{\\pi}{4}\\right)$ D $y = \\sin\\left(2x - \\dfrac{\\pi}{4}\\right)$ E $y = \\sin\\left(2\\left(x - \\dfrac{\\pi}{4}\\right)\\right)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Dilation by factor $k$ from the $y$-axis: replace $x$ by $\\frac{x}{k}$; translation $h$ units right: replace $x$ by $x - h$",
+            "steps": [
+              "Start: $y = \\sin x$.",
+              "Dilate by factor $\\frac{1}{2}$ from the $y$-axis: replace $x$ by $\\frac{x}{1/2} = 2x$, giving $y = \\sin(2x)$.",
+              "Translate $\\frac{\\pi}{4}$ units right: replace $x$ by $x - \\frac{\\pi}{4}$, giving $y = \\sin\\left(2\\left(x - \\frac{\\pi}{4}\\right)\\right)$.",
+              "Check: the point $(0,0)$ maps to $(0,0)$ under the dilation, then to $\\left(\\frac{\\pi}{4}, 0\\right)$; $\\sin\\left(2\\left(\\frac{\\pi}{4} - \\frac{\\pi}{4}\\right)\\right) = 0$ ✓",
+              "Wrong options: D, $\\sin\\left(2x - \\frac{\\pi}{4}\\right) = \\sin\\left(2\\left(x - \\frac{\\pi}{8}\\right)\\right)$, only shifts $\\frac{\\pi}{8}$; A and B use factor 2 instead of $\\frac{1}{2}$; C is a dilation from the $x$-axis."
+            ],
+            "finalAnswer": "E. $y = \\sin\\left(2\\left(x - \\dfrac{\\pi}{4}\\right)\\right)$",
+            "solutionFigures": [],
+            "tip": "Factor out the coefficient of $x$ before reading off a horizontal translation."
+          }
+        },
+        {
+          "id": "ch14_ex18_q6",
+          "number": "6",
+          "category": null,
+          "questionText": "Let $f: \\mathbb{R} \\to \\mathbb{R}$, $f(x) = a\\sin(bx) + c$, where $a$, $b$ and $c$ are positive constants. The period of the function $f$ is A $a$ B $b$ C $\\dfrac{2\\pi}{a}$ D $\\dfrac{2\\pi}{b}$ E $\\dfrac{b}{2\\pi}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Period of $\\sin(bx)$, $b > 0$, is $\\dfrac{2\\pi}{b}$",
+            "steps": [
+              "$\\sin(bx)$ completes one cycle when $bx$ increases by $2\\pi$, i.e. when $x$ increases by $\\frac{2\\pi}{b}$.",
+              "The amplitude $a$ and vertical shift $c$ do not change the period.",
+              "Period $= \\dfrac{2\\pi}{b}$.",
+              "Wrong options: A is the amplitude; C uses the amplitude instead of $b$; E is the reciprocal (the frequency); B is not a period."
+            ],
+            "finalAnswer": "D. $\\dfrac{2\\pi}{b}$",
+            "solutionFigures": [],
+            "tip": "Do not confuse the period $\\frac{2\\pi}{b}$ with its reciprocal $\\frac{b}{2\\pi}$."
+          }
+        },
+        {
+          "id": "ch14_ex18_q7",
+          "number": "7",
+          "category": null,
+          "questionText": "One cycle of the graph of $y = \\tan(ax)$ has vertical asymptotes at $x = -\\dfrac{\\pi}{6}$ and $x = \\dfrac{\\pi}{6}$. A possible value of $a$ is A $6$ B $\\pi$ C $\\dfrac{\\pi}{6}$ D $\\dfrac{1}{3}$ E $3$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan u$ has asymptotes at $u = \\pm\\frac{\\pi}{2}$ around the cycle through the origin; period of $\\tan(ax)$ is $\\frac{\\pi}{|a|}$",
+            "steps": [
+              "The cycle through the origin has asymptotes where $ax = \\pm\\frac{\\pi}{2}$, i.e. $x = \\pm\\dfrac{\\pi}{2a}$ (for $a > 0$).",
+              "Set $\\dfrac{\\pi}{2a} = \\dfrac{\\pi}{6}$, so $2a = 6$ and $a = 3$.",
+              "Second check: the distance between consecutive asymptotes is the period, $\\frac{\\pi}{6} - \\left(-\\frac{\\pi}{6}\\right) = \\frac{\\pi}{3} = \\frac{\\pi}{a}$, giving $a = 3$ ✓",
+              "Wrong options: A gives asymptotes at $\\pm\\frac{\\pi}{12}$; D gives $\\pm\\frac{3\\pi}{2}$; B and C do not give $\\pm\\frac{\\pi}{6}$."
+            ],
+            "finalAnswer": "E. $3$",
+            "solutionFigures": [],
+            "tip": "The period of $\\tan(ax)$ is $\\frac{\\pi}{a}$, not $\\frac{2\\pi}{a}$."
+          }
+        },
+        {
+          "id": "ch14_ex18_q8",
+          "number": "8",
+          "category": null,
+          "questionText": "The equation $3\\sin(x) + 1 = b$, where $b$ is a positive real number, has one solution in the interval $[0, 2\\pi]$. The value of $b$ is A $1$ B $1.5$ C $2$ D $3$ E $4$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "On $[0, 2\\pi]$, $\\sin x = k$ has exactly one solution only when $k = 1$ or $k = -1$",
+            "steps": [
+              "Rearrange: $\\sin x = \\dfrac{b - 1}{3}$.",
+              "On $[0, 2\\pi]$: $\\sin x = k$ has two solutions for $-1 < k < 1$, $k \\ne 0$; three solutions for $k = 0$ ($x = 0, \\pi, 2\\pi$); one solution for $k = \\pm 1$.",
+              "$\\frac{b-1}{3} = 1 \\Rightarrow b = 4$; $\\frac{b-1}{3} = -1 \\Rightarrow b = -2$ (rejected, as $b > 0$).",
+              "Check $b = 4$: $\\sin x = 1$ gives only $x = \\frac{\\pi}{2}$ ✓",
+              "Wrong options: $b = 1$ gives $\\sin x = 0$ (three solutions); $b = 1.5, 2, 3$ give $\\sin x = \\frac{1}{6}, \\frac{1}{3}, \\frac{2}{3}$ (two solutions each)."
+            ],
+            "finalAnswer": "E. $4$",
+            "solutionFigures": [],
+            "tip": "Think of the horizontal line $y = b$ touching the graph of $y = 3\\sin x + 1$ only at its maximum."
+          }
+        },
+        {
+          "id": "ch14_ex18_q9",
+          "number": "9",
+          "category": null,
+          "questionText": "The number of solutions of the equation $b = a\\sin x$, where $x \\in [-2\\pi, 2\\pi]$ and $a$ and $b$ are positive real numbers with $a > b$, is A $2$ B $3$ C $4$ D $5$ E $6$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $0 < k < 1$, $\\sin x = k$ has exactly two solutions in each interval of length $2\\pi$ such as $[0, 2\\pi]$",
+            "steps": [
+              "Rearrange: $\\sin x = \\dfrac{b}{a}$, and $0 < \\dfrac{b}{a} < 1$ because $0 < b < a$.",
+              "Let $\\alpha = \\sin^{-1}\\frac{b}{a} \\in \\left(0, \\frac{\\pi}{2}\\right)$.",
+              "In $[0, 2\\pi]$: $x = \\alpha$ and $x = \\pi - \\alpha$ (quadrants 1 and 2).",
+              "In $[-2\\pi, 0]$: subtract $2\\pi$: $x = \\alpha - 2\\pi$ and $x = -\\pi - \\alpha$.",
+              "None of these is an endpoint, so there are 4 distinct solutions.",
+              "Wrong options: A counts only one period; B and D would need a solution at an endpoint or a turning point; E would need three periods."
+            ],
+            "finalAnswer": "C. $4$",
+            "solutionFigures": [],
+            "tip": "The interval $[-2\\pi, 2\\pi]$ holds two full periods, so double the count for one period."
+          }
+        },
+        {
+          "id": "ch14_ex18_q10",
+          "number": "10",
+          "category": null,
+          "questionText": "The depth of water, in metres, in a harbour at a certain point at time $t$ hours is given by $D(t) = 8 + 2\\sin\\left(\\dfrac{\\pi t}{6}\\right)$, $0 \\le t \\le 24$. The depth of the water is first 9 m at A $t = 0$ B $t = 1$ C $t = 2$ D $t = 3$ E $t = 4$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin\\frac{\\pi}{6} = \\frac{1}{2}$",
+            "steps": [
+              "Set $D(t) = 9$: $8 + 2\\sin\\left(\\frac{\\pi t}{6}\\right) = 9$, so $\\sin\\left(\\frac{\\pi t}{6}\\right) = \\frac{1}{2}$.",
+              "Smallest non-negative solution: $\\frac{\\pi t}{6} = \\frac{\\pi}{6}$, so $t = 1$.",
+              "Check: $D(1) = 8 + 2 \\times \\frac{1}{2} = 9$ ✓, and $D(0) = 8 < 9$, with $D$ increasing on $[0, 1]$, so $t = 1$ is the first time.",
+              "Wrong options: $D(0) = 8$; $D(2) = 8 + \\sqrt{3} \\approx 9.73$; $D(3) = 10$ (maximum); $D(4) = 8 + \\sqrt{3}$."
+            ],
+            "finalAnswer": "B. $t = 1$",
+            "solutionFigures": [],
+            "tip": "'First' means the smallest $t$ in the domain, which comes from the basic angle."
+          }
+        }
+      ]
+    }
+  ]
+}

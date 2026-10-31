@@ -8,35 +8,9 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="topbar">
-    <h1>Grade 10 Maths Solutions</h1>
-    <div class="controls">
-      <input id="search" type="search" placeholder="Search questions or topics" aria-label="Search">
-      <select id="chapter" aria-label="Chapter"></select>
-      <select id="category" aria-label="Difficulty">
-        <option value="">All levels</option>
-        <option value="Practice">Practice</option>
-        <option value="Consolidate">Consolidate</option>
-        <option value="Master">Master</option>
-        <option value="none">Pre-test / Review</option>
-      </select>
-      <select id="pageSize" aria-label="Questions per page">
-        <option value="10">10 per page</option>
-        <option value="25" selected>25 per page</option>
-        <option value="50">50 per page</option>
-      </select>
-      <button id="favOnly" type="button" class="chip" aria-pressed="false">★ Favourites</button>
-      <button id="theme" type="button" class="chip" aria-label="Toggle theme">Theme</button>
-    </div>
-  </header>
-
-  <main>
-    <p id="status" class="status">Loading solutions…</p>
-    <nav id="pagerTop" class="pager" aria-label="Pages (top)"></nav>
-    <nav id="toc" class="toc" aria-label="Topics"></nav>
-    <section id="list" class="list"></section>
-    <nav id="pagerBottom" class="pager" aria-label="Pages (bottom)"></nav>
-  </main>
+  <div id="app" class="app">
+    <p class="empty">Loading solutions…</p>
+  </div>
 
   <script src="data/solutions.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.11/katex.min.js"></script>

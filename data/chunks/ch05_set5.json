@@ -1,0 +1,685 @@
+{
+  "chapterId": "ch05",
+  "chapterTitle": "Trigonometry I",
+  "topics": [
+    {
+      "topicId": "5.5",
+      "topicTitle": "Using trigonometry to calculate side lengths",
+      "exercises": [
+        {
+          "id": "ch5_ex5_q1a",
+          "number": "1(a)",
+          "category": "Practice",
+          "questionText": "Calculate the value of the pronumeral, correct to 2 decimal places. The diagram shows a right-angled triangle with the right angle at the bottom-left vertex. The vertical side is labelled $m$ and the horizontal base is $2.3$ m. The angle at the top vertex (between the vertical side $m$ and the hypotenuse) is $71^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{\\text{opposite}}{\\text{adjacent}}$ (TOA)",
+            "steps": [
+              "Given: reference angle $\\theta = 71^\\circ$ at the top vertex. The base $2.3$ m is opposite $71^\\circ$; the side $m$ is adjacent to $71^\\circ$. Goal: find $m$.",
+              "We know O and want A, so use tangent: $\\tan(\\theta) = \\dfrac{O}{A}$.",
+              "Substitute: $\\tan(71^\\circ) = \\dfrac{2.3}{m}$",
+              "Multiply both sides by $m$: $m\\tan(71^\\circ) = 2.3$",
+              "Divide both sides by $\\tan(71^\\circ)$: $m = \\dfrac{2.3}{\\tan(71^\\circ)}$",
+              "Calculate (degree mode): $m = \\dfrac{2.3}{2.904211\\ldots} = 0.79195\\ldots$",
+              "Round to 2 decimal places: $m \\approx 0.79$ m"
+            ],
+            "finalAnswer": "$m \\approx 0.79$ m (correct to 2 decimal places)",
+            "solutionFigures": [],
+            "tip": "When the unknown is in the denominator, divide the known side by the trig ratio rather than multiplying."
+          }
+        },
+        {
+          "id": "ch5_ex5_q1b",
+          "number": "1(b)",
+          "category": "Practice",
+          "questionText": "Calculate the value of the pronumeral, correct to 2 decimal places. The diagram shows a right-angled triangle with the right angle at the top-left vertex. The top horizontal side is $4.6$ m and runs from the right angle to the right vertex, where the angle is $13^\\circ$. The hypotenuse (the sloping bottom side) is labelled $n$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(\\theta) = \\dfrac{\\text{adjacent}}{\\text{hypotenuse}}$ (CAH)",
+            "steps": [
+              "Given: $\\theta = 13^\\circ$, the side $4.6$ m is adjacent to $\\theta$, and $n$ is the hypotenuse. Goal: find $n$.",
+              "We know A and want H, so use cosine: $\\cos(\\theta) = \\dfrac{A}{H}$.",
+              "Substitute: $\\cos(13^\\circ) = \\dfrac{4.6}{n}$",
+              "Rearrange: $n = \\dfrac{4.6}{\\cos(13^\\circ)}$",
+              "Calculate: $n = \\dfrac{4.6}{0.974370\\ldots} = 4.72099\\ldots$",
+              "Check: the hypotenuse $4.72$ is longer than the leg $4.6$, as it must be.",
+              "Round to 2 decimal places: $n \\approx 4.72$ m"
+            ],
+            "finalAnswer": "$n \\approx 4.72$ m (correct to 2 decimal places)",
+            "solutionFigures": [],
+            "tip": "The hypotenuse is always the longest side, so a quick size check catches multiply/divide mistakes."
+          }
+        },
+        {
+          "id": "ch5_ex5_q1c",
+          "number": "1(c)",
+          "category": "Practice",
+          "questionText": "Calculate the value of the pronumeral, correct to 2 decimal places. The diagram shows a right-angled triangle with the right angle at the top vertex. The side from the right angle to the right vertex is $94$ mm. The angle at the bottom-left vertex is $68^\\circ$. The bottom side (the hypotenuse) is labelled $t$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = \\dfrac{\\text{opposite}}{\\text{hypotenuse}}$ (SOH)",
+            "steps": [
+              "Given: $\\theta = 68^\\circ$; the side $94$ mm does not touch the $68^\\circ$ vertex, so it is opposite; $t$ is the hypotenuse. Goal: find $t$.",
+              "We know O and want H, so use sine: $\\sin(\\theta) = \\dfrac{O}{H}$.",
+              "Substitute: $\\sin(68^\\circ) = \\dfrac{94}{t}$",
+              "Rearrange: $t = \\dfrac{94}{\\sin(68^\\circ)}$",
+              "Calculate: $t = \\dfrac{94}{0.927184\\ldots} = 101.3823\\ldots$",
+              "Round to 2 decimal places: $t \\approx 101.38$ mm"
+            ],
+            "finalAnswer": "$t \\approx 101.38$ mm (correct to 2 decimal places)",
+            "solutionFigures": [],
+            "tip": "Label O, A and H from the marked angle each time; the opposite side is the one that does not touch the angle."
+          }
+        },
+        {
+          "id": "ch5_ex5_q2a",
+          "number": "2(a)",
+          "category": "Practice",
+          "questionText": "In the triangle, the inclination angle is shown. Calculate the value of the pronumeral, correct to 3 decimal places. The diagram shows a right-angled triangle with the right angle at the bottom-right vertex. The inclination angle at the bottom-left vertex is $60^\\circ$, the hypotenuse is $10$ cm, and the vertical side is labelled $a$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = \\dfrac{\\text{opposite}}{\\text{hypotenuse}}$ (SOH)",
+            "steps": [
+              "Given: $\\theta = 60^\\circ$, hypotenuse $H = 10$ cm, $a$ is opposite $\\theta$. Goal: find $a$.",
+              "We know H and want O, so use sine.",
+              "Substitute: $\\sin(60^\\circ) = \\dfrac{a}{10}$",
+              "Multiply both sides by 10: $a = 10\\sin(60^\\circ)$",
+              "Calculate: $a = 10 \\times 0.866025\\ldots = 8.66025\\ldots$",
+              "Round to 3 decimal places: $a \\approx 8.660$ cm"
+            ],
+            "finalAnswer": "$a \\approx 8.660$ cm (correct to 3 decimal places)",
+            "solutionFigures": [],
+            "tip": "Make sure your calculator is in degree mode; in radian mode $\\sin(60)$ gives a completely different value."
+          }
+        },
+        {
+          "id": "ch5_ex5_q2b",
+          "number": "2(b)",
+          "category": "Practice",
+          "questionText": "In the triangle, the inclination angle is shown. Calculate the value of the pronumeral, correct to 3 decimal places. The diagram shows a right-angled triangle with the right angle at the bottom-right vertex. The inclination angle at the bottom-left vertex is $25^\\circ$, the hypotenuse is $8$, and the horizontal base is labelled $a$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(\\theta) = \\dfrac{\\text{adjacent}}{\\text{hypotenuse}}$ (CAH)",
+            "steps": [
+              "Given: $\\theta = 25^\\circ$, $H = 8$, $a$ is adjacent to $\\theta$. Goal: find $a$.",
+              "We know H and want A, so use cosine.",
+              "Substitute: $\\cos(25^\\circ) = \\dfrac{a}{8}$",
+              "Rearrange: $a = 8\\cos(25^\\circ)$",
+              "Calculate: $a = 8 \\times 0.906308\\ldots = 7.25046\\ldots$",
+              "Round to 3 decimal places: $a \\approx 7.250$"
+            ],
+            "finalAnswer": "$a \\approx 7.250$ units (correct to 3 decimal places)",
+            "solutionFigures": [],
+            "tip": "Keep the trailing zero (7.250) when the question asks for 3 decimal places."
+          }
+        },
+        {
+          "id": "ch5_ex5_q2c",
+          "number": "2(c)",
+          "category": "Practice",
+          "questionText": "In the triangle, the inclination angle is shown. Calculate the value of the pronumeral, correct to 3 decimal places. The diagram shows a right-angled triangle with the right angle at the bottom-right vertex. The inclination angle at the bottom-left vertex is $31^\\circ$, the horizontal base is $14$, and the vertical side is labelled $x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{\\text{opposite}}{\\text{adjacent}}$ (TOA)",
+            "steps": [
+              "Given: $\\theta = 31^\\circ$, adjacent side $A = 14$, $x$ is opposite $\\theta$. Goal: find $x$.",
+              "We know A and want O, so use tangent.",
+              "Substitute: $\\tan(31^\\circ) = \\dfrac{x}{14}$",
+              "Rearrange: $x = 14\\tan(31^\\circ)$",
+              "Calculate: $x = 14 \\times 0.600861\\ldots = 8.41205\\ldots$",
+              "Round to 3 decimal places: $x \\approx 8.412$"
+            ],
+            "finalAnswer": "$x \\approx 8.412$ units (correct to 3 decimal places)",
+            "solutionFigures": [],
+            "tip": "When the unknown is on top of the fraction, multiply; when it is underneath, divide."
+          }
+        },
+        {
+          "id": "ch5_ex5_q3a",
+          "number": "3(a)",
+          "category": "Consolidate",
+          "questionText": "Determine the length of the unknown side, correct to 2 decimal places. The diagram shows a right-angled triangle with the right angle at the bottom-left vertex. The base $x$ runs from the right angle to the bottom-right vertex, where the angle is $40^\\circ 26'$. The hypotenuse (from the top vertex to the bottom-right vertex) is $43.95$ m.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(\\theta) = \\dfrac{\\text{adjacent}}{\\text{hypotenuse}}$ (CAH)",
+            "steps": [
+              "Given: $\\theta = 40^\\circ 26'$, $H = 43.95$ m, $x$ is adjacent to $\\theta$. Goal: find $x$.",
+              "We know H and want A, so use cosine.",
+              "Substitute: $\\cos(40^\\circ 26') = \\dfrac{x}{43.95}$",
+              "Rearrange: $x = 43.95\\cos(40^\\circ 26')$",
+              "Enter the angle using the DMS key ($40^\\circ 26' = 40.4\\dot{3}^\\circ$): $\\cos(40^\\circ 26') = 0.761161\\ldots$",
+              "Calculate: $x = 43.95 \\times 0.761161\\ldots = 33.4530\\ldots$",
+              "Round to 2 decimal places: $x \\approx 33.45$ m"
+            ],
+            "finalAnswer": "$x \\approx 33.45$ m (correct to 2 decimal places)",
+            "solutionFigures": [],
+            "tip": "$40^\\circ 26'$ is not $40.26^\\circ$; use the DMS key or convert minutes by dividing by 60."
+          }
+        },
+        {
+          "id": "ch5_ex5_q3b",
+          "number": "3(b)",
+          "category": "Consolidate",
+          "questionText": "Determine the length of the unknown side, correct to 2 decimal places. The diagram shows a right-angled triangle with the right angle at the top-right vertex. The top side $P$ runs from the top-left vertex, where the angle is $8^\\circ 52' 45''$, to the right angle. The side from the right angle down to the bottom vertex is $11.7$ m.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{\\text{opposite}}{\\text{adjacent}}$ (TOA)",
+            "steps": [
+              "Given: $\\theta = 8^\\circ 52' 45''$; the $11.7$ m side is opposite $\\theta$; $P$ is adjacent to $\\theta$. Goal: find $P$.",
+              "We know O and want A, so use tangent.",
+              "Substitute: $\\tan(8^\\circ 52' 45'') = \\dfrac{11.7}{P}$",
+              "Rearrange: $P = \\dfrac{11.7}{\\tan(8^\\circ 52' 45'')}$",
+              "Calculate: $\\tan(8^\\circ 52' 45'') = 0.156223\\ldots$, so $P = \\dfrac{11.7}{0.156223\\ldots} = 74.8928\\ldots$",
+              "Check: a small angle means the opposite side is much shorter than the adjacent side, which fits ($11.7 < 74.89$).",
+              "Round to 2 decimal places: $P \\approx 74.89$ m"
+            ],
+            "finalAnswer": "$P \\approx 74.89$ m (correct to 2 decimal places)",
+            "solutionFigures": [],
+            "tip": "Enter degrees, minutes and seconds with the DMS key so the seconds are not lost."
+          }
+        },
+        {
+          "id": "ch5_ex5_q3c",
+          "number": "3(c)",
+          "category": "Consolidate",
+          "questionText": "Determine the length of the unknown side, correct to 2 decimal places. The diagram shows a right-angled triangle with the right angle at the top vertex. The side from the right angle to the right vertex is $14$ m. The angle at the bottom vertex is $18^\\circ 12'$. The side from the bottom vertex to the right vertex (the hypotenuse) is labelled $t$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = \\dfrac{\\text{opposite}}{\\text{hypotenuse}}$ (SOH)",
+            "steps": [
+              "Given: $\\theta = 18^\\circ 12'$; the $14$ m side does not touch the bottom vertex, so it is opposite $\\theta$; $t$ is the hypotenuse. Goal: find $t$.",
+              "We know O and want H, so use sine.",
+              "Substitute: $\\sin(18^\\circ 12') = \\dfrac{14}{t}$",
+              "Rearrange: $t = \\dfrac{14}{\\sin(18^\\circ 12')}$",
+              "Calculate: $t = \\dfrac{14}{0.312335\\ldots} = 44.8237\\ldots$",
+              "Round to 2 decimal places: $t \\approx 44.82$ m"
+            ],
+            "finalAnswer": "$t \\approx 44.82$ m (correct to 2 decimal places)",
+            "solutionFigures": [],
+            "tip": "The hypotenuse is always opposite the right angle, no matter how the triangle is rotated."
+          }
+        },
+        {
+          "id": "ch5_ex5_q4a",
+          "number": "4(a)",
+          "category": "Master",
+          "questionText": "Determine the length of the unknown side, correct to 2 decimal places. The diagram shows a right-angled triangle with the right angle at the right-hand vertex. The side from the bottom vertex to the right angle is $11.2$ mm, and the angle at the bottom vertex is $34^\\circ 42'$. The side from the right angle up to the top vertex is labelled $x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{\\text{opposite}}{\\text{adjacent}}$ (TOA)",
+            "steps": [
+              "Given: $\\theta = 34^\\circ 42'$ at the bottom vertex; the $11.2$ mm side is adjacent to $\\theta$; $x$ is opposite $\\theta$. Goal: find $x$.",
+              "We know A and want O, so use tangent.",
+              "Substitute: $\\tan(34^\\circ 42') = \\dfrac{x}{11.2}$",
+              "Rearrange: $x = 11.2\\tan(34^\\circ 42')$",
+              "Calculate: $x = 11.2 \\times 0.692433\\ldots = 7.75525\\ldots$",
+              "Round to 2 decimal places: $x \\approx 7.76$ mm"
+            ],
+            "finalAnswer": "$x \\approx 7.76$ mm (correct to 2 decimal places)",
+            "solutionFigures": [],
+            "tip": "Rotate the page in your head so the right angle sits at the bottom; this makes O, A and H easier to identify."
+          }
+        },
+        {
+          "id": "ch5_ex5_q4b",
+          "number": "4(b)",
+          "category": "Master",
+          "questionText": "Determine the length of the unknown side, correct to 2 decimal places. The diagram shows a right-angled triangle with the right angle at the upper-left vertex. The side from the right angle down to the bottom vertex is $75.23$ km, and the angle at the bottom vertex is $21^\\circ 25' 34''$. The side from the bottom vertex to the top-right vertex (the hypotenuse) is labelled $x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(\\theta) = \\dfrac{\\text{adjacent}}{\\text{hypotenuse}}$ (CAH)",
+            "steps": [
+              "Given: $\\theta = 21^\\circ 25' 34''$; the $75.23$ km side is adjacent to $\\theta$; $x$ is the hypotenuse. Goal: find $x$.",
+              "We know A and want H, so use cosine.",
+              "Substitute: $\\cos(21^\\circ 25' 34'') = \\dfrac{75.23}{x}$",
+              "Rearrange: $x = \\dfrac{75.23}{\\cos(21^\\circ 25' 34'')}$",
+              "Calculate: $x = \\dfrac{75.23}{0.930889\\ldots} = 80.8152\\ldots$",
+              "Round to 2 decimal places: $x \\approx 80.82$ km"
+            ],
+            "finalAnswer": "$x \\approx 80.82$ km (correct to 2 decimal places)",
+            "solutionFigures": [],
+            "tip": "Dividing by a cosine (a number less than 1) makes the answer bigger, which is right for a hypotenuse."
+          }
+        },
+        {
+          "id": "ch5_ex5_q4c",
+          "number": "4(c)",
+          "category": "Master",
+          "questionText": "Determine the length of the unknown side, correct to 2 decimal places. The diagram shows a right-angled triangle with the right angle at the top-right vertex. The angle at the top-left vertex is $6^\\circ 25'$. The hypotenuse (from the top-left vertex to the bottom vertex) is $80.9$ cm. The vertical right-hand side is labelled $x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = \\dfrac{\\text{opposite}}{\\text{hypotenuse}}$ (SOH)",
+            "steps": [
+              "Given: $\\theta = 6^\\circ 25'$, $H = 80.9$ cm, $x$ is opposite $\\theta$. Goal: find $x$.",
+              "We know H and want O, so use sine.",
+              "Substitute: $\\sin(6^\\circ 25') = \\dfrac{x}{80.9}$",
+              "Rearrange: $x = 80.9\\sin(6^\\circ 25')$",
+              "Calculate: $x = 80.9 \\times 0.111758\\ldots = 9.04122\\ldots$",
+              "Round to 2 decimal places: $x \\approx 9.04$ cm"
+            ],
+            "finalAnswer": "$x \\approx 9.04$ cm (correct to 2 decimal places)",
+            "solutionFigures": [],
+            "tip": "A very small angle gives a short opposite side; a large answer here would signal an error."
+          }
+        },
+        {
+          "id": "ch5_ex5_q5a",
+          "number": "5(a)",
+          "category": "Consolidate",
+          "questionText": "Calculate the value of the pronumeral, correct to 2 decimal places. The diagram shows a right-angled triangle with the right angle at the top-right vertex. The top horizontal side is labelled $x$. The hypotenuse (from the top-left vertex to the bottom vertex) is $43.9$ cm, and the angle at the bottom vertex is $46^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = \\dfrac{\\text{opposite}}{\\text{hypotenuse}}$ (SOH)",
+            "steps": [
+              "Given: $\\theta = 46^\\circ$ at the bottom vertex, $H = 43.9$ cm; the top side $x$ does not touch the bottom vertex, so it is opposite $\\theta$. Goal: find $x$.",
+              "We know H and want O, so use sine.",
+              "Substitute: $\\sin(46^\\circ) = \\dfrac{x}{43.9}$",
+              "Rearrange: $x = 43.9\\sin(46^\\circ)$",
+              "Calculate: $x = 43.9 \\times 0.719340\\ldots = 31.5790\\ldots$",
+              "Round to 2 decimal places: $x \\approx 31.58$ cm"
+            ],
+            "finalAnswer": "$x \\approx 31.58$ cm (correct to 2 decimal places)",
+            "solutionFigures": [],
+            "tip": "Do not assume the horizontal side is the adjacent side; it depends on where the angle is."
+          }
+        },
+        {
+          "id": "ch5_ex5_q5b",
+          "number": "5(b)",
+          "category": "Consolidate",
+          "questionText": "Calculate the value of the pronumeral, correct to 2 decimal places. The diagram shows a right-angled triangle with the right angle at the top-left vertex. The top horizontal side is $23.7$ m and the angle at the top-right vertex is $36^\\circ 42'$. The vertical left-hand side is labelled $y$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{\\text{opposite}}{\\text{adjacent}}$ (TOA)",
+            "steps": [
+              "Given: $\\theta = 36^\\circ 42'$; the $23.7$ m side is adjacent to $\\theta$; $y$ is opposite $\\theta$. Goal: find $y$.",
+              "We know A and want O, so use tangent.",
+              "Substitute: $\\tan(36^\\circ 42') = \\dfrac{y}{23.7}$",
+              "Rearrange: $y = 23.7\\tan(36^\\circ 42')$",
+              "Calculate: $y = 23.7 \\times 0.745377\\ldots = 17.6654\\ldots$",
+              "Round to 2 decimal places: $y \\approx 17.67$ m"
+            ],
+            "finalAnswer": "$y \\approx 17.67$ m (correct to 2 decimal places)",
+            "solutionFigures": [],
+            "tip": "Keep the full calculator value until the last step; rounding $\\tan(36^\\circ 42')$ early can change the second decimal place."
+          }
+        },
+        {
+          "id": "ch5_ex5_q5c",
+          "number": "5(c)",
+          "category": "Consolidate",
+          "questionText": "Calculate the value of the pronumeral, correct to 2 decimal places. The diagram shows a right-angled triangle with the right angle at the bottom-left vertex. The vertical left side is $12.3$ m and the angle at the top vertex is $34^\\circ 12'$. The hypotenuse is labelled $z$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(\\theta) = \\dfrac{\\text{adjacent}}{\\text{hypotenuse}}$ (CAH)",
+            "steps": [
+              "Given: $\\theta = 34^\\circ 12'$ at the top vertex; the $12.3$ m side is adjacent to $\\theta$; $z$ is the hypotenuse. Goal: find $z$.",
+              "We know A and want H, so use cosine.",
+              "Substitute: $\\cos(34^\\circ 12') = \\dfrac{12.3}{z}$",
+              "Rearrange: $z = \\dfrac{12.3}{\\cos(34^\\circ 12')}$",
+              "Calculate: $z = \\dfrac{12.3}{0.827081\\ldots} = 14.8716\\ldots$",
+              "Round to 2 decimal places: $z \\approx 14.87$ m"
+            ],
+            "finalAnswer": "$z \\approx 14.87$ m (correct to 2 decimal places)",
+            "solutionFigures": [],
+            "tip": "If the unknown is the hypotenuse, it ends up in the denominator, so you divide."
+          }
+        },
+        {
+          "id": "ch5_ex5_q6a",
+          "number": "6(a)",
+          "category": "Master",
+          "questionText": "Calculate the value of the pronumeral, correct to 2 decimal places. The diagram shows a right-angled triangle with the right angle at the bottom-left vertex. The vertical left side is $15.3$ m and the angle at the bottom-right vertex is $13^\\circ 12'$. The hypotenuse is labelled $p$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = \\dfrac{\\text{opposite}}{\\text{hypotenuse}}$ (SOH)",
+            "steps": [
+              "Given: $\\theta = 13^\\circ 12'$; the $15.3$ m side is opposite $\\theta$; $p$ is the hypotenuse. Goal: find $p$.",
+              "We know O and want H, so use sine.",
+              "Substitute: $\\sin(13^\\circ 12') = \\dfrac{15.3}{p}$",
+              "Rearrange: $p = \\dfrac{15.3}{\\sin(13^\\circ 12')}$",
+              "Calculate: $p = \\dfrac{15.3}{0.228351\\ldots} = 67.0022\\ldots$",
+              "Round to 2 decimal places: $p \\approx 67.00$ m"
+            ],
+            "finalAnswer": "$p \\approx 67.00$ m (correct to 2 decimal places)",
+            "solutionFigures": [],
+            "tip": "Write 67.00, not 67, when 2 decimal places are asked for."
+          }
+        },
+        {
+          "id": "ch5_ex5_q6b",
+          "number": "6(b)",
+          "category": "Master",
+          "questionText": "Calculate the value of each pronumeral, correct to 2 decimal places. The diagram shows a right-angled triangle with the right angle at the top vertex. The angle at the bottom-left vertex is $63^\\circ 11'$. The side from the bottom-left vertex to the right angle is labelled $p$, the side from the right angle to the right vertex is labelled $q$, and the bottom side (hypotenuse) is $47.385$ km.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(\\theta) = \\dfrac{A}{H}$ and $\\sin(\\theta) = \\dfrac{O}{H}$",
+            "steps": [
+              "Given: $\\theta = 63^\\circ 11'$, $H = 47.385$ km; $p$ is adjacent to $\\theta$ and $q$ is opposite $\\theta$. Goal: find $p$ and $q$.",
+              "For $p$ (A and H), use cosine: $\\cos(63^\\circ 11') = \\dfrac{p}{47.385}$",
+              "$p = 47.385\\cos(63^\\circ 11') = 47.385 \\times 0.451137\\ldots = 21.3771\\ldots \\approx 21.38$ km",
+              "For $q$ (O and H), use sine: $\\sin(63^\\circ 11') = \\dfrac{q}{47.385}$",
+              "$q = 47.385\\sin(63^\\circ 11') = 47.385 \\times 0.892455\\ldots = 42.2890\\ldots \\approx 42.29$ km",
+              "Check with Pythagoras: $21.377^2 + 42.289^2 = 456.98 + 1788.36 = 2245.34 \\approx 47.385^2 = 2245.34$ ✓"
+            ],
+            "finalAnswer": "$p \\approx 21.38$ km and $q \\approx 42.29$ km (correct to 2 decimal places)",
+            "solutionFigures": [],
+            "tip": "Calculate both sides from the given hypotenuse rather than from a rounded answer, to avoid carrying rounding errors."
+          }
+        },
+        {
+          "id": "ch5_ex5_q6c",
+          "number": "6(c)",
+          "category": "Master",
+          "questionText": "Calculate the value of each pronumeral, correct to 2 decimal places. The diagram shows a right-angled triangle with the right angle at the bottom-right vertex. The angle at the left vertex is $73^\\circ 5'$. The top side, from the left vertex to the top-right vertex, is the hypotenuse $0.732$ km. The right-hand side (from the top-right vertex to the right angle) is labelled $a$ and the bottom side (from the left vertex to the right angle) is labelled $b$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = \\dfrac{O}{H}$ and $\\cos(\\theta) = \\dfrac{A}{H}$",
+            "steps": [
+              "Given: $\\theta = 73^\\circ 5'$, $H = 0.732$ km; $a$ is opposite $\\theta$ and $b$ is adjacent to $\\theta$. Goal: find $a$ and $b$.",
+              "For $a$, use sine: $\\sin(73^\\circ 5') = \\dfrac{a}{0.732}$",
+              "$a = 0.732\\sin(73^\\circ 5') = 0.732 \\times 0.956729\\ldots = 0.70033\\ldots \\approx 0.70$ km",
+              "For $b$, use cosine: $\\cos(73^\\circ 5') = \\dfrac{b}{0.732}$",
+              "$b = 0.732\\cos(73^\\circ 5') = 0.732 \\times 0.290981\\ldots = 0.21300\\ldots \\approx 0.21$ km",
+              "Check with Pythagoras: $0.70033^2 + 0.21300^2 = 0.49046 + 0.04537 = 0.53583 \\approx 0.732^2 = 0.53582$ ✓"
+            ],
+            "finalAnswer": "$a \\approx 0.70$ km and $b \\approx 0.21$ km (correct to 2 decimal places)",
+            "solutionFigures": [],
+            "tip": "With a large angle like $73^\\circ$, the opposite side is much longer than the adjacent side; use this to check."
+          }
+        },
+        {
+          "id": "ch5_ex5_q7a",
+          "number": "7(a)",
+          "category": "Practice",
+          "questionText": "Given that the angle $\\theta$ is $42^\\circ$ (the angle between the base and the hypotenuse of the right-angled triangle) and the length of the hypotenuse is $8.95$ m in a right-angled triangle, calculate the length of the opposite side. Give your answer correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = \\dfrac{\\text{opposite}}{\\text{hypotenuse}}$ (SOH)",
+            "steps": [
+              "Given: $\\theta = 42^\\circ$, $H = 8.95$ m. Goal: find the opposite side $O$.",
+              "We know H and want O, so use sine.",
+              "Substitute: $\\sin(42^\\circ) = \\dfrac{O}{8.95}$",
+              "Rearrange: $O = 8.95\\sin(42^\\circ)$",
+              "Calculate: $O = 8.95 \\times 0.669131\\ldots = 5.98872\\ldots$",
+              "Round to 1 decimal place: $O \\approx 6.0$ m"
+            ],
+            "finalAnswer": "The opposite side is approximately $6.0$ m (correct to 1 decimal place).",
+            "solutionFigures": [],
+            "tip": "A quick sketch with the angle at the base helps you identify which side is opposite."
+          }
+        },
+        {
+          "id": "ch5_ex5_q7b",
+          "number": "7(b)",
+          "category": "Practice",
+          "questionText": "Given that the angle $\\theta$ is $42^\\circ$ (the angle between the base and the hypotenuse of the right-angled triangle) and the length of the hypotenuse is $8.95$ m in a right-angled triangle, calculate the length of the adjacent side. Give your answer correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(\\theta) = \\dfrac{\\text{adjacent}}{\\text{hypotenuse}}$ (CAH)",
+            "steps": [
+              "Given: $\\theta = 42^\\circ$, $H = 8.95$ m. Goal: find the adjacent side $A$.",
+              "We know H and want A, so use cosine.",
+              "Substitute: $\\cos(42^\\circ) = \\dfrac{A}{8.95}$",
+              "Rearrange: $A = 8.95\\cos(42^\\circ)$",
+              "Calculate: $A = 8.95 \\times 0.743145\\ldots = 6.65115\\ldots$",
+              "Round to 1 decimal place: $A \\approx 6.7$ m",
+              "Check with Pythagoras: $5.9887^2 + 6.6511^2 = 35.865 + 44.237 = 80.10 \\approx 8.95^2 = 80.10$ ✓"
+            ],
+            "finalAnswer": "The adjacent side is approximately $6.7$ m (correct to 1 decimal place).",
+            "solutionFigures": [],
+            "tip": "Use Pythagoras with the unrounded values to check both sides of a right-angled triangle."
+          }
+        },
+        {
+          "id": "ch5_ex5_q8",
+          "number": "8",
+          "category": "Consolidate",
+          "questionText": "A ladder rests against a wall. If the angle of inclination (between the ladder and the ground) is $35^\\circ$ and the foot of the ladder is $1.5$ m from the wall, calculate how high up the wall the ladder reaches. Write your answer in metres correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{\\text{opposite}}{\\text{adjacent}}$ (TOA)",
+            "steps": [
+              "Given: the wall, ground and ladder form a right-angled triangle with the right angle where the wall meets the ground. $\\theta = 35^\\circ$ at the foot of the ladder; the ground distance $1.5$ m is adjacent to $\\theta$. Goal: the height $h$ up the wall (opposite $\\theta$).",
+              "We know A and want O, so use tangent.",
+              "Substitute: $\\tan(35^\\circ) = \\dfrac{h}{1.5}$",
+              "Rearrange: $h = 1.5\\tan(35^\\circ)$",
+              "Calculate: $h = 1.5 \\times 0.700208\\ldots = 1.05031\\ldots$",
+              "Round to 2 decimal places: $h \\approx 1.05$ m"
+            ],
+            "finalAnswer": "The ladder reaches approximately $1.05$ m up the wall (correct to 2 decimal places).",
+            "solutionFigures": [],
+            "tip": "The length of the ladder is the hypotenuse, but it is not needed here; tangent links the two legs directly."
+          }
+        },
+        {
+          "id": "ch5_ex5_q9a",
+          "number": "9(a)",
+          "category": "Practice",
+          "questionText": "Tran is going to construct an enclosed rectangular desktop that has an inclination angle of $15^\\circ$. The diagonal length of the desktop is $50$ cm. At the high end, the desktop, including top, bottom and sides, will be raised $8$ cm. The desktop will be made of wood. The side view is a right-angled triangle: the sloping top is $x$, the horizontal base is $y$, the vertical back is $8$ cm (right angle between the base and the back), and the angle between $x$ and $y$ is $15^\\circ$. The top view is a rectangle of width $z$ (the top edge) with a diagonal of $50$ cm. Determine the values (in centimetres) of $x$, $y$ and $z$ of the desktop. Write your answers correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = \\dfrac{O}{H}$, $\\tan(\\theta) = \\dfrac{O}{A}$ and Pythagoras' theorem $a^2 + b^2 = c^2$",
+            "steps": [
+              "Given (side view): $\\theta = 15^\\circ$, opposite side $8$ cm; $x$ is the hypotenuse and $y$ is adjacent. Given (desktop surface): a rectangle with sides $x$ and $z$ and diagonal $50$ cm. Goal: $x$, $y$, $z$.",
+              "Find $x$ using sine: $\\sin(15^\\circ) = \\dfrac{8}{x}$, so $x = \\dfrac{8}{\\sin(15^\\circ)} = \\dfrac{8}{0.258819\\ldots} = 30.9096\\ldots \\approx 30.91$ cm",
+              "Find $y$ using tangent: $\\tan(15^\\circ) = \\dfrac{8}{y}$, so $y = \\dfrac{8}{\\tan(15^\\circ)} = \\dfrac{8}{0.267949\\ldots} = 29.8564\\ldots \\approx 29.86$ cm",
+              "Find $z$: the sloping desktop surface is a rectangle with length $x$, width $z$ and diagonal $50$ cm, so by Pythagoras $z^2 + x^2 = 50^2$.",
+              "$z = \\sqrt{50^2 - 30.9096^2} = \\sqrt{2500 - 955.40} = \\sqrt{1544.60} = 39.3013\\ldots \\approx 39.30$ cm",
+              "Check: $x^2 = y^2 + 8^2$: $29.8564^2 + 64 = 891.40 + 64 = 955.40 = 30.9096^2$ ✓"
+            ],
+            "finalAnswer": "$x \\approx 30.91$ cm, $y \\approx 29.86$ cm, $z \\approx 39.30$ cm (correct to 2 decimal places)",
+            "solutionFigures": [],
+            "tip": "The 50 cm diagonal lies on the sloping desktop surface, so it pairs with the sloping length $x$, not the base $y$."
+          }
+        },
+        {
+          "id": "ch5_ex5_q9b",
+          "number": "9(b)",
+          "category": "Practice",
+          "questionText": "Tran is going to construct an enclosed rectangular desktop that has an inclination angle of $15^\\circ$. The diagonal length of the desktop is $50$ cm. At the high end, the desktop, including top, bottom and sides, will be raised $8$ cm. The desktop will be made of wood. The side view is a right-angled triangle with sloping top $x$, horizontal base $y$, vertical back $8$ cm and angle $15^\\circ$ between $x$ and $y$; the desktop has width $z$. Using your answers from part a ($x = 30.91$ cm, $y = 29.86$ cm, $z = 39.30$ cm), determine the minimum area of wood, in cm$^2$, Tran needs to construct his desktop including top, bottom and sides. Write your answer correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of rectangle $= l \\times w$; area of triangle $= \\dfrac{1}{2}bh$",
+            "steps": [
+              "Given: $x = 30.91$ cm, $y = 29.86$ cm, $z = 39.30$ cm, back height $8$ cm. Goal: total surface area of the closed wedge (top, bottom, two triangular sides and the raised back).",
+              "Top (sloping rectangle): $x \\times z = 30.91 \\times 39.30 = 1214.763$ cm$^2$",
+              "Bottom (rectangle): $y \\times z = 29.86 \\times 39.30 = 1173.498$ cm$^2$",
+              "Two triangular sides: $2 \\times \\dfrac{1}{2} \\times y \\times 8 = 29.86 \\times 8 = 238.88$ cm$^2$",
+              "Back (raised end, rectangle): $8 \\times z = 8 \\times 39.30 = 314.4$ cm$^2$",
+              "Total: $1214.763 + 1173.498 + 238.88 + 314.4 = 2941.541$ cm$^2$",
+              "Round to 2 decimal places: $2941.54$ cm$^2$"
+            ],
+            "finalAnswer": "Tran needs a minimum of approximately $2941.54$ cm$^2$ of wood (using the part a values; with unrounded values the area is $2941.45$ cm$^2$).",
+            "solutionFigures": [],
+            "tip": "List every face of the 3D shape before adding; it is easy to forget the raised back face."
+          }
+        },
+        {
+          "id": "ch5_ex5_q10a",
+          "number": "10(a)",
+          "category": "Consolidate",
+          "questionText": "In a right-angled triangle, under what circumstances will the opposite side and the adjacent side have the same length?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{\\text{opposite}}{\\text{adjacent}}$",
+            "steps": [
+              "Goal: find when $O = A$.",
+              "If $O = A$, then $\\tan(\\theta) = \\dfrac{O}{A} = 1$.",
+              "$\\theta = \\tan^{-1}(1) = 45^\\circ$",
+              "The other acute angle is $180^\\circ - 90^\\circ - 45^\\circ = 45^\\circ$, so the two legs are equal: the triangle is isosceles."
+            ],
+            "finalAnswer": "The opposite and adjacent sides are equal when the reference angle is $45^\\circ$, i.e. in an isosceles right-angled triangle.",
+            "solutionFigures": [],
+            "tip": "Equal sides are opposite equal angles, so two equal legs force both acute angles to be $45^\\circ$."
+          }
+        },
+        {
+          "id": "ch5_ex5_q10b",
+          "number": "10(b)",
+          "category": "Consolidate",
+          "questionText": "In a right-angled triangle, for what values of $\\theta$ (the reference angle) will the adjacent side be longer than the opposite side?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{\\text{opposite}}{\\text{adjacent}}$; in a triangle the longer side is opposite the larger angle",
+            "steps": [
+              "Goal: find when $A > O$.",
+              "$A > O$ means $\\dfrac{O}{A} < 1$, so $\\tan(\\theta) < 1$.",
+              "Since $\\tan(45^\\circ) = 1$ and $\\tan$ increases for acute angles, $\\tan(\\theta) < 1$ when $\\theta < 45^\\circ$.",
+              "Equivalently, the adjacent side is opposite the other acute angle $90^\\circ - \\theta$, which is larger than $\\theta$ when $\\theta < 45^\\circ$."
+            ],
+            "finalAnswer": "The adjacent side is longer than the opposite side when $0^\\circ < \\theta < 45^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Remember: the bigger the angle, the bigger the side opposite it."
+          }
+        },
+        {
+          "id": "ch5_ex5_q11",
+          "number": "11",
+          "category": "Master",
+          "questionText": "In triangle ABC, AM is perpendicular to BC, with M on BC between B and C. $AB = 4.5$ cm, $\\angle ABC = 36^\\circ$, $\\angle ACB = 29^\\circ$, and $BC = x$. The length of $x$ correct to 2 decimal places is $8.41$ cm. Jack found the length of $x$ to be $5.11$ cm. His working was: $\\cos(36^\\circ) = \\dfrac{BM}{4.5}$, $BM = 3.641$; $\\sin(36^\\circ) = \\dfrac{AM}{4.5}$, $AM = 2.645$; $\\tan(29^\\circ) = \\dfrac{2.645}{MC}$, $MC = 1.466$; $BC = 3.641 + 1.466 = 5.107$ cm $= 5.11$ cm (rounded to 2 decimal places). Identify his error and what he should have done instead.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$; if $\\tan(\\theta) = \\dfrac{O}{A}$ then $A = \\dfrac{O}{\\tan(\\theta)}$",
+            "steps": [
+              "Given: triangle ABM (right angle at M) with $AB = 4.5$ cm and $\\angle B = 36^\\circ$; triangle AMC (right angle at M) with $\\angle C = 29^\\circ$. Goal: find Jack's error and the correct $x = BM + MC$.",
+              "Jack's first two steps are correct: $BM = 4.5\\cos(36^\\circ) = 3.6406$ cm and $AM = 4.5\\sin(36^\\circ) = 2.6450$ cm.",
+              "His equation $\\tan(29^\\circ) = \\dfrac{2.645}{MC}$ is also correct, but he rearranged it wrongly: he calculated $MC = 2.645 \\times \\tan(29^\\circ) = 1.466$ (multiplying).",
+              "Since $MC$ is in the denominator, he should divide: $MC = \\dfrac{2.645}{\\tan(29^\\circ)} = \\dfrac{2.6450}{0.554309\\ldots} = 4.7718$ cm",
+              "Then $x = BC = BM + MC = 3.6406 + 4.7718 = 8.4123\\ldots$ cm",
+              "Round to 2 decimal places: $x \\approx 8.41$ cm ✓"
+            ],
+            "finalAnswer": "Jack's error was in rearranging $\\tan(29^\\circ) = \\dfrac{2.645}{MC}$: he multiplied by $\\tan(29^\\circ)$ instead of dividing. He should have found $MC = \\dfrac{2.645}{\\tan(29^\\circ)} \\approx 4.772$ cm, giving $x = 3.641 + 4.772 \\approx 8.41$ cm.",
+            "solutionFigures": [],
+            "tip": "When the unknown is in the denominator, first multiply both sides by it, then divide by the trig ratio."
+          }
+        },
+        {
+          "id": "ch5_ex5_q12a",
+          "number": "12(a)",
+          "category": "Practice",
+          "questionText": "A surveyor needs to determine the height of a building. She measures the angle to the top of the building from two points, A and B, which are $64$ m apart. The surveyor's eye level is $195$ cm above the ground. In the diagram, A is $x$ m from the building and B is a further $64$ m away on the same side. The angle of elevation from A (at eye level) to the top of the building is $47^\\circ 48'$, and from B it is $36^\\circ 24'$. The height of the building above eye level is $h$. Determine the expressions for the height of the building, $h$, in terms of $x$ using the two angles.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{\\text{opposite}}{\\text{adjacent}}$ (TOA)",
+            "steps": [
+              "Given: two right-angled triangles share the vertical side $h$ (the building above eye level). From A: angle $47^\\circ 48'$, adjacent side $x$. From B: angle $36^\\circ 24'$, adjacent side $x + 64$. Goal: two expressions for $h$.",
+              "Triangle from A: $\\tan(47^\\circ 48') = \\dfrac{h}{x}$, so $h = x\\tan(47^\\circ 48')$",
+              "Triangle from B: $\\tan(36^\\circ 24') = \\dfrac{h}{x + 64}$, so $h = (x + 64)\\tan(36^\\circ 24')$"
+            ],
+            "finalAnswer": "$h = x\\tan(47^\\circ 48')$ m and $h = (x + 64)\\tan(36^\\circ 24')$ m",
+            "solutionFigures": [],
+            "tip": "The horizontal distance from B is $x + 64$, not 64; B is further from the building than A."
+          }
+        },
+        {
+          "id": "ch5_ex5_q12b",
+          "number": "12(b)",
+          "category": "Practice",
+          "questionText": "A surveyor needs to determine the height of a building. She measures the angle to the top of the building from two points, A and B, which are $64$ m apart. The surveyor's eye level is $195$ cm above the ground. A is $x$ m from the building and B is a further $64$ m away. The angles of elevation to the top of the building are $47^\\circ 48'$ from A and $36^\\circ 24'$ from B, and $h$ is the height of the building above eye level, so $h = x\\tan(47^\\circ 48')$ and $h = (x + 64)\\tan(36^\\circ 24')$. Solve for $x$ by equating the two expressions obtained in part a. Give your answer to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Equate the two expressions for $h$ and solve the linear equation",
+            "steps": [
+              "Given: $h = x\\tan(47^\\circ 48')$ and $h = (x + 64)\\tan(36^\\circ 24')$. Goal: find $x$.",
+              "Equate: $x\\tan(47^\\circ 48') = (x + 64)\\tan(36^\\circ 24')$",
+              "Expand: $x\\tan(47^\\circ 48') = x\\tan(36^\\circ 24') + 64\\tan(36^\\circ 24')$",
+              "Collect $x$ terms: $x\\left[\\tan(47^\\circ 48') - \\tan(36^\\circ 24')\\right] = 64\\tan(36^\\circ 24')$",
+              "Make $x$ the subject: $x = \\dfrac{64\\tan(36^\\circ 24')}{\\tan(47^\\circ 48') - \\tan(36^\\circ 24')}$",
+              "Calculate: $x = \\dfrac{64 \\times 0.737264\\ldots}{1.102846\\ldots - 0.737264\\ldots} = \\dfrac{47.1849\\ldots}{0.365582\\ldots} = 129.0675\\ldots$",
+              "Round to 2 decimal places: $x \\approx 129.07$ m"
+            ],
+            "finalAnswer": "$x \\approx 129.07$ m (correct to 2 decimal places)",
+            "solutionFigures": [],
+            "tip": "Keep the tan values unrounded in the calculator; subtracting two rounded values can lose accuracy."
+          }
+        },
+        {
+          "id": "ch5_ex5_q12c",
+          "number": "12(c)",
+          "category": "Practice",
+          "questionText": "A surveyor needs to determine the height of a building. She measures the angle to the top of the building from two points, A and B, which are $64$ m apart. The surveyor's eye level is $195$ cm above the ground. A is $x$ m from the building and B is a further $64$ m away. The angles of elevation to the top of the building are $47^\\circ 48'$ from A and $36^\\circ 24'$ from B, and $h$ is the height of the building above eye level. From part b, $x \\approx 129.07$ m. Determine the height of the building correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$h = x\\tan(47^\\circ 48')$; building height $= h + \\text{eye level}$",
+            "steps": [
+              "Given: $x = 129.0675\\ldots$ m (unrounded), eye level $195$ cm $= 1.95$ m. Goal: the total height of the building.",
+              "Height above eye level: $h = x\\tan(47^\\circ 48') = 129.0675\\ldots \\times 1.102846\\ldots = 142.3417\\ldots$ m",
+              "Check with the other expression: $(129.0675 + 64)\\tan(36^\\circ 24') = 193.0675 \\times 0.737264 = 142.342$ m ✓",
+              "Add the eye level: $142.3417 + 1.95 = 144.2917\\ldots$ m",
+              "Round to 2 decimal places: $144.29$ m"
+            ],
+            "finalAnswer": "The building is approximately $144.29$ m tall (correct to 2 decimal places).",
+            "solutionFigures": [],
+            "tip": "Angles are measured from eye level, so remember to add the surveyor's eye height (converted to metres) at the end."
+          }
+        },
+        {
+          "id": "ch5_ex5_q13",
+          "number": "13",
+          "category": "Consolidate",
+          "questionText": "Building A and Building B are $110$ m apart. From the base of Building B to the top of Building A, the angle (of elevation) is $15^\\circ$. From the top of Building B looking down to the top of Building A, the angle (of depression) is $22^\\circ$. Building B is taller than Building A. Evaluate the height of each of the two buildings correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{\\text{opposite}}{\\text{adjacent}}$ (TOA); alternate angles are equal",
+            "steps": [
+              "Given: horizontal distance $110$ m; angle of elevation $15^\\circ$ from the base of B to the top of A; angle of depression $22^\\circ$ from the top of B to the top of A. Goal: heights $h_A$ and $h_B$.",
+              "Building A: in the triangle with base $110$ m and angle $15^\\circ$ at the base of B, $\\tan(15^\\circ) = \\dfrac{h_A}{110}$",
+              "$h_A = 110\\tan(15^\\circ) = 110 \\times 0.267949\\ldots = 29.4744\\ldots$ m",
+              "Building B: draw a horizontal line from the top of A to B. The angle of depression $22^\\circ$ equals the angle of elevation from the top of A to the top of B (alternate angles). Let $d$ be the height of B above the top of A.",
+              "$\\tan(22^\\circ) = \\dfrac{d}{110}$, so $d = 110\\tan(22^\\circ) = 110 \\times 0.404026\\ldots = 44.4429\\ldots$ m",
+              "$h_B = h_A + d = 29.4744 + 44.4429 = 73.9173\\ldots$ m",
+              "Round to 1 decimal place: $h_A \\approx 29.5$ m, $h_B \\approx 73.9$ m"
+            ],
+            "finalAnswer": "Building A is approximately $29.5$ m tall and Building B is approximately $73.9$ m tall (correct to 1 decimal place).",
+            "solutionFigures": [],
+            "tip": "The $22^\\circ$ triangle only gives the part of Building B above Building A; add Building A's height to get B's full height."
+          }
+        },
+        {
+          "id": "ch5_ex5_q14",
+          "number": "14",
+          "category": "Master",
+          "questionText": "If angles QNM, QNP and MNP are right angles, determine the length of NQ. In the 3D diagram, N is a point on the ground and Q is directly above it with $NQ = h$. M and P are points on the ground with $MN = x$, $NP = y$ and $MP = 120$. The angle QMN is $30^\\circ$ and the angle QPN is $45^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$ and Pythagoras' theorem $a^2 + b^2 = c^2$",
+            "steps": [
+              "Given: right angles at N in triangles QNM, QNP and MNP; $\\angle QMN = 30^\\circ$, $\\angle QPN = 45^\\circ$, $MP = 120$. Goal: $NQ = h$.",
+              "Triangle QNM: $\\tan(30^\\circ) = \\dfrac{h}{x}$, so $x = \\dfrac{h}{\\tan(30^\\circ)} = \\dfrac{h}{\\frac{1}{\\sqrt{3}}} = \\sqrt{3}\\,h$",
+              "Triangle QNP: $\\tan(45^\\circ) = \\dfrac{h}{y}$, so $y = \\dfrac{h}{1} = h$",
+              "Triangle MNP (right angle at N): $x^2 + y^2 = 120^2$",
+              "Substitute: $(\\sqrt{3}h)^2 + h^2 = 14\\,400$",
+              "$3h^2 + h^2 = 14\\,400 \\Rightarrow 4h^2 = 14\\,400 \\Rightarrow h^2 = 3600$",
+              "$h = \\sqrt{3600} = 60$ (length is positive)",
+              "Check: $x = 60\\sqrt{3} \\approx 103.92$, $y = 60$, and $103.92^2 + 60^2 = 10\\,800 + 3600 = 14\\,400 = 120^2$ ✓"
+            ],
+            "finalAnswer": "$NQ = 60$ units",
+            "solutionFigures": [],
+            "tip": "In 3D problems, express every unknown in terms of one variable, then use the triangle that contains the given length."
+          }
+        },
+        {
+          "id": "ch5_ex5_q15",
+          "number": "15",
+          "category": "Master",
+          "questionText": "Determine how solving a trigonometric equation differs when we are calculating the length of the hypotenuse side compared to when determining the length of a shorter side.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = \\dfrac{O}{H}$, $\\cos(\\theta) = \\dfrac{A}{H}$, $\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Shorter side (opposite or adjacent) with the hypotenuse known: the unknown is in the numerator, e.g. $\\sin(30^\\circ) = \\dfrac{x}{10}$. Solve by multiplying: $x = 10\\sin(30^\\circ) = 5$.",
+              "Hypotenuse unknown: the hypotenuse is always in the denominator of sine and cosine, e.g. $\\sin(30^\\circ) = \\dfrac{5}{H}$.",
+              "Multiply both sides by $H$: $H\\sin(30^\\circ) = 5$, then divide by $\\sin(30^\\circ)$: $H = \\dfrac{5}{\\sin(30^\\circ)} = 10$.",
+              "So finding a shorter side takes one step (multiply), while finding the hypotenuse takes two steps (multiply, then divide by the trig ratio).",
+              "Because $\\sin$ and $\\cos$ of acute angles are less than 1, dividing makes the hypotenuse larger than the known side, while multiplying makes a shorter side smaller than the hypotenuse."
+            ],
+            "finalAnswer": "When finding a shorter side, the unknown is in the numerator, so you multiply the known side by the trig ratio. When finding the hypotenuse, the unknown is in the denominator, so you must rearrange and divide the known side by the trig ratio (sin or cos).",
+            "solutionFigures": [],
+            "tip": "Check your answer: the hypotenuse must come out longer than either of the other sides."
+          }
+        }
+      ]
+    }
+  ]
+}

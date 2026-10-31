@@ -1,0 +1,858 @@
+{
+  "chapterId": "ch05",
+  "chapterTitle": "Trigonometry I",
+  "topics": [
+    {
+      "topicId": "5.9",
+      "topicTitle": "Applications",
+      "exercises": [
+        {
+          "id": "ch5_ex9_q1",
+          "number": "1",
+          "category": "Practice",
+          "questionText": "A carpenter wants to make a roof pitched at $29^\\circ 30'$, as shown in the diagram. Calculate how long, in metres correct to 2 decimal places, he should cut the beam PR. (Diagram: isosceles triangle PQR with horizontal base PQ = 10.6 m, apex R at the top, and angle $\\angle RPQ = 29^\\circ 30'$.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(\\theta) = \\dfrac{A}{H}$",
+            "steps": [
+              "Given: base PQ = 10.6 m, pitch angle $29^\\circ 30' = 29.5^\\circ$. Goal: length of the sloping beam PR.",
+              "The roof is symmetric, so the perpendicular from R meets PQ at its midpoint M. PM $= \\dfrac{10.6}{2} = 5.3$ m.",
+              "In right triangle PMR: PM is adjacent to the $29.5^\\circ$ angle and PR is the hypotenuse.",
+              "$\\cos(29.5^\\circ) = \\dfrac{5.3}{PR}$",
+              "$PR = \\dfrac{5.3}{\\cos(29.5^\\circ)} = \\dfrac{5.3}{0.870356} = 6.0895$ m",
+              "Rounded to 2 decimal places: 6.09 m."
+            ],
+            "finalAnswer": "The beam PR should be cut 6.09 m long.",
+            "solutionFigures": [],
+            "tip": "Halve the span first; the right angle is at the midpoint of the base, not at Q."
+          }
+        },
+        {
+          "id": "ch5_ex9_q2",
+          "number": "2",
+          "category": "Consolidate",
+          "questionText": "The mast of a boat is 7.7 m high. A guy wire from the top of the mast is fixed to the deck 4 m from the base of the mast. Determine the angle, correct to the nearest minute, that the wire makes with the horizontal.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Given: mast height (opposite) = 7.7 m, horizontal distance (adjacent) = 4 m. Goal: angle $\\theta$ with the deck.",
+              "$\\tan(\\theta) = \\dfrac{7.7}{4} = 1.925$",
+              "$\\theta = \\tan^{-1}(1.925) = 62.549^\\circ$",
+              "$0.549^\\circ \\times 60 = 32.9' \\approx 33'$",
+              "$\\theta \\approx 62^\\circ 33'$"
+            ],
+            "finalAnswer": "The wire makes an angle of $62^\\circ 33'$ with the horizontal.",
+            "solutionFigures": [],
+            "tip": "Convert the decimal part of the degrees to minutes by multiplying by 60."
+          }
+        },
+        {
+          "id": "ch5_ex9_q3a",
+          "number": "3(a)",
+          "category": "Practice",
+          "questionText": "A steel roof truss is to be made to the following design. (Diagram: an isosceles triangle with a horizontal base of 10 m and base angles of $20^\\circ$. A vertical post runs from the apex to the midpoint of the base. Two struts run from the midpoint of the base to the midpoints of the two sloping rafters.) Calculate how high the truss is, in metres correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Given: span 10 m, base angle $20^\\circ$. Goal: height $h$ of the truss.",
+              "The vertical post meets the base at its midpoint, so half-span $= 5$ m (adjacent).",
+              "$\\tan(20^\\circ) = \\dfrac{h}{5}$",
+              "$h = 5\\tan(20^\\circ) = 5 \\times 0.363970 = 1.8199$ m",
+              "Rounded: 1.82 m."
+            ],
+            "finalAnswer": "The truss is 1.82 m high.",
+            "solutionFigures": [],
+            "tip": "Use the half-span, not the whole 10 m, in the right-angled triangle."
+          }
+        },
+        {
+          "id": "ch5_ex9_q3b",
+          "number": "3(b)",
+          "category": "Practice",
+          "questionText": "A steel roof truss is to be made to the following design. (Diagram: an isosceles triangle with a horizontal base of 10 m and base angles of $20^\\circ$. A vertical post runs from the apex to the midpoint of the base. Two struts run from the midpoint of the base to the midpoints of the two sloping rafters.) Determine the total length of steel required to make the truss, in metres correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(\\theta) = \\dfrac{A}{H}$ and Pythagoras $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: span 10 m, base angle $20^\\circ$, height $h = 5\\tan(20^\\circ) = 1.81985$ m. Goal: total steel length.",
+              "Each rafter: $\\cos(20^\\circ) = \\dfrac{5}{R}$, so $R = \\dfrac{5}{\\cos(20^\\circ)} = \\dfrac{5}{0.939693} = 5.32089$ m.",
+              "Each strut joins the base midpoint (5, 0) to the midpoint of a rafter, which is 2.5 m horizontally from the base midpoint and $\\dfrac{h}{2} = 0.90993$ m high.",
+              "Strut: $s^2 = 2.5^2 + 0.90993^2 = 6.25 + 0.82797 = 7.07797$, $s = 2.66044$ m (equal to half a rafter).",
+              "Total $= 10 + 2(5.32089) + 1.81985 + 2(2.66044)$",
+              "$= 10 + 10.64178 + 1.81985 + 5.32089 = 27.78252$ m",
+              "Rounded: 27.78 m."
+            ],
+            "finalAnswer": "27.78 m of steel is needed.",
+            "solutionFigures": [],
+            "tip": "List every member (base, 2 rafters, post, 2 struts) before adding so none is missed."
+          }
+        },
+        {
+          "id": "ch5_ex9_q4",
+          "number": "4",
+          "category": "Practice",
+          "questionText": "A ladder that is 2.7 m long is leaning against a wall at an angle of $20^\\circ$ as shown. (Diagram: right triangle TWB with the wall TW vertical, the right angle at W on the ground, the ladder TB = 2.7 m, and $\\angle WTB = 20^\\circ$ between the ladder and the wall.) If the base of the ladder is moved 50 cm further away from the wall, determine what angle the ladder will make with the wall. Write your answer correct to the nearest minute.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = \\dfrac{O}{H}$",
+            "steps": [
+              "Given: ladder 2.7 m (hypotenuse), angle with wall $20^\\circ$. Goal: new angle with wall after moving the foot 0.5 m out.",
+              "Original distance of the foot from the wall (opposite the $20^\\circ$): $WB = 2.7\\sin(20^\\circ) = 2.7 \\times 0.342020 = 0.92345$ m.",
+              "New distance $= 0.92345 + 0.5 = 1.42345$ m (50 cm = 0.5 m).",
+              "The ladder length stays 2.7 m: $\\sin(\\theta) = \\dfrac{1.42345}{2.7} = 0.527205$",
+              "$\\theta = \\sin^{-1}(0.527205) = 31.817^\\circ = 31^\\circ 49'$"
+            ],
+            "finalAnswer": "The ladder will make an angle of $31^\\circ 49'$ with the wall.",
+            "solutionFigures": [],
+            "tip": "Convert 50 cm to 0.5 m before adding."
+          }
+        },
+        {
+          "id": "ch5_ex9_q5",
+          "number": "5",
+          "category": "Consolidate",
+          "questionText": "A wooden framework is built as shown. (Diagram: right triangle ABC with the right angle at B, horizontal base AB, vertical side BC = 5 m, and $\\angle CAB = 38^\\circ$.) Bella plans to reinforce the framework by adding a strut from C to the midpoint of AB. Calculate the length of the strut in metres correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$, then Pythagoras $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: BC = 5 m, $\\angle A = 38^\\circ$, right angle at B. Goal: length CM, where M is the midpoint of AB.",
+              "$\\tan(38^\\circ) = \\dfrac{5}{AB}$, so $AB = \\dfrac{5}{\\tan(38^\\circ)} = \\dfrac{5}{0.781286} = 6.39971$ m.",
+              "$MB = \\dfrac{6.39971}{2} = 3.19985$ m.",
+              "Triangle CBM is right-angled at B: $CM^2 = 3.19985^2 + 5^2 = 10.2391 + 25 = 35.2391$",
+              "$CM = \\sqrt{35.2391} = 5.9363$ m $\\approx 5.94$ m"
+            ],
+            "finalAnswer": "The strut is 5.94 m long.",
+            "solutionFigures": [],
+            "tip": "The strut is the hypotenuse of the smaller triangle CBM, so it must be longer than 5 m."
+          }
+        },
+        {
+          "id": "ch5_ex9_q6",
+          "number": "6",
+          "category": "Master",
+          "questionText": "Atlanta is standing due south of a 20 m flagpole at a point where the angle of elevation of the top of the pole is $35^\\circ$. Ginger is standing due east of the flagpole at a point where the angle of elevation of the top of the pole is $27^\\circ$. Calculate how far, to the nearest metre, Ginger is from Atlanta.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$, then Pythagoras",
+            "steps": [
+              "Given: pole height 20 m; elevation $35^\\circ$ from Atlanta (south), $27^\\circ$ from Ginger (east). Goal: distance between them.",
+              "Atlanta: $\\tan(35^\\circ) = \\dfrac{20}{a}$, $a = \\dfrac{20}{0.700208} = 28.5630$ m from the pole.",
+              "Ginger: $\\tan(27^\\circ) = \\dfrac{20}{g}$, $g = \\dfrac{20}{0.509525} = 39.2522$ m from the pole.",
+              "South and east are at right angles at the base of the pole, so the ground triangle is right-angled there.",
+              "$D^2 = 28.5630^2 + 39.2522^2 = 815.85 + 1540.74 = 2356.59$",
+              "$D = \\sqrt{2356.59} = 48.545$ m $\\approx 49$ m"
+            ],
+            "finalAnswer": "Ginger is about 49 m from Atlanta.",
+            "solutionFigures": [],
+            "tip": "The final triangle lies flat on the ground, with the right angle at the foot of the pole."
+          }
+        },
+        {
+          "id": "ch5_ex9_q7",
+          "number": "7",
+          "category": "Practice",
+          "questionText": "Police are investigating a shooting incident that resulted in a shot being fired that lodged in a wall. The height of the suspect is 175 cm, with a shoulder height of 155 cm. If the bullet hole is located at 350 cm from the floor and the bullet hole makes an angle of $55^\\circ$ with the wall (the impact angle), determine the distance of the shooter from the wall.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Given: shoulder (firing) height 155 cm, hole height 350 cm, angle between bullet path and wall $55^\\circ$. Goal: horizontal distance $x$ from shooter to wall.",
+              "Vertical rise of the bullet $= 350 - 155 = 195$ cm. This is along the wall, adjacent to the $55^\\circ$ angle.",
+              "The horizontal distance $x$ is opposite the $55^\\circ$ angle.",
+              "$\\tan(55^\\circ) = \\dfrac{x}{195}$",
+              "$x = 195\\tan(55^\\circ) = 195 \\times 1.428148 = 278.49$ cm"
+            ],
+            "finalAnswer": "The shooter was about 278.49 cm (about 2.78 m) from the wall.",
+            "solutionFigures": [],
+            "tip": "Use shoulder height, not full height, because the gun is fired from the shoulder."
+          }
+        },
+        {
+          "id": "ch5_ex9_q8",
+          "number": "8",
+          "category": "Consolidate",
+          "questionText": "A sniper is aiming at a target that is located on top of a building. The sniper is located on the ground, 500 meters away from the building. The height of the building is 40 meters. The sniper's rifle is elevated at an angle of 30 degrees above the horizontal. Using Pythagoras' theorem and trigonometry, determine the height of the target above the ground. Also assume that the bullet travels in a straight line and does not experience any air resistance.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Given: horizontal distance 500 m, angle of elevation $30^\\circ$. Goal: height $h$ at which the bullet's line reaches the building.",
+              "The line of fire, the ground and the building form a right triangle: 500 m is adjacent, $h$ is opposite.",
+              "$\\tan(30^\\circ) = \\dfrac{h}{500}$",
+              "$h = 500\\tan(30^\\circ) = 500 \\times 0.577350 = 288.675$ m",
+              "Length of the line of fire (Pythagoras check): $\\sqrt{500^2 + 288.675^2} = \\sqrt{333333} = 577.35$ m $= \\dfrac{500}{\\cos(30^\\circ)}$ ✓"
+            ],
+            "finalAnswer": "The rifle's line of fire reaches a height of about 288.68 m above the ground at the building.",
+            "solutionFigures": [],
+            "tip": "Note this is far above the 40 m building, so at $30^\\circ$ the shot would pass over the target."
+          }
+        },
+        {
+          "id": "ch5_ex9_q9",
+          "number": "9",
+          "category": "Master",
+          "questionText": "From a point at ground level, Henry measures the angle of elevation of the top of a tall building to be $41^\\circ$. After walking directly towards the building, he finds the angle of elevation to be $75^\\circ$. If the building is 220 m tall, determine how far Henry walked between measurements. Write your answer correct to the nearest metre.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A} \\Rightarrow A = \\dfrac{O}{\\tan(\\theta)}$",
+            "steps": [
+              "Given: height 220 m; elevations $41^\\circ$ (first) and $75^\\circ$ (second). Goal: distance walked.",
+              "First position: $d_1 = \\dfrac{220}{\\tan(41^\\circ)} = \\dfrac{220}{0.869287} = 253.081$ m.",
+              "Second position: $d_2 = \\dfrac{220}{\\tan(75^\\circ)} = \\dfrac{220}{3.732051} = 58.949$ m.",
+              "Distance walked $= 253.081 - 58.949 = 194.132$ m $\\approx 194$ m"
+            ],
+            "finalAnswer": "Henry walked about 194 m.",
+            "solutionFigures": [],
+            "tip": "Find both distances from the building, then subtract; do not round until the end."
+          }
+        },
+        {
+          "id": "ch5_ex9_q10",
+          "number": "10",
+          "category": "Consolidate",
+          "questionText": "Sailing in the direction of a mountain peak of height 893 m, Imogen measured the angle of elevation to be $14^\\circ$. A short time later the angle of elevation was $27^\\circ$. Calculate how far, in km correct to 3 decimal places, Imogen had sailed in that time.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A} \\Rightarrow A = \\dfrac{O}{\\tan(\\theta)}$",
+            "steps": [
+              "Given: height 893 m; elevations $14^\\circ$ then $27^\\circ$. Goal: distance sailed, in km.",
+              "First distance: $d_1 = \\dfrac{893}{\\tan(14^\\circ)} = \\dfrac{893}{0.249328} = 3581.63$ m.",
+              "Second distance: $d_2 = \\dfrac{893}{\\tan(27^\\circ)} = \\dfrac{893}{0.509525} = 1752.61$ m.",
+              "Distance sailed $= 3581.63 - 1752.61 = 1829.02$ m",
+              "Convert: $1829.02 \\div 1000 = 1.829$ km"
+            ],
+            "finalAnswer": "Imogen sailed about 1.829 km.",
+            "solutionFigures": [],
+            "tip": "Check units: the height is in metres but the answer is required in kilometres."
+          }
+        },
+        {
+          "id": "ch5_ex9_q11a",
+          "number": "11(a)",
+          "category": "Master",
+          "questionText": "A desk top of length 1.2 m and width 0.5 m rises to 10 cm. (Diagram: a sloping desk top ABFE. A and B are the front corners on the base, AB = 1.2 m. C and D are on the base directly behind A and B, and E and F are directly above C and D, with DF = 10 cm (and CE = 10 cm). The sloping width AE = BF = 0.5 m.) Calculate, correct to the nearest minute, $\\angle DBF$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = \\dfrac{O}{H}$",
+            "steps": [
+              "Given: BF = 0.5 m (sloping width of desk top, hypotenuse), DF = 10 cm = 0.1 m (rise, opposite $\\angle DBF$). Goal: $\\angle DBF$.",
+              "Triangle BDF is right-angled at D because F is directly above D.",
+              "$\\sin(\\angle DBF) = \\dfrac{0.1}{0.5} = 0.2$",
+              "$\\angle DBF = \\sin^{-1}(0.2) = 11.537^\\circ = 11^\\circ 32'$"
+            ],
+            "finalAnswer": "$\\angle DBF = 11^\\circ 32'$",
+            "solutionFigures": [],
+            "tip": "The 0.5 m is the width of the sloping desk top, so it is the hypotenuse, not the base."
+          }
+        },
+        {
+          "id": "ch5_ex9_q11b",
+          "number": "11(b)",
+          "category": "Master",
+          "questionText": "A desk top of length 1.2 m and width 0.5 m rises to 10 cm. (Diagram: a sloping desk top ABFE. A and B are the front corners on the base, AB = 1.2 m. C and D are on the base directly behind A and B, and E and F are directly above C and D, with DF = CE = 10 cm. The sloping width AE = BF = 0.5 m.) Calculate, correct to the nearest minute, $\\angle CBE$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras $c^2 = a^2 + b^2$, then $\\sin(\\theta) = \\dfrac{O}{H}$",
+            "steps": [
+              "Given: desk top ABFE is a rectangle 1.2 m by 0.5 m; CE = 0.1 m. Goal: $\\angle CBE$.",
+              "BE is the diagonal of the rectangle ABFE: $BE^2 = 1.2^2 + 0.5^2 = 1.44 + 0.25 = 1.69$, so $BE = 1.3$ m.",
+              "Triangle BCE is right-angled at C (E is directly above C). CE = 0.1 m is opposite $\\angle CBE$.",
+              "$\\sin(\\angle CBE) = \\dfrac{0.1}{1.3} = 0.076923$",
+              "$\\angle CBE = \\sin^{-1}(0.076923) = 4.4117^\\circ = 4^\\circ 25'$"
+            ],
+            "finalAnswer": "$\\angle CBE = 4^\\circ 25'$",
+            "solutionFigures": [],
+            "tip": "Find the hypotenuse BE first using the dimensions of the desk top."
+          }
+        },
+        {
+          "id": "ch5_ex9_q12a",
+          "number": "12(a)",
+          "category": "Practice",
+          "questionText": "A cuboid has a square end. The length of the cuboid is 45 cm and its height and width are 25 cm each. (Diagram: front square face ABCD with A bottom-left, B bottom-right, C top-right, D top-left; back face EFGH with E behind A, F behind B, G behind C, H behind D; AB = 25 cm, BF = 45 cm.) Calculate the length of BD, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: square face ABCD with sides 25 cm. Goal: diagonal BD.",
+              "$BD^2 = AB^2 + AD^2 = 25^2 + 25^2 = 625 + 625 = 1250$",
+              "$BD = \\sqrt{1250} = 35.3553$ cm $\\approx 35.36$ cm"
+            ],
+            "finalAnswer": "BD = 35.36 cm",
+            "solutionFigures": [],
+            "tip": "The diagonal of a square of side $s$ is $s\\sqrt{2}$: $25\\sqrt{2} \\approx 35.36$."
+          }
+        },
+        {
+          "id": "ch5_ex9_q12b",
+          "number": "12(b)",
+          "category": "Practice",
+          "questionText": "A cuboid has a square end. The length of the cuboid is 45 cm and its height and width are 25 cm each. (Diagram: front square face ABCD with A bottom-left, B bottom-right, C top-right, D top-left; back face EFGH with E behind A, F behind B, G behind C, H behind D; AB = 25 cm, BF = 45 cm.) Calculate the length of BG, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: BG is the diagonal of the side face BFGC, which is 45 cm by 25 cm. Goal: BG.",
+              "$BG^2 = BF^2 + FG^2 = 45^2 + 25^2 = 2025 + 625 = 2650$",
+              "$BG = \\sqrt{2650} = 51.4782$ cm $\\approx 51.48$ cm"
+            ],
+            "finalAnswer": "BG = 51.48 cm",
+            "solutionFigures": [],
+            "tip": "Identify which rectangular face the diagonal lies in before applying Pythagoras."
+          }
+        },
+        {
+          "id": "ch5_ex9_q12c",
+          "number": "12(c)",
+          "category": "Practice",
+          "questionText": "A cuboid has a square end. The length of the cuboid is 45 cm and its height and width are 25 cm each. (Diagram: front square face ABCD with A bottom-left, B bottom-right, C top-right, D top-left; back face EFGH with E behind A, F behind B, G behind C, H behind D; AB = 25 cm, BF = 45 cm.) Calculate the length of BE, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: BE is the diagonal of the base ABFE, which is 25 cm by 45 cm. Goal: BE.",
+              "$BE^2 = AB^2 + AE^2 = 25^2 + 45^2 = 625 + 2025 = 2650$",
+              "$BE = \\sqrt{2650} = 51.4782$ cm $\\approx 51.48$ cm"
+            ],
+            "finalAnswer": "BE = 51.48 cm",
+            "solutionFigures": [],
+            "tip": "The base and the side face are congruent rectangles here, so BE = BG."
+          }
+        },
+        {
+          "id": "ch5_ex9_q12d",
+          "number": "12(d)",
+          "category": "Practice",
+          "questionText": "A cuboid has a square end. The length of the cuboid is 45 cm and its height and width are 25 cm each. (Diagram: front square face ABCD with A bottom-left, B bottom-right, C top-right, D top-left; back face EFGH with E behind A, F behind B, G behind C, H behind D; AB = 25 cm, BF = 45 cm.) Calculate the length of BH, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Space diagonal: $d^2 = l^2 + w^2 + h^2$ (Pythagoras twice)",
+            "steps": [
+              "Given: BH is the space diagonal; triangle BEH is right-angled at E with EH = 25 cm vertical. Goal: BH.",
+              "$BH^2 = BE^2 + EH^2 = 2650 + 25^2 = 2650 + 625 = 3275$",
+              "$BH = \\sqrt{3275} = 57.2276$ cm $\\approx 57.23$ cm"
+            ],
+            "finalAnswer": "BH = 57.23 cm",
+            "solutionFigures": [],
+            "tip": "Use the exact value $BE^2 = 2650$ rather than the rounded 51.48."
+          }
+        },
+        {
+          "id": "ch5_ex9_q12e",
+          "number": "12(e)",
+          "category": "Practice",
+          "questionText": "A cuboid has a square end. The length of the cuboid is 45 cm and its height and width are 25 cm each. (Diagram: front square face ABCD with A bottom-left, B bottom-right, C top-right, D top-left; back face EFGH with E behind A, F behind B, G behind C, H behind D; AB = 25 cm, BF = 45 cm.) Calculate $\\angle FBG$, correct to the nearest minute.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Given: triangle BFG is right-angled at F; FG = 25 cm (opposite), BF = 45 cm (adjacent). Goal: $\\angle FBG$.",
+              "$\\tan(\\angle FBG) = \\dfrac{25}{45} = 0.55556$",
+              "$\\angle FBG = \\tan^{-1}(0.55556) = 29.0546^\\circ = 29^\\circ 3'$"
+            ],
+            "finalAnswer": "$\\angle FBG = 29^\\circ 3'$",
+            "solutionFigures": [],
+            "tip": "Using the two given exact sides avoids any rounding error."
+          }
+        },
+        {
+          "id": "ch5_ex9_q12f",
+          "number": "12(f)",
+          "category": "Practice",
+          "questionText": "A cuboid has a square end. The length of the cuboid is 45 cm and its height and width are 25 cm each. (Diagram: front square face ABCD with A bottom-left, B bottom-right, C top-right, D top-left; back face EFGH with E behind A, F behind B, G behind C, H behind D; AB = 25 cm, BF = 45 cm.) Calculate $\\angle EBH$, correct to the nearest minute.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Given: triangle BEH is right-angled at E; EH = 25 cm (opposite), BE = $\\sqrt{2650} = 51.4782$ cm (adjacent). Goal: $\\angle EBH$.",
+              "$\\tan(\\angle EBH) = \\dfrac{25}{51.4782} = 0.485643$",
+              "$\\angle EBH = \\tan^{-1}(0.485643) = 25.9032^\\circ = 25^\\circ 54'$"
+            ],
+            "finalAnswer": "$\\angle EBH = 25^\\circ 54'$",
+            "solutionFigures": [],
+            "tip": "This is the angle the space diagonal makes with the base."
+          }
+        },
+        {
+          "id": "ch5_ex9_q12g",
+          "number": "12(g)",
+          "category": "Practice",
+          "questionText": "A cuboid has a square end. The length of the cuboid is 45 cm and its height and width are 25 cm each. (Diagram: front square face ABCD with A bottom-left, B bottom-right, C top-right, D top-left; back face EFGH with E behind A, F behind B, G behind C, H behind D; AB = 25 cm, BF = 45 cm.) The midpoint of FG is X and the centre of the rectangle ABFE is O. Calculate the length OF, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The diagonals of a rectangle bisect each other; Pythagoras $c^2 = a^2 + b^2$.",
+            "steps": [
+              "Given: O is the centre of rectangle ABFE (25 cm by 45 cm). Goal: OF.",
+              "O is the midpoint of diagonal AF, and $AF = BE = \\sqrt{25^2 + 45^2} = \\sqrt{2650} = 51.4782$ cm.",
+              "$OF = \\dfrac{51.4782}{2} = 25.7391$ cm $\\approx 25.74$ cm"
+            ],
+            "finalAnswer": "OF = 25.74 cm",
+            "solutionFigures": [],
+            "tip": "The centre of a rectangle is halfway along each diagonal."
+          }
+        },
+        {
+          "id": "ch5_ex9_q12h",
+          "number": "12(h)",
+          "category": "Practice",
+          "questionText": "A cuboid has a square end. The length of the cuboid is 45 cm and its height and width are 25 cm each. (Diagram: front square face ABCD with A bottom-left, B bottom-right, C top-right, D top-left; back face EFGH with E behind A, F behind B, G behind C, H behind D; AB = 25 cm, BF = 45 cm.) The midpoint of FG is X and the centre of the rectangle ABFE is O. Calculate the length FX, correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Midpoint: half of the segment length.",
+            "steps": [
+              "Given: FG = 25 cm (height), X is the midpoint of FG. Goal: FX.",
+              "$FX = \\dfrac{25}{2} = 12.5$ cm"
+            ],
+            "finalAnswer": "FX = 12.5 cm",
+            "solutionFigures": [],
+            "tip": "FG is a vertical edge equal to the height, 25 cm."
+          }
+        },
+        {
+          "id": "ch5_ex9_q12i",
+          "number": "12(i)",
+          "category": "Practice",
+          "questionText": "A cuboid has a square end. The length of the cuboid is 45 cm and its height and width are 25 cm each. (Diagram: front square face ABCD with A bottom-left, B bottom-right, C top-right, D top-left; back face EFGH with E behind A, F behind B, G behind C, H behind D; AB = 25 cm, BF = 45 cm.) The midpoint of FG is X and the centre of the rectangle ABFE is O. Calculate $\\angle FOX$, correct to the nearest minute.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Given: OF = 25.7391 cm lies in the base; FX = 12.5 cm is vertical, so triangle OFX is right-angled at F. Goal: $\\angle FOX$.",
+              "$\\tan(\\angle FOX) = \\dfrac{FX}{OF} = \\dfrac{12.5}{25.7391} = 0.485643$",
+              "$\\angle FOX = \\tan^{-1}(0.485643) = 25.9032^\\circ = 25^\\circ 54'$"
+            ],
+            "finalAnswer": "$\\angle FOX = 25^\\circ 54'$",
+            "solutionFigures": [],
+            "tip": "Triangle OFX is a half-size copy of triangle BEH, so the angle matches part (f)."
+          }
+        },
+        {
+          "id": "ch5_ex9_q12j",
+          "number": "12(j)",
+          "category": "Practice",
+          "questionText": "A cuboid has a square end. The length of the cuboid is 45 cm and its height and width are 25 cm each. (Diagram: front square face ABCD with A bottom-left, B bottom-right, C top-right, D top-left; back face EFGH with E behind A, F behind B, G behind C, H behind D; AB = 25 cm, BF = 45 cm.) The midpoint of FG is X and the centre of the rectangle ABFE is O. Calculate the length OX, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: right triangle OFX with OF = 25.7391 cm and FX = 12.5 cm. Goal: OX.",
+              "$OX^2 = OF^2 + FX^2 = 662.5 + 156.25 = 818.75$ (note $OF^2 = 2650/4 = 662.5$)",
+              "$OX = \\sqrt{818.75} = 28.6138$ cm $\\approx 28.61$ cm"
+            ],
+            "finalAnswer": "OX = 28.61 cm",
+            "solutionFigures": [],
+            "tip": "Check: OX should be half of BH, and $57.2276 \\div 2 = 28.61$ ✓."
+          }
+        },
+        {
+          "id": "ch5_ex9_q13a",
+          "number": "13(a)",
+          "category": "Practice",
+          "questionText": "In a right square-based pyramid, the length of the side of the base is 12 cm and the height is 26 cm. Determine the angle the triangular face makes with the base, correct to the nearest degree.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$, using the triangle formed by the height and the line from the centre of the base to the midpoint of a base edge.",
+            "steps": [
+              "Given: base side 12 cm, height 26 cm. Goal: angle between a triangular face and the base.",
+              "From the centre of the base to the midpoint of a side is half the side: $\\dfrac{12}{2} = 6$ cm (adjacent).",
+              "The height 26 cm is opposite the required angle.",
+              "$\\tan(\\theta) = \\dfrac{26}{6} = 4.3333$",
+              "$\\theta = \\tan^{-1}(4.3333) = 77.005^\\circ \\approx 77^\\circ$"
+            ],
+            "finalAnswer": "The triangular face makes an angle of $77^\\circ$ with the base.",
+            "solutionFigures": [],
+            "tip": "For the face angle use half the base side; for the edge angle use half the diagonal."
+          }
+        },
+        {
+          "id": "ch5_ex9_q13b",
+          "number": "13(b)",
+          "category": "Practice",
+          "questionText": "In a right square-based pyramid, the length of the side of the base is 12 cm and the height is 26 cm. Determine the angle the sloping edge makes with the base, correct to the nearest minute.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Half-diagonal $= \\dfrac{s\\sqrt{2}}{2}$; $\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Given: base side 12 cm, height 26 cm. Goal: angle between a sloping edge and the base.",
+              "Diagonal of base: $\\sqrt{12^2 + 12^2} = \\sqrt{288} = 16.9706$ cm; half-diagonal $= 8.4853$ cm (adjacent).",
+              "$\\tan(\\theta) = \\dfrac{26}{8.4853} = 3.06413$",
+              "$\\theta = \\tan^{-1}(3.06413) = 71.9256^\\circ = 71^\\circ 56'$"
+            ],
+            "finalAnswer": "The sloping edge makes an angle of $71^\\circ 56'$ with the base.",
+            "solutionFigures": [],
+            "tip": "The foot of the height is the centre of the base, halfway along the diagonal."
+          }
+        },
+        {
+          "id": "ch5_ex9_q13c",
+          "number": "13(c)",
+          "category": "Practice",
+          "questionText": "In a right square-based pyramid, the length of the side of the base is 12 cm and the height is 26 cm. Determine the length of the sloping edge, in cm correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: height 26 cm, half-diagonal $6\\sqrt{2}$ cm ($= 8.4853$ cm). Goal: sloping edge $e$.",
+              "$e^2 = 26^2 + (6\\sqrt{2})^2 = 676 + 72 = 748$",
+              "$e = \\sqrt{748} = 27.3496$ cm $\\approx 27.35$ cm"
+            ],
+            "finalAnswer": "The sloping edge is 27.35 cm long.",
+            "solutionFigures": [],
+            "tip": "Check: $\\dfrac{26}{\\sin(71.93^\\circ)} = 27.35$ ✓."
+          }
+        },
+        {
+          "id": "ch5_ex9_q14a",
+          "number": "14(a)",
+          "category": "Consolidate",
+          "questionText": "In a right square-based pyramid, the length of the side of the square base is 5.7 cm. The angle between the triangular face and the base is $68^\\circ$ (shown between the base line from the centre to the midpoint of a side, and the slant height of the face). Calculate the height of the pyramid, in cm correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Given: base side 5.7 cm, face angle $68^\\circ$. Goal: height $h$.",
+              "Centre of base to midpoint of a side $= \\dfrac{5.7}{2} = 2.85$ cm (adjacent).",
+              "$\\tan(68^\\circ) = \\dfrac{h}{2.85}$",
+              "$h = 2.85\\tan(68^\\circ) = 2.85 \\times 2.475087 = 7.0540$ cm $\\approx 7.05$ cm"
+            ],
+            "finalAnswer": "The height is 7.05 cm.",
+            "solutionFigures": [],
+            "tip": "Keep $h = 7.0540$ unrounded for parts (b) and (c)."
+          }
+        },
+        {
+          "id": "ch5_ex9_q14b",
+          "number": "14(b)",
+          "category": "Consolidate",
+          "questionText": "In a right square-based pyramid, the length of the side of the square base is 5.7 cm and the angle between the triangular face and the base is $68^\\circ$. Calculate the angle the sloping edge makes with the base, correct to the nearest minute.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Given: $h = 2.85\\tan(68^\\circ) = 7.0540$ cm; base side 5.7 cm. Goal: edge angle.",
+              "Half-diagonal $= 2.85\\sqrt{2} = 4.0305$ cm (adjacent).",
+              "$\\tan(\\theta) = \\dfrac{7.0540}{4.0305} = 1.75016$",
+              "$\\theta = \\tan^{-1}(1.75016) = 60.2572^\\circ = 60^\\circ 15'$"
+            ],
+            "finalAnswer": "The sloping edge makes an angle of $60^\\circ 15'$ with the base.",
+            "solutionFigures": [],
+            "tip": "The edge angle is always smaller than the face angle, because the half-diagonal is longer."
+          }
+        },
+        {
+          "id": "ch5_ex9_q14c",
+          "number": "14(c)",
+          "category": "Consolidate",
+          "questionText": "In a right square-based pyramid, the length of the side of the square base is 5.7 cm and the angle between the triangular face and the base is $68^\\circ$. Calculate the length of the sloping edge, in cm correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: $h = 7.0540$ cm, half-diagonal $= 4.0305$ cm. Goal: sloping edge $e$.",
+              "$e^2 = 7.0540^2 + 4.0305^2 = 49.759 + 16.245 = 66.004$",
+              "$e = \\sqrt{66.004} = 8.1243$ cm $\\approx 8.12$ cm"
+            ],
+            "finalAnswer": "The sloping edge is 8.12 cm long.",
+            "solutionFigures": [],
+            "tip": "Rounding $h$ to 7.05 first would still give 8.12, but always keep extra digits to be safe."
+          }
+        },
+        {
+          "id": "ch5_ex9_q15a",
+          "number": "15(a)",
+          "category": "Master",
+          "questionText": "In a right square-based pyramid, the height is 47 cm. If the angle between a triangular face and the base is $73^\\circ$, calculate the length of the side of the square base, in cm correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A} \\Rightarrow A = \\dfrac{O}{\\tan(\\theta)}$",
+            "steps": [
+              "Given: height 47 cm, face angle $73^\\circ$. Goal: base side $s$.",
+              "Let $m$ = distance from centre to midpoint of a side $= \\dfrac{s}{2}$ (adjacent).",
+              "$\\tan(73^\\circ) = \\dfrac{47}{m}$, so $m = \\dfrac{47}{3.270853} = 14.3693$ cm.",
+              "$s = 2m = 28.7387$ cm $\\approx 28.74$ cm"
+            ],
+            "finalAnswer": "The side of the base is 28.74 cm.",
+            "solutionFigures": [],
+            "tip": "Remember to double $m$; it is only half the side."
+          }
+        },
+        {
+          "id": "ch5_ex9_q15b",
+          "number": "15(b)",
+          "category": "Master",
+          "questionText": "In a right square-based pyramid, the height is 47 cm. If the angle between a triangular face and the base is $73^\\circ$, calculate the length of the diagonal of the base, in cm correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras: diagonal $= \\sqrt{s^2 + s^2} = s\\sqrt{2}$",
+            "steps": [
+              "Given: $s = 28.7387$ cm. Goal: diagonal of the square base.",
+              "$d^2 = 28.7387^2 + 28.7387^2 = 2 \\times 825.91 = 1651.82$",
+              "$d = \\sqrt{1651.82} = 40.6426$ cm $\\approx 40.64$ cm"
+            ],
+            "finalAnswer": "The diagonal of the base is 40.64 cm.",
+            "solutionFigures": [],
+            "tip": "Use the unrounded side length to avoid rounding errors."
+          }
+        },
+        {
+          "id": "ch5_ex9_q15c",
+          "number": "15(c)",
+          "category": "Master",
+          "questionText": "In a right square-based pyramid, the height is 47 cm. If the angle between a triangular face and the base is $73^\\circ$, calculate the angle the sloping edge makes with the base, correct to the nearest minute.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Given: height 47 cm, half-diagonal $= \\dfrac{40.6426}{2} = 20.3213$ cm. Goal: edge angle.",
+              "$\\tan(\\theta) = \\dfrac{47}{20.3213} = 2.31284$",
+              "$\\theta = \\tan^{-1}(2.31284) = 66.6179^\\circ = 66^\\circ 37'$"
+            ],
+            "finalAnswer": "The sloping edge makes an angle of $66^\\circ 37'$ with the base.",
+            "solutionFigures": [],
+            "tip": "Use half the diagonal, because the height meets the base at its centre."
+          }
+        },
+        {
+          "id": "ch5_ex9_q16",
+          "number": "16",
+          "category": "Practice",
+          "questionText": "Explain whether sine of an acute angle can be 1 or greater.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = \\dfrac{O}{H}$ in a right-angled triangle.",
+            "steps": [
+              "Given: an acute angle $\\theta$ ($0^\\circ < \\theta < 90^\\circ$) in a right-angled triangle. Goal: decide whether $\\sin(\\theta) \\ge 1$ is possible.",
+              "$\\sin(\\theta) = \\dfrac{\\text{opposite}}{\\text{hypotenuse}}$.",
+              "The hypotenuse is opposite the right angle, so it is always the longest side: opposite $<$ hypotenuse.",
+              "A positive number divided by a larger positive number is between 0 and 1.",
+              "So for an acute angle, $0 < \\sin(\\theta) < 1$. (It only reaches 1 at $\\theta = 90^\\circ$, which is not acute.)"
+            ],
+            "finalAnswer": "No. Since $\\sin(\\theta) = \\dfrac{O}{H}$ and the hypotenuse H is the longest side of the right-angled triangle, the ratio is always between 0 and 1 for an acute angle.",
+            "solutionFigures": [],
+            "tip": "If a calculation gives $\\sin(\\theta) > 1$, you have made an error: the calculator will show a domain error for $\\sin^{-1}$."
+          }
+        },
+        {
+          "id": "ch5_ex9_q17a",
+          "number": "17(a)",
+          "category": "Consolidate",
+          "questionText": "A block of cheese is in the shape of a rectangular prism, 10 cm long, 7.4 cm deep and 4.8 cm high. The cheese is to be sliced with a wide blade that can slice it in one go. Calculate the angle (to the vertical, correct to 2 decimal places) that the blade must be inclined if the block is to be sliced diagonally into two identical triangular wedges. (Diagram: the blade runs from the top front edge down to the bottom back edge across the 7.4 cm depth; $\\theta$ is marked at the top front edge, between a vertical line extended upward above the block and the blade going down into the block.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\alpha) = \\dfrac{O}{A}$; angles on a straight line add to $180^\\circ$.",
+            "steps": [
+              "Given: cross-section is a 7.4 cm (horizontal) by 4.8 cm (vertical) rectangle; the blade is its diagonal. Goal: $\\theta$ as marked.",
+              "Let $\\alpha$ be the acute angle between the blade and the downward vertical edge (4.8 cm, adjacent). The 7.4 cm depth is opposite.",
+              "$\\tan(\\alpha) = \\dfrac{7.4}{4.8} = 1.541667$",
+              "$\\alpha = \\tan^{-1}(1.541667) = 57.03^\\circ$",
+              "In the diagram $\\theta$ is measured from the upward vertical, which is a straight line with the downward vertical: $\\theta = 180^\\circ - 57.03^\\circ = 122.97^\\circ$."
+            ],
+            "finalAnswer": "$\\theta = 122.97^\\circ$ from the upward vertical (equivalently, the blade is $57.03^\\circ$ from the downward vertical).",
+            "solutionFigures": [],
+            "tip": "Check which side of the vertical the angle in the diagram is measured from."
+          }
+        },
+        {
+          "id": "ch5_ex9_q17b",
+          "number": "17(b)",
+          "category": "Consolidate",
+          "questionText": "A block of cheese is in the shape of a rectangular prism, 10 cm long, 7.4 cm deep and 4.8 cm high. The cheese is to be sliced with a wide blade that can slice it in one go. Calculate the angle (to the vertical, correct to 2 decimal places) that the blade must be inclined if the blade is to be placed in the middle of the top of the block (halfway across the 7.4 cm depth) and sliced through to the bottom corner (bottom back edge), measured as in part (a) from the upward vertical.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\alpha) = \\dfrac{O}{A}$; angles on a straight line add to $180^\\circ$.",
+            "steps": [
+              "Given: the blade starts halfway across the top, so it crosses a horizontal distance of $\\dfrac{7.4}{2} = 3.7$ cm while dropping 4.8 cm. Goal: angle to the vertical.",
+              "$\\tan(\\alpha) = \\dfrac{3.7}{4.8} = 0.770833$",
+              "$\\alpha = \\tan^{-1}(0.770833) = 37.63^\\circ$ from the downward vertical.",
+              "Measured from the upward vertical as in part (a): $180^\\circ - 37.63^\\circ = 142.37^\\circ$."
+            ],
+            "finalAnswer": "$142.37^\\circ$ from the upward vertical (the blade is $37.63^\\circ$ from the downward vertical).",
+            "solutionFigures": [],
+            "tip": "Only half the depth (3.7 cm) is crossed when starting from the middle."
+          }
+        },
+        {
+          "id": "ch5_ex9_q18a",
+          "number": "18(a)",
+          "category": "Master",
+          "questionText": "Aldo the carpenter is lost in a rainforest. He comes across a large river and he knows that he can not swim across it. Aldo intends to build a bridge across the river. He draws plans: a baseline of 4.5 cm along his bank, with a tree on the far bank; the angle at the top end of the baseline between the baseline and the line to the tree is $72^\\circ$, and at the bottom end it is $88^\\circ$. Aldo used a scale of 1 cm to represent 20 m. Determine the real-life distance represented by 4.5 cm in Aldo's plans.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Real distance = map distance $\\times$ scale factor.",
+            "steps": [
+              "Given: 1 cm represents 20 m; plan length 4.5 cm. Goal: real length.",
+              "$4.5 \\times 20 = 90$ m"
+            ],
+            "finalAnswer": "4.5 cm represents 90 m.",
+            "solutionFigures": [],
+            "tip": "Multiply, do not divide, when going from the plan to real life."
+          }
+        },
+        {
+          "id": "ch5_ex9_q18b",
+          "number": "18(b)",
+          "category": "Master",
+          "questionText": "Aldo is planning a bridge across a river (see part a). Use the diagram to write an equation for $h$ in terms of $d$ and the two angles. (Diagram: a triangle with base $d$; a perpendicular of height $h$ from the top vertex meets the base, dividing it into $d - x$ on the left and $x$ on the right; the base angles are $\\theta_1$ on the left and $\\theta_2$ on the right.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$ in each of the two right-angled triangles.",
+            "steps": [
+              "Given: base $d$ split into $d - x$ and $x$, height $h$, base angles $\\theta_1$ and $\\theta_2$. Goal: $h$ in terms of $d$, $\\theta_1$, $\\theta_2$.",
+              "Left triangle: $\\tan(\\theta_1) = \\dfrac{h}{d - x}$, so $d - x = \\dfrac{h}{\\tan(\\theta_1)}$.",
+              "Right triangle: $\\tan(\\theta_2) = \\dfrac{h}{x}$, so $x = \\dfrac{h}{\\tan(\\theta_2)}$.",
+              "Add the two parts: $d = \\dfrac{h}{\\tan(\\theta_1)} + \\dfrac{h}{\\tan(\\theta_2)} = h\\left(\\dfrac{\\tan(\\theta_1) + \\tan(\\theta_2)}{\\tan(\\theta_1)\\tan(\\theta_2)}\\right)$",
+              "Make $h$ the subject: $h = \\dfrac{d\\tan(\\theta_1)\\tan(\\theta_2)}{\\tan(\\theta_1) + \\tan(\\theta_2)}$"
+            ],
+            "finalAnswer": "$h = \\dfrac{d\\tan(\\theta_1)\\tan(\\theta_2)}{\\tan(\\theta_1) + \\tan(\\theta_2)}$",
+            "solutionFigures": [],
+            "tip": "Eliminate $x$ by expressing both base pieces in terms of $h$ and adding them to get $d$."
+          }
+        },
+        {
+          "id": "ch5_ex9_q18c",
+          "number": "18(c)",
+          "category": "Master",
+          "questionText": "Aldo is planning a bridge across a river. His baseline along the bank represents 90 m, and the angles from its two ends to the tree on the far bank are $72^\\circ$ and $88^\\circ$. Use your equation from part (b), $h = \\dfrac{d\\tan(\\theta_1)\\tan(\\theta_2)}{\\tan(\\theta_1) + \\tan(\\theta_2)}$, to find the distance across the river, correct to the nearest metre.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$h = \\dfrac{d\\tan(\\theta_1)\\tan(\\theta_2)}{\\tan(\\theta_1) + \\tan(\\theta_2)}$",
+            "steps": [
+              "Given: $d = 90$ m, $\\theta_1 = 72^\\circ$, $\\theta_2 = 88^\\circ$. Goal: $h$, the perpendicular distance from the bank to the tree.",
+              "$\\tan(72^\\circ) = 3.077684$, $\\tan(88^\\circ) = 28.636253$",
+              "Numerator: $90 \\times 3.077684 \\times 28.636253 = 90 \\times 88.13333 = 7932.00$",
+              "Denominator: $3.077684 + 28.636253 = 31.713937$",
+              "$h = \\dfrac{7932.00}{31.713937} = 250.11$ m $\\approx 250$ m"
+            ],
+            "finalAnswer": "The river is about 250 m across.",
+            "solutionFigures": [],
+            "tip": "Use the real distance 90 m for $d$, not 4.5 cm."
+          }
+        },
+        {
+          "id": "ch5_ex9_q19a",
+          "number": "19(a)",
+          "category": "Practice",
+          "questionText": "A ship travels north for 7 km, then on a true bearing of $140^\\circ$ for another 13 km. Draw a sketch of the situation.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Draw a north line at each turning point and measure the true bearing clockwise.",
+            "steps": [
+              "Given: 7 km due north, then 13 km on $140^\\circ$T. Goal: sketch.",
+              "From the start, draw a vertical line upward labelled 7 km.",
+              "At its end draw a north line; measure $140^\\circ$ clockwise (that is $40^\\circ$ from south towards east, S$40^\\circ$E).",
+              "Draw a 13 km line down and to the right; it ends below the starting level, because $13\\cos(40^\\circ) > 7$.",
+              "Label Start, Finish, 7 km, 13 km, $140^\\circ$ and the $40^\\circ$ angle with south."
+            ],
+            "finalAnswer": "Sketch: 7 km straight up from Start, then 13 km down-right at $140^\\circ$ from north ($40^\\circ$ east of south), ending south-east of Start.",
+            "solutionFigures": [],
+            "tip": "Mark the $40^\\circ$ angle with the south line; it is the one you will use in calculations."
+          }
+        },
+        {
+          "id": "ch5_ex9_q19b",
+          "number": "19(b)",
+          "category": "Practice",
+          "questionText": "A ship travels north for 7 km, then on a true bearing of $140^\\circ$ for another 13 km. Determine how far south the ship is from its starting point, in km correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(\\theta) = \\dfrac{A}{H}$",
+            "steps": [
+              "Given: 7 km north, then 13 km on S$40^\\circ$E. Goal: net distance south.",
+              "South component of second leg: $13\\cos(40^\\circ) = 13 \\times 0.766044 = 9.95858$ km.",
+              "Net south $= 9.95858 - 7 = 2.95858$ km $\\approx 2.96$ km"
+            ],
+            "finalAnswer": "The ship is 2.96 km south of its starting point.",
+            "solutionFigures": [],
+            "tip": "The first 7 km north cancels part of the southward travel."
+          }
+        },
+        {
+          "id": "ch5_ex9_q19c",
+          "number": "19(c)",
+          "category": "Practice",
+          "questionText": "A ship travels north for 7 km, then on a true bearing of $140^\\circ$ for another 13 km. Evaluate the bearing, correct to the nearest degree, the ship is now from its starting point.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Given: net south $= 2.95858$ km. East component $= 13\\sin(40^\\circ) = 13 \\times 0.642788 = 8.35624$ km. Goal: true bearing of the ship from the start.",
+              "Let $\\beta$ be the angle from south towards east: $\\tan(\\beta) = \\dfrac{8.35624}{2.95858} = 2.82441$",
+              "$\\beta = \\tan^{-1}(2.82441) = 70.503^\\circ$",
+              "True bearing $= 180^\\circ - 70.503^\\circ = 109.497^\\circ$",
+              "Rounded to the nearest degree: $109^\\circ$T.",
+              "(If the rounded value 2.96 km is used instead, $\\beta = 70.49^\\circ$ and the bearing becomes $109.51^\\circ \\approx 110^\\circ$T, the value printed in the textbook answers.)"
+            ],
+            "finalAnswer": "The ship is on a bearing of about $109^\\circ$T from its starting point (the textbook gives $110^\\circ$T, from using the rounded 2.96 km).",
+            "solutionFigures": [],
+            "tip": "The exact bearing is very close to $109.5^\\circ$, so rounding too early changes the answer; keep full accuracy."
+          }
+        },
+        {
+          "id": "ch5_ex9_q20",
+          "number": "20",
+          "category": "Consolidate",
+          "questionText": "The ninth hole on a municipal golf course is 630 m from the tee. A golfer drives a ball from the tee a distance of 315 m at a $10^\\circ$ angle off the direct line as shown. (Diagram: the direct line from the tee to the hole is 630 m; the ball's path of 315 m leaves the tee at $10^\\circ$ to the left of the direct line.) Determine how far the ball is from the hole and state the angle of the direct line that the ball must be hit along to go directly to the hole. Give your answers correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Split into right-angled triangles: $\\sin$, $\\cos$, Pythagoras and $\\tan^{-1}$.",
+            "steps": [
+              "Given: tee–hole = 630 m, tee–ball = 315 m at $10^\\circ$ to the tee–hole line. Goal: ball–hole distance and the angle off the direct line.",
+              "Drop a perpendicular from the ball to the tee–hole line at P.",
+              "Perpendicular distance: $BP = 315\\sin(10^\\circ) = 315 \\times 0.173648 = 54.699$ m.",
+              "Distance along the line: $TP = 315\\cos(10^\\circ) = 315 \\times 0.984808 = 310.214$ m.",
+              "Remaining distance along the line: $PH = 630 - 310.214 = 319.786$ m.",
+              "Ball to hole: $BH^2 = 319.786^2 + 54.699^2 = 102263.0 + 2992.0 = 105255.0$, $BH = 324.43$ m $\\approx 324.4$ m.",
+              "Angle at the ball between a line parallel to the tee–hole line and the line to the hole: $\\tan(\\phi) = \\dfrac{54.699}{319.786} = 0.171049$, $\\phi = 9.71^\\circ \\approx 9.7^\\circ$."
+            ],
+            "finalAnswer": "The ball is 324.4 m from the hole and must be hit at an angle of $9.7^\\circ$ to the direct (tee–hole) line, back towards the hole.",
+            "solutionFigures": [],
+            "tip": "The triangle has no right angle, so create one by dropping a perpendicular to the tee–hole line."
+          }
+        },
+        {
+          "id": "ch5_ex9_q21a",
+          "number": "21(a)",
+          "category": "Master",
+          "questionText": "A sphere of radius 2.5 cm rests in a hollow inverted cone as shown. The height of the cone is 12.5 cm and its vertical angle is equal to $36^\\circ$. Evaluate the distance, $d$, from the tip of the cone to the point of contact with the sphere, correct to 2 decimal places. (Diagram: inverted cone with the tip at the bottom; the sphere touches the sloping sides; $d$ is marked from the tip up to the level of the contact point, and $h$ from the open top down to the bottom of the ball.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Radius is perpendicular to a tangent; $\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Given: radius 2.5 cm, vertical angle $36^\\circ$, so the half-angle at the tip is $18^\\circ$. Goal: distance $d$ from the tip to the point of contact.",
+              "The radius to the point of contact is perpendicular to the side of the cone, so triangle (tip, contact point, centre) is right-angled at the contact point.",
+              "The radius 2.5 cm is opposite the $18^\\circ$ angle; $d$ (along the side of the cone) is adjacent.",
+              "$\\tan(18^\\circ) = \\dfrac{2.5}{d}$",
+              "$d = \\dfrac{2.5}{\\tan(18^\\circ)} = \\dfrac{2.5}{0.324920} = 7.6942$ cm $\\approx 7.69$ cm"
+            ],
+            "finalAnswer": "$d \\approx 7.69$ cm (measured along the side of the cone from the tip to the point of contact).",
+            "solutionFigures": [],
+            "tip": "The axis of the cone bisects the vertical angle, so use $18^\\circ$, not $36^\\circ$."
+          }
+        },
+        {
+          "id": "ch5_ex9_q21b",
+          "number": "21(b)",
+          "category": "Master",
+          "questionText": "A sphere of radius 2.5 cm rests in a hollow inverted cone. The height of the cone is 12.5 cm and its vertical angle is equal to $36^\\circ$. Determine the distance, $h$, from the open end of the cone to the bottom of the ball, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = \\dfrac{O}{H}$",
+            "steps": [
+              "Given: radius 2.5 cm, half-angle $18^\\circ$, cone height 12.5 cm. Goal: $h$.",
+              "In the right triangle (tip, contact point, centre), the tip-to-centre distance $c$ is the hypotenuse and the radius is opposite $18^\\circ$.",
+              "$\\sin(18^\\circ) = \\dfrac{2.5}{c}$, so $c = \\dfrac{2.5}{0.309017} = 8.0902$ cm.",
+              "The bottom of the ball is one radius below the centre: tip to bottom of ball $= 8.0902 - 2.5 = 5.5902$ cm.",
+              "$h = 12.5 - 5.5902 = 6.9098$ cm $\\approx 6.91$ cm"
+            ],
+            "finalAnswer": "$h \\approx 6.91$ cm",
+            "solutionFigures": [],
+            "tip": "The centre of the sphere lies on the cone's axis, so the tip-to-centre distance is vertical."
+          }
+        }
+      ]
+    }
+  ]
+}

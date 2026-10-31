@@ -1,0 +1,390 @@
+{
+  "chapterId": "ch05",
+  "chapterTitle": "Trigonometry I",
+  "topics": [
+    {
+      "topicId": "5.1",
+      "topicTitle": "Pre-test",
+      "exercises": [
+        {
+          "id": "ch5_ex1_q1",
+          "number": "1",
+          "category": null,
+          "questionText": "Determine the value of the pronumeral $w$, correct to 2 decimal places. The diagram shows a right-angled triangle with the right angle at the bottom right. The horizontal base is $2.41$ cm, the vertical side is $w$ cm and the hypotenuse (the sloping side) is $7.3$ cm.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $c^2 = a^2 + b^2$, where $c$ is the hypotenuse. For a shorter side: $a^2 = c^2 - b^2$.",
+            "steps": [
+              "Given: hypotenuse $c = 7.3$ cm, one shorter side $b = 2.41$ cm. Goal: the other shorter side $w$.",
+              "$w$ is a shorter side, so subtract: $w^2 = c^2 - b^2$",
+              "Substitute: $w^2 = 7.3^2 - 2.41^2$",
+              "$w^2 = 53.29 - 5.8081$",
+              "$w^2 = 47.4819$",
+              "$w = \\sqrt{47.4819} \\approx 6.8907...$",
+              "Round to 2 decimal places: $w \\approx 6.89$"
+            ],
+            "finalAnswer": "Therefore $w \\approx 6.89$ cm (2 decimal places).",
+            "solutionFigures": [],
+            "tip": "The hypotenuse is opposite the right angle and is always the longest side; when finding a shorter side, subtract the squares."
+          }
+        },
+        {
+          "id": "ch5_ex1_q2",
+          "number": "2",
+          "category": null,
+          "questionText": "Determine the value of $x$, correct to 2 decimal places. The diagram shows a right-angled triangle with the right angle at the bottom right. The horizontal base is $2x$ cm, the vertical side is $x$ cm and the hypotenuse is $5$ cm.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $c^2 = a^2 + b^2$",
+            "steps": [
+              "Given: shorter sides $x$ cm and $2x$ cm, hypotenuse $5$ cm. Goal: find $x$.",
+              "Substitute: $5^2 = x^2 + (2x)^2$",
+              "$25 = x^2 + 4x^2$",
+              "$25 = 5x^2$",
+              "Divide both sides by 5: $x^2 = 5$",
+              "$x = \\sqrt{5}$ (take the positive root because $x$ is a length)",
+              "$x \\approx 2.2360...$",
+              "Round to 2 decimal places: $x \\approx 2.24$"
+            ],
+            "finalAnswer": "Therefore $x = \\sqrt{5} \\approx 2.24$ cm (2 decimal places).",
+            "solutionFigures": [],
+            "tip": "Remember to square the whole term: $(2x)^2 = 4x^2$, not $2x^2$."
+          }
+        },
+        {
+          "id": "ch5_ex1_q3",
+          "number": "3",
+          "category": null,
+          "questionText": "A square-based pyramid is 16 cm high. Each sloping edge is 20 cm long. Calculate the length of the sides of the base, in cm correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem $c^2 = a^2 + b^2$, used twice: once in the vertical triangle (height, half-diagonal, sloping edge) and once in the base square (side, side, diagonal).",
+            "steps": [
+              "Given: height $= 16$ cm, sloping edge $= 20$ cm. Goal: side length $s$ of the square base.",
+              "The apex is directly above the centre of the base. The height, half of the base diagonal ($d$) and a sloping edge form a right-angled triangle with the sloping edge as hypotenuse.",
+              "$20^2 = 16^2 + d^2$",
+              "$d^2 = 400 - 256 = 144$",
+              "$d = \\sqrt{144} = 12$ cm, so the full diagonal of the base is $2 \\times 12 = 24$ cm.",
+              "In the square base, two sides and the diagonal form a right-angled triangle: $s^2 + s^2 = 24^2$",
+              "$2s^2 = 576$",
+              "$s^2 = 288$",
+              "$s = \\sqrt{288} \\approx 16.9705...$",
+              "Round to 2 decimal places: $s \\approx 16.97$ cm"
+            ],
+            "finalAnswer": "Therefore each side of the base is approximately 16.97 cm long.",
+            "solutionFigures": [],
+            "tip": "The height meets the base at the centre, so the vertical triangle uses half of the base diagonal, not half of a side."
+          }
+        },
+        {
+          "id": "ch5_ex1_q4",
+          "number": "4",
+          "category": null,
+          "questionText": "A cork is in the shape of a truncated cone; both the top and the base of the cork are circular. The diagram shows the top diameter is 20 cm, the vertical height is 30 cm and the sloping side is 32 cm. Calculate the sum of diameters of the top and the base. Give your answer in cm to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $a^2 = c^2 - b^2$ for a shorter side",
+            "steps": [
+              "Given: top diameter $= 20$ cm (top radius $= 10$ cm), height $= 30$ cm, sloping side $= 32$ cm. Goal: top diameter + base diameter.",
+              "Drop a vertical line from the edge of the top circle to the base. This forms a right-angled triangle with hypotenuse 32 cm (sloping side), vertical side 30 cm, and horizontal side $x$ = how much further the base radius extends beyond the top radius.",
+              "$32^2 = 30^2 + x^2$",
+              "$x^2 = 1024 - 900 = 124$",
+              "$x = \\sqrt{124} \\approx 11.1355...$ cm",
+              "Base radius $= 10 + \\sqrt{124} \\approx 21.1355...$ cm",
+              "Base diameter $= 2(10 + \\sqrt{124}) = 20 + 2\\sqrt{124} \\approx 42.2711...$ cm",
+              "Sum of diameters $= 20 + 20 + 2\\sqrt{124} = 40 + 2\\sqrt{124} \\approx 62.2711...$ cm",
+              "Round to 2 decimal places: $\\approx 62.27$ cm"
+            ],
+            "finalAnswer": "Therefore the sum of the diameters is approximately 62.27 cm. (The textbook answer of 62.28 cm comes from rounding during the working; with no early rounding the result is 62.27 cm.)",
+            "solutionFigures": [],
+            "tip": "The extra horizontal distance is added to the radius on each side, so the base diameter grows by $2x$, not $x$."
+          }
+        },
+        {
+          "id": "ch5_ex1_q5",
+          "number": "5",
+          "category": null,
+          "questionText": "Evaluate $\\sin(20^\\circ 37')$, correct to 4 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$1^\\circ = 60'$, so $D^\\circ M' = \\left(D + \\frac{M}{60}\\right)^\\circ$",
+            "steps": [
+              "Given: angle $20^\\circ 37'$. Goal: value of the sine, to 4 decimal places.",
+              "Convert to decimal degrees: $20 + \\frac{37}{60} = 20.6166...^\\circ$",
+              "With the calculator in degree mode: $\\sin(20.6166...^\\circ) \\approx 0.352113...$",
+              "Round to 4 decimal places: $0.3521$"
+            ],
+            "finalAnswer": "Therefore $\\sin(20^\\circ 37') \\approx 0.3521$.",
+            "solutionFigures": [],
+            "tip": "Check your calculator is in degree mode, and enter minutes with the DMS key (or divide by 60) rather than typing 20.37."
+          }
+        },
+        {
+          "id": "ch5_ex1_q6",
+          "number": "6",
+          "category": null,
+          "questionText": "Calculate the size of the angle $\\theta$, correct to the nearest minute, given that $\\cos(\\theta) = 0.5712$. Give your answer in degrees and minutes.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "If $\\cos(\\theta) = k$ then $\\theta = \\cos^{-1}(k)$",
+            "steps": [
+              "Given: $\\cos(\\theta) = 0.5712$. Goal: $\\theta$ to the nearest minute.",
+              "$\\theta = \\cos^{-1}(0.5712)$",
+              "Calculator (degree mode): $\\theta \\approx 55.1660...^\\circ$",
+              "Convert the decimal part to minutes: $0.1660... \\times 60 \\approx 9.96'$",
+              "So $\\theta \\approx 55^\\circ 9.96'$, which rounds to $55^\\circ 10'$"
+            ],
+            "finalAnswer": "Therefore $\\theta \\approx 55^\\circ 10'$.",
+            "solutionFigures": [],
+            "tip": "Use the inverse function ($\\cos^{-1}$) to find an angle; $\\cos(0.5712)$ would be the wrong operation."
+          }
+        },
+        {
+          "id": "ch5_ex1_q7",
+          "number": "7",
+          "category": null,
+          "questionText": "Determine the size of the angle $\\theta$, correct to the nearest second. The diagram shows a right-angled triangle with the right angle at the bottom left. The vertical side is $2.4$ and the horizontal base is $3.2$. The angle $\\theta$ is at the bottom right vertex, between the base and the hypotenuse.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{\\text{opposite}}{\\text{adjacent}}$ (TOA)",
+            "steps": [
+              "Given: relative to $\\theta$, opposite $= 2.4$, adjacent $= 3.2$. Goal: $\\theta$ to the nearest second.",
+              "Opposite and adjacent are known, so use tangent.",
+              "Substitute: $\\tan(\\theta) = \\dfrac{2.4}{3.2} = 0.75$",
+              "$\\theta = \\tan^{-1}(0.75) \\approx 36.8698...^\\circ$",
+              "Minutes: $0.8698... \\times 60 = 52.194...'$, so $52'$",
+              "Seconds: $0.194... \\times 60 \\approx 11.6''$, which rounds to $12''$",
+              "$\\theta \\approx 36^\\circ 52' 12''$"
+            ],
+            "finalAnswer": "Therefore $\\theta \\approx 36^\\circ 52' 12''$.",
+            "solutionFigures": [],
+            "tip": "Label O, A and H from the position of the angle before choosing sin, cos or tan."
+          }
+        },
+        {
+          "id": "ch5_ex1_q8",
+          "number": "8",
+          "category": null,
+          "questionText": "Calculate $y$, correct to 1 decimal place. The diagram shows an isosceles triangle: the two sloping sides are marked equal, the right sloping side is labelled $y$ m, the base is $11.8$ m and the base angle at the bottom left is $28^\\circ 42'$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(\\theta) = \\dfrac{\\text{adjacent}}{\\text{hypotenuse}}$ (CAH)",
+            "steps": [
+              "Given: isosceles triangle, base $11.8$ m, base angle $28^\\circ 42'$, equal sides of length $y$ m. Goal: $y$.",
+              "Draw the altitude from the top vertex to the base. In an isosceles triangle it bisects the base, giving two right-angled triangles each with base $11.8 \\div 2 = 5.9$ m.",
+              "Base angles are equal, so in the right triangle the angle $28^\\circ 42'$ has adjacent $= 5.9$ m and hypotenuse $= y$.",
+              "Substitute: $\\cos(28^\\circ 42') = \\dfrac{5.9}{y}$",
+              "Rearrange: $y = \\dfrac{5.9}{\\cos(28^\\circ 42')}$",
+              "$\\cos(28^\\circ 42') \\approx 0.87715$",
+              "$y \\approx \\dfrac{5.9}{0.87715} \\approx 6.726...$",
+              "Round to 1 decimal place: $y \\approx 6.7$"
+            ],
+            "finalAnswer": "Therefore $y \\approx 6.7$ m.",
+            "solutionFigures": [],
+            "tip": "When the unknown is in the denominator, multiply both sides by it first, then divide by the trig value."
+          }
+        },
+        {
+          "id": "ch5_ex1_q9",
+          "number": "9",
+          "category": null,
+          "questionText": "MC Tyler is standing 12 m from a flagpole and measures the angle of elevation from his eye level to the top of the pole as $62^\\circ$. The distance from Tyler's eyes to the ground is 185 cm. The height of the flagpole correct to 2 decimal places is:\nA. 20.71 metres\nB. 22.56 metres\nC. 24.42 metres\nD. 207.56 metres",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{\\text{opposite}}{\\text{adjacent}}$",
+            "steps": [
+              "Given: horizontal distance (adjacent) $= 12$ m, angle of elevation $= 62^\\circ$, eye height $= 185$ cm $= 1.85$ m. Goal: total height of the pole.",
+              "Let $h$ = height of the pole above Tyler's eye level (opposite side).",
+              "Substitute: $\\tan(62^\\circ) = \\dfrac{h}{12}$",
+              "$h = 12\\tan(62^\\circ) \\approx 12 \\times 1.88073 \\approx 22.5687$ m",
+              "Add the eye height: total height $= 22.5687 + 1.85 \\approx 24.4187$ m",
+              "Round to 2 decimal places: $24.42$ m"
+            ],
+            "finalAnswer": "Therefore the flagpole is about 24.42 m high. The answer is C.",
+            "solutionFigures": [],
+            "tip": "Convert 185 cm to 1.85 m and remember to add the eye height; option B forgets it."
+          }
+        },
+        {
+          "id": "ch5_ex1_q10a",
+          "number": "10(a)",
+          "category": null,
+          "questionText": "Change the following compass bearing to a true bearing: N$20^\\circ$E",
+          "questionFigures": [],
+          "solution": {
+            "formula": "True bearings are measured clockwise from north, written with three digits followed by T.",
+            "steps": [
+              "Given: N$20^\\circ$E means start facing north and turn $20^\\circ$ towards east. Goal: true bearing.",
+              "Turning from north towards east is clockwise, so the bearing is $20^\\circ$ clockwise from north.",
+              "Write with three digits: $020^\\circ$T"
+            ],
+            "finalAnswer": "Therefore N$20^\\circ$E $= 020^\\circ$T.",
+            "solutionFigures": [],
+            "tip": "Always write true bearings with three digits, e.g. 020°T, not 20°T."
+          }
+        },
+        {
+          "id": "ch5_ex1_q10b",
+          "number": "10(b)",
+          "category": null,
+          "questionText": "Change the following compass bearing to a true bearing: S$47^\\circ$W",
+          "questionFigures": [],
+          "solution": {
+            "formula": "True bearings are measured clockwise from north. South is $180^\\circ$T.",
+            "steps": [
+              "Given: S$47^\\circ$W means start facing south and turn $47^\\circ$ towards west. Goal: true bearing.",
+              "South is $180^\\circ$ clockwise from north. Turning from south towards west continues clockwise.",
+              "True bearing $= 180^\\circ + 47^\\circ = 227^\\circ$"
+            ],
+            "finalAnswer": "Therefore S$47^\\circ$W $= 227^\\circ$T.",
+            "solutionFigures": [],
+            "tip": "Sketch the compass: from south, turning towards west adds to 180°, turning towards east subtracts."
+          }
+        },
+        {
+          "id": "ch5_ex1_q10c",
+          "number": "10(c)",
+          "category": null,
+          "questionText": "Change the following compass bearing to a true bearing: N$33^\\circ$W",
+          "questionFigures": [],
+          "solution": {
+            "formula": "True bearings are measured clockwise from north (a full turn is $360^\\circ$).",
+            "steps": [
+              "Given: N$33^\\circ$W means start facing north and turn $33^\\circ$ towards west (anticlockwise). Goal: true bearing.",
+              "An anticlockwise turn of $33^\\circ$ from north equals a clockwise turn of $360^\\circ - 33^\\circ$.",
+              "True bearing $= 360^\\circ - 33^\\circ = 327^\\circ$"
+            ],
+            "finalAnswer": "Therefore N$33^\\circ$W $= 327^\\circ$T.",
+            "solutionFigures": [],
+            "tip": "A bearing west of north always lies between 270°T and 360°T."
+          }
+        },
+        {
+          "id": "ch5_ex1_q10d",
+          "number": "10(d)",
+          "category": null,
+          "questionText": "Change the following compass bearing to a true bearing: S$17^\\circ$E",
+          "questionFigures": [],
+          "solution": {
+            "formula": "True bearings are measured clockwise from north. South is $180^\\circ$T.",
+            "steps": [
+              "Given: S$17^\\circ$E means start facing south and turn $17^\\circ$ towards east. Goal: true bearing.",
+              "Turning from south towards east is anticlockwise, so subtract from $180^\\circ$.",
+              "True bearing $= 180^\\circ - 17^\\circ = 163^\\circ$"
+            ],
+            "finalAnswer": "Therefore S$17^\\circ$E $= 163^\\circ$T.",
+            "solutionFigures": [],
+            "tip": "A bearing east of south always lies between 090°T and 180°T."
+          }
+        },
+        {
+          "id": "ch5_ex1_q11",
+          "number": "11",
+          "category": null,
+          "questionText": "MC In a right square-based pyramid, the square base has a length of 7.2 cm. If the angle between the triangular face and the base is $55^\\circ$, the angle the sloping edge makes with the base is:\nA. $45.3^\\circ$\nB. $55^\\circ$\nC. $63.4^\\circ$\nD. $47.7^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{\\text{opposite}}{\\text{adjacent}}$, and the diagonal of a square of side $s$ is $s\\sqrt{2}$.",
+            "steps": [
+              "Given: base side $= 7.2$ cm, angle between a face and the base $= 55^\\circ$. Goal: angle between a sloping edge and the base.",
+              "Let the apex be V, the centre of the base O, and M the midpoint of one base edge. Then $OM = 7.2 \\div 2 = 3.6$ cm and the face angle is $\\angle VMO = 55^\\circ$.",
+              "Height: $\\tan(55^\\circ) = \\dfrac{VO}{3.6}$, so $VO = 3.6\\tan(55^\\circ) \\approx 5.1413$ cm",
+              "Distance from O to a corner C is half the diagonal: $OC = \\dfrac{7.2\\sqrt{2}}{2} = 3.6\\sqrt{2} \\approx 5.0912$ cm",
+              "The edge angle is $\\angle VCO$: $\\tan(\\angle VCO) = \\dfrac{VO}{OC} \\approx \\dfrac{5.1413}{5.0912} \\approx 1.00985$",
+              "$\\angle VCO = \\tan^{-1}(1.00985...) \\approx 45.28^\\circ \\approx 45.3^\\circ$"
+            ],
+            "finalAnswer": "Therefore the sloping edge makes an angle of about $45.3^\\circ$ with the base. The answer is A.",
+            "solutionFigures": [],
+            "tip": "The face angle uses the distance from the centre to the middle of an edge; the edge angle uses the (longer) distance from the centre to a corner."
+          }
+        },
+        {
+          "id": "ch5_ex1_q12",
+          "number": "12",
+          "category": null,
+          "questionText": "MC A boat travels 15 km from A to B on a bearing of $032^\\circ$T. The bearing from B to A is:\nA. $032^\\circ$T\nB. $058^\\circ$T\nC. $122^\\circ$T\nD. $212^\\circ$T",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Back bearing $=$ bearing $\\pm 180^\\circ$ (add if the bearing is less than $180^\\circ$).",
+            "steps": [
+              "Given: bearing of B from A is $032^\\circ$T. Goal: bearing of A from B.",
+              "The return direction is exactly opposite, so add $180^\\circ$.",
+              "$032^\\circ + 180^\\circ = 212^\\circ$"
+            ],
+            "finalAnswer": "Therefore the bearing from B to A is $212^\\circ$T. The answer is D.",
+            "solutionFigures": [],
+            "tip": "The distance (15 km) is not needed; a back bearing always differs by exactly 180°."
+          }
+        },
+        {
+          "id": "ch5_ex1_q13",
+          "number": "13",
+          "category": null,
+          "questionText": "A bushwalker travels N$50^\\circ$W for 300 m and then changes direction $220^\\circ$T for 0.5 km. Determine how many metres west the bushwalker is from his starting point. Give your answer in km correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "West component of a leg $= \\text{distance} \\times \\sin(\\text{angle from the north–south line})$",
+            "steps": [
+              "Given: leg 1 = 300 m on N$50^\\circ$W; leg 2 = 0.5 km = 500 m on $220^\\circ$T. Goal: total distance west of the start.",
+              "Leg 1: the angle from north is $50^\\circ$ towards west. West component $= 300\\sin(50^\\circ) \\approx 300 \\times 0.76604 \\approx 229.81$ m",
+              "Leg 2: $220^\\circ$T $= 220^\\circ - 180^\\circ = 40^\\circ$ west of south, i.e. S$40^\\circ$W. West component $= 500\\sin(40^\\circ) \\approx 500 \\times 0.64279 \\approx 321.39$ m",
+              "Both legs move west, so add: $229.81 + 321.39 \\approx 551.21$ m",
+              "Round to 1 decimal place: $551.2$ m (about $0.6$ km)"
+            ],
+            "finalAnswer": "Therefore the bushwalker is about 551.2 m (approximately 0.6 km) west of his starting point.",
+            "solutionFigures": [],
+            "tip": "Convert 0.5 km to 500 m before combining with the 300 m leg so the units match."
+          }
+        },
+        {
+          "id": "ch5_ex1_q14",
+          "number": "14",
+          "category": null,
+          "questionText": "MC P and Q are two points on a horizontal line that are 120 metres apart. If the angles of elevation from P and Q to the top of the mountain are $34^\\circ 5'$ and $41^\\circ 16'$ respectively, the height of the mountain correct to 1 decimal place is:\nA. 81.2 metres\nB. 105.3 metres\nC. 120.5 metres\nD. 354.7 metres",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{\\text{opposite}}{\\text{adjacent}}$, applied in two right-angled triangles sharing the height $h$.",
+            "steps": [
+              "Given: PQ = 120 m, elevation from P = $34^\\circ 5'$ (P is further away), elevation from Q = $41^\\circ 16'$. Goal: height $h$.",
+              "Let $d$ = distance from Q to the foot of the mountain. Then P is $d + 120$ m from the foot.",
+              "From Q: $h = d\\tan(41^\\circ 16')$",
+              "From P: $h = (d + 120)\\tan(34^\\circ 5')$",
+              "Equate: $d\\tan(41^\\circ 16') = (d + 120)\\tan(34^\\circ 5')$",
+              "$\\tan(41^\\circ 16') \\approx 0.877491$, $\\tan(34^\\circ 5') \\approx 0.676627$",
+              "$0.877491d = 0.676627d + 81.1952$",
+              "$0.200864d = 81.1952$, so $d \\approx 404.23$ m",
+              "$h \\approx 404.23 \\times 0.877491 \\approx 354.71$ m",
+              "Round to 1 decimal place: $h \\approx 354.7$ m"
+            ],
+            "finalAnswer": "Therefore the mountain is about 354.7 m high. The answer is D.",
+            "solutionFigures": [],
+            "tip": "Keep full calculator values for the tangents until the end; early rounding can shift the answer."
+          }
+        },
+        {
+          "id": "ch5_ex1_q15",
+          "number": "15",
+          "category": null,
+          "questionText": "Determine the value of $x$ in the following figure, correct to 1 decimal place. The figure is a large right-angled triangle with the right angle at the bottom left and a vertical side on the left. A line from the top vertex meets the base at a point 8 units from the right angle, making an angle of $45^\\circ$ with the base. The remaining part of the base, from that point to the bottom right vertex, is $x$. The angle at the bottom right vertex is $25^\\circ 13'$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{\\text{opposite}}{\\text{adjacent}}$",
+            "steps": [
+              "Given: inner triangle with base 8 and angle $45^\\circ$; whole triangle with base $8 + x$ and angle $25^\\circ 13'$. Both share the vertical height $h$. Goal: $x$.",
+              "Inner triangle: $\\tan(45^\\circ) = \\dfrac{h}{8}$, so $h = 8 \\times 1 = 8$",
+              "Whole triangle: $\\tan(25^\\circ 13') = \\dfrac{8}{8 + x}$",
+              "Rearrange: $8 + x = \\dfrac{8}{\\tan(25^\\circ 13')}$",
+              "$\\tan(25^\\circ 13') \\approx 0.470920$",
+              "$8 + x \\approx \\dfrac{8}{0.470920} \\approx 16.988$",
+              "$x \\approx 16.988 - 8 = 8.988$",
+              "Round to 1 decimal place: $x \\approx 9.0$"
+            ],
+            "finalAnswer": "Therefore $x \\approx 9.0$.",
+            "solutionFigures": [],
+            "tip": "The adjacent side for the $25^\\circ 13'$ angle is the whole base $8 + x$, not just $x$."
+          }
+        }
+      ]
+    }
+  ]
+}

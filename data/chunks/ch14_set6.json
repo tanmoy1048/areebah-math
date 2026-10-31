@@ -1,0 +1,715 @@
+{
+  "chapterId": "ch14",
+  "chapterTitle": "Circular functions (Methods 12)",
+  "topics": [
+    {
+      "topicId": "14F",
+      "topicTitle": "Graphs of sine and cosine",
+      "exercises": [
+        {
+          "id": "ch14_ex6_q1a",
+          "number": "1(a)",
+          "category": null,
+          "questionText": "Write down (i) the period and (ii) the amplitude of $2\\sin\\theta$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a\\sin(n\\theta)$ or $y = a\\cos(n\\theta)$: period $= \\dfrac{2\\pi}{|n|}$, amplitude $= |a|$",
+            "steps": [
+              "Given: $y = 2\\sin\\theta$, so $a = 2$ and $n = 1$. Goal: period and amplitude.",
+              "(i) Period $= \\dfrac{2\\pi}{1} = 2\\pi$.",
+              "(ii) Amplitude $= |2| = 2$.",
+              "Check: the range is $[-2, 2]$, so the distance from the mean (0) to the maximum is 2. ✓"
+            ],
+            "finalAnswer": "(i) Period $2\\pi$; (ii) amplitude $2$",
+            "solutionFigures": [],
+            "tip": "Multiplying by $a$ stretches vertically only; it does not change the period."
+          }
+        },
+        {
+          "id": "ch14_ex6_q1b",
+          "number": "1(b)",
+          "category": null,
+          "questionText": "Write down (i) the period and (ii) the amplitude of $3\\sin(2\\theta)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Period $= \\dfrac{2\\pi}{n}$, amplitude $= |a|$",
+            "steps": [
+              "Given: $a = 3$, $n = 2$.",
+              "(i) Period $= \\dfrac{2\\pi}{2} = \\pi$.",
+              "(ii) Amplitude $= 3$."
+            ],
+            "finalAnswer": "(i) Period $\\pi$; (ii) amplitude $3$",
+            "solutionFigures": [],
+            "tip": "A larger $n$ means more cycles in the same interval, so a shorter period."
+          }
+        },
+        {
+          "id": "ch14_ex6_q1c",
+          "number": "1(c)",
+          "category": null,
+          "questionText": "Write down (i) the period and (ii) the amplitude of $\\dfrac{1}{2}\\cos(3\\theta)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Period $= \\dfrac{2\\pi}{n}$, amplitude $= |a|$",
+            "steps": [
+              "Given: $a = \\dfrac{1}{2}$, $n = 3$.",
+              "(i) Period $= \\dfrac{2\\pi}{3}$.",
+              "(ii) Amplitude $= \\dfrac{1}{2}$."
+            ],
+            "finalAnswer": "(i) Period $\\dfrac{2\\pi}{3}$; (ii) amplitude $\\dfrac{1}{2}$",
+            "solutionFigures": [],
+            "tip": "The rules are the same for cosine as for sine."
+          }
+        },
+        {
+          "id": "ch14_ex6_q1d",
+          "number": "1(d)",
+          "category": null,
+          "questionText": "Write down (i) the period and (ii) the amplitude of $3\\sin\\left(\\dfrac{1}{2}\\theta\\right)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Period $= \\dfrac{2\\pi}{n}$, amplitude $= |a|$",
+            "steps": [
+              "Given: $a = 3$, $n = \\dfrac{1}{2}$.",
+              "(i) Period $= 2\\pi \\div \\dfrac{1}{2} = 2\\pi \\times 2 = 4\\pi$.",
+              "(ii) Amplitude $= 3$."
+            ],
+            "finalAnswer": "(i) Period $4\\pi$; (ii) amplitude $3$",
+            "solutionFigures": [],
+            "tip": "Dividing by a fraction less than 1 makes the period longer."
+          }
+        },
+        {
+          "id": "ch14_ex6_q1e",
+          "number": "1(e)",
+          "category": null,
+          "questionText": "Write down (i) the period and (ii) the amplitude of $4\\cos(3\\theta)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Period $= \\dfrac{2\\pi}{n}$, amplitude $= |a|$",
+            "steps": [
+              "Given: $a = 4$, $n = 3$.",
+              "(i) Period $= \\dfrac{2\\pi}{3}$.",
+              "(ii) Amplitude $= 4$."
+            ],
+            "finalAnswer": "(i) Period $\\dfrac{2\\pi}{3}$; (ii) amplitude $4$",
+            "solutionFigures": [],
+            "tip": "Read $a$ from the front and $n$ from inside the bracket."
+          }
+        },
+        {
+          "id": "ch14_ex6_q1f",
+          "number": "1(f)",
+          "category": null,
+          "questionText": "Write down (i) the period and (ii) the amplitude of $-\\dfrac{1}{2}\\sin(4\\theta)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Period $= \\dfrac{2\\pi}{n}$, amplitude $= |a|$ (a negative $a$ is a reflection in the horizontal axis)",
+            "steps": [
+              "Given: $a = -\\dfrac{1}{2}$, $n = 4$.",
+              "(i) Period $= \\dfrac{2\\pi}{4} = \\dfrac{\\pi}{2}$.",
+              "(ii) Amplitude $= \\left|-\\dfrac{1}{2}\\right| = \\dfrac{1}{2}$.",
+              "The minus sign reflects the graph in the $\\theta$-axis but does not change the amplitude."
+            ],
+            "finalAnswer": "(i) Period $\\dfrac{\\pi}{2}$; (ii) amplitude $\\dfrac{1}{2}$",
+            "solutionFigures": [],
+            "tip": "Amplitude is a distance, so it is never negative."
+          }
+        },
+        {
+          "id": "ch14_ex6_q1g",
+          "number": "1(g)",
+          "category": null,
+          "questionText": "Write down (i) the period and (ii) the amplitude of $-2\\cos\\left(\\dfrac{1}{2}\\theta\\right)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Period $= \\dfrac{2\\pi}{n}$, amplitude $= |a|$",
+            "steps": [
+              "Given: $a = -2$, $n = \\dfrac{1}{2}$.",
+              "(i) Period $= 2\\pi \\div \\dfrac{1}{2} = 4\\pi$.",
+              "(ii) Amplitude $= |-2| = 2$."
+            ],
+            "finalAnswer": "(i) Period $4\\pi$; (ii) amplitude $2$",
+            "solutionFigures": [],
+            "tip": "Ignore the sign of $a$ when stating the amplitude."
+          }
+        },
+        {
+          "id": "ch14_ex6_q1h",
+          "number": "1(h)",
+          "category": null,
+          "questionText": "Write down (i) the period and (ii) the amplitude of $2\\cos(\\pi t)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Period $= \\dfrac{2\\pi}{n}$, amplitude $= |a|$",
+            "steps": [
+              "Given: $a = 2$, $n = \\pi$.",
+              "(i) Period $= \\dfrac{2\\pi}{\\pi} = 2$.",
+              "(ii) Amplitude $= 2$.",
+              "Check: $\\cos(\\pi(t + 2)) = \\cos(\\pi t + 2\\pi) = \\cos(\\pi t)$. ✓"
+            ],
+            "finalAnswer": "(i) Period $2$; (ii) amplitude $2$",
+            "solutionFigures": [],
+            "tip": "When $n$ contains $\\pi$, the period is a plain number with no $\\pi$."
+          }
+        },
+        {
+          "id": "ch14_ex6_q1i",
+          "number": "1(i)",
+          "category": null,
+          "questionText": "Write down (i) the period and (ii) the amplitude of $-3\\sin\\left(\\dfrac{\\pi t}{2}\\right)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Period $= \\dfrac{2\\pi}{n}$, amplitude $= |a|$",
+            "steps": [
+              "Given: $a = -3$, $n = \\dfrac{\\pi}{2}$.",
+              "(i) Period $= 2\\pi \\div \\dfrac{\\pi}{2} = 2\\pi \\times \\dfrac{2}{\\pi} = 4$.",
+              "(ii) Amplitude $= |-3| = 3$."
+            ],
+            "finalAnswer": "(i) Period $4$; (ii) amplitude $3$",
+            "solutionFigures": [],
+            "tip": "Invert and multiply when dividing by $\\frac{\\pi}{2}$."
+          }
+        },
+        {
+          "id": "ch14_ex6_q2a",
+          "number": "2(a)",
+          "category": null,
+          "questionText": "Give a sequence of transformations which takes the graph of $y = \\sin x$ to the graph of $y = g(x)$, and state the amplitude and period of $g(x)$, where $g(x) = 3\\sin x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a\\sin(nx)$ is the image of $y = \\sin x$ under a dilation of factor $a$ from the $x$-axis and a dilation of factor $\\dfrac{1}{n}$ from the $y$-axis",
+            "steps": [
+              "Given: $g(x) = 3\\sin x$, so $a = 3$, $n = 1$.",
+              "Transformation: a dilation of factor 3 from the $x$-axis (each point $(x, y) \\to (x, 3y)$).",
+              "Amplitude $= 3$; period $= 2\\pi$ (unchanged, since there is no horizontal dilation)."
+            ],
+            "finalAnswer": "Dilation of factor 3 from the $x$-axis; amplitude 3, period $2\\pi$",
+            "solutionFigures": [],
+            "tip": "A dilation 'from the $x$-axis' stretches vertically."
+          }
+        },
+        {
+          "id": "ch14_ex6_q2b",
+          "number": "2(b)",
+          "category": null,
+          "questionText": "Give a sequence of transformations which takes the graph of $y = \\sin x$ to the graph of $y = g(x)$, and state the amplitude and period of $g(x)$, where $g(x) = \\sin(5x)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Replacing $x$ by $nx$ is a dilation of factor $\\dfrac{1}{n}$ from the $y$-axis; period $= \\dfrac{2\\pi}{n}$",
+            "steps": [
+              "Given: $g(x) = \\sin(5x)$, so $a = 1$, $n = 5$.",
+              "Transformation: a dilation of factor $\\dfrac{1}{5}$ from the $y$-axis (each point $(x, y) \\to \\left(\\dfrac{x}{5}, y\\right)$).",
+              "Amplitude $= 1$; period $= \\dfrac{2\\pi}{5}$."
+            ],
+            "finalAnswer": "Dilation of factor $\\dfrac{1}{5}$ from the $y$-axis; amplitude 1, period $\\dfrac{2\\pi}{5}$",
+            "solutionFigures": [],
+            "tip": "The factor is $\\frac{1}{5}$, not 5: multiplying $x$ by 5 squeezes the graph."
+          }
+        },
+        {
+          "id": "ch14_ex6_q2c",
+          "number": "2(c)",
+          "category": null,
+          "questionText": "Give a sequence of transformations which takes the graph of $y = \\sin x$ to the graph of $y = g(x)$, and state the amplitude and period of $g(x)$, where $g(x) = \\sin\\left(\\dfrac{x}{3}\\right)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Replacing $x$ by $nx$ is a dilation of factor $\\dfrac{1}{n}$ from the $y$-axis",
+            "steps": [
+              "Given: $g(x) = \\sin\\left(\\dfrac{x}{3}\\right)$, so $n = \\dfrac{1}{3}$.",
+              "Transformation: a dilation of factor 3 from the $y$-axis ($(x, y) \\to (3x, y)$).",
+              "Amplitude $= 1$; period $= 2\\pi \\div \\dfrac{1}{3} = 6\\pi$."
+            ],
+            "finalAnswer": "Dilation of factor 3 from the $y$-axis; amplitude 1, period $6\\pi$",
+            "solutionFigures": [],
+            "tip": "Check: the period $6\\pi$ is 3 times the original $2\\pi$, matching the factor 3."
+          }
+        },
+        {
+          "id": "ch14_ex6_q2d",
+          "number": "2(d)",
+          "category": null,
+          "questionText": "Give a sequence of transformations which takes the graph of $y = \\sin x$ to the graph of $y = g(x)$, and state the amplitude and period of $g(x)$, where $g(x) = 2\\sin(5x)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a\\sin(nx)$: dilation of factor $a$ from the $x$-axis and factor $\\dfrac{1}{n}$ from the $y$-axis",
+            "steps": [
+              "Given: $a = 2$, $n = 5$.",
+              "Transformations: a dilation of factor 2 from the $x$-axis and a dilation of factor $\\dfrac{1}{5}$ from the $y$-axis ($(x, y) \\to \\left(\\dfrac{x}{5}, 2y\\right)$).",
+              "Amplitude $= 2$; period $= \\dfrac{2\\pi}{5}$."
+            ],
+            "finalAnswer": "Dilation of factor 2 from the $x$-axis, then dilation of factor $\\dfrac{1}{5}$ from the $y$-axis; amplitude 2, period $\\dfrac{2\\pi}{5}$",
+            "solutionFigures": [],
+            "tip": "These two dilations can be applied in either order."
+          }
+        },
+        {
+          "id": "ch14_ex6_q3a",
+          "number": "3(a)",
+          "category": null,
+          "questionText": "Give a sequence of transformations which takes the graph of $y = \\sin x$ to the graph of $y = g(x)$, and state the amplitude and period of $g(x)$, where $g(x) = -\\sin(5x)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = -f(x)$ is a reflection of $y = f(x)$ in the $x$-axis; $f(nx)$ is a dilation of factor $\\dfrac{1}{n}$ from the $y$-axis",
+            "steps": [
+              "Given: $g(x) = -\\sin(5x)$.",
+              "Dilation of factor $\\dfrac{1}{5}$ from the $y$-axis: $y = \\sin x \\to y = \\sin(5x)$.",
+              "Reflection in the $x$-axis: $y = \\sin(5x) \\to y = -\\sin(5x)$.",
+              "Amplitude $= |-1| = 1$; period $= \\dfrac{2\\pi}{5}$."
+            ],
+            "finalAnswer": "Dilation of factor $\\dfrac{1}{5}$ from the $y$-axis and reflection in the $x$-axis; amplitude 1, period $\\dfrac{2\\pi}{5}$",
+            "solutionFigures": [],
+            "tip": "A minus sign outside the function reflects in the $x$-axis."
+          }
+        },
+        {
+          "id": "ch14_ex6_q3b",
+          "number": "3(b)",
+          "category": null,
+          "questionText": "Give a sequence of transformations which takes the graph of $y = \\sin x$ to the graph of $y = g(x)$, and state the amplitude and period of $g(x)$, where $g(x) = \\sin(-x)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = f(-x)$ is a reflection of $y = f(x)$ in the $y$-axis",
+            "steps": [
+              "Given: $g(x) = \\sin(-x)$.",
+              "Replacing $x$ by $-x$ is a reflection in the $y$-axis ($(x, y) \\to (-x, y)$).",
+              "Amplitude $= 1$; period $= 2\\pi$.",
+              "Note: since $\\sin(-x) = -\\sin x$, the same graph is also obtained by a reflection in the $x$-axis."
+            ],
+            "finalAnswer": "Reflection in the $y$-axis; amplitude 1, period $2\\pi$",
+            "solutionFigures": [],
+            "tip": "A minus sign inside the bracket reflects in the $y$-axis."
+          }
+        },
+        {
+          "id": "ch14_ex6_q3c",
+          "number": "3(c)",
+          "category": null,
+          "questionText": "Give a sequence of transformations which takes the graph of $y = \\sin x$ to the graph of $y = g(x)$, and state the amplitude and period of $g(x)$, where $g(x) = 2\\sin\\left(\\dfrac{x}{3}\\right)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a\\sin(nx)$: dilation of factor $a$ from the $x$-axis and factor $\\dfrac{1}{n}$ from the $y$-axis",
+            "steps": [
+              "Given: $a = 2$, $n = \\dfrac{1}{3}$.",
+              "Dilation of factor 2 from the $x$-axis and dilation of factor 3 from the $y$-axis ($(x, y) \\to (3x, 2y)$).",
+              "Amplitude $= 2$; period $= 2\\pi \\div \\dfrac{1}{3} = 6\\pi$."
+            ],
+            "finalAnswer": "Dilation of factor 2 from the $x$-axis and dilation of factor 3 from the $y$-axis; amplitude 2, period $6\\pi$",
+            "solutionFigures": [],
+            "tip": "The horizontal factor is the reciprocal of the coefficient of $x$."
+          }
+        },
+        {
+          "id": "ch14_ex6_q3d",
+          "number": "3(d)",
+          "category": null,
+          "questionText": "Give a sequence of transformations which takes the graph of $y = \\sin x$ to the graph of $y = g(x)$, and state the amplitude and period of $g(x)$, where $g(x) = -4\\sin\\left(\\dfrac{x}{2}\\right)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Dilations from the axes, then reflection in the $x$-axis for a negative coefficient",
+            "steps": [
+              "Given: $g(x) = -4\\sin\\left(\\dfrac{x}{2}\\right)$, so $a = -4$, $n = \\dfrac{1}{2}$.",
+              "Dilation of factor 4 from the $x$-axis: $y = 4\\sin x$.",
+              "Dilation of factor 2 from the $y$-axis: $y = 4\\sin\\left(\\dfrac{x}{2}\\right)$.",
+              "Reflection in the $x$-axis: $y = -4\\sin\\left(\\dfrac{x}{2}\\right)$.",
+              "Amplitude $= 4$; period $= 2\\pi \\div \\dfrac{1}{2} = 4\\pi$."
+            ],
+            "finalAnswer": "Dilation of factor 4 from the $x$-axis, dilation of factor 2 from the $y$-axis, reflection in the $x$-axis; amplitude 4, period $4\\pi$",
+            "solutionFigures": [],
+            "tip": "Mapping check: $(x, y) \\to (2x, -4y)$ combines all three steps."
+          }
+        },
+        {
+          "id": "ch14_ex6_q3e",
+          "number": "3(e)",
+          "category": null,
+          "questionText": "Give a sequence of transformations which takes the graph of $y = \\sin x$ to the graph of $y = g(x)$, and state the amplitude and period of $g(x)$, where $g(x) = 2\\sin\\left(\\dfrac{-x}{3}\\right)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$f(-x)$: reflection in the $y$-axis; $a f(nx)$: dilations of factors $a$ and $\\dfrac{1}{n}$",
+            "steps": [
+              "Given: $g(x) = 2\\sin\\left(-\\dfrac{x}{3}\\right)$.",
+              "Dilation of factor 2 from the $x$-axis: $y = 2\\sin x$.",
+              "Dilation of factor 3 from the $y$-axis: $y = 2\\sin\\left(\\dfrac{x}{3}\\right)$.",
+              "Reflection in the $y$-axis (replace $x$ by $-x$): $y = 2\\sin\\left(-\\dfrac{x}{3}\\right)$.",
+              "Amplitude $= 2$; period $= 2\\pi \\div \\dfrac{1}{3} = 6\\pi$.",
+              "Note: $2\\sin\\left(-\\dfrac{x}{3}\\right) = -2\\sin\\left(\\dfrac{x}{3}\\right)$, so a reflection in the $x$-axis gives the same graph."
+            ],
+            "finalAnswer": "Dilation of factor 2 from the $x$-axis, dilation of factor 3 from the $y$-axis, reflection in the $y$-axis; amplitude 2, period $6\\pi$",
+            "solutionFigures": [],
+            "tip": "The period depends on $|n|$; a negative $n$ never gives a negative period."
+          }
+        },
+        {
+          "id": "ch14_ex6_q4a",
+          "number": "4(a)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = 3\\sin(2x)$, showing one complete cycle. State the amplitude and period.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a\\sin(nx)$: amplitude $a$, period $\\dfrac{2\\pi}{n}$; key points at quarter-periods",
+            "steps": [
+              "Given: $a = 3$, $n = 2$. Amplitude $= 3$; period $= \\dfrac{2\\pi}{2} = \\pi$.",
+              "Quarter-period $= \\dfrac{\\pi}{4}$. Key $x$-values over $[0, \\pi]$: $0, \\dfrac{\\pi}{4}, \\dfrac{\\pi}{2}, \\dfrac{3\\pi}{4}, \\pi$.",
+              "Values: $y(0) = 0$, $y\\left(\\dfrac{\\pi}{4}\\right) = 3\\sin\\dfrac{\\pi}{2} = 3$, $y\\left(\\dfrac{\\pi}{2}\\right) = 3\\sin\\pi = 0$, $y\\left(\\dfrac{3\\pi}{4}\\right) = 3\\sin\\dfrac{3\\pi}{2} = -3$, $y(\\pi) = 0$.",
+              "Sketch: a smooth sine wave starting at the origin, rising to a maximum $(\\frac{\\pi}{4}, 3)$, crossing at $(\\frac{\\pi}{2}, 0)$, falling to a minimum $(\\frac{3\\pi}{4}, -3)$, and returning to $(\\pi, 0)$."
+            ],
+            "finalAnswer": "Amplitude 3, period $\\pi$. One cycle on $[0, \\pi]$ through $(0, 0)$, $(\\frac{\\pi}{4}, 3)$, $(\\frac{\\pi}{2}, 0)$, $(\\frac{3\\pi}{4}, -3)$, $(\\pi, 0)$",
+            "solutionFigures": [],
+            "tip": "Divide the period into four equal parts to place the max, zeros and min."
+          }
+        },
+        {
+          "id": "ch14_ex6_q4b",
+          "number": "4(b)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = 2\\cos(3\\theta)$, showing one complete cycle. State the amplitude and period.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a\\cos(n\\theta)$: amplitude $a$, period $\\dfrac{2\\pi}{n}$",
+            "steps": [
+              "Given: $a = 2$, $n = 3$. Amplitude $= 2$; period $= \\dfrac{2\\pi}{3}$.",
+              "Quarter-period $= \\dfrac{\\pi}{6}$. Key $\\theta$-values: $0, \\dfrac{\\pi}{6}, \\dfrac{\\pi}{3}, \\dfrac{\\pi}{2}, \\dfrac{2\\pi}{3}$.",
+              "Values: $2, 0, -2, 0, 2$ (since $\\cos 0 = 1$, $\\cos\\frac{\\pi}{2} = 0$, $\\cos\\pi = -1$, $\\cos\\frac{3\\pi}{2} = 0$, $\\cos 2\\pi = 1$).",
+              "Sketch: a cosine wave starting at the maximum $(0, 2)$, crossing at $(\\frac{\\pi}{6}, 0)$, minimum $(\\frac{\\pi}{3}, -2)$, crossing at $(\\frac{\\pi}{2}, 0)$, back to the maximum $(\\frac{2\\pi}{3}, 2)$."
+            ],
+            "finalAnswer": "Amplitude 2, period $\\dfrac{2\\pi}{3}$. One cycle on $[0, \\frac{2\\pi}{3}]$ through $(0, 2)$, $(\\frac{\\pi}{6}, 0)$, $(\\frac{\\pi}{3}, -2)$, $(\\frac{\\pi}{2}, 0)$, $(\\frac{2\\pi}{3}, 2)$",
+            "solutionFigures": [],
+            "tip": "Cosine graphs start at a maximum, sine graphs start at zero."
+          }
+        },
+        {
+          "id": "ch14_ex6_q4c",
+          "number": "4(c)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = 4\\sin\\left(\\dfrac{\\theta}{2}\\right)$, showing one complete cycle. State the amplitude and period.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a\\sin(n\\theta)$: amplitude $a$, period $\\dfrac{2\\pi}{n}$",
+            "steps": [
+              "Given: $a = 4$, $n = \\dfrac{1}{2}$. Amplitude $= 4$; period $= 2\\pi \\div \\dfrac{1}{2} = 4\\pi$.",
+              "Quarter-period $= \\pi$. Key $\\theta$-values: $0, \\pi, 2\\pi, 3\\pi, 4\\pi$.",
+              "Values: $0, 4, 0, -4, 0$.",
+              "Sketch: sine wave from $(0, 0)$ up to $(\\pi, 4)$, down through $(2\\pi, 0)$ to $(3\\pi, -4)$, back to $(4\\pi, 0)$."
+            ],
+            "finalAnswer": "Amplitude 4, period $4\\pi$. One cycle on $[0, 4\\pi]$ through $(0, 0)$, $(\\pi, 4)$, $(2\\pi, 0)$, $(3\\pi, -4)$, $(4\\pi, 0)$",
+            "solutionFigures": [],
+            "tip": "Check a key point: at $\\theta = \\pi$, $4\\sin\\frac{\\pi}{2} = 4$. ✓"
+          }
+        },
+        {
+          "id": "ch14_ex6_q4d",
+          "number": "4(d)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = \\dfrac{1}{2}\\cos(3x)$, showing one complete cycle. State the amplitude and period.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a\\cos(nx)$: amplitude $a$, period $\\dfrac{2\\pi}{n}$",
+            "steps": [
+              "Given: $a = \\dfrac{1}{2}$, $n = 3$. Amplitude $= \\dfrac{1}{2}$; period $= \\dfrac{2\\pi}{3}$.",
+              "Key $x$-values: $0, \\dfrac{\\pi}{6}, \\dfrac{\\pi}{3}, \\dfrac{\\pi}{2}, \\dfrac{2\\pi}{3}$.",
+              "Values: $\\dfrac{1}{2}, 0, -\\dfrac{1}{2}, 0, \\dfrac{1}{2}$.",
+              "Sketch: cosine wave from the maximum $(0, \\frac{1}{2})$ down to the minimum $(\\frac{\\pi}{3}, -\\frac{1}{2})$ and back to $(\\frac{2\\pi}{3}, \\frac{1}{2})$, crossing the axis at $\\frac{\\pi}{6}$ and $\\frac{\\pi}{2}$."
+            ],
+            "finalAnswer": "Amplitude $\\dfrac{1}{2}$, period $\\dfrac{2\\pi}{3}$. One cycle through $(0, \\frac{1}{2})$, $(\\frac{\\pi}{6}, 0)$, $(\\frac{\\pi}{3}, -\\frac{1}{2})$, $(\\frac{\\pi}{2}, 0)$, $(\\frac{2\\pi}{3}, \\frac{1}{2})$",
+            "solutionFigures": [],
+            "tip": "Use a sensible vertical scale so the small amplitude is still visible."
+          }
+        },
+        {
+          "id": "ch14_ex6_q4e",
+          "number": "4(e)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = 4\\sin(3x)$, showing one complete cycle. State the amplitude and period.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a\\sin(nx)$: amplitude $a$, period $\\dfrac{2\\pi}{n}$",
+            "steps": [
+              "Given: $a = 4$, $n = 3$. Amplitude $= 4$; period $= \\dfrac{2\\pi}{3}$.",
+              "Key $x$-values: $0, \\dfrac{\\pi}{6}, \\dfrac{\\pi}{3}, \\dfrac{\\pi}{2}, \\dfrac{2\\pi}{3}$.",
+              "Values: $0, 4, 0, -4, 0$.",
+              "Sketch: sine wave from $(0, 0)$ to the maximum $(\\frac{\\pi}{6}, 4)$, through $(\\frac{\\pi}{3}, 0)$, to the minimum $(\\frac{\\pi}{2}, -4)$, back to $(\\frac{2\\pi}{3}, 0)$."
+            ],
+            "finalAnswer": "Amplitude 4, period $\\dfrac{2\\pi}{3}$. One cycle through $(0, 0)$, $(\\frac{\\pi}{6}, 4)$, $(\\frac{\\pi}{3}, 0)$, $(\\frac{\\pi}{2}, -4)$, $(\\frac{2\\pi}{3}, 0)$",
+            "solutionFigures": [],
+            "tip": "Check: at $x = \\frac{\\pi}{6}$, $3x = \\frac{\\pi}{2}$, so $\\sin = 1$ and $y = 4$."
+          }
+        },
+        {
+          "id": "ch14_ex6_q4f",
+          "number": "4(f)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = 5\\cos(2x)$, showing one complete cycle. State the amplitude and period.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a\\cos(nx)$: amplitude $a$, period $\\dfrac{2\\pi}{n}$",
+            "steps": [
+              "Given: $a = 5$, $n = 2$. Amplitude $= 5$; period $= \\pi$.",
+              "Key $x$-values: $0, \\dfrac{\\pi}{4}, \\dfrac{\\pi}{2}, \\dfrac{3\\pi}{4}, \\pi$.",
+              "Values: $5, 0, -5, 0, 5$.",
+              "Sketch: cosine wave from the maximum $(0, 5)$ to the minimum $(\\frac{\\pi}{2}, -5)$ and back to $(\\pi, 5)$, crossing the axis at $\\frac{\\pi}{4}$ and $\\frac{3\\pi}{4}$."
+            ],
+            "finalAnswer": "Amplitude 5, period $\\pi$. One cycle through $(0, 5)$, $(\\frac{\\pi}{4}, 0)$, $(\\frac{\\pi}{2}, -5)$, $(\\frac{3\\pi}{4}, 0)$, $(\\pi, 5)$",
+            "solutionFigures": [],
+            "tip": "Label the axis intercepts and turning points with exact values."
+          }
+        },
+        {
+          "id": "ch14_ex6_q4g",
+          "number": "4(g)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = -3\\cos\\left(\\dfrac{\\theta}{2}\\right)$, showing one complete cycle. State the amplitude and period.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = -a\\cos(n\\theta)$ is $y = a\\cos(n\\theta)$ reflected in the $\\theta$-axis; amplitude $a$, period $\\dfrac{2\\pi}{n}$",
+            "steps": [
+              "Given: $a = -3$, $n = \\dfrac{1}{2}$. Amplitude $= 3$; period $= 4\\pi$.",
+              "Key $\\theta$-values: $0, \\pi, 2\\pi, 3\\pi, 4\\pi$.",
+              "Values: $y(0) = -3\\cos 0 = -3$, $y(\\pi) = -3\\cos\\frac{\\pi}{2} = 0$, $y(2\\pi) = -3\\cos\\pi = 3$, $y(3\\pi) = 0$, $y(4\\pi) = -3$.",
+              "Sketch: an inverted cosine wave starting at the minimum $(0, -3)$, rising through $(\\pi, 0)$ to the maximum $(2\\pi, 3)$, falling through $(3\\pi, 0)$ to $(4\\pi, -3)$."
+            ],
+            "finalAnswer": "Amplitude 3, period $4\\pi$. One cycle through $(0, -3)$, $(\\pi, 0)$, $(2\\pi, 3)$, $(3\\pi, 0)$, $(4\\pi, -3)$",
+            "solutionFigures": [],
+            "tip": "The negative sign makes the cosine graph start at a minimum instead of a maximum."
+          }
+        },
+        {
+          "id": "ch14_ex6_q4h",
+          "number": "4(h)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = 2\\cos(4\\theta)$, showing one complete cycle. State the amplitude and period.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a\\cos(n\\theta)$: amplitude $a$, period $\\dfrac{2\\pi}{n}$",
+            "steps": [
+              "Given: $a = 2$, $n = 4$. Amplitude $= 2$; period $= \\dfrac{2\\pi}{4} = \\dfrac{\\pi}{2}$.",
+              "Quarter-period $= \\dfrac{\\pi}{8}$. Key $\\theta$-values: $0, \\dfrac{\\pi}{8}, \\dfrac{\\pi}{4}, \\dfrac{3\\pi}{8}, \\dfrac{\\pi}{2}$.",
+              "Values: $2, 0, -2, 0, 2$.",
+              "Sketch: cosine wave from $(0, 2)$ through $(\\frac{\\pi}{8}, 0)$ to $(\\frac{\\pi}{4}, -2)$, through $(\\frac{3\\pi}{8}, 0)$ back to $(\\frac{\\pi}{2}, 2)$."
+            ],
+            "finalAnswer": "Amplitude 2, period $\\dfrac{\\pi}{2}$. One cycle through $(0, 2)$, $(\\frac{\\pi}{8}, 0)$, $(\\frac{\\pi}{4}, -2)$, $(\\frac{3\\pi}{8}, 0)$, $(\\frac{\\pi}{2}, 2)$",
+            "solutionFigures": [],
+            "tip": "Quarter-period = period $\\div 4$: here $\\frac{\\pi}{2} \\div 4 = \\frac{\\pi}{8}$."
+          }
+        },
+        {
+          "id": "ch14_ex6_q4i",
+          "number": "4(i)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = -2\\sin\\left(\\dfrac{\\theta}{3}\\right)$, showing one complete cycle. State the amplitude and period.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = -a\\sin(n\\theta)$ is $y = a\\sin(n\\theta)$ reflected in the $\\theta$-axis",
+            "steps": [
+              "Given: $a = -2$, $n = \\dfrac{1}{3}$. Amplitude $= 2$; period $= 2\\pi \\div \\dfrac{1}{3} = 6\\pi$.",
+              "Quarter-period $= \\dfrac{3\\pi}{2}$. Key $\\theta$-values: $0, \\dfrac{3\\pi}{2}, 3\\pi, \\dfrac{9\\pi}{2}, 6\\pi$.",
+              "Values: $y(0) = 0$, $y\\left(\\frac{3\\pi}{2}\\right) = -2\\sin\\frac{\\pi}{2} = -2$, $y(3\\pi) = -2\\sin\\pi = 0$, $y\\left(\\frac{9\\pi}{2}\\right) = -2\\sin\\frac{3\\pi}{2} = 2$, $y(6\\pi) = 0$.",
+              "Sketch: an inverted sine wave from $(0, 0)$ down to the minimum $(\\frac{3\\pi}{2}, -2)$, up through $(3\\pi, 0)$ to the maximum $(\\frac{9\\pi}{2}, 2)$, back to $(6\\pi, 0)$."
+            ],
+            "finalAnswer": "Amplitude 2, period $6\\pi$. One cycle through $(0, 0)$, $(\\frac{3\\pi}{2}, -2)$, $(3\\pi, 0)$, $(\\frac{9\\pi}{2}, 2)$, $(6\\pi, 0)$",
+            "solutionFigures": [],
+            "tip": "With a negative coefficient the sine graph goes down first."
+          }
+        },
+        {
+          "id": "ch14_ex6_q5a",
+          "number": "5(a)",
+          "category": null,
+          "questionText": "Sketch the graph of $f: [0, 2] \\to \\mathbb{R}$, $f(t) = 2\\cos(\\pi t)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a\\cos(nt)$: amplitude $a$, period $\\dfrac{2\\pi}{n}$",
+            "steps": [
+              "Given: $a = 2$, $n = \\pi$, domain $[0, 2]$. Amplitude $= 2$; period $= \\dfrac{2\\pi}{\\pi} = 2$, so the domain is exactly one cycle.",
+              "Quarter-period $= \\dfrac{1}{2}$. Key $t$-values: $0, \\dfrac{1}{2}, 1, \\dfrac{3}{2}, 2$.",
+              "Values: $f(0) = 2$, $f\\left(\\frac{1}{2}\\right) = 2\\cos\\frac{\\pi}{2} = 0$, $f(1) = 2\\cos\\pi = -2$, $f\\left(\\frac{3}{2}\\right) = 0$, $f(2) = 2\\cos 2\\pi = 2$.",
+              "Sketch: cosine curve from the endpoint $(0, 2)$, through $(\\frac{1}{2}, 0)$, down to the minimum $(1, -2)$, through $(\\frac{3}{2}, 0)$, up to the endpoint $(2, 2)$. Range $[-2, 2]$."
+            ],
+            "finalAnswer": "One cycle: endpoints $(0, 2)$ and $(2, 2)$, $t$-intercepts $(\\frac{1}{2}, 0)$ and $(\\frac{3}{2}, 0)$, minimum $(1, -2)$; amplitude 2, period 2",
+            "solutionFigures": [],
+            "tip": "Mark the endpoints with closed dots because the domain is a closed interval."
+          }
+        },
+        {
+          "id": "ch14_ex6_q5b",
+          "number": "5(b)",
+          "category": null,
+          "questionText": "Sketch the graph of $f: [0, 2] \\to \\mathbb{R}$, $f(t) = 3\\sin(2\\pi t)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a\\sin(nt)$: amplitude $a$, period $\\dfrac{2\\pi}{n}$",
+            "steps": [
+              "Given: $a = 3$, $n = 2\\pi$, domain $[0, 2]$. Amplitude $= 3$; period $= \\dfrac{2\\pi}{2\\pi} = 1$, so the domain contains two cycles.",
+              "Quarter-period $= \\dfrac{1}{4}$. Key $t$-values: $0, \\frac{1}{4}, \\frac{1}{2}, \\frac{3}{4}, 1, \\frac{5}{4}, \\frac{3}{2}, \\frac{7}{4}, 2$.",
+              "Values: $0, 3, 0, -3, 0, 3, 0, -3, 0$.",
+              "Sketch: two full sine waves starting at $(0, 0)$, maxima at $(\\frac{1}{4}, 3)$ and $(\\frac{5}{4}, 3)$, minima at $(\\frac{3}{4}, -3)$ and $(\\frac{7}{4}, -3)$, $t$-intercepts at $0, \\frac{1}{2}, 1, \\frac{3}{2}, 2$."
+            ],
+            "finalAnswer": "Two cycles on $[0, 2]$: intercepts at $t = 0, \\frac{1}{2}, 1, \\frac{3}{2}, 2$; maxima $(\\frac{1}{4}, 3)$, $(\\frac{5}{4}, 3)$; minima $(\\frac{3}{4}, -3)$, $(\\frac{7}{4}, -3)$; amplitude 3, period 1",
+            "solutionFigures": [],
+            "tip": "Count cycles: domain length $\\div$ period $= 2 \\div 1 = 2$."
+          }
+        },
+        {
+          "id": "ch14_ex6_q6a",
+          "number": "6(a)",
+          "category": null,
+          "questionText": "Sketch the graph of $f(x) = \\sin(2x)$ for $x \\in [-2\\pi, 2\\pi]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = \\sin(nx)$: amplitude 1, period $\\dfrac{2\\pi}{n}$",
+            "steps": [
+              "Given: $n = 2$. Amplitude 1, period $\\pi$. The domain has length $4\\pi$, so it contains 4 cycles.",
+              "$x$-intercepts: $\\sin(2x) = 0 \\Rightarrow 2x = k\\pi \\Rightarrow x = \\dfrac{k\\pi}{2}$: $x = -2\\pi, -\\frac{3\\pi}{2}, -\\pi, -\\frac{\\pi}{2}, 0, \\frac{\\pi}{2}, \\pi, \\frac{3\\pi}{2}, 2\\pi$.",
+              "Maxima ($y = 1$): $2x = \\frac{\\pi}{2} + 2k\\pi \\Rightarrow x = \\frac{\\pi}{4} + k\\pi$: $x = -\\frac{7\\pi}{4}, -\\frac{3\\pi}{4}, \\frac{\\pi}{4}, \\frac{5\\pi}{4}$.",
+              "Minima ($y = -1$): $x = \\frac{3\\pi}{4} + k\\pi$: $x = -\\frac{5\\pi}{4}, -\\frac{\\pi}{4}, \\frac{3\\pi}{4}, \\frac{7\\pi}{4}$.",
+              "Endpoints: $f(-2\\pi) = \\sin(-4\\pi) = 0$ and $f(2\\pi) = \\sin 4\\pi = 0$.",
+              "Sketch: four sine cycles between $(-2\\pi, 0)$ and $(2\\pi, 0)$, oscillating between $-1$ and $1$."
+            ],
+            "finalAnswer": "Four cycles; endpoints $(-2\\pi, 0)$, $(2\\pi, 0)$; intercepts at multiples of $\\frac{\\pi}{2}$; maxima at $x = -\\frac{7\\pi}{4}, -\\frac{3\\pi}{4}, \\frac{\\pi}{4}, \\frac{5\\pi}{4}$; minima at $x = -\\frac{5\\pi}{4}, -\\frac{\\pi}{4}, \\frac{3\\pi}{4}, \\frac{7\\pi}{4}$; range $[-1, 1]$",
+            "solutionFigures": [],
+            "tip": "Sine is odd, so the left half of the graph is the right half rotated $180^\\circ$ about the origin."
+          }
+        },
+        {
+          "id": "ch14_ex6_q6b",
+          "number": "6(b)",
+          "category": null,
+          "questionText": "Sketch the graph of $f(x) = 2\\sin\\left(\\dfrac{x}{3}\\right)$ for $x \\in [-6\\pi, 6\\pi]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a\\sin(nx)$: amplitude $a$, period $\\dfrac{2\\pi}{n}$",
+            "steps": [
+              "Given: $a = 2$, $n = \\frac{1}{3}$. Amplitude 2, period $6\\pi$. The domain has length $12\\pi$: two cycles.",
+              "$x$-intercepts: $\\frac{x}{3} = k\\pi \\Rightarrow x = 3k\\pi$: $x = -6\\pi, -3\\pi, 0, 3\\pi, 6\\pi$.",
+              "Maxima ($y = 2$): $\\frac{x}{3} = \\frac{\\pi}{2} + 2k\\pi \\Rightarrow x = \\frac{3\\pi}{2} + 6k\\pi$: $x = -\\frac{9\\pi}{2}, \\frac{3\\pi}{2}$.",
+              "Minima ($y = -2$): $\\frac{x}{3} = -\\frac{\\pi}{2} + 2k\\pi \\Rightarrow x = -\\frac{3\\pi}{2} + 6k\\pi$: $x = -\\frac{3\\pi}{2}, \\frac{9\\pi}{2}$.",
+              "Endpoints: $f(\\pm 6\\pi) = 2\\sin(\\pm 2\\pi) = 0$.",
+              "Sketch: two sine cycles from $(-6\\pi, 0)$ to $(6\\pi, 0)$."
+            ],
+            "finalAnswer": "Two cycles; intercepts $x = -6\\pi, -3\\pi, 0, 3\\pi, 6\\pi$; maxima $(-\\frac{9\\pi}{2}, 2)$, $(\\frac{3\\pi}{2}, 2)$; minima $(-\\frac{3\\pi}{2}, -2)$, $(\\frac{9\\pi}{2}, -2)$; range $[-2, 2]$",
+            "solutionFigures": [],
+            "tip": "Solve for the turning points rather than guessing; they are not at simple multiples of $\\pi$."
+          }
+        },
+        {
+          "id": "ch14_ex6_q6c",
+          "number": "6(c)",
+          "category": null,
+          "questionText": "Sketch the graph of $f(x) = 2\\cos(3x)$ for $x \\in [0, 2\\pi]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a\\cos(nx)$: amplitude $a$, period $\\dfrac{2\\pi}{n}$",
+            "steps": [
+              "Given: $a = 2$, $n = 3$. Amplitude 2, period $\\frac{2\\pi}{3}$. Domain length $2\\pi$: three cycles.",
+              "Maxima ($y = 2$): $3x = 2k\\pi \\Rightarrow x = 0, \\frac{2\\pi}{3}, \\frac{4\\pi}{3}, 2\\pi$.",
+              "Minima ($y = -2$): $3x = \\pi + 2k\\pi \\Rightarrow x = \\frac{\\pi}{3}, \\pi, \\frac{5\\pi}{3}$.",
+              "$x$-intercepts: $3x = \\frac{\\pi}{2} + k\\pi \\Rightarrow x = \\frac{\\pi}{6}, \\frac{\\pi}{2}, \\frac{5\\pi}{6}, \\frac{7\\pi}{6}, \\frac{3\\pi}{2}, \\frac{11\\pi}{6}$.",
+              "Sketch: three cosine cycles starting at $(0, 2)$ and ending at $(2\\pi, 2)$."
+            ],
+            "finalAnswer": "Three cycles; endpoints $(0, 2)$, $(2\\pi, 2)$; maxima also at $(\\frac{2\\pi}{3}, 2)$, $(\\frac{4\\pi}{3}, 2)$; minima $(\\frac{\\pi}{3}, -2)$, $(\\pi, -2)$, $(\\frac{5\\pi}{3}, -2)$; intercepts $x = \\frac{\\pi}{6}, \\frac{\\pi}{2}, \\frac{5\\pi}{6}, \\frac{7\\pi}{6}, \\frac{3\\pi}{2}, \\frac{11\\pi}{6}$",
+            "solutionFigures": [],
+            "tip": "List the solutions to $3x = \\ldots$ in $[0, 6\\pi]$, then divide each by 3."
+          }
+        },
+        {
+          "id": "ch14_ex6_q6d",
+          "number": "6(d)",
+          "category": null,
+          "questionText": "Sketch the graph of $f(x) = -2\\sin(3x)$ for $x \\in [0, 2\\pi]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = -a\\sin(nx)$ is $y = a\\sin(nx)$ reflected in the $x$-axis",
+            "steps": [
+              "Given: amplitude 2, period $\\frac{2\\pi}{3}$; three cycles on $[0, 2\\pi]$.",
+              "$x$-intercepts: $3x = k\\pi \\Rightarrow x = 0, \\frac{\\pi}{3}, \\frac{2\\pi}{3}, \\pi, \\frac{4\\pi}{3}, \\frac{5\\pi}{3}, 2\\pi$.",
+              "Minima ($y = -2$) where $\\sin 3x = 1$: $3x = \\frac{\\pi}{2} + 2k\\pi \\Rightarrow x = \\frac{\\pi}{6}, \\frac{5\\pi}{6}, \\frac{3\\pi}{2}$.",
+              "Maxima ($y = 2$) where $\\sin 3x = -1$: $3x = \\frac{3\\pi}{2} + 2k\\pi \\Rightarrow x = \\frac{\\pi}{2}, \\frac{7\\pi}{6}, \\frac{11\\pi}{6}$.",
+              "Sketch: starting at $(0, 0)$ the curve goes down first to $(\\frac{\\pi}{6}, -2)$, then up through $(\\frac{\\pi}{3}, 0)$ to $(\\frac{\\pi}{2}, 2)$, and so on, ending at $(2\\pi, 0)$."
+            ],
+            "finalAnswer": "Three cycles from $(0, 0)$ to $(2\\pi, 0)$; intercepts at multiples of $\\frac{\\pi}{3}$; minima $(\\frac{\\pi}{6}, -2)$, $(\\frac{5\\pi}{6}, -2)$, $(\\frac{3\\pi}{2}, -2)$; maxima $(\\frac{\\pi}{2}, 2)$, $(\\frac{7\\pi}{6}, 2)$, $(\\frac{11\\pi}{6}, 2)$",
+            "solutionFigures": [],
+            "tip": "The reflection swaps the positions of the maxima and minima of $2\\sin(3x)$."
+          }
+        },
+        {
+          "id": "ch14_ex6_q7",
+          "number": "7",
+          "category": null,
+          "questionText": "Sketch the graph of $f: [0, 2\\pi] \\to \\mathbb{R}$, $f(x) = \\dfrac{5}{2}\\cos\\left(\\dfrac{2x}{3}\\right)$. Hint: For the endpoints, find $f(0)$ and $f(2\\pi)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a\\cos(nx)$: amplitude $a$, period $\\dfrac{2\\pi}{n}$",
+            "steps": [
+              "Given: $a = \\frac{5}{2}$, $n = \\frac{2}{3}$. Amplitude $\\frac{5}{2}$; period $= 2\\pi \\div \\frac{2}{3} = 3\\pi$. The domain $[0, 2\\pi]$ is only $\\frac{2}{3}$ of a cycle.",
+              "Left endpoint: $f(0) = \\frac{5}{2}\\cos 0 = \\frac{5}{2}$ (a maximum).",
+              "$x$-intercept: $\\frac{2x}{3} = \\frac{\\pi}{2} \\Rightarrow x = \\frac{3\\pi}{4}$. (The next one, $\\frac{2x}{3} = \\frac{3\\pi}{2}$, gives $x = \\frac{9\\pi}{4} > 2\\pi$, outside the domain.)",
+              "Minimum: $\\frac{2x}{3} = \\pi \\Rightarrow x = \\frac{3\\pi}{2}$, with $f = -\\frac{5}{2}$.",
+              "Right endpoint: $f(2\\pi) = \\frac{5}{2}\\cos\\frac{4\\pi}{3} = \\frac{5}{2} \\times \\left(-\\frac{1}{2}\\right) = -\\frac{5}{4}$.",
+              "Sketch: from $(0, \\frac{5}{2})$ the curve falls through $(\\frac{3\\pi}{4}, 0)$ to the minimum $(\\frac{3\\pi}{2}, -\\frac{5}{2})$, then rises to the endpoint $(2\\pi, -\\frac{5}{4})$."
+            ],
+            "finalAnswer": "Endpoints $(0, \\frac{5}{2})$ and $(2\\pi, -\\frac{5}{4})$; $x$-intercept $(\\frac{3\\pi}{4}, 0)$; minimum $(\\frac{3\\pi}{2}, -\\frac{5}{2})$; amplitude $\\frac{5}{2}$, period $3\\pi$",
+            "solutionFigures": [],
+            "tip": "When the domain is not a whole number of periods, always evaluate the function at the endpoints."
+          }
+        },
+        {
+          "id": "ch14_ex6_q8a",
+          "number": "8(a)",
+          "category": null,
+          "questionText": "On the one set of axes, sketch the graphs of $f: [0, 2\\pi] \\to \\mathbb{R}$, $f(x) = \\sin x$ and $g: [0, 2\\pi] \\to \\mathbb{R}$, $g(x) = \\cos x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Both have amplitude 1 and period $2\\pi$; $\\cos x = \\sin\\left(x + \\frac{\\pi}{2}\\right)$",
+            "steps": [
+              "$f(x) = \\sin x$: through $(0, 0)$, $(\\frac{\\pi}{2}, 1)$, $(\\pi, 0)$, $(\\frac{3\\pi}{2}, -1)$, $(2\\pi, 0)$.",
+              "$g(x) = \\cos x$: through $(0, 1)$, $(\\frac{\\pi}{2}, 0)$, $(\\pi, -1)$, $(\\frac{3\\pi}{2}, 0)$, $(2\\pi, 1)$.",
+              "Draw both on the same axes with $x$ from 0 to $2\\pi$ and $y$ from $-1$ to $1$.",
+              "The two curves cross twice: once in $(0, \\frac{\\pi}{2})$ (both positive) and once in $(\\pi, \\frac{3\\pi}{2})$ (both negative)."
+            ],
+            "finalAnswer": "Sine curve from $(0, 0)$ to $(2\\pi, 0)$ with max $(\\frac{\\pi}{2}, 1)$ and min $(\\frac{3\\pi}{2}, -1)$; cosine curve from $(0, 1)$ to $(2\\pi, 1)$ with min $(\\pi, -1)$ and intercepts $\\frac{\\pi}{2}, \\frac{3\\pi}{2}$. They intersect twice",
+            "solutionFigures": [],
+            "tip": "The cosine graph is the sine graph shifted $\\frac{\\pi}{2}$ units to the left."
+          }
+        },
+        {
+          "id": "ch14_ex6_q8b",
+          "number": "8(b)",
+          "category": null,
+          "questionText": "With $f(x) = \\sin x$ and $g(x) = \\cos x$ sketched on $[0, 2\\pi]$, by inspection from these graphs, state the values of $x$ for which $\\sin x = \\cos x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin x = \\cos x \\iff \\tan x = 1$ (where $\\cos x \\neq 0$)",
+            "steps": [
+              "From the graphs, the curves cross once in quadrant 1 and once in quadrant 3.",
+              "In quadrant 1, $\\sin\\frac{\\pi}{4} = \\cos\\frac{\\pi}{4} = \\frac{1}{\\sqrt{2}}$, so $x = \\frac{\\pi}{4}$.",
+              "In quadrant 3, $\\sin\\frac{5\\pi}{4} = \\cos\\frac{5\\pi}{4} = -\\frac{1}{\\sqrt{2}}$, so $x = \\frac{5\\pi}{4}$.",
+              "Algebraic check: dividing by $\\cos x$ gives $\\tan x = 1$, whose solutions in $[0, 2\\pi]$ are $\\frac{\\pi}{4}$ and $\\pi + \\frac{\\pi}{4} = \\frac{5\\pi}{4}$. ✓"
+            ],
+            "finalAnswer": "$x = \\dfrac{\\pi}{4}$ or $x = \\dfrac{5\\pi}{4}$",
+            "solutionFigures": [],
+            "tip": "The intersection points are $(\\frac{\\pi}{4}, \\frac{1}{\\sqrt{2}})$ and $(\\frac{5\\pi}{4}, -\\frac{1}{\\sqrt{2}})$, half a period apart."
+          }
+        },
+        {
+          "id": "ch14_ex6_q9",
+          "number": "9",
+          "category": null,
+          "questionText": "With the help of your calculator, sketch the graphs of $y = \\sin x$ and $y = x$ on the same set of axes for $-\\dfrac{\\pi}{2} \\le x \\le \\dfrac{\\pi}{2}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Near $x = 0$, $\\sin x \\approx x$; for $x > 0$, $\\sin x < x$ and for $x < 0$, $\\sin x > x$",
+            "steps": [
+              "$y = x$: a straight line through the origin from $\\left(-\\frac{\\pi}{2}, -\\frac{\\pi}{2}\\right) \\approx (-1.57, -1.57)$ to $\\left(\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right) \\approx (1.57, 1.57)$.",
+              "$y = \\sin x$: from $\\left(-\\frac{\\pi}{2}, -1\\right)$ through $(0, 0)$ to $\\left(\\frac{\\pi}{2}, 1\\right)$, increasing throughout.",
+              "Both graphs pass through the origin with gradient 1 there, so they are almost indistinguishable near $x = 0$ (compare 14E Q4: $\\sin 0.1 \\approx 0.0998$).",
+              "For $0 < x \\le \\frac{\\pi}{2}$ the sine curve lies below the line; for $-\\frac{\\pi}{2} \\le x < 0$ it lies above the line. The only intersection is at $(0, 0)$."
+            ],
+            "finalAnswer": "Line $y = x$ and curve $y = \\sin x$ meet only at the origin; $\\sin x$ ends at $(\\pm\\frac{\\pi}{2}, \\pm 1)$, the line at $(\\pm\\frac{\\pi}{2}, \\pm\\frac{\\pi}{2})$; the curves nearly coincide for small $|x|$",
+            "solutionFigures": [],
+            "tip": "Use a square window so the line $y = x$ appears at $45^\\circ$."
+          }
+        }
+      ]
+    }
+  ]
+}

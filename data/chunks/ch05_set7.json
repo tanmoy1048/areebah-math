@@ -1,0 +1,514 @@
+{
+  "chapterId": "ch05",
+  "chapterTitle": "Trigonometry I",
+  "topics": [
+    {
+      "topicId": "5.7",
+      "topicTitle": "Angles of elevation and depression",
+      "exercises": [
+        {
+          "id": "ch5_ex7_q1",
+          "number": "1",
+          "category": "Practice",
+          "questionText": "From a point P on the ground the angle of elevation from an observer to the top of a tree is $54^\\circ 22'$. If the tree is known to be $12.19$ m high, determine how far P is from the tree (measured horizontally). Write your answer in metres correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{\\text{opposite}}{\\text{adjacent}}$ (TOA)",
+            "steps": [
+              "Given: angle of elevation $\\theta = 54^\\circ 22'$ at P; tree height (opposite) $= 12.19$ m; the right angle is at the base of the tree. Goal: horizontal distance $d$ (adjacent).",
+              "We know O and want A, so use tangent.",
+              "Substitute: $\\tan(54^\\circ 22') = \\dfrac{12.19}{d}$",
+              "Rearrange: $d = \\dfrac{12.19}{\\tan(54^\\circ 22')}$",
+              "Calculate: $d = \\dfrac{12.19}{1.395070\\ldots} = 8.73791\\ldots$",
+              "Round to 2 decimal places: $d \\approx 8.74$ m"
+            ],
+            "finalAnswer": "P is approximately $8.74$ m from the tree (correct to 2 decimal places).",
+            "solutionFigures": [],
+            "tip": "An angle of elevation is measured up from the horizontal, so it sits at the observer, between the ground and the line of sight."
+          }
+        },
+        {
+          "id": "ch5_ex7_q2",
+          "number": "2",
+          "category": "Consolidate",
+          "questionText": "From the top of a cliff $112$ m high, the angle of depression to a boat is $9^\\circ 15'$. Determine how far the boat is from the foot of the cliff. Write your answer in metres correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Angle of depression = angle of elevation (alternate angles); $\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Given: cliff height $112$ m; angle of depression $9^\\circ 15'$ from the top of the cliff. Goal: horizontal distance $d$ from the boat to the foot of the cliff.",
+              "The angle of depression from the cliff top equals the angle of elevation from the boat to the cliff top (alternate angles between parallel horizontal lines), so the angle at the boat is $9^\\circ 15'$.",
+              "At the boat: the cliff height $112$ m is opposite and $d$ is adjacent: $\\tan(9^\\circ 15') = \\dfrac{112}{d}$",
+              "Rearrange: $d = \\dfrac{112}{\\tan(9^\\circ 15')}$",
+              "Calculate: $d = \\dfrac{112}{0.162860\\ldots} = 687.706\\ldots$",
+              "Round to 1 decimal place: $d \\approx 687.7$ m"
+            ],
+            "finalAnswer": "The boat is approximately $687.7$ m from the foot of the cliff (correct to 1 decimal place).",
+            "solutionFigures": [],
+            "tip": "The angle of depression is measured down from the horizontal, not from the vertical cliff face."
+          }
+        },
+        {
+          "id": "ch5_ex7_q3a",
+          "number": "3(a)",
+          "category": "Master",
+          "questionText": "A person on a ship observes a lighthouse on the cliff, which is $830$ metres away from the ship. The angle of elevation of the top of the lighthouse is $12^\\circ$. Determine how far above sea level the top of the lighthouse is, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Given: horizontal distance (adjacent) $= 830$ m; angle of elevation $= 12^\\circ$. Goal: height $h$ of the top of the lighthouse above sea level (opposite).",
+              "Use tangent: $\\tan(12^\\circ) = \\dfrac{h}{830}$",
+              "Rearrange: $h = 830\\tan(12^\\circ)$",
+              "Calculate: $h = 830 \\times 0.212557\\ldots = 176.4219\\ldots$",
+              "Round to 2 decimal places: $h \\approx 176.42$ m"
+            ],
+            "finalAnswer": "The top of the lighthouse is approximately $176.42$ m above sea level.",
+            "solutionFigures": [],
+            "tip": "This height includes both the cliff and the lighthouse, because the angle is measured to the top of the lighthouse."
+          }
+        },
+        {
+          "id": "ch5_ex7_q3b",
+          "number": "3(b)",
+          "category": "Master",
+          "questionText": "A person on a ship observes a lighthouse on the cliff, which is $830$ metres away from the ship. The angle of elevation of the top of the lighthouse is $12^\\circ$, so the top of the lighthouse is $176.42$ m above sea level (from part a). If the height of the lighthouse is $24$ m, calculate the height of the cliff, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Height of cliff = total height $-$ height of lighthouse",
+            "steps": [
+              "Given: total height above sea level $= 176.4219\\ldots$ m; lighthouse height $= 24$ m. Goal: cliff height.",
+              "Cliff height $= 176.4219\\ldots - 24 = 152.4219\\ldots$ m",
+              "Round to 2 decimal places: $152.42$ m"
+            ],
+            "finalAnswer": "The cliff is approximately $152.42$ m high.",
+            "solutionFigures": [],
+            "tip": "Read carefully what each height measures before adding or subtracting."
+          }
+        },
+        {
+          "id": "ch5_ex7_q4",
+          "number": "4",
+          "category": "Practice",
+          "questionText": "At a certain time of the day a post that is $4$ m tall casts a shadow of $1.8$ m. Calculate the angle of elevation of the sun at that time. Write your answer correct to the nearest minute.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta = \\tan^{-1}\\left(\\dfrac{O}{A}\\right)$",
+            "steps": [
+              "Given: post height (opposite) $= 4$ m; shadow length (adjacent) $= 1.8$ m. The angle of elevation of the sun is at the tip of the shadow. Goal: $\\theta$.",
+              "Use tangent: $\\tan(\\theta) = \\dfrac{4}{1.8}$",
+              "$\\theta = \\tan^{-1}\\left(\\dfrac{4}{1.8}\\right) = \\tan^{-1}(2.222222\\ldots) = 65.7723\\ldots^\\circ$",
+              "Convert: $0.7723\\ldots \\times 60 = 46.33'$",
+              "Round to the nearest minute: $\\theta \\approx 65^\\circ 46'$"
+            ],
+            "finalAnswer": "The angle of elevation of the sun is approximately $65^\\circ 46'$.",
+            "solutionFigures": [],
+            "tip": "Use $\\tan^{-1}$ to find an angle; using $\\tan$ by mistake gives a ratio, not an angle."
+          }
+        },
+        {
+          "id": "ch5_ex7_q5",
+          "number": "5",
+          "category": "Consolidate",
+          "questionText": "An observer who is standing $47$ m from a building measures the angle of elevation of the top of the building as $17^\\circ$. If the observer's eye is $167$ cm from the ground, determine the height of the building. Write your answer in metres correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$; total height = height above eye level + eye height",
+            "steps": [
+              "Given: horizontal distance (adjacent) $= 47$ m; angle of elevation $= 17^\\circ$ (measured from eye level); eye height $= 167$ cm $= 1.67$ m. Goal: height of the building.",
+              "Height above eye level: $\\tan(17^\\circ) = \\dfrac{h}{47}$, so $h = 47\\tan(17^\\circ)$",
+              "Calculate: $h = 47 \\times 0.305731\\ldots = 14.3693\\ldots$ m",
+              "Add the eye height: $14.3693\\ldots + 1.67 = 16.0393\\ldots$ m",
+              "Round to 2 decimal places: $16.04$ m"
+            ],
+            "finalAnswer": "The building is approximately $16.04$ m high.",
+            "solutionFigures": [],
+            "tip": "Convert the eye height from centimetres to metres before adding it."
+          }
+        },
+        {
+          "id": "ch5_ex7_q6a",
+          "number": "6(a)",
+          "category": "Practice",
+          "questionText": "A surveyor needs to determine the height of a building. She measures the angle of elevation of the top of the building from two points that are $38$ m apart. The surveyor's eye level is $180$ cm above the ground. In the diagram, the nearer point is $x$ m from the building, where the angle of elevation is $47^\\circ 12'$; the farther point is a further $38$ m away, where the angle of elevation is $35^\\circ 50'$. $h$ is the height of the building above eye level. Determine two expressions for the height of the building, $h$, in terms of $x$ using the two angles.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Given: both right-angled triangles share the vertical side $h$. Nearer point: angle $47^\\circ 12'$, adjacent $x$. Farther point: angle $35^\\circ 50'$, adjacent $x + 38$. Goal: two expressions for $h$.",
+              "Nearer point: $\\tan(47^\\circ 12') = \\dfrac{h}{x}$, so $h = x\\tan(47^\\circ 12')$",
+              "Farther point: $\\tan(35^\\circ 50') = \\dfrac{h}{x + 38}$, so $h = (x + 38)\\tan(35^\\circ 50')$"
+            ],
+            "finalAnswer": "$h = x\\tan(47^\\circ 12')$ m and $h = (x + 38)\\tan(35^\\circ 50')$ m",
+            "solutionFigures": [],
+            "tip": "The larger angle of elevation belongs to the point closer to the building."
+          }
+        },
+        {
+          "id": "ch5_ex7_q6b",
+          "number": "6(b)",
+          "category": "Practice",
+          "questionText": "A surveyor needs to determine the height of a building. She measures the angle of elevation of the top of the building from two points that are $38$ m apart. The surveyor's eye level is $180$ cm above the ground. The nearer point is $x$ m from the building (angle of elevation $47^\\circ 12'$) and the farther point is a further $38$ m away (angle of elevation $35^\\circ 50'$), so $h = x\\tan(47^\\circ 12')$ and $h = (x + 38)\\tan(35^\\circ 50')$. Solve for $x$ by equating the two expressions obtained in part a. Write your answer in metres correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Equate the two expressions for $h$ and solve the linear equation",
+            "steps": [
+              "Equate: $x\\tan(47^\\circ 12') = (x + 38)\\tan(35^\\circ 50')$",
+              "Expand: $x\\tan(47^\\circ 12') = x\\tan(35^\\circ 50') + 38\\tan(35^\\circ 50')$",
+              "Collect $x$ terms: $x\\left[\\tan(47^\\circ 12') - \\tan(35^\\circ 50')\\right] = 38\\tan(35^\\circ 50')$",
+              "$x = \\dfrac{38\\tan(35^\\circ 50')}{\\tan(47^\\circ 12') - \\tan(35^\\circ 50')}$",
+              "Calculate: $x = \\dfrac{38 \\times 0.722108\\ldots}{1.079902\\ldots - 0.722108\\ldots} = \\dfrac{27.4401\\ldots}{0.357794\\ldots} = 76.6924\\ldots$",
+              "Round to 2 decimal places: $x \\approx 76.69$ m"
+            ],
+            "finalAnswer": "$x \\approx 76.69$ m (correct to 2 decimal places)",
+            "solutionFigures": [],
+            "tip": "Factorise $x$ out of the left-hand side before dividing."
+          }
+        },
+        {
+          "id": "ch5_ex7_q6c",
+          "number": "6(c)",
+          "category": "Practice",
+          "questionText": "A surveyor needs to determine the height of a building. She measures the angle of elevation of the top of the building from two points that are $38$ m apart. The surveyor's eye level is $180$ cm above the ground. The nearer point is $x$ m from the building (angle of elevation $47^\\circ 12'$) and the farther point is a further $38$ m away (angle of elevation $35^\\circ 50'$). From part b, $x \\approx 76.69$ m. Determine the height of the building, in metres correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$h = x\\tan(47^\\circ 12')$; building height $= h + 1.80$ m",
+            "steps": [
+              "Given: $x = 76.6924\\ldots$ m (unrounded); eye level $180$ cm $= 1.80$ m. Goal: building height.",
+              "Height above eye level: $h = 76.6924\\ldots \\times \\tan(47^\\circ 12') = 76.6924\\ldots \\times 1.079902\\ldots = 82.8202\\ldots$ m",
+              "Check: $(76.6924 + 38) \\times \\tan(35^\\circ 50') = 114.6924 \\times 0.722108 = 82.820$ m ✓",
+              "Add eye level: $82.8202\\ldots + 1.80 = 84.6202\\ldots$ m",
+              "Round to 2 decimal places: $84.62$ m"
+            ],
+            "finalAnswer": "The building is approximately $84.62$ m high.",
+            "solutionFigures": [],
+            "tip": "Do not forget the surveyor's eye height; the angles were measured from eye level, not from the ground."
+          }
+        },
+        {
+          "id": "ch5_ex7_q7a",
+          "number": "7(a)",
+          "category": "Consolidate",
+          "questionText": "The height of another building needs to be determined but cannot be found directly. The surveyor decides to measure the angle of elevation of the top of the building from different sites, which are $75$ m apart. The surveyor's eye level is $189$ cm above the ground. The nearer site is $x$ m from the building, with an angle of elevation of $43^\\circ 35'$; the farther site is a further $75$ m away, with an angle of elevation of $32^\\circ 18'$. Determine two expressions for the height of the building above the surveyor's eye level, $h$, in terms of $x$ using the two angles.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Given: nearer site: angle $43^\\circ 35'$, adjacent $x$; farther site: angle $32^\\circ 18'$, adjacent $x + 75$; common opposite side $h$. Goal: two expressions for $h$.",
+              "Nearer site: $\\tan(43^\\circ 35') = \\dfrac{h}{x}$, so $h = x\\tan(43^\\circ 35')$",
+              "Farther site: $\\tan(32^\\circ 18') = \\dfrac{h}{x + 75}$, so $h = (x + 75)\\tan(32^\\circ 18')$"
+            ],
+            "finalAnswer": "$h = x\\tan(43^\\circ 35')$ m and $h = (x + 75)\\tan(32^\\circ 18')$ m",
+            "solutionFigures": [],
+            "tip": "Both triangles share the same height $h$; this is what lets you set the expressions equal."
+          }
+        },
+        {
+          "id": "ch5_ex7_q7b",
+          "number": "7(b)",
+          "category": "Consolidate",
+          "questionText": "The height of another building needs to be determined. The surveyor measures the angle of elevation of the top of the building from two sites $75$ m apart; the surveyor's eye level is $189$ cm above the ground. The nearer site is $x$ m from the building (angle $43^\\circ 35'$) and the farther site is a further $75$ m away (angle $32^\\circ 18'$), so $h = x\\tan(43^\\circ 35')$ and $h = (x + 75)\\tan(32^\\circ 18')$. Solve for $x$. Write your answer in metres correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Equate the two expressions for $h$ and solve for $x$",
+            "steps": [
+              "Equate: $x\\tan(43^\\circ 35') = (x + 75)\\tan(32^\\circ 18')$",
+              "Expand: $x\\tan(43^\\circ 35') = x\\tan(32^\\circ 18') + 75\\tan(32^\\circ 18')$",
+              "Collect $x$ terms: $x\\left[\\tan(43^\\circ 35') - \\tan(32^\\circ 18')\\right] = 75\\tan(32^\\circ 18')$",
+              "$x = \\dfrac{75\\tan(32^\\circ 18')}{\\tan(43^\\circ 35') - \\tan(32^\\circ 18')}$",
+              "Calculate: $x = \\dfrac{75 \\times 0.632174\\ldots}{0.951733\\ldots - 0.632174\\ldots} = \\dfrac{47.4130\\ldots}{0.319559\\ldots} = 148.3703\\ldots$",
+              "Round to 2 decimal places: $x \\approx 148.37$ m"
+            ],
+            "finalAnswer": "$x \\approx 148.37$ m (correct to 2 decimal places)",
+            "solutionFigures": [],
+            "tip": "Keep at least 6 decimal places in the tan values, because their difference is small."
+          }
+        },
+        {
+          "id": "ch5_ex7_q7c",
+          "number": "7(c)",
+          "category": "Consolidate",
+          "questionText": "The height of another building needs to be determined. The surveyor measures the angle of elevation of the top of the building from two sites $75$ m apart; the surveyor's eye level is $189$ cm above the ground. The nearer site is $x$ m from the building (angle $43^\\circ 35'$) and the farther site is a further $75$ m away (angle $32^\\circ 18'$). From part b, $x \\approx 148.37$ m. Determine the height of the building in metres correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$h = x\\tan(43^\\circ 35')$; building height $= h + 1.89$ m",
+            "steps": [
+              "Given: $x = 148.3703\\ldots$ m; eye level $189$ cm $= 1.89$ m. Goal: building height.",
+              "$h = 148.3703\\ldots \\times \\tan(43^\\circ 35') = 148.3703\\ldots \\times 0.951733\\ldots = 141.2088\\ldots$ m",
+              "Check: $(148.3703 + 75)\\tan(32^\\circ 18') = 223.3703 \\times 0.632174 = 141.209$ m ✓",
+              "Add the eye level: $141.2088\\ldots + 1.89 = 143.0988\\ldots$ m",
+              "Round to 2 decimal places: $143.10$ m"
+            ],
+            "finalAnswer": "The building is approximately $143.10$ m high.",
+            "solutionFigures": [],
+            "tip": "Write the answer as 143.10, keeping the zero, since 2 decimal places are required."
+          }
+        },
+        {
+          "id": "ch5_ex7_q8",
+          "number": "8",
+          "category": "Master",
+          "questionText": "A lookout tower has been erected on top of a cliff. At a distance of $5.8$ km from the foot of the cliff, the angle of elevation to the base of the tower is $15.7^\\circ$ and to the observation deck at the top of the tower is $16^\\circ$ respectively. Determine how high from the top of the cliff the observation deck is, to the nearest metre.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Given: horizontal distance (adjacent) $= 5.8$ km; angle of elevation to the tower base (top of cliff) $= 15.7^\\circ$; to the observation deck $= 16^\\circ$. Goal: height of the deck above the top of the cliff.",
+              "Height to the observation deck: $H_1 = 5.8\\tan(16^\\circ) = 5.8 \\times 0.286745\\ldots = 1.663123\\ldots$ km",
+              "Height of the cliff (tower base): $H_2 = 5.8\\tan(15.7^\\circ) = 5.8 \\times 0.281087\\ldots = 1.630306\\ldots$ km",
+              "Difference: $H_1 - H_2 = 1.663123\\ldots - 1.630306\\ldots = 0.032817\\ldots$ km",
+              "Convert to metres: $0.032817\\ldots \\times 1000 = 32.817\\ldots$ m",
+              "Round to the nearest metre: $33$ m"
+            ],
+            "finalAnswer": "The observation deck is approximately $33$ m ($0.033$ km) above the top of the cliff.",
+            "solutionFigures": [],
+            "tip": "Do not round the two heights before subtracting; the difference is small, so early rounding causes a large error."
+          }
+        },
+        {
+          "id": "ch5_ex7_q9",
+          "number": "9",
+          "category": "Practice",
+          "questionText": "Elena and Sonja were on a camping trip to the Grampians, where they spent their first day hiking. They first walked $1.5$ km along a path inclined at an angle of $10^\\circ$ to the horizontal. Then they had to follow another path, which was at an angle of $20^\\circ$ to the horizontal. They walked along this path for $1.3$ km, which brought them to the edge of the cliff. Here Elena spotted a large gum tree $1.4$ km away (horizontally). If the gum tree is $150$ m high, calculate the angle of depression from the top of the cliff to the top of the gum tree. Express your answer in degrees correct to the nearest degree.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = \\dfrac{O}{H}$; $\\theta = \\tan^{-1}\\left(\\dfrac{O}{A}\\right)$",
+            "steps": [
+              "Given: path 1: $1.5$ km at $10^\\circ$; path 2: $1.3$ km at $20^\\circ$; horizontal distance to tree $= 1.4$ km $= 1400$ m; tree height $= 150$ m. Goal: angle of depression from the cliff top to the tree top.",
+              "Vertical rise on path 1: $1500\\sin(10^\\circ) = 1500 \\times 0.173648\\ldots = 260.47\\ldots$ m",
+              "Vertical rise on path 2: $1300\\sin(20^\\circ) = 1300 \\times 0.342020\\ldots = 444.63\\ldots$ m",
+              "Height of the cliff top: $260.47\\ldots + 444.63\\ldots = 705.10\\ldots$ m",
+              "Vertical drop from the cliff top to the tree top: $705.10\\ldots - 150 = 555.10\\ldots$ m",
+              "The angle of depression equals the angle at the tree top in the right-angled triangle (alternate angles): $\\tan(\\theta) = \\dfrac{555.10\\ldots}{1400} = 0.396499\\ldots$",
+              "$\\theta = \\tan^{-1}(0.396499\\ldots) = 21.63\\ldots^\\circ$",
+              "Round to the nearest degree: $\\theta \\approx 22^\\circ$"
+            ],
+            "finalAnswer": "The angle of depression from the top of the cliff to the top of the gum tree is approximately $22^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Convert all lengths to the same unit (metres) before calculating the ratio."
+          }
+        },
+        {
+          "id": "ch5_ex7_q10",
+          "number": "10",
+          "category": "Consolidate",
+          "questionText": "From a point on top of a cliff, two boats are observed. If the angles of depression are $58^\\circ$ and $32^\\circ$ and the cliff is $46$ m above sea level, determine how far apart the boats are, in metres correct to 2 decimal places. (Both boats are on the same side of the cliff, in line with it; the nearer boat has the $58^\\circ$ angle of depression.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$, so $A = \\dfrac{O}{\\tan(\\theta)}$",
+            "steps": [
+              "Given: cliff height $46$ m; angles of depression $58^\\circ$ (nearer boat) and $32^\\circ$ (farther boat). Each angle of depression equals the angle of elevation at the boat (alternate angles). Goal: distance between the boats.",
+              "Farther boat: $\\tan(32^\\circ) = \\dfrac{46}{d_1}$, so $d_1 = \\dfrac{46}{\\tan(32^\\circ)} = \\dfrac{46}{0.624869\\ldots} = 73.6154\\ldots$ m",
+              "Nearer boat: $\\tan(58^\\circ) = \\dfrac{46}{d_2}$, so $d_2 = \\dfrac{46}{\\tan(58^\\circ)} = \\dfrac{46}{1.600335\\ldots} = 28.7440\\ldots$ m",
+              "Distance apart: $d_1 - d_2 = 73.6154\\ldots - 28.7440\\ldots = 44.8714\\ldots$ m",
+              "Round to 2 decimal places: $44.87$ m"
+            ],
+            "finalAnswer": "The boats are approximately $44.87$ m apart (correct to 2 decimal places). (The textbook gives $44.88$ m, which comes from rounding $d_1$ and $d_2$ to 2 decimal places before subtracting: $73.62 - 28.74$.)",
+            "solutionFigures": [],
+            "tip": "Keep full calculator values until the final subtraction to avoid rounding errors."
+          }
+        },
+        {
+          "id": "ch5_ex7_q11a",
+          "number": "11(a)",
+          "category": "Master",
+          "questionText": "A $2.05$-m tall man, standing in front of a street light $3.08$ m high, casts a $1.5$-m shadow. The light shines from the top of the pole past the top of the man's head to the tip of his shadow. Calculate the angle of elevation, to the nearest degree, from the ground to the source of light.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta = \\tan^{-1}\\left(\\dfrac{O}{A}\\right)$",
+            "steps": [
+              "Given: man's height $2.05$ m; shadow length $1.5$ m. The light ray passes over the man's head to the tip of the shadow. Goal: angle of elevation $\\theta$ at the tip of the shadow.",
+              "In the small right-angled triangle (man and shadow): opposite $= 2.05$, adjacent $= 1.5$.",
+              "$\\tan(\\theta) = \\dfrac{2.05}{1.5} = 1.366667\\ldots$",
+              "$\\theta = \\tan^{-1}(1.366667\\ldots) = 53.81\\ldots^\\circ$",
+              "Round to the nearest degree: $\\theta \\approx 54^\\circ$"
+            ],
+            "finalAnswer": "The angle of elevation from the ground to the light source is approximately $54^\\circ$.",
+            "solutionFigures": [],
+            "tip": "The same angle of elevation applies to the man's triangle and the pole's triangle, since they share the light ray."
+          }
+        },
+        {
+          "id": "ch5_ex7_q11b",
+          "number": "11(b)",
+          "category": "Master",
+          "questionText": "A $2.05$-m tall man, standing in front of a street light $3.08$ m high, casts a $1.5$-m shadow. The light shines from the top of the pole past the top of the man's head to the tip of his shadow. The angle of elevation from the tip of the shadow to the light is $\\theta$, where $\\tan(\\theta) = \\dfrac{2.05}{1.5}$ (about $54^\\circ$). Determine how far the man is from the bottom of the light pole in metres correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$, so $A = \\dfrac{O}{\\tan(\\theta)}$",
+            "steps": [
+              "Given: pole height $3.08$ m; $\\tan(\\theta) = \\dfrac{2.05}{1.5}$ (exact). Goal: distance $d$ from the man to the pole.",
+              "In the large triangle (pole and ground to the shadow tip): $\\tan(\\theta) = \\dfrac{3.08}{D}$, where $D$ is the distance from the pole to the tip of the shadow.",
+              "$D = \\dfrac{3.08}{\\tan(\\theta)} = \\dfrac{3.08}{\\frac{2.05}{1.5}} = \\dfrac{3.08 \\times 1.5}{2.05} = 2.25366\\ldots$ m",
+              "Distance from the man to the pole: $d = D - 1.5 = 2.25366\\ldots - 1.5 = 0.75366\\ldots$ m",
+              "Round to 2 decimal places: $d \\approx 0.75$ m"
+            ],
+            "finalAnswer": "The man is approximately $0.75$ m from the bottom of the light pole.",
+            "solutionFigures": [],
+            "tip": "Use the unrounded angle (or the exact ratio $\\frac{2.05}{1.5}$); using the rounded $54^\\circ$ gives 0.74 m."
+          }
+        },
+        {
+          "id": "ch5_ex7_q12",
+          "number": "12",
+          "category": "Practice",
+          "questionText": "Explain the difference between an angle of elevation and an angle of depression.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Both angles are measured from the horizontal line through the observer's eye",
+            "steps": [
+              "Angle of elevation: the observer looks up at an object above them; the angle is measured upwards from the horizontal to the line of sight.",
+              "Angle of depression: the observer looks down at an object below them; the angle is measured downwards from the horizontal to the line of sight.",
+              "If A looks up at B with angle of elevation $\\theta$, then B looks down at A with angle of depression $\\theta$ (alternate angles between parallel horizontal lines)."
+            ],
+            "finalAnswer": "An angle of elevation is measured upwards from the horizontal to the line of sight; an angle of depression is measured downwards from the horizontal to the line of sight.",
+            "solutionFigures": [],
+            "tip": "Neither angle is ever measured from the vertical."
+          }
+        },
+        {
+          "id": "ch5_ex7_q13a",
+          "number": "13(a)",
+          "category": "Consolidate",
+          "questionText": "Joseph is asked to obtain an estimate of the height of his house using any mathematical technique. He decides to use a clinometer and basic trigonometry. Using the clinometer, Joseph determines the angle of elevation, $\\theta$, from his eye level to the top of his house to be $42^\\circ$. The point from which Joseph measures the angle of elevation is $15$ m away from his house and the distance from Joseph's eyes to the ground is $1.76$ m. In the diagram, $h$ is the height of Joseph's eyes above the ground, $d$ is the horizontal distance from Joseph to the house, and $x$ is the height of the house above Joseph's eye level. Determine the values for the pronumerals $h$, $d$ and $\\theta$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Match each pronumeral in the diagram to the given information",
+            "steps": [
+              "$h$ is the vertical distance from Joseph's eyes to the ground: $h = 1.76$ m.",
+              "$d$ is the horizontal distance from Joseph to his house: $d = 15$ m.",
+              "$\\theta$ is the angle of elevation from his eye level to the top of the house: $\\theta = 42^\\circ$."
+            ],
+            "finalAnswer": "$h = 1.76$ m, $d = 15$ m, $\\theta = 42^\\circ$",
+            "solutionFigures": [],
+            "tip": "Labelling the diagram carefully first makes the calculation in part b straightforward."
+          }
+        },
+        {
+          "id": "ch5_ex7_q13b",
+          "number": "13(b)",
+          "category": "Consolidate",
+          "questionText": "Joseph is asked to obtain an estimate of the height of his house. Using a clinometer, he determines the angle of elevation from his eye level to the top of his house to be $42^\\circ$. He is $15$ m away from his house and his eyes are $1.76$ m above the ground. Let $x$ be the height of the house above Joseph's eye level. Determine the height of Joseph's house, in metres correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$; house height $= x + h$",
+            "steps": [
+              "Given: $\\theta = 42^\\circ$, $d = 15$ m (adjacent), $h = 1.76$ m. Goal: total height of the house.",
+              "Height above eye level: $\\tan(42^\\circ) = \\dfrac{x}{15}$, so $x = 15\\tan(42^\\circ)$",
+              "Calculate: $x = 15 \\times 0.900404\\ldots = 13.5061\\ldots$ m",
+              "Add eye height: $13.5061\\ldots + 1.76 = 15.2661\\ldots$ m",
+              "Round to 2 decimal places: $15.27$ m"
+            ],
+            "finalAnswer": "Joseph's house is approximately $15.27$ m high.",
+            "solutionFigures": [],
+            "tip": "The clinometer measures from eye level, so add Joseph's eye height to get the full height."
+          }
+        },
+        {
+          "id": "ch5_ex7_q14a",
+          "number": "14(a)",
+          "category": "Master",
+          "questionText": "The angle of elevation of a vertically rising hot air balloon changes from $27^\\circ$ at 7:00 am to $61^\\circ$ at 7:03 am, according to an observer who is $300$ m away from the take-off point. Assuming a constant speed, calculate that speed (in m/s and km/h) at which the balloon is rising, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$; speed $= \\dfrac{\\text{distance}}{\\text{time}}$; $1$ m/s $= 3.6$ km/h",
+            "steps": [
+              "Given: horizontal distance (adjacent) $= 300$ m; angles $27^\\circ$ and $61^\\circ$; time $= 3$ min $= 180$ s. Goal: rising speed.",
+              "Height at 7:00 am: $h_1 = 300\\tan(27^\\circ) = 300 \\times 0.509525\\ldots = 152.858\\ldots$ m",
+              "Height at 7:03 am: $h_2 = 300\\tan(61^\\circ) = 300 \\times 1.804048\\ldots = 541.214\\ldots$ m",
+              "Distance risen: $541.214\\ldots - 152.858\\ldots = 388.357\\ldots$ m",
+              "Speed: $\\dfrac{388.357\\ldots}{180} = 2.15754\\ldots$ m/s $\\approx 2.16$ m/s",
+              "Convert to km/h: $2.15754\\ldots \\times 3.6 = 7.76713\\ldots$ km/h $\\approx 7.77$ km/h"
+            ],
+            "finalAnswer": "The balloon rises at approximately $2.16$ m/s, which is about $7.77$ km/h.",
+            "solutionFigures": [],
+            "tip": "Convert minutes to seconds before dividing, and multiply m/s by 3.6 to get km/h."
+          }
+        },
+        {
+          "id": "ch5_ex7_q14b",
+          "number": "14(b)",
+          "category": "Master",
+          "questionText": "The angle of elevation of a vertically rising hot air balloon changes from $27^\\circ$ at 7:00 am to $61^\\circ$ at 7:03 am, according to an observer who is $300$ m away from the take-off point. At 7:03 am the balloon is $300\\tan(61^\\circ) \\approx 541.21$ m high. The balloon then falls $120$ metres. Determine the angle of elevation now. Write your answer in degrees correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\theta = \\tan^{-1}\\left(\\dfrac{O}{A}\\right)$",
+            "steps": [
+              "Given: height at 7:03 am $= 541.214\\ldots$ m; fall of $120$ m; horizontal distance $300$ m. Goal: new angle of elevation.",
+              "New height: $541.214\\ldots - 120 = 421.214\\ldots$ m",
+              "$\\tan(\\theta) = \\dfrac{421.214\\ldots}{300} = 1.404048\\ldots$",
+              "$\\theta = \\tan^{-1}(1.404048\\ldots) = 54.54\\ldots^\\circ$",
+              "Round to 1 decimal place: $\\theta \\approx 54.5^\\circ$"
+            ],
+            "finalAnswer": "The angle of elevation is now approximately $54.5^\\circ$.",
+            "solutionFigures": [],
+            "tip": "The horizontal distance stays 300 m because the balloon moves straight up and down."
+          }
+        },
+        {
+          "id": "ch5_ex7_q15",
+          "number": "15",
+          "category": "Practice",
+          "questionText": "The competitors of a cross-country run are nearing the finish line. From a lookout $100$ m above the track, the angles of depression to the two leaders, Nathan and Rachel, are $40^\\circ$ and $62^\\circ$ respectively. Evaluate how far apart, to the nearest metre, the two competitors are. (Both runners are on the same side of the lookout, in line with it.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Angle of depression = angle of elevation (alternate angles); $A = \\dfrac{O}{\\tan(\\theta)}$",
+            "steps": [
+              "Given: lookout height $100$ m; angles of depression $40^\\circ$ (Nathan, farther) and $62^\\circ$ (Rachel, nearer). Goal: distance between the runners.",
+              "Nathan: $\\tan(40^\\circ) = \\dfrac{100}{d_N}$, so $d_N = \\dfrac{100}{\\tan(40^\\circ)} = \\dfrac{100}{0.839100\\ldots} = 119.175\\ldots$ m",
+              "Rachel: $\\tan(62^\\circ) = \\dfrac{100}{d_R}$, so $d_R = \\dfrac{100}{\\tan(62^\\circ)} = \\dfrac{100}{1.880726\\ldots} = 53.171\\ldots$ m",
+              "Distance apart: $119.175\\ldots - 53.171\\ldots = 66.004\\ldots$ m",
+              "Round to the nearest metre: $66$ m"
+            ],
+            "finalAnswer": "Nathan and Rachel are approximately $66$ m apart.",
+            "solutionFigures": [],
+            "tip": "The smaller angle of depression belongs to the competitor who is further away."
+          }
+        },
+        {
+          "id": "ch5_ex7_q16",
+          "number": "16",
+          "category": "Consolidate",
+          "questionText": "The angle of depression from the top of one building to the foot of another building across the same street and $45$ metres horizontally away is $65^\\circ$. The angle of depression to the roof of the same building is $30^\\circ$. Evaluate the height of the shorter building. Write your answer in metres correct to 3 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$",
+            "steps": [
+              "Given: horizontal distance between the buildings $= 45$ m; angle of depression to the foot of the shorter building $= 65^\\circ$; to its roof $= 30^\\circ$. Goal: height of the shorter building.",
+              "Height of the taller building: $\\tan(65^\\circ) = \\dfrac{H}{45}$, so $H = 45\\tan(65^\\circ) = 45 \\times 2.144507\\ldots = 96.5028\\ldots$ m",
+              "Height of the taller building above the roof of the shorter one: $\\tan(30^\\circ) = \\dfrac{k}{45}$, so $k = 45\\tan(30^\\circ) = 45 \\times 0.577350\\ldots = 25.9808\\ldots$ m",
+              "Shorter building: $H - k = 96.5028\\ldots - 25.9808\\ldots = 70.5220\\ldots$ m",
+              "Round to 3 decimal places: $70.522$ m"
+            ],
+            "finalAnswer": "The shorter building is approximately $70.522$ m high.",
+            "solutionFigures": [],
+            "tip": "The $30^\\circ$ triangle gives only the difference in heights, not the height of the shorter building itself."
+          }
+        },
+        {
+          "id": "ch5_ex7_q17",
+          "number": "17",
+          "category": "Master",
+          "questionText": "P and Q are two points on a horizontal line that are $120$ metres apart. The angles of elevation from P and Q to the top of a mountain are $36^\\circ$ and $42^\\circ$ respectively. Q is between P and the mountain. Determine the height of the mountain, in metres, correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(\\theta) = \\dfrac{O}{A}$; equate two expressions for the height",
+            "steps": [
+              "Given: $PQ = 120$ m; elevation from P $= 36^\\circ$; from Q $= 42^\\circ$. Let $x$ be the horizontal distance from Q to the point directly below the summit and $h$ the height. Goal: $h$.",
+              "From Q: $h = x\\tan(42^\\circ)$",
+              "From P: $h = (x + 120)\\tan(36^\\circ)$",
+              "Equate: $x\\tan(42^\\circ) = x\\tan(36^\\circ) + 120\\tan(36^\\circ)$",
+              "$x = \\dfrac{120\\tan(36^\\circ)}{\\tan(42^\\circ) - \\tan(36^\\circ)} = \\dfrac{120 \\times 0.726543\\ldots}{0.900404\\ldots - 0.726543\\ldots} = \\dfrac{87.1851\\ldots}{0.173862\\ldots} = 501.463\\ldots$ m",
+              "Height: $h = 501.463\\ldots \\times 0.900404\\ldots = 451.519\\ldots$ m",
+              "Check: $(501.463 + 120)\\tan(36^\\circ) = 621.463 \\times 0.726543 = 451.519$ m ✓",
+              "Round to 1 decimal place: $h \\approx 451.5$ m"
+            ],
+            "finalAnswer": "The mountain is approximately $451.5$ m high.",
+            "solutionFigures": [],
+            "tip": "With two angles of elevation from different points, set up two tan equations with a common height and solve simultaneously."
+          }
+        }
+      ]
+    }
+  ]
+}
