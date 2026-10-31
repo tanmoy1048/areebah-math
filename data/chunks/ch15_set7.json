@@ -1,0 +1,783 @@
+{
+  "chapterId": "ch15",
+  "chapterTitle": "Trigonometry II (10A)",
+  "topics": [
+    {
+      "topicId": "15.7",
+      "topicTitle": "Solving trigonometric equations",
+      "exercises": [
+        {
+          "id": "ch15_ex7_q1a",
+          "number": "1(a)",
+          "category": "Practice",
+          "questionText": "Use the graph of $y=\\cos(x)$ for $0^\\circ\\le x\\le360^\\circ$ (a cosine curve starting at $(0^\\circ,1)$, reaching $-1$ at $180^\\circ$ and returning to $1$ at $360^\\circ$) to determine approximate answers to the equation for the domain $0\\le x\\le360^\\circ$. Check your answers using a calculator. $\\cos(x)=0.9$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Solutions of $\\cos(x)=k$ are where the horizontal line $y=k$ meets the curve; by symmetry, if $x_1$ is one solution in $[0^\\circ,180^\\circ]$ the other is $360^\\circ-x_1$.",
+            "steps": [
+              "Given: $\\cos(x)=0.9$, $0^\\circ\\le x\\le360^\\circ$. Goal: both solutions.",
+              "Draw the line $y=0.9$ across the graph; it cuts the curve twice, symmetrically about $x=180^\\circ$. Both intersections are near the ends of the domain, where the graph is high.",
+              "Calculator (degree mode): $x=\\cos^{-1}(0.9)\\approx25.84^\\circ$.",
+              "Second solution: $x=360^\\circ-25.84^\\circ=334.16^\\circ$."
+            ],
+            "finalAnswer": "$x\\approx25.84^\\circ$ or $x\\approx334.16^\\circ$ (correct to 2 decimal places).",
+            "solutionFigures": [],
+            "tip": "The cosine graph is symmetric about $x=180^\\circ$, so the two solutions add to $360^\\circ$."
+          }
+        },
+        {
+          "id": "ch15_ex7_q1b",
+          "number": "1(b)",
+          "category": "Practice",
+          "questionText": "Use the graph of $y=\\cos(x)$ for $0^\\circ\\le x\\le360^\\circ$ (a cosine curve starting at $(0^\\circ,1)$, reaching $-1$ at $180^\\circ$ and returning to $1$ at $360^\\circ$) to determine approximate answers to the equation for the domain $0\\le x\\le360^\\circ$. Check your answers using a calculator. $\\cos(x)=0.3$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Solutions of $\\cos(x)=k$ are where the horizontal line $y=k$ meets the curve; by symmetry, if $x_1$ is one solution in $[0^\\circ,180^\\circ]$ the other is $360^\\circ-x_1$.",
+            "steps": [
+              "Given: $\\cos(x)=0.3$, $0^\\circ\\le x\\le360^\\circ$. Goal: both solutions.",
+              "Draw the line $y=0.3$ across the graph; it cuts the curve twice, symmetrically about $x=180^\\circ$.",
+              "Calculator (degree mode): $x=\\cos^{-1}(0.3)\\approx72.54^\\circ$.",
+              "Second solution: $x=360^\\circ-72.54^\\circ=287.46^\\circ$."
+            ],
+            "finalAnswer": "$x\\approx72.54^\\circ$ or $x\\approx287.46^\\circ$ (correct to 2 decimal places).",
+            "solutionFigures": [],
+            "tip": "The cosine graph is symmetric about $x=180^\\circ$, so the two solutions add to $360^\\circ$."
+          }
+        },
+        {
+          "id": "ch15_ex7_q2a",
+          "number": "2(a)",
+          "category": "Consolidate",
+          "questionText": "Use the graph of $y=\\cos(x)$ for $0^\\circ\\le x\\le360^\\circ$ (a cosine curve starting at $(0^\\circ,1)$, reaching $-1$ at $180^\\circ$ and returning to $1$ at $360^\\circ$) to determine approximate answers to the equation for the domain $0\\le x\\le360^\\circ$. Check your answers using a calculator. $\\cos(x)=-0.2$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Solutions of $\\cos(x)=k$ are where the horizontal line $y=k$ meets the curve; by symmetry, if $x_1$ is one solution in $[0^\\circ,180^\\circ]$ the other is $360^\\circ-x_1$.",
+            "steps": [
+              "Given: $\\cos(x)=-0.2$, $0^\\circ\\le x\\le360^\\circ$. Goal: both solutions.",
+              "Draw the line $y=-0.2$ across the graph; it cuts the curve twice, symmetrically about $x=180^\\circ$. Since $y$ is negative, the intersections are in the second and third quadrants.",
+              "Calculator (degree mode): $x=\\cos^{-1}(-0.2)\\approx101.54^\\circ$.",
+              "Second solution: $x=360^\\circ-101.54^\\circ=258.46^\\circ$."
+            ],
+            "finalAnswer": "$x\\approx101.54^\\circ$ or $x\\approx258.46^\\circ$ (correct to 2 decimal places).",
+            "solutionFigures": [],
+            "tip": "The cosine graph is symmetric about $x=180^\\circ$, so the two solutions add to $360^\\circ$."
+          }
+        },
+        {
+          "id": "ch15_ex7_q2b",
+          "number": "2(b)",
+          "category": "Consolidate",
+          "questionText": "Use the graph of $y=\\cos(x)$ for $0^\\circ\\le x\\le360^\\circ$ (a cosine curve starting at $(0^\\circ,1)$, reaching $-1$ at $180^\\circ$ and returning to $1$ at $360^\\circ$) to determine approximate answers to the equation for the domain $0\\le x\\le360^\\circ$. Check your answers using a calculator. $\\cos(x)=-0.6$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Solutions of $\\cos(x)=k$ are where the horizontal line $y=k$ meets the curve; by symmetry, if $x_1$ is one solution in $[0^\\circ,180^\\circ]$ the other is $360^\\circ-x_1$.",
+            "steps": [
+              "Given: $\\cos(x)=-0.6$, $0^\\circ\\le x\\le360^\\circ$. Goal: both solutions.",
+              "Draw the line $y=-0.6$ across the graph; it cuts the curve twice, symmetrically about $x=180^\\circ$. Since $y$ is negative, the intersections are in the second and third quadrants.",
+              "Calculator (degree mode): $x=\\cos^{-1}(-0.6)\\approx126.87^\\circ$.",
+              "Second solution: $x=360^\\circ-126.87^\\circ=233.13^\\circ$."
+            ],
+            "finalAnswer": "$x\\approx126.87^\\circ$ or $x\\approx233.13^\\circ$ (correct to 2 decimal places).",
+            "solutionFigures": [],
+            "tip": "The cosine graph is symmetric about $x=180^\\circ$, so the two solutions add to $360^\\circ$."
+          }
+        },
+        {
+          "id": "ch15_ex7_q3a",
+          "number": "3(a)",
+          "category": "Practice",
+          "questionText": "Solve the equation for the domain $0^\\circ\\le x\\le360^\\circ$: $\\sin(x)=\\frac{1}{2}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "CAST rule: in $[0^\\circ,360^\\circ]$, sine is positive in quadrants 1 and 2, cosine in quadrants 1 and 4, tangent in quadrants 1 and 3. Quadrant angles from a reference angle $\\theta$: $\\theta$, $180^\\circ-\\theta$, $180^\\circ+\\theta$, $360^\\circ-\\theta$.",
+            "steps": [
+              "Given: $\\sin(x)=\\frac{1}{2}$, $0^\\circ\\le x\\le360^\\circ$. Goal: all solutions (exact values).",
+              "Reference angle: $\\sin(30^\\circ)=\\frac12$, so $\\theta=30^\\circ$.",
+              "Sine is positive, so $x$ is in quadrant 1 or 2.",
+              "Quadrant 1: $x=30^\\circ$.",
+              "Quadrant 2: $x=180^\\circ-30^\\circ=150^\\circ$."
+            ],
+            "finalAnswer": "$x=30^\\circ$ or $x=150^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Find the reference angle from the positive value first, then use the CAST rule to place the angles."
+          }
+        },
+        {
+          "id": "ch15_ex7_q3b",
+          "number": "3(b)",
+          "category": "Practice",
+          "questionText": "Solve the equation for the domain $0^\\circ\\le x\\le360^\\circ$: $\\sin(x)=\\frac{\\sqrt3}{2}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "CAST rule: in $[0^\\circ,360^\\circ]$, sine is positive in quadrants 1 and 2, cosine in quadrants 1 and 4, tangent in quadrants 1 and 3. Quadrant angles from a reference angle $\\theta$: $\\theta$, $180^\\circ-\\theta$, $180^\\circ+\\theta$, $360^\\circ-\\theta$.",
+            "steps": [
+              "Given: $\\sin(x)=\\frac{\\sqrt3}{2}$, $0^\\circ\\le x\\le360^\\circ$. Goal: all solutions (exact values).",
+              "Reference angle: $\\sin(60^\\circ)=\\frac{\\sqrt3}{2}$, so $\\theta=60^\\circ$.",
+              "Sine is positive, so $x$ is in quadrant 1 or 2.",
+              "Quadrant 1: $x=60^\\circ$.",
+              "Quadrant 2: $x=180^\\circ-60^\\circ=120^\\circ$."
+            ],
+            "finalAnswer": "$x=60^\\circ$ or $x=120^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Find the reference angle from the positive value first, then use the CAST rule to place the angles."
+          }
+        },
+        {
+          "id": "ch15_ex7_q4a",
+          "number": "4(a)",
+          "category": "Consolidate",
+          "questionText": "Solve the equation for the domain $0^\\circ\\le x\\le360^\\circ$: $\\cos(x)=-\\frac{1}{2}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "CAST rule: in $[0^\\circ,360^\\circ]$, sine is positive in quadrants 1 and 2, cosine in quadrants 1 and 4, tangent in quadrants 1 and 3. Quadrant angles from a reference angle $\\theta$: $\\theta$, $180^\\circ-\\theta$, $180^\\circ+\\theta$, $360^\\circ-\\theta$.",
+            "steps": [
+              "Given: $\\cos(x)=-\\frac{1}{2}$, $0^\\circ\\le x\\le360^\\circ$. Goal: all solutions (exact values).",
+              "Reference angle: $\\cos(60^\\circ)=\\frac12$, so $\\theta=60^\\circ$.",
+              "Cosine is negative, so $x$ is in quadrant 2 or 3.",
+              "Quadrant 2: $x=180^\\circ-60^\\circ=120^\\circ$.",
+              "Quadrant 3: $x=180^\\circ+60^\\circ=240^\\circ$."
+            ],
+            "finalAnswer": "$x=120^\\circ$ or $x=240^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Find the reference angle from the positive value first, then use the CAST rule to place the angles."
+          }
+        },
+        {
+          "id": "ch15_ex7_q4b",
+          "number": "4(b)",
+          "category": "Consolidate",
+          "questionText": "Solve the equation for the domain $0^\\circ\\le x\\le360^\\circ$: $\\cos(x)=-\\frac{1}{\\sqrt2}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "CAST rule: in $[0^\\circ,360^\\circ]$, sine is positive in quadrants 1 and 2, cosine in quadrants 1 and 4, tangent in quadrants 1 and 3. Quadrant angles from a reference angle $\\theta$: $\\theta$, $180^\\circ-\\theta$, $180^\\circ+\\theta$, $360^\\circ-\\theta$.",
+            "steps": [
+              "Given: $\\cos(x)=-\\frac{1}{\\sqrt2}$, $0^\\circ\\le x\\le360^\\circ$. Goal: all solutions (exact values).",
+              "Reference angle: $\\cos(45^\\circ)=\\frac{1}{\\sqrt2}$, so $\\theta=45^\\circ$.",
+              "Cosine is negative, so $x$ is in quadrant 2 or 3.",
+              "Quadrant 2: $x=180^\\circ-45^\\circ=135^\\circ$.",
+              "Quadrant 3: $x=180^\\circ+45^\\circ=225^\\circ$."
+            ],
+            "finalAnswer": "$x=135^\\circ$ or $x=225^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Find the reference angle from the positive value first, then use the CAST rule to place the angles."
+          }
+        },
+        {
+          "id": "ch15_ex7_q5a",
+          "number": "5(a)",
+          "category": "Master",
+          "questionText": "Solve the equation for the domain $0^\\circ\\le x\\le360^\\circ$: $\\sin(x)=1$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "CAST rule: in $[0^\\circ,360^\\circ]$, sine is positive in quadrants 1 and 2, cosine in quadrants 1 and 4, tangent in quadrants 1 and 3. Quadrant angles from a reference angle $\\theta$: $\\theta$, $180^\\circ-\\theta$, $180^\\circ+\\theta$, $360^\\circ-\\theta$.",
+            "steps": [
+              "Given: $\\sin(x)=1$, $0^\\circ\\le x\\le360^\\circ$. Goal: all solutions (exact values).",
+              "$\\sin(90^\\circ)=1$ is the maximum value of sine.",
+              "On the unit circle, $\\sin(x)$ is the $y$-coordinate; $y=1$ only at the point $(0,1)$.",
+              "The point $(0,1)$ corresponds to $x=90^\\circ$ only within $[0^\\circ,360^\\circ]$."
+            ],
+            "finalAnswer": "$x=90^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Boundary values ($\\pm1$, $0$) give fewer solutions; use the unit circle or graph, not the CAST rule."
+          }
+        },
+        {
+          "id": "ch15_ex7_q5b",
+          "number": "5(b)",
+          "category": "Master",
+          "questionText": "Solve the equation for the domain $0^\\circ\\le x\\le360^\\circ$: $\\cos(x)=-1$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "CAST rule: in $[0^\\circ,360^\\circ]$, sine is positive in quadrants 1 and 2, cosine in quadrants 1 and 4, tangent in quadrants 1 and 3. Quadrant angles from a reference angle $\\theta$: $\\theta$, $180^\\circ-\\theta$, $180^\\circ+\\theta$, $360^\\circ-\\theta$.",
+            "steps": [
+              "Given: $\\cos(x)=-1$, $0^\\circ\\le x\\le360^\\circ$. Goal: all solutions (exact values).",
+              "$\\cos(180^\\circ)=-1$ is the minimum value of cosine.",
+              "On the unit circle, $\\cos(x)$ is the $x$-coordinate; $x=-1$ only at the point $(-1,0)$.",
+              "The point $(-1,0)$ corresponds to $x=180^\\circ$ only."
+            ],
+            "finalAnswer": "$x=180^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Boundary values ($\\pm1$, $0$) give fewer solutions; use the unit circle or graph, not the CAST rule."
+          }
+        },
+        {
+          "id": "ch15_ex7_q6a",
+          "number": "6(a)",
+          "category": "Practice",
+          "questionText": "Solve the equation for the domain $0^\\circ\\le x\\le360^\\circ$: $\\sin(x)=-\\frac{1}{2}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "CAST rule: in $[0^\\circ,360^\\circ]$, sine is positive in quadrants 1 and 2, cosine in quadrants 1 and 4, tangent in quadrants 1 and 3. Quadrant angles from a reference angle $\\theta$: $\\theta$, $180^\\circ-\\theta$, $180^\\circ+\\theta$, $360^\\circ-\\theta$.",
+            "steps": [
+              "Given: $\\sin(x)=-\\frac{1}{2}$, $0^\\circ\\le x\\le360^\\circ$. Goal: all solutions (exact values).",
+              "Reference angle: $\\sin(30^\\circ)=\\frac12$, so $\\theta=30^\\circ$.",
+              "Sine is negative, so $x$ is in quadrant 3 or 4.",
+              "Quadrant 3: $x=180^\\circ+30^\\circ=210^\\circ$.",
+              "Quadrant 4: $x=360^\\circ-30^\\circ=330^\\circ$."
+            ],
+            "finalAnswer": "$x=210^\\circ$ or $x=330^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Find the reference angle from the positive value first, then use the CAST rule to place the angles."
+          }
+        },
+        {
+          "id": "ch15_ex7_q6b",
+          "number": "6(b)",
+          "category": "Practice",
+          "questionText": "Solve the equation for the domain $0^\\circ\\le x\\le360^\\circ$: $\\sin(x)=-\\frac{1}{\\sqrt2}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "CAST rule: in $[0^\\circ,360^\\circ]$, sine is positive in quadrants 1 and 2, cosine in quadrants 1 and 4, tangent in quadrants 1 and 3. Quadrant angles from a reference angle $\\theta$: $\\theta$, $180^\\circ-\\theta$, $180^\\circ+\\theta$, $360^\\circ-\\theta$.",
+            "steps": [
+              "Given: $\\sin(x)=-\\frac{1}{\\sqrt2}$, $0^\\circ\\le x\\le360^\\circ$. Goal: all solutions (exact values).",
+              "Reference angle: $\\sin(45^\\circ)=\\frac{1}{\\sqrt2}$, so $\\theta=45^\\circ$.",
+              "Sine is negative, so $x$ is in quadrant 3 or 4.",
+              "Quadrant 3: $x=180^\\circ+45^\\circ=225^\\circ$.",
+              "Quadrant 4: $x=360^\\circ-45^\\circ=315^\\circ$."
+            ],
+            "finalAnswer": "$x=225^\\circ$ or $x=315^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Find the reference angle from the positive value first, then use the CAST rule to place the angles."
+          }
+        },
+        {
+          "id": "ch15_ex7_q7a",
+          "number": "7(a)",
+          "category": "Consolidate",
+          "questionText": "Solve the equation for the domain $0^\\circ\\le x\\le360^\\circ$: $\\cos(x)=\\frac{\\sqrt3}{2}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "CAST rule: in $[0^\\circ,360^\\circ]$, sine is positive in quadrants 1 and 2, cosine in quadrants 1 and 4, tangent in quadrants 1 and 3. Quadrant angles from a reference angle $\\theta$: $\\theta$, $180^\\circ-\\theta$, $180^\\circ+\\theta$, $360^\\circ-\\theta$.",
+            "steps": [
+              "Given: $\\cos(x)=\\frac{\\sqrt3}{2}$, $0^\\circ\\le x\\le360^\\circ$. Goal: all solutions (exact values).",
+              "Reference angle: $\\cos(30^\\circ)=\\frac{\\sqrt3}{2}$, so $\\theta=30^\\circ$.",
+              "Cosine is positive, so $x$ is in quadrant 1 or 4.",
+              "Quadrant 1: $x=30^\\circ$.",
+              "Quadrant 4: $x=360^\\circ-30^\\circ=330^\\circ$."
+            ],
+            "finalAnswer": "$x=30^\\circ$ or $x=330^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Find the reference angle from the positive value first, then use the CAST rule to place the angles."
+          }
+        },
+        {
+          "id": "ch15_ex7_q7b",
+          "number": "7(b)",
+          "category": "Consolidate",
+          "questionText": "Solve the equation for the domain $0^\\circ\\le x\\le360^\\circ$: $\\cos(x)=-\\frac{\\sqrt3}{2}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "CAST rule: in $[0^\\circ,360^\\circ]$, sine is positive in quadrants 1 and 2, cosine in quadrants 1 and 4, tangent in quadrants 1 and 3. Quadrant angles from a reference angle $\\theta$: $\\theta$, $180^\\circ-\\theta$, $180^\\circ+\\theta$, $360^\\circ-\\theta$.",
+            "steps": [
+              "Given: $\\cos(x)=-\\frac{\\sqrt3}{2}$, $0^\\circ\\le x\\le360^\\circ$. Goal: all solutions (exact values).",
+              "Reference angle: $\\theta=30^\\circ$.",
+              "Cosine is negative, so $x$ is in quadrant 2 or 3.",
+              "Quadrant 2: $x=180^\\circ-30^\\circ=150^\\circ$.",
+              "Quadrant 3: $x=180^\\circ+30^\\circ=210^\\circ$."
+            ],
+            "finalAnswer": "$x=150^\\circ$ or $x=210^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Find the reference angle from the positive value first, then use the CAST rule to place the angles."
+          }
+        },
+        {
+          "id": "ch15_ex7_q8a",
+          "number": "8(a)",
+          "category": "Master",
+          "questionText": "Solve the equation for the domain $0^\\circ\\le x\\le360^\\circ$: $\\sin(x)=1$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "CAST rule: in $[0^\\circ,360^\\circ]$, sine is positive in quadrants 1 and 2, cosine in quadrants 1 and 4, tangent in quadrants 1 and 3. Quadrant angles from a reference angle $\\theta$: $\\theta$, $180^\\circ-\\theta$, $180^\\circ+\\theta$, $360^\\circ-\\theta$.",
+            "steps": [
+              "Given: $\\sin(x)=1$, $0^\\circ\\le x\\le360^\\circ$. Goal: all solutions (exact values).",
+              "$\\sin(90^\\circ)=1$.",
+              "On the unit circle, $\\sin(x)=1$ only at the point $(0,1)$.",
+              "No other angle in $[0^\\circ,360^\\circ]$ gives $\\sin(x)=1$."
+            ],
+            "finalAnswer": "$x=90^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Boundary values ($\\pm1$, $0$) give fewer solutions; check with the graph of $y=\\sin(x)$."
+          }
+        },
+        {
+          "id": "ch15_ex7_q8b",
+          "number": "8(b)",
+          "category": "Master",
+          "questionText": "Solve the equation for the domain $0^\\circ\\le x\\le360^\\circ$: $\\cos(x)=0$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "CAST rule: in $[0^\\circ,360^\\circ]$, sine is positive in quadrants 1 and 2, cosine in quadrants 1 and 4, tangent in quadrants 1 and 3. Quadrant angles from a reference angle $\\theta$: $\\theta$, $180^\\circ-\\theta$, $180^\\circ+\\theta$, $360^\\circ-\\theta$.",
+            "steps": [
+              "Given: $\\cos(x)=0$, $0^\\circ\\le x\\le360^\\circ$. Goal: all solutions (exact values).",
+              "$\\cos(90^\\circ)=0$.",
+              "On the unit circle, $\\cos(x)=0$ where the $x$-coordinate is 0: the points $(0,1)$ and $(0,-1)$.",
+              "$(0,1)$ gives $x=90^\\circ$.",
+              "$(0,-1)$ gives $x=270^\\circ$."
+            ],
+            "finalAnswer": "$x=90^\\circ$ or $x=270^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Boundary values ($\\pm1$, $0$) give fewer solutions; check with the graph of $y=\\cos(x)$."
+          }
+        },
+        {
+          "id": "ch15_ex7_q9a",
+          "number": "9(a)",
+          "category": "Practice",
+          "questionText": "Solve the equation for the given values of $x$: $\\sin(2x)=\\frac{\\sqrt3}{2}$, $x\\in[0^\\circ,360^\\circ]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "To solve $f(nx)=k$ for $x\\in[a,b]$: let $\\theta=nx$, so $\\theta\\in[na,nb]$; find all $\\theta$ using the reference angle and CAST rule (adding or subtracting $360^\\circ$ to cover the extended domain); then divide each by $n$.",
+            "steps": [
+              "Given: $\\sin(2x)=\\frac{\\sqrt3}{2}$, $x\\in[0^\\circ,360^\\circ]$. Goal: all solutions in the domain.",
+              "Domain for $2x$: $0^\\circ\\le2x\\le720^\\circ$ (two revolutions).",
+              "Reference angle: $\\sin(60^\\circ)=\\frac{\\sqrt3}{2}$, so $\\theta=60^\\circ$; sine positive in quadrants 1 and 2.",
+              "First revolution: $2x=60^\\circ$ or $2x=180^\\circ-60^\\circ=120^\\circ$.",
+              "Second revolution: $2x=60^\\circ+360^\\circ=420^\\circ$ or $2x=120^\\circ+360^\\circ=480^\\circ$.",
+              "Divide by 2: $x=30^\\circ, 60^\\circ, 210^\\circ, 240^\\circ$."
+            ],
+            "finalAnswer": "$x=30^\\circ, 60^\\circ, 210^\\circ, 240^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Extend the domain for $nx$ before solving; otherwise you will miss solutions."
+          }
+        },
+        {
+          "id": "ch15_ex7_q9b",
+          "number": "9(b)",
+          "category": "Practice",
+          "questionText": "Solve the equation for the given values of $x$: $\\cos(2x)=-\\frac{\\sqrt3}{2}$, $x\\in[0^\\circ,360^\\circ]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "To solve $f(nx)=k$ for $x\\in[a,b]$: let $\\theta=nx$, so $\\theta\\in[na,nb]$; find all $\\theta$ using the reference angle and CAST rule (adding or subtracting $360^\\circ$ to cover the extended domain); then divide each by $n$.",
+            "steps": [
+              "Given: $\\cos(2x)=-\\frac{\\sqrt3}{2}$, $x\\in[0^\\circ,360^\\circ]$. Goal: all solutions in the domain.",
+              "Domain for $2x$: $0^\\circ\\le2x\\le720^\\circ$.",
+              "Reference angle $30^\\circ$; cosine negative in quadrants 2 and 3.",
+              "First revolution: $2x=180^\\circ-30^\\circ=150^\\circ$ or $2x=180^\\circ+30^\\circ=210^\\circ$.",
+              "Second revolution: $2x=510^\\circ$ or $2x=570^\\circ$.",
+              "Divide by 2: $x=75^\\circ, 105^\\circ, 255^\\circ, 285^\\circ$."
+            ],
+            "finalAnswer": "$x=75^\\circ, 105^\\circ, 255^\\circ, 285^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Extend the domain for $nx$ before solving; otherwise you will miss solutions."
+          }
+        },
+        {
+          "id": "ch15_ex7_q10a",
+          "number": "10(a)",
+          "category": "Consolidate",
+          "questionText": "Solve the equation for the given values of $x$: $\\tan(2x)=\\frac{1}{\\sqrt3}$, $x\\in[0^\\circ,360^\\circ]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "To solve $f(nx)=k$ for $x\\in[a,b]$: let $\\theta=nx$, so $\\theta\\in[na,nb]$; find all $\\theta$ using the reference angle and CAST rule (adding or subtracting $360^\\circ$ to cover the extended domain); then divide each by $n$.",
+            "steps": [
+              "Given: $\\tan(2x)=\\frac{1}{\\sqrt3}$, $x\\in[0^\\circ,360^\\circ]$. Goal: all solutions in the domain.",
+              "Domain for $2x$: $0^\\circ\\le2x\\le720^\\circ$.",
+              "Reference angle: $\\tan(30^\\circ)=\\frac{1}{\\sqrt3}$; tangent positive in quadrants 1 and 3.",
+              "$2x=30^\\circ, 210^\\circ$ (first revolution), $390^\\circ, 570^\\circ$ (second revolution).",
+              "Divide by 2: $x=15^\\circ, 105^\\circ, 195^\\circ, 285^\\circ$."
+            ],
+            "finalAnswer": "$x=15^\\circ, 105^\\circ, 195^\\circ, 285^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Extend the domain for $nx$ before solving; otherwise you will miss solutions."
+          }
+        },
+        {
+          "id": "ch15_ex7_q10b",
+          "number": "10(b)",
+          "category": "Consolidate",
+          "questionText": "Solve the equation for the given values of $x$: $\\sin(3x)=-\\frac{1}{2}$, $x\\in[0^\\circ,180^\\circ]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "To solve $f(nx)=k$ for $x\\in[a,b]$: let $\\theta=nx$, so $\\theta\\in[na,nb]$; find all $\\theta$ using the reference angle and CAST rule (adding or subtracting $360^\\circ$ to cover the extended domain); then divide each by $n$.",
+            "steps": [
+              "Given: $\\sin(3x)=-\\frac{1}{2}$, $x\\in[0^\\circ,180^\\circ]$. Goal: all solutions in the domain.",
+              "Domain for $3x$: $0^\\circ\\le3x\\le540^\\circ$.",
+              "Reference angle $30^\\circ$; sine negative in quadrants 3 and 4.",
+              "$3x=180^\\circ+30^\\circ=210^\\circ$ or $3x=360^\\circ-30^\\circ=330^\\circ$.",
+              "Next revolution: $210^\\circ+360^\\circ=570^\\circ$ is greater than $540^\\circ$, so it is outside the domain.",
+              "Divide by 3: $x=70^\\circ, 110^\\circ$."
+            ],
+            "finalAnswer": "$x=70^\\circ$ or $x=110^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Extend the domain for $nx$ before solving; otherwise you will miss solutions."
+          }
+        },
+        {
+          "id": "ch15_ex7_q11a",
+          "number": "11(a)",
+          "category": "Master",
+          "questionText": "Solve the equation for the given values of $x$: $\\sin(4x)=-\\frac{1}{2}$, $x\\in[0^\\circ,180^\\circ]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "To solve $f(nx)=k$ for $x\\in[a,b]$: let $\\theta=nx$, so $\\theta\\in[na,nb]$; find all $\\theta$ using the reference angle and CAST rule (adding or subtracting $360^\\circ$ to cover the extended domain); then divide each by $n$.",
+            "steps": [
+              "Given: $\\sin(4x)=-\\frac{1}{2}$, $x\\in[0^\\circ,180^\\circ]$. Goal: all solutions in the domain.",
+              "Domain for $4x$: $0^\\circ\\le4x\\le720^\\circ$.",
+              "Reference angle $30^\\circ$; sine negative in quadrants 3 and 4.",
+              "First revolution: $4x=210^\\circ$ or $330^\\circ$.",
+              "Second revolution: $4x=570^\\circ$ or $690^\\circ$.",
+              "Divide by 4: $x=52.5^\\circ, 82.5^\\circ, 142.5^\\circ, 172.5^\\circ$."
+            ],
+            "finalAnswer": "$x=52.5^\\circ, 82.5^\\circ, 142.5^\\circ, 172.5^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Extend the domain for $nx$ before solving; otherwise you will miss solutions."
+          }
+        },
+        {
+          "id": "ch15_ex7_q11b",
+          "number": "11(b)",
+          "category": "Master",
+          "questionText": "Solve the equation for the given values of $x$: $\\sin(3x)=-\\frac{1}{\\sqrt2}$, $x\\in[-180^\\circ,180^\\circ]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "To solve $f(nx)=k$ for $x\\in[a,b]$: let $\\theta=nx$, so $\\theta\\in[na,nb]$; find all $\\theta$ using the reference angle and CAST rule (adding or subtracting $360^\\circ$ to cover the extended domain); then divide each by $n$.",
+            "steps": [
+              "Given: $\\sin(3x)=-\\frac{1}{\\sqrt2}$, $x\\in[-180^\\circ,180^\\circ]$. Goal: all solutions in the domain.",
+              "Domain for $3x$: $-540^\\circ\\le3x\\le540^\\circ$.",
+              "Reference angle $45^\\circ$; sine negative in quadrants 3 and 4: $3x=225^\\circ$ or $315^\\circ$.",
+              "Subtract $360^\\circ$: $3x=-135^\\circ$ or $-45^\\circ$.",
+              "Subtract another $360^\\circ$: $3x=-495^\\circ$ or $-405^\\circ$ (both $\\ge-540^\\circ$, so valid).",
+              "Adding $360^\\circ$ to $225^\\circ$ gives $585^\\circ>540^\\circ$, which is outside the domain.",
+              "So $3x=-495^\\circ, -405^\\circ, -135^\\circ, -45^\\circ, 225^\\circ, 315^\\circ$.",
+              "Divide by 3: $x=-165^\\circ, -135^\\circ, -45^\\circ, -15^\\circ, 75^\\circ, 105^\\circ$."
+            ],
+            "finalAnswer": "$x=-165^\\circ, -135^\\circ, -45^\\circ, -15^\\circ, 75^\\circ, 105^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Extend the domain for $nx$ before solving; otherwise you will miss solutions."
+          }
+        },
+        {
+          "id": "ch15_ex7_q12a",
+          "number": "12(a)",
+          "category": "Master",
+          "questionText": "Solve the equation for the given values of $x$: $\\tan(3x)=-1$, $x\\in[0^\\circ,90^\\circ]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "To solve $f(nx)=k$ for $x\\in[a,b]$: let $\\theta=nx$, so $\\theta\\in[na,nb]$; find all $\\theta$ using the reference angle and CAST rule (adding or subtracting $360^\\circ$ to cover the extended domain); then divide each by $n$.",
+            "steps": [
+              "Given: $\\tan(3x)=-1$, $x\\in[0^\\circ,90^\\circ]$. Goal: all solutions in the domain.",
+              "Domain for $3x$: $0^\\circ\\le3x\\le270^\\circ$.",
+              "Reference angle $45^\\circ$; tangent negative in quadrants 2 and 4: $3x=135^\\circ$ or $3x=315^\\circ$.",
+              "$315^\\circ>270^\\circ$, so only $3x=135^\\circ$ is in the domain.",
+              "Divide by 3: $x=45^\\circ$."
+            ],
+            "finalAnswer": "$x=45^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Extend the domain for $nx$ before solving; otherwise you will miss solutions."
+          }
+        },
+        {
+          "id": "ch15_ex7_q12b",
+          "number": "12(b)",
+          "category": "Master",
+          "questionText": "Solve the equation for the given values of $x$: $\\cos(3x)=0$, $x\\in[0^\\circ,360^\\circ]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "To solve $f(nx)=k$ for $x\\in[a,b]$: let $\\theta=nx$, so $\\theta\\in[na,nb]$; find all $\\theta$ using the reference angle and CAST rule (adding or subtracting $360^\\circ$ to cover the extended domain); then divide each by $n$.",
+            "steps": [
+              "Given: $\\cos(3x)=0$, $x\\in[0^\\circ,360^\\circ]$. Goal: all solutions in the domain.",
+              "Domain for $3x$: $0^\\circ\\le3x\\le1080^\\circ$ (three revolutions).",
+              "$\\cos(\\theta)=0$ when $\\theta=90^\\circ$ or $270^\\circ$ in each revolution.",
+              "$3x=90^\\circ, 270^\\circ, 450^\\circ, 630^\\circ, 810^\\circ, 990^\\circ$.",
+              "Divide by 3: $x=30^\\circ, 90^\\circ, 150^\\circ, 210^\\circ, 270^\\circ, 330^\\circ$."
+            ],
+            "finalAnswer": "$x=30^\\circ, 90^\\circ, 150^\\circ, 210^\\circ, 270^\\circ, 330^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Extend the domain for $nx$ before solving; otherwise you will miss solutions."
+          }
+        },
+        {
+          "id": "ch15_ex7_q13a",
+          "number": "13(a)",
+          "category": "Practice",
+          "questionText": "Solve the following equation for $x\\in[0^\\circ,360^\\circ]$: $2\\sin(x)-1=0$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "CAST rule: in $[0^\\circ,360^\\circ]$, sine is positive in quadrants 1 and 2, cosine in quadrants 1 and 4, tangent in quadrants 1 and 3. Quadrant angles from a reference angle $\\theta$: $\\theta$, $180^\\circ-\\theta$, $180^\\circ+\\theta$, $360^\\circ-\\theta$.",
+            "steps": [
+              "Given: $2\\sin(x)-1=0$, $0^\\circ\\le x\\le360^\\circ$. Goal: all solutions.",
+              "Rearrange: $2\\sin(x)=1 \\Rightarrow \\sin(x)=\\frac12$.",
+              "Reference angle $30^\\circ$; sine positive in quadrants 1 and 2.",
+              "$x=30^\\circ$ or $x=180^\\circ-30^\\circ=150^\\circ$."
+            ],
+            "finalAnswer": "$x=30^\\circ$ or $x=150^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Rearrange to make the trig function the subject before using exact values."
+          }
+        },
+        {
+          "id": "ch15_ex7_q13b",
+          "number": "13(b)",
+          "category": "Practice",
+          "questionText": "Solve the following equation for $x\\in[0^\\circ,360^\\circ]$: $2\\cos(x)=\\sqrt3$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "CAST rule: in $[0^\\circ,360^\\circ]$, sine is positive in quadrants 1 and 2, cosine in quadrants 1 and 4, tangent in quadrants 1 and 3. Quadrant angles from a reference angle $\\theta$: $\\theta$, $180^\\circ-\\theta$, $180^\\circ+\\theta$, $360^\\circ-\\theta$.",
+            "steps": [
+              "Given: $2\\cos(x)=\\sqrt3$, $0^\\circ\\le x\\le360^\\circ$. Goal: all solutions.",
+              "Rearrange: $\\cos(x)=\\frac{\\sqrt3}{2}$.",
+              "Reference angle $30^\\circ$; cosine positive in quadrants 1 and 4.",
+              "$x=30^\\circ$ or $x=360^\\circ-30^\\circ=330^\\circ$."
+            ],
+            "finalAnswer": "$x=30^\\circ$ or $x=330^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Rearrange to make the trig function the subject before using exact values."
+          }
+        },
+        {
+          "id": "ch15_ex7_q14a",
+          "number": "14(a)",
+          "category": "Consolidate",
+          "questionText": "Solve the following equation for $x\\in[0^\\circ,360^\\circ]$: $\\sqrt2\\cos(x)-1=0$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "CAST rule: in $[0^\\circ,360^\\circ]$, sine is positive in quadrants 1 and 2, cosine in quadrants 1 and 4, tangent in quadrants 1 and 3. Quadrant angles from a reference angle $\\theta$: $\\theta$, $180^\\circ-\\theta$, $180^\\circ+\\theta$, $360^\\circ-\\theta$.",
+            "steps": [
+              "Given: $\\sqrt2\\cos(x)-1=0$, $0^\\circ\\le x\\le360^\\circ$. Goal: all solutions.",
+              "Rearrange: $\\sqrt2\\cos(x)=1 \\Rightarrow \\cos(x)=\\frac{1}{\\sqrt2}$.",
+              "Reference angle $45^\\circ$; cosine positive in quadrants 1 and 4.",
+              "$x=45^\\circ$ or $x=360^\\circ-45^\\circ=315^\\circ$."
+            ],
+            "finalAnswer": "$x=45^\\circ$ or $x=315^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Rearrange to make the trig function the subject before using exact values."
+          }
+        },
+        {
+          "id": "ch15_ex7_q14b",
+          "number": "14(b)",
+          "category": "Consolidate",
+          "questionText": "Solve the following equation for $x\\in[0^\\circ,360^\\circ]$: $\\tan(x)+1=0$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "CAST rule: in $[0^\\circ,360^\\circ]$, sine is positive in quadrants 1 and 2, cosine in quadrants 1 and 4, tangent in quadrants 1 and 3. Quadrant angles from a reference angle $\\theta$: $\\theta$, $180^\\circ-\\theta$, $180^\\circ+\\theta$, $360^\\circ-\\theta$.",
+            "steps": [
+              "Given: $\\tan(x)+1=0$, $0^\\circ\\le x\\le360^\\circ$. Goal: all solutions.",
+              "Rearrange: $\\tan(x)=-1$.",
+              "Reference angle $45^\\circ$; tangent negative in quadrants 2 and 4.",
+              "$x=180^\\circ-45^\\circ=135^\\circ$ or $x=360^\\circ-45^\\circ=315^\\circ$."
+            ],
+            "finalAnswer": "$x=135^\\circ$ or $x=315^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Rearrange to make the trig function the subject before using exact values."
+          }
+        },
+        {
+          "id": "ch15_ex7_q15a",
+          "number": "15(a)",
+          "category": "Master",
+          "questionText": "Sam measured the depth of water at the end of the Intergate jetty at various times on Thursday 13 August 2020. Her results were: 6 am 1.5 m, 7 am 1.8 m, 8 am 2.3 m, 9 am 2.6 m, 10 am 2.5 m, 11 am 2.2 m, 12 pm 1.8 m, 1 pm 1.2 m, 2 pm 0.8 m, 3 pm 0.5 m, 4 pm 0.6 m, 5 pm 1.0 m, 6 pm 1.3 m, 7 pm 1.8 m, 8 pm 2.2 m, 9 pm 2.5 m. a. Plot the data.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sinusoidal model: amplitude $=\\frac{\\max-\\min}{2}$, mean level $=\\frac{\\max+\\min}{2}$, period = time for one complete cycle (e.g. twice the time from a maximum to the next minimum).",
+            "steps": [
+              "Given: 16 readings from 6 am to 9 pm. Goal: a plot of depth against time.",
+              "Horizontal axis: time from 5 am to 9 pm (1 unit per hour); vertical axis: depth from 0 to 3.0 m.",
+              "Plot each point, e.g. (6 am, 1.5), (9 am, 2.6), (3 pm, 0.5), (9 pm, 2.5).",
+              "Join with a smooth curve: the depth rises to a high of about 2.6 m at 9 am, falls to a low of about 0.5 m at 3 pm, then rises again towards 9 pm."
+            ],
+            "finalAnswer": "The plot is a smooth wave-like curve: a high of 2.6 m at 9 am, a low of 0.5 m at 3 pm, and rising again to 2.5 m by 9 pm.",
+            "solutionFigures": [],
+            "tip": "Join tide data with a smooth curve rather than straight segments; tides follow a sine-type pattern."
+          }
+        },
+        {
+          "id": "ch15_ex7_q15b",
+          "number": "15(b)",
+          "category": "Master",
+          "questionText": "Sam measured the depth of water at the end of the Intergate jetty at various times on Thursday 13 August 2020. Her results were: 6 am 1.5 m, 7 am 1.8 m, 8 am 2.3 m, 9 am 2.6 m, 10 am 2.5 m, 11 am 2.2 m, 12 pm 1.8 m, 1 pm 1.2 m, 2 pm 0.8 m, 3 pm 0.5 m, 4 pm 0.6 m, 5 pm 1.0 m, 6 pm 1.3 m, 7 pm 1.8 m, 8 pm 2.2 m, 9 pm 2.5 m. b. Determine: i. the period, ii. the amplitude.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sinusoidal model: amplitude $=\\frac{\\max-\\min}{2}$, mean level $=\\frac{\\max+\\min}{2}$, period = time for one complete cycle (e.g. twice the time from a maximum to the next minimum).",
+            "steps": [
+              "Given: high 2.6 m at 9 am, low 0.5 m at 3 pm. Goal: period and amplitude.",
+              "High to low takes about $6$ to $6\\frac14$ hours (the next high is due a little after 9 pm, as the depth is still rising at 9 pm).",
+              "i. One full cycle is high → low → high, about $2\\times6\\frac14=12\\frac12$ hours. (This matches the known tidal period of about 12 h 25 min.)",
+              "ii. Amplitude $=\\frac{2.6-0.5}{2}=\\frac{2.1}{2}=1.05$ m."
+            ],
+            "finalAnswer": "i. The period is about $12\\frac12$ hours. ii. The amplitude is 1.05 m.",
+            "solutionFigures": [],
+            "tip": "Amplitude is half the difference between the highest and lowest values, not the highest value itself."
+          }
+        },
+        {
+          "id": "ch15_ex7_q15c",
+          "number": "15(c)",
+          "category": "Master",
+          "questionText": "Sam measured the depth of water at the end of the Intergate jetty at various times on Thursday 13 August 2020. Her results were: 6 am 1.5 m, 7 am 1.8 m, 8 am 2.3 m, 9 am 2.6 m, 10 am 2.5 m, 11 am 2.2 m, 12 pm 1.8 m, 1 pm 1.2 m, 2 pm 0.8 m, 3 pm 0.5 m, 4 pm 0.6 m, 5 pm 1.0 m, 6 pm 1.3 m, 7 pm 1.8 m, 8 pm 2.2 m, 9 pm 2.5 m. c. Sam fishes from the jetty when the depth is a maximum. Specify these times for the next 3 days.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Successive maximums are one period ($12\\frac12$ h) apart.",
+            "steps": [
+              "Given: a maximum at 9:00 am Thursday, period $12\\frac12$ hours. Goal: maximum times on Friday, Saturday and Sunday.",
+              "Thursday: 9:00 am, then $9{:}00\\text{ am}+12\\text{ h }30\\text{ min}=9{:}30$ pm.",
+              "Friday: $9{:}30\\text{ pm}+12\\text{ h }30\\text{ min}=10{:}00$ am; then 10:30 pm.",
+              "Saturday: 11:00 am; then 11:30 pm.",
+              "Sunday: 12:00 noon; the next one is 12:30 am Monday."
+            ],
+            "finalAnswer": "Maximum depths (fishing times): Friday 10:00 am and 10:30 pm; Saturday 11:00 am and 11:30 pm; Sunday 12:00 noon.",
+            "solutionFigures": [],
+            "tip": "Each day the high tides are about 1 hour later than the day before (two periods = 25 hours)."
+          }
+        },
+        {
+          "id": "ch15_ex7_q15d",
+          "number": "15(d)",
+          "category": "Master",
+          "questionText": "Sam measured the depth of water at the end of the Intergate jetty at various times on Thursday 13 August 2020. Her results were: 6 am 1.5 m, 7 am 1.8 m, 8 am 2.3 m, 9 am 2.6 m, 10 am 2.5 m, 11 am 2.2 m, 12 pm 1.8 m, 1 pm 1.2 m, 2 pm 0.8 m, 3 pm 0.5 m, 4 pm 0.6 m, 5 pm 1.0 m, 6 pm 1.3 m, 7 pm 1.8 m, 8 pm 2.2 m, 9 pm 2.5 m. d. Sam’s mother can moor her yacht when the depth is above 1.5 m. Determine during what periods she can moor the yacht on Sunday 16 January (as printed; Sunday three days after the Thursday is 16 August).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Model: $D=1.55+1.05\\cos\\left(\\frac{360^\\circ}{12.5}(t-t_{\\max})\\right)$, where $t$ is in hours and $t_{\\max}$ is the time of a high tide.",
+            "steps": [
+              "Given: mean level $=\\frac{2.6+0.5}{2}=1.55$ m, amplitude 1.05 m, period 12.5 h, Sunday high tides at 11:30 pm Saturday, 12:00 noon Sunday and 12:30 am Monday (from part c). Goal: when $D>1.5$ on Sunday.",
+              "Solve $1.55+1.05\\cos(\\phi)=1.5$: $\\cos(\\phi)=\\frac{1.5-1.55}{1.05}=\\frac{-0.05}{1.05}\\approx-0.0476$.",
+              "$\\phi=\\cos^{-1}(-0.0476)\\approx92.73^\\circ$, so $D>1.5$ while $|\\phi|<92.73^\\circ$.",
+              "Convert to time: $\\frac{92.73^\\circ}{360^\\circ}\\times12.5\\text{ h}\\approx3.22$ h $\\approx3$ h 13 min either side of each high tide.",
+              "High at 11:30 pm Saturday: depth above 1.5 m until $11{:}30\\text{ pm}+3\\text{ h }13\\text{ min}=2{:}43$ am Sunday.",
+              "High at 12:00 noon: from $12{:}00-3{:}13=8{:}47$ am to $12{:}00+3{:}13=3{:}13$ pm.",
+              "High at 12:30 am Monday: from $12{:}30\\text{ am}-3\\text{ h }13\\text{ min}=9{:}17$ pm Sunday."
+            ],
+            "finalAnswer": "Using the sinusoidal model, she can moor the yacht on Sunday from midnight until about 2:43 am, from about 8:47 am to 3:13 pm, and after about 9:17 pm. (The book gives: until 1:45 am, 8 am to 2:15 pm, and after 8:30 pm; answers read from a hand-drawn graph will vary.)",
+            "solutionFigures": [],
+            "tip": "Because 1.5 m is just below the mean level of 1.55 m, the yacht can be moored for slightly more than half of each cycle."
+          }
+        },
+        {
+          "id": "ch15_ex7_q16a",
+          "number": "16(a)",
+          "category": "Practice",
+          "questionText": "Solve $\\sqrt3\\sin(x^\\circ)=\\cos(x^\\circ)$ for $0^\\circ\\le x\\le360^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(x)=\\frac{\\sin(x)}{\\cos(x)}$; CAST rule: in $[0^\\circ,360^\\circ]$, sine is positive in quadrants 1 and 2, cosine in quadrants 1 and 4, tangent in quadrants 1 and 3. Quadrant angles from a reference angle $\\theta$: $\\theta$, $180^\\circ-\\theta$, $180^\\circ+\\theta$, $360^\\circ-\\theta$.",
+            "steps": [
+              "Given: $\\sqrt3\\sin(x)=\\cos(x)$. Goal: all $x$ in $[0^\\circ,360^\\circ]$.",
+              "If $\\cos(x)=0$ then $\\sin(x)=\\pm1$ and the equation would read $\\pm\\sqrt3=0$, which is false; so $\\cos(x)\\neq0$ and we may divide by it.",
+              "Divide both sides by $\\sqrt3\\cos(x)$: $\\frac{\\sin(x)}{\\cos(x)}=\\frac{1}{\\sqrt3}$, i.e. $\\tan(x)=\\frac{1}{\\sqrt3}$.",
+              "Reference angle $30^\\circ$; tangent positive in quadrants 1 and 3.",
+              "$x=30^\\circ$ or $x=180^\\circ+30^\\circ=210^\\circ$.",
+              "Check: $\\sqrt3\\sin(30^\\circ)=\\frac{\\sqrt3}{2}=\\cos(30^\\circ)$ ✓."
+            ],
+            "finalAnswer": "$x=30^\\circ$ or $x=210^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Dividing by $\\cos(x)$ turns a sin–cos equation into a tan equation; check that $\\cos(x)=0$ is not a solution first."
+          }
+        },
+        {
+          "id": "ch15_ex7_q16b",
+          "number": "16(b)",
+          "category": "Practice",
+          "questionText": "Solve $2\\sin(x^\\circ)+\\cos(x^\\circ)=0$ for $0^\\circ\\le x\\le360^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(x)=\\frac{\\sin(x)}{\\cos(x)}$; CAST rule: in $[0^\\circ,360^\\circ]$, sine is positive in quadrants 1 and 2, cosine in quadrants 1 and 4, tangent in quadrants 1 and 3. Quadrant angles from a reference angle $\\theta$: $\\theta$, $180^\\circ-\\theta$, $180^\\circ+\\theta$, $360^\\circ-\\theta$.",
+            "steps": [
+              "Given: $2\\sin(x)+\\cos(x)=0$. Goal: all $x$ in $[0^\\circ,360^\\circ]$, to 2 decimal places.",
+              "Rearrange: $2\\sin(x)=-\\cos(x)$. ($\\cos(x)=0$ is not a solution, since then $2\\sin(x)=\\pm2\\neq0$.)",
+              "Divide by $2\\cos(x)$: $\\tan(x)=-\\frac12$.",
+              "Reference angle: $\\tan^{-1}\\left(\\frac12\\right)\\approx26.57^\\circ$; tangent negative in quadrants 2 and 4.",
+              "$x=180^\\circ-26.57^\\circ=153.43^\\circ$ or $x=360^\\circ-26.57^\\circ=333.43^\\circ$.",
+              "Check: $2\\sin(153.43^\\circ)+\\cos(153.43^\\circ)\\approx2(0.4472)+(-0.8944)=0$ ✓."
+            ],
+            "finalAnswer": "$x\\approx153.43^\\circ$ or $x\\approx333.43^\\circ$ (2 decimal places).",
+            "solutionFigures": [],
+            "tip": "Use the positive value $\\frac12$ to find the reference angle, then place it in the quadrants where tan is negative."
+          }
+        },
+        {
+          "id": "ch15_ex7_q17",
+          "number": "17",
+          "category": "Consolidate",
+          "questionText": "Solve $2\\sin^2(x^\\circ)+3\\sin(x^\\circ)-2=0$ for $0^\\circ\\le x\\le360^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Treat as a quadratic in $\\sin(x)$: let $a=\\sin(x)$, so $2a^2+3a-2=0$. Also $-1\\le\\sin(x)\\le1$.",
+            "steps": [
+              "Given: $2\\sin^2(x)+3\\sin(x)-2=0$. Goal: all $x$ in $[0^\\circ,360^\\circ]$.",
+              "Let $a=\\sin(x)$: $2a^2+3a-2=0$.",
+              "Factorise: $(2a-1)(a+2)=0$ (check: $2a^2+4a-a-2=2a^2+3a-2$ ✓).",
+              "So $a=\\frac12$ or $a=-2$.",
+              "$\\sin(x)=-2$ has no solution because $-1\\le\\sin(x)\\le1$.",
+              "$\\sin(x)=\\frac12$: reference angle $30^\\circ$, sine positive in quadrants 1 and 2, so $x=30^\\circ$ or $x=150^\\circ$."
+            ],
+            "finalAnswer": "$x=30^\\circ$ or $x=150^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Always reject values of $\\sin(x)$ or $\\cos(x)$ outside $[-1,1]$."
+          }
+        },
+        {
+          "id": "ch15_ex7_q18a",
+          "number": "18(a)",
+          "category": "Master",
+          "questionText": "The grad ($^g$) is another measurement used when measuring the size of angles. A grad is equivalent to $\\frac{1}{400}$ of a full circle. Write the following as grads (1 grad is written as $1^g$): $90^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Full circle $=360^\\circ=400^g$, so $1^\\circ=\\frac{400}{360}=\\frac{10}{9}$ grads.",
+            "steps": [
+              "Given: $90^\\circ$. Goal: the angle in grads.",
+              "Fraction of a full circle: $\\frac{90}{360}$.",
+              "Grads $=\\frac{90}{360}\\times400=90\\times\\frac{10}{9}=100^g$."
+            ],
+            "finalAnswer": "$90^\\circ = 100^g$.",
+            "solutionFigures": [],
+            "tip": "A right angle is $100^g$, so each quarter turn adds $100^g$."
+          }
+        },
+        {
+          "id": "ch15_ex7_q18b",
+          "number": "18(b)",
+          "category": "Master",
+          "questionText": "The grad ($^g$) is another measurement used when measuring the size of angles. A grad is equivalent to $\\frac{1}{400}$ of a full circle. Write the following as grads (1 grad is written as $1^g$): $180^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Full circle $=360^\\circ=400^g$, so $1^\\circ=\\frac{400}{360}=\\frac{10}{9}$ grads.",
+            "steps": [
+              "Given: $180^\\circ$. Goal: the angle in grads.",
+              "Fraction of a full circle: $\\frac{180}{360}$.",
+              "Grads $=\\frac{180}{360}\\times400=180\\times\\frac{10}{9}=200^g$."
+            ],
+            "finalAnswer": "$180^\\circ = 200^g$.",
+            "solutionFigures": [],
+            "tip": "A right angle is $100^g$, so each quarter turn adds $100^g$."
+          }
+        },
+        {
+          "id": "ch15_ex7_q18c",
+          "number": "18(c)",
+          "category": "Master",
+          "questionText": "The grad ($^g$) is another measurement used when measuring the size of angles. A grad is equivalent to $\\frac{1}{400}$ of a full circle. Write the following as grads (1 grad is written as $1^g$): $270^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Full circle $=360^\\circ=400^g$, so $1^\\circ=\\frac{400}{360}=\\frac{10}{9}$ grads.",
+            "steps": [
+              "Given: $270^\\circ$. Goal: the angle in grads.",
+              "Fraction of a full circle: $\\frac{270}{360}$.",
+              "Grads $=\\frac{270}{360}\\times400=270\\times\\frac{10}{9}=300^g$."
+            ],
+            "finalAnswer": "$270^\\circ = 300^g$.",
+            "solutionFigures": [],
+            "tip": "A right angle is $100^g$, so each quarter turn adds $100^g$."
+          }
+        },
+        {
+          "id": "ch15_ex7_q18d",
+          "number": "18(d)",
+          "category": "Master",
+          "questionText": "The grad ($^g$) is another measurement used when measuring the size of angles. A grad is equivalent to $\\frac{1}{400}$ of a full circle. Write the following as grads (1 grad is written as $1^g$): $360^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Full circle $=360^\\circ=400^g$, so $1^\\circ=\\frac{400}{360}=\\frac{10}{9}$ grads.",
+            "steps": [
+              "Given: $360^\\circ$. Goal: the angle in grads.",
+              "Fraction of a full circle: $\\frac{360}{360}$.",
+              "Grads $=\\frac{360}{360}\\times400=360\\times\\frac{10}{9}=400^g$."
+            ],
+            "finalAnswer": "$360^\\circ = 400^g$.",
+            "solutionFigures": [],
+            "tip": "A right angle is $100^g$, so each quarter turn adds $100^g$."
+          }
+        }
+      ]
+    }
+  ]
+}

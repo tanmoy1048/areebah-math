@@ -1,0 +1,1265 @@
+{
+  "chapterId": "ch06",
+  "chapterTitle": "Surface area and volume",
+  "topics": [
+    {
+      "topicId": "6.2",
+      "topicTitle": "Area",
+      "exercises": [
+        {
+          "id": "ch6_ex2_q1a",
+          "number": "1(a)",
+          "category": "Practice",
+          "questionText": "Calculate the area of the following shape: a square with side length $4\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a square: $A = l^2$",
+            "steps": [
+              "Given: side length $l = 4\\text{ cm}$. Goal: the area.",
+              "$A = l^2$",
+              "$A = 4^2$",
+              "$A = 16\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the square is $16\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "Area units are squared: write $\\text{cm}^2$, not cm."
+          }
+        },
+        {
+          "id": "ch6_ex2_q1b",
+          "number": "1(b)",
+          "category": "Practice",
+          "questionText": "Calculate the area of the following shape: a rectangle with length $12\\text{ cm}$ and width $4\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a rectangle: $A = lw$",
+            "steps": [
+              "Given: $l = 12\\text{ cm}$, $w = 4\\text{ cm}$. Goal: the area.",
+              "$A = lw$",
+              "$A = 12 \\times 4$",
+              "$A = 48\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the rectangle is $48\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "Don't confuse area ($l \\times w$) with perimeter ($2l + 2w$)."
+          }
+        },
+        {
+          "id": "ch6_ex2_q1c",
+          "number": "1(c)",
+          "category": "Practice",
+          "questionText": "Calculate the area of the following shape: a triangle with base $10\\text{ cm}$ and perpendicular height $15\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a triangle: $A = \\frac{1}{2}bh$",
+            "steps": [
+              "Given: $b = 10\\text{ cm}$, $h = 15\\text{ cm}$. Goal: the area.",
+              "$A = \\frac{1}{2}bh$",
+              "$A = \\frac{1}{2} \\times 10 \\times 15$",
+              "$A = 5 \\times 15$",
+              "$A = 75\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the triangle is $75\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "The height must be perpendicular to the base; don't forget the $\\frac{1}{2}$."
+          }
+        },
+        {
+          "id": "ch6_ex2_q2a",
+          "number": "2(a)",
+          "category": "Consolidate",
+          "questionText": "Calculate the area of the following shape: a trapezium with parallel sides $12\\text{ cm}$ and $18\\text{ cm}$ and perpendicular height $8\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a trapezium: $A = \\frac{1}{2}(a+b)h$",
+            "steps": [
+              "Given: $a = 12\\text{ cm}$, $b = 18\\text{ cm}$, $h = 8\\text{ cm}$. Goal: the area.",
+              "$A = \\frac{1}{2}(a+b)h$",
+              "$A = \\frac{1}{2}(12 + 18) \\times 8$",
+              "$A = \\frac{1}{2} \\times 30 \\times 8$",
+              "$A = 120\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the trapezium is $120\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "Use the two parallel sides for $a$ and $b$, and the perpendicular distance between them for $h$."
+          }
+        },
+        {
+          "id": "ch6_ex2_q2b",
+          "number": "2(b)",
+          "category": "Consolidate",
+          "questionText": "Calculate the area of the following shape, correct to 2 decimal places: a circle with radius $15\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a circle: $A = \\pi r^2$",
+            "steps": [
+              "Given: $r = 15\\text{ cm}$. Goal: the area.",
+              "$A = \\pi r^2$",
+              "$A = \\pi \\times 15^2$",
+              "$A = 225\\pi$",
+              "$A = 706.858...$",
+              "Rounded to 2 decimal places: $A \\approx 706.86\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the circle is $706.86\\text{ cm}^2$ (correct to 2 decimal places).",
+            "solutionFigures": [],
+            "tip": "Square the radius before multiplying by $\\pi$."
+          }
+        },
+        {
+          "id": "ch6_ex2_q2c",
+          "number": "2(c)",
+          "category": "Consolidate",
+          "questionText": "Calculate the area of the following shape: a trapezium with parallel sides $8\\text{ mm}$ and $13\\text{ mm}$, a perpendicular distance of $7\\text{ mm}$ apart.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a trapezium: $A = \\frac{1}{2}(a+b)h$",
+            "steps": [
+              "Given: $a = 8\\text{ mm}$, $b = 13\\text{ mm}$, $h = 7\\text{ mm}$. Goal: the area.",
+              "$A = \\frac{1}{2}(8 + 13) \\times 7$",
+              "$A = \\frac{1}{2} \\times 21 \\times 7$",
+              "$A = \\frac{147}{2}$",
+              "$A = 73.5\\text{ mm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the trapezium is $73.5\\text{ mm}^2$.",
+            "solutionFigures": [],
+            "tip": "A trapezium can be drawn standing up; the 'height' is still the distance between the parallel sides."
+          }
+        },
+        {
+          "id": "ch6_ex2_q3a",
+          "number": "3(a)",
+          "category": "Master",
+          "questionText": "Calculate the area of the following shape, correct to 2 decimal places: a circle with diameter $18\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a circle: $A = \\pi r^2$, with $r = \\frac{d}{2}$",
+            "steps": [
+              "Given: diameter $d = 18\\text{ cm}$, so $r = 9\\text{ cm}$. Goal: the area.",
+              "$A = \\pi r^2$",
+              "$A = \\pi \\times 9^2$",
+              "$A = 81\\pi$",
+              "$A = 254.469...$",
+              "Rounded to 2 decimal places: $A \\approx 254.47\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the circle is $254.47\\text{ cm}^2$ (correct to 2 decimal places).",
+            "solutionFigures": [],
+            "tip": "The 18 cm line goes right through the centre, so it is a diameter; halve it first."
+          }
+        },
+        {
+          "id": "ch6_ex2_q3b",
+          "number": "3(b)",
+          "category": "Master",
+          "questionText": "Calculate the area of the following shape: a rhombus with diagonals $6\\text{ m}$ and $7\\text{ m}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a kite or rhombus: $A = \\frac{1}{2}xy$, where $x$ and $y$ are the diagonals",
+            "steps": [
+              "Given: diagonals $x = 6\\text{ m}$, $y = 7\\text{ m}$. Goal: the area.",
+              "$A = \\frac{1}{2}xy$",
+              "$A = \\frac{1}{2} \\times 6 \\times 7$",
+              "$A = 21\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the rhombus is $21\\text{ m}^2$.",
+            "solutionFigures": [],
+            "tip": "Use the diagonals (the lines joining opposite corners), not the side lengths."
+          }
+        },
+        {
+          "id": "ch6_ex2_q3c",
+          "number": "3(c)",
+          "category": "Master",
+          "questionText": "Calculate the area of the following shape: a rhombus with diagonals $15\\text{ cm}$ and $10\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a kite or rhombus: $A = \\frac{1}{2}xy$",
+            "steps": [
+              "Given: diagonals $x = 15\\text{ cm}$, $y = 10\\text{ cm}$. Goal: the area.",
+              "$A = \\frac{1}{2} \\times 15 \\times 10$",
+              "$A = \\frac{150}{2}$",
+              "$A = 75\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the rhombus is $75\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "The diagonals of a rhombus cross at right angles, which is why half their product gives the area."
+          }
+        },
+        {
+          "id": "ch6_ex2_q4a",
+          "number": "4(a)",
+          "category": "Practice",
+          "questionText": "Use Heron's formula to calculate the area of the following triangle, correct to 2 decimal places: a triangle with sides $5\\text{ cm}$, $16\\text{ cm}$ and $12\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Heron's formula: $A = \\sqrt{s(s-a)(s-b)(s-c)}$, $s = \\frac{a+b+c}{2}$",
+            "steps": [
+              "Given: $a = 5$, $b = 16$, $c = 12$ (cm). Goal: the area.",
+              "$s = \\frac{5 + 16 + 12}{2} = \\frac{33}{2} = 16.5$",
+              "$A = \\sqrt{16.5(16.5 - 5)(16.5 - 16)(16.5 - 12)}$",
+              "$A = \\sqrt{16.5 \\times 11.5 \\times 0.5 \\times 4.5}$",
+              "$A = \\sqrt{426.9375}$",
+              "$A = 20.662...$",
+              "Rounded to 2 decimal places: $A \\approx 20.66\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the triangle is $20.66\\text{ cm}^2$ (correct to 2 decimal places).",
+            "solutionFigures": [],
+            "tip": "Keep $s$ exact (16.5) and only round the final square root."
+          }
+        },
+        {
+          "id": "ch6_ex2_q4b",
+          "number": "4(b)",
+          "category": "Practice",
+          "questionText": "Use Heron's formula to calculate the area of the following triangle, correct to 2 decimal places: a triangle with sides $8\\text{ cm}$, $3\\text{ cm}$ and $6\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Heron's formula: $A = \\sqrt{s(s-a)(s-b)(s-c)}$, $s = \\frac{a+b+c}{2}$",
+            "steps": [
+              "Given: $a = 8$, $b = 3$, $c = 6$ (cm). Goal: the area.",
+              "$s = \\frac{8 + 3 + 6}{2} = \\frac{17}{2} = 8.5$",
+              "$A = \\sqrt{8.5(8.5 - 8)(8.5 - 3)(8.5 - 6)}$",
+              "$A = \\sqrt{8.5 \\times 0.5 \\times 5.5 \\times 2.5}$",
+              "$A = \\sqrt{58.4375}$",
+              "$A = 7.644...$",
+              "Rounded to 2 decimal places: $A \\approx 7.64\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the triangle is $7.64\\text{ cm}^2$ (correct to 2 decimal places).",
+            "solutionFigures": [],
+            "tip": "Heron's formula works for any triangle when all three sides are known — no height needed."
+          }
+        },
+        {
+          "id": "ch6_ex2_q5a",
+          "number": "5(a)",
+          "category": "Consolidate",
+          "questionText": "Calculate the area of the following ellipse, correct to 1 decimal place: semi-major axis $9\\text{ mm}$ and semi-minor axis $4\\text{ mm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of an ellipse: $A = \\pi ab$",
+            "steps": [
+              "Given: $a = 9\\text{ mm}$, $b = 4\\text{ mm}$. Goal: the area.",
+              "$A = \\pi ab$",
+              "$A = \\pi \\times 9 \\times 4$",
+              "$A = 36\\pi$",
+              "$A = 113.097...$",
+              "Rounded to 1 decimal place: $A \\approx 113.1\\text{ mm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the ellipse is $113.1\\text{ mm}^2$ (correct to 1 decimal place).",
+            "solutionFigures": [],
+            "tip": "$a$ and $b$ are measured from the centre to the edge of the ellipse."
+          }
+        },
+        {
+          "id": "ch6_ex2_q5b",
+          "number": "5(b)",
+          "category": "Consolidate",
+          "questionText": "Calculate the area of the following ellipse, correct to 1 decimal place: semi-major axis $12\\text{ mm}$ (vertical) and semi-minor axis $5\\text{ mm}$ (horizontal).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of an ellipse: $A = \\pi ab$",
+            "steps": [
+              "Given: $a = 12\\text{ mm}$, $b = 5\\text{ mm}$. Goal: the area.",
+              "$A = \\pi \\times 12 \\times 5$",
+              "$A = 60\\pi$",
+              "$A = 188.495...$",
+              "Rounded to 1 decimal place: $A \\approx 188.5\\text{ mm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the ellipse is $188.5\\text{ mm}^2$ (correct to 1 decimal place).",
+            "solutionFigures": [],
+            "tip": "It does not matter whether the ellipse is upright or sideways; the formula is the same."
+          }
+        },
+        {
+          "id": "ch6_ex2_q6a",
+          "number": "6(a)",
+          "category": "Master",
+          "questionText": "Calculate the area of the following shape: i. stating the answer exactly, that is in terms of $\\pi$; ii. correct to 2 decimal places. The shape is a sector with angle $30^\\circ$ and radius $12\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a sector: $A = \\frac{\\theta}{360^\\circ} \\times \\pi r^2$",
+            "steps": [
+              "Given: $\\theta = 30^\\circ$, $r = 12\\text{ cm}$. Goal: the exact and the rounded area.",
+              "$A = \\frac{30^\\circ}{360^\\circ} \\times \\pi \\times 12^2$",
+              "$A = \\frac{1}{12} \\times 144\\pi$",
+              "i. $A = 12\\pi\\text{ cm}^2$",
+              "ii. $12\\pi = 37.699...$, so $A \\approx 37.70\\text{ cm}^2$ (2 decimal places)"
+            ],
+            "finalAnswer": "Therefore the area is i. $12\\pi\\text{ cm}^2$ exactly; ii. $37.70\\text{ cm}^2$ (correct to 2 decimal places).",
+            "solutionFigures": [],
+            "tip": "Simplify the fraction $\\frac{\\theta}{360^\\circ}$ first to keep the exact answer neat."
+          }
+        },
+        {
+          "id": "ch6_ex2_q6b",
+          "number": "6(b)",
+          "category": "Master",
+          "questionText": "Calculate the area of the following shape: i. stating the answer exactly, that is in terms of $\\pi$; ii. correct to 2 decimal places. The shape is a sector with angle $345^\\circ$ and radius $6\\text{ mm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a sector: $A = \\frac{\\theta}{360^\\circ} \\times \\pi r^2$",
+            "steps": [
+              "Given: $\\theta = 345^\\circ$, $r = 6\\text{ mm}$. Goal: the exact and the rounded area.",
+              "$A = \\frac{345^\\circ}{360^\\circ} \\times \\pi \\times 6^2$",
+              "$A = \\frac{23}{24} \\times 36\\pi$",
+              "$A = \\frac{828\\pi}{24} = \\frac{69\\pi}{2}$",
+              "i. $A = \\frac{69\\pi}{2}\\text{ mm}^2$",
+              "ii. $\\frac{69\\pi}{2} = 108.384...$, so $A \\approx 108.38\\text{ mm}^2$ (2 decimal places)"
+            ],
+            "finalAnswer": "Therefore the area is i. $\\frac{69\\pi}{2}\\text{ mm}^2$ exactly; ii. $108.38\\text{ mm}^2$ (correct to 2 decimal places).",
+            "solutionFigures": [],
+            "tip": "Use the angle of the shaded part ($345^\\circ$), not the small gap."
+          }
+        },
+        {
+          "id": "ch6_ex2_q6c",
+          "number": "6(c)",
+          "category": "Master",
+          "questionText": "Calculate the area of the following shape: i. stating the answer exactly, that is in terms of $\\pi$; ii. correct to 2 decimal places. The shape is a circle of radius $18\\text{ cm}$ with a $70^\\circ$ sector removed.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a sector: $A = \\frac{\\theta}{360^\\circ} \\times \\pi r^2$",
+            "steps": [
+              "Given: $r = 18\\text{ cm}$, missing angle $70^\\circ$. Goal: the exact and the rounded area.",
+              "Angle of the shape: $\\theta = 360^\\circ - 70^\\circ = 290^\\circ$",
+              "$A = \\frac{290^\\circ}{360^\\circ} \\times \\pi \\times 18^2$",
+              "$A = \\frac{29}{36} \\times 324\\pi$",
+              "$A = 29 \\times 9\\pi = 261\\pi$",
+              "i. $A = 261\\pi\\text{ cm}^2$",
+              "ii. $261\\pi = 819.955...$, so $A \\approx 819.96\\text{ cm}^2$ (2 decimal places)"
+            ],
+            "finalAnswer": "Therefore the area is i. $261\\pi\\text{ cm}^2$ exactly; ii. $819.96\\text{ cm}^2$ (correct to 2 decimal places).",
+            "solutionFigures": [],
+            "tip": "The $70^\\circ$ marks the missing piece, so subtract it from $360^\\circ$ first."
+          }
+        },
+        {
+          "id": "ch6_ex2_q7",
+          "number": "7",
+          "category": "Practice",
+          "questionText": "MC A figure has an area of about $64\\text{ cm}^2$. Identify which of the following cannot possibly represent the figure.\nA. A triangle with base length $16\\text{ cm}$ and height $8\\text{ cm}$\nB. A circle with radius $4.51\\text{ cm}$\nC. A rectangle with dimensions $16\\text{ cm}$ and $4\\text{ cm}$\nD. A rhombus with diagonals $16\\text{ cm}$ and $4\\text{ cm}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$A_{\\triangle} = \\frac{1}{2}bh$, $A_{\\circ} = \\pi r^2$, $A_{\\text{rect}} = lw$, $A_{\\text{rhombus}} = \\frac{1}{2}xy$",
+            "steps": [
+              "Goal: find the figure whose area is NOT about $64\\text{ cm}^2$.",
+              "A: $\\frac{1}{2} \\times 16 \\times 8 = 64\\text{ cm}^2$",
+              "B: $\\pi \\times 4.51^2 = \\pi \\times 20.3401 = 63.90\\text{ cm}^2 \\approx 64\\text{ cm}^2$",
+              "C: $16 \\times 4 = 64\\text{ cm}^2$",
+              "D: $\\frac{1}{2} \\times 16 \\times 4 = 32\\text{ cm}^2$",
+              "Only D has an area that is not about $64\\text{ cm}^2$."
+            ],
+            "finalAnswer": "Therefore the rhombus cannot represent the figure; the answer is D.",
+            "solutionFigures": [],
+            "tip": "A rhombus area uses half the product of the diagonals — it is easy to forget the $\\frac{1}{2}$."
+          }
+        },
+        {
+          "id": "ch6_ex2_q8",
+          "number": "8",
+          "category": "Consolidate",
+          "questionText": "MC Identify from the following list all the lengths required to calculate the area of the quadrilateral ABCD shown. The diagonal AC is drawn; BE is perpendicular to AC from B (E on AC) and DF is perpendicular to AC from D (F on AC).\nA. AB, BC, CD and AD\nB. AB, BE, AC and CD\nC. BC, BE, AD and CD\nD. AC, BE and FD",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a triangle: $A = \\frac{1}{2}bh$; split the quadrilateral along a diagonal",
+            "steps": [
+              "Goal: decide which lengths are needed for the area of ABCD.",
+              "The diagonal AC splits ABCD into $\\triangle ABC$ and $\\triangle ACD$.",
+              "$\\triangle ABC$ has base AC and perpendicular height BE: $A_1 = \\frac{1}{2} \\times AC \\times BE$",
+              "$\\triangle ACD$ has base AC and perpendicular height FD: $A_2 = \\frac{1}{2} \\times AC \\times FD$",
+              "Area of ABCD $= \\frac{1}{2} \\times AC \\times (BE + FD)$, which needs only AC, BE and FD."
+            ],
+            "finalAnswer": "Therefore the lengths required are AC, BE and FD; the answer is D.",
+            "solutionFigures": [],
+            "tip": "Four side lengths alone do not fix the area of a quadrilateral; you need perpendicular heights."
+          }
+        },
+        {
+          "id": "ch6_ex2_q9a",
+          "number": "9(a)",
+          "category": "Practice",
+          "questionText": "Calculate the area of the following composite shape, correct to 2 decimal places: a rectangle $20\\text{ cm}$ wide and $15\\text{ cm}$ high with a semicircle of diameter $15\\text{ cm}$ cut out of each of the two shorter (left and right) sides.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area = rectangle $-$ 2 semicircles; $A_{\\text{rect}} = lw$, $A_{\\circ} = \\pi r^2$",
+            "steps": [
+              "Given: rectangle $20\\text{ cm} \\times 15\\text{ cm}$; two semicircles with diameter $15\\text{ cm}$, so $r = 7.5\\text{ cm}$. Goal: the area.",
+              "Area of rectangle $= 20 \\times 15 = 300\\text{ cm}^2$",
+              "Two semicircles make one full circle: area $= \\pi \\times 7.5^2 = 56.25\\pi = 176.714...\\text{ cm}^2$",
+              "$A = 300 - 176.714...$",
+              "$A = 123.285...$",
+              "Rounded to 2 decimal places: $A \\approx 123.29\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the shape is $123.29\\text{ cm}^2$ (correct to 2 decimal places).",
+            "solutionFigures": [],
+            "tip": "Two equal semicircles together form one whole circle — this saves a step."
+          }
+        },
+        {
+          "id": "ch6_ex2_q9b",
+          "number": "9(b)",
+          "category": "Practice",
+          "questionText": "Calculate the area of the following composite shape, correct to 2 decimal places: a rectangle $40\\text{ m}$ long and $28\\text{ m}$ wide with a semicircle of diameter $28\\text{ m}$ attached to its right-hand end.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area = rectangle + semicircle; $A_{\\text{semicircle}} = \\frac{1}{2}\\pi r^2$",
+            "steps": [
+              "Given: rectangle $40\\text{ m} \\times 28\\text{ m}$; semicircle of diameter $28\\text{ m}$, so $r = 14\\text{ m}$. Goal: the area.",
+              "Area of rectangle $= 40 \\times 28 = 1120\\text{ m}^2$",
+              "Area of semicircle $= \\frac{1}{2} \\times \\pi \\times 14^2 = \\frac{1}{2} \\times 196\\pi = 98\\pi = 307.876...\\text{ m}^2$",
+              "$A = 1120 + 307.876...$",
+              "$A = 1427.876...$",
+              "Rounded to 2 decimal places: $A \\approx 1427.88\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the shape is $1427.88\\text{ m}^2$ (correct to 2 decimal places).",
+            "solutionFigures": [],
+            "tip": "The semicircle's diameter equals the width of the rectangle (28 m), so its radius is 14 m."
+          }
+        },
+        {
+          "id": "ch6_ex2_q9c",
+          "number": "9(c)",
+          "category": "Practice",
+          "questionText": "Calculate the area of the following composite shape: a square of side $8\\text{ cm}$ with a rectangular notch cut from the middle of its right-hand side. The notch is $3\\text{ cm}$ deep (horizontally) and $4\\text{ cm}$ high; the right-hand side has $2\\text{ cm}$ above the notch and $2\\text{ cm}$ below it.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area = large rectangle $-$ removed rectangle; $A = lw$",
+            "steps": [
+              "Given: outer square $8\\text{ cm}$ wide and $2 + 4 + 2 = 8\\text{ cm}$ high; notch $3\\text{ cm} \\times 4\\text{ cm}$. Goal: the area.",
+              "Area of outer square $= 8 \\times 8 = 64\\text{ cm}^2$",
+              "Area of notch $= 3 \\times 4 = 12\\text{ cm}^2$",
+              "$A = 64 - 12$",
+              "$A = 52\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the shape is $52\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "Matching tick marks show equal lengths, which lets you find the full height ($2 + 4 + 2$)."
+          }
+        },
+        {
+          "id": "ch6_ex2_q10a",
+          "number": "10(a)",
+          "category": "Master",
+          "questionText": "Calculate the area of the following composite shape: a square of side $3.8\\text{ m}$ with an isosceles triangle on each of its four sides, each triangle having base $3.8\\text{ m}$ and perpendicular height $2.1\\text{ m}$ (forming a large rhombus).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area = square + 4 triangles; $A = l^2$ and $A = \\frac{1}{2}bh$",
+            "steps": [
+              "Given: square side $3.8\\text{ m}$; 4 triangles with $b = 3.8\\text{ m}$, $h = 2.1\\text{ m}$. Goal: the area.",
+              "Area of square $= 3.8^2 = 14.44\\text{ m}^2$",
+              "Area of one triangle $= \\frac{1}{2} \\times 3.8 \\times 2.1 = 3.99\\text{ m}^2$",
+              "Area of 4 triangles $= 4 \\times 3.99 = 15.96\\text{ m}^2$",
+              "$A = 14.44 + 15.96$",
+              "$A = 30.4\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the shape is $30.4\\text{ m}^2$.",
+            "solutionFigures": [],
+            "tip": "Matching tick marks show the four triangles are identical, so find one triangle's area and multiply by 4."
+          }
+        },
+        {
+          "id": "ch6_ex2_q10b",
+          "number": "10(b)",
+          "category": "Master",
+          "questionText": "Calculate the area of the following composite shape: an arrowhead formed by a large triangle of base $12\\text{ cm}$ and height $18\\text{ cm}$, with a smaller triangle of the same base $12\\text{ cm}$ and height $5\\text{ cm}$ removed from its base.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area = large triangle $-$ small triangle; $A = \\frac{1}{2}bh$",
+            "steps": [
+              "Given: large triangle $b = 12\\text{ cm}$, $h = 18\\text{ cm}$; small triangle $b = 12\\text{ cm}$, $h = 5\\text{ cm}$. Goal: the area.",
+              "Area of large triangle $= \\frac{1}{2} \\times 12 \\times 18 = 108\\text{ cm}^2$",
+              "Area of small triangle $= \\frac{1}{2} \\times 12 \\times 5 = 30\\text{ cm}^2$",
+              "$A = 108 - 30$",
+              "$A = 78\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the shape is $78\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "When a piece is cut out, find the whole shape first and subtract the missing piece."
+          }
+        },
+        {
+          "id": "ch6_ex2_q10c",
+          "number": "10(c)",
+          "category": "Master",
+          "questionText": "Calculate the area of the following composite shape, correct to 2 decimal places: a square of side $28\\text{ cm}$ with a semicircle of diameter $28\\text{ cm}$ attached to each of its four sides.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area = square + 4 semicircles; $A = l^2$, $A_{\\text{semicircle}} = \\frac{1}{2}\\pi r^2$",
+            "steps": [
+              "Given: square side $28\\text{ cm}$; 4 semicircles with $r = 14\\text{ cm}$. Goal: the area.",
+              "Area of square $= 28^2 = 784\\text{ cm}^2$",
+              "Four semicircles = two full circles: $2 \\times \\pi \\times 14^2 = 2 \\times 196\\pi = 392\\pi = 1231.504...\\text{ cm}^2$",
+              "$A = 784 + 1231.504...$",
+              "$A = 2015.504...$",
+              "Rounded to 2 decimal places: $A \\approx 2015.50\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the shape is $2015.50\\text{ cm}^2$ (correct to 2 decimal places).",
+            "solutionFigures": [],
+            "tip": "Four semicircles equal two whole circles."
+          }
+        },
+        {
+          "id": "ch6_ex2_q11a",
+          "number": "11(a)",
+          "category": "Practice",
+          "questionText": "Calculate the shaded area, correct to 2 decimal places: a shaded ring between a circle of radius $7\\text{ cm}$ and a concentric unshaded circle of radius $3\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of an annulus: $A = \\pi R^2 - \\pi r^2 = \\pi(R^2 - r^2)$",
+            "steps": [
+              "Given: outer radius $R = 7\\text{ cm}$, inner radius $r = 3\\text{ cm}$. Goal: the shaded area.",
+              "$A = \\pi(R^2 - r^2)$",
+              "$A = \\pi(7^2 - 3^2)$",
+              "$A = \\pi(49 - 9)$",
+              "$A = 40\\pi$",
+              "$A = 125.663...$",
+              "Rounded to 2 decimal places: $A \\approx 125.66\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the shaded area is $125.66\\text{ cm}^2$ (correct to 2 decimal places).",
+            "solutionFigures": [],
+            "tip": "Square each radius separately: $7^2 - 3^2 \\ne (7-3)^2$."
+          }
+        },
+        {
+          "id": "ch6_ex2_q11b",
+          "number": "11(b)",
+          "category": "Practice",
+          "questionText": "Calculate the shaded area, correct to 2 decimal places: a shaded rectangle $16\\text{ m}$ by $8\\text{ m}$ with two unshaded circles, each of radius $2\\text{ m}$, cut out of it.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Shaded area = rectangle $-$ 2 circles; $A = lw$, $A = \\pi r^2$",
+            "steps": [
+              "Given: rectangle $16\\text{ m} \\times 8\\text{ m}$; two circles with $r = 2\\text{ m}$. Goal: the shaded area.",
+              "Area of rectangle $= 16 \\times 8 = 128\\text{ m}^2$",
+              "Area of two circles $= 2 \\times \\pi \\times 2^2 = 8\\pi = 25.132...\\text{ m}^2$",
+              "$A = 128 - 25.132...$",
+              "$A = 102.867...$",
+              "Rounded to 2 decimal places: $A \\approx 102.87\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore the shaded area is $102.87\\text{ m}^2$ (correct to 2 decimal places).",
+            "solutionFigures": [],
+            "tip": "Subtract both holes — it's easy to subtract only one."
+          }
+        },
+        {
+          "id": "ch6_ex2_q12a",
+          "number": "12(a)",
+          "category": "Consolidate",
+          "questionText": "Calculate the shaded area, correct to 2 decimal places: a square of side $8\\text{ m}$ with an unshaded circle inside that touches all four sides; the shaded region is the four corners of the square outside the circle.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Shaded area = square $-$ circle; $A = l^2$, $A = \\pi r^2$",
+            "steps": [
+              "Given: square side $8\\text{ m}$; the circle's diameter equals the side, so $r = 4\\text{ m}$. Goal: the shaded area.",
+              "Area of square $= 8^2 = 64\\text{ m}^2$",
+              "Area of circle $= \\pi \\times 4^2 = 16\\pi = 50.265...\\text{ m}^2$",
+              "$A = 64 - 50.265...$",
+              "$A = 13.734...$",
+              "Rounded to 2 decimal places: $A \\approx 13.73\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore the shaded area is $13.73\\text{ m}^2$ (correct to 2 decimal places).",
+            "solutionFigures": [],
+            "tip": "A circle inscribed in a square has diameter equal to the square's side."
+          }
+        },
+        {
+          "id": "ch6_ex2_q12b",
+          "number": "12(b)",
+          "category": "Consolidate",
+          "questionText": "Calculate the shaded area, correct to 2 decimal places: a shaded ring with inner radius $3\\text{ m}$ and ring width $5\\text{ m}$ (so outer radius $8\\text{ m}$), from which a $40^\\circ$ sector has been removed.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of an annular sector: $A = \\frac{\\theta}{360^\\circ} \\times \\pi(R^2 - r^2)$",
+            "steps": [
+              "Given: $r = 3\\text{ m}$, $R = 3 + 5 = 8\\text{ m}$, missing angle $40^\\circ$. Goal: the shaded area.",
+              "Angle of shaded region: $\\theta = 360^\\circ - 40^\\circ = 320^\\circ$",
+              "$A = \\frac{320^\\circ}{360^\\circ} \\times \\pi(8^2 - 3^2)$",
+              "$A = \\frac{8}{9} \\times \\pi \\times (64 - 9)$",
+              "$A = \\frac{8}{9} \\times 55\\pi = \\frac{440\\pi}{9}$",
+              "$A = 153.588...$",
+              "Rounded to 2 decimal places: $A \\approx 153.59\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore the shaded area is $153.59\\text{ m}^2$ (correct to 2 decimal places).",
+            "solutionFigures": [],
+            "tip": "The 5 m is the width of the ring, so the outer radius is $3 + 5 = 8$ m."
+          }
+        },
+        {
+          "id": "ch6_ex2_q13a",
+          "number": "13(a)",
+          "category": "Master",
+          "questionText": "Calculate the shaded area, correct to 2 decimal places: a shaded triangle with base $13\\text{ m}$ (the vertical left side) and perpendicular height $8\\text{ m}$. Cut out of it are an unshaded rectangle $3\\text{ m}$ wide and $7\\text{ m}$ tall and an unshaded circle of diameter $2\\text{ m}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Shaded area = triangle $-$ rectangle $-$ circle; $A = \\frac{1}{2}bh$, $A = lw$, $A = \\pi r^2$",
+            "steps": [
+              "Given: triangle $b = 13\\text{ m}$, $h = 8\\text{ m}$; rectangle $3\\text{ m} \\times 7\\text{ m}$; circle diameter $2\\text{ m}$, so $r = 1\\text{ m}$. Goal: the shaded area.",
+              "Area of triangle $= \\frac{1}{2} \\times 13 \\times 8 = 52\\text{ m}^2$",
+              "Area of rectangle $= 3 \\times 7 = 21\\text{ m}^2$",
+              "Area of circle $= \\pi \\times 1^2 = \\pi = 3.141...\\text{ m}^2$",
+              "$A = 52 - 21 - 3.141...$",
+              "$A = 27.858...$",
+              "Rounded to 2 decimal places: $A \\approx 27.86\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore the shaded area is $27.86\\text{ m}^2$ (correct to 2 decimal places).",
+            "solutionFigures": [],
+            "tip": "The 2 m across the circle is its diameter, so the radius is 1 m."
+          }
+        },
+        {
+          "id": "ch6_ex2_q13b",
+          "number": "13(b)",
+          "category": "Master",
+          "questionText": "Calculate the shaded area: a rectangle $15\\text{ m}$ long and $5\\text{ m}$ high contains two unshaded triangles, each with base $7.5\\text{ m}$ on the bottom edge and apex on the top edge (height $5\\text{ m}$); the rest of the rectangle is shaded.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Shaded area = rectangle $-$ unshaded triangles; $A = lw$, $A = \\frac{1}{2}bh$",
+            "steps": [
+              "Given: rectangle $15\\text{ m} \\times 5\\text{ m}$; two unshaded triangles with $b = 7.5\\text{ m}$, $h = 5\\text{ m}$. Goal: the shaded area.",
+              "Area of rectangle $= 15 \\times 5 = 75\\text{ m}^2$",
+              "Area of one unshaded triangle $= \\frac{1}{2} \\times 7.5 \\times 5 = 18.75\\text{ m}^2$",
+              "Area of two unshaded triangles $= 2 \\times 18.75 = 37.5\\text{ m}^2$",
+              "$A = 75 - 37.5$",
+              "$A = 37.5\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore the shaded area is $37.5\\text{ m}^2$.",
+            "solutionFigures": [],
+            "tip": "A triangle with the same base and height as a rectangle has exactly half its area."
+          }
+        },
+        {
+          "id": "ch6_ex2_q14",
+          "number": "14",
+          "category": "Practice",
+          "questionText": "A sheet of cardboard is $1.6\\text{ m}$ by $0.8\\text{ m}$. The following shapes are cut from the cardboard:\n• a circular piece with radius $12\\text{ cm}$\n• a rectangular piece $20\\text{ cm}$ by $15\\text{ cm}$\n• two triangular pieces with base length $30\\text{ cm}$ and height $10\\text{ cm}$\n• a triangular piece with side lengths $12\\text{ cm}$, $10\\text{ cm}$ and $8\\text{ cm}$.\nCalculate the area of the remaining piece of cardboard, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Remaining area = sheet $-$ pieces cut out; $A = lw$, $A = \\pi r^2$, $A = \\frac{1}{2}bh$, Heron's formula $A = \\sqrt{s(s-a)(s-b)(s-c)}$",
+            "steps": [
+              "Given: sheet $1.6\\text{ m} \\times 0.8\\text{ m} = 160\\text{ cm} \\times 80\\text{ cm}$. Goal: the remaining area in $\\text{cm}^2$.",
+              "Sheet: $160 \\times 80 = 12\\,800\\text{ cm}^2$",
+              "Circle: $\\pi \\times 12^2 = 144\\pi = 452.389...\\text{ cm}^2$",
+              "Rectangle: $20 \\times 15 = 300\\text{ cm}^2$",
+              "Two triangles: $2 \\times \\frac{1}{2} \\times 30 \\times 10 = 300\\text{ cm}^2$",
+              "Heron's triangle: $s = \\frac{12 + 10 + 8}{2} = 15$; $A = \\sqrt{15 \\times 3 \\times 5 \\times 7} = \\sqrt{1575} = 39.686...\\text{ cm}^2$",
+              "Total cut out $= 452.389... + 300 + 300 + 39.686... = 1092.075...\\text{ cm}^2$",
+              "Remaining $= 12\\,800 - 1092.075... = 11\\,707.924...$",
+              "Rounded to 2 decimal places: $11\\,707.92\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the remaining cardboard has an area of $11\\,707.92\\text{ cm}^2$ (about $1.17\\text{ m}^2$).",
+            "solutionFigures": [],
+            "tip": "Convert everything to the same unit (cm) before combining areas."
+          }
+        },
+        {
+          "id": "ch6_ex2_q15",
+          "number": "15",
+          "category": "Practice",
+          "questionText": "A rectangular block of land, $12\\text{ m}$ by $8\\text{ m}$, is surrounded by a concrete path $0.5\\text{ m}$ wide. Calculate the area of the path.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Path area = outer rectangle $-$ inner rectangle; $A = lw$",
+            "steps": [
+              "Given: block $12\\text{ m} \\times 8\\text{ m}$, path width $0.5\\text{ m}$ on every side. Goal: the area of the path.",
+              "Outer length $= 12 + 2 \\times 0.5 = 13\\text{ m}$; outer width $= 8 + 2 \\times 0.5 = 9\\text{ m}$",
+              "Outer area $= 13 \\times 9 = 117\\text{ m}^2$",
+              "Inner area $= 12 \\times 8 = 96\\text{ m}^2$",
+              "Path area $= 117 - 96 = 21\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the path is $21\\text{ m}^2$.",
+            "solutionFigures": [],
+            "tip": "The path adds its width on both sides, so add $2 \\times 0.5$ m to each dimension."
+          }
+        },
+        {
+          "id": "ch6_ex2_q16",
+          "number": "16",
+          "category": "Consolidate",
+          "questionText": "Concrete slabs $1\\text{ m}$ by $0.5\\text{ m}$ are used to cover a footpath $20\\text{ m}$ by $1.5\\text{ m}$. Determine how many slabs are needed.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Number of slabs = area of footpath $\\div$ area of one slab",
+            "steps": [
+              "Given: slab $1\\text{ m} \\times 0.5\\text{ m}$; footpath $20\\text{ m} \\times 1.5\\text{ m}$. Goal: the number of slabs.",
+              "Area of footpath $= 20 \\times 1.5 = 30\\text{ m}^2$",
+              "Area of one slab $= 1 \\times 0.5 = 0.5\\text{ m}^2$",
+              "Number of slabs $= \\frac{30}{0.5} = 60$",
+              "Check: 20 slabs along the 20 m length (1 m each) and 3 across the 1.5 m width (0.5 m each): $20 \\times 3 = 60$."
+            ],
+            "finalAnswer": "Therefore 60 slabs are needed.",
+            "solutionFigures": [],
+            "tip": "Check that the slabs fit exactly along each side; if not, you would need to round up."
+          }
+        },
+        {
+          "id": "ch6_ex2_q17",
+          "number": "17",
+          "category": "Consolidate",
+          "questionText": "A city council builds a $0.5$-m-wide concrete path around the garden as shown. The garden is an L-shape: top side $12\\text{ m}$, left side $5\\text{ m}$, bottom-left edge $8\\text{ m}$, then the boundary steps down $3\\text{ m}$, so the right-hand side is $5 + 3 = 8\\text{ m}$ long and the bottom-right edge is $12 - 8 = 4\\text{ m}$. All corners are right angles.\nDetermine the cost of the job if the worker charges $\\$40.00$ per $\\text{m}^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Path area = (garden + path) area $-$ garden area; cost = area $\\times$ rate",
+            "steps": [
+              "Given: L-shaped garden as described, path $0.5\\text{ m}$ wide, rate $\\$40$ per $\\text{m}^2$. Goal: the cost of the path.",
+              "Garden area: top rectangle $12 \\times 5 = 60\\text{ m}^2$ plus lower rectangle $4 \\times 3 = 12\\text{ m}^2$, total $72\\text{ m}^2$.",
+              "Outer shape (garden + path): every edge moves out by $0.5\\text{ m}$.",
+              "Outer top rectangle: width $12 + 0.5 + 0.5 = 13\\text{ m}$, height $5 + 0.5 + 0.5 = 6\\text{ m}$: area $13 \\times 6 = 78\\text{ m}^2$",
+              "Outer lower rectangle (below it): width $4 + 0.5 + 0.5 = 5\\text{ m}$, height $3\\text{ m}$: area $5 \\times 3 = 15\\text{ m}^2$",
+              "Outer area $= 78 + 15 = 93\\text{ m}^2$",
+              "Path area $= 93 - 72 = 21\\text{ m}^2$",
+              "Cost $= 21 \\times \\$40 = \\$840$"
+            ],
+            "finalAnswer": "Therefore the job will cost $\\$840$.",
+            "solutionFigures": [],
+            "tip": "Draw the outer boundary of the path and split it into rectangles carefully; the inner corner of the L does not get a corner square."
+          }
+        },
+        {
+          "id": "ch6_ex2_q18a",
+          "number": "18(a)",
+          "category": "Master",
+          "questionText": "A tennis court used for doubles is $10.97\\text{ m}$ wide, but a singles court is only $8.23\\text{ m}$ wide. The diagram shows half the court is $11.89\\text{ m}$ long (from the baseline to the net), and the service box is $6.40\\text{ m}$ from the net. Calculate the area of the doubles court, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a rectangle: $A = lw$",
+            "steps": [
+              "Given: half-court length $11.89\\text{ m}$, doubles width $10.97\\text{ m}$. Goal: the area of the whole doubles court.",
+              "Full length $= 2 \\times 11.89 = 23.78\\text{ m}$",
+              "$A = 23.78 \\times 10.97$",
+              "$A = 260.8666$",
+              "Rounded to 2 decimal places: $A \\approx 260.87\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore the doubles court has an area of $260.87\\text{ m}^2$.",
+            "solutionFigures": [],
+            "tip": "The 11.89 m is only from the baseline to the net, so double it for the full court."
+          }
+        },
+        {
+          "id": "ch6_ex2_q18b",
+          "number": "18(b)",
+          "category": "Master",
+          "questionText": "A tennis court used for doubles is $10.97\\text{ m}$ wide, but a singles court is only $8.23\\text{ m}$ wide. Half the court is $11.89\\text{ m}$ long (baseline to net). Calculate the area of the singles court, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a rectangle: $A = lw$",
+            "steps": [
+              "Given: full length $2 \\times 11.89 = 23.78\\text{ m}$, singles width $8.23\\text{ m}$. Goal: the singles court area.",
+              "$A = 23.78 \\times 8.23$",
+              "$A = 195.7094$",
+              "Rounded to 2 decimal places: $A \\approx 195.71\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore the singles court has an area of $195.71\\text{ m}^2$.",
+            "solutionFigures": [],
+            "tip": "Singles and doubles courts have the same length; only the width changes."
+          }
+        },
+        {
+          "id": "ch6_ex2_q18c",
+          "number": "18(c)",
+          "category": "Master",
+          "questionText": "A tennis court used for doubles is $10.97\\text{ m}$ wide (area $260.87\\text{ m}^2$), but a singles court is only $8.23\\text{ m}$ wide (area $195.71\\text{ m}^2$). Determine the percentage of the doubles court that is used for singles. Give your answer to the nearest whole number.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Percentage $= \\frac{\\text{part}}{\\text{whole}} \\times 100\\%$",
+            "steps": [
+              "Given: singles area $195.7094\\text{ m}^2$, doubles area $260.8666\\text{ m}^2$. Goal: singles as a percentage of doubles.",
+              "Percentage $= \\frac{195.7094}{260.8666} \\times 100\\%$",
+              "Percentage $= 0.75022... \\times 100\\%$ (the same as $\\frac{8.23}{10.97}$, since the lengths are equal)",
+              "Percentage $= 75.02...\\%$",
+              "To the nearest whole number: $75\\%$"
+            ],
+            "finalAnswer": "Therefore $75\\%$ of the doubles court is used for singles.",
+            "solutionFigures": [],
+            "tip": "Divide the part (singles) by the whole (doubles), not the other way round."
+          }
+        },
+        {
+          "id": "ch6_ex2_q19a",
+          "number": "19(a)",
+          "category": "Practice",
+          "questionText": "Dan has purchased a country property with layout and dimensions as shown in the diagram. Starting at the top-left corner and going clockwise: the top edge is $1500\\text{ m}$ (marked equal to the $1500\\text{ m}$ right edge), then a diagonal edge runs down to the right, the right edge goes down $1500\\text{ m}$, a horizontal edge goes left $2000\\text{ m}$, a vertical edge goes down $2000\\text{ m}$ (marked equal to the 2000 m edge), the bottom edge is $1000\\text{ m}$, and the left edge goes up $5000\\text{ m}$ back to the start. All corners except at the diagonal are right angles. Show that the property has a total area of $987.5\\text{ ha}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Composite area: rectangles and a right-angled triangle; $1\\text{ ha} = 10\\,000\\text{ m}^2$",
+            "steps": [
+              "Given: the dimensions above. Goal: show the area is $987.5\\text{ ha}$.",
+              "Total width of the top part $= 1000 + 2000 = 3000\\text{ m}$; height of the top part $= 5000 - 2000 = 3000\\text{ m}$.",
+              "The diagonal cuts a right-angled triangle off the top-right corner: horizontal leg $= 3000 - 1500 = 1500\\text{ m}$, vertical leg $= 3000 - 1500 = 1500\\text{ m}$.",
+              "Bottom strip: $1000 \\times 2000 = 2\\,000\\,000\\text{ m}^2$",
+              "Top square: $3000 \\times 3000 = 9\\,000\\,000\\text{ m}^2$",
+              "Missing triangle: $\\frac{1}{2} \\times 1500 \\times 1500 = 1\\,125\\,000\\text{ m}^2$",
+              "Total $= 2\\,000\\,000 + 9\\,000\\,000 - 1\\,125\\,000 = 9\\,875\\,000\\text{ m}^2$",
+              "In hectares: $\\frac{9\\,875\\,000}{10\\,000} = 987.5\\text{ ha}$, as required."
+            ],
+            "finalAnswer": "Therefore the property has a total area of $9\\,875\\,000\\text{ m}^2 = 987.5\\text{ ha}$.",
+            "solutionFigures": [],
+            "tip": "Use the equal-length tick marks to find the missing dimensions before splitting the shape."
+          }
+        },
+        {
+          "id": "ch6_ex2_q19b",
+          "number": "19(b)",
+          "category": "Practice",
+          "questionText": "Dan's property (described in part a; total area $987.5\\text{ ha} = 9\\,875\\,000\\text{ m}^2$) is $5000\\text{ m}$ tall on its left side; the bottom $2000\\text{ m}$ is a strip $1000\\text{ m}$ wide and the top $3000\\text{ m}$ is $3000\\text{ m}$ wide, except that a diagonal cuts off a right-angled triangle with legs $1500\\text{ m}$ at the top-right corner. Dan wants to split the property in half (in terms of area) by building a straight-line fence running either north–south or east–west through the property. Assuming the cost of the fencing is a fixed amount per linear metre, justify where the fence should be built (that is, how many metres from the top left-hand corner and in which direction) to minimise the cost.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Set the area on one side of the fence equal to half the total: $\\frac{9\\,875\\,000}{2} = 4\\,937\\,500\\text{ m}^2$; compare fence lengths",
+            "steps": [
+              "Goal: find where a north–south fence and an east–west fence would halve the area, and choose the shorter fence.",
+              "Half the area $= 4\\,937\\,500\\text{ m}^2$.",
+              "North–south fence at distance $x$ m from the left edge ($x \\le 1000$, inside the full-height strip): area to the left $= 5000x$.",
+              "$5000x = 4\\,937\\,500 \\Rightarrow x = 987.5\\text{ m}$. This fence runs the full height, so its length is $5000\\text{ m}$.",
+              "East–west fence at distance $d$ m below the top edge. The top $1500\\text{ m}$ (with the diagonal) has area $1500 \\times 3000 - 1\\,125\\,000 = 3\\,375\\,000\\text{ m}^2$, which is less than half.",
+              "Below that the width is $3000\\text{ m}$, so: $3\\,375\\,000 + 3000(d - 1500) = 4\\,937\\,500$",
+              "$3000(d - 1500) = 1\\,562\\,500$",
+              "$d - 1500 = 520.83...$",
+              "$d = 2020.83\\text{ m}$ (2 d.p.). At this depth the property is $3000\\text{ m}$ wide, so the fence is $3000\\text{ m}$ long.",
+              "Compare: $3000\\text{ m} < 5000\\text{ m}$, so the east–west fence is cheaper."
+            ],
+            "finalAnswer": "Therefore the fence should run east–west (horizontally), $2020.83\\text{ m}$ south of the top left-hand corner; it is $3000\\text{ m}$ long, compared with $5000\\text{ m}$ for the north–south option at $987.5\\text{ m}$ east of the corner.",
+            "solutionFigures": [],
+            "tip": "Cost depends on the fence length, so after finding both positions, compare the lengths of the two fences."
+          }
+        },
+        {
+          "id": "ch6_ex2_q20a",
+          "number": "20(a)",
+          "category": "Consolidate",
+          "questionText": "Ron the excavator operator has 100 metres of barricade mesh and needs to enclose an area to safely work in. He chooses to make a rectangular region with dimensions $x$ and $y$. Write an equation that connects $x$, $y$ and the perimeter.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Perimeter of a rectangle: $P = 2x + 2y$",
+            "steps": [
+              "Given: perimeter $P = 100\\text{ m}$, sides $x$ and $y$. Goal: an equation linking them.",
+              "$P = 2x + 2y$",
+              "$2x + 2y = 100$"
+            ],
+            "finalAnswer": "Therefore $2x + 2y = 100$ (or $x + y = 50$).",
+            "solutionFigures": [],
+            "tip": "A rectangle has two sides of each length, so each dimension is counted twice."
+          }
+        },
+        {
+          "id": "ch6_ex2_q20b",
+          "number": "20(b)",
+          "category": "Consolidate",
+          "questionText": "Ron has 100 metres of barricade mesh to make a rectangular region with dimensions $x$ and $y$, so $2x + 2y = 100$. Write $y$ in terms of $x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Rearrange $2x + 2y = 100$ to make $y$ the subject",
+            "steps": [
+              "Given: $2x + 2y = 100$. Goal: $y$ in terms of $x$.",
+              "Divide both sides by 2: $x + y = 50$",
+              "Subtract $x$ from both sides: $y = 50 - x$"
+            ],
+            "finalAnswer": "Therefore $y = 50 - x$.",
+            "solutionFigures": [],
+            "tip": "Do the same operation to both sides of the equation at each step."
+          }
+        },
+        {
+          "id": "ch6_ex2_q20c",
+          "number": "20(c)",
+          "category": "Consolidate",
+          "questionText": "Ron has 100 metres of barricade mesh to make a rectangular region with dimensions $x$ and $y$, where $y = 50 - x$. Write an equation for the area of the region in terms of $x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a rectangle: $A = xy$",
+            "steps": [
+              "Given: $y = 50 - x$. Goal: area in terms of $x$ only.",
+              "$A = xy$",
+              "$A = x(50 - x)$",
+              "$A = 50x - x^2$"
+            ],
+            "finalAnswer": "Therefore the area is $A = 50x - x^2$ square metres.",
+            "solutionFigures": [],
+            "tip": "Substitute $y$ before expanding so the equation has only one variable."
+          }
+        },
+        {
+          "id": "ch6_ex2_q20d",
+          "number": "20(d)",
+          "category": "Consolidate",
+          "questionText": "Ron's rectangular region (100 m of mesh) has area $A = 50x - x^2$. Fill in the table for different values of $x$: $x = 0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50$ with the corresponding Area ($\\text{m}^2$).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$A = 50x - x^2$",
+            "steps": [
+              "Goal: substitute each $x$ value into $A = 50x - x^2$.",
+              "$x = 0$: $A = 0 - 0 = 0$",
+              "$x = 5$: $A = 250 - 25 = 225$",
+              "$x = 10$: $A = 500 - 100 = 400$",
+              "$x = 15$: $A = 750 - 225 = 525$",
+              "$x = 20$: $A = 1000 - 400 = 600$",
+              "$x = 25$: $A = 1250 - 625 = 625$",
+              "$x = 30$: $A = 1500 - 900 = 600$",
+              "$x = 35$: $A = 1750 - 1225 = 525$",
+              "$x = 40$: $A = 2000 - 1600 = 400$",
+              "$x = 45$: $A = 2250 - 2025 = 225$",
+              "$x = 50$: $A = 2500 - 2500 = 0$"
+            ],
+            "finalAnswer": "Therefore the areas are $0, 225, 400, 525, 600, 625, 600, 525, 400, 225, 0\\text{ m}^2$ for $x = 0, 5, 10, \\ldots, 50$.",
+            "solutionFigures": [],
+            "tip": "Square $x$ before subtracting, and notice the symmetry around $x = 25$ as a check."
+          }
+        },
+        {
+          "id": "ch6_ex2_q20e",
+          "number": "20(e)",
+          "category": "Consolidate",
+          "questionText": "Ron has 100 metres of barricade mesh to make a rectangular region with dimensions $x$ and $y = 50 - x$. Can $x$ have a value more than 50? Why?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = 50 - x$, and a length must be positive",
+            "steps": [
+              "Goal: decide whether $x > 50$ is possible.",
+              "If $x = 50$, then $y = 50 - 50 = 0$: there is no width, so no rectangle.",
+              "If $x > 50$, then $y = 50 - x < 0$: a negative length is impossible.",
+              "So $x$ must satisfy $0 < x < 50$."
+            ],
+            "finalAnswer": "No. If $x \\ge 50$ then $y = 50 - x \\le 0$, so it is impossible to make a rectangle.",
+            "solutionFigures": [],
+            "tip": "Always check that every length in a model stays positive."
+          }
+        },
+        {
+          "id": "ch6_ex2_q20f",
+          "number": "20(f)",
+          "category": "Consolidate",
+          "questionText": "Ron's rectangular region (100 m of mesh) has area $A = 50x - x^2$. Sketch a graph of area against $x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$A = 50x - x^2 = x(50 - x)$ is a concave-down parabola",
+            "steps": [
+              "Goal: describe the sketch of $A$ against $x$ for $0 \\le x \\le 50$.",
+              "Horizontal axis: $x$ (m) from 0 to 50; vertical axis: Area ($\\text{m}^2$) from 0 to about 700.",
+              "$x$-intercepts: $x(50 - x) = 0$ gives $x = 0$ and $x = 50$.",
+              "Plot the table points: $(0, 0), (5, 225), (10, 400), (15, 525), (20, 600), (25, 625), (30, 600), (35, 525), (40, 400), (45, 225), (50, 0)$.",
+              "Join them with a smooth, upside-down U-shaped (parabolic) curve.",
+              "The maximum turning point is at $(25, 625)$ and the curve is symmetrical about $x = 25$."
+            ],
+            "finalAnswer": "Therefore the graph is an inverted parabola from $(0, 0)$ to $(50, 0)$ with its highest point at $(25, 625)$.",
+            "solutionFigures": [],
+            "tip": "Join the points with a smooth curve, not straight line segments."
+          }
+        },
+        {
+          "id": "ch6_ex2_q20g",
+          "number": "20(g)",
+          "category": "Consolidate",
+          "questionText": "Ron's rectangular region (100 m of mesh) has area $A = 50x - x^2$. Determine the value of $x$ that makes the area a maximum.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The turning point of $A = x(50 - x)$ lies midway between the $x$-intercepts",
+            "steps": [
+              "Given: intercepts at $x = 0$ and $x = 50$. Goal: the $x$ value giving maximum area.",
+              "Axis of symmetry: $x = \\frac{0 + 50}{2} = 25$",
+              "The table confirms this: $A(25) = 625$ is the largest value."
+            ],
+            "finalAnswer": "Therefore the area is a maximum when $x = 25\\text{ m}$.",
+            "solutionFigures": [],
+            "tip": "For a parabola, the maximum is halfway between the two $x$-intercepts."
+          }
+        },
+        {
+          "id": "ch6_ex2_q20h",
+          "number": "20(h)",
+          "category": "Consolidate",
+          "questionText": "Ron's rectangular region (100 m of mesh) has $y = 50 - x$ and maximum area when $x = 25$. Determine the value of $y$ for maximum area.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = 50 - x$",
+            "steps": [
+              "Given: $x = 25$. Goal: $y$.",
+              "$y = 50 - 25$",
+              "$y = 25$"
+            ],
+            "finalAnswer": "Therefore $y = 25\\text{ m}$ for maximum area.",
+            "solutionFigures": [],
+            "tip": "Substitute into the rearranged perimeter equation, not the area equation."
+          }
+        },
+        {
+          "id": "ch6_ex2_q20i",
+          "number": "20(i)",
+          "category": "Consolidate",
+          "questionText": "Ron's rectangular region (100 m of mesh) has maximum area when $x = 25$ and $y = 25$. Determine the shape that encloses the maximum area.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "A rectangle with equal sides is a square",
+            "steps": [
+              "Given: $x = 25$, $y = 25$. Goal: name the shape.",
+              "All four sides are 25 m and all angles are right angles, so the rectangle is a square."
+            ],
+            "finalAnswer": "Therefore the shape that encloses the maximum area is a square (25 m by 25 m).",
+            "solutionFigures": [],
+            "tip": "For a fixed perimeter, the rectangle with the largest area is always a square."
+          }
+        },
+        {
+          "id": "ch6_ex2_q20j",
+          "number": "20(j)",
+          "category": "Consolidate",
+          "questionText": "Ron's rectangular region (100 m of mesh) has maximum area when $x = y = 25$. Calculate the maximum area.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$A = xy$",
+            "steps": [
+              "Given: $x = 25\\text{ m}$, $y = 25\\text{ m}$. Goal: the maximum area.",
+              "$A = 25 \\times 25$",
+              "$A = 625\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore the maximum area is $625\\text{ m}^2$.",
+            "solutionFigures": [],
+            "tip": "Check against the table: 625 is the largest value."
+          }
+        },
+        {
+          "id": "ch6_ex2_q20k",
+          "number": "20(k)",
+          "category": "Consolidate",
+          "questionText": "Ron decides to choose to make a circular area with the 100 metres of barricade mesh. Calculate the radius of this circular region, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Circumference of a circle: $C = 2\\pi r$",
+            "steps": [
+              "Given: circumference $C = 100\\text{ m}$. Goal: the radius $r$.",
+              "$2\\pi r = 100$",
+              "$r = \\frac{100}{2\\pi} = \\frac{50}{\\pi}$",
+              "$r = 15.915...$",
+              "Rounded to 2 decimal places: $r \\approx 15.92\\text{ m}$"
+            ],
+            "finalAnswer": "Therefore the radius of the circular region is $15.92\\text{ m}$ (exactly $\\frac{50}{\\pi}\\text{ m}$).",
+            "solutionFigures": [],
+            "tip": "The mesh forms the circumference, so use $C = 2\\pi r$, not the area formula."
+          }
+        },
+        {
+          "id": "ch6_ex2_q20l",
+          "number": "20(l)",
+          "category": "Consolidate",
+          "questionText": "Ron makes a circular region with 100 metres of barricade mesh, so its radius is $r = \\frac{50}{\\pi}\\text{ m}$. Calculate the area that is enclosed in this circular region, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a circle: $A = \\pi r^2$",
+            "steps": [
+              "Given: $r = \\frac{50}{\\pi}$. Goal: the area.",
+              "$A = \\pi \\times \\left(\\frac{50}{\\pi}\\right)^2$",
+              "$A = \\pi \\times \\frac{2500}{\\pi^2} = \\frac{2500}{\\pi}$",
+              "$A = 795.774...$",
+              "Rounded to 2 decimal places: $A \\approx 795.77\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore the circular region encloses $795.77\\text{ m}^2$.",
+            "solutionFigures": [],
+            "tip": "Use the exact radius $\\frac{50}{\\pi}$, not the rounded 15.92, to avoid rounding error."
+          }
+        },
+        {
+          "id": "ch6_ex2_q20m",
+          "number": "20(m)",
+          "category": "Consolidate",
+          "questionText": "With 100 m of mesh, Ron's best rectangular region has area $625\\text{ m}^2$ and the circular region has area $795.77\\text{ m}^2$. Determine how much extra area Ron now has compared to his rectangular region.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Extra area = circular area $-$ rectangular area",
+            "steps": [
+              "Given: circle $\\frac{2500}{\\pi} = 795.774...\\text{ m}^2$, square $625\\text{ m}^2$. Goal: the difference.",
+              "Extra area $= 795.774... - 625$",
+              "Extra area $= 170.774...$",
+              "Rounded to 2 decimal places: $170.77\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore Ron has $170.77\\text{ m}^2$ more area with the circular region.",
+            "solutionFigures": [],
+            "tip": "Compare with the largest possible rectangle (the square), not just any rectangle."
+          }
+        },
+        {
+          "id": "ch6_ex2_q21a",
+          "number": "21(a)",
+          "category": "Master",
+          "questionText": "In question 20, Ron the excavator operator could choose to enclose a rectangular or circular area with barricade mesh. Show that for $150\\text{ m}$ of barricade mesh, a circular region again results in a larger safe work area as opposed to a rectangular region.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Best rectangle for a fixed perimeter is a square: side $= \\frac{P}{4}$; circle: $r = \\frac{C}{2\\pi}$, $A = \\pi r^2$",
+            "steps": [
+              "Given: 150 m of mesh. Goal: compare the largest rectangular area with the circular area.",
+              "Largest rectangle is a square with side $\\frac{150}{4} = 37.5\\text{ m}$: area $= 37.5^2 = 1406.25\\text{ m}^2$",
+              "Circle: $2\\pi r = 150 \\Rightarrow r = \\frac{75}{\\pi}$",
+              "Circle area $= \\pi \\times \\left(\\frac{75}{\\pi}\\right)^2 = \\frac{5625}{\\pi} = 1790.49\\text{ m}^2$ (2 d.p.)",
+              "$1790.49 > 1406.25$, so the circle encloses more area."
+            ],
+            "finalAnswer": "Therefore with 150 m of mesh the circular area ($1790.49\\text{ m}^2$) is larger than the best rectangular area ($1406.25\\text{ m}^2$).",
+            "solutionFigures": [],
+            "tip": "Compare against the square, since it is the rectangle with the greatest area for a given perimeter."
+          }
+        },
+        {
+          "id": "ch6_ex2_q21b",
+          "number": "21(b)",
+          "category": "Master",
+          "questionText": "Ron the excavator operator could choose to enclose a rectangular or circular area with barricade mesh. Show that for $n$ metres of barricade mesh, a circular region will result in a larger safe work area as opposed to a rectangular region.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Square: $A = \\left(\\frac{n}{4}\\right)^2$; circle: $r = \\frac{n}{2\\pi}$, $A = \\pi r^2$",
+            "steps": [
+              "Given: $n$ metres of mesh. Goal: show the circle's area is always larger.",
+              "Largest rectangle (square): side $\\frac{n}{4}$, area $= \\left(\\frac{n}{4}\\right)^2 = \\frac{n^2}{16}\\text{ m}^2$",
+              "Circle: $2\\pi r = n \\Rightarrow r = \\frac{n}{2\\pi}$",
+              "Circle area $= \\pi \\times \\frac{n^2}{4\\pi^2} = \\frac{n^2}{4\\pi}\\text{ m}^2$",
+              "Ratio $= \\frac{n^2}{4\\pi} \\div \\frac{n^2}{16} = \\frac{n^2}{4\\pi} \\times \\frac{16}{n^2} = \\frac{4}{\\pi}$",
+              "$\\frac{4}{\\pi} \\approx 1.27 > 1$, so the circle's area is always larger, whatever the value of $n$."
+            ],
+            "finalAnswer": "Therefore the circular area $\\frac{n^2}{4\\pi}\\text{ m}^2$ is always $\\frac{4}{\\pi} \\approx 1.27$ times the square's area $\\frac{n^2}{16}\\text{ m}^2$, so the circle is always larger.",
+            "solutionFigures": [],
+            "tip": "Dividing the two areas makes $n$ cancel, which proves the result for every length of mesh."
+          }
+        },
+        {
+          "id": "ch6_ex2_q22a",
+          "number": "22(a)",
+          "category": "Practice",
+          "questionText": "A vegetable gardener is going to build four new rectangular garden beds side by side. Each garden bed measures $12.5$ metres long and $3.2$ metres wide. To access the garden beds, the gardener requires a path 1 metre wide between each garden bed and around the outside of the beds. Evaluate the total area the vegetable gardener would need for the garden beds and paths.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a rectangle: $A = lw$",
+            "steps": [
+              "Given: 4 beds, each $12.5\\text{ m} \\times 3.2\\text{ m}$, placed side by side; 1 m paths between beds and around the outside. Goal: total area.",
+              "Width: 4 beds and 5 paths (one each side and three between): $4 \\times 3.2 + 5 \\times 1 = 12.8 + 5 = 17.8\\text{ m}$",
+              "Length: bed plus a path at each end: $12.5 + 2 \\times 1 = 14.5\\text{ m}$",
+              "$A = 17.8 \\times 14.5$",
+              "$A = 258.1\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore the gardener needs a total area of $258.1\\text{ m}^2$.",
+            "solutionFigures": [],
+            "tip": "Four beds in a row need five paths across: one on each outside edge plus three between."
+          }
+        },
+        {
+          "id": "ch6_ex2_q22b",
+          "number": "22(b)",
+          "category": "Practice",
+          "questionText": "Four garden beds each measure $12.5\\text{ m}$ by $3.2\\text{ m}$. The garden beds need to be mulched. A bag of mulch costing $\\$29.50$ covers an area of 25 square metres. Determine how many bags of mulch the gardener will need to purchase.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Bags = bed area $\\div$ 25, rounded up",
+            "steps": [
+              "Given: 4 beds of $12.5 \\times 3.2$; one bag covers $25\\text{ m}^2$. Goal: number of bags.",
+              "Area of one bed $= 12.5 \\times 3.2 = 40\\text{ m}^2$",
+              "Area of 4 beds $= 4 \\times 40 = 160\\text{ m}^2$",
+              "Bags $= \\frac{160}{25} = 6.4$",
+              "You cannot buy part of a bag, so round up to 7."
+            ],
+            "finalAnswer": "Therefore the gardener needs to purchase 7 bags of mulch.",
+            "solutionFigures": [],
+            "tip": "When buying whole items to cover an area, always round up."
+          }
+        },
+        {
+          "id": "ch6_ex2_q22c",
+          "number": "22(c)",
+          "category": "Practice",
+          "questionText": "The garden beds and paths occupy $258.1\\text{ m}^2$, of which the four beds take up $160\\text{ m}^2$. The path is to be resurfaced at a cost of $\\$39.50$ per 50 square metres. Evaluate the cost of resurfacing the path.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Path area = total area $-$ bed area; cost = number of $50\\text{ m}^2$ lots $\\times \\$39.50$",
+            "steps": [
+              "Given: total $258.1\\text{ m}^2$, beds $160\\text{ m}^2$, $\\$39.50$ per $50\\text{ m}^2$. Goal: cost of the path.",
+              "Path area $= 258.1 - 160 = 98.1\\text{ m}^2$",
+              "Number of 50 m² lots $= \\frac{98.1}{50} = 1.962$, which rounds up to 2 lots.",
+              "Cost $= 2 \\times \\$39.50 = \\$79$"
+            ],
+            "finalAnswer": "Therefore resurfacing the path costs $\\$79$.",
+            "solutionFigures": [],
+            "tip": "The price is per 50 m² lot, so a part-lot is charged as a whole lot."
+          }
+        },
+        {
+          "id": "ch6_ex2_q22d",
+          "number": "22(d)",
+          "category": "Practice",
+          "questionText": "For the four garden beds and paths, the gardener buys 7 bags of mulch at $\\$29.50$ each and pays $\\$79$ to resurface the path. The gardener needs to spend a further $\\$150$ on plants. Determine the total cost of building these new garden beds and paths.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Total cost = mulch + path + plants",
+            "steps": [
+              "Given: 7 bags at $\\$29.50$, path $\\$79$, plants $\\$150$. Goal: total cost.",
+              "Mulch $= 7 \\times \\$29.50 = \\$206.50$",
+              "Total $= \\$206.50 + \\$79 + \\$150$",
+              "Total $= \\$435.50$"
+            ],
+            "finalAnswer": "Therefore the total cost is $\\$435.50$.",
+            "solutionFigures": [],
+            "tip": "List every cost item before adding so none is missed."
+          }
+        },
+        {
+          "id": "ch6_ex2_q23a",
+          "number": "23(a)",
+          "category": "Consolidate",
+          "questionText": "The diagram shows one smaller square drawn inside a larger square on grid paper. The larger square is 10 grid units by 10 grid units. Each vertex of the smaller (tilted) square lies on a side of the larger square, dividing that side into lengths of 3 units and 7 units. Determine what fraction of the area of the larger square is the area of the smaller square.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $c^2 = a^2 + b^2$; area of a square $= (\\text{side})^2$",
+            "steps": [
+              "Given: large square side 10 units; small square's side is the hypotenuse of a right-angled triangle with legs 3 and 7. Goal: the fraction of areas.",
+              "Area of large square $= 10^2 = 100$ square units",
+              "Side of small square: $c^2 = 3^2 + 7^2 = 9 + 49 = 58$",
+              "Area of small square $= c^2 = 58$ square units",
+              "Check: large square minus four corner triangles $= 100 - 4 \\times \\frac{1}{2} \\times 3 \\times 7 = 100 - 42 = 58$",
+              "Fraction $= \\frac{58}{100} = \\frac{29}{50}$"
+            ],
+            "finalAnswer": "Therefore the smaller square is $\\frac{29}{50}$ of the area of the larger square.",
+            "solutionFigures": [],
+            "tip": "The area of the small square is the side length squared, so you don't need to take a square root."
+          }
+        },
+        {
+          "id": "ch6_ex2_q23b",
+          "number": "23(b)",
+          "category": "Consolidate",
+          "questionText": "Another square with side lengths of $10\\text{ cm}$ has a smaller square drawn inside, with each vertex of the smaller square on a side of the larger square. Along the top side, the distance from the top-left corner to the smaller square's vertex is $x$; along the left side, the distance from the top-left corner to the smaller square's vertex is $y$. Determine the values of $x$ and $y$ if the smaller square is half the larger square.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of small square = large square $-$ 4 corner triangles; each side of the large square is split into $x$ and $y$, so $x + y = 10$",
+            "steps": [
+              "Given: large square area $= 10^2 = 100\\text{ cm}^2$; small square area $= \\frac{1}{2} \\times 100 = 50\\text{ cm}^2$. Goal: $x$ and $y$.",
+              "Each side of the large square is split into $x$ and $y$: $x + y = 10$",
+              "The four corner triangles each have legs $x$ and $y$: total area $= 4 \\times \\frac{1}{2}xy = 2xy$",
+              "$100 - 2xy = 50 \\Rightarrow 2xy = 50 \\Rightarrow xy = 25$",
+              "From $x + y = 10$: $y = 10 - x$, so $x(10 - x) = 25$",
+              "$10x - x^2 = 25 \\Rightarrow x^2 - 10x + 25 = 0$",
+              "$(x - 5)^2 = 0 \\Rightarrow x = 5$",
+              "$y = 10 - 5 = 5$"
+            ],
+            "finalAnswer": "Therefore $x = 5\\text{ cm}$ and $y = 5\\text{ cm}$ (the vertices are at the midpoints of the sides).",
+            "solutionFigures": [],
+            "tip": "Find the area of the inner square by subtracting the corner triangles rather than using the tilted side directly."
+          }
+        },
+        {
+          "id": "ch6_ex2_q24",
+          "number": "24",
+          "category": "Master",
+          "questionText": "The shaded area in the diagram is called a segment of a circle: the region between chord AB and the arc AB, where O is the centre. A circle with a radius of $10\\text{ cm}$ has $\\angle AOB$ equal to $90^\\circ$. A second circle, also with a radius of $10\\text{ cm}$, has $\\angle AOB$ equal to $120^\\circ$. Evaluate the difference in the areas of the segments of these two circles, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of segment = area of sector $-$ area of $\\triangle AOB$; sector $= \\frac{\\theta}{360^\\circ}\\pi r^2$; triangle $= \\frac{1}{2}ab\\sin C$",
+            "steps": [
+              "Given: $r = 10\\text{ cm}$; angles $90^\\circ$ and $120^\\circ$. Goal: the difference between the segment areas.",
+              "Segment 1 ($90^\\circ$): sector $= \\frac{90^\\circ}{360^\\circ} \\times \\pi \\times 10^2 = 25\\pi$",
+              "Triangle 1 $= \\frac{1}{2} \\times 10 \\times 10 \\times \\sin 90^\\circ = 50$",
+              "Segment 1 $= 25\\pi - 50 = 28.539...\\text{ cm}^2$",
+              "Segment 2 ($120^\\circ$): sector $= \\frac{120^\\circ}{360^\\circ} \\times \\pi \\times 10^2 = \\frac{100\\pi}{3}$",
+              "Triangle 2 $= \\frac{1}{2} \\times 10 \\times 10 \\times \\sin 120^\\circ = 50 \\times \\frac{\\sqrt{3}}{2} = 25\\sqrt{3}$",
+              "Segment 2 $= \\frac{100\\pi}{3} - 25\\sqrt{3} = 104.719... - 43.301... = 61.418...\\text{ cm}^2$",
+              "Difference $= 61.418... - 28.539... = 32.878...$",
+              "Rounded to 2 decimal places: $32.88\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the segments differ in area by $32.88\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "A segment is a sector with the triangle removed; keep full calculator values until the final subtraction."
+          }
+        }
+      ]
+    }
+  ]
+}

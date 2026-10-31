@@ -1,0 +1,702 @@
+{
+  "chapterId": "ch11",
+  "chapterTitle": "Probability",
+  "topics": [
+    {
+      "topicId": "11.5",
+      "topicTitle": "Conditional probability",
+      "exercises": [
+        {
+          "id": "ch11_ex5_q1a",
+          "number": "1(a)",
+          "category": "Practice",
+          "questionText": "A group of students was asked whether they liked the following forms of dance: hip hop ($H$) or jazz ($J$). The results are illustrated in the Venn diagram: 35 like hip hop only, 12 like both, 29 like jazz only and 14 like neither. Calculate the probability that a randomly selected student likes jazz.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(J) = \\dfrac{n(J)}{n(\\xi)}$",
+            "steps": [
+              "Given: $H$ only $= 35$, $H \\cap J = 12$, $J$ only $= 29$, neither $= 14$. Goal: $\\Pr(J)$.",
+              "Total: $n(\\xi) = 35 + 12 + 29 + 14 = 90$",
+              "$n(J) = 12 + 29 = 41$",
+              "$\\Pr(J) = \\dfrac{41}{90}$ (41 is prime, so this cannot be simplified)"
+            ],
+            "finalAnswer": "$\\Pr(J) = \\frac{41}{90}$",
+            "solutionFigures": [],
+            "tip": "$n(J)$ includes the overlap (12) as well as jazz only (29)."
+          }
+        },
+        {
+          "id": "ch11_ex5_q1b",
+          "number": "1(b)",
+          "category": "Practice",
+          "questionText": "A group of students was asked whether they liked the following forms of dance: hip hop ($H$) or jazz ($J$). The results are illustrated in the Venn diagram: 35 like hip hop only, 12 like both, 29 like jazz only and 14 like neither. Determine the probability that a randomly selected student likes hip hop, given that they like jazz.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Conditional probability: $\\Pr(H \\mid J) = \\dfrac{\\Pr(H \\cap J)}{\\Pr(J)} = \\dfrac{n(H \\cap J)}{n(J)}$",
+            "steps": [
+              "Given: $n(H \\cap J) = 12$, $n(J) = 12 + 29 = 41$, $n(\\xi) = 90$. Goal: $\\Pr(H \\mid J)$.",
+              "$\\Pr(H \\cap J) = \\dfrac{12}{90}$, $\\Pr(J) = \\dfrac{41}{90}$",
+              "$\\Pr(H \\mid J) = \\dfrac{12/90}{41/90} = \\dfrac{12}{41}$"
+            ],
+            "finalAnswer": "$\\Pr(H \\mid J) = \\frac{12}{41}$",
+            "solutionFigures": [],
+            "tip": "Once you know the student likes jazz, only the 41 jazz-lovers matter, so 41 is the denominator."
+          }
+        },
+        {
+          "id": "ch11_ex5_q2a",
+          "number": "2(a)",
+          "category": "Consolidate",
+          "questionText": "A group of students was asked which seats they liked: the seats in the computer lab ($C$) or the seats in the science lab ($S$). The Venn diagram shows 15 in $C$ only, 8 in both, 5 in $S$ only and 2 outside both. Calculate the probability that a randomly selected student likes the seats in the science lab.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(S) = \\dfrac{n(S)}{n(\\xi)}$",
+            "steps": [
+              "Given: $C$ only $= 15$, $C \\cap S = 8$, $S$ only $= 5$, neither $= 2$. Goal: $\\Pr(S)$.",
+              "Total: $n(\\xi) = 15 + 8 + 5 + 2 = 30$",
+              "$n(S) = 8 + 5 = 13$",
+              "$\\Pr(S) = \\dfrac{13}{30}$"
+            ],
+            "finalAnswer": "$\\Pr(S) = \\frac{13}{30}$",
+            "solutionFigures": [],
+            "tip": "Include the 2 students outside both circles in the total of 30."
+          }
+        },
+        {
+          "id": "ch11_ex5_q2b",
+          "number": "2(b)",
+          "category": "Consolidate",
+          "questionText": "A group of students was asked which seats they liked: the seats in the computer lab ($C$) or the seats in the science lab ($S$). The Venn diagram shows 15 in $C$ only, 8 in both, 5 in $S$ only and 2 outside both. Determine the probability that a randomly selected student likes the seats in the science lab, given that they like the seats in the computer lab or the science lab.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Conditional probability: $\\Pr(S \\mid C \\cup S) = \\dfrac{\\Pr(S \\cap (C \\cup S))}{\\Pr(C \\cup S)} = \\dfrac{n(S)}{n(C \\cup S)}$",
+            "steps": [
+              "Given: $n(S) = 13$, $n(\\xi) = 30$. Goal: $\\Pr(S \\mid C \\cup S)$.",
+              "The condition is $C \\cup S$: $n(C \\cup S) = 15 + 8 + 5 = 28$.",
+              "Since $S$ lies inside $C \\cup S$, $S \\cap (C \\cup S) = S$, so the favourable count is $n(S) = 13$.",
+              "$\\Pr(S \\mid C \\cup S) = \\dfrac{13}{28}$"
+            ],
+            "finalAnswer": "$\\Pr(S \\mid C \\cup S) = \\frac{13}{28}$",
+            "solutionFigures": [],
+            "tip": "The condition removes only the 2 students who like neither, so the denominator becomes 28."
+          }
+        },
+        {
+          "id": "ch11_ex5_q3a",
+          "number": "3(a)",
+          "category": "Practice",
+          "questionText": "If $\\Pr(A) = 0.7$, $\\Pr(B) = 0.5$ and $\\Pr(A \\cup B) = 0.9$, calculate $\\Pr(A \\cap B)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Addition Law: $\\Pr(A \\cap B) = \\Pr(A) + \\Pr(B) - \\Pr(A \\cup B)$",
+            "steps": [
+              "Given: $\\Pr(A) = 0.7$, $\\Pr(B) = 0.5$, $\\Pr(A \\cup B) = 0.9$. Goal: $\\Pr(A \\cap B)$.",
+              "$\\Pr(A \\cap B) = 0.7 + 0.5 - 0.9$",
+              "$= 1.2 - 0.9 = 0.3$"
+            ],
+            "finalAnswer": "$\\Pr(A \\cap B) = 0.3$",
+            "solutionFigures": [],
+            "tip": "If $\\Pr(A) + \\Pr(B) > 1$, the events must overlap."
+          }
+        },
+        {
+          "id": "ch11_ex5_q3b",
+          "number": "3(b)",
+          "category": "Practice",
+          "questionText": "If $\\Pr(A) = 0.7$, $\\Pr(B) = 0.5$ and $\\Pr(A \\cup B) = 0.9$, calculate $\\Pr(B \\mid A)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Conditional probability: $\\Pr(B \\mid A) = \\dfrac{\\Pr(A \\cap B)}{\\Pr(A)}$",
+            "steps": [
+              "Given: $\\Pr(A) = 0.7$ and, from part (a), $\\Pr(A \\cap B) = 0.7 + 0.5 - 0.9 = 0.3$. Goal: $\\Pr(B \\mid A)$.",
+              "$\\Pr(B \\mid A) = \\dfrac{0.3}{0.7}$",
+              "$= \\dfrac{3}{7} \\approx 0.4286$"
+            ],
+            "finalAnswer": "$\\Pr(B \\mid A) = \\frac{3}{7} \\approx 0.43$ (2 decimal places)",
+            "solutionFigures": [],
+            "tip": "Divide by the probability of the event after the bar ($A$)."
+          }
+        },
+        {
+          "id": "ch11_ex5_q4a",
+          "number": "4(a)",
+          "category": "Master",
+          "questionText": "If $\\Pr(A) = 0.65$, $\\Pr(B) = 0.75$ and $\\Pr(A \\cap B) = 0.45$, calculate $\\Pr(B \\mid A)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Conditional probability: $\\Pr(B \\mid A) = \\dfrac{\\Pr(A \\cap B)}{\\Pr(A)}$",
+            "steps": [
+              "Given: $\\Pr(A) = 0.65$, $\\Pr(A \\cap B) = 0.45$. Goal: $\\Pr(B \\mid A)$.",
+              "$\\Pr(B \\mid A) = \\dfrac{0.45}{0.65} = \\dfrac{45}{65}$",
+              "Divide top and bottom by 5: $\\dfrac{45}{65} = \\dfrac{9}{13} \\approx 0.6923$"
+            ],
+            "finalAnswer": "$\\Pr(B \\mid A) = \\frac{9}{13} \\approx 0.69$ (2 decimal places)",
+            "solutionFigures": [],
+            "tip": "Clear decimals by multiplying top and bottom by 100, then simplify the fraction."
+          }
+        },
+        {
+          "id": "ch11_ex5_q4b",
+          "number": "4(b)",
+          "category": "Master",
+          "questionText": "If $\\Pr(A) = 0.65$, $\\Pr(B) = 0.75$ and $\\Pr(A \\cap B) = 0.45$, calculate $\\Pr(A \\mid B)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Conditional probability: $\\Pr(A \\mid B) = \\dfrac{\\Pr(A \\cap B)}{\\Pr(B)}$",
+            "steps": [
+              "Given: $\\Pr(B) = 0.75$, $\\Pr(A \\cap B) = 0.45$. Goal: $\\Pr(A \\mid B)$.",
+              "$\\Pr(A \\mid B) = \\dfrac{0.45}{0.75} = \\dfrac{45}{75}$",
+              "Divide top and bottom by 15: $\\dfrac{45}{75} = \\dfrac{3}{5} = 0.6$"
+            ],
+            "finalAnswer": "$\\Pr(A \\mid B) = \\frac{3}{5} = 0.6$",
+            "solutionFigures": [],
+            "tip": "$\\Pr(A \\mid B)$ and $\\Pr(B \\mid A)$ share the same numerator but usually have different denominators."
+          }
+        },
+        {
+          "id": "ch11_ex5_q5",
+          "number": "5",
+          "category": "Practice",
+          "questionText": "A medical degree requires applicants to participate in two tests: an aptitude test and an emotional maturity test. This year 52% passed the aptitude test and 30% passed both tests. Use the conditional probability formula to calculate the probability that a student who passed the aptitude test also passed the emotional maturity test.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Conditional probability: $\\Pr(E \\mid A) = \\dfrac{\\Pr(E \\cap A)}{\\Pr(A)}$",
+            "steps": [
+              "Given: $A$ = passed aptitude, $E$ = passed emotional maturity; $\\Pr(A) = 0.52$, $\\Pr(A \\cap E) = 0.30$. Goal: $\\Pr(E \\mid A)$.",
+              "$\\Pr(E \\mid A) = \\dfrac{0.30}{0.52} = \\dfrac{30}{52}$",
+              "Divide top and bottom by 2: $\\dfrac{30}{52} = \\dfrac{15}{26}$",
+              "$\\dfrac{15}{26} = 0.5769\\ldots \\approx 0.58$"
+            ],
+            "finalAnswer": "$\\Pr(E \\mid A) = \\frac{15}{26} \\approx 0.58$ (2 decimal places)",
+            "solutionFigures": [],
+            "tip": "'A student who passed the aptitude test' is the condition, so $\\Pr(A)$ goes in the denominator."
+          }
+        },
+        {
+          "id": "ch11_ex5_q6",
+          "number": "6",
+          "category": "Consolidate",
+          "questionText": "At a school classified as a 'Music school for excellence', the probability that a student elects to study Music and Physics is 0.2. The probability that a student takes Music is 0.92. Determine the probability that a student takes Physics, given that the student is taking Music.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Conditional probability: $\\Pr(P \\mid M) = \\dfrac{\\Pr(P \\cap M)}{\\Pr(M)}$",
+            "steps": [
+              "Given: $\\Pr(M \\cap P) = 0.2$, $\\Pr(M) = 0.92$. Goal: $\\Pr(P \\mid M)$.",
+              "$\\Pr(P \\mid M) = \\dfrac{0.2}{0.92} = \\dfrac{20}{92}$",
+              "Divide top and bottom by 4: $\\dfrac{20}{92} = \\dfrac{5}{23}$",
+              "$\\dfrac{5}{23} = 0.2173\\ldots \\approx 0.22$"
+            ],
+            "finalAnswer": "$\\Pr(P \\mid M) = \\frac{5}{23} \\approx 0.22$ (2 decimal places)",
+            "solutionFigures": [],
+            "tip": "Don't confuse $\\Pr(P \\cap M) = 0.2$ with $\\Pr(P \\mid M)$; the conditional one is larger here because Music is so common."
+          }
+        },
+        {
+          "id": "ch11_ex5_q7",
+          "number": "7",
+          "category": "Master",
+          "questionText": "The probability that a student is well and misses a work shift the night before an exam is 0.045, and the probability that a student misses a work shift is 0.05. Determine the probability that a student is well, given they miss a work shift the night before an exam.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Conditional probability: $\\Pr(W \\mid S) = \\dfrac{\\Pr(W \\cap S)}{\\Pr(S)}$",
+            "steps": [
+              "Given: $W$ = student is well, $S$ = misses a shift; $\\Pr(W \\cap S) = 0.045$, $\\Pr(S) = 0.05$. Goal: $\\Pr(W \\mid S)$.",
+              "$\\Pr(W \\mid S) = \\dfrac{0.045}{0.05}$",
+              "$= \\dfrac{45}{50} = \\dfrac{9}{10} = 0.9$"
+            ],
+            "finalAnswer": "$\\Pr(W \\mid S) = 0.9$",
+            "solutionFigures": [],
+            "tip": "Multiply top and bottom by 1000 to clear the decimals before simplifying."
+          }
+        },
+        {
+          "id": "ch11_ex5_q8",
+          "number": "8",
+          "category": "Master",
+          "questionText": "Two marbles are chosen, without replacement, from a jar containing only red and green marbles. The probability of selecting a green marble and then a red marble is 0.1641. The probability of selecting a green marble on the first draw is 0.8. Determine the probability of selecting a red marble on the second draw, given the first marble drawn was green.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for dependent events $\\Pr(G_1 \\cap R_2) = \\Pr(G_1) \\times \\Pr(R_2 \\mid G_1)$, so $\\Pr(R_2 \\mid G_1) = \\dfrac{\\Pr(G_1 \\cap R_2)}{\\Pr(G_1)}$",
+            "steps": [
+              "Given: $\\Pr(G_1 \\cap R_2) = 0.1641$, $\\Pr(G_1) = 0.8$. Goal: $\\Pr(R_2 \\mid G_1)$.",
+              "$\\Pr(R_2 \\mid G_1) = \\dfrac{0.1641}{0.8}$",
+              "$= 0.205125$",
+              "Rounded to 4 decimal places: $0.2051$"
+            ],
+            "finalAnswer": "$\\Pr(R_2 \\mid G_1) \\approx 0.2051$ (4 decimal places)",
+            "solutionFigures": [],
+            "tip": "The 'green then red' probability is a product along tree branches, so divide by the first branch to recover the second."
+          }
+        },
+        {
+          "id": "ch11_ex5_q9",
+          "number": "9",
+          "category": "Consolidate",
+          "questionText": "MC A group of 80 schoolgirls consists of 54 dancers and 35 singers. Each member of the group is either a dancer, a singer, or both. The probability that a randomly selected student is a singer given that she is a dancer is:\nA. 0.17  B. 0.44  C. 0.68  D. 0.11",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$n(D \\cap S) = n(D) + n(S) - n(D \\cup S)$, then $\\Pr(S \\mid D) = \\dfrac{n(S \\cap D)}{n(D)}$",
+            "steps": [
+              "Given: $n(\\xi) = n(D \\cup S) = 80$, $n(D) = 54$, $n(S) = 35$. Goal: $\\Pr(S \\mid D)$.",
+              "Both: $n(D \\cap S) = 54 + 35 - 80 = 9$",
+              "Restrict to the 54 dancers: $\\Pr(S \\mid D) = \\dfrac{9}{54} = \\dfrac{1}{6}$",
+              "$\\dfrac{1}{6} = 0.1666\\ldots \\approx 0.17$"
+            ],
+            "finalAnswer": "$\\Pr(S \\mid D) = \\frac{1}{6} \\approx 0.17$, option A",
+            "solutionFigures": [],
+            "tip": "Since $54 + 35 = 89 > 80$, the 9 extra must be girls counted twice, that is, the overlap."
+          }
+        },
+        {
+          "id": "ch11_ex5_q10a",
+          "number": "10(a)",
+          "category": "Practice",
+          "questionText": "Consider rolling a red and a black die and the probabilities of the following events: Event $A$: the red die lands on 5; Event $B$: the black die lands on 2; Event $C$: the sum of the dice is 10.\nMC The initial probability of each event described is:\nA. $\\Pr(A) = \\frac{1}{6}$, $\\Pr(B) = \\frac{1}{6}$, $\\Pr(C) = \\frac{1}{6}$\nB. $\\Pr(A) = \\frac{5}{6}$, $\\Pr(B) = \\frac{2}{6}$, $\\Pr(C) = \\frac{7}{36}$\nC. $\\Pr(A) = \\frac{5}{6}$, $\\Pr(B) = \\frac{2}{6}$, $\\Pr(C) = \\frac{5}{18}$\nD. $\\Pr(A) = \\frac{1}{6}$, $\\Pr(B) = \\frac{1}{6}$, $\\Pr(C) = \\frac{1}{12}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$; two dice give $6 \\times 6 = 36$ equally likely outcomes",
+            "steps": [
+              "Goal: find $\\Pr(A)$, $\\Pr(B)$ and $\\Pr(C)$.",
+              "$\\Pr(A)$: the red die shows 5, one face out of six: $\\Pr(A) = \\dfrac{1}{6}$",
+              "$\\Pr(B)$: the black die shows 2: $\\Pr(B) = \\dfrac{1}{6}$",
+              "$\\Pr(C)$: sum of 10 from (red, black) = $(4, 6), (5, 5), (6, 4)$, so 3 outcomes out of 36.",
+              "$\\Pr(C) = \\dfrac{3}{36} = \\dfrac{1}{12}$"
+            ],
+            "finalAnswer": "$\\Pr(A) = \\frac{1}{6}$, $\\Pr(B) = \\frac{1}{6}$, $\\Pr(C) = \\frac{1}{12}$, option D",
+            "solutionFigures": [],
+            "tip": "Landing on 5 has probability $\\frac{1}{6}$, not $\\frac{5}{6}$: the face value is not the probability."
+          }
+        },
+        {
+          "id": "ch11_ex5_q10bi",
+          "number": "10(b)(i)",
+          "category": "Practice",
+          "questionText": "Consider rolling a red and a black die. Event $A$: the red die lands on 5; Event $B$: the black die lands on 2; Event $C$: the sum of the dice is 10. Calculate $\\Pr(A \\mid B)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Conditional probability: $\\Pr(A \\mid B) = \\dfrac{\\Pr(A \\cap B)}{\\Pr(B)}$",
+            "steps": [
+              "Given: $\\Pr(B) = \\dfrac{6}{36} = \\dfrac{1}{6}$. Goal: $\\Pr(A \\mid B)$.",
+              "$A \\cap B$ is the single outcome (red 5, black 2): $\\Pr(A \\cap B) = \\dfrac{1}{36}$",
+              "$\\Pr(A \\mid B) = \\dfrac{1/36}{1/6} = \\dfrac{1}{36} \\times 6 = \\dfrac{6}{36} = \\dfrac{1}{6}$",
+              "This equals $\\Pr(A)$, because the two dice are independent."
+            ],
+            "finalAnswer": "$\\Pr(A \\mid B) = \\frac{1}{6}$",
+            "solutionFigures": [],
+            "tip": "For independent events, knowing $B$ happened does not change the probability of $A$."
+          }
+        },
+        {
+          "id": "ch11_ex5_q10bii",
+          "number": "10(b)(ii)",
+          "category": "Practice",
+          "questionText": "Consider rolling a red and a black die. Event $A$: the red die lands on 5; Event $B$: the black die lands on 2; Event $C$: the sum of the dice is 10. Calculate $\\Pr(B \\mid A)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Conditional probability: $\\Pr(B \\mid A) = \\dfrac{\\Pr(A \\cap B)}{\\Pr(A)}$",
+            "steps": [
+              "Given: $\\Pr(A) = \\dfrac{1}{6}$, $\\Pr(A \\cap B) = \\dfrac{1}{36}$ (red 5 and black 2). Goal: $\\Pr(B \\mid A)$.",
+              "$\\Pr(B \\mid A) = \\dfrac{1/36}{1/6} = \\dfrac{6}{36} = \\dfrac{1}{6}$"
+            ],
+            "finalAnswer": "$\\Pr(B \\mid A) = \\frac{1}{6}$",
+            "solutionFigures": [],
+            "tip": "Dividing by a fraction means multiplying by its reciprocal: $\\frac{1}{36} \\div \\frac{1}{6} = \\frac{1}{36} \\times 6$."
+          }
+        },
+        {
+          "id": "ch11_ex5_q10biii",
+          "number": "10(b)(iii)",
+          "category": "Practice",
+          "questionText": "Consider rolling a red and a black die. Event $A$: the red die lands on 5; Event $B$: the black die lands on 2; Event $C$: the sum of the dice is 10. Calculate $\\Pr(C \\mid A)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Conditional probability: $\\Pr(C \\mid A) = \\dfrac{\\Pr(C \\cap A)}{\\Pr(A)}$",
+            "steps": [
+              "Given: $\\Pr(A) = \\dfrac{6}{36} = \\dfrac{1}{6}$. Goal: $\\Pr(C \\mid A)$.",
+              "$C \\cap A$: red is 5 and the sum is 10, so black must be 5: only (5, 5). $\\Pr(C \\cap A) = \\dfrac{1}{36}$",
+              "$\\Pr(C \\mid A) = \\dfrac{1/36}{1/6} = \\dfrac{1}{6}$",
+              "Check by reduced sample space: given red = 5, black has 6 equally likely values and only 5 works, so $\\dfrac{1}{6}$."
+            ],
+            "finalAnswer": "$\\Pr(C \\mid A) = \\frac{1}{6}$",
+            "solutionFigures": [],
+            "tip": "Notice $\\Pr(C \\mid A) = \\frac{1}{6} \\neq \\Pr(C) = \\frac{1}{12}$, so $A$ and $C$ are dependent."
+          }
+        },
+        {
+          "id": "ch11_ex5_q10biv",
+          "number": "10(b)(iv)",
+          "category": "Practice",
+          "questionText": "Consider rolling a red and a black die. Event $A$: the red die lands on 5; Event $B$: the black die lands on 2; Event $C$: the sum of the dice is 10. Calculate $\\Pr(C \\mid B)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Conditional probability: $\\Pr(C \\mid B) = \\dfrac{\\Pr(C \\cap B)}{\\Pr(B)}$",
+            "steps": [
+              "Given: $\\Pr(B) = \\dfrac{1}{6}$. Goal: $\\Pr(C \\mid B)$.",
+              "$C \\cap B$: black is 2 and the sum is 10, so red would have to be 8, which is impossible on a die.",
+              "$\\Pr(C \\cap B) = 0$",
+              "$\\Pr(C \\mid B) = \\dfrac{0}{1/6} = 0$"
+            ],
+            "finalAnswer": "$\\Pr(C \\mid B) = 0$",
+            "solutionFigures": [],
+            "tip": "Always check whether the condition makes the event impossible before calculating."
+          }
+        },
+        {
+          "id": "ch11_ex5_q11a",
+          "number": "11(a)",
+          "category": "Master",
+          "questionText": "The following is the blood pressure data from 232 adult patients admitted to a hospital over a week, shown in a two-way frequency table. Under 60 years: Low 92, Medium 44, High 10, Total 146. 60 years or above: Low 17, Medium 46, High 23, Total 86. Totals: Low 109, Medium 90, High 33, overall 232. Calculate the probability that a randomly chosen patient has low blood pressure.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(L) = \\dfrac{n(L)}{n(\\xi)}$",
+            "steps": [
+              "Given: column total for Low $= 109$, grand total $= 232$. Goal: $\\Pr(\\text{low})$.",
+              "$\\Pr(\\text{low}) = \\dfrac{109}{232}$",
+              "109 is prime and does not divide 232, so the fraction is already in simplest form ($\\approx 0.4698$)."
+            ],
+            "finalAnswer": "$\\Pr(\\text{low}) = \\frac{109}{232} \\approx 0.47$ (2 decimal places)",
+            "solutionFigures": [],
+            "tip": "Use the column total (109), not just one cell of the table."
+          }
+        },
+        {
+          "id": "ch11_ex5_q11b",
+          "number": "11(b)",
+          "category": "Master",
+          "questionText": "The following is the blood pressure data from 232 adult patients admitted to a hospital over a week, shown in a two-way frequency table. Under 60 years: Low 92, Medium 44, High 10, Total 146. 60 years or above: Low 17, Medium 46, High 23, Total 86. Totals: Low 109, Medium 90, High 33, overall 232. Determine the probability that a randomly chosen patient is under 60 years of age.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(U) = \\dfrac{n(U)}{n(\\xi)}$",
+            "steps": [
+              "Given: row total for Under 60 $= 146$, grand total $= 232$. Goal: $\\Pr(\\text{under } 60)$.",
+              "$\\Pr(\\text{under } 60) = \\dfrac{146}{232}$",
+              "Divide top and bottom by 2: $\\dfrac{146}{232} = \\dfrac{73}{116} \\approx 0.6293$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{under } 60) = \\frac{73}{116} \\approx 0.63$ (2 decimal places)",
+            "solutionFigures": [],
+            "tip": "Always simplify: both 146 and 232 are even."
+          }
+        },
+        {
+          "id": "ch11_ex5_q11c",
+          "number": "11(c)",
+          "category": "Master",
+          "questionText": "The following is the blood pressure data from 232 adult patients admitted to a hospital over a week, shown in a two-way frequency table. Under 60 years: Low 92, Medium 44, High 10, Total 146. 60 years or above: Low 17, Medium 46, High 23, Total 86. Totals: Low 109, Medium 90, High 33, overall 232. Calculate the probability that a randomly chosen patient has high blood pressure, given they are aged 60 years or above.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Conditional probability: $\\Pr(H \\mid O) = \\dfrac{n(H \\cap O)}{n(O)}$",
+            "steps": [
+              "Given: $O$ = aged 60 or above, $n(O) = 86$; $H \\cap O$ = high and 60 or above $= 23$. Goal: $\\Pr(H \\mid O)$.",
+              "Restrict to the '60 years or above' row: total 86.",
+              "$\\Pr(H \\mid O) = \\dfrac{23}{86}$ (23 is prime and does not divide 86, so this is simplest form) $\\approx 0.2674$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{high} \\mid 60 \\text{ or above}) = \\frac{23}{86} \\approx 0.27$ (2 decimal places)",
+            "solutionFigures": [],
+            "tip": "With a two-way table, the condition tells you which row or column total to divide by."
+          }
+        },
+        {
+          "id": "ch11_ex5_q11d",
+          "number": "11(d)",
+          "category": "Master",
+          "questionText": "The following is the blood pressure data from 232 adult patients admitted to a hospital over a week, shown in a two-way frequency table. Under 60 years: Low 92, Medium 44, High 10, Total 146. 60 years or above: Low 17, Medium 46, High 23, Total 86. Totals: Low 109, Medium 90, High 33, overall 232. Determine the probability that a randomly chosen patient is under the age of 60, given they have medium blood pressure.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Conditional probability: $\\Pr(U \\mid M) = \\dfrac{n(U \\cap M)}{n(M)}$",
+            "steps": [
+              "Given: $M$ = medium blood pressure, $n(M) = 90$; $U \\cap M$ = under 60 with medium $= 44$. Goal: $\\Pr(U \\mid M)$.",
+              "Restrict to the Medium column: total 90.",
+              "$\\Pr(U \\mid M) = \\dfrac{44}{90}$",
+              "Divide top and bottom by 2: $\\dfrac{44}{90} = \\dfrac{22}{45} \\approx 0.4889$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{under } 60 \\mid \\text{medium}) = \\frac{22}{45} \\approx 0.49$ (2 decimal places)",
+            "solutionFigures": [],
+            "tip": "Here the condition is a column (Medium), so divide by the column total 90, not the row total 146."
+          }
+        },
+        {
+          "id": "ch11_ex5_q12",
+          "number": "12",
+          "category": "Practice",
+          "questionText": "Explain how imposing a condition alters probability calculations.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(A \\mid B) = \\dfrac{\\Pr(A \\cap B)}{\\Pr(B)}$: the condition $B$ becomes the new sample space",
+            "steps": [
+              "Goal: explain the effect of a condition such as 'given $B$'.",
+              "Without a condition, the probability of $A$ is found using the whole sample space $\\xi$: $\\Pr(A) = \\dfrac{n(A)}{n(\\xi)}$.",
+              "A condition tells us that event $B$ has already happened, so only outcomes inside $B$ are still possible.",
+              "The sample space is reduced to $B$, and the favourable outcomes are those in both $A$ and $B$: $\\Pr(A \\mid B) = \\dfrac{n(A \\cap B)}{n(B)}$.",
+              "So the probability of one event depends on (is conditional on) the outcome of the other event, and the answer usually changes."
+            ],
+            "finalAnswer": "Imposing a condition reduces the sample space to the outcomes of the given event, so the probability of the other event is recalculated relative to that smaller set: $\\Pr(A \\mid B) = \\frac{\\Pr(A \\cap B)}{\\Pr(B)}$.",
+            "solutionFigures": [],
+            "tip": "If the condition does not change the probability, i.e. $\\Pr(A \\mid B) = \\Pr(A)$, the events are independent."
+          }
+        },
+        {
+          "id": "ch11_ex5_q13a",
+          "number": "13(a)",
+          "category": "Consolidate",
+          "questionText": "At a school, 65% of the students are male and 35% are female. Of the male students, 10% report that dancing is their favourite activity; of the female students, 25% report that dancing is their favourite activity. Determine the probability that a student selected at random prefers dancing and is female.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for dependent events: $\\Pr(F \\cap D) = \\Pr(F) \\times \\Pr(D \\mid F)$",
+            "steps": [
+              "Given: $\\Pr(F) = 0.35$, $\\Pr(D \\mid F) = 0.25$. Goal: $\\Pr(F \\cap D)$.",
+              "$\\Pr(F \\cap D) = 0.35 \\times 0.25$",
+              "$= 0.0875$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{female and prefers dancing}) = 0.0875$",
+            "solutionFigures": [],
+            "tip": "The 25% is a conditional probability (of females only), so multiply it by $\\Pr(F)$; it is not the answer by itself."
+          }
+        },
+        {
+          "id": "ch11_ex5_q13b",
+          "number": "13(b)",
+          "category": "Consolidate",
+          "questionText": "At a school, 65% of the students are male and 35% are female. Of the male students, 10% report that dancing is their favourite activity; of the female students, 25% report that dancing is their favourite activity. Determine the probability that a student selected at random prefers dancing and is male.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for dependent events: $\\Pr(M \\cap D) = \\Pr(M) \\times \\Pr(D \\mid M)$",
+            "steps": [
+              "Given: $\\Pr(M) = 0.65$, $\\Pr(D \\mid M) = 0.10$. Goal: $\\Pr(M \\cap D)$.",
+              "$\\Pr(M \\cap D) = 0.65 \\times 0.10$",
+              "$= 0.065$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{male and prefers dancing}) = 0.065$",
+            "solutionFigures": [],
+            "tip": "Multiply along the branches: first gender, then dancing given that gender."
+          }
+        },
+        {
+          "id": "ch11_ex5_q13ci",
+          "number": "13(c)(i)",
+          "category": "Consolidate",
+          "questionText": "At a school, 65% of the students are male and 35% are female. Of the male students, 10% report that dancing is their favourite activity; of the female students, 25% report that dancing is their favourite activity. Construct a tree diagram to present the information given and use it to calculate the probability that a student is male and does not prefer dancing.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Tree diagram: multiply along branches, $\\Pr(M \\cap D') = \\Pr(M) \\times \\Pr(D' \\mid M)$, with the complement rule $\\Pr(D' \\mid M) = 1 - \\Pr(D \\mid M)$",
+            "steps": [
+              "Given: $\\Pr(M) = 0.65$, $\\Pr(F) = 0.35$, $\\Pr(D \\mid M) = 0.1$, $\\Pr(D \\mid F) = 0.25$. Goal: $\\Pr(M \\cap D')$.",
+              "Tree, first stage: $M$ (0.65), $F$ (0.35).",
+              "Second stage from $M$: $D$ (0.1), $D'$ ($1 - 0.1 = 0.9$). From $F$: $D$ (0.25), $D'$ ($1 - 0.25 = 0.75$).",
+              "Outcomes: $MD = 0.65 \\times 0.1 = 0.065$; $MD' = 0.65 \\times 0.9 = 0.585$; $FD = 0.35 \\times 0.25 = 0.0875$; $FD' = 0.35 \\times 0.75 = 0.2625$.",
+              "Check: $0.065 + 0.585 + 0.0875 + 0.2625 = 1$",
+              "$\\Pr(M \\cap D') = 0.585$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{male and does not prefer dancing}) = 0.585$",
+            "solutionFigures": [],
+            "tip": "Each pair of branches from one point must add to 1; use this to fill in the missing 0.9 and 0.75."
+          }
+        },
+        {
+          "id": "ch11_ex5_q13cii",
+          "number": "13(c)(ii)",
+          "category": "Consolidate",
+          "questionText": "At a school, 65% of the students are male and 35% are female. Of the male students, 10% report that dancing is their favourite activity; of the female students, 25% report that dancing is their favourite activity. Using a tree diagram of the information, calculate the overall percentage of students who prefer dancing.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Add the probabilities of mutually exclusive tree paths: $\\Pr(D) = \\Pr(M \\cap D) + \\Pr(F \\cap D)$",
+            "steps": [
+              "Given: from the tree, $\\Pr(M \\cap D) = 0.65 \\times 0.1 = 0.065$ and $\\Pr(F \\cap D) = 0.35 \\times 0.25 = 0.0875$. Goal: $\\Pr(D)$ as a percentage.",
+              "The two paths ending in $D$ are mutually exclusive, so add them.",
+              "$\\Pr(D) = 0.065 + 0.0875 = 0.1525$",
+              "As a percentage: $0.1525 \\times 100\\% = 15.25\\%$"
+            ],
+            "finalAnswer": "15.25% of students prefer dancing.",
+            "solutionFigures": [],
+            "tip": "Do not average 10% and 25%; weight each by the proportion of males and females."
+          }
+        },
+        {
+          "id": "ch11_ex5_q14ai",
+          "number": "14(a)(i)",
+          "category": "Master",
+          "questionText": "Consider the following sets of numbers: $\\xi = \\{1, 2, 3, \\ldots, 20\\}$, $A = \\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\\}$, $B = \\{2, 3, 5, 7, 11, 13, 17, 19\\}$. Calculate $\\Pr(A)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(A) = \\dfrac{n(A)}{n(\\xi)}$",
+            "steps": [
+              "Given: $n(\\xi) = 20$, $n(A) = 10$. Goal: $\\Pr(A)$.",
+              "$\\Pr(A) = \\dfrac{10}{20} = \\dfrac{1}{2}$"
+            ],
+            "finalAnswer": "$\\Pr(A) = \\frac{1}{2}$",
+            "solutionFigures": [],
+            "tip": "Count the elements carefully before dividing."
+          }
+        },
+        {
+          "id": "ch11_ex5_q14aii",
+          "number": "14(a)(ii)",
+          "category": "Master",
+          "questionText": "Consider the following sets of numbers: $\\xi = \\{1, 2, 3, \\ldots, 20\\}$, $A = \\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\\}$, $B = \\{2, 3, 5, 7, 11, 13, 17, 19\\}$. Calculate $\\Pr(B)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(B) = \\dfrac{n(B)}{n(\\xi)}$",
+            "steps": [
+              "Given: $n(\\xi) = 20$; $B$ is the primes up to 20, $n(B) = 8$. Goal: $\\Pr(B)$.",
+              "$\\Pr(B) = \\dfrac{8}{20} = \\dfrac{2}{5}$"
+            ],
+            "finalAnswer": "$\\Pr(B) = \\frac{2}{5}$",
+            "solutionFigures": [],
+            "tip": "Simplify by dividing by the highest common factor (4)."
+          }
+        },
+        {
+          "id": "ch11_ex5_q14aiii",
+          "number": "14(a)(iii)",
+          "category": "Master",
+          "questionText": "Consider the following sets of numbers: $\\xi = \\{1, 2, 3, \\ldots, 20\\}$, $A = \\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\\}$, $B = \\{2, 3, 5, 7, 11, 13, 17, 19\\}$. Calculate $\\Pr(A \\cap B)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(A \\cap B) = \\dfrac{n(A \\cap B)}{n(\\xi)}$",
+            "steps": [
+              "Goal: $\\Pr(A \\cap B)$.",
+              "Elements in both $A$ and $B$: $A \\cap B = \\{2, 3, 5, 7\\}$, so $n(A \\cap B) = 4$.",
+              "$\\Pr(A \\cap B) = \\dfrac{4}{20} = \\dfrac{1}{5}$"
+            ],
+            "finalAnswer": "$\\Pr(A \\cap B) = \\frac{1}{5}$",
+            "solutionFigures": [],
+            "tip": "Intersection means 'in both sets', so list the common elements."
+          }
+        },
+        {
+          "id": "ch11_ex5_q14aiv",
+          "number": "14(a)(iv)",
+          "category": "Master",
+          "questionText": "Consider the following sets of numbers: $\\xi = \\{1, 2, 3, \\ldots, 20\\}$, $A = \\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\\}$, $B = \\{2, 3, 5, 7, 11, 13, 17, 19\\}$. Calculate $\\Pr(A \\mid B)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Conditional probability: $\\Pr(A \\mid B) = \\dfrac{\\Pr(A \\cap B)}{\\Pr(B)}$",
+            "steps": [
+              "Given: $\\Pr(A \\cap B) = \\dfrac{1}{5}$, $\\Pr(B) = \\dfrac{2}{5}$. Goal: $\\Pr(A \\mid B)$.",
+              "$\\Pr(A \\mid B) = \\dfrac{1/5}{2/5} = \\dfrac{1}{5} \\times \\dfrac{5}{2} = \\dfrac{1}{2}$",
+              "Check with counts: $\\dfrac{n(A \\cap B)}{n(B)} = \\dfrac{4}{8} = \\dfrac{1}{2}$"
+            ],
+            "finalAnswer": "$\\Pr(A \\mid B) = \\frac{1}{2}$",
+            "solutionFigures": [],
+            "tip": "Using counts ($\\frac{4}{8}$) is a quick check on the fraction arithmetic."
+          }
+        },
+        {
+          "id": "ch11_ex5_q14av",
+          "number": "14(a)(v)",
+          "category": "Master",
+          "questionText": "Consider the following sets of numbers: $\\xi = \\{1, 2, 3, \\ldots, 20\\}$, $A = \\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\\}$, $B = \\{2, 3, 5, 7, 11, 13, 17, 19\\}$. Calculate $\\Pr(B \\mid A)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Conditional probability: $\\Pr(B \\mid A) = \\dfrac{\\Pr(A \\cap B)}{\\Pr(A)}$",
+            "steps": [
+              "Given: $\\Pr(A \\cap B) = \\dfrac{1}{5}$, $\\Pr(A) = \\dfrac{1}{2}$. Goal: $\\Pr(B \\mid A)$.",
+              "$\\Pr(B \\mid A) = \\dfrac{1/5}{1/2} = \\dfrac{1}{5} \\times 2 = \\dfrac{2}{5}$",
+              "Check with counts: $\\dfrac{n(A \\cap B)}{n(A)} = \\dfrac{4}{10} = \\dfrac{2}{5}$"
+            ],
+            "finalAnswer": "$\\Pr(B \\mid A) = \\frac{2}{5}$",
+            "solutionFigures": [],
+            "tip": "$\\Pr(B \\mid A)$ divides by $\\Pr(A)$; don't mix it up with $\\Pr(A \\mid B)$."
+          }
+        },
+        {
+          "id": "ch11_ex5_q14b",
+          "number": "14(b)",
+          "category": "Master",
+          "questionText": "Consider the following sets of numbers: $\\xi = \\{1, 2, 3, \\ldots, 20\\}$, $A = \\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\\}$, $B = \\{2, 3, 5, 7, 11, 13, 17, 19\\}$. Explain whether the events $A$ and $B$ are independent.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Independence test: $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B)$, equivalently $\\Pr(A \\mid B) = \\Pr(A)$",
+            "steps": [
+              "Given: $\\Pr(A) = \\dfrac{1}{2}$, $\\Pr(B) = \\dfrac{2}{5}$, $\\Pr(A \\cap B) = \\dfrac{1}{5}$. Goal: test independence.",
+              "$\\Pr(A) \\times \\Pr(B) = \\dfrac{1}{2} \\times \\dfrac{2}{5} = \\dfrac{2}{10} = \\dfrac{1}{5}$",
+              "This equals $\\Pr(A \\cap B) = \\dfrac{1}{5}$.",
+              "Also $\\Pr(A \\mid B) = \\dfrac{1}{2} = \\Pr(A)$ and $\\Pr(B \\mid A) = \\dfrac{2}{5} = \\Pr(B)$."
+            ],
+            "finalAnswer": "Yes, $A$ and $B$ are independent, because $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B) = \\frac{1}{5}$.",
+            "solutionFigures": [],
+            "tip": "Independence is a numerical test; events defined on the same numbers can still be independent."
+          }
+        },
+        {
+          "id": "ch11_ex5_q14c",
+          "number": "14(c)",
+          "category": "Master",
+          "questionText": "Consider the following sets of numbers: $\\xi = \\{1, 2, 3, \\ldots, 20\\}$, $A = \\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\\}$, $B = \\{2, 3, 5, 7, 11, 13, 17, 19\\}$. Write a statement that connects $\\Pr(A)$, $\\Pr(A \\cap B)$, $\\Pr(A \\mid B)$ and independent events.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(A \\mid B) = \\dfrac{\\Pr(A \\cap B)}{\\Pr(B)}$; $A$ and $B$ are independent when $\\Pr(A \\mid B) = \\Pr(A)$",
+            "steps": [
+              "Goal: link the four ideas in one statement.",
+              "By definition $\\Pr(A \\mid B) = \\dfrac{\\Pr(A \\cap B)}{\\Pr(B)}$.",
+              "If $\\Pr(A \\mid B) = \\Pr(A)$, then knowing $B$ occurred does not change the probability of $A$.",
+              "Substituting, $\\dfrac{\\Pr(A \\cap B)}{\\Pr(B)} = \\Pr(A)$, which rearranges to $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B)$, the Multiplication Law for independent events.",
+              "In this question: $\\Pr(A \\mid B) = \\dfrac{1}{2} = \\Pr(A)$, so $A$ and $B$ are independent."
+            ],
+            "finalAnswer": "If $\\Pr(A \\mid B) = \\frac{\\Pr(A \\cap B)}{\\Pr(B)} = \\Pr(A)$, then $A$ and $B$ are independent events: the probability of $A$ is not affected by $B$ occurring, and equivalently $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B)$.",
+            "solutionFigures": [],
+            "tip": "The two tests $\\Pr(A \\mid B) = \\Pr(A)$ and $\\Pr(A \\cap B) = \\Pr(A)\\Pr(B)$ are the same condition written two ways."
+          }
+        },
+        {
+          "id": "ch11_ex5_q15",
+          "number": "15",
+          "category": "Practice",
+          "questionText": "The rapid test used to determine whether a person is infected with COVID-19 is not perfect. For one type of rapid test, the probability of a person with the disease returning a positive result is 0.98, while the probability of a person without the disease returning a positive result is 0.04. At its peak in a certain country, the probability that a randomly selected person has COVID-19 is 0.05. Determine the probability that a randomly selected person will return a positive result.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Tree diagram with the multiplication rule for dependent events, then add the mutually exclusive paths: $\\Pr(+) = \\Pr(C)\\Pr(+ \\mid C) + \\Pr(C')\\Pr(+ \\mid C')$",
+            "steps": [
+              "Given: $\\Pr(C) = 0.05$ (has COVID), $\\Pr(+ \\mid C) = 0.98$, $\\Pr(+ \\mid C') = 0.04$. Goal: $\\Pr(+)$.",
+              "Complement rule: $\\Pr(C') = 1 - 0.05 = 0.95$",
+              "Path 1, has COVID and tests positive: $0.05 \\times 0.98 = 0.049$",
+              "Path 2, no COVID and tests positive: $0.95 \\times 0.04 = 0.038$",
+              "$\\Pr(+) = 0.049 + 0.038 = 0.087$",
+              "As a percentage: $0.087 \\times 100\\% = 8.7\\%$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{positive}) = 0.087$, an 8.7% chance",
+            "solutionFigures": [],
+            "tip": "Remember the false positives: people without the disease can also test positive."
+          }
+        },
+        {
+          "id": "ch11_ex5_q16",
+          "number": "16",
+          "category": "Consolidate",
+          "questionText": "Two marbles are chosen, without replacement, from a jar containing only red and green marbles. The probability of selecting a green marble and then a red marble is 0.72. The probability of selecting a green marble on the first draw is 0.85. Determine the probability of selecting a red marble on the second draw if the first marble drawn was green.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Conditional probability: $\\Pr(R_2 \\mid G_1) = \\dfrac{\\Pr(G_1 \\cap R_2)}{\\Pr(G_1)}$",
+            "steps": [
+              "Given: $\\Pr(G_1 \\cap R_2) = 0.72$, $\\Pr(G_1) = 0.85$. Goal: $\\Pr(R_2 \\mid G_1)$.",
+              "$\\Pr(R_2 \\mid G_1) = \\dfrac{0.72}{0.85} = \\dfrac{72}{85}$",
+              "$\\dfrac{72}{85} = 0.84705\\ldots \\approx 0.847$"
+            ],
+            "finalAnswer": "$\\Pr(R_2 \\mid G_1) = \\frac{72}{85} \\approx 0.847$ (3 decimal places)",
+            "solutionFigures": [],
+            "tip": "Round only at the very end; keep $\\frac{72}{85}$ exact until then."
+          }
+        },
+        {
+          "id": "ch11_ex5_q17",
+          "number": "17",
+          "category": "Master",
+          "questionText": "When walking home from school during the summer months, Harold buys either an ice-cream or a drink from the corner shop. If Harold bought an ice-cream the previous day, there is a 30% chance that he will buy a drink the next day. If he bought a drink the previous day, there is a 40% chance that he will buy an ice-cream the next day. On Monday, Harold bought an ice-cream. Determine the probability that he buys an ice-cream on Wednesday.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Two-stage tree with the multiplication rule for dependent events, adding the mutually exclusive paths that end in ice-cream",
+            "steps": [
+              "Given: after ice-cream, $\\Pr(\\text{drink}) = 0.3$ so $\\Pr(\\text{ice-cream}) = 1 - 0.3 = 0.7$; after drink, $\\Pr(\\text{ice-cream}) = 0.4$ so $\\Pr(\\text{drink}) = 0.6$. Monday = ice-cream. Goal: $\\Pr(\\text{ice-cream on Wednesday})$.",
+              "Tuesday (from Monday's ice-cream): $I$ with 0.7, $D$ with 0.3.",
+              "Path $I \\to I$ (Tue ice-cream, Wed ice-cream): $0.7 \\times 0.7 = 0.49$",
+              "Path $D \\to I$ (Tue drink, Wed ice-cream): $0.3 \\times 0.4 = 0.12$",
+              "Add the two paths: $0.49 + 0.12 = 0.61$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{ice-cream on Wednesday}) = 0.61$",
+            "solutionFigures": [],
+            "tip": "Wednesday depends on Tuesday, so you must consider both possible Tuesday purchases."
+          }
+        }
+      ]
+    }
+  ]
+}

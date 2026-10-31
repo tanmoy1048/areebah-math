@@ -1,0 +1,347 @@
+{
+  "chapterId": "ch09",
+  "chapterTitle": "Non-linear relationships",
+  "topics": [
+    {
+      "topicId": "9.1",
+      "topicTitle": "Pre-test",
+      "exercises": [
+        {
+          "id": "ch9_ex1_q1",
+          "number": "1",
+          "category": null,
+          "questionText": "Complete the table of values for the equation $y = \\frac{1}{2}(x-2)^2 - 3$ for $x = -3, -2, -1, 0$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute each $x$-value into $y = \\frac{1}{2}(x-2)^2 - 3$, following the order of operations: brackets, square, multiply, subtract.",
+            "steps": [
+              "Given: $y = \\frac{1}{2}(x-2)^2 - 3$ and $x = -3, -2, -1, 0$.",
+              "Goal: find the $y$-value for each $x$-value.",
+              "$x = -3$: $y = \\frac{1}{2}(-3-2)^2 - 3 = \\frac{1}{2}(-5)^2 - 3 = \\frac{1}{2}(25) - 3 = 12.5 - 3 = 9.5$",
+              "$x = -2$: $y = \\frac{1}{2}(-2-2)^2 - 3 = \\frac{1}{2}(-4)^2 - 3 = \\frac{1}{2}(16) - 3 = 8 - 3 = 5$",
+              "$x = -1$: $y = \\frac{1}{2}(-1-2)^2 - 3 = \\frac{1}{2}(-3)^2 - 3 = \\frac{1}{2}(9) - 3 = 4.5 - 3 = 1.5$",
+              "$x = 0$: $y = \\frac{1}{2}(0-2)^2 - 3 = \\frac{1}{2}(-2)^2 - 3 = \\frac{1}{2}(4) - 3 = 2 - 3 = -1$"
+            ],
+            "finalAnswer": "Therefore the completed table is: $x = -3, -2, -1, 0$ gives $y = 9.5, 5, 1.5, -1$.",
+            "solutionFigures": [],
+            "tip": "Square the bracket before multiplying by $\\frac{1}{2}$; $(-5)^2 = 25$, not $-25$."
+          }
+        },
+        {
+          "id": "ch9_ex1_q2",
+          "number": "2",
+          "category": null,
+          "questionText": "For the graph of $y = -3(x+1)^2 - 2$, state the equation of the axis of symmetry.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a(x-h)^2 + k$, the turning point is $(h, k)$ and the axis of symmetry is $x = h$.",
+            "steps": [
+              "Given: $y = -3(x+1)^2 - 2$.",
+              "Goal: the equation of the axis of symmetry.",
+              "Write in the form $y = a(x-h)^2 + k$: $y = -3(x-(-1))^2 + (-2)$.",
+              "So $a = -3$, $h = -1$, $k = -2$.",
+              "The axis of symmetry is the vertical line through the turning point: $x = h = -1$."
+            ],
+            "finalAnswer": "Therefore the axis of symmetry is $x = -1$.",
+            "solutionFigures": [],
+            "tip": "$(x+1)$ means $h = -1$: the sign inside the bracket is the opposite of the $x$-coordinate of the turning point."
+          }
+        },
+        {
+          "id": "ch9_ex1_q3",
+          "number": "3",
+          "category": null,
+          "questionText": "MC For the graph of $y = 2(x+5)^2 + 8$, the turning point is:\nA. $(-5, -8)$\nB. $(-5, 8)$\nC. $(5, 8)$\nD. $(8, 5)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a(x-h)^2 + k$, the turning point is $(h, k)$.",
+            "steps": [
+              "Given: $y = 2(x+5)^2 + 8$.",
+              "Goal: the turning point.",
+              "Rewrite: $y = 2(x-(-5))^2 + 8$, so $h = -5$ and $k = 8$.",
+              "Turning point $(h, k) = (-5, 8)$.",
+              "Check: at $x = -5$, $y = 2(0)^2 + 8 = 8$, and since $(x+5)^2 \\ge 0$, $y \\ge 8$ everywhere, so $(-5, 8)$ is the minimum point."
+            ],
+            "finalAnswer": "Therefore the turning point is $(-5, 8)$: option B.",
+            "solutionFigures": [],
+            "tip": "The constant outside the bracket ($+8$) keeps its sign; only the value inside the bracket changes sign."
+          }
+        },
+        {
+          "id": "ch9_ex1_q4",
+          "number": "4",
+          "category": null,
+          "questionText": "MC The graph of $y = -(x-1)^2 - 3$ has:\nA. a maximum turning point\nB. a minimum turning point\nC. no turning point\nD. two maximum turning points.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a(x-h)^2 + k$: if $a > 0$ the parabola opens upward (minimum turning point); if $a < 0$ it opens downward (maximum turning point).",
+            "steps": [
+              "Given: $y = -(x-1)^2 - 3$.",
+              "Goal: decide the type of turning point.",
+              "Here $a = -1$, which is negative.",
+              "A negative $a$ reflects the parabola in the $x$-axis, so it opens downward.",
+              "A downward-opening parabola has a single highest point: a maximum turning point at $(1, -3)$."
+            ],
+            "finalAnswer": "Therefore the graph has a maximum turning point: option A.",
+            "solutionFigures": [],
+            "tip": "Every parabola has exactly one turning point; only the sign of $a$ decides whether it is a maximum or minimum."
+          }
+        },
+        {
+          "id": "ch9_ex1_q5",
+          "number": "5",
+          "category": null,
+          "questionText": "MC The $x$-intercepts of $y = 2(x-2)^2 - 8$ are:\nA. $x = 2$ or $x = 8$\nB. $x = 0$ or $x = 8$\nC. $x = 10$ or $x = -6$\nD. $x = 0$ or $x = 4$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$x$-intercepts occur where $y = 0$; solve $a(x-h)^2 + k = 0$ by isolating the square and taking $\\pm$ square roots.",
+            "steps": [
+              "Given: $y = 2(x-2)^2 - 8$.",
+              "Goal: the $x$-intercepts.",
+              "Let $y = 0$: $2(x-2)^2 - 8 = 0$",
+              "Add 8: $2(x-2)^2 = 8$",
+              "Divide by 2: $(x-2)^2 = 4$",
+              "Take square roots: $x - 2 = \\pm 2$",
+              "$x = 2 + 2 = 4$ or $x = 2 - 2 = 0$",
+              "Check: $x = 0$: $2(-2)^2 - 8 = 8 - 8 = 0$ ✓; $x = 4$: $2(2)^2 - 8 = 0$ ✓"
+            ],
+            "finalAnswer": "Therefore the $x$-intercepts are $x = 0$ or $x = 4$: option D.",
+            "solutionFigures": [],
+            "tip": "Remember both the positive and negative square root, otherwise you lose one intercept."
+          }
+        },
+        {
+          "id": "ch9_ex1_q6",
+          "number": "6",
+          "category": null,
+          "questionText": "Calculate the coordinates of the turning point for the graph of $y = (x+3)(x+5)$. Write your answer in the form $(a, b)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The turning point lies on the axis of symmetry, halfway between the $x$-intercepts: $x_{TP} = \\frac{x_1 + x_2}{2}$.",
+            "steps": [
+              "Given: $y = (x+3)(x+5)$.",
+              "Goal: the turning point $(a, b)$.",
+              "$x$-intercepts: $x + 3 = 0 \\Rightarrow x = -3$; $x + 5 = 0 \\Rightarrow x = -5$.",
+              "Axis of symmetry: $x = \\frac{-3 + (-5)}{2} = \\frac{-8}{2} = -4$.",
+              "Substitute $x = -4$: $y = (-4+3)(-4+5) = (-1)(1) = -1$.",
+              "Turning point is $(-4, -1)$."
+            ],
+            "finalAnswer": "Therefore the turning point is $(-4, -1)$.",
+            "solutionFigures": [],
+            "tip": "Find the $x$-coordinate first by averaging the intercepts, then substitute it back to get the $y$-coordinate."
+          }
+        },
+        {
+          "id": "ch9_ex1_q7",
+          "number": "7",
+          "category": null,
+          "questionText": "The equation $y = 2x^2 + bx - 1200$ has $x$-intercepts of $(-30, 0)$ and $(20, 0)$. Determine the value of $b$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "If a quadratic with leading coefficient $a$ has $x$-intercepts $p$ and $q$, then $y = a(x-p)(x-q)$.",
+            "steps": [
+              "Given: $y = 2x^2 + bx - 1200$, $x$-intercepts $x = -30$ and $x = 20$.",
+              "Goal: find $b$.",
+              "Factorised form with $a = 2$: $y = 2(x+30)(x-20)$.",
+              "Expand the brackets: $(x+30)(x-20) = x^2 - 20x + 30x - 600 = x^2 + 10x - 600$.",
+              "Multiply by 2: $y = 2x^2 + 20x - 1200$.",
+              "Compare with $y = 2x^2 + bx - 1200$: the constant $-1200$ matches, and $b = 20$.",
+              "Check: $x = 20$: $2(400) + 20(20) - 1200 = 800 + 400 - 1200 = 0$ ✓"
+            ],
+            "finalAnswer": "Therefore $b = 20$.",
+            "solutionFigures": [],
+            "tip": "Do not forget the leading coefficient 2 when writing the factorised form."
+          }
+        },
+        {
+          "id": "ch9_ex1_q8",
+          "number": "8",
+          "category": null,
+          "questionText": "MC The radius, $r$, of the circle $4x^2 + 4y^2 = 16$ is:\nA. $r = 16$\nB. $r = 8$\nC. $r = 4$\nD. $r = 2$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "A circle centred at the origin has equation $x^2 + y^2 = r^2$.",
+            "steps": [
+              "Given: $4x^2 + 4y^2 = 16$.",
+              "Goal: the radius $r$.",
+              "Divide every term by 4: $x^2 + y^2 = 4$.",
+              "Compare with $x^2 + y^2 = r^2$: $r^2 = 4$.",
+              "$r = \\sqrt{4} = 2$ (radius is positive)."
+            ],
+            "finalAnswer": "Therefore the radius is $r = 2$: option D.",
+            "solutionFigures": [],
+            "tip": "Make the coefficients of $x^2$ and $y^2$ equal to 1 first, then take the square root of the right-hand side."
+          }
+        },
+        {
+          "id": "ch9_ex1_q9",
+          "number": "9",
+          "category": null,
+          "questionText": "MC The centre of the circle with equation $x^2 + 4x + y^2 - 6y + 9 = 0$ is:\nA. $(-4, -3)$\nB. $(4, -6)$\nC. $(-4, 6)$\nD. $(-2, 3)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Circle: $(x-h)^2 + (y-k)^2 = r^2$ has centre $(h, k)$. Complete the square: $x^2 + bx = \\left(x + \\frac{b}{2}\\right)^2 - \\left(\\frac{b}{2}\\right)^2$.",
+            "steps": [
+              "Given: $x^2 + 4x + y^2 - 6y + 9 = 0$.",
+              "Goal: the centre.",
+              "Complete the square in $x$: $x^2 + 4x = (x+2)^2 - 4$.",
+              "Complete the square in $y$: $y^2 - 6y = (y-3)^2 - 9$.",
+              "Substitute: $(x+2)^2 - 4 + (y-3)^2 - 9 + 9 = 0$",
+              "Simplify: $(x+2)^2 + (y-3)^2 - 4 = 0 \\Rightarrow (x+2)^2 + (y-3)^2 = 4$.",
+              "So $h = -2$, $k = 3$ and $r = 2$."
+            ],
+            "finalAnswer": "Therefore the centre is $(-2, 3)$: option D.",
+            "solutionFigures": [],
+            "tip": "The centre coordinates have the opposite signs to the numbers inside the brackets."
+          }
+        },
+        {
+          "id": "ch9_ex1_q10",
+          "number": "10",
+          "category": null,
+          "questionText": "Calculate the points of intersection between the parabola $y = x^2$ and the circle $x^2 + y^2 = 1$, correct to two decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Solve simultaneously by substitution; use the quadratic formula $y = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.",
+            "steps": [
+              "Given: $y = x^2$ and $x^2 + y^2 = 1$.",
+              "Goal: the intersection points, to 2 decimal places.",
+              "Substitute $x^2 = y$ into the circle: $y + y^2 = 1$.",
+              "Rearrange: $y^2 + y - 1 = 0$, so $a = 1$, $b = 1$, $c = -1$.",
+              "$y = \\frac{-1 \\pm \\sqrt{1^2 - 4(1)(-1)}}{2(1)} = \\frac{-1 \\pm \\sqrt{5}}{2}$.",
+              "Since $y = x^2 \\ge 0$, reject $y = \\frac{-1 - \\sqrt{5}}{2} \\approx -1.618$.",
+              "So $y = \\frac{-1 + \\sqrt{5}}{2} \\approx 0.6180$.",
+              "Then $x^2 = 0.6180$, so $x = \\pm\\sqrt{0.6180} \\approx \\pm 0.7862$.",
+              "Rounded to 2 decimal places: $x \\approx \\pm 0.79$, $y \\approx 0.62$.",
+              "Check: $0.7862^2 + 0.6180^2 \\approx 0.6181 + 0.3819 = 1.000$ ✓"
+            ],
+            "finalAnswer": "Therefore the points of intersection are $(-0.79, 0.62)$ and $(0.79, 0.62)$ (to 2 decimal places).",
+            "solutionFigures": [],
+            "tip": "Check each solution against the original equations: a negative $y$ is impossible for $y = x^2$."
+          }
+        },
+        {
+          "id": "ch9_ex1_q11",
+          "number": "11",
+          "category": null,
+          "questionText": "MC The horizontal asymptote for $y = 3^{-x} + 1$ is:\nA. $y = 0$\nB. $y = 1$\nC. $x = -1$\nD. $x = 0$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a^{\\pm x} + k$, the horizontal asymptote is $y = k$.",
+            "steps": [
+              "Given: $y = 3^{-x} + 1$.",
+              "Goal: the horizontal asymptote.",
+              "The basic graph $y = 3^{-x}$ has horizontal asymptote $y = 0$, because $3^{-x} \\to 0$ as $x \\to \\infty$ but never reaches 0.",
+              "Adding 1 translates the graph up 1 unit, so the asymptote moves from $y = 0$ to $y = 1$."
+            ],
+            "finalAnswer": "Therefore the horizontal asymptote is $y = 1$: option B.",
+            "solutionFigures": [],
+            "tip": "A horizontal asymptote is always written $y = \\ldots$, so options C and D can be ruled out immediately."
+          }
+        },
+        {
+          "id": "ch9_ex1_q12",
+          "number": "12",
+          "category": null,
+          "questionText": "MC For the equation of a hyperbola $y = \\frac{2}{x+3} - 1$, the vertical and horizontal asymptotes are:\nA. $x = \\frac{3}{2}$ and $y = -1$\nB. $x = 3$ and $y = -1$\nC. $x = -3$ and $y = -1$\nD. $x = -1$ and $y = -3$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = \\frac{a}{x-h} + k$, the vertical asymptote is $x = h$ and the horizontal asymptote is $y = k$.",
+            "steps": [
+              "Given: $y = \\frac{2}{x+3} - 1$.",
+              "Goal: the vertical and horizontal asymptotes.",
+              "Vertical asymptote: the denominator cannot be zero, so $x + 3 \\ne 0$, giving $x = -3$.",
+              "Horizontal asymptote: as $x$ becomes very large, $\\frac{2}{x+3} \\to 0$, so $y \\to -1$; that is, $y = -1$."
+            ],
+            "finalAnswer": "Therefore the asymptotes are $x = -3$ and $y = -1$: option C.",
+            "solutionFigures": [],
+            "tip": "Find the vertical asymptote by setting the denominator equal to zero."
+          }
+        },
+        {
+          "id": "ch9_ex1_q13a",
+          "number": "13(a)",
+          "category": null,
+          "questionText": "Match each graph with its correct equation. Equations: a. $y = 2^x$; b. $y = 2^{-x}$. Graphs: graph 1 is an exponential curve that decreases from left to right (falling towards the $x$-axis as $x$ increases); graph 2 is an exponential curve that increases from left to right (rising steeply as $x$ increases, approaching the $x$-axis on the left). Which graph matches equation a, $y = 2^x$?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a^x$ with $a > 1$ is an increasing exponential through $(0, 1)$ with asymptote $y = 0$; $y = a^{-x}$ is its reflection in the $y$-axis (decreasing).",
+            "steps": [
+              "Given: $y = 2^x$ and two graphs: graph 1 decreasing, graph 2 increasing.",
+              "Goal: choose the graph for $y = 2^x$.",
+              "Test values: $x = 0$: $y = 2^0 = 1$; $x = 1$: $y = 2$; $x = 2$: $y = 4$; $x = -1$: $y = \\frac{1}{2}$.",
+              "As $x$ increases, $y$ increases, so the graph rises from left to right and approaches $y = 0$ on the left.",
+              "This matches graph 2."
+            ],
+            "finalAnswer": "Therefore $y = 2^x$ matches graph 2.",
+            "solutionFigures": [],
+            "tip": "Substitute $x = 1$ and $x = -1$ to see quickly whether an exponential is increasing or decreasing."
+          }
+        },
+        {
+          "id": "ch9_ex1_q13b",
+          "number": "13(b)",
+          "category": null,
+          "questionText": "Match each graph with its correct equation. Equations: a. $y = 2^x$; b. $y = 2^{-x}$. Graphs: graph 1 is an exponential curve that decreases from left to right (falling towards the $x$-axis as $x$ increases); graph 2 is an exponential curve that increases from left to right (rising steeply as $x$ increases, approaching the $x$-axis on the left). Which graph matches equation b, $y = 2^{-x}$?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a^{-x} = \\left(\\frac{1}{a}\\right)^x$ is the reflection of $y = a^x$ in the $y$-axis; for $a > 1$ it is decreasing.",
+            "steps": [
+              "Given: $y = 2^{-x}$ and two graphs: graph 1 decreasing, graph 2 increasing.",
+              "Goal: choose the graph for $y = 2^{-x}$.",
+              "Test values: $x = -2$: $y = 2^{2} = 4$; $x = -1$: $y = 2$; $x = 0$: $y = 1$; $x = 1$: $y = 2^{-1} = \\frac{1}{2}$.",
+              "As $x$ increases, $y$ decreases towards 0, so the graph falls from left to right with asymptote $y = 0$ on the right.",
+              "This matches graph 1."
+            ],
+            "finalAnswer": "Therefore $y = 2^{-x}$ matches graph 1.",
+            "solutionFigures": [],
+            "tip": "$2^{-x}$ is still positive for every $x$; the negative sign in the index reflects the graph in the $y$-axis, not the $x$-axis."
+          }
+        },
+        {
+          "id": "ch9_ex1_q14",
+          "number": "14",
+          "category": null,
+          "questionText": "MC From the graph of the hyperbola, the equation is:\nA. $y = \\frac{1}{x+2} - 1$\nB. $y = \\frac{-1}{x+2} - 1$\nC. $y = \\frac{2}{x+2} - 1$\nD. $y = \\frac{-2}{x+2} - 1$\nThe graph shows a hyperbola with vertical asymptote $x = -2$ and horizontal asymptote $y = -1$, passing through the marked point $(0, -2)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = \\frac{a}{x-h} + k$, the asymptotes are $x = h$ and $y = k$; find $a$ by substituting a known point.",
+            "steps": [
+              "Given: all options have the form $y = \\frac{a}{x+2} - 1$, and the graph passes through $(0, -2)$.",
+              "Goal: find the value of $a$.",
+              "Substitute $x = 0$, $y = -2$: $-2 = \\frac{a}{0+2} - 1$.",
+              "Add 1: $-1 = \\frac{a}{2}$.",
+              "Multiply by 2: $a = -2$.",
+              "So $y = \\frac{-2}{x+2} - 1$.",
+              "Check the others at $x = 0$: A gives $-0.5$, B gives $-1.5$, C gives $0$; only D gives $-2$ ✓"
+            ],
+            "finalAnswer": "Therefore the equation is $y = \\frac{-2}{x+2} - 1$: option D.",
+            "solutionFigures": [],
+            "tip": "When several options share the same asymptotes, substitute a labelled point to find the numerator."
+          }
+        },
+        {
+          "id": "ch9_ex1_q15",
+          "number": "15",
+          "category": null,
+          "questionText": "MC The graph of the truncus with equation $y = \\frac{1}{x^2}$ reflected in the $x$-axis looks like which of the graphs A, B, C or D? (The four option graphs show truncus-shaped curves in different positions; the correct one has both branches below the $x$-axis.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Reflecting $y = f(x)$ in the $x$-axis gives $y = -f(x)$.",
+            "steps": [
+              "Given: $y = \\frac{1}{x^2}$, reflected in the $x$-axis.",
+              "Goal: identify the shape of the new graph.",
+              "The reflected equation is $y = -\\frac{1}{x^2}$.",
+              "Since $x^2 > 0$ for all $x \\ne 0$, $-\\frac{1}{x^2} < 0$: every point lies below the $x$-axis.",
+              "Test points: $x = \\pm 1$: $y = -1$; $x = \\pm 2$: $y = -\\frac{1}{4}$; $x = \\pm\\frac{1}{2}$: $y = -4$.",
+              "So the graph has two branches, one on each side of the $y$-axis, both below the $x$-axis, symmetric about the $y$-axis, plunging down near $x = 0$ and approaching $y = 0$ from below as $x$ moves away from 0. Asymptotes: $x = 0$ and $y = 0$."
+            ],
+            "finalAnswer": "Therefore the reflected truncus $y = -\\frac{1}{x^2}$ has both branches below the $x$-axis: option B.",
+            "solutionFigures": [],
+            "tip": "A truncus $y = \\frac{1}{x^2}$ lies entirely above the $x$-axis, so its reflection lies entirely below; do not confuse it with a hyperbola, whose branches are in opposite quadrants."
+          }
+        }
+      ]
+    }
+  ]
+}

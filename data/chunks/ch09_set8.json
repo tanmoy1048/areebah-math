@@ -1,0 +1,783 @@
+{
+  "chapterId": "ch09",
+  "chapterTitle": "Non-linear relationships",
+  "topics": [
+    {
+      "topicId": "9.8",
+      "topicTitle": "Sketching the graph of a reciprocal",
+      "exercises": [
+        {
+          "id": "ch9_ex8_q1",
+          "number": "1",
+          "category": "Practice",
+          "questionText": "Complete the table of values below and use it to plot the graph of $y = \\frac{10}{x}$. The table has $x$-values $-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5$ and an empty row for $y$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Hyperbola $y = \\frac{k}{x}$: undefined at $x = 0$; asymptotes $x = 0$ and $y = 0$.",
+            "steps": [
+              "Given: $y = \\frac{10}{x}$. Goal: complete the table and plot.",
+              "$x = -5$: $\\frac{10}{-5} = -2$; $x = -4$: $\\frac{10}{-4} = -2.5$; $x = -3$: $\\frac{10}{-3} \\approx -3.3$",
+              "$x = -2$: $-5$; $x = -1$: $-10$; $x = 0$: $\\frac{10}{0}$ is undefined",
+              "$x = 1$: $10$; $x = 2$: $5$; $x = 3$: $\\approx 3.3$; $x = 4$: $2.5$; $x = 5$: $2$",
+              "Plot the points. Join the positive-$x$ points with one smooth curve (first quadrant) and the negative-$x$ points with another (third quadrant).",
+              "The curves approach the axes but never touch them: vertical asymptote $x = 0$, horizontal asymptote $y = 0$."
+            ],
+            "finalAnswer": "$y$-values: $-2, -2.5, -3.3, -5, -10$, undefined, $10, 5, 3.3, 2.5, 2$. The graph is a hyperbola with branches in the 1st and 3rd quadrants and asymptotes $x = 0$, $y = 0$.",
+            "solutionFigures": [],
+            "tip": "Never join the two branches across $x = 0$; the function is undefined there."
+          }
+        },
+        {
+          "id": "ch9_ex8_q2a",
+          "number": "2(a)",
+          "category": "Consolidate",
+          "questionText": "Plot the graph of the hyperbola $y = \\frac{5}{x}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{k}{x}$ with $k > 0$: branches in the 1st and 3rd quadrants, passing through $(1, k)$ and $(-1, -k)$.",
+            "steps": [
+              "Given: $y = \\frac{5}{x}$. Goal: plot.",
+              "Table: $x = -5, -2, -1, 1, 2, 5$ gives $y = -1, -2.5, -5, 5, 2.5, 1$; $x = 0$ is undefined.",
+              "Plot the points and draw two smooth branches, one in the 1st quadrant through $(1, 5)$ and one in the 3rd quadrant through $(-1, -5)$."
+            ],
+            "finalAnswer": "A hyperbola through $(1, 5)$, $(5, 1)$, $(-1, -5)$ and $(-5, -1)$, with branches in the 1st and 3rd quadrants.",
+            "solutionFigures": [],
+            "tip": "The graph is symmetric: swapping $x$ and $y$ in any point gives another point on the curve."
+          }
+        },
+        {
+          "id": "ch9_ex8_q2b",
+          "number": "2(b)",
+          "category": "Consolidate",
+          "questionText": "Write down the equation of each asymptote of the hyperbola $y = \\frac{5}{x}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{a}{x - h} + k$ has asymptotes $x = h$ and $y = k$.",
+            "steps": [
+              "Given: $y = \\frac{5}{x}$, so $h = 0$ and $k = 0$.",
+              "Vertical: the denominator is 0 when $x = 0$, so $x = 0$.",
+              "Horizontal: as $x$ gets very large, $\\frac{5}{x} \\to 0$, so $y = 0$."
+            ],
+            "finalAnswer": "The asymptotes are $x = 0$ and $y = 0$.",
+            "solutionFigures": [],
+            "tip": "The asymptotes of $y = \\frac{k}{x}$ are the coordinate axes."
+          }
+        },
+        {
+          "id": "ch9_ex8_q3a",
+          "number": "3(a)",
+          "category": "Master",
+          "questionText": "Plot the graph of the hyperbola $y = \\frac{20}{x}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{k}{x}$, $k > 0$: branches in the 1st and 3rd quadrants.",
+            "steps": [
+              "Given: $y = \\frac{20}{x}$. Goal: plot.",
+              "Table: $x = -10, -4, -2, -1, 1, 2, 4, 10$ gives $y = -2, -5, -10, -20, 20, 10, 5, 2$; $x = 0$ is undefined.",
+              "Plot and draw two smooth branches through $(1, 20)$ and $(-1, -20)$."
+            ],
+            "finalAnswer": "A hyperbola through $(1, 20)$, $(2, 10)$, $(4, 5)$, $(10, 2)$ and the matching negative points, with branches in the 1st and 3rd quadrants.",
+            "solutionFigures": [],
+            "tip": "Choose $x$-values that are factors of 20 to get whole-number $y$-values."
+          }
+        },
+        {
+          "id": "ch9_ex8_q3b",
+          "number": "3(b)",
+          "category": "Master",
+          "questionText": "Write down the equation of each asymptote of the hyperbola $y = \\frac{20}{x}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{a}{x - h} + k$ has asymptotes $x = h$ and $y = k$.",
+            "steps": [
+              "Given: $y = \\frac{20}{x}$, so $h = 0$ and $k = 0$.",
+              "Vertical asymptote: $x = 0$ (division by zero).",
+              "Horizontal asymptote: $y = 0$ (as $x \\to \\pm\\infty$, $\\frac{20}{x} \\to 0$)."
+            ],
+            "finalAnswer": "The asymptotes are $x = 0$ and $y = 0$.",
+            "solutionFigures": [],
+            "tip": "Changing $k$ in $y = \\frac{k}{x}$ does not move the asymptotes."
+          }
+        },
+        {
+          "id": "ch9_ex8_q4a",
+          "number": "4(a)",
+          "category": "Practice",
+          "questionText": "Plot the graph of the hyperbola $y = \\frac{100}{x}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{k}{x}$, $k > 0$: branches in the 1st and 3rd quadrants.",
+            "steps": [
+              "Given: $y = \\frac{100}{x}$. Goal: plot.",
+              "Table: $x = -50, -10, -2, -1, 1, 2, 10, 50$ gives $y = -2, -10, -50, -100, 100, 50, 10, 2$; $x = 0$ is undefined.",
+              "Plot and draw two smooth branches through $(1, 100)$ and $(-1, -100)$."
+            ],
+            "finalAnswer": "A hyperbola through $(1, 100)$, $(10, 10)$, $(50, 2)$ and the matching negative points, with branches in the 1st and 3rd quadrants.",
+            "solutionFigures": [],
+            "tip": "Use a larger scale on the axes because the $y$-values are large near $x = 0$."
+          }
+        },
+        {
+          "id": "ch9_ex8_q4b",
+          "number": "4(b)",
+          "category": "Practice",
+          "questionText": "Write down the equation of each asymptote of the hyperbola $y = \\frac{100}{x}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{a}{x - h} + k$ has asymptotes $x = h$ and $y = k$.",
+            "steps": [
+              "Given: $y = \\frac{100}{x}$, so $h = 0$, $k = 0$.",
+              "Vertical asymptote: $x = 0$.",
+              "Horizontal asymptote: $y = 0$."
+            ],
+            "finalAnswer": "The asymptotes are $x = 0$ and $y = 0$.",
+            "solutionFigures": [],
+            "tip": "Write asymptotes as equations of lines, e.g. $x = 0$."
+          }
+        },
+        {
+          "id": "ch9_ex8_q5",
+          "number": "5",
+          "category": "Consolidate",
+          "questionText": "Draw the graphs of $y = \\frac{2}{x}$, $y = \\frac{3}{x}$ and $y = \\frac{4}{x}$ on the same set of axes.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{k}{x}$ is $y = \\frac{1}{x}$ dilated by factor $k$ from the $x$-axis; it passes through $(1, k)$.",
+            "steps": [
+              "Given: $k = 2, 3, 4$. Goal: sketch all three.",
+              "At $x = 1$: $y = 2, 3, 4$, so the curves pass through $(1, 2)$, $(1, 3)$, $(1, 4)$.",
+              "At $x = 2$: $y = 1, 1.5, 2$. At $x = -1$: $y = -2, -3, -4$.",
+              "All three have asymptotes $x = 0$ and $y = 0$ and branches in the 1st and 3rd quadrants.",
+              "The larger the value of $k$, the further the curve is from the origin."
+            ],
+            "finalAnswer": "Three hyperbolas with asymptotes $x = 0$, $y = 0$, passing through $(1, 2)$, $(1, 3)$ and $(1, 4)$; $y = \\frac{4}{x}$ is furthest from the axes and $y = \\frac{2}{x}$ is closest.",
+            "solutionFigures": [],
+            "tip": "The curves never cross each other; each is a stretched copy of the others."
+          }
+        },
+        {
+          "id": "ch9_ex8_q6",
+          "number": "6",
+          "category": "Master",
+          "questionText": "Describe the effect of increasing the value of $k$ on the graph of $y = \\frac{k}{x}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{k}{x} = k \\times \\frac{1}{x}$: a dilation of $y = \\frac{1}{x}$ by factor $k$ from the $x$-axis.",
+            "steps": [
+              "Goal: describe the effect of a larger $k$.",
+              "Every $y$-value of $y = \\frac{1}{x}$ is multiplied by $k$, e.g. at $x = 1$, $y = k$.",
+              "So increasing $k$ stretches the graph away from the axes; the asymptotes stay at $x = 0$ and $y = 0$."
+            ],
+            "finalAnswer": "Increasing $k$ increases the $y$-values by a factor of $k$, dilating (stretching) the curve away from the origin; the asymptotes are unchanged.",
+            "solutionFigures": [],
+            "tip": "A dilation changes how far the curve is from the axes, not where the asymptotes are."
+          }
+        },
+        {
+          "id": "ch9_ex8_q7",
+          "number": "7",
+          "category": "Practice",
+          "questionText": "Plot the graph of $y = \\frac{-10}{x}$ for $-5 \\le x \\le 5$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{-k}{x}$ is $y = \\frac{k}{x}$ reflected in the $x$-axis: branches in the 2nd and 4th quadrants.",
+            "steps": [
+              "Given: $y = \\frac{-10}{x}$. Goal: table and plot.",
+              "$x = -5$: $2$; $x = -4$: $2.5$; $x = -3$: $\\approx 3.3$; $x = -2$: $5$; $x = -1$: $10$",
+              "$x = 0$: undefined",
+              "$x = 1$: $-10$; $x = 2$: $-5$; $x = 3$: $\\approx -3.3$; $x = 4$: $-2.5$; $x = 5$: $-2$",
+              "Plot and join with two smooth branches: one in the 2nd quadrant (negative $x$, positive $y$) and one in the 4th quadrant.",
+              "Asymptotes: $x = 0$ and $y = 0$."
+            ],
+            "finalAnswer": "A hyperbola with branches in the 2nd and 4th quadrants, through $(-1, 10)$, $(-5, 2)$, $(1, -10)$, $(5, -2)$, with asymptotes $x = 0$ and $y = 0$.",
+            "solutionFigures": [],
+            "tip": "A negative numerator moves the branches to the 2nd and 4th quadrants."
+          }
+        },
+        {
+          "id": "ch9_ex8_q8",
+          "number": "8",
+          "category": "Consolidate",
+          "questionText": "Draw the graphs of $y = \\frac{6}{x}$ and $y = \\frac{-6}{x}$ on the same set of axes.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{-k}{x}$ is the reflection of $y = \\frac{k}{x}$ in the $x$-axis.",
+            "steps": [
+              "Given: $y = \\frac{6}{x}$ and $y = \\frac{-6}{x}$. Goal: sketch both.",
+              "$y = \\frac{6}{x}$: points $(1, 6), (2, 3), (3, 2), (6, 1)$ and $(-1, -6), (-2, -3)$; 1st and 3rd quadrants.",
+              "$y = \\frac{-6}{x}$: points $(1, -6), (2, -3), (3, -2)$ and $(-1, 6), (-2, 3)$; 2nd and 4th quadrants.",
+              "Both have asymptotes $x = 0$ and $y = 0$."
+            ],
+            "finalAnswer": "$y = \\frac{6}{x}$ (through $(1, 6)$, branches in quadrants 1 and 3) and $y = \\frac{-6}{x}$ (through $(1, -6)$, branches in quadrants 2 and 4) are reflections of each other; both have asymptotes $x = 0$, $y = 0$.",
+            "solutionFigures": [],
+            "tip": "Label each curve with its equation so the two graphs are not confused."
+          }
+        },
+        {
+          "id": "ch9_ex8_q9",
+          "number": "9",
+          "category": "Master",
+          "questionText": "Describe the effect of the negative in $y = \\frac{-k}{x}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplying every $y$-value by $-1$ reflects a graph in the $x$-axis.",
+            "steps": [
+              "Goal: describe the effect of the negative sign.",
+              "$y = \\frac{-k}{x} = -\\left(\\frac{k}{x}\\right)$, so every $y$-value of $y = \\frac{k}{x}$ changes sign.",
+              "Points $(1, k)$ and $(-1, -k)$ become $(1, -k)$ and $(-1, k)$, so the branches move from quadrants 1 and 3 to quadrants 2 and 4."
+            ],
+            "finalAnswer": "The negative reflects the curve $y = \\frac{k}{x}$ in the $x$-axis, so the branches lie in the 2nd and 4th quadrants.",
+            "solutionFigures": [],
+            "tip": "For $y = \\frac{k}{x}$, reflecting in the $x$-axis gives the same graph as reflecting in the $y$-axis."
+          }
+        },
+        {
+          "id": "ch9_ex8_q10",
+          "number": "10",
+          "category": "Practice",
+          "questionText": "Complete the table of values below and use the points to plot $y = \\frac{1}{x - 1}$. State the equation of the vertical asymptote. The table has $x$-values $-3, -2, -1, 0, 1, 2, 3, 4$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{a}{x - h}$ has vertical asymptote $x = h$ and horizontal asymptote $y = 0$.",
+            "steps": [
+              "Given: $y = \\frac{1}{x - 1}$. Goal: table, graph and vertical asymptote.",
+              "$x = -3$: $\\frac{1}{-4} = -0.25$; $x = -2$: $\\frac{1}{-3} \\approx -0.33$; $x = -1$: $\\frac{1}{-2} = -0.5$; $x = 0$: $\\frac{1}{-1} = -1$",
+              "$x = 1$: $\\frac{1}{0}$ is undefined",
+              "$x = 2$: $1$; $x = 3$: $0.5$; $x = 4$: $\\frac{1}{3} \\approx 0.33$",
+              "Plot and join with two branches: one to the right of $x = 1$ (above the $x$-axis) and one to the left (below).",
+              "Vertical asymptote: $x - 1 = 0 \\Rightarrow x = 1$. The $y$-intercept is $(0, -1)$."
+            ],
+            "finalAnswer": "$y$-values: $-0.25, -0.33, -0.5, -1$, undefined, $1, 0.5, 0.33$. The vertical asymptote is $x = 1$.",
+            "solutionFigures": [],
+            "tip": "The vertical asymptote is where the denominator equals zero, so solve $x - 1 = 0$."
+          }
+        },
+        {
+          "id": "ch9_ex8_q11a",
+          "number": "11(a)",
+          "category": "Consolidate",
+          "questionText": "Plot the graph of the hyperbola $y = \\frac{1}{x - 2}$ and label the vertical asymptote.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{1}{x - h}$: $y = \\frac{1}{x}$ translated $h$ units right; asymptotes $x = h$, $y = 0$.",
+            "steps": [
+              "Given: $y = \\frac{1}{x - 2}$. Goal: plot and label the vertical asymptote.",
+              "Vertical asymptote: $x - 2 = 0 \\Rightarrow x = 2$. Horizontal asymptote: $y = 0$.",
+              "$y$-intercept: $y = \\frac{1}{0 - 2} = -\\frac{1}{2}$, so $(0, -\\frac{1}{2})$.",
+              "Other points: $x = 3$: $y = 1$; $x = 1$: $y = -1$; $x = 4$: $y = 0.5$.",
+              "Draw the branch to the right of $x = 2$ above the $x$-axis and the branch to the left below the $x$-axis."
+            ],
+            "finalAnswer": "A hyperbola with vertical asymptote $x = 2$ and horizontal asymptote $y = 0$, $y$-intercept $(0, -\\frac{1}{2})$, through $(3, 1)$ and $(1, -1)$.",
+            "solutionFigures": [],
+            "tip": "$x - 2$ in the denominator moves the graph 2 units to the right, not left."
+          }
+        },
+        {
+          "id": "ch9_ex8_q11b",
+          "number": "11(b)",
+          "category": "Consolidate",
+          "questionText": "Plot the graph of the hyperbola $y = \\frac{1}{x - 3}$ and label the vertical asymptote.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{1}{x - h}$: asymptotes $x = h$, $y = 0$.",
+            "steps": [
+              "Given: $y = \\frac{1}{x - 3}$. Goal: plot and label the vertical asymptote.",
+              "Vertical asymptote: $x - 3 = 0 \\Rightarrow x = 3$. Horizontal asymptote: $y = 0$.",
+              "$y$-intercept: $y = \\frac{1}{0 - 3} = -\\frac{1}{3}$, so $(0, -\\frac{1}{3})$.",
+              "Other points: $x = 4$: $y = 1$; $x = 2$: $y = -1$.",
+              "Draw the branch to the right of $x = 3$ above the $x$-axis and the branch to the left below it."
+            ],
+            "finalAnswer": "A hyperbola with vertical asymptote $x = 3$ and horizontal asymptote $y = 0$, $y$-intercept $(0, -\\frac{1}{3})$, through $(4, 1)$ and $(2, -1)$.",
+            "solutionFigures": [],
+            "tip": "Draw the asymptote as a dashed line before sketching the branches."
+          }
+        },
+        {
+          "id": "ch9_ex8_q12",
+          "number": "12",
+          "category": "Master",
+          "questionText": "Plot the graph of $y = \\frac{1}{x + 1}$ and label the vertical asymptote.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{1}{x - h}$ with $h = -1$: asymptotes $x = -1$, $y = 0$.",
+            "steps": [
+              "Given: $y = \\frac{1}{x + 1}$. Goal: plot and label the vertical asymptote.",
+              "Vertical asymptote: $x + 1 = 0 \\Rightarrow x = -1$. Horizontal asymptote: $y = 0$.",
+              "$y$-intercept: $y = \\frac{1}{0 + 1} = 1$, so $(0, 1)$.",
+              "Other points: $x = 1$: $y = 0.5$; $x = -2$: $y = -1$; $x = -3$: $y = -0.5$.",
+              "Branch to the right of $x = -1$ lies above the $x$-axis; branch to the left lies below."
+            ],
+            "finalAnswer": "A hyperbola with vertical asymptote $x = -1$, horizontal asymptote $y = 0$ and $y$-intercept $(0, 1)$.",
+            "solutionFigures": [],
+            "tip": "$x + 1$ moves the graph 1 unit to the left."
+          }
+        },
+        {
+          "id": "ch9_ex8_q13",
+          "number": "13",
+          "category": "Master",
+          "questionText": "Describe the effect of $a$ in $y = \\frac{1}{x - a}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Replacing $x$ with $x - a$ translates a graph $a$ units horizontally.",
+            "steps": [
+              "Goal: describe the effect of $a$.",
+              "The denominator is zero when $x = a$, so the vertical asymptote moves from $x = 0$ to $x = a$.",
+              "If $a > 0$ the graph moves $a$ units right; if $a < 0$ it moves $|a|$ units left (as in questions 11 and 12).",
+              "The horizontal asymptote stays at $y = 0$ and the shape is unchanged."
+            ],
+            "finalAnswer": "$a$ translates the graph of $y = \\frac{1}{x}$ horizontally by $a$ units (right if $a > 0$, left if $a < 0$), and $x = a$ becomes the vertical asymptote.",
+            "solutionFigures": [],
+            "tip": "The sign is opposite to what it looks like: $x - 3$ is a shift right by 3."
+          }
+        },
+        {
+          "id": "ch9_ex8_q14a",
+          "number": "14(a)",
+          "category": "Practice",
+          "questionText": "For the hyperbola $y = \\frac{-4}{x + 1}$: (i) write the equations of the asymptotes; (ii) sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{a}{x - h} + k$: vertical asymptote $x = h$, horizontal asymptote $y = k$; reflected in the $x$-axis if $a < 0$.",
+            "steps": [
+              "Given: $y = \\frac{-4}{x + 1}$, so $a = -4$, $h = -1$, $k = 0$.",
+              "(i) Vertical asymptote: $x + 1 = 0 \\Rightarrow x = -1$. Horizontal asymptote: $y = 0$.",
+              "(ii) $y$-intercept: $y = \\frac{-4}{0 + 1} = -4$, so $(0, -4)$.",
+              "No $x$-intercept, since $\\frac{-4}{x + 1} \\ne 0$.",
+              "Another point: $x = -2$: $y = \\frac{-4}{-1} = 4$, so $(-2, 4)$.",
+              "Since $a < 0$, the branches are in the upper-left (for $x < -1$) and lower-right (for $x > -1$) regions formed by the asymptotes."
+            ],
+            "finalAnswer": "(i) Asymptotes $x = -1$ and $y = 0$. (ii) Hyperbola with branches upper-left and lower-right of the asymptotes, through $(0, -4)$ and $(-2, 4)$.",
+            "solutionFigures": [],
+            "tip": "Check which region each branch is in by substituting one $x$-value on each side of the vertical asymptote."
+          }
+        },
+        {
+          "id": "ch9_ex8_q14b",
+          "number": "14(b)",
+          "category": "Practice",
+          "questionText": "For the hyperbola $y = \\frac{2}{x - 1}$: (i) write the equations of the asymptotes; (ii) sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{a}{x - h} + k$: asymptotes $x = h$, $y = k$.",
+            "steps": [
+              "Given: $y = \\frac{2}{x - 1}$, so $a = 2$, $h = 1$, $k = 0$.",
+              "(i) Vertical asymptote: $x = 1$. Horizontal asymptote: $y = 0$.",
+              "(ii) $y$-intercept: $y = \\frac{2}{0 - 1} = -2$, so $(0, -2)$.",
+              "No $x$-intercept.",
+              "Another point: $x = 2$: $y = \\frac{2}{1} = 2$, so $(2, 2)$.",
+              "Since $a > 0$, branches are upper-right (for $x > 1$) and lower-left (for $x < 1$)."
+            ],
+            "finalAnswer": "(i) Asymptotes $x = 1$ and $y = 0$. (ii) Hyperbola with branches upper-right and lower-left, through $(2, 2)$ and $(0, -2)$.",
+            "solutionFigures": [],
+            "tip": "Every hyperbola of this form has no $x$-intercept when $k = 0$."
+          }
+        },
+        {
+          "id": "ch9_ex8_q15a",
+          "number": "15(a)",
+          "category": "Consolidate",
+          "questionText": "For the hyperbola $y = \\frac{5}{x + 2}$: (i) write the equations of the asymptotes; (ii) sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{a}{x - h} + k$: asymptotes $x = h$, $y = k$.",
+            "steps": [
+              "Given: $y = \\frac{5}{x + 2}$, so $a = 5$, $h = -2$, $k = 0$.",
+              "(i) Vertical asymptote: $x + 2 = 0 \\Rightarrow x = -2$. Horizontal asymptote: $y = 0$.",
+              "(ii) $y$-intercept: $y = \\frac{5}{2} = 2\\frac{1}{2}$, so $(0, 2\\frac{1}{2})$.",
+              "No $x$-intercept.",
+              "Another point: $x = -3$: $y = \\frac{5}{-1} = -5$, so $(-3, -5)$.",
+              "Branches: upper-right (for $x > -2$) and lower-left (for $x < -2$)."
+            ],
+            "finalAnswer": "(i) Asymptotes $x = -2$ and $y = 0$. (ii) Hyperbola with branches upper-right and lower-left, $y$-intercept $(0, 2\\frac{1}{2})$, through $(-3, -5)$.",
+            "solutionFigures": [],
+            "tip": "$x + 2$ means the vertical asymptote is at $x = -2$."
+          }
+        },
+        {
+          "id": "ch9_ex8_q15b",
+          "number": "15(b)",
+          "category": "Consolidate",
+          "questionText": "For the hyperbola $y = \\frac{3}{x + 2} - 2$: (i) write the equations of the asymptotes; (ii) sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{a}{x - h} + k$: asymptotes $x = h$, $y = k$.",
+            "steps": [
+              "Given: $y = \\frac{3}{x + 2} - 2$, so $a = 3$, $h = -2$, $k = -2$.",
+              "(i) Vertical asymptote: $x = -2$. Horizontal asymptote: $y = -2$.",
+              "(ii) $y$-intercept: $y = \\frac{3}{0 + 2} - 2 = 1.5 - 2 = -0.5$, so $(0, -0.5)$.",
+              "$x$-intercept: $0 = \\frac{3}{x + 2} - 2 \\Rightarrow \\frac{3}{x + 2} = 2 \\Rightarrow 2(x + 2) = 3 \\Rightarrow x + 2 = 1.5 \\Rightarrow x = -0.5$, so $(-0.5, 0)$.",
+              "Another point: $x = -3$: $y = \\frac{3}{-1} - 2 = -5$, so $(-3, -5)$.",
+              "Branches: above $y = -2$ for $x > -2$ (upper-right) and below $y = -2$ for $x < -2$ (lower-left)."
+            ],
+            "finalAnswer": "(i) Asymptotes $x = -2$ and $y = -2$. (ii) Hyperbola with intercepts $(0, -0.5)$ and $(-0.5, 0)$, branches upper-right and lower-left of the asymptotes, through $(-3, -5)$.",
+            "solutionFigures": [],
+            "tip": "To find the $x$-intercept, isolate the fraction first, then cross-multiply."
+          }
+        },
+        {
+          "id": "ch9_ex8_q16a",
+          "number": "16(a)",
+          "category": "Master",
+          "questionText": "For the hyperbola $y = -\\frac{4}{x + 2} + 1$: (i) write the equations of the asymptotes; (ii) sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{a}{x - h} + k$: asymptotes $x = h$, $y = k$; $a < 0$ reflects in the $x$-axis.",
+            "steps": [
+              "Given: $y = -\\frac{4}{x + 2} + 1$, so $a = -4$, $h = -2$, $k = 1$.",
+              "(i) Vertical asymptote: $x = -2$. Horizontal asymptote: $y = 1$.",
+              "(ii) $y$-intercept: $y = -\\frac{4}{2} + 1 = -2 + 1 = -1$, so $(0, -1)$.",
+              "$x$-intercept: $0 = -\\frac{4}{x + 2} + 1 \\Rightarrow \\frac{4}{x + 2} = 1 \\Rightarrow x + 2 = 4 \\Rightarrow x = 2$, so $(2, 0)$.",
+              "Another point: $x = -4$: $y = -\\frac{4}{-2} + 1 = 3$, so $(-4, 3)$.",
+              "Since $a < 0$: branches are lower-right (for $x > -2$, below $y = 1$) and upper-left (for $x < -2$, above $y = 1$)."
+            ],
+            "finalAnswer": "(i) Asymptotes $x = -2$ and $y = 1$. (ii) Hyperbola with intercepts $(0, -1)$ and $(2, 0)$, branches lower-right and upper-left of the asymptotes.",
+            "solutionFigures": [],
+            "tip": "Check the intercepts satisfy the equation: $-\\frac{4}{4} + 1 = 0$ ✓."
+          }
+        },
+        {
+          "id": "ch9_ex8_q16b",
+          "number": "16(b)",
+          "category": "Master",
+          "questionText": "For the hyperbola $y = \\frac{7}{3 - x} + 5$: (i) write the equations of the asymptotes; (ii) sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{a}{x - h} + k$: asymptotes $x = h$, $y = k$. Note $\\frac{7}{3 - x} = \\frac{-7}{x - 3}$.",
+            "steps": [
+              "Given: $y = \\frac{7}{3 - x} + 5 = \\frac{-7}{x - 3} + 5$, so $a = -7$, $h = 3$, $k = 5$.",
+              "(i) Vertical asymptote: $3 - x = 0 \\Rightarrow x = 3$. Horizontal asymptote: $y = 5$.",
+              "(ii) $y$-intercept: $y = \\frac{7}{3} + 5 = \\frac{22}{3} \\approx 7.33$, so $(0, 7\\frac{1}{3})$.",
+              "$x$-intercept: $0 = \\frac{7}{3 - x} + 5 \\Rightarrow \\frac{7}{3 - x} = -5 \\Rightarrow 7 = -5(3 - x) = -15 + 5x \\Rightarrow 5x = 22 \\Rightarrow x = 4.4$, so $(4.4, 0)$.",
+              "Another point: $x = 4$: $y = \\frac{7}{-1} + 5 = -2$, so $(4, -2)$.",
+              "Branches: upper-left (for $x < 3$, above $y = 5$) and lower-right (for $x > 3$, below $y = 5$)."
+            ],
+            "finalAnswer": "(i) Asymptotes $x = 3$ and $y = 5$. (ii) Hyperbola with intercepts $(0, 7\\frac{1}{3})$ and $(4.4, 0)$, branches upper-left and lower-right of the asymptotes.",
+            "solutionFigures": [],
+            "tip": "Rewrite $\\frac{7}{3 - x}$ as $\\frac{-7}{x - 3}$ to see that the graph is reflected."
+          }
+        },
+        {
+          "id": "ch9_ex8_q17a",
+          "number": "17(a)",
+          "category": "Practice",
+          "questionText": "Give an example of the equation of a hyperbola that has a vertical asymptote of $x = 3$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{a}{x - h} + k$ has vertical asymptote $x = h$.",
+            "steps": [
+              "Goal: choose $h = 3$; any $a \\ne 0$ and any $k$ will do.",
+              "Take $a = 1$, $k = 0$: $y = \\frac{1}{x - 3}$.",
+              "Check: the denominator is 0 when $x = 3$ ✓."
+            ],
+            "finalAnswer": "For example, $y = \\frac{1}{x - 3}$ (any $y = \\frac{a}{x - 3} + k$ with $a \\ne 0$ works).",
+            "solutionFigures": [],
+            "tip": "Use $x - 3$, not $x + 3$, for an asymptote at $x = 3$."
+          }
+        },
+        {
+          "id": "ch9_ex8_q17b",
+          "number": "17(b)",
+          "category": "Practice",
+          "questionText": "Give an example of the equation of a hyperbola that has a vertical asymptote of $x = -10$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{a}{x - h} + k$ has vertical asymptote $x = h$.",
+            "steps": [
+              "Goal: choose $h = -10$, so the denominator is $x - (-10) = x + 10$.",
+              "Take $a = 1$, $k = 0$: $y = \\frac{1}{x + 10}$.",
+              "Check: the denominator is 0 when $x = -10$ ✓."
+            ],
+            "finalAnswer": "For example, $y = \\frac{1}{x + 10}$.",
+            "solutionFigures": [],
+            "tip": "Set the denominator equal to zero to check your asymptote."
+          }
+        },
+        {
+          "id": "ch9_ex8_q18a",
+          "number": "18(a)",
+          "category": "Consolidate",
+          "questionText": "Give an example of a hyperbola that has asymptotes of $x = 2$ and $y = 3$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{a}{x - h} + k$: asymptotes $x = h$, $y = k$.",
+            "steps": [
+              "Given: $h = 2$, $k = 3$. Goal: an equation.",
+              "$y = \\frac{a}{x - 2} + 3$ for any $a \\ne 0$.",
+              "Choose $a = 1$: $y = \\frac{1}{x - 2} + 3$."
+            ],
+            "finalAnswer": "For example, $y = \\frac{1}{x - 2} + 3$ (any equation of the form $y = \\frac{a}{x - 2} + 3$).",
+            "solutionFigures": [],
+            "tip": "The number added outside the fraction gives the horizontal asymptote."
+          }
+        },
+        {
+          "id": "ch9_ex8_q18b",
+          "number": "18(b)",
+          "category": "Consolidate",
+          "questionText": "Give an example of a hyperbola that has asymptotes of $x = -2$ and $y = 4$ and a $y$-intercept of $-3$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{a}{x - h} + k$; substitute the $y$-intercept $(0, -3)$ to find $a$.",
+            "steps": [
+              "Given: $h = -2$, $k = 4$, so $y = \\frac{a}{x + 2} + 4$.",
+              "Substitute $(0, -3)$: $-3 = \\frac{a}{0 + 2} + 4$",
+              "$-3 - 4 = \\frac{a}{2} \\Rightarrow -7 = \\frac{a}{2}$",
+              "$a = -14$",
+              "Check: $x = 0$: $\\frac{-14}{2} + 4 = -7 + 4 = -3$ ✓"
+            ],
+            "finalAnswer": "Therefore the hyperbola is $y = \\frac{-14}{x + 2} + 4$.",
+            "solutionFigures": [],
+            "tip": "With a given point, the value of $a$ is fixed; it is no longer any number."
+          }
+        },
+        {
+          "id": "ch9_ex8_q19",
+          "number": "19",
+          "category": "Master",
+          "questionText": "The graph of $y = \\frac{1}{x}$ is reflected in the $x$-axis, dilated by a factor of 2 parallel to the $y$-axis (from the $x$-axis) and translated 3 units to the left and down 1 unit. Determine the equation of the resulting hyperbola and give the equations of any asymptotes.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{a}{x - h} + k$: reflection in $x$-axis makes $a$ negative; dilation by factor 2 multiplies $a$ by 2; translation left 3 gives $h = -3$; down 1 gives $k = -1$.",
+            "steps": [
+              "Start: $y = \\frac{1}{x}$.",
+              "Reflect in the $x$-axis: $y = -\\frac{1}{x}$.",
+              "Dilate by factor 2 from the $x$-axis: $y = -\\frac{2}{x}$.",
+              "Translate 3 left (replace $x$ with $x + 3$): $y = -\\frac{2}{x + 3}$.",
+              "Translate 1 down: $y = -\\frac{2}{x + 3} - 1$.",
+              "Vertical asymptote: $x + 3 = 0 \\Rightarrow x = -3$. Horizontal asymptote: $y = -1$."
+            ],
+            "finalAnswer": "The resulting hyperbola is $y = \\frac{-2}{x + 3} - 1$, with asymptotes $x = -3$ and $y = -1$.",
+            "solutionFigures": [],
+            "tip": "Apply the reflection and dilation before the translations."
+          }
+        },
+        {
+          "id": "ch9_ex8_q20a",
+          "number": "20(a)",
+          "category": "Practice",
+          "questionText": "Complete the following table in order to graph the hyperbola defined by $y = \\frac{1}{x^2}$. The table has $x$-values $-2, -1, -\\frac{1}{2}, \\frac{1}{2}, 1, 2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute into $y = \\frac{1}{x^2}$; squaring makes every value positive.",
+            "steps": [
+              "Given: $y = \\frac{1}{x^2}$. Goal: complete the table and sketch.",
+              "$x = -2$: $\\frac{1}{4}$; $x = -1$: $\\frac{1}{1} = 1$; $x = -\\frac{1}{2}$: $\\frac{1}{\\frac{1}{4}} = 4$",
+              "$x = \\frac{1}{2}$: $4$; $x = 1$: $1$; $x = 2$: $\\frac{1}{4}$",
+              "Plot the points; both branches lie above the $x$-axis, symmetric about the $y$-axis, rising steeply near $x = 0$ and flattening towards $y = 0$."
+            ],
+            "finalAnswer": "$y$-values: $\\frac{1}{4}, 1, 4, 4, 1, \\frac{1}{4}$. The graph has two branches above the $x$-axis, symmetric about the $y$-axis.",
+            "solutionFigures": [],
+            "tip": "$\\left(-\\frac{1}{2}\\right)^2 = \\frac{1}{4}$, and dividing 1 by $\\frac{1}{4}$ gives 4."
+          }
+        },
+        {
+          "id": "ch9_ex8_q20b",
+          "number": "20(b)",
+          "category": "Practice",
+          "questionText": "The hyperbola $y = \\frac{1}{x^2}$ is also known as a truncus. Give the equations of any asymptotes.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "A vertical asymptote occurs where the denominator is zero; a horizontal asymptote is the value $y$ approaches for large $|x|$.",
+            "steps": [
+              "Given: $y = \\frac{1}{x^2}$.",
+              "Denominator $x^2 = 0$ when $x = 0$: vertical asymptote $x = 0$.",
+              "As $|x|$ gets large, $\\frac{1}{x^2} \\to 0$: horizontal asymptote $y = 0$."
+            ],
+            "finalAnswer": "The asymptotes are $x = 0$ and $y = 0$.",
+            "solutionFigures": [],
+            "tip": "Unlike $y = \\frac{1}{x}$, the truncus approaches $y = 0$ from above on both sides."
+          }
+        },
+        {
+          "id": "ch9_ex8_q20c",
+          "number": "20(c)",
+          "category": "Practice",
+          "questionText": "Determine the equation of the truncus which results when $y = \\frac{1}{x^2}$ is reflected in the $x$-axis.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Reflection in the $x$-axis: replace $y$ with $-y$.",
+            "steps": [
+              "Given: $y = \\frac{1}{x^2}$.",
+              "$-y = \\frac{1}{x^2} \\Rightarrow y = -\\frac{1}{x^2}$."
+            ],
+            "finalAnswer": "The reflected truncus is $y = -\\frac{1}{x^2}$.",
+            "solutionFigures": [],
+            "tip": "The branches now lie below the $x$-axis."
+          }
+        },
+        {
+          "id": "ch9_ex8_q20d",
+          "number": "20(d)",
+          "category": "Practice",
+          "questionText": "Determine the equation of the truncus which results when $y = \\frac{1}{x^2}$ is reflected in the $y$-axis.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Reflection in the $y$-axis: replace $x$ with $-x$.",
+            "steps": [
+              "Given: $y = \\frac{1}{x^2}$.",
+              "$y = \\frac{1}{(-x)^2} = \\frac{1}{x^2}$, since $(-x)^2 = x^2$.",
+              "The graph is already symmetric about the $y$-axis, so it is unchanged."
+            ],
+            "finalAnswer": "The equation is still $y = \\frac{1}{x^2}$ (the truncus is symmetric about the $y$-axis).",
+            "solutionFigures": [],
+            "tip": "Squaring removes the effect of replacing $x$ with $-x$."
+          }
+        },
+        {
+          "id": "ch9_ex8_q21a",
+          "number": "21(a)",
+          "category": "Consolidate",
+          "questionText": "The temperature of a cup of coffee as it cools is modelled by the equation $T = \\frac{780}{t + 10} + 22$, where $T$ represents the temperature in °C and $t$ is the time in minutes since the coffee was first made. State the initial temperature of the cup of coffee.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Initial value: substitute $t = 0$.",
+            "steps": [
+              "Given: $T = \\frac{780}{t + 10} + 22$. Goal: $T$ at $t = 0$.",
+              "$T = \\frac{780}{0 + 10} + 22 = 78 + 22 = 100$"
+            ],
+            "finalAnswer": "The initial temperature is 100 °C.",
+            "solutionFigures": [],
+            "tip": "'Initial' always means $t = 0$."
+          }
+        },
+        {
+          "id": "ch9_ex8_q21b",
+          "number": "21(b)",
+          "category": "Consolidate",
+          "questionText": "The temperature of a cup of coffee is modelled by $T = \\frac{780}{t + 10} + 22$, where $T$ is in °C and $t$ is in minutes. Calculate the temperature, to 1 decimal place, of the coffee after it has been left to cool for an hour.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$T = \\frac{780}{t + 10} + 22$ with $t$ in minutes.",
+            "steps": [
+              "Given: 1 hour = 60 minutes, so $t = 60$.",
+              "$T = \\frac{780}{60 + 10} + 22 = \\frac{780}{70} + 22$",
+              "$\\frac{780}{70} = 11.142\\ldots$",
+              "$T = 33.142\\ldots \\approx 33.1$ (1 d.p.)"
+            ],
+            "finalAnswer": "After an hour the coffee is about 33.1 °C.",
+            "solutionFigures": [],
+            "tip": "Convert the hour to minutes before substituting: $t = 60$, not $t = 1$."
+          }
+        },
+        {
+          "id": "ch9_ex8_q21c",
+          "number": "21(c)",
+          "category": "Consolidate",
+          "questionText": "The temperature of a cup of coffee is modelled by $T = \\frac{780}{t + 10} + 22$, where $T$ is in °C and $t$ is in minutes. A coffee will be too hot to drink unless its temperature has dropped below 50 °C. Determine how long someone would have to wait, to the nearest minute, before drinking the coffee.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Solve $\\frac{780}{t + 10} + 22 = 50$ for $t$.",
+            "steps": [
+              "Given: $T = 50$. Goal: $t$.",
+              "$\\frac{780}{t + 10} + 22 = 50$",
+              "$\\frac{780}{t + 10} = 28$",
+              "$780 = 28(t + 10)$",
+              "$t + 10 = \\frac{780}{28} = 27.857\\ldots$",
+              "$t = 17.857\\ldots \\approx 18$ minutes (nearest minute)"
+            ],
+            "finalAnswer": "They would have to wait about 18 minutes.",
+            "solutionFigures": [],
+            "tip": "Subtract the 22 before cross-multiplying."
+          }
+        },
+        {
+          "id": "ch9_ex8_q21d",
+          "number": "21(d)",
+          "category": "Consolidate",
+          "questionText": "The temperature of a cup of coffee is modelled by $T = \\frac{780}{t + 10} + 22$, where $T$ is in °C and $t$ is in minutes. Explain whether the coffee will ever cool to 0 °C. Justify your answer.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{a}{x - h} + k$ has horizontal asymptote $y = k$.",
+            "steps": [
+              "Given: $k = 22$, so the horizontal asymptote is $T = 22$.",
+              "For $t \\ge 0$, $\\frac{780}{t + 10} > 0$, so $T > 22$ always.",
+              "As $t$ increases, $T$ gets closer to 22 °C (room temperature) but never reaches it."
+            ],
+            "finalAnswer": "No. The horizontal asymptote is $T = 22$, so the temperature never drops below 22 °C and can never reach 0 °C.",
+            "solutionFigures": [],
+            "tip": "The asymptote gives the long-term value of a model; here it is the room temperature."
+          }
+        },
+        {
+          "id": "ch9_ex8_q22a",
+          "number": "22(a)",
+          "category": "Master",
+          "questionText": "Consider the equation $y = \\frac{6}{x^2 - 4} + 2$. Calculate the $x$- and $y$-intercepts of the graph of the equation.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y$-intercept: let $x = 0$. $x$-intercepts: let $y = 0$.",
+            "steps": [
+              "Given: $y = \\frac{6}{x^2 - 4} + 2$.",
+              "$y$-intercept: $y = \\frac{6}{0 - 4} + 2 = -\\frac{3}{2} + 2 = \\frac{1}{2}$, so $(0, \\frac{1}{2})$.",
+              "$x$-intercepts: $0 = \\frac{6}{x^2 - 4} + 2 \\Rightarrow \\frac{6}{x^2 - 4} = -2$",
+              "$6 = -2(x^2 - 4) = -2x^2 + 8$",
+              "$2x^2 = 2 \\Rightarrow x^2 = 1 \\Rightarrow x = \\pm 1$",
+              "Check $x = 1$: $\\frac{6}{-3} + 2 = 0$ ✓"
+            ],
+            "finalAnswer": "$y$-intercept $(0, \\frac{1}{2})$; $x$-intercepts $(1, 0)$ and $(-1, 0)$.",
+            "solutionFigures": [],
+            "tip": "Remember both the positive and negative square roots."
+          }
+        },
+        {
+          "id": "ch9_ex8_q22b",
+          "number": "22(b)",
+          "category": "Master",
+          "questionText": "Consider the equation $y = \\frac{6}{x^2 - 4} + 2$. Use your knowledge of quadratics and hyperbolas to state the equation of any asymptotes of the above equation.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Vertical asymptotes where the denominator is 0; horizontal asymptote is the constant the fraction approaches as $|x| \\to \\infty$.",
+            "steps": [
+              "Denominator: $x^2 - 4 = (x - 2)(x + 2) = 0 \\Rightarrow x = 2$ or $x = -2$.",
+              "As $|x|$ becomes large, $x^2 - 4$ becomes very large, so $\\frac{6}{x^2 - 4} \\to 0$ and $y \\to 2$."
+            ],
+            "finalAnswer": "The asymptotes are $x = 2$, $x = -2$ and $y = 2$.",
+            "solutionFigures": [],
+            "tip": "Factorise the quadratic denominator to find every vertical asymptote."
+          }
+        },
+        {
+          "id": "ch9_ex8_q22c",
+          "number": "22(c)",
+          "category": "Master",
+          "questionText": "Consider the equation $y = \\frac{6}{x^2 - 4} + 2$. Using a table of values, or otherwise, sketch the graph of the equation.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Use the intercepts, the asymptotes $x = \\pm 2$, $y = 2$, and the symmetry about the $y$-axis (since $x$ appears only as $x^2$).",
+            "steps": [
+              "Table: $x = 0$: $0.5$; $x = \\pm 1$: $0$; $x = \\pm 1.5$: $\\frac{6}{-1.75} + 2 \\approx -1.43$; $x = \\pm 3$: $\\frac{6}{5} + 2 = 3.2$; $x = \\pm 4$: $\\frac{6}{12} + 2 = 2.5$.",
+              "Middle branch ($-2 < x < 2$): $x^2 - 4 < 0$, so $y < 2$; maximum at $(0, 0.5)$, crosses the $x$-axis at $(\\pm 1, 0)$ and drops towards $-\\infty$ near $x = \\pm 2$.",
+              "Outer branches ($x > 2$ and $x < -2$): $x^2 - 4 > 0$, so $y > 2$; they rise to $+\\infty$ near $x = \\pm 2$ and approach $y = 2$ from above as $|x|$ increases.",
+              "The whole graph is symmetric about the $y$-axis."
+            ],
+            "finalAnswer": "The graph has three branches: an inverted U-shaped middle branch between $x = -2$ and $x = 2$ with maximum $(0, 0.5)$ and $x$-intercepts $(\\pm 1, 0)$, and two outer branches above $y = 2$. Asymptotes $x = \\pm 2$, $y = 2$.",
+            "solutionFigures": [],
+            "tip": "Test the sign of the denominator in each interval to know whether the branch is above or below $y = 2$."
+          }
+        },
+        {
+          "id": "ch9_ex8_q23",
+          "number": "23",
+          "category": "Master",
+          "questionText": "Consider the truncus defined by $y = \\frac{1}{x^2}$. This hyperbola is reflected in the $x$-axis, dilated by a factor of 3 parallel to the $y$-axis (from the $x$-axis) and translated 1 unit to the left and up 2 units. Determine the equation of the resulting hyperbola and give the equations of any asymptotes.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Transformed truncus: $y = \\frac{a}{(x - h)^2} + k$ with asymptotes $x = h$, $y = k$.",
+            "steps": [
+              "Start: $y = \\frac{1}{x^2}$.",
+              "Reflect in the $x$-axis: $y = -\\frac{1}{x^2}$.",
+              "Dilate by factor 3 from the $x$-axis: $y = -\\frac{3}{x^2}$.",
+              "Translate 1 left (replace $x$ with $x + 1$): $y = -\\frac{3}{(x + 1)^2}$.",
+              "Translate 2 up: $y = -\\frac{3}{(x + 1)^2} + 2$.",
+              "Asymptotes: $(x + 1)^2 = 0 \\Rightarrow x = -1$; horizontal $y = 2$."
+            ],
+            "finalAnswer": "The resulting curve is $y = -\\frac{3}{(x + 1)^2} + 2$, with asymptotes $x = -1$ and $y = 2$.",
+            "solutionFigures": [],
+            "tip": "Keep the bracket squared when translating: $(x + 1)^2$, not $x^2 + 1$."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,863 @@
+{
+  "chapterId": "ch09",
+  "chapterTitle": "Non-linear relationships",
+  "topics": [
+    {
+      "topicId": "9.7",
+      "topicTitle": "Inverse proportion",
+      "exercises": [
+        {
+          "id": "ch9_ex7_q1a",
+          "number": "1(a)",
+          "category": "Practice",
+          "questionText": "Decide whether inverse proportion exists between each pair of variables. If it does exist, write an equation to describe the relationship: the speed of a car ($s$) and the time ($t$) it takes to complete one lap of a race circuit.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Inverse proportion: $y \\propto \\frac{1}{x}$, i.e. $y = \\frac{k}{x}$ or $xy = k$ (the product is constant).",
+            "steps": [
+              "Given: speed $s$ and lap time $t$ for a fixed lap length. Goal: test for inverse proportion.",
+              "Distance = speed $\\times$ time, so $s \\times t = $ lap length, which is constant.",
+              "A constant product means inverse proportion, with $k$ equal to the lap length.",
+              "$s = \\frac{k}{t}$ (or equivalently $t = \\frac{k}{s}$)."
+            ],
+            "finalAnswer": "Yes, inverse proportion exists: $s = \\frac{k}{t}$ (or $t = \\frac{k}{s}$).",
+            "solutionFigures": [],
+            "tip": "Ask: if one variable doubles, does the other halve? If yes, it is inverse proportion."
+          }
+        },
+        {
+          "id": "ch9_ex7_q1b",
+          "number": "1(b)",
+          "category": "Practice",
+          "questionText": "Decide whether inverse proportion exists between each pair of variables. If it does exist, write an equation to describe the relationship: the amount of money ($D$) that I have and the number ($n$) of cards that I can buy.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Inverse proportion requires $xy = k$; direct proportion has $\\frac{y}{x} = k$.",
+            "steps": [
+              "Given: money $D$ and number of cards $n$. Goal: test for inverse proportion.",
+              "More money buys more cards: if $D$ doubles, $n$ doubles.",
+              "So $n = \\frac{D}{\\text{price per card}}$, which is direct proportion, not inverse."
+            ],
+            "finalAnswer": "No, inverse proportion does not exist (the variables are directly proportional).",
+            "solutionFigures": [],
+            "tip": "If both variables increase together, it cannot be inverse proportion."
+          }
+        },
+        {
+          "id": "ch9_ex7_q1c",
+          "number": "1(c)",
+          "category": "Practice",
+          "questionText": "Decide whether inverse proportion exists between each pair of variables. If it does exist, write an equation to describe the relationship: the time ($t$) that it takes to make a pair of jeans and the number of pairs ($p$) that can be made in one day.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Inverse proportion: $y = \\frac{k}{x}$, $xy = k$.",
+            "steps": [
+              "Given: time per pair $t$ and pairs per day $p$. Goal: test for inverse proportion.",
+              "Time per pair $\\times$ number of pairs = working time in a day, which is constant: $tp = k$.",
+              "So $t = \\frac{k}{p}$ (or $p = \\frac{k}{t}$)."
+            ],
+            "finalAnswer": "Yes: $t = \\frac{k}{p}$ (or $p = \\frac{k}{t}$), where $k$ is the working time in one day.",
+            "solutionFigures": [],
+            "tip": "Identify what the constant $k$ represents; here it is the total working time."
+          }
+        },
+        {
+          "id": "ch9_ex7_q1d",
+          "number": "1(d)",
+          "category": "Practice",
+          "questionText": "Decide whether inverse proportion exists between each pair of variables. If it does exist, write an equation to describe the relationship: the price ($P$) of petrol and the amount ($L$) that can be bought for \\$80.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Inverse proportion: $y = \\frac{k}{x}$, $xy = k$.",
+            "steps": [
+              "Given: price per litre $P$, litres $L$, total spent \\$80. Goal: test for inverse proportion.",
+              "Price per litre $\\times$ litres = total cost: $PL = 80$, a constant.",
+              "So $L = \\frac{k}{P}$ with $k = 80$ (or $P = \\frac{k}{L}$)."
+            ],
+            "finalAnswer": "Yes: $L = \\frac{k}{P}$ (here $k = 80$, so $L = \\frac{80}{P}$), or $P = \\frac{k}{L}$.",
+            "solutionFigures": [],
+            "tip": "A fixed total budget usually signals inverse proportion between price and quantity."
+          }
+        },
+        {
+          "id": "ch9_ex7_q1e",
+          "number": "1(e)",
+          "category": "Practice",
+          "questionText": "Decide whether inverse proportion exists between each pair of variables. If it does exist, write an equation to describe the relationship: the price ($P$) of petrol and the cost ($C$) of buying 80 L.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Direct proportion: $y = kx$; inverse proportion: $y = \\frac{k}{x}$.",
+            "steps": [
+              "Given: price per litre $P$ and cost $C$ of a fixed 80 L. Goal: test for inverse proportion.",
+              "$C = 80P$: if the price doubles, the cost doubles.",
+              "This is direct proportion, not inverse."
+            ],
+            "finalAnswer": "No, inverse proportion does not exist ($C = 80P$ is direct proportion).",
+            "solutionFigures": [],
+            "tip": "Compare with 1(d): fixing the amount spent gives inverse proportion; fixing the litres gives direct proportion."
+          }
+        },
+        {
+          "id": "ch9_ex7_q1f",
+          "number": "1(f)",
+          "category": "Practice",
+          "questionText": "Decide whether inverse proportion exists between each pair of variables. If it does exist, write an equation to describe the relationship: the number of questions ($n$) in a test and the amount of time ($t$) available to answer each one.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Inverse proportion: $y = \\frac{k}{x}$, $xy = k$.",
+            "steps": [
+              "Given: number of questions $n$ and time per question $t$, for a test of fixed length. Goal: test for inverse proportion.",
+              "$n \\times t = $ total test time, which is constant.",
+              "So $t = \\frac{k}{n}$ (or $n = \\frac{k}{t}$)."
+            ],
+            "finalAnswer": "Yes: $t = \\frac{k}{n}$ (or $n = \\frac{k}{t}$), where $k$ is the total test time.",
+            "solutionFigures": [],
+            "tip": "More questions in the same time means less time per question: a sign of inverse proportion."
+          }
+        },
+        {
+          "id": "ch9_ex7_q2",
+          "number": "2",
+          "category": "Consolidate",
+          "questionText": "List three examples of inverse proportion.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Two variables are inversely proportional when their product is constant: $xy = k$.",
+            "steps": [
+              "Goal: find three situations where one quantity times the other is fixed.",
+              "Example 1: for a fixed distance, speed $\\times$ travel time = distance, so time $= \\frac{\\text{distance}}{\\text{speed}}$.",
+              "Example 2: for a fixed job, number of workers $\\times$ time taken = total work, so time $= \\frac{k}{\\text{workers}}$.",
+              "Example 3: for a fixed budget, price per item $\\times$ number of items = budget, so items $= \\frac{\\text{budget}}{\\text{price}}$.",
+              "(Others: sharing a fixed number of sweets among children; pressure and volume of a gas at constant temperature.)"
+            ],
+            "finalAnswer": "Sample answers: speed and travel time for a fixed distance; number of workers and time to finish a job; price per item and number of items for a fixed budget.",
+            "solutionFigures": [],
+            "tip": "Always check that the product of the two variables really stays the same."
+          }
+        },
+        {
+          "id": "ch9_ex7_q3a",
+          "number": "3(a)",
+          "category": "Practice",
+          "questionText": "$y$ varies inversely as $x$ and $y = 100$ when $x = 10$. Calculate the constant of proportionality, $k$, and hence the rule relating $x$ and $y$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{k}{x}$, so $k = xy$.",
+            "steps": [
+              "Given: $y \\propto \\frac{1}{x}$, $y = 100$ when $x = 10$. Goal: $k$ and the rule.",
+              "$y = \\frac{k}{x}$",
+              "Substitute: $100 = \\frac{k}{10}$",
+              "Multiply both sides by 10: $k = 100 \\times 10 = 1000$",
+              "Rule: $y = \\frac{1000}{x}$"
+            ],
+            "finalAnswer": "$k = 1000$, and the rule is $y = \\frac{1000}{x}$.",
+            "solutionFigures": [],
+            "tip": "Multiply, do not divide: $k = 100 \\times 10$, not $100 \\div 10$."
+          }
+        },
+        {
+          "id": "ch9_ex7_q3b",
+          "number": "3(b)",
+          "category": "Practice",
+          "questionText": "$y$ varies inversely as $x$ and $y = 100$ when $x = 10$, so $y = \\frac{1000}{x}$. Plot a graph of the relationship between $x$ and $y$, for values of $x$ that are positive factors of $k$ less than 21.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{1000}{x}$",
+            "steps": [
+              "Given: $y = \\frac{1000}{x}$. Goal: table and graph for positive factors of 1000 less than 21.",
+              "Positive factors of 1000 less than 21: $1, 2, 4, 5, 8, 10, 20$.",
+              "$x = 1$: $y = 1000$; $x = 2$: $y = 500$; $x = 4$: $y = 250$; $x = 5$: $y = 200$",
+              "$x = 8$: $y = 125$; $x = 10$: $y = 100$; $x = 20$: $y = 50$",
+              "Plot these points and join with a smooth curve (one branch of a hyperbola in the first quadrant).",
+              "The curve falls steeply at first, then flattens, approaching the $x$-axis but never touching it."
+            ],
+            "finalAnswer": "Points $(1, 1000), (2, 500), (4, 250), (5, 200), (8, 125), (10, 100), (20, 50)$, joined by a smooth decreasing hyperbola $y = \\frac{1000}{x}$.",
+            "solutionFigures": [],
+            "tip": "Join the points with a smooth curve, not straight line segments."
+          }
+        },
+        {
+          "id": "ch9_ex7_q4a",
+          "number": "4(a)",
+          "category": "Consolidate",
+          "questionText": "$p$ is inversely proportional to $q$ and $p = 12$ when $q = 4$. Calculate the constant of proportionality, $k$, and hence the rule relating $p$ and $q$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$p = \\frac{k}{q}$, so $k = pq$.",
+            "steps": [
+              "Given: $p \\propto \\frac{1}{q}$, $p = 12$ when $q = 4$. Goal: $k$ and the rule.",
+              "$p = \\frac{k}{q}$",
+              "Substitute: $12 = \\frac{k}{4}$",
+              "$k = 12 \\times 4 = 48$",
+              "Rule: $p = \\frac{48}{q}$"
+            ],
+            "finalAnswer": "$k = 48$, and the rule is $p = \\frac{48}{q}$.",
+            "solutionFigures": [],
+            "tip": "Check: $4 \\times 12 = 48$, so the product of each pair equals $k$."
+          }
+        },
+        {
+          "id": "ch9_ex7_q4b",
+          "number": "4(b)",
+          "category": "Consolidate",
+          "questionText": "$p$ is inversely proportional to $q$ with $p = \\frac{48}{q}$. Plot a graph of the relationship between $q$ and $p$, for values of $q$ that are positive factors of $k$ less than 11.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$p = \\frac{48}{q}$",
+            "steps": [
+              "Given: $p = \\frac{48}{q}$. Goal: table and graph.",
+              "Positive factors of 48 less than 11: $1, 2, 3, 4, 6, 8$.",
+              "$q = 1$: $p = 48$; $q = 2$: $p = 24$; $q = 3$: $p = 16$",
+              "$q = 4$: $p = 12$; $q = 6$: $p = 8$; $q = 8$: $p = 6$",
+              "Plot with $q$ on the horizontal axis and $p$ on the vertical axis; join with a smooth decreasing curve."
+            ],
+            "finalAnswer": "Points $(1, 48), (2, 24), (3, 16), (4, 12), (6, 8), (8, 6)$ joined by a smooth decreasing hyperbola $p = \\frac{48}{q}$.",
+            "solutionFigures": [],
+            "tip": "Using factors of $k$ keeps all the $y$-values as whole numbers, which makes plotting easier."
+          }
+        },
+        {
+          "id": "ch9_ex7_q5a",
+          "number": "5(a)",
+          "category": "Master",
+          "questionText": "$y$ varies inversely as $x$ and $y = 42$ when $x = 1$. Calculate the constant of proportionality, $k$, and hence the rule relating $x$ and $y$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{k}{x}$, $k = xy$.",
+            "steps": [
+              "Given: $y = 42$ when $x = 1$. Goal: $k$ and the rule.",
+              "$42 = \\frac{k}{1}$",
+              "$k = 42 \\times 1 = 42$",
+              "Rule: $y = \\frac{42}{x}$"
+            ],
+            "finalAnswer": "$k = 42$, and the rule is $y = \\frac{42}{x}$.",
+            "solutionFigures": [],
+            "tip": "When $x = 1$, $y$ equals $k$ directly."
+          }
+        },
+        {
+          "id": "ch9_ex7_q5b",
+          "number": "5(b)",
+          "category": "Master",
+          "questionText": "$y$ varies inversely as $x$ with $y = \\frac{42}{x}$. Plot a graph of the relationship between $x$ and $y$, for values of $x$ from 1 to 10.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{42}{x}$",
+            "steps": [
+              "Given: $y = \\frac{42}{x}$, $x = 1, 2, \\ldots, 10$. Goal: table and graph.",
+              "$x = 1$: $42$; $x = 2$: $21$; $x = 3$: $14$; $x = 4$: $10.5$; $x = 5$: $8.4$",
+              "$x = 6$: $7$; $x = 7$: $6$; $x = 8$: $5.25$; $x = 9$: $4.67$ (2 d.p.); $x = 10$: $4.2$",
+              "Plot the points and join with a smooth decreasing curve in the first quadrant, approaching the $x$-axis."
+            ],
+            "finalAnswer": "Points $(1, 42), (2, 21), (3, 14), (4, 10.5), (5, 8.4), (6, 7), (7, 6), (8, 5.25), (9, 4.67), (10, 4.2)$ joined by a smooth hyperbola.",
+            "solutionFigures": [],
+            "tip": "Choose a vertical scale that reaches 42 so the first point fits on the graph."
+          }
+        },
+        {
+          "id": "ch9_ex7_q6a",
+          "number": "6(a)",
+          "category": "Practice",
+          "questionText": "When a constant force is applied to an object, its acceleration is inversely proportional to its mass. When the acceleration of an object is 40 m/s$^2$, the corresponding mass is 100 kg. Calculate the constant of proportionality.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$a = \\frac{k}{m}$, so $k = am$.",
+            "steps": [
+              "Given: $a = 40$ m/s$^2$ when $m = 100$ kg. Goal: $k$.",
+              "$40 = \\frac{k}{100}$",
+              "$k = 40 \\times 100 = 4000$"
+            ],
+            "finalAnswer": "The constant of proportionality is $k = 4000$.",
+            "solutionFigures": [],
+            "tip": "In physics this constant is the applied force (in newtons)."
+          }
+        },
+        {
+          "id": "ch9_ex7_q6b",
+          "number": "6(b)",
+          "category": "Practice",
+          "questionText": "Acceleration $a$ is inversely proportional to mass $m$, and $a = 40$ m/s$^2$ when $m = 100$ kg (so $k = 4000$). Determine the rule relating mass and acceleration.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$a = \\frac{k}{m}$",
+            "steps": [
+              "Given: $k = 4000$. Goal: rule.",
+              "Substitute $k$ into $a = \\frac{k}{m}$."
+            ],
+            "finalAnswer": "The rule is $a = \\frac{4000}{m}$.",
+            "solutionFigures": [],
+            "tip": "Keep the variable that is being calculated on the left-hand side."
+          }
+        },
+        {
+          "id": "ch9_ex7_q6c",
+          "number": "6(c)",
+          "category": "Practice",
+          "questionText": "Acceleration and mass are related by $a = \\frac{4000}{m}$. Determine the acceleration of a 200 kg object.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$a = \\frac{4000}{m}$",
+            "steps": [
+              "Given: $m = 200$. Goal: $a$.",
+              "$a = \\frac{4000}{200}$",
+              "$a = 20$"
+            ],
+            "finalAnswer": "The acceleration is 20 m/s$^2$.",
+            "solutionFigures": [],
+            "tip": "Doubling the mass from 100 kg to 200 kg halves the acceleration, as expected."
+          }
+        },
+        {
+          "id": "ch9_ex7_q6d",
+          "number": "6(d)",
+          "category": "Practice",
+          "questionText": "Acceleration and mass are related by $a = \\frac{4000}{m}$. Determine the acceleration of a 1000 kg object.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$a = \\frac{4000}{m}$",
+            "steps": [
+              "Given: $m = 1000$. Goal: $a$.",
+              "$a = \\frac{4000}{1000}$",
+              "$a = 4$"
+            ],
+            "finalAnswer": "The acceleration is 4 m/s$^2$.",
+            "solutionFigures": [],
+            "tip": "Include the units m/s$^2$ in the final answer."
+          }
+        },
+        {
+          "id": "ch9_ex7_q7a",
+          "number": "7(a)",
+          "category": "Consolidate",
+          "questionText": "The number of colouring pencils sold is inversely proportional to the price of each pencil. Two thousand pencils are sold when the price is \\$0.25 each. Calculate the constant of proportionality.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$n = \\frac{k}{P}$, so $k = nP$.",
+            "steps": [
+              "Given: $n = 2000$ when $P = 0.25$. Goal: $k$.",
+              "$2000 = \\frac{k}{0.25}$",
+              "$k = 2000 \\times 0.25 = 500$"
+            ],
+            "finalAnswer": "The constant of proportionality is $k = 500$.",
+            "solutionFigures": [],
+            "tip": "Here $k$ is the total money taken (\\$500)."
+          }
+        },
+        {
+          "id": "ch9_ex7_q7b",
+          "number": "7(b)",
+          "category": "Consolidate",
+          "questionText": "The number of pencils sold, $n$, is inversely proportional to the price, $P$, with $n = \\frac{500}{P}$. Determine the number of pencils that could be sold for \\$0.20 each.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$n = \\frac{500}{P}$",
+            "steps": [
+              "Given: $P = 0.20$. Goal: $n$.",
+              "$n = \\frac{500}{0.20}$",
+              "$n = 2500$"
+            ],
+            "finalAnswer": "2500 pencils could be sold at \\$0.20 each.",
+            "solutionFigures": [],
+            "tip": "A lower price should give more sales; check that your answer is larger than 2000."
+          }
+        },
+        {
+          "id": "ch9_ex7_q7c",
+          "number": "7(c)",
+          "category": "Consolidate",
+          "questionText": "The number of pencils sold, $n$, is inversely proportional to the price, $P$, with $n = \\frac{500}{P}$. Determine the number of pencils that could be sold for \\$0.50 each.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$n = \\frac{500}{P}$",
+            "steps": [
+              "Given: $P = 0.50$. Goal: $n$.",
+              "$n = \\frac{500}{0.50}$",
+              "$n = 1000$"
+            ],
+            "finalAnswer": "1000 pencils could be sold at \\$0.50 each.",
+            "solutionFigures": [],
+            "tip": "Doubling the price from \\$0.25 to \\$0.50 halves the number sold."
+          }
+        },
+        {
+          "id": "ch9_ex7_q8a",
+          "number": "8(a)",
+          "category": "Master",
+          "questionText": "The time taken to complete a journey is inversely proportional to the speed travelled. A trip is completed in 4.5 hours travelling at 75 km per hour. Calculate the constant of proportionality.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$T = \\frac{k}{S}$, so $k = TS$.",
+            "steps": [
+              "Given: $T = 4.5$ h when $S = 75$ km/h. Goal: $k$.",
+              "$4.5 = \\frac{k}{75}$",
+              "$k = 4.5 \\times 75 = 337.5$"
+            ],
+            "finalAnswer": "The constant of proportionality is $k = 337.5$ (this is the distance in km).",
+            "solutionFigures": [],
+            "tip": "Speed $\\times$ time = distance, so $k$ has units of km."
+          }
+        },
+        {
+          "id": "ch9_ex7_q8b",
+          "number": "8(b)",
+          "category": "Master",
+          "questionText": "The time taken for a journey is $T = \\frac{337.5}{S}$ hours, where $S$ is the speed in km/h. Determine how long, to the nearest minute, the trip would take if the speed was 85 km per hour.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$T = \\frac{337.5}{S}$; 1 hour = 60 minutes.",
+            "steps": [
+              "Given: $S = 85$. Goal: $T$ to the nearest minute.",
+              "$T = \\frac{337.5}{85} = 3.970588\\ldots$ hours",
+              "Convert the decimal part: $0.970588 \\times 60 = 58.235\\ldots$ minutes",
+              "Round to the nearest minute: 58 minutes."
+            ],
+            "finalAnswer": "The trip would take about 3.97 hours, which is 3 h 58 min.",
+            "solutionFigures": [],
+            "tip": "3.97 hours is not 3 h 97 min; convert the decimal part by multiplying by 60."
+          }
+        },
+        {
+          "id": "ch9_ex7_q8c",
+          "number": "8(c)",
+          "category": "Master",
+          "questionText": "The time taken for a journey is $T = \\frac{337.5}{S}$ hours, where $S$ is the speed in km/h. Determine the speed required to complete the journey in 3.5 hours, correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$T = \\frac{337.5}{S} \\Rightarrow S = \\frac{337.5}{T}$",
+            "steps": [
+              "Given: $T = 3.5$. Goal: $S$.",
+              "$3.5 = \\frac{337.5}{S}$",
+              "$3.5S = 337.5$",
+              "$S = \\frac{337.5}{3.5} = 96.428\\ldots$",
+              "Round to 1 decimal place: $S \\approx 96.4$."
+            ],
+            "finalAnswer": "The required speed is about 96.4 km/h.",
+            "solutionFigures": [],
+            "tip": "A shorter time needs a higher speed; check that the answer is above 75 km/h."
+          }
+        },
+        {
+          "id": "ch9_ex7_q8d",
+          "number": "8(d)",
+          "category": "Master",
+          "questionText": "A trip is completed in 4.5 hours at 75 km/h, and the time is inversely proportional to speed ($T = \\frac{337.5}{S}$). Determine the distance travelled in each case (at 75 km/h, at 85 km/h and in 3.5 hours).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Distance = speed $\\times$ time $= ST = k$.",
+            "steps": [
+              "Goal: distance in each case.",
+              "At 75 km/h for 4.5 h: $75 \\times 4.5 = 337.5$ km.",
+              "At 85 km/h for $\\frac{337.5}{85}$ h: $85 \\times \\frac{337.5}{85} = 337.5$ km.",
+              "In 3.5 h at $\\frac{337.5}{3.5}$ km/h: $\\frac{337.5}{3.5} \\times 3.5 = 337.5$ km.",
+              "The product $ST$ is always $k = 337.5$."
+            ],
+            "finalAnswer": "The distance is 337.5 km in each case (it equals the constant of proportionality).",
+            "solutionFigures": [],
+            "tip": "Use unrounded values here; rounded times or speeds give slightly different products."
+          }
+        },
+        {
+          "id": "ch9_ex7_q9a",
+          "number": "9(a)",
+          "category": "Master",
+          "questionText": "The cost per person travelling in a charter plane is inversely proportional to the number of people in the charter group. It costs \\$350 per person when 50 people are travelling. Calculate the constant of variation.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$C = \\frac{k}{n}$, so $k = Cn$.",
+            "steps": [
+              "Given: $C = 350$ when $n = 50$. Goal: $k$.",
+              "$350 = \\frac{k}{50}$",
+              "$k = 350 \\times 50 = 17\\,500$"
+            ],
+            "finalAnswer": "The constant of variation is $k = 17\\,500$.",
+            "solutionFigures": [],
+            "tip": "The constant represents the total cost of the charter."
+          }
+        },
+        {
+          "id": "ch9_ex7_q9b",
+          "number": "9(b)",
+          "category": "Master",
+          "questionText": "The cost per person for a charter plane is $C = \\frac{17\\,500}{n}$, where $n$ is the number of people. Determine the cost per person, to the nearest cent, if there are 75 people travelling.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$C = \\frac{17\\,500}{n}$",
+            "steps": [
+              "Given: $n = 75$. Goal: $C$ to the nearest cent.",
+              "$C = \\frac{17\\,500}{75} = 233.333\\ldots$",
+              "Round to 2 decimal places: $C \\approx 233.33$."
+            ],
+            "finalAnswer": "The cost is \\$233.33 per person.",
+            "solutionFigures": [],
+            "tip": "Nearest cent means 2 decimal places."
+          }
+        },
+        {
+          "id": "ch9_ex7_q9c",
+          "number": "9(c)",
+          "category": "Master",
+          "questionText": "The cost per person for a charter plane is $C = \\frac{17\\,500}{n}$, where $n$ is the number of people. Determine how many people are required to reduce the cost to \\$250 per person.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$C = \\frac{17\\,500}{n} \\Rightarrow n = \\frac{17\\,500}{C}$",
+            "steps": [
+              "Given: $C = 250$. Goal: $n$.",
+              "$250 = \\frac{17\\,500}{n}$",
+              "$250n = 17\\,500$",
+              "$n = \\frac{17\\,500}{250} = 70$"
+            ],
+            "finalAnswer": "70 people are required.",
+            "solutionFigures": [],
+            "tip": "The number of people must be a whole number; here it divides exactly."
+          }
+        },
+        {
+          "id": "ch9_ex7_q9d",
+          "number": "9(d)",
+          "category": "Master",
+          "questionText": "The cost per person for a charter plane is inversely proportional to the number of people, with \\$350 per person for 50 people. Determine the total cost of hiring the charter plane.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Total cost = cost per person $\\times$ number of people $= k$.",
+            "steps": [
+              "Given: $C = 350$, $n = 50$. Goal: total cost.",
+              "Total $= 350 \\times 50 = 17\\,500$",
+              "Check: $233.33 \\times 75 \\approx 17\\,500$ and $250 \\times 70 = 17\\,500$."
+            ],
+            "finalAnswer": "The total cost of hiring the plane is \\$17 500.",
+            "solutionFigures": [],
+            "tip": "The constant of variation has a real meaning here: the fixed total cost."
+          }
+        },
+        {
+          "id": "ch9_ex7_q10a",
+          "number": "10(a)",
+          "category": "Practice",
+          "questionText": "The electrical current in a wire is inversely proportional to the resistance of the wire to that current. There is a current of 10 amperes when the resistance of the wire is 20 ohms. Calculate the constant of proportionality.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$I = \\frac{k}{R}$, so $k = IR$.",
+            "steps": [
+              "Given: $I = 10$ when $R = 20$. Goal: $k$.",
+              "$10 = \\frac{k}{20}$",
+              "$k = 10 \\times 20 = 200$"
+            ],
+            "finalAnswer": "The constant of proportionality is $k = 200$.",
+            "solutionFigures": [],
+            "tip": "In physics, this constant is the voltage (200 V)."
+          }
+        },
+        {
+          "id": "ch9_ex7_q10b",
+          "number": "10(b)",
+          "category": "Practice",
+          "questionText": "The current in a wire is $I = \\frac{200}{R}$ amperes, where $R$ is the resistance in ohms. Determine the current possible when the resistance is 200 ohms.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$I = \\frac{200}{R}$",
+            "steps": [
+              "Given: $R = 200$. Goal: $I$.",
+              "$I = \\frac{200}{200} = 1$"
+            ],
+            "finalAnswer": "The current is 1 ampere.",
+            "solutionFigures": [],
+            "tip": "Ten times the resistance gives one-tenth of the current."
+          }
+        },
+        {
+          "id": "ch9_ex7_q10c",
+          "number": "10(c)",
+          "category": "Practice",
+          "questionText": "The current in a wire is $I = \\frac{200}{R}$ amperes, where $R$ is the resistance in ohms. Determine the resistance of the wire when the current is 15 amperes.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$I = \\frac{200}{R} \\Rightarrow R = \\frac{200}{I}$",
+            "steps": [
+              "Given: $I = 15$. Goal: $R$.",
+              "$15 = \\frac{200}{R}$",
+              "$15R = 200$",
+              "$R = \\frac{200}{15} = 13.33\\ldots$",
+              "Round to 1 decimal place: $R \\approx 13.3$."
+            ],
+            "finalAnswer": "The resistance is about 13.3 ohms.",
+            "solutionFigures": [],
+            "tip": "Rearrange before dividing so you do not accidentally compute $\\frac{15}{200}$."
+          }
+        },
+        {
+          "id": "ch9_ex7_q10d",
+          "number": "10(d)",
+          "category": "Practice",
+          "questionText": "The current in a wire is $I = \\frac{200}{R}$. Justify your answers for a current of 1 A when $R = 200$ ohms and a resistance of 13.3 ohms when $I = 15$ A, using a graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Graph of $I = \\frac{200}{R}$: a hyperbola in the first quadrant.",
+            "steps": [
+              "Goal: show both answers lie on the graph of $I = \\frac{200}{R}$.",
+              "Make a table: $R = 10, 20, 40, 50, 100, 200$ gives $I = 20, 10, 5, 4, 2, 1$.",
+              "Plot $R$ on the horizontal axis and $I$ on the vertical axis; join with a smooth decreasing curve.",
+              "Reading at $R = 200$: the curve is at $I = 1$, confirming part b.",
+              "Reading across from $I = 15$: the curve is at $R \\approx 13.3$, confirming part c.",
+              "Both points $(200, 1)$ and $(13.3, 15)$ lie on the hyperbola."
+            ],
+            "finalAnswer": "On the graph of $I = \\frac{200}{R}$, the points $(200, 1)$ and $(13.3, 15)$ both lie on the curve, which confirms the answers to parts b and c.",
+            "solutionFigures": [],
+            "tip": "Read from the horizontal axis up for $R$ given, and from the vertical axis across for $I$ given."
+          }
+        },
+        {
+          "id": "ch9_ex7_q11a",
+          "number": "11(a)",
+          "category": "Consolidate",
+          "questionText": "The pressure of an ideal gas is inversely proportional to the volume taken up by the gas. A balloon is filled with air so it takes up 3 L at a pressure of 5 atmospheres. Calculate the constant of proportionality.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$P = \\frac{k}{V}$, so $k = PV$.",
+            "steps": [
+              "Given: $V = 3$ L when $P = 5$ atm. Goal: $k$.",
+              "$5 = \\frac{k}{3}$",
+              "$k = 5 \\times 3 = 15$"
+            ],
+            "finalAnswer": "The constant of proportionality is $k = 15$.",
+            "solutionFigures": [],
+            "tip": "This is Boyle's law: $PV$ stays constant."
+          }
+        },
+        {
+          "id": "ch9_ex7_q11b",
+          "number": "11(b)",
+          "category": "Consolidate",
+          "questionText": "The pressure and volume of a gas satisfy $P = \\frac{15}{V}$. Determine the new volume of the balloon if the pressure was dropped to 0.75 atmospheres.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$P = \\frac{15}{V} \\Rightarrow V = \\frac{15}{P}$",
+            "steps": [
+              "Given: $P = 0.75$. Goal: $V$.",
+              "$0.75 = \\frac{15}{V}$",
+              "$0.75V = 15$",
+              "$V = \\frac{15}{0.75} = 20$"
+            ],
+            "finalAnswer": "The new volume is 20 L.",
+            "solutionFigures": [],
+            "tip": "Lower pressure means a larger volume, so the balloon expands."
+          }
+        },
+        {
+          "id": "ch9_ex7_q11c",
+          "number": "11(c)",
+          "category": "Consolidate",
+          "questionText": "The pressure and volume of a gas satisfy $P = \\frac{15}{V}$. Determine the pressure if the same amount of air took up a volume of 6 L.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$P = \\frac{15}{V}$",
+            "steps": [
+              "Given: $V = 6$. Goal: $P$.",
+              "$P = \\frac{15}{6} = 2.5$"
+            ],
+            "finalAnswer": "The pressure is 2.5 atmospheres.",
+            "solutionFigures": [],
+            "tip": "Doubling the volume from 3 L to 6 L halves the pressure from 5 to 2.5."
+          }
+        },
+        {
+          "id": "ch9_ex7_q12",
+          "number": "12",
+          "category": "Master",
+          "questionText": "Two equations relating the time of a trip, $T$, and the speed at which they travel, $S$, are given. For both cases the time is inversely proportional to the speed: $T_1 = \\frac{5}{S_1}$ and $T_2 = \\frac{7}{S_2}$. Explain what impact the different constants of proportionality have on the time of the trip.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$T = \\frac{k}{S}$ where $k = ST$ is the distance of the trip.",
+            "steps": [
+              "Given: $k_1 = 5$ and $k_2 = 7$. Goal: explain the effect of $k$.",
+              "Since time $\\times$ speed = distance, the constant is the distance: trip 1 is 5 units long and trip 2 is 7 units long.",
+              "At the same speed $S$: $T_1 = \\frac{5}{S}$ and $T_2 = \\frac{7}{S}$, so $T_2 = \\frac{7}{5}T_1 = 1.4T_1$.",
+              "Example: at $S = 10$, $T_1 = 0.5$ and $T_2 = 0.7$."
+            ],
+            "finalAnswer": "The constant of proportionality represents the distance of the trip. At the same speed, the trip with the smaller constant (5) takes less time; the trip with constant 7 takes 1.4 times as long.",
+            "solutionFigures": [],
+            "tip": "Interpret $k$ by multiplying the two variables: here speed $\\times$ time gives distance."
+          }
+        },
+        {
+          "id": "ch9_ex7_q13a",
+          "number": "13(a)",
+          "category": "Practice",
+          "questionText": "The time it takes to pick a field of strawberries is inversely proportional to the number of pickers. It takes 2 people 5 hours to pick all of the strawberries in a field. Calculate the constant of proportionality.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$T = \\frac{k}{P}$, so $k = TP$.",
+            "steps": [
+              "Given: $T = 5$ h when $P = 2$. Goal: $k$.",
+              "$5 = \\frac{k}{2}$",
+              "$k = 5 \\times 2 = 10$"
+            ],
+            "finalAnswer": "The constant of proportionality is $k = 10$ (10 person-hours of work).",
+            "solutionFigures": [],
+            "tip": "The constant is the total work needed, measured in person-hours."
+          }
+        },
+        {
+          "id": "ch9_ex7_q13b",
+          "number": "13(b)",
+          "category": "Practice",
+          "questionText": "The time to pick a field of strawberries is inversely proportional to the number of pickers, with $k = 10$. Determine the rule relating time ($T$) and the number of pickers ($P$).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$T = \\frac{k}{P}$",
+            "steps": [
+              "Given: $k = 10$. Goal: rule.",
+              "Substitute into $T = \\frac{k}{P}$."
+            ],
+            "finalAnswer": "The rule is $T = \\frac{10}{P}$.",
+            "solutionFigures": [],
+            "tip": "Check with the given data: $\\frac{10}{2} = 5$ hours ✓."
+          }
+        },
+        {
+          "id": "ch9_ex7_q13c",
+          "number": "13(c)",
+          "category": "Practice",
+          "questionText": "The time to pick a field of strawberries is $T = \\frac{10}{P}$ hours, where $P$ is the number of pickers. Determine the time spent if there are 6 pickers.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$T = \\frac{10}{P}$",
+            "steps": [
+              "Given: $P = 6$. Goal: $T$.",
+              "$T = \\frac{10}{6} = 1\\frac{2}{3}$ hours",
+              "$\\frac{2}{3}$ of an hour $= \\frac{2}{3} \\times 60 = 40$ minutes"
+            ],
+            "finalAnswer": "With 6 pickers it takes $1\\frac{2}{3}$ hours, which is 1 hour 40 minutes.",
+            "solutionFigures": [],
+            "tip": "Convert fractions of an hour to minutes by multiplying by 60."
+          }
+        },
+        {
+          "id": "ch9_ex7_q14a",
+          "number": "14(a)",
+          "category": "Consolidate",
+          "questionText": "For a constant distance covered by a sprinter, the sprinter's speed is inversely proportional to their time. If a sprinter runs at a speed of 10.4 m/s, the corresponding time is 9.62 seconds. Calculate the constant of variation.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$V = \\frac{k}{T}$, so $k = VT$.",
+            "steps": [
+              "Given: $V = 10.4$ when $T = 9.62$. Goal: $k$.",
+              "$10.4 = \\frac{k}{9.62}$",
+              "$k = 10.4 \\times 9.62 = 100.048$"
+            ],
+            "finalAnswer": "The constant of variation is $k = 100.048$ (the distance, in metres).",
+            "solutionFigures": [],
+            "tip": "Keep the full value 100.048 for later parts; do not round it to 100."
+          }
+        },
+        {
+          "id": "ch9_ex7_q14b",
+          "number": "14(b)",
+          "category": "Consolidate",
+          "questionText": "A sprinter's speed $V$ is inversely proportional to their time $T$, with constant of variation 100.048. Determine the rule relating speed ($V$) and time ($T$).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$V = \\frac{k}{T}$",
+            "steps": [
+              "Given: $k = 100.048$. Goal: rule.",
+              "Substitute into $V = \\frac{k}{T}$."
+            ],
+            "finalAnswer": "The rule is $V = \\frac{100.048}{T}$.",
+            "solutionFigures": [],
+            "tip": "The rule can be rearranged to $T = \\frac{100.048}{V}$ to find times."
+          }
+        },
+        {
+          "id": "ch9_ex7_q14c",
+          "number": "14(c)",
+          "category": "Consolidate",
+          "questionText": "A sprinter's speed and time satisfy $V = \\frac{100.048}{T}$. Determine the time, correct to 2 decimal places, if they ran at a speed of 10.44 m/s.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$T = \\frac{100.048}{V}$",
+            "steps": [
+              "Given: $V = 10.44$. Goal: $T$.",
+              "$10.44 = \\frac{100.048}{T} \\Rightarrow T = \\frac{100.048}{10.44}$",
+              "$T = 9.5831\\ldots$",
+              "Round to 2 decimal places: $T \\approx 9.58$."
+            ],
+            "finalAnswer": "The time is about 9.58 seconds.",
+            "solutionFigures": [],
+            "tip": "A slightly faster speed gives a slightly shorter time; 9.58 s is less than 9.62 s."
+          }
+        },
+        {
+          "id": "ch9_ex7_q14d",
+          "number": "14(d)",
+          "category": "Consolidate",
+          "questionText": "A sprinter's speed and time satisfy $V = \\frac{100.048}{T}$. Determine the time, correct to 2 decimal places, if they ran at a speed of 6.67 m/s.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$T = \\frac{100.048}{V}$",
+            "steps": [
+              "Given: $V = 6.67$. Goal: $T$.",
+              "$T = \\frac{100.048}{6.67} = 14.9997\\ldots$",
+              "Round to 2 decimal places: $T \\approx 15.00$."
+            ],
+            "finalAnswer": "The time is about 15.00 seconds.",
+            "solutionFigures": [],
+            "tip": "Write the trailing zeros (15.00) to show 2 decimal places."
+          }
+        },
+        {
+          "id": "ch9_ex7_q15a",
+          "number": "15(a)",
+          "category": "Master",
+          "questionText": "A holiday hostel is built to accommodate group bookings of up to 45 people. It is known that it would cost each of the individuals in a group of 20 people \\$67.50 per night to rent this venue. The cost of the venue will remain the same no matter how many people are part of the group booking. Write the rule for the cost per person ($C$) and the number of people in a group booking ($n$).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$C = \\frac{k}{n}$, $k = Cn$ (total cost of the venue).",
+            "steps": [
+              "Given: $C = 67.50$ when $n = 20$. Goal: rule.",
+              "$k = 67.50 \\times 20 = 1350$",
+              "$C = \\frac{1350}{n}$"
+            ],
+            "finalAnswer": "The rule is $C = \\frac{1350}{n}$ (the venue costs \\$1350 per night).",
+            "solutionFigures": [],
+            "tip": "A fixed total cost shared among people is always inverse proportion."
+          }
+        },
+        {
+          "id": "ch9_ex7_q15b",
+          "number": "15(b)",
+          "category": "Master",
+          "questionText": "The cost per person for a hostel is $C = \\frac{1350}{n}$, where $n$ is the group size. The original group had 20 people. If 6 people from the original group are no longer able to attend, determine the new cost per person.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$C = \\frac{1350}{n}$",
+            "steps": [
+              "Given: $n = 20 - 6 = 14$. Goal: $C$.",
+              "$C = \\frac{1350}{14} = 96.428\\ldots$",
+              "Round to the nearest cent: $C \\approx 96.43$."
+            ],
+            "finalAnswer": "The new cost is \\$96.43 per person.",
+            "solutionFigures": [],
+            "tip": "Find the new group size first: $20 - 6 = 14$."
+          }
+        },
+        {
+          "id": "ch9_ex7_q15c",
+          "number": "15(c)",
+          "category": "Master",
+          "questionText": "The cost per person for a hostel is $C = \\frac{1350}{n}$, where $n$ is the group size, and the hostel holds up to 45 people. Calculate the cheapest possible cost per person.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$C = \\frac{1350}{n}$ decreases as $n$ increases.",
+            "steps": [
+              "Given: $n \\le 45$. Goal: minimum $C$.",
+              "The cost per person is smallest when $n$ is largest, i.e. $n = 45$.",
+              "$C = \\frac{1350}{45} = 30$"
+            ],
+            "finalAnswer": "The cheapest possible cost is \\$30 per person (with 45 people).",
+            "solutionFigures": [],
+            "tip": "Use the context's limit (maximum 45 people) to find the minimum cost."
+          }
+        }
+      ]
+    }
+  ]
+}

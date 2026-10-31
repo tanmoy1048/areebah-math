@@ -1,0 +1,1178 @@
+{
+  "chapterId": "ch11",
+  "chapterTitle": "Probability",
+  "topics": [
+    {
+      "topicId": "11.3",
+      "topicTitle": "Tree diagrams",
+      "exercises": [
+        {
+          "id": "ch11_ex3_q1",
+          "number": "1",
+          "category": "Practice",
+          "questionText": "Explain how a tree diagram can be used to calculate probabilities of events that are not equally likely.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule along a path: $\\Pr(A \\text{ then } B) = \\Pr(A) \\times \\Pr(B)$; outcomes in the same event are added.",
+            "steps": [
+              "Given: a multi-step experiment whose outcomes need not be equally likely. Goal: explain how a tree diagram gives their probabilities.",
+              "Draw one column of branches for each step (trial) of the experiment.",
+              "Write the probability of each result on its branch. These probabilities can be different (for example $0.7$ and $0.3$), so outcomes need not be equally likely.",
+              "The branches leaving any one point must add to $1$.",
+              "Multiply the probabilities along a path (multiplication rule) to get the probability of that outcome.",
+              "To find the probability of an event made of several outcomes, add the probabilities of those paths (addition rule for mutually exclusive outcomes).",
+              "Check: the probabilities of all the final outcomes add to $1$."
+            ],
+            "finalAnswer": "Each column of branches shows one step, with its own (possibly unequal) probabilities on the branches. Multiplying along a path gives the probability of that outcome, adding paths gives the probability of an event, and all outcomes add to 1.",
+            "solutionFigures": [],
+            "tip": "Do not count outcomes and divide by the total when the branches have unequal probabilities; multiply along the branches instead."
+          }
+        },
+        {
+          "id": "ch11_ex3_q2a",
+          "number": "2(a)",
+          "category": "Practice",
+          "questionText": "A tree diagram has two stages. Stage 1 (colour): Blue $\\frac{1}{4}$, Red $\\frac{3}{20}$, Green $\\frac{1}{10}$, Indigo $\\frac{1}{2}$. Stage 2 (animal, the same after every colour): Fish $\\frac{1}{10}$, Donkey $\\frac{1}{5}$, Elephant $\\frac{7}{10}$. Identify how many different outcomes there are.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication principle: number of outcomes $=$ (branches at stage 1) $\\times$ (branches at stage 2)",
+            "steps": [
+              "Given: 4 colours at stage 1 and 3 animals after each colour. Goal: the number of outcomes.",
+              "Each colour branch splits into 3 animal branches.",
+              "Number of outcomes $= 4 \\times 3 = 12$",
+              "The outcomes are: blue fish, blue donkey, blue elephant, red fish, red donkey, red elephant, green fish, green donkey, green elephant, indigo fish, indigo donkey, indigo elephant."
+            ],
+            "finalAnswer": "There are 12 different outcomes.",
+            "solutionFigures": [],
+            "tip": "Count the ends of the final branches; each end is one outcome."
+          }
+        },
+        {
+          "id": "ch11_ex3_q2b",
+          "number": "2(b)",
+          "category": "Practice",
+          "questionText": "A tree diagram has two stages. Stage 1 (colour): Blue $\\frac{1}{4}$, Red $\\frac{3}{20}$, Green $\\frac{1}{10}$, Indigo $\\frac{1}{2}$. Stage 2 (animal, the same after every colour): Fish $\\frac{1}{10}$, Donkey $\\frac{1}{5}$, Elephant $\\frac{7}{10}$. Explain whether all outcomes are equally likely.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule: $\\Pr(\\text{colour and animal}) = \\Pr(\\text{colour}) \\times \\Pr(\\text{animal})$",
+            "steps": [
+              "Given: unequal branch probabilities. Goal: decide whether the 12 outcomes are equally likely.",
+              "Compare two outcomes using the multiplication rule.",
+              "$\\Pr(\\text{blue fish}) = \\frac{1}{4} \\times \\frac{1}{10} = \\frac{1}{40}$",
+              "$\\Pr(\\text{indigo elephant}) = \\frac{1}{2} \\times \\frac{7}{10} = \\frac{7}{20}$",
+              "$\\frac{1}{40} \\neq \\frac{7}{20}$, so the outcomes have different probabilities."
+            ],
+            "finalAnswer": "No. The branch probabilities are different, so each outcome is a product of different probabilities and the outcomes are not equally likely.",
+            "solutionFigures": [],
+            "tip": "Outcomes are equally likely only if every path has the same product of probabilities."
+          }
+        },
+        {
+          "id": "ch11_ex3_q2c",
+          "number": "2(c)",
+          "category": "Practice",
+          "questionText": "A tree diagram has two stages. Stage 1 (colour): Blue $\\frac{1}{4}$, Red $\\frac{3}{20}$, Green $\\frac{1}{10}$, Indigo $\\frac{1}{2}$. Stage 2 (animal, the same after every colour): Fish $\\frac{1}{10}$, Donkey $\\frac{1}{5}$, Elephant $\\frac{7}{10}$. State whether getting a red fish is more, less or equally likely than getting a green elephant.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule (independent stages): $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B)$",
+            "steps": [
+              "Given: the branch probabilities. Goal: compare $\\Pr(\\text{red fish})$ and $\\Pr(\\text{green elephant})$.",
+              "$\\Pr(\\text{red fish}) = \\frac{3}{20} \\times \\frac{1}{10} = \\frac{3}{200}$",
+              "$\\Pr(\\text{green elephant}) = \\frac{1}{10} \\times \\frac{7}{10} = \\frac{7}{100} = \\frac{14}{200}$",
+              "Compare with a common denominator: $\\frac{3}{200} < \\frac{14}{200}$"
+            ],
+            "finalAnswer": "Getting a red fish ($\\frac{3}{200}$) is less likely than getting a green elephant ($\\frac{7}{100}$).",
+            "solutionFigures": [],
+            "tip": "Write both fractions with a common denominator before comparing them."
+          }
+        },
+        {
+          "id": "ch11_ex3_q2d",
+          "number": "2(d)",
+          "category": "Practice",
+          "questionText": "A tree diagram has two stages. Stage 1 (colour): Blue $\\frac{1}{4}$, Red $\\frac{3}{20}$, Green $\\frac{1}{10}$, Indigo $\\frac{1}{2}$. Stage 2 (animal, the same after every colour): Fish $\\frac{1}{10}$, Donkey $\\frac{1}{5}$, Elephant $\\frac{7}{10}$. Determine the most likely outcome.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule: $\\Pr(\\text{colour and animal}) = \\Pr(\\text{colour}) \\times \\Pr(\\text{animal})$",
+            "steps": [
+              "Given: the branch probabilities. Goal: the outcome with the largest probability.",
+              "The largest stage 1 probability is Indigo, $\\frac{1}{2}$.",
+              "The largest stage 2 probability is Elephant, $\\frac{7}{10}$.",
+              "The largest product comes from the two largest factors: $\\Pr(\\text{indigo elephant}) = \\frac{1}{2} \\times \\frac{7}{10} = \\frac{7}{20}$",
+              "Check against the next best, blue elephant: $\\frac{1}{4} \\times \\frac{7}{10} = \\frac{7}{40} < \\frac{7}{20}$"
+            ],
+            "finalAnswer": "The most likely outcome is an indigo elephant, with $\\Pr = \\frac{7}{20}$.",
+            "solutionFigures": [],
+            "tip": "Because every product uses one factor from each stage, the biggest factors from each stage give the biggest product."
+          }
+        },
+        {
+          "id": "ch11_ex3_q2ei",
+          "number": "2(e)(i)",
+          "category": "Practice",
+          "questionText": "A tree diagram has two stages. Stage 1 (colour): Blue $\\frac{1}{4}$, Red $\\frac{3}{20}$, Green $\\frac{1}{10}$, Indigo $\\frac{1}{2}$. Stage 2 (animal, the same after every colour): Fish $\\frac{1}{10}$, Donkey $\\frac{1}{5}$, Elephant $\\frac{7}{10}$. Calculate $\\Pr(\\text{blue elephant})$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule: $\\Pr(B \\cap E) = \\Pr(B) \\times \\Pr(E)$",
+            "steps": [
+              "Given: $\\Pr(\\text{blue}) = \\frac{1}{4}$, $\\Pr(\\text{elephant}) = \\frac{7}{10}$. Goal: $\\Pr(\\text{blue elephant})$.",
+              "Multiply along the path Blue $\\to$ Elephant.",
+              "$\\Pr(\\text{blue elephant}) = \\frac{1}{4} \\times \\frac{7}{10} = \\frac{7}{40}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{blue elephant}) = \\frac{7}{40}$",
+            "solutionFigures": [],
+            "tip": "Multiply, do not add, the probabilities along one path."
+          }
+        },
+        {
+          "id": "ch11_ex3_q2eii",
+          "number": "2(e)(ii)",
+          "category": "Practice",
+          "questionText": "A tree diagram has two stages. Stage 1 (colour): Blue $\\frac{1}{4}$, Red $\\frac{3}{20}$, Green $\\frac{1}{10}$, Indigo $\\frac{1}{2}$. Stage 2 (animal, the same after every colour): Fish $\\frac{1}{10}$, Donkey $\\frac{1}{5}$, Elephant $\\frac{7}{10}$. Calculate $\\Pr(\\text{indigo elephant})$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule: $\\Pr(I \\cap E) = \\Pr(I) \\times \\Pr(E)$",
+            "steps": [
+              "Given: $\\Pr(\\text{indigo}) = \\frac{1}{2}$, $\\Pr(\\text{elephant}) = \\frac{7}{10}$. Goal: $\\Pr(\\text{indigo elephant})$.",
+              "Multiply along the path Indigo $\\to$ Elephant.",
+              "$\\Pr(\\text{indigo elephant}) = \\frac{1}{2} \\times \\frac{7}{10} = \\frac{7}{20}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{indigo elephant}) = \\frac{7}{20}$",
+            "solutionFigures": [],
+            "tip": "Multiply numerators together and denominators together: $\\frac{1 \\times 7}{2 \\times 10}$."
+          }
+        },
+        {
+          "id": "ch11_ex3_q2eiii",
+          "number": "2(e)(iii)",
+          "category": "Practice",
+          "questionText": "A tree diagram has two stages. Stage 1 (colour): Blue $\\frac{1}{4}$, Red $\\frac{3}{20}$, Green $\\frac{1}{10}$, Indigo $\\frac{1}{2}$. Stage 2 (animal, the same after every colour): Fish $\\frac{1}{10}$, Donkey $\\frac{1}{5}$, Elephant $\\frac{7}{10}$. Calculate $\\Pr(\\text{donkey})$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule along each path, then addition rule for the mutually exclusive paths",
+            "steps": [
+              "Given: a donkey can come after any of the 4 colours. Goal: $\\Pr(\\text{donkey})$ of any colour.",
+              "$\\Pr(\\text{blue donkey}) = \\frac{1}{4} \\times \\frac{1}{5} = \\frac{1}{20}$",
+              "$\\Pr(\\text{red donkey}) = \\frac{3}{20} \\times \\frac{1}{5} = \\frac{3}{100}$",
+              "$\\Pr(\\text{green donkey}) = \\frac{1}{10} \\times \\frac{1}{5} = \\frac{1}{50}$",
+              "$\\Pr(\\text{indigo donkey}) = \\frac{1}{2} \\times \\frac{1}{5} = \\frac{1}{10}$",
+              "Add the four paths: $\\frac{5}{100} + \\frac{3}{100} + \\frac{2}{100} + \\frac{10}{100} = \\frac{20}{100}$",
+              "Simplify: $\\frac{20}{100} = \\frac{1}{5}$",
+              "Check: this equals the donkey branch probability $\\frac{1}{5}$, because the colour probabilities add to $1$."
+            ],
+            "finalAnswer": "$\\Pr(\\text{donkey}) = \\frac{1}{5}$",
+            "solutionFigures": [],
+            "tip": "When an event can happen along several paths, find each path's probability and add them."
+          }
+        },
+        {
+          "id": "ch11_ex3_q3a",
+          "number": "3(a)",
+          "category": "Consolidate",
+          "questionText": "A spinner is divided into 3 equal-sized wedges labelled 1, 2 and 3. The spinner is spun three times, and it is noted whether it lands on a prime number, $P = \\{2, 3\\}$ ('prime'), or not a prime number, $P' = \\{1\\}$ ('not prime'). Construct a labelled tree diagram for 3 spins of the spinner, showing probabilities on the branches and all possible outcomes.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Branch probabilities: $\\Pr(P) = \\frac{n(P)}{n(\\xi)}$, $\\Pr(P') = 1 - \\Pr(P)$; multiply along each path.",
+            "steps": [
+              "Given: 3 equal wedges, primes $\\{2, 3\\}$, non-prime $\\{1\\}$. Goal: a tree for 3 spins.",
+              "$\\Pr(P) = \\frac{2}{3}$, and by the complement rule $\\Pr(P') = 1 - \\frac{2}{3} = \\frac{1}{3}$",
+              "Each spin is independent, so every stage has branches $P$ ($\\frac{2}{3}$) and $P'$ ($\\frac{1}{3}$).",
+              "Spin 1 has 2 branches, spin 2 has 2 from each, spin 3 has 2 from each: $2 \\times 2 \\times 2 = 8$ outcomes.",
+              "$\\Pr(PPP) = \\frac{2}{3} \\times \\frac{2}{3} \\times \\frac{2}{3} = \\frac{8}{27}$",
+              "$\\Pr(PPP') = \\Pr(PP'P) = \\Pr(P'PP) = \\frac{2}{3} \\times \\frac{2}{3} \\times \\frac{1}{3} = \\frac{4}{27}$ each",
+              "$\\Pr(PP'P') = \\Pr(P'PP') = \\Pr(P'P'P) = \\frac{2}{3} \\times \\frac{1}{3} \\times \\frac{1}{3} = \\frac{2}{27}$ each",
+              "$\\Pr(P'P'P') = \\frac{1}{3} \\times \\frac{1}{3} \\times \\frac{1}{3} = \\frac{1}{27}$",
+              "Check: $\\frac{8 + 3(4) + 3(2) + 1}{27} = \\frac{27}{27} = 1$"
+            ],
+            "finalAnswer": "Tree: 3 columns of branches, each with $P = \\frac{2}{3}$ and $P' = \\frac{1}{3}$; 8 outcomes: PPP $\\frac{8}{27}$; PPP', PP'P, P'PP $\\frac{4}{27}$ each; PP'P', P'PP', P'P'P $\\frac{2}{27}$ each; P'P'P' $\\frac{1}{27}$.",
+            "solutionFigures": [],
+            "tip": "Always check that the probabilities of all final outcomes add to 1."
+          }
+        },
+        {
+          "id": "ch11_ex3_q3bi",
+          "number": "3(b)(i)",
+          "category": "Consolidate",
+          "questionText": "A spinner is divided into 3 equal-sized wedges labelled 1, 2 and 3. The spinner is spun three times, and it is noted whether it lands on a prime number, $P = \\{2, 3\\}$, or not a prime number, $P' = \\{1\\}$. Calculate $\\Pr(3 \\text{ prime numbers})$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for independent events: $\\Pr(PPP) = \\Pr(P) \\times \\Pr(P) \\times \\Pr(P)$",
+            "steps": [
+              "Given: $\\Pr(P) = \\frac{2}{3}$ on each spin. Goal: $\\Pr(PPP)$.",
+              "$\\Pr(PPP) = \\frac{2}{3} \\times \\frac{2}{3} \\times \\frac{2}{3}$",
+              "$= \\frac{8}{27}$"
+            ],
+            "finalAnswer": "$\\Pr(3 \\text{ primes}) = \\frac{8}{27}$",
+            "solutionFigures": [],
+            "tip": "2 is a prime number; only 1 is not prime on this spinner."
+          }
+        },
+        {
+          "id": "ch11_ex3_q3bii",
+          "number": "3(b)(ii)",
+          "category": "Consolidate",
+          "questionText": "A spinner is divided into 3 equal-sized wedges labelled 1, 2 and 3. The spinner is spun three times, and it is noted whether it lands on a prime number, $P = \\{2, 3\\}$, or not a prime number, $P' = \\{1\\}$. Calculate $\\Pr(PPP' \\text{ in this order})$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for independent events: $\\Pr(PPP') = \\Pr(P) \\times \\Pr(P) \\times \\Pr(P')$",
+            "steps": [
+              "Given: $\\Pr(P) = \\frac{2}{3}$, $\\Pr(P') = \\frac{1}{3}$. Goal: prime, prime, then not prime.",
+              "$\\Pr(PPP') = \\frac{2}{3} \\times \\frac{2}{3} \\times \\frac{1}{3}$",
+              "$= \\frac{4}{27}$"
+            ],
+            "finalAnswer": "$\\Pr(PPP') = \\frac{4}{27}$",
+            "solutionFigures": [],
+            "tip": "'In this order' means only one path of the tree is used."
+          }
+        },
+        {
+          "id": "ch11_ex3_q3biii",
+          "number": "3(b)(iii)",
+          "category": "Consolidate",
+          "questionText": "A spinner is divided into 3 equal-sized wedges labelled 1, 2 and 3. The spinner is spun three times, and it is noted whether it lands on a prime number, $P = \\{2, 3\\}$, or not a prime number, $P' = \\{1\\}$. Calculate $\\Pr(PPP' \\text{ in any order})$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule along each path, then addition rule over the mutually exclusive paths",
+            "steps": [
+              "Given: $\\Pr(P) = \\frac{2}{3}$, $\\Pr(P') = \\frac{1}{3}$. Goal: two primes and one non-prime in any order.",
+              "The paths are $PPP'$, $PP'P$ and $P'PP$ (3 paths).",
+              "Each path has probability $\\frac{2}{3} \\times \\frac{2}{3} \\times \\frac{1}{3} = \\frac{4}{27}$",
+              "Add: $\\frac{4}{27} + \\frac{4}{27} + \\frac{4}{27} = \\frac{12}{27}$",
+              "Simplify: $\\frac{12}{27} = \\frac{4}{9}$"
+            ],
+            "finalAnswer": "$\\Pr(PPP' \\text{ in any order}) = \\frac{12}{27} = \\frac{4}{9}$",
+            "solutionFigures": [],
+            "tip": "'In any order' means list every arrangement; here the non-prime can be in position 1, 2 or 3."
+          }
+        },
+        {
+          "id": "ch11_ex3_q4ai",
+          "number": "4(a)(i)",
+          "category": "Master",
+          "questionText": "This question relates to rolling a fair six-sided die. Calculate the probability of rolling a number less than 4 from one roll of the die.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\frac{n(E)}{n(\\xi)}$",
+            "steps": [
+              "Given: $\\xi = \\{1, 2, 3, 4, 5, 6\\}$. Goal: $\\Pr(\\text{number} < 4)$.",
+              "Favourable outcomes: $\\{1, 2, 3\\}$, so $n(E) = 3$.",
+              "$\\Pr(< 4) = \\frac{3}{6} = \\frac{1}{2}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{number} < 4) = \\frac{1}{2}$",
+            "solutionFigures": [],
+            "tip": "'Less than 4' does not include 4 itself."
+          }
+        },
+        {
+          "id": "ch11_ex3_q4aii",
+          "number": "4(a)(ii)",
+          "category": "Master",
+          "questionText": "This question relates to rolling a fair six-sided die. Calculate the probability of rolling a 4 from one roll of the die.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\frac{n(E)}{n(\\xi)}$",
+            "steps": [
+              "Given: 6 equally likely outcomes. Goal: $\\Pr(4)$.",
+              "Only one outcome is a 4, so $n(E) = 1$.",
+              "$\\Pr(4) = \\frac{1}{6}$"
+            ],
+            "finalAnswer": "$\\Pr(4) = \\frac{1}{6}$",
+            "solutionFigures": [],
+            "tip": "Each face of a fair die has probability $\\frac{1}{6}$."
+          }
+        },
+        {
+          "id": "ch11_ex3_q4aiii",
+          "number": "4(a)(iii)",
+          "category": "Master",
+          "questionText": "This question relates to rolling a fair six-sided die. Calculate the probability of rolling a number other than a 6 from one roll of the die.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complement rule: $\\Pr(6') = 1 - \\Pr(6)$",
+            "steps": [
+              "Given: $\\Pr(6) = \\frac{1}{6}$. Goal: $\\Pr(\\text{not } 6)$.",
+              "$\\Pr(6') = 1 - \\frac{1}{6} = \\frac{5}{6}$",
+              "Check by counting: $\\{1, 2, 3, 4, 5\\}$ gives $\\frac{5}{6}$."
+            ],
+            "finalAnswer": "$\\Pr(\\text{not } 6) = \\frac{5}{6}$",
+            "solutionFigures": [],
+            "tip": "The complement rule is often the fastest way to find 'not' probabilities."
+          }
+        },
+        {
+          "id": "ch11_ex3_q4b",
+          "number": "4(b)",
+          "category": "Master",
+          "questionText": "A fair die is rolled twice. On the 1st roll the number is noted relative to 4 (less than 4, equal to 4, or greater than 4); on the 2nd roll it is noted whether it is a 6 or not a 6 ($6'$). The condensed tree diagram has 1st-roll branches $<4$, $4$, $>4$, each followed by 2nd-roll branches $6$ and $6'$. Complete a labelled tree diagram, showing probabilities on the branches and all outcomes.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Branch probabilities $\\Pr(E) = \\frac{n(E)}{6}$; multiplication rule for independent rolls along each path",
+            "steps": [
+              "Given: a fair die rolled twice. Goal: label all branches and outcome probabilities.",
+              "1st roll: $\\Pr(<4) = \\frac{3}{6} = \\frac{1}{2}$, $\\Pr(4) = \\frac{1}{6}$, $\\Pr(>4) = \\frac{2}{6} = \\frac{1}{3}$ (check: $\\frac{3+1+2}{6} = 1$).",
+              "2nd roll (after every branch): $\\Pr(6) = \\frac{1}{6}$, $\\Pr(6') = \\frac{5}{6}$.",
+              "$\\Pr(<4, 6) = \\frac{1}{2} \\times \\frac{1}{6} = \\frac{1}{12}$",
+              "$\\Pr(<4, 6') = \\frac{1}{2} \\times \\frac{5}{6} = \\frac{5}{12}$",
+              "$\\Pr(4, 6) = \\frac{1}{6} \\times \\frac{1}{6} = \\frac{1}{36}$",
+              "$\\Pr(4, 6') = \\frac{1}{6} \\times \\frac{5}{6} = \\frac{5}{36}$",
+              "$\\Pr(>4, 6) = \\frac{1}{3} \\times \\frac{1}{6} = \\frac{1}{18}$",
+              "$\\Pr(>4, 6') = \\frac{1}{3} \\times \\frac{5}{6} = \\frac{5}{18}$",
+              "Check with denominator 36: $\\frac{3 + 15 + 1 + 5 + 2 + 10}{36} = \\frac{36}{36} = 1$"
+            ],
+            "finalAnswer": "Branches: $<4$ ($\\frac{1}{2}$), $4$ ($\\frac{1}{6}$), $>4$ ($\\frac{1}{3}$), each followed by $6$ ($\\frac{1}{6}$) and $6'$ ($\\frac{5}{6}$). Outcomes: $(<4,6)\\ \\frac{1}{12}$, $(<4,6')\\ \\frac{5}{12}$, $(4,6)\\ \\frac{1}{36}$, $(4,6')\\ \\frac{5}{36}$, $(>4,6)\\ \\frac{1}{18}$, $(>4,6')\\ \\frac{5}{18}$.",
+            "solutionFigures": [],
+            "tip": "'Greater than 4' is only 5 and 6, so its probability is $\\frac{2}{6}$, not $\\frac{3}{6}$."
+          }
+        },
+        {
+          "id": "ch11_ex3_q4ci",
+          "number": "4(c)(i)",
+          "category": "Master",
+          "questionText": "A fair die is rolled twice. Using the tree diagram with 1st-roll branches $<4$ ($\\frac{1}{2}$), $4$ ($\\frac{1}{6}$), $>4$ ($\\frac{1}{3}$) and 2nd-roll branches $6$ ($\\frac{1}{6}$), $6'$ ($\\frac{5}{6}$), determine $\\Pr(\\text{a 4 then a 6})$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for independent events: $\\Pr(4 \\text{ then } 6) = \\Pr(4) \\times \\Pr(6)$",
+            "steps": [
+              "Given: $\\Pr(4) = \\frac{1}{6}$, $\\Pr(6) = \\frac{1}{6}$. Goal: a 4 then a 6.",
+              "$\\Pr(4, 6) = \\frac{1}{6} \\times \\frac{1}{6} = \\frac{1}{36}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{4 then 6}) = \\frac{1}{36}$",
+            "solutionFigures": [],
+            "tip": "The rolls are independent, so the second roll's probabilities do not change."
+          }
+        },
+        {
+          "id": "ch11_ex3_q4cii",
+          "number": "4(c)(ii)",
+          "category": "Master",
+          "questionText": "A fair die is rolled twice. Using the tree diagram with 1st-roll branches $<4$ ($\\frac{1}{2}$), $4$ ($\\frac{1}{6}$), $>4$ ($\\frac{1}{3}$) and 2nd-roll branches $6$ ($\\frac{1}{6}$), $6'$ ($\\frac{5}{6}$), determine $\\Pr(\\text{a number less than 4 then a 6})$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for independent events: $\\Pr(<4 \\text{ then } 6) = \\Pr(<4) \\times \\Pr(6)$",
+            "steps": [
+              "Given: $\\Pr(<4) = \\frac{1}{2}$, $\\Pr(6) = \\frac{1}{6}$. Goal: less than 4, then a 6.",
+              "$\\Pr(<4, 6) = \\frac{1}{2} \\times \\frac{1}{6} = \\frac{1}{12}$"
+            ],
+            "finalAnswer": "$\\Pr(<4 \\text{ then } 6) = \\frac{1}{12}$",
+            "solutionFigures": [],
+            "tip": "Follow exactly one path on the tree and multiply its two branches."
+          }
+        },
+        {
+          "id": "ch11_ex3_q4ciii",
+          "number": "4(c)(iii)",
+          "category": "Master",
+          "questionText": "A fair die is rolled twice. Using the tree diagram with 1st-roll branches $<4$ ($\\frac{1}{2}$), $4$ ($\\frac{1}{6}$), $>4$ ($\\frac{1}{3}$) and 2nd-roll branches $6$ ($\\frac{1}{6}$), $6'$ ($\\frac{5}{6}$), determine $\\Pr(\\text{a 4 then } 6')$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for independent events: $\\Pr(4 \\text{ then } 6') = \\Pr(4) \\times \\Pr(6')$",
+            "steps": [
+              "Given: $\\Pr(4) = \\frac{1}{6}$, $\\Pr(6') = 1 - \\frac{1}{6} = \\frac{5}{6}$. Goal: a 4 then not a 6.",
+              "$\\Pr(4, 6') = \\frac{1}{6} \\times \\frac{5}{6} = \\frac{5}{36}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{4 then } 6') = \\frac{5}{36}$",
+            "solutionFigures": [],
+            "tip": "$6'$ means 'not a 6', found with the complement rule."
+          }
+        },
+        {
+          "id": "ch11_ex3_q4civ",
+          "number": "4(c)(iv)",
+          "category": "Master",
+          "questionText": "A fair die is rolled twice. Determine $\\Pr(\\text{a number} > 4 \\text{ then a number} < 6)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for independent events: $\\Pr(>4 \\text{ then } <6) = \\Pr(>4) \\times \\Pr(<6)$",
+            "steps": [
+              "Given: a fair die rolled twice. Goal: more than 4 on roll 1, less than 6 on roll 2.",
+              "Roll 1: $>4$ means $\\{5, 6\\}$, so $\\Pr(>4) = \\frac{2}{6} = \\frac{1}{3}$.",
+              "Roll 2: $<6$ means $\\{1, 2, 3, 4, 5\\}$, which is the same as $6'$, so $\\Pr(<6) = \\frac{5}{6}$.",
+              "$\\Pr(>4, <6) = \\frac{1}{3} \\times \\frac{5}{6} = \\frac{5}{18}$"
+            ],
+            "finalAnswer": "$\\Pr(>4 \\text{ then } <6) = \\frac{5}{18}$",
+            "solutionFigures": [],
+            "tip": "Notice that 'a number less than 6' is exactly the $6'$ branch of the tree."
+          }
+        },
+        {
+          "id": "ch11_ex3_q5a",
+          "number": "5(a)",
+          "category": "Consolidate",
+          "questionText": "A biased coin is tossed three times. The chance of tossing a Head in one toss is 0.7. Copy and complete the labelling of the tree diagram (1st, 2nd and 3rd toss, each with branches H and T, with columns for Outcome and Pr(outcome)).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complement rule $\\Pr(T) = 1 - \\Pr(H)$; multiplication rule for independent tosses along each path",
+            "steps": [
+              "Given: $\\Pr(H) = 0.7$. Goal: label all branches and the 8 outcome probabilities.",
+              "$\\Pr(T) = 1 - 0.7 = 0.3$; every toss has H $0.7$ and T $0.3$.",
+              "$\\Pr(HHH) = 0.7 \\times 0.7 \\times 0.7 = 0.343$",
+              "$\\Pr(HHT) = 0.7 \\times 0.7 \\times 0.3 = 0.147$",
+              "$\\Pr(HTH) = 0.7 \\times 0.3 \\times 0.7 = 0.147$",
+              "$\\Pr(HTT) = 0.7 \\times 0.3 \\times 0.3 = 0.063$",
+              "$\\Pr(THH) = 0.3 \\times 0.7 \\times 0.7 = 0.147$",
+              "$\\Pr(THT) = 0.3 \\times 0.7 \\times 0.3 = 0.063$",
+              "$\\Pr(TTH) = 0.3 \\times 0.3 \\times 0.7 = 0.063$",
+              "$\\Pr(TTT) = 0.3 \\times 0.3 \\times 0.3 = 0.027$",
+              "Check: $0.343 + 3(0.147) + 3(0.063) + 0.027 = 0.343 + 0.441 + 0.189 + 0.027 = 1$"
+            ],
+            "finalAnswer": "All H branches are 0.7 and all T branches are 0.3. Outcomes: HHH 0.343; HHT, HTH, THH 0.147 each; HTT, THT, TTH 0.063 each; TTT 0.027.",
+            "solutionFigures": [],
+            "tip": "With a biased coin, H and T branches are not 0.5; use the complement rule to get the Tail probability."
+          }
+        },
+        {
+          "id": "ch11_ex3_q5b",
+          "number": "5(b)",
+          "category": "Consolidate",
+          "questionText": "A biased coin, with a chance of 0.7 of tossing a Head in one toss, is tossed three times. Calculate the probability of tossing three Heads.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for independent events: $\\Pr(HHH) = \\Pr(H)^3$",
+            "steps": [
+              "Given: $\\Pr(H) = 0.7$. Goal: $\\Pr(HHH)$.",
+              "$\\Pr(HHH) = 0.7 \\times 0.7 \\times 0.7$",
+              "$= 0.49 \\times 0.7 = 0.343$"
+            ],
+            "finalAnswer": "$\\Pr(HHH) = 0.343$",
+            "solutionFigures": [],
+            "tip": "$0.7^3$ is not $2.1$; multiply, do not multiply by 3."
+          }
+        },
+        {
+          "id": "ch11_ex3_q5c",
+          "number": "5(c)",
+          "category": "Consolidate",
+          "questionText": "A biased coin, with a chance of 0.7 of tossing a Head in one toss, is tossed three times. Determine the probability of getting at least one Tail.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complement rule: $\\Pr(\\text{at least one } T) = 1 - \\Pr(\\text{no } T) = 1 - \\Pr(HHH)$",
+            "steps": [
+              "Given: $\\Pr(HHH) = 0.343$. Goal: at least one Tail.",
+              "The only outcome with no Tail is HHH.",
+              "$\\Pr(\\text{at least one } T) = 1 - 0.343 = 0.657$",
+              "Check by adding the other 7 outcomes: $3(0.147) + 3(0.063) + 0.027 = 0.441 + 0.189 + 0.027 = 0.657$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{at least one Tail}) = 0.657$",
+            "solutionFigures": [],
+            "tip": "For 'at least one', subtract the 'none' case from 1 instead of adding many paths."
+          }
+        },
+        {
+          "id": "ch11_ex3_q5d",
+          "number": "5(d)",
+          "category": "Consolidate",
+          "questionText": "A biased coin, with a chance of 0.7 of tossing a Head in one toss, is tossed three times. Calculate the probability of getting exactly two Tails.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule along each path, then addition rule over the mutually exclusive paths",
+            "steps": [
+              "Given: $\\Pr(H) = 0.7$, $\\Pr(T) = 0.3$. Goal: exactly two Tails.",
+              "Paths with exactly two Tails: HTT, THT, TTH.",
+              "Each path: $0.7 \\times 0.3 \\times 0.3 = 0.063$",
+              "$\\Pr(\\text{exactly 2 Tails}) = 3 \\times 0.063 = 0.189$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{exactly two Tails}) = 0.189$",
+            "solutionFigures": [],
+            "tip": "'Exactly two' excludes TTT; do not include it."
+          }
+        },
+        {
+          "id": "ch11_ex3_q6a",
+          "number": "6(a)",
+          "category": "Practice",
+          "questionText": "A coin is biased so that the chance of it falling as a Tail when tossed is 0.2. Construct a tree diagram to represent the coin being tossed 3 times.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complement rule $\\Pr(T') = 1 - \\Pr(T)$; multiplication rule along each path",
+            "steps": [
+              "Given: $\\Pr(T) = 0.2$. Goal: a 3-toss tree. Let $T'$ be a Head.",
+              "$\\Pr(T') = 1 - 0.2 = 0.8$; every toss has $T'$ $0.8$ and $T$ $0.2$.",
+              "$\\Pr(T'T'T') = 0.8^3 = 0.512$",
+              "$\\Pr(T'T'T) = \\Pr(T'TT') = \\Pr(TT'T') = 0.8 \\times 0.8 \\times 0.2 = 0.128$ each",
+              "$\\Pr(T'TT) = \\Pr(TT'T) = \\Pr(TTT') = 0.8 \\times 0.2 \\times 0.2 = 0.032$ each",
+              "$\\Pr(TTT) = 0.2^3 = 0.008$",
+              "Check: $0.512 + 3(0.128) + 3(0.032) + 0.008 = 0.512 + 0.384 + 0.096 + 0.008 = 1$"
+            ],
+            "finalAnswer": "Tree: 3 columns of branches, each with $T'$ (Head) $0.8$ and $T$ $0.2$. Outcomes: $T'T'T'$ 0.512; $T'T'T$, $T'TT'$, $TT'T'$ 0.128 each; $T'TT$, $TT'T$, $TTT'$ 0.032 each; $TTT$ 0.008.",
+            "solutionFigures": [],
+            "tip": "Read carefully which outcome has the given probability; here 0.2 is for a Tail, not a Head."
+          }
+        },
+        {
+          "id": "ch11_ex3_q6b",
+          "number": "6(b)",
+          "category": "Practice",
+          "questionText": "A coin is biased so that the chance of it falling as a Tail when tossed is 0.2. The coin is tossed 3 times. Determine the probability of getting the same outcome on each toss.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for each path, then addition rule: $\\Pr(\\text{same}) = \\Pr(HHH) + \\Pr(TTT)$",
+            "steps": [
+              "Given: $\\Pr(T) = 0.2$, $\\Pr(H) = 0.8$. Goal: all three tosses the same.",
+              "'Same outcome' means HHH or TTT (mutually exclusive).",
+              "$\\Pr(HHH) = 0.8^3 = 0.512$",
+              "$\\Pr(TTT) = 0.2^3 = 0.008$",
+              "$\\Pr(\\text{same}) = 0.512 + 0.008 = 0.520$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{same outcome on each toss}) = 0.52$",
+            "solutionFigures": [],
+            "tip": "Remember both ways of getting 'all the same': all Heads and all Tails."
+          }
+        },
+        {
+          "id": "ch11_ex3_q7a",
+          "number": "7(a)",
+          "category": "Consolidate",
+          "questionText": "A die is tossed twice and each time it is recorded whether or not the number is a multiple of 3. Let $M$ = the event of getting a multiple of 3 on any one toss and $M'$ = the event of not getting a multiple of 3. Construct a tree diagram to represent the 2 tosses.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(M) = \\frac{n(M)}{6}$, $\\Pr(M') = 1 - \\Pr(M)$; multiplication rule along each path",
+            "steps": [
+              "Given: multiples of 3 on a die are $\\{3, 6\\}$. Goal: a 2-toss tree.",
+              "$\\Pr(M) = \\frac{2}{6} = \\frac{1}{3}$, $\\Pr(M') = 1 - \\frac{1}{3} = \\frac{2}{3}$",
+              "$\\Pr(MM) = \\frac{1}{3} \\times \\frac{1}{3} = \\frac{1}{9}$",
+              "$\\Pr(MM') = \\frac{1}{3} \\times \\frac{2}{3} = \\frac{2}{9}$",
+              "$\\Pr(M'M) = \\frac{2}{3} \\times \\frac{1}{3} = \\frac{2}{9}$",
+              "$\\Pr(M'M') = \\frac{2}{3} \\times \\frac{2}{3} = \\frac{4}{9}$",
+              "Check: $\\frac{1 + 2 + 2 + 4}{9} = 1$"
+            ],
+            "finalAnswer": "Tree: each toss branches into $M$ ($\\frac{1}{3}$) and $M'$ ($\\frac{2}{3}$). Outcomes: $MM\\ \\frac{1}{9}$, $MM'\\ \\frac{2}{9}$, $M'M\\ \\frac{2}{9}$, $M'M'\\ \\frac{4}{9}$.",
+            "solutionFigures": [],
+            "tip": "Both 3 and 6 are multiples of 3, so $\\Pr(M) = \\frac{2}{6}$."
+          }
+        },
+        {
+          "id": "ch11_ex3_q7b",
+          "number": "7(b)",
+          "category": "Consolidate",
+          "questionText": "A die is tossed twice and each time it is recorded whether or not the number is a multiple of 3 ($M$ = multiple of 3, $M'$ = not a multiple of 3). Calculate the probability of getting two multiples of 3.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for independent events: $\\Pr(MM) = \\Pr(M) \\times \\Pr(M)$",
+            "steps": [
+              "Given: $\\Pr(M) = \\frac{2}{6} = \\frac{1}{3}$. Goal: $\\Pr(MM)$.",
+              "$\\Pr(MM) = \\frac{1}{3} \\times \\frac{1}{3} = \\frac{1}{9}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{two multiples of 3}) = \\frac{1}{9}$",
+            "solutionFigures": [],
+            "tip": "Simplify $\\frac{2}{6}$ to $\\frac{1}{3}$ first to keep the multiplication easy."
+          }
+        },
+        {
+          "id": "ch11_ex3_q8a",
+          "number": "8(a)",
+          "category": "Master",
+          "questionText": "A biased spinner is divided into 4 equal sectors labelled 1, 2, 3 and 1, so $\\Pr(1) = \\frac{1}{2}$, $\\Pr(2) = \\frac{1}{4}$ and $\\Pr(3) = \\frac{1}{4}$. The spinner is spun three times. Construct a completely labelled tree diagram for 3 spins, showing probabilities on the branches and all possible outcomes and associated probabilities.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for independent spins along each path",
+            "steps": [
+              "Given: $\\Pr(1) = \\frac{2}{4} = \\frac{1}{2}$, $\\Pr(2) = \\frac{1}{4}$, $\\Pr(3) = \\frac{1}{4}$ (check: sum $= 1$). Goal: a 3-spin tree.",
+              "Each spin has 3 branches: 1 ($\\frac{1}{2}$), 2 ($\\frac{1}{4}$), 3 ($\\frac{1}{4}$). There are $3 \\times 3 \\times 3 = 27$ outcomes.",
+              "Outcome probability $= \\left(\\frac{1}{2}\\right)^{a}\\left(\\frac{1}{4}\\right)^{3-a}$, where $a$ is the number of 1s in the outcome.",
+              "Three 1s (111): $\\frac{1}{2} \\times \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{8}$ (1 outcome)",
+              "Two 1s (112, 113, 121, 131, 211, 311): $\\frac{1}{2} \\times \\frac{1}{2} \\times \\frac{1}{4} = \\frac{1}{16}$ each (6 outcomes)",
+              "One 1 (122, 123, 132, 133, 212, 213, 312, 313, 221, 231, 321, 331): $\\frac{1}{2} \\times \\frac{1}{4} \\times \\frac{1}{4} = \\frac{1}{32}$ each (12 outcomes)",
+              "No 1s (222, 223, 232, 233, 322, 323, 332, 333): $\\frac{1}{4} \\times \\frac{1}{4} \\times \\frac{1}{4} = \\frac{1}{64}$ each (8 outcomes)",
+              "Check: $\\frac{1}{8} + \\frac{6}{16} + \\frac{12}{32} + \\frac{8}{64} = \\frac{8 + 24 + 24 + 8}{64} = 1$"
+            ],
+            "finalAnswer": "Each spin branches into 1 ($\\frac{1}{2}$), 2 ($\\frac{1}{4}$), 3 ($\\frac{1}{4}$), giving 27 outcomes: 111 has $\\frac{1}{8}$; each outcome with two 1s has $\\frac{1}{16}$; each with one 1 has $\\frac{1}{32}$; each with no 1s has $\\frac{1}{64}$.",
+            "solutionFigures": [],
+            "tip": "The number 1 appears on two sectors, so it is twice as likely as 2 or 3."
+          }
+        },
+        {
+          "id": "ch11_ex3_q8b",
+          "number": "8(b)",
+          "category": "Master",
+          "questionText": "A biased spinner has 4 equal sectors labelled 1, 2, 3 and 1, so $\\Pr(1) = \\frac{1}{2}$, $\\Pr(2) = \\frac{1}{4}$, $\\Pr(3) = \\frac{1}{4}$. The spinner is spun three times. Calculate the probability of getting exactly two 1s.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule along each path, then addition rule over the mutually exclusive paths",
+            "steps": [
+              "Given: $\\Pr(1) = \\frac{1}{2}$, $\\Pr(\\text{not } 1) = 1 - \\frac{1}{2} = \\frac{1}{2}$. Goal: exactly two 1s.",
+              "The non-1 spin can be in position 1, 2 or 3: patterns $11N$, $1N1$, $N11$ (3 patterns).",
+              "Each pattern: $\\frac{1}{2} \\times \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{8}$",
+              "$\\Pr(\\text{exactly two 1s}) = 3 \\times \\frac{1}{8} = \\frac{3}{8}$",
+              "Check with the tree: 6 outcomes of $\\frac{1}{16}$ each $= \\frac{6}{16} = \\frac{3}{8}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{exactly two 1s}) = \\frac{3}{8}$",
+            "solutionFigures": [],
+            "tip": "Grouping 2 and 3 together as 'not 1' makes the tree much smaller."
+          }
+        },
+        {
+          "id": "ch11_ex3_q8c",
+          "number": "8(c)",
+          "category": "Master",
+          "questionText": "A biased spinner has 4 equal sectors labelled 1, 2, 3 and 1, so $\\Pr(1) = \\frac{1}{2}$, $\\Pr(2) = \\frac{1}{4}$, $\\Pr(3) = \\frac{1}{4}$. The spinner is spun three times. Calculate the probability of getting at most two 1s.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complement rule: $\\Pr(\\text{at most two 1s}) = 1 - \\Pr(\\text{three 1s})$",
+            "steps": [
+              "Given: $\\Pr(1) = \\frac{1}{2}$. Goal: 0, 1 or 2 ones.",
+              "The only outcome NOT included is 111.",
+              "$\\Pr(111) = \\frac{1}{2} \\times \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{8}$",
+              "$\\Pr(\\text{at most two 1s}) = 1 - \\frac{1}{8} = \\frac{7}{8}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{at most two 1s}) = \\frac{7}{8}$",
+            "solutionFigures": [],
+            "tip": "'At most two' means 0, 1 or 2; its complement is 'three'."
+          }
+        },
+        {
+          "id": "ch11_ex3_q9a",
+          "number": "9(a)",
+          "category": "Practice",
+          "questionText": "Each morning when Ahmed gets dressed for work he chooses from: three suits (grey, blue, white), four shirts (white, blue, pink, grey) and two ties (grey, blue). Construct a fully labelled tree diagram showing all possible clothing choices.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication principle: number of outcomes $= 3 \\times 4 \\times 2$",
+            "steps": [
+              "Given: 3 suits, 4 shirts, 2 ties, chosen at random. Goal: the tree of all choices.",
+              "Stage 1 (suit): G, B, W, each $\\frac{1}{3}$.",
+              "Stage 2 (shirt), after each suit: W, B, P, G, each $\\frac{1}{4}$.",
+              "Stage 3 (tie), after each shirt: G, B, each $\\frac{1}{2}$.",
+              "Number of outcomes $= 3 \\times 4 \\times 2 = 24$, each with probability $\\frac{1}{3} \\times \\frac{1}{4} \\times \\frac{1}{2} = \\frac{1}{24}$.",
+              "Outcomes (suit, shirt, tie): GWG, GWB, GBG, GBB, GPG, GPB, GGG, GGB, BWG, BWB, BBG, BBB, BPG, BPB, BGG, BGB, WWG, WWB, WBG, WBB, WPG, WPB, WGG, WGB."
+            ],
+            "finalAnswer": "A 3-stage tree: suit (G, B, W), then shirt (W, B, P, G), then tie (G, B), giving 24 equally likely outcomes, each with probability $\\frac{1}{24}$.",
+            "solutionFigures": [],
+            "tip": "Be careful: the same letter (e.g. G) means a different item at each stage."
+          }
+        },
+        {
+          "id": "ch11_ex3_q9b",
+          "number": "9(b)",
+          "category": "Practice",
+          "questionText": "Each morning Ahmed chooses at random from three suits (grey, blue, white), four shirts (white, blue, pink, grey) and two ties (grey, blue). Calculate the probability of picking a grey suit, a pink shirt and a blue tie.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for independent events: $\\Pr(G \\cap P \\cap B) = \\Pr(G) \\times \\Pr(P) \\times \\Pr(B)$",
+            "steps": [
+              "Given: $\\Pr(\\text{grey suit}) = \\frac{1}{3}$, $\\Pr(\\text{pink shirt}) = \\frac{1}{4}$, $\\Pr(\\text{blue tie}) = \\frac{1}{2}$. Goal: all three together.",
+              "$\\Pr = \\frac{1}{3} \\times \\frac{1}{4} \\times \\frac{1}{2} = \\frac{1}{24}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{grey suit, pink shirt, blue tie}) = \\frac{1}{24}$",
+            "solutionFigures": [],
+            "tip": "This is one of the 24 equally likely outcomes, so it must be $\\frac{1}{24}$."
+          }
+        },
+        {
+          "id": "ch11_ex3_q9c",
+          "number": "9(c)",
+          "category": "Practice",
+          "questionText": "Each morning Ahmed chooses at random from three suits (grey, blue, white), four shirts (white, blue, pink, grey) and two ties (grey, blue). Calculate the probability of picking the same colour for all three options.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\frac{n(E)}{n(\\xi)}$ for equally likely outcomes",
+            "steps": [
+              "Given: 24 equally likely outcomes. Goal: suit, shirt and tie all the same colour.",
+              "A colour must be available for all three items. Ties are only grey or blue, so white is impossible.",
+              "Favourable outcomes: grey-grey-grey and blue-blue-blue, so $n(E) = 2$.",
+              "$\\Pr(\\text{same colour}) = \\frac{2}{24} = \\frac{1}{12}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{same colour for all three}) = \\frac{1}{12}$",
+            "solutionFigures": [],
+            "tip": "Check every item has that colour; there is no white tie, so all-white cannot happen."
+          }
+        },
+        {
+          "id": "ch11_ex3_q9d",
+          "number": "9(d)",
+          "category": "Practice",
+          "questionText": "Each morning Ahmed chooses from three suits, four shirts and two ties (24 possible combinations). Ahmed works five days a week for 48 weeks of the year. Determine how many times each combination would get repeated over the course of one year at work.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Expected number $= \\text{number of trials} \\times \\Pr(\\text{outcome})$",
+            "steps": [
+              "Given: 24 equally likely combinations, 5 days a week for 48 weeks. Goal: times each combination is worn.",
+              "Working days $= 5 \\times 48 = 240$",
+              "Expected times for each combination $= 240 \\times \\frac{1}{24} = 10$"
+            ],
+            "finalAnswer": "Each combination would be worn (repeated) about 10 times in a year.",
+            "solutionFigures": [],
+            "tip": "Multiply the number of trials by the probability to find an expected frequency."
+          }
+        },
+        {
+          "id": "ch11_ex3_q9e",
+          "number": "9(e)",
+          "category": "Practice",
+          "questionText": "Each morning Ahmed chooses from three suits, four shirts and two ties. Determine how many more combinations of clothing he would have if he bought another tie and another shirt.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication principle: combinations $= \\text{suits} \\times \\text{shirts} \\times \\text{ties}$",
+            "steps": [
+              "Given: now 3 suits, 5 shirts, 3 ties. Goal: the increase in combinations.",
+              "Old number: $3 \\times 4 \\times 2 = 24$",
+              "New number: $3 \\times 5 \\times 3 = 45$",
+              "Increase: $45 - 24 = 21$"
+            ],
+            "finalAnswer": "He would have 21 more combinations (45 instead of 24).",
+            "solutionFigures": [],
+            "tip": "The question asks how many more, so subtract the old total from the new total."
+          }
+        },
+        {
+          "id": "ch11_ex3_q10a",
+          "number": "10(a)",
+          "category": "Consolidate",
+          "questionText": "A restaurant offers a three-course dinner: two entrées, three main meals and two desserts. 30% choose soup and 70% choose prawn cocktail for the entrée; 20% choose vegetarian, 50% chicken and the rest beef for the main meal; 75% have sticky date pudding and the rest apple crumble for dessert. Construct a fully labelled tree diagram showing all possible choices.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complement rule for the 'rest'; multiplication rule along each path",
+            "steps": [
+              "Given: entrée Soup 0.3, Prawn 0.7; main Vegetarian 0.2, Chicken 0.5, Beef $1 - 0.2 - 0.5 = 0.3$; dessert Pudding 0.75, Apple crumble $1 - 0.75 = 0.25$. Goal: the tree.",
+              "Stage 1: Soup (0.3), Prawn (0.7). Stage 2 after each: Veg (0.2), Chicken (0.5), Beef (0.3). Stage 3 after each: Pudding (0.75), Apple (0.25).",
+              "Outcomes: $2 \\times 3 \\times 2 = 12$.",
+              "Soup: SVP $0.3 \\times 0.2 \\times 0.75 = 0.045$, SVA $0.015$, SCP $0.1125$, SCA $0.0375$, SBP $0.0675$, SBA $0.0225$",
+              "Prawn: PVP $0.7 \\times 0.2 \\times 0.75 = 0.105$, PVA $0.035$, PCP $0.2625$, PCA $0.0875$, PBP $0.1575$, PBA $0.0525$",
+              "Check: soup paths sum to $0.3$ and prawn paths sum to $0.7$, total $1$."
+            ],
+            "finalAnswer": "Tree: entrée (Soup 0.3, Prawn 0.7) $\\to$ main (Vegetarian 0.2, Chicken 0.5, Beef 0.3) $\\to$ dessert (Pudding 0.75, Apple crumble 0.25), giving 12 outcomes whose probabilities add to 1.",
+            "solutionFigures": [],
+            "tip": "Work out 'the rest' first: beef is $1 - 0.2 - 0.5 = 0.3$."
+          }
+        },
+        {
+          "id": "ch11_ex3_q10b",
+          "number": "10(b)",
+          "category": "Consolidate",
+          "questionText": "A restaurant offers a three-course dinner. 30% choose soup and 70% prawn cocktail for the entrée; 20% choose vegetarian, 50% chicken and the rest beef for the main meal; 75% have sticky date pudding and the rest apple crumble for dessert. Determine the probability that a customer will choose soup, chicken and sticky date pudding.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule: $\\Pr(S \\cap C \\cap P) = \\Pr(S) \\times \\Pr(C) \\times \\Pr(P)$",
+            "steps": [
+              "Given: $\\Pr(\\text{soup}) = 0.3$, $\\Pr(\\text{chicken}) = 0.5$, $\\Pr(\\text{pudding}) = 0.75$. Goal: all three.",
+              "$\\Pr = 0.3 \\times 0.5 \\times 0.75$",
+              "$= 0.15 \\times 0.75 = 0.1125$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{soup, chicken, pudding}) = 0.1125$",
+            "solutionFigures": [],
+            "tip": "Convert percentages to decimals before multiplying."
+          }
+        },
+        {
+          "id": "ch11_ex3_q10c",
+          "number": "10(c)",
+          "category": "Consolidate",
+          "questionText": "A restaurant offers a three-course dinner, and the probability that a customer chooses soup, chicken and sticky date pudding is 0.1125 (30% soup, 50% chicken, 75% pudding). If there are 210 people booked for the following week, determine how many you would expect to have this meal combination.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Expected number $= n \\times \\Pr(\\text{event})$",
+            "steps": [
+              "Given: $n = 210$, $\\Pr = 0.1125$. Goal: expected number of customers.",
+              "Expected number $= 210 \\times 0.1125 = 23.625$",
+              "People are whole numbers, so round to the nearest whole number: $24$."
+            ],
+            "finalAnswer": "About 24 people would be expected to choose soup, chicken and sticky date pudding.",
+            "solutionFigures": [],
+            "tip": "Round an expected count of people to a whole number, and say so."
+          }
+        },
+        {
+          "id": "ch11_ex3_q11ai",
+          "number": "11(a)(i)",
+          "category": "Master",
+          "questionText": "A bag contains 7 red and 3 white balls. A ball is taken at random, its colour is noted, and it is then placed back in the bag before a second ball is chosen at random and its colour noted. Show the possible outcomes with a fully labelled tree diagram.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "With replacement: $\\Pr(R) = \\frac{7}{10}$ on both draws; multiplication rule along each path",
+            "steps": [
+              "Given: 7 red, 3 white, ball replaced. Goal: a 2-draw tree.",
+              "Draw 1: R $0.7$, W $0.3$. Draw 2 (unchanged because of replacement): R $0.7$, W $0.3$.",
+              "$\\Pr(RR) = 0.7 \\times 0.7 = 0.49$",
+              "$\\Pr(RW) = 0.7 \\times 0.3 = 0.21$",
+              "$\\Pr(WR) = 0.3 \\times 0.7 = 0.21$",
+              "$\\Pr(WW) = 0.3 \\times 0.3 = 0.09$",
+              "Check: $0.49 + 0.21 + 0.21 + 0.09 = 1$"
+            ],
+            "finalAnswer": "Tree: both draws branch into Red 0.7 and White 0.3. Outcomes: RR 0.49, RW 0.21, WR 0.21, WW 0.09.",
+            "solutionFigures": [],
+            "tip": "With replacement, the second set of branches is identical to the first."
+          }
+        },
+        {
+          "id": "ch11_ex3_q11aii",
+          "number": "11(a)(ii)",
+          "category": "Master",
+          "questionText": "A bag contains 7 red and 3 white balls. A ball is taken at random, its colour noted, and it is placed back in the bag before a second ball is chosen. As the first ball was chosen, determine how many balls were in the bag.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Total $= \\text{red} + \\text{white}$",
+            "steps": [
+              "Given: 7 red and 3 white. Goal: the number of balls at the first draw.",
+              "$7 + 3 = 10$"
+            ],
+            "finalAnswer": "There were 10 balls in the bag.",
+            "solutionFigures": [],
+            "tip": "The total number of balls is the denominator of each first-draw probability."
+          }
+        },
+        {
+          "id": "ch11_ex3_q11aiii",
+          "number": "11(a)(iii)",
+          "category": "Master",
+          "questionText": "A bag contains 7 red and 3 white balls. A ball is taken at random, its colour noted, and it is placed back in the bag before a second ball is chosen. As the second ball was chosen, determine how many balls were in the bag.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "With replacement the total is unchanged.",
+            "steps": [
+              "Given: the first ball was put back. Goal: the number of balls at the second draw.",
+              "Balls after replacing: $10 - 1 + 1 = 10$"
+            ],
+            "finalAnswer": "There were 10 balls in the bag.",
+            "solutionFigures": [],
+            "tip": "Replacing the ball restores the bag to exactly how it started."
+          }
+        },
+        {
+          "id": "ch11_ex3_q11aiv",
+          "number": "11(a)(iv)",
+          "category": "Master",
+          "questionText": "A bag contains 7 red and 3 white balls. A ball is taken at random, its colour noted, and it is placed back in the bag before a second ball is chosen. Explain whether the probability of choosing a red or white ball changes from the first selection to the second.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Independent events: $\\Pr(B \\mid A) = \\Pr(B)$",
+            "steps": [
+              "Given: the ball is replaced. Goal: decide if the probabilities change.",
+              "First draw: $\\Pr(R) = \\frac{7}{10}$, $\\Pr(W) = \\frac{3}{10}$.",
+              "After replacement there are still 7 red and 3 white, so the second draw also has $\\Pr(R) = \\frac{7}{10}$, $\\Pr(W) = \\frac{3}{10}$.",
+              "The first draw does not affect the second, so the draws are independent."
+            ],
+            "finalAnswer": "No. Because the ball is replaced, the bag is the same for both draws, so the probabilities stay $\\Pr(R) = 0.7$ and $\\Pr(W) = 0.3$; the events are independent.",
+            "solutionFigures": [],
+            "tip": "'With replacement' is the signal for independent events."
+          }
+        },
+        {
+          "id": "ch11_ex3_q11av",
+          "number": "11(a)(v)",
+          "category": "Master",
+          "questionText": "A bag contains 7 red and 3 white balls. A ball is taken at random, its colour noted, and it is placed back in the bag before a second ball is chosen. Calculate the probability of choosing a red ball twice.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for independent events: $\\Pr(RR) = \\Pr(R) \\times \\Pr(R)$",
+            "steps": [
+              "Given: $\\Pr(R) = 0.7$ on both draws. Goal: $\\Pr(RR)$.",
+              "$\\Pr(RR) = 0.7 \\times 0.7 = 0.49$"
+            ],
+            "finalAnswer": "$\\Pr(RR) = 0.49$",
+            "solutionFigures": [],
+            "tip": "$0.7 \\times 0.7 = 0.49$, not $1.4$."
+          }
+        },
+        {
+          "id": "ch11_ex3_q11bi",
+          "number": "11(b)(i)",
+          "category": "Master",
+          "questionText": "A bag contains 7 red and 3 white balls. A ball is chosen at random and NOT placed back in the bag before a second ball is chosen. As the second ball is chosen, determine how many balls are in the bag.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Without replacement: total $= 10 - 1$",
+            "steps": [
+              "Given: 10 balls and one removed. Goal: balls at the second draw.",
+              "$10 - 1 = 9$"
+            ],
+            "finalAnswer": "There are 9 balls in the bag.",
+            "solutionFigures": [],
+            "tip": "Without replacement, the denominator drops by 1 for the next draw."
+          }
+        },
+        {
+          "id": "ch11_ex3_q11bii",
+          "number": "11(b)(ii)",
+          "category": "Master",
+          "questionText": "A bag contains 7 red and 3 white balls. A ball is chosen at random and NOT placed back in the bag before a second ball is chosen. Explain if the probability of choosing a red or white ball changes from the first selection to the second.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Dependent events: $\\Pr(B \\mid A) \\neq \\Pr(B)$",
+            "steps": [
+              "Given: no replacement. Goal: decide if the probabilities change.",
+              "First draw: $\\Pr(R) = \\frac{7}{10}$.",
+              "If the first ball was red, 6 red and 3 white remain: $\\Pr(R) = \\frac{6}{9}$.",
+              "If the first ball was white, 7 red and 2 white remain: $\\Pr(R) = \\frac{7}{9}$.",
+              "Both differ from $\\frac{7}{10}$, so the second draw depends on the first."
+            ],
+            "finalAnswer": "Yes. One ball has been removed, so there are only 9 balls and the numbers of each colour depend on the first ball; the events are dependent.",
+            "solutionFigures": [],
+            "tip": "'Without replacement' is the signal for dependent events."
+          }
+        },
+        {
+          "id": "ch11_ex3_q11biii",
+          "number": "11(b)(iii)",
+          "category": "Master",
+          "questionText": "A bag contains 7 red and 3 white balls. A ball is chosen at random and NOT placed back in the bag before a second ball is chosen. Construct a fully labelled tree diagram to show all possible outcomes.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for dependent events: $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B \\mid A)$",
+            "steps": [
+              "Given: 7 red, 3 white, no replacement. Goal: a 2-draw tree.",
+              "Draw 1: R $\\frac{7}{10}$, W $\\frac{3}{10}$.",
+              "After R (6 red, 3 white left): R $\\frac{6}{9} = \\frac{2}{3}$, W $\\frac{3}{9} = \\frac{1}{3}$.",
+              "After W (7 red, 2 white left): R $\\frac{7}{9}$, W $\\frac{2}{9}$.",
+              "$\\Pr(RR) = \\frac{7}{10} \\times \\frac{6}{9} = \\frac{42}{90} = \\frac{7}{15}$",
+              "$\\Pr(RW) = \\frac{7}{10} \\times \\frac{3}{9} = \\frac{21}{90} = \\frac{7}{30}$",
+              "$\\Pr(WR) = \\frac{3}{10} \\times \\frac{7}{9} = \\frac{21}{90} = \\frac{7}{30}$",
+              "$\\Pr(WW) = \\frac{3}{10} \\times \\frac{2}{9} = \\frac{6}{90} = \\frac{1}{15}$",
+              "Check: $\\frac{42 + 21 + 21 + 6}{90} = \\frac{90}{90} = 1$"
+            ],
+            "finalAnswer": "Draw 1: R $\\frac{7}{10}$ (0.7), W $\\frac{3}{10}$ (0.3). After R: R $\\frac{2}{3}$ ($\\approx 0.67$), W $\\frac{1}{3}$ ($\\approx 0.33$). After W: R $\\frac{7}{9}$ ($\\approx 0.78$), W $\\frac{2}{9}$ ($\\approx 0.22$). Outcomes: RR $\\frac{7}{15}$, RW $\\frac{7}{30}$, WR $\\frac{7}{30}$, WW $\\frac{1}{15}$.",
+            "solutionFigures": [],
+            "tip": "Reduce both the colour count and the total by 1 on the second-draw branches."
+          }
+        },
+        {
+          "id": "ch11_ex3_q11biv",
+          "number": "11(b)(iv)",
+          "category": "Master",
+          "questionText": "A bag contains 7 red and 3 white balls. A ball is chosen at random and NOT placed back in the bag before a second ball is chosen. Evaluate the probability of choosing two red balls.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for dependent events: $\\Pr(RR) = \\Pr(R_1) \\times \\Pr(R_2 \\mid R_1)$",
+            "steps": [
+              "Given: $\\Pr(R_1) = \\frac{7}{10}$; after a red is removed, $\\Pr(R_2 \\mid R_1) = \\frac{6}{9}$. Goal: $\\Pr(RR)$.",
+              "$\\Pr(RR) = \\frac{7}{10} \\times \\frac{6}{9} = \\frac{42}{90}$",
+              "Simplify (divide by 6): $\\frac{42}{90} = \\frac{7}{15}$",
+              "As a decimal: $\\frac{7}{15} = 0.4\\dot{6} \\approx 0.467$ (3 decimal places)"
+            ],
+            "finalAnswer": "$\\Pr(RR) = \\frac{7}{15} \\approx 0.467$",
+            "solutionFigures": [],
+            "tip": "Use exact fractions; using rounded branches ($0.7 \\times 0.67 = 0.469$) gives a slightly wrong answer."
+          }
+        },
+        {
+          "id": "ch11_ex3_q12a",
+          "number": "12(a)",
+          "category": "Practice",
+          "questionText": "An eight-sided die (faces 1 to 8) is rolled three times to see whether 5 occurs. Construct a tree diagram to show the sample space.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(5) = \\frac{1}{8}$, $\\Pr(5') = 1 - \\frac{1}{8} = \\frac{7}{8}$; multiplication rule along each path",
+            "steps": [
+              "Given: an 8-sided die, rolled 3 times. Let $f$ = a 5 and $f'$ = not a 5. Goal: the tree.",
+              "Each roll branches into $f$ ($\\frac{1}{8}$) and $f'$ ($\\frac{7}{8}$); $2^3 = 8$ outcomes.",
+              "$\\Pr(fff) = \\left(\\frac{1}{8}\\right)^3 = \\frac{1}{512}$",
+              "$\\Pr(fff') = \\Pr(ff'f) = \\Pr(f'ff) = \\frac{1}{8} \\times \\frac{1}{8} \\times \\frac{7}{8} = \\frac{7}{512}$ each",
+              "$\\Pr(ff'f') = \\Pr(f'ff') = \\Pr(f'f'f) = \\frac{1}{8} \\times \\frac{7}{8} \\times \\frac{7}{8} = \\frac{49}{512}$ each",
+              "$\\Pr(f'f'f') = \\left(\\frac{7}{8}\\right)^3 = \\frac{343}{512}$",
+              "Check: $\\frac{1 + 21 + 147 + 343}{512} = \\frac{512}{512} = 1$"
+            ],
+            "finalAnswer": "Tree: three columns of branches $f$ ($\\frac{1}{8}$) and $f'$ ($\\frac{7}{8}$). Outcomes: $fff\\ \\frac{1}{512}$; $fff', ff'f, f'ff\\ \\frac{7}{512}$ each; $ff'f', f'ff', f'f'f\\ \\frac{49}{512}$ each; $f'f'f'\\ \\frac{343}{512}$.",
+            "solutionFigures": [],
+            "tip": "Only two branches are needed per roll: 'a 5' and 'not a 5'."
+          }
+        },
+        {
+          "id": "ch11_ex3_q12bi",
+          "number": "12(b)(i)",
+          "category": "Practice",
+          "questionText": "An eight-sided die (faces 1 to 8) is rolled three times to see whether 5 occurs. Calculate $\\Pr(\\text{three 5s})$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for independent events: $\\Pr(fff) = \\Pr(5)^3$",
+            "steps": [
+              "Given: $\\Pr(5) = \\frac{1}{8}$. Goal: three 5s.",
+              "$\\Pr(fff) = \\frac{1}{8} \\times \\frac{1}{8} \\times \\frac{1}{8} = \\frac{1}{512}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{three 5s}) = \\frac{1}{512}$",
+            "solutionFigures": [],
+            "tip": "$8^3 = 512$."
+          }
+        },
+        {
+          "id": "ch11_ex3_q12bii",
+          "number": "12(b)(ii)",
+          "category": "Practice",
+          "questionText": "An eight-sided die (faces 1 to 8) is rolled three times to see whether 5 occurs. Calculate $\\Pr(\\text{no 5s})$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for independent events: $\\Pr(f'f'f') = \\Pr(5')^3$",
+            "steps": [
+              "Given: $\\Pr(5') = 1 - \\frac{1}{8} = \\frac{7}{8}$. Goal: no 5s.",
+              "$\\Pr(f'f'f') = \\frac{7}{8} \\times \\frac{7}{8} \\times \\frac{7}{8} = \\frac{343}{512}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{no 5s}) = \\frac{343}{512}$",
+            "solutionFigures": [],
+            "tip": "$7^3 = 343$ and $8^3 = 512$."
+          }
+        },
+        {
+          "id": "ch11_ex3_q12biii",
+          "number": "12(b)(iii)",
+          "category": "Practice",
+          "questionText": "An eight-sided die (faces 1 to 8) is rolled three times to see whether 5 occurs. Calculate $\\Pr(\\text{two 5s})$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule along each path, then addition rule over the mutually exclusive paths",
+            "steps": [
+              "Given: $\\Pr(5) = \\frac{1}{8}$, $\\Pr(5') = \\frac{7}{8}$. Goal: exactly two 5s.",
+              "Paths: $fff'$, $ff'f$, $f'ff$ (3 paths).",
+              "Each path: $\\frac{1}{8} \\times \\frac{1}{8} \\times \\frac{7}{8} = \\frac{7}{512}$",
+              "$\\Pr(\\text{two 5s}) = 3 \\times \\frac{7}{512} = \\frac{21}{512}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{two 5s}) = \\frac{21}{512}$",
+            "solutionFigures": [],
+            "tip": "Count every position the non-5 roll could be in."
+          }
+        },
+        {
+          "id": "ch11_ex3_q12biv",
+          "number": "12(b)(iv)",
+          "category": "Practice",
+          "questionText": "An eight-sided die (faces 1 to 8) is rolled three times to see whether 5 occurs. Calculate $\\Pr(\\text{at least two 5s})$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Addition rule: $\\Pr(\\text{at least two}) = \\Pr(\\text{two 5s}) + \\Pr(\\text{three 5s})$",
+            "steps": [
+              "Given: $\\Pr(\\text{two 5s}) = \\frac{21}{512}$, $\\Pr(\\text{three 5s}) = \\frac{1}{512}$. Goal: at least two 5s.",
+              "$\\Pr = \\frac{21}{512} + \\frac{1}{512} = \\frac{22}{512}$",
+              "Simplify (divide by 2): $\\frac{22}{512} = \\frac{11}{256}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{at least two 5s}) = \\frac{11}{256}$",
+            "solutionFigures": [],
+            "tip": "'At least two' means two or three; include the three-5s case."
+          }
+        },
+        {
+          "id": "ch11_ex3_q13a",
+          "number": "13(a)",
+          "category": "Consolidate",
+          "questionText": "A tetrahedral die (four faces labelled 1, 2, 3 and 4) is rolled and a coin is tossed simultaneously. Show all the outcomes on a two-way table.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Number of outcomes $= 2 \\times 4$",
+            "steps": [
+              "Given: coin $\\{H, T\\}$, die $\\{1, 2, 3, 4\\}$. Goal: a two-way table.",
+              "Columns: die outcomes 1, 2, 3, 4. Rows: coin outcomes H, T.",
+              "Row H: (H, 1), (H, 2), (H, 3), (H, 4)",
+              "Row T: (T, 1), (T, 2), (T, 3), (T, 4)",
+              "Total outcomes $= 2 \\times 4 = 8$"
+            ],
+            "finalAnswer": "Two-way table with rows H, T and columns 1 to 4: (H,1), (H,2), (H,3), (H,4), (T,1), (T,2), (T,3), (T,4), which is 8 outcomes.",
+            "solutionFigures": [],
+            "tip": "Each cell pairs one row outcome with one column outcome."
+          }
+        },
+        {
+          "id": "ch11_ex3_q13b",
+          "number": "13(b)",
+          "category": "Consolidate",
+          "questionText": "A tetrahedral die (four faces labelled 1, 2, 3 and 4) is rolled and a coin is tossed simultaneously. Construct a tree diagram and list all outcomes and their respective probabilities.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for independent events: $\\Pr(\\text{coin} \\cap \\text{die}) = \\Pr(\\text{coin}) \\times \\Pr(\\text{die})$",
+            "steps": [
+              "Given: $\\Pr(H) = \\Pr(T) = \\frac{1}{2}$, each die face $\\frac{1}{4}$. Goal: tree and outcome probabilities.",
+              "Stage 1 (coin): H $\\frac{1}{2}$, T $\\frac{1}{2}$. Stage 2 (die) after each: 1, 2, 3, 4, each $\\frac{1}{4}$.",
+              "Each outcome: $\\frac{1}{2} \\times \\frac{1}{4} = \\frac{1}{8}$",
+              "Outcomes: H1, H2, H3, H4, T1, T2, T3, T4, each $\\frac{1}{8}$.",
+              "Check: $8 \\times \\frac{1}{8} = 1$"
+            ],
+            "finalAnswer": "Tree: coin (H $\\frac{1}{2}$, T $\\frac{1}{2}$) then die (1, 2, 3, 4 each $\\frac{1}{4}$). Outcomes H1, H2, H3, H4, T1, T2, T3, T4, each with probability $\\frac{1}{8}$.",
+            "solutionFigures": [],
+            "tip": "The order of stages on the tree does not change the outcome probabilities."
+          }
+        },
+        {
+          "id": "ch11_ex3_q13c",
+          "number": "13(c)",
+          "category": "Consolidate",
+          "questionText": "A tetrahedral die (four faces labelled 1, 2, 3 and 4) is rolled and a coin is tossed simultaneously. Determine the probability of getting a Head on the coin and an even number on the die.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for independent events: $\\Pr(H \\cap E) = \\Pr(H) \\times \\Pr(E)$",
+            "steps": [
+              "Given: $\\Pr(H) = \\frac{1}{2}$; even faces $\\{2, 4\\}$ so $\\Pr(E) = \\frac{2}{4} = \\frac{1}{2}$. Goal: Head and even.",
+              "$\\Pr(H \\cap E) = \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$",
+              "Check by counting: H2 and H4 are 2 of the 8 outcomes, $\\frac{2}{8} = \\frac{1}{4}$."
+            ],
+            "finalAnswer": "$\\Pr(\\text{Head and even}) = \\frac{1}{4}$",
+            "solutionFigures": [],
+            "tip": "Check a tree answer by counting favourable outcomes in the table."
+          }
+        },
+        {
+          "id": "ch11_ex3_q14a",
+          "number": "14(a)",
+          "category": "Master",
+          "questionText": "A biased coin that has an 80% chance of getting a Head is flipped four times. Use a tree diagram to calculate the probability of getting 4 Heads.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for independent events: $\\Pr(HHHH) = \\Pr(H)^4$",
+            "steps": [
+              "Given: $\\Pr(H) = 0.8 = \\frac{4}{5}$, $\\Pr(T) = \\frac{1}{5}$. Goal: $\\Pr(HHHH)$.",
+              "On the tree, the path H $\\to$ H $\\to$ H $\\to$ H has four branches of $\\frac{4}{5}$.",
+              "$\\Pr(HHHH) = \\left(\\frac{4}{5}\\right)^4 = \\frac{256}{625}$",
+              "As a decimal: $0.4096$"
+            ],
+            "finalAnswer": "$\\Pr(4 \\text{ Heads}) = \\frac{256}{625} = 0.4096$",
+            "solutionFigures": [],
+            "tip": "Write 0.8 as $\\frac{4}{5}$ to keep the answers as exact fractions."
+          }
+        },
+        {
+          "id": "ch11_ex3_q14b",
+          "number": "14(b)",
+          "category": "Master",
+          "questionText": "A biased coin that has an 80% chance of getting a Head is flipped four times. Use a tree diagram to determine the probability of getting 2 Heads then 2 Tails in that order.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for independent events: $\\Pr(HHTT) = \\Pr(H)^2 \\times \\Pr(T)^2$",
+            "steps": [
+              "Given: $\\Pr(H) = \\frac{4}{5}$, $\\Pr(T) = 1 - \\frac{4}{5} = \\frac{1}{5}$. Goal: $\\Pr(HHTT)$ in that order.",
+              "$\\Pr(HHTT) = \\frac{4}{5} \\times \\frac{4}{5} \\times \\frac{1}{5} \\times \\frac{1}{5}$",
+              "$= \\frac{16}{625}$",
+              "As a decimal: $0.0256$"
+            ],
+            "finalAnswer": "$\\Pr(HHTT) = \\frac{16}{625} = 0.0256$",
+            "solutionFigures": [],
+            "tip": "'In that order' means one single path, so do not multiply by the number of arrangements."
+          }
+        },
+        {
+          "id": "ch11_ex3_q14c",
+          "number": "14(c)",
+          "category": "Master",
+          "questionText": "A biased coin that has an 80% chance of getting a Head is flipped four times. Use a tree diagram to calculate the probability of getting 2 Heads and 2 Tails in any order.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule along each path, then addition rule over the mutually exclusive paths",
+            "steps": [
+              "Given: $\\Pr(H) = \\frac{4}{5}$, $\\Pr(T) = \\frac{1}{5}$. Goal: exactly 2 Heads and 2 Tails in any order.",
+              "Paths: HHTT, HTHT, HTTH, THHT, THTH, TTHH (6 paths).",
+              "Each path: $\\left(\\frac{4}{5}\\right)^2\\left(\\frac{1}{5}\\right)^2 = \\frac{16}{625}$",
+              "$\\Pr = 6 \\times \\frac{16}{625} = \\frac{96}{625}$",
+              "As a decimal: $0.1536$"
+            ],
+            "finalAnswer": "$\\Pr(2 \\text{ Heads and } 2 \\text{ Tails}) = \\frac{96}{625} = 0.1536$",
+            "solutionFigures": [],
+            "tip": "List the arrangements systematically so none is missed; there are 6."
+          }
+        },
+        {
+          "id": "ch11_ex3_q14d",
+          "number": "14(d)",
+          "category": "Master",
+          "questionText": "A biased coin that has an 80% chance of getting a Head is flipped four times. Use a tree diagram to determine the probability of getting more Tails than Heads.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Addition rule: $\\Pr(\\text{more T than H}) = \\Pr(3T, 1H) + \\Pr(4T)$",
+            "steps": [
+              "Given: $\\Pr(H) = \\frac{4}{5}$, $\\Pr(T) = \\frac{1}{5}$. Goal: more Tails than Heads in 4 flips, i.e. 3 or 4 Tails.",
+              "4 Tails: $\\Pr(TTTT) = \\left(\\frac{1}{5}\\right)^4 = \\frac{1}{625}$",
+              "3 Tails, 1 Head: paths HTTT, THTT, TTHT, TTTH (4 paths), each $\\frac{4}{5}\\left(\\frac{1}{5}\\right)^3 = \\frac{4}{625}$",
+              "$\\Pr(3T) = 4 \\times \\frac{4}{625} = \\frac{16}{625}$",
+              "$\\Pr(\\text{more T than H}) = \\frac{16}{625} + \\frac{1}{625} = \\frac{17}{625}$",
+              "As a decimal: $0.0272$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{more Tails than Heads}) = \\frac{17}{625} = 0.0272$",
+            "solutionFigures": [],
+            "tip": "2 Tails and 2 Heads is a tie, not 'more Tails', so it is not included."
+          }
+        }
+      ]
+    }
+  ]
+}

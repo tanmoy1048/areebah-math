@@ -1,0 +1,1055 @@
+{
+  "chapterId": "ch09",
+  "chapterTitle": "Non-linear relationships",
+  "topics": [
+    {
+      "topicId": "9.10",
+      "topicTitle": "Review questions",
+      "exercises": [
+        {
+          "id": "ch9_ex10_q1",
+          "number": "1",
+          "category": null,
+          "questionText": "Multiple choice: The turning point for the graph $y = 3x^2 - 4x + 9$ is: A. $\\left(\\frac{1}{3}, 1\\frac{2}{3}\\right)$; B. $\\left(\\frac{1}{3}, \\frac{2}{3}\\right)$; C. $\\left(\\frac{1}{6}, 1\\frac{1}{6}\\right)$; D. $\\left(\\frac{2}{3}, 7\\frac{2}{3}\\right)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = ax^2 + bx + c$, the turning point has $x = -\\frac{b}{2a}$; substitute to find $y$.",
+            "steps": [
+              "Given: $a = 3$, $b = -4$, $c = 9$.",
+              "$x = -\\frac{-4}{2 \\times 3} = \\frac{4}{6} = \\frac{2}{3}$",
+              "$y = 3\\left(\\frac{2}{3}\\right)^2 - 4\\left(\\frac{2}{3}\\right) + 9 = 3 \\times \\frac{4}{9} - \\frac{8}{3} + 9$",
+              "$y = \\frac{4}{3} - \\frac{8}{3} + 9 = -\\frac{4}{3} + 9 = \\frac{23}{3} = 7\\frac{2}{3}$"
+            ],
+            "finalAnswer": "D: $\\left(\\frac{2}{3}, 7\\frac{2}{3}\\right)$",
+            "solutionFigures": [],
+            "tip": "Square the fraction before multiplying by $a$: $3 \\times \\frac{4}{9} = \\frac{4}{3}$."
+          }
+        },
+        {
+          "id": "ch9_ex10_q2",
+          "number": "2",
+          "category": null,
+          "questionText": "Multiple choice: Select which graph of the following equations has the $x$-intercepts closest together. A. $y = x^2 + 3x + 2$; B. $y = x^2 + x - 2$; C. $y = 2x^2 + x - 15$; D. $y = 4x^2 + 27x - 7$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Factorise and use the null factor law to find each pair of $x$-intercepts.",
+            "steps": [
+              "A: $(x + 1)(x + 2) = 0 \\Rightarrow x = -1, -2$; distance $1$.",
+              "B: $(x + 2)(x - 1) = 0 \\Rightarrow x = -2, 1$; distance $3$.",
+              "C: $(2x - 5)(x + 3) = 0 \\Rightarrow x = 2.5, -3$; distance $5.5$.",
+              "D: $(4x - 1)(x + 7) = 0 \\Rightarrow x = 0.25, -7$; distance $7.25$.",
+              "The smallest distance is 1, for A."
+            ],
+            "finalAnswer": "A: $y = x^2 + 3x + 2$",
+            "solutionFigures": [],
+            "tip": "Expand your factors to check them before solving."
+          }
+        },
+        {
+          "id": "ch9_ex10_q3",
+          "number": "3",
+          "category": null,
+          "questionText": "Multiple choice: Select which graph of the equations below has the largest $y$-intercept. A. $y = 3(x - 2)^2 + 9$; B. $y = 5(x - 1)^2 + 8$; C. $y = 2(x - 1)^2 + 19$; D. $y = 2(x - 5)^2 + 4$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y$-intercept: substitute $x = 0$.",
+            "steps": [
+              "A: $3(-2)^2 + 9 = 12 + 9 = 21$",
+              "B: $5(-1)^2 + 8 = 5 + 8 = 13$",
+              "C: $2(-1)^2 + 19 = 2 + 19 = 21$",
+              "D: $2(-5)^2 + 4 = 50 + 4 = 54$",
+              "The largest is 54."
+            ],
+            "finalAnswer": "D: $y = 2(x - 5)^2 + 4$ (y-intercept 54)",
+            "solutionFigures": [],
+            "tip": "The $y$-intercept is not $k$ in turning point form; you must substitute $x = 0$."
+          }
+        },
+        {
+          "id": "ch9_ex10_q4",
+          "number": "4",
+          "category": null,
+          "questionText": "Multiple choice: The translation required to change $y = x^2$ into $y = (x - 3)^2 + \\frac{1}{4}$ is: A. right 3, up $\\frac{1}{4}$; B. right 3, down $\\frac{1}{4}$; C. left 3, down $\\frac{1}{4}$; D. left 3, up $\\frac{1}{4}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = (x - h)^2 + k$ is $y = x^2$ translated $h$ units horizontally and $k$ units vertically.",
+            "steps": [
+              "$h = 3$: move right 3.",
+              "$k = \\frac{1}{4}$: move up $\\frac{1}{4}$."
+            ],
+            "finalAnswer": "A: right 3, up $\\frac{1}{4}$",
+            "solutionFigures": [],
+            "tip": "$(x - 3)$ means a shift to the right."
+          }
+        },
+        {
+          "id": "ch9_ex10_q5",
+          "number": "5",
+          "category": null,
+          "questionText": "Multiple choice: If $y$ is inversely proportional to $x$, then select which of the following statements is true. A. $x + y$ is a constant value. B. $y \\div x$ is a constant value. C. $y \\times x$ is a constant value. D. $y - x$ is a constant value.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{k}{x} \\Leftrightarrow xy = k$",
+            "steps": [
+              "Inverse proportion: $y = \\frac{k}{x}$.",
+              "Multiply both sides by $x$: $xy = k$, a constant."
+            ],
+            "finalAnswer": "C: $y \\times x$ is a constant value.",
+            "solutionFigures": [],
+            "tip": "$y \\div x$ constant describes direct proportion, not inverse."
+          }
+        },
+        {
+          "id": "ch9_ex10_q6",
+          "number": "6",
+          "category": null,
+          "questionText": "Multiple choice: The number of calculators a company sells is inversely proportional to the selling price. If a company can sell 1000 calculators when the price is \\$22, determine how many they could sell if they reduced the price to \\$16. A. 2000; B. 727; C. 6000; D. 1375.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$n = \\frac{k}{P}$, $k = nP$",
+            "steps": [
+              "$k = 1000 \\times 22 = 22\\,000$",
+              "$n = \\frac{22\\,000}{16} = 1375$"
+            ],
+            "finalAnswer": "D: 1375 calculators",
+            "solutionFigures": [],
+            "tip": "A lower price must give more sales, which rules out B immediately."
+          }
+        },
+        {
+          "id": "ch9_ex10_q7",
+          "number": "7",
+          "category": null,
+          "questionText": "Multiple choice: The graph of $y = -3 \\times 2^x$ is best represented by: A. an exponential curve above the $x$-axis with $y$-intercept 3; B. an exponential curve below the $x$-axis with $y$-intercept $-3$, approaching $y = 0$ on the left and decreasing steeply on the right; C. an exponential curve above the $x$-axis with $y$-intercept 3 (different shape from A); D. an exponential curve above the $x$-axis with $y$-intercept 1.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = k \\times a^x$ has $y$-intercept $(0, k)$ and asymptote $y = 0$; $k < 0$ reflects the graph in the $x$-axis.",
+            "steps": [
+              "$y$-intercept: $y = -3 \\times 2^0 = -3$, so $(0, -3)$.",
+              "Since $-3 < 0$, every $y$-value is negative: the graph is below the $x$-axis.",
+              "As $x \\to -\\infty$, $y \\to 0$; as $x$ increases, $y$ decreases steeply (e.g. $x = 2$: $y = -12$).",
+              "Only graph B passes through $(0, -3)$ below the axis."
+            ],
+            "finalAnswer": "B",
+            "solutionFigures": [],
+            "tip": "Find the $y$-intercept first; it usually identifies the graph immediately."
+          }
+        },
+        {
+          "id": "ch9_ex10_q8a",
+          "number": "8(a)",
+          "category": null,
+          "questionText": "Use the completing the square method to determine the turning point for the graph of $y = x^2 - 8x + 1$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$x^2 + bx + c = \\left(x + \\frac{b}{2}\\right)^2 - \\left(\\frac{b}{2}\\right)^2 + c$; turning point form $y = (x - h)^2 + k$ has turning point $(h, k)$.",
+            "steps": [
+              "$y = x^2 - 8x + 1$",
+              "Half of $-8$ is $-4$; $(-4)^2 = 16$.",
+              "$y = (x^2 - 8x + 16) - 16 + 1$",
+              "$y = (x - 4)^2 - 15$",
+              "Turning point $(4, -15)$."
+            ],
+            "finalAnswer": "The turning point is $(4, -15)$.",
+            "solutionFigures": [],
+            "tip": "Remember to subtract the 16 you added."
+          }
+        },
+        {
+          "id": "ch9_ex10_q8b",
+          "number": "8(b)",
+          "category": null,
+          "questionText": "Use the completing the square method to determine the turning point for the graph of $y = x^2 + 4x - 5$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$x^2 + bx + c = \\left(x + \\frac{b}{2}\\right)^2 - \\left(\\frac{b}{2}\\right)^2 + c$",
+            "steps": [
+              "$y = x^2 + 4x - 5$",
+              "Half of 4 is 2; $2^2 = 4$.",
+              "$y = (x^2 + 4x + 4) - 4 - 5$",
+              "$y = (x + 2)^2 - 9$",
+              "Turning point $(-2, -9)$."
+            ],
+            "finalAnswer": "The turning point is $(-2, -9)$.",
+            "solutionFigures": [],
+            "tip": "$(x + 2)^2$ gives $h = -2$."
+          }
+        },
+        {
+          "id": "ch9_ex10_q9",
+          "number": "9",
+          "category": null,
+          "questionText": "For the graph of the equation $y = x^2 + 8x + 7$, produce a table of values for the $x$-values between $-9$ and 1, and then plot the graph. Show the $y$-intercept and turning point. From your graph, state the $x$-intercepts.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute each $x$ into $y = x^2 + 8x + 7$; the turning point is on the axis of symmetry $x = -\\frac{b}{2a}$.",
+            "steps": [
+              "$x = -9$: $81 - 72 + 7 = 16$; $x = -8$: $64 - 64 + 7 = 7$; $x = -7$: $49 - 56 + 7 = 0$",
+              "$x = -6$: $36 - 48 + 7 = -5$; $x = -5$: $25 - 40 + 7 = -8$; $x = -4$: $16 - 32 + 7 = -9$",
+              "$x = -3$: $-8$; $x = -2$: $-5$; $x = -1$: $0$; $x = 0$: $7$; $x = 1$: $16$",
+              "Plot the points and draw a smooth upward parabola.",
+              "$y$-intercept: $(0, 7)$. Turning point (lowest point, symmetric about $x = -4$): $(-4, -9)$.",
+              "The graph crosses the $x$-axis where $y = 0$: $x = -7$ and $x = -1$."
+            ],
+            "finalAnswer": "$y$-values: $16, 7, 0, -5, -8, -9, -8, -5, 0, 7, 16$. $y$-intercept $(0, 7)$, turning point $(-4, -9)$, $x$-intercepts $-7$ and $-1$.",
+            "solutionFigures": [],
+            "tip": "The table is symmetric about the turning point; use this to check your values."
+          }
+        },
+        {
+          "id": "ch9_ex10_q10a",
+          "number": "10(a)",
+          "category": null,
+          "questionText": "For $y = (x - 3)^2 + 1$, determine the coordinates of the turning point and the $x$- and $y$-intercepts and sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: turning point $(h, k)$.",
+            "steps": [
+              "Turning point: $(3, 1)$; $a = 1 > 0$, so it is a minimum.",
+              "$y$-intercept: $y = (0 - 3)^2 + 1 = 9 + 1 = 10$, so $(0, 10)$.",
+              "$x$-intercepts: $0 = (x - 3)^2 + 1 \\Rightarrow (x - 3)^2 = -1$, which has no real solution.",
+              "So there are no $x$-intercepts (the minimum point is above the $x$-axis).",
+              "Sketch: upward parabola with minimum $(3, 1)$ through $(0, 10)$ and, by symmetry, $(6, 10)$."
+            ],
+            "finalAnswer": "Turning point $(3, 1)$; $y$-intercept $(0, 10)$; no $x$-intercepts.",
+            "solutionFigures": [],
+            "tip": "A square cannot equal a negative number, so no $x$-intercepts exist."
+          }
+        },
+        {
+          "id": "ch9_ex10_q10b",
+          "number": "10(b)",
+          "category": null,
+          "questionText": "For $y = 2(x + 1)^2 - 5$, determine the coordinates of the turning point and the $x$- and $y$-intercepts and sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: turning point $(h, k)$.",
+            "steps": [
+              "Turning point: $(-1, -5)$, a minimum since $a = 2 > 0$.",
+              "$y$-intercept: $y = 2(1)^2 - 5 = -3$, so $(0, -3)$.",
+              "$x$-intercepts: $0 = 2(x + 1)^2 - 5 \\Rightarrow (x + 1)^2 = \\frac{5}{2}$",
+              "$x + 1 = \\pm\\sqrt{\\frac{5}{2}} \\Rightarrow x = -1 \\pm \\sqrt{\\frac{5}{2}}$",
+              "$\\sqrt{2.5} \\approx 1.58$, so $x \\approx 0.58$ or $x \\approx -2.58$ (2 d.p.).",
+              "Sketch: narrow upward parabola, minimum $(-1, -5)$, through $(0, -3)$."
+            ],
+            "finalAnswer": "Turning point $(-1, -5)$; $y$-intercept $(0, -3)$; $x$-intercepts $-1 \\pm \\sqrt{\\frac{5}{2}} \\approx 0.58$ and $-2.58$.",
+            "solutionFigures": [],
+            "tip": "Divide by $a$ before taking the square root."
+          }
+        },
+        {
+          "id": "ch9_ex10_q11",
+          "number": "11",
+          "category": null,
+          "questionText": "For the equation $y = -x^2 - 2x + 15$, sketch the graph and determine the $x$- and $y$-intercepts and the coordinates of the turning point.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Factorise for $x$-intercepts; turning point at $x = -\\frac{b}{2a}$.",
+            "steps": [
+              "$y = -(x^2 + 2x - 15) = -(x + 5)(x - 3)$",
+              "$x$-intercepts: $x = -5$ and $x = 3$.",
+              "$y$-intercept: $x = 0 \\Rightarrow y = 15$, so $(0, 15)$.",
+              "Axis of symmetry: $x = \\frac{-5 + 3}{2} = -1$.",
+              "$y = -(-1)^2 - 2(-1) + 15 = -1 + 2 + 15 = 16$, so turning point $(-1, 16)$.",
+              "Since $a = -1 < 0$, the parabola opens downward (maximum)."
+            ],
+            "finalAnswer": "$x$-intercepts $(-5, 0)$ and $(3, 0)$; $y$-intercept $(0, 15)$; maximum turning point $(-1, 16)$.",
+            "solutionFigures": [],
+            "tip": "Take out $-1$ as a factor first to make factorising easier."
+          }
+        },
+        {
+          "id": "ch9_ex10_q12",
+          "number": "12",
+          "category": null,
+          "questionText": "Draw the graph of $y = 10 \\times 3^x$ for $-2 \\le x \\le 4$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = k \\times a^x$: $y$-intercept $(0, k)$, asymptote $y = 0$.",
+            "steps": [
+              "$x = -2$: $10 \\times \\frac{1}{9} \\approx 1.11$; $x = -1$: $10 \\times \\frac{1}{3} \\approx 3.33$",
+              "$x = 0$: $10$; $x = 1$: $30$; $x = 2$: $90$; $x = 3$: $270$; $x = 4$: $810$",
+              "Plot and join with a smooth increasing curve; $y$-intercept $(0, 10)$, asymptote $y = 0$."
+            ],
+            "finalAnswer": "An increasing exponential curve through $(-2, 1.11)$, $(0, 10)$, $(1, 30)$, $(2, 90)$, $(3, 270)$, $(4, 810)$, with asymptote $y = 0$.",
+            "solutionFigures": [],
+            "tip": "Calculate $3^x$ first, then multiply by 10."
+          }
+        },
+        {
+          "id": "ch9_ex10_q13",
+          "number": "13",
+          "category": null,
+          "questionText": "Draw the graph of $y = 10^{-x}$ for $-2 \\le x \\le 2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a^{-x}$ is $y = a^x$ reflected in the $y$-axis; $y$-intercept $(0, 1)$, asymptote $y = 0$.",
+            "steps": [
+              "$x = -2$: $10^2 = 100$; $x = -1$: $10$; $x = 0$: $1$; $x = 1$: $0.1$; $x = 2$: $0.01$",
+              "Plot and join with a smooth decreasing curve approaching $y = 0$ for positive $x$."
+            ],
+            "finalAnswer": "A decreasing curve through $(-2, 100)$, $(-1, 10)$, $(0, 1)$, $(1, 0.1)$, $(2, 0.01)$ with asymptote $y = 0$.",
+            "solutionFigures": [],
+            "tip": "$10^{-(-2)} = 10^2$; two negatives make a positive index."
+          }
+        },
+        {
+          "id": "ch9_ex10_q14a",
+          "number": "14(a)",
+          "category": null,
+          "questionText": "For the exponential function $y = 5^x$, complete the table of values for $x = -3, -2, -1, 0, 1, 2, 3$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$a^{-n} = \\frac{1}{a^n}$",
+            "steps": [
+              "$x = -3$: $\\frac{1}{125} = 0.008$; $x = -2$: $\\frac{1}{25} = 0.04$; $x = -1$: $\\frac{1}{5} = 0.2$",
+              "$x = 0$: $1$; $x = 1$: $5$; $x = 2$: $25$; $x = 3$: $125$"
+            ],
+            "finalAnswer": "$y$-values: $0.008, 0.04, 0.2, 1, 5, 25, 125$.",
+            "solutionFigures": [],
+            "tip": "Each step to the right multiplies $y$ by 5."
+          }
+        },
+        {
+          "id": "ch9_ex10_q14b",
+          "number": "14(b)",
+          "category": null,
+          "questionText": "For the exponential function $y = 5^x$, plot the graph using the table of values for $x = -3$ to $3$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a^x$, $a > 1$: increasing, $y$-intercept $(0, 1)$, asymptote $y = 0$.",
+            "steps": [
+              "Plot $(-3, 0.008)$, $(-2, 0.04)$, $(-1, 0.2)$, $(0, 1)$, $(1, 5)$, $(2, 25)$, $(3, 125)$.",
+              "Join with a smooth curve that hugs the $x$-axis for negative $x$ and rises steeply for positive $x$."
+            ],
+            "finalAnswer": "An increasing exponential curve through $(0, 1)$ and $(1, 5)$ with asymptote $y = 0$.",
+            "solutionFigures": [],
+            "tip": "Do not let the curve touch the $x$-axis."
+          }
+        },
+        {
+          "id": "ch9_ex10_q15a",
+          "number": "15(a)",
+          "category": null,
+          "questionText": "On the same axes, draw the graphs of $y = (1.2)^x$ and $y = (1.5)^x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a^x$ passes through $(0, 1)$ and $(1, a)$.",
+            "steps": [
+              "$y = 1.2^x$: $x = -3$: $0.58$; $x = 0$: $1$; $x = 1$: $1.2$; $x = 3$: $1.728$.",
+              "$y = 1.5^x$: $x = -3$: $0.30$; $x = 0$: $1$; $x = 1$: $1.5$; $x = 3$: $3.375$.",
+              "Both are increasing, pass through $(0, 1)$, and have asymptote $y = 0$; $y = 1.5^x$ is above for $x > 0$ and below for $x < 0$."
+            ],
+            "finalAnswer": "Two increasing curves crossing at $(0, 1)$; $y = 1.5^x$ is steeper than $y = 1.2^x$.",
+            "solutionFigures": [],
+            "tip": "Bases close to 1 give graphs that are nearly flat."
+          }
+        },
+        {
+          "id": "ch9_ex10_q15b",
+          "number": "15(b)",
+          "category": null,
+          "questionText": "Using the graphs of $y = (1.2)^x$ and $y = (1.5)^x$, explain the effect of changing the value of $a$ in the equation $y = a^x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $a > 1$, larger $a$ gives a steeper graph.",
+            "steps": [
+              "At $x = 3$: $1.5^3 = 3.375 > 1.2^3 = 1.728$, so the larger base is higher for $x > 0$.",
+              "At $x = -3$: $1.5^{-3} \\approx 0.30 < 1.2^{-3} \\approx 0.58$, so the larger base is lower for $x < 0$."
+            ],
+            "finalAnswer": "Increasing the value of $a$ makes the graph steeper for positive $x$-values and flatter (closer to the $x$-axis) for negative $x$-values; all graphs still pass through $(0, 1)$.",
+            "solutionFigures": [],
+            "tip": "Compare the curves on both sides of the $y$-axis."
+          }
+        },
+        {
+          "id": "ch9_ex10_q16a",
+          "number": "16(a)",
+          "category": null,
+          "questionText": "On one set of axes, draw the graphs of $y = 2 \\times 3^x$, $y = 5 \\times 3^x$ and $y = \\frac{1}{2} \\times 3^x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = k \\times a^x$ has $y$-intercept $(0, k)$ and asymptote $y = 0$.",
+            "steps": [
+              "$y = 2 \\times 3^x$: $y$-intercept $(0, 2)$, through $(1, 6)$, $(2, 18)$.",
+              "$y = 5 \\times 3^x$: $y$-intercept $(0, 5)$, through $(1, 15)$, $(2, 45)$.",
+              "$y = \\frac{1}{2} \\times 3^x$: $y$-intercept $(0, \\frac{1}{2})$, through $(1, 1.5)$, $(2, 4.5)$.",
+              "All are increasing with asymptote $y = 0$."
+            ],
+            "finalAnswer": "Three increasing curves with $y$-intercepts $(0, 2)$, $(0, 5)$ and $(0, \\frac{1}{2})$, all with asymptote $y = 0$; $y = 5 \\times 3^x$ is highest.",
+            "solutionFigures": [],
+            "tip": "Multiply $3^x$ by $k$; do not compute $(k \\times 3)^x$."
+          }
+        },
+        {
+          "id": "ch9_ex10_q16b",
+          "number": "16(b)",
+          "category": null,
+          "questionText": "Using the graphs of $y = 2 \\times 3^x$, $y = 5 \\times 3^x$ and $y = \\frac{1}{2} \\times 3^x$, explain the effect of changing the value of $k$ in the equation $y = ka^x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = ka^x$ is a dilation of $y = a^x$ by factor $k$ from the $x$-axis.",
+            "steps": [
+              "Each $y$-value of $y = 3^x$ is multiplied by $k$.",
+              "So the $y$-intercept becomes $(0, k)$ and the graph is stretched vertically; the asymptote stays $y = 0$."
+            ],
+            "finalAnswer": "Increasing $k$ makes the graph steeper (stretches it away from the $x$-axis) and raises the $y$-intercept to $(0, k)$.",
+            "solutionFigures": [],
+            "tip": "These graphs never cross each other, unlike graphs with different bases."
+          }
+        },
+        {
+          "id": "ch9_ex10_q17a",
+          "number": "17(a)",
+          "category": null,
+          "questionText": "On the same set of axes, sketch the graphs of $y = (2.5)^x$ and $y = (2.5)^{-x}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a^{-x}$ is $y = a^x$ reflected in the $y$-axis.",
+            "steps": [
+              "$y = 2.5^x$: through $(-1, 0.4)$, $(0, 1)$, $(1, 2.5)$, $(2, 6.25)$; increasing.",
+              "$y = 2.5^{-x}$: through $(1, 0.4)$, $(0, 1)$, $(-1, 2.5)$, $(-2, 6.25)$; decreasing.",
+              "Both have asymptote $y = 0$ and meet at $(0, 1)$."
+            ],
+            "finalAnswer": "Two curves meeting at $(0, 1)$: $y = 2.5^x$ increasing and $y = 2.5^{-x}$ decreasing, mirror images in the $y$-axis.",
+            "solutionFigures": [],
+            "tip": "Reflecting in the $y$-axis swaps the sign of each $x$-coordinate."
+          }
+        },
+        {
+          "id": "ch9_ex10_q17b",
+          "number": "17(b)",
+          "category": null,
+          "questionText": "Using the graphs of $y = (2.5)^x$ and $y = (2.5)^{-x}$, explain the effect of a negative index on the equation $y = a^x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Replacing $x$ with $-x$ reflects a graph in the $y$-axis.",
+            "steps": [
+              "The point $(p, q)$ on $y = a^x$ corresponds to $(-p, q)$ on $y = a^{-x}$.",
+              "So the increasing curve becomes a decreasing curve."
+            ],
+            "finalAnswer": "Changing the sign of the index reflects the graph in the $y$-axis.",
+            "solutionFigures": [],
+            "tip": "A negative in front of $a^x$ reflects in the $x$-axis instead."
+          }
+        },
+        {
+          "id": "ch9_ex10_q18a",
+          "number": "18(a)",
+          "category": null,
+          "questionText": "Sketch $y = \\frac{4}{x}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{k}{x}$, $k > 0$: branches in quadrants 1 and 3; asymptotes $x = 0$, $y = 0$.",
+            "steps": [
+              "Points: $(1, 4)$, $(2, 2)$, $(4, 1)$, $(-1, -4)$, $(-2, -2)$, $(-4, -1)$.",
+              "Asymptotes $x = 0$ and $y = 0$; no intercepts."
+            ],
+            "finalAnswer": "A hyperbola with branches in quadrants 1 and 3, through $(1, 4)$ and $(-1, -4)$, asymptotes $x = 0$, $y = 0$.",
+            "solutionFigures": [],
+            "tip": "Label a point such as $(1, 4)$ to show the dilation factor."
+          }
+        },
+        {
+          "id": "ch9_ex10_q18b",
+          "number": "18(b)",
+          "category": null,
+          "questionText": "Sketch $y = -\\frac{2}{x}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = -\\frac{k}{x}$: reflection of $y = \\frac{k}{x}$ in the $x$-axis; branches in quadrants 2 and 4.",
+            "steps": [
+              "Points: $(1, -2)$, $(2, -1)$, $(-1, 2)$, $(-2, 1)$.",
+              "Asymptotes $x = 0$ and $y = 0$; no intercepts."
+            ],
+            "finalAnswer": "A hyperbola with branches in quadrants 2 and 4, through $(1, -2)$ and $(-1, 2)$, asymptotes $x = 0$, $y = 0$.",
+            "solutionFigures": [],
+            "tip": "The negative sign moves the branches to the 2nd and 4th quadrants."
+          }
+        },
+        {
+          "id": "ch9_ex10_q19",
+          "number": "19",
+          "category": null,
+          "questionText": "Sketch $y = \\frac{-3}{x - 2}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{a}{x - h} + k$: asymptotes $x = h$, $y = k$; $a < 0$ reflects in the $x$-axis.",
+            "steps": [
+              "$a = -3$, $h = 2$, $k = 0$: asymptotes $x = 2$, $y = 0$.",
+              "$y$-intercept: $y = \\frac{-3}{0 - 2} = \\frac{3}{2}$, so $(0, \\frac{3}{2})$.",
+              "No $x$-intercept.",
+              "Another point: $x = 3$: $y = \\frac{-3}{1} = -3$, so $(3, -3)$.",
+              "Branches: upper-left (for $x < 2$) and lower-right (for $x > 2$)."
+            ],
+            "finalAnswer": "Hyperbola with asymptotes $x = 2$ and $y = 0$, $y$-intercept $(0, \\frac{3}{2})$, through $(3, -3)$, branches upper-left and lower-right.",
+            "solutionFigures": [],
+            "tip": "Substitute a value on each side of $x = 2$ to place the branches."
+          }
+        },
+        {
+          "id": "ch9_ex10_q20",
+          "number": "20",
+          "category": null,
+          "questionText": "Give an example of an equation of a hyperbola that has a vertical asymptote at $x = -3$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\frac{a}{x - h} + k$ has vertical asymptote $x = h$.",
+            "steps": [
+              "Need $h = -3$, so the denominator is $x + 3$.",
+              "Choose $a = 1$, $k = 0$: $y = \\frac{1}{x + 3}$."
+            ],
+            "finalAnswer": "For example, $y = \\frac{1}{x + 3}$.",
+            "solutionFigures": [],
+            "tip": "Check: $x + 3 = 0$ when $x = -3$ ✓."
+          }
+        },
+        {
+          "id": "ch9_ex10_q21a",
+          "number": "21(a)",
+          "category": null,
+          "questionText": "Sketch the circle $x^2 + y^2 = 16$. Clearly show the centre and the radius.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$x^2 + y^2 = r^2$: centre $(0, 0)$, radius $r$.",
+            "steps": [
+              "$r^2 = 16 \\Rightarrow r = 4$.",
+              "Centre $(0, 0)$; intercepts $(\\pm 4, 0)$ and $(0, \\pm 4)$."
+            ],
+            "finalAnswer": "Centre $(0, 0)$, radius 4.",
+            "solutionFigures": [],
+            "tip": "The radius is $\\sqrt{16} = 4$, not 16."
+          }
+        },
+        {
+          "id": "ch9_ex10_q21b",
+          "number": "21(b)",
+          "category": null,
+          "questionText": "Sketch the circle $(x - 5)^2 + (y + 3)^2 = 64$. Clearly show the centre and the radius.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$(x - h)^2 + (y - k)^2 = r^2$: centre $(h, k)$, radius $r$.",
+            "steps": [
+              "Centre $(5, -3)$, $r = \\sqrt{64} = 8$.",
+              "Extreme points: $(-3, -3)$, $(13, -3)$, $(5, 5)$, $(5, -11)$.",
+              "$x$-intercepts ($y = 0$): $(x - 5)^2 = 55 \\Rightarrow x = 5 \\pm \\sqrt{55} \\approx 12.42, -2.42$.",
+              "$y$-intercepts ($x = 0$): $(y + 3)^2 = 39 \\Rightarrow y = -3 \\pm \\sqrt{39} \\approx 3.24, -9.24$."
+            ],
+            "finalAnswer": "Centre $(5, -3)$, radius 8.",
+            "solutionFigures": [],
+            "tip": "$(y + 3)$ gives $k = -3$."
+          }
+        },
+        {
+          "id": "ch9_ex10_q22a",
+          "number": "22(a)",
+          "category": null,
+          "questionText": "Sketch the circle $x^2 + 4x + y^2 - 2y = 4$. Remember to first complete the square.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complete the square on $x$ and $y$, then use $(x - h)^2 + (y - k)^2 = r^2$.",
+            "steps": [
+              "$(x^2 + 4x + 4) - 4 + (y^2 - 2y + 1) - 1 = 4$",
+              "$(x + 2)^2 + (y - 1)^2 = 4 + 4 + 1 = 9$",
+              "Centre $(-2, 1)$, radius 3.",
+              "Extreme points: $(-5, 1)$, $(1, 1)$, $(-2, 4)$, $(-2, -2)$."
+            ],
+            "finalAnswer": "$(x + 2)^2 + (y - 1)^2 = 9$: centre $(-2, 1)$, radius 3.",
+            "solutionFigures": [],
+            "tip": "Add the completing-the-square numbers to both sides."
+          }
+        },
+        {
+          "id": "ch9_ex10_q22b",
+          "number": "22(b)",
+          "category": null,
+          "questionText": "Sketch the circle $x^2 + 8x + y^2 + 8y = 32$. Remember to first complete the square.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complete the square on $x$ and $y$, then use $(x - h)^2 + (y - k)^2 = r^2$.",
+            "steps": [
+              "$(x^2 + 8x + 16) - 16 + (y^2 + 8y + 16) - 16 = 32$",
+              "$(x + 4)^2 + (y + 4)^2 = 32 + 16 + 16 = 64$",
+              "Centre $(-4, -4)$, radius 8.",
+              "Extreme points: $(-12, -4)$, $(4, -4)$, $(-4, 4)$, $(-4, -12)$."
+            ],
+            "finalAnswer": "$(x + 4)^2 + (y + 4)^2 = 64$: centre $(-4, -4)$, radius 8.",
+            "solutionFigures": [],
+            "tip": "$32 + 16 + 16 = 64 = 8^2$."
+          }
+        },
+        {
+          "id": "ch9_ex10_q23",
+          "number": "23",
+          "category": null,
+          "questionText": "Determine the equation of this circle. The graph shows a circle centred at the origin that crosses the axes at $(6, 0)$, $(-6, 0)$, $(0, 6)$ and $(0, -6)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$x^2 + y^2 = r^2$",
+            "steps": [
+              "Centre $(0, 0)$; radius $= 6$ (distance to $(6, 0)$).",
+              "$x^2 + y^2 = 6^2 = 36$"
+            ],
+            "finalAnswer": "$x^2 + y^2 = 36$",
+            "solutionFigures": [],
+            "tip": "Write $r^2$ on the right, not $r$."
+          }
+        },
+        {
+          "id": "ch9_ex10_q24a",
+          "number": "24(a)",
+          "category": null,
+          "questionText": "The height, $h$, in metres of a golf ball $t$ seconds after it is hit is given by the formula $h = 4t - t^2$. Sketch the graph of the path of the ball.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Factorise for intercepts; turning point midway between them.",
+            "steps": [
+              "$h = t(4 - t)$: $h = 0$ when $t = 0$ or $t = 4$.",
+              "Axis of symmetry: $t = 2$; $h = 4(2) - 2^2 = 4$; turning point $(2, 4)$.",
+              "Coefficient of $t^2$ is negative, so the parabola opens downward.",
+              "Sketch for $0 \\le t \\le 4$: from $(0, 0)$ up to $(2, 4)$ and down to $(4, 0)$."
+            ],
+            "finalAnswer": "An inverted parabola from $(0, 0)$ to $(4, 0)$ with maximum $(2, 4)$.",
+            "solutionFigures": [],
+            "tip": "Only sketch $0 \\le t \\le 4$, since height cannot be negative."
+          }
+        },
+        {
+          "id": "ch9_ex10_q24b",
+          "number": "24(b)",
+          "category": null,
+          "questionText": "The height of a golf ball is $h = 4t - t^2$ metres after $t$ seconds. Calculate the maximum height the golf ball reaches.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Maximum at $t = -\\frac{b}{2a}$.",
+            "steps": [
+              "$t = -\\frac{4}{2(-1)} = 2$",
+              "$h = 4(2) - 2^2 = 8 - 4 = 4$"
+            ],
+            "finalAnswer": "The maximum height is 4 m.",
+            "solutionFigures": [],
+            "tip": "The maximum height is the $h$-coordinate of the turning point."
+          }
+        },
+        {
+          "id": "ch9_ex10_q24c",
+          "number": "24(c)",
+          "category": null,
+          "questionText": "The height of a golf ball is $h = 4t - t^2$ metres after $t$ seconds. Determine how long it takes for the ball to reach the maximum height.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Time of maximum = $t$-coordinate of the turning point.",
+            "steps": [
+              "Turning point $(2, 4)$, so $t = 2$."
+            ],
+            "finalAnswer": "It takes 2 seconds to reach the maximum height.",
+            "solutionFigures": [],
+            "tip": "The time is the first coordinate of the turning point."
+          }
+        },
+        {
+          "id": "ch9_ex10_q24d",
+          "number": "24(d)",
+          "category": null,
+          "questionText": "The height of a golf ball is $h = 4t - t^2$ metres after $t$ seconds. Determine how long it is before the ball lands on the ground after it has been hit.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The ball lands when $h = 0$ (other than $t = 0$).",
+            "steps": [
+              "$0 = t(4 - t)$",
+              "$t = 0$ (when hit) or $t = 4$ (when it lands)."
+            ],
+            "finalAnswer": "The ball lands after 4 seconds.",
+            "solutionFigures": [],
+            "tip": "Reject $t = 0$: that is the moment the ball is hit."
+          }
+        },
+        {
+          "id": "ch9_ex10_q25a",
+          "number": "25(a)",
+          "category": null,
+          "questionText": "A soccer ball is kicked upwards in the air. The height, $h$, in metres, $t$ seconds after the kick is modelled by the quadratic equation $h = -5t^2 + 20t$. Sketch the graph of this relationship.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Factorise for intercepts; turning point on the axis of symmetry.",
+            "steps": [
+              "$h = -5t(t - 4)$: $h = 0$ at $t = 0$ and $t = 4$.",
+              "Axis of symmetry $t = 2$; $h = -5(4) + 40 = 20$; turning point $(2, 20)$.",
+              "Downward parabola for $0 \\le t \\le 4$."
+            ],
+            "finalAnswer": "An inverted parabola from $(0, 0)$ to $(4, 0)$ with maximum $(2, 20)$.",
+            "solutionFigures": [],
+            "tip": "Factor out $-5t$ to find the intercepts quickly."
+          }
+        },
+        {
+          "id": "ch9_ex10_q25b",
+          "number": "25(b)",
+          "category": null,
+          "questionText": "A soccer ball's height is $h = -5t^2 + 20t$ metres, $t$ seconds after the kick. Determine how many seconds the ball is in the air for.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Solve $h = 0$.",
+            "steps": [
+              "$-5t(t - 4) = 0 \\Rightarrow t = 0$ or $t = 4$.",
+              "The ball is in the air from $t = 0$ to $t = 4$."
+            ],
+            "finalAnswer": "The ball is in the air for 4 seconds.",
+            "solutionFigures": [],
+            "tip": "Time in the air is the difference between the two zeros."
+          }
+        },
+        {
+          "id": "ch9_ex10_q25c",
+          "number": "25(c)",
+          "category": null,
+          "questionText": "A soccer ball's height is $h = -5t^2 + 20t$ metres, $t$ seconds after the kick. Determine how many seconds the ball is above a height of 15 m. That is, solve the quadratic inequation $-5t^2 + 20t > 15$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Rearrange to $ax^2 + bx + c > 0$, find the roots, then use the shape of the parabola.",
+            "steps": [
+              "$-5t^2 + 20t - 15 > 0$",
+              "Divide by $-5$ (reverse the inequality): $t^2 - 4t + 3 < 0$",
+              "$(t - 1)(t - 3) < 0$",
+              "An upward parabola is negative between its roots: $1 < t < 3$.",
+              "Duration $= 3 - 1 = 2$ seconds."
+            ],
+            "finalAnswer": "The ball is above 15 m for 2 seconds ($1 < t < 3$).",
+            "solutionFigures": [],
+            "tip": "Dividing an inequality by a negative number reverses the sign."
+          }
+        },
+        {
+          "id": "ch9_ex10_q25d",
+          "number": "25(d)",
+          "category": null,
+          "questionText": "A soccer ball's height is $h = -5t^2 + 20t$ metres, $t$ seconds after the kick. Calculate how many seconds the ball is above a height of 20 m.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Compare with the maximum height (turning point).",
+            "steps": [
+              "Maximum height from part a: 20 m at $t = 2$.",
+              "Solve $-5t^2 + 20t > 20$: $t^2 - 4t + 4 < 0 \\Rightarrow (t - 2)^2 < 0$, which has no solution.",
+              "The ball only just reaches 20 m at $t = 2$."
+            ],
+            "finalAnswer": "The ball is never above 20 m (0 seconds); it reaches exactly 20 m only at $t = 2$.",
+            "solutionFigures": [],
+            "tip": "A perfect square can never be negative."
+          }
+        },
+        {
+          "id": "ch9_ex10_q26a",
+          "number": "26(a)",
+          "category": null,
+          "questionText": "The height of the water level in a cave is determined by the tides. At any time, $t$, in hours after 9 am, the height, $h(t)$, in metres, can be modelled by the function $h(t) = t^2 - 12t + 32$, $0 \\le t \\le 12$. Determine the values of $t$ for which the model is valid. Write your answer in interval notation.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Closed interval notation: $a \\le t \\le b$ is written $[a, b]$.",
+            "steps": [
+              "The domain is given as $0 \\le t \\le 12$ (9 am to 9 pm).",
+              "Both endpoints are included, so square brackets are used."
+            ],
+            "finalAnswer": "$t \\in [0, 12]$",
+            "solutionFigures": [],
+            "tip": "Use round brackets only when an endpoint is excluded."
+          }
+        },
+        {
+          "id": "ch9_ex10_q26b",
+          "number": "26(b)",
+          "category": null,
+          "questionText": "The water height in a cave is $h(t) = t^2 - 12t + 32$ metres, $t$ hours after 9 am. State the initial height of the water.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Initial means $t = 0$.",
+            "steps": [
+              "$h(0) = 0 - 0 + 32 = 32$"
+            ],
+            "finalAnswer": "The initial height is 32 m.",
+            "solutionFigures": [],
+            "tip": "The initial value is the constant term of the quadratic."
+          }
+        },
+        {
+          "id": "ch9_ex10_q26c",
+          "number": "26(c)",
+          "category": null,
+          "questionText": "The water height in a cave is $h(t) = t^2 - 12t + 32$ metres, $t$ hours after 9 am, $0 \\le t \\le 12$. Bertha has dropped her keys onto a ledge which is 7 metres from the bottom of the cave. By using a graphics calculator, determine the times in which she would be able to climb down to retrieve her keys. Write your answers correct to the nearest minute.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Solve $h(t) < 7$ using the quadratic formula $t = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.",
+            "steps": [
+              "She can reach the keys when the water is below the ledge: $t^2 - 12t + 32 < 7$.",
+              "$t^2 - 12t + 25 < 0$",
+              "Roots: $t = \\frac{12 \\pm \\sqrt{144 - 100}}{2} = \\frac{12 \\pm \\sqrt{44}}{2} = 6 \\pm \\sqrt{11}$",
+              "$\\sqrt{11} \\approx 3.3166$, so $t \\approx 2.6834$ or $t \\approx 9.3166$.",
+              "The upward parabola is below 7 between the roots: $2.6834 < t < 9.3166$.",
+              "$2.6834$ h $= 2$ h $+ 0.6834 \\times 60 \\approx 41$ min, so 9 am $+$ 2 h 41 min $=$ 11:41 am.",
+              "$9.3166$ h $= 9$ h $+ 0.3166 \\times 60 \\approx 19$ min, so 9 am $+$ 9 h 19 min $=$ 6:19 pm."
+            ],
+            "finalAnswer": "Bertha can retrieve her keys between 11:41 am and 6:19 pm.",
+            "solutionFigures": [],
+            "tip": "Convert decimal hours to minutes and add to the 9 am start time."
+          }
+        },
+        {
+          "id": "ch9_ex10_q27a",
+          "number": "27(a)",
+          "category": null,
+          "questionText": "When a drop of water hits the flat surface of a pool, circular ripples are made. One ripple is represented by the equation $x^2 + y^2 = 9$ and 5 seconds later, the ripple is represented by the equation $x^2 + y^2 = 225$, where the lengths of the radii are in cm. State the radius of each of the ripples.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$x^2 + y^2 = r^2$",
+            "steps": [
+              "First: $r^2 = 9 \\Rightarrow r = 3$ cm.",
+              "Second: $r^2 = 225 \\Rightarrow r = 15$ cm."
+            ],
+            "finalAnswer": "The first ripple has radius 3 cm and the second has radius 15 cm.",
+            "solutionFigures": [],
+            "tip": "Take the square root of the right-hand side."
+          }
+        },
+        {
+          "id": "ch9_ex10_q27b",
+          "number": "27(b)",
+          "category": null,
+          "questionText": "Sketch the graphs of the ripples $x^2 + y^2 = 9$ and $x^2 + y^2 = 225$ (radii in cm).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Circles centred at $(0, 0)$ with radii 3 and 15.",
+            "steps": [
+              "Small circle: through $(\\pm 3, 0)$, $(0, \\pm 3)$.",
+              "Large circle: through $(\\pm 15, 0)$, $(0, \\pm 15)$.",
+              "Both share the centre $(0, 0)$ (concentric circles)."
+            ],
+            "finalAnswer": "Two concentric circles centred at the origin with radii 3 cm and 15 cm.",
+            "solutionFigures": [],
+            "tip": "Use the same scale on both axes."
+          }
+        },
+        {
+          "id": "ch9_ex10_q27c",
+          "number": "27(c)",
+          "category": null,
+          "questionText": "A ripple has radius 3 cm and, 5 seconds later, radius 15 cm. Evaluate how fast the ripple is moving outwards.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Speed $= \\frac{\\text{change in radius}}{\\text{time}}$",
+            "steps": [
+              "$\\frac{15 - 3}{5} = \\frac{12}{5} = 2.4$"
+            ],
+            "finalAnswer": "The ripple moves outwards at 2.4 cm/s.",
+            "solutionFigures": [],
+            "tip": "Use radii (3 and 15), not 9 and 225."
+          }
+        },
+        {
+          "id": "ch9_ex10_q27d",
+          "number": "27(d)",
+          "category": null,
+          "questionText": "A ripple has radius 3 cm and, 5 seconds later, radius 15 cm, moving outwards at 2.4 cm/s. If the ripple continues to move at the same rate, determine when it will hit the edge of the pool which is 2 m from its centre.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Time $= \\frac{\\text{distance}}{\\text{speed}}$; 2 m = 200 cm.",
+            "steps": [
+              "Measuring time from the first observed ripple (radius 3 cm):",
+              "Distance still to travel: $200 - 3 = 197$ cm.",
+              "Time $= \\frac{197}{2.4} = 82.08\\ldots$ s $\\approx 82.1$ s.",
+              "$82.1$ s $= 60$ s $+ 22.1$ s $= 1$ min $22.1$ s."
+            ],
+            "finalAnswer": "The ripple reaches the edge about 1 minute 22.1 seconds after the first ripple (radius 3 cm) is observed. (If timed from the instant of impact, when the radius is 0, it is $\\frac{200}{2.4} \\approx 83.3$ s.)",
+            "solutionFigures": [],
+            "tip": "Convert metres to centimetres so the units match the speed."
+          }
+        },
+        {
+          "id": "ch9_ex10_q28a",
+          "number": "28(a)",
+          "category": null,
+          "questionText": "Seventy grams of ammonium sulfate crystals are dissolved in 0.5 L of water. Determine the concentration of the solution in g/mL.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Concentration $= \\frac{\\text{mass}}{\\text{volume}}$; 1 L = 1000 mL.",
+            "steps": [
+              "$0.5$ L $= 500$ mL.",
+              "$C = \\frac{70}{500} = 0.14$ g/mL"
+            ],
+            "finalAnswer": "The concentration is 0.14 g/mL.",
+            "solutionFigures": [],
+            "tip": "Convert litres to millilitres first."
+          }
+        },
+        {
+          "id": "ch9_ex10_q28b",
+          "number": "28(b)",
+          "category": null,
+          "questionText": "Seventy grams of ammonium sulfate crystals are dissolved in 0.5 L of water. Another 500 mL of water is added. Determine the concentration of the solution now.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Concentration $= \\frac{\\text{mass}}{\\text{volume}}$ (inversely proportional to volume for a fixed mass).",
+            "steps": [
+              "New volume: $500 + 500 = 1000$ mL.",
+              "$C = \\frac{70}{1000} = 0.07$ g/mL",
+              "Check: doubling the volume halves the concentration: $\\frac{0.14}{2} = 0.07$ ✓"
+            ],
+            "finalAnswer": "The concentration is now 0.07 g/mL.",
+            "solutionFigures": [],
+            "tip": "Adding water dilutes the solution, so the concentration must go down."
+          }
+        },
+        {
+          "id": "ch9_ex10_q29",
+          "number": "29",
+          "category": null,
+          "questionText": "Use technology to graph the equations $y = x^2$ and $y = 2^x$ on the same axes. Using the graphs, determine the solution to $x^2 = 2^x$. Give your answers correct to 2 decimal places. How can you be sure you have found all the solutions?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Solutions of $f(x) = g(x)$ are the $x$-coordinates of the intersection points of $y = f(x)$ and $y = g(x)$.",
+            "steps": [
+              "Graph $y = x^2$ (parabola) and $y = 2^x$ (exponential) together.",
+              "Intersection at $x = 2$: $2^2 = 4$ and $2^2 = 4$ ✓, point $(2, 4)$.",
+              "Intersection at $x = 4$: $4^2 = 16$ and $2^4 = 16$ ✓, point $(4, 16)$.",
+              "Intersection for negative $x$: technology gives $x \\approx -0.77$, $y \\approx 0.59$ (check: $(-0.767)^2 \\approx 0.588$, $2^{-0.767} \\approx 0.588$).",
+              "For $x > 4$, $2^x$ grows faster than $x^2$ and stays above it; for $x < -0.77$, $x^2$ increases while $2^x$ approaches 0, so they never meet again."
+            ],
+            "finalAnswer": "$x \\approx -0.77$, $x = 2$ and $x = 4$ (points $(-0.77, 0.59)$, $(2, 4)$, $(4, 16)$). Zooming out shows $2^x$ rises more steeply than $x^2$ beyond $x = 4$, so there are no further intersections.",
+            "solutionFigures": [],
+            "tip": "The negative solution is easy to miss; zoom in near the origin."
+          }
+        },
+        {
+          "id": "ch9_ex10_q30a",
+          "number": "30(a)",
+          "category": null,
+          "questionText": "A grassed area is planted in a courtyard that has a width of 5 metres and length of 7 metres. The shape of the grassed area is described by the function $P = -x^2 + 5x$, where $P$ is the distance, in metres, from the house and $x$ is the distance, in metres, from the side wall. (The diagram shows the house along the $x$-axis from $x = 0$ to $x = 5$, the side wall along the vertical axis, and the courtyard extending 7 m from the house.) In terms of $P$, write down an inequality that describes the region where the grass has been planted.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The region under a curve $y = f(x)$ and above the axis is $0 \\le y \\le f(x)$.",
+            "steps": [
+              "The grass lies between the house ($P = 0$) and the curve $P = -x^2 + 5x$.",
+              "The curve meets the house at $x = 0$ and $x = 5$ (since $-x(x - 5) = 0$).",
+              "So the region is $0 \\le P \\le -x^2 + 5x$ for $0 \\le x \\le 5$."
+            ],
+            "finalAnswer": "$P \\le -x^2 + 5x$, $0 \\le x \\le 5$ (with $P \\ge 0$).",
+            "solutionFigures": [],
+            "tip": "State the $x$-domain as well as the inequality."
+          }
+        },
+        {
+          "id": "ch9_ex10_q30b",
+          "number": "30(b)",
+          "category": null,
+          "questionText": "A grassed area in a 5 m by 7 m courtyard is described by $P = -x^2 + 5x$, where $P$ is the distance (m) from the house and $x$ the distance (m) from the side wall. Determine the maximum distance the grass area is planted from the house.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Maximum of $ax^2 + bx + c$ ($a < 0$) at $x = -\\frac{b}{2a}$.",
+            "steps": [
+              "$x = -\\frac{5}{2(-1)} = 2.5$",
+              "$P = -(2.5)^2 + 5(2.5) = -6.25 + 12.5 = 6.25$"
+            ],
+            "finalAnswer": "The maximum distance is 6.25 m from the house.",
+            "solutionFigures": [],
+            "tip": "$-(2.5)^2 = -6.25$: square first, then apply the negative."
+          }
+        },
+        {
+          "id": "ch9_ex10_q30ci",
+          "number": "30(c)(i)",
+          "category": null,
+          "questionText": "A grassed area in a 5 m by 7 m courtyard was described by $P = -x^2 + 5x$. The owners would prefer all of the grass to be within a maximum distance of 3.5 metres from the house. The shape of the lawn following this design can be described by the equation $N(x) = ax^2 + bx + c$. Using algebra, show that this new design can be described by the function $N(x) = -0.56x(x - 5)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "A parabola with $x$-intercepts $p$ and $q$ is $y = a(x - p)(x - q)$; its turning point is midway between them.",
+            "steps": [
+              "The lawn still meets the house at $x = 0$ and $x = 5$, so $N(x) = a(x - 0)(x - 5) = ax(x - 5)$.",
+              "The maximum is at $x = \\frac{0 + 5}{2} = 2.5$ and must equal 3.5.",
+              "$N(2.5) = a(2.5)(2.5 - 5) = a(2.5)(-2.5) = -6.25a$",
+              "$-6.25a = 3.5 \\Rightarrow a = \\frac{3.5}{-6.25} = -0.56$",
+              "So $N(x) = -0.56x(x - 5)$ (expanded: $N(x) = -0.56x^2 + 2.8x$, so $a = -0.56$, $b = 2.8$, $c = 0$)."
+            ],
+            "finalAnswer": "Therefore $N(x) = -0.56x(x - 5)$, as required.",
+            "solutionFigures": [],
+            "tip": "Use intercept form when the $x$-intercepts are known."
+          }
+        },
+        {
+          "id": "ch9_ex10_q30cii",
+          "number": "30(c)(ii)",
+          "category": null,
+          "questionText": "The original lawn is $P(x) = -x^2 + 5x$ and the new lawn is $N(x) = -0.56x(x - 5)$. Describe the transformation that maps $P(x)$ to $N(x)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = k f(x)$ is a dilation of $y = f(x)$ by factor $k$ parallel to the $y$-axis (from the $x$-axis).",
+            "steps": [
+              "$P(x) = -x^2 + 5x = -x(x - 5)$.",
+              "$N(x) = -0.56x(x - 5) = 0.56 \\times [-x(x - 5)] = 0.56P(x)$.",
+              "Check: maximum $6.25 \\times 0.56 = 3.5$ ✓"
+            ],
+            "finalAnswer": "$N(x)$ is a dilation of $P(x)$ by a factor of 0.56 parallel to the $y$-axis (from the $x$-axis).",
+            "solutionFigures": [],
+            "tip": "The intercepts stay the same under a dilation from the $x$-axis."
+          }
+        },
+        {
+          "id": "ch9_ex10_q30d",
+          "number": "30(d)",
+          "category": null,
+          "questionText": "If the owners decide on the first design, $P(x) = -x^2 + 5x$, the percentage of area within the 5 m by 7 m courtyard without grass is 40.5%. By using any method, determine the approximate percentage of area of courtyard without lawn with the new design, $N(x) = -0.56x(x - 5)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "A dilation by factor $k$ from the $x$-axis multiplies the area under the curve by $k$.",
+            "steps": [
+              "Courtyard area: $5 \\times 7 = 35$ m$^2$.",
+              "Original grass: $100\\% - 40.5\\% = 59.5\\%$ of the courtyard.",
+              "Since $N = 0.56P$, the new grass area is $0.56$ times the old: $0.56 \\times 59.5\\% = 33.32\\%$.",
+              "Check with the parabolic segment rule (area $= \\frac{2}{3} \\times$ base $\\times$ height): new grass $= \\frac{2}{3} \\times 5 \\times 3.5 = 11.67$ m$^2$, and $\\frac{11.67}{35} = 33.3\\%$ ✓.",
+              "Without lawn: $100\\% - 33.3\\% = 66.7\\%$."
+            ],
+            "finalAnswer": "About 66.7% of the courtyard will be without lawn.",
+            "solutionFigures": [],
+            "tip": "Work with the grassed percentage, then subtract from 100%."
+          }
+        },
+        {
+          "id": "ch9_ex10_q31a",
+          "number": "31(a)",
+          "category": null,
+          "questionText": "A stone arch bridge has a span of 50 metres. The shape of the curve AB can be modelled using a quadratic equation. Taking A as the origin $(0, 0)$ and B at $(50, 0)$, and given that the maximum height of the arch above the water level is 4.5 metres, show using algebra that the shape of the arch can be modelled using the equation $b(x) = -0.0072x^2 + 0.36x$, where $b(x)$ is the vertical height of the bridge, in metres, and $x$ is the horizontal distance, in metres.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Intercept form $b(x) = ax(x - 50)$; the maximum is midway between the intercepts.",
+            "steps": [
+              "Zeros at $x = 0$ and $x = 50$: $b(x) = ax(x - 50)$.",
+              "Maximum at $x = 25$: $b(25) = a(25)(25 - 50) = -625a$.",
+              "$-625a = 4.5 \\Rightarrow a = -\\frac{4.5}{625} = -0.0072$",
+              "$b(x) = -0.0072x(x - 50) = -0.0072x^2 + 0.36x$"
+            ],
+            "finalAnswer": "Therefore $b(x) = -0.0072x^2 + 0.36x$, as required.",
+            "solutionFigures": [],
+            "tip": "$-0.0072 \\times -50 = +0.36$; watch the signs when expanding."
+          }
+        },
+        {
+          "id": "ch9_ex10_q31b",
+          "number": "31(b)",
+          "category": null,
+          "questionText": "A stone arch bridge is modelled by $b(x) = -0.0072x^2 + 0.36x$ for $0 \\le x \\le 50$ (metres). A floating platform $p$ metres high is towed under the bridge. Given that the platform needs to have a clearance of at least 30 centimetres on each side, explain why the maximum value of $p$ is 10.7 centimetres.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Evaluate $b(x)$ at the edge of the platform, 0.3 m in from each end of the arch.",
+            "steps": [
+              "30 cm $= 0.3$ m, so the platform edges are at $x = 0.3$ and $x = 49.7$ (by symmetry these give the same height).",
+              "$b(0.3) = -0.0072(0.3)^2 + 0.36(0.3) = -0.0072(0.09) + 0.108$",
+              "$= -0.000648 + 0.108 = 0.107352$ m",
+              "$0.107352$ m $\\approx 10.7$ cm",
+              "The arch is lowest at the platform edges, so the platform must be no higher than the arch there."
+            ],
+            "finalAnswer": "At $x = 0.3$ m the arch is only $b(0.3) \\approx 0.107$ m $= 10.7$ cm high, so if $p$ were greater than 10.7 cm the platform would hit the bridge. Hence the maximum value of $p$ is 10.7 cm.",
+            "solutionFigures": [],
+            "tip": "Convert centimetres to metres before substituting."
+          }
+        }
+      ]
+    }
+  ]
+}

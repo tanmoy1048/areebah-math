@@ -1,0 +1,1549 @@
+{
+  "chapterId": "ch09",
+  "chapterTitle": "Non-linear relationships",
+  "topics": [
+    {
+      "topicId": "9.3",
+      "topicTitle": "Sketching parabolas using transformations",
+      "exercises": [
+        {
+          "id": "ch9_ex3_q1a",
+          "number": "1(a)",
+          "category": "Practice",
+          "questionText": "State whether the graph of $y = 5x^2$ is wider or narrower than the graph of $y = x^2$ and state the coordinates of the turning point.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = ax^2$: if $|a| > 1$ the graph is narrower than $y = x^2$; if $0 < |a| < 1$ it is wider. The turning point of $y = ax^2$ is $(0, 0)$.",
+            "steps": [
+              "Given: $y = 5x^2$.",
+              "Goal: compare its width with $y = x^2$ and state the turning point.",
+              "Compare with $y = ax^2$: $a = 5$.",
+              "$|a| = 5 > 1$, so the graph is dilated by a factor of 5 from the $x$-axis and is narrower.",
+              "There is no translation, so the turning point stays at the origin: $x = 0 \\Rightarrow y = 5(0)^2 = 0$."
+            ],
+            "finalAnswer": "Therefore $y = 5x^2$ is narrower than $y = x^2$, with turning point $(0, 0)$.",
+            "solutionFigures": [],
+            "tip": "A larger coefficient makes the parabola rise faster, so it looks narrower, not wider."
+          }
+        },
+        {
+          "id": "ch9_ex3_q1b",
+          "number": "1(b)",
+          "category": "Practice",
+          "questionText": "State whether the graph of $y = \\frac{1}{3}x^2$ is wider or narrower than the graph of $y = x^2$ and state the coordinates of the turning point.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = ax^2$: $|a| > 1$ gives a narrower graph; $0 < |a| < 1$ gives a wider graph. Turning point $(0, 0)$.",
+            "steps": [
+              "Given: $y = \\frac{1}{3}x^2$.",
+              "Goal: compare its width with $y = x^2$ and state the turning point.",
+              "Compare with $y = ax^2$: $a = \\frac{1}{3}$.",
+              "$0 < \\frac{1}{3} < 1$, so the graph is dilated by a factor of $\\frac{1}{3}$ from the $x$-axis and is wider.",
+              "No translation, so the turning point is $(0, 0)$."
+            ],
+            "finalAnswer": "Therefore $y = \\frac{1}{3}x^2$ is wider than $y = x^2$, with turning point $(0, 0)$.",
+            "solutionFigures": [],
+            "tip": "A fraction between 0 and 1 in front of $x^2$ flattens the curve, making it wider."
+          }
+        },
+        {
+          "id": "ch9_ex3_q2a",
+          "number": "2(a)",
+          "category": "Consolidate",
+          "questionText": "State whether the graph of $y = 7x^2$ is wider or narrower than the graph of $y = x^2$ and state the coordinates of the turning point.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = ax^2$: $|a| > 1$ gives a narrower graph; $0 < |a| < 1$ gives a wider graph. Turning point $(0, 0)$.",
+            "steps": [
+              "Given: $y = 7x^2$.",
+              "Goal: compare its width with $y = x^2$ and state the turning point.",
+              "$a = 7$ and $|a| = 7 > 1$, so the graph is narrower.",
+              "No translation, so the turning point is $(0, 0)$."
+            ],
+            "finalAnswer": "Therefore $y = 7x^2$ is narrower than $y = x^2$, with turning point $(0, 0)$.",
+            "solutionFigures": [],
+            "tip": "Only the size of $a$ decides width; the turning point of $y = ax^2$ is always the origin."
+          }
+        },
+        {
+          "id": "ch9_ex3_q2b",
+          "number": "2(b)",
+          "category": "Consolidate",
+          "questionText": "State whether the graph of $y = 10x^2$ is wider or narrower than the graph of $y = x^2$ and state the coordinates of the turning point.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = ax^2$: $|a| > 1$ gives a narrower graph; $0 < |a| < 1$ gives a wider graph. Turning point $(0, 0)$.",
+            "steps": [
+              "Given: $y = 10x^2$.",
+              "Goal: compare its width with $y = x^2$ and state the turning point.",
+              "$a = 10$ and $|a| = 10 > 1$, so the graph is narrower.",
+              "No translation, so the turning point is $(0, 0)$."
+            ],
+            "finalAnswer": "Therefore $y = 10x^2$ is narrower than $y = x^2$, with turning point $(0, 0)$.",
+            "solutionFigures": [],
+            "tip": "Check a point: at $x = 1$, $y = 10$ instead of $1$, so the curve climbs much faster."
+          }
+        },
+        {
+          "id": "ch9_ex3_q2c",
+          "number": "2(c)",
+          "category": "Consolidate",
+          "questionText": "State whether the graph of $y = \\frac{2}{5}x^2$ is wider or narrower than the graph of $y = x^2$ and state the coordinates of the turning point.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = ax^2$: $|a| > 1$ gives a narrower graph; $0 < |a| < 1$ gives a wider graph. Turning point $(0, 0)$.",
+            "steps": [
+              "Given: $y = \\frac{2}{5}x^2$.",
+              "Goal: compare its width with $y = x^2$ and state the turning point.",
+              "$a = \\frac{2}{5} = 0.4$ and $0 < 0.4 < 1$, so the graph is wider.",
+              "No translation, so the turning point is $(0, 0)$."
+            ],
+            "finalAnswer": "Therefore $y = \\frac{2}{5}x^2$ is wider than $y = x^2$, with turning point $(0, 0)$.",
+            "solutionFigures": [],
+            "tip": "Convert fractions to decimals to compare them with 1 quickly."
+          }
+        },
+        {
+          "id": "ch9_ex3_q3a",
+          "number": "3(a)",
+          "category": "Master",
+          "questionText": "State whether the graph of $y = 0.25x^2$ is wider or narrower than the graph of $y = x^2$ and state the coordinates of the turning point.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = ax^2$: $|a| > 1$ gives a narrower graph; $0 < |a| < 1$ gives a wider graph. Turning point $(0, 0)$.",
+            "steps": [
+              "Given: $y = 0.25x^2$.",
+              "Goal: compare its width with $y = x^2$ and state the turning point.",
+              "$a = 0.25$ and $0 < 0.25 < 1$, so the graph is wider.",
+              "No translation, so the turning point is $(0, 0)$."
+            ],
+            "finalAnswer": "Therefore $y = 0.25x^2$ is wider than $y = x^2$, with turning point $(0, 0)$.",
+            "solutionFigures": [],
+            "tip": "Decimals less than 1 make the parabola wider."
+          }
+        },
+        {
+          "id": "ch9_ex3_q3b",
+          "number": "3(b)",
+          "category": "Master",
+          "questionText": "State whether the graph of $y = 1.3x^2$ is wider or narrower than the graph of $y = x^2$ and state the coordinates of the turning point.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = ax^2$: $|a| > 1$ gives a narrower graph; $0 < |a| < 1$ gives a wider graph. Turning point $(0, 0)$.",
+            "steps": [
+              "Given: $y = 1.3x^2$.",
+              "Goal: compare its width with $y = x^2$ and state the turning point.",
+              "$a = 1.3$ and $1.3 > 1$, so the graph is narrower.",
+              "No translation, so the turning point is $(0, 0)$."
+            ],
+            "finalAnswer": "Therefore $y = 1.3x^2$ is narrower than $y = x^2$, with turning point $(0, 0)$.",
+            "solutionFigures": [],
+            "tip": "Even a value just above 1 makes the graph slightly narrower."
+          }
+        },
+        {
+          "id": "ch9_ex3_q3c",
+          "number": "3(c)",
+          "category": "Master",
+          "questionText": "State whether the graph of $y = \\sqrt{3}x^2$ is wider or narrower than the graph of $y = x^2$ and state the coordinates of the turning point.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = ax^2$: $|a| > 1$ gives a narrower graph; $0 < |a| < 1$ gives a wider graph. Turning point $(0, 0)$.",
+            "steps": [
+              "Given: $y = \\sqrt{3}x^2$.",
+              "Goal: compare its width with $y = x^2$ and state the turning point.",
+              "$a = \\sqrt{3} \\approx 1.73$ and $1.73 > 1$, so the graph is narrower.",
+              "No translation, so the turning point is $(0, 0)$."
+            ],
+            "finalAnswer": "Therefore $y = \\sqrt{3}x^2$ is narrower than $y = x^2$, with turning point $(0, 0)$.",
+            "solutionFigures": [],
+            "tip": "Estimate surds as decimals ($\\sqrt{3} \\approx 1.73$) before comparing with 1."
+          }
+        },
+        {
+          "id": "ch9_ex3_q4a",
+          "number": "4(a)",
+          "category": "Practice",
+          "questionText": "State the vertical translation and the coordinates of the turning point for the graph of $y = x^2 + 3$ when compared to the graph of $y = x^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = x^2 + k$ is $y = x^2$ translated $k$ units up (if $k > 0$) or down (if $k < 0$); turning point $(0, k)$.",
+            "steps": [
+              "Given: $y = x^2 + 3$.",
+              "Goal: state the vertical translation and turning point.",
+              "Compare with $y = x^2 + k$: $k = 3$.",
+              "$k > 0$, so the graph moves 3 units up.",
+              "Turning point: $(0, 0) \\to (0, 0 + 3) = (0, 3)$."
+            ],
+            "finalAnswer": "Therefore the graph is translated vertically 3 units up and the turning point is $(0, 3)$.",
+            "solutionFigures": [],
+            "tip": "A constant added outside the square moves the graph up or down, not sideways."
+          }
+        },
+        {
+          "id": "ch9_ex3_q4b",
+          "number": "4(b)",
+          "category": "Practice",
+          "questionText": "State the vertical translation and the coordinates of the turning point for the graph of $y = x^2 - 1$ when compared to the graph of $y = x^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = x^2 + k$ is $y = x^2$ translated vertically by $k$ units; turning point $(0, k)$.",
+            "steps": [
+              "Given: $y = x^2 - 1$.",
+              "Goal: state the vertical translation and turning point.",
+              "Compare with $y = x^2 + k$: $k = -1$.",
+              "$k < 0$, so the graph moves 1 unit down.",
+              "Turning point: $(0, 0) \\to (0, -1)$."
+            ],
+            "finalAnswer": "Therefore the graph is translated vertically 1 unit down and the turning point is $(0, -1)$.",
+            "solutionFigures": [],
+            "tip": "Subtracting a number moves the graph down by that number."
+          }
+        },
+        {
+          "id": "ch9_ex3_q5a",
+          "number": "5(a)",
+          "category": "Consolidate",
+          "questionText": "State the vertical translation and the coordinates of the turning point for the graph of $y = x^2 - 7$ when compared to the graph of $y = x^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = x^2 + k$ is $y = x^2$ translated vertically by $k$ units; turning point $(0, k)$.",
+            "steps": [
+              "Given: $y = x^2 - 7$.",
+              "Goal: state the vertical translation and turning point.",
+              "$k = -7$, so the graph moves 7 units down.",
+              "Turning point: $(0, -7)$."
+            ],
+            "finalAnswer": "Therefore the graph is translated vertically 7 units down and the turning point is $(0, -7)$.",
+            "solutionFigures": [],
+            "tip": "The turning point's $y$-coordinate equals the constant term when there is no $x$-term."
+          }
+        },
+        {
+          "id": "ch9_ex3_q5b",
+          "number": "5(b)",
+          "category": "Consolidate",
+          "questionText": "State the vertical translation and the coordinates of the turning point for the graph of $y = x^2 + \\frac{1}{4}$ when compared to the graph of $y = x^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = x^2 + k$ is $y = x^2$ translated vertically by $k$ units; turning point $(0, k)$.",
+            "steps": [
+              "Given: $y = x^2 + \\frac{1}{4}$.",
+              "Goal: state the vertical translation and turning point.",
+              "$k = \\frac{1}{4}$, so the graph moves $\\frac{1}{4}$ unit up.",
+              "Turning point: $\\left(0, \\frac{1}{4}\\right)$."
+            ],
+            "finalAnswer": "Therefore the graph is translated vertically $\\frac{1}{4}$ unit up and the turning point is $\\left(0, \\frac{1}{4}\\right)$.",
+            "solutionFigures": [],
+            "tip": "Fractional translations work exactly like whole-number ones."
+          }
+        },
+        {
+          "id": "ch9_ex3_q5c",
+          "number": "5(c)",
+          "category": "Consolidate",
+          "questionText": "State the vertical translation and the coordinates of the turning point for the graph of $y = x^2 - \\frac{1}{2}$ when compared to the graph of $y = x^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = x^2 + k$ is $y = x^2$ translated vertically by $k$ units; turning point $(0, k)$.",
+            "steps": [
+              "Given: $y = x^2 - \\frac{1}{2}$.",
+              "Goal: state the vertical translation and turning point.",
+              "$k = -\\frac{1}{2}$, so the graph moves $\\frac{1}{2}$ unit down.",
+              "Turning point: $\\left(0, -\\frac{1}{2}\\right)$."
+            ],
+            "finalAnswer": "Therefore the graph is translated vertically $\\frac{1}{2}$ unit down and the turning point is $\\left(0, -\\frac{1}{2}\\right)$.",
+            "solutionFigures": [],
+            "tip": "Keep the sign of $k$ in the turning point: down means a negative $y$-coordinate."
+          }
+        },
+        {
+          "id": "ch9_ex3_q6a",
+          "number": "6(a)",
+          "category": "Master",
+          "questionText": "State the vertical translation and the coordinates of the turning point for the graph of $y = x^2 - 0.14$ when compared to the graph of $y = x^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = x^2 + k$ is $y = x^2$ translated vertically by $k$ units; turning point $(0, k)$.",
+            "steps": [
+              "Given: $y = x^2 - 0.14$.",
+              "Goal: state the vertical translation and turning point.",
+              "$k = -0.14$, so the graph moves 0.14 units down.",
+              "Turning point: $(0, -0.14)$."
+            ],
+            "finalAnswer": "Therefore the graph is translated vertically 0.14 units down and the turning point is $(0, -0.14)$.",
+            "solutionFigures": [],
+            "tip": "Small decimal translations still change the turning point exactly by that amount."
+          }
+        },
+        {
+          "id": "ch9_ex3_q6b",
+          "number": "6(b)",
+          "category": "Master",
+          "questionText": "State the vertical translation and the coordinates of the turning point for the graph of $y = x^2 + 2.37$ when compared to the graph of $y = x^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = x^2 + k$ is $y = x^2$ translated vertically by $k$ units; turning point $(0, k)$.",
+            "steps": [
+              "Given: $y = x^2 + 2.37$.",
+              "Goal: state the vertical translation and turning point.",
+              "$k = 2.37$, so the graph moves 2.37 units up.",
+              "Turning point: $(0, 2.37)$."
+            ],
+            "finalAnswer": "Therefore the graph is translated vertically 2.37 units up and the turning point is $(0, 2.37)$.",
+            "solutionFigures": [],
+            "tip": "Positive constant means up; negative means down."
+          }
+        },
+        {
+          "id": "ch9_ex3_q6c",
+          "number": "6(c)",
+          "category": "Master",
+          "questionText": "State the vertical translation and the coordinates of the turning point for the graph of $y = x^2 + \\sqrt{3}$ when compared to the graph of $y = x^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = x^2 + k$ is $y = x^2$ translated vertically by $k$ units; turning point $(0, k)$.",
+            "steps": [
+              "Given: $y = x^2 + \\sqrt{3}$.",
+              "Goal: state the vertical translation and turning point.",
+              "$k = \\sqrt{3}$ (about 1.73), so the graph moves $\\sqrt{3}$ units up.",
+              "Turning point: $(0, \\sqrt{3})$."
+            ],
+            "finalAnswer": "Therefore the graph is translated vertically $\\sqrt{3}$ units up and the turning point is $(0, \\sqrt{3})$.",
+            "solutionFigures": [],
+            "tip": "Leave the answer as the exact surd $\\sqrt{3}$ unless a decimal is asked for."
+          }
+        },
+        {
+          "id": "ch9_ex3_q7a",
+          "number": "7(a)",
+          "category": "Practice",
+          "questionText": "State the horizontal translation and the coordinates of the turning point for the graph of $y = (x - 1)^2$ when compared to the graph of $y = x^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = (x - h)^2$ is $y = x^2$ translated $h$ units horizontally (right if $h > 0$, left if $h < 0$); turning point $(h, 0)$.",
+            "steps": [
+              "Given: $y = (x - 1)^2$.",
+              "Goal: state the horizontal translation and turning point.",
+              "Compare with $y = (x - h)^2$: $h = 1$.",
+              "The turning point is where the bracket is zero: $x - 1 = 0 \\Rightarrow x = 1$, and then $y = 0$.",
+              "So the graph moves 1 unit right."
+            ],
+            "finalAnswer": "Therefore the graph is translated horizontally 1 unit right and the turning point is $(1, 0)$.",
+            "solutionFigures": [],
+            "tip": "A minus sign inside the bracket moves the graph right, which is the opposite of what many students expect."
+          }
+        },
+        {
+          "id": "ch9_ex3_q7b",
+          "number": "7(b)",
+          "category": "Practice",
+          "questionText": "State the horizontal translation and the coordinates of the turning point for the graph of $y = (x - 2)^2$ when compared to the graph of $y = x^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = (x - h)^2$ is $y = x^2$ translated $h$ units horizontally; turning point $(h, 0)$.",
+            "steps": [
+              "Given: $y = (x - 2)^2$.",
+              "Goal: state the horizontal translation and turning point.",
+              "$h = 2$: set $x - 2 = 0 \\Rightarrow x = 2$, $y = 0$.",
+              "So the graph moves 2 units right."
+            ],
+            "finalAnswer": "Therefore the graph is translated horizontally 2 units right and the turning point is $(2, 0)$.",
+            "solutionFigures": [],
+            "tip": "Find the turning point by making the bracket equal to zero."
+          }
+        },
+        {
+          "id": "ch9_ex3_q8a",
+          "number": "8(a)",
+          "category": "Consolidate",
+          "questionText": "State the horizontal translation and the coordinates of the turning point for the graph of $y = (x + 10)^2$ when compared to the graph of $y = x^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = (x - h)^2$ is $y = x^2$ translated $h$ units horizontally; turning point $(h, 0)$.",
+            "steps": [
+              "Given: $y = (x + 10)^2 = (x - (-10))^2$.",
+              "Goal: state the horizontal translation and turning point.",
+              "$h = -10$: set $x + 10 = 0 \\Rightarrow x = -10$, $y = 0$.",
+              "So the graph moves 10 units left."
+            ],
+            "finalAnswer": "Therefore the graph is translated horizontally 10 units left and the turning point is $(-10, 0)$.",
+            "solutionFigures": [],
+            "tip": "A plus sign inside the bracket moves the graph left."
+          }
+        },
+        {
+          "id": "ch9_ex3_q8b",
+          "number": "8(b)",
+          "category": "Consolidate",
+          "questionText": "State the horizontal translation and the coordinates of the turning point for the graph of $y = (x + 4)^2$ when compared to the graph of $y = x^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = (x - h)^2$ is $y = x^2$ translated $h$ units horizontally; turning point $(h, 0)$.",
+            "steps": [
+              "Given: $y = (x + 4)^2$.",
+              "Goal: state the horizontal translation and turning point.",
+              "Set $x + 4 = 0 \\Rightarrow x = -4$, $y = 0$, so $h = -4$.",
+              "So the graph moves 4 units left."
+            ],
+            "finalAnswer": "Therefore the graph is translated horizontally 4 units left and the turning point is $(-4, 0)$.",
+            "solutionFigures": [],
+            "tip": "Check: at $x = -4$ the bracket is $0$, which is the lowest value of a square."
+          }
+        },
+        {
+          "id": "ch9_ex3_q8c",
+          "number": "8(c)",
+          "category": "Consolidate",
+          "questionText": "State the horizontal translation and the coordinates of the turning point for the graph of $y = \\left(x - \\frac{1}{2}\\right)^2$ when compared to the graph of $y = x^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = (x - h)^2$ is $y = x^2$ translated $h$ units horizontally; turning point $(h, 0)$.",
+            "steps": [
+              "Given: $y = \\left(x - \\frac{1}{2}\\right)^2$.",
+              "Goal: state the horizontal translation and turning point.",
+              "Set $x - \\frac{1}{2} = 0 \\Rightarrow x = \\frac{1}{2}$, $y = 0$, so $h = \\frac{1}{2}$.",
+              "So the graph moves $\\frac{1}{2}$ unit right."
+            ],
+            "finalAnswer": "Therefore the graph is translated horizontally $\\frac{1}{2}$ unit right and the turning point is $\\left(\\frac{1}{2}, 0\\right)$.",
+            "solutionFigures": [],
+            "tip": "The sign rule is the same for fractions: minus inside moves right."
+          }
+        },
+        {
+          "id": "ch9_ex3_q9a",
+          "number": "9(a)",
+          "category": "Master",
+          "questionText": "State the horizontal translation and the coordinates of the turning point for the graph of $y = \\left(x + \\frac{1}{5}\\right)^2$ when compared to the graph of $y = x^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = (x - h)^2$ is $y = x^2$ translated $h$ units horizontally; turning point $(h, 0)$.",
+            "steps": [
+              "Given: $y = \\left(x + \\frac{1}{5}\\right)^2$.",
+              "Goal: state the horizontal translation and turning point.",
+              "Set $x + \\frac{1}{5} = 0 \\Rightarrow x = -\\frac{1}{5}$, $y = 0$, so $h = -\\frac{1}{5}$.",
+              "So the graph moves $\\frac{1}{5}$ unit left."
+            ],
+            "finalAnswer": "Therefore the graph is translated horizontally $\\frac{1}{5}$ unit left and the turning point is $\\left(-\\frac{1}{5}, 0\\right)$.",
+            "solutionFigures": [],
+            "tip": "Plus inside the bracket gives a negative $x$-coordinate for the turning point."
+          }
+        },
+        {
+          "id": "ch9_ex3_q9b",
+          "number": "9(b)",
+          "category": "Master",
+          "questionText": "State the horizontal translation and the coordinates of the turning point for the graph of $y = (x + 0.25)^2$ when compared to the graph of $y = x^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = (x - h)^2$ is $y = x^2$ translated $h$ units horizontally; turning point $(h, 0)$.",
+            "steps": [
+              "Given: $y = (x + 0.25)^2$.",
+              "Goal: state the horizontal translation and turning point.",
+              "Set $x + 0.25 = 0 \\Rightarrow x = -0.25$, $y = 0$.",
+              "So the graph moves 0.25 units left."
+            ],
+            "finalAnswer": "Therefore the graph is translated horizontally 0.25 units left and the turning point is $(-0.25, 0)$.",
+            "solutionFigures": [],
+            "tip": "Write the turning point with the opposite sign to the number inside the bracket."
+          }
+        },
+        {
+          "id": "ch9_ex3_q9c",
+          "number": "9(c)",
+          "category": "Master",
+          "questionText": "State the horizontal translation and the coordinates of the turning point for the graph of $y = (x + \\sqrt{3})^2$ when compared to the graph of $y = x^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = (x - h)^2$ is $y = x^2$ translated $h$ units horizontally; turning point $(h, 0)$.",
+            "steps": [
+              "Given: $y = (x + \\sqrt{3})^2$.",
+              "Goal: state the horizontal translation and turning point.",
+              "Set $x + \\sqrt{3} = 0 \\Rightarrow x = -\\sqrt{3}$, $y = 0$.",
+              "So the graph moves $\\sqrt{3}$ units (about 1.73 units) left."
+            ],
+            "finalAnswer": "Therefore the graph is translated horizontally $\\sqrt{3}$ units left and the turning point is $(-\\sqrt{3}, 0)$.",
+            "solutionFigures": [],
+            "tip": "Keep exact surds in coordinates unless told to round."
+          }
+        },
+        {
+          "id": "ch9_ex3_q10a",
+          "number": "10(a)",
+          "category": "Practice",
+          "questionText": "For the graph of $y = -x^2 + 1$, identify the coordinates of the turning point and state whether it is a maximum or a minimum.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$ has turning point $(h, k)$; it is a minimum if $a > 0$ and a maximum if $a < 0$.",
+            "steps": [
+              "Given: $y = -x^2 + 1 = -1(x - 0)^2 + 1$.",
+              "Goal: find the turning point and its nature.",
+              "$h = 0$, $k = 1$, so the turning point is $(0, 1)$.",
+              "$a = -1 < 0$, so the parabola opens downwards and the turning point is a maximum."
+            ],
+            "finalAnswer": "Therefore the turning point is $(0, 1)$ and it is a maximum.",
+            "solutionFigures": [],
+            "tip": "A negative coefficient of $x^2$ means the graph is inverted, giving a maximum."
+          }
+        },
+        {
+          "id": "ch9_ex3_q10b",
+          "number": "10(b)",
+          "category": "Practice",
+          "questionText": "For the graph of $y = x^2 - 3$, identify the coordinates of the turning point and state whether it is a maximum or a minimum.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$ has turning point $(h, k)$; minimum if $a > 0$, maximum if $a < 0$.",
+            "steps": [
+              "Given: $y = x^2 - 3 = 1(x - 0)^2 - 3$.",
+              "Goal: find the turning point and its nature.",
+              "$h = 0$, $k = -3$, so the turning point is $(0, -3)$.",
+              "$a = 1 > 0$, so the parabola opens upwards and the turning point is a minimum."
+            ],
+            "finalAnswer": "Therefore the turning point is $(0, -3)$ and it is a minimum.",
+            "solutionFigures": [],
+            "tip": "A negative constant does not make it a maximum; only the sign of $a$ matters."
+          }
+        },
+        {
+          "id": "ch9_ex3_q11a",
+          "number": "11(a)",
+          "category": "Consolidate",
+          "questionText": "For the graph of $y = -(x + 2)^2$, identify the coordinates of the turning point and state whether it is a maximum or a minimum.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$ has turning point $(h, k)$; minimum if $a > 0$, maximum if $a < 0$.",
+            "steps": [
+              "Given: $y = -(x + 2)^2 = -1(x - (-2))^2 + 0$.",
+              "Goal: find the turning point and its nature.",
+              "$h = -2$, $k = 0$, so the turning point is $(-2, 0)$.",
+              "$a = -1 < 0$, so the turning point is a maximum."
+            ],
+            "finalAnswer": "Therefore the turning point is $(-2, 0)$ and it is a maximum.",
+            "solutionFigures": [],
+            "tip": "Rewrite $(x + 2)$ as $(x - (-2))$ to read $h$ with the correct sign."
+          }
+        },
+        {
+          "id": "ch9_ex3_q11b",
+          "number": "11(b)",
+          "category": "Consolidate",
+          "questionText": "For the graph of $y = 3x^2$, identify the coordinates of the turning point and state whether it is a maximum or a minimum.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$ has turning point $(h, k)$; minimum if $a > 0$, maximum if $a < 0$.",
+            "steps": [
+              "Given: $y = 3x^2 = 3(x - 0)^2 + 0$.",
+              "Goal: find the turning point and its nature.",
+              "$h = 0$, $k = 0$, so the turning point is $(0, 0)$.",
+              "$a = 3 > 0$, so the turning point is a minimum."
+            ],
+            "finalAnswer": "Therefore the turning point is $(0, 0)$ and it is a minimum.",
+            "solutionFigures": [],
+            "tip": "The dilation factor 3 changes the width, not the position of the turning point."
+          }
+        },
+        {
+          "id": "ch9_ex3_q11c",
+          "number": "11(c)",
+          "category": "Consolidate",
+          "questionText": "For the graph of $y = 4 - x^2$, identify the coordinates of the turning point and state whether it is a maximum or a minimum.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$ has turning point $(h, k)$; minimum if $a > 0$, maximum if $a < 0$.",
+            "steps": [
+              "Given: $y = 4 - x^2$.",
+              "Goal: find the turning point and its nature.",
+              "Rearrange: $y = -x^2 + 4 = -1(x - 0)^2 + 4$.",
+              "$h = 0$, $k = 4$, so the turning point is $(0, 4)$.",
+              "$a = -1 < 0$, so the turning point is a maximum."
+            ],
+            "finalAnswer": "Therefore the turning point is $(0, 4)$ and it is a maximum.",
+            "solutionFigures": [],
+            "tip": "Reorder the terms so the $x^2$ term comes first before reading off $a$."
+          }
+        },
+        {
+          "id": "ch9_ex3_q12a",
+          "number": "12(a)",
+          "category": "Master",
+          "questionText": "For the graph of $y = -2x^2$, identify the coordinates of the turning point and state whether it is a maximum or a minimum.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$ has turning point $(h, k)$; minimum if $a > 0$, maximum if $a < 0$.",
+            "steps": [
+              "Given: $y = -2x^2 = -2(x - 0)^2 + 0$.",
+              "Goal: find the turning point and its nature.",
+              "$h = 0$, $k = 0$, so the turning point is $(0, 0)$.",
+              "$a = -2 < 0$, so the turning point is a maximum."
+            ],
+            "finalAnswer": "Therefore the turning point is $(0, 0)$ and it is a maximum.",
+            "solutionFigures": [],
+            "tip": "Every $y$-value except at $x = 0$ is negative, confirming $(0,0)$ is the highest point."
+          }
+        },
+        {
+          "id": "ch9_ex3_q12b",
+          "number": "12(b)",
+          "category": "Master",
+          "questionText": "For the graph of $y = (x - 5)^2$, identify the coordinates of the turning point and state whether it is a maximum or a minimum.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$ has turning point $(h, k)$; minimum if $a > 0$, maximum if $a < 0$.",
+            "steps": [
+              "Given: $y = (x - 5)^2 = 1(x - 5)^2 + 0$.",
+              "Goal: find the turning point and its nature.",
+              "$h = 5$, $k = 0$, so the turning point is $(5, 0)$.",
+              "$a = 1 > 0$, so the turning point is a minimum."
+            ],
+            "finalAnswer": "Therefore the turning point is $(5, 0)$ and it is a minimum.",
+            "solutionFigures": [],
+            "tip": "$(x - 5)$ gives $h = +5$, not $-5$."
+          }
+        },
+        {
+          "id": "ch9_ex3_q12c",
+          "number": "12(c)",
+          "category": "Master",
+          "questionText": "For the graph of $y = 1 + x^2$, identify the coordinates of the turning point and state whether it is a maximum or a minimum.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$ has turning point $(h, k)$; minimum if $a > 0$, maximum if $a < 0$.",
+            "steps": [
+              "Given: $y = 1 + x^2 = x^2 + 1 = 1(x - 0)^2 + 1$.",
+              "Goal: find the turning point and its nature.",
+              "$h = 0$, $k = 1$, so the turning point is $(0, 1)$.",
+              "$a = 1 > 0$, so the turning point is a minimum."
+            ],
+            "finalAnswer": "Therefore the turning point is $(0, 1)$ and it is a minimum.",
+            "solutionFigures": [],
+            "tip": "Writing the terms in the order $x^2 + k$ makes the turning point easy to read."
+          }
+        },
+        {
+          "id": "ch9_ex3_q13a",
+          "number": "13(a)",
+          "category": "Practice",
+          "questionText": "State whether the graph of $y = 3x^2$ is wider or narrower than $y = x^2$ and whether it has a maximum or a minimum turning point.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = ax^2$: $|a| > 1$ narrower, $0 < |a| < 1$ wider; $a > 0$ minimum, $a < 0$ maximum.",
+            "steps": [
+              "Given: $y = 3x^2$, so $a = 3$.",
+              "Goal: decide width and type of turning point.",
+              "$|a| = 3 > 1$, so the graph is narrower.",
+              "$a = 3 > 0$, so it opens upwards with a minimum turning point."
+            ],
+            "finalAnswer": "Therefore $y = 3x^2$ is narrower than $y = x^2$ and has a minimum turning point.",
+            "solutionFigures": [],
+            "tip": "Use the size of $a$ for width and the sign of $a$ for max/min."
+          }
+        },
+        {
+          "id": "ch9_ex3_q13b",
+          "number": "13(b)",
+          "category": "Practice",
+          "questionText": "State whether the graph of $y = -3x^2$ is wider or narrower than $y = x^2$ and whether it has a maximum or a minimum turning point.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = ax^2$: $|a| > 1$ narrower, $0 < |a| < 1$ wider; $a > 0$ minimum, $a < 0$ maximum.",
+            "steps": [
+              "Given: $y = -3x^2$, so $a = -3$.",
+              "Goal: decide width and type of turning point.",
+              "$|a| = |-3| = 3 > 1$, so the graph is narrower.",
+              "$a = -3 < 0$, so it opens downwards with a maximum turning point."
+            ],
+            "finalAnswer": "Therefore $y = -3x^2$ is narrower than $y = x^2$ and has a maximum turning point.",
+            "solutionFigures": [],
+            "tip": "The negative sign reflects the graph but does not change its width."
+          }
+        },
+        {
+          "id": "ch9_ex3_q14a",
+          "number": "14(a)",
+          "category": "Consolidate",
+          "questionText": "State whether the graph of $y = \\frac{1}{2}x^2$ is wider or narrower than $y = x^2$ and whether it has a maximum or a minimum turning point.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = ax^2$: $|a| > 1$ narrower, $0 < |a| < 1$ wider; $a > 0$ minimum, $a < 0$ maximum.",
+            "steps": [
+              "Given: $y = \\frac{1}{2}x^2$, so $a = \\frac{1}{2}$.",
+              "Goal: decide width and type of turning point.",
+              "$0 < \\frac{1}{2} < 1$, so the graph is wider.",
+              "$a > 0$, so it has a minimum turning point."
+            ],
+            "finalAnswer": "Therefore $y = \\frac{1}{2}x^2$ is wider than $y = x^2$ and has a minimum turning point.",
+            "solutionFigures": [],
+            "tip": "Halving every $y$-value flattens the curve, so it is wider."
+          }
+        },
+        {
+          "id": "ch9_ex3_q14b",
+          "number": "14(b)",
+          "category": "Consolidate",
+          "questionText": "State whether the graph of $y = -\\frac{1}{5}x^2$ is wider or narrower than $y = x^2$ and whether it has a maximum or a minimum turning point.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = ax^2$: $|a| > 1$ narrower, $0 < |a| < 1$ wider; $a > 0$ minimum, $a < 0$ maximum.",
+            "steps": [
+              "Given: $y = -\\frac{1}{5}x^2$, so $a = -\\frac{1}{5}$.",
+              "Goal: decide width and type of turning point.",
+              "$|a| = \\frac{1}{5} = 0.2 < 1$, so the graph is wider.",
+              "$a < 0$, so it has a maximum turning point."
+            ],
+            "finalAnswer": "Therefore $y = -\\frac{1}{5}x^2$ is wider than $y = x^2$ and has a maximum turning point.",
+            "solutionFigures": [],
+            "tip": "Ignore the sign when judging width; use $|a|$."
+          }
+        },
+        {
+          "id": "ch9_ex3_q14c",
+          "number": "14(c)",
+          "category": "Consolidate",
+          "questionText": "State whether the graph of $y = -\\frac{4}{3}x^2$ is wider or narrower than $y = x^2$ and whether it has a maximum or a minimum turning point.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = ax^2$: $|a| > 1$ narrower, $0 < |a| < 1$ wider; $a > 0$ minimum, $a < 0$ maximum.",
+            "steps": [
+              "Given: $y = -\\frac{4}{3}x^2$, so $a = -\\frac{4}{3}$.",
+              "Goal: decide width and type of turning point.",
+              "$|a| = \\frac{4}{3} \\approx 1.33 > 1$, so the graph is narrower.",
+              "$a < 0$, so it has a maximum turning point."
+            ],
+            "finalAnswer": "Therefore $y = -\\frac{4}{3}x^2$ is narrower than $y = x^2$ and has a maximum turning point.",
+            "solutionFigures": [],
+            "tip": "An improper fraction like $\\frac{4}{3}$ is greater than 1, so it gives a narrower graph."
+          }
+        },
+        {
+          "id": "ch9_ex3_q15a",
+          "number": "15(a)",
+          "category": "Master",
+          "questionText": "State whether the graph of $y = 0.25x^2$ is wider or narrower than $y = x^2$ and whether it has a maximum or a minimum turning point.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = ax^2$: $|a| > 1$ narrower, $0 < |a| < 1$ wider; $a > 0$ minimum, $a < 0$ maximum.",
+            "steps": [
+              "Given: $y = 0.25x^2$, so $a = 0.25$.",
+              "Goal: decide width and type of turning point.",
+              "$0 < 0.25 < 1$, so the graph is wider.",
+              "$a > 0$, so it has a minimum turning point."
+            ],
+            "finalAnswer": "Therefore $y = 0.25x^2$ is wider than $y = x^2$ and has a minimum turning point.",
+            "solutionFigures": [],
+            "tip": "Width and turning-point type are two separate checks on $a$."
+          }
+        },
+        {
+          "id": "ch9_ex3_q15b",
+          "number": "15(b)",
+          "category": "Master",
+          "questionText": "State whether the graph of $y = \\sqrt{3}x^2$ is wider or narrower than $y = x^2$ and whether it has a maximum or a minimum turning point.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = ax^2$: $|a| > 1$ narrower, $0 < |a| < 1$ wider; $a > 0$ minimum, $a < 0$ maximum.",
+            "steps": [
+              "Given: $y = \\sqrt{3}x^2$, so $a = \\sqrt{3} \\approx 1.73$.",
+              "Goal: decide width and type of turning point.",
+              "$1.73 > 1$, so the graph is narrower.",
+              "$a > 0$, so it has a minimum turning point."
+            ],
+            "finalAnswer": "Therefore $y = \\sqrt{3}x^2$ is narrower than $y = x^2$ and has a minimum turning point.",
+            "solutionFigures": [],
+            "tip": "Approximate the surd to compare it with 1."
+          }
+        },
+        {
+          "id": "ch9_ex3_q15c",
+          "number": "15(c)",
+          "category": "Master",
+          "questionText": "State whether the graph of $y = -0.16x^2$ is wider or narrower than $y = x^2$ and whether it has a maximum or a minimum turning point.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = ax^2$: $|a| > 1$ narrower, $0 < |a| < 1$ wider; $a > 0$ minimum, $a < 0$ maximum.",
+            "steps": [
+              "Given: $y = -0.16x^2$, so $a = -0.16$.",
+              "Goal: decide width and type of turning point.",
+              "$|a| = 0.16 < 1$, so the graph is wider.",
+              "$a < 0$, so it has a maximum turning point."
+            ],
+            "finalAnswer": "Therefore $y = -0.16x^2$ is wider than $y = x^2$ and has a maximum turning point.",
+            "solutionFigures": [],
+            "tip": "A negative $a$ close to zero gives a wide, upside-down parabola."
+          }
+        },
+        {
+          "id": "ch9_ex3_q16a",
+          "number": "16(a)",
+          "category": "Practice",
+          "questionText": "For $y = (x + 1)^2$: i. state the appropriate dilation, reflection and translation of the graph of $y = x^2$ needed to obtain the graph; ii. state the coordinates of the turning point; iii. hence, sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: $|a|$ gives the dilation, $a < 0$ a reflection in the $x$-axis, $h$ the horizontal translation and $k$ the vertical translation; turning point $(h, k)$.",
+            "steps": [
+              "Given: $y = (x + 1)^2 = 1(x - (-1))^2 + 0$.",
+              "Goal: describe the transformations, give the turning point and sketch.",
+              "i. $a = 1$: no dilation and no reflection. $h = -1$: translation 1 unit left. $k = 0$: no vertical translation.",
+              "ii. Turning point $(h, k) = (-1, 0)$; since $a > 0$ it is a minimum.",
+              "iii. $y$-intercept: $x = 0 \\Rightarrow y = (0 + 1)^2 = 1$, so $(0, 1)$.",
+              "$x$-intercept: $(x + 1)^2 = 0 \\Rightarrow x = -1$, so the graph touches the $x$-axis at $(-1, 0)$.",
+              "Axis of symmetry: $x = -1$. By symmetry $(-2, 1)$ is also on the graph.",
+              "Sketch: an upright parabola the same width as $y = x^2$, with its minimum at $(-1, 0)$ touching the $x$-axis and passing through $(0, 1)$ and $(-2, 1)$."
+            ],
+            "finalAnswer": "Therefore the graph is $y = x^2$ translated 1 unit left, with minimum turning point $(-1, 0)$ and $y$-intercept $1$.",
+            "solutionFigures": [],
+            "tip": "$(x + 1)$ means a shift to the left, not the right."
+          }
+        },
+        {
+          "id": "ch9_ex3_q16b",
+          "number": "16(b)",
+          "category": "Practice",
+          "questionText": "For $y = -3x^2$: i. state the appropriate dilation, reflection and translation of the graph of $y = x^2$ needed to obtain the graph; ii. state the coordinates of the turning point; iii. hence, sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: $|a|$ gives the dilation, $a < 0$ a reflection in the $x$-axis, $h$ and $k$ the translations; turning point $(h, k)$.",
+            "steps": [
+              "Given: $y = -3x^2 = -3(x - 0)^2 + 0$.",
+              "Goal: describe the transformations, give the turning point and sketch.",
+              "i. $|a| = 3$: dilation by a factor of 3 from the $x$-axis (narrower). $a < 0$: reflected in the $x$-axis. $h = 0$, $k = 0$: no translation.",
+              "ii. Turning point $(0, 0)$; since $a < 0$ it is a maximum.",
+              "iii. The $x$- and $y$-intercepts are both at $(0, 0)$.",
+              "Extra points: $x = 1 \\Rightarrow y = -3(1)^2 = -3$; $x = -1 \\Rightarrow y = -3$.",
+              "Sketch: an inverted parabola, narrower than $y = x^2$, with maximum at the origin and passing through $(1, -3)$ and $(-1, -3)$."
+            ],
+            "finalAnswer": "Therefore the graph is $y = x^2$ reflected in the $x$-axis and dilated by a factor of 3 (narrower), with maximum turning point $(0, 0)$.",
+            "solutionFigures": [],
+            "tip": "Do the reflection and dilation together: each $y$-value of $y = x^2$ is multiplied by $-3$."
+          }
+        },
+        {
+          "id": "ch9_ex3_q16c",
+          "number": "16(c)",
+          "category": "Practice",
+          "questionText": "For $y = x^2 + 1$: i. state the appropriate dilation, reflection and translation of the graph of $y = x^2$ needed to obtain the graph; ii. state the coordinates of the turning point; iii. hence, sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: $|a|$ gives the dilation, $a < 0$ a reflection, $h$ and $k$ the translations; turning point $(h, k)$.",
+            "steps": [
+              "Given: $y = x^2 + 1 = 1(x - 0)^2 + 1$.",
+              "Goal: describe the transformations, give the turning point and sketch.",
+              "i. $a = 1$: no dilation, no reflection. $h = 0$: no horizontal translation. $k = 1$: vertical translation 1 unit up.",
+              "ii. Turning point $(0, 1)$, a minimum since $a > 0$.",
+              "iii. $y$-intercept: $y = 0^2 + 1 = 1$, at $(0, 1)$.",
+              "$x$-intercepts: $x^2 + 1 = 0 \\Rightarrow x^2 = -1$, which has no real solution, so there are none.",
+              "Extra points: $x = \\pm 1 \\Rightarrow y = 2$.",
+              "Sketch: an upright parabola the same width as $y = x^2$, sitting 1 unit higher, with minimum $(0, 1)$, passing through $(\\pm 1, 2)$ and not crossing the $x$-axis."
+            ],
+            "finalAnswer": "Therefore the graph is $y = x^2$ translated 1 unit up, with minimum turning point $(0, 1)$.",
+            "solutionFigures": [],
+            "tip": "If the minimum is above the $x$-axis, there are no $x$-intercepts."
+          }
+        },
+        {
+          "id": "ch9_ex3_q17a",
+          "number": "17(a)",
+          "category": "Practice",
+          "questionText": "For $y = \\frac{1}{3}x^2$: i. state the appropriate dilation, reflection and translation of the graph of $y = x^2$ needed to obtain the graph; ii. state the coordinates of the turning point; iii. hence, sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: $|a|$ gives the dilation, $a < 0$ a reflection, $h$ and $k$ the translations; turning point $(h, k)$.",
+            "steps": [
+              "Given: $y = \\frac{1}{3}x^2$.",
+              "Goal: describe the transformations, give the turning point and sketch.",
+              "i. $a = \\frac{1}{3}$: dilation by a factor of $\\frac{1}{3}$ from the $x$-axis (wider). $a > 0$: no reflection. No translation.",
+              "ii. Turning point $(0, 0)$, a minimum.",
+              "iii. Intercepts: both at $(0, 0)$.",
+              "Extra points: $x = 3 \\Rightarrow y = \\frac{1}{3}(9) = 3$; $x = -3 \\Rightarrow y = 3$.",
+              "Sketch: an upright parabola wider than $y = x^2$, with minimum at the origin and passing through $(3, 3)$ and $(-3, 3)$."
+            ],
+            "finalAnswer": "Therefore the graph is $y = x^2$ dilated by a factor of $\\frac{1}{3}$ from the $x$-axis (wider), with minimum turning point $(0, 0)$.",
+            "solutionFigures": [],
+            "tip": "Choose $x$-values that make the fraction easy, such as $x = \\pm 3$ here."
+          }
+        },
+        {
+          "id": "ch9_ex3_q17b",
+          "number": "17(b)",
+          "category": "Practice",
+          "questionText": "For $y = x^2 - 3$: i. state the appropriate dilation, reflection and translation of the graph of $y = x^2$ needed to obtain the graph; ii. state the coordinates of the turning point; iii. hence, sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: $|a|$ gives the dilation, $a < 0$ a reflection, $h$ and $k$ the translations; turning point $(h, k)$.",
+            "steps": [
+              "Given: $y = x^2 - 3$.",
+              "Goal: describe the transformations, give the turning point and sketch.",
+              "i. $a = 1$: no dilation or reflection. $k = -3$: vertical translation 3 units down.",
+              "ii. Turning point $(0, -3)$, a minimum.",
+              "iii. $y$-intercept: $y = 0 - 3 = -3$, at $(0, -3)$.",
+              "$x$-intercepts: $x^2 - 3 = 0 \\Rightarrow x^2 = 3 \\Rightarrow x = \\pm\\sqrt{3} \\approx \\pm 1.73$ (2 d.p.).",
+              "Sketch: an upright parabola the same width as $y = x^2$, minimum at $(0, -3)$, crossing the $x$-axis at $(-\\sqrt{3}, 0)$ and $(\\sqrt{3}, 0)$."
+            ],
+            "finalAnswer": "Therefore the graph is $y = x^2$ translated 3 units down, with minimum turning point $(0, -3)$ and $x$-intercepts $\\pm\\sqrt{3}$.",
+            "solutionFigures": [],
+            "tip": "Remember both the positive and negative square roots when finding $x$-intercepts."
+          }
+        },
+        {
+          "id": "ch9_ex3_q18a",
+          "number": "18(a)",
+          "category": "Consolidate",
+          "questionText": "For $y = (x - 4)^2$: i. state the appropriate dilation, reflection and translation of the graph of $y = x^2$ needed to obtain the graph; ii. state the coordinates of the turning point; iii. hence, sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: $|a|$ gives the dilation, $a < 0$ a reflection, $h$ and $k$ the translations; turning point $(h, k)$.",
+            "steps": [
+              "Given: $y = (x - 4)^2$.",
+              "Goal: describe the transformations, give the turning point and sketch.",
+              "i. $a = 1$: no dilation or reflection. $h = 4$: horizontal translation 4 units right.",
+              "ii. Turning point $(4, 0)$, a minimum.",
+              "iii. $y$-intercept: $y = (0 - 4)^2 = 16$, at $(0, 16)$.",
+              "$x$-intercept: $(x - 4)^2 = 0 \\Rightarrow x = 4$ (the graph touches the axis at the turning point).",
+              "By symmetry about $x = 4$, $(8, 16)$ is also on the graph.",
+              "Sketch: an upright parabola the same width as $y = x^2$, touching the $x$-axis at $(4, 0)$ and passing through $(0, 16)$ and $(8, 16)$."
+            ],
+            "finalAnswer": "Therefore the graph is $y = x^2$ translated 4 units right, with minimum turning point $(4, 0)$ and $y$-intercept 16.",
+            "solutionFigures": [],
+            "tip": "$(0 - 4)^2 = +16$; squaring a negative gives a positive."
+          }
+        },
+        {
+          "id": "ch9_ex3_q18b",
+          "number": "18(b)",
+          "category": "Consolidate",
+          "questionText": "For $y = -\\frac{2}{5}x^2$: i. state the appropriate dilation, reflection and translation of the graph of $y = x^2$ needed to obtain the graph; ii. state the coordinates of the turning point; iii. hence, sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: $|a|$ gives the dilation, $a < 0$ a reflection, $h$ and $k$ the translations; turning point $(h, k)$.",
+            "steps": [
+              "Given: $y = -\\frac{2}{5}x^2$.",
+              "Goal: describe the transformations, give the turning point and sketch.",
+              "i. $|a| = \\frac{2}{5}$: dilation by a factor of $\\frac{2}{5}$ from the $x$-axis (wider). $a < 0$: reflected in the $x$-axis. No translation.",
+              "ii. Turning point $(0, 0)$, a maximum.",
+              "iii. Intercepts: both at $(0, 0)$.",
+              "Extra points: $x = \\pm 5 \\Rightarrow y = -\\frac{2}{5}(25) = -10$.",
+              "Sketch: an inverted parabola wider than $y = x^2$, maximum at the origin, passing through $(5, -10)$ and $(-5, -10)$."
+            ],
+            "finalAnswer": "Therefore the graph is $y = x^2$ reflected in the $x$-axis and dilated by a factor of $\\frac{2}{5}$ (wider), with maximum turning point $(0, 0)$.",
+            "solutionFigures": [],
+            "tip": "A negative fraction both flips and widens the parabola."
+          }
+        },
+        {
+          "id": "ch9_ex3_q18c",
+          "number": "18(c)",
+          "category": "Consolidate",
+          "questionText": "For $y = 5x^2$: i. state the appropriate dilation, reflection and translation of the graph of $y = x^2$ needed to obtain the graph; ii. state the coordinates of the turning point; iii. hence, sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: $|a|$ gives the dilation, $a < 0$ a reflection, $h$ and $k$ the translations; turning point $(h, k)$.",
+            "steps": [
+              "Given: $y = 5x^2$.",
+              "Goal: describe the transformations, give the turning point and sketch.",
+              "i. $a = 5$: dilation by a factor of 5 from the $x$-axis (narrower). No reflection, no translation.",
+              "ii. Turning point $(0, 0)$, a minimum.",
+              "iii. Intercepts: both at $(0, 0)$.",
+              "Extra points: $x = \\pm 1 \\Rightarrow y = 5$.",
+              "Sketch: an upright parabola narrower than $y = x^2$, minimum at the origin, passing through $(1, 5)$ and $(-1, 5)$."
+            ],
+            "finalAnswer": "Therefore the graph is $y = x^2$ dilated by a factor of 5 from the $x$-axis (narrower), with minimum turning point $(0, 0)$.",
+            "solutionFigures": [],
+            "tip": "Plot $x = \\pm 1$ to show clearly how much narrower the graph is."
+          }
+        },
+        {
+          "id": "ch9_ex3_q19a",
+          "number": "19(a)",
+          "category": "Consolidate",
+          "questionText": "For $y = -x^2 + 2$: i. state the appropriate dilation, reflection and translation of the graph of $y = x^2$ needed to obtain the graph; ii. state the coordinates of the turning point; iii. hence, sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: $|a|$ gives the dilation, $a < 0$ a reflection, $h$ and $k$ the translations; turning point $(h, k)$.",
+            "steps": [
+              "Given: $y = -x^2 + 2$.",
+              "Goal: describe the transformations, give the turning point and sketch.",
+              "i. $a = -1$: reflected in the $x$-axis, no dilation. $k = 2$: vertical translation 2 units up.",
+              "ii. Turning point $(0, 2)$, a maximum.",
+              "iii. $y$-intercept: $y = -0 + 2 = 2$, at $(0, 2)$.",
+              "$x$-intercepts: $-x^2 + 2 = 0 \\Rightarrow x^2 = 2 \\Rightarrow x = \\pm\\sqrt{2} \\approx \\pm 1.41$ (2 d.p.).",
+              "Sketch: an inverted parabola the same width as $y = x^2$, maximum at $(0, 2)$, crossing the $x$-axis at $(\\pm\\sqrt{2}, 0)$."
+            ],
+            "finalAnswer": "Therefore the graph is $y = x^2$ reflected in the $x$-axis and translated 2 units up, with maximum turning point $(0, 2)$.",
+            "solutionFigures": [],
+            "tip": "Reflect first, then translate; translating first would give a different graph."
+          }
+        },
+        {
+          "id": "ch9_ex3_q19b",
+          "number": "19(b)",
+          "category": "Consolidate",
+          "questionText": "For $y = -(x - 6)^2$: i. state the appropriate dilation, reflection and translation of the graph of $y = x^2$ needed to obtain the graph; ii. state the coordinates of the turning point; iii. hence, sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: $|a|$ gives the dilation, $a < 0$ a reflection, $h$ and $k$ the translations; turning point $(h, k)$.",
+            "steps": [
+              "Given: $y = -(x - 6)^2$.",
+              "Goal: describe the transformations, give the turning point and sketch.",
+              "i. $a = -1$: reflected in the $x$-axis, no dilation. $h = 6$: horizontal translation 6 units right.",
+              "ii. Turning point $(6, 0)$, a maximum.",
+              "iii. $y$-intercept: $y = -(0 - 6)^2 = -36$, at $(0, -36)$.",
+              "$x$-intercept: $-(x - 6)^2 = 0 \\Rightarrow x = 6$ (touches the axis at the turning point).",
+              "By symmetry about $x = 6$, $(12, -36)$ is also on the graph.",
+              "Sketch: an inverted parabola the same width as $y = x^2$, touching the $x$-axis at $(6, 0)$ and passing through $(0, -36)$ and $(12, -36)$."
+            ],
+            "finalAnswer": "Therefore the graph is $y = x^2$ reflected in the $x$-axis and translated 6 units right, with maximum turning point $(6, 0)$.",
+            "solutionFigures": [],
+            "tip": "Square the bracket first, then apply the negative: $-(-6)^2 = -36$."
+          }
+        },
+        {
+          "id": "ch9_ex3_q20a",
+          "number": "20(a)",
+          "category": "Master",
+          "questionText": "For $y = -x^2 - 4$: i. state the appropriate dilation, reflection and translation of the graph of $y = x^2$ needed to obtain the graph; ii. state the coordinates of the turning point; iii. hence, sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: $|a|$ gives the dilation, $a < 0$ a reflection, $h$ and $k$ the translations; turning point $(h, k)$.",
+            "steps": [
+              "Given: $y = -x^2 - 4$.",
+              "Goal: describe the transformations, give the turning point and sketch.",
+              "i. $a = -1$: reflected in the $x$-axis, no dilation. $k = -4$: vertical translation 4 units down.",
+              "ii. Turning point $(0, -4)$, a maximum.",
+              "iii. $y$-intercept: $y = -0 - 4 = -4$, at $(0, -4)$.",
+              "$x$-intercepts: $-x^2 - 4 = 0 \\Rightarrow x^2 = -4$, no real solution, so none.",
+              "Extra points: $x = \\pm 1 \\Rightarrow y = -5$.",
+              "Sketch: an inverted parabola the same width as $y = x^2$, maximum at $(0, -4)$, entirely below the $x$-axis."
+            ],
+            "finalAnswer": "Therefore the graph is $y = x^2$ reflected in the $x$-axis and translated 4 units down, with maximum turning point $(0, -4)$.",
+            "solutionFigures": [],
+            "tip": "A maximum below the $x$-axis means the graph never reaches the $x$-axis."
+          }
+        },
+        {
+          "id": "ch9_ex3_q20b",
+          "number": "20(b)",
+          "category": "Master",
+          "questionText": "For $y = 2(x + 1)^2 - 4$: i. state the appropriate dilation, reflection and translation of the graph of $y = x^2$ needed to obtain the graph; ii. state the coordinates of the turning point; iii. hence, sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: $|a|$ gives the dilation, $a < 0$ a reflection, $h$ and $k$ the translations; turning point $(h, k)$.",
+            "steps": [
+              "Given: $y = 2(x + 1)^2 - 4$, so $a = 2$, $h = -1$, $k = -4$.",
+              "Goal: describe the transformations, give the turning point and sketch.",
+              "i. Dilation by a factor of 2 from the $x$-axis (narrower); no reflection; horizontal translation 1 unit left; vertical translation 4 units down.",
+              "ii. Turning point $(-1, -4)$, a minimum since $a > 0$.",
+              "iii. $y$-intercept: $y = 2(0 + 1)^2 - 4 = 2 - 4 = -2$, at $(0, -2)$.",
+              "$x$-intercepts: $2(x + 1)^2 - 4 = 0 \\Rightarrow (x + 1)^2 = 2 \\Rightarrow x + 1 = \\pm\\sqrt{2} \\Rightarrow x = -1 \\pm \\sqrt{2}$.",
+              "$x \\approx -2.41$ or $x \\approx 0.41$ (2 d.p.).",
+              "Sketch: an upright parabola narrower than $y = x^2$, minimum at $(-1, -4)$, crossing the $y$-axis at $-2$ and the $x$-axis at about $-2.41$ and $0.41$."
+            ],
+            "finalAnswer": "Therefore the graph is $y = x^2$ dilated by a factor of 2 (narrower), translated 1 unit left and 4 units down, with minimum turning point $(-1, -4)$.",
+            "solutionFigures": [],
+            "tip": "Divide by $a$ before taking the square root when solving for $x$-intercepts."
+          }
+        },
+        {
+          "id": "ch9_ex3_q20c",
+          "number": "20(c)",
+          "category": "Master",
+          "questionText": "For $y = \\frac{1}{2}(x - 3)^2 + 2$: i. state the appropriate dilation, reflection and translation of the graph of $y = x^2$ needed to obtain the graph; ii. state the coordinates of the turning point; iii. hence, sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: $|a|$ gives the dilation, $a < 0$ a reflection, $h$ and $k$ the translations; turning point $(h, k)$.",
+            "steps": [
+              "Given: $y = \\frac{1}{2}(x - 3)^2 + 2$, so $a = \\frac{1}{2}$, $h = 3$, $k = 2$.",
+              "Goal: describe the transformations, give the turning point and sketch.",
+              "i. Dilation by a factor of $\\frac{1}{2}$ from the $x$-axis (wider); no reflection; horizontal translation 3 units right; vertical translation 2 units up.",
+              "ii. Turning point $(3, 2)$, a minimum.",
+              "iii. $y$-intercept: $y = \\frac{1}{2}(0 - 3)^2 + 2 = \\frac{1}{2}(9) + 2 = 4.5 + 2 = 6.5$, at $(0, 6.5)$.",
+              "$x$-intercepts: $\\frac{1}{2}(x - 3)^2 + 2 = 0 \\Rightarrow (x - 3)^2 = -4$, no real solution, so none.",
+              "By symmetry about $x = 3$, $(6, 6.5)$ is also on the graph.",
+              "Sketch: an upright parabola wider than $y = x^2$, minimum at $(3, 2)$, passing through $(0, 6.5)$ and $(6, 6.5)$, above the $x$-axis."
+            ],
+            "finalAnswer": "Therefore the graph is $y = x^2$ dilated by a factor of $\\frac{1}{2}$ (wider), translated 3 units right and 2 units up, with minimum turning point $(3, 2)$.",
+            "solutionFigures": [],
+            "tip": "An upright parabola with its turning point above the $x$-axis has no $x$-intercepts."
+          }
+        },
+        {
+          "id": "ch9_ex3_q21a",
+          "number": "21(a)",
+          "category": "Master",
+          "questionText": "For $y = -\\frac{1}{3}(x + 2)^2 + \\frac{1}{4}$: i. state the appropriate dilation, reflection and translation of the graph of $y = x^2$ needed to obtain the graph; ii. state the coordinates of the turning point; iii. hence, sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: $|a|$ gives the dilation, $a < 0$ a reflection, $h$ and $k$ the translations; turning point $(h, k)$.",
+            "steps": [
+              "Given: $y = -\\frac{1}{3}(x + 2)^2 + \\frac{1}{4}$, so $a = -\\frac{1}{3}$, $h = -2$, $k = \\frac{1}{4}$.",
+              "Goal: describe the transformations, give the turning point and sketch.",
+              "i. Dilation by a factor of $\\frac{1}{3}$ from the $x$-axis (wider); reflected in the $x$-axis; horizontal translation 2 units left; vertical translation $\\frac{1}{4}$ unit up.",
+              "ii. Turning point $\\left(-2, \\frac{1}{4}\\right)$, a maximum since $a < 0$.",
+              "iii. $y$-intercept: $y = -\\frac{1}{3}(2)^2 + \\frac{1}{4} = -\\frac{4}{3} + \\frac{1}{4} = -\\frac{16}{12} + \\frac{3}{12} = -\\frac{13}{12}$.",
+              "$x$-intercepts: $-\\frac{1}{3}(x + 2)^2 + \\frac{1}{4} = 0 \\Rightarrow (x + 2)^2 = \\frac{3}{4} \\Rightarrow x + 2 = \\pm\\frac{\\sqrt{3}}{2}$.",
+              "$x = -2 \\pm \\frac{\\sqrt{3}}{2}$, so $x \\approx -2.87$ or $x \\approx -1.13$ (2 d.p.).",
+              "Sketch: a wide inverted parabola, maximum just above the $x$-axis at $\\left(-2, \\frac{1}{4}\\right)$, crossing the $x$-axis near $-2.87$ and $-1.13$ and the $y$-axis at $-\\frac{13}{12}$."
+            ],
+            "finalAnswer": "Therefore the graph is $y = x^2$ dilated by a factor of $\\frac{1}{3}$ (wider), reflected in the $x$-axis, translated 2 units left and $\\frac{1}{4}$ unit up, with maximum turning point $\\left(-2, \\frac{1}{4}\\right)$.",
+            "solutionFigures": [],
+            "tip": "Use a common denominator when combining fractions like $-\\frac{4}{3} + \\frac{1}{4}$."
+          }
+        },
+        {
+          "id": "ch9_ex3_q21b",
+          "number": "21(b)",
+          "category": "Master",
+          "questionText": "For $y = -\\frac{7}{4}(x - 1)^2 - \\frac{3}{2}$: i. state the appropriate dilation, reflection and translation of the graph of $y = x^2$ needed to obtain the graph; ii. state the coordinates of the turning point; iii. hence, sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: $|a|$ gives the dilation, $a < 0$ a reflection, $h$ and $k$ the translations; turning point $(h, k)$.",
+            "steps": [
+              "Given: $y = -\\frac{7}{4}(x - 1)^2 - \\frac{3}{2}$, so $a = -\\frac{7}{4}$, $h = 1$, $k = -\\frac{3}{2}$.",
+              "Goal: describe the transformations, give the turning point and sketch.",
+              "i. Dilation by a factor of $\\frac{7}{4}$ from the $x$-axis (narrower); reflected in the $x$-axis; horizontal translation 1 unit right; vertical translation $\\frac{3}{2}$ units down.",
+              "ii. Turning point $\\left(1, -\\frac{3}{2}\\right)$, a maximum since $a < 0$.",
+              "iii. $y$-intercept: $y = -\\frac{7}{4}(0 - 1)^2 - \\frac{3}{2} = -\\frac{7}{4} - \\frac{6}{4} = -\\frac{13}{4}$.",
+              "$x$-intercepts: $-\\frac{7}{4}(x - 1)^2 = \\frac{3}{2} \\Rightarrow (x - 1)^2 = -\\frac{6}{7}$, no real solution, so none.",
+              "By symmetry about $x = 1$, $\\left(2, -\\frac{13}{4}\\right)$ is also on the graph.",
+              "Sketch: a narrow inverted parabola, maximum at $\\left(1, -\\frac{3}{2}\\right)$, entirely below the $x$-axis, passing through $\\left(0, -\\frac{13}{4}\\right)$ and $\\left(2, -\\frac{13}{4}\\right)$."
+            ],
+            "finalAnswer": "Therefore the graph is $y = x^2$ dilated by a factor of $\\frac{7}{4}$ (narrower), reflected in the $x$-axis, translated 1 unit right and $\\frac{3}{2}$ units down, with maximum turning point $\\left(1, -\\frac{3}{2}\\right)$.",
+            "solutionFigures": [],
+            "tip": "$\\frac{7}{4} > 1$, so despite being a fraction it makes the graph narrower."
+          }
+        },
+        {
+          "id": "ch9_ex3_q22a",
+          "number": "22(a)",
+          "category": "Practice",
+          "questionText": "A vase 25 cm tall is positioned on a bench near a wall. The shape of the vase follows the curve $y = (x - 10)^2$, where $y$ cm is the height of the vase and $x$ cm is the distance of the vase from the wall (the wall is the $y$-axis and the bench is the $x$-axis). Identify how far the base of the vase is from the wall.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = (x - h)^2$ has turning point $(h, 0)$.",
+            "steps": [
+              "Given: vase shape $y = (x - 10)^2$, height 25 cm.",
+              "Goal: distance from the wall to the base.",
+              "The base is the lowest point, the turning point.",
+              "$x - 10 = 0 \\Rightarrow x = 10$, $y = 0$, so the turning point is $(10, 0)$."
+            ],
+            "finalAnswer": "Therefore the base of the vase is 10 cm from the wall.",
+            "solutionFigures": [],
+            "tip": "Link the physical feature (base) to the graph feature (turning point)."
+          }
+        },
+        {
+          "id": "ch9_ex3_q22b",
+          "number": "22(b)",
+          "category": "Practice",
+          "questionText": "A vase 25 cm tall is positioned on a bench near a wall. The shape of the vase follows the curve $y = (x - 10)^2$, where $y$ cm is the height of the vase and $x$ cm is the distance of the vase from the wall. Determine the shortest distance from the top of the vase to the wall.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute $y = 25$ into $y = (x - 10)^2$ and solve.",
+            "steps": [
+              "Given: $y = (x - 10)^2$, top of vase at $y = 25$.",
+              "Goal: the smallest $x$-value at the top.",
+              "$(x - 10)^2 = 25$",
+              "$x - 10 = \\pm 5$",
+              "$x = 10 - 5 = 5$ or $x = 10 + 5 = 15$.",
+              "The rim nearest the wall is at $x = 5$."
+            ],
+            "finalAnswer": "Therefore the shortest distance from the top of the vase to the wall is 5 cm.",
+            "solutionFigures": [],
+            "tip": "Both square roots give the two edges of the rim; choose the one closer to the wall."
+          }
+        },
+        {
+          "id": "ch9_ex3_q22c",
+          "number": "22(c)",
+          "category": "Practice",
+          "questionText": "A vase 25 cm tall is positioned on a bench near a wall. The shape of the vase follows the curve $y = (x - 10)^2$, where $y$ cm is the height of the vase and $x$ cm is the distance of the vase from the wall. If the vase is moved so that the top just touches the wall, determine the new distance from the wall to the base.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "A horizontal translation moves every point, including the turning point, by the same amount.",
+            "steps": [
+              "Given: the near edge of the top is 5 cm from the wall and the base is 10 cm from the wall.",
+              "Goal: new base distance when the top touches the wall.",
+              "To make the top touch the wall, move the vase 5 cm left (the top moves from $x = 5$ to $x = 0$).",
+              "The base moves from $x = 10$ to $x = 10 - 5 = 5$."
+            ],
+            "finalAnswer": "Therefore the base of the vase is now 5 cm from the wall.",
+            "solutionFigures": [],
+            "tip": "Move the whole vase; the shape does not change, only its position."
+          }
+        },
+        {
+          "id": "ch9_ex3_q22d",
+          "number": "22(d)",
+          "category": "Practice",
+          "questionText": "A vase 25 cm tall is positioned on a bench near a wall. The shape of the vase follows the curve $y = (x - 10)^2$, where $y$ cm is the height of the vase and $x$ cm is the distance of the vase from the wall. The vase is moved so that its top just touches the wall. Determine the new equation that follows the shape of the vase.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = (x - h)^2$ has turning point $(h, 0)$.",
+            "steps": [
+              "Given: the new base (turning point) is at $(5, 0)$.",
+              "Goal: the new equation.",
+              "Substitute $h = 5$: $y = (x - 5)^2$.",
+              "Check: at $x = 0$, $y = (0 - 5)^2 = 25$, so the top touches the wall at height 25 cm."
+            ],
+            "finalAnswer": "Therefore the new equation is $y = (x - 5)^2$.",
+            "solutionFigures": [],
+            "tip": "Always check the new equation with a known point, such as the top at $(0, 25)$."
+          }
+        },
+        {
+          "id": "ch9_ex3_q23a",
+          "number": "23(a)",
+          "category": "Consolidate",
+          "questionText": "Tom is standing at the start of a footpath at $(0, 0)$ that leads to the base of a hill. The height of the hill is modelled by $h = -\\frac{1}{10}(d - 25)^2 + 40$, where $h$ is the height of the hill in metres and $d$ is the horizontal distance from the start of the path. Calculate how tall the hill is.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$h = a(d - p)^2 + q$ with $a < 0$ has maximum value $q$ at $d = p$.",
+            "steps": [
+              "Given: $h = -\\frac{1}{10}(d - 25)^2 + 40$.",
+              "Goal: the maximum height.",
+              "$a = -\\frac{1}{10} < 0$, so the turning point is a maximum.",
+              "Turning point: $(25, 40)$, so the greatest height is 40 m."
+            ],
+            "finalAnswer": "Therefore the hill is 40 m tall.",
+            "solutionFigures": [],
+            "tip": "The top of the hill is the maximum turning point."
+          }
+        },
+        {
+          "id": "ch9_ex3_q23b",
+          "number": "23(b)",
+          "category": "Consolidate",
+          "questionText": "Tom is standing at the start of a footpath at $(0, 0)$ that leads to the base of a hill. The height of the hill is modelled by $h = -\\frac{1}{10}(d - 25)^2 + 40$, where $h$ is the height in metres and $d$ is the horizontal distance from the start of the path. Determine how far the base of the hill is from the beginning of the footpath.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The base of the hill is where $h = 0$.",
+            "steps": [
+              "Given: $h = -\\frac{1}{10}(d - 25)^2 + 40$.",
+              "Goal: the nearest $d$ where $h = 0$.",
+              "$-\\frac{1}{10}(d - 25)^2 + 40 = 0$",
+              "$\\frac{1}{10}(d - 25)^2 = 40$",
+              "$(d - 25)^2 = 400$",
+              "$d - 25 = \\pm 20$",
+              "$d = 5$ or $d = 45$.",
+              "The base on Tom's side of the hill is at $d = 5$."
+            ],
+            "finalAnswer": "Therefore the base of the hill is 5 m from the beginning of the footpath.",
+            "solutionFigures": [],
+            "tip": "Choose the intercept on the side where the path starts, the smaller value."
+          }
+        },
+        {
+          "id": "ch9_ex3_q23c",
+          "number": "23(c)",
+          "category": "Consolidate",
+          "questionText": "Tom is standing at the start of a footpath at $(0, 0)$ that leads to the base of a hill. The height of the hill is modelled by $h = -\\frac{1}{10}(d - 25)^2 + 40$, where $h$ is the height in metres and $d$ is the horizontal distance from the start of the path. If the footpath is to be extended so the lead in to the hill is 50 m, determine the new equation that models the height of the hill.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Replacing $(d - p)$ by $(d - (p + c))$ translates the graph $c$ units right.",
+            "steps": [
+              "Given: the base is currently at $d = 5$; it must move to $d = 50$.",
+              "Goal: the new equation.",
+              "Translation needed: $50 - 5 = 45$ m to the right.",
+              "New turning point: $d = 25 + 45 = 70$, height still 40.",
+              "New equation: $h = -\\frac{1}{10}(d - 70)^2 + 40$.",
+              "Check: $(d - 70)^2 = 400 \\Rightarrow d = 50$ or $90$, so the base is now 50 m away."
+            ],
+            "finalAnswer": "Therefore the new equation is $h = -\\frac{1}{10}(d - 70)^2 + 40$.",
+            "solutionFigures": [],
+            "tip": "Shift the turning point by the same amount as the base moves."
+          }
+        },
+        {
+          "id": "ch9_ex3_q23d",
+          "number": "23(d)",
+          "category": "Consolidate",
+          "questionText": "Tom is standing at the start of a footpath at $(0, 0)$ that leads to the base of a hill. After the path is extended, the hill is modelled by $h = -\\frac{1}{10}(d - 70)^2 + 40$. The height of the hill has been incorrectly measured and should actually be 120 m. Adjust this equation to correct the error and state the transformation applied.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplying a whole rule by $k$ dilates the graph by a factor of $k$ from the horizontal axis.",
+            "steps": [
+              "Given: $h = -\\frac{1}{10}(d - 70)^2 + 40$; the true height is 120 m.",
+              "Goal: an equation with maximum 120 and the same base points.",
+              "Scale factor: $\\frac{120}{40} = 3$.",
+              "Multiply the whole rule by 3: $h = 3\\left[-\\frac{1}{10}(d - 70)^2 + 40\\right] = -\\frac{3}{10}(d - 70)^2 + 120$.",
+              "Check base: $-\\frac{3}{10}(d - 70)^2 + 120 = 0 \\Rightarrow (d - 70)^2 = 400 \\Rightarrow d = 50$, unchanged."
+            ],
+            "finalAnswer": "Therefore the corrected equation is $h = -\\frac{3}{10}(d - 70)^2 + 120$, a dilation by a factor of 3 from the $d$-axis.",
+            "solutionFigures": [],
+            "tip": "Multiply both $a$ and the vertical translation by the factor, or the base points will move."
+          }
+        },
+        {
+          "id": "ch9_ex3_q24a",
+          "number": "24(a)",
+          "category": "Master",
+          "questionText": "A ball is thrown vertically upwards. Its height in metres after $t$ seconds is given by $h = 7t - t^2$. Sketch the graph of the height of the ball against time.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complete the square: $h = -(t - p)^2 + q$ has maximum turning point $(p, q)$.",
+            "steps": [
+              "Given: $h = 7t - t^2$.",
+              "Goal: key features for a sketch.",
+              "$t$-intercepts: $7t - t^2 = 0 \\Rightarrow t(7 - t) = 0 \\Rightarrow t = 0$ or $t = 7$.",
+              "Axis of symmetry: $t = \\frac{0 + 7}{2} = 3.5$.",
+              "Turning point: $h = 7(3.5) - (3.5)^2 = 24.5 - 12.25 = 12.25$, so $(3.5, 12.25)$, a maximum since the $t^2$ coefficient is negative.",
+              "Sketch for $0 \\le t \\le 7$: an inverted parabola starting at $(0, 0)$, rising to $(3.5, 12.25)$ and returning to $(7, 0)$."
+            ],
+            "finalAnswer": "Therefore the graph is an inverted parabola through $(0, 0)$ and $(7, 0)$ with maximum $(3.5, 12.25)$.",
+            "solutionFigures": [],
+            "tip": "Only draw $0 \\le t \\le 7$; negative heights and times have no meaning here."
+          }
+        },
+        {
+          "id": "ch9_ex3_q24b",
+          "number": "24(b)",
+          "category": "Master",
+          "questionText": "A ball is thrown vertically upwards. Its height in metres after $t$ seconds is given by $h = 7t - t^2$. Evaluate the highest point reached by the ball. Show your full working.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Completing the square: $t^2 - bt = \\left(t - \\frac{b}{2}\\right)^2 - \\left(\\frac{b}{2}\\right)^2$.",
+            "steps": [
+              "Given: $h = 7t - t^2$.",
+              "Goal: the maximum height.",
+              "$h = -(t^2 - 7t)$",
+              "$h = -\\left[(t - 3.5)^2 - 3.5^2\\right]$",
+              "$h = -\\left[(t - 3.5)^2 - 12.25\\right]$",
+              "$h = -(t - 3.5)^2 + 12.25$",
+              "Maximum turning point $(3.5, 12.25)$."
+            ],
+            "finalAnswer": "Therefore the highest point reached by the ball is 12.25 m (after 3.5 seconds).",
+            "solutionFigures": [],
+            "tip": "Take out the negative first, then complete the square inside the bracket."
+          }
+        },
+        {
+          "id": "ch9_ex3_q24c",
+          "number": "24(c)",
+          "category": "Master",
+          "questionText": "A ball is thrown vertically upwards with height $h = 7t - t^2$ metres after $t$ seconds. A second ball is thrown vertically upwards; its height in metres after $t$ seconds is given by $h = 10t - t^2$. On the same set of axes used for the first ball, sketch the graph of the height of the second ball against time.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$h = -(t - p)^2 + q$ has maximum turning point $(p, q)$.",
+            "steps": [
+              "Given: $h = 10t - t^2$.",
+              "Goal: key features to add to the first sketch.",
+              "$t$-intercepts: $t(10 - t) = 0 \\Rightarrow t = 0$ or $t = 10$.",
+              "Complete the square: $h = -(t^2 - 10t) = -[(t - 5)^2 - 25] = -(t - 5)^2 + 25$.",
+              "Turning point $(5, 25)$, a maximum.",
+              "Sketch for $0 \\le t \\le 10$: an inverted parabola from $(0, 0)$ up to $(5, 25)$ and back to $(10, 0)$, drawn on the same axes as the first ball's curve, which lies inside it (peak $(3.5, 12.25)$, landing at $t = 7$)."
+            ],
+            "finalAnswer": "Therefore the second ball's graph is an inverted parabola through $(0, 0)$ and $(10, 0)$ with maximum $(5, 25)$, higher and wider than the first ball's graph.",
+            "solutionFigures": [],
+            "tip": "Label each curve so the two balls can be told apart."
+          }
+        },
+        {
+          "id": "ch9_ex3_q24d",
+          "number": "24(d)",
+          "category": "Master",
+          "questionText": "A first ball has height $h = 7t - t^2$ metres and a second ball has height $h = 10t - t^2$ metres, $t$ seconds after being thrown vertically upwards. State the difference in the highest point reached by the two balls.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Maximum heights from turning point form: $h = -(t - 3.5)^2 + 12.25$ and $h = -(t - 5)^2 + 25$.",
+            "steps": [
+              "Given: maximum heights 12.25 m (ball 1) and 25 m (ball 2).",
+              "Goal: the difference.",
+              "Difference $= 25 - 12.25 = 12.75$ m."
+            ],
+            "finalAnswer": "Therefore the second ball reaches 12.75 m higher than the first ball.",
+            "solutionFigures": [],
+            "tip": "Compare the $y$-coordinates of the turning points, not the landing times."
+          }
+        },
+        {
+          "id": "ch9_ex3_q25a",
+          "number": "25(a)",
+          "category": "Practice",
+          "questionText": "Consider the quadratic equation $y = x^2 - 4x + 7$. Determine the equivalent inverted equation of the quadratic that just touches the one above at the turning point.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Completing the square: $x^2 + bx + c = \\left(x + \\frac{b}{2}\\right)^2 + c - \\left(\\frac{b}{2}\\right)^2$. The inverted parabola with the same turning point is $y = -(x - h)^2 + k$.",
+            "steps": [
+              "Given: $y = x^2 - 4x + 7$.",
+              "Goal: an inverted parabola sharing the same turning point.",
+              "$y = x^2 - 4x + 4 - 4 + 7$",
+              "$y = (x - 2)^2 + 3$, so the turning point is $(2, 3)$ (a minimum).",
+              "Inverted parabola with the same turning point and width: $y = -(x - 2)^2 + 3$.",
+              "Expand: $y = -(x^2 - 4x + 4) + 3 = -x^2 + 4x - 1$."
+            ],
+            "finalAnswer": "Therefore the inverted equation is $y = -(x - 2)^2 + 3 = -x^2 + 4x - 1$.",
+            "solutionFigures": [],
+            "tip": "Reflect about the turning point, not the $x$-axis: keep $k = 3$ and only change the sign of $a$."
+          }
+        },
+        {
+          "id": "ch9_ex3_q25b",
+          "number": "25(b)",
+          "category": "Practice",
+          "questionText": "Consider $y = x^2 - 4x + 7$ and the inverted parabola $y = -x^2 + 4x - 1$ that touches it at its turning point. Confirm your result graphically.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Two graphs meet where their equations are equal.",
+            "steps": [
+              "Given: $y = (x - 2)^2 + 3$ and $y = -(x - 2)^2 + 3$.",
+              "Goal: show they touch only at the turning point.",
+              "First graph: upright, minimum $(2, 3)$, $y$-intercept $7$, no $x$-intercepts.",
+              "Second graph: inverted, maximum $(2, 3)$, $y$-intercept $-1$, $x$-intercepts where $(x - 2)^2 = 3$, $x = 2 \\pm \\sqrt{3} \\approx 0.27, 3.73$.",
+              "Algebraic check: $x^2 - 4x + 7 = -x^2 + 4x - 1 \\Rightarrow 2x^2 - 8x + 8 = 0 \\Rightarrow (x - 2)^2 = 0 \\Rightarrow x = 2$, a single point $(2, 3)$.",
+              "Sketch: the upright curve sits above $y = 3$ and the inverted curve below it; they meet only at $(2, 3)$."
+            ],
+            "finalAnswer": "Therefore the two parabolas touch at exactly one point, the shared turning point $(2, 3)$.",
+            "solutionFigures": [],
+            "tip": "A single repeated solution means the graphs touch rather than cross."
+          }
+        },
+        {
+          "id": "ch9_ex3_q26a",
+          "number": "26(a)",
+          "category": "Consolidate",
+          "questionText": "Consider the equation $y = 3(x - 2)^2 - 7$. State the coordinates of the turning point and $y$-intercept.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$ has turning point $(h, k)$; the $y$-intercept is found by setting $x = 0$.",
+            "steps": [
+              "Given: $y = 3(x - 2)^2 - 7$, so $h = 2$, $k = -7$.",
+              "Goal: turning point and $y$-intercept.",
+              "Turning point: $(2, -7)$.",
+              "$y$-intercept: $y = 3(0 - 2)^2 - 7 = 3(4) - 7 = 12 - 7 = 5$, so $(0, 5)$."
+            ],
+            "finalAnswer": "Therefore the turning point is $(2, -7)$ and the $y$-intercept is $(0, 5)$.",
+            "solutionFigures": [],
+            "tip": "Square before multiplying by 3: $3(-2)^2 = 12$."
+          }
+        },
+        {
+          "id": "ch9_ex3_q26b",
+          "number": "26(b)",
+          "category": "Consolidate",
+          "questionText": "State a sequence of transformations that when applied to the graph of $y = -\\frac{3}{2}(x - 2)^2 - 7$ will produce the graph of $y = x^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Undo the transformations in reverse order: translations first, then reflection, then dilation.",
+            "steps": [
+              "Given: $y = -\\frac{3}{2}(x - 2)^2 - 7$.",
+              "Goal: transformations that return it to $y = x^2$.",
+              "Translate 2 units left (replace $x$ by $x + 2$): $y = -\\frac{3}{2}x^2 - 7$.",
+              "Translate 7 units up (add 7): $y = -\\frac{3}{2}x^2$.",
+              "Reflect in the $x$-axis (multiply by $-1$): $y = \\frac{3}{2}x^2$.",
+              "Dilate by a factor of $\\frac{2}{3}$ from the $x$-axis (multiply by $\\frac{2}{3}$): $y = \\frac{2}{3} \\times \\frac{3}{2}x^2 = x^2$."
+            ],
+            "finalAnswer": "Therefore: translate 2 units left, translate 7 units up, reflect in the $x$-axis, then dilate by a factor of $\\frac{2}{3}$ from the $x$-axis.",
+            "solutionFigures": [],
+            "tip": "Reversing a dilation by $\\frac{3}{2}$ needs a dilation by the reciprocal, $\\frac{2}{3}$."
+          }
+        },
+        {
+          "id": "ch9_ex3_q27a",
+          "number": "27(a)",
+          "category": "Master",
+          "questionText": "A parabola has the equation $y = -\\frac{1}{2}(x - 3)^2 + 4$. A second parabola has an equation defined by $Y = 2(y - 1) - 3$. Determine the equation relating $Y$ to $x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute the rule for $y$ into the rule for $Y$ and simplify.",
+            "steps": [
+              "Given: $y = -\\frac{1}{2}(x - 3)^2 + 4$ and $Y = 2(y - 1) - 3$.",
+              "Goal: $Y$ in terms of $x$.",
+              "$y - 1 = -\\frac{1}{2}(x - 3)^2 + 4 - 1 = -\\frac{1}{2}(x - 3)^2 + 3$",
+              "$Y = 2\\left[-\\frac{1}{2}(x - 3)^2 + 3\\right] - 3$",
+              "$Y = -(x - 3)^2 + 6 - 3$",
+              "$Y = -(x - 3)^2 + 3$"
+            ],
+            "finalAnswer": "Therefore $Y = -(x - 3)^2 + 3$.",
+            "solutionFigures": [],
+            "tip": "Expand the 2 over both terms in the bracket."
+          }
+        },
+        {
+          "id": "ch9_ex3_q27b",
+          "number": "27(b)",
+          "category": "Master",
+          "questionText": "Given $y = -\\frac{1}{2}(x - 3)^2 + 4$ and $Y = 2(y - 1) - 3$ (so that $Y = -(x - 3)^2 + 3$), state the appropriate dilation, reflection and translation of the graph of $Y = x^2$ required to obtain the graph of $Y = 2(y - 1) - 3$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$Y = a(x - h)^2 + k$: $|a|$ gives the dilation, $a < 0$ a reflection, $h$ and $k$ the translations.",
+            "steps": [
+              "Given: $Y = -(x - 3)^2 + 3$, so $a = -1$, $h = 3$, $k = 3$.",
+              "Goal: describe the transformations from $Y = x^2$.",
+              "$|a| = 1$: no dilation.",
+              "$a < 0$: reflection in the $x$-axis.",
+              "$h = 3$: translation 3 units right; $k = 3$: translation 3 units up."
+            ],
+            "finalAnswer": "Therefore the graph is $Y = x^2$ reflected in the $x$-axis and translated 3 units right and 3 units up, with no dilation.",
+            "solutionFigures": [],
+            "tip": "A coefficient of $-1$ means a reflection only, not a dilation."
+          }
+        },
+        {
+          "id": "ch9_ex3_q27c",
+          "number": "27(c)",
+          "category": "Master",
+          "questionText": "Given $y = -\\frac{1}{2}(x - 3)^2 + 4$ and $Y = 2(y - 1) - 3$, state the coordinates of the turning point of $Y = 2(y - 1) - 3$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$Y = a(x - h)^2 + k$ has turning point $(h, k)$.",
+            "steps": [
+              "Given: $Y = -(x - 3)^2 + 3$.",
+              "Goal: the turning point.",
+              "$h = 3$, $k = 3$, and $a = -1 < 0$ so it is a maximum."
+            ],
+            "finalAnswer": "Therefore the turning point is $(3, 3)$, a maximum.",
+            "solutionFigures": [],
+            "tip": "Write $Y$ in turning point form before reading off the coordinates."
+          }
+        },
+        {
+          "id": "ch9_ex3_q27d",
+          "number": "27(d)",
+          "category": "Master",
+          "questionText": "Given $y = -\\frac{1}{2}(x - 3)^2 + 4$ and $Y = 2(y - 1) - 3$, sketch the graph of $Y = 2(y - 1) - 3$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Use $Y = -(x - 3)^2 + 3$: turning point $(3, 3)$; set $x = 0$ for the $Y$-intercept and $Y = 0$ for the $x$-intercepts.",
+            "steps": [
+              "Given: $Y = -(x - 3)^2 + 3$.",
+              "Goal: key features for the sketch.",
+              "Turning point: $(3, 3)$, maximum.",
+              "$Y$-intercept: $Y = -(0 - 3)^2 + 3 = -9 + 3 = -6$, so $(0, -6)$.",
+              "$x$-intercepts: $-(x - 3)^2 + 3 = 0 \\Rightarrow (x - 3)^2 = 3 \\Rightarrow x = 3 \\pm \\sqrt{3}$.",
+              "$x \\approx 1.27$ or $x \\approx 4.73$ (2 d.p.).",
+              "Sketch: an inverted parabola the same width as $Y = x^2$, maximum at $(3, 3)$, crossing the $x$-axis at about $(1.27, 0)$ and $(4.73, 0)$ and the vertical axis at $(0, -6)$; axis of symmetry $x = 3$."
+            ],
+            "finalAnswer": "Therefore the graph is an inverted parabola with maximum $(3, 3)$, $x$-intercepts $3 \\pm \\sqrt{3}$ (about 1.27 and 4.73) and vertical-axis intercept $-6$.",
+            "solutionFigures": [],
+            "tip": "Give exact intercepts $3 \\pm \\sqrt{3}$ as well as decimals."
+          }
+        },
+        {
+          "id": "ch9_ex3_q28",
+          "number": "28",
+          "category": "Master",
+          "questionText": "A ball shot at a certain angle to the horizontal follows a parabolic path. It reaches a maximum height of 200 m when its horizontal distance from its starting point is 10 m. When the ball's horizontal distance from the starting point was 1 m, the ball had reached a height of 38 m. Determine an equation to model the ball's flight, clearly defining your chosen pronumerals.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Turning point form: $y = a(x - h)^2 + k$ with turning point $(h, k)$.",
+            "steps": [
+              "Given: maximum at $(10, 200)$; the point $(1, 38)$ lies on the path.",
+              "Goal: an equation for the path.",
+              "Let $x$ be the horizontal distance (m) from the starting point and $y$ the height (m) of the ball.",
+              "Turning point $(10, 200)$: $y = a(x - 10)^2 + 200$.",
+              "Substitute $(1, 38)$: $38 = a(1 - 10)^2 + 200$",
+              "$38 = 81a + 200$",
+              "$81a = -162$",
+              "$a = -2$",
+              "So $y = -2(x - 10)^2 + 200$.",
+              "Expand: $y = -2(x^2 - 20x + 100) + 200 = -2x^2 + 40x - 200 + 200 = -2x^2 + 40x$.",
+              "Check: $x = 0 \\Rightarrow y = 0$ (the ball starts at ground level); $x = 10 \\Rightarrow y = -200 + 400 = 200$."
+            ],
+            "finalAnswer": "Therefore the flight is modelled by $y = -2(x - 10)^2 + 200 = -2x^2 + 40x$, where $y$ is the height in metres and $x$ is the horizontal distance in metres.",
+            "solutionFigures": [],
+            "tip": "Start from the turning point form whenever the maximum or minimum is given."
+          }
+        }
+      ]
+    }
+  ]
+}

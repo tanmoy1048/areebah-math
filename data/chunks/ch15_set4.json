@@ -1,0 +1,637 @@
+{
+  "chapterId": "ch15",
+  "chapterTitle": "Trigonometry II (10A)",
+  "topics": [
+    {
+      "topicId": "15.4",
+      "topicTitle": "Area of triangles",
+      "exercises": [
+        {
+          "id": "ch15_ex4_q1",
+          "number": "1",
+          "category": "Practice",
+          "questionText": "Where appropriate, write angles correct to the nearest minute and other measurements correct to 2 decimal places. Calculate the area of the triangle ABC with $a = 7$, $b = 4$ and $C = 68^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area $= \\frac{1}{2}ab\\sin(C)$",
+            "steps": [
+              "Given: $a = 7$, $b = 4$, included angle $C = 68^\\circ$. Goal: area.",
+              "Area $= \\frac{1}{2} \\times 7 \\times 4 \\times \\sin(68^\\circ)$",
+              "$= 14 \\times 0.927184 \\approx 12.98$"
+            ],
+            "finalAnswer": "Therefore the area is approximately 12.98 square units.",
+            "solutionFigures": [],
+            "tip": "The angle in the formula must be the one between the two given sides ($C$ is between $a$ and $b$)."
+          }
+        },
+        {
+          "id": "ch15_ex4_q2",
+          "number": "2",
+          "category": "Consolidate",
+          "questionText": "Where appropriate, write angles correct to the nearest minute and other measurements correct to 2 decimal places. Calculate the area of the triangle ABC with $a = 7.3$, $c = 10.8$ and $B = 104^\\circ 40'$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area $= \\frac{1}{2}ac\\sin(B)$",
+            "steps": [
+              "Given: $a = 7.3$, $c = 10.8$, included angle $B = 104^\\circ 40'$. Goal: area.",
+              "Area $= \\frac{1}{2} \\times 7.3 \\times 10.8 \\times \\sin(104^\\circ 40')$",
+              "$= 39.42 \\times 0.967415 \\approx 38.14$"
+            ],
+            "finalAnswer": "Therefore the area is approximately 38.14 square units.",
+            "solutionFigures": [],
+            "tip": "Enter $104^\\circ 40'$ as $104 + \\frac{40}{60}$, not as 104.4."
+          }
+        },
+        {
+          "id": "ch15_ex4_q3",
+          "number": "3",
+          "category": "Master",
+          "questionText": "Where appropriate, write angles correct to the nearest minute and other measurements correct to 2 decimal places. Calculate the area of the triangle ABC with $b = 23.1$, $c = 18.6$ and $A = 82^\\circ 17'$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area $= \\frac{1}{2}bc\\sin(A)$",
+            "steps": [
+              "Given: $b = 23.1$, $c = 18.6$, included angle $A = 82^\\circ 17'$. Goal: area.",
+              "Area $= \\frac{1}{2} \\times 23.1 \\times 18.6 \\times \\sin(82^\\circ 17')$",
+              "$= 214.83 \\times 0.990944 \\approx 212.88$"
+            ],
+            "finalAnswer": "Therefore the area is approximately 212.88 square units.",
+            "solutionFigures": [],
+            "tip": "Check your calculator is in degree mode before evaluating the sine."
+          }
+        },
+        {
+          "id": "ch15_ex4_q4",
+          "number": "4",
+          "category": "Practice",
+          "questionText": "Where appropriate, write angles correct to the nearest minute and other measurements correct to 2 decimal places. A triangle has $a = 10$ cm, $c = 14$ cm and $C = 48^\\circ$. Determine $A$ and $B$ and hence the area.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule $\\frac{a}{\\sin(A)} = \\frac{c}{\\sin(C)}$; area $= \\frac{1}{2}ac\\sin(B)$",
+            "steps": [
+              "Given: $a = 10$, $c = 14$, $C = 48^\\circ$ (not the included angle). Goal: $A$, $B$, area.",
+              "$\\sin(A) = \\frac{10\\sin(48^\\circ)}{14} = \\frac{10 \\times 0.743145}{14} \\approx 0.530818$",
+              "$A \\approx 32.061^\\circ \\approx 32^\\circ 4'$ (only one triangle since $a < c$ means A must be acute).",
+              "$B = 180^\\circ - 48^\\circ - 32.061^\\circ = 99.939^\\circ \\approx 99^\\circ 56'$",
+              "B is the angle between $a$ and $c$, so Area $= \\frac{1}{2} \\times 10 \\times 14 \\times \\sin(99.939^\\circ)$",
+              "$= 70 \\times 0.984991 \\approx 68.95\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore $A \\approx 32^\\circ 4'$, $B \\approx 99^\\circ 56'$ and the area is approximately $68.95\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "When the given angle is not between the given sides, find the included angle first."
+          }
+        },
+        {
+          "id": "ch15_ex4_q5",
+          "number": "5",
+          "category": "Consolidate",
+          "questionText": "Where appropriate, write angles correct to the nearest minute and other measurements correct to 2 decimal places. A triangle has $a = 17$ m, $c = 22$ m and $C = 56^\\circ$. Determine $A$ and $B$ and hence the area.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule $\\frac{a}{\\sin(A)} = \\frac{c}{\\sin(C)}$; area $= \\frac{1}{2}ac\\sin(B)$",
+            "steps": [
+              "Given: $a = 17$, $c = 22$, $C = 56^\\circ$. Goal: $A$, $B$, area.",
+              "$\\sin(A) = \\frac{17\\sin(56^\\circ)}{22} = \\frac{17 \\times 0.829038}{22} \\approx 0.640620$",
+              "$A \\approx 39.838^\\circ \\approx 39^\\circ 50'$ (A is acute since $a < c$).",
+              "$B = 180^\\circ - 56^\\circ - 39.838^\\circ = 84.162^\\circ \\approx 84^\\circ 10'$",
+              "Area $= \\frac{1}{2} \\times 17 \\times 22 \\times \\sin(84.162^\\circ) = 187 \\times 0.994813 \\approx 186.03\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore $A \\approx 39^\\circ 50'$, $B \\approx 84^\\circ 10'$ and the area is approximately $186.03\\text{ m}^2$.",
+            "solutionFigures": [],
+            "tip": "Use the unrounded value of $B$ in the area formula."
+          }
+        },
+        {
+          "id": "ch15_ex4_q6",
+          "number": "6",
+          "category": "Master",
+          "questionText": "Where appropriate, write angles correct to the nearest minute and other measurements correct to 2 decimal places. A triangle has $b = 32$ mm, $c = 15$ mm and $B = 38^\\circ$. Determine $A$ and $C$ and hence the area.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule $\\frac{b}{\\sin(B)} = \\frac{c}{\\sin(C)}$; area $= \\frac{1}{2}bc\\sin(A)$",
+            "steps": [
+              "Given: $b = 32$, $c = 15$, $B = 38^\\circ$. Goal: $C$, $A$, area.",
+              "$\\sin(C) = \\frac{15\\sin(38^\\circ)}{32} = \\frac{15 \\times 0.615661}{32} \\approx 0.288591$",
+              "$C \\approx 16.774^\\circ \\approx 16^\\circ 46'$ (C is acute since $c < b$).",
+              "$A = 180^\\circ - 38^\\circ - 16.774^\\circ = 125.226^\\circ \\approx 125^\\circ 14'$",
+              "Area $= \\frac{1}{2} \\times 32 \\times 15 \\times \\sin(125.226^\\circ) = 240 \\times 0.816880 \\approx 196.05\\text{ mm}^2$"
+            ],
+            "finalAnswer": "Therefore $A \\approx 125^\\circ 14'$, $C \\approx 16^\\circ 46'$ and the area is approximately $196.05\\text{ mm}^2$ (the textbook gives 196.03 mm², which comes from rounding during the working).",
+            "solutionFigures": [],
+            "tip": "Rounding the angle before using it in the area formula changes the second decimal place; keep full calculator values."
+          }
+        },
+        {
+          "id": "ch15_ex4_q7",
+          "number": "7",
+          "category": "Practice",
+          "questionText": "MC In a triangle, $a = 15$ m, $b = 20$ m and $B = 50^\\circ$. The area of the triangle is:\nA. $86.2\\text{ m}^2$  B. $114.9\\text{ m}^2$  C. $149.4\\text{ m}^2$  D. $172.4\\text{ m}^2$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule to find the included angle $C$; area $= \\frac{1}{2}ab\\sin(C)$",
+            "steps": [
+              "Given: $a = 15$, $b = 20$, $B = 50^\\circ$. Goal: area.",
+              "$\\sin(A) = \\frac{15\\sin(50^\\circ)}{20} = \\frac{15 \\times 0.766044}{20} \\approx 0.574533$, so $A \\approx 35.067^\\circ$",
+              "$C = 180^\\circ - 50^\\circ - 35.067^\\circ = 94.933^\\circ$",
+              "Area $= \\frac{1}{2} \\times 15 \\times 20 \\times \\sin(94.933^\\circ) = 150 \\times 0.996296 \\approx 149.4\\text{ m}^2$",
+              "This is option C."
+            ],
+            "finalAnswer": "C. $149.4\\text{ m}^2$",
+            "solutionFigures": [],
+            "tip": "Option B is $\\frac{1}{2} \\times 15 \\times 20 \\times \\sin(50^\\circ)$, which wrongly uses an angle that is not between the two sides."
+          }
+        },
+        {
+          "id": "ch15_ex4_q8",
+          "number": "8",
+          "category": "Consolidate",
+          "questionText": "Calculate the area of the triangle with sides of 5 cm, 6 cm and 8 cm (correct to 2 decimal places).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Heron's formula: Area $= \\sqrt{s(s-a)(s-b)(s-c)}$, where $s = \\frac{a+b+c}{2}$",
+            "steps": [
+              "Given: $a = 5$, $b = 6$, $c = 8$. Goal: area.",
+              "$s = \\frac{5 + 6 + 8}{2} = 9.5$",
+              "Area $= \\sqrt{9.5 \\times (9.5-5) \\times (9.5-6) \\times (9.5-8)} = \\sqrt{9.5 \\times 4.5 \\times 3.5 \\times 1.5}$",
+              "$= \\sqrt{224.4375} \\approx 14.98\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area is approximately $14.98\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "$s$ is half the perimeter, not the full perimeter."
+          }
+        },
+        {
+          "id": "ch15_ex4_q9",
+          "number": "9",
+          "category": "Master",
+          "questionText": "Calculate the area of the triangle with sides of 40 mm, 30 mm and 5.7 cm (correct to 2 decimal places).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Heron's formula: Area $= \\sqrt{s(s-a)(s-b)(s-c)}$, $s = \\frac{a+b+c}{2}$",
+            "steps": [
+              "Given: sides 40 mm, 30 mm and 5.7 cm $= 57$ mm. Goal: area.",
+              "$s = \\frac{40 + 30 + 57}{2} = 63.5$",
+              "Area $= \\sqrt{63.5 \\times 23.5 \\times 33.5 \\times 6.5} = \\sqrt{324\\,937.4375}$",
+              "$\\approx 570.03\\text{ mm}^2$"
+            ],
+            "finalAnswer": "Therefore the area is approximately $570.03\\text{ mm}^2$.",
+            "solutionFigures": [],
+            "tip": "Convert all sides to the same unit before using Heron's formula."
+          }
+        },
+        {
+          "id": "ch15_ex4_q10",
+          "number": "10",
+          "category": "Practice",
+          "questionText": "Calculate the area of the triangle with sides of 16 mm, 3 cm and 2.7 cm (correct to 2 decimal places).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Heron's formula: Area $= \\sqrt{s(s-a)(s-b)(s-c)}$, $s = \\frac{a+b+c}{2}$",
+            "steps": [
+              "Given: 16 mm $= 1.6$ cm, 3 cm and 2.7 cm. Goal: area in cm².",
+              "$s = \\frac{1.6 + 3 + 2.7}{2} = 3.65$",
+              "Area $= \\sqrt{3.65 \\times 2.05 \\times 0.65 \\times 0.95} = \\sqrt{4.620444}$",
+              "$\\approx 2.15\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area is approximately $2.15\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "Convert mm to cm by dividing by 10 before you start."
+          }
+        },
+        {
+          "id": "ch15_ex4_q11",
+          "number": "11",
+          "category": "Consolidate",
+          "questionText": "MC A triangle has sides of length 10 cm, 14 cm and 20 cm. The area of the triangle is:\nA. $41\\text{ cm}^2$  B. $65\\text{ cm}^2$  C. $106\\text{ cm}^2$  D. $137\\text{ cm}^2$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Heron's formula: Area $= \\sqrt{s(s-a)(s-b)(s-c)}$",
+            "steps": [
+              "Given: sides 10, 14 and 20 cm. Goal: area.",
+              "$s = \\frac{10 + 14 + 20}{2} = 22$",
+              "Area $= \\sqrt{22 \\times 12 \\times 8 \\times 2} = \\sqrt{4224} \\approx 64.99 \\approx 65\\text{ cm}^2$",
+              "This is option B."
+            ],
+            "finalAnswer": "B. $65\\text{ cm}^2$",
+            "solutionFigures": [],
+            "tip": "Check that each bracket $(s - \\text{side})$ is positive; if one is negative the sides cannot form a triangle."
+          }
+        },
+        {
+          "id": "ch15_ex4_q12",
+          "number": "12",
+          "category": "Practice",
+          "questionText": "A piece of metal is in the shape of a triangle with sides of length 114 mm, 72 mm and 87 mm. Calculate its area (correct to 2 decimal places).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Heron's formula: Area $= \\sqrt{s(s-a)(s-b)(s-c)}$",
+            "steps": [
+              "Given: sides 114, 72 and 87 mm. Goal: area.",
+              "$s = \\frac{114 + 72 + 87}{2} = 136.5$",
+              "Area $= \\sqrt{136.5 \\times 22.5 \\times 64.5 \\times 49.5} = \\sqrt{9\\,805\\,733.44}$",
+              "$\\approx 3131.41\\text{ mm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the metal piece is approximately $3131.41\\text{ mm}^2$.",
+            "solutionFigures": [],
+            "tip": "Write out $s - a$, $s - b$, $s - c$ separately before multiplying to avoid slips."
+          }
+        },
+        {
+          "id": "ch15_ex4_q13",
+          "number": "13",
+          "category": "Consolidate",
+          "questionText": "A triangle has the largest angle of $115^\\circ$. The longest side is 62 cm and another side is 35 cm. Calculate the area of the triangle to the nearest whole number.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule $\\frac{\\sin(B)}{b} = \\frac{\\sin(A)}{a}$; area $= \\frac{1}{2}ab\\sin(C)$",
+            "steps": [
+              "Given: $A = 115^\\circ$ opposite the longest side $a = 62$ cm; $b = 35$ cm. Goal: area.",
+              "$\\sin(B) = \\frac{35\\sin(115^\\circ)}{62} = \\frac{35 \\times 0.906308}{62} \\approx 0.511625$, so $B \\approx 30.772^\\circ$",
+              "$C = 180^\\circ - 115^\\circ - 30.772^\\circ = 34.228^\\circ$ (this is the angle between the 62 cm and 35 cm sides).",
+              "Area $= \\frac{1}{2} \\times 62 \\times 35 \\times \\sin(34.228^\\circ) = 1085 \\times 0.562485 \\approx 610.30$",
+              "Area $\\approx 610\\text{ cm}^2$ (nearest whole number)"
+            ],
+            "finalAnswer": "Therefore the area of the triangle is approximately $610\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "The $115^\\circ$ angle is opposite the 62 cm side, so it is not the angle between the two given sides."
+          }
+        },
+        {
+          "id": "ch15_ex4_q14a",
+          "number": "14(a)",
+          "category": "Master",
+          "questionText": "A triangle has two sides of 25 cm and 30 cm. The angle between the two sides is $30^\\circ$. Determine its area.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area $= \\frac{1}{2}ab\\sin(C)$",
+            "steps": [
+              "Given: sides 25 cm and 30 cm, included angle $30^\\circ$. Goal: area.",
+              "Area $= \\frac{1}{2} \\times 25 \\times 30 \\times \\sin(30^\\circ)$",
+              "$= 375 \\times 0.5 = 187.5\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area is $187.5\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "$\\sin(30^\\circ) = \\frac{1}{2}$ exactly, so no rounding is needed here."
+          }
+        },
+        {
+          "id": "ch15_ex4_q14b",
+          "number": "14(b)",
+          "category": "Master",
+          "questionText": "A triangle has two sides of 25 cm and 30 cm. The angle between the two sides is $30^\\circ$. Determine the length of its third side (correct to 2 decimal places).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine rule: $c^2 = a^2 + b^2 - 2ab\\cos(C)$",
+            "steps": [
+              "Given: $a = 25$, $b = 30$, $C = 30^\\circ$. Goal: $c$.",
+              "$c^2 = 25^2 + 30^2 - 2 \\times 25 \\times 30 \\times \\cos(30^\\circ)$",
+              "$= 625 + 900 - 1500 \\times 0.866025 = 1525 - 1299.038 = 225.962$",
+              "$c = \\sqrt{225.962} \\approx 15.03$ cm"
+            ],
+            "finalAnswer": "Therefore the third side is approximately 15.03 cm.",
+            "solutionFigures": [],
+            "tip": "Multiply $1500 \\times \\cos(30^\\circ)$ before subtracting from 1525."
+          }
+        },
+        {
+          "id": "ch15_ex4_q15",
+          "number": "15",
+          "category": "Practice",
+          "questionText": "The surface of a fish pond has the shape shown in the diagram: a quadrilateral with sides 1 m (top), 2 m (left), 4 m (bottom slanted side) and 5 m (right). The 1 m and 2 m sides meet at a right angle. Calculate how many goldfish the pond can support if each fish requires $0.3\\text{ m}^2$ surface area of water.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem; cosine rule $\\cos(\\theta) = \\frac{p^2 + q^2 - r^2}{2pq}$; area $= \\frac{1}{2}pq\\sin(\\theta)$",
+            "steps": [
+              "Given: right angle between the 1 m and 2 m sides; other sides 4 m and 5 m. Goal: number of fish.",
+              "Draw the diagonal joining the ends of the 1 m and 2 m sides: $d^2 = 1^2 + 2^2 = 5$, so $d = \\sqrt{5}$ m.",
+              "Right triangle area $= \\frac{1}{2} \\times 1 \\times 2 = 1\\text{ m}^2$.",
+              "Other triangle has sides 4, 5 and $\\sqrt{5}$. The angle $\\theta$ between the 4 m and 5 m sides is opposite $\\sqrt{5}$:",
+              "$\\cos(\\theta) = \\frac{4^2 + 5^2 - 5}{2 \\times 4 \\times 5} = \\frac{36}{40} = 0.9$, so $\\theta \\approx 25.842^\\circ$",
+              "Area $= \\frac{1}{2} \\times 4 \\times 5 \\times \\sin(25.842^\\circ) = 10 \\times 0.435890 \\approx 4.3589\\text{ m}^2$",
+              "Total area $\\approx 1 + 4.3589 = 5.3589\\text{ m}^2$",
+              "Number of fish $= \\frac{5.3589}{0.3} \\approx 17.86$",
+              "Only whole fish, and 18 would need more water than there is, so round down to 17."
+            ],
+            "finalAnswer": "Therefore the pond can support 17 goldfish.",
+            "solutionFigures": [],
+            "tip": "Round down here: the pond does not have enough surface area for an 18th fish."
+          }
+        },
+        {
+          "id": "ch15_ex4_q16",
+          "number": "16",
+          "category": "Consolidate",
+          "questionText": "MC A parallelogram has sides of 14 cm and 18 cm and an angle between them of $72^\\circ$. The area of the parallelogram is:\nA. $118.4\\text{ cm}^2$  B. $172.4\\text{ cm}^2$  C. $239.7\\text{ cm}^2$  D. $252\\text{ cm}^2$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Parallelogram = 2 congruent triangles, so Area $= 2 \\times \\frac{1}{2}ab\\sin(\\theta) = ab\\sin(\\theta)$",
+            "steps": [
+              "Given: sides 14 cm and 18 cm, angle $72^\\circ$. Goal: area.",
+              "A diagonal splits the parallelogram into two congruent triangles.",
+              "Area $= 14 \\times 18 \\times \\sin(72^\\circ) = 252 \\times 0.951057 \\approx 239.7\\text{ cm}^2$",
+              "This is option C."
+            ],
+            "finalAnswer": "C. $239.7\\text{ cm}^2$",
+            "solutionFigures": [],
+            "tip": "Do not halve for a parallelogram: it is two triangles, not one."
+          }
+        },
+        {
+          "id": "ch15_ex4_q17",
+          "number": "17",
+          "category": "Master",
+          "questionText": "MC An advertising hoarding is in the shape of an isosceles triangle with sides of length 15 m, 15 m and 18 m. It is to be painted with two coats of purple paint. If the paint covers $12\\text{ m}^2$ per litre, the amount of paint needed, to the nearest litre, would be:\nA. 9 L  B. 18 L  C. 24 L  D. 36 L",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Heron's formula Area $= \\sqrt{s(s-a)(s-b)(s-c)}$; paint $= \\frac{\\text{total area}}{\\text{coverage}}$",
+            "steps": [
+              "Given: sides 15, 15, 18 m; 2 coats; $12\\text{ m}^2$ per litre. Goal: litres of paint.",
+              "$s = \\frac{15 + 15 + 18}{2} = 24$",
+              "Area $= \\sqrt{24 \\times 9 \\times 9 \\times 6} = \\sqrt{11\\,664} = 108\\text{ m}^2$",
+              "Check: height $= \\sqrt{15^2 - 9^2} = 12$, area $= \\frac{1}{2} \\times 18 \\times 12 = 108$ ✓",
+              "Two coats: $2 \\times 108 = 216\\text{ m}^2$",
+              "Paint $= \\frac{216}{12} = 18$ L, option B."
+            ],
+            "finalAnswer": "B. 18 L",
+            "solutionFigures": [],
+            "tip": "Remember to double the area for two coats."
+          }
+        },
+        {
+          "id": "ch15_ex4_q18a",
+          "number": "18(a)",
+          "category": "Practice",
+          "questionText": "A parallelogram has diagonals of length 10 cm and 17 cm. An angle between them is $125^\\circ$. Determine the area of the parallelogram (correct to 2 decimal places).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Diagonals of a parallelogram bisect each other; area of each triangle $= \\frac{1}{2}ab\\sin(C)$",
+            "steps": [
+              "Given: diagonals 10 cm and 17 cm meeting at $125^\\circ$. Goal: area.",
+              "The diagonals bisect each other, so the half-diagonals are 5 cm and 8.5 cm.",
+              "The diagonals split the parallelogram into 4 triangles, each with sides 5 and 8.5 and an included angle of $125^\\circ$ or $55^\\circ$. Since $\\sin(125^\\circ) = \\sin(55^\\circ)$, all four have equal area.",
+              "One triangle: $\\frac{1}{2} \\times 5 \\times 8.5 \\times \\sin(125^\\circ) = 21.25 \\times 0.819152 \\approx 17.4070\\text{ cm}^2$",
+              "Total area $= 4 \\times 17.4070 \\approx 69.63\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the parallelogram is approximately $69.63\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "Use half of each diagonal: the triangles are formed at the point where the diagonals cross."
+          }
+        },
+        {
+          "id": "ch15_ex4_q18b",
+          "number": "18(b)",
+          "category": "Practice",
+          "questionText": "A parallelogram has diagonals of length 10 cm and 17 cm. An angle between them is $125^\\circ$. Determine the dimensions of the parallelogram (correct to 2 decimal places).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine rule: $c^2 = a^2 + b^2 - 2ab\\cos(C)$",
+            "steps": [
+              "Given: half-diagonals 5 cm and 8.5 cm; angles between them $125^\\circ$ and $180^\\circ - 125^\\circ = 55^\\circ$. Goal: the two side lengths.",
+              "Longer side (opposite $125^\\circ$): $s_1^2 = 5^2 + 8.5^2 - 2 \\times 5 \\times 8.5 \\times \\cos(125^\\circ) = 25 + 72.25 - 85 \\times (-0.573576) = 97.25 + 48.754 = 146.004$",
+              "$s_1 = \\sqrt{146.004} \\approx 12.08$ cm",
+              "Shorter side (opposite $55^\\circ$): $s_2^2 = 25 + 72.25 - 85 \\times 0.573576 = 97.25 - 48.754 = 48.496$",
+              "$s_2 = \\sqrt{48.496} \\approx 6.96$ cm",
+              "Check (parallelogram law, sum of squares of sides equals half the sum of squares of the diagonals): $s_1^2 + s_2^2 = 146.004 + 48.496 = 194.5$ and $\\frac{10^2 + 17^2}{2} = 194.5$ ✓"
+            ],
+            "finalAnswer": "Therefore the parallelogram measures approximately 12.08 cm by 6.96 cm.",
+            "solutionFigures": [],
+            "tip": "The two angles where the diagonals cross are supplementary, giving two different side lengths."
+          }
+        },
+        {
+          "id": "ch15_ex4_q19",
+          "number": "19",
+          "category": "Consolidate",
+          "questionText": "A lawn is to be made in the shape of a triangle with sides of length 11 m, 15 m and 17.2 m. Determine how much grass seed, to the nearest kilogram, needs to be purchased if it is sown at the rate of 1 kg per $5\\text{ m}^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Heron's formula: Area $= \\sqrt{s(s-a)(s-b)(s-c)}$",
+            "steps": [
+              "Given: sides 11, 15 and 17.2 m; 1 kg seed per $5\\text{ m}^2$. Goal: kg of seed to buy.",
+              "$s = \\frac{11 + 15 + 17.2}{2} = 21.6$",
+              "Area $= \\sqrt{21.6 \\times 10.6 \\times 6.6 \\times 4.4} = \\sqrt{6648.9984} \\approx 81.54\\text{ m}^2$",
+              "Seed needed $= \\frac{81.54}{5} \\approx 16.31$ kg",
+              "16 kg would not be enough, so round up to the next whole kilogram: 17 kg."
+            ],
+            "finalAnswer": "Therefore 17 kg of grass seed needs to be purchased.",
+            "solutionFigures": [],
+            "tip": "When buying materials, round up so there is enough, even if normal rounding would round down."
+          }
+        },
+        {
+          "id": "ch15_ex4_q20",
+          "number": "20",
+          "category": "Master",
+          "questionText": "A bushfire burns out an area of level grassland shown in the diagram. (Note: This is a sketch of the area and is not drawn to scale.) The burnt region is a quadrilateral bounded by a road along the bottom (200 m), a river running perpendicular to the road on the right (2 km), a side of 1.8 km from the top of the river side back down-left, and a side of 400 m joining that back to the start of the 200 m road side. There is a right angle between the 200 m road side and the 2 km river side. Evaluate the area, in hectares correct to 1 decimal place, of the land that is burned.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of right triangle $= \\frac{1}{2}bh$; Heron's formula $\\sqrt{s(s-a)(s-b)(s-c)}$; $1\\text{ km}^2 = 100$ ha",
+            "steps": [
+              "Given: road side 0.2 km, river side 2 km at right angles, other sides 1.8 km and 0.4 km. Goal: area in hectares.",
+              "Draw the diagonal from the start of the road side (P) to the top of the river side (T).",
+              "$PT^2 = 0.2^2 + 2^2 = 4.04$, so $PT \\approx 2.00998$ km.",
+              "Right triangle area $= \\frac{1}{2} \\times 0.2 \\times 2 = 0.2\\text{ km}^2$",
+              "Other triangle: sides 0.4, 1.8 and 2.00998 km. $s = \\frac{0.4 + 1.8 + 2.00998}{2} = 2.10499$",
+              "Area $= \\sqrt{2.10499 \\times 1.70499 \\times 0.30499 \\times 0.09501} = \\sqrt{0.10400} \\approx 0.32249\\text{ km}^2$",
+              "Total $= 0.2 + 0.32249 = 0.52249\\text{ km}^2$",
+              "$0.52249 \\times 100 \\approx 52.2$ ha"
+            ],
+            "finalAnswer": "Therefore approximately 52.2 hectares of land is burned.",
+            "solutionFigures": [],
+            "tip": "Convert all lengths to km first, then use $1\\text{ km}^2 = 100$ hectares."
+          }
+        },
+        {
+          "id": "ch15_ex4_q21",
+          "number": "21",
+          "category": "Practice",
+          "questionText": "An earth embankment is 27 m long and has a vertical cross-section as shown in the diagram: a trapezium with a bottom base of 5 m, a left sloping side of 2 m, base angles of $50^\\circ$ (left) and $80^\\circ$ (right), and top angles of $130^\\circ$ (left) and $100^\\circ$ (right). Determine the volume of earth needed to build the embankment, correct to the nearest cubic metre.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Height $= 2\\sin(50^\\circ)$; trapezium area $= \\frac{1}{2}(a + b)h$; volume $=$ cross-section area $\\times$ length",
+            "steps": [
+              "Given: base 5 m, left side 2 m at $50^\\circ$, right side at $80^\\circ$, length 27 m. Since $50^\\circ + 130^\\circ = 180^\\circ$, the top is parallel to the base. Goal: volume.",
+              "Height: $h = 2\\sin(50^\\circ) = 2 \\times 0.766044 \\approx 1.53209$ m",
+              "Left horizontal offset: $2\\cos(50^\\circ) \\approx 1.28558$ m",
+              "Right horizontal offset: $\\frac{h}{\\tan(80^\\circ)} = \\frac{1.53209}{5.671282} \\approx 0.27015$ m",
+              "Top length $= 5 - 1.28558 - 0.27015 \\approx 3.44428$ m",
+              "Area $= \\frac{1}{2}(5 + 3.44428) \\times 1.53209 \\approx 6.46869\\text{ m}^2$",
+              "Volume $= 6.46869 \\times 27 \\approx 174.65\\text{ m}^3 \\approx 175\\text{ m}^3$"
+            ],
+            "finalAnswer": "Therefore about $175\\text{ m}^3$ of earth is needed.",
+            "solutionFigures": [],
+            "tip": "Find the cross-sectional area first, then multiply by the length of the prism."
+          }
+        },
+        {
+          "id": "ch15_ex4_q22",
+          "number": "22",
+          "category": "Consolidate",
+          "questionText": "Evaluate the area of this quadrilateral (correct to 2 decimal places). The quadrilateral has sides 3.5 m (top left), 4 m (left), 5 m (bottom) and 8 m (right, slanted). The angle between the 5 m and 8 m sides is $60^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area $= \\frac{1}{2}ab\\sin(C)$; cosine rule $c^2 = a^2 + b^2 - 2ab\\cos(C)$; Heron's formula",
+            "steps": [
+              "Given: sides 5 m and 8 m with $60^\\circ$ between them; sides 3.5 m and 4 m. Goal: total area.",
+              "Draw the diagonal joining the free ends of the 5 m and 8 m sides.",
+              "Triangle 1 area $= \\frac{1}{2} \\times 5 \\times 8 \\times \\sin(60^\\circ) = 20 \\times 0.866025 \\approx 17.3205\\text{ m}^2$",
+              "Diagonal: $d^2 = 5^2 + 8^2 - 2 \\times 5 \\times 8 \\times \\cos(60^\\circ) = 25 + 64 - 40 = 49$, so $d = 7$ m.",
+              "Triangle 2 has sides 3.5, 4 and 7 m. $s = \\frac{3.5 + 4 + 7}{2} = 7.25$",
+              "Area $= \\sqrt{7.25 \\times 3.75 \\times 3.25 \\times 0.25} = \\sqrt{22.0898} \\approx 4.7000\\text{ m}^2$",
+              "Total area $= 17.3205 + 4.7000 \\approx 22.02\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the quadrilateral is approximately $22.02\\text{ m}^2$.",
+            "solutionFigures": [],
+            "tip": "Split a quadrilateral into two triangles with a diagonal that uses the known angle."
+          }
+        },
+        {
+          "id": "ch15_ex4_q23a",
+          "number": "23(a)",
+          "category": "Master",
+          "questionText": "A surveyor measured the boundaries of a property ABCD as shown. $DC = 8$ km, $DA = 8.5$ km, $\\angle ADC = 60^\\circ$, $CB = 6$ km and $\\angle ABC = 115^\\circ$. The side AB could not be measured because it crossed through a marsh. The owner of the property wanted to know the total area and the length of the side AB. Give all lengths correct to 2 decimal places and angles to the nearest degree. Calculate the area of the triangle ACD.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area $= \\frac{1}{2}ab\\sin(C)$",
+            "steps": [
+              "Given: $DC = 8$ km, $DA = 8.5$ km, included angle $D = 60^\\circ$. Goal: area of triangle ACD.",
+              "Area $= \\frac{1}{2} \\times 8 \\times 8.5 \\times \\sin(60^\\circ) = 34 \\times 0.866025$",
+              "$\\approx 29.44\\text{ km}^2$"
+            ],
+            "finalAnswer": "Therefore the area of triangle ACD is approximately $29.44\\text{ km}^2$.",
+            "solutionFigures": [],
+            "tip": "Angle D is between DC and DA, so it is the included angle."
+          }
+        },
+        {
+          "id": "ch15_ex4_q23b",
+          "number": "23(b)",
+          "category": "Master",
+          "questionText": "A surveyor measured the boundaries of a property ABCD as shown. $DC = 8$ km, $DA = 8.5$ km, $\\angle ADC = 60^\\circ$, $CB = 6$ km and $\\angle ABC = 115^\\circ$. Give all lengths correct to 2 decimal places and angles to the nearest degree. Calculate the distance AC.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine rule: $AC^2 = DC^2 + DA^2 - 2 \\times DC \\times DA \\cos(D)$",
+            "steps": [
+              "Given: $DC = 8$, $DA = 8.5$, $D = 60^\\circ$. Goal: $AC$.",
+              "$AC^2 = 8^2 + 8.5^2 - 2 \\times 8 \\times 8.5 \\times \\cos(60^\\circ) = 64 + 72.25 - 68 = 68.25$",
+              "$AC = \\sqrt{68.25} \\approx 8.26$ km"
+            ],
+            "finalAnswer": "Therefore $AC \\approx 8.26$ km.",
+            "solutionFigures": [],
+            "tip": "Keep $AC = \\sqrt{68.25}$ in your calculator for later parts."
+          }
+        },
+        {
+          "id": "ch15_ex4_q23c",
+          "number": "23(c)",
+          "category": "Master",
+          "questionText": "A surveyor measured the boundaries of a property ABCD as shown. $DC = 8$ km, $DA = 8.5$ km, $\\angle ADC = 60^\\circ$, $CB = 6$ km and $\\angle ABC = 115^\\circ$. Give all lengths correct to 2 decimal places and angles to the nearest degree. Calculate the angle CAB.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule: $\\frac{\\sin(\\angle CAB)}{CB} = \\frac{\\sin(\\angle ABC)}{AC}$",
+            "steps": [
+              "Given: $CB = 6$, $\\angle ABC = 115^\\circ$, $AC = \\sqrt{68.25} \\approx 8.26136$ km. Goal: $\\angle CAB$.",
+              "$\\sin(\\angle CAB) = \\frac{6\\sin(115^\\circ)}{8.26136} = \\frac{6 \\times 0.906308}{8.26136} \\approx 0.658227$",
+              "$\\angle CAB \\approx 41.16^\\circ \\approx 41^\\circ$ (acute, because the triangle already has an obtuse angle)."
+            ],
+            "finalAnswer": "Therefore $\\angle CAB \\approx 41^\\circ$.",
+            "solutionFigures": [],
+            "tip": "A triangle can have only one obtuse angle, so there is no ambiguous case here."
+          }
+        },
+        {
+          "id": "ch15_ex4_q23d",
+          "number": "23(d)",
+          "category": "Master",
+          "questionText": "A surveyor measured the boundaries of a property ABCD as shown. $DC = 8$ km, $DA = 8.5$ km, $\\angle ADC = 60^\\circ$, $CB = 6$ km and $\\angle ABC = 115^\\circ$. Give all lengths correct to 2 decimal places and angles to the nearest degree. Calculate the angle ACB.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Angle sum of a triangle $= 180^\\circ$",
+            "steps": [
+              "Given: $\\angle ABC = 115^\\circ$, $\\angle CAB \\approx 41.165^\\circ$. Goal: $\\angle ACB$.",
+              "$\\angle ACB = 180^\\circ - 115^\\circ - 41.165^\\circ = 23.835^\\circ \\approx 24^\\circ$"
+            ],
+            "finalAnswer": "Therefore $\\angle ACB \\approx 24^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Use the unrounded angle from part (c) so later answers stay accurate."
+          }
+        },
+        {
+          "id": "ch15_ex4_q23e",
+          "number": "23(e)",
+          "category": "Master",
+          "questionText": "A surveyor measured the boundaries of a property ABCD as shown. $DC = 8$ km, $DA = 8.5$ km, $\\angle ADC = 60^\\circ$, $CB = 6$ km and $\\angle ABC = 115^\\circ$. Give all lengths correct to 2 decimal places and angles to the nearest degree. Calculate the length AB.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule: $\\frac{AB}{\\sin(\\angle ACB)} = \\frac{AC}{\\sin(\\angle ABC)}$",
+            "steps": [
+              "Given: $AC \\approx 8.26136$ km, $\\angle ACB \\approx 23.835^\\circ$, $\\angle ABC = 115^\\circ$. Goal: $AB$.",
+              "$AB = \\frac{8.26136 \\times \\sin(23.835^\\circ)}{\\sin(115^\\circ)} = \\frac{8.26136 \\times 0.404117}{0.906308}$",
+              "$AB \\approx 3.68$ km",
+              "Check with the cosine rule: $AC^2 = AB^2 + 6^2 - 2(AB)(6)\\cos(115^\\circ) = 13.569 + 36 + 18.680 = 68.25$ ✓",
+              "(If the rounded values $AC = 8.26$ and $\\angle ACB = 24^\\circ$ are used instead, $AB \\approx 3.71$ km.)"
+            ],
+            "finalAnswer": "Therefore $AB \\approx 3.68$ km (the textbook gives 3.72 km, which comes from using rounded intermediate values).",
+            "solutionFigures": [],
+            "tip": "Rounding angles to the nearest degree before using them can shift a length in the second decimal place."
+          }
+        },
+        {
+          "id": "ch15_ex4_q23f",
+          "number": "23(f)",
+          "category": "Master",
+          "questionText": "A surveyor measured the boundaries of a property ABCD as shown. $DC = 8$ km, $DA = 8.5$ km, $\\angle ADC = 60^\\circ$, $CB = 6$ km and $\\angle ABC = 115^\\circ$. Give all lengths correct to 2 decimal places and angles to the nearest degree. Determine the area of the triangle ABC.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area $= \\frac{1}{2}ab\\sin(C)$",
+            "steps": [
+              "Given: $AB \\approx 3.6836$ km, $CB = 6$ km, included angle $B = 115^\\circ$. Goal: area of triangle ABC.",
+              "Area $= \\frac{1}{2} \\times 3.6836 \\times 6 \\times \\sin(115^\\circ) = 11.0508 \\times 0.906308$",
+              "$\\approx 10.02\\text{ km}^2$",
+              "Check: $\\frac{1}{2} \\times AC \\times CB \\times \\sin(\\angle ACB) = \\frac{1}{2} \\times 8.26136 \\times 6 \\times \\sin(23.835^\\circ) \\approx 10.02$ ✓"
+            ],
+            "finalAnswer": "Therefore the area of triangle ABC is approximately $10.02\\text{ km}^2$ (the textbook gives 10.11 km², from its rounded AB = 3.72 km).",
+            "solutionFigures": [],
+            "tip": "Use the angle between the two sides you multiply; here $115^\\circ$ is between AB and CB."
+          }
+        },
+        {
+          "id": "ch15_ex4_q23g",
+          "number": "23(g)",
+          "category": "Master",
+          "questionText": "A surveyor measured the boundaries of a property ABCD as shown. $DC = 8$ km, $DA = 8.5$ km, $\\angle ADC = 60^\\circ$, $CB = 6$ km and $\\angle ABC = 115^\\circ$. Give all lengths correct to 2 decimal places and angles to the nearest degree. Determine the area of the property.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Total area = area of triangle ACD + area of triangle ABC",
+            "steps": [
+              "Given: area ACD $\\approx 29.4449\\text{ km}^2$, area ABC $\\approx 10.0154\\text{ km}^2$. Goal: total area.",
+              "Total $= 29.4449 + 10.0154 \\approx 39.46\\text{ km}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the property is approximately $39.46\\text{ km}^2$ (the textbook gives 39.55 km², carrying its rounded value from part f).",
+            "solutionFigures": [],
+            "tip": "Add the unrounded areas, then round once at the end."
+          }
+        },
+        {
+          "id": "ch15_ex4_q24",
+          "number": "24",
+          "category": "Master",
+          "questionText": "A regular hexagon has sides of length 12 centimetres. It is divided into six smaller equilateral triangles. Evaluate the area of the hexagon, giving your answer correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of each equilateral triangle $= \\frac{1}{2}ab\\sin(60^\\circ)$; hexagon $= 6 \\times$ triangle",
+            "steps": [
+              "Given: side 12 cm; 6 equilateral triangles of side 12 cm with angles of $60^\\circ$. Goal: area of the hexagon.",
+              "One triangle: $\\frac{1}{2} \\times 12 \\times 12 \\times \\sin(60^\\circ) = 72 \\times 0.866025 \\approx 62.3538\\text{ cm}^2$",
+              "Hexagon $= 6 \\times 62.3538 \\approx 374.12\\text{ cm}^2$",
+              "Exact form: $6 \\times 36\\sqrt{3} = 216\\sqrt{3} \\approx 374.12$ ✓"
+            ],
+            "finalAnswer": "Therefore the area of the hexagon is approximately $374.12\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "Each angle at the centre of a regular hexagon is $\\frac{360^\\circ}{6} = 60^\\circ$."
+          }
+        }
+      ]
+    }
+  ]
+}

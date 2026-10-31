@@ -1,0 +1,1632 @@
+{
+  "chapterId": "ch11",
+  "chapterTitle": "Probability",
+  "topics": [
+    {
+      "topicId": "11.2",
+      "topicTitle": "Review of probability",
+      "exercises": [
+        {
+          "id": "ch11_ex2_q1a",
+          "number": "1(a)",
+          "category": "Practice",
+          "questionText": "A spinner with six equal segments labelled I, II, III, IV, V and VI was spun 50 times and the outcomes were recorded: I: 10, II: 6, III: 8, IV: 7, V: 12, VI: 7. List the event space.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The event space (sample space) $\\xi$ is the set of all possible outcomes of one trial.",
+            "steps": [
+              "Given: a spinner with segments I to VI. Goal: list every possible outcome of one spin.",
+              "Each spin can land on exactly one of the six segments.",
+              "So the event space is $\\xi = \\{\\text{I}, \\text{II}, \\text{III}, \\text{IV}, \\text{V}, \\text{VI}\\}$."
+            ],
+            "finalAnswer": "$\\xi = \\{\\text{I}, \\text{II}, \\text{III}, \\text{IV}, \\text{V}, \\text{VI}\\}$",
+            "solutionFigures": [],
+            "tip": "The event space lists outcomes, not how often they happened, so the tallies do not belong in it."
+          }
+        },
+        {
+          "id": "ch11_ex2_q1b",
+          "number": "1(b)",
+          "category": "Practice",
+          "questionText": "A spinner with six equal segments labelled I, II, III, IV, V and VI was spun 50 times and the outcomes were recorded: I: 10, II: 6, III: 8, IV: 7, V: 12, VI: 7. Given the experimental results, determine the relative frequency for each segment.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Relative frequency $= \\dfrac{\\text{number of times the outcome occurred}}{\\text{total number of trials}}$",
+            "steps": [
+              "Given: 50 spins with tallies 10, 6, 8, 7, 12, 7. Goal: the relative frequency of each segment.",
+              "Check the total: $10 + 6 + 8 + 7 + 12 + 7 = 50$ trials.",
+              "I: $\\frac{10}{50} = 0.2$",
+              "II: $\\frac{6}{50} = 0.12$",
+              "III: $\\frac{8}{50} = 0.16$",
+              "IV: $\\frac{7}{50} = 0.14$",
+              "V: $\\frac{12}{50} = 0.24$",
+              "VI: $\\frac{7}{50} = 0.14$",
+              "Check: $0.2 + 0.12 + 0.16 + 0.14 + 0.24 + 0.14 = 1$ ✓"
+            ],
+            "finalAnswer": "I: 0.2, II: 0.12, III: 0.16, IV: 0.14, V: 0.24, VI: 0.14",
+            "solutionFigures": [],
+            "tip": "Relative frequencies for all outcomes must add to 1, which is a quick way to check your work."
+          }
+        },
+        {
+          "id": "ch11_ex2_q1c",
+          "number": "1(c)",
+          "category": "Practice",
+          "questionText": "A spinner with six equal segments labelled I to VI was spun 50 times (I: 10, II: 6, III: 8, IV: 7, V: 12, VI: 7). The theoretical probability of the spinner landing on any particular segment with one spin is $\\frac{1}{6}$. State how the experiment could be changed to give a better estimate of the true probabilities.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "As the number of trials increases, the relative frequency gets closer to the theoretical probability (law of large numbers).",
+            "steps": [
+              "Given: theoretical probability $\\frac{1}{6} \\approx 0.167$ per segment; experimental values range from 0.12 to 0.24. Goal: make the estimates more accurate.",
+              "With only 50 spins, chance variation is large.",
+              "Spinning many more times (for example 1000 spins) makes each relative frequency settle closer to $\\frac{1}{6}$."
+            ],
+            "finalAnswer": "Spin the spinner a much larger number of times; the relative frequencies will then be closer to $\\frac{1}{6}$.",
+            "solutionFigures": [],
+            "tip": "Small experiments often give results far from theory; more trials give better estimates."
+          }
+        },
+        {
+          "id": "ch11_ex2_q2a",
+          "number": "2(a)",
+          "category": "Consolidate",
+          "questionText": "A laptop company surveyed 15–18-year-old students about the most appealing laptop colour. Results: Black Black 102, Sizzling Silver 80, Power Pink 52, Blazing Blue 140, Gooey Green 56, Glamour Gold 70. Calculate the number of students who were surveyed.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Total surveyed $=$ sum of all frequencies.",
+            "steps": [
+              "Given: the six colour frequencies. Goal: total number of students.",
+              "$102 + 80 + 52 + 140 + 56 + 70$",
+              "$= 182 + 52 + 140 + 56 + 70 = 234 + 140 + 56 + 70 = 374 + 56 + 70 = 430 + 70 = 500$"
+            ],
+            "finalAnswer": "500 students were surveyed.",
+            "solutionFigures": [],
+            "tip": "Add the numbers in stages to avoid arithmetic slips."
+          }
+        },
+        {
+          "id": "ch11_ex2_q2b",
+          "number": "2(b)",
+          "category": "Consolidate",
+          "questionText": "A laptop company surveyed 15–18-year-old students about the most appealing laptop colour. Results: Black Black 102, Sizzling Silver 80, Power Pink 52, Blazing Blue 140, Gooey Green 56, Glamour Gold 70. Calculate the relative frequency of students who found silver the most appealing laptop colour.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Relative frequency $= \\dfrac{\\text{frequency of outcome}}{\\text{total}}$",
+            "steps": [
+              "Given: 80 chose Sizzling Silver; total surveyed $= 500$ (from part a). Goal: relative frequency of silver.",
+              "Relative frequency $= \\frac{80}{500}$",
+              "Simplify: $\\frac{80}{500} = \\frac{4}{25} = 0.16$"
+            ],
+            "finalAnswer": "Relative frequency of silver $= 0.16$",
+            "solutionFigures": [],
+            "tip": "Divide by the total surveyed, not by the number of colour categories."
+          }
+        },
+        {
+          "id": "ch11_ex2_q2c",
+          "number": "2(c)",
+          "category": "Consolidate",
+          "questionText": "A laptop company surveyed 15–18-year-old students about the most appealing laptop colour. Results: Black Black 102, Sizzling Silver 80, Power Pink 52, Blazing Blue 140, Gooey Green 56, Glamour Gold 70. Calculate the relative frequency of students who found black and green to be their most appealing colours.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Relative frequency $= \\dfrac{\\text{combined frequency}}{\\text{total}}$; the categories do not overlap, so their frequencies add.",
+            "steps": [
+              "Given: Black 102, Green 56, total 500. Goal: relative frequency of black or green.",
+              "Combined frequency $= 102 + 56 = 158$",
+              "Relative frequency $= \\frac{158}{500} = 0.316$"
+            ],
+            "finalAnswer": "Relative frequency of black and green $= 0.316$",
+            "solutionFigures": [],
+            "tip": "Each student chose only one colour, so you can add the two frequencies directly."
+          }
+        },
+        {
+          "id": "ch11_ex2_q2d",
+          "number": "2(d)",
+          "category": "Consolidate",
+          "questionText": "A laptop company surveyed 15–18-year-old students about the most appealing laptop colour. Results: Black Black 102, Sizzling Silver 80, Power Pink 52, Blazing Blue 140, Gooey Green 56, Glamour Gold 70. State which colour was found to be most appealing.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The most appealing colour is the one with the highest frequency.",
+            "steps": [
+              "Given: the six frequencies. Goal: the largest.",
+              "Compare: 140 (Blazing Blue) > 102 > 80 > 70 > 56 > 52.",
+              "Relative frequency of Blazing Blue $= \\frac{140}{500} = 0.28$, the highest."
+            ],
+            "finalAnswer": "Blazing Blue was the most appealing colour.",
+            "solutionFigures": [],
+            "tip": "Read the full category name from the table: 'Blazing Blue', not just 'Blue'."
+          }
+        },
+        {
+          "id": "ch11_ex2_q3a",
+          "number": "3(a)",
+          "category": "Practice",
+          "questionText": "State the device you would use to simulate the following experiment: collecting toys from a particular brand of cereal where there are six in the set.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Choose a device with the same number of equally likely outcomes as the real situation.",
+            "steps": [
+              "Given: 6 different toys, each assumed equally likely in a box. Goal: a device with 6 equally likely outcomes.",
+              "A standard six-sided die has 6 equally likely faces.",
+              "Let each face (1 to 6) represent one toy; roll once per cereal box."
+            ],
+            "finalAnswer": "A six-sided die (each face represents one of the six toys).",
+            "solutionFigures": [],
+            "tip": "Simulation devices only work when every outcome is equally likely, which is the assumption here."
+          }
+        },
+        {
+          "id": "ch11_ex2_q3b",
+          "number": "3(b)",
+          "category": "Practice",
+          "questionText": "State the device you would use to simulate the following experiment: whether employees are satisfied with their jobs.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Choose a device with the same number of equally likely outcomes as the real situation.",
+            "steps": [
+              "Given: two outcomes, satisfied or not satisfied (assumed equally likely). Goal: a device with 2 equally likely outcomes.",
+              "A coin has two equally likely outcomes.",
+              "Let Heads = satisfied and Tails = not satisfied; toss once per employee."
+            ],
+            "finalAnswer": "A coin (Heads = satisfied, Tails = not satisfied).",
+            "solutionFigures": [],
+            "tip": "A coin only fits if both outcomes are assumed to have probability $\\frac{1}{2}$."
+          }
+        },
+        {
+          "id": "ch11_ex2_q3c",
+          "number": "3(c)",
+          "category": "Practice",
+          "questionText": "State the device you would use to simulate the following experiment: whether two people who meet will be born in the same month.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Choose a device with the same number of equally likely outcomes as the real situation.",
+            "steps": [
+              "Given: each person's birth month is one of 12 (assumed equally likely). Goal: a device with 12 equally likely outcomes.",
+              "A 12-sided die (or a spinner with 12 equal sectors) has 12 equally likely outcomes, one per month.",
+              "Roll it twice, once for each person, and check whether the two results match."
+            ],
+            "finalAnswer": "A 12-sided die (or a spinner with 12 equal sectors), rolled twice — once for each person.",
+            "solutionFigures": [],
+            "tip": "Two people need two trials of the device, one for each person's month."
+          }
+        },
+        {
+          "id": "ch11_ex2_q4a",
+          "number": "4(a)",
+          "category": "Practice",
+          "questionText": "Two dice are rolled and the values on the two uppermost faces are added together. Construct a table to illustrate the sample space.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "A two-way table lists every pair of outcomes; here each cell is (die 1 value) $+$ (die 2 value).",
+            "steps": [
+              "Given: two six-sided dice; record the sum. Goal: a table of all $6 \\times 6 = 36$ outcomes.",
+              "Row for die 1 = 1: sums 2, 3, 4, 5, 6, 7",
+              "Row for die 1 = 2: sums 3, 4, 5, 6, 7, 8",
+              "Row for die 1 = 3: sums 4, 5, 6, 7, 8, 9",
+              "Row for die 1 = 4: sums 5, 6, 7, 8, 9, 10",
+              "Row for die 1 = 5: sums 6, 7, 8, 9, 10, 11",
+              "Row for die 1 = 6: sums 7, 8, 9, 10, 11, 12",
+              "The columns are die 2 = 1, 2, 3, 4, 5, 6."
+            ],
+            "finalAnswer": "A $6 \\times 6$ table of 36 equally likely outcomes, with sums from 2 to 12 as listed above.",
+            "solutionFigures": [],
+            "tip": "There are 36 outcomes, not 11: different pairs can give the same sum."
+          }
+        },
+        {
+          "id": "ch11_ex2_q4b",
+          "number": "4(b)",
+          "category": "Practice",
+          "questionText": "Two dice are rolled and the values on the two uppermost faces are added together. Using the sample space table, calculate the most likely outcome.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(\\text{sum}) = \\dfrac{\\text{number of cells with that sum}}{36}$",
+            "steps": [
+              "Given: the 36-cell sum table. Goal: the sum that appears most often.",
+              "Count the cells: sum 2: 1, 3: 2, 4: 3, 5: 4, 6: 5, 7: 6, 8: 5, 9: 4, 10: 3, 11: 2, 12: 1.",
+              "Check: $1+2+3+4+5+6+5+4+3+2+1 = 36$ ✓",
+              "Sum 7 appears 6 times, so $\\Pr(7) = \\frac{6}{36} = \\frac{1}{6}$, the largest."
+            ],
+            "finalAnswer": "The most likely outcome is a sum of 7 (probability $\\frac{1}{6}$).",
+            "solutionFigures": [],
+            "tip": "The diagonal of the table holds all the 7s, which is why 7 is most common."
+          }
+        },
+        {
+          "id": "ch11_ex2_q4c",
+          "number": "4(c)",
+          "category": "Practice",
+          "questionText": "Two dice are rolled and the values on the two uppermost faces are added together. Using the sample space table, calculate the least likely outcome.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(\\text{sum}) = \\dfrac{\\text{number of cells with that sum}}{36}$",
+            "steps": [
+              "Given: frequencies of sums from part (b). Goal: the sum(s) appearing least often.",
+              "Sum 2 occurs only as (1, 1) and sum 12 only as (6, 6): one cell each.",
+              "$\\Pr(2) = \\Pr(12) = \\frac{1}{36}$, the smallest."
+            ],
+            "finalAnswer": "The least likely outcomes are a sum of 2 or a sum of 12 (each probability $\\frac{1}{36}$).",
+            "solutionFigures": [],
+            "tip": "Two sums tie for least likely, so give both."
+          }
+        },
+        {
+          "id": "ch11_ex2_q5",
+          "number": "5",
+          "category": "Practice",
+          "questionText": "A die is rolled. Calculate the probability that the outcome is an even number or a 5.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Addition rule for mutually exclusive events: $\\Pr(A \\cup B) = \\Pr(A) + \\Pr(B)$",
+            "steps": [
+              "Given: $\\xi = \\{1, 2, 3, 4, 5, 6\\}$, $A = \\{2, 4, 6\\}$ (even), $B = \\{5\\}$. Goal: $\\Pr(A \\cup B)$.",
+              "$A$ and $B$ share no outcomes (5 is odd), so they are mutually exclusive.",
+              "$\\Pr(A) = \\frac{3}{6}$, $\\Pr(B) = \\frac{1}{6}$",
+              "$\\Pr(A \\cup B) = \\frac{3}{6} + \\frac{1}{6} = \\frac{4}{6}$",
+              "Simplify: $\\frac{4}{6} = \\frac{2}{3}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{even or } 5) = \\frac{2}{3}$",
+            "solutionFigures": [],
+            "tip": "Only add probabilities directly when the events cannot happen together."
+          }
+        },
+        {
+          "id": "ch11_ex2_q6a",
+          "number": "6(a)",
+          "category": "Consolidate",
+          "questionText": "A card is drawn from a well-shuffled pack of 52 playing cards. Calculate Pr(a king is drawn).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$",
+            "steps": [
+              "Given: 52 cards, 4 kings. Goal: $\\Pr(K)$.",
+              "$\\Pr(K) = \\frac{4}{52}$",
+              "Simplify (divide by 4): $\\frac{1}{13}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{king}) = \\frac{1}{13}$",
+            "solutionFigures": [],
+            "tip": "There is one king in each of the 4 suits."
+          }
+        },
+        {
+          "id": "ch11_ex2_q6b",
+          "number": "6(b)",
+          "category": "Consolidate",
+          "questionText": "A card is drawn from a well-shuffled pack of 52 playing cards. Calculate Pr(a heart is drawn).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$",
+            "steps": [
+              "Given: 52 cards, 13 hearts. Goal: $\\Pr(H)$.",
+              "$\\Pr(H) = \\frac{13}{52}$",
+              "Simplify (divide by 13): $\\frac{1}{4}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{heart}) = \\frac{1}{4}$",
+            "solutionFigures": [],
+            "tip": "Each suit has 13 cards, a quarter of the pack."
+          }
+        },
+        {
+          "id": "ch11_ex2_q6c",
+          "number": "6(c)",
+          "category": "Consolidate",
+          "questionText": "A card is drawn from a well-shuffled pack of 52 playing cards. Calculate Pr(a king or a heart is drawn).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Addition rule: $\\Pr(A \\cup B) = \\Pr(A) + \\Pr(B) - \\Pr(A \\cap B)$",
+            "steps": [
+              "Given: $K$ = king (4 cards), $H$ = heart (13 cards); the king of hearts is in both. Goal: $\\Pr(K \\cup H)$.",
+              "$\\Pr(K) = \\frac{4}{52}$, $\\Pr(H) = \\frac{13}{52}$, $\\Pr(K \\cap H) = \\frac{1}{52}$",
+              "$\\Pr(K \\cup H) = \\frac{4}{52} + \\frac{13}{52} - \\frac{1}{52} = \\frac{16}{52}$",
+              "Simplify (divide by 4): $\\frac{4}{13}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{king or heart}) = \\frac{4}{13}$",
+            "solutionFigures": [],
+            "tip": "Subtract the king of hearts once, otherwise you count it twice and get $\\frac{17}{52}$."
+          }
+        },
+        {
+          "id": "ch11_ex2_q7a",
+          "number": "7(a)",
+          "category": "Master",
+          "questionText": "For the following pair of events: i. state, giving justification, if the pair are complementary events; ii. alter the statements, where applicable, so that the events become complementary events. Having Weet Bix or having Strawberry Pops for breakfast.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$A$ and $A'$ are complementary if they are mutually exclusive and together cover the whole sample space: $\\Pr(A) + \\Pr(A') = 1$.",
+            "steps": [
+              "Given: $A$ = having Weet Bix, $B$ = having Strawberry Pops. Goal: test whether $B = A'$.",
+              "i. There are many other breakfast choices (toast, eggs, nothing...), so $A$ and $B$ do not cover every outcome. They are not complementary.",
+              "ii. Make the second event 'everything else': having Weet Bix and not having Weet Bix."
+            ],
+            "finalAnswer": "i. Not complementary — other breakfast foods are possible. ii. 'Having Weet Bix' and 'not having Weet Bix'.",
+            "solutionFigures": [],
+            "tip": "Complementary events must be mutually exclusive and leave nothing out."
+          }
+        },
+        {
+          "id": "ch11_ex2_q7b",
+          "number": "7(b)",
+          "category": "Master",
+          "questionText": "For the following pair of events: i. state, giving justification, if the pair are complementary events; ii. alter the statements, where applicable, so that the events become complementary events. Walking to a friend's place or driving there.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$A$ and $A'$ are complementary if they are mutually exclusive and together cover the whole sample space.",
+            "steps": [
+              "Given: $A$ = walking, $B$ = driving. Goal: test whether $B = A'$.",
+              "i. Other ways to get there exist (bus, bike, train), so the pair does not cover all outcomes. Not complementary.",
+              "ii. Walking to a friend's place and not walking to a friend's place."
+            ],
+            "finalAnswer": "i. Not complementary — other means of transport (e.g. bus) are possible. ii. 'Walking to a friend's place' and 'not walking to a friend's place'.",
+            "solutionFigures": [],
+            "tip": "Look for a third option; if one exists, the events are not complementary."
+          }
+        },
+        {
+          "id": "ch11_ex2_q7c",
+          "number": "7(c)",
+          "category": "Master",
+          "questionText": "For the following pair of events: i. state, giving justification, if the pair are complementary events; ii. alter the statements, where applicable, so that the events become complementary events. Watching TV or reading as a leisure activity.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$A$ and $A'$ are complementary if they are mutually exclusive and together cover the whole sample space.",
+            "steps": [
+              "Given: $A$ = watching TV, $B$ = reading. Goal: test whether $B = A'$.",
+              "i. There are many other leisure activities (sport, music, games), so the pair is not complementary.",
+              "ii. Watching TV and not watching TV."
+            ],
+            "finalAnswer": "i. Not complementary — other leisure activities are possible. ii. 'Watching TV' and 'not watching TV'.",
+            "solutionFigures": [],
+            "tip": "Using 'not' is the simplest way to build a complement."
+          }
+        },
+        {
+          "id": "ch11_ex2_q7d",
+          "number": "7(d)",
+          "category": "Master",
+          "questionText": "For the following pair of events: i. state, giving justification, if the pair are complementary events; ii. alter the statements, where applicable, so that the events become complementary events. Rolling a number less than 5 or rolling a number greater than 5 with a ten-sided die with faces numbered 1 to 10.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$A$ and $A'$ are complementary if $A \\cup A' = \\xi$ and $A \\cap A' = \\varnothing$.",
+            "steps": [
+              "Given: $\\xi = \\{1, ..., 10\\}$, $A = \\{1, 2, 3, 4\\}$, $B = \\{6, 7, 8, 9, 10\\}$. Goal: test whether $B = A'$.",
+              "$A \\cup B = \\{1, 2, 3, 4, 6, 7, 8, 9, 10\\}$, which is missing 5, so $A \\cup B \\neq \\xi$.",
+              "i. Not complementary, because 5 can be rolled and belongs to neither event.",
+              "ii. Rolling a number less than 5 and rolling a number 5 or greater ($A' = \\{5, 6, 7, 8, 9, 10\\}$)."
+            ],
+            "finalAnswer": "i. Not complementary — rolling a 5 is in neither event. ii. 'Rolling a number less than 5' and 'rolling a number 5 or greater'.",
+            "solutionFigures": [],
+            "tip": "Watch the boundary value: 'less than 5' and 'greater than 5' both leave out 5."
+          }
+        },
+        {
+          "id": "ch11_ex2_q7e",
+          "number": "7(e)",
+          "category": "Master",
+          "questionText": "For the following pair of events: i. state, giving justification, if the pair are complementary events; ii. alter the statements, where applicable, so that the events become complementary events. Passing a maths test or failing a maths test.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$A$ and $A'$ are complementary if they are mutually exclusive and together cover the whole sample space.",
+            "steps": [
+              "Given: $A$ = pass, $B$ = fail. Goal: test whether $B = A'$.",
+              "You cannot both pass and fail (mutually exclusive), and there is no other result (they cover everything).",
+              "i. Yes, they are complementary.",
+              "ii. No change is needed."
+            ],
+            "finalAnswer": "i. Yes — passing and failing are the only two possible outcomes. ii. No change required.",
+            "solutionFigures": [],
+            "tip": "When there are exactly two possible outcomes that cannot both occur, they are complements."
+          }
+        },
+        {
+          "id": "ch11_ex2_q8a",
+          "number": "8(a)",
+          "category": "Practice",
+          "questionText": "A card is drawn from a shuffled pack of 52 cards. Calculate the probability that the card drawn is an ace.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$",
+            "steps": [
+              "Given: 52 cards, 4 aces. Goal: $\\Pr(\\text{ace})$.",
+              "$\\Pr(\\text{ace}) = \\frac{4}{52} = \\frac{1}{13}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{ace}) = \\frac{1}{13}$",
+            "solutionFigures": [],
+            "tip": "Always simplify the fraction fully."
+          }
+        },
+        {
+          "id": "ch11_ex2_q8b",
+          "number": "8(b)",
+          "category": "Practice",
+          "questionText": "A card is drawn from a shuffled pack of 52 cards. Calculate the probability that the card drawn is a club.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$",
+            "steps": [
+              "Given: 52 cards, 13 clubs. Goal: $\\Pr(\\text{club})$.",
+              "$\\Pr(\\text{club}) = \\frac{13}{52} = \\frac{1}{4}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{club}) = \\frac{1}{4}$",
+            "solutionFigures": [],
+            "tip": "Each suit is one quarter of the pack."
+          }
+        },
+        {
+          "id": "ch11_ex2_q8c",
+          "number": "8(c)",
+          "category": "Practice",
+          "questionText": "A card is drawn from a shuffled pack of 52 cards. Calculate the probability that the card drawn is a red card.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$",
+            "steps": [
+              "Given: 52 cards; hearts and diamonds are red, $13 + 13 = 26$ red cards. Goal: $\\Pr(\\text{red})$.",
+              "$\\Pr(\\text{red}) = \\frac{26}{52} = \\frac{1}{2}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{red}) = \\frac{1}{2}$",
+            "solutionFigures": [],
+            "tip": "Two of the four suits are red."
+          }
+        },
+        {
+          "id": "ch11_ex2_q8d",
+          "number": "8(d)",
+          "category": "Practice",
+          "questionText": "A card is drawn from a shuffled pack of 52 cards. Calculate the probability that the card drawn is not a jack.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complement rule: $\\Pr(A') = 1 - \\Pr(A)$",
+            "steps": [
+              "Given: 4 jacks in 52 cards. Goal: $\\Pr(\\text{not a jack})$.",
+              "$\\Pr(\\text{jack}) = \\frac{4}{52} = \\frac{1}{13}$",
+              "$\\Pr(\\text{not a jack}) = 1 - \\frac{1}{13} = \\frac{12}{13}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{not a jack}) = \\frac{12}{13}$",
+            "solutionFigures": [],
+            "tip": "For 'not' questions, the complement rule is usually quickest."
+          }
+        },
+        {
+          "id": "ch11_ex2_q8e",
+          "number": "8(e)",
+          "category": "Practice",
+          "questionText": "A card is drawn from a shuffled pack of 52 cards. Calculate the probability that the card drawn is a green card.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$; an impossible event has probability 0.",
+            "steps": [
+              "Given: a standard pack has only red and black cards. Goal: $\\Pr(\\text{green})$.",
+              "Number of green cards $= 0$.",
+              "$\\Pr(\\text{green}) = \\frac{0}{52} = 0$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{green}) = 0$ (impossible)",
+            "solutionFigures": [],
+            "tip": "Probabilities range from 0 (impossible) to 1 (certain)."
+          }
+        },
+        {
+          "id": "ch11_ex2_q8f",
+          "number": "8(f)",
+          "category": "Practice",
+          "questionText": "A card is drawn from a shuffled pack of 52 cards. Calculate the probability that the card drawn is not a red card.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complement rule: $\\Pr(A') = 1 - \\Pr(A)$",
+            "steps": [
+              "Given: $\\Pr(\\text{red}) = \\frac{1}{2}$ (part c). Goal: $\\Pr(\\text{not red})$.",
+              "$\\Pr(\\text{not red}) = 1 - \\frac{1}{2} = \\frac{1}{2}$",
+              "Check: not red means black, and there are 26 black cards: $\\frac{26}{52} = \\frac{1}{2}$ ✓"
+            ],
+            "finalAnswer": "$\\Pr(\\text{not red}) = \\frac{1}{2}$",
+            "solutionFigures": [],
+            "tip": "Check a complement answer by counting the outcomes directly."
+          }
+        },
+        {
+          "id": "ch11_ex2_q9a",
+          "number": "9(a)",
+          "category": "Consolidate",
+          "questionText": "A bag contains 4 blue marbles, 7 red marbles and 9 yellow marbles. All marbles are the same size. A marble is selected at random. Calculate the probability that the marble is blue.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$",
+            "steps": [
+              "Given: total $= 4 + 7 + 9 = 20$ marbles, 4 blue. Goal: $\\Pr(\\text{blue})$.",
+              "$\\Pr(\\text{blue}) = \\frac{4}{20} = \\frac{1}{5}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{blue}) = \\frac{1}{5}$",
+            "solutionFigures": [],
+            "tip": "Find the total number of marbles first."
+          }
+        },
+        {
+          "id": "ch11_ex2_q9b",
+          "number": "9(b)",
+          "category": "Consolidate",
+          "questionText": "A bag contains 4 blue marbles, 7 red marbles and 9 yellow marbles. All marbles are the same size. A marble is selected at random. Calculate the probability that the marble is red.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$",
+            "steps": [
+              "Given: 20 marbles, 7 red. Goal: $\\Pr(\\text{red})$.",
+              "$\\Pr(\\text{red}) = \\frac{7}{20}$ (already in simplest form)"
+            ],
+            "finalAnswer": "$\\Pr(\\text{red}) = \\frac{7}{20}$",
+            "solutionFigures": [],
+            "tip": "7 and 20 share no common factor, so the fraction cannot be simplified."
+          }
+        },
+        {
+          "id": "ch11_ex2_q9c",
+          "number": "9(c)",
+          "category": "Consolidate",
+          "questionText": "A bag contains 4 blue marbles, 7 red marbles and 9 yellow marbles. All marbles are the same size. A marble is selected at random. Calculate the probability that the marble is not yellow.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complement rule: $\\Pr(Y') = 1 - \\Pr(Y)$",
+            "steps": [
+              "Given: 20 marbles, 9 yellow. Goal: $\\Pr(\\text{not yellow})$.",
+              "$\\Pr(Y) = \\frac{9}{20}$",
+              "$\\Pr(Y') = 1 - \\frac{9}{20} = \\frac{11}{20}$",
+              "Check: blue + red $= 4 + 7 = 11$ ✓"
+            ],
+            "finalAnswer": "$\\Pr(\\text{not yellow}) = \\frac{11}{20}$",
+            "solutionFigures": [],
+            "tip": "'Not yellow' means blue or red, so you can also count those directly."
+          }
+        },
+        {
+          "id": "ch11_ex2_q9d",
+          "number": "9(d)",
+          "category": "Consolidate",
+          "questionText": "A bag contains 4 blue marbles, 7 red marbles and 9 yellow marbles. All marbles are the same size. A marble is selected at random. Calculate the probability that the marble is black.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$",
+            "steps": [
+              "Given: no black marbles in the bag. Goal: $\\Pr(\\text{black})$.",
+              "$\\Pr(\\text{black}) = \\frac{0}{20} = 0$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{black}) = 0$",
+            "solutionFigures": [],
+            "tip": "An event with no favourable outcomes is impossible and has probability 0."
+          }
+        },
+        {
+          "id": "ch11_ex2_q10a",
+          "number": "10(a)",
+          "category": "Consolidate",
+          "questionText": "Given $\\Pr(A) = 0.5$, $\\Pr(B) = 0.4$ and $\\Pr(A \\cup B) = 0.8$, use the Addition Law of probability to calculate the value of $\\Pr(A \\cap B)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Addition Law: $\\Pr(A \\cup B) = \\Pr(A) + \\Pr(B) - \\Pr(A \\cap B)$",
+            "steps": [
+              "Given: $\\Pr(A) = 0.5$, $\\Pr(B) = 0.4$, $\\Pr(A \\cup B) = 0.8$. Goal: $\\Pr(A \\cap B)$.",
+              "$0.8 = 0.5 + 0.4 - \\Pr(A \\cap B)$",
+              "$0.8 = 0.9 - \\Pr(A \\cap B)$",
+              "$\\Pr(A \\cap B) = 0.9 - 0.8 = 0.1$"
+            ],
+            "finalAnswer": "$\\Pr(A \\cap B) = 0.1$",
+            "solutionFigures": [],
+            "tip": "Rearrange the Addition Law as $\\Pr(A \\cap B) = \\Pr(A) + \\Pr(B) - \\Pr(A \\cup B)$."
+          }
+        },
+        {
+          "id": "ch11_ex2_q10b",
+          "number": "10(b)",
+          "category": "Consolidate",
+          "questionText": "Given $\\Pr(A) = 0.5$, $\\Pr(B) = 0.4$ and $\\Pr(A \\cup B) = 0.8$, draw a Venn diagram to represent the universal set.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Venn regions: $\\Pr(A \\cap B')= \\Pr(A) - \\Pr(A \\cap B)$, $\\Pr(A' \\cap B) = \\Pr(B) - \\Pr(A \\cap B)$, $\\Pr(A' \\cap B') = 1 - \\Pr(A \\cup B)$",
+            "steps": [
+              "Given: $\\Pr(A \\cap B) = 0.1$ (part a). Goal: the probability in each of the four regions.",
+              "Overlap: $\\Pr(A \\cap B) = 0.1$",
+              "A only: $0.5 - 0.1 = 0.4$",
+              "B only: $0.4 - 0.1 = 0.3$",
+              "Outside both: $1 - 0.8 = 0.2$",
+              "Check: $0.4 + 0.1 + 0.3 + 0.2 = 1$ ✓",
+              "Draw two overlapping circles A and B inside a rectangle $\\xi$; write 0.4 in A only, 0.1 in the overlap, 0.3 in B only and 0.2 outside both circles."
+            ],
+            "finalAnswer": "Venn diagram: A only 0.4, $A \\cap B$ 0.1, B only 0.3, outside both 0.2.",
+            "solutionFigures": [],
+            "tip": "Fill the overlap first, then subtract it from each circle's total."
+          }
+        },
+        {
+          "id": "ch11_ex2_q10c",
+          "number": "10(c)",
+          "category": "Consolidate",
+          "questionText": "Given $\\Pr(A) = 0.5$, $\\Pr(B) = 0.4$ and $\\Pr(A \\cup B) = 0.8$, calculate $\\Pr(A \\cap B')$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(A \\cap B') = \\Pr(A) - \\Pr(A \\cap B)$",
+            "steps": [
+              "Given: $\\Pr(A) = 0.5$, $\\Pr(A \\cap B) = 0.1$. Goal: $\\Pr(A \\cap B')$, the region in A but not in B.",
+              "$\\Pr(A \\cap B') = 0.5 - 0.1 = 0.4$"
+            ],
+            "finalAnswer": "$\\Pr(A \\cap B') = 0.4$",
+            "solutionFigures": [],
+            "tip": "$A \\cap B'$ means 'A only', so read it straight off the Venn diagram."
+          }
+        },
+        {
+          "id": "ch11_ex2_q11ai",
+          "number": "11(a)(i)",
+          "category": "Master",
+          "questionText": "Let $\\Pr(A) = 0.25$, $\\Pr(B) = 0.65$ and $\\Pr(A \\cap B) = 0.05$. Calculate $\\Pr(A \\cup B)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Addition Law: $\\Pr(A \\cup B) = \\Pr(A) + \\Pr(B) - \\Pr(A \\cap B)$",
+            "steps": [
+              "Given: $\\Pr(A) = 0.25$, $\\Pr(B) = 0.65$, $\\Pr(A \\cap B) = 0.05$. Goal: $\\Pr(A \\cup B)$.",
+              "$\\Pr(A \\cup B) = 0.25 + 0.65 - 0.05$",
+              "$= 0.90 - 0.05 = 0.85$"
+            ],
+            "finalAnswer": "$\\Pr(A \\cup B) = 0.85$",
+            "solutionFigures": [],
+            "tip": "Remember to subtract the overlap."
+          }
+        },
+        {
+          "id": "ch11_ex2_q11aii",
+          "number": "11(a)(ii)",
+          "category": "Master",
+          "questionText": "Let $\\Pr(A) = 0.25$, $\\Pr(B) = 0.65$ and $\\Pr(A \\cap B) = 0.05$. Calculate $\\Pr(A \\cap B)'$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complement rule: $\\Pr(A \\cap B)' = 1 - \\Pr(A \\cap B)$",
+            "steps": [
+              "Given: $\\Pr(A \\cap B) = 0.05$. Goal: probability of everything outside the overlap.",
+              "$\\Pr(A \\cap B)' = 1 - 0.05 = 0.95$"
+            ],
+            "finalAnswer": "$\\Pr(A \\cap B)' = 0.95$",
+            "solutionFigures": [],
+            "tip": "The dash applies to the whole bracket, so it is the complement of the intersection, not $A' \\cap B'$."
+          }
+        },
+        {
+          "id": "ch11_ex2_q11b",
+          "number": "11(b)",
+          "category": "Master",
+          "questionText": "Let $\\Pr(A) = 0.25$, $\\Pr(B) = 0.65$ and $\\Pr(A \\cap B) = 0.05$. MC Choose which Venn diagram best illustrates $\\Pr(A \\cap B)'$. (Options A to D are Venn diagrams of two overlapping circles A and B inside $\\xi$, each with a different region shaded.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$(A \\cap B)'$ is every part of $\\xi$ except the overlap of A and B.",
+            "steps": [
+              "Given: four shaded Venn diagrams. Goal: the one showing $(A \\cap B)'$.",
+              "$A \\cap B$ is the lens-shaped overlap of the circles.",
+              "Its complement is everything else: A only, B only and the region outside both circles.",
+              "So the correct diagram has everything shaded except the overlap. In the textbook this is option C."
+            ],
+            "finalAnswer": "C — the diagram with all of $\\xi$ shaded except the overlap $A \\cap B$.",
+            "solutionFigures": [],
+            "tip": "Do not confuse $(A \\cap B)'$ (everything but the overlap) with $(A \\cup B)'$ (only outside both circles)."
+          }
+        },
+        {
+          "id": "ch11_ex2_q12a",
+          "number": "12(a)",
+          "category": "Master",
+          "questionText": "Draw a Venn diagram representing the relationship between the following sets. Show the position of all the elements in the Venn diagram. $\\xi = \\{1, 2, 3, ..., 20\\}$, $A = \\{1, 3, 5, 7, 9, 11, 13, 15, 17, 19\\}$, $B = \\{1, 4, 9, 16\\}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Place each element in exactly one of the regions $A \\cap B$, $A \\cap B'$, $A' \\cap B$, $A' \\cap B'$.",
+            "steps": [
+              "Given: $A$ = odd numbers to 19, $B$ = square numbers to 16. Goal: position of all 20 elements.",
+              "$A \\cap B$ (odd and square): $\\{1, 9\\}$",
+              "A only: $\\{3, 5, 7, 11, 13, 15, 17, 19\\}$ (8 elements)",
+              "B only: $\\{4, 16\\}$",
+              "Neither: $\\{2, 6, 8, 10, 12, 14, 18, 20\\}$ (8 elements)",
+              "Check: $2 + 8 + 2 + 8 = 20$ ✓",
+              "Draw two overlapping circles A and B in a rectangle $\\xi$ and write the elements in these regions."
+            ],
+            "finalAnswer": "Overlap: 1, 9; A only: 3, 5, 7, 11, 13, 15, 17, 19; B only: 4, 16; outside: 2, 6, 8, 10, 12, 14, 18, 20.",
+            "solutionFigures": [],
+            "tip": "Place the shared elements in the overlap first, then each element appears only once."
+          }
+        },
+        {
+          "id": "ch11_ex2_q12bi",
+          "number": "12(b)(i)",
+          "category": "Master",
+          "questionText": "$\\xi = \\{1, 2, 3, ..., 20\\}$, $A = \\{1, 3, 5, 7, 9, 11, 13, 15, 17, 19\\}$, $B = \\{1, 4, 9, 16\\}$. Calculate $\\Pr(A)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(A) = \\dfrac{n(A)}{n(\\xi)}$",
+            "steps": [
+              "Given: $n(A) = 10$, $n(\\xi) = 20$. Goal: $\\Pr(A)$.",
+              "$\\Pr(A) = \\frac{10}{20} = \\frac{1}{2}$"
+            ],
+            "finalAnswer": "$\\Pr(A) = \\frac{1}{2}$",
+            "solutionFigures": [],
+            "tip": "Count elements carefully from the set list."
+          }
+        },
+        {
+          "id": "ch11_ex2_q12bii",
+          "number": "12(b)(ii)",
+          "category": "Master",
+          "questionText": "$\\xi = \\{1, 2, 3, ..., 20\\}$, $A = \\{1, 3, 5, 7, 9, 11, 13, 15, 17, 19\\}$, $B = \\{1, 4, 9, 16\\}$. Calculate $\\Pr(B)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(B) = \\dfrac{n(B)}{n(\\xi)}$",
+            "steps": [
+              "Given: $n(B) = 4$, $n(\\xi) = 20$. Goal: $\\Pr(B)$.",
+              "$\\Pr(B) = \\frac{4}{20} = \\frac{1}{5}$"
+            ],
+            "finalAnswer": "$\\Pr(B) = \\frac{1}{5}$",
+            "solutionFigures": [],
+            "tip": "Simplify by dividing top and bottom by 4."
+          }
+        },
+        {
+          "id": "ch11_ex2_q12biii",
+          "number": "12(b)(iii)",
+          "category": "Master",
+          "questionText": "$\\xi = \\{1, 2, 3, ..., 20\\}$, $A = \\{1, 3, 5, 7, 9, 11, 13, 15, 17, 19\\}$, $B = \\{1, 4, 9, 16\\}$. Calculate $\\Pr(A \\cap B)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(A \\cap B) = \\dfrac{n(A \\cap B)}{n(\\xi)}$",
+            "steps": [
+              "Given: $A \\cap B = \\{1, 9\\}$, so $n(A \\cap B) = 2$. Goal: $\\Pr(A \\cap B)$.",
+              "$\\Pr(A \\cap B) = \\frac{2}{20} = \\frac{1}{10}$"
+            ],
+            "finalAnswer": "$\\Pr(A \\cap B) = \\frac{1}{10}$",
+            "solutionFigures": [],
+            "tip": "The intersection holds the elements in both sets: 1 and 9."
+          }
+        },
+        {
+          "id": "ch11_ex2_q12biv",
+          "number": "12(b)(iv)",
+          "category": "Master",
+          "questionText": "$\\xi = \\{1, 2, 3, ..., 20\\}$, $A = \\{1, 3, 5, 7, 9, 11, 13, 15, 17, 19\\}$, $B = \\{1, 4, 9, 16\\}$. Calculate $\\Pr(A \\cup B)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Addition Law: $\\Pr(A \\cup B) = \\Pr(A) + \\Pr(B) - \\Pr(A \\cap B)$",
+            "steps": [
+              "Given: $\\Pr(A) = \\frac{10}{20}$, $\\Pr(B) = \\frac{4}{20}$, $\\Pr(A \\cap B) = \\frac{2}{20}$. Goal: $\\Pr(A \\cup B)$.",
+              "$\\Pr(A \\cup B) = \\frac{10}{20} + \\frac{4}{20} - \\frac{2}{20} = \\frac{12}{20}$",
+              "Simplify: $\\frac{12}{20} = \\frac{3}{5}$",
+              "Check by counting: $8 + 2 + 2 = 12$ elements in $A \\cup B$ ✓"
+            ],
+            "finalAnswer": "$\\Pr(A \\cup B) = \\frac{3}{5}$",
+            "solutionFigures": [],
+            "tip": "Counting the regions of the Venn diagram is a good check on the formula."
+          }
+        },
+        {
+          "id": "ch11_ex2_q12bv",
+          "number": "12(b)(v)",
+          "category": "Master",
+          "questionText": "$\\xi = \\{1, 2, 3, ..., 20\\}$, $A = \\{1, 3, 5, 7, 9, 11, 13, 15, 17, 19\\}$, $B = \\{1, 4, 9, 16\\}$. Calculate $\\Pr(A' \\cap B')$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(A' \\cap B') = 1 - \\Pr(A \\cup B)$",
+            "steps": [
+              "Given: $\\Pr(A \\cup B) = \\frac{3}{5}$. Goal: probability of being in neither set.",
+              "$\\Pr(A' \\cap B') = 1 - \\frac{3}{5} = \\frac{2}{5}$",
+              "Check: neither region $= \\{2, 6, 8, 10, 12, 14, 18, 20\\}$, $\\frac{8}{20} = \\frac{2}{5}$ ✓"
+            ],
+            "finalAnswer": "$\\Pr(A' \\cap B') = \\frac{2}{5}$",
+            "solutionFigures": [],
+            "tip": "'Not A and not B' is the region outside both circles."
+          }
+        },
+        {
+          "id": "ch11_ex2_q13a",
+          "number": "13(a)",
+          "category": "Practice",
+          "questionText": "You and a friend are playing a dice game. You have an eight-sided die (faces 1 to 8) and your friend has a six-sided die (faces 1 to 6). You each roll your own die. The person who rolls the number 4 wins. Determine if this game is fair.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "A game is fair if each player has the same probability of winning; $\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$.",
+            "steps": [
+              "Given: 8-sided die for you, 6-sided die for your friend. Goal: compare $\\Pr(4)$ for each.",
+              "You: $\\Pr(4) = \\frac{1}{8}$",
+              "Friend: $\\Pr(4) = \\frac{1}{6}$",
+              "$\\frac{1}{6} > \\frac{1}{8}$, so the friend is more likely to roll a 4."
+            ],
+            "finalAnswer": "No, the game is not fair: $\\Pr(4) = \\frac{1}{8}$ on the eight-sided die but $\\frac{1}{6}$ on the six-sided die.",
+            "solutionFigures": [],
+            "tip": "More faces means each single face is less likely."
+          }
+        },
+        {
+          "id": "ch11_ex2_q13b",
+          "number": "13(b)",
+          "category": "Practice",
+          "questionText": "You and a friend are playing a dice game. You have an eight-sided die (faces 1 to 8) and your friend has a six-sided die (faces 1 to 6). You each roll your own die. The person who rolls an odd number wins. Determine if this game is fair.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "A game is fair if each player has the same probability of winning; $\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$.",
+            "steps": [
+              "Given: odd numbers on the 8-sided die: $\\{1, 3, 5, 7\\}$; on the 6-sided die: $\\{1, 3, 5\\}$. Goal: compare $\\Pr(\\text{odd})$.",
+              "You: $\\Pr(\\text{odd}) = \\frac{4}{8} = \\frac{1}{2}$",
+              "Friend: $\\Pr(\\text{odd}) = \\frac{3}{6} = \\frac{1}{2}$",
+              "The probabilities are equal."
+            ],
+            "finalAnswer": "Yes, the game is fair: $\\Pr(\\text{odd}) = \\frac{1}{2}$ for both dice.",
+            "solutionFigures": [],
+            "tip": "Compare probabilities, not counts: 4 odd faces and 3 odd faces still give the same chance."
+          }
+        },
+        {
+          "id": "ch11_ex2_q14",
+          "number": "14",
+          "category": "Consolidate",
+          "questionText": "A six-sided die has three faces numbered 5; the other faces are numbered 6. Determine if the events 'rolling a 5' and 'rolling a 6' are equally likely.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$",
+            "steps": [
+              "Given: 6 faces; three show 5 and three show 6. Goal: compare $\\Pr(5)$ and $\\Pr(6)$.",
+              "$\\Pr(5) = \\frac{3}{6} = \\frac{1}{2}$",
+              "$\\Pr(6) = \\frac{3}{6} = \\frac{1}{2}$",
+              "The probabilities are equal."
+            ],
+            "finalAnswer": "Yes, they are equally likely: $\\Pr(5) = \\Pr(6) = \\frac{1}{2}$.",
+            "solutionFigures": [],
+            "tip": "'The other faces' means $6 - 3 = 3$ faces."
+          }
+        },
+        {
+          "id": "ch11_ex2_q15a",
+          "number": "15(a)",
+          "category": "Master",
+          "questionText": "(You will need a six-sided die.) A chocolate bar manufacturer claims 'Every third one is free'; the special message is in every third wrapper and bars are mixed randomly. Use the numbers 3 and 6 on a die to represent getting a free chocolate bar. Carry out 50 trial purchases of chocolate bars.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Simulation: $\\Pr(\\text{free}) = \\Pr(3 \\text{ or } 6) = \\frac{2}{6} = \\frac{1}{3}$",
+            "steps": [
+              "Given: a free bar has probability $\\frac{1}{3}$; the die faces 3 and 6 are 2 out of 6 faces, also $\\frac{1}{3}$. Goal: simulate 50 purchases.",
+              "Roll the die 50 times. Each roll is one purchase.",
+              "Record a tally: 'free' if the roll is 3 or 6, 'not free' otherwise.",
+              "Results will vary; about $50 \\times \\frac{1}{3} \\approx 17$ free bars are expected."
+            ],
+            "finalAnswer": "Results vary. Roll the die 50 times, counting a 3 or 6 as a free bar; expect roughly 17 free bars.",
+            "solutionFigures": [],
+            "tip": "This is a hands-on activity, so your own count is the answer; check it is near 17."
+          }
+        },
+        {
+          "id": "ch11_ex2_q15b",
+          "number": "15(b)",
+          "category": "Master",
+          "questionText": "A chocolate bar manufacturer claims 'Every third one is free'. Using the numbers 3 and 6 on a die to represent a free chocolate bar, 50 trial purchases were simulated. Calculate the relative frequency of a free chocolate bar.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Relative frequency $= \\dfrac{\\text{number of free bars}}{50}$",
+            "steps": [
+              "Given: your tally from 50 trials. Goal: the relative frequency of a free bar.",
+              "Divide the number of 3s and 6s rolled by 50.",
+              "Example: if 18 free bars were obtained, relative frequency $= \\frac{18}{50} = 0.36$.",
+              "Your value should be close to the theoretical $\\frac{1}{3} \\approx 0.33$."
+            ],
+            "finalAnswer": "Relative frequency $= \\frac{\\text{number of 3s and 6s}}{50}$, which should be close to $\\frac{1}{3} \\approx 0.33$ (e.g. $\\frac{18}{50} = 0.36$).",
+            "solutionFigures": [],
+            "tip": "Divide by the number of trials (50), not by 6."
+          }
+        },
+        {
+          "id": "ch11_ex2_q15c",
+          "number": "15(c)",
+          "category": "Master",
+          "questionText": "A chocolate bar manufacturer claims 'Every third one is free'. Using the numbers 3 and 6 on a die to represent a free chocolate bar, determine how many free chocolate bars you would expect to receive in 100 trials.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Expected number $= \\Pr(\\text{free}) \\times \\text{number of trials}$",
+            "steps": [
+              "Given: $\\Pr(\\text{free}) = \\frac{2}{6} = \\frac{1}{3}$, 100 trials. Goal: the expected number of free bars.",
+              "Expected number $= \\frac{1}{3} \\times 100 = 33.\\overline{3}$",
+              "Round to a whole number of bars: about 33."
+            ],
+            "finalAnswer": "About 33 free chocolate bars in 100 trials (using your relative frequency from part b gives a similar estimate).",
+            "solutionFigures": [],
+            "tip": "Expected values need not be whole numbers; round sensibly when counting objects."
+          }
+        },
+        {
+          "id": "ch11_ex2_q16a",
+          "number": "16(a)",
+          "category": "Master",
+          "questionText": "Thirty students were asked which lunchtime sports they enjoyed — volleyball, soccer or tennis. Five students chose all three sports. Six chose volleyball and soccer, 7 chose volleyball and tennis, and 9 chose soccer and tennis. Fifteen chose volleyball, 14 chose soccer and 18 chose tennis. Copy the three-circle Venn diagram (Volleyball, Soccer, Tennis, $n(\\xi) = 30$) and enter the given information.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Fill a three-set Venn diagram from the centre outwards: the 'only two' region $=$ the pair total $-$ all three; the 'only one' region $=$ the set total $-$ the other regions in that circle.",
+            "steps": [
+              "Given: $n(V \\cap S \\cap T) = 5$, $n(V \\cap S) = 6$, $n(V \\cap T) = 7$, $n(S \\cap T) = 9$, $n(V) = 15$, $n(S) = 14$, $n(T) = 18$. Goal: every region.",
+              "Centre (all three): 5",
+              "V and S only: $6 - 5 = 1$",
+              "V and T only: $7 - 5 = 2$",
+              "S and T only: $9 - 5 = 4$",
+              "V only: $15 - 1 - 2 - 5 = 7$",
+              "S only: $14 - 1 - 4 - 5 = 4$",
+              "T only: $18 - 2 - 4 - 5 = 7$",
+              "Total inside: $7 + 4 + 7 + 1 + 2 + 4 + 5 = 30$, so outside all circles $= 30 - 30 = 0$."
+            ],
+            "finalAnswer": "V only 7, S only 4, T only 7, V∩S only 1, V∩T only 2, S∩T only 4, all three 5, none 0.",
+            "solutionFigures": [],
+            "tip": "Always subtract the centre from each pair total first, or you will double count."
+          }
+        },
+        {
+          "id": "ch11_ex2_q16bi",
+          "number": "16(b)(i)",
+          "category": "Master",
+          "questionText": "Thirty students chose lunchtime sports. Venn regions: volleyball only 7, soccer only 4, tennis only 7, volleyball and soccer only 1, volleyball and tennis only 2, soccer and tennis only 4, all three 5, none 0. If a student is selected at random, determine the probability of selecting a student who chose volleyball.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$",
+            "steps": [
+              "Given: $n(V) = 7 + 1 + 2 + 5 = 15$, $n(\\xi) = 30$. Goal: $\\Pr(V)$.",
+              "$\\Pr(V) = \\frac{15}{30} = \\frac{1}{2}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{volleyball}) = \\frac{1}{2}$",
+            "solutionFigures": [],
+            "tip": "'Chose volleyball' includes everyone inside the volleyball circle, not just 'volleyball only'."
+          }
+        },
+        {
+          "id": "ch11_ex2_q16bii",
+          "number": "16(b)(ii)",
+          "category": "Master",
+          "questionText": "Thirty students chose lunchtime sports. Venn regions: volleyball only 7, soccer only 4, tennis only 7, volleyball and soccer only 1, volleyball and tennis only 2, soccer and tennis only 4, all three 5, none 0. If a student is selected at random, determine the probability of selecting a student who chose all three sports.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$",
+            "steps": [
+              "Given: $n(V \\cap S \\cap T) = 5$. Goal: $\\Pr(V \\cap S \\cap T)$.",
+              "$\\Pr = \\frac{5}{30} = \\frac{1}{6}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{all three}) = \\frac{1}{6}$",
+            "solutionFigures": [],
+            "tip": "All three is the single centre region."
+          }
+        },
+        {
+          "id": "ch11_ex2_q16biii",
+          "number": "16(b)(iii)",
+          "category": "Master",
+          "questionText": "Thirty students chose lunchtime sports. Venn regions: volleyball only 7, soccer only 4, tennis only 7, volleyball and soccer only 1, volleyball and tennis only 2, soccer and tennis only 4, all three 5, none 0. If a student is selected at random, determine the probability of selecting a student who chose both volleyball and soccer but not tennis.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$",
+            "steps": [
+              "Given: $n(V \\cap S \\cap T') = 6 - 5 = 1$. Goal: $\\Pr(V \\cap S \\cap T')$.",
+              "$\\Pr = \\frac{1}{30}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{volleyball and soccer, not tennis}) = \\frac{1}{30}$",
+            "solutionFigures": [],
+            "tip": "'But not tennis' removes the centre region from the volleyball–soccer overlap."
+          }
+        },
+        {
+          "id": "ch11_ex2_q16biv",
+          "number": "16(b)(iv)",
+          "category": "Master",
+          "questionText": "Thirty students chose lunchtime sports. Venn regions: volleyball only 7, soccer only 4, tennis only 7, volleyball and soccer only 1, volleyball and tennis only 2, soccer and tennis only 4, all three 5, none 0. If a student is selected at random, determine the probability of selecting a student who did not choose tennis.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complement rule: $\\Pr(T') = 1 - \\Pr(T)$",
+            "steps": [
+              "Given: $n(T) = 18$, $n(\\xi) = 30$. Goal: $\\Pr(T')$.",
+              "$\\Pr(T) = \\frac{18}{30} = \\frac{3}{5}$",
+              "$\\Pr(T') = 1 - \\frac{3}{5} = \\frac{2}{5}$",
+              "Check: outside the tennis circle $= 7 + 4 + 1 + 0 = 12$, and $\\frac{12}{30} = \\frac{2}{5}$ ✓"
+            ],
+            "finalAnswer": "$\\Pr(\\text{not tennis}) = \\frac{2}{5}$",
+            "solutionFigures": [],
+            "tip": "Count every region outside the tennis circle, including the region outside all circles."
+          }
+        },
+        {
+          "id": "ch11_ex2_q16bv",
+          "number": "16(b)(v)",
+          "category": "Master",
+          "questionText": "Thirty students chose lunchtime sports. Venn regions: volleyball only 7, soccer only 4, tennis only 7, volleyball and soccer only 1, volleyball and tennis only 2, soccer and tennis only 4, all three 5, none 0. If a student is selected at random, determine the probability of selecting a student who chose soccer.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$",
+            "steps": [
+              "Given: $n(S) = 4 + 1 + 4 + 5 = 14$. Goal: $\\Pr(S)$.",
+              "$\\Pr(S) = \\frac{14}{30} = \\frac{7}{15}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{soccer}) = \\frac{7}{15}$",
+            "solutionFigures": [],
+            "tip": "Divide by the common factor 2 to simplify."
+          }
+        },
+        {
+          "id": "ch11_ex2_q16ci",
+          "number": "16(c)(i)",
+          "category": "Master",
+          "questionText": "Thirty students chose lunchtime sports. Venn regions: volleyball only 7, soccer only 4, tennis only 7, volleyball and soccer only 1, volleyball and tennis only 2, soccer and tennis only 4, all three 5, none 0. Determine $\\Pr[(\\text{soccer} \\cup \\text{tennis}) \\cap \\text{volleyball}']$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$, where $(S \\cup T) \\cap V'$ is the part of the soccer and tennis circles outside the volleyball circle.",
+            "steps": [
+              "Given: the Venn regions. Goal: students in soccer or tennis but not volleyball.",
+              "Regions outside V but inside S or T: soccer only 4, tennis only 7, soccer and tennis only 4.",
+              "$n = 4 + 7 + 4 = 15$",
+              "$\\Pr = \\frac{15}{30} = \\frac{1}{2}$"
+            ],
+            "finalAnswer": "$\\Pr[(S \\cup T) \\cap V'] = \\frac{1}{2}$",
+            "solutionFigures": [],
+            "tip": "Shade $S \\cup T$ first, then remove anything inside the volleyball circle."
+          }
+        },
+        {
+          "id": "ch11_ex2_q16cii",
+          "number": "16(c)(ii)",
+          "category": "Master",
+          "questionText": "Thirty students chose lunchtime sports. Venn regions: volleyball only 7, soccer only 4, tennis only 7, volleyball and soccer only 1, volleyball and tennis only 2, soccer and tennis only 4, all three 5, none 0. Determine $\\Pr[(\\text{volleyball} \\cup \\text{tennis}) \\cap \\text{soccer}']$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$, where $(V \\cup T) \\cap S'$ is the part of the volleyball and tennis circles outside the soccer circle.",
+            "steps": [
+              "Given: the Venn regions. Goal: students in volleyball or tennis but not soccer.",
+              "Regions: volleyball only 7, tennis only 7, volleyball and tennis only 2.",
+              "$n = 7 + 7 + 2 = 16$",
+              "$\\Pr = \\frac{16}{30} = \\frac{8}{15}$"
+            ],
+            "finalAnswer": "$\\Pr[(V \\cup T) \\cap S'] = \\frac{8}{15}$",
+            "solutionFigures": [],
+            "tip": "Leave out the centre region, since those students also play soccer."
+          }
+        },
+        {
+          "id": "ch11_ex2_q17",
+          "number": "17",
+          "category": "Practice",
+          "questionText": "A six-sided die has three faces numbered 1 and the other three faces numbered 2. Determine if the events 'rolling a 1' and 'rolling a 2' are equally likely.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$",
+            "steps": [
+              "Given: 6 faces; three show 1 and three show 2. Goal: compare $\\Pr(1)$ and $\\Pr(2)$.",
+              "$\\Pr(1) = \\frac{3}{6} = \\frac{1}{2}$",
+              "$\\Pr(2) = \\frac{3}{6} = \\frac{1}{2}$"
+            ],
+            "finalAnswer": "Yes, they are equally likely: both have probability $\\frac{1}{2}$.",
+            "solutionFigures": [],
+            "tip": "Count faces, not distinct numbers: there are 6 faces even though only two numbers appear."
+          }
+        },
+        {
+          "id": "ch11_ex2_q18",
+          "number": "18",
+          "category": "Consolidate",
+          "questionText": "With the use of diagrams, show that $\\Pr(A' \\cap B') = \\Pr(A \\cup B)'$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "A two-set Venn diagram has four regions: $A \\cap B'$, $A \\cap B$, $A' \\cap B$ and $A' \\cap B'$, whose probabilities sum to 1.",
+            "steps": [
+              "Given: two overlapping events A and B in $\\xi$. Goal: show the two expressions describe the same region.",
+              "Diagram 1: shade $A'$ (everything outside circle A), then shade $B'$ (everything outside circle B). The region shaded twice, $A' \\cap B'$, is the part outside both circles.",
+              "Diagram 2: shade $A \\cup B$ (both circles, including the overlap). Its complement $(A \\cup B)'$ is everything left unshaded: again the part outside both circles.",
+              "Both diagrams show the same region, so $A' \\cap B' = (A \\cup B)'$.",
+              "Equal regions have equal probability: $\\Pr(A' \\cap B') = \\Pr(A \\cup B)' = 1 - \\Pr(A \\cup B)$."
+            ],
+            "finalAnswer": "Both $A' \\cap B'$ and $(A \\cup B)'$ are the region outside both circles, so $\\Pr(A' \\cap B') = \\Pr(A \\cup B)'$.",
+            "solutionFigures": [],
+            "tip": "This is De Morgan's law: 'not A and not B' is the same as 'not (A or B)'."
+          }
+        },
+        {
+          "id": "ch11_ex2_q19",
+          "number": "19",
+          "category": "Master",
+          "questionText": "A drawer contains purple socks and red socks. The chance of obtaining a red sock is 2 in 9. There are 10 red socks in the drawer. Determine the smallest number of socks that need to be added to the drawer so that the probability of drawing a red sock increases to 3 in 7.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(\\text{red}) = \\dfrac{\\text{number of red socks}}{\\text{total number of socks}}$",
+            "steps": [
+              "Given: $\\Pr(R) = \\frac{2}{9}$ with 10 red socks. Goal: the fewest added socks that make $\\Pr(R) = \\frac{3}{7}$.",
+              "Current total: $\\frac{10}{N} = \\frac{2}{9} \\Rightarrow N = 45$, so there are $45 - 10 = 35$ purple socks.",
+              "Try adding only red socks: $\\frac{10 + r}{45 + r} = \\frac{3}{7} \\Rightarrow 70 + 7r = 135 + 3r \\Rightarrow r = 16.25$, which is not a whole number.",
+              "So the new total $T$ must be a multiple of 7 with $\\frac{3}{7}T$ red and $\\frac{4}{7}T$ purple.",
+              "Purple socks cannot be removed: $\\frac{4}{7}T \\geq 35 \\Rightarrow T \\geq 61.25$.",
+              "The smallest multiple of 7 that is at least 61.25 is $T = 63$.",
+              "Red needed: $\\frac{3}{7} \\times 63 = 27$, so add $27 - 10 = 17$ red socks.",
+              "Purple needed: $\\frac{4}{7} \\times 63 = 36$, so add $36 - 35 = 1$ purple sock.",
+              "Check: $\\frac{27}{63} = \\frac{3}{7}$ ✓. Socks added $= 17 + 1 = 18$."
+            ],
+            "finalAnswer": "Add 18 socks: 17 red and 1 purple (giving 27 red out of 63).",
+            "solutionFigures": [],
+            "tip": "Numbers of socks must be whole numbers, so check that your answer gives whole counts."
+          }
+        },
+        {
+          "id": "ch11_ex2_q20a",
+          "number": "20(a)",
+          "category": "Practice",
+          "questionText": "Ninety students were asked which lunchtime sports — basketball (B), netball (N) and soccer (S) — they had played at least once in the last week. Results: Basketball 35, Netball 25, Soccer 39, Basketball and netball 5, Basketball and soccer 18, Netball and soccer 8, All three 3. Copy and complete the Venn diagram (circles B, N, S in $\\xi$; the diagram already shows 15, 3 and 5 in some regions) to illustrate the sample space.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Fill from the centre outwards: 'two only' $=$ pair total $-$ all three; 'one only' $=$ set total $-$ other regions in that circle; outside $= n(\\xi) -$ total inside.",
+            "steps": [
+              "Given: $n(\\xi) = 90$, $n(B \\cap N \\cap S) = 3$, pair totals 5, 18, 8, set totals 35, 25, 39. Goal: all eight regions.",
+              "All three: 3",
+              "B and N only: $5 - 3 = 2$",
+              "B and S only: $18 - 3 = 15$",
+              "N and S only: $8 - 3 = 5$",
+              "B only: $35 - 2 - 15 - 3 = 15$",
+              "N only: $25 - 2 - 5 - 3 = 15$",
+              "S only: $39 - 15 - 5 - 3 = 16$",
+              "Inside total: $15 + 15 + 16 + 2 + 15 + 5 + 3 = 71$",
+              "Outside all circles: $90 - 71 = 19$"
+            ],
+            "finalAnswer": "B only 15, N only 15, S only 16, B∩N only 2, B∩S only 15, N∩S only 5, all three 3, none 19.",
+            "solutionFigures": [],
+            "tip": "The pair totals in the table include the 3 students who play all three sports."
+          }
+        },
+        {
+          "id": "ch11_ex2_q20b",
+          "number": "20(b)",
+          "category": "Practice",
+          "questionText": "Ninety students were asked which lunchtime sports — basketball, netball and soccer — they had played at least once in the last week. Results: Basketball 35, Netball 25, Soccer 39, Basketball and netball 5, Basketball and soccer 18, Netball and soccer 8, All three 3. Determine how many students did not play basketball, netball or soccer at lunchtime.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$n(\\text{none}) = n(\\xi) - n(B \\cup N \\cup S)$",
+            "steps": [
+              "Given: regions from part (a), inside total 71. Goal: number outside all circles.",
+              "$n(\\text{none}) = 90 - 71 = 19$"
+            ],
+            "finalAnswer": "19 students played none of the three sports.",
+            "solutionFigures": [],
+            "tip": "Do not just add 35 + 25 + 39; that double counts the overlaps."
+          }
+        },
+        {
+          "id": "ch11_ex2_q20c",
+          "number": "20(c)",
+          "category": "Practice",
+          "questionText": "Ninety students were asked which lunchtime sports — basketball, netball and soccer — they had played at least once in the last week. Results: Basketball 35, Netball 25, Soccer 39, Basketball and netball 5, Basketball and soccer 18, Netball and soccer 8, All three 3. Determine how many students played basketball and/or netball but not soccer.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$n[(B \\cup N) \\cap S']$ = the sum of the regions inside B or N but outside S.",
+            "steps": [
+              "Given: B only 15, N only 15, B and N only 2. Goal: $n[(B \\cup N) \\cap S']$.",
+              "$15 + 15 + 2 = 32$"
+            ],
+            "finalAnswer": "32 students played basketball and/or netball but not soccer.",
+            "solutionFigures": [],
+            "tip": "Exclude every region that touches the soccer circle, including the centre."
+          }
+        },
+        {
+          "id": "ch11_ex2_q20d",
+          "number": "20(d)",
+          "category": "Practice",
+          "questionText": "Ninety students were asked which lunchtime sports — basketball, netball and soccer — they had played at least once in the last week. Results: Basketball 35, Netball 25, Soccer 39, Basketball and netball 5, Basketball and soccer 18, Netball and soccer 8, All three 3. Determine how many students are represented by the region (basketball ∩ not netball ∩ soccer).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$n(B \\cap N' \\cap S) = n(B \\cap S) - n(B \\cap N \\cap S)$",
+            "steps": [
+              "Given: $n(B \\cap S) = 18$, all three $= 3$. Goal: basketball and soccer but not netball.",
+              "$18 - 3 = 15$"
+            ],
+            "finalAnswer": "15 students",
+            "solutionFigures": [],
+            "tip": "'Not netball' removes the centre region from the B∩S overlap."
+          }
+        },
+        {
+          "id": "ch11_ex2_q20e",
+          "number": "20(e)",
+          "category": "Practice",
+          "questionText": "Ninety students were asked which lunchtime sports — basketball, netball and soccer — they had played at least once in the last week. The region (basketball ∩ not netball ∩ soccer) contains 15 students. Calculate the relative frequency of this region.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Relative frequency $= \\dfrac{\\text{frequency}}{\\text{total}}$",
+            "steps": [
+              "Given: 15 students out of 90. Goal: relative frequency.",
+              "$\\frac{15}{90} = \\frac{1}{6}$"
+            ],
+            "finalAnswer": "Relative frequency $= \\frac{15}{90} = \\frac{1}{6}$",
+            "solutionFigures": [],
+            "tip": "Use the whole group of 90, including those who played no sport."
+          }
+        },
+        {
+          "id": "ch11_ex2_q20f",
+          "number": "20(f)",
+          "category": "Practice",
+          "questionText": "Ninety students were asked which lunchtime sports — basketball, netball and soccer — they had played at least once in the last week; 3 students played all three. Estimate the probability that a student will play three of the sports offered.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Experimental probability $= \\dfrac{n(\\text{successful})}{n(\\text{trials})}$",
+            "steps": [
+              "Given: 3 of 90 students played all three. Goal: estimated $\\Pr(B \\cap N \\cap S)$.",
+              "$\\Pr \\approx \\frac{3}{90} = \\frac{1}{30}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{all three}) \\approx \\frac{1}{30}$",
+            "solutionFigures": [],
+            "tip": "Survey data gives an estimate (experimental probability), not an exact value."
+          }
+        },
+        {
+          "id": "ch11_ex2_q21ai",
+          "number": "21(a)(i)",
+          "category": "Consolidate",
+          "questionText": "A restaurateur surveyed regular customers on food preferences. The Venn diagram (circles Fried rice, Chicken wings, Dim sims) shows: fried rice only 7, fried rice and chicken wings only 5, chicken wings only 12, all three 3, fried rice and dim sims only 10, chicken wings and dim sims only 5, dim sims only 8, none 0. Determine the number of customers surveyed.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Total $=$ sum of all regions of the Venn diagram.",
+            "steps": [
+              "Given: the seven region counts (and 0 outside). Goal: $n(\\xi)$.",
+              "$7 + 5 + 12 + 3 + 10 + 5 + 8 = 50$"
+            ],
+            "finalAnswer": "50 customers were surveyed.",
+            "solutionFigures": [],
+            "tip": "Each customer appears in exactly one region, so adding the regions counts each once."
+          }
+        },
+        {
+          "id": "ch11_ex2_q21aii",
+          "number": "21(a)(ii)",
+          "category": "Consolidate",
+          "questionText": "A restaurateur surveyed regular customers on food preferences. Venn regions: fried rice only 7, fried rice and chicken wings only 5, chicken wings only 12, all three 3, fried rice and dim sims only 10, chicken wings and dim sims only 5, dim sims only 8. Determine the number of customers showing a preference for fried rice only.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "'Only' means the region of that circle that does not overlap any other circle.",
+            "steps": [
+              "Given: the Venn regions. Goal: the fried rice only region.",
+              "Fried rice only $= 7$"
+            ],
+            "finalAnswer": "7 customers prefer fried rice only.",
+            "solutionFigures": [],
+            "tip": "'Only' excludes all the overlap regions."
+          }
+        },
+        {
+          "id": "ch11_ex2_q21aiii",
+          "number": "21(a)(iii)",
+          "category": "Consolidate",
+          "questionText": "A restaurateur surveyed regular customers on food preferences. Venn regions: fried rice only 7, fried rice and chicken wings only 5, chicken wings only 12, all three 3, fried rice and dim sims only 10, chicken wings and dim sims only 5, dim sims only 8. Determine the number of customers showing a preference for fried rice.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$n(F)$ = the sum of every region inside the fried rice circle.",
+            "steps": [
+              "Given: the Venn regions. Goal: $n(F)$.",
+              "$7 + 5 + 3 + 10 = 25$"
+            ],
+            "finalAnswer": "25 customers prefer fried rice.",
+            "solutionFigures": [],
+            "tip": "Include the overlaps when the question does not say 'only'."
+          }
+        },
+        {
+          "id": "ch11_ex2_q21aiv",
+          "number": "21(a)(iv)",
+          "category": "Consolidate",
+          "questionText": "A restaurateur surveyed regular customers on food preferences. Venn regions: fried rice only 7, fried rice and chicken wings only 5, chicken wings only 12, all three 3, fried rice and dim sims only 10, chicken wings and dim sims only 5, dim sims only 8. Determine the number of customers showing a preference for chicken wings and dim sims.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$n(C \\cap D)$ = the 'C and D only' region + the all-three region.",
+            "steps": [
+              "Given: chicken wings and dim sims only 5, all three 3. Goal: $n(C \\cap D)$.",
+              "$5 + 3 = 8$"
+            ],
+            "finalAnswer": "8 customers prefer chicken wings and dim sims.",
+            "solutionFigures": [],
+            "tip": "The centre region is also inside both the chicken wings and dim sims circles."
+          }
+        },
+        {
+          "id": "ch11_ex2_q21bi",
+          "number": "21(b)(i)",
+          "category": "Consolidate",
+          "questionText": "A restaurateur surveyed 50 regular customers. Venn regions: fried rice only 7, fried rice and chicken wings only 5, chicken wings only 12, all three 3, fried rice and dim sims only 10, chicken wings and dim sims only 5, dim sims only 8. A customer from this group won a lucky door prize. Determine the probability that this customer likes fried rice.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(F) = \\dfrac{n(F)}{n(\\xi)}$",
+            "steps": [
+              "Given: $n(F) = 25$, $n(\\xi) = 50$. Goal: $\\Pr(F)$.",
+              "$\\Pr(F) = \\frac{25}{50} = \\frac{1}{2}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{likes fried rice}) = \\frac{1}{2}$",
+            "solutionFigures": [],
+            "tip": "Use the totals found in part (a)."
+          }
+        },
+        {
+          "id": "ch11_ex2_q21bii",
+          "number": "21(b)(ii)",
+          "category": "Consolidate",
+          "questionText": "A restaurateur surveyed 50 regular customers. Venn regions: fried rice only 7, fried rice and chicken wings only 5, chicken wings only 12, all three 3, fried rice and dim sims only 10, chicken wings and dim sims only 5, dim sims only 8. A customer from this group won a lucky door prize. Determine the probability that this customer likes all three — fried rice, chicken wings and dim sims.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(F \\cap C \\cap D) = \\dfrac{n(F \\cap C \\cap D)}{n(\\xi)}$",
+            "steps": [
+              "Given: centre region $= 3$, total 50. Goal: $\\Pr(\\text{all three})$.",
+              "$\\Pr = \\frac{3}{50}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{all three}) = \\frac{3}{50}$",
+            "solutionFigures": [],
+            "tip": "3 and 50 have no common factor, so this is already simplified."
+          }
+        },
+        {
+          "id": "ch11_ex2_q21biii",
+          "number": "21(b)(iii)",
+          "category": "Consolidate",
+          "questionText": "A restaurateur surveyed 50 regular customers. Venn regions: fried rice only 7, fried rice and chicken wings only 5, chicken wings only 12, all three 3, fried rice and dim sims only 10, chicken wings and dim sims only 5, dim sims only 8. A customer from this group won a lucky door prize. Determine the probability that this customer prefers chicken wings only.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$",
+            "steps": [
+              "Given: chicken wings only $= 12$, total 50. Goal: $\\Pr(\\text{chicken wings only})$.",
+              "$\\Pr = \\frac{12}{50} = \\frac{6}{25}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{chicken wings only}) = \\frac{6}{25}$",
+            "solutionFigures": [],
+            "tip": "Simplify by dividing by 2."
+          }
+        },
+        {
+          "id": "ch11_ex2_q21ci",
+          "number": "21(c)(i)",
+          "category": "Consolidate",
+          "questionText": "A similar survey was conducted a month later with another group of 50 customers: 2 customers liked all three foods; 6 preferred fried rice and chicken wings only; 7 preferred chicken wings and dim sims only; 8 preferred fried rice and dim sims only; 22 preferred fried rice; 23 preferred chicken wings; and 24 preferred dim sims. Display this information on a Venn diagram.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "'One only' region $=$ set total $-$ (the two-only regions in that circle) $-$ (all three); outside $= 50 -$ total inside.",
+            "steps": [
+              "Given: all three 2; F∩C only 6; C∩D only 7; F∩D only 8; $n(F) = 22$, $n(C) = 23$, $n(D) = 24$; total 50. Goal: every region.",
+              "Fried rice only: $22 - 6 - 8 - 2 = 6$",
+              "Chicken wings only: $23 - 6 - 7 - 2 = 8$",
+              "Dim sims only: $24 - 7 - 8 - 2 = 7$",
+              "Inside total: $6 + 8 + 7 + 6 + 7 + 8 + 2 = 44$",
+              "Outside all circles: $50 - 44 = 6$",
+              "Note: if the pair counts are read as including the 2 who like all three (6, 7 and 8 in total), the 'two only' regions become 4, 5 and 6, the 'one only' regions become 10, 12 and 11, and nobody is outside. The question says 'only', so the first reading is used here."
+            ],
+            "finalAnswer": "Using the counts as stated: F only 6, C only 8, D only 7, F∩C only 6, C∩D only 7, F∩D only 8, all three 2, none 6.",
+            "solutionFigures": [],
+            "tip": "Read 'only' carefully: it decides whether the centre is already removed from a pair count."
+          }
+        },
+        {
+          "id": "ch11_ex2_q21cii",
+          "number": "21(c)(ii)",
+          "category": "Consolidate",
+          "questionText": "A similar survey was conducted with another group of 50 customers, in which 2 customers liked all three foods (fried rice, chicken wings and dim sims). Determine the probability of selecting a customer who prefers all three foods, if a random selection is made.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(F \\cap C \\cap D) = \\dfrac{n(F \\cap C \\cap D)}{n(\\xi)}$",
+            "steps": [
+              "Given: 2 of 50 customers like all three. Goal: $\\Pr(\\text{all three})$.",
+              "$\\Pr = \\frac{2}{50} = \\frac{1}{25}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{all three}) = \\frac{1}{25}$",
+            "solutionFigures": [],
+            "tip": "The total is 50 customers in the new survey, not the earlier group."
+          }
+        },
+        {
+          "id": "ch11_ex2_q22a",
+          "number": "22(a)",
+          "category": "Master",
+          "questionText": "A pair of dice is rolled and the sum of the numbers shown is noted. Show the sample space in a two-way table.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Two-way table: each cell $=$ die 1 value $+$ die 2 value; there are $6 \\times 6 = 36$ equally likely cells.",
+            "steps": [
+              "Given: two six-sided dice. Goal: all 36 sums.",
+              "Die 1 = 1: 2, 3, 4, 5, 6, 7",
+              "Die 1 = 2: 3, 4, 5, 6, 7, 8",
+              "Die 1 = 3: 4, 5, 6, 7, 8, 9",
+              "Die 1 = 4: 5, 6, 7, 8, 9, 10",
+              "Die 1 = 5: 6, 7, 8, 9, 10, 11",
+              "Die 1 = 6: 7, 8, 9, 10, 11, 12",
+              "(Columns are die 2 = 1 to 6.)"
+            ],
+            "finalAnswer": "A $6 \\times 6$ table with 36 sums ranging from 2 to 12, as listed.",
+            "solutionFigures": [],
+            "tip": "Each row increases by 1 across, and each new row starts 1 higher."
+          }
+        },
+        {
+          "id": "ch11_ex2_q22b",
+          "number": "22(b)",
+          "category": "Master",
+          "questionText": "A pair of dice is rolled and the sum of the numbers shown is noted. Determine how many different ways the sum of 7 can be obtained.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Count the cells in the table equal to 7.",
+            "steps": [
+              "Given: the sum table. Goal: the number of ordered pairs with sum 7.",
+              "(1, 6), (2, 5), (3, 4), (4, 3), (5, 2), (6, 1)",
+              "That is 6 ways."
+            ],
+            "finalAnswer": "The sum of 7 can be obtained in 6 ways.",
+            "solutionFigures": [],
+            "tip": "(1, 6) and (6, 1) are different outcomes because the dice are distinct."
+          }
+        },
+        {
+          "id": "ch11_ex2_q22c",
+          "number": "22(c)",
+          "category": "Master",
+          "questionText": "A pair of dice is rolled and the sum of the numbers shown is noted. Determine if all outcomes (sums) are equally likely.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Outcomes are equally likely only if each appears the same number of times in the sample space.",
+            "steps": [
+              "Given: the sum table. Goal: compare how often each sum appears.",
+              "Sum 2 appears once, sum 7 appears 6 times.",
+              "Different frequencies mean different probabilities."
+            ],
+            "finalAnswer": "No. The sums occur with different frequencies (e.g. 2 once, 7 six times), so they are not equally likely.",
+            "solutionFigures": [],
+            "tip": "The 36 pairs are equally likely, but the 11 sums are not."
+          }
+        },
+        {
+          "id": "ch11_ex2_q22d",
+          "number": "22(d)",
+          "category": "Master",
+          "questionText": "A pair of dice is rolled and the sum of the numbers shown is noted. Complete the given table of frequency for each sum 2, 3, 4, 5, 6, 7, 8, 9, (10), 11, 12. (The printed table omits the sum 10.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Frequency of each sum $=$ number of cells in the 36-cell table with that sum.",
+            "steps": [
+              "Given: the sum table. Goal: frequencies.",
+              "Sum 2: 1; 3: 2; 4: 3; 5: 4; 6: 5; 7: 6",
+              "Sum 8: 5; 9: 4; 10: 3; 11: 2; 12: 1",
+              "Check: $1 + 2 + 3 + 4 + 5 + 6 + 5 + 4 + 3 + 2 + 1 = 36$ ✓"
+            ],
+            "finalAnswer": "Frequencies for sums 2 to 12: 1, 2, 3, 4, 5, 6, 5, 4, 3, 2, 1.",
+            "solutionFigures": [],
+            "tip": "The frequencies rise to 6 at the sum 7 and then fall symmetrically."
+          }
+        },
+        {
+          "id": "ch11_ex2_q22ei",
+          "number": "22(e)(i)",
+          "category": "Master",
+          "questionText": "A pair of dice is rolled and the sum of the numbers shown is noted. Using the frequency table of the 36 outcomes, determine the relative frequency of the sum 2.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Relative frequency $= \\dfrac{\\text{frequency}}{36}$",
+            "steps": [
+              "Given: sum 2 has frequency 1 out of 36. Goal: relative frequency.",
+              "$\\frac{1}{36}$"
+            ],
+            "finalAnswer": "Relative frequency of 2 $= \\frac{1}{36}$",
+            "solutionFigures": [],
+            "tip": "Divide by the total of 36 outcomes."
+          }
+        },
+        {
+          "id": "ch11_ex2_q22eii",
+          "number": "22(e)(ii)",
+          "category": "Master",
+          "questionText": "A pair of dice is rolled and the sum of the numbers shown is noted. Using the frequency table of the 36 outcomes, determine the relative frequency of the sum 7.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Relative frequency $= \\dfrac{\\text{frequency}}{36}$",
+            "steps": [
+              "Given: sum 7 has frequency 6. Goal: relative frequency.",
+              "$\\frac{6}{36} = \\frac{1}{6}$"
+            ],
+            "finalAnswer": "Relative frequency of 7 $= \\frac{1}{6}$",
+            "solutionFigures": [],
+            "tip": "Simplify by dividing top and bottom by 6."
+          }
+        },
+        {
+          "id": "ch11_ex2_q22eiii",
+          "number": "22(e)(iii)",
+          "category": "Master",
+          "questionText": "A pair of dice is rolled and the sum of the numbers shown is noted. Using the frequency table of the 36 outcomes, determine the relative frequency of the sum 11.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Relative frequency $= \\dfrac{\\text{frequency}}{36}$",
+            "steps": [
+              "Given: sum 11 has frequency 2, from (5, 6) and (6, 5). Goal: relative frequency.",
+              "$\\frac{2}{36} = \\frac{1}{18}$"
+            ],
+            "finalAnswer": "Relative frequency of 11 $= \\frac{1}{18}$",
+            "solutionFigures": [],
+            "tip": "11 can be made two ways: 5 then 6, or 6 then 5."
+          }
+        },
+        {
+          "id": "ch11_ex2_q22fi",
+          "number": "22(f)(i)",
+          "category": "Master",
+          "questionText": "A pair of dice is rolled and the sum of the numbers shown is noted. Determine the probability of obtaining the sum 2.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$ with $n(\\xi) = 36$",
+            "steps": [
+              "Given: one outcome (1, 1) gives 2. Goal: $\\Pr(2)$.",
+              "$\\Pr(2) = \\frac{1}{36}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{sum } 2) = \\frac{1}{36}$",
+            "solutionFigures": [],
+            "tip": "With the full sample space as the 'data', the theoretical probability equals the relative frequency."
+          }
+        },
+        {
+          "id": "ch11_ex2_q22fii",
+          "number": "22(f)(ii)",
+          "category": "Master",
+          "questionText": "A pair of dice is rolled and the sum of the numbers shown is noted. Determine the probability of obtaining the sum 7.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$ with $n(\\xi) = 36$",
+            "steps": [
+              "Given: 6 outcomes give 7. Goal: $\\Pr(7)$.",
+              "$\\Pr(7) = \\frac{6}{36} = \\frac{1}{6}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{sum } 7) = \\frac{1}{6}$",
+            "solutionFigures": [],
+            "tip": "7 is the most likely sum."
+          }
+        },
+        {
+          "id": "ch11_ex2_q22fiii",
+          "number": "22(f)(iii)",
+          "category": "Master",
+          "questionText": "A pair of dice is rolled and the sum of the numbers shown is noted. Determine the probability of obtaining the sum 11.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$ with $n(\\xi) = 36$",
+            "steps": [
+              "Given: outcomes (5, 6) and (6, 5) give 11. Goal: $\\Pr(11)$.",
+              "$\\Pr(11) = \\frac{2}{36} = \\frac{1}{18}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{sum } 11) = \\frac{1}{18}$",
+            "solutionFigures": [],
+            "tip": "Count both orders of the dice."
+          }
+        },
+        {
+          "id": "ch11_ex2_q22g",
+          "number": "22(g)",
+          "category": "Master",
+          "questionText": "A pair of dice is rolled and the sum of the numbers shown is noted. If a pair of dice is rolled 300 times, calculate how many times you would expect the sum of 7.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Expected number $= \\Pr(E) \\times \\text{number of trials}$",
+            "steps": [
+              "Given: $\\Pr(7) = \\frac{1}{6}$, 300 rolls. Goal: the expected count of 7s.",
+              "$\\frac{1}{6} \\times 300 = 50$"
+            ],
+            "finalAnswer": "You would expect a sum of 7 about 50 times.",
+            "solutionFigures": [],
+            "tip": "Expected count = probability × trials; the actual count will vary around it."
+          }
+        },
+        {
+          "id": "ch11_ex2_q23",
+          "number": "23",
+          "category": "Master",
+          "questionText": "A mouse in a maze is trying to reach the cheese (the maze is shown in a diagram). Use a coin to help the mouse decide to go left or right when a new choice is available. If you come to a dead end, turn around and go back to where you have a choice to go left or right. There are two possible outcomes for the mouse: escaping the maze or reaching the cheese. Use simulation to determine the relative frequencies of each of the outcomes.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Relative frequency $= \\dfrac{\\text{number of times the outcome occurs}}{\\text{number of trials}}$",
+            "steps": [
+              "Given: at each junction, left and right are equally likely (coin: Heads = left, Tails = right). Goal: estimate $\\Pr(\\text{escape})$ and $\\Pr(\\text{cheese})$.",
+              "Trace a path from the start: at each junction toss the coin and follow the result; at a dead end, go back to the last junction and toss again.",
+              "Stop when the mouse either reaches the cheese or exits the maze, and record that outcome.",
+              "Repeat for many trials (for example 20 or more).",
+              "Relative frequency of escaping $= \\frac{\\text{number of escapes}}{\\text{number of trials}}$; relative frequency of cheese $= \\frac{\\text{number reaching cheese}}{\\text{number of trials}}$.",
+              "Check: the two relative frequencies add to 1."
+            ],
+            "finalAnswer": "Results depend on the maze diagram and the simulation; each relative frequency is the count of that outcome divided by the number of trials, and the two add to 1.",
+            "solutionFigures": [],
+            "tip": "More trials give more reliable relative frequencies."
+          }
+        }
+      ]
+    }
+  ]
+}

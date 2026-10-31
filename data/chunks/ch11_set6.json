@@ -1,0 +1,1528 @@
+{
+  "chapterId": "ch11",
+  "chapterTitle": "Probability",
+  "topics": [
+    {
+      "topicId": "11.6",
+      "topicTitle": "Counting principles and factorial notation (10A)",
+      "exercises": [
+        {
+          "id": "ch11_ex6_q1a",
+          "number": "1(a)",
+          "category": "Practice",
+          "questionText": "Two letters are to be chosen from A, B and C, where order is important. List all the different ways that this may be done.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Systematic listing: fix the first letter, then list every possible second letter (no letter used twice).",
+            "steps": [
+              "Given: letters A, B, C; choose 2, order matters, no repeats. Goal: list every arrangement.",
+              "First letter A: second letter B or C $\\Rightarrow$ AB, AC",
+              "First letter B: second letter A or C $\\Rightarrow$ BA, BC",
+              "First letter C: second letter A or B $\\Rightarrow$ CA, CB",
+              "Total listed: 6 arrangements."
+            ],
+            "finalAnswer": "AB, AC, BA, BC, CA, CB (6 arrangements)",
+            "solutionFigures": [],
+            "tip": "Because order matters, AB and BA are different arrangements, so list both."
+          }
+        },
+        {
+          "id": "ch11_ex6_q1b",
+          "number": "1(b)",
+          "category": "Practice",
+          "questionText": "Two letters are to be chosen from A, B and C, where order is important. Use the multiplication principle to calculate the number of ways that this may be done.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication principle: if one choice can be made in $m$ ways and the next in $n$ ways, together they can be made in $m \\times n$ ways.",
+            "steps": [
+              "Given: 3 letters, 2 positions, no repeats. Goal: number of ordered selections.",
+              "First position: 3 choices.",
+              "Second position: one letter has been used, so 2 choices.",
+              "Number of ways $= 3 \\times 2 = 6$"
+            ],
+            "finalAnswer": "There are $6$ ways.",
+            "solutionFigures": [],
+            "tip": "Check against your list in part (a): both methods must give 6."
+          }
+        },
+        {
+          "id": "ch11_ex6_q1c",
+          "number": "1(c)",
+          "category": "Practice",
+          "questionText": "Two letters are to be chosen from A, B and C, where order is important (no repeats). Determine the probability that the last letter will be a B.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$ for equally likely outcomes.",
+            "steps": [
+              "Given: sample space $\\xi = \\{AB, AC, BA, BC, CA, CB\\}$, so $n(\\xi) = 6$. Goal: $\\Pr(\\text{last letter is B})$.",
+              "Outcomes ending in B: AB, CB, so $n(E) = 2$.",
+              "$\\Pr(E) = \\dfrac{2}{6} = \\dfrac{1}{3}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{last letter is B}) = \\dfrac{1}{3}$",
+            "solutionFigures": [],
+            "tip": "Always simplify the fraction: $\\frac{2}{6} = \\frac{1}{3}$."
+          }
+        },
+        {
+          "id": "ch11_ex6_q1d",
+          "number": "1(d)",
+          "category": "Practice",
+          "questionText": "Two letters are to be chosen from A, B and C, where order is important. Use the multiplication principle to calculate the number of ways the two letters can be chosen if the first letter is replaced after selection.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication principle with replacement: $n \\times n$ choices for 2 positions.",
+            "steps": [
+              "Given: 3 letters, 2 positions, the first letter is replaced so repeats are allowed. Goal: number of ways.",
+              "First position: 3 choices.",
+              "Second position: still 3 choices (the letter was replaced).",
+              "Number of ways $= 3 \\times 3 = 9$"
+            ],
+            "finalAnswer": "There are $9$ ways (AA, AB, AC, BA, BB, BC, CA, CB, CC).",
+            "solutionFigures": [],
+            "tip": "With replacement, the number of choices does not drop for the second pick."
+          }
+        },
+        {
+          "id": "ch11_ex6_q2",
+          "number": "2",
+          "category": "Consolidate",
+          "questionText": "List all the different arrangements possible for a group of 2 colours to be chosen from B (blue), G (green), Y (yellow) and R (red).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Systematic listing; check with the multiplication principle ${}^{4}P_{2} = 4 \\times 3 = 12$.",
+            "steps": [
+              "Given: 4 colours, choose 2, order matters, no repeats. Goal: list all arrangements.",
+              "Start with B: BG, BY, BR",
+              "Start with G: GB, GY, GR",
+              "Start with Y: YB, YG, YR",
+              "Start with R: RB, RG, RY",
+              "Check: $4 \\times 3 = 12$ arrangements listed."
+            ],
+            "finalAnswer": "BG, BY, BR, GB, GY, GR, YB, YG, YR, RB, RG, RY (12 arrangements)",
+            "solutionFigures": [],
+            "tip": "Work through the first colour in a fixed order so you do not miss or repeat any arrangement."
+          }
+        },
+        {
+          "id": "ch11_ex6_q3",
+          "number": "3",
+          "category": "Master",
+          "questionText": "List all the different arrangements possible for a group of 3 letters to be chosen from A, B and C.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Systematic listing; check with $3! = 3 \\times 2 \\times 1 = 6$.",
+            "steps": [
+              "Given: 3 letters, all 3 used, order matters. Goal: list all arrangements.",
+              "Start with A: ABC, ACB",
+              "Start with B: BAC, BCA",
+              "Start with C: CAB, CBA",
+              "Check: $3 \\times 2 \\times 1 = 6$ arrangements listed."
+            ],
+            "finalAnswer": "ABC, ACB, BAC, BCA, CAB, CBA (6 arrangements)",
+            "solutionFigures": [],
+            "tip": "Arranging all $n$ distinct objects always gives $n!$ arrangements."
+          }
+        },
+        {
+          "id": "ch11_ex6_q4a",
+          "number": "4(a)",
+          "category": "Practice",
+          "questionText": "Use the multiplication principle to calculate how many ways an arrangement of 2 letters can be chosen from A, B, C, D, E, F and G.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication principle: ${}^{7}P_{2} = 7 \\times 6$",
+            "steps": [
+              "Given: 7 different letters, 2 positions, no repeats. Goal: number of arrangements.",
+              "1st position: 7 choices; 2nd position: 6 choices.",
+              "$7 \\times 6 = 42$"
+            ],
+            "finalAnswer": "$42$ arrangements",
+            "solutionFigures": [],
+            "tip": "Reduce the number of choices by one for each position already filled."
+          }
+        },
+        {
+          "id": "ch11_ex6_q4b",
+          "number": "4(b)",
+          "category": "Practice",
+          "questionText": "Calculate how many ways an arrangement of 3 letters can be chosen from 7 different letters.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication principle: ${}^{7}P_{3} = 7 \\times 6 \\times 5$",
+            "steps": [
+              "Given: 7 different letters, 3 positions, no repeats. Goal: number of arrangements.",
+              "Choices: 7, then 6, then 5.",
+              "$7 \\times 6 \\times 5 = 42 \\times 5 = 210$"
+            ],
+            "finalAnswer": "$210$ arrangements",
+            "solutionFigures": [],
+            "tip": "Write one factor per position: 3 positions means 3 factors."
+          }
+        },
+        {
+          "id": "ch11_ex6_q4c",
+          "number": "4(c)",
+          "category": "Practice",
+          "questionText": "Calculate how many ways an arrangement of 4 letters can be chosen from 7 different letters.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication principle: ${}^{7}P_{4} = 7 \\times 6 \\times 5 \\times 4$",
+            "steps": [
+              "Given: 7 different letters, 4 positions, no repeats. Goal: number of arrangements.",
+              "Choices: 7, 6, 5, 4.",
+              "$7 \\times 6 \\times 5 \\times 4 = 210 \\times 4 = 840$"
+            ],
+            "finalAnswer": "$840$ arrangements",
+            "solutionFigures": [],
+            "tip": "You can reuse part (b): $210 \\times 4 = 840$."
+          }
+        },
+        {
+          "id": "ch11_ex6_q4d",
+          "number": "4(d)",
+          "category": "Practice",
+          "questionText": "Calculate how many different arrangements of 5 letters can be made from 7 letters.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication principle: ${}^{7}P_{5} = 7 \\times 6 \\times 5 \\times 4 \\times 3$",
+            "steps": [
+              "Given: 7 different letters, 5 positions, no repeats. Goal: number of arrangements.",
+              "Choices: 7, 6, 5, 4, 3.",
+              "$7 \\times 6 \\times 5 \\times 4 \\times 3 = 840 \\times 3 = 2520$"
+            ],
+            "finalAnswer": "$2520$ arrangements",
+            "solutionFigures": [],
+            "tip": "Stop multiplying once you have one factor for each of the 5 positions."
+          }
+        },
+        {
+          "id": "ch11_ex6_q4e",
+          "number": "4(e)",
+          "category": "Practice",
+          "questionText": "Arrangements of 5 letters are made from the 7 letters A, B, C, D, E, F and G. Determine how many possible arrangements there are beginning with an E.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication principle with a fixed first position.",
+            "steps": [
+              "Given: 5-letter arrangements from 7 letters, first letter must be E. Goal: number of such arrangements.",
+              "1st position: must be E, so 1 choice.",
+              "Remaining 6 letters fill 4 positions: 6, 5, 4, 3 choices.",
+              "$1 \\times 6 \\times 5 \\times 4 \\times 3 = 360$"
+            ],
+            "finalAnswer": "$360$ arrangements begin with E.",
+            "solutionFigures": [],
+            "tip": "Fill the restricted position first, then count the rest."
+          }
+        },
+        {
+          "id": "ch11_ex6_q5a",
+          "number": "5(a)",
+          "category": "Consolidate",
+          "questionText": "Determine the number of different subsets formed from a set with 3 elements.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Number of subsets of a set with $n$ elements $= 2^n$ (each element is either in or out).",
+            "steps": [
+              "Given: $n = 3$. Goal: number of subsets.",
+              "Each element has 2 options (in or out): $2 \\times 2 \\times 2$",
+              "$2^3 = 8$"
+            ],
+            "finalAnswer": "$8$ subsets",
+            "solutionFigures": [],
+            "tip": "Remember the empty set and the whole set both count as subsets."
+          }
+        },
+        {
+          "id": "ch11_ex6_q5b",
+          "number": "5(b)",
+          "category": "Consolidate",
+          "questionText": "Determine the number of different subsets formed from a set with 5 elements.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Number of subsets $= 2^n$",
+            "steps": [
+              "Given: $n = 5$. Goal: number of subsets.",
+              "$2^5 = 2 \\times 2 \\times 2 \\times 2 \\times 2 = 32$"
+            ],
+            "finalAnswer": "$32$ subsets",
+            "solutionFigures": [],
+            "tip": "It is $2^n$, not $n^2$: $5^2 = 25$ is wrong."
+          }
+        },
+        {
+          "id": "ch11_ex6_q5c",
+          "number": "5(c)",
+          "category": "Consolidate",
+          "questionText": "Determine the number of different subsets formed from a set with 9 elements.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Number of subsets $= 2^n$",
+            "steps": [
+              "Given: $n = 9$. Goal: number of subsets.",
+              "$2^9 = 2^5 \\times 2^4 = 32 \\times 16 = 512$"
+            ],
+            "finalAnswer": "$512$ subsets",
+            "solutionFigures": [],
+            "tip": "Each extra element doubles the number of subsets."
+          }
+        },
+        {
+          "id": "ch11_ex6_q6a",
+          "number": "6(a)",
+          "category": "Master",
+          "questionText": "Recall the definition of $n!$ and write $4!$ in expanded form.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$n! = n \\times (n-1) \\times (n-2) \\times \\dots \\times 2 \\times 1$",
+            "steps": [
+              "Given: $n = 4$. Goal: expanded form.",
+              "$4! = 4 \\times 3 \\times 2 \\times 1$",
+              "(Value: $24$)"
+            ],
+            "finalAnswer": "$4! = 4 \\times 3 \\times 2 \\times 1$",
+            "solutionFigures": [],
+            "tip": "Count down from $n$ all the way to 1."
+          }
+        },
+        {
+          "id": "ch11_ex6_q6b",
+          "number": "6(b)",
+          "category": "Master",
+          "questionText": "Recall the definition of $n!$ and write $5!$ in expanded form.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$n! = n \\times (n-1) \\times \\dots \\times 2 \\times 1$",
+            "steps": [
+              "Given: $n = 5$. Goal: expanded form.",
+              "$5! = 5 \\times 4 \\times 3 \\times 2 \\times 1$",
+              "(Value: $120$)"
+            ],
+            "finalAnswer": "$5! = 5 \\times 4 \\times 3 \\times 2 \\times 1$",
+            "solutionFigures": [],
+            "tip": "Note $5! = 5 \\times 4!$."
+          }
+        },
+        {
+          "id": "ch11_ex6_q6c",
+          "number": "6(c)",
+          "category": "Master",
+          "questionText": "Recall the definition of $n!$ and write $6!$ in expanded form.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$n! = n \\times (n-1) \\times \\dots \\times 2 \\times 1$",
+            "steps": [
+              "Given: $n = 6$. Goal: expanded form.",
+              "$6! = 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1$",
+              "(Value: $720$)"
+            ],
+            "finalAnswer": "$6! = 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1$",
+            "solutionFigures": [],
+            "tip": "There should be exactly 6 factors in $6!$."
+          }
+        },
+        {
+          "id": "ch11_ex6_q6d",
+          "number": "6(d)",
+          "category": "Master",
+          "questionText": "Recall the definition of $n!$ and write $7!$ in expanded form.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$n! = n \\times (n-1) \\times \\dots \\times 2 \\times 1$",
+            "steps": [
+              "Given: $n = 7$. Goal: expanded form.",
+              "$7! = 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1$",
+              "(Value: $5040$)"
+            ],
+            "finalAnswer": "$7! = 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1$",
+            "solutionFigures": [],
+            "tip": "Factorials grow very quickly; $7!$ is already 5040."
+          }
+        },
+        {
+          "id": "ch11_ex6_q7a",
+          "number": "7(a)",
+          "category": "Practice",
+          "questionText": "Evaluate $\\dfrac{9!}{5!}$ without using a calculator.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cancel common factors: $\\dfrac{n!}{r!} = n \\times (n-1) \\times \\dots \\times (r+1)$ for $r < n$.",
+            "steps": [
+              "Goal: evaluate $\\dfrac{9!}{5!}$.",
+              "$\\dfrac{9!}{5!} = \\dfrac{9 \\times 8 \\times 7 \\times 6 \\times 5!}{5!}$",
+              "$= 9 \\times 8 \\times 7 \\times 6$",
+              "$= 72 \\times 42 = 3024$"
+            ],
+            "finalAnswer": "$\\dfrac{9!}{5!} = 3024$",
+            "solutionFigures": [],
+            "tip": "Do not divide 9 by 5; cancel the whole $5!$ instead."
+          }
+        },
+        {
+          "id": "ch11_ex6_q7b",
+          "number": "7(b)",
+          "category": "Practice",
+          "questionText": "Evaluate $\\dfrac{10!}{4!}$ without using a calculator.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cancel common factors of factorials.",
+            "steps": [
+              "Goal: evaluate $\\dfrac{10!}{4!}$.",
+              "$\\dfrac{10!}{4!} = \\dfrac{10 \\times 9 \\times 8 \\times 7 \\times 6 \\times 5 \\times 4!}{4!}$",
+              "$= 10 \\times 9 \\times 8 \\times 7 \\times 6 \\times 5$",
+              "$= 90 \\times 56 \\times 30 = 5040 \\times 30 = 151\\,200$"
+            ],
+            "finalAnswer": "$\\dfrac{10!}{4!} = 151\\,200$",
+            "solutionFigures": [],
+            "tip": "Pair factors (e.g. $10 \\times 9$, $8 \\times 7$, $6 \\times 5$) to make mental arithmetic easier."
+          }
+        },
+        {
+          "id": "ch11_ex6_q7c",
+          "number": "7(c)",
+          "category": "Practice",
+          "questionText": "Evaluate $\\dfrac{7!}{3!}$ without using a calculator.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cancel common factors of factorials.",
+            "steps": [
+              "Goal: evaluate $\\dfrac{7!}{3!}$.",
+              "$\\dfrac{7!}{3!} = \\dfrac{7 \\times 6 \\times 5 \\times 4 \\times 3!}{3!}$",
+              "$= 7 \\times 6 \\times 5 \\times 4 = 42 \\times 20 = 840$"
+            ],
+            "finalAnswer": "$\\dfrac{7!}{3!} = 840$",
+            "solutionFigures": [],
+            "tip": "$\\frac{7!}{3!}$ is not $\\left(\\frac{7}{3}\\right)!$."
+          }
+        },
+        {
+          "id": "ch11_ex6_q7d",
+          "number": "7(d)",
+          "category": "Practice",
+          "questionText": "Evaluate $\\dfrac{6!}{0!}$ without using a calculator.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$0! = 1$ by definition.",
+            "steps": [
+              "Goal: evaluate $\\dfrac{6!}{0!}$.",
+              "$0! = 1$",
+              "$\\dfrac{6!}{1} = 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1 = 720$"
+            ],
+            "finalAnswer": "$\\dfrac{6!}{0!} = 720$",
+            "solutionFigures": [],
+            "tip": "$0! = 1$, not 0, so you are never dividing by zero here."
+          }
+        },
+        {
+          "id": "ch11_ex6_q8a",
+          "number": "8(a)",
+          "category": "Consolidate",
+          "questionText": "Evaluate $10!$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$n! = n \\times (n-1) \\times \\dots \\times 1$",
+            "steps": [
+              "Goal: evaluate $10!$.",
+              "$10! = 10 \\times 9 \\times 8 \\times 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1$",
+              "$= 10 \\times 9! = 10 \\times 362\\,880 = 3\\,628\\,800$"
+            ],
+            "finalAnswer": "$10! = 3\\,628\\,800$",
+            "solutionFigures": [],
+            "tip": "Use the $x!$ key on your calculator for large factorials."
+          }
+        },
+        {
+          "id": "ch11_ex6_q8b",
+          "number": "8(b)",
+          "category": "Consolidate",
+          "questionText": "Evaluate $14!$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$n! = n \\times (n-1)!$",
+            "steps": [
+              "Goal: evaluate $14!$.",
+              "$11! = 11 \\times 3\\,628\\,800 = 39\\,916\\,800$",
+              "$12! = 12 \\times 39\\,916\\,800 = 479\\,001\\,600$",
+              "$13! = 13 \\times 479\\,001\\,600 = 6\\,227\\,020\\,800$",
+              "$14! = 14 \\times 6\\,227\\,020\\,800 = 87\\,178\\,291\\,200$"
+            ],
+            "finalAnswer": "$14! = 87\\,178\\,291\\,200$",
+            "solutionFigures": [],
+            "tip": "Some calculators show this in scientific notation; write out all the digits."
+          }
+        },
+        {
+          "id": "ch11_ex6_q8c",
+          "number": "8(c)",
+          "category": "Consolidate",
+          "questionText": "Evaluate $9!$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$n! = n \\times (n-1)!$",
+            "steps": [
+              "Goal: evaluate $9!$.",
+              "$7! = 5040$, $8! = 8 \\times 5040 = 40\\,320$",
+              "$9! = 9 \\times 40\\,320 = 362\\,880$"
+            ],
+            "finalAnswer": "$9! = 362\\,880$",
+            "solutionFigures": [],
+            "tip": "Build up from a factorial you already know."
+          }
+        },
+        {
+          "id": "ch11_ex6_q8d",
+          "number": "8(d)",
+          "category": "Consolidate",
+          "questionText": "Evaluate $16!$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$n! = n \\times (n-1)!$",
+            "steps": [
+              "Goal: evaluate $16!$.",
+              "$14! = 87\\,178\\,291\\,200$",
+              "$15! = 15 \\times 87\\,178\\,291\\,200 = 1\\,307\\,674\\,368\\,000$",
+              "$16! = 16 \\times 1\\,307\\,674\\,368\\,000 = 20\\,922\\,789\\,888\\,000$"
+            ],
+            "finalAnswer": "$16! = 20\\,922\\,789\\,888\\,000$",
+            "solutionFigures": [],
+            "tip": "If your calculator shows $2.09 \\times 10^{13}$, that is a rounded value, not the exact answer."
+          }
+        },
+        {
+          "id": "ch11_ex6_q9a",
+          "number": "9(a)",
+          "category": "Master",
+          "questionText": "Calculate ${}^{8}P_{2}$ by expressing it in expanded form.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "${}^{n}P_{r} = n \\times (n-1) \\times \\dots \\times (n-r+1)$ ($r$ factors)",
+            "steps": [
+              "Given: $n = 8$, $r = 2$. Goal: ${}^{8}P_{2}$.",
+              "Two factors starting at 8: ${}^{8}P_{2} = 8 \\times 7$",
+              "$= 56$"
+            ],
+            "finalAnswer": "${}^{8}P_{2} = 56$",
+            "solutionFigures": [],
+            "tip": "${}^{n}P_{r}$ always has exactly $r$ factors."
+          }
+        },
+        {
+          "id": "ch11_ex6_q9b",
+          "number": "9(b)",
+          "category": "Master",
+          "questionText": "Calculate ${}^{7}P_{5}$ by expressing it in expanded form.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "${}^{n}P_{r} = n \\times (n-1) \\times \\dots \\times (n-r+1)$",
+            "steps": [
+              "Given: $n = 7$, $r = 5$. Goal: ${}^{7}P_{5}$.",
+              "${}^{7}P_{5} = 7 \\times 6 \\times 5 \\times 4 \\times 3$",
+              "$= 42 \\times 60 = 2520$"
+            ],
+            "finalAnswer": "${}^{7}P_{5} = 2520$",
+            "solutionFigures": [],
+            "tip": "The last factor is $n - r + 1 = 7 - 5 + 1 = 3$."
+          }
+        },
+        {
+          "id": "ch11_ex6_q9c",
+          "number": "9(c)",
+          "category": "Master",
+          "questionText": "Calculate ${}^{8}P_{7}$ by expressing it in expanded form.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "${}^{n}P_{r} = n \\times (n-1) \\times \\dots \\times (n-r+1)$",
+            "steps": [
+              "Given: $n = 8$, $r = 7$. Goal: ${}^{8}P_{7}$.",
+              "${}^{8}P_{7} = 8 \\times 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2$",
+              "$= 56 \\times 30 \\times 24 = 1680 \\times 24 = 40\\,320$"
+            ],
+            "finalAnswer": "${}^{8}P_{7} = 40\\,320$",
+            "solutionFigures": [],
+            "tip": "Notice ${}^{8}P_{7} = 8!$ because the missing factor is just 1."
+          }
+        },
+        {
+          "id": "ch11_ex6_q10a",
+          "number": "10(a)",
+          "category": "Consolidate",
+          "questionText": "Write ${}^{9}P_{6}$ as a quotient of factorials and hence evaluate.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "${}^{n}P_{r} = \\dfrac{n!}{(n-r)!}$",
+            "steps": [
+              "Given: $n = 9$, $r = 6$. Goal: ${}^{9}P_{6}$.",
+              "${}^{9}P_{6} = \\dfrac{9!}{(9-6)!} = \\dfrac{9!}{3!}$",
+              "$= \\dfrac{362\\,880}{6}$",
+              "$= 60\\,480$"
+            ],
+            "finalAnswer": "${}^{9}P_{6} = \\dfrac{9!}{3!} = 60\\,480$",
+            "solutionFigures": [],
+            "tip": "The bottom factorial is $(n-r)!$, not $r!$."
+          }
+        },
+        {
+          "id": "ch11_ex6_q10b",
+          "number": "10(b)",
+          "category": "Consolidate",
+          "questionText": "Write ${}^{5}P_{2}$ as a quotient of factorials and hence evaluate.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "${}^{n}P_{r} = \\dfrac{n!}{(n-r)!}$",
+            "steps": [
+              "Given: $n = 5$, $r = 2$. Goal: ${}^{5}P_{2}$.",
+              "${}^{5}P_{2} = \\dfrac{5!}{(5-2)!} = \\dfrac{5!}{3!}$",
+              "$= \\dfrac{120}{6} = 20$"
+            ],
+            "finalAnswer": "${}^{5}P_{2} = \\dfrac{5!}{3!} = 20$",
+            "solutionFigures": [],
+            "tip": "Check: $5 \\times 4 = 20$."
+          }
+        },
+        {
+          "id": "ch11_ex6_q10c",
+          "number": "10(c)",
+          "category": "Consolidate",
+          "questionText": "Write ${}^{18}P_{5}$ as a quotient of factorials and hence evaluate.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "${}^{n}P_{r} = \\dfrac{n!}{(n-r)!}$",
+            "steps": [
+              "Given: $n = 18$, $r = 5$. Goal: ${}^{18}P_{5}$.",
+              "${}^{18}P_{5} = \\dfrac{18!}{(18-5)!} = \\dfrac{18!}{13!}$",
+              "Cancel $13!$: $= 18 \\times 17 \\times 16 \\times 15 \\times 14$",
+              "$= 306 \\times 16 \\times 15 \\times 14 = 4896 \\times 210 = 1\\,028\\,160$"
+            ],
+            "finalAnswer": "${}^{18}P_{5} = \\dfrac{18!}{13!} = 1\\,028\\,160$",
+            "solutionFigures": [],
+            "tip": "Cancel before multiplying; $18!$ itself is far too large to work with by hand."
+          }
+        },
+        {
+          "id": "ch11_ex6_q11a",
+          "number": "11(a)",
+          "category": "Master",
+          "questionText": "Use your calculator to determine the value of ${}^{20}P_{6}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "${}^{n}P_{r} = \\dfrac{n!}{(n-r)!}$ (calculator nPr key)",
+            "steps": [
+              "Given: $n = 20$, $r = 6$. Goal: ${}^{20}P_{6}$.",
+              "${}^{20}P_{6} = 20 \\times 19 \\times 18 \\times 17 \\times 16 \\times 15$",
+              "$= 380 \\times 18 = 6840$; $6840 \\times 17 = 116\\,280$",
+              "$116\\,280 \\times 16 = 1\\,860\\,480$; $1\\,860\\,480 \\times 15 = 27\\,907\\,200$"
+            ],
+            "finalAnswer": "${}^{20}P_{6} = 27\\,907\\,200$",
+            "solutionFigures": [],
+            "tip": "On the calculator, enter 20, then nPr, then 6."
+          }
+        },
+        {
+          "id": "ch11_ex6_q11b",
+          "number": "11(b)",
+          "category": "Master",
+          "questionText": "Use your calculator to determine the value of ${}^{800}P_{2}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "${}^{n}P_{r} = \\dfrac{n!}{(n-r)!}$",
+            "steps": [
+              "Given: $n = 800$, $r = 2$. Goal: ${}^{800}P_{2}$.",
+              "${}^{800}P_{2} = 800 \\times 799$",
+              "$= 640\\,000 - 800 = 639\\,200$"
+            ],
+            "finalAnswer": "${}^{800}P_{2} = 639\\,200$",
+            "solutionFigures": [],
+            "tip": "Typing $800!$ will overflow a calculator; use nPr or just the two factors."
+          }
+        },
+        {
+          "id": "ch11_ex6_q11c",
+          "number": "11(c)",
+          "category": "Master",
+          "questionText": "Use your calculator to determine the value of ${}^{18}P_{5}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "${}^{n}P_{r} = \\dfrac{n!}{(n-r)!}$",
+            "steps": [
+              "Given: $n = 18$, $r = 5$. Goal: ${}^{18}P_{5}$.",
+              "${}^{18}P_{5} = 18 \\times 17 \\times 16 \\times 15 \\times 14$",
+              "$= 1\\,028\\,160$ (same as Question 10(c))"
+            ],
+            "finalAnswer": "${}^{18}P_{5} = 1\\,028\\,160$",
+            "solutionFigures": [],
+            "tip": "Use the calculator result to check your hand calculation in Question 10(c)."
+          }
+        },
+        {
+          "id": "ch11_ex6_q12",
+          "number": "12",
+          "category": "Practice",
+          "questionText": "Determine how many different arrangements of 5 counters can be made using 3 red and 2 blue counters.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Arrangements with like objects: $\\dfrac{n!}{a!\\,b!}$",
+            "steps": [
+              "Given: $n = 5$ counters, 3 identical red, 2 identical blue. Goal: number of distinct arrangements.",
+              "$\\dfrac{5!}{3!\\,2!} = \\dfrac{120}{6 \\times 2}$",
+              "$= \\dfrac{120}{12} = 10$"
+            ],
+            "finalAnswer": "$10$ different arrangements",
+            "solutionFigures": [],
+            "tip": "Divide by the factorial of each group of identical objects, because swapping identical counters gives the same arrangement."
+          }
+        },
+        {
+          "id": "ch11_ex6_q13",
+          "number": "13",
+          "category": "Consolidate",
+          "questionText": "Determine how many different arrangements of 9 counters can be made using 4 black, 3 red and 2 blue counters.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Arrangements with like objects: $\\dfrac{n!}{a!\\,b!\\,c!}$",
+            "steps": [
+              "Given: $n = 9$; 4 black, 3 red, 2 blue. Goal: number of distinct arrangements.",
+              "$\\dfrac{9!}{4!\\,3!\\,2!} = \\dfrac{362\\,880}{24 \\times 6 \\times 2}$",
+              "$= \\dfrac{362\\,880}{288} = 1260$"
+            ],
+            "finalAnswer": "$1260$ different arrangements",
+            "solutionFigures": [],
+            "tip": "Check the group sizes add to $n$: $4 + 3 + 2 = 9$."
+          }
+        },
+        {
+          "id": "ch11_ex6_q14a",
+          "number": "14(a)",
+          "category": "Practice",
+          "questionText": "Write ${}^{8}C_{3}$ as a statement in terms of permutations.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "${}^{n}C_{r} = \\dfrac{{}^{n}P_{r}}{r!}$",
+            "steps": [
+              "Given: $n = 8$, $r = 3$. Goal: express ${}^{8}C_{3}$ using permutations.",
+              "${}^{8}C_{3} = \\dfrac{{}^{8}P_{3}}{3!}$",
+              "Check: $\\dfrac{8 \\times 7 \\times 6}{6} = \\dfrac{336}{6} = 56$"
+            ],
+            "finalAnswer": "${}^{8}C_{3} = \\dfrac{{}^{8}P_{3}}{3!} \\; (= 56)$",
+            "solutionFigures": [],
+            "tip": "Dividing by $r!$ removes the different orders of the same group."
+          }
+        },
+        {
+          "id": "ch11_ex6_q14b",
+          "number": "14(b)",
+          "category": "Practice",
+          "questionText": "Write ${}^{19}C_{2}$ as a statement in terms of permutations.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "${}^{n}C_{r} = \\dfrac{{}^{n}P_{r}}{r!}$",
+            "steps": [
+              "Given: $n = 19$, $r = 2$.",
+              "${}^{19}C_{2} = \\dfrac{{}^{19}P_{2}}{2!}$",
+              "Check: $\\dfrac{19 \\times 18}{2} = \\dfrac{342}{2} = 171$"
+            ],
+            "finalAnswer": "${}^{19}C_{2} = \\dfrac{{}^{19}P_{2}}{2!} \\; (= 171)$",
+            "solutionFigures": [],
+            "tip": "The $r$ in $r!$ matches the subscript of $C$."
+          }
+        },
+        {
+          "id": "ch11_ex6_q14c",
+          "number": "14(c)",
+          "category": "Practice",
+          "questionText": "Write ${}^{1}C_{1}$ as a statement in terms of permutations.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "${}^{n}C_{r} = \\dfrac{{}^{n}P_{r}}{r!}$",
+            "steps": [
+              "Given: $n = 1$, $r = 1$.",
+              "${}^{1}C_{1} = \\dfrac{{}^{1}P_{1}}{1!}$",
+              "Check: $\\dfrac{1}{1} = 1$"
+            ],
+            "finalAnswer": "${}^{1}C_{1} = \\dfrac{{}^{1}P_{1}}{1!} \\; (= 1)$",
+            "solutionFigures": [],
+            "tip": "Choosing all $n$ items can only be done in 1 way."
+          }
+        },
+        {
+          "id": "ch11_ex6_q14d",
+          "number": "14(d)",
+          "category": "Practice",
+          "questionText": "Write ${}^{5}C_{0}$ as a statement in terms of permutations.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "${}^{n}C_{r} = \\dfrac{{}^{n}P_{r}}{r!}$, with ${}^{n}P_{0} = 1$ and $0! = 1$",
+            "steps": [
+              "Given: $n = 5$, $r = 0$.",
+              "${}^{5}C_{0} = \\dfrac{{}^{5}P_{0}}{0!}$",
+              "Check: ${}^{5}P_{0} = \\dfrac{5!}{5!} = 1$, so $\\dfrac{1}{1} = 1$"
+            ],
+            "finalAnswer": "${}^{5}C_{0} = \\dfrac{{}^{5}P_{0}}{0!} \\; (= 1)$",
+            "solutionFigures": [],
+            "tip": "There is exactly one way to choose nothing."
+          }
+        },
+        {
+          "id": "ch11_ex6_q15a",
+          "number": "15(a)",
+          "category": "Practice",
+          "questionText": "A teddy bear's wardrobe consists of 3 different hats, 4 different shirts and 2 different pairs of pants. Determine how many different outfits the teddy bear can wear.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication principle",
+            "steps": [
+              "Given: 3 hats, 4 shirts, 2 pants; one of each per outfit. Goal: number of outfits.",
+              "$3 \\times 4 \\times 2 = 24$"
+            ],
+            "finalAnswer": "$24$ different outfits",
+            "solutionFigures": [],
+            "tip": "Multiply (not add) when one choice is made from each category."
+          }
+        },
+        {
+          "id": "ch11_ex6_q15b",
+          "number": "15(b)",
+          "category": "Practice",
+          "questionText": "A surfboard is to have 1 colour on its top and a different colour on its bottom. The 3 possible colours are red, blue and green. Calculate how many different ways the surfboard can be coloured.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication principle (no repeats): ${}^{3}P_{2}$",
+            "steps": [
+              "Given: 3 colours; top and bottom must differ. Goal: number of colourings.",
+              "Top: 3 choices; bottom: 2 remaining choices.",
+              "$3 \\times 2 = 6$"
+            ],
+            "finalAnswer": "$6$ different ways",
+            "solutionFigures": [],
+            "tip": "Top red/bottom blue is different from top blue/bottom red, so order matters."
+          }
+        },
+        {
+          "id": "ch11_ex6_q15c",
+          "number": "15(c)",
+          "category": "Practice",
+          "questionText": "A new phone comes with a choice of 3 cases, 2 different-sized screens and 2 different storage capacities. With these choices, determine how many different arrangements are possible.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication principle",
+            "steps": [
+              "Given: 3 cases, 2 screens, 2 storage options. Goal: number of phone set-ups.",
+              "$3 \\times 2 \\times 2 = 12$"
+            ],
+            "finalAnswer": "$12$ different arrangements",
+            "solutionFigures": [],
+            "tip": "One factor for each independent choice."
+          }
+        },
+        {
+          "id": "ch11_ex6_q15d",
+          "number": "15(d)",
+          "category": "Practice",
+          "questionText": "Messages can be sent by placing 3 different coloured flags in order on a pole. If the flags come in 4 colours, determine how many different messages can be sent.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication principle (no repeats): ${}^{4}P_{3}$",
+            "steps": [
+              "Given: 4 colours, 3 positions, colours all different, order matters. Goal: number of messages.",
+              "$4 \\times 3 \\times 2 = 24$"
+            ],
+            "finalAnswer": "$24$ different messages",
+            "solutionFigures": [],
+            "tip": "'Different coloured flags' means no colour is repeated."
+          }
+        },
+        {
+          "id": "ch11_ex6_q16a",
+          "number": "16(a)",
+          "category": "Consolidate",
+          "questionText": "Hani and Mary's restaurant offers its patrons a choice of 4 entrees, 10 main courses and 5 desserts. Determine how many choices of 3-course meals (entree, main, dessert) are available.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication principle",
+            "steps": [
+              "Given: 4 entrees, 10 mains, 5 desserts. Goal: number of 3-course meals.",
+              "$4 \\times 10 \\times 5 = 200$"
+            ],
+            "finalAnswer": "$200$ three-course meals",
+            "solutionFigures": [],
+            "tip": "Multiply the number of options for each course."
+          }
+        },
+        {
+          "id": "ch11_ex6_q16b",
+          "number": "16(b)",
+          "category": "Consolidate",
+          "questionText": "Hani and Mary's restaurant offers its patrons a choice of 4 entrees, 10 main courses and 5 desserts. Determine how many choices of entree and main course are offered.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication principle",
+            "steps": [
+              "Given: 4 entrees, 10 mains. Goal: number of entree-main pairs.",
+              "$4 \\times 10 = 40$"
+            ],
+            "finalAnswer": "$40$ choices",
+            "solutionFigures": [],
+            "tip": "Only include the courses that are part of the meal."
+          }
+        },
+        {
+          "id": "ch11_ex6_q16c",
+          "number": "16(c)",
+          "category": "Consolidate",
+          "questionText": "Hani and Mary's restaurant offers its patrons a choice of 4 entrees, 10 main courses and 5 desserts. Determine how many choices of meals comprising a main course and dessert are offered.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication principle",
+            "steps": [
+              "Given: 10 mains, 5 desserts. Goal: number of main-dessert pairs.",
+              "$10 \\times 5 = 50$"
+            ],
+            "finalAnswer": "$50$ choices",
+            "solutionFigures": [],
+            "tip": "Leave out the entree factor since no entree is chosen."
+          }
+        },
+        {
+          "id": "ch11_ex6_q17a",
+          "number": "17(a)",
+          "category": "Practice",
+          "questionText": "A soccer club will appoint a president and a vice-president. Eight people have volunteered for either of the two positions. Determine how many different ways these positions can be filled.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Permutations: ${}^{8}P_{2} = 8 \\times 7$",
+            "steps": [
+              "Given: 8 people, 2 distinct positions, one person per position. Goal: number of ways.",
+              "President: 8 choices; vice-president: 7 remaining choices.",
+              "$8 \\times 7 = 56$"
+            ],
+            "finalAnswer": "$56$ ways",
+            "solutionFigures": [],
+            "tip": "The positions are different, so order matters and we use permutations."
+          }
+        },
+        {
+          "id": "ch11_ex6_q17b",
+          "number": "17(b)",
+          "category": "Practice",
+          "questionText": "A soccer club will appoint a president and a vice-president. For two years the same 8 people volunteered for these positions. Determine the probability that one of them is president for both years.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$ with the multiplication principle",
+            "steps": [
+              "Given: 8 candidates each year for president, chosen at random. Goal: $\\Pr(\\text{same person is president both years})$.",
+              "Possible (year 1, year 2) presidents: $n(\\xi) = 8 \\times 8 = 64$",
+              "Same person both years: 8 outcomes (one for each person), so $n(E) = 8$.",
+              "$\\Pr(E) = \\dfrac{8}{64} = \\dfrac{1}{8}$"
+            ],
+            "finalAnswer": "The probability is $\\dfrac{1}{8}$.",
+            "solutionFigures": [],
+            "tip": "Whoever is president in year 1, the chance they are chosen again in year 2 is $\\frac{1}{8}$."
+          }
+        },
+        {
+          "id": "ch11_ex6_q18",
+          "number": "18",
+          "category": "Consolidate",
+          "questionText": "Determine how many different permutations can be made using the 11 letters of the word ABRACADABRA.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Arrangements with like objects: $\\dfrac{n!}{a!\\,b!\\,c!\\dots}$",
+            "steps": [
+              "Given: ABRACADABRA has 11 letters: A $\\times 5$, B $\\times 2$, R $\\times 2$, C $\\times 1$, D $\\times 1$ (check: $5+2+2+1+1 = 11$).",
+              "$\\dfrac{11!}{5!\\,2!\\,2!} = \\dfrac{39\\,916\\,800}{120 \\times 2 \\times 2}$",
+              "$= \\dfrac{39\\,916\\,800}{480} = 83\\,160$"
+            ],
+            "finalAnswer": "$83\\,160$ permutations",
+            "solutionFigures": [],
+            "tip": "Count every repeated letter carefully before dividing."
+          }
+        },
+        {
+          "id": "ch11_ex6_q19",
+          "number": "19",
+          "category": "Master",
+          "questionText": "A collection of 12 books is to be arranged on a shelf. The books consist of 3 copies of Great Expectations, 5 copies of Catcher in the Rye and 4 copies of Huntin', Fishin' and Shootin'. Determine how many different arrangements of these books are possible.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Arrangements with like objects: $\\dfrac{n!}{a!\\,b!\\,c!}$",
+            "steps": [
+              "Given: 12 books; identical groups of 3, 5 and 4 (check: $3+5+4 = 12$). Goal: number of arrangements.",
+              "$\\dfrac{12!}{3!\\,5!\\,4!} = \\dfrac{479\\,001\\,600}{6 \\times 120 \\times 24}$",
+              "$= \\dfrac{479\\,001\\,600}{17\\,280} = 27\\,720$"
+            ],
+            "finalAnswer": "$27\\,720$ arrangements",
+            "solutionFigures": [],
+            "tip": "Copies of the same book are identical, so divide by each group's factorial."
+          }
+        },
+        {
+          "id": "ch11_ex6_q20a",
+          "number": "20(a)",
+          "category": "Consolidate",
+          "questionText": "Apply the concept of ${}^{n}C_{r}$ to calculate the number of ways three types of ice-cream can be chosen in any order from a supermarket freezer containing 3 types of ice-cream.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "${}^{n}C_{r} = \\dfrac{n!}{r!\\,(n-r)!}$ (order not important)",
+            "steps": [
+              "Given: $n = 3$, $r = 3$. Goal: ${}^{3}C_{3}$.",
+              "${}^{3}C_{3} = \\dfrac{3!}{3!\\,0!} = \\dfrac{6}{6 \\times 1} = 1$"
+            ],
+            "finalAnswer": "$1$ way",
+            "solutionFigures": [],
+            "tip": "Choosing all of the items can only be done in one way."
+          }
+        },
+        {
+          "id": "ch11_ex6_q20b",
+          "number": "20(b)",
+          "category": "Consolidate",
+          "questionText": "Apply the concept of ${}^{n}C_{r}$ to calculate the number of ways three types of ice-cream can be chosen in any order from a supermarket freezer containing 6 types of ice-cream.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "${}^{n}C_{r} = \\dfrac{{}^{n}P_{r}}{r!}$",
+            "steps": [
+              "Given: $n = 6$, $r = 3$. Goal: ${}^{6}C_{3}$.",
+              "${}^{6}C_{3} = \\dfrac{6 \\times 5 \\times 4}{3 \\times 2 \\times 1} = \\dfrac{120}{6} = 20$"
+            ],
+            "finalAnswer": "$20$ ways",
+            "solutionFigures": [],
+            "tip": "'In any order' signals combinations, not permutations."
+          }
+        },
+        {
+          "id": "ch11_ex6_q20c",
+          "number": "20(c)",
+          "category": "Consolidate",
+          "questionText": "Apply the concept of ${}^{n}C_{r}$ to calculate the number of ways three types of ice-cream can be chosen in any order from a supermarket freezer containing 10 types of ice-cream.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "${}^{n}C_{r} = \\dfrac{{}^{n}P_{r}}{r!}$",
+            "steps": [
+              "Given: $n = 10$, $r = 3$. Goal: ${}^{10}C_{3}$.",
+              "${}^{10}C_{3} = \\dfrac{10 \\times 9 \\times 8}{3 \\times 2 \\times 1} = \\dfrac{720}{6} = 120$"
+            ],
+            "finalAnswer": "$120$ ways",
+            "solutionFigures": [],
+            "tip": "Remember to divide by $3! = 6$."
+          }
+        },
+        {
+          "id": "ch11_ex6_q20d",
+          "number": "20(d)",
+          "category": "Consolidate",
+          "questionText": "Apply the concept of ${}^{n}C_{r}$ to calculate the number of ways three types of ice-cream can be chosen in any order from a supermarket freezer containing 12 types of ice-cream.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "${}^{n}C_{r} = \\dfrac{{}^{n}P_{r}}{r!}$",
+            "steps": [
+              "Given: $n = 12$, $r = 3$. Goal: ${}^{12}C_{3}$.",
+              "${}^{12}C_{3} = \\dfrac{12 \\times 11 \\times 10}{3 \\times 2 \\times 1} = \\dfrac{1320}{6} = 220$"
+            ],
+            "finalAnswer": "$220$ ways",
+            "solutionFigures": [],
+            "tip": "Without dividing by $3!$ you would get 1320, which counts each selection 6 times."
+          }
+        },
+        {
+          "id": "ch11_ex6_q21",
+          "number": "21",
+          "category": "Master",
+          "questionText": "A mixed netball team must have 3 women and 4 men in the side. If the squad has 6 women and 5 men wanting to play, determine how many different teams are possible.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Combinations with the multiplication principle: ${}^{6}C_{3} \\times {}^{5}C_{4}$",
+            "steps": [
+              "Given: choose 3 of 6 women and 4 of 5 men; order not important. Goal: number of teams.",
+              "Women: ${}^{6}C_{3} = \\dfrac{6 \\times 5 \\times 4}{3!} = 20$",
+              "Men: ${}^{5}C_{4} = \\dfrac{5 \\times 4 \\times 3 \\times 2}{4!} = 5$",
+              "Teams $= 20 \\times 5 = 100$"
+            ],
+            "finalAnswer": "$100$ different teams",
+            "solutionFigures": [],
+            "tip": "Multiply the separate selections; do not add them."
+          }
+        },
+        {
+          "id": "ch11_ex6_q22",
+          "number": "22",
+          "category": "Practice",
+          "questionText": "Jasmin has a phone that has a 4-digit security code. She remembers that the first number in the code was 9 and that the others were 3, 4 and 7 but forgets the order of the last 3 digits. Determine how many different trials she must make to be sure of unlocking the phone.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Arrangements of $n$ distinct objects: $n!$",
+            "steps": [
+              "Given: first digit fixed as 9; digits 3, 4, 7 fill the last 3 places in some order. Goal: number of possible codes.",
+              "First digit: 1 choice.",
+              "Last three: $3! = 3 \\times 2 \\times 1 = 6$",
+              "Total $= 1 \\times 6 = 6$"
+            ],
+            "finalAnswer": "She must make $6$ trials to be sure.",
+            "solutionFigures": [],
+            "tip": "The fixed digit contributes a factor of 1."
+          }
+        },
+        {
+          "id": "ch11_ex6_q23",
+          "number": "23",
+          "category": "Consolidate",
+          "questionText": "Determine how many different 4-digit numbers can be made from the numbers 1, 3, 5 and 7 if the numbers can be repeated (that is 3355 and 7777 are valid).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication principle with repetition: $n^r$",
+            "steps": [
+              "Given: 4 digits available, 4 places, repetition allowed. Goal: number of 4-digit numbers.",
+              "Each place: 4 choices.",
+              "$4 \\times 4 \\times 4 \\times 4 = 4^4 = 256$"
+            ],
+            "finalAnswer": "$256$ different numbers",
+            "solutionFigures": [],
+            "tip": "When repeats are allowed, the number of choices stays the same for every place."
+          }
+        },
+        {
+          "id": "ch11_ex6_q24",
+          "number": "24",
+          "category": "Consolidate",
+          "questionText": "There are 26 players in an online game. Determine how many different results for 1st, 2nd, 3rd and 4th can occur.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Permutations: ${}^{26}P_{4} = \\dfrac{26!}{22!}$",
+            "steps": [
+              "Given: 26 players, 4 ranked places, order matters. Goal: number of results.",
+              "${}^{26}P_{4} = 26 \\times 25 \\times 24 \\times 23$",
+              "$= 650 \\times 552 = 358\\,800$"
+            ],
+            "finalAnswer": "$358\\,800$ different results",
+            "solutionFigures": [],
+            "tip": "Placings are ordered, so use $P$, not $C$."
+          }
+        },
+        {
+          "id": "ch11_ex6_q25",
+          "number": "25",
+          "category": "Master",
+          "questionText": "A rowing crew consists of 4 rowers who sit in a definite order. Determine how many different crews are possible if 5 people try out for selection.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Permutations: ${}^{5}P_{4}$",
+            "steps": [
+              "Given: 5 people, 4 ordered seats. Goal: number of crews.",
+              "${}^{5}P_{4} = 5 \\times 4 \\times 3 \\times 2 = 120$"
+            ],
+            "finalAnswer": "$120$ different crews",
+            "solutionFigures": [],
+            "tip": "'Definite order' means the seat positions matter."
+          }
+        },
+        {
+          "id": "ch11_ex6_q26",
+          "number": "26",
+          "category": "Master",
+          "questionText": "The school musical needs a producer, director, musical director and script coach. Nine people have volunteered for any of these positions. Determine how many different ways the positions can be filled. (Note: One person cannot take on more than 1 position.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Permutations: ${}^{9}P_{4}$",
+            "steps": [
+              "Given: 9 people, 4 different positions, no one holds two. Goal: number of ways.",
+              "${}^{9}P_{4} = 9 \\times 8 \\times 7 \\times 6$",
+              "$= 72 \\times 42 = 3024$"
+            ],
+            "finalAnswer": "$3024$ ways",
+            "solutionFigures": [],
+            "tip": "Distinct job titles make order important."
+          }
+        },
+        {
+          "id": "ch11_ex6_q27",
+          "number": "27",
+          "category": "Practice",
+          "questionText": "A shelf holding 24 cans of dog food is to be stacked using 9 cans of Yummy and 15 cans of Ruff for Dogs. Determine how many different ways the shelf can be stocked.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Arrangements with like objects: $\\dfrac{24!}{9!\\,15!} = {}^{24}C_{9}$",
+            "steps": [
+              "Given: 24 cans; 9 identical Yummy and 15 identical Ruff for Dogs. Goal: number of arrangements.",
+              "$\\dfrac{24!}{9!\\,15!} = {}^{24}C_{9}$ (choose which 9 of the 24 places hold Yummy)",
+              "$= \\dfrac{24 \\times 23 \\times 22 \\times 21 \\times 20 \\times 19 \\times 18 \\times 17 \\times 16}{9!}$",
+              "$= \\dfrac{474\\,467\\,051\\,520}{362\\,880} = 1\\,307\\,504$"
+            ],
+            "finalAnswer": "$1\\,307\\,504$ ways",
+            "solutionFigures": [],
+            "tip": "Use the nCr key: $24 \\, \\text{nCr} \\, 9$."
+          }
+        },
+        {
+          "id": "ch11_ex6_q28a",
+          "number": "28(a)",
+          "category": "Consolidate",
+          "questionText": "A committee of 5 students is to be chosen from 6 boys and 8 girls. Use ${}^{n}C_{r}$ and the multiplication principle to calculate how many committees can be formed.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "${}^{n}C_{r} = \\dfrac{n!}{r!\\,(n-r)!}$",
+            "steps": [
+              "Given: $6 + 8 = 14$ students, choose 5, order not important. Goal: number of committees.",
+              "${}^{14}C_{5} = \\dfrac{14 \\times 13 \\times 12 \\times 11 \\times 10}{5 \\times 4 \\times 3 \\times 2 \\times 1}$",
+              "$= \\dfrac{240\\,240}{120} = 2002$"
+            ],
+            "finalAnswer": "$2002$ committees",
+            "solutionFigures": [],
+            "tip": "With no gender condition, choose from the whole group of 14."
+          }
+        },
+        {
+          "id": "ch11_ex6_q28b",
+          "number": "28(b)",
+          "category": "Consolidate",
+          "questionText": "A committee of 5 students is to be chosen from 6 boys and 8 girls. Use ${}^{n}C_{r}$ and the multiplication principle to calculate how many of the committees contain exactly 2 boys and 3 girls.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "${}^{6}C_{2} \\times {}^{8}C_{3}$ (multiplication principle)",
+            "steps": [
+              "Given: choose 2 of 6 boys and 3 of 8 girls. Goal: number of committees.",
+              "${}^{6}C_{2} = \\dfrac{6 \\times 5}{2} = 15$",
+              "${}^{8}C_{3} = \\dfrac{8 \\times 7 \\times 6}{6} = 56$",
+              "$15 \\times 56 = 840$"
+            ],
+            "finalAnswer": "$840$ committees",
+            "solutionFigures": [],
+            "tip": "Choose each group separately, then multiply."
+          }
+        },
+        {
+          "id": "ch11_ex6_q29ai",
+          "number": "29(a)(i)",
+          "category": "Consolidate",
+          "questionText": "Calculate the values of ${}^{12}C_{3}$ and ${}^{12}C_{9}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "${}^{n}C_{r} = \\dfrac{n!}{r!\\,(n-r)!}$",
+            "steps": [
+              "${}^{12}C_{3} = \\dfrac{12 \\times 11 \\times 10}{3!} = \\dfrac{1320}{6} = 220$",
+              "${}^{12}C_{9} = \\dfrac{12!}{9!\\,3!} = \\dfrac{12 \\times 11 \\times 10}{3!} = 220$"
+            ],
+            "finalAnswer": "${}^{12}C_{3} = 220$ and ${}^{12}C_{9} = 220$",
+            "solutionFigures": [],
+            "tip": "Cancel the larger factorial in the denominator to save work."
+          }
+        },
+        {
+          "id": "ch11_ex6_q29aii",
+          "number": "29(a)(ii)",
+          "category": "Consolidate",
+          "questionText": "Calculate the values of ${}^{15}C_{8}$ and ${}^{15}C_{7}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "${}^{n}C_{r} = \\dfrac{n!}{r!\\,(n-r)!}$",
+            "steps": [
+              "${}^{15}C_{7} = \\dfrac{15!}{7!\\,8!} = \\dfrac{15 \\times 14 \\times 13 \\times 12 \\times 11 \\times 10 \\times 9}{5040}$",
+              "$= \\dfrac{32\\,432\\,400}{5040} = 6435$",
+              "${}^{15}C_{8} = \\dfrac{15!}{8!\\,7!}$, the same expression, $= 6435$"
+            ],
+            "finalAnswer": "${}^{15}C_{8} = 6435$ and ${}^{15}C_{7} = 6435$",
+            "solutionFigures": [],
+            "tip": "Both have the denominator $7!\\,8!$, so they must be equal."
+          }
+        },
+        {
+          "id": "ch11_ex6_q29aiii",
+          "number": "29(a)(iii)",
+          "category": "Consolidate",
+          "questionText": "Calculate the values of ${}^{10}C_{1}$ and ${}^{10}C_{9}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "${}^{n}C_{r} = \\dfrac{n!}{r!\\,(n-r)!}$",
+            "steps": [
+              "${}^{10}C_{1} = \\dfrac{10!}{1!\\,9!} = 10$",
+              "${}^{10}C_{9} = \\dfrac{10!}{9!\\,1!} = 10$"
+            ],
+            "finalAnswer": "${}^{10}C_{1} = 10$ and ${}^{10}C_{9} = 10$",
+            "solutionFigures": [],
+            "tip": "Choosing 9 to include is the same as choosing 1 to leave out."
+          }
+        },
+        {
+          "id": "ch11_ex6_q29aiv",
+          "number": "29(a)(iv)",
+          "category": "Consolidate",
+          "questionText": "Calculate the values of ${}^{8}C_{3}$ and ${}^{8}C_{5}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "${}^{n}C_{r} = \\dfrac{n!}{r!\\,(n-r)!}$",
+            "steps": [
+              "${}^{8}C_{3} = \\dfrac{8 \\times 7 \\times 6}{3!} = \\dfrac{336}{6} = 56$",
+              "${}^{8}C_{5} = \\dfrac{8!}{5!\\,3!} = \\dfrac{8 \\times 7 \\times 6}{3!} = 56$"
+            ],
+            "finalAnswer": "${}^{8}C_{3} = 56$ and ${}^{8}C_{5} = 56$",
+            "solutionFigures": [],
+            "tip": "Notice $3 + 5 = 8$ again."
+          }
+        },
+        {
+          "id": "ch11_ex6_q29b",
+          "number": "29(b)",
+          "category": "Consolidate",
+          "questionText": "In part (a) you calculated ${}^{12}C_{3}$ and ${}^{12}C_{9}$, ${}^{15}C_{8}$ and ${}^{15}C_{7}$, ${}^{10}C_{1}$ and ${}^{10}C_{9}$, ${}^{8}C_{3}$ and ${}^{8}C_{5}$. Describe what you notice in your results. Give your answer as a general statement such as 'The value of ${}^{n}C_{r}$ is...'.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "${}^{n}C_{r} = {}^{n}C_{n-r}$",
+            "steps": [
+              "Each pair gave equal values: 220 and 220, 6435 and 6435, 10 and 10, 56 and 56.",
+              "In each pair the two $r$ values add to $n$: $3 + 9 = 12$, $8 + 7 = 15$, $1 + 9 = 10$, $3 + 5 = 8$.",
+              "Reason: ${}^{n}C_{n-r} = \\dfrac{n!}{(n-r)!\\,r!} = {}^{n}C_{r}$; choosing $r$ items to take is the same as choosing $n - r$ items to leave behind."
+            ],
+            "finalAnswer": "The value of ${}^{n}C_{r}$ is the same as the value of ${}^{n}C_{n-r}$.",
+            "solutionFigures": [],
+            "tip": "Use this to simplify: ${}^{100}C_{98} = {}^{100}C_{2} = 4950$."
+          }
+        },
+        {
+          "id": "ch11_ex6_q30a",
+          "number": "30(a)",
+          "category": "Master",
+          "questionText": "Lotto is a game played by choosing 6 numbers from 45. No number can be drawn more than once, and the order in which the numbers are selected does not matter. Calculate how many different selections of 6 numbers can be made from 45.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "${}^{n}C_{r} = \\dfrac{n!}{r!\\,(n-r)!}$",
+            "steps": [
+              "Given: $n = 45$, $r = 6$, order not important. Goal: ${}^{45}C_{6}$.",
+              "${}^{45}C_{6} = \\dfrac{45 \\times 44 \\times 43 \\times 42 \\times 41 \\times 40}{6!}$",
+              "$= \\dfrac{5\\,864\\,443\\,200}{720} = 8\\,145\\,060$"
+            ],
+            "finalAnswer": "$8\\,145\\,060$ selections",
+            "solutionFigures": [],
+            "tip": "Order does not matter in Lotto, so use combinations."
+          }
+        },
+        {
+          "id": "ch11_ex6_q30b",
+          "number": "30(b)",
+          "category": "Master",
+          "questionText": "Lotto is a game played by choosing 6 numbers from 45 (order does not matter, no repeats). Suppose the first numbers drawn at the official draw are 42, 3 and 18. Determine how many selections of 6 numbers will contain these 3 numbers.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "${}^{n}C_{r}$ for the remaining choices",
+            "steps": [
+              "Given: 3 of the 6 numbers are fixed (42, 3, 18). Goal: number of selections containing all three.",
+              "The other 3 numbers are chosen from the remaining $45 - 3 = 42$ numbers.",
+              "${}^{42}C_{3} = \\dfrac{42 \\times 41 \\times 40}{3!} = \\dfrac{68\\,880}{6} = 11\\,480$"
+            ],
+            "finalAnswer": "$11\\,480$ selections contain 42, 3 and 18.",
+            "solutionFigures": [],
+            "tip": "Remove the fixed numbers from both the pool and the number still to be chosen."
+          }
+        },
+        {
+          "id": "ch11_ex6_q31a",
+          "number": "31(a)",
+          "category": "Master",
+          "questionText": "A bag contains 7 red and 3 white balls. A ball is taken at random, its colour is noted, and it is then replaced before a second ball is chosen at random and its colour is noted. Show the possible outcomes with a fully labelled tree diagram.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Tree diagram; multiplication rule for independent events: $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B)$",
+            "steps": [
+              "Given: 10 balls (7 R, 3 W), with replacement. $\\Pr(R) = \\dfrac{7}{10} = 0.7$, $\\Pr(W) = \\dfrac{3}{10} = 0.3$ on each draw.",
+              "First draw branches: R (0.7), W (0.3).",
+              "From each first branch, second draw branches: R (0.7), W (0.3).",
+              "Outcomes: RR: $0.7 \\times 0.7 = 0.49$; RW: $0.7 \\times 0.3 = 0.21$; WR: $0.3 \\times 0.7 = 0.21$; WW: $0.3 \\times 0.3 = 0.09$",
+              "Check: $0.49 + 0.21 + 0.21 + 0.09 = 1$"
+            ],
+            "finalAnswer": "Tree: 1st draw R (0.7) / W (0.3); 2nd draw R (0.7) / W (0.3) from each. Outcomes RR 0.49, RW 0.21, WR 0.21, WW 0.09.",
+            "solutionFigures": [],
+            "tip": "With replacement, the second-draw branch probabilities are the same as the first."
+          }
+        },
+        {
+          "id": "ch11_ex6_q31b",
+          "number": "31(b)",
+          "category": "Master",
+          "questionText": "A bag contains 7 red and 3 white balls. A ball is taken at random, its colour is noted, and it is then replaced before a second ball is chosen. As the first ball was chosen, how many balls were in the bag?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Total $= $ red $+$ white",
+            "steps": [
+              "$7 + 3 = 10$"
+            ],
+            "finalAnswer": "There were $10$ balls in the bag.",
+            "solutionFigures": [],
+            "tip": "Add both colours to get the total."
+          }
+        },
+        {
+          "id": "ch11_ex6_q31c",
+          "number": "31(c)",
+          "category": "Master",
+          "questionText": "A bag contains 7 red and 3 white balls. A ball is taken at random, its colour is noted, and it is then replaced before a second ball is chosen. As the second ball was chosen, how many balls were in the bag?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "With replacement the total is unchanged.",
+            "steps": [
+              "The first ball was put back, so the bag again has $7 + 3 = 10$ balls."
+            ],
+            "finalAnswer": "There were $10$ balls in the bag.",
+            "solutionFigures": [],
+            "tip": "'Replaced' means the bag is back to its starting state."
+          }
+        },
+        {
+          "id": "ch11_ex6_q31d",
+          "number": "31(d)",
+          "category": "Master",
+          "questionText": "A bag contains 7 red and 3 white balls. A ball is taken at random, its colour is noted, and it is then replaced before a second ball is chosen. Does the probability of choosing a red or white ball change from the first selection to the second? Explain.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Independent events: the first outcome does not affect the second.",
+            "steps": [
+              "First selection: $\\Pr(R) = 0.7$, $\\Pr(W) = 0.3$.",
+              "The ball is replaced, so the second selection is from the same 7 red and 3 white: $\\Pr(R) = 0.7$, $\\Pr(W) = 0.3$."
+            ],
+            "finalAnswer": "No. The ball is replaced, so the probabilities stay the same; the events are independent.",
+            "solutionFigures": [],
+            "tip": "Replacement makes successive draws independent."
+          }
+        },
+        {
+          "id": "ch11_ex6_q31e",
+          "number": "31(e)",
+          "category": "Master",
+          "questionText": "A bag contains 7 red and 3 white balls. A ball is taken at random, its colour is noted, and it is then replaced before a second ball is chosen. Calculate the probability of choosing a red ball twice.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for independent events: $\\Pr(RR) = \\Pr(R) \\times \\Pr(R)$",
+            "steps": [
+              "Given: $\\Pr(R) = 0.7$ on each draw. Goal: $\\Pr(RR)$.",
+              "$\\Pr(RR) = 0.7 \\times 0.7 = 0.49$"
+            ],
+            "finalAnswer": "$\\Pr(RR) = 0.49$",
+            "solutionFigures": [],
+            "tip": "Multiply along the branches of the tree."
+          }
+        },
+        {
+          "id": "ch11_ex6_q31f",
+          "number": "31(f)",
+          "category": "Master",
+          "questionText": "A bag contains 7 red and 3 white balls. The process of choosing two balls is repeated, but this time the first selection is not replaced. As the second ball is chosen, how many balls are in the bag?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Without replacement the total drops by 1.",
+            "steps": [
+              "$10 - 1 = 9$"
+            ],
+            "finalAnswer": "There are $9$ balls in the bag.",
+            "solutionFigures": [],
+            "tip": "The first ball stays out, so the denominator becomes 9."
+          }
+        },
+        {
+          "id": "ch11_ex6_q31g",
+          "number": "31(g)",
+          "category": "Master",
+          "questionText": "A bag contains 7 red and 3 white balls. Two balls are chosen and the first selection is not replaced. Does the probability of choosing a red or white ball change from the first selection to the second? Explain.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Dependent events: the first outcome changes the second.",
+            "steps": [
+              "First selection: $\\Pr(R) = \\dfrac{7}{10}$, $\\Pr(W) = \\dfrac{3}{10}$.",
+              "If the first is red, the bag has 6 R and 3 W: $\\Pr(R) = \\dfrac{6}{9} = \\dfrac{2}{3}$.",
+              "If the first is white, the bag has 7 R and 2 W: $\\Pr(R) = \\dfrac{7}{9}$."
+            ],
+            "finalAnswer": "Yes. One ball has been removed from the bag, so the probabilities for the second draw depend on the first (dependent events).",
+            "solutionFigures": [],
+            "tip": "Without replacement, both the count of that colour and the total change."
+          }
+        },
+        {
+          "id": "ch11_ex6_q31h",
+          "number": "31(h)",
+          "category": "Master",
+          "questionText": "A bag contains 7 red and 3 white balls. Two balls are chosen and the first selection is not replaced. Construct a fully labelled tree diagram to show all possible outcomes.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Tree diagram; multiplication rule for dependent events: $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B \\mid A)$",
+            "steps": [
+              "First draw branches: R $\\dfrac{7}{10}$, W $\\dfrac{3}{10}$.",
+              "After R (6 R, 3 W left): R $\\dfrac{6}{9} = \\dfrac{2}{3} \\approx 0.67$, W $\\dfrac{3}{9} = \\dfrac{1}{3} \\approx 0.33$.",
+              "After W (7 R, 2 W left): R $\\dfrac{7}{9} \\approx 0.78$, W $\\dfrac{2}{9} \\approx 0.22$.",
+              "RR: $\\dfrac{7}{10} \\times \\dfrac{6}{9} = \\dfrac{42}{90} = \\dfrac{7}{15}$; RW: $\\dfrac{7}{10} \\times \\dfrac{3}{9} = \\dfrac{21}{90} = \\dfrac{7}{30}$",
+              "WR: $\\dfrac{3}{10} \\times \\dfrac{7}{9} = \\dfrac{21}{90} = \\dfrac{7}{30}$; WW: $\\dfrac{3}{10} \\times \\dfrac{2}{9} = \\dfrac{6}{90} = \\dfrac{1}{15}$",
+              "Check: $\\dfrac{42 + 21 + 21 + 6}{90} = \\dfrac{90}{90} = 1$"
+            ],
+            "finalAnswer": "Tree: 1st R (0.7) then R ($\\frac{2}{3}$) / W ($\\frac{1}{3}$); 1st W (0.3) then R ($\\frac{7}{9}$) / W ($\\frac{2}{9}$). Outcomes RR $\\frac{7}{15}$, RW $\\frac{7}{30}$, WR $\\frac{7}{30}$, WW $\\frac{1}{15}$.",
+            "solutionFigures": [],
+            "tip": "Each pair of second-stage branches must still add to 1."
+          }
+        },
+        {
+          "id": "ch11_ex6_q31i",
+          "number": "31(i)",
+          "category": "Master",
+          "questionText": "A bag contains 7 red and 3 white balls. Two balls are chosen and the first selection is not replaced. Calculate the probability of choosing two red balls.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for dependent events: $\\Pr(RR) = \\Pr(R_1) \\times \\Pr(R_2 \\mid R_1)$",
+            "steps": [
+              "Given: $\\Pr(R_1) = \\dfrac{7}{10}$, $\\Pr(R_2 \\mid R_1) = \\dfrac{6}{9}$. Goal: $\\Pr(RR)$.",
+              "$\\Pr(RR) = \\dfrac{7}{10} \\times \\dfrac{6}{9} = \\dfrac{42}{90}$",
+              "Simplify: $\\dfrac{42}{90} = \\dfrac{7}{15} = 0.4\\dot{6} \\approx 0.467$ (3 decimal places)"
+            ],
+            "finalAnswer": "$\\Pr(RR) = \\dfrac{7}{15} \\approx 0.467$",
+            "solutionFigures": [],
+            "tip": "Use exact fractions; multiplying rounded values ($0.7 \\times 0.67 = 0.469$) gives a slightly wrong answer."
+          }
+        },
+        {
+          "id": "ch11_ex6_q32a",
+          "number": "32(a)",
+          "category": "Master",
+          "questionText": "A combination lock has 3 digits, each from 0 to 9. Determine how many combinations are possible.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication principle with repetition: $10^3$",
+            "steps": [
+              "Given: 3 dials, each with 10 digits (0 to 9), repeats allowed. Goal: number of combinations.",
+              "$10 \\times 10 \\times 10 = 1000$"
+            ],
+            "finalAnswer": "$1000$ combinations",
+            "solutionFigures": [],
+            "tip": "Digits can repeat on a lock, so each dial has all 10 choices."
+          }
+        },
+        {
+          "id": "ch11_ex6_q32b",
+          "number": "32(b)",
+          "category": "Master",
+          "questionText": "A combination lock has 3 digits, each from 0 to 9. The lock mechanism becomes loose and will open if the digits are within 1 either side of the correct digit. For example, if the true combination is 382, then the lock will open on 271, 272, 371, 493 and so on. Determine how many combinations would unlock the safe.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication principle",
+            "steps": [
+              "Given: each dial opens on the correct digit or 1 either side. Goal: number of opening combinations.",
+              "Each dial: 3 acceptable digits (e.g. for 3: 2, 3, 4).",
+              "$3 \\times 3 \\times 3 = 27$"
+            ],
+            "finalAnswer": "$27$ combinations would unlock the safe.",
+            "solutionFigures": [],
+            "tip": "This assumes no correct digit is 0 or 9; at an end there may be fewer neighbours unless the dial wraps around."
+          }
+        },
+        {
+          "id": "ch11_ex6_q32c",
+          "number": "32(c)",
+          "category": "Master",
+          "questionText": "A combination lock has 3 digits, each from 0 to 9. The lock mechanism becomes loose and will open if the digits are within 1 either side of the correct digit. List the possible combinations that would open the lock if the true combination is 382.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Systematic listing: first digit $\\in \\{2,3,4\\}$, second $\\in \\{7,8,9\\}$, third $\\in \\{1,2,3\\}$",
+            "steps": [
+              "First digit 2: 271, 272, 273, 281, 282, 283, 291, 292, 293",
+              "First digit 3: 371, 372, 373, 381, 382, 383, 391, 392, 393",
+              "First digit 4: 471, 472, 473, 481, 482, 483, 491, 492, 493",
+              "Check: $3 \\times 9 = 27$ combinations, matching part (b)."
+            ],
+            "finalAnswer": "271, 272, 273, 281, 282, 283, 291, 292, 293, 371, 372, 373, 381, 382, 383, 391, 392, 393, 471, 472, 473, 481, 482, 483, 491, 492, 493",
+            "solutionFigures": [],
+            "tip": "Vary the last digit fastest so the list stays organised."
+          }
+        }
+      ]
+    }
+  ]
+}

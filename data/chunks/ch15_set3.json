@@ -1,0 +1,513 @@
+{
+  "chapterId": "ch15",
+  "chapterTitle": "Trigonometry II (10A)",
+  "topics": [
+    {
+      "topicId": "15.3",
+      "topicTitle": "The cosine rule",
+      "exercises": [
+        {
+          "id": "ch15_ex3_q1",
+          "number": "1",
+          "category": "Practice",
+          "questionText": "Where appropriate, write angles correct to the nearest minute and side lengths correct to 2 decimal places. Calculate the third side of triangle ABC given $a = 3.4$, $b = 7.8$ and $C = 80^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine rule: $c^2 = a^2 + b^2 - 2ab\\cos(C)$",
+            "steps": [
+              "Given: $a = 3.4$, $b = 7.8$, included angle $C = 80^\\circ$. Goal: $c$.",
+              "$c^2 = 3.4^2 + 7.8^2 - 2 \\times 3.4 \\times 7.8 \\times \\cos(80^\\circ)$",
+              "$c^2 = 11.56 + 60.84 - 53.04 \\times 0.173648$",
+              "$c^2 = 72.40 - 9.2103 = 63.1897$",
+              "$c = \\sqrt{63.1897} \\approx 7.95$"
+            ],
+            "finalAnswer": "Therefore the third side is $c \\approx 7.95$.",
+            "solutionFigures": [],
+            "tip": "Use the cosine rule when you know two sides and the angle between them."
+          }
+        },
+        {
+          "id": "ch15_ex3_q2",
+          "number": "2",
+          "category": "Practice",
+          "questionText": "Where appropriate, write angles correct to the nearest minute and side lengths correct to 2 decimal places. In triangle ABC, $b = 64.5$, $c = 38.1$ and $A = 58^\\circ 34'$. Calculate the value of $a$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine rule: $a^2 = b^2 + c^2 - 2bc\\cos(A)$",
+            "steps": [
+              "Given: $b = 64.5$, $c = 38.1$, included angle $A = 58^\\circ 34' = 58.567^\\circ$. Goal: $a$.",
+              "$a^2 = 64.5^2 + 38.1^2 - 2 \\times 64.5 \\times 38.1 \\times \\cos(58^\\circ 34')$",
+              "$a^2 = 4160.25 + 1451.61 - 4914.9 \\times 0.521506$",
+              "$a^2 = 5611.86 - 2563.15 = 3048.71$",
+              "$a = \\sqrt{3048.71} \\approx 55.22$"
+            ],
+            "finalAnswer": "Therefore $a \\approx 55.22$.",
+            "solutionFigures": [],
+            "tip": "Enter $58^\\circ 34'$ with the DMS key or as $58 + \\frac{34}{60}$."
+          }
+        },
+        {
+          "id": "ch15_ex3_q3",
+          "number": "3",
+          "category": "Practice",
+          "questionText": "Where appropriate, write angles correct to the nearest minute and side lengths correct to 2 decimal places. In triangle ABC, $a = 17$, $c = 10$ and $B = 115^\\circ$. Calculate the value of $b$, and hence calculate the values of $A$ and $C$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine rule $b^2 = a^2 + c^2 - 2ac\\cos(B)$ and $\\cos(A) = \\frac{b^2 + c^2 - a^2}{2bc}$",
+            "steps": [
+              "Given: $a = 17$, $c = 10$, included angle $B = 115^\\circ$. Goal: $b$, $A$, $C$.",
+              "$b^2 = 17^2 + 10^2 - 2 \\times 17 \\times 10 \\times \\cos(115^\\circ) = 289 + 100 - 340 \\times (-0.422618)$",
+              "$b^2 = 389 + 143.690 = 532.690$, so $b \\approx 23.0801 \\approx 23.08$",
+              "$\\cos(A) = \\frac{b^2 + c^2 - a^2}{2bc} = \\frac{532.690 + 100 - 289}{2 \\times 23.0801 \\times 10} = \\frac{343.690}{461.602} \\approx 0.744560$",
+              "$A = \\cos^{-1}(0.744560) \\approx 41.879^\\circ \\approx 41^\\circ 53'$",
+              "$C = 180^\\circ - 115^\\circ - 41.879^\\circ = 23.121^\\circ \\approx 23^\\circ 7'$",
+              "Check with the sine rule: $\\sin(C) = \\frac{10\\sin(115^\\circ)}{23.0801} \\approx 0.39268$, $C \\approx 23.12^\\circ$ ✓"
+            ],
+            "finalAnswer": "Therefore $b \\approx 23.08$, $A \\approx 41^\\circ 53'$ and $C \\approx 23^\\circ 7'$.",
+            "solutionFigures": [],
+            "tip": "Since $\\cos(115^\\circ)$ is negative, $-2ac\\cos(B)$ becomes a positive amount that is added."
+          }
+        },
+        {
+          "id": "ch15_ex3_q4",
+          "number": "4",
+          "category": "Practice",
+          "questionText": "Calculate the size of the smallest angle in the triangle with sides 6 cm, 4 cm and 8 cm. (Hint: The smallest angle is opposite the smallest side.) Give the angle correct to the nearest minute.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine rule for an angle: $\\cos(A) = \\frac{b^2 + c^2 - a^2}{2bc}$",
+            "steps": [
+              "Given: sides 6, 4 and 8 cm. Goal: the smallest angle, opposite the 4 cm side.",
+              "Let $a = 4$, $b = 6$, $c = 8$.",
+              "$\\cos(A) = \\frac{6^2 + 8^2 - 4^2}{2 \\times 6 \\times 8} = \\frac{36 + 64 - 16}{96} = \\frac{84}{96} = 0.875$",
+              "$A = \\cos^{-1}(0.875) \\approx 28.955^\\circ$",
+              "$0.955^\\circ \\times 60 \\approx 57'$, so $A \\approx 28^\\circ 57'$"
+            ],
+            "finalAnswer": "Therefore the smallest angle is approximately $28^\\circ 57'$.",
+            "solutionFigures": [],
+            "tip": "The side you subtract in the numerator is the one opposite the angle you want."
+          }
+        },
+        {
+          "id": "ch15_ex3_q5",
+          "number": "5",
+          "category": "Consolidate",
+          "questionText": "In triangle ABC, $a = 356$, $b = 207$ and $c = 296$. Calculate the size of the largest angle (to the nearest minute).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(A) = \\frac{b^2 + c^2 - a^2}{2bc}$; the largest angle is opposite the longest side",
+            "steps": [
+              "Given: $a = 356$, $b = 207$, $c = 296$. Goal: the largest angle, which is $A$ (opposite the longest side $a$).",
+              "$\\cos(A) = \\frac{207^2 + 296^2 - 356^2}{2 \\times 207 \\times 296}$",
+              "$= \\frac{42\\,849 + 87\\,616 - 126\\,736}{122\\,544} = \\frac{3729}{122\\,544} \\approx 0.030430$",
+              "$A = \\cos^{-1}(0.030430) \\approx 88.256^\\circ \\approx 88^\\circ 15'$"
+            ],
+            "finalAnswer": "Therefore the largest angle is $A \\approx 88^\\circ 15'$.",
+            "solutionFigures": [],
+            "tip": "If the cosine came out negative, the largest angle would be obtuse; $\\cos^{-1}$ handles this correctly."
+          }
+        },
+        {
+          "id": "ch15_ex3_q6",
+          "number": "6",
+          "category": "Consolidate",
+          "questionText": "In triangle ABC, $a = 23.6$, $b = 17.3$ and $c = 26.4$. Calculate the size of all the angles (to the nearest minute).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(A) = \\frac{b^2 + c^2 - a^2}{2bc}$, $\\cos(B) = \\frac{a^2 + c^2 - b^2}{2ac}$, $A + B + C = 180^\\circ$",
+            "steps": [
+              "Given: $a = 23.6$, $b = 17.3$, $c = 26.4$. Goal: $A$, $B$, $C$.",
+              "$\\cos(A) = \\frac{17.3^2 + 26.4^2 - 23.6^2}{2 \\times 17.3 \\times 26.4} = \\frac{299.29 + 696.96 - 556.96}{913.44} = \\frac{439.29}{913.44} \\approx 0.480918$",
+              "$A \\approx 61.255^\\circ \\approx 61^\\circ 15'$",
+              "$\\cos(B) = \\frac{23.6^2 + 26.4^2 - 17.3^2}{2 \\times 23.6 \\times 26.4} = \\frac{556.96 + 696.96 - 299.29}{1246.08} = \\frac{954.63}{1246.08} \\approx 0.766107$",
+              "$B \\approx 39.994^\\circ \\approx 40^\\circ 0'$",
+              "$C = 180^\\circ - 61.255^\\circ - 39.994^\\circ = 78.751^\\circ \\approx 78^\\circ 45'$",
+              "Check: $\\cos(C) = \\frac{23.6^2 + 17.3^2 - 26.4^2}{2 \\times 23.6 \\times 17.3} = \\frac{159.29}{816.56} \\approx 0.19507$, $C \\approx 78.75^\\circ$ ✓"
+            ],
+            "finalAnswer": "Therefore $A \\approx 61^\\circ 15'$, $B \\approx 40^\\circ$ and $C \\approx 78^\\circ 45'$.",
+            "solutionFigures": [],
+            "tip": "Use the cosine rule for two angles and the angle sum for the third, then check with a second method."
+          }
+        },
+        {
+          "id": "ch15_ex3_q7",
+          "number": "7",
+          "category": "Practice",
+          "questionText": "Two rowers set out from the same point. One rows N$30^\\circ$E for 1500 m and the other rows S$40^\\circ$E for 1200 m. Calculate the distance between the two rowers, correct to the nearest metre.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine rule: $c^2 = a^2 + b^2 - 2ab\\cos(C)$",
+            "steps": [
+              "Given: from start O, rower P at 1500 m on N30°E and rower Q at 1200 m on S40°E. Goal: $PQ$.",
+              "Angle between the directions: $180^\\circ - 30^\\circ - 40^\\circ = 110^\\circ$.",
+              "$PQ^2 = 1500^2 + 1200^2 - 2 \\times 1500 \\times 1200 \\times \\cos(110^\\circ)$",
+              "$= 2\\,250\\,000 + 1\\,440\\,000 - 3\\,600\\,000 \\times (-0.342020)$",
+              "$= 3\\,690\\,000 + 1\\,231\\,273 = 4\\,921\\,273$",
+              "$PQ = \\sqrt{4\\,921\\,273} \\approx 2218.39 \\approx 2218$ m"
+            ],
+            "finalAnswer": "Therefore the rowers are approximately 2218 m apart.",
+            "solutionFigures": [],
+            "tip": "N30°E and S40°E are both measured from the north–south line, so the angle between them is $180^\\circ - 30^\\circ - 40^\\circ$."
+          }
+        },
+        {
+          "id": "ch15_ex3_q8a",
+          "number": "8(a)",
+          "category": "Consolidate",
+          "questionText": "Maria cycles 12 km in a direction N$68^\\circ$W and then 7 km in a direction of N$34^\\circ$E. Calculate her distance from the starting point (correct to 2 decimal places).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine rule: $c^2 = a^2 + b^2 - 2ab\\cos(C)$",
+            "steps": [
+              "Given: start S, turning point P with $SP = 12$ km on N68°W, finish F with $PF = 7$ km on N34°E. Goal: $SF$.",
+              "Angle at P: from P, S is on S68°E and F is on N34°E. The angle from north to S68°E is $180^\\circ - 68^\\circ = 112^\\circ$, so $\\angle SPF = 112^\\circ - 34^\\circ = 78^\\circ$.",
+              "$SF^2 = 12^2 + 7^2 - 2 \\times 12 \\times 7 \\times \\cos(78^\\circ)$",
+              "$= 144 + 49 - 168 \\times 0.207912 = 193 - 34.929 = 158.071$",
+              "$SF = \\sqrt{158.071} \\approx 12.57$ km"
+            ],
+            "finalAnswer": "Therefore Maria is approximately 12.57 km from her starting point.",
+            "solutionFigures": [],
+            "tip": "Draw a north line at the turning point and reverse the first bearing to find the angle inside the triangle."
+          }
+        },
+        {
+          "id": "ch15_ex3_q8b",
+          "number": "8(b)",
+          "category": "Consolidate",
+          "questionText": "Maria cycles 12 km in a direction N$68^\\circ$W and then 7 km in a direction of N$34^\\circ$E. Determine the bearing of the starting point from her finishing point (to the nearest minute).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(F) = \\frac{p^2 + s^2 - f^2}{2ps}$ to find the angle at F, then bearings",
+            "steps": [
+              "Given: $SP = 12$, $PF = 7$, $SF \\approx 12.5726$ km, $\\angle P = 78^\\circ$. Goal: the bearing of S from F.",
+              "$\\cos(\\angle SFP) = \\frac{7^2 + 12.5726^2 - 12^2}{2 \\times 7 \\times 12.5726} = \\frac{49 + 158.071 - 144}{176.016} \\approx 0.358323$",
+              "$\\angle SFP \\approx 69.003^\\circ$",
+              "From F, the point P is on the bearing S34°W (reverse of N34°E).",
+              "S lies to the east of the line FP, so turn $69.003^\\circ$ from S34°W towards the east: $69.003^\\circ - 34^\\circ = 35.003^\\circ$ east of south.",
+              "$35.003^\\circ \\approx 35^\\circ 0'$, giving a bearing of S$35^\\circ$E (true bearing $\\approx 145^\\circ$T).",
+              "Check with coordinates (east, north): F is at $(-12\\sin 68^\\circ + 7\\sin 34^\\circ, 12\\cos 68^\\circ + 7\\cos 34^\\circ) \\approx (-7.212, 10.299)$; $\\tan^{-1}\\left(\\frac{7.212}{10.299}\\right) \\approx 35.00^\\circ$ east of south ✓"
+            ],
+            "finalAnswer": "Therefore the starting point is on a bearing of approximately S$35^\\circ 0'$E from her finishing point.",
+            "solutionFigures": [],
+            "tip": "A bearing 'from her finishing point' means you stand at F and measure from north (or south) at F."
+          }
+        },
+        {
+          "id": "ch15_ex3_q9a",
+          "number": "9(a)",
+          "category": "Practice",
+          "questionText": "A garden bed is in the shape of a triangle with sides of length 3 m, 4.5 m and 5.2 m. Calculate the size of the smallest angle (to the nearest minute).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(A) = \\frac{b^2 + c^2 - a^2}{2bc}$; the smallest angle is opposite the smallest side",
+            "steps": [
+              "Given: sides 3, 4.5 and 5.2 m. Goal: the smallest angle, opposite the 3 m side.",
+              "Let $a = 3$, $b = 4.5$, $c = 5.2$.",
+              "$\\cos(A) = \\frac{4.5^2 + 5.2^2 - 3^2}{2 \\times 4.5 \\times 5.2} = \\frac{20.25 + 27.04 - 9}{46.8} = \\frac{38.29}{46.8} \\approx 0.818162$",
+              "$A = \\cos^{-1}(0.818162) \\approx 35.099^\\circ \\approx 35^\\circ 6'$"
+            ],
+            "finalAnswer": "Therefore the smallest angle is approximately $35^\\circ 6'$.",
+            "solutionFigures": [],
+            "tip": "Identify the smallest side first; the angle opposite it is the smallest angle."
+          }
+        },
+        {
+          "id": "ch15_ex3_q9b",
+          "number": "9(b)",
+          "category": "Practice",
+          "questionText": "A garden bed is in the shape of a triangle with sides of length 3 m, 4.5 m and 5.2 m. Hence, calculate the area of the garden, correct to 2 decimal places. (Hint: Draw a diagram with the longest length as the base of the triangle.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area $= \\frac{1}{2}bc\\sin(A)$",
+            "steps": [
+              "Given: from part (a), angle $A \\approx 35.099^\\circ$ lies between the sides $b = 4.5$ m and $c = 5.2$ m. Goal: area.",
+              "Area $= \\frac{1}{2} \\times 4.5 \\times 5.2 \\times \\sin(35.099^\\circ)$",
+              "$= 11.7 \\times 0.574987 \\approx 6.73\\text{ m}^2$",
+              "Check with Heron's formula: $s = 6.35$, $A = \\sqrt{6.35 \\times 3.35 \\times 1.85 \\times 1.15} = \\sqrt{45.257} \\approx 6.73$ ✓"
+            ],
+            "finalAnswer": "Therefore the area of the garden is approximately $6.73\\text{ m}^2$.",
+            "solutionFigures": [],
+            "tip": "The angle used in the area formula must be the one between the two sides you multiply."
+          }
+        },
+        {
+          "id": "ch15_ex3_q10",
+          "number": "10",
+          "category": "Consolidate",
+          "questionText": "A hockey goal is 3 m wide. When Sophie is 7 m from one post and 5.2 m from the other, she shoots for goal. Determine within what angle, to the nearest degree, the shot must be made if it is to score a goal.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(S) = \\frac{p^2 + q^2 - s^2}{2pq}$",
+            "steps": [
+              "Given: triangle formed by Sophie S and the two posts; distances 7 m and 5.2 m from S, goal width 3 m opposite S. Goal: angle at S.",
+              "$\\cos(S) = \\frac{7^2 + 5.2^2 - 3^2}{2 \\times 7 \\times 5.2} = \\frac{49 + 27.04 - 9}{72.8} = \\frac{67.04}{72.8} \\approx 0.920879$",
+              "$S = \\cos^{-1}(0.920879) \\approx 22.95^\\circ \\approx 23^\\circ$"
+            ],
+            "finalAnswer": "Therefore the shot must be made within an angle of approximately $23^\\circ$.",
+            "solutionFigures": [],
+            "tip": "The angle at Sophie is opposite the goal mouth (3 m), so 3 is the side subtracted."
+          }
+        },
+        {
+          "id": "ch15_ex3_q11",
+          "number": "11",
+          "category": "Master",
+          "questionText": "An advertising balloon is attached to two ropes 120 m and 100 m long. The ropes are anchored to level ground 35 m apart. Calculate the height of the balloon when both ropes are taut (correct to 2 decimal places). The diagram shows the balloon at A, with rope $c = AB = 120$ m and rope $b = AC = 100$ m, and anchor points B and C on level ground with $a = BC = 35$ m; the balloon is beyond C, so the vertical height is drawn outside the triangle.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(B) = \\frac{a^2 + c^2 - b^2}{2ac}$; height $h = c\\sin(B)$",
+            "steps": [
+              "Given: $a = 35$, $b = 100$, $c = 120$. Goal: vertical height $h$ of A above the ground.",
+              "Find angle B: $\\cos(B) = \\frac{35^2 + 120^2 - 100^2}{2 \\times 35 \\times 120} = \\frac{1225 + 14\\,400 - 10\\,000}{8400} = \\frac{5625}{8400} \\approx 0.669643$",
+              "$B \\approx 47.960^\\circ$",
+              "In the right-angled triangle from A down to the ground: $\\sin(B) = \\frac{h}{120}$",
+              "$h = 120\\sin(47.960^\\circ) = 120 \\times 0.742683 \\approx 89.12$ m"
+            ],
+            "finalAnswer": "Therefore the balloon is approximately 89.12 m above the ground.",
+            "solutionFigures": [],
+            "tip": "Find the angle at one anchor point first, then use right-angled trigonometry for the height."
+          }
+        },
+        {
+          "id": "ch15_ex3_q12a",
+          "number": "12(a)",
+          "category": "Master",
+          "questionText": "A plane flies in a direction of N$70^\\circ$E for 80 km and then on a bearing of S$10^\\circ$W for 150 km. Calculate the plane's distance from its starting point, correct to the nearest km.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine rule: $c^2 = a^2 + b^2 - 2ab\\cos(C)$",
+            "steps": [
+              "Given: start O, turning point P with $OP = 80$ km on N70°E, end Q with $PQ = 150$ km on S10°W. Goal: $OQ$.",
+              "Angle at P: from P, O is on S70°W and Q is on S10°W; $\\angle OPQ = 70^\\circ - 10^\\circ = 60^\\circ$.",
+              "$OQ^2 = 80^2 + 150^2 - 2 \\times 80 \\times 150 \\times \\cos(60^\\circ)$",
+              "$= 6400 + 22\\,500 - 24\\,000 \\times 0.5 = 16\\,900$",
+              "$OQ = \\sqrt{16\\,900} = 130$ km"
+            ],
+            "finalAnswer": "Therefore the plane is 130 km from its starting point.",
+            "solutionFigures": [],
+            "tip": "The reverse of N70°E is S70°W; both bearings at P are then measured from south."
+          }
+        },
+        {
+          "id": "ch15_ex3_q12b",
+          "number": "12(b)",
+          "category": "Master",
+          "questionText": "A plane flies in a direction of N$70^\\circ$E for 80 km and then on a bearing of S$10^\\circ$W for 150 km. Calculate the plane's direction from its starting point (to the nearest minute).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule $\\frac{\\sin(O)}{PQ} = \\frac{\\sin(P)}{OQ}$, then bearings",
+            "steps": [
+              "Given: $OP = 80$, $PQ = 150$, $OQ = 130$, $\\angle P = 60^\\circ$. Goal: the direction of Q from O.",
+              "$\\cos(\\angle POQ) = \\frac{80^2 + 130^2 - 150^2}{2 \\times 80 \\times 130} = \\frac{6400 + 16\\,900 - 22\\,500}{20\\,800} = \\frac{800}{20\\,800} \\approx 0.038462$",
+              "$\\angle POQ \\approx 87.796^\\circ$",
+              "OP is on bearing $070^\\circ$T, and Q is clockwise from P, so Q is on $70^\\circ + 87.796^\\circ = 157.796^\\circ$T.",
+              "$180^\\circ - 157.796^\\circ = 22.204^\\circ \\approx 22^\\circ 12'$ east of south, i.e. S$22^\\circ 12'$E."
+            ],
+            "finalAnswer": "Therefore the plane is on a bearing of approximately S$22^\\circ 12'$E from its starting point.",
+            "solutionFigures": [],
+            "tip": "The cosine rule is safer than the sine rule for an angle near $90^\\circ$, since $\\sin^{-1}$ cannot tell $88^\\circ$ from $92^\\circ$."
+          }
+        },
+        {
+          "id": "ch15_ex3_q13",
+          "number": "13",
+          "category": "Master",
+          "questionText": "Ship A is 16.2 km from port on a bearing of $053^\\circ$T and ship B is 31.6 km from the same port on a bearing of $117^\\circ$T. Calculate the distance between the two ships in km, correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine rule: $c^2 = a^2 + b^2 - 2ab\\cos(C)$",
+            "steps": [
+              "Given: port P, $PA = 16.2$ km on $053^\\circ$T, $PB = 31.6$ km on $117^\\circ$T. Goal: $AB$.",
+              "$\\angle APB = 117^\\circ - 53^\\circ = 64^\\circ$",
+              "$AB^2 = 16.2^2 + 31.6^2 - 2 \\times 16.2 \\times 31.6 \\times \\cos(64^\\circ)$",
+              "$= 262.44 + 998.56 - 1023.84 \\times 0.438371 = 1261 - 448.822 = 812.178$",
+              "$AB = \\sqrt{812.178} \\approx 28.5$ km"
+            ],
+            "finalAnswer": "Therefore the ships are approximately 28.5 km apart.",
+            "solutionFigures": [],
+            "tip": "With true bearings from the same point, the included angle is just the difference of the bearings."
+          }
+        },
+        {
+          "id": "ch15_ex3_q14",
+          "number": "14",
+          "category": "Practice",
+          "questionText": "A plane takes off at 10:00 am from an airfield and flies at 120 km/h on a bearing of N$35^\\circ$W. A second plane takes off at 10:05 am from the same airfield and flies on a bearing of S$80^\\circ$E at a speed of 90 km/h. Determine how far apart the planes are at 10:25 am in km, correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "distance = speed × time; cosine rule $c^2 = a^2 + b^2 - 2ab\\cos(C)$",
+            "steps": [
+              "Given: plane 1 flies 25 min at 120 km/h on N35°W; plane 2 flies 20 min at 90 km/h on S80°E. Goal: distance apart at 10:25 am.",
+              "Plane 1: $120 \\times \\frac{25}{60} = 50$ km. Plane 2: $90 \\times \\frac{20}{60} = 30$ km.",
+              "N35°W is $325^\\circ$T and S80°E is $100^\\circ$T; the angle between them is $325^\\circ - 100^\\circ = 225^\\circ$, so the smaller angle is $360^\\circ - 225^\\circ = 135^\\circ$.",
+              "$d^2 = 50^2 + 30^2 - 2 \\times 50 \\times 30 \\times \\cos(135^\\circ)$",
+              "$= 2500 + 900 - 3000 \\times (-0.707107) = 3400 + 2121.32 = 5521.32$",
+              "$d = \\sqrt{5521.32} \\approx 74.3$ km"
+            ],
+            "finalAnswer": "Therefore the planes are approximately 74.3 km apart at 10:25 am.",
+            "solutionFigures": [],
+            "tip": "The second plane has only been flying for 20 minutes, not 25."
+          }
+        },
+        {
+          "id": "ch15_ex3_q15",
+          "number": "15",
+          "category": "Consolidate",
+          "questionText": "Three circles of radii 5 cm, 6 cm and 8 cm are positioned so that they just touch one another. Their centres form the vertices of a triangle. Determine the largest angle in the triangle (to the nearest minute). Show your working.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Distance between centres of touching circles $= r_1 + r_2$; $\\cos(A) = \\frac{b^2 + c^2 - a^2}{2bc}$",
+            "steps": [
+              "Given: radii 5, 6 and 8 cm. Goal: the largest angle of the triangle of centres.",
+              "Sides: $5 + 6 = 11$ cm, $5 + 8 = 13$ cm, $6 + 8 = 14$ cm.",
+              "The largest angle is opposite the longest side, 14 cm.",
+              "$\\cos(\\theta) = \\frac{11^2 + 13^2 - 14^2}{2 \\times 11 \\times 13} = \\frac{121 + 169 - 196}{286} = \\frac{94}{286} \\approx 0.328671$",
+              "$\\theta = \\cos^{-1}(0.328671) \\approx 70.812^\\circ \\approx 70^\\circ 49'$"
+            ],
+            "finalAnswer": "Therefore the largest angle in the triangle is approximately $70^\\circ 49'$.",
+            "solutionFigures": [],
+            "tip": "Each side of the triangle passes through a touching point, so it equals the sum of two radii."
+          }
+        },
+        {
+          "id": "ch15_ex3_q16a",
+          "number": "16(a)",
+          "category": "Master",
+          "questionText": "For the shape shown, determine the length of the diagonal (correct to 2 decimal places). The shape is a quadrilateral with a bottom side of 10 m, a left side of 7 m meeting the bottom side at an angle of $60^\\circ$, a top-left side of 8 m and a right side $x$. The vertex where the 7 m and 8 m sides meet is B, and the full angle at B (between the 7 m and 8 m sides) is $150^\\circ$. A diagonal joins B to the far end of the 10 m side, splitting the shape into two triangles; part of the angle at B, between the 7 m side and the diagonal, is marked B.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine rule: $d^2 = p^2 + q^2 - 2pq\\cos(\\theta)$",
+            "steps": [
+              "Given: lower triangle with sides 7 m and 10 m and included angle $60^\\circ$. Goal: the diagonal $d$.",
+              "$d^2 = 7^2 + 10^2 - 2 \\times 7 \\times 10 \\times \\cos(60^\\circ)$",
+              "$= 49 + 100 - 140 \\times 0.5 = 79$",
+              "$d = \\sqrt{79} \\approx 8.89$ m"
+            ],
+            "finalAnswer": "Therefore the diagonal is approximately 8.89 m long.",
+            "solutionFigures": [],
+            "tip": "Keep $d^2 = 79$ exactly; using the exact value avoids rounding errors in later parts."
+          }
+        },
+        {
+          "id": "ch15_ex3_q16b",
+          "number": "16(b)",
+          "category": "Master",
+          "questionText": "For the shape shown, determine the magnitude (size) of angle B (to the nearest minute). The shape is a quadrilateral with a bottom side of 10 m, a left side of 7 m meeting the bottom side at an angle of $60^\\circ$, a top-left side of 8 m and a right side $x$. The vertex where the 7 m and 8 m sides meet has a full angle of $150^\\circ$. A diagonal joins this vertex to the far end of the 10 m side; angle B is the angle at this vertex between the 7 m side and the diagonal.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(B) = \\frac{p^2 + q^2 - r^2}{2pq}$, where $r$ is the side opposite B",
+            "steps": [
+              "Given: lower triangle with sides 7 m, $d = \\sqrt{79}$ m and 10 m; angle B is opposite the 10 m side. Goal: B.",
+              "$\\cos(B) = \\frac{7^2 + 79 - 10^2}{2 \\times 7 \\times \\sqrt{79}} = \\frac{28}{124.435} \\approx 0.225018$",
+              "$B = \\cos^{-1}(0.225018) \\approx 76.996^\\circ \\approx 77^\\circ 0'$",
+              "Check with the sine rule: $\\sin(B) = \\frac{10\\sin(60^\\circ)}{\\sqrt{79}} \\approx 0.97435$, giving $77.0^\\circ$ ✓"
+            ],
+            "finalAnswer": "Therefore angle B is approximately $77^\\circ 0'$.",
+            "solutionFigures": [],
+            "tip": "Angle B is opposite the 10 m side, so 10 is the side subtracted in the numerator."
+          }
+        },
+        {
+          "id": "ch15_ex3_q16c",
+          "number": "16(c)",
+          "category": "Master",
+          "questionText": "For the shape shown, determine the length of $x$ (correct to 2 decimal places). The shape is a quadrilateral with a bottom side of 10 m, a left side of 7 m meeting the bottom side at an angle of $60^\\circ$, a top-left side of 8 m and a right side $x$. The vertex B where the 7 m and 8 m sides meet has a full angle of $150^\\circ$. A diagonal joins B to the far end of the 10 m side.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine rule: $x^2 = p^2 + q^2 - 2pq\\cos(\\theta)$",
+            "steps": [
+              "Given: $d = \\sqrt{79} \\approx 8.8882$ m and $B \\approx 76.996^\\circ$ from parts (a) and (b); the full angle at the vertex is $150^\\circ$. Goal: $x$.",
+              "Angle between the 8 m side and the diagonal: $150^\\circ - 76.996^\\circ = 73.004^\\circ$.",
+              "Upper triangle: $x^2 = 8^2 + 79 - 2 \\times 8 \\times 8.8882 \\times \\cos(73.004^\\circ)$",
+              "$= 64 + 79 - 142.211 \\times 0.292292 = 143 - 41.567 = 101.431$",
+              "$x = \\sqrt{101.431} \\approx 10.07$ m"
+            ],
+            "finalAnswer": "Therefore $x \\approx 10.07$ m.",
+            "solutionFigures": [],
+            "tip": "Subtract the part of the angle already used in the lower triangle to get the included angle for the upper triangle."
+          }
+        },
+        {
+          "id": "ch15_ex3_q17",
+          "number": "17",
+          "category": "Practice",
+          "questionText": "From the top of a vertical cliff 68 m high, an observer notices a yacht at sea. The angle of depression to the yacht is $47^\\circ$. The yacht sails directly away from the cliff, and after 10 minutes the angle of depression is $15^\\circ$. Determine the speed of the yacht in km/h, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Angle of depression = angle of elevation (alternate angles); $\\tan(\\theta) = \\frac{\\text{opp}}{\\text{adj}}$; speed $= \\frac{\\text{distance}}{\\text{time}}$",
+            "steps": [
+              "Given: cliff height 68 m, depression angles $47^\\circ$ then $15^\\circ$, time 10 min. Goal: speed in km/h.",
+              "First distance from the cliff base: $d_1 = \\frac{68}{\\tan(47^\\circ)} = \\frac{68}{1.072369} \\approx 63.411$ m",
+              "Second distance: $d_2 = \\frac{68}{\\tan(15^\\circ)} = \\frac{68}{0.267949} \\approx 253.779$ m",
+              "Distance sailed $= 253.779 - 63.411 = 190.368$ m $= 0.190368$ km",
+              "Check with the sine rule: angle at the observer between the sight lines $= 47^\\circ - 15^\\circ = 32^\\circ$; distance $= \\frac{(68/\\sin 47^\\circ)\\sin(32^\\circ)}{\\sin(15^\\circ)} = \\frac{92.977 \\times 0.529919}{0.258819} \\approx 190.37$ m ✓",
+              "10 min $= \\frac{1}{6}$ h, so speed $= 0.190368 \\div \\frac{1}{6} = 0.190368 \\times 6 \\approx 1.14$ km/h"
+            ],
+            "finalAnswer": "Therefore the yacht is sailing at approximately 1.14 km/h.",
+            "solutionFigures": [],
+            "tip": "Convert metres to km and minutes to hours before dividing."
+          }
+        },
+        {
+          "id": "ch15_ex3_q18",
+          "number": "18",
+          "category": "Consolidate",
+          "questionText": "Determine the size of angles CAB, ABC and BCA. Give your answers in degrees correct to 2 decimal places. The diagram shows a rectangular prism (box) 8 cm long, 5 cm deep and 2 cm high. A is a top corner at the front-left, B is the bottom corner at the front-right, and C is the top corner at the back-right. So AB is the diagonal of the 8 cm × 2 cm front face, BC is the diagonal of the 5 cm × 2 cm right face and AC is the diagonal of the 8 cm × 5 cm top face.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem for each face diagonal; cosine rule $\\cos(A) = \\frac{b^2 + c^2 - a^2}{2bc}$",
+            "steps": [
+              "Given: box 8 cm × 5 cm × 2 cm. Goal: the three angles of triangle ABC.",
+              "$AB^2 = 8^2 + 2^2 = 68$, $BC^2 = 5^2 + 2^2 = 29$, $AC^2 = 8^2 + 5^2 = 89$.",
+              "$\\cos(\\angle CAB) = \\frac{AB^2 + AC^2 - BC^2}{2 \\times AB \\times AC} = \\frac{68 + 89 - 29}{2\\sqrt{68}\\sqrt{89}} = \\frac{128}{155.589} \\approx 0.822679$, so $\\angle CAB \\approx 34.65^\\circ$",
+              "$\\cos(\\angle ABC) = \\frac{AB^2 + BC^2 - AC^2}{2 \\times AB \\times BC} = \\frac{68 + 29 - 89}{2\\sqrt{68}\\sqrt{29}} = \\frac{8}{88.815} \\approx 0.090075$, so $\\angle ABC \\approx 84.83^\\circ$",
+              "$\\cos(\\angle BCA) = \\frac{AC^2 + BC^2 - AB^2}{2 \\times AC \\times BC} = \\frac{89 + 29 - 68}{2\\sqrt{89}\\sqrt{29}} = \\frac{50}{101.607} \\approx 0.492092$, so $\\angle BCA \\approx 60.52^\\circ$",
+              "Check: $34.65^\\circ + 84.83^\\circ + 60.52^\\circ = 180^\\circ$ ✓"
+            ],
+            "finalAnswer": "Therefore $\\angle CAB \\approx 34.65^\\circ$, $\\angle ABC \\approx 84.83^\\circ$ and $\\angle BCA \\approx 60.52^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Work with the squared lengths (68, 29, 89) directly in the cosine rule to keep the answers exact."
+          }
+        },
+        {
+          "id": "ch15_ex3_q19a",
+          "number": "19(a)",
+          "category": "Master",
+          "questionText": "A vertical flag pole DB is supported by two wires AB and BC. AB is 5.2 metres long, BC is 4.7 metres long and B is 3.7 metres above ground level. Angle ADC is a right angle. (The diagram shows D at the foot of the pole with A and C on the ground, DA and DC at right angles.) Evaluate the distance from A to C in metres, correct to 4 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem $c^2 = a^2 + b^2$ in the right-angled triangles ADB, CDB and ADC",
+            "steps": [
+              "Given: $AB = 5.2$, $BC = 4.7$, $DB = 3.7$, $\\angle ADC = 90^\\circ$, and DB is vertical so $\\angle BDA = \\angle BDC = 90^\\circ$. Goal: $AC$.",
+              "$AD^2 = 5.2^2 - 3.7^2 = 27.04 - 13.69 = 13.35$",
+              "$DC^2 = 4.7^2 - 3.7^2 = 22.09 - 13.69 = 8.40$",
+              "$AC^2 = AD^2 + DC^2 = 13.35 + 8.40 = 21.75$",
+              "$AC = \\sqrt{21.75} \\approx 4.6637$ m"
+            ],
+            "finalAnswer": "Therefore the distance from A to C is approximately 4.6637 m.",
+            "solutionFigures": [],
+            "tip": "There is no need to find $AD$ and $DC$ themselves; add the squares directly."
+          }
+        },
+        {
+          "id": "ch15_ex3_q19b",
+          "number": "19(b)",
+          "category": "Master",
+          "questionText": "A vertical flag pole DB is supported by two wires AB and BC. AB is 5.2 metres long, BC is 4.7 metres long and B is 3.7 metres above ground level. Angle ADC is a right angle. Determine the angle between AB and BC in degrees, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(B) = \\frac{AB^2 + BC^2 - AC^2}{2 \\times AB \\times BC}$",
+            "steps": [
+              "Given: $AB = 5.2$, $BC = 4.7$, $AC^2 = 21.75$ from part (a). Goal: $\\angle ABC$.",
+              "$\\cos(\\angle ABC) = \\frac{27.04 + 22.09 - 21.75}{2 \\times 5.2 \\times 4.7} = \\frac{27.38}{48.88} \\approx 0.560147$",
+              "$\\angle ABC = \\cos^{-1}(0.560147) \\approx 55.93^\\circ$"
+            ],
+            "finalAnswer": "Therefore the angle between the wires AB and BC is approximately $55.93^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Triangle ABC is not right-angled, so use the cosine rule, not SOH-CAH-TOA."
+          }
+        }
+      ]
+    }
+  ]
+}

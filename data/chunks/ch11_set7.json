@@ -1,0 +1,1211 @@
+{
+  "chapterId": "ch11",
+  "chapterTitle": "Probability",
+  "topics": [
+    {
+      "topicId": "11.7",
+      "topicTitle": "Review questions",
+      "exercises": [
+        {
+          "id": "ch11_ex7_q1",
+          "number": "1",
+          "category": null,
+          "questionText": "MC Choose which of the following is always true for an event, $M$, and its complementary event, $M'$.\nA. $\\Pr(M) + \\Pr(M') = 1$  B. $\\Pr(M) - \\Pr(M') = 1$  C. $\\Pr(M) + \\Pr(M') = 0$  D. $\\Pr(M) - \\Pr(M') = 0$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complement rule: $\\Pr(M) + \\Pr(M') = 1$",
+            "steps": [
+              "Given: an event $M$ and its complement $M'$. Goal: identify the statement that is always true.",
+              "Key idea (complement rule): $M$ and $M'$ together make up the whole sample space and do not overlap.",
+              "So $\\Pr(M) + \\Pr(M') = \\Pr(\\xi) = 1$.",
+              "B and D are only true for special values of $\\Pr(M)$ (1 and 0.5), and C is never true, so they are not always true."
+            ],
+            "finalAnswer": "A: $\\Pr(M) + \\Pr(M') = 1$",
+            "solutionFigures": [],
+            "tip": "An event and its complement always add to 1, which is why $\\Pr(M') = 1 - \\Pr(M)$."
+          }
+        },
+        {
+          "id": "ch11_ex7_q2",
+          "number": "2",
+          "category": null,
+          "questionText": "MC A number is chosen from the set $\\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10\\}$. Select which of the following pairs of events is mutually exclusive.\nA. $\\{2, 4, 6\\}$ and $\\{4, 6, 7, 8\\}$  B. $\\{1, 2, 3, 5\\}$ and $\\{4, 6, 7, 8\\}$  C. $\\{0, 1, 2, 3\\}$ and $\\{3, 4, 5, 6\\}$  D. $\\{\\text{multiples of } 2\\}$ and $\\{\\text{factors of } 8\\}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Events $A$ and $B$ are mutually exclusive when $A \\cap B = \\varnothing$.",
+            "steps": [
+              "Given: four pairs of events. Goal: find the pair with no common elements.",
+              "A: $\\{2,4,6\\} \\cap \\{4,6,7,8\\} = \\{4, 6\\}$, not empty.",
+              "B: $\\{1,2,3,5\\} \\cap \\{4,6,7,8\\} = \\varnothing$, empty.",
+              "C: $\\{0,1,2,3\\} \\cap \\{3,4,5,6\\} = \\{3\\}$, not empty.",
+              "D: multiples of 2 are $\\{0,2,4,6,8,10\\}$ and factors of 8 are $\\{1,2,4,8\\}$; intersection $\\{2,4,8\\}$, not empty."
+            ],
+            "finalAnswer": "B: $\\{1, 2, 3, 5\\}$ and $\\{4, 6, 7, 8\\}$ are mutually exclusive.",
+            "solutionFigures": [],
+            "tip": "Mutually exclusive means the events cannot happen together, so look for any shared element."
+          }
+        },
+        {
+          "id": "ch11_ex7_q3",
+          "number": "3",
+          "category": null,
+          "questionText": "MC Choose which of the following states the Multiplication Law of probability correctly.\nA. $\\Pr(A \\cap B) = \\Pr(A) + \\Pr(B)$  B. $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B)$  C. $\\Pr(A \\cup B) = \\Pr(A) \\times \\Pr(B)$  D. $\\Pr(A \\cup B) = \\Pr(A) + \\Pr(B)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication Law (independent events): $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B)$",
+            "steps": [
+              "Given: four statements. Goal: identify the Multiplication Law.",
+              "The Multiplication Law gives the probability of $A$ and $B$ both occurring ($A \\cap B$) for independent events.",
+              "It multiplies the probabilities: $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B)$.",
+              "D is the addition rule for mutually exclusive events; A and C mix the two up."
+            ],
+            "finalAnswer": "B: $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B)$",
+            "solutionFigures": [],
+            "tip": "'And' ($\\cap$) goes with multiplying (independent events); 'or' ($\\cup$) goes with adding."
+          }
+        },
+        {
+          "id": "ch11_ex7_q4",
+          "number": "4",
+          "category": null,
+          "questionText": "MC Given $\\xi = \\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\\}$, $A = \\{2, 3, 4\\}$ and $B = \\{3, 4, 5, 8\\}$, $A \\cap B$ is:\nA. $\\{2, 3, 3, 4, 4, 5, 8\\}$  B. $\\{3, 4\\}$  C. $\\{2, 3, 4\\}$  D. $\\{2, 3, 4, 5, 8\\}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$A \\cap B$ = the elements that are in both $A$ and $B$.",
+            "steps": [
+              "Given: $A = \\{2, 3, 4\\}$, $B = \\{3, 4, 5, 8\\}$. Goal: $A \\cap B$.",
+              "Check each element of $A$: 2 is not in $B$; 3 is in $B$; 4 is in $B$.",
+              "$A \\cap B = \\{3, 4\\}$"
+            ],
+            "finalAnswer": "B: $A \\cap B = \\{3, 4\\}$",
+            "solutionFigures": [],
+            "tip": "Option D is the union $A \\cup B$; the intersection only keeps the shared elements."
+          }
+        },
+        {
+          "id": "ch11_ex7_q5",
+          "number": "5",
+          "category": null,
+          "questionText": "MC Given $\\xi = \\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\\}$, $A = \\{2, 3, 4\\}$ and $B = \\{3, 4, 5, 8\\}$, $A \\cap B'$ is:\nA. $\\{3, 4\\}$  B. $\\{2\\}$  C. $\\{2, 3, 4, 5, 8\\}$  D. $\\{2, 3, 4\\}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$A \\cap B'$ = the elements in $A$ that are not in $B$.",
+            "steps": [
+              "Given: $\\xi = \\{1, \\dots, 10\\}$, $A = \\{2, 3, 4\\}$, $B = \\{3, 4, 5, 8\\}$. Goal: $A \\cap B'$.",
+              "$B' = \\{1, 2, 6, 7, 9, 10\\}$",
+              "Elements of $A$ that are also in $B'$: only 2.",
+              "$A \\cap B' = \\{2\\}$"
+            ],
+            "finalAnswer": "B: $A \\cap B' = \\{2\\}$",
+            "solutionFigures": [],
+            "tip": "$A \\cap B'$ is the 'A only' region of the Venn diagram."
+          }
+        },
+        {
+          "id": "ch11_ex7_q6",
+          "number": "6",
+          "category": null,
+          "questionText": "MC There are 12 people on the committee at the local football club. Determine how many ways a president and a secretary can be chosen from this committee.\nA. 2  B. 23  C. 132  D. 144",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication principle / permutations: ${}^{n}P_{r} = \\frac{n!}{(n-r)!}$",
+            "steps": [
+              "Given: 12 people, 2 different positions (order matters). Goal: number of ways to fill them.",
+              "President: 12 choices.",
+              "Secretary: 11 choices left (one person cannot hold both roles).",
+              "Number of ways $= 12 \\times 11 = 132$ $(= {}^{12}P_{2})$"
+            ],
+            "finalAnswer": "C: 132 ways",
+            "solutionFigures": [],
+            "tip": "144 would wrongly allow the same person to be president and secretary."
+          }
+        },
+        {
+          "id": "ch11_ex7_q7a",
+          "number": "7(a)",
+          "category": null,
+          "questionText": "Shade the region $A' \\cup B$ on a Venn diagram showing two overlapping circles $A$ and $B$ inside the universal set $\\xi$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$A' \\cup B$ = everything outside $A$, together with everything in $B$.",
+            "steps": [
+              "Given: two overlapping circles, giving four regions: $A$ only, $A \\cap B$, $B$ only, and outside both. Goal: shade $A' \\cup B$.",
+              "$A'$ = everything not in circle $A$: the 'B only' region and the region outside both circles.",
+              "$B$ = the 'B only' region and the overlap $A \\cap B$.",
+              "Union: 'B only' + overlap $A \\cap B$ + outside both circles.",
+              "The only region not shaded is '$A$ only' ($A \\cap B'$)."
+            ],
+            "finalAnswer": "Shade all of circle $B$ (including the overlap) and the whole region outside both circles; leave only the '$A$ only' crescent unshaded.",
+            "solutionFigures": [],
+            "tip": "Shade each part separately, then combine: a union keeps every region shaded in either part."
+          }
+        },
+        {
+          "id": "ch11_ex7_q7b",
+          "number": "7(b)",
+          "category": null,
+          "questionText": "Shade the region $A' \\cap B'$ on a Venn diagram showing two overlapping circles $A$ and $B$ inside the universal set $\\xi$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$A' \\cap B'$ = the outcomes in neither $A$ nor $B$ $= (A \\cup B)'$.",
+            "steps": [
+              "Given: two overlapping circles $A$ and $B$ in $\\xi$. Goal: shade $A' \\cap B'$.",
+              "$A'$ = 'B only' + outside both circles.",
+              "$B'$ = 'A only' + outside both circles.",
+              "The region common to both is only the region outside both circles."
+            ],
+            "finalAnswer": "Shade only the region inside the rectangle $\\xi$ but outside both circles.",
+            "solutionFigures": [],
+            "tip": "By De Morgan's law, $A' \\cap B' = (A \\cup B)'$: the region outside the union."
+          }
+        },
+        {
+          "id": "ch11_ex7_q7c",
+          "number": "7(c)",
+          "category": null,
+          "questionText": "Shade the region $A' \\cap B' \\cap C$ on a Venn diagram showing three overlapping circles $A$, $B$ and $C$ inside the universal set $\\xi$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$A' \\cap B' \\cap C$ = outcomes in $C$ but in neither $A$ nor $B$.",
+            "steps": [
+              "Given: three overlapping circles $A$, $B$, $C$. Goal: shade $A' \\cap B' \\cap C$.",
+              "The outcome must be in $C$.",
+              "It must not be in $A$ and must not be in $B$.",
+              "So remove from circle $C$ every part that overlaps $A$ or $B$."
+            ],
+            "finalAnswer": "Shade only the '$C$ only' region: the part of circle $C$ that does not overlap circle $A$ or circle $B$.",
+            "solutionFigures": [],
+            "tip": "Each condition joined by $\\cap$ must hold at once, so the shaded region gets smaller with every extra condition."
+          }
+        },
+        {
+          "id": "ch11_ex7_q8a",
+          "number": "8(a)",
+          "category": null,
+          "questionText": "State the definition of ${}^{n}P_{r}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "${}^{n}P_{r} = \\frac{n!}{(n-r)!}$",
+            "steps": [
+              "Goal: define ${}^{n}P_{r}$.",
+              "${}^{n}P_{r}$ is the number of permutations (ordered arrangements) of $r$ objects chosen from $n$ distinct objects.",
+              "Order matters, and no object is used more than once.",
+              "${}^{n}P_{r} = n(n-1)(n-2)\\cdots(n-r+1) = \\frac{n!}{(n-r)!}$"
+            ],
+            "finalAnswer": "${}^{n}P_{r}$ is the number of ways of choosing and arranging $r$ objects from $n$ distinct objects when order is important: ${}^{n}P_{r} = \\frac{n!}{(n-r)!}$.",
+            "solutionFigures": [],
+            "tip": "Use permutations when order matters and combinations (${}^{n}C_{r}$) when it does not."
+          }
+        },
+        {
+          "id": "ch11_ex7_q8b",
+          "number": "8(b)",
+          "category": null,
+          "questionText": "Without a calculator, compute the value of ${}^{10}P_{3}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "${}^{n}P_{r} = \\frac{n!}{(n-r)!}$",
+            "steps": [
+              "Given: $n = 10$, $r = 3$. Goal: ${}^{10}P_{3}$.",
+              "${}^{10}P_{3} = \\frac{10!}{(10-3)!} = \\frac{10!}{7!}$",
+              "$= \\frac{10 \\times 9 \\times 8 \\times 7!}{7!} = 10 \\times 9 \\times 8$",
+              "$10 \\times 9 = 90$, and $90 \\times 8 = 720$"
+            ],
+            "finalAnswer": "${}^{10}P_{3} = 720$",
+            "solutionFigures": [],
+            "tip": "Cancel the $7!$ instead of working out $10!$ in full."
+          }
+        },
+        {
+          "id": "ch11_ex7_q8c",
+          "number": "8(c)",
+          "category": null,
+          "questionText": "Prove that ${}^{n}P_{r} = \\frac{n!}{(n-r)!}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication principle and $n! = n(n-1)(n-2)\\cdots 2 \\times 1$",
+            "steps": [
+              "Goal: show that the number of ordered arrangements of $r$ objects from $n$ equals $\\frac{n!}{(n-r)!}$.",
+              "Fill $r$ positions in order. Position 1 has $n$ choices, position 2 has $n-1$, position 3 has $n-2$, ..., position $r$ has $n-r+1$.",
+              "Multiplication principle: ${}^{n}P_{r} = n(n-1)(n-2)\\cdots(n-r+1)$",
+              "Multiply and divide by $(n-r)! = (n-r)(n-r-1)\\cdots 2 \\times 1$:",
+              "${}^{n}P_{r} = \\frac{n(n-1)\\cdots(n-r+1) \\times (n-r)(n-r-1)\\cdots 2 \\times 1}{(n-r)!}$",
+              "The numerator is the product of every whole number from $n$ down to 1, which is $n!$.",
+              "Therefore ${}^{n}P_{r} = \\frac{n!}{(n-r)!}$."
+            ],
+            "finalAnswer": "${}^{n}P_{r} = n(n-1)\\cdots(n-r+1) = \\frac{n!}{(n-r)!}$, as required.",
+            "solutionFigures": [],
+            "tip": "The last factor is $n-r+1$, not $n-r$: there are exactly $r$ factors."
+          }
+        },
+        {
+          "id": "ch11_ex7_q9",
+          "number": "9",
+          "category": null,
+          "questionText": "MC From past experience, it is concluded that there is a 99% probability that July will be a wet month in Launceston (it has an average rainfall of approximately 80 mm). The probability that July will not be a wet month next year in Launceston is:\nA. 99%  B. 0.99  C. $\\frac{1}{100}$  D. 1",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complement rule: $\\Pr(W') = 1 - \\Pr(W)$",
+            "steps": [
+              "Given: $\\Pr(W) = 99\\% = 0.99$, where $W$ = July is wet. Goal: $\\Pr(W')$.",
+              "$\\Pr(W') = 1 - 0.99 = 0.01$",
+              "$0.01 = \\frac{1}{100}$"
+            ],
+            "finalAnswer": "C: $\\Pr(\\text{not wet}) = \\frac{1}{100}$",
+            "solutionFigures": [],
+            "tip": "'Not' points to the complement: subtract from 1."
+          }
+        },
+        {
+          "id": "ch11_ex7_q10",
+          "number": "10",
+          "category": null,
+          "questionText": "MC A card is drawn from a well-shuffled deck of 52 cards. Select the theoretical probability of not selecting a red card.\nA. $\\frac{3}{4}$  B. $\\frac{1}{4}$  C. $\\frac{1}{13}$  D. $\\frac{1}{2}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complement rule: $\\Pr(R') = 1 - \\Pr(R)$, with $\\Pr(E) = \\frac{n(E)}{n(\\xi)}$",
+            "steps": [
+              "Given: 52 cards, 26 red and 26 black. Goal: $\\Pr(\\text{not red})$.",
+              "$\\Pr(\\text{red}) = \\frac{26}{52} = \\frac{1}{2}$",
+              "$\\Pr(\\text{not red}) = 1 - \\frac{1}{2} = \\frac{1}{2}$"
+            ],
+            "finalAnswer": "D: $\\Pr(\\text{not red}) = \\frac{1}{2}$",
+            "solutionFigures": [],
+            "tip": "Not red means black: half of the deck."
+          }
+        },
+        {
+          "id": "ch11_ex7_q11",
+          "number": "11",
+          "category": null,
+          "questionText": "MC Choose which of the following events is not equally likely.\nA. Obtaining a 5 or obtaining a 1 when a die is rolled\nB. Obtaining a club or obtaining a diamond when a card is drawn from a pack of cards\nC. Obtaining 2 Heads or obtaining 2 Tails when a coin is tossed twice\nD. Obtaining 2 Heads or obtaining 1 Head when a coin is tossed twice",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\frac{n(E)}{n(\\xi)}$ for equally likely outcomes",
+            "steps": [
+              "Goal: find the pair of events with different probabilities.",
+              "A: $\\Pr(5) = \\frac{1}{6}$, $\\Pr(1) = \\frac{1}{6}$, equal.",
+              "B: $\\Pr(\\text{club}) = \\frac{13}{52}$, $\\Pr(\\text{diamond}) = \\frac{13}{52}$, equal.",
+              "Two coin tosses: $\\xi = \\{HH, HT, TH, TT\\}$.",
+              "C: $\\Pr(HH) = \\frac{1}{4}$, $\\Pr(TT) = \\frac{1}{4}$, equal.",
+              "D: $\\Pr(HH) = \\frac{1}{4}$, but $\\Pr(\\text{1 Head}) = \\Pr(\\{HT, TH\\}) = \\frac{2}{4} = \\frac{1}{2}$, not equal."
+            ],
+            "finalAnswer": "D: 2 Heads ($\\frac{1}{4}$) and 1 Head ($\\frac{1}{2}$) are not equally likely.",
+            "solutionFigures": [],
+            "tip": "One Head can happen in two orders (HT and TH); remember to count both."
+          }
+        },
+        {
+          "id": "ch11_ex7_q12",
+          "number": "12",
+          "category": null,
+          "questionText": "MC The Australian cricket team has won 12 of the last 15 Test matches. Select the experimental probability of Australia not winning its next Test match.\nA. $\\frac{4}{5}$  B. $\\frac{1}{5}$  C. $\\frac{1}{4}$  D. $\\frac{3}{4}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Experimental probability $= \\frac{\\text{number of successful trials}}{\\text{number of trials}}$",
+            "steps": [
+              "Given: 15 matches, 12 wins. Goal: experimental $\\Pr(\\text{not win})$.",
+              "Matches not won $= 15 - 12 = 3$",
+              "$\\Pr(\\text{not win}) = \\frac{3}{15}$",
+              "Simplify by dividing by 3: $\\frac{3}{15} = \\frac{1}{5}$"
+            ],
+            "finalAnswer": "B: $\\Pr(\\text{not winning}) = \\frac{1}{5}$",
+            "solutionFigures": [],
+            "tip": "$\\frac{4}{5}$ is the probability of winning, so read whether the question asks for 'not'."
+          }
+        },
+        {
+          "id": "ch11_ex7_q13a",
+          "number": "13(a)",
+          "category": null,
+          "questionText": "A card is drawn from a well-shuffled pack of 52 cards. Calculate the theoretical probability of drawing an ace.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\frac{n(E)}{n(\\xi)}$",
+            "steps": [
+              "Given: $n(\\xi) = 52$; there are 4 aces. Goal: $\\Pr(\\text{ace})$.",
+              "$\\Pr(\\text{ace}) = \\frac{4}{52}$",
+              "Simplify by dividing by 4: $\\frac{4}{52} = \\frac{1}{13}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{ace}) = \\frac{1}{13}$",
+            "solutionFigures": [],
+            "tip": "Each rank (A, 2, ..., K) appears once in each of the 4 suits."
+          }
+        },
+        {
+          "id": "ch11_ex7_q13b",
+          "number": "13(b)",
+          "category": null,
+          "questionText": "A card is drawn from a well-shuffled pack of 52 cards. Calculate the theoretical probability of drawing a spade.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\frac{n(E)}{n(\\xi)}$",
+            "steps": [
+              "Given: $n(\\xi) = 52$; there are 13 spades. Goal: $\\Pr(\\text{spade})$.",
+              "$\\Pr(\\text{spade}) = \\frac{13}{52}$",
+              "Simplify by dividing by 13: $\\frac{13}{52} = \\frac{1}{4}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{spade}) = \\frac{1}{4}$",
+            "solutionFigures": [],
+            "tip": "There are 4 suits of 13 cards, so any one suit has probability $\\frac{1}{4}$."
+          }
+        },
+        {
+          "id": "ch11_ex7_q13c",
+          "number": "13(c)",
+          "category": null,
+          "questionText": "A card is drawn from a well-shuffled pack of 52 cards. Calculate the theoretical probability of drawing a queen or a king.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Addition rule for mutually exclusive events: $\\Pr(Q \\cup K) = \\Pr(Q) + \\Pr(K)$",
+            "steps": [
+              "Given: 4 queens and 4 kings in 52 cards. Goal: $\\Pr(\\text{queen or king})$.",
+              "A card cannot be both a queen and a king, so the events are mutually exclusive.",
+              "$\\Pr(Q \\cup K) = \\frac{4}{52} + \\frac{4}{52} = \\frac{8}{52}$",
+              "Simplify by dividing by 4: $\\frac{8}{52} = \\frac{2}{13}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{queen or king}) = \\frac{2}{13}$",
+            "solutionFigures": [],
+            "tip": "Check whether the events overlap before adding; here they do not."
+          }
+        },
+        {
+          "id": "ch11_ex7_q13d",
+          "number": "13(d)",
+          "category": null,
+          "questionText": "A card is drawn from a well-shuffled pack of 52 cards. Calculate the theoretical probability of drawing a card that is not a heart.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complement rule: $\\Pr(H') = 1 - \\Pr(H)$",
+            "steps": [
+              "Given: 13 hearts in 52 cards. Goal: $\\Pr(\\text{not a heart})$.",
+              "$\\Pr(H) = \\frac{13}{52} = \\frac{1}{4}$",
+              "$\\Pr(H') = 1 - \\frac{1}{4} = \\frac{3}{4}$",
+              "Check: $\\frac{39}{52} = \\frac{3}{4}$, since $52 - 13 = 39$ cards are not hearts."
+            ],
+            "finalAnswer": "$\\Pr(\\text{not a heart}) = \\frac{3}{4}$",
+            "solutionFigures": [],
+            "tip": "For a 'not' question, the complement rule is usually the quickest method."
+          }
+        },
+        {
+          "id": "ch11_ex7_q14a",
+          "number": "14(a)",
+          "category": null,
+          "questionText": "A die is rolled five times. Calculate the probability of rolling five 6s.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for independent events: $\\Pr(A \\cap B \\cap \\dots) = \\Pr(A) \\times \\Pr(B) \\times \\dots$",
+            "steps": [
+              "Given: each roll is independent, with $\\Pr(6) = \\frac{1}{6}$. Goal: $\\Pr(\\text{five 6s})$.",
+              "$\\Pr(66666) = \\frac{1}{6} \\times \\frac{1}{6} \\times \\frac{1}{6} \\times \\frac{1}{6} \\times \\frac{1}{6} = \\left(\\frac{1}{6}\\right)^5$",
+              "$6^5 = 6 \\times 6 \\times 6 \\times 6 \\times 6 = 7776$",
+              "$\\Pr(\\text{five 6s}) = \\frac{1}{7776}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{five 6s}) = \\frac{1}{7776}$",
+            "solutionFigures": [],
+            "tip": "Rolls of a die are independent, so multiply the probability for each roll."
+          }
+        },
+        {
+          "id": "ch11_ex7_q14b",
+          "number": "14(b)",
+          "category": null,
+          "questionText": "A die is rolled five times. Calculate the probability of not rolling five 6s.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complement rule: $\\Pr(E') = 1 - \\Pr(E)$",
+            "steps": [
+              "Given: from part (a), $\\Pr(\\text{five 6s}) = \\frac{1}{7776}$. Goal: $\\Pr(\\text{not five 6s})$.",
+              "$\\Pr(\\text{not five 6s}) = 1 - \\frac{1}{7776}$",
+              "$= \\frac{7776}{7776} - \\frac{1}{7776} = \\frac{7775}{7776}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{not five 6s}) = \\frac{7775}{7776}$",
+            "solutionFigures": [],
+            "tip": "'Not five 6s' is not the same as 'no 6s'; it includes every result except 66666."
+          }
+        },
+        {
+          "id": "ch11_ex7_q15a",
+          "number": "15(a)",
+          "category": null,
+          "questionText": "Alan and Mary own 3 of the 8 dogs in a race. Evaluate the probability that one of Alan's or Mary's dogs will win (assume each dog is equally likely to win).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\frac{n(E)}{n(\\xi)}$",
+            "steps": [
+              "Given: 8 dogs, each equally likely to win; Alan and Mary own 3. Goal: $\\Pr(\\text{one of their dogs wins})$.",
+              "Only one dog can win, so the favourable outcomes are their 3 dogs.",
+              "$\\Pr = \\frac{3}{8}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{Alan's or Mary's dog wins}) = \\frac{3}{8}$",
+            "solutionFigures": [],
+            "tip": "Exactly one dog wins, so add the 3 equal chances of $\\frac{1}{8}$."
+          }
+        },
+        {
+          "id": "ch11_ex7_q15b",
+          "number": "15(b)",
+          "category": null,
+          "questionText": "Alan and Mary own 3 of the 8 dogs in a race. Evaluate the probability that none of Alan's or Mary's dogs will win (assume each dog is equally likely to win).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complement rule: $\\Pr(E') = 1 - \\Pr(E)$",
+            "steps": [
+              "Given: from part (a), $\\Pr(\\text{one of their dogs wins}) = \\frac{3}{8}$. Goal: $\\Pr(\\text{none of their dogs wins})$.",
+              "$\\Pr = 1 - \\frac{3}{8} = \\frac{5}{8}$",
+              "Check: the other $8 - 3 = 5$ dogs give $\\frac{5}{8}$."
+            ],
+            "finalAnswer": "$\\Pr(\\text{none of their dogs wins}) = \\frac{5}{8}$",
+            "solutionFigures": [],
+            "tip": "Parts (a) and (b) are complements, so they must add to 1."
+          }
+        },
+        {
+          "id": "ch11_ex7_q16a",
+          "number": "16(a)",
+          "category": null,
+          "questionText": "A die is rolled. Event $A$ is obtaining an even number. Event $B$ is obtaining a 3. Explain if events $A$ and $B$ are mutually exclusive.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$A$ and $B$ are mutually exclusive if $A \\cap B = \\varnothing$.",
+            "steps": [
+              "Given: $A = \\{2, 4, 6\\}$, $B = \\{3\\}$. Goal: decide whether $A \\cap B = \\varnothing$.",
+              "3 is odd, so it is not in $A$.",
+              "$A \\cap B = \\varnothing$"
+            ],
+            "finalAnswer": "Yes, $A$ and $B$ are mutually exclusive: you cannot roll a number that is both even and equal to 3.",
+            "solutionFigures": [],
+            "tip": "List each event as a set; if no element is shared, the events are mutually exclusive."
+          }
+        },
+        {
+          "id": "ch11_ex7_q16b",
+          "number": "16(b)",
+          "category": null,
+          "questionText": "A die is rolled. Event $A$ is obtaining an even number. Event $B$ is obtaining a 3. Calculate $\\Pr(A)$ and $\\Pr(B)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\frac{n(E)}{n(\\xi)}$",
+            "steps": [
+              "Given: $\\xi = \\{1, 2, 3, 4, 5, 6\\}$, $A = \\{2, 4, 6\\}$, $B = \\{3\\}$. Goal: $\\Pr(A)$, $\\Pr(B)$.",
+              "$\\Pr(A) = \\frac{3}{6} = \\frac{1}{2}$",
+              "$\\Pr(B) = \\frac{1}{6}$"
+            ],
+            "finalAnswer": "$\\Pr(A) = \\frac{1}{2}$ and $\\Pr(B) = \\frac{1}{6}$",
+            "solutionFigures": [],
+            "tip": "Simplify $\\frac{3}{6}$ to $\\frac{1}{2}$."
+          }
+        },
+        {
+          "id": "ch11_ex7_q16c",
+          "number": "16(c)",
+          "category": null,
+          "questionText": "A die is rolled. Event $A$ is obtaining an even number. Event $B$ is obtaining a 3. Calculate $\\Pr(A \\cup B)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Addition rule for mutually exclusive events: $\\Pr(A \\cup B) = \\Pr(A) + \\Pr(B)$",
+            "steps": [
+              "Given: $\\Pr(A) = \\frac{1}{2}$, $\\Pr(B) = \\frac{1}{6}$, and $A$, $B$ are mutually exclusive. Goal: $\\Pr(A \\cup B)$.",
+              "$\\Pr(A \\cup B) = \\frac{1}{2} + \\frac{1}{6} = \\frac{3}{6} + \\frac{1}{6} = \\frac{4}{6}$",
+              "Simplify by dividing by 2: $\\frac{4}{6} = \\frac{2}{3}$",
+              "Check: $A \\cup B = \\{2, 3, 4, 6\\}$, giving $\\frac{4}{6}$."
+            ],
+            "finalAnswer": "$\\Pr(A \\cup B) = \\frac{2}{3}$",
+            "solutionFigures": [],
+            "tip": "Write the fractions over a common denominator before adding."
+          }
+        },
+        {
+          "id": "ch11_ex7_q17a",
+          "number": "17(a)",
+          "category": null,
+          "questionText": "A card is drawn from a shuffled pack of 52 playing cards. Event $A$ is drawing a club and event $B$ is drawing an ace. Explain if events $A$ and $B$ are mutually exclusive.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$A$ and $B$ are mutually exclusive if $A \\cap B = \\varnothing$.",
+            "steps": [
+              "Given: $A$ = club, $B$ = ace. Goal: check whether they can occur together.",
+              "The ace of clubs is both a club and an ace.",
+              "$A \\cap B = \\{\\text{ace of clubs}\\} \\neq \\varnothing$"
+            ],
+            "finalAnswer": "No. They are not mutually exclusive, because the ace of clubs is both a club and an ace.",
+            "solutionFigures": [],
+            "tip": "One shared outcome is enough to make events not mutually exclusive."
+          }
+        },
+        {
+          "id": "ch11_ex7_q17b",
+          "number": "17(b)",
+          "category": null,
+          "questionText": "A card is drawn from a shuffled pack of 52 playing cards. Event $A$ is drawing a club and event $B$ is drawing an ace. Calculate $\\Pr(A)$, $\\Pr(B)$ and $\\Pr(A \\cap B)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\frac{n(E)}{n(\\xi)}$",
+            "steps": [
+              "Given: 13 clubs, 4 aces, 1 ace of clubs in 52 cards. Goal: $\\Pr(A)$, $\\Pr(B)$, $\\Pr(A \\cap B)$.",
+              "$\\Pr(A) = \\frac{13}{52} = \\frac{1}{4}$",
+              "$\\Pr(B) = \\frac{4}{52} = \\frac{1}{13}$",
+              "$\\Pr(A \\cap B) = \\frac{1}{52}$"
+            ],
+            "finalAnswer": "$\\Pr(A) = \\frac{1}{4}$, $\\Pr(B) = \\frac{1}{13}$, $\\Pr(A \\cap B) = \\frac{1}{52}$",
+            "solutionFigures": [],
+            "tip": "$A \\cap B$ is the single card that is a club and an ace."
+          }
+        },
+        {
+          "id": "ch11_ex7_q17c",
+          "number": "17(c)",
+          "category": null,
+          "questionText": "A card is drawn from a shuffled pack of 52 playing cards. Event $A$ is drawing a club and event $B$ is drawing an ace. Calculate $\\Pr(A \\cup B)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Addition rule: $\\Pr(A \\cup B) = \\Pr(A) + \\Pr(B) - \\Pr(A \\cap B)$",
+            "steps": [
+              "Given: $\\Pr(A) = \\frac{13}{52}$, $\\Pr(B) = \\frac{4}{52}$, $\\Pr(A \\cap B) = \\frac{1}{52}$. Goal: $\\Pr(A \\cup B)$.",
+              "$\\Pr(A \\cup B) = \\frac{13}{52} + \\frac{4}{52} - \\frac{1}{52} = \\frac{16}{52}$",
+              "Simplify by dividing by 4: $\\frac{16}{52} = \\frac{4}{13}$"
+            ],
+            "finalAnswer": "$\\Pr(A \\cup B) = \\frac{4}{13}$",
+            "solutionFigures": [],
+            "tip": "Subtract the overlap, or the ace of clubs gets counted twice."
+          }
+        },
+        {
+          "id": "ch11_ex7_q18a",
+          "number": "18(a)",
+          "category": null,
+          "questionText": "A tetrahedral die is numbered 0, 1, 2 and 3. Two of these dice are rolled and the sum of the numbers (the number on the face that the die sits on) is taken. Show the possible outcomes in a two-way table.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Two-way table: each cell = Die 1 value + Die 2 value; $n(\\xi) = 4 \\times 4 = 16$",
+            "steps": [
+              "Given: each die shows 0, 1, 2 or 3. Goal: table of sums.",
+              "Die 1 = 0: sums 0, 1, 2, 3 (for Die 2 = 0, 1, 2, 3)",
+              "Die 1 = 1: sums 1, 2, 3, 4",
+              "Die 1 = 2: sums 2, 3, 4, 5",
+              "Die 1 = 3: sums 3, 4, 5, 6",
+              "There are $4 \\times 4 = 16$ equally likely cells."
+            ],
+            "finalAnswer": "Table (rows Die 1 = 0, 1, 2, 3; columns Die 2 = 0, 1, 2, 3): row 0: 0, 1, 2, 3; row 1: 1, 2, 3, 4; row 2: 2, 3, 4, 5; row 3: 3, 4, 5, 6.",
+            "solutionFigures": [],
+            "tip": "Remember the faces start at 0, not 1."
+          }
+        },
+        {
+          "id": "ch11_ex7_q18b",
+          "number": "18(b)",
+          "category": null,
+          "questionText": "A tetrahedral die is numbered 0, 1, 2 and 3. Two of these dice are rolled and the sum of the numbers is taken. Determine if all the outcomes (totals) are equally likely.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(\\text{total}) = \\frac{\\text{number of cells with that total}}{16}$",
+            "steps": [
+              "Given: the 16-cell table from part (a). Goal: compare how often each total occurs.",
+              "Frequencies: 0 → 1, 1 → 2, 2 → 3, 3 → 4, 4 → 3, 5 → 2, 6 → 1 (total $1+2+3+4+3+2+1 = 16$).",
+              "For example, $\\Pr(0) = \\frac{1}{16}$ but $\\Pr(3) = \\frac{4}{16} = \\frac{1}{4}$."
+            ],
+            "finalAnswer": "No, the totals are not equally likely; they occur with different frequencies.",
+            "solutionFigures": [],
+            "tip": "The 16 cells are equally likely, but the totals are not, because some totals appear in more cells."
+          }
+        },
+        {
+          "id": "ch11_ex7_q18c",
+          "number": "18(c)",
+          "category": null,
+          "questionText": "A tetrahedral die is numbered 0, 1, 2 and 3. Two of these dice are rolled and the sum of the numbers is taken. Determine which total has the least chance of being rolled.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(\\text{total}) = \\frac{\\text{frequency}}{16}$",
+            "steps": [
+              "Given: frequencies 0 → 1, 1 → 2, 2 → 3, 3 → 4, 4 → 3, 5 → 2, 6 → 1. Goal: the smallest probability.",
+              "0 (from 0 + 0) and 6 (from 3 + 3) each occur once: $\\Pr = \\frac{1}{16}$."
+            ],
+            "finalAnswer": "Totals 0 and 6 have the least chance, each $\\frac{1}{16}$.",
+            "solutionFigures": [],
+            "tip": "The extreme totals can only be made one way."
+          }
+        },
+        {
+          "id": "ch11_ex7_q18d",
+          "number": "18(d)",
+          "category": null,
+          "questionText": "A tetrahedral die is numbered 0, 1, 2 and 3. Two of these dice are rolled and the sum of the numbers is taken. Determine which total has the best chance of being rolled.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(\\text{total}) = \\frac{\\text{frequency}}{16}$",
+            "steps": [
+              "Given: the frequencies from part (b). Goal: the largest probability.",
+              "Total 3 occurs 4 times (0+3, 1+2, 2+1, 3+0).",
+              "$\\Pr(3) = \\frac{4}{16} = \\frac{1}{4}$"
+            ],
+            "finalAnswer": "A total of 3 has the best chance, $\\Pr(3) = \\frac{1}{4}$.",
+            "solutionFigures": [],
+            "tip": "The most likely total lies on the main diagonal of the table."
+          }
+        },
+        {
+          "id": "ch11_ex7_q18e",
+          "number": "18(e)",
+          "category": null,
+          "questionText": "A tetrahedral die is numbered 0, 1, 2 and 3. Two of these dice are rolled and the sum of the numbers is taken. Determine which sums have the same chance of being rolled.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Totals with equal frequency have equal probability.",
+            "steps": [
+              "Given: frequencies 0 → 1, 1 → 2, 2 → 3, 3 → 4, 4 → 3, 5 → 2, 6 → 1. Goal: pairs with equal frequency.",
+              "0 and 6: both $\\frac{1}{16}$",
+              "1 and 5: both $\\frac{2}{16} = \\frac{1}{8}$",
+              "2 and 4: both $\\frac{3}{16}$"
+            ],
+            "finalAnswer": "0 and 6; 1 and 5; 2 and 4 have the same chance.",
+            "solutionFigures": [],
+            "tip": "The distribution is symmetrical about the middle total, 3."
+          }
+        },
+        {
+          "id": "ch11_ex7_q19a",
+          "number": "19(a)",
+          "category": null,
+          "questionText": "A bag contains 20 pears, of which 5 are bad. Cathy picks 2 pears (without replacement) from the bag. Evaluate the probability that both pears are bad.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for dependent events: $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B \\mid A)$",
+            "steps": [
+              "Given: 5 bad (B) and 15 good (G); 20 pears, no replacement. Goal: $\\Pr(BB)$.",
+              "$\\Pr(\\text{1st bad}) = \\frac{5}{20}$",
+              "After one bad pear is taken: 4 bad of 19, so $\\Pr(\\text{2nd bad} \\mid \\text{1st bad}) = \\frac{4}{19}$",
+              "$\\Pr(BB) = \\frac{5}{20} \\times \\frac{4}{19} = \\frac{20}{380}$",
+              "Simplify by dividing by 20: $\\frac{20}{380} = \\frac{1}{19}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{both bad}) = \\frac{1}{19}$",
+            "solutionFigures": [],
+            "tip": "Without replacement, both the number of bad pears and the total drop by 1 for the second pick."
+          }
+        },
+        {
+          "id": "ch11_ex7_q19b",
+          "number": "19(b)",
+          "category": null,
+          "questionText": "A bag contains 20 pears, of which 5 are bad. Cathy picks 2 pears (without replacement) from the bag. Evaluate the probability that both pears are good.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for dependent events: $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B \\mid A)$",
+            "steps": [
+              "Given: 15 good of 20, no replacement. Goal: $\\Pr(GG)$.",
+              "$\\Pr(\\text{1st good}) = \\frac{15}{20}$",
+              "$\\Pr(\\text{2nd good} \\mid \\text{1st good}) = \\frac{14}{19}$",
+              "$\\Pr(GG) = \\frac{15}{20} \\times \\frac{14}{19} = \\frac{210}{380}$",
+              "Simplify by dividing by 10: $\\frac{210}{380} = \\frac{21}{38}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{both good}) = \\frac{21}{38}$",
+            "solutionFigures": [],
+            "tip": "Multiply along the branches of the tree diagram for successive picks."
+          }
+        },
+        {
+          "id": "ch11_ex7_q19c",
+          "number": "19(c)",
+          "category": null,
+          "questionText": "A bag contains 20 pears, of which 5 are bad. Cathy picks 2 pears (without replacement) from the bag. Evaluate the probability that one of the two pears is good (exactly one good pear).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule (dependent events) on each branch, then the addition rule for mutually exclusive outcomes",
+            "steps": [
+              "Given: 5 bad, 15 good, no replacement. Goal: $\\Pr(\\text{exactly one good}) = \\Pr(GB) + \\Pr(BG)$.",
+              "$\\Pr(GB) = \\frac{15}{20} \\times \\frac{5}{19} = \\frac{75}{380}$",
+              "$\\Pr(BG) = \\frac{5}{20} \\times \\frac{15}{19} = \\frac{75}{380}$",
+              "$\\Pr(\\text{exactly one good}) = \\frac{75}{380} + \\frac{75}{380} = \\frac{150}{380}$",
+              "Simplify by dividing by 10: $\\frac{150}{380} = \\frac{15}{38}$",
+              "Check: $\\frac{20}{380} + \\frac{210}{380} + \\frac{150}{380} = \\frac{380}{380} = 1$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{exactly one good}) = \\frac{15}{38}$",
+            "solutionFigures": [],
+            "tip": "'One good' can happen in two orders (good then bad, or bad then good); include both."
+          }
+        },
+        {
+          "id": "ch11_ex7_q20a",
+          "number": "20(a)",
+          "category": null,
+          "questionText": "Determine the probability of drawing 2 aces from a pack of 52 cards if the first card is replaced before the second one is drawn.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for independent events: $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B)$",
+            "steps": [
+              "Given: 4 aces in 52 cards; the card is replaced, so the draws are independent. Goal: $\\Pr(\\text{2 aces})$.",
+              "$\\Pr(\\text{ace}) = \\frac{4}{52} = \\frac{1}{13}$ on each draw.",
+              "$\\Pr(\\text{2 aces}) = \\frac{1}{13} \\times \\frac{1}{13} = \\frac{1}{169}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{2 aces with replacement}) = \\frac{1}{169}$",
+            "solutionFigures": [],
+            "tip": "With replacement, the pack is the same for each draw, so the probability does not change."
+          }
+        },
+        {
+          "id": "ch11_ex7_q20b",
+          "number": "20(b)",
+          "category": null,
+          "questionText": "Determine the probability of drawing 2 aces from a pack of 52 cards if the first card drawn is not replaced.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for dependent events: $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B \\mid A)$",
+            "steps": [
+              "Given: 4 aces in 52 cards, no replacement. Goal: $\\Pr(\\text{2 aces})$.",
+              "$\\Pr(\\text{1st ace}) = \\frac{4}{52}$",
+              "$\\Pr(\\text{2nd ace} \\mid \\text{1st ace}) = \\frac{3}{51}$",
+              "$\\Pr(\\text{2 aces}) = \\frac{4}{52} \\times \\frac{3}{51} = \\frac{12}{2652}$",
+              "Simplify by dividing by 12: $\\frac{12}{2652} = \\frac{1}{221}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{2 aces without replacement}) = \\frac{1}{221}$",
+            "solutionFigures": [],
+            "tip": "Without replacement the second draw is from 51 cards with only 3 aces left."
+          }
+        },
+        {
+          "id": "ch11_ex7_q21",
+          "number": "21",
+          "category": null,
+          "questionText": "A free-style snowboard competition has 15 entrants. Determine how many ways the first, second and third places can be filled.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Permutations: ${}^{n}P_{r} = \\frac{n!}{(n-r)!}$",
+            "steps": [
+              "Given: 15 entrants, 3 ordered places. Goal: ${}^{15}P_{3}$.",
+              "1st place: 15 choices; 2nd: 14 choices; 3rd: 13 choices.",
+              "${}^{15}P_{3} = 15 \\times 14 \\times 13$",
+              "$15 \\times 14 = 210$, and $210 \\times 13 = 2730$"
+            ],
+            "finalAnswer": "2730 ways",
+            "solutionFigures": [],
+            "tip": "Placings are ordered, so use permutations, not combinations."
+          }
+        },
+        {
+          "id": "ch11_ex7_q22",
+          "number": "22",
+          "category": null,
+          "questionText": "The main cricket ground in Brisbane is called the Gabba, which is short for Woolloongabba. Determine how many different arrangements of letters can be made from the word WOOLLOONGABBA.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Arrangements with like objects: $\\frac{n!}{n_1!\\, n_2!\\, \\cdots}$",
+            "steps": [
+              "Given: WOOLLOONGABBA has 13 letters. Goal: number of distinct arrangements.",
+              "Letter counts: W 1, O 4, L 2, N 1, G 1, A 2, B 2 (check: $1+4+2+1+1+2+2 = 13$).",
+              "Arrangements $= \\frac{13!}{4!\\, 2!\\, 2!\\, 2!}$",
+              "$13! = 6\\,227\\,020\\,800$ and $4! \\times 2! \\times 2! \\times 2! = 24 \\times 8 = 192$",
+              "$\\frac{6\\,227\\,020\\,800}{192} = 32\\,432\\,400$"
+            ],
+            "finalAnswer": "32 432 400 arrangements",
+            "solutionFigures": [],
+            "tip": "Divide by the factorial of each repeated letter's count, since swapping identical letters gives the same word."
+          }
+        },
+        {
+          "id": "ch11_ex7_q23",
+          "number": "23",
+          "category": null,
+          "questionText": "A committee of 5 men and 5 women is to be chosen from 8 men and 9 women. Determine how many ways this can be done.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Combinations ${}^{n}C_{r} = \\frac{n!}{r!(n-r)!}$ and the multiplication principle",
+            "steps": [
+              "Given: choose 5 of 8 men and 5 of 9 women; order does not matter. Goal: number of committees.",
+              "Men: ${}^{8}C_{5} = \\frac{8!}{5!\\,3!} = \\frac{8 \\times 7 \\times 6}{3 \\times 2 \\times 1} = 56$",
+              "Women: ${}^{9}C_{5} = \\frac{9!}{5!\\,4!} = \\frac{9 \\times 8 \\times 7 \\times 6}{4 \\times 3 \\times 2 \\times 1} = \\frac{3024}{24} = 126$",
+              "Multiplication principle: $56 \\times 126 = 7056$"
+            ],
+            "finalAnswer": "7056 ways",
+            "solutionFigures": [],
+            "tip": "Multiply the separate choices for men and women; do not add them."
+          }
+        },
+        {
+          "id": "ch11_ex7_q24a",
+          "number": "24(a)",
+          "category": null,
+          "questionText": "The Maryborough Tennis Championships involve 16 players. The organisers plan to use 3 courts and assume that each match will last on average 2 hours and that no more than 4 matches will be played on any court per day. In a 'round robin' each player plays every other player once. If the organisers use a round robin format, determine how many matches will be played in all.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Number of matches $= {}^{n}C_{2} = \\frac{n(n-1)}{2}$",
+            "steps": [
+              "Given: 16 players; each pair plays once. Goal: number of matches.",
+              "A match is an unordered pair of players, so use ${}^{16}C_{2}$.",
+              "${}^{16}C_{2} = \\frac{16 \\times 15}{2} = \\frac{240}{2} = 120$"
+            ],
+            "finalAnswer": "120 matches",
+            "solutionFigures": [],
+            "tip": "A vs B is the same match as B vs A, so divide by 2."
+          }
+        },
+        {
+          "id": "ch11_ex7_q24b",
+          "number": "24(b)",
+          "category": null,
+          "questionText": "The Maryborough Tennis Championships involve 16 players. The organisers use 3 courts, each match lasts on average 2 hours and no more than 4 matches are played on any court per day. Using the round robin format (120 matches), determine how long the tournament lasts.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Days $= \\frac{\\text{total matches}}{\\text{matches per day}}$",
+            "steps": [
+              "Given: 120 matches; 3 courts × 4 matches = 12 matches per day. Goal: tournament length.",
+              "Days $= \\frac{120}{12} = 10$"
+            ],
+            "finalAnswer": "The tournament lasts 10 days.",
+            "solutionFigures": [],
+            "tip": "Find the daily capacity of all courts first (3 × 4 = 12 matches)."
+          }
+        },
+        {
+          "id": "ch11_ex7_q25a",
+          "number": "25(a)",
+          "category": null,
+          "questionText": "The Maryborough Tennis Championships involve 16 players. The organisers split the 16 players into two pools of 8 players each. After a 'round robin' within each pool, a final is played between the winners of each pool. Determine how many matches are played in the tournament.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Round robin in a pool of $n$: ${}^{n}C_{2}$ matches",
+            "steps": [
+              "Given: 2 pools of 8 players, plus 1 final. Goal: total matches.",
+              "One pool: ${}^{8}C_{2} = \\frac{8 \\times 7}{2} = 28$ matches",
+              "Two pools: $2 \\times 28 = 56$ matches",
+              "Add the final: $56 + 1 = 57$ matches"
+            ],
+            "finalAnswer": "57 matches",
+            "solutionFigures": [],
+            "tip": "Don't forget the final between the two pool winners."
+          }
+        },
+        {
+          "id": "ch11_ex7_q25b",
+          "number": "25(b)",
+          "category": null,
+          "questionText": "The Maryborough Tennis Championships involve 16 players. The organisers use 3 courts, each match lasts on average 2 hours and no more than 4 matches are played on any court per day (so a day has four 2-hour time slots). With two pools of 8 (round robin) and a final (57 matches in total), determine how long the tournament lasts.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Time slots needed $= \\frac{\\text{matches}}{\\text{courts}}$ (rounded up), with 4 slots of 2 hours per day",
+            "steps": [
+              "Given: 56 pool matches + 1 final; 3 courts; 4 slots (8 hours of play) per day. Goal: tournament length.",
+              "Pool matches: $\\frac{56}{3} = 18\\frac{2}{3}$, so 19 time slots are needed (18 full slots hold 54 matches; slot 19 holds the last 2).",
+              "The final can only start after both pools finish, so it is played in slot 20.",
+              "20 slots $= \\frac{20}{4} = 5$ playing days, i.e. 4 full days plus 4 slots (8 hours) on day 5.",
+              "Simpler estimate used by the textbook: $\\frac{57}{3} = 19$ slots $= 4$ days $+ 3$ slots $= 4$ days 6 hours. This ignores that the final cannot be played at the same time as the last pool matches."
+            ],
+            "finalAnswer": "About 4 days 6 hours by simple division (textbook answer); allowing for the final being played after all pool matches, it takes 4 days 8 hours (5 full playing days).",
+            "solutionFigures": [],
+            "tip": "Check whether some matches must wait for others, since a final cannot run alongside the pool games."
+          }
+        },
+        {
+          "id": "ch11_ex7_q26a",
+          "number": "26(a)",
+          "category": null,
+          "questionText": "The Maryborough Tennis Championships involve 16 players. A 'knock out' format is one in which the loser of every match drops out and the winners proceed to the next round until there is only one winner left. If the game starts with 16 players, determine how many matches are needed before a winner is obtained.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Each match eliminates exactly one player.",
+            "steps": [
+              "Given: 16 players, knock out. Goal: number of matches.",
+              "Round 1: 8 matches (16 → 8 players)",
+              "Round 2: 4 matches (8 → 4)",
+              "Semi-finals: 2 matches (4 → 2)",
+              "Final: 1 match (2 → 1)",
+              "Total $= 8 + 4 + 2 + 1 = 15$ (also $16 - 1 = 15$, because 15 players must be eliminated)"
+            ],
+            "finalAnswer": "15 matches",
+            "solutionFigures": [],
+            "tip": "In a knock out, the number of matches is always one less than the number of players."
+          }
+        },
+        {
+          "id": "ch11_ex7_q26b",
+          "number": "26(b)",
+          "category": null,
+          "questionText": "The Maryborough Tennis Championships involve 16 players. The organisers use 3 courts, each match lasts on average 2 hours and no more than 4 matches are played on any court per day (four 2-hour slots per day). Using the knock out format (15 matches), determine how long the tournament lasts.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Schedule the matches in 2-hour slots on 3 courts; a later-round match can start only after both of its players have won their previous match.",
+            "steps": [
+              "Given: rounds of 8, 4, 2 and 1 matches; 3 courts; 4 slots per day. Goal: tournament length.",
+              "Slot 1: 3 first-round matches. Slot 2: 3 first-round matches.",
+              "Slot 3: last 2 first-round matches + 1 second-round match (the winners of two slot-1 matches).",
+              "Slot 4: the remaining 3 second-round matches. Day 1 is now full (4 slots).",
+              "Slot 5 (day 2): the 2 semi-finals.",
+              "Slot 6 (day 2): the final.",
+              "Total: 1 full day + 2 slots $= 1$ day $+ 2 \\times 2$ hours $= 1$ day 4 hours."
+            ],
+            "finalAnswer": "The tournament lasts 1 day 4 hours.",
+            "solutionFigures": [],
+            "tip": "Simply dividing 15 by 12 gives 1 day 2 hours, which is too short because the semi-finals and final must wait for earlier rounds."
+          }
+        },
+        {
+          "id": "ch11_ex7_q27a",
+          "number": "27(a)",
+          "category": null,
+          "questionText": "On grandparents day at a school, a group of grandparents was asked where they most like to take their grandchildren: the beach ($B$) or shopping ($S$). The Venn diagram shows: beach only 5, both beach and shopping 8, shopping only 2, neither 10. Determine the probability that a randomly selected grandparent preferred to take their grandchildren to the beach or shopping.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(B \\cup S) = \\frac{n(B \\cup S)}{n(\\xi)}$",
+            "steps": [
+              "Given: $n(B \\text{ only}) = 5$, $n(B \\cap S) = 8$, $n(S \\text{ only}) = 2$, neither $= 10$. Goal: $\\Pr(B \\cup S)$.",
+              "$n(\\xi) = 5 + 8 + 2 + 10 = 25$",
+              "$n(B \\cup S) = 5 + 8 + 2 = 15$",
+              "$\\Pr(B \\cup S) = \\frac{15}{25}$",
+              "Simplify by dividing by 5: $\\frac{15}{25} = \\frac{3}{5}$"
+            ],
+            "finalAnswer": "$\\Pr(B \\cup S) = \\frac{3}{5}$",
+            "solutionFigures": [],
+            "tip": "Include the 10 grandparents outside both circles in the total."
+          }
+        },
+        {
+          "id": "ch11_ex7_q27b",
+          "number": "27(b)",
+          "category": null,
+          "questionText": "On grandparents day at a school, a group of grandparents was asked where they most like to take their grandchildren: the beach ($B$) or shopping ($S$). The Venn diagram shows: beach only 5, both beach and shopping 8, shopping only 2, neither 10. Determine the probability that a randomly selected grandparent liked to take their grandchildren to the beach, given that they liked to take their grandchildren shopping.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Conditional probability: $\\Pr(B \\mid S) = \\frac{\\Pr(B \\cap S)}{\\Pr(S)} = \\frac{n(B \\cap S)}{n(S)}$",
+            "steps": [
+              "Given: $n(B \\cap S) = 8$, $n(S) = 8 + 2 = 10$. Goal: $\\Pr(B \\mid S)$.",
+              "The condition 'given shopping' reduces the sample space to the 10 grandparents in $S$.",
+              "$\\Pr(B \\mid S) = \\frac{8}{10}$",
+              "Simplify by dividing by 2: $\\frac{8}{10} = \\frac{4}{5}$"
+            ],
+            "finalAnswer": "$\\Pr(B \\mid S) = \\frac{4}{5}$",
+            "solutionFigures": [],
+            "tip": "Divide by $n(S)$, not by the total of 25, because the condition restricts the group."
+          }
+        },
+        {
+          "id": "ch11_ex7_q28a",
+          "number": "28(a)",
+          "category": null,
+          "questionText": "When all of Saphron's team players turn up for their twice weekly netball training, the chance that they then win their Saturday game is 0.65. If not all players are at the training session, then the chance of winning their Saturday game is 0.40. Over a four-week period, Saphron's players all turn up for training three times. Using a tree diagram, with $T$ to represent all players training and $W$ to represent a win, represent the winning chance of Saphron's netball team.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Tree diagram: first-stage branches $T$, $T'$; second-stage branches $W$, $W'$ (conditional probabilities); each branch pair sums to 1.",
+            "steps": [
+              "Given: full training in 3 of 4 weeks, so $\\Pr(T) = \\frac{3}{4} = 0.75$ and $\\Pr(T') = 1 - 0.75 = 0.25$.",
+              "$\\Pr(W \\mid T) = 0.65$, so $\\Pr(W' \\mid T) = 1 - 0.65 = 0.35$.",
+              "$\\Pr(W \\mid T') = 0.40$, so $\\Pr(W' \\mid T') = 1 - 0.40 = 0.60$.",
+              "First stage: $T$ (0.75) and $T'$ (0.25).",
+              "From $T$: $W$ (0.65) giving $TW$; $W'$ (0.35) giving $TW'$.",
+              "From $T'$: $W$ (0.40) giving $T'W$; $W'$ (0.60) giving $T'W'$."
+            ],
+            "finalAnswer": "Tree: $T$ 0.75 → ($W$ 0.65, $W'$ 0.35); $T'$ 0.25 → ($W$ 0.40, $W'$ 0.60).",
+            "solutionFigures": [],
+            "tip": "The second-stage probabilities depend on the first branch, so label each pair carefully."
+          }
+        },
+        {
+          "id": "ch11_ex7_q28b",
+          "number": "28(b)",
+          "category": null,
+          "questionText": "When all of Saphron's team players turn up for training, the chance that they win their Saturday game is 0.65; if not all players are at training, the chance of winning is 0.40. Over a four-week period, the players all turn up for training three times ($\\Pr(T) = 0.75$). Using the tree diagram from part a, determine the probability of Saphron's team winning their Saturday game. Write your answer correct to 4 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule along branches, then addition rule: $\\Pr(W) = \\Pr(T)\\Pr(W \\mid T) + \\Pr(T')\\Pr(W \\mid T')$",
+            "steps": [
+              "Given: $\\Pr(T) = 0.75$, $\\Pr(T') = 0.25$, $\\Pr(W \\mid T) = 0.65$, $\\Pr(W \\mid T') = 0.40$. Goal: $\\Pr(W)$.",
+              "$\\Pr(TW) = 0.75 \\times 0.65 = 0.4875$",
+              "$\\Pr(T'W) = 0.25 \\times 0.40 = 0.1$",
+              "$\\Pr(W) = 0.4875 + 0.1 = 0.5875$ (exact, already 4 decimal places)"
+            ],
+            "finalAnswer": "$\\Pr(W) = 0.5875$",
+            "solutionFigures": [],
+            "tip": "Add every branch that ends in a win, not just the most likely one."
+          }
+        },
+        {
+          "id": "ch11_ex7_q28c",
+          "number": "28(c)",
+          "category": null,
+          "questionText": "When all of Saphron's team players turn up for training, the chance that they win their Saturday game is 0.65; if not all players are at training, the chance of winning is 0.40. Over a four-week period, the players all turn up for training three times ($\\Pr(T) = 0.75$). Determine the exact probability that Saphron's team did not train (not all players trained) given that they won their Saturday game.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Conditional probability: $\\Pr(T' \\mid W) = \\frac{\\Pr(T' \\cap W)}{\\Pr(W)}$",
+            "steps": [
+              "Given: $\\Pr(T' \\cap W) = 0.25 \\times 0.40 = 0.1$ and $\\Pr(W) = 0.5875$ (part b). Goal: $\\Pr(T' \\mid W)$.",
+              "$\\Pr(T' \\mid W) = \\frac{0.1}{0.5875}$",
+              "Multiply top and bottom by 10 000: $\\frac{1000}{5875}$",
+              "Divide by 125: $\\frac{1000 \\div 125}{5875 \\div 125} = \\frac{8}{47}$"
+            ],
+            "finalAnswer": "$\\Pr(T' \\mid W) = \\frac{8}{47}$",
+            "solutionFigures": [],
+            "tip": "Here the given event is the win, so divide by $\\Pr(W)$, not by $\\Pr(T')$."
+          }
+        },
+        {
+          "id": "ch11_ex7_q29a",
+          "number": "29(a)",
+          "category": null,
+          "questionText": "Andrew does not know the answer to two questions on a multiple-choice exam. The first question has four choices and the second question he does not know has five choices. Determine the probability that he will get both questions wrong (he guesses randomly).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for independent events: $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B)$",
+            "steps": [
+              "Given: Q1 has 4 choices (1 correct), Q2 has 5 choices (1 correct); the guesses are independent. Goal: $\\Pr(\\text{both wrong})$.",
+              "$\\Pr(\\text{Q1 wrong}) = \\frac{3}{4}$",
+              "$\\Pr(\\text{Q2 wrong}) = \\frac{4}{5}$",
+              "$\\Pr(\\text{both wrong}) = \\frac{3}{4} \\times \\frac{4}{5} = \\frac{12}{20}$",
+              "Simplify by dividing by 4: $\\frac{12}{20} = \\frac{3}{5}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{both wrong}) = \\frac{3}{5}$",
+            "solutionFigures": [],
+            "tip": "Use the probability of getting each question wrong, not right."
+          }
+        },
+        {
+          "id": "ch11_ex7_q29b",
+          "number": "29(b)",
+          "category": null,
+          "questionText": "Andrew does not know the answer to two questions on a multiple-choice exam. The first question has four choices and the second question he does not know has five choices. If he is certain that one of the choices cannot be the answer in the first question, determine how this will change the probability that he will get both questions wrong.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for independent events: $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B)$",
+            "steps": [
+              "Given: Q1 now has 3 possible choices (1 correct); Q2 still has 5. Goal: new $\\Pr(\\text{both wrong})$.",
+              "$\\Pr(\\text{Q1 wrong}) = \\frac{2}{3}$",
+              "$\\Pr(\\text{Q2 wrong}) = \\frac{4}{5}$",
+              "$\\Pr(\\text{both wrong}) = \\frac{2}{3} \\times \\frac{4}{5} = \\frac{8}{15}$",
+              "Compare: $\\frac{3}{5} = \\frac{9}{15}$, so the probability falls from $\\frac{9}{15}$ to $\\frac{8}{15}$."
+            ],
+            "finalAnswer": "The probability of getting both wrong decreases to $\\frac{8}{15}$ (from $\\frac{3}{5} = \\frac{9}{15}$).",
+            "solutionFigures": [],
+            "tip": "Removing a wrong option changes both the numerator and the denominator for Q1."
+          }
+        },
+        {
+          "id": "ch11_ex7_q30a",
+          "number": "30(a)",
+          "category": null,
+          "questionText": "Mariah the Mathematics teacher placed 20 cards into a box: ON on 16 cards and OFF on 4 cards. After a student chooses a card, that card is replaced into the box for the next student. A student who chooses an OFF card gets a day off; an ON card gives no day off. Mick, a student, chose a random card from the box. Calculate the probability he received a day off.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\frac{n(E)}{n(\\xi)}$",
+            "steps": [
+              "Given: 4 OFF cards out of 20. Goal: $\\Pr(\\text{OFF})$.",
+              "$\\Pr(\\text{OFF}) = \\frac{4}{20}$",
+              "Simplify by dividing by 4: $\\frac{4}{20} = \\frac{1}{5}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{Mick gets a day off}) = \\frac{1}{5}$",
+            "solutionFigures": [],
+            "tip": "A day off comes from an OFF card, not an ON card."
+          }
+        },
+        {
+          "id": "ch11_ex7_q30b",
+          "number": "30(b)",
+          "category": null,
+          "questionText": "Mariah placed 20 cards into a box: ON on 16 cards and OFF on 4 cards. Each card drawn is replaced before the next student draws. An OFF card gives a day off; an ON card does not. Juanita, a student, chose a random card from the box after Mick. Calculate the probability that she did not receive a day off.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\frac{n(E)}{n(\\xi)}$ (independent draws because of replacement)",
+            "steps": [
+              "Given: Mick's card was replaced, so the box again has 16 ON and 4 OFF. Goal: $\\Pr(\\text{ON})$ for Juanita.",
+              "$\\Pr(\\text{ON}) = \\frac{16}{20}$",
+              "Simplify by dividing by 4: $\\frac{16}{20} = \\frac{4}{5}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{Juanita gets no day off}) = \\frac{4}{5}$",
+            "solutionFigures": [],
+            "tip": "Because the card is replaced, Mick's result does not affect Juanita's chance."
+          }
+        },
+        {
+          "id": "ch11_ex7_q30c",
+          "number": "30(c)",
+          "category": null,
+          "questionText": "Mariah placed 20 cards into a box: ON on 16 cards and OFF on 4 cards. Each card drawn is replaced before the next student draws. An OFF card gives a day off. Determine the probability that Mick and Juanita both received a day off.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for independent events: $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B)$",
+            "steps": [
+              "Given: $\\Pr(\\text{OFF}) = \\frac{1}{5}$ for each draw; the draws are independent (replacement). Goal: $\\Pr(\\text{both OFF})$.",
+              "$\\Pr(\\text{both OFF}) = \\frac{1}{5} \\times \\frac{1}{5} = \\frac{1}{25}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{both get a day off}) = \\frac{1}{25}$",
+            "solutionFigures": [],
+            "tip": "'Both' means multiply (and)."
+          }
+        },
+        {
+          "id": "ch11_ex7_q31a",
+          "number": "31(a)",
+          "category": null,
+          "questionText": "In the game of draw poker, a player is dealt 5 cards from a deck of 52. To obtain a flush, all 5 cards must be of the same suit. Determine the probability of getting a diamond flush.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr = \\frac{\\text{favourable hands}}{\\text{total hands}}$, with ${}^{n}C_{r} = \\frac{n!}{r!(n-r)!}$",
+            "steps": [
+              "Given: 5 cards from 52; 13 diamonds. Goal: $\\Pr(\\text{all 5 diamonds})$.",
+              "Total hands: ${}^{52}C_{5} = \\frac{52 \\times 51 \\times 50 \\times 49 \\times 48}{5 \\times 4 \\times 3 \\times 2 \\times 1} = 2\\,598\\,960$",
+              "Diamond hands: ${}^{13}C_{5} = \\frac{13 \\times 12 \\times 11 \\times 10 \\times 9}{120} = 1287$",
+              "$\\Pr = \\frac{1287}{2\\,598\\,960} = \\frac{33}{66\\,640}$",
+              "$\\approx 0.000\\,495$ (to 3 significant figures)"
+            ],
+            "finalAnswer": "$\\Pr(\\text{diamond flush}) = \\frac{33}{66\\,640} \\approx 0.000\\,495$",
+            "solutionFigures": [],
+            "tip": "The order of the cards in a hand doesn't matter, so use combinations."
+          }
+        },
+        {
+          "id": "ch11_ex7_q31b",
+          "number": "31(b)",
+          "category": null,
+          "questionText": "In the game of draw poker, a player is dealt 5 cards from a deck of 52. To obtain a flush, all 5 cards must be of the same suit. Determine the probability of getting any flush.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Addition rule for mutually exclusive events: $\\Pr(\\text{any flush}) = 4 \\times \\Pr(\\text{flush in one suit})$",
+            "steps": [
+              "Given: from part (a), $\\Pr(\\text{diamond flush}) = \\frac{1287}{2\\,598\\,960}$. Goal: $\\Pr(\\text{flush in any suit})$.",
+              "The four suit flushes are mutually exclusive and equally likely.",
+              "$\\Pr = 4 \\times \\frac{1287}{2\\,598\\,960} = \\frac{5148}{2\\,598\\,960} = \\frac{33}{16\\,660}$",
+              "$\\approx 0.001\\,981$ (to 4 significant figures)"
+            ],
+            "finalAnswer": "$\\Pr(\\text{any flush}) = \\frac{33}{16\\,660} \\approx 0.001\\,981$",
+            "solutionFigures": [],
+            "tip": "Multiply by 4 for the four suits, since a hand cannot be a flush in two suits."
+          }
+        },
+        {
+          "id": "ch11_ex7_q32a",
+          "number": "32(a)",
+          "category": null,
+          "questionText": "A Year 10 boy is talking with a Year 10 girl and asks her if she has any brothers or sisters. She says, 'Yes, I have one.' Determine the probability that she has at least one sister (assume each sibling is equally likely to be a boy or a girl).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\frac{n(E)}{n(\\xi)}$ with $\\Pr(\\text{girl}) = \\Pr(\\text{boy}) = \\frac{1}{2}$",
+            "steps": [
+              "Given: she has exactly 1 sibling. Goal: $\\Pr(\\text{at least one sister})$.",
+              "With one sibling, 'at least one sister' means the sibling is a girl.",
+              "$\\Pr(\\text{sister}) = \\frac{1}{2}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{at least one sister}) = \\frac{1}{2}$",
+            "solutionFigures": [],
+            "tip": "The girl herself is not counted, because only her siblings matter."
+          }
+        },
+        {
+          "id": "ch11_ex7_q32b",
+          "number": "32(b)",
+          "category": null,
+          "questionText": "A Year 10 boy is talking with a Year 10 girl and asks her if she has any brothers or sisters. She says, 'Yes, I have three.' Determine the probability that she has at least one sister (assume each sibling is independently equally likely to be a boy or a girl).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complement rule: $\\Pr(\\text{at least one}) = 1 - \\Pr(\\text{none})$; multiplication rule for independent events",
+            "steps": [
+              "Given: 3 siblings, each a girl with probability $\\frac{1}{2}$, independently. Goal: $\\Pr(\\text{at least one sister})$.",
+              "Complement: no sisters means all 3 are brothers.",
+              "$\\Pr(\\text{3 brothers}) = \\frac{1}{2} \\times \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{8}$",
+              "$\\Pr(\\text{at least one sister}) = 1 - \\frac{1}{8} = \\frac{7}{8}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{at least one sister}) = \\frac{7}{8}$",
+            "solutionFigures": [],
+            "tip": "For 'at least one', use the complement 'none' instead of adding many cases."
+          }
+        }
+      ]
+    }
+  ]
+}

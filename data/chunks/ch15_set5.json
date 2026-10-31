@@ -1,0 +1,1359 @@
+{
+  "chapterId": "ch15",
+  "chapterTitle": "Trigonometry II (10A)",
+  "topics": [
+    {
+      "topicId": "15.5",
+      "topicTitle": "The unit circle",
+      "exercises": [
+        {
+          "id": "ch15_ex5_q1a",
+          "number": "1(a)",
+          "category": "Practice",
+          "questionText": "State which quadrant of the unit circle the angle $60^\\circ$ is in.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadrants (angles measured anticlockwise from the positive $x$-axis): Q1: $0^\\circ < \\theta < 90^\\circ$; Q2: $90^\\circ < \\theta < 180^\\circ$; Q3: $180^\\circ < \\theta < 270^\\circ$; Q4: $270^\\circ < \\theta < 360^\\circ$",
+            "steps": [
+              "Given: $\\theta = 60^\\circ$. Goal: the quadrant containing this angle.",
+              "Compare with the quadrant boundaries: $0^\\circ < 60^\\circ < 90^\\circ$.",
+              "So the angle lies between the positive $x$-axis and the positive $y$-axis."
+            ],
+            "finalAnswer": "Therefore $60^\\circ$ is in the 1st quadrant.",
+            "solutionFigures": [],
+            "tip": "Always measure angles anticlockwise from the positive $x$-axis."
+          }
+        },
+        {
+          "id": "ch15_ex5_q1b",
+          "number": "1(b)",
+          "category": "Practice",
+          "questionText": "State which quadrant of the unit circle the angle $130^\\circ$ is in.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadrants: Q1: $0^\\circ$–$90^\\circ$; Q2: $90^\\circ$–$180^\\circ$; Q3: $180^\\circ$–$270^\\circ$; Q4: $270^\\circ$–$360^\\circ$",
+            "steps": [
+              "Given: $\\theta = 130^\\circ$. Goal: the quadrant containing this angle.",
+              "Compare with the quadrant boundaries: $90^\\circ < 130^\\circ < 180^\\circ$."
+            ],
+            "finalAnswer": "Therefore $130^\\circ$ is in the 2nd quadrant.",
+            "solutionFigures": [],
+            "tip": "Quadrants are numbered anticlockwise starting from the top-right quadrant."
+          }
+        },
+        {
+          "id": "ch15_ex5_q1c",
+          "number": "1(c)",
+          "category": "Practice",
+          "questionText": "State which quadrant of the unit circle the angle $310^\\circ$ is in.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadrants: Q1: $0^\\circ$–$90^\\circ$; Q2: $90^\\circ$–$180^\\circ$; Q3: $180^\\circ$–$270^\\circ$; Q4: $270^\\circ$–$360^\\circ$",
+            "steps": [
+              "Given: $\\theta = 310^\\circ$. Goal: the quadrant containing this angle.",
+              "Compare with the quadrant boundaries: $270^\\circ < 310^\\circ < 360^\\circ$."
+            ],
+            "finalAnswer": "Therefore $310^\\circ$ is in the 4th quadrant.",
+            "solutionFigures": [],
+            "tip": "An angle just short of $360^\\circ$ sits just below the positive $x$-axis, in quadrant 4."
+          }
+        },
+        {
+          "id": "ch15_ex5_q1d",
+          "number": "1(d)",
+          "category": "Practice",
+          "questionText": "State which quadrant of the unit circle the angle $260^\\circ$ is in.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadrants: Q1: $0^\\circ$–$90^\\circ$; Q2: $90^\\circ$–$180^\\circ$; Q3: $180^\\circ$–$270^\\circ$; Q4: $270^\\circ$–$360^\\circ$",
+            "steps": [
+              "Given: $\\theta = 260^\\circ$. Goal: the quadrant containing this angle.",
+              "Compare with the quadrant boundaries: $180^\\circ < 260^\\circ < 270^\\circ$."
+            ],
+            "finalAnswer": "Therefore $260^\\circ$ is in the 3rd quadrant.",
+            "solutionFigures": [],
+            "tip": "Remember the boundary between quadrants 3 and 4 is $270^\\circ$, not $250^\\circ$."
+          }
+        },
+        {
+          "id": "ch15_ex5_q1e",
+          "number": "1(e)",
+          "category": "Practice",
+          "questionText": "State which quadrant of the unit circle the angle $100^\\circ$ is in.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadrants: Q1: $0^\\circ$–$90^\\circ$; Q2: $90^\\circ$–$180^\\circ$; Q3: $180^\\circ$–$270^\\circ$; Q4: $270^\\circ$–$360^\\circ$",
+            "steps": [
+              "Given: $\\theta = 100^\\circ$. Goal: the quadrant containing this angle.",
+              "Compare with the quadrant boundaries: $90^\\circ < 100^\\circ < 180^\\circ$."
+            ],
+            "finalAnswer": "Therefore $100^\\circ$ is in the 2nd quadrant.",
+            "solutionFigures": [],
+            "tip": "Any angle just past $90^\\circ$ has moved over the positive $y$-axis into quadrant 2."
+          }
+        },
+        {
+          "id": "ch15_ex5_q1f",
+          "number": "1(f)",
+          "category": "Practice",
+          "questionText": "State which quadrant of the unit circle the angle $185^\\circ$ is in.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadrants: Q1: $0^\\circ$–$90^\\circ$; Q2: $90^\\circ$–$180^\\circ$; Q3: $180^\\circ$–$270^\\circ$; Q4: $270^\\circ$–$360^\\circ$",
+            "steps": [
+              "Given: $\\theta = 185^\\circ$. Goal: the quadrant containing this angle.",
+              "Compare with the quadrant boundaries: $180^\\circ < 185^\\circ < 270^\\circ$."
+            ],
+            "finalAnswer": "Therefore $185^\\circ$ is in the 3rd quadrant.",
+            "solutionFigures": [],
+            "tip": "$185^\\circ$ is just past the negative $x$-axis ($180^\\circ$), so it is in quadrant 3."
+          }
+        },
+        {
+          "id": "ch15_ex5_q2",
+          "number": "2",
+          "category": "Practice",
+          "questionText": "Multiple choice: If $\\theta = 43^\\circ$, the triangle drawn to show this would be in:\nA. quadrant 1  B. quadrant 2  C. quadrant 3  D. quadrant 4",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadrant 1 contains angles $0^\\circ < \\theta < 90^\\circ$.",
+            "steps": [
+              "Given: $\\theta = 43^\\circ$. Goal: the quadrant in which its triangle is drawn.",
+              "$0^\\circ < 43^\\circ < 90^\\circ$, so the radius at $43^\\circ$ lies in quadrant 1."
+            ],
+            "finalAnswer": "Therefore the answer is A (quadrant 1).",
+            "solutionFigures": [],
+            "tip": "The triangle is drawn in the quadrant where the radius ends up."
+          }
+        },
+        {
+          "id": "ch15_ex5_q3",
+          "number": "3",
+          "category": "Consolidate",
+          "questionText": "Multiple choice: If $\\theta = 295^\\circ$, the triangle drawn to show this would be in:\nA. quadrant 1  B. quadrant 2  C. quadrant 3  D. quadrant 4",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadrant 4 contains angles $270^\\circ < \\theta < 360^\\circ$.",
+            "steps": [
+              "Given: $\\theta = 295^\\circ$. Goal: the quadrant in which its triangle is drawn.",
+              "$270^\\circ < 295^\\circ < 360^\\circ$, so the radius at $295^\\circ$ lies in quadrant 4."
+            ],
+            "finalAnswer": "Therefore the answer is D (quadrant 4).",
+            "solutionFigures": [],
+            "tip": "Check the boundaries $90^\\circ, 180^\\circ, 270^\\circ, 360^\\circ$ in turn."
+          }
+        },
+        {
+          "id": "ch15_ex5_q4a",
+          "number": "4(a)",
+          "category": "Consolidate",
+          "questionText": "Determine the approximate value of $\\sin(20^\\circ)$ using the unit circle. Give the answer correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "On the unit circle, the point at angle $\\theta$ is $P(\\cos\\theta, \\sin\\theta)$, so $\\sin\\theta$ is the $y$-coordinate of $P$.",
+            "steps": [
+              "Given: $\\theta = 20^\\circ$. Goal: $\\sin(20^\\circ)$, the $y$-coordinate of $P$.",
+              "$20^\\circ$ is in quadrant 1, so the $y$-coordinate is positive.",
+              "Reading the unit circle (or using a calculator in degree mode): $\\sin(20^\\circ) \\approx 0.3420$.",
+              "Rounded to 2 decimal places: $0.34$."
+            ],
+            "finalAnswer": "Therefore $\\sin(20^\\circ) \\approx 0.34$.",
+            "solutionFigures": [],
+            "tip": "Sine is the vertical ($y$) coordinate, cosine is the horizontal ($x$) coordinate."
+          }
+        },
+        {
+          "id": "ch15_ex5_q4b",
+          "number": "4(b)",
+          "category": "Consolidate",
+          "questionText": "Determine the approximate value of $\\cos(20^\\circ)$ using the unit circle. Give the answer correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "On the unit circle, $P(\\cos\\theta, \\sin\\theta)$, so $\\cos\\theta$ is the $x$-coordinate of $P$.",
+            "steps": [
+              "Given: $\\theta = 20^\\circ$. Goal: $\\cos(20^\\circ)$, the $x$-coordinate of $P$.",
+              "$20^\\circ$ is in quadrant 1, so the $x$-coordinate is positive.",
+              "Reading the unit circle (or calculator in degree mode): $\\cos(20^\\circ) \\approx 0.9397$.",
+              "Rounded to 2 decimal places: $0.94$.",
+              "Check: $0.3420^2 + 0.9397^2 \\approx 0.117 + 0.883 = 1$ ✓"
+            ],
+            "finalAnswer": "Therefore $\\cos(20^\\circ) \\approx 0.94$.",
+            "solutionFigures": [],
+            "tip": "Small angles have $x$-coordinates close to 1, so $\\cos$ of a small angle is close to 1."
+          }
+        },
+        {
+          "id": "ch15_ex5_q4c",
+          "number": "4(c)",
+          "category": "Consolidate",
+          "questionText": "Determine the approximate value of $\\cos(100^\\circ)$ using the unit circle. Give the answer correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$P(\\cos\\theta, \\sin\\theta)$; in quadrant 2, $\\cos(180^\\circ - \\alpha) = -\\cos\\alpha$.",
+            "steps": [
+              "Given: $\\theta = 100^\\circ$. Goal: $\\cos(100^\\circ)$, the $x$-coordinate of $P$.",
+              "$100^\\circ$ is in quadrant 2, so the $x$-coordinate is negative.",
+              "Reference angle: $180^\\circ - 100^\\circ = 80^\\circ$, so $\\cos(100^\\circ) = -\\cos(80^\\circ)$.",
+              "$\\cos(80^\\circ) \\approx 0.1736$, so $\\cos(100^\\circ) \\approx -0.1736$.",
+              "Rounded to 2 decimal places: $-0.17$."
+            ],
+            "finalAnswer": "Therefore $\\cos(100^\\circ) \\approx -0.17$.",
+            "solutionFigures": [],
+            "tip": "Points in quadrant 2 are to the left of the $y$-axis, so cosine is negative there."
+          }
+        },
+        {
+          "id": "ch15_ex5_q4d",
+          "number": "4(d)",
+          "category": "Consolidate",
+          "questionText": "Determine the approximate value of $\\sin(100^\\circ)$ using the unit circle. Give the answer correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$P(\\cos\\theta, \\sin\\theta)$; in quadrant 2, $\\sin(180^\\circ - \\alpha) = \\sin\\alpha$.",
+            "steps": [
+              "Given: $\\theta = 100^\\circ$. Goal: $\\sin(100^\\circ)$, the $y$-coordinate of $P$.",
+              "$100^\\circ$ is in quadrant 2, so the $y$-coordinate is positive.",
+              "Reference angle $80^\\circ$: $\\sin(100^\\circ) = \\sin(80^\\circ) \\approx 0.9848$.",
+              "Rounded to 2 decimal places: $0.98$."
+            ],
+            "finalAnswer": "Therefore $\\sin(100^\\circ) \\approx 0.98$.",
+            "solutionFigures": [],
+            "tip": "Sine is positive in quadrants 1 and 2 because those points are above the $x$-axis."
+          }
+        },
+        {
+          "id": "ch15_ex5_q5a",
+          "number": "5(a)",
+          "category": "Master",
+          "questionText": "Determine the approximate value of $\\sin(320^\\circ)$ using the unit circle. Give the answer correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$P(\\cos\\theta, \\sin\\theta)$; in quadrant 4, $\\sin(360^\\circ - \\alpha) = -\\sin\\alpha$.",
+            "steps": [
+              "Given: $\\theta = 320^\\circ$. Goal: $\\sin(320^\\circ)$, the $y$-coordinate of $P$.",
+              "$320^\\circ$ is in quadrant 4 (below the $x$-axis), so sine is negative.",
+              "Reference angle: $360^\\circ - 320^\\circ = 40^\\circ$, so $\\sin(320^\\circ) = -\\sin(40^\\circ)$.",
+              "$\\sin(40^\\circ) \\approx 0.6428$, so $\\sin(320^\\circ) \\approx -0.6428$.",
+              "Rounded to 2 decimal places: $-0.64$."
+            ],
+            "finalAnswer": "Therefore $\\sin(320^\\circ) \\approx -0.64$.",
+            "solutionFigures": [],
+            "tip": "In quadrant 4 only cosine is positive; sine and tangent are negative."
+          }
+        },
+        {
+          "id": "ch15_ex5_q5b",
+          "number": "5(b)",
+          "category": "Master",
+          "questionText": "Determine the approximate value of $\\cos(320^\\circ)$ using the unit circle. Give the answer correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$P(\\cos\\theta, \\sin\\theta)$; in quadrant 4, $\\cos(360^\\circ - \\alpha) = \\cos\\alpha$.",
+            "steps": [
+              "Given: $\\theta = 320^\\circ$. Goal: $\\cos(320^\\circ)$, the $x$-coordinate of $P$.",
+              "$320^\\circ$ is in quadrant 4 (right of the $y$-axis), so cosine is positive.",
+              "Reference angle $40^\\circ$: $\\cos(320^\\circ) = \\cos(40^\\circ) \\approx 0.7660$.",
+              "Rounded to 2 decimal places: $0.77$.",
+              "Check: $(-0.6428)^2 + 0.7660^2 \\approx 0.413 + 0.587 = 1$ ✓"
+            ],
+            "finalAnswer": "Therefore $\\cos(320^\\circ) \\approx 0.77$.",
+            "solutionFigures": [],
+            "tip": "Round only at the end: $0.7660$ rounds to $0.77$, not $0.76$."
+          }
+        },
+        {
+          "id": "ch15_ex5_q5c",
+          "number": "5(c)",
+          "category": "Master",
+          "questionText": "Determine the approximate value of $\\sin(215^\\circ)$ using the unit circle. Give the answer correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$P(\\cos\\theta, \\sin\\theta)$; in quadrant 3, $\\sin(180^\\circ + \\alpha) = -\\sin\\alpha$.",
+            "steps": [
+              "Given: $\\theta = 215^\\circ$. Goal: $\\sin(215^\\circ)$, the $y$-coordinate of $P$.",
+              "$215^\\circ$ is in quadrant 3 (below the $x$-axis), so sine is negative.",
+              "Reference angle: $215^\\circ - 180^\\circ = 35^\\circ$, so $\\sin(215^\\circ) = -\\sin(35^\\circ)$.",
+              "$\\sin(35^\\circ) \\approx 0.5736$, so $\\sin(215^\\circ) \\approx -0.5736$.",
+              "Rounded to 2 decimal places: $-0.57$."
+            ],
+            "finalAnswer": "Therefore $\\sin(215^\\circ) \\approx -0.57$.",
+            "solutionFigures": [],
+            "tip": "In quadrant 3 the reference angle is $\\theta - 180^\\circ$."
+          }
+        },
+        {
+          "id": "ch15_ex5_q5d",
+          "number": "5(d)",
+          "category": "Master",
+          "questionText": "Determine the approximate value of $\\cos(215^\\circ)$ using the unit circle. Give the answer correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$P(\\cos\\theta, \\sin\\theta)$; in quadrant 3, $\\cos(180^\\circ + \\alpha) = -\\cos\\alpha$.",
+            "steps": [
+              "Given: $\\theta = 215^\\circ$. Goal: $\\cos(215^\\circ)$, the $x$-coordinate of $P$.",
+              "$215^\\circ$ is in quadrant 3 (left of the $y$-axis), so cosine is negative.",
+              "Reference angle $35^\\circ$: $\\cos(215^\\circ) = -\\cos(35^\\circ) \\approx -0.8192$.",
+              "Rounded to 2 decimal places: $-0.82$.",
+              "Check: $(-0.5736)^2 + (-0.8192)^2 \\approx 0.329 + 0.671 = 1$ ✓"
+            ],
+            "finalAnswer": "Therefore $\\cos(215^\\circ) \\approx -0.82$.",
+            "solutionFigures": [],
+            "tip": "Both coordinates are negative in quadrant 3, so sine and cosine are both negative there."
+          }
+        },
+        {
+          "id": "ch15_ex5_q6a",
+          "number": "6(a)",
+          "category": "Practice",
+          "questionText": "Use the unit circle to determine the value of $\\sin(90^\\circ)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "On the unit circle, the point at angle $\\theta$ is $P(\\cos\\theta, \\sin\\theta)$.",
+            "steps": [
+              "Given: $\\theta = 90^\\circ$. Goal: $\\sin(90^\\circ)$.",
+              "Rotating $90^\\circ$ from the positive $x$-axis lands on the positive $y$-axis at $P(0, 1)$.",
+              "$\\sin(90^\\circ)$ is the $y$-coordinate: $1$."
+            ],
+            "finalAnswer": "Therefore $\\sin(90^\\circ) = 1$.",
+            "solutionFigures": [],
+            "tip": "For angles on the axes, just read the coordinates of the point where the radius meets the circle."
+          }
+        },
+        {
+          "id": "ch15_ex5_q6b",
+          "number": "6(b)",
+          "category": "Practice",
+          "questionText": "Use the unit circle to determine the value of $\\cos(90^\\circ)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "On the unit circle, $P(\\cos\\theta, \\sin\\theta)$.",
+            "steps": [
+              "Given: $\\theta = 90^\\circ$. Goal: $\\cos(90^\\circ)$.",
+              "The point at $90^\\circ$ is $P(0, 1)$.",
+              "$\\cos(90^\\circ)$ is the $x$-coordinate: $0$."
+            ],
+            "finalAnswer": "Therefore $\\cos(90^\\circ) = 0$.",
+            "solutionFigures": [],
+            "tip": "Don't mix up the coordinates: $x$ is cosine, $y$ is sine."
+          }
+        },
+        {
+          "id": "ch15_ex5_q6c",
+          "number": "6(c)",
+          "category": "Practice",
+          "questionText": "Use the unit circle to determine the value of $\\sin(180^\\circ)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "On the unit circle, $P(\\cos\\theta, \\sin\\theta)$.",
+            "steps": [
+              "Given: $\\theta = 180^\\circ$. Goal: $\\sin(180^\\circ)$.",
+              "Rotating $180^\\circ$ lands on the negative $x$-axis at $P(-1, 0)$.",
+              "$\\sin(180^\\circ)$ is the $y$-coordinate: $0$."
+            ],
+            "finalAnswer": "Therefore $\\sin(180^\\circ) = 0$.",
+            "solutionFigures": [],
+            "tip": "Any point on the $x$-axis has $y = 0$, so its sine is 0."
+          }
+        },
+        {
+          "id": "ch15_ex5_q6d",
+          "number": "6(d)",
+          "category": "Practice",
+          "questionText": "Use the unit circle to determine the value of $\\cos(180^\\circ)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "On the unit circle, $P(\\cos\\theta, \\sin\\theta)$.",
+            "steps": [
+              "Given: $\\theta = 180^\\circ$. Goal: $\\cos(180^\\circ)$.",
+              "The point at $180^\\circ$ is $P(-1, 0)$.",
+              "$\\cos(180^\\circ)$ is the $x$-coordinate: $-1$."
+            ],
+            "finalAnswer": "Therefore $\\cos(180^\\circ) = -1$.",
+            "solutionFigures": [],
+            "tip": "Remember the sign: the point is on the negative $x$-axis."
+          }
+        },
+        {
+          "id": "ch15_ex5_q7a",
+          "number": "7(a)",
+          "category": "Consolidate",
+          "questionText": "Use the unit circle to determine the value of $\\sin(270^\\circ)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "On the unit circle, $P(\\cos\\theta, \\sin\\theta)$.",
+            "steps": [
+              "Given: $\\theta = 270^\\circ$. Goal: $\\sin(270^\\circ)$.",
+              "Rotating $270^\\circ$ lands on the negative $y$-axis at $P(0, -1)$.",
+              "$\\sin(270^\\circ)$ is the $y$-coordinate: $-1$."
+            ],
+            "finalAnswer": "Therefore $\\sin(270^\\circ) = -1$.",
+            "solutionFigures": [],
+            "tip": "$270^\\circ$ points straight down, so the $y$-coordinate is $-1$."
+          }
+        },
+        {
+          "id": "ch15_ex5_q7b",
+          "number": "7(b)",
+          "category": "Consolidate",
+          "questionText": "Use the unit circle to determine the value of $\\cos(270^\\circ)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "On the unit circle, $P(\\cos\\theta, \\sin\\theta)$.",
+            "steps": [
+              "Given: $\\theta = 270^\\circ$. Goal: $\\cos(270^\\circ)$.",
+              "The point at $270^\\circ$ is $P(0, -1)$.",
+              "$\\cos(270^\\circ)$ is the $x$-coordinate: $0$."
+            ],
+            "finalAnswer": "Therefore $\\cos(270^\\circ) = 0$.",
+            "solutionFigures": [],
+            "tip": "Points on the $y$-axis have $x = 0$, so their cosine is 0."
+          }
+        },
+        {
+          "id": "ch15_ex5_q7c",
+          "number": "7(c)",
+          "category": "Consolidate",
+          "questionText": "Use the unit circle to determine the value of $\\sin(360^\\circ)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "On the unit circle, $P(\\cos\\theta, \\sin\\theta)$.",
+            "steps": [
+              "Given: $\\theta = 360^\\circ$. Goal: $\\sin(360^\\circ)$.",
+              "A full turn of $360^\\circ$ returns to the positive $x$-axis at $P(1, 0)$ (the same point as $0^\\circ$).",
+              "$\\sin(360^\\circ)$ is the $y$-coordinate: $0$."
+            ],
+            "finalAnswer": "Therefore $\\sin(360^\\circ) = 0$.",
+            "solutionFigures": [],
+            "tip": "$360^\\circ$ and $0^\\circ$ give the same point, so they have the same sine and cosine."
+          }
+        },
+        {
+          "id": "ch15_ex5_q7d",
+          "number": "7(d)",
+          "category": "Consolidate",
+          "questionText": "Use the unit circle to determine the value of $\\cos(360^\\circ)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "On the unit circle, $P(\\cos\\theta, \\sin\\theta)$.",
+            "steps": [
+              "Given: $\\theta = 360^\\circ$. Goal: $\\cos(360^\\circ)$.",
+              "The point at $360^\\circ$ is $P(1, 0)$.",
+              "$\\cos(360^\\circ)$ is the $x$-coordinate: $1$."
+            ],
+            "finalAnswer": "Therefore $\\cos(360^\\circ) = 1$.",
+            "solutionFigures": [],
+            "tip": "A full rotation brings you back to where you started: $\\cos(360^\\circ) = \\cos(0^\\circ) = 1$."
+          }
+        },
+        {
+          "id": "ch15_ex5_q8a",
+          "number": "8(a)",
+          "category": "Practice",
+          "questionText": "On the unit circle, use a protractor to measure an angle of $30^\\circ$ from the positive $x$-axis. Mark the point P on the circle. Use this point to construct a right-angled triangle in quadrant 1: the diagram shows the radius OP at $30^\\circ$ to the positive $x$-axis, a horizontal side along the $x$-axis labelled $\\cos(30^\\circ)$ and a vertical side from P down to the $x$-axis labelled $\\sin(30^\\circ)$.\nCalculate the value of $\\cos(30^\\circ)$. (Remember that the length of the adjacent side of the triangle is $\\cos(30^\\circ)$.) Check your answer with a calculator. Give the answer correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "In the unit-circle triangle the hypotenuse is $OP = 1$, so adjacent $= \\cos\\theta$ and opposite $= \\sin\\theta$.",
+            "steps": [
+              "Given: $OP = 1$, angle $30^\\circ$ at O. Goal: the adjacent side, $\\cos(30^\\circ)$.",
+              "$\\cos(30^\\circ) = \\dfrac{\\text{adjacent}}{\\text{hypotenuse}} = \\dfrac{\\text{adjacent}}{1} = \\text{adjacent}$.",
+              "Measuring the horizontal side on an accurate diagram gives about $0.87$ units.",
+              "Exact value check: $\\cos(30^\\circ) = \\dfrac{\\sqrt{3}}{2} \\approx 0.8660$; calculator (degree mode) agrees.",
+              "Rounded to 2 decimal places: $0.87$."
+            ],
+            "finalAnswer": "Therefore $\\cos(30^\\circ) \\approx 0.87$.",
+            "solutionFigures": [],
+            "tip": "Use a large radius (e.g. 10 cm = 1 unit) so your measurements are accurate; make sure your calculator is in degree mode."
+          }
+        },
+        {
+          "id": "ch15_ex5_q8b",
+          "number": "8(b)",
+          "category": "Practice",
+          "questionText": "On the unit circle, use a protractor to measure an angle of $30^\\circ$ from the positive $x$-axis. Mark the point P on the circle. Use this point to construct a right-angled triangle in quadrant 1: the radius OP at $30^\\circ$, a horizontal side labelled $\\cos(30^\\circ)$ and a vertical side labelled $\\sin(30^\\circ)$.\nCalculate the value of $\\sin(30^\\circ)$. (This is the length of the opposite side of the triangle.) Check your answer with a calculator. Give the answer correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "With hypotenuse $OP = 1$: $\\sin\\theta = \\dfrac{\\text{opposite}}{1} = $ opposite side.",
+            "steps": [
+              "Given: $OP = 1$, angle $30^\\circ$. Goal: the opposite (vertical) side, $\\sin(30^\\circ)$.",
+              "Measuring the vertical side gives $0.5$ units.",
+              "Exact value check: $\\sin(30^\\circ) = \\dfrac{1}{2} = 0.50$; calculator agrees.",
+              "Check: $0.5^2 + 0.866^2 = 0.25 + 0.75 = 1$ ✓"
+            ],
+            "finalAnswer": "Therefore $\\sin(30^\\circ) = 0.50$.",
+            "solutionFigures": [],
+            "tip": "The opposite side is vertical, so it gives the $y$-coordinate, which is sine."
+          }
+        },
+        {
+          "id": "ch15_ex5_q9a",
+          "number": "9(a)",
+          "category": "Consolidate",
+          "questionText": "Using a graph of the unit circle, measure $150^\\circ$ with a protractor and mark the point P on the circle. Use this point to draw a triangle in quadrant 2: the diagram shows radius OP at $150^\\circ$ from the positive $x$-axis, a horizontal side along the negative $x$-axis labelled $\\cos(150^\\circ)$ and a vertical side from P to the $x$-axis labelled $\\sin(150^\\circ)$.\nDetermine the angle the radius OP makes with the negative $x$-axis.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Angles on a straight line add to $180^\\circ$; in quadrant 2 the reference angle is $180^\\circ - \\theta$.",
+            "steps": [
+              "Given: OP makes $150^\\circ$ with the positive $x$-axis. Goal: the angle with the negative $x$-axis.",
+              "The positive and negative $x$-axes form a straight angle of $180^\\circ$.",
+              "Angle with negative $x$-axis $= 180^\\circ - 150^\\circ = 30^\\circ$."
+            ],
+            "finalAnswer": "Therefore OP makes an angle of $30^\\circ$ with the negative $x$-axis.",
+            "solutionFigures": [],
+            "tip": "The reference angle is always measured to the nearest part of the $x$-axis."
+          }
+        },
+        {
+          "id": "ch15_ex5_q9b",
+          "number": "9(b)",
+          "category": "Consolidate",
+          "questionText": "Using a graph of the unit circle, measure $150^\\circ$ with a protractor and mark the point P on the circle, drawing a triangle in quadrant 2 (horizontal side labelled $\\cos(150^\\circ)$, vertical side labelled $\\sin(150^\\circ)$).\nRemembering that $x = \\cos(\\theta)$, use your circle to determine the value of $\\cos(150^\\circ)$. Give the answer correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$P(\\cos\\theta, \\sin\\theta)$; reference angle $30^\\circ$ in quadrant 2.",
+            "steps": [
+              "Given: $\\theta = 150^\\circ$, reference angle $30^\\circ$ (from part a). Goal: $\\cos(150^\\circ)$, the $x$-coordinate of P.",
+              "The triangle has hypotenuse 1 and angle $30^\\circ$, so its horizontal side has length $\\cos(30^\\circ) \\approx 0.866$.",
+              "P is to the left of the $y$-axis, so the $x$-coordinate is negative: $x \\approx -0.866$.",
+              "Rounded to 2 decimal places: $\\cos(150^\\circ) \\approx -0.87$."
+            ],
+            "finalAnswer": "Therefore $\\cos(150^\\circ) \\approx -0.87$.",
+            "solutionFigures": [],
+            "tip": "A length is always positive; the sign comes from which side of the axis P lies on."
+          }
+        },
+        {
+          "id": "ch15_ex5_q9c",
+          "number": "9(c)",
+          "category": "Consolidate",
+          "questionText": "Using the unit circle diagram for $150^\\circ$ (triangle drawn in quadrant 2), comment on how $\\cos(150^\\circ)$ compares to $\\cos(30^\\circ)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(180^\\circ - \\theta) = -\\cos\\theta$",
+            "steps": [
+              "Given: $\\cos(150^\\circ) \\approx -0.87$ and $\\cos(30^\\circ) \\approx 0.87$. Goal: compare them.",
+              "The triangles for $150^\\circ$ and $30^\\circ$ are mirror images in the $y$-axis, so their horizontal sides have the same length.",
+              "The $x$-coordinates have the same size but opposite signs."
+            ],
+            "finalAnswer": "Therefore $\\cos(150^\\circ) = -\\cos(30^\\circ)$: same magnitude, opposite sign.",
+            "solutionFigures": [],
+            "tip": "Reflecting in the $y$-axis changes the sign of $x$ but not of $y$."
+          }
+        },
+        {
+          "id": "ch15_ex5_q9d",
+          "number": "9(d)",
+          "category": "Consolidate",
+          "questionText": "Using a graph of the unit circle, measure $150^\\circ$ with a protractor and mark the point P on the circle, drawing a triangle in quadrant 2.\nRemembering that $y = \\sin(\\theta)$, use your circle to determine the value of $\\sin(150^\\circ)$. Give the answer correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$P(\\cos\\theta, \\sin\\theta)$; reference angle $30^\\circ$.",
+            "steps": [
+              "Given: $\\theta = 150^\\circ$, reference angle $30^\\circ$. Goal: $\\sin(150^\\circ)$, the $y$-coordinate of P.",
+              "Vertical side of triangle $= \\sin(30^\\circ) = 0.5$.",
+              "P is above the $x$-axis, so $y = +0.5$."
+            ],
+            "finalAnswer": "Therefore $\\sin(150^\\circ) = 0.50$.",
+            "solutionFigures": [],
+            "tip": "Sine is positive in quadrant 2."
+          }
+        },
+        {
+          "id": "ch15_ex5_q9e",
+          "number": "9(e)",
+          "category": "Consolidate",
+          "questionText": "Using the unit circle diagram for $150^\\circ$, comment on how $\\sin(150^\\circ)$ compares with $\\sin(30^\\circ)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(180^\\circ - \\theta) = \\sin\\theta$",
+            "steps": [
+              "Given: $\\sin(150^\\circ) = 0.5$ and $\\sin(30^\\circ) = 0.5$. Goal: compare them.",
+              "Both points are the same height above the $x$-axis (mirror images in the $y$-axis)."
+            ],
+            "finalAnswer": "Therefore $\\sin(150^\\circ) = \\sin(30^\\circ)$.",
+            "solutionFigures": [],
+            "tip": "This is why the sine rule can give two possible angles (the ambiguous case)."
+          }
+        },
+        {
+          "id": "ch15_ex5_q10a",
+          "number": "10(a)",
+          "category": "Master",
+          "questionText": "On a unit circle, measure $210^\\circ$ with a protractor and mark the point P on the circle. Use this point to draw a triangle in quadrant 3: the diagram shows radius OP at $210^\\circ$, a horizontal side along the negative $x$-axis labelled $\\cos(210^\\circ)$ and a vertical side from the $x$-axis down to P labelled $\\sin(210^\\circ)$.\nDetermine the angle the radius OP makes with the negative $x$-axis.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "In quadrant 3 the reference angle is $\\theta - 180^\\circ$.",
+            "steps": [
+              "Given: OP is at $210^\\circ$. Goal: the angle between OP and the negative $x$-axis.",
+              "The negative $x$-axis is at $180^\\circ$.",
+              "Angle $= 210^\\circ - 180^\\circ = 30^\\circ$."
+            ],
+            "finalAnswer": "Therefore OP makes an angle of $30^\\circ$ with the negative $x$-axis.",
+            "solutionFigures": [],
+            "tip": "Do not use $360^\\circ - 210^\\circ$; that is the angle to the positive $x$-axis going the other way."
+          }
+        },
+        {
+          "id": "ch15_ex5_q10b",
+          "number": "10(b)",
+          "category": "Master",
+          "questionText": "On a unit circle, measure $210^\\circ$ and mark the point P, drawing a triangle in quadrant 3. Use your circle to determine the value of $\\cos(210^\\circ)$. Give the answer correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$P(\\cos\\theta, \\sin\\theta)$; reference angle $30^\\circ$ in quadrant 3.",
+            "steps": [
+              "Given: $\\theta = 210^\\circ$, reference angle $30^\\circ$. Goal: $\\cos(210^\\circ)$.",
+              "Horizontal side length $= \\cos(30^\\circ) \\approx 0.866$.",
+              "P is left of the $y$-axis, so $x \\approx -0.866$.",
+              "Rounded to 2 decimal places: $-0.87$."
+            ],
+            "finalAnswer": "Therefore $\\cos(210^\\circ) \\approx -0.87$.",
+            "solutionFigures": [],
+            "tip": "In quadrant 3 both sine and cosine are negative."
+          }
+        },
+        {
+          "id": "ch15_ex5_q10c",
+          "number": "10(c)",
+          "category": "Master",
+          "questionText": "Using the unit circle diagram for $210^\\circ$ (triangle in quadrant 3), comment on how $\\cos(210^\\circ)$ compares to $\\cos(30^\\circ)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(180^\\circ + \\theta) = -\\cos\\theta$",
+            "steps": [
+              "Given: $\\cos(210^\\circ) \\approx -0.87$, $\\cos(30^\\circ) \\approx 0.87$. Goal: compare them.",
+              "The $210^\\circ$ point is the $30^\\circ$ point rotated by $180^\\circ$ (through the origin), so its $x$-coordinate has the same size but opposite sign."
+            ],
+            "finalAnswer": "Therefore $\\cos(210^\\circ) = -\\cos(30^\\circ)$.",
+            "solutionFigures": [],
+            "tip": "Rotating a point $180^\\circ$ about the origin changes the sign of both coordinates."
+          }
+        },
+        {
+          "id": "ch15_ex5_q10d",
+          "number": "10(d)",
+          "category": "Master",
+          "questionText": "On a unit circle, measure $210^\\circ$ and mark the point P, drawing a triangle in quadrant 3. Use your circle to determine the value of $\\sin(210^\\circ)$. Give the answer correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$P(\\cos\\theta, \\sin\\theta)$; reference angle $30^\\circ$.",
+            "steps": [
+              "Given: $\\theta = 210^\\circ$, reference angle $30^\\circ$. Goal: $\\sin(210^\\circ)$.",
+              "Vertical side length $= \\sin(30^\\circ) = 0.5$.",
+              "P is below the $x$-axis, so $y = -0.5$."
+            ],
+            "finalAnswer": "Therefore $\\sin(210^\\circ) = -0.50$.",
+            "solutionFigures": [],
+            "tip": "Points below the $x$-axis have negative sine."
+          }
+        },
+        {
+          "id": "ch15_ex5_q10e",
+          "number": "10(e)",
+          "category": "Master",
+          "questionText": "Using the unit circle diagram for $210^\\circ$, comment on how $\\sin(210^\\circ)$ compares with $\\sin(30^\\circ)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(180^\\circ + \\theta) = -\\sin\\theta$",
+            "steps": [
+              "Given: $\\sin(210^\\circ) = -0.5$, $\\sin(30^\\circ) = 0.5$. Goal: compare them.",
+              "Same magnitude, opposite sign."
+            ],
+            "finalAnswer": "Therefore $\\sin(210^\\circ) = -\\sin(30^\\circ)$.",
+            "solutionFigures": [],
+            "tip": "Use the reference angle for the size and the quadrant for the sign."
+          }
+        },
+        {
+          "id": "ch15_ex5_q11a",
+          "number": "11(a)",
+          "category": "Consolidate",
+          "questionText": "On a unit circle, measure $330^\\circ$ with a protractor and mark the point P on the circle. Use this point to draw a triangle in quadrant 4: the diagram shows radius OP at $330^\\circ$, a horizontal side along the positive $x$-axis labelled $\\cos(330^\\circ)$ and a vertical side from the $x$-axis down to P labelled $\\sin(330^\\circ)$.\nDetermine the angle the radius OP makes with the positive $x$-axis.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "In quadrant 4 the reference angle is $360^\\circ - \\theta$.",
+            "steps": [
+              "Given: OP is at $330^\\circ$. Goal: the acute angle between OP and the positive $x$-axis.",
+              "A full turn is $360^\\circ$, so angle $= 360^\\circ - 330^\\circ = 30^\\circ$."
+            ],
+            "finalAnswer": "Therefore OP makes an angle of $30^\\circ$ with the positive $x$-axis.",
+            "solutionFigures": [],
+            "tip": "The reference angle is always acute (between $0^\\circ$ and $90^\\circ$)."
+          }
+        },
+        {
+          "id": "ch15_ex5_q11b",
+          "number": "11(b)",
+          "category": "Consolidate",
+          "questionText": "On a unit circle, measure $330^\\circ$ and mark the point P, drawing a triangle in quadrant 4. Use your circle to determine the value of $\\cos(330^\\circ)$. Give the answer correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$P(\\cos\\theta, \\sin\\theta)$; reference angle $30^\\circ$ in quadrant 4.",
+            "steps": [
+              "Given: $\\theta = 330^\\circ$, reference angle $30^\\circ$. Goal: $\\cos(330^\\circ)$.",
+              "Horizontal side $= \\cos(30^\\circ) \\approx 0.866$.",
+              "P is right of the $y$-axis, so $x \\approx +0.866$.",
+              "Rounded to 2 decimal places: $0.87$."
+            ],
+            "finalAnswer": "Therefore $\\cos(330^\\circ) \\approx 0.87$.",
+            "solutionFigures": [],
+            "tip": "Cosine is positive in quadrant 4."
+          }
+        },
+        {
+          "id": "ch15_ex5_q11c",
+          "number": "11(c)",
+          "category": "Consolidate",
+          "questionText": "Using the unit circle diagram for $330^\\circ$ (triangle in quadrant 4), comment on how $\\cos(330^\\circ)$ compares to $\\cos(30^\\circ)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(360^\\circ - \\theta) = \\cos\\theta$",
+            "steps": [
+              "Given: $\\cos(330^\\circ) \\approx 0.87$ and $\\cos(30^\\circ) \\approx 0.87$. Goal: compare them.",
+              "The $330^\\circ$ point is the reflection of the $30^\\circ$ point in the $x$-axis, so the $x$-coordinates are identical."
+            ],
+            "finalAnswer": "Therefore $\\cos(330^\\circ) = \\cos(30^\\circ)$.",
+            "solutionFigures": [],
+            "tip": "The book's answer key prints $\\cos(330^\\circ) = -\\cos(30^\\circ)$, but both values are $+0.87$, so they are equal."
+          }
+        },
+        {
+          "id": "ch15_ex5_q11d",
+          "number": "11(d)",
+          "category": "Consolidate",
+          "questionText": "On a unit circle, measure $330^\\circ$ and mark the point P, drawing a triangle in quadrant 4. Use your circle to determine the value of $\\sin(330^\\circ)$. Give the answer correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$P(\\cos\\theta, \\sin\\theta)$; reference angle $30^\\circ$.",
+            "steps": [
+              "Given: $\\theta = 330^\\circ$, reference angle $30^\\circ$. Goal: $\\sin(330^\\circ)$.",
+              "Vertical side $= \\sin(30^\\circ) = 0.5$.",
+              "P is below the $x$-axis, so $y = -0.5$."
+            ],
+            "finalAnswer": "Therefore $\\sin(330^\\circ) = -0.50$.",
+            "solutionFigures": [],
+            "tip": "Sine is negative in quadrants 3 and 4."
+          }
+        },
+        {
+          "id": "ch15_ex5_q11e",
+          "number": "11(e)",
+          "category": "Consolidate",
+          "questionText": "Using the unit circle diagram for $330^\\circ$, comment on how $\\sin(330^\\circ)$ compares with $\\sin(30^\\circ)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(360^\\circ - \\theta) = -\\sin\\theta$",
+            "steps": [
+              "Given: $\\sin(330^\\circ) = -0.5$, $\\sin(30^\\circ) = 0.5$. Goal: compare them.",
+              "Reflection in the $x$-axis changes the sign of $y$ only."
+            ],
+            "finalAnswer": "Therefore $\\sin(330^\\circ) = -\\sin(30^\\circ)$.",
+            "solutionFigures": [],
+            "tip": "Reflecting in the $x$-axis keeps cosine the same and flips the sign of sine."
+          }
+        },
+        {
+          "id": "ch15_ex5_q12a",
+          "number": "12(a)",
+          "category": "Practice",
+          "questionText": "On a unit circle, draw an appropriate triangle for the angle of $20^\\circ$ in quadrant 1 (the diagram shows the triangle with angle $20^\\circ$ at O, horizontal side $\\cos(20^\\circ)$, vertical side $\\sin(20^\\circ)$, and a vertical tangent line at $x = 1$ labelled $\\tan(20^\\circ)$ where the extended hypotenuse meets it).\nDetermine the value of $\\sin(20^\\circ)$, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$P(\\cos\\theta, \\sin\\theta)$; sine is the vertical side of the unit-circle triangle.",
+            "steps": [
+              "Given: $\\theta = 20^\\circ$, hypotenuse 1. Goal: $\\sin(20^\\circ)$.",
+              "Vertical side $= \\sin(20^\\circ) \\approx 0.3420$ (calculator in degree mode).",
+              "Rounded to 2 decimal places: $0.34$."
+            ],
+            "finalAnswer": "Therefore $\\sin(20^\\circ) \\approx 0.34$.",
+            "solutionFigures": [],
+            "tip": "Check your calculator shows D or DEG before evaluating."
+          }
+        },
+        {
+          "id": "ch15_ex5_q12b",
+          "number": "12(b)",
+          "category": "Practice",
+          "questionText": "On a unit circle, draw an appropriate triangle for the angle of $20^\\circ$ in quadrant 1 (horizontal side $\\cos(20^\\circ)$, vertical side $\\sin(20^\\circ)$).\nDetermine the value of $\\cos(20^\\circ)$, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$P(\\cos\\theta, \\sin\\theta)$; cosine is the horizontal side of the unit-circle triangle.",
+            "steps": [
+              "Given: $\\theta = 20^\\circ$. Goal: $\\cos(20^\\circ)$.",
+              "Horizontal side $= \\cos(20^\\circ) \\approx 0.9397$.",
+              "Rounded to 2 decimal places: $0.94$."
+            ],
+            "finalAnswer": "Therefore $\\cos(20^\\circ) \\approx 0.94$.",
+            "solutionFigures": [],
+            "tip": "Check with Pythagoras: $0.342^2 + 0.940^2 \\approx 1$."
+          }
+        },
+        {
+          "id": "ch15_ex5_q12c",
+          "number": "12(c)",
+          "category": "Practice",
+          "questionText": "On a unit circle with a triangle for $20^\\circ$ in quadrant 1, draw a tangent line (vertical line touching the circle at $(1, 0)$) and extend the hypotenuse of the triangle to meet the tangent. Accurately measure the length of the tangent between the $x$-axis and the point where it meets the hypotenuse, and hence state the value of $\\tan(20^\\circ)$, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "In the large triangle with base 1 (radius to $(1,0)$), $\\tan\\theta = \\dfrac{\\text{opposite}}{\\text{adjacent}} = \\dfrac{\\text{tangent length}}{1}$.",
+            "steps": [
+              "Given: angle $20^\\circ$, the tangent line is at $x = 1$. Goal: the length of the tangent segment, $\\tan(20^\\circ)$.",
+              "The large right-angled triangle has adjacent side 1, so the tangent segment $= 1 \\times \\tan(20^\\circ)$.",
+              "Measuring gives about $0.36$; calculator: $\\tan(20^\\circ) \\approx 0.3640$.",
+              "Rounded to 2 decimal places: $0.36$."
+            ],
+            "finalAnswer": "Therefore $\\tan(20^\\circ) \\approx 0.36$.",
+            "solutionFigures": [],
+            "tip": "The tangent line must be drawn at $x = 1$ (touching the circle), otherwise the length is not $\\tan\\theta$."
+          }
+        },
+        {
+          "id": "ch15_ex5_q12d",
+          "number": "12(d)",
+          "category": "Practice",
+          "questionText": "For the angle $20^\\circ$ on the unit circle, determine the value of $\\dfrac{\\sin(20^\\circ)}{\\cos(20^\\circ)}$, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\dfrac{\\sin\\theta}{\\cos\\theta}$",
+            "steps": [
+              "Given: $\\sin(20^\\circ) \\approx 0.3420$, $\\cos(20^\\circ) \\approx 0.9397$. Goal: their quotient.",
+              "$\\dfrac{\\sin(20^\\circ)}{\\cos(20^\\circ)} = \\dfrac{0.3420}{0.9397} \\approx 0.3640$.",
+              "Rounded to 2 decimal places: $0.36$."
+            ],
+            "finalAnswer": "Therefore $\\dfrac{\\sin(20^\\circ)}{\\cos(20^\\circ)} \\approx 0.36$.",
+            "solutionFigures": [],
+            "tip": "Divide using unrounded values to avoid rounding errors."
+          }
+        },
+        {
+          "id": "ch15_ex5_q12e",
+          "number": "12(e)",
+          "category": "Practice",
+          "questionText": "For the angle $20^\\circ$ on the unit circle, comment on how $\\tan(20^\\circ)$ compares with $\\dfrac{\\sin(20^\\circ)}{\\cos(20^\\circ)}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan\\theta = \\dfrac{\\sin\\theta}{\\cos\\theta}$ (similar triangles)",
+            "steps": [
+              "From part c, $\\tan(20^\\circ) \\approx 0.36$; from part d, $\\dfrac{\\sin(20^\\circ)}{\\cos(20^\\circ)} \\approx 0.36$.",
+              "The small triangle (sides $\\cos\\theta$, $\\sin\\theta$) and the large triangle (sides $1$, $\\tan\\theta$) are similar, so $\\dfrac{\\tan\\theta}{1} = \\dfrac{\\sin\\theta}{\\cos\\theta}$."
+            ],
+            "finalAnswer": "Therefore they are equal: $\\tan(20^\\circ) = \\dfrac{\\sin(20^\\circ)}{\\cos(20^\\circ)}$.",
+            "solutionFigures": [],
+            "tip": "$\\tan\\theta = \\dfrac{\\sin\\theta}{\\cos\\theta}$ holds for every angle where $\\cos\\theta \\ne 0$."
+          }
+        },
+        {
+          "id": "ch15_ex5_q13a",
+          "number": "13(a)",
+          "category": "Consolidate",
+          "questionText": "On a unit circle, draw an appropriate triangle for the angle of $135^\\circ$ in quadrant 2 (the diagram also shows a tangent line at $x = 1$ with the hypotenuse extended backwards through O to meet it below the $x$-axis, labelled $\\tan(135^\\circ)$).\nDetermine the value of $\\sin(135^\\circ)$ using $\\sin(45^\\circ)$, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(180^\\circ - \\theta) = \\sin\\theta$",
+            "steps": [
+              "Given: $\\theta = 135^\\circ$ in quadrant 2. Goal: $\\sin(135^\\circ)$.",
+              "Reference angle: $180^\\circ - 135^\\circ = 45^\\circ$.",
+              "Sine is positive in quadrant 2, so $\\sin(135^\\circ) = \\sin(45^\\circ) = \\dfrac{\\sqrt{2}}{2} \\approx 0.7071$.",
+              "Rounded to 2 decimal places: $0.71$."
+            ],
+            "finalAnswer": "Therefore $\\sin(135^\\circ) \\approx 0.71$.",
+            "solutionFigures": [],
+            "tip": "Exact values help: $\\sin(45^\\circ) = \\cos(45^\\circ) = \\frac{\\sqrt{2}}{2}$."
+          }
+        },
+        {
+          "id": "ch15_ex5_q13b",
+          "number": "13(b)",
+          "category": "Consolidate",
+          "questionText": "On a unit circle, draw an appropriate triangle for the angle of $135^\\circ$ in quadrant 2. Determine the value of $\\cos(135^\\circ)$ using $\\cos(45^\\circ)$, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(180^\\circ - \\theta) = -\\cos\\theta$",
+            "steps": [
+              "Given: $\\theta = 135^\\circ$, reference angle $45^\\circ$. Goal: $\\cos(135^\\circ)$.",
+              "Cosine is negative in quadrant 2, so $\\cos(135^\\circ) = -\\cos(45^\\circ) = -\\dfrac{\\sqrt{2}}{2} \\approx -0.7071$.",
+              "Rounded to 2 decimal places: $-0.71$."
+            ],
+            "finalAnswer": "Therefore $\\cos(135^\\circ) \\approx -0.71$.",
+            "solutionFigures": [],
+            "tip": "Don't forget the negative sign in quadrant 2 for cosine."
+          }
+        },
+        {
+          "id": "ch15_ex5_q13c",
+          "number": "13(c)",
+          "category": "Consolidate",
+          "questionText": "On a unit circle with a triangle for $135^\\circ$ in quadrant 2, draw a tangent line at $x = 1$ and extend the hypotenuse (through O) to meet the tangent. Accurately measure the length of the tangent to where it meets the hypotenuse to calculate the value of $\\tan(135^\\circ)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan\\theta$ is the $y$-coordinate of the point where the extended radius meets the tangent line $x = 1$.",
+            "steps": [
+              "Given: $\\theta = 135^\\circ$. Goal: $\\tan(135^\\circ)$.",
+              "Extending the line OP backwards through O, it makes $45^\\circ$ with the positive $x$-axis below the axis.",
+              "The tangent segment from $(1, 0)$ down to the meeting point has length $\\tan(45^\\circ) = 1$.",
+              "It lies below the $x$-axis, so the value is negative: $\\tan(135^\\circ) = -1$."
+            ],
+            "finalAnswer": "Therefore $\\tan(135^\\circ) = -1$.",
+            "solutionFigures": [],
+            "tip": "Tangent is negative in quadrant 2 because the extended line meets the tangent below the $x$-axis."
+          }
+        },
+        {
+          "id": "ch15_ex5_q13d",
+          "number": "13(d)",
+          "category": "Consolidate",
+          "questionText": "For the angle $135^\\circ$ on the unit circle, determine the value of $\\dfrac{\\sin(135^\\circ)}{\\cos(135^\\circ)}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\dfrac{\\sin\\theta}{\\cos\\theta}$",
+            "steps": [
+              "Given: $\\sin(135^\\circ) = \\dfrac{\\sqrt{2}}{2}$, $\\cos(135^\\circ) = -\\dfrac{\\sqrt{2}}{2}$.",
+              "$\\dfrac{\\sin(135^\\circ)}{\\cos(135^\\circ)} = \\dfrac{\\frac{\\sqrt{2}}{2}}{-\\frac{\\sqrt{2}}{2}} = -1$."
+            ],
+            "finalAnswer": "Therefore $\\dfrac{\\sin(135^\\circ)}{\\cos(135^\\circ)} = -1$.",
+            "solutionFigures": [],
+            "tip": "A positive divided by a negative is negative."
+          }
+        },
+        {
+          "id": "ch15_ex5_q13e",
+          "number": "13(e)",
+          "category": "Consolidate",
+          "questionText": "For the angle $135^\\circ$ on the unit circle, comment on how $\\tan(135^\\circ)$ compares with $\\dfrac{\\sin(135^\\circ)}{\\cos(135^\\circ)}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan\\theta = \\dfrac{\\sin\\theta}{\\cos\\theta}$",
+            "steps": [
+              "From part c, $\\tan(135^\\circ) = -1$; from part d, $\\dfrac{\\sin(135^\\circ)}{\\cos(135^\\circ)} = -1$."
+            ],
+            "finalAnswer": "Therefore they are equal: $\\tan(135^\\circ) = \\dfrac{\\sin(135^\\circ)}{\\cos(135^\\circ)}$.",
+            "solutionFigures": [],
+            "tip": "The identity $\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}$ works in every quadrant, signs included."
+          }
+        },
+        {
+          "id": "ch15_ex5_q13f",
+          "number": "13(f)",
+          "category": "Consolidate",
+          "questionText": "For the angle $135^\\circ$ on the unit circle, comment on how $\\tan(135^\\circ)$ compares with $\\tan(45^\\circ)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(180^\\circ - \\theta) = -\\tan\\theta$",
+            "steps": [
+              "$\\tan(135^\\circ) = -1$ and $\\tan(45^\\circ) = 1$.",
+              "Same magnitude, opposite sign."
+            ],
+            "finalAnswer": "Therefore $\\tan(135^\\circ) = -\\tan(45^\\circ)$.",
+            "solutionFigures": [],
+            "tip": "Tangent is positive only in quadrants 1 and 3."
+          }
+        },
+        {
+          "id": "ch15_ex5_q14a",
+          "number": "14(a)",
+          "category": "Master",
+          "questionText": "On a unit circle, draw an appropriate triangle for the angle of $220^\\circ$ in quadrant 3 (the diagram shows the hypotenuse extended back through O to meet the tangent line $x = 1$ above the $x$-axis, labelled $\\tan(220^\\circ)$).\nDetermine the value of $\\sin(220^\\circ)$, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(180^\\circ + \\theta) = -\\sin\\theta$",
+            "steps": [
+              "Given: $\\theta = 220^\\circ$ in quadrant 3. Goal: $\\sin(220^\\circ)$.",
+              "Reference angle: $220^\\circ - 180^\\circ = 40^\\circ$.",
+              "Sine is negative in quadrant 3: $\\sin(220^\\circ) = -\\sin(40^\\circ) \\approx -0.6428$.",
+              "Rounded to 2 decimal places: $-0.64$."
+            ],
+            "finalAnswer": "Therefore $\\sin(220^\\circ) \\approx -0.64$.",
+            "solutionFigures": [],
+            "tip": "Use the reference angle for the size and the quadrant for the sign."
+          }
+        },
+        {
+          "id": "ch15_ex5_q14b",
+          "number": "14(b)",
+          "category": "Master",
+          "questionText": "On a unit circle, draw an appropriate triangle for the angle of $220^\\circ$ in quadrant 3. Determine the value of $\\cos(220^\\circ)$, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(180^\\circ + \\theta) = -\\cos\\theta$",
+            "steps": [
+              "Given: $\\theta = 220^\\circ$, reference angle $40^\\circ$. Goal: $\\cos(220^\\circ)$.",
+              "Cosine is negative in quadrant 3: $\\cos(220^\\circ) = -\\cos(40^\\circ) \\approx -0.7660$.",
+              "Rounded to 2 decimal places: $-0.77$."
+            ],
+            "finalAnswer": "Therefore $\\cos(220^\\circ) \\approx -0.77$.",
+            "solutionFigures": [],
+            "tip": "In quadrant 3 both the $x$- and $y$-coordinates are negative."
+          }
+        },
+        {
+          "id": "ch15_ex5_q14c",
+          "number": "14(c)",
+          "category": "Master",
+          "questionText": "On a unit circle with a triangle for $220^\\circ$ in quadrant 3, draw a tangent line at $x = 1$ and extend the hypotenuse (through O) to meet it. Determine the value of $\\tan(220^\\circ)$ by accurately measuring the length of the tangent to where it meets the hypotenuse. Give the answer correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan\\theta$ is the $y$-value where the extended radius meets the tangent line $x = 1$.",
+            "steps": [
+              "Given: $\\theta = 220^\\circ$. Goal: $\\tan(220^\\circ)$.",
+              "Extending OP backwards through O gives a line at $40^\\circ$ above the positive $x$-axis.",
+              "It meets $x = 1$ at height $\\tan(40^\\circ) \\approx 0.8391$, above the $x$-axis, so the value is positive.",
+              "Rounded to 2 decimal places: $\\tan(220^\\circ) \\approx 0.84$."
+            ],
+            "finalAnswer": "Therefore $\\tan(220^\\circ) \\approx 0.84$.",
+            "solutionFigures": [],
+            "tip": "Tangent is positive in quadrant 3 because sine and cosine are both negative there."
+          }
+        },
+        {
+          "id": "ch15_ex5_q14d",
+          "number": "14(d)",
+          "category": "Master",
+          "questionText": "For the angle $220^\\circ$ on the unit circle, determine the value of $\\dfrac{\\sin(220^\\circ)}{\\cos(220^\\circ)}$, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\dfrac{\\sin\\theta}{\\cos\\theta}$",
+            "steps": [
+              "Given: $\\sin(220^\\circ) \\approx -0.6428$, $\\cos(220^\\circ) \\approx -0.7660$.",
+              "$\\dfrac{\\sin(220^\\circ)}{\\cos(220^\\circ)} = \\dfrac{-0.6428}{-0.7660} \\approx 0.8391$.",
+              "Rounded to 2 decimal places: $0.84$."
+            ],
+            "finalAnswer": "Therefore $\\dfrac{\\sin(220^\\circ)}{\\cos(220^\\circ)} \\approx 0.84$.",
+            "solutionFigures": [],
+            "tip": "Dividing the already-rounded values $-0.64 \\div -0.77$ gives $0.83$; use unrounded values to get the accurate $0.84$."
+          }
+        },
+        {
+          "id": "ch15_ex5_q14e",
+          "number": "14(e)",
+          "category": "Master",
+          "questionText": "For the angle $220^\\circ$ on the unit circle, comment on how $\\tan(220^\\circ)$ compares with $\\dfrac{\\sin(220^\\circ)}{\\cos(220^\\circ)}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan\\theta = \\dfrac{\\sin\\theta}{\\cos\\theta}$",
+            "steps": [
+              "From part c, $\\tan(220^\\circ) \\approx 0.84$; from part d, $\\dfrac{\\sin(220^\\circ)}{\\cos(220^\\circ)} \\approx 0.84$.",
+              "Any small difference comes only from measuring/rounding."
+            ],
+            "finalAnswer": "Therefore they are equal (approximately equal when measured): $\\tan(220^\\circ) = \\dfrac{\\sin(220^\\circ)}{\\cos(220^\\circ)}$.",
+            "solutionFigures": [],
+            "tip": "Measured values can differ slightly from calculator values; the identity is exact."
+          }
+        },
+        {
+          "id": "ch15_ex5_q14f",
+          "number": "14(f)",
+          "category": "Master",
+          "questionText": "For the angle $220^\\circ$ on the unit circle, comment on how $\\tan(220^\\circ)$ compares with $\\tan(40^\\circ)$. (Use a calculator.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(180^\\circ + \\theta) = \\tan\\theta$",
+            "steps": [
+              "Calculator (degree mode): $\\tan(220^\\circ) \\approx 0.8391$ and $\\tan(40^\\circ) \\approx 0.8391$.",
+              "The extended line through O for $220^\\circ$ is the same line as for $40^\\circ$, so it meets the tangent at the same point."
+            ],
+            "finalAnswer": "Therefore $\\tan(220^\\circ) = \\tan(40^\\circ)$.",
+            "solutionFigures": [],
+            "tip": "Tangent repeats every $180^\\circ$."
+          }
+        },
+        {
+          "id": "ch15_ex5_q15a",
+          "number": "15(a)",
+          "category": "Master",
+          "questionText": "On a unit circle, draw an appropriate triangle for the angle of $300^\\circ$ in quadrant 4 (the diagram shows the hypotenuse extended to meet the tangent line $x = 1$ below the $x$-axis, labelled $\\tan(300^\\circ)$).\nDetermine the value of $\\sin(300^\\circ)$, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(360^\\circ - \\theta) = -\\sin\\theta$",
+            "steps": [
+              "Given: $\\theta = 300^\\circ$ in quadrant 4. Goal: $\\sin(300^\\circ)$.",
+              "Reference angle: $360^\\circ - 300^\\circ = 60^\\circ$.",
+              "Sine is negative in quadrant 4: $\\sin(300^\\circ) = -\\sin(60^\\circ) = -\\dfrac{\\sqrt{3}}{2} \\approx -0.8660$.",
+              "Rounded to 2 decimal places: $-0.87$."
+            ],
+            "finalAnswer": "Therefore $\\sin(300^\\circ) \\approx -0.87$.",
+            "solutionFigures": [],
+            "tip": "In quadrant 4 the reference angle is $360^\\circ - \\theta$."
+          }
+        },
+        {
+          "id": "ch15_ex5_q15b",
+          "number": "15(b)",
+          "category": "Master",
+          "questionText": "On a unit circle, draw an appropriate triangle for the angle of $300^\\circ$ in quadrant 4. Determine the value of $\\cos(300^\\circ)$, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(360^\\circ - \\theta) = \\cos\\theta$",
+            "steps": [
+              "Given: $\\theta = 300^\\circ$, reference angle $60^\\circ$. Goal: $\\cos(300^\\circ)$.",
+              "Cosine is positive in quadrant 4: $\\cos(300^\\circ) = \\cos(60^\\circ) = \\dfrac{1}{2} = 0.50$."
+            ],
+            "finalAnswer": "Therefore $\\cos(300^\\circ) = 0.50$.",
+            "solutionFigures": [],
+            "tip": "Cosine is the only positive ratio in quadrant 4."
+          }
+        },
+        {
+          "id": "ch15_ex5_q15c",
+          "number": "15(c)",
+          "category": "Master",
+          "questionText": "On a unit circle with a triangle for $300^\\circ$ in quadrant 4, draw a tangent line at $x = 1$ and extend the hypotenuse to meet it. Determine the value of $\\tan(300^\\circ)$ by accurately measuring the length of the tangent to where it meets the hypotenuse. Give the answer correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan\\theta$ is the $y$-value where the extended radius meets the tangent line $x = 1$.",
+            "steps": [
+              "Given: $\\theta = 300^\\circ$, i.e. $60^\\circ$ below the positive $x$-axis. Goal: $\\tan(300^\\circ)$.",
+              "The extended radius meets $x = 1$ at a distance $\\tan(60^\\circ) = \\sqrt{3} \\approx 1.7321$ below the $x$-axis.",
+              "Below the axis means negative: $\\tan(300^\\circ) \\approx -1.7321$.",
+              "Rounded to 2 decimal places: $-1.73$."
+            ],
+            "finalAnswer": "Therefore $\\tan(300^\\circ) \\approx -1.73$.",
+            "solutionFigures": [],
+            "tip": "For angles near $90^\\circ$ or $270^\\circ$ the tangent value gets large, so draw the tangent line long enough."
+          }
+        },
+        {
+          "id": "ch15_ex5_q15d",
+          "number": "15(d)",
+          "category": "Master",
+          "questionText": "For the angle $300^\\circ$ on the unit circle, determine the value of $\\dfrac{\\sin(300^\\circ)}{\\cos(300^\\circ)}$, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\dfrac{\\sin\\theta}{\\cos\\theta}$",
+            "steps": [
+              "Given: $\\sin(300^\\circ) = -\\dfrac{\\sqrt{3}}{2} \\approx -0.8660$, $\\cos(300^\\circ) = 0.5$.",
+              "$\\dfrac{\\sin(300^\\circ)}{\\cos(300^\\circ)} = \\dfrac{-0.8660}{0.5} \\approx -1.7321$ (exactly $-\\sqrt{3}$).",
+              "Rounded to 2 decimal places: $-1.73$."
+            ],
+            "finalAnswer": "Therefore $\\dfrac{\\sin(300^\\circ)}{\\cos(300^\\circ)} \\approx -1.73$.",
+            "solutionFigures": [],
+            "tip": "Using the rounded $-0.87 \\div 0.5$ gives $-1.74$; divide unrounded values for $-1.73$."
+          }
+        },
+        {
+          "id": "ch15_ex5_q15e",
+          "number": "15(e)",
+          "category": "Master",
+          "questionText": "For the angle $300^\\circ$ on the unit circle, comment on how $\\tan(300^\\circ)$ compares with $\\dfrac{\\sin(300^\\circ)}{\\cos(300^\\circ)}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan\\theta = \\dfrac{\\sin\\theta}{\\cos\\theta}$",
+            "steps": [
+              "From part c, $\\tan(300^\\circ) \\approx -1.73$; from part d, $\\dfrac{\\sin(300^\\circ)}{\\cos(300^\\circ)} \\approx -1.73$."
+            ],
+            "finalAnswer": "Therefore they are equal (approximately equal when measured from a diagram).",
+            "solutionFigures": [],
+            "tip": "Small differences come from measurement and rounding, not from the identity."
+          }
+        },
+        {
+          "id": "ch15_ex5_q15f",
+          "number": "15(f)",
+          "category": "Master",
+          "questionText": "For the angle $300^\\circ$ on the unit circle, comment on how $\\tan(300^\\circ)$ compares with $\\tan(60^\\circ)$. (Use a calculator.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(360^\\circ - \\theta) = -\\tan\\theta$",
+            "steps": [
+              "Calculator (degree mode): $\\tan(300^\\circ) \\approx -1.7321$, $\\tan(60^\\circ) \\approx 1.7321$.",
+              "Same magnitude, opposite sign."
+            ],
+            "finalAnswer": "Therefore $\\tan(300^\\circ) = -\\tan(60^\\circ)$.",
+            "solutionFigures": [],
+            "tip": "Tangent is negative in quadrants 2 and 4."
+          }
+        },
+        {
+          "id": "ch15_ex5_q16",
+          "number": "16",
+          "category": "Master",
+          "questionText": "Multiple choice: In a unit circle, the length of the radius is equal to:\nA. $\\sin(\\theta)$  B. $\\cos(\\theta)$  C. $\\tan(\\theta)$  D. $1$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "A unit circle is a circle centred at the origin with radius 1.",
+            "steps": [
+              "Goal: the radius length of a unit circle.",
+              "By definition, 'unit' means the radius is 1 unit, whatever the angle $\\theta$."
+            ],
+            "finalAnswer": "Therefore the answer is D ($1$).",
+            "solutionFigures": [],
+            "tip": "The radius is the hypotenuse of every unit-circle triangle, which is why the sides equal $\\cos\\theta$ and $\\sin\\theta$."
+          }
+        },
+        {
+          "id": "ch15_ex5_q17",
+          "number": "17",
+          "category": "Practice",
+          "questionText": "Show that $\\sin^2(\\alpha^\\circ) + \\cos^2(\\alpha^\\circ) = 1$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem in the unit-circle triangle: $x^2 + y^2 = 1$, with $x = \\cos(\\alpha^\\circ)$, $y = \\sin(\\alpha^\\circ)$.",
+            "steps": [
+              "Given: a point P at angle $\\alpha^\\circ$ on the unit circle. Goal: prove $\\sin^2(\\alpha^\\circ) + \\cos^2(\\alpha^\\circ) = 1$.",
+              "P has coordinates $(\\cos(\\alpha^\\circ), \\sin(\\alpha^\\circ))$ and $OP = 1$.",
+              "Drop a perpendicular from P to the $x$-axis: a right-angled triangle with legs $|\\cos(\\alpha^\\circ)|$ and $|\\sin(\\alpha^\\circ)|$ and hypotenuse 1.",
+              "By Pythagoras: $\\cos^2(\\alpha^\\circ) + \\sin^2(\\alpha^\\circ) = 1^2$.",
+              "Since squaring removes any negative signs, this holds in every quadrant.",
+              "Hence $\\sin^2(\\alpha^\\circ) + \\cos^2(\\alpha^\\circ) = 1$."
+            ],
+            "finalAnswer": "Therefore $\\sin^2(\\alpha^\\circ) + \\cos^2(\\alpha^\\circ) = 1$ for all $\\alpha$, as required.",
+            "solutionFigures": [],
+            "tip": "$\\sin^2\\alpha$ means $(\\sin\\alpha)^2$, not $\\sin(\\alpha^2)$."
+          }
+        },
+        {
+          "id": "ch15_ex5_q18",
+          "number": "18",
+          "category": "Consolidate",
+          "questionText": "Show that $1 - \\sin^2(180 - \\alpha)^\\circ = \\cos^2(180 - \\alpha)^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin^2\\theta + \\cos^2\\theta = 1$ for any angle $\\theta$.",
+            "steps": [
+              "Goal: prove $1 - \\sin^2(180 - \\alpha)^\\circ = \\cos^2(180 - \\alpha)^\\circ$.",
+              "Let $\\theta = (180 - \\alpha)^\\circ$. The Pythagorean identity holds for every angle, so $\\sin^2\\theta + \\cos^2\\theta = 1$.",
+              "Subtract $\\sin^2\\theta$ from both sides: $\\cos^2\\theta = 1 - \\sin^2\\theta$.",
+              "Substitute back: $1 - \\sin^2(180 - \\alpha)^\\circ = \\cos^2(180 - \\alpha)^\\circ$.",
+              "Check with the unit circle: $\\sin(180 - \\alpha)^\\circ = \\sin(\\alpha^\\circ)$ and $\\cos(180 - \\alpha)^\\circ = -\\cos(\\alpha^\\circ)$, so LHS $= 1 - \\sin^2(\\alpha^\\circ) = \\cos^2(\\alpha^\\circ) = (-\\cos(\\alpha^\\circ))^2 = $ RHS ✓"
+            ],
+            "finalAnswer": "Therefore $1 - \\sin^2(180 - \\alpha)^\\circ = \\cos^2(180 - \\alpha)^\\circ$, as required.",
+            "solutionFigures": [],
+            "tip": "The identity $\\sin^2\\theta + \\cos^2\\theta = 1$ works for any angle, including expressions like $180^\\circ - \\alpha$."
+          }
+        },
+        {
+          "id": "ch15_ex5_q19",
+          "number": "19",
+          "category": "Master",
+          "questionText": "Show that $1 + \\tan^2(\\alpha^\\circ) = \\sec^2(\\alpha^\\circ)$, where $\\sec(\\alpha^\\circ) = \\dfrac{1}{\\cos(\\alpha^\\circ)}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan\\alpha = \\dfrac{\\sin\\alpha}{\\cos\\alpha}$ and $\\sin^2\\alpha + \\cos^2\\alpha = 1$",
+            "steps": [
+              "Goal: prove $1 + \\tan^2(\\alpha^\\circ) = \\sec^2(\\alpha^\\circ)$ (for $\\cos(\\alpha^\\circ) \\ne 0$).",
+              "LHS $= 1 + \\dfrac{\\sin^2(\\alpha^\\circ)}{\\cos^2(\\alpha^\\circ)}$.",
+              "Write 1 with the same denominator: $= \\dfrac{\\cos^2(\\alpha^\\circ)}{\\cos^2(\\alpha^\\circ)} + \\dfrac{\\sin^2(\\alpha^\\circ)}{\\cos^2(\\alpha^\\circ)}$.",
+              "$= \\dfrac{\\cos^2(\\alpha^\\circ) + \\sin^2(\\alpha^\\circ)}{\\cos^2(\\alpha^\\circ)}$.",
+              "Using $\\sin^2 + \\cos^2 = 1$: $= \\dfrac{1}{\\cos^2(\\alpha^\\circ)}$.",
+              "$= \\left(\\dfrac{1}{\\cos(\\alpha^\\circ)}\\right)^2 = \\sec^2(\\alpha^\\circ) = $ RHS."
+            ],
+            "finalAnswer": "Therefore $1 + \\tan^2(\\alpha^\\circ) = \\sec^2(\\alpha^\\circ)$, as required.",
+            "solutionFigures": [],
+            "tip": "Alternatively, divide every term of $\\sin^2\\alpha + \\cos^2\\alpha = 1$ by $\\cos^2\\alpha$."
+          }
+        },
+        {
+          "id": "ch15_ex5_q20a",
+          "number": "20(a)",
+          "category": "Practice",
+          "questionText": "If $\\sin(x^\\circ) = p$, $0 \\le x \\le 90^\\circ$, write $\\cos(x^\\circ)$ in terms of $p$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin^2(x^\\circ) + \\cos^2(x^\\circ) = 1$",
+            "steps": [
+              "Given: $\\sin(x^\\circ) = p$, $x$ in quadrant 1. Goal: $\\cos(x^\\circ)$ in terms of $p$.",
+              "Substitute: $p^2 + \\cos^2(x^\\circ) = 1$.",
+              "Rearrange: $\\cos^2(x^\\circ) = 1 - p^2$.",
+              "Take the square root: $\\cos(x^\\circ) = \\pm\\sqrt{1 - p^2}$.",
+              "In quadrant 1 cosine is positive (non-negative), so take the positive root."
+            ],
+            "finalAnswer": "Therefore $\\cos(x^\\circ) = \\sqrt{1 - p^2}$.",
+            "solutionFigures": [],
+            "tip": "Use the quadrant to choose the sign of the square root."
+          }
+        },
+        {
+          "id": "ch15_ex5_q20b",
+          "number": "20(b)",
+          "category": "Practice",
+          "questionText": "If $\\sin(x^\\circ) = p$, $0 \\le x \\le 90^\\circ$, write $\\sin(180 - x)^\\circ$ in terms of $p$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(180^\\circ - x) = \\sin(x)$",
+            "steps": [
+              "Given: $\\sin(x^\\circ) = p$. Goal: $\\sin(180 - x)^\\circ$.",
+              "On the unit circle, the points for $x^\\circ$ and $(180 - x)^\\circ$ are reflections in the $y$-axis, so they have the same $y$-coordinate.",
+              "So $\\sin(180 - x)^\\circ = \\sin(x^\\circ) = p$."
+            ],
+            "finalAnswer": "Therefore $\\sin(180 - x)^\\circ = p$.",
+            "solutionFigures": [],
+            "tip": "Sine is positive in quadrant 2, so there is no negative sign."
+          }
+        },
+        {
+          "id": "ch15_ex5_q20c",
+          "number": "20(c)",
+          "category": "Practice",
+          "questionText": "If $\\sin(x^\\circ) = p$, $0 \\le x \\le 90^\\circ$, write $\\cos(180 - x)^\\circ$ in terms of $p$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(180^\\circ - x) = -\\cos(x)$ and $\\cos(x^\\circ) = \\sqrt{1 - p^2}$ (from part a)",
+            "steps": [
+              "Given: $\\sin(x^\\circ) = p$. Goal: $\\cos(180 - x)^\\circ$.",
+              "Reflection in the $y$-axis changes the sign of the $x$-coordinate: $\\cos(180 - x)^\\circ = -\\cos(x^\\circ)$.",
+              "From part a, $\\cos(x^\\circ) = \\sqrt{1 - p^2}$.",
+              "So $\\cos(180 - x)^\\circ = -\\sqrt{1 - p^2}$."
+            ],
+            "finalAnswer": "Therefore $\\cos(180 - x)^\\circ = -\\sqrt{1 - p^2}$.",
+            "solutionFigures": [],
+            "tip": "Cosine is negative in quadrant 2."
+          }
+        },
+        {
+          "id": "ch15_ex5_q20d",
+          "number": "20(d)",
+          "category": "Practice",
+          "questionText": "If $\\sin(x^\\circ) = p$, $0 \\le x \\le 90^\\circ$, write $\\cos(90 - x)^\\circ$ in terms of $p$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complementary angles: $\\cos(90^\\circ - x) = \\sin(x)$",
+            "steps": [
+              "Given: $\\sin(x^\\circ) = p$. Goal: $\\cos(90 - x)^\\circ$.",
+              "In a right-angled triangle with acute angles $x^\\circ$ and $(90 - x)^\\circ$, the side opposite $x^\\circ$ is adjacent to $(90 - x)^\\circ$.",
+              "So $\\cos(90 - x)^\\circ = \\dfrac{\\text{opp to } x}{\\text{hyp}} = \\sin(x^\\circ) = p$."
+            ],
+            "finalAnswer": "Therefore $\\cos(90 - x)^\\circ = p$.",
+            "solutionFigures": [],
+            "tip": "'Co-sine' means the sine of the complementary angle."
+          }
+        },
+        {
+          "id": "ch15_ex5_q21",
+          "number": "21",
+          "category": "Consolidate",
+          "questionText": "Simplify $\\sin(180 - x)^\\circ - \\sin(x^\\circ)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(180^\\circ - x) = \\sin(x)$",
+            "steps": [
+              "Goal: simplify $\\sin(180 - x)^\\circ - \\sin(x^\\circ)$.",
+              "Replace $\\sin(180 - x)^\\circ$ with $\\sin(x^\\circ)$: $\\sin(x^\\circ) - \\sin(x^\\circ)$.",
+              "$= 0$.",
+              "Check with $x = 30$: $\\sin(150^\\circ) - \\sin(30^\\circ) = 0.5 - 0.5 = 0$ ✓"
+            ],
+            "finalAnswer": "Therefore $\\sin(180 - x)^\\circ - \\sin(x^\\circ) = 0$.",
+            "solutionFigures": [],
+            "tip": "Test an identity with a simple angle like $30^\\circ$ to check your answer."
+          }
+        },
+        {
+          "id": "ch15_ex5_q22",
+          "number": "22",
+          "category": "Master",
+          "questionText": "Simplify $\\cos(180 - x)^\\circ + \\cos(x^\\circ)$, where $0 < x^\\circ < 90^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(180^\\circ - x) = -\\cos(x)$",
+            "steps": [
+              "Goal: simplify $\\cos(180 - x)^\\circ + \\cos(x^\\circ)$.",
+              "$(180 - x)^\\circ$ is in quadrant 2 where cosine is negative: $\\cos(180 - x)^\\circ = -\\cos(x^\\circ)$.",
+              "Substitute: $-\\cos(x^\\circ) + \\cos(x^\\circ) = 0$.",
+              "Check with $x = 60$: $\\cos(120^\\circ) + \\cos(60^\\circ) = -0.5 + 0.5 = 0$ ✓"
+            ],
+            "finalAnswer": "Therefore $\\cos(180 - x)^\\circ + \\cos(x^\\circ) = 0$.",
+            "solutionFigures": [],
+            "tip": "Remember the sign change for cosine in quadrant 2."
+          }
+        }
+      ]
+    }
+  ]
+}

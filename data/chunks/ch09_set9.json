@@ -1,0 +1,665 @@
+{
+  "chapterId": "ch09",
+  "chapterTitle": "Non-linear relationships",
+  "topics": [
+    {
+      "topicId": "9.9",
+      "topicTitle": "Sketching the circle",
+      "exercises": [
+        {
+          "id": "ch9_ex9_q1a",
+          "number": "1(a)",
+          "category": "Practice",
+          "questionText": "Sketch the graph of $x^2 + y^2 = 49$, stating the centre and radius.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$x^2 + y^2 = r^2$ is a circle with centre $(0, 0)$ and radius $r$.",
+            "steps": [
+              "Given: $x^2 + y^2 = 49$. Goal: centre, radius, sketch.",
+              "Compare with $x^2 + y^2 = r^2$: $r^2 = 49$.",
+              "$r = \\sqrt{49} = 7$ (take the positive root, since a radius is a length).",
+              "Centre $(0, 0)$.",
+              "The circle crosses the axes at $(\\pm 7, 0)$ and $(0, \\pm 7)$."
+            ],
+            "finalAnswer": "Centre $(0, 0)$, radius 7; the circle passes through $(7, 0)$, $(-7, 0)$, $(0, 7)$ and $(0, -7)$.",
+            "solutionFigures": [],
+            "tip": "The right-hand side is $r^2$, so take its square root to get the radius."
+          }
+        },
+        {
+          "id": "ch9_ex9_q1b",
+          "number": "1(b)",
+          "category": "Practice",
+          "questionText": "Sketch the graph of $x^2 + y^2 = 4^2$, stating the centre and radius.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$x^2 + y^2 = r^2$: centre $(0, 0)$, radius $r$.",
+            "steps": [
+              "Given: $x^2 + y^2 = 4^2$. Goal: centre, radius, sketch.",
+              "$r^2 = 4^2 \\Rightarrow r = 4$.",
+              "Centre $(0, 0)$.",
+              "Axis intercepts: $(\\pm 4, 0)$ and $(0, \\pm 4)$."
+            ],
+            "finalAnswer": "Centre $(0, 0)$, radius 4; the circle passes through $(\\pm 4, 0)$ and $(0, \\pm 4)$.",
+            "solutionFigures": [],
+            "tip": "When the right side is written as $4^2$, the radius is simply 4."
+          }
+        },
+        {
+          "id": "ch9_ex9_q2a",
+          "number": "2(a)",
+          "category": "Consolidate",
+          "questionText": "Sketch the graph of $x^2 + y^2 = 36$, stating the centre and radius.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$x^2 + y^2 = r^2$: centre $(0, 0)$, radius $r$.",
+            "steps": [
+              "Given: $x^2 + y^2 = 36$.",
+              "$r^2 = 36 \\Rightarrow r = 6$.",
+              "Centre $(0, 0)$; axis intercepts $(\\pm 6, 0)$ and $(0, \\pm 6)$."
+            ],
+            "finalAnswer": "Centre $(0, 0)$, radius 6; the circle passes through $(\\pm 6, 0)$ and $(0, \\pm 6)$.",
+            "solutionFigures": [],
+            "tip": "The radius is 6, not 36."
+          }
+        },
+        {
+          "id": "ch9_ex9_q2b",
+          "number": "2(b)",
+          "category": "Consolidate",
+          "questionText": "Sketch the graph of $x^2 + y^2 = 81$, stating the centre and radius.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$x^2 + y^2 = r^2$: centre $(0, 0)$, radius $r$.",
+            "steps": [
+              "Given: $x^2 + y^2 = 81$.",
+              "$r^2 = 81 \\Rightarrow r = 9$.",
+              "Centre $(0, 0)$; axis intercepts $(\\pm 9, 0)$ and $(0, \\pm 9)$."
+            ],
+            "finalAnswer": "Centre $(0, 0)$, radius 9; the circle passes through $(\\pm 9, 0)$ and $(0, \\pm 9)$.",
+            "solutionFigures": [],
+            "tip": "Use equal scales on both axes so the circle does not look like an ellipse."
+          }
+        },
+        {
+          "id": "ch9_ex9_q3a",
+          "number": "3(a)",
+          "category": "Master",
+          "questionText": "Sketch the graph of $2x^2 + 2y^2 = 50$, stating the centre and radius.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Write in the form $x^2 + y^2 = r^2$ (coefficients of $x^2$ and $y^2$ must be 1).",
+            "steps": [
+              "Given: $2x^2 + 2y^2 = 50$.",
+              "Divide both sides by 2: $x^2 + y^2 = 25$.",
+              "$r^2 = 25 \\Rightarrow r = 5$.",
+              "Centre $(0, 0)$; axis intercepts $(\\pm 5, 0)$ and $(0, \\pm 5)$."
+            ],
+            "finalAnswer": "Centre $(0, 0)$, radius 5.",
+            "solutionFigures": [],
+            "tip": "Divide by the coefficient first; otherwise you would wrongly get $r = \\sqrt{50}$."
+          }
+        },
+        {
+          "id": "ch9_ex9_q3b",
+          "number": "3(b)",
+          "category": "Master",
+          "questionText": "Sketch the graph of $9x^2 + 9y^2 = 100$, stating the centre and radius.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Write in the form $x^2 + y^2 = r^2$.",
+            "steps": [
+              "Given: $9x^2 + 9y^2 = 100$.",
+              "Divide both sides by 9: $x^2 + y^2 = \\frac{100}{9}$.",
+              "$r = \\sqrt{\\frac{100}{9}} = \\frac{10}{3} = 3\\frac{1}{3}$.",
+              "Centre $(0, 0)$; axis intercepts $(\\pm 3\\frac{1}{3}, 0)$ and $(0, \\pm 3\\frac{1}{3})$."
+            ],
+            "finalAnswer": "Centre $(0, 0)$, radius $\\frac{10}{3} = 3\\frac{1}{3}$.",
+            "solutionFigures": [],
+            "tip": "$\\sqrt{\\frac{100}{9}} = \\frac{\\sqrt{100}}{\\sqrt{9}} = \\frac{10}{3}$."
+          }
+        },
+        {
+          "id": "ch9_ex9_q4a",
+          "number": "4(a)",
+          "category": "Practice",
+          "questionText": "Sketch the graph of $(x - 1)^2 + (y - 2)^2 = 5^2$, clearly showing the centre and the radius.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$(x - h)^2 + (y - k)^2 = r^2$ is a circle with centre $(h, k)$ and radius $r$.",
+            "steps": [
+              "Given: $(x - 1)^2 + (y - 2)^2 = 5^2$.",
+              "Centre: $h = 1$, $k = 2$, so $(1, 2)$.",
+              "Radius: $r = 5$.",
+              "Extreme points: left $(1 - 5, 2) = (-4, 2)$, right $(6, 2)$, top $(1, 7)$, bottom $(1, -3)$.",
+              "Draw the circle through these four points."
+            ],
+            "finalAnswer": "Centre $(1, 2)$, radius 5; the circle extends from $x = -4$ to $x = 6$ and from $y = -3$ to $y = 7$.",
+            "solutionFigures": [],
+            "tip": "The signs in the brackets are opposite to the centre coordinates: $(x - 1)$ means $h = 1$."
+          }
+        },
+        {
+          "id": "ch9_ex9_q4b",
+          "number": "4(b)",
+          "category": "Practice",
+          "questionText": "Sketch the graph of $(x + 2)^2 + (y + 3)^2 = 6^2$, clearly showing the centre and the radius.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$(x - h)^2 + (y - k)^2 = r^2$: centre $(h, k)$, radius $r$.",
+            "steps": [
+              "Given: $(x + 2)^2 + (y + 3)^2 = 6^2$, i.e. $(x - (-2))^2 + (y - (-3))^2 = 6^2$.",
+              "Centre $(-2, -3)$, radius 6.",
+              "Extreme points: $(-8, -3)$, $(4, -3)$, $(-2, 3)$, $(-2, -9)$."
+            ],
+            "finalAnswer": "Centre $(-2, -3)$, radius 6; the circle extends from $x = -8$ to $x = 4$ and from $y = -9$ to $y = 3$.",
+            "solutionFigures": [],
+            "tip": "$(x + 2)$ gives $h = -2$."
+          }
+        },
+        {
+          "id": "ch9_ex9_q5a",
+          "number": "5(a)",
+          "category": "Consolidate",
+          "questionText": "Sketch the graph of $(x + 3)^2 + (y - 1)^2 = 49$, clearly showing the centre and the radius.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$(x - h)^2 + (y - k)^2 = r^2$: centre $(h, k)$, radius $r$.",
+            "steps": [
+              "Given: $(x + 3)^2 + (y - 1)^2 = 49$.",
+              "Centre $(-3, 1)$.",
+              "$r^2 = 49 \\Rightarrow r = 7$.",
+              "Extreme points: $(-10, 1)$, $(4, 1)$, $(-3, 8)$, $(-3, -6)$."
+            ],
+            "finalAnswer": "Centre $(-3, 1)$, radius 7; the circle extends from $x = -10$ to $x = 4$ and from $y = -6$ to $y = 8$.",
+            "solutionFigures": [],
+            "tip": "Take the square root of 49 for the radius."
+          }
+        },
+        {
+          "id": "ch9_ex9_q5b",
+          "number": "5(b)",
+          "category": "Consolidate",
+          "questionText": "Sketch the graph of $(x - 4)^2 + (y + 5)^2 = 64$, clearly showing the centre and the radius.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$(x - h)^2 + (y - k)^2 = r^2$: centre $(h, k)$, radius $r$.",
+            "steps": [
+              "Given: $(x - 4)^2 + (y + 5)^2 = 64$.",
+              "Centre $(4, -5)$.",
+              "$r^2 = 64 \\Rightarrow r = 8$.",
+              "Extreme points: $(-4, -5)$, $(12, -5)$, $(4, 3)$, $(4, -13)$."
+            ],
+            "finalAnswer": "Centre $(4, -5)$, radius 8; the circle extends from $x = -4$ to $x = 12$ and from $y = -13$ to $y = 3$.",
+            "solutionFigures": [],
+            "tip": "Plot the centre first, then measure the radius left, right, up and down."
+          }
+        },
+        {
+          "id": "ch9_ex9_q6a",
+          "number": "6(a)",
+          "category": "Master",
+          "questionText": "Sketch the graph of $x^2 + (y + 3)^2 = 4$, clearly showing the centre and the radius.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$(x - h)^2 + (y - k)^2 = r^2$: centre $(h, k)$, radius $r$.",
+            "steps": [
+              "Given: $x^2 + (y + 3)^2 = 4$, i.e. $(x - 0)^2 + (y - (-3))^2 = 2^2$.",
+              "Centre $(0, -3)$, radius 2.",
+              "Extreme points: $(-2, -3)$, $(2, -3)$, $(0, -1)$, $(0, -5)$."
+            ],
+            "finalAnswer": "Centre $(0, -3)$, radius 2; the circle extends from $x = -2$ to $x = 2$ and from $y = -5$ to $y = -1$.",
+            "solutionFigures": [],
+            "tip": "$x^2$ alone means $h = 0$."
+          }
+        },
+        {
+          "id": "ch9_ex9_q6b",
+          "number": "6(b)",
+          "category": "Master",
+          "questionText": "Sketch the graph of $(x - 5)^2 + y^2 = 100$, clearly showing the centre and the radius.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$(x - h)^2 + (y - k)^2 = r^2$: centre $(h, k)$, radius $r$.",
+            "steps": [
+              "Given: $(x - 5)^2 + y^2 = 100$.",
+              "Centre $(5, 0)$, $r = \\sqrt{100} = 10$.",
+              "Extreme points: $(-5, 0)$, $(15, 0)$, $(5, 10)$, $(5, -10)$."
+            ],
+            "finalAnswer": "Centre $(5, 0)$, radius 10; the circle extends from $x = -5$ to $x = 15$ and from $y = -10$ to $y = 10$.",
+            "solutionFigures": [],
+            "tip": "Since the centre is on the $x$-axis, the $x$-intercepts are simply $5 \\pm 10$."
+          }
+        },
+        {
+          "id": "ch9_ex9_q7a",
+          "number": "7(a)",
+          "category": "Practice",
+          "questionText": "Sketch the graph of the circle $x^2 + 4x + y^2 + 8y + 16 = 0$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Completing the square: $x^2 + bx = \\left(x + \\frac{b}{2}\\right)^2 - \\left(\\frac{b}{2}\\right)^2$; then use $(x - h)^2 + (y - k)^2 = r^2$.",
+            "steps": [
+              "Given: $x^2 + 4x + y^2 + 8y + 16 = 0$. Goal: centre and radius.",
+              "$(x^2 + 4x + 4) - 4 + (y^2 + 8y + 16) - 16 + 16 = 0$",
+              "$(x + 2)^2 + (y + 4)^2 - 4 = 0$",
+              "$(x + 2)^2 + (y + 4)^2 = 4 = 2^2$",
+              "Centre $(-2, -4)$, radius 2.",
+              "Extreme points: $(-4, -4)$, $(0, -4)$, $(-2, -2)$, $(-2, -6)$. The circle touches the $y$-axis at $(0, -4)$."
+            ],
+            "finalAnswer": "$(x + 2)^2 + (y + 4)^2 = 2^2$: centre $(-2, -4)$, radius 2, touching the $y$-axis at $(0, -4)$.",
+            "solutionFigures": [],
+            "tip": "Whatever you add to complete a square, subtract it again so the equation stays balanced."
+          }
+        },
+        {
+          "id": "ch9_ex9_q7b",
+          "number": "7(b)",
+          "category": "Practice",
+          "questionText": "Sketch the graph of the circle $x^2 - 10x + y^2 - 2y + 10 = 0$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complete the square on $x$ and on $y$, then use $(x - h)^2 + (y - k)^2 = r^2$.",
+            "steps": [
+              "Given: $x^2 - 10x + y^2 - 2y + 10 = 0$.",
+              "$(x^2 - 10x + 25) - 25 + (y^2 - 2y + 1) - 1 + 10 = 0$",
+              "$(x - 5)^2 + (y - 1)^2 - 16 = 0$",
+              "$(x - 5)^2 + (y - 1)^2 = 16 = 4^2$",
+              "Centre $(5, 1)$, radius 4.",
+              "Extreme points: $(1, 1)$, $(9, 1)$, $(5, 5)$, $(5, -3)$."
+            ],
+            "finalAnswer": "$(x - 5)^2 + (y - 1)^2 = 4^2$: centre $(5, 1)$, radius 4.",
+            "solutionFigures": [],
+            "tip": "Half of $-10$ is $-5$, and $(-5)^2 = 25$."
+          }
+        },
+        {
+          "id": "ch9_ex9_q8a",
+          "number": "8(a)",
+          "category": "Consolidate",
+          "questionText": "Sketch the graph of the circle $x^2 - 14x + y^2 + 6y + 9 = 0$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complete the square, then $(x - h)^2 + (y - k)^2 = r^2$.",
+            "steps": [
+              "Given: $x^2 - 14x + y^2 + 6y + 9 = 0$.",
+              "$(x^2 - 14x + 49) - 49 + (y^2 + 6y + 9) - 9 + 9 = 0$",
+              "$(x - 7)^2 + (y + 3)^2 - 49 = 0$",
+              "$(x - 7)^2 + (y + 3)^2 = 49 = 7^2$",
+              "Centre $(7, -3)$, radius 7.",
+              "Extreme points: $(0, -3)$, $(14, -3)$, $(7, 4)$, $(7, -10)$. The circle touches the $y$-axis at $(0, -3)$."
+            ],
+            "finalAnswer": "$(x - 7)^2 + (y + 3)^2 = 7^2$: centre $(7, -3)$, radius 7.",
+            "solutionFigures": [],
+            "tip": "Check the constant carefully: $-49 - 9 + 9 = -49$."
+          }
+        },
+        {
+          "id": "ch9_ex9_q8b",
+          "number": "8(b)",
+          "category": "Consolidate",
+          "questionText": "Sketch the graph of the circle $x^2 + 8x + y^2 - 12y - 12 = 0$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complete the square, then $(x - h)^2 + (y - k)^2 = r^2$.",
+            "steps": [
+              "Given: $x^2 + 8x + y^2 - 12y - 12 = 0$.",
+              "$(x^2 + 8x + 16) - 16 + (y^2 - 12y + 36) - 36 - 12 = 0$",
+              "$(x + 4)^2 + (y - 6)^2 - 64 = 0$",
+              "$(x + 4)^2 + (y - 6)^2 = 64 = 8^2$",
+              "Centre $(-4, 6)$, radius 8.",
+              "Extreme points: $(-12, 6)$, $(4, 6)$, $(-4, 14)$, $(-4, -2)$."
+            ],
+            "finalAnswer": "$(x + 4)^2 + (y - 6)^2 = 8^2$: centre $(-4, 6)$, radius 8.",
+            "solutionFigures": [],
+            "tip": "The constant $-12$ moves to the right as $+12$: $16 + 36 + 12 = 64$."
+          }
+        },
+        {
+          "id": "ch9_ex9_q9a",
+          "number": "9(a)",
+          "category": "Master",
+          "questionText": "Sketch the graph of the circle $x^2 + y^2 - 18y - 19 = 0$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complete the square on $y$, then $(x - h)^2 + (y - k)^2 = r^2$.",
+            "steps": [
+              "Given: $x^2 + y^2 - 18y - 19 = 0$.",
+              "$x^2 + (y^2 - 18y + 81) - 81 - 19 = 0$",
+              "$x^2 + (y - 9)^2 - 100 = 0$",
+              "$x^2 + (y - 9)^2 = 100 = 10^2$",
+              "Centre $(0, 9)$, radius 10.",
+              "Extreme points: $(-10, 9)$, $(10, 9)$, $(0, 19)$, $(0, -1)$."
+            ],
+            "finalAnswer": "$x^2 + (y - 9)^2 = 10^2$: centre $(0, 9)$, radius 10.",
+            "solutionFigures": [],
+            "tip": "There is no $x$ term, so only the $y$ terms need completing the square."
+          }
+        },
+        {
+          "id": "ch9_ex9_q9b",
+          "number": "9(b)",
+          "category": "Master",
+          "questionText": "Sketch the graph of the circle $2x^2 - 4x + 2y^2 + 8y - 8 = 0$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Divide so the $x^2$ and $y^2$ coefficients are 1, complete the square, then use $(x - h)^2 + (y - k)^2 = r^2$.",
+            "steps": [
+              "Given: $2x^2 - 4x + 2y^2 + 8y - 8 = 0$.",
+              "Divide by 2: $x^2 - 2x + y^2 + 4y - 4 = 0$",
+              "$(x^2 - 2x + 1) - 1 + (y^2 + 4y + 4) - 4 - 4 = 0$",
+              "$(x - 1)^2 + (y + 2)^2 - 9 = 0$",
+              "$(x - 1)^2 + (y + 2)^2 = 9 = 3^2$",
+              "Centre $(1, -2)$, radius 3.",
+              "Extreme points: $(-2, -2)$, $(4, -2)$, $(1, 1)$, $(1, -5)$."
+            ],
+            "finalAnswer": "$(x - 1)^2 + (y + 2)^2 = 3^2$: centre $(1, -2)$, radius 3.",
+            "solutionFigures": [],
+            "tip": "Divide every term by 2, including the constant."
+          }
+        },
+        {
+          "id": "ch9_ex9_q10",
+          "number": "10",
+          "category": "Practice",
+          "questionText": "Multiple choice: The graph of $(x - 2)^2 + (y + 5)^2 = 4$ is: A, B, C or D. (Options A and B show circles positioned around $x = -2$, $y = 5$; options C and D show circles positioned around $x = 2$, $y = -5$, with only D having the correct radius of 2 centred at $(2, -5)$.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$(x - h)^2 + (y - k)^2 = r^2$: centre $(h, k)$, radius $r$.",
+            "steps": [
+              "Given: $(x - 2)^2 + (y + 5)^2 = 4$.",
+              "Centre: $h = 2$, $k = -5$, so $(2, -5)$, which lies in the 4th quadrant.",
+              "Radius: $r = \\sqrt{4} = 2$.",
+              "This rules out A and B (centre in the 2nd quadrant).",
+              "The circle with centre $(2, -5)$ and radius 2 is graph D."
+            ],
+            "finalAnswer": "D",
+            "solutionFigures": [],
+            "tip": "A common error is reading the centre as $(-2, 5)$; the signs are reversed in the brackets."
+          }
+        },
+        {
+          "id": "ch9_ex9_q11",
+          "number": "11",
+          "category": "Consolidate",
+          "questionText": "Multiple choice: The centre and radius of the circle $(x + 1)^2 + (y - 3)^2 = 4$ is: A. $(1, -3)$, 4; B. $(-1, 3)$, 2; C. $(3, -1)$, 4; D. $(1, -3)$, 2.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$(x - h)^2 + (y - k)^2 = r^2$: centre $(h, k)$, radius $r$.",
+            "steps": [
+              "Given: $(x + 1)^2 + (y - 3)^2 = 4$.",
+              "$x + 1 = x - (-1)$, so $h = -1$; $y - 3$ gives $k = 3$.",
+              "Centre $(-1, 3)$.",
+              "$r = \\sqrt{4} = 2$."
+            ],
+            "finalAnswer": "B: centre $(-1, 3)$, radius 2.",
+            "solutionFigures": [],
+            "tip": "The radius is the square root of the right-hand side, not the number itself."
+          }
+        },
+        {
+          "id": "ch9_ex9_q12",
+          "number": "12",
+          "category": "Master",
+          "questionText": "Multiple choice: The centre and radius of the circle with equation $x^2 + y^2 + 8x - 10y = 0$ is: A. $(4, 5)$, $\\sqrt{41}$; B. $(-4, 5)$, 9; C. $(4, -5)$, 3; D. $(-4, 5)$, $\\sqrt{41}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complete the square, then $(x - h)^2 + (y - k)^2 = r^2$.",
+            "steps": [
+              "Given: $x^2 + 8x + y^2 - 10y = 0$.",
+              "$(x^2 + 8x + 16) - 16 + (y^2 - 10y + 25) - 25 = 0$",
+              "$(x + 4)^2 + (y - 5)^2 = 41$",
+              "Centre $(-4, 5)$, radius $\\sqrt{41}$."
+            ],
+            "finalAnswer": "D: centre $(-4, 5)$, radius $\\sqrt{41}$.",
+            "solutionFigures": [],
+            "tip": "$16 + 25 = 41$, which is not a perfect square, so leave the radius as $\\sqrt{41}$."
+          }
+        },
+        {
+          "id": "ch9_ex9_q13",
+          "number": "13",
+          "category": "Practice",
+          "questionText": "Determine the equation representing the outer edge of the galaxy as shown in the photo, using the astronomical units provided. The photo is overlaid on axes: the galaxy's circular outer edge has its centre at $x = 5$, $y = 3$, and the edge reaches $x = 9$ on the horizontal line through the centre.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$(x - h)^2 + (y - k)^2 = r^2$",
+            "steps": [
+              "Given: centre $(5, 3)$; a point on the edge is $(9, 3)$. Goal: equation.",
+              "Radius $r = 9 - 5 = 4$.",
+              "Substitute $h = 5$, $k = 3$, $r = 4$: $(x - 5)^2 + (y - 3)^2 = 4^2$.",
+              "$(x - 5)^2 + (y - 3)^2 = 16$"
+            ],
+            "finalAnswer": "The outer edge is $(x - 5)^2 + (y - 3)^2 = 16$.",
+            "solutionFigures": [],
+            "tip": "The radius is the distance from the centre to the edge, not the $x$-coordinate of the edge."
+          }
+        },
+        {
+          "id": "ch9_ex9_q14a",
+          "number": "14(a)",
+          "category": "Consolidate",
+          "questionText": "Circular ripples are formed when a water drop hits the surface of a pond. One ripple is represented by the equation $x^2 + y^2 = 4$ and then 3 seconds later by $x^2 + y^2 = 190$, where the length of measurements are in centimetres. Identify the radius (in cm) of the ripple in each case. (State your answers to 1 decimal place.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$x^2 + y^2 = r^2 \\Rightarrow r = \\sqrt{\\text{RHS}}$",
+            "steps": [
+              "First ripple: $r^2 = 4 \\Rightarrow r = 2$ cm.",
+              "Second ripple: $r^2 = 190 \\Rightarrow r = \\sqrt{190} = 13.784\\ldots \\approx 13.8$ cm (1 d.p.)."
+            ],
+            "finalAnswer": "The radii are 2.0 cm and about 13.8 cm.",
+            "solutionFigures": [],
+            "tip": "Keep the unrounded $\\sqrt{190}$ for the next part."
+          }
+        },
+        {
+          "id": "ch9_ex9_q14b",
+          "number": "14(b)",
+          "category": "Consolidate",
+          "questionText": "Circular ripples on a pond are given by $x^2 + y^2 = 4$ and, 3 seconds later, $x^2 + y^2 = 190$ (cm). Calculate how fast the ripple is moving outwards. (State your answer to 1 decimal place.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Speed $= \\dfrac{\\text{change in radius}}{\\text{time}}$",
+            "steps": [
+              "Change in radius: $\\sqrt{190} - 2 = 13.784 - 2 = 11.784$ cm.",
+              "Speed $= \\frac{11.784}{3} = 3.928\\ldots$ cm/s",
+              "Round to 1 d.p.: 3.9 cm/s."
+            ],
+            "finalAnswer": "The ripple moves outwards at about 3.9 cm/s.",
+            "solutionFigures": [],
+            "tip": "Use the radii, not the values 4 and 190 (which are $r^2$)."
+          }
+        },
+        {
+          "id": "ch9_ex9_q15",
+          "number": "15",
+          "category": "Consolidate",
+          "questionText": "Two circles with equations $x^2 + y^2 = 4$ and $(x - 1)^2 + y^2 = 9$ intersect. Determine the point(s) of intersection. Show your working.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Solve simultaneously: subtract one equation from the other to eliminate $y^2$.",
+            "steps": [
+              "Given: (1) $x^2 + y^2 = 4$; (2) $(x - 1)^2 + y^2 = 9$.",
+              "Expand (2): $x^2 - 2x + 1 + y^2 = 9$.",
+              "Subtract (1) from (2): $(x^2 - 2x + 1 + y^2) - (x^2 + y^2) = 9 - 4$",
+              "$-2x + 1 = 5 \\Rightarrow -2x = 4 \\Rightarrow x = -2$",
+              "Substitute into (1): $(-2)^2 + y^2 = 4 \\Rightarrow y^2 = 0 \\Rightarrow y = 0$",
+              "Check in (2): $(-2 - 1)^2 + 0 = 9$ ✓",
+              "There is only one point, so the circles touch at $(-2, 0)$."
+            ],
+            "finalAnswer": "The circles meet at the single point $(-2, 0)$ (they touch there).",
+            "solutionFigures": [],
+            "tip": "Subtracting the equations removes the squared terms and leaves a linear equation."
+          }
+        },
+        {
+          "id": "ch9_ex9_q16a",
+          "number": "16(a)",
+          "category": "Master",
+          "questionText": "Graph the line $y = x$, the parabola $y = x^2$ and the circle $x^2 + y^2 = 1$ on the one set of axes.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Line through the origin with gradient 1; parabola with turning point $(0, 0)$; circle with centre $(0, 0)$ and radius 1.",
+            "steps": [
+              "$y = x$: straight line through $(0, 0)$, $(1, 1)$, $(-1, -1)$.",
+              "$y = x^2$: upward parabola, turning point $(0, 0)$, through $(\\pm 1, 1)$.",
+              "$x^2 + y^2 = 1$: circle, centre $(0, 0)$, radius 1, through $(\\pm 1, 0)$ and $(0, \\pm 1)$.",
+              "Intersections (see part b): line and circle at about $(\\pm 0.707, \\pm 0.707)$; line and parabola at $(0, 0)$ and $(1, 1)$; parabola and circle at about $(\\pm 0.786, 0.618)$."
+            ],
+            "finalAnswer": "The three graphs on one set of axes: the line $y = x$, the parabola $y = x^2$ and the unit circle, with intersection points as listed.",
+            "solutionFigures": [],
+            "tip": "Use equal scales so the circle looks round."
+          }
+        },
+        {
+          "id": "ch9_ex9_q16bi",
+          "number": "16(b)(i)",
+          "category": "Master",
+          "questionText": "Evaluate algebraically the points of intersection of the line $y = x$ and the circle $x^2 + y^2 = 1$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute the line into the circle and solve.",
+            "steps": [
+              "Substitute $y = x$: $x^2 + x^2 = 1$",
+              "$2x^2 = 1 \\Rightarrow x^2 = \\frac{1}{2} \\Rightarrow x = \\pm \\frac{1}{\\sqrt{2}} = \\pm \\frac{\\sqrt{2}}{2}$",
+              "$y = x$, so the points are $\\left(\\frac{\\sqrt{2}}{2}, \\frac{\\sqrt{2}}{2}\\right)$ and $\\left(-\\frac{\\sqrt{2}}{2}, -\\frac{\\sqrt{2}}{2}\\right)$.",
+              "Decimal: $\\frac{\\sqrt{2}}{2} \\approx 0.707$ (3 d.p.)."
+            ],
+            "finalAnswer": "$\\left(\\frac{\\sqrt{2}}{2}, \\frac{\\sqrt{2}}{2}\\right) \\approx (0.707, 0.707)$ and $\\left(-\\frac{\\sqrt{2}}{2}, -\\frac{\\sqrt{2}}{2}\\right) \\approx (-0.707, -0.707)$.",
+            "solutionFigures": [],
+            "tip": "Remember both the positive and negative square roots."
+          }
+        },
+        {
+          "id": "ch9_ex9_q16bii",
+          "number": "16(b)(ii)",
+          "category": "Master",
+          "questionText": "Evaluate algebraically the points of intersection of the line $y = x$ and the parabola $y = x^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Equate the two expressions for $y$ and use the null factor law.",
+            "steps": [
+              "$x^2 = x$",
+              "$x^2 - x = 0 \\Rightarrow x(x - 1) = 0$",
+              "$x = 0$ or $x = 1$",
+              "$y = x$ gives $(0, 0)$ and $(1, 1)$."
+            ],
+            "finalAnswer": "The line and parabola meet at $(0, 0)$ and $(1, 1)$.",
+            "solutionFigures": [],
+            "tip": "Do not divide both sides by $x$; you would lose the solution $x = 0$."
+          }
+        },
+        {
+          "id": "ch9_ex9_q16biii",
+          "number": "16(b)(iii)",
+          "category": "Master",
+          "questionText": "Evaluate algebraically the points of intersection of the parabola $y = x^2$ and the circle $x^2 + y^2 = 1$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute $x^2 = y$ into the circle; solve the quadratic in $y$ with the quadratic formula $y = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.",
+            "steps": [
+              "Since $y = x^2$, replace $x^2$ with $y$: $y + y^2 = 1$",
+              "$y^2 + y - 1 = 0$",
+              "$y = \\frac{-1 \\pm \\sqrt{1 + 4}}{2} = \\frac{-1 \\pm \\sqrt{5}}{2}$",
+              "$y = x^2 \\ge 0$, so reject $\\frac{-1 - \\sqrt{5}}{2}$. Hence $y = \\frac{-1 + \\sqrt{5}}{2} \\approx 0.618$.",
+              "$x^2 = 0.618\\ldots \\Rightarrow x = \\pm\\sqrt{0.618\\ldots} \\approx \\pm 0.786$ (3 d.p.)."
+            ],
+            "finalAnswer": "The parabola and circle meet at about $(0.786, 0.618)$ and $(-0.786, 0.618)$ (exactly $y = \\frac{\\sqrt{5} - 1}{2}$, $x = \\pm\\sqrt{\\frac{\\sqrt{5} - 1}{2}}$).",
+            "solutionFigures": [],
+            "tip": "Reject any negative value of $y$, because $y = x^2$ can never be negative."
+          }
+        },
+        {
+          "id": "ch9_ex9_q17",
+          "number": "17",
+          "category": "Practice",
+          "questionText": "Sketch the graph of $(x + 6)^2 + (y - 3)^2 = 100$ showing all axial intercepts.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$(x - h)^2 + (y - k)^2 = r^2$; $y$-intercepts: let $x = 0$; $x$-intercepts: let $y = 0$.",
+            "steps": [
+              "Centre $(-6, 3)$, radius $\\sqrt{100} = 10$.",
+              "$y$-intercepts ($x = 0$): $36 + (y - 3)^2 = 100 \\Rightarrow (y - 3)^2 = 64 \\Rightarrow y - 3 = \\pm 8$",
+              "$y = 11$ or $y = -5$: points $(0, 11)$ and $(0, -5)$.",
+              "$x$-intercepts ($y = 0$): $(x + 6)^2 + 9 = 100 \\Rightarrow (x + 6)^2 = 91 \\Rightarrow x = -6 \\pm \\sqrt{91}$",
+              "$\\sqrt{91} \\approx 9.539$, so $x \\approx 3.539$ or $x \\approx -15.539$ (3 d.p.).",
+              "Extreme points: $(-16, 3)$, $(4, 3)$, $(-6, 13)$, $(-6, -7)$."
+            ],
+            "finalAnswer": "Centre $(-6, 3)$, radius 10; $y$-intercepts $(0, 11)$, $(0, -5)$; $x$-intercepts $(-6 + \\sqrt{91}, 0) \\approx (3.539, 0)$ and $(-6 - \\sqrt{91}, 0) \\approx (-15.539, 0)$.",
+            "solutionFigures": [],
+            "tip": "$(0 + 6)^2 = 36$ and $(0 - 3)^2 = 9$; substitute carefully inside the brackets."
+          }
+        },
+        {
+          "id": "ch9_ex9_q18",
+          "number": "18",
+          "category": "Consolidate",
+          "questionText": "Determine the points of intersection between the quadratic equation $y = x^2 - 5$ and the circle given by $x^2 + y^2 = 25$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute $x^2 = y + 5$ into the circle and solve by factorising.",
+            "steps": [
+              "From the parabola: $x^2 = y + 5$.",
+              "Substitute: $(y + 5) + y^2 = 25$",
+              "$y^2 + y - 20 = 0$",
+              "$(y + 5)(y - 4) = 0 \\Rightarrow y = -5$ or $y = 4$",
+              "$y = 4$: $x^2 = 9 \\Rightarrow x = \\pm 3$, giving $(3, 4)$ and $(-3, 4)$.",
+              "$y = -5$: $x^2 = 0 \\Rightarrow x = 0$, giving $(0, -5)$.",
+              "Check $(3, 4)$: $9 - 5 = 4$ ✓ and $9 + 16 = 25$ ✓. Check $(0, -5)$: $0 - 5 = -5$ ✓ and $0 + 25 = 25$ ✓.",
+              "Note: $(0, 5)$ is on the circle but not on the parabola ($0^2 - 5 = -5 \\ne 5$), so it is not an intersection point."
+            ],
+            "finalAnswer": "The points of intersection are $(-3, 4)$, $(3, 4)$ and $(0, -5)$.",
+            "solutionFigures": [],
+            "tip": "Always check each solution in both equations."
+          }
+        },
+        {
+          "id": "ch9_ex9_q19",
+          "number": "19",
+          "category": "Master",
+          "questionText": "Determine the point(s) of intersection of the circles $x^2 + y^2 - 2x - 2y - 2 = 0$ and $x^2 + y^2 - 8x - 2y + 16 = 0$ both algebraically and graphically.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complete the square to find centres and radii; subtract the equations to find the intersection.",
+            "steps": [
+              "Circle 1: $(x^2 - 2x + 1) + (y^2 - 2y + 1) = 2 + 1 + 1 \\Rightarrow (x - 1)^2 + (y - 1)^2 = 4$: centre $(1, 1)$, radius 2.",
+              "Circle 2: $(x^2 - 8x + 16) + (y^2 - 2y + 1) = -16 + 16 + 1 \\Rightarrow (x - 4)^2 + (y - 1)^2 = 1$: centre $(4, 1)$, radius 1.",
+              "Algebraically: subtract equation 2 from equation 1: $(-2x - 2y - 2) - (-8x - 2y + 16) = 0$",
+              "$6x - 18 = 0 \\Rightarrow x = 3$",
+              "Substitute into circle 1: $(3 - 1)^2 + (y - 1)^2 = 4 \\Rightarrow (y - 1)^2 = 0 \\Rightarrow y = 1$.",
+              "Graphically: the centres $(1, 1)$ and $(4, 1)$ are 3 units apart, which equals $2 + 1$, the sum of the radii, so the circles touch at one point on the line $y = 1$: $(1 + 2, 1) = (3, 1)$."
+            ],
+            "finalAnswer": "The circles $(x - 1)^2 + (y - 1)^2 = 4$ and $(x - 4)^2 + (y - 1)^2 = 1$ touch at the single point $(3, 1)$.",
+            "solutionFigures": [],
+            "tip": "If the distance between centres equals the sum of the radii, the circles touch externally."
+          }
+        },
+        {
+          "id": "ch9_ex9_q20",
+          "number": "20",
+          "category": "Master",
+          "questionText": "The general equation of a circle is given by $x^2 + y^2 + ax + by + c = 0$. Determine the equation of the circle which passes through the points $(4, 5)$, $(2, 3)$ and $(0, 5)$. State the centre of the circle and its radius.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute each point to get three simultaneous equations in $a$, $b$, $c$; then complete the square.",
+            "steps": [
+              "$(4, 5)$: $16 + 25 + 4a + 5b + c = 0 \\Rightarrow 4a + 5b + c = -41$ (1)",
+              "$(2, 3)$: $4 + 9 + 2a + 3b + c = 0 \\Rightarrow 2a + 3b + c = -13$ (2)",
+              "$(0, 5)$: $0 + 25 + 0 + 5b + c = 0 \\Rightarrow 5b + c = -25$ (3)",
+              "(1) $-$ (3): $4a = -16 \\Rightarrow a = -4$",
+              "Substitute $a = -4$ into (2): $-8 + 3b + c = -13 \\Rightarrow 3b + c = -5$ (4)",
+              "(3) $-$ (4): $2b = -20 \\Rightarrow b = -10$",
+              "From (3): $c = -25 - 5(-10) = 25$",
+              "Equation: $x^2 + y^2 - 4x - 10y + 25 = 0$",
+              "Complete the square: $(x - 2)^2 - 4 + (y - 5)^2 - 25 + 25 = 0 \\Rightarrow (x - 2)^2 + (y - 5)^2 = 4$",
+              "Check $(2, 3)$: $0 + 4 = 4$ ✓; $(4, 5)$: $4 + 0 = 4$ ✓; $(0, 5)$: $4 + 0 = 4$ ✓"
+            ],
+            "finalAnswer": "The circle is $x^2 + y^2 - 4x - 10y + 25 = 0$, i.e. $(x - 2)^2 + (y - 5)^2 = 4$, with centre $(2, 5)$ and radius 2.",
+            "solutionFigures": [],
+            "tip": "Start with the point that has a zero coordinate; it gives the simplest equation."
+          }
+        }
+      ]
+    }
+  ]
+}

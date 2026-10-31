@@ -1,0 +1,993 @@
+{
+  "chapterId": "ch09",
+  "chapterTitle": "Non-linear relationships",
+  "topics": [
+    {
+      "topicId": "9.5",
+      "topicTitle": "Sketching parabolas in expanded form",
+      "exercises": [
+        {
+          "id": "ch9_ex5_q1",
+          "number": "1",
+          "category": "Practice",
+          "questionText": "What information is necessary to be able to sketch a parabola?",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Key features of a parabola $y = ax^2 + bx + c$: y-intercept $(0, c)$, x-intercepts (solve $y = 0$), turning point at $x = -\\frac{b}{2a}$, and the sign of $a$ for the direction of opening.",
+            "steps": [
+              "Given: a parabola to be sketched.",
+              "Goal: list the information needed to draw an accurate sketch.",
+              "The y-intercept: where the graph crosses the y-axis (let $x = 0$).",
+              "The x-intercepts (if any): where the graph crosses the x-axis (let $y = 0$ and solve).",
+              "The turning point (vertex): the maximum or minimum point, which lies on the axis of symmetry.",
+              "The shape: whether the parabola opens upward ($a > 0$, minimum) or downward ($a < 0$, maximum)."
+            ],
+            "finalAnswer": "Therefore, to sketch a parabola you need the x-intercepts, the y-intercept and the turning point (together with whether it opens up or down).",
+            "solutionFigures": [],
+            "tip": "Always label every intercept and the turning point with coordinates on your sketch."
+          }
+        },
+        {
+          "id": "ch9_ex5_q2a",
+          "number": "2(a)",
+          "category": "Practice",
+          "questionText": "Sketch the graph of $y = (x - 5)(x - 2)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Null Factor Law for x-intercepts; axis of symmetry is midway between the x-intercepts: $x = \\frac{x_1 + x_2}{2}$.",
+            "steps": [
+              "Given: $y = (x - 5)(x - 2)$.",
+              "Goal: find the intercepts and turning point, then describe the sketch.",
+              "y-intercept: let $x = 0$: $y = (0 - 5)(0 - 2) = (-5)(-2) = 10$, so $(0, 10)$.",
+              "x-intercepts: let $y = 0$: $(x - 5)(x - 2) = 0$, so $x - 5 = 0$ or $x - 2 = 0$.",
+              "$x = 5$ or $x = 2$, giving $(2, 0)$ and $(5, 0)$.",
+              "Axis of symmetry: $x = \\frac{2 + 5}{2} = 3.5$.",
+              "Turning point y-value: $y = (3.5 - 5)(3.5 - 2) = (-1.5)(1.5) = -2.25$.",
+              "Turning point: $(3.5, -2.25)$.",
+              "Expanded, $y = x^2 - 7x + 10$, so $a = 1 > 0$: the parabola opens upward and the turning point is a minimum.",
+              "Sketch: an upright parabola crossing the y-axis at $(0, 10)$, cutting the x-axis at $(2, 0)$ and $(5, 0)$, with minimum turning point $(3.5, -2.25)$ on the axis of symmetry $x = 3.5$."
+            ],
+            "finalAnswer": "Therefore the graph is an upright parabola with y-intercept $(0, 10)$, x-intercepts $(2, 0)$ and $(5, 0)$, and minimum turning point $(3.5, -2.25)$.",
+            "solutionFigures": [],
+            "tip": "The factor $(x - 5)$ gives the intercept $x = +5$, not $-5$: change the sign when solving."
+          }
+        },
+        {
+          "id": "ch9_ex5_q2b",
+          "number": "2(b)",
+          "category": "Practice",
+          "questionText": "Sketch the graph of $y = (x + 4)(x - 7)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Null Factor Law for x-intercepts; axis of symmetry $x = \\frac{x_1 + x_2}{2}$.",
+            "steps": [
+              "Given: $y = (x + 4)(x - 7)$.",
+              "Goal: find the intercepts and turning point, then describe the sketch.",
+              "y-intercept: $y = (0 + 4)(0 - 7) = (4)(-7) = -28$, so $(0, -28)$.",
+              "x-intercepts: $(x + 4)(x - 7) = 0 \\Rightarrow x = -4$ or $x = 7$, giving $(-4, 0)$ and $(7, 0)$.",
+              "Axis of symmetry: $x = \\frac{-4 + 7}{2} = 1.5$.",
+              "Turning point y-value: $y = (1.5 + 4)(1.5 - 7) = (5.5)(-5.5) = -30.25$.",
+              "Turning point: $(1.5, -30.25)$.",
+              "Expanded, $y = x^2 - 3x - 28$, so $a = 1 > 0$: opens upward, minimum turning point.",
+              "Sketch: an upright parabola through $(-4, 0)$, $(0, -28)$ and $(7, 0)$ with minimum $(1.5, -30.25)$, symmetric about $x = 1.5$."
+            ],
+            "finalAnswer": "Therefore the graph is an upright parabola with y-intercept $(0, -28)$, x-intercepts $(-4, 0)$ and $(7, 0)$, and minimum turning point $(1.5, -30.25)$.",
+            "solutionFigures": [],
+            "tip": "Find the turning point's x-value first (midpoint of the x-intercepts), then substitute it to get the y-value."
+          }
+        },
+        {
+          "id": "ch9_ex5_q3a",
+          "number": "3(a)",
+          "category": "Consolidate",
+          "questionText": "Sketch the graph of $y = (x + 3)(x + 5)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Null Factor Law for x-intercepts; axis of symmetry $x = \\frac{x_1 + x_2}{2}$.",
+            "steps": [
+              "Given: $y = (x + 3)(x + 5)$.",
+              "Goal: find the intercepts and turning point, then describe the sketch.",
+              "y-intercept: $y = (3)(5) = 15$, so $(0, 15)$.",
+              "x-intercepts: $(x + 3)(x + 5) = 0 \\Rightarrow x = -3$ or $x = -5$, giving $(-5, 0)$ and $(-3, 0)$.",
+              "Axis of symmetry: $x = \\frac{-5 + (-3)}{2} = -4$.",
+              "Turning point y-value: $y = (-4 + 3)(-4 + 5) = (-1)(1) = -1$.",
+              "Turning point: $(-4, -1)$.",
+              "Expanded, $y = x^2 + 8x + 15$, so $a = 1 > 0$: opens upward, minimum turning point.",
+              "Sketch: an upright parabola crossing the x-axis at $(-5, 0)$ and $(-3, 0)$, with minimum $(-4, -1)$ and y-intercept $(0, 15)$."
+            ],
+            "finalAnswer": "Therefore the graph is an upright parabola with y-intercept $(0, 15)$, x-intercepts $(-5, 0)$ and $(-3, 0)$, and minimum turning point $(-4, -1)$.",
+            "solutionFigures": [],
+            "tip": "Both factors have $+$ signs, so both x-intercepts are negative."
+          }
+        },
+        {
+          "id": "ch9_ex5_q3b",
+          "number": "3(b)",
+          "category": "Consolidate",
+          "questionText": "Sketch the graph of $y = (2x + 3)(x + 5)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Null Factor Law for x-intercepts; axis of symmetry $x = \\frac{x_1 + x_2}{2}$ (equivalently $x = -\\frac{b}{2a}$).",
+            "steps": [
+              "Given: $y = (2x + 3)(x + 5)$.",
+              "Goal: find the intercepts and turning point, then describe the sketch.",
+              "y-intercept: $y = (3)(5) = 15$, so $(0, 15)$.",
+              "x-intercepts: $2x + 3 = 0 \\Rightarrow x = -\\frac{3}{2} = -1.5$, or $x + 5 = 0 \\Rightarrow x = -5$.",
+              "x-intercepts: $(-5, 0)$ and $(-1.5, 0)$.",
+              "Axis of symmetry: $x = \\frac{-5 + (-1.5)}{2} = \\frac{-6.5}{2} = -3.25$.",
+              "Check: expanded, $y = 2x^2 + 10x + 3x + 15 = 2x^2 + 13x + 15$, and $-\\frac{b}{2a} = -\\frac{13}{4} = -3.25$.",
+              "Turning point y-value: $y = (2(-3.25) + 3)(-3.25 + 5) = (-3.5)(1.75) = -6.125$.",
+              "Turning point: $(-3.25, -6.125)$.",
+              "$a = 2 > 0$: opens upward, minimum, and narrower than $y = x^2$.",
+              "Sketch: an upright parabola through $(-5, 0)$, $(-1.5, 0)$ and $(0, 15)$ with minimum $(-3.25, -6.125)$."
+            ],
+            "finalAnswer": "Therefore the graph is an upright parabola with y-intercept $(0, 15)$, x-intercepts $(-5, 0)$ and $(-1.5, 0)$, and minimum turning point $(-3.25, -6.125)$.",
+            "solutionFigures": [],
+            "tip": "For a factor like $(2x + 3)$, divide by the coefficient: the intercept is $x = -\\frac{3}{2}$, not $x = -3$."
+          }
+        },
+        {
+          "id": "ch9_ex5_q4a",
+          "number": "4(a)",
+          "category": "Master",
+          "questionText": "Sketch the graph of $y = (4 - x)(x + 2)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Null Factor Law for x-intercepts; axis of symmetry $x = \\frac{x_1 + x_2}{2}$; sign of $a$ gives direction.",
+            "steps": [
+              "Given: $y = (4 - x)(x + 2)$.",
+              "Goal: find the intercepts and turning point, then describe the sketch.",
+              "y-intercept: $y = (4)(2) = 8$, so $(0, 8)$.",
+              "x-intercepts: $4 - x = 0 \\Rightarrow x = 4$, or $x + 2 = 0 \\Rightarrow x = -2$; giving $(-2, 0)$ and $(4, 0)$.",
+              "Axis of symmetry: $x = \\frac{-2 + 4}{2} = 1$.",
+              "Turning point y-value: $y = (4 - 1)(1 + 2) = (3)(3) = 9$.",
+              "Turning point: $(1, 9)$.",
+              "Expanded: $y = 4x + 8 - x^2 - 2x = -x^2 + 2x + 8$, so $a = -1 < 0$: opens downward, maximum turning point.",
+              "Sketch: an inverted parabola through $(-2, 0)$, $(0, 8)$ and $(4, 0)$, with maximum $(1, 9)$, symmetric about $x = 1$."
+            ],
+            "finalAnswer": "Therefore the graph is an inverted parabola with y-intercept $(0, 8)$, x-intercepts $(-2, 0)$ and $(4, 0)$, and maximum turning point $(1, 9)$.",
+            "solutionFigures": [],
+            "tip": "The $-x$ in $(4 - x)$ makes the $x^2$ term negative, so the parabola opens downward."
+          }
+        },
+        {
+          "id": "ch9_ex5_q4b",
+          "number": "4(b)",
+          "category": "Master",
+          "questionText": "Sketch the graph of $y = \\left(\\frac{x}{2} + 3\\right)(5 - x)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Null Factor Law for x-intercepts; axis of symmetry $x = \\frac{x_1 + x_2}{2}$; sign of $a$ gives direction.",
+            "steps": [
+              "Given: $y = \\left(\\frac{x}{2} + 3\\right)(5 - x)$.",
+              "Goal: find the intercepts and turning point, then describe the sketch.",
+              "y-intercept: $y = (3)(5) = 15$, so $(0, 15)$.",
+              "x-intercepts: $\\frac{x}{2} + 3 = 0 \\Rightarrow \\frac{x}{2} = -3 \\Rightarrow x = -6$; $5 - x = 0 \\Rightarrow x = 5$.",
+              "x-intercepts: $(-6, 0)$ and $(5, 0)$.",
+              "Axis of symmetry: $x = \\frac{-6 + 5}{2} = -0.5$.",
+              "Turning point y-value: $y = \\left(\\frac{-0.5}{2} + 3\\right)(5 - (-0.5)) = (2.75)(5.5) = 15.125$.",
+              "Turning point: $(-0.5, 15.125)$.",
+              "Expanded: $y = \\frac{5x}{2} - \\frac{x^2}{2} + 15 - 3x = -\\frac{1}{2}x^2 - \\frac{1}{2}x + 15$, so $a = -\\frac{1}{2} < 0$: opens downward (maximum) and is wider than $y = x^2$.",
+              "Sketch: an inverted parabola through $(-6, 0)$, $(0, 15)$ and $(5, 0)$ with maximum $(-0.5, 15.125)$."
+            ],
+            "finalAnswer": "Therefore the graph is an inverted parabola with y-intercept $(0, 15)$, x-intercepts $(-6, 0)$ and $(5, 0)$, and maximum turning point $(-0.5, 15.125)$.",
+            "solutionFigures": [],
+            "tip": "To solve $\\frac{x}{2} + 3 = 0$, subtract 3 and then multiply by 2."
+          }
+        },
+        {
+          "id": "ch9_ex5_q5a",
+          "number": "5(a)",
+          "category": "Practice",
+          "questionText": "Sketch the graph of $y = x^2 + 4x + 2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Completing the square: $x^2 + bx + c = \\left(x + \\frac{b}{2}\\right)^2 + c - \\left(\\frac{b}{2}\\right)^2$; turning point at $x = -\\frac{b}{2a}$.",
+            "steps": [
+              "Given: $y = x^2 + 4x + 2$, with $a = 1$, $b = 4$, $c = 2$.",
+              "Goal: find the intercepts and turning point, then describe the sketch.",
+              "y-intercept: $c = 2$, so $(0, 2)$.",
+              "Complete the square: $y = x^2 + 4x + 4 - 4 + 2 = (x + 2)^2 - 2$.",
+              "Turning point: $(-2, -2)$; axis of symmetry $x = -2$.",
+              "x-intercepts: $(x + 2)^2 - 2 = 0 \\Rightarrow (x + 2)^2 = 2 \\Rightarrow x + 2 = \\pm\\sqrt{2}$.",
+              "$x = -2 - \\sqrt{2} \\approx -3.41$ or $x = -2 + \\sqrt{2} \\approx -0.59$ (2 d.p.).",
+              "$a = 1 > 0$: opens upward, minimum turning point.",
+              "Sketch: an upright parabola with minimum $(-2, -2)$, crossing the x-axis at about $(-3.41, 0)$ and $(-0.59, 0)$ and the y-axis at $(0, 2)$."
+            ],
+            "finalAnswer": "Therefore the graph is an upright parabola with y-intercept $(0, 2)$, x-intercepts $(-2 \\pm \\sqrt{2}, 0) \\approx (-3.41, 0), (-0.59, 0)$, and minimum turning point $(-2, -2)$.",
+            "solutionFigures": [],
+            "tip": "When taking a square root, remember both the positive and negative roots."
+          }
+        },
+        {
+          "id": "ch9_ex5_q5b",
+          "number": "5(b)",
+          "category": "Practice",
+          "questionText": "Sketch the graph of $y = x^2 - 4x - 5$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Factorise for x-intercepts; turning point at $x = -\\frac{b}{2a}$.",
+            "steps": [
+              "Given: $y = x^2 - 4x - 5$, with $a = 1$, $b = -4$, $c = -5$.",
+              "Goal: find the intercepts and turning point, then describe the sketch.",
+              "y-intercept: $(0, -5)$.",
+              "x-intercepts: factorise $x^2 - 4x - 5 = (x - 5)(x + 1) = 0 \\Rightarrow x = 5$ or $x = -1$.",
+              "Axis of symmetry: $x = -\\frac{-4}{2(1)} = 2$.",
+              "Turning point y-value: $y = 2^2 - 4(2) - 5 = 4 - 8 - 5 = -9$.",
+              "Turning point: $(2, -9)$.",
+              "$a = 1 > 0$: opens upward, minimum.",
+              "Sketch: an upright parabola through $(-1, 0)$, $(0, -5)$ and $(5, 0)$ with minimum $(2, -9)$."
+            ],
+            "finalAnswer": "Therefore the graph is an upright parabola with y-intercept $(0, -5)$, x-intercepts $(-1, 0)$ and $(5, 0)$, and minimum turning point $(2, -9)$.",
+            "solutionFigures": [],
+            "tip": "Check the turning point x-value is exactly midway between the x-intercepts: $\\frac{-1 + 5}{2} = 2$."
+          }
+        },
+        {
+          "id": "ch9_ex5_q5c",
+          "number": "5(c)",
+          "category": "Practice",
+          "questionText": "Sketch the graph of $y = 2x^2 - 4x - 3$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadratic formula $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$; turning point at $x = -\\frac{b}{2a}$.",
+            "steps": [
+              "Given: $y = 2x^2 - 4x - 3$, with $a = 2$, $b = -4$, $c = -3$.",
+              "Goal: find the intercepts and turning point, then describe the sketch.",
+              "y-intercept: $(0, -3)$.",
+              "Axis of symmetry: $x = -\\frac{-4}{2(2)} = 1$.",
+              "Turning point y-value: $y = 2(1)^2 - 4(1) - 3 = 2 - 4 - 3 = -5$, so $(1, -5)$.",
+              "x-intercepts: $\\Delta = b^2 - 4ac = (-4)^2 - 4(2)(-3) = 16 + 24 = 40$.",
+              "$x = \\frac{4 \\pm \\sqrt{40}}{4} = \\frac{4 \\pm 2\\sqrt{10}}{4} = 1 \\pm \\frac{\\sqrt{10}}{2}$.",
+              "$x \\approx 1 - 1.58 = -0.58$ or $x \\approx 1 + 1.58 = 2.58$ (2 d.p.).",
+              "$a = 2 > 0$: opens upward (minimum), narrower than $y = x^2$.",
+              "Sketch: an upright parabola with minimum $(1, -5)$, y-intercept $(0, -3)$, crossing the x-axis at about $(-0.58, 0)$ and $(2.58, 0)$."
+            ],
+            "finalAnswer": "Therefore the graph is an upright parabola with y-intercept $(0, -3)$, x-intercepts $\\left(1 \\pm \\frac{\\sqrt{10}}{2}, 0\\right) \\approx (-0.58, 0), (2.58, 0)$, and minimum turning point $(1, -5)$.",
+            "solutionFigures": [],
+            "tip": "With $c$ negative, $-4ac$ becomes positive: $-4(2)(-3) = +24$."
+          }
+        },
+        {
+          "id": "ch9_ex5_q6a",
+          "number": "6(a)",
+          "category": "Consolidate",
+          "questionText": "Sketch the graph of $y = -2x^2 + 11x + 5$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadratic formula $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$; turning point at $x = -\\frac{b}{2a}$.",
+            "steps": [
+              "Given: $y = -2x^2 + 11x + 5$, with $a = -2$, $b = 11$, $c = 5$.",
+              "Goal: find the intercepts and turning point, then describe the sketch.",
+              "y-intercept: $(0, 5)$.",
+              "Axis of symmetry: $x = -\\frac{11}{2(-2)} = \\frac{11}{4} = 2.75$.",
+              "Turning point y-value: $y = -2\\left(\\frac{11}{4}\\right)^2 + 11\\left(\\frac{11}{4}\\right) + 5 = -\\frac{242}{16} + \\frac{121}{4} + 5 = -\\frac{121}{8} + \\frac{242}{8} + \\frac{40}{8} = \\frac{161}{8} = 20.125$.",
+              "Turning point: $\\left(\\frac{11}{4}, \\frac{161}{8}\\right) = (2.75, 20.125)$.",
+              "x-intercepts: $\\Delta = 11^2 - 4(-2)(5) = 121 + 40 = 161$.",
+              "$x = \\frac{-11 \\pm \\sqrt{161}}{-4} = \\frac{11 \\mp \\sqrt{161}}{4}$.",
+              "$\\sqrt{161} \\approx 12.689$, so $x \\approx \\frac{11 - 12.689}{4} \\approx -0.42$ or $x \\approx \\frac{11 + 12.689}{4} \\approx 5.92$ (2 d.p.).",
+              "$a = -2 < 0$: opens downward (maximum), narrower than $y = x^2$.",
+              "Sketch: an inverted parabola with maximum $(2.75, 20.125)$, y-intercept $(0, 5)$, crossing the x-axis at about $(-0.42, 0)$ and $(5.92, 0)$."
+            ],
+            "finalAnswer": "Therefore the graph is an inverted parabola with y-intercept $(0, 5)$, x-intercepts $\\left(\\frac{11 \\pm \\sqrt{161}}{4}, 0\\right) \\approx (-0.42, 0), (5.92, 0)$, and maximum turning point $(2.75, 20.125)$.",
+            "solutionFigures": [],
+            "tip": "Dividing by the negative denominator $2a = -4$ swaps the $\\pm$ order, so double-check which root is which."
+          }
+        },
+        {
+          "id": "ch9_ex5_q6b",
+          "number": "6(b)",
+          "category": "Consolidate",
+          "questionText": "Sketch the graph of $y = -2x^2 + 12x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Factorise using the common factor; turning point at $x = -\\frac{b}{2a}$.",
+            "steps": [
+              "Given: $y = -2x^2 + 12x$, with $a = -2$, $b = 12$, $c = 0$.",
+              "Goal: find the intercepts and turning point, then describe the sketch.",
+              "y-intercept: $c = 0$, so $(0, 0)$.",
+              "x-intercepts: $-2x^2 + 12x = -2x(x - 6) = 0 \\Rightarrow x = 0$ or $x = 6$.",
+              "Axis of symmetry: $x = -\\frac{12}{2(-2)} = 3$.",
+              "Turning point y-value: $y = -2(3)^2 + 12(3) = -18 + 36 = 18$, so $(3, 18)$.",
+              "$a = -2 < 0$: opens downward (maximum).",
+              "Sketch: an inverted parabola through the origin and $(6, 0)$ with maximum $(3, 18)$."
+            ],
+            "finalAnswer": "Therefore the graph is an inverted parabola with y-intercept $(0, 0)$, x-intercepts $(0, 0)$ and $(6, 0)$, and maximum turning point $(3, 18)$.",
+            "solutionFigures": [],
+            "tip": "When there is no constant term, the graph passes through the origin."
+          }
+        },
+        {
+          "id": "ch9_ex5_q6c",
+          "number": "6(c)",
+          "category": "Consolidate",
+          "questionText": "Sketch the graph of $y = 3x^2 + 6x + 1$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadratic formula $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$; turning point at $x = -\\frac{b}{2a}$.",
+            "steps": [
+              "Given: $y = 3x^2 + 6x + 1$, with $a = 3$, $b = 6$, $c = 1$.",
+              "Goal: find the intercepts and turning point, then describe the sketch.",
+              "y-intercept: $(0, 1)$.",
+              "Axis of symmetry: $x = -\\frac{6}{2(3)} = -1$.",
+              "Turning point y-value: $y = 3(-1)^2 + 6(-1) + 1 = 3 - 6 + 1 = -2$, so $(-1, -2)$.",
+              "x-intercepts: $\\Delta = 6^2 - 4(3)(1) = 36 - 12 = 24$.",
+              "$x = \\frac{-6 \\pm \\sqrt{24}}{6} = \\frac{-6 \\pm 2\\sqrt{6}}{6} = -1 \\pm \\frac{\\sqrt{6}}{3}$.",
+              "$\\frac{\\sqrt{6}}{3} \\approx 0.816$, so $x \\approx -1.82$ or $x \\approx -0.18$ (2 d.p.).",
+              "$a = 3 > 0$: opens upward (minimum), narrower than $y = x^2$.",
+              "Sketch: an upright parabola with minimum $(-1, -2)$, y-intercept $(0, 1)$, crossing the x-axis at about $(-1.82, 0)$ and $(-0.18, 0)$."
+            ],
+            "finalAnswer": "Therefore the graph is an upright parabola with y-intercept $(0, 1)$, x-intercepts $\\left(-1 \\pm \\frac{\\sqrt{6}}{3}, 0\\right) \\approx (-1.82, 0), (-0.18, 0)$, and minimum turning point $(-1, -2)$.",
+            "solutionFigures": [],
+            "tip": "Simplify the surd $\\sqrt{24} = 2\\sqrt{6}$ before dividing to get a neat exact answer."
+          }
+        },
+        {
+          "id": "ch9_ex5_q7a",
+          "number": "7(a)",
+          "category": "Master",
+          "questionText": "Sketch the graph of $y = -3x^2 - 5x + 2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Factorise for x-intercepts; turning point at $x = -\\frac{b}{2a}$.",
+            "steps": [
+              "Given: $y = -3x^2 - 5x + 2$, with $a = -3$, $b = -5$, $c = 2$.",
+              "Goal: find the intercepts and turning point, then describe the sketch.",
+              "y-intercept: $(0, 2)$.",
+              "x-intercepts: $-3x^2 - 5x + 2 = -(3x^2 + 5x - 2) = -(3x - 1)(x + 2) = 0$.",
+              "$3x - 1 = 0 \\Rightarrow x = \\frac{1}{3}$, or $x + 2 = 0 \\Rightarrow x = -2$.",
+              "Axis of symmetry: $x = -\\frac{-5}{2(-3)} = -\\frac{5}{6}$.",
+              "Turning point y-value: $y = -3\\left(\\frac{25}{36}\\right) - 5\\left(-\\frac{5}{6}\\right) + 2 = -\\frac{25}{12} + \\frac{50}{12} + \\frac{24}{12} = \\frac{49}{12}$.",
+              "Turning point: $\\left(-\\frac{5}{6}, \\frac{49}{12}\\right) \\approx (-0.83, 4.08)$.",
+              "$a = -3 < 0$: opens downward (maximum), narrower than $y = x^2$.",
+              "Sketch: an inverted parabola through $(-2, 0)$, $(0, 2)$ and $\\left(\\frac{1}{3}, 0\\right)$ with maximum $\\left(-\\frac{5}{6}, \\frac{49}{12}\\right)$."
+            ],
+            "finalAnswer": "Therefore the graph is an inverted parabola with y-intercept $(0, 2)$, x-intercepts $(-2, 0)$ and $\\left(\\frac{1}{3}, 0\\right)$, and maximum turning point $\\left(-\\frac{5}{6}, \\frac{49}{12}\\right)$.",
+            "solutionFigures": [],
+            "tip": "Take out $-1$ first so the leading coefficient is positive; this makes factorising easier."
+          }
+        },
+        {
+          "id": "ch9_ex5_q7b",
+          "number": "7(b)",
+          "category": "Master",
+          "questionText": "Sketch the graph of $y = 2x^2 + 8x - 10$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Factorise for x-intercepts; turning point at $x = -\\frac{b}{2a}$.",
+            "steps": [
+              "Given: $y = 2x^2 + 8x - 10$, with $a = 2$, $b = 8$, $c = -10$.",
+              "Goal: find the intercepts and turning point, then describe the sketch.",
+              "y-intercept: $(0, -10)$.",
+              "x-intercepts: $2x^2 + 8x - 10 = 2(x^2 + 4x - 5) = 2(x + 5)(x - 1) = 0 \\Rightarrow x = -5$ or $x = 1$.",
+              "Axis of symmetry: $x = -\\frac{8}{2(2)} = -2$.",
+              "Turning point y-value: $y = 2(-2)^2 + 8(-2) - 10 = 8 - 16 - 10 = -18$, so $(-2, -18)$.",
+              "$a = 2 > 0$: opens upward (minimum), narrower than $y = x^2$.",
+              "Sketch: an upright parabola through $(-5, 0)$, $(0, -10)$ and $(1, 0)$ with minimum $(-2, -18)$."
+            ],
+            "finalAnswer": "Therefore the graph is an upright parabola with y-intercept $(0, -10)$, x-intercepts $(-5, 0)$ and $(1, 0)$, and minimum turning point $(-2, -18)$.",
+            "solutionFigures": [],
+            "tip": "Remember to multiply by $a = 2$ when finding the turning point y-value: $2(-2)^2 = 8$, not 4."
+          }
+        },
+        {
+          "id": "ch9_ex5_q7c",
+          "number": "7(c)",
+          "category": "Master",
+          "questionText": "Sketch the graph of $y = -3x^2 + 7x + 3$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadratic formula $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$; turning point at $x = -\\frac{b}{2a}$.",
+            "steps": [
+              "Given: $y = -3x^2 + 7x + 3$, with $a = -3$, $b = 7$, $c = 3$.",
+              "Goal: find the intercepts and turning point, then describe the sketch.",
+              "y-intercept: $(0, 3)$.",
+              "Axis of symmetry: $x = -\\frac{7}{2(-3)} = \\frac{7}{6}$.",
+              "Turning point y-value: $y = -3\\left(\\frac{49}{36}\\right) + 7\\left(\\frac{7}{6}\\right) + 3 = -\\frac{49}{12} + \\frac{98}{12} + \\frac{36}{12} = \\frac{85}{12}$.",
+              "Turning point: $\\left(\\frac{7}{6}, \\frac{85}{12}\\right) \\approx (1.17, 7.08)$.",
+              "x-intercepts: $\\Delta = 7^2 - 4(-3)(3) = 49 + 36 = 85$.",
+              "$x = \\frac{-7 \\pm \\sqrt{85}}{-6} = \\frac{7 \\mp \\sqrt{85}}{6}$.",
+              "$\\sqrt{85} \\approx 9.220$, so $x \\approx \\frac{7 - 9.220}{6} \\approx -0.37$ or $x \\approx \\frac{7 + 9.220}{6} \\approx 2.70$ (2 d.p.).",
+              "$a = -3 < 0$: opens downward (maximum), narrower than $y = x^2$.",
+              "Sketch: an inverted parabola with maximum $\\left(\\frac{7}{6}, \\frac{85}{12}\\right)$, y-intercept $(0, 3)$, crossing the x-axis at about $(-0.37, 0)$ and $(2.70, 0)$."
+            ],
+            "finalAnswer": "Therefore the graph is an inverted parabola with y-intercept $(0, 3)$, x-intercepts $\\left(\\frac{7 \\pm \\sqrt{85}}{6}, 0\\right) \\approx (-0.37, 0), (2.70, 0)$, and maximum turning point $\\left(\\frac{7}{6}, \\frac{85}{12}\\right)$.",
+            "solutionFigures": [],
+            "tip": "Use a common denominator (12) when adding the fractions for the turning point y-value."
+          }
+        },
+        {
+          "id": "ch9_ex5_q8a",
+          "number": "8(a)",
+          "category": "Practice",
+          "questionText": "The path of a soccer ball kicked by the goalkeeper can be modelled by the equation $y = -\\frac{1}{144}(x^2 - 24x)$, where $y$ is the height of the soccer ball and $x$ is the horizontal distance from the goalie, both in metres. Sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Factorise for x-intercepts; turning point at the midpoint of the x-intercepts.",
+            "steps": [
+              "Given: $y = -\\frac{1}{144}(x^2 - 24x)$.",
+              "Goal: find the intercepts and turning point, then describe the sketch.",
+              "Factorise: $y = -\\frac{1}{144}x(x - 24)$.",
+              "y-intercept: $x = 0 \\Rightarrow y = 0$, so $(0, 0)$.",
+              "x-intercepts: $x = 0$ or $x = 24$.",
+              "Axis of symmetry: $x = \\frac{0 + 24}{2} = 12$.",
+              "Turning point y-value: $y = -\\frac{1}{144}(144 - 288) = -\\frac{1}{144}(-144) = 1$, so $(12, 1)$.",
+              "$a = -\\frac{1}{144} < 0$: opens downward (maximum), much wider than $y = x^2$.",
+              "Sketch (for $0 \\le x \\le 24$): an inverted arch starting at the origin, rising to a maximum of $(12, 1)$ and landing at $(24, 0)$."
+            ],
+            "finalAnswer": "Therefore the graph is an inverted parabola from $(0, 0)$ to $(24, 0)$ with maximum turning point $(12, 1)$.",
+            "solutionFigures": [],
+            "tip": "Only the part of the graph with $y \\ge 0$ and $x \\ge 0$ makes sense for a ball's flight."
+          }
+        },
+        {
+          "id": "ch9_ex5_q8b",
+          "number": "8(b)",
+          "category": "Practice",
+          "questionText": "The path of a soccer ball kicked by the goalkeeper can be modelled by the equation $y = -\\frac{1}{144}(x^2 - 24x)$, where $y$ is the height of the soccer ball and $x$ is the horizontal distance from the goalie, both in metres. Calculate how far away from the player the ball first bounces.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The ball bounces when its height is zero: solve $y = 0$.",
+            "steps": [
+              "Given: $y = -\\frac{1}{144}(x^2 - 24x)$.",
+              "Goal: the horizontal distance when the ball first lands ($y = 0$, $x > 0$).",
+              "$-\\frac{1}{144}x(x - 24) = 0$.",
+              "$x = 0$ (the kick) or $x = 24$ (the bounce)."
+            ],
+            "finalAnswer": "Therefore the ball first bounces 24 m from the player.",
+            "solutionFigures": [],
+            "tip": "Discard $x = 0$: that is where the ball was kicked, not where it lands."
+          }
+        },
+        {
+          "id": "ch9_ex5_q8c",
+          "number": "8(c)",
+          "category": "Practice",
+          "questionText": "The path of a soccer ball kicked by the goalkeeper can be modelled by the equation $y = -\\frac{1}{144}(x^2 - 24x)$, where $y$ is the height of the soccer ball and $x$ is the horizontal distance from the goalie, both in metres. Calculate the maximum height of the ball.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The maximum height is the y-value of the turning point, at $x = \\frac{x_1 + x_2}{2}$.",
+            "steps": [
+              "Given: x-intercepts $x = 0$ and $x = 24$.",
+              "Goal: the maximum height.",
+              "Axis of symmetry: $x = \\frac{0 + 24}{2} = 12$.",
+              "$y = -\\frac{1}{144}(12^2 - 24 \\times 12) = -\\frac{1}{144}(144 - 288) = \\frac{144}{144} = 1$."
+            ],
+            "finalAnswer": "Therefore the maximum height of the ball is 1 m.",
+            "solutionFigures": [],
+            "tip": "Keep the bracket: $-\\frac{1}{144} \\times (-144) = +1$."
+          }
+        },
+        {
+          "id": "ch9_ex5_q9a",
+          "number": "9(a)",
+          "category": "Consolidate",
+          "questionText": "The monthly profit or loss, $p$ (in thousands of dollars), for a new brand of chicken loaf is given by $p = 3x^2 - 15x - 18$, where $x$ is the number of months after its introduction (when $x = 0$). Sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Factorise for x-intercepts; turning point at $x = -\\frac{b}{2a}$.",
+            "steps": [
+              "Given: $p = 3x^2 - 15x - 18$, with $a = 3$, $b = -15$, $c = -18$.",
+              "Goal: find the intercepts and turning point, then describe the sketch.",
+              "p-intercept: $x = 0 \\Rightarrow p = -18$, so $(0, -18)$.",
+              "x-intercepts: $3x^2 - 15x - 18 = 3(x^2 - 5x - 6) = 3(x - 6)(x + 1) = 0 \\Rightarrow x = 6$ or $x = -1$.",
+              "Axis of symmetry: $x = -\\frac{-15}{2(3)} = 2.5$.",
+              "Turning point: $p = 3(2.5)^2 - 15(2.5) - 18 = 18.75 - 37.5 - 18 = -36.75$, so $(2.5, -36.75)$.",
+              "$a = 3 > 0$: opens upward (minimum).",
+              "Since $x \\ge 0$ (months after introduction), only the part from $(0, -18)$ onwards is relevant.",
+              "Sketch: starting at $(0, -18)$, the curve falls to a minimum of $(2.5, -36.75)$, rises to cross the x-axis at $(6, 0)$ and keeps increasing. (The full parabola would also cross at $(-1, 0)$.)"
+            ],
+            "finalAnswer": "Therefore the graph is an upright parabola with p-intercept $(0, -18)$, x-intercepts $(-1, 0)$ and $(6, 0)$ (only $x \\ge 0$ is relevant), and minimum turning point $(2.5, -36.75)$.",
+            "solutionFigures": [],
+            "tip": "Remember the domain: negative months have no meaning, so draw the graph for $x \\ge 0$."
+          }
+        },
+        {
+          "id": "ch9_ex5_q9b",
+          "number": "9(b)",
+          "category": "Consolidate",
+          "questionText": "The monthly profit or loss, $p$ (in thousands of dollars), for a new brand of chicken loaf is given by $p = 3x^2 - 15x - 18$, where $x$ is the number of months after its introduction (when $x = 0$). Determine during which month a profit was first made.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "A profit is made when $p > 0$; break-even is where $p = 0$.",
+            "steps": [
+              "Given: $p = 3(x - 6)(x + 1)$.",
+              "Goal: the first month in which $p > 0$.",
+              "Break-even: $p = 0 \\Rightarrow x = 6$ (taking $x \\ge 0$).",
+              "For $0 \\le x < 6$, $p < 0$ (a loss); for $x > 6$, $p > 0$ (a profit).",
+              "So the company breaks even at the end of the 6th month ($x = 6$) and is in profit after that, which is during the 7th month."
+            ],
+            "finalAnswer": "Therefore a profit was first made during the 7th month (after breaking even at the end of the 6th month).",
+            "solutionFigures": [],
+            "tip": "$x = 6$ means 6 months have passed, i.e. the end of the 6th month, so the next month is the 7th."
+          }
+        },
+        {
+          "id": "ch9_ex5_q9c",
+          "number": "9(c)",
+          "category": "Consolidate",
+          "questionText": "The monthly profit or loss, $p$ (in thousands of dollars), for a new brand of chicken loaf is given by $p = 3x^2 - 15x - 18$, where $x$ is the number of months after its introduction (when $x = 0$). Calculate the month in which the profit is $\\$54\\,000$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute $p = 54$ (thousands) and solve the quadratic equation.",
+            "steps": [
+              "Given: $p = 3x^2 - 15x - 18$, profit $\\$54\\,000$ so $p = 54$.",
+              "Goal: the value of $x$.",
+              "$3x^2 - 15x - 18 = 54$.",
+              "$3x^2 - 15x - 72 = 0$.",
+              "Divide by 3: $x^2 - 5x - 24 = 0$.",
+              "Factorise: $(x - 8)(x + 3) = 0 \\Rightarrow x = 8$ or $x = -3$.",
+              "Reject $x = -3$ (negative time), so $x = 8$.",
+              "Check: $3(64) - 15(8) - 18 = 192 - 120 - 18 = 54$. ✓"
+            ],
+            "finalAnswer": "Therefore the profit is $\\$54\\,000$ when $x = 8$, i.e. 8 months after introduction (the 8th month).",
+            "solutionFigures": [],
+            "tip": "$p$ is in thousands of dollars, so $\\$54\\,000$ means $p = 54$, not $54\\,000$."
+          }
+        },
+        {
+          "id": "ch9_ex5_q10a",
+          "number": "10(a)",
+          "category": "Master",
+          "questionText": "The height, $h$ metres, of a model rocket above the ground $t$ seconds after launch is given by the equation $h = 4t(50 - t)$, where $0 \\le t \\le 50$. Sketch the graph of the rocket's flight.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Null Factor Law for intercepts; turning point at the midpoint of the t-intercepts.",
+            "steps": [
+              "Given: $h = 4t(50 - t)$, $0 \\le t \\le 50$.",
+              "Goal: find the intercepts and turning point, then describe the sketch.",
+              "h-intercept: $t = 0 \\Rightarrow h = 0$, so $(0, 0)$.",
+              "t-intercepts: $4t(50 - t) = 0 \\Rightarrow t = 0$ or $t = 50$.",
+              "Axis of symmetry: $t = \\frac{0 + 50}{2} = 25$.",
+              "Turning point: $h = 4(25)(50 - 25) = 4 \\times 25 \\times 25 = 2500$, so $(25, 2500)$.",
+              "Expanded, $h = 200t - 4t^2$, so $a = -4 < 0$: opens downward (maximum).",
+              "Sketch: an inverted arch from $(0, 0)$ up to a maximum at $(25, 2500)$ and back down to $(50, 0)$, with $t$ on the horizontal axis and $h$ on the vertical axis."
+            ],
+            "finalAnswer": "Therefore the graph is an inverted parabola from $(0, 0)$ to $(50, 0)$ with maximum turning point $(25, 2500)$.",
+            "solutionFigures": [],
+            "tip": "Use a suitable scale on the $h$-axis (e.g. steps of 500) because the heights are large."
+          }
+        },
+        {
+          "id": "ch9_ex5_q10b",
+          "number": "10(b)",
+          "category": "Master",
+          "questionText": "The height, $h$ metres, of a model rocket above the ground $t$ seconds after launch is given by the equation $h = 4t(50 - t)$, where $0 \\le t \\le 50$. State the height of the rocket above the ground when it is launched.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Launch is at $t = 0$; substitute into $h = 4t(50 - t)$.",
+            "steps": [
+              "Given: $h = 4t(50 - t)$.",
+              "Goal: $h$ when $t = 0$.",
+              "$h = 4(0)(50 - 0) = 0$."
+            ],
+            "finalAnswer": "Therefore the rocket is 0 m above the ground (on the ground) when it is launched.",
+            "solutionFigures": [],
+            "tip": "Launch time always corresponds to $t = 0$."
+          }
+        },
+        {
+          "id": "ch9_ex5_q10c",
+          "number": "10(c)",
+          "category": "Master",
+          "questionText": "The height, $h$ metres, of a model rocket above the ground $t$ seconds after launch is given by the equation $h = 4t(50 - t)$, where $0 \\le t \\le 50$. Calculate the greatest height reached by the rocket.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Greatest height = h-value of the turning point, at $t = \\frac{t_1 + t_2}{2}$.",
+            "steps": [
+              "Given: t-intercepts $t = 0$ and $t = 50$.",
+              "Goal: the maximum value of $h$.",
+              "Axis of symmetry: $t = \\frac{0 + 50}{2} = 25$.",
+              "$h = 4(25)(50 - 25) = 4 \\times 25 \\times 25 = 2500$."
+            ],
+            "finalAnswer": "Therefore the greatest height reached by the rocket is 2500 m.",
+            "solutionFigures": [],
+            "tip": "The maximum is at the midpoint of the zeros because a parabola is symmetric."
+          }
+        },
+        {
+          "id": "ch9_ex5_q10d",
+          "number": "10(d)",
+          "category": "Master",
+          "questionText": "The height, $h$ metres, of a model rocket above the ground $t$ seconds after launch is given by the equation $h = 4t(50 - t)$, where $0 \\le t \\le 50$. Determine how long the rocket takes to reach its greatest height.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Time of greatest height = t-coordinate of the turning point.",
+            "steps": [
+              "Given: turning point $(25, 2500)$ from part (c).",
+              "Goal: the time at the maximum.",
+              "The t-coordinate of the turning point is $t = 25$."
+            ],
+            "finalAnswer": "Therefore the rocket takes 25 seconds to reach its greatest height.",
+            "solutionFigures": [],
+            "tip": "The time comes from the horizontal coordinate, the height from the vertical coordinate."
+          }
+        },
+        {
+          "id": "ch9_ex5_q10e",
+          "number": "10(e)",
+          "category": "Master",
+          "questionText": "The height, $h$ metres, of a model rocket above the ground $t$ seconds after launch is given by the equation $h = 4t(50 - t)$, where $0 \\le t \\le 50$. Determine how long the rocket is in the air.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The rocket lands when $h = 0$ for $t > 0$.",
+            "steps": [
+              "Given: $h = 4t(50 - t)$.",
+              "Goal: the time between launch and landing.",
+              "$4t(50 - t) = 0 \\Rightarrow t = 0$ (launch) or $t = 50$ (landing).",
+              "Time in the air $= 50 - 0 = 50$ s."
+            ],
+            "finalAnswer": "Therefore the rocket is in the air for 50 seconds.",
+            "solutionFigures": [],
+            "tip": "The flight time is twice the time to reach the maximum: $2 \\times 25 = 50$ s."
+          }
+        },
+        {
+          "id": "ch9_ex5_q11",
+          "number": "11",
+          "category": "Practice",
+          "questionText": "The equation $y = x^2 + bx + 7500$ has x-intercepts of $(-150, 0)$ and $(-50, 0)$. Determine the value of $b$ in the equation. Justify your answer.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "A quadratic with $a = 1$ and x-intercepts $p$ and $q$ is $y = (x - p)(x - q)$.",
+            "steps": [
+              "Given: $a = 1$, x-intercepts $x = -150$ and $x = -50$, constant term 7500.",
+              "Goal: the value of $b$.",
+              "Write in factorised form: $y = (x - (-150))(x - (-50)) = (x + 150)(x + 50)$.",
+              "Expand: $y = x^2 + 50x + 150x + 7500 = x^2 + 200x + 7500$.",
+              "The constant term $150 \\times 50 = 7500$ matches the given equation, confirming the factors.",
+              "Compare with $y = x^2 + bx + 7500$: $b = 200$."
+            ],
+            "finalAnswer": "Therefore $b = 200$.",
+            "solutionFigures": [],
+            "tip": "An x-intercept at $x = -150$ gives the factor $(x + 150)$: the sign flips."
+          }
+        },
+        {
+          "id": "ch9_ex5_q12",
+          "number": "12",
+          "category": "Consolidate",
+          "questionText": "The equation $y = x^2 + bx + c$ has x-intercepts of $m$ and $n$. Determine the value of $b$ in the equation. Justify your answer.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "A quadratic with $a = 1$ and x-intercepts $m$ and $n$ is $y = (x - m)(x - n)$.",
+            "steps": [
+              "Given: $y = x^2 + bx + c$ with x-intercepts $x = m$ and $x = n$.",
+              "Goal: express $b$ in terms of $m$ and $n$.",
+              "By the Null Factor Law, the equation factorises as $y = (x - m)(x - n)$.",
+              "Expand: $y = x^2 - nx - mx + mn = x^2 - (m + n)x + mn$.",
+              "Compare coefficients of $x$ with $y = x^2 + bx + c$: $b = -(m + n)$ (and $c = mn$)."
+            ],
+            "finalAnswer": "Therefore $b = -(m + n)$.",
+            "solutionFigures": [],
+            "tip": "Check with Question 11: $m = -150$, $n = -50$ gives $b = -(-200) = 200$."
+          }
+        },
+        {
+          "id": "ch9_ex5_q13",
+          "number": "13",
+          "category": "Master",
+          "questionText": "A ball thrown from a cliff follows a parabolic path of the form $y = ax^2 + bx + c$. The ball is released at the point $(0, 9)$, reaches a maximum height at $(2, 11)$ and passes through the point $(6, 3)$ on its descent. Determine the equation of the ball's path. Show full working.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Turning point form $y = a(x - h)^2 + k$ with turning point $(h, k)$.",
+            "steps": [
+              "Given: turning point $(2, 11)$, points $(0, 9)$ and $(6, 3)$ on the path.",
+              "Goal: the equation in the form $y = ax^2 + bx + c$.",
+              "Using turning point form: $y = a(x - 2)^2 + 11$.",
+              "Substitute $(0, 9)$: $9 = a(0 - 2)^2 + 11 \\Rightarrow 9 = 4a + 11$.",
+              "$4a = -2 \\Rightarrow a = -\\frac{1}{2}$.",
+              "So $y = -\\frac{1}{2}(x - 2)^2 + 11$.",
+              "Expand: $y = -\\frac{1}{2}(x^2 - 4x + 4) + 11 = -\\frac{1}{2}x^2 + 2x - 2 + 11 = -\\frac{1}{2}x^2 + 2x + 9$.",
+              "Check $(6, 3)$: $-\\frac{1}{2}(36) + 2(6) + 9 = -18 + 12 + 9 = 3$. ✓"
+            ],
+            "finalAnswer": "Therefore the equation of the ball's path is $y = -\\frac{1}{2}x^2 + 2x + 9$.",
+            "solutionFigures": [],
+            "tip": "When the turning point is given, start with turning point form; it needs only one extra point to find $a$."
+          }
+        },
+        {
+          "id": "ch9_ex5_q14a",
+          "number": "14(a)",
+          "category": "Practice",
+          "questionText": "A ball is thrown upwards from a building and follows the path given by the formula $h = -x^2 + 4x + 21$. The ball is $h$ metres above the ground when it is a horizontal distance of $x$ metres from the building. Sketch the graph of the path of the ball.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Factorise for x-intercepts; turning point at $x = -\\frac{b}{2a}$.",
+            "steps": [
+              "Given: $h = -x^2 + 4x + 21$, with $a = -1$, $b = 4$, $c = 21$.",
+              "Goal: find the intercepts and turning point, then describe the sketch.",
+              "h-intercept: $(0, 21)$.",
+              "x-intercepts: $-x^2 + 4x + 21 = -(x^2 - 4x - 21) = -(x - 7)(x + 3) = 0 \\Rightarrow x = 7$ or $x = -3$.",
+              "Axis of symmetry: $x = -\\frac{4}{2(-1)} = 2$.",
+              "Turning point: $h = -(2)^2 + 4(2) + 21 = -4 + 8 + 21 = 25$, so $(2, 25)$.",
+              "$a = -1 < 0$: opens downward (maximum).",
+              "Only $x \\ge 0$ is relevant (distance from the building).",
+              "Sketch: starting at $(0, 21)$ on the building, the path rises to a maximum $(2, 25)$ and falls to land at $(7, 0)$. (The full parabola would also cross at $(-3, 0)$.)"
+            ],
+            "finalAnswer": "Therefore the graph is an inverted parabola from $(0, 21)$ through the maximum $(2, 25)$ to $(7, 0)$ (x-intercepts of the full parabola: $-3$ and $7$).",
+            "solutionFigures": [],
+            "tip": "Restrict the sketch to $x \\ge 0$ because the ball starts at the building."
+          }
+        },
+        {
+          "id": "ch9_ex5_q14b",
+          "number": "14(b)",
+          "category": "Practice",
+          "questionText": "A ball is thrown upwards from a building and follows the path given by the formula $h = -x^2 + 4x + 21$. The ball is $h$ metres above the ground when it is a horizontal distance of $x$ metres from the building. Determine the maximum height of the ball.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Maximum at $x = -\\frac{b}{2a}$.",
+            "steps": [
+              "Given: $h = -x^2 + 4x + 21$.",
+              "Goal: the maximum value of $h$.",
+              "$x = -\\frac{4}{2(-1)} = 2$.",
+              "$h = -(2)^2 + 4(2) + 21 = -4 + 8 + 21 = 25$."
+            ],
+            "finalAnswer": "Therefore the maximum height of the ball is 25 m.",
+            "solutionFigures": [],
+            "tip": "$-(2)^2 = -4$: square first, then apply the negative sign."
+          }
+        },
+        {
+          "id": "ch9_ex5_q14c",
+          "number": "14(c)",
+          "category": "Practice",
+          "questionText": "A ball is thrown upwards from a building and follows the path given by the formula $h = -x^2 + 4x + 21$. The ball is $h$ metres above the ground when it is a horizontal distance of $x$ metres from the building. Determine how far the ball is from the wall when it reaches the maximum height.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The horizontal distance at the maximum is the x-coordinate of the turning point, $x = -\\frac{b}{2a}$.",
+            "steps": [
+              "Given: turning point $(2, 25)$.",
+              "Goal: the horizontal distance at the maximum height.",
+              "$x = -\\frac{4}{2(-1)} = 2$."
+            ],
+            "finalAnswer": "Therefore the ball is 2 m from the wall when it reaches its maximum height.",
+            "solutionFigures": [],
+            "tip": "Distance from the wall is the x-coordinate, not the height."
+          }
+        },
+        {
+          "id": "ch9_ex5_q14d",
+          "number": "14(d)",
+          "category": "Practice",
+          "questionText": "A ball is thrown upwards from a building and follows the path given by the formula $h = -x^2 + 4x + 21$. The ball is $h$ metres above the ground when it is a horizontal distance of $x$ metres from the building. Determine how far from the building the ball lands.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The ball lands when $h = 0$; solve using the Null Factor Law.",
+            "steps": [
+              "Given: $h = -x^2 + 4x + 21$.",
+              "Goal: $x$ when $h = 0$ with $x > 0$.",
+              "$-(x - 7)(x + 3) = 0 \\Rightarrow x = 7$ or $x = -3$.",
+              "Reject $x = -3$ (behind the building), so $x = 7$."
+            ],
+            "finalAnswer": "Therefore the ball lands 7 m from the building.",
+            "solutionFigures": [],
+            "tip": "Always check whether each solution makes sense in context."
+          }
+        },
+        {
+          "id": "ch9_ex5_q15a",
+          "number": "15(a)",
+          "category": "Consolidate",
+          "questionText": "During an 8-hour period, an experiment is done in which the temperature of a room follows the relationship $T = h^2 - 8h + 21$, where $T$ is the temperature in degrees Celsius $h$ hours after starting the experiment. Sketch the graph of this quadratic.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Turning point at $h = -\\frac{b}{2a}$; discriminant $\\Delta = b^2 - 4ac$ tells whether there are x-intercepts.",
+            "steps": [
+              "Given: $T = h^2 - 8h + 21$, $0 \\le h \\le 8$, with $a = 1$, $b = -8$, $c = 21$.",
+              "Goal: find the key features, then describe the sketch.",
+              "T-intercept: $h = 0 \\Rightarrow T = 21$, so $(0, 21)$.",
+              "Axis of symmetry: $h = -\\frac{-8}{2(1)} = 4$.",
+              "Turning point: $T = 4^2 - 8(4) + 21 = 16 - 32 + 21 = 5$, so $(4, 5)$.",
+              "Horizontal-axis intercepts: $\\Delta = (-8)^2 - 4(1)(21) = 64 - 84 = -20 < 0$, so there are none.",
+              "End point: $h = 8 \\Rightarrow T = 64 - 64 + 21 = 21$, so $(8, 21)$.",
+              "$a = 1 > 0$: opens upward (minimum).",
+              "Sketch (for $0 \\le h \\le 8$): a U-shaped curve starting at $(0, 21)$, falling to a minimum at $(4, 5)$ and rising back to $(8, 21)$, entirely above the horizontal axis."
+            ],
+            "finalAnswer": "Therefore the graph is an upright parabola from $(0, 21)$ to $(8, 21)$ with minimum turning point $(4, 5)$ and no horizontal-axis intercepts.",
+            "solutionFigures": [],
+            "tip": "A negative discriminant means the graph never meets the horizontal axis."
+          }
+        },
+        {
+          "id": "ch9_ex5_q15b",
+          "number": "15(b)",
+          "category": "Consolidate",
+          "questionText": "During an 8-hour period, an experiment is done in which the temperature of a room follows the relationship $T = h^2 - 8h + 21$, where $T$ is the temperature in degrees Celsius $h$ hours after starting the experiment. Identify the initial temperature.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Initial means $h = 0$.",
+            "steps": [
+              "Given: $T = h^2 - 8h + 21$.",
+              "Goal: $T$ when $h = 0$.",
+              "$T = 0^2 - 8(0) + 21 = 21$."
+            ],
+            "finalAnswer": "Therefore the initial temperature is $21\\,^\\circ\\text{C}$.",
+            "solutionFigures": [],
+            "tip": "The initial value of a quadratic in expanded form is simply the constant term."
+          }
+        },
+        {
+          "id": "ch9_ex5_q15c",
+          "number": "15(c)",
+          "category": "Consolidate",
+          "questionText": "During an 8-hour period, an experiment is done in which the temperature of a room follows the relationship $T = h^2 - 8h + 21$, where $T$ is the temperature in degrees Celsius $h$ hours after starting the experiment. Determine if the temperature is increasing or decreasing after 3 hours.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For an upright parabola, values decrease to the left of the turning point and increase to the right.",
+            "steps": [
+              "Given: minimum turning point at $h = 4$.",
+              "Goal: the behaviour at $h = 3$.",
+              "$h = 3 < 4$, so $h = 3$ is before the minimum.",
+              "Check: $T(3) = 9 - 24 + 21 = 6$ and $T(4) = 5$, so $T$ is still falling."
+            ],
+            "finalAnswer": "Therefore the temperature is decreasing after 3 hours.",
+            "solutionFigures": [],
+            "tip": "Compare the time with the turning point's $h$-value to decide."
+          }
+        },
+        {
+          "id": "ch9_ex5_q15d",
+          "number": "15(d)",
+          "category": "Consolidate",
+          "questionText": "During an 8-hour period, an experiment is done in which the temperature of a room follows the relationship $T = h^2 - 8h + 21$, where $T$ is the temperature in degrees Celsius $h$ hours after starting the experiment. Determine if the temperature is increasing or decreasing after 5 hours.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For an upright parabola, values increase to the right of the turning point.",
+            "steps": [
+              "Given: minimum turning point at $h = 4$.",
+              "Goal: the behaviour at $h = 5$.",
+              "$h = 5 > 4$, so $h = 5$ is after the minimum.",
+              "Check: $T(5) = 25 - 40 + 21 = 6$ and $T(6) = 36 - 48 + 21 = 9$, so $T$ is rising."
+            ],
+            "finalAnswer": "Therefore the temperature is increasing after 5 hours.",
+            "solutionFigures": [],
+            "tip": "$T(3) = T(5) = 6$ by symmetry, but one is on the falling side and the other on the rising side."
+          }
+        },
+        {
+          "id": "ch9_ex5_q15e",
+          "number": "15(e)",
+          "category": "Consolidate",
+          "questionText": "During an 8-hour period, an experiment is done in which the temperature of a room follows the relationship $T = h^2 - 8h + 21$, where $T$ is the temperature in degrees Celsius $h$ hours after starting the experiment. Determine the minimum temperature and when it occurred.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Completing the square: $T = (h - 4)^2 + 5$ gives turning point $(4, 5)$.",
+            "steps": [
+              "Given: $T = h^2 - 8h + 21$.",
+              "Goal: the minimum value of $T$ and the time it occurs.",
+              "$T = h^2 - 8h + 16 - 16 + 21 = (h - 4)^2 + 5$.",
+              "$(h - 4)^2 \\ge 0$, so the smallest value of $T$ is 5, when $h - 4 = 0$, i.e. $h = 4$."
+            ],
+            "finalAnswer": "Therefore the minimum temperature is $5\\,^\\circ\\text{C}$, which occurred 4 hours after the start.",
+            "solutionFigures": [],
+            "tip": "Add and subtract $\\left(\\frac{b}{2}\\right)^2 = 16$ when completing the square."
+          }
+        },
+        {
+          "id": "ch9_ex5_q15f",
+          "number": "15(f)",
+          "category": "Consolidate",
+          "questionText": "During an 8-hour period, an experiment is done in which the temperature of a room follows the relationship $T = h^2 - 8h + 21$, where $T$ is the temperature in degrees Celsius $h$ hours after starting the experiment. Determine the temperature after 8 hours.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute $h = 8$ into $T = h^2 - 8h + 21$.",
+            "steps": [
+              "Given: $T = h^2 - 8h + 21$.",
+              "Goal: $T$ when $h = 8$.",
+              "$T = 8^2 - 8(8) + 21 = 64 - 64 + 21 = 21$."
+            ],
+            "finalAnswer": "Therefore the temperature after 8 hours is $21\\,^\\circ\\text{C}$.",
+            "solutionFigures": [],
+            "tip": "By symmetry about $h = 4$, $T(8) = T(0)$, which is a quick check."
+          }
+        },
+        {
+          "id": "ch9_ex5_q16a",
+          "number": "16(a)",
+          "category": "Master",
+          "questionText": "A ball is thrown out of a window, passing through the points $(0, 7)$, $(6, 18)$ and $(18, 28)$. A rule for the height of the ball in metres is given by $h = ax^2 + bx + c$, where $x$ is the horizontal distance, in metres, covered by the ball. Determine the values of $a$, $b$ and $c$ in the rule for the height of the ball.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute each point into $h = ax^2 + bx + c$ and solve the simultaneous equations.",
+            "steps": [
+              "Given: points $(0, 7)$, $(6, 18)$, $(18, 28)$ on $h = ax^2 + bx + c$.",
+              "Goal: the values of $a$, $b$ and $c$.",
+              "$(0, 7)$: $7 = a(0) + b(0) + c \\Rightarrow c = 7$.",
+              "$(6, 18)$: $18 = 36a + 6b + 7 \\Rightarrow 36a + 6b = 11$ ... (1)",
+              "$(18, 28)$: $28 = 324a + 18b + 7 \\Rightarrow 324a + 18b = 21$; divide by 3: $108a + 6b = 7$ ... (2)",
+              "(2) $-$ (1): $72a = 7 - 11 = -4 \\Rightarrow a = -\\frac{4}{72} = -\\frac{1}{18}$.",
+              "Substitute into (1): $36\\left(-\\frac{1}{18}\\right) + 6b = 11 \\Rightarrow -2 + 6b = 11 \\Rightarrow 6b = 13 \\Rightarrow b = \\frac{13}{6}$.",
+              "Check $(18, 28)$: $-\\frac{1}{18}(324) + \\frac{13}{6}(18) + 7 = -18 + 39 + 7 = 28$. ✓"
+            ],
+            "finalAnswer": "Therefore $a = -\\frac{1}{18}$, $b = \\frac{13}{6}$ and $c = 7$, so $h = -\\frac{1}{18}x^2 + \\frac{13}{6}x + 7$.",
+            "solutionFigures": [],
+            "tip": "Use the point with $x = 0$ first: it gives $c$ immediately and reduces the problem to two equations."
+          }
+        },
+        {
+          "id": "ch9_ex5_q16b",
+          "number": "16(b)",
+          "category": "Master",
+          "questionText": "A ball is thrown out of a window, passing through the points $(0, 7)$, $(6, 18)$ and $(18, 28)$. A rule for the height of the ball in metres is given by $h = ax^2 + bx + c$, where $x$ is the horizontal distance, in metres, covered by the ball. Calculate the height that the ball was thrown from.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Initial height is $h$ when $x = 0$, i.e. $c$.",
+            "steps": [
+              "Given: $h = -\\frac{1}{18}x^2 + \\frac{13}{6}x + 7$.",
+              "Goal: $h$ when $x = 0$.",
+              "$h = 0 + 0 + 7 = 7$."
+            ],
+            "finalAnswer": "Therefore the ball was thrown from a height of 7 metres.",
+            "solutionFigures": [],
+            "tip": "The point $(0, 7)$ already tells you this directly."
+          }
+        },
+        {
+          "id": "ch9_ex5_q16c",
+          "number": "16(c)",
+          "category": "Master",
+          "questionText": "A ball is thrown out of a window, passing through the points $(0, 7)$, $(6, 18)$ and $(18, 28)$. A rule for the height of the ball in metres is given by $h = ax^2 + bx + c$, where $x$ is the horizontal distance, in metres, covered by the ball. Evaluate the maximum height reached by the ball.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Maximum at $x = -\\frac{b}{2a}$.",
+            "steps": [
+              "Given: $h = -\\frac{1}{18}x^2 + \\frac{13}{6}x + 7$.",
+              "Goal: the maximum value of $h$.",
+              "$x = -\\frac{b}{2a} = -\\frac{13/6}{2(-1/18)} = -\\frac{13/6}{-1/9} = \\frac{13}{6} \\times 9 = \\frac{117}{6} = \\frac{39}{2} = 19.5$.",
+              "$h = -\\frac{1}{18}(19.5)^2 + \\frac{13}{6}(19.5) + 7 = -\\frac{380.25}{18} + \\frac{253.5}{6} + 7$.",
+              "$h = -21.125 + 42.25 + 7 = 28.125 = \\frac{225}{8}$."
+            ],
+            "finalAnswer": "Therefore the maximum height reached by the ball is $\\frac{225}{8} = 28.125$ metres (at a horizontal distance of 19.5 m).",
+            "solutionFigures": [],
+            "tip": "Dividing by a fraction means multiplying by its reciprocal: $\\div \\left(-\\frac{1}{9}\\right) = \\times(-9)$."
+          }
+        },
+        {
+          "id": "ch9_ex5_q16d",
+          "number": "16(d)",
+          "category": "Master",
+          "questionText": "A ball is thrown out of a window, passing through the points $(0, 7)$, $(6, 18)$ and $(18, 28)$. A rule for the height of the ball in metres is given by $h = ax^2 + bx + c$, where $x$ is the horizontal distance, in metres, covered by the ball. Determine the horizontal distance covered by the ball when it hits the ground.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The ball hits the ground when $h = 0$.",
+            "steps": [
+              "Given: $h = -\\frac{1}{18}x^2 + \\frac{13}{6}x + 7$.",
+              "Goal: $x > 0$ when $h = 0$.",
+              "$-\\frac{1}{18}x^2 + \\frac{13}{6}x + 7 = 0$.",
+              "Multiply both sides by $-18$: $x^2 - 39x - 126 = 0$.",
+              "Factorise: $(x - 42)(x + 3) = 0$ (since $-42 \\times 3 = -126$ and $-42 + 3 = -39$).",
+              "$x = 42$ or $x = -3$; reject $x = -3$ (behind the window)."
+            ],
+            "finalAnswer": "Therefore the ball hits the ground after covering a horizontal distance of 42 metres.",
+            "solutionFigures": [],
+            "tip": "Multiplying by $-18$ clears the fractions and makes the $x^2$ coefficient 1."
+          }
+        },
+        {
+          "id": "ch9_ex5_q16e",
+          "number": "16(e)",
+          "category": "Master",
+          "questionText": "A ball is thrown out of a window, passing through the points $(0, 7)$, $(6, 18)$ and $(18, 28)$. A rule for the height of the ball in metres is given by $h = ax^2 + bx + c$, where $x$ is the horizontal distance, in metres, covered by the ball. Sketch the flight path of the ball, making sure you show all key points.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Key points of $h = -\\frac{1}{18}x^2 + \\frac{13}{6}x + 7$: initial point, turning point and landing point.",
+            "steps": [
+              "Given: $h = -\\frac{1}{18}x^2 + \\frac{13}{6}x + 7$ from part (a).",
+              "Goal: describe the sketch with all key points.",
+              "Start (h-intercept): $(0, 7)$ from part (b).",
+              "Maximum turning point: $\\left(\\frac{39}{2}, \\frac{225}{8}\\right) = (19.5, 28.125)$ from part (c).",
+              "Landing point (x-intercept): $(42, 0)$ from part (d).",
+              "$a = -\\frac{1}{18} < 0$: opens downward and is much wider than $y = x^2$.",
+              "Sketch (for $0 \\le x \\le 42$): the curve starts at $(0, 7)$, rises through $(6, 18)$ and $(18, 28)$ to the maximum $(19.5, 28.125)$, then falls to land at $(42, 0)$."
+            ],
+            "finalAnswer": "Therefore the flight path is an inverted parabola from $(0, 7)$ rising to a maximum at $\\left(\\frac{39}{2}, \\frac{225}{8}\\right)$ and landing at $(42, 0)$.",
+            "solutionFigures": [],
+            "tip": "Only draw the part with $x \\ge 0$ and $h \\ge 0$: the ball's real flight."
+          }
+        }
+      ]
+    }
+  ]
+}

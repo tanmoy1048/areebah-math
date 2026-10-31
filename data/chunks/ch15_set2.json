@@ -1,0 +1,636 @@
+{
+  "chapterId": "ch15",
+  "chapterTitle": "Trigonometry II (10A)",
+  "topics": [
+    {
+      "topicId": "15.2",
+      "topicTitle": "The sine rule",
+      "exercises": [
+        {
+          "id": "ch15_ex2_q1",
+          "number": "1",
+          "category": "Practice",
+          "questionText": "Where appropriate, write angles correct to the nearest minute and side lengths correct to 2 decimal places. In the triangle ABC, $a = 10$, $b = 12$ and $B = 58^\\circ$. Calculate $A$, $C$ and $c$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule: $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)} = \\frac{c}{\\sin(C)}$",
+            "steps": [
+              "Given: $a = 10$, $b = 12$, $B = 58^\\circ$. Goal: $A$, $C$ and $c$.",
+              "Find A: $\\frac{10}{\\sin(A)} = \\frac{12}{\\sin(58^\\circ)}$",
+              "$\\sin(A) = \\frac{10\\sin(58^\\circ)}{12} = \\frac{10 \\times 0.848048}{12} \\approx 0.706707$",
+              "$A = \\sin^{-1}(0.706707) \\approx 44.968^\\circ \\approx 44^\\circ 58'$",
+              "Ambiguous case check: $180^\\circ - 44.968^\\circ = 135.032^\\circ$, and $135.032^\\circ + 58^\\circ > 180^\\circ$, so there is only one triangle (also $a < b$).",
+              "$C = 180^\\circ - 58^\\circ - 44.968^\\circ = 77.032^\\circ \\approx 77^\\circ 2'$",
+              "Find c: $\\frac{c}{\\sin(77.032^\\circ)} = \\frac{12}{\\sin(58^\\circ)}$",
+              "$c = \\frac{12\\sin(77.032^\\circ)}{\\sin(58^\\circ)} = \\frac{12 \\times 0.974502}{0.848048} \\approx 13.79$",
+              "Check (cosine rule): $c^2 = 10^2 + 12^2 - 2(10)(12)\\cos(77.032^\\circ) = 244 - 240(0.22441) \\approx 190.14$, so $c \\approx 13.79$ ✓"
+            ],
+            "finalAnswer": "Therefore $A \\approx 44^\\circ 58'$, $C \\approx 77^\\circ 2'$ and $c \\approx 13.79$.",
+            "solutionFigures": [],
+            "tip": "Keep the unrounded angle (44.968°) in your calculator when finding $C$ and $c$ to avoid rounding errors."
+          }
+        },
+        {
+          "id": "ch15_ex2_q2",
+          "number": "2",
+          "category": "Practice",
+          "questionText": "Where appropriate, write angles correct to the nearest minute and side lengths correct to 2 decimal places. In the triangle ABC, $c = 17.35$, $a = 26.82$ and $A = 101^\\circ 47'$. Calculate $C$, $B$ and $b$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule: $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)} = \\frac{c}{\\sin(C)}$",
+            "steps": [
+              "Given: $a = 26.82$, $c = 17.35$, $A = 101^\\circ 47' = 101.783^\\circ$. Goal: $C$, $B$ and $b$.",
+              "Find C: $\\frac{17.35}{\\sin(C)} = \\frac{26.82}{\\sin(101^\\circ 47')}$",
+              "$\\sin(C) = \\frac{17.35\\sin(101^\\circ 47')}{26.82} = \\frac{17.35 \\times 0.978921}{26.82} \\approx 0.633273$",
+              "$C = \\sin^{-1}(0.633273) \\approx 39.292^\\circ \\approx 39^\\circ 18'$ (A is obtuse, so C must be acute; only one triangle).",
+              "$B = 180^\\circ - 101.783^\\circ - 39.292^\\circ = 38.925^\\circ \\approx 38^\\circ 55'$",
+              "Find b: $b = \\frac{26.82\\sin(38.925^\\circ)}{\\sin(101^\\circ 47')} = \\frac{26.82 \\times 0.628301}{0.978921} \\approx 17.21$",
+              "Check: $b < c$ because $B < C$ ✓"
+            ],
+            "finalAnswer": "Therefore $C \\approx 39^\\circ 18'$, $B \\approx 38^\\circ 55'$ and $b \\approx 17.21$.",
+            "solutionFigures": [],
+            "tip": "Enter $101^\\circ 47'$ using the DMS key, or as $101 + \\frac{47}{60}$, not as 101.47."
+          }
+        },
+        {
+          "id": "ch15_ex2_q3",
+          "number": "3",
+          "category": "Consolidate",
+          "questionText": "Where appropriate, write angles correct to the nearest minute and side lengths correct to 2 decimal places. In the triangle ABC, $a = 5$, $A = 30^\\circ$ and $B = 80^\\circ$. Calculate $C$, $b$ and $c$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Angle sum $A + B + C = 180^\\circ$; sine rule $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)} = \\frac{c}{\\sin(C)}$",
+            "steps": [
+              "Given: $a = 5$, $A = 30^\\circ$, $B = 80^\\circ$. Goal: $C$, $b$, $c$.",
+              "$C = 180^\\circ - 30^\\circ - 80^\\circ = 70^\\circ$",
+              "$\\frac{b}{\\sin(80^\\circ)} = \\frac{5}{\\sin(30^\\circ)}$, so $b = \\frac{5\\sin(80^\\circ)}{\\sin(30^\\circ)} = \\frac{5 \\times 0.984808}{0.5} \\approx 9.85$",
+              "$\\frac{c}{\\sin(70^\\circ)} = \\frac{5}{\\sin(30^\\circ)}$, so $c = \\frac{5\\sin(70^\\circ)}{0.5} = 10 \\times 0.939693 \\approx 9.40$",
+              "Check: largest angle $B = 80^\\circ$ has the largest side $b = 9.85$ ✓"
+            ],
+            "finalAnswer": "Therefore $C = 70^\\circ$, $b \\approx 9.85$ and $c \\approx 9.40$.",
+            "solutionFigures": [],
+            "tip": "When two angles are given, find the third angle first using the angle sum."
+          }
+        },
+        {
+          "id": "ch15_ex2_q4",
+          "number": "4",
+          "category": "Consolidate",
+          "questionText": "Where appropriate, write angles correct to the nearest minute and side lengths correct to 2 decimal places. In the triangle ABC, $c = 27$, $C = 42^\\circ$ and $A = 105^\\circ$. Calculate $B$, $a$ and $b$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Angle sum $A + B + C = 180^\\circ$; sine rule $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)} = \\frac{c}{\\sin(C)}$",
+            "steps": [
+              "Given: $c = 27$, $C = 42^\\circ$, $A = 105^\\circ$. Goal: $B$, $a$, $b$.",
+              "$B = 180^\\circ - 105^\\circ - 42^\\circ = 33^\\circ$",
+              "$a = \\frac{27\\sin(105^\\circ)}{\\sin(42^\\circ)} = \\frac{27 \\times 0.965926}{0.669131} \\approx 38.98$",
+              "$b = \\frac{27\\sin(33^\\circ)}{\\sin(42^\\circ)} = \\frac{27 \\times 0.544639}{0.669131} \\approx 21.98$",
+              "Check: largest angle $A$ has the largest side $a$ ✓"
+            ],
+            "finalAnswer": "Therefore $B = 33^\\circ$, $a \\approx 38.98$ and $b \\approx 21.98$.",
+            "solutionFigures": [],
+            "tip": "Use the given side and its opposite angle ($c$ and $C$) as the known pair in every sine rule step."
+          }
+        },
+        {
+          "id": "ch15_ex2_q5",
+          "number": "5",
+          "category": "Master",
+          "questionText": "Where appropriate, write angles correct to the nearest minute and side lengths correct to 2 decimal places. In the triangle ABC, $a = 7$, $c = 5$ and $A = 68^\\circ$. Determine the perimeter of the triangle.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)} = \\frac{c}{\\sin(C)}$; perimeter $= a + b + c$",
+            "steps": [
+              "Given: $a = 7$, $c = 5$, $A = 68^\\circ$. Goal: $b$, then the perimeter.",
+              "$\\sin(C) = \\frac{5\\sin(68^\\circ)}{7} = \\frac{5 \\times 0.927184}{7} \\approx 0.662274$",
+              "$C \\approx 41.474^\\circ$ (only one triangle since $a > c$).",
+              "$B = 180^\\circ - 68^\\circ - 41.474^\\circ = 70.526^\\circ$",
+              "$b = \\frac{7\\sin(70.526^\\circ)}{\\sin(68^\\circ)} = \\frac{7 \\times 0.942793}{0.927184} \\approx 7.1179$",
+              "Perimeter $= 7 + 5 + 7.1179 = 19.1179 \\approx 19.12$"
+            ],
+            "finalAnswer": "Therefore the perimeter of the triangle is approximately 19.12 units.",
+            "solutionFigures": [],
+            "tip": "To find the perimeter you need all three sides, so first find the missing angles."
+          }
+        },
+        {
+          "id": "ch15_ex2_q6",
+          "number": "6",
+          "category": "Practice",
+          "questionText": "Where appropriate, write angles correct to the nearest minute and side lengths correct to 2 decimal places. Calculate all unknown sides and angles for the triangle ABC, given $A = 57^\\circ$, $B = 72^\\circ$ and $a = 48.2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Angle sum $A + B + C = 180^\\circ$; sine rule $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)} = \\frac{c}{\\sin(C)}$",
+            "steps": [
+              "Given: $A = 57^\\circ$, $B = 72^\\circ$, $a = 48.2$. Goal: $C$, $b$, $c$.",
+              "$C = 180^\\circ - 57^\\circ - 72^\\circ = 51^\\circ$",
+              "$b = \\frac{48.2\\sin(72^\\circ)}{\\sin(57^\\circ)} = \\frac{48.2 \\times 0.951057}{0.838671} \\approx 54.66$",
+              "$c = \\frac{48.2\\sin(51^\\circ)}{\\sin(57^\\circ)} = \\frac{48.2 \\times 0.777146}{0.838671} \\approx 44.66$"
+            ],
+            "finalAnswer": "Therefore $C = 51^\\circ$, $b \\approx 54.66$ and $c \\approx 44.66$.",
+            "solutionFigures": [],
+            "tip": "Check that the longest side is opposite the largest angle ($b$ and $B = 72^\\circ$)."
+          }
+        },
+        {
+          "id": "ch15_ex2_q7",
+          "number": "7",
+          "category": "Practice",
+          "questionText": "Where appropriate, write angles correct to the nearest minute and side lengths correct to 2 decimal places. Calculate all unknown sides and angles for the triangle ABC, given $a = 105$, $B = 105^\\circ$ and $C = 15^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Angle sum $A + B + C = 180^\\circ$; sine rule $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)} = \\frac{c}{\\sin(C)}$",
+            "steps": [
+              "Given: $a = 105$, $B = 105^\\circ$, $C = 15^\\circ$. Goal: $A$, $b$, $c$.",
+              "$A = 180^\\circ - 105^\\circ - 15^\\circ = 60^\\circ$",
+              "$b = \\frac{105\\sin(105^\\circ)}{\\sin(60^\\circ)} = \\frac{105 \\times 0.965926}{0.866025} \\approx 117.11$",
+              "$c = \\frac{105\\sin(15^\\circ)}{\\sin(60^\\circ)} = \\frac{105 \\times 0.258819}{0.866025} \\approx 31.38$"
+            ],
+            "finalAnswer": "Therefore $A = 60^\\circ$, $b \\approx 117.11$ and $c \\approx 31.38$.",
+            "solutionFigures": [],
+            "tip": "Do not confuse the side value 105 with the angle $105^\\circ$; they belong to different vertices."
+          }
+        },
+        {
+          "id": "ch15_ex2_q8",
+          "number": "8",
+          "category": "Consolidate",
+          "questionText": "Where appropriate, write angles correct to the nearest minute and side lengths correct to 2 decimal places. Calculate all unknown sides and angles for the triangle ABC, given $a = 32$, $b = 51$ and $A = 28^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)}$; ambiguous case: if $\\sin(B) = k$, then $B = \\sin^{-1}(k)$ or $B = 180^\\circ - \\sin^{-1}(k)$",
+            "steps": [
+              "Given: $a = 32$, $b = 51$, $A = 28^\\circ$. Goal: $B$, $C$, $c$.",
+              "$\\sin(B) = \\frac{51\\sin(28^\\circ)}{32} = \\frac{51 \\times 0.469472}{32} \\approx 0.748220$",
+              "$B \\approx 48.436^\\circ \\approx 48^\\circ 26'$ or $B \\approx 180^\\circ - 48.436^\\circ = 131.564^\\circ \\approx 131^\\circ 34'$",
+              "Both are possible since $a < b$ and $28^\\circ + 131.564^\\circ < 180^\\circ$.",
+              "Triangle 1: $C = 180^\\circ - 28^\\circ - 48.436^\\circ = 103.564^\\circ \\approx 103^\\circ 34'$",
+              "$c = \\frac{32\\sin(103.564^\\circ)}{\\sin(28^\\circ)} = \\frac{32 \\times 0.972108}{0.469472} \\approx 66.26$",
+              "Triangle 2: $C = 180^\\circ - 28^\\circ - 131.564^\\circ = 20.436^\\circ \\approx 20^\\circ 26'$",
+              "$c = \\frac{32\\sin(20.436^\\circ)}{\\sin(28^\\circ)} = \\frac{32 \\times 0.349163}{0.469472} \\approx 23.80$"
+            ],
+            "finalAnswer": "Therefore there are two triangles: $B \\approx 48^\\circ 26'$, $C \\approx 103^\\circ 34'$, $c \\approx 66.26$; or $B \\approx 131^\\circ 34'$, $C \\approx 20^\\circ 26'$, $c \\approx 23.80$.",
+            "solutionFigures": [],
+            "tip": "Ambiguous case: when the given angle is opposite the shorter of the two given sides, check for a second, obtuse solution."
+          }
+        },
+        {
+          "id": "ch15_ex2_q9",
+          "number": "9",
+          "category": "Consolidate",
+          "questionText": "Where appropriate, write angles correct to the nearest minute and side lengths correct to 2 decimal places. Calculate the perimeter of the triangle ABC if $a = 7.8$, $b = 6.2$ and $A = 50^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)} = \\frac{c}{\\sin(C)}$; perimeter $= a + b + c$",
+            "steps": [
+              "Given: $a = 7.8$, $b = 6.2$, $A = 50^\\circ$. Goal: $c$, then perimeter.",
+              "$\\sin(B) = \\frac{6.2\\sin(50^\\circ)}{7.8} = \\frac{6.2 \\times 0.766044}{7.8} \\approx 0.608907$",
+              "$B \\approx 37.511^\\circ$ (only one triangle because $a > b$).",
+              "$C = 180^\\circ - 50^\\circ - 37.511^\\circ = 92.489^\\circ$",
+              "$c = \\frac{7.8\\sin(92.489^\\circ)}{\\sin(50^\\circ)} = \\frac{7.8 \\times 0.999057}{0.766044} \\approx 10.1726$",
+              "Perimeter $= 7.8 + 6.2 + 10.1726 \\approx 24.17$"
+            ],
+            "finalAnswer": "Therefore the perimeter is approximately 24.17 units.",
+            "solutionFigures": [],
+            "tip": "If the given angle is opposite the longer given side, there is only one triangle."
+          }
+        },
+        {
+          "id": "ch15_ex2_q10",
+          "number": "10",
+          "category": "Master",
+          "questionText": "MC In a triangle ABC, $B = 40^\\circ$, $b = 2.6$ and $c = 3$. Identify the approximate value of $C$. Note: There may be more than one correct answer.\nA. $47^\\circ$  B. $48^\\circ$  C. $132^\\circ$  D. $133^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule $\\frac{\\sin(C)}{c} = \\frac{\\sin(B)}{b}$; ambiguous case $C$ or $180^\\circ - C$",
+            "steps": [
+              "Given: $B = 40^\\circ$, $b = 2.6$, $c = 3$. Goal: possible values of $C$.",
+              "$\\sin(C) = \\frac{3\\sin(40^\\circ)}{2.6} = \\frac{3 \\times 0.642788}{2.6} \\approx 0.741678$",
+              "$C \\approx 47.87^\\circ \\approx 48^\\circ$ or $C \\approx 180^\\circ - 47.87^\\circ = 132.13^\\circ \\approx 132^\\circ$",
+              "Both are valid because $b < c$ and $40^\\circ + 132.13^\\circ < 180^\\circ$.",
+              "So the answers are B and C."
+            ],
+            "finalAnswer": "B and C: $C \\approx 48^\\circ$ or $C \\approx 132^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Round only at the end: 47.87° rounds to 48°, not 47°."
+          }
+        },
+        {
+          "id": "ch15_ex2_q11",
+          "number": "11",
+          "category": "Practice",
+          "questionText": "Where appropriate, write angles correct to the nearest minute and side lengths correct to 2 decimal places. In the triangle ABC, $a = 10$, $c = 8$ and $C = 50^\\circ$. Determine two possible values of $A$ and hence two possible values of $b$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule $\\frac{a}{\\sin(A)} = \\frac{c}{\\sin(C)}$; ambiguous case $A$ or $180^\\circ - A$",
+            "steps": [
+              "Given: $a = 10$, $c = 8$, $C = 50^\\circ$. Goal: two values of $A$ and of $b$.",
+              "$\\sin(A) = \\frac{10\\sin(50^\\circ)}{8} = \\frac{10 \\times 0.766044}{8} \\approx 0.957556$",
+              "$A \\approx 73.247^\\circ \\approx 73^\\circ 15'$ or $A \\approx 180^\\circ - 73.247^\\circ = 106.753^\\circ \\approx 106^\\circ 45'$",
+              "Triangle 1: $B = 180^\\circ - 50^\\circ - 73.247^\\circ = 56.753^\\circ$",
+              "$b = \\frac{8\\sin(56.753^\\circ)}{\\sin(50^\\circ)} = \\frac{8 \\times 0.836303}{0.766044} \\approx 8.73$",
+              "Triangle 2: $B = 180^\\circ - 50^\\circ - 106.753^\\circ = 23.247^\\circ$",
+              "$b = \\frac{8\\sin(23.247^\\circ)}{\\sin(50^\\circ)} = \\frac{8 \\times 0.394692}{0.766044} \\approx 4.12$"
+            ],
+            "finalAnswer": "Therefore $A \\approx 73^\\circ 15'$ with $b \\approx 8.73$, or $A \\approx 106^\\circ 45'$ with $b \\approx 4.12$.",
+            "solutionFigures": [],
+            "tip": "The calculator only gives the acute angle from $\\sin^{-1}$; you must find the obtuse one yourself."
+          }
+        },
+        {
+          "id": "ch15_ex2_q12",
+          "number": "12",
+          "category": "Consolidate",
+          "questionText": "Where appropriate, write angles correct to the nearest minute and side lengths correct to 2 decimal places. In the triangle ABC, $a = 20$, $b = 12$ and $B = 35^\\circ$. Determine two possible values for the perimeter of the triangle.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)} = \\frac{c}{\\sin(C)}$; ambiguous case",
+            "steps": [
+              "Given: $a = 20$, $b = 12$, $B = 35^\\circ$. Goal: two possible perimeters.",
+              "$\\sin(A) = \\frac{20\\sin(35^\\circ)}{12} = \\frac{20 \\times 0.573576}{12} \\approx 0.955961$",
+              "$A \\approx 72.933^\\circ$ or $A \\approx 107.067^\\circ$",
+              "Triangle 1: $C = 180^\\circ - 35^\\circ - 72.933^\\circ = 72.067^\\circ$; $c = \\frac{12\\sin(72.067^\\circ)}{\\sin(35^\\circ)} = \\frac{12 \\times 0.951415}{0.573576} \\approx 19.905$",
+              "Perimeter 1 $= 20 + 12 + 19.905 \\approx 51.90$",
+              "Triangle 2: $C = 180^\\circ - 35^\\circ - 107.067^\\circ = 37.933^\\circ$; $c = \\frac{12\\sin(37.933^\\circ)}{\\sin(35^\\circ)} = \\frac{12 \\times 0.614736}{0.573576} \\approx 12.861$",
+              "Perimeter 2 $= 20 + 12 + 12.861 \\approx 44.86$"
+            ],
+            "finalAnswer": "Therefore the perimeter is approximately 51.90 or 44.86 units.",
+            "solutionFigures": [],
+            "tip": "Since $b < a$ and the angle $B$ is opposite the shorter side, expect two triangles."
+          }
+        },
+        {
+          "id": "ch15_ex2_q13",
+          "number": "13",
+          "category": "Practice",
+          "questionText": "Where appropriate, write angles correct to the nearest minute and side lengths correct to 2 decimal places. Calculate all unknown sides and angles for the triangle ABC, given $A = 27^\\circ$, $B = 43^\\circ$ and $c = 6.4$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Angle sum $A + B + C = 180^\\circ$; sine rule $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)} = \\frac{c}{\\sin(C)}$",
+            "steps": [
+              "Given: $A = 27^\\circ$, $B = 43^\\circ$, $c = 6.4$. Goal: $C$, $a$, $b$.",
+              "$C = 180^\\circ - 27^\\circ - 43^\\circ = 110^\\circ$",
+              "$a = \\frac{6.4\\sin(27^\\circ)}{\\sin(110^\\circ)} = \\frac{6.4 \\times 0.453990}{0.939693} \\approx 3.09$",
+              "$b = \\frac{6.4\\sin(43^\\circ)}{\\sin(110^\\circ)} = \\frac{6.4 \\times 0.681998}{0.939693} \\approx 4.64$"
+            ],
+            "finalAnswer": "Therefore $C = 110^\\circ$, $a \\approx 3.09$ and $b \\approx 4.64$.",
+            "solutionFigures": [],
+            "tip": "You need the angle opposite the known side ($C$) before you can use the sine rule."
+          }
+        },
+        {
+          "id": "ch15_ex2_q14",
+          "number": "14",
+          "category": "Consolidate",
+          "questionText": "Where appropriate, write angles correct to the nearest minute and side lengths correct to 2 decimal places. Calculate all unknown sides and angles for the triangle ABC, given $A = 100^\\circ$, $b = 2.1$ and $C = 42^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Angle sum $A + B + C = 180^\\circ$; sine rule $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)} = \\frac{c}{\\sin(C)}$",
+            "steps": [
+              "Given: $A = 100^\\circ$, $C = 42^\\circ$, $b = 2.1$. Goal: $B$, $a$, $c$.",
+              "$B = 180^\\circ - 100^\\circ - 42^\\circ = 38^\\circ$",
+              "$a = \\frac{2.1\\sin(100^\\circ)}{\\sin(38^\\circ)} = \\frac{2.1 \\times 0.984808}{0.615661} \\approx 3.36$",
+              "$c = \\frac{2.1\\sin(42^\\circ)}{\\sin(38^\\circ)} = \\frac{2.1 \\times 0.669131}{0.615661} \\approx 2.28$"
+            ],
+            "finalAnswer": "Therefore $B = 38^\\circ$, $a \\approx 3.36$ and $c \\approx 2.28$.",
+            "solutionFigures": [],
+            "tip": "Sine of an obtuse angle is positive, so $\\sin(100^\\circ)$ works normally in the sine rule."
+          }
+        },
+        {
+          "id": "ch15_ex2_q15",
+          "number": "15",
+          "category": "Master",
+          "questionText": "Where appropriate, write angles correct to the nearest minute and side lengths correct to 2 decimal places. Calculate all unknown sides and angles for the triangle ABC, given $A = 25^\\circ$, $b = 17$ and $a = 13$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)} = \\frac{c}{\\sin(C)}$; ambiguous case $B$ or $180^\\circ - B$",
+            "steps": [
+              "Given: $a = 13$, $b = 17$, $A = 25^\\circ$. Goal: $B$, $C$, $c$.",
+              "$\\sin(B) = \\frac{17\\sin(25^\\circ)}{13} = \\frac{17 \\times 0.422618}{13} \\approx 0.552655$",
+              "$B \\approx 33.549^\\circ \\approx 33^\\circ 33'$ or $B \\approx 146.451^\\circ \\approx 146^\\circ 27'$ (both valid since $a < b$ and $25^\\circ + 146.451^\\circ < 180^\\circ$).",
+              "Triangle 1: $C = 180^\\circ - 25^\\circ - 33.549^\\circ = 121.451^\\circ \\approx 121^\\circ 27'$",
+              "$c = \\frac{13\\sin(121.451^\\circ)}{\\sin(25^\\circ)} = \\frac{13 \\times 0.853031}{0.422618} \\approx 26.24$",
+              "Triangle 2: $C = 180^\\circ - 25^\\circ - 146.451^\\circ = 8.549^\\circ \\approx 8^\\circ 33'$",
+              "$c = \\frac{13\\sin(8.549^\\circ)}{\\sin(25^\\circ)} = \\frac{13 \\times 0.148659}{0.422618} \\approx 4.57$"
+            ],
+            "finalAnswer": "Therefore $B \\approx 33^\\circ 33'$, $C \\approx 121^\\circ 27'$, $c \\approx 26.24$; or $B \\approx 146^\\circ 27'$, $C \\approx 8^\\circ 33'$, $c \\approx 4.57$.",
+            "solutionFigures": [],
+            "tip": "Two sides and a non-included angle opposite the shorter side: always test for the second triangle."
+          }
+        },
+        {
+          "id": "ch15_ex2_q16",
+          "number": "16",
+          "category": "Consolidate",
+          "questionText": "To calculate the height of a building, Kevin measures the angle of elevation to the top as $48^\\circ$. He then walks 18 m closer to the building and measures the angle of elevation as $64^\\circ$. Calculate the height of the building (correct to 2 decimal places).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Exterior angle of a triangle; sine rule $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)}$; right-angled triangle $\\sin(\\theta) = \\frac{\\text{opp}}{\\text{hyp}}$",
+            "steps": [
+              "Given: first point P (elevation $48^\\circ$), second point Q 18 m closer (elevation $64^\\circ$), top of building T. Goal: height $h$.",
+              "In triangle PQT: angle at P $= 48^\\circ$; angle PQT $= 180^\\circ - 64^\\circ = 116^\\circ$; angle at T $= 180^\\circ - 48^\\circ - 116^\\circ = 16^\\circ$.",
+              "Sine rule: $\\frac{QT}{\\sin(48^\\circ)} = \\frac{18}{\\sin(16^\\circ)}$",
+              "$QT = \\frac{18\\sin(48^\\circ)}{\\sin(16^\\circ)} = \\frac{18 \\times 0.743145}{0.275637} \\approx 48.530$ m",
+              "In the right-angled triangle at Q: $h = QT\\sin(64^\\circ) = 48.530 \\times 0.898794 \\approx 43.62$ m",
+              "Check: from Q the horizontal distance is $48.530\\cos(64^\\circ) \\approx 21.27$ m; from P it is $39.27$ m, and $\\tan(48^\\circ) \\times 39.27 \\approx 43.62$ ✓"
+            ],
+            "finalAnswer": "Therefore the height of the building is approximately 43.62 m.",
+            "solutionFigures": [],
+            "tip": "The angle at the top is the difference of the two elevation angles ($64^\\circ - 48^\\circ = 16^\\circ$)."
+          }
+        },
+        {
+          "id": "ch15_ex2_q17",
+          "number": "17",
+          "category": "Practice",
+          "questionText": "Calculate the value of $h$, correct to 1 decimal place. Show the full working. The diagram shows a right-angled triangle ABC with the right angle at B and C directly above B, so $h = CB$ is the vertical height. Point D lies on AB with $AD = 8$ cm. Angle $CAB = 35^\\circ$ and angle $CDB = 70^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Exterior angle theorem; isosceles triangle; $\\sin(\\theta) = \\frac{\\text{opp}}{\\text{hyp}}$ (or the sine rule)",
+            "steps": [
+              "Given: $AD = 8$ cm, $\\angle CAD = 35^\\circ$, $\\angle CDB = 70^\\circ$, $\\angle CBD = 90^\\circ$. Goal: $h = CB$.",
+              "In triangle ACD: $\\angle ADC = 180^\\circ - 70^\\circ = 110^\\circ$.",
+              "$\\angle ACD = 180^\\circ - 35^\\circ - 110^\\circ = 35^\\circ$.",
+              "Sine rule in ACD: $\\frac{CD}{\\sin(35^\\circ)} = \\frac{8}{\\sin(35^\\circ)}$, so $CD = 8$ cm (triangle ACD is isosceles).",
+              "In right-angled triangle CDB: $\\sin(70^\\circ) = \\frac{h}{CD}$",
+              "$h = 8\\sin(70^\\circ) = 8 \\times 0.939693 \\approx 7.52$",
+              "$h \\approx 7.5$ cm (1 decimal place)"
+            ],
+            "finalAnswer": "Therefore $h \\approx 7.5$ cm.",
+            "solutionFigures": [],
+            "tip": "Look for an isosceles triangle: equal angles of $35^\\circ$ mean equal opposite sides."
+          }
+        },
+        {
+          "id": "ch15_ex2_q18",
+          "number": "18",
+          "category": "Practice",
+          "questionText": "A boat sails on a bearing of N$15^\\circ$E for 10 km and then on a bearing of S$85^\\circ$E until it is due east of the starting point. Determine the distance from the starting point to the nearest kilometre. Show all your working.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)}$ with angles found from bearings",
+            "steps": [
+              "Given: start O, turning point P with $OP = 10$ km on N15°E, then P to Q on S85°E, with Q due east of O. Goal: $OQ$.",
+              "Angle at O: OP is $15^\\circ$ east of north, so it is $90^\\circ - 15^\\circ = 75^\\circ$ from east. $\\angle POQ = 75^\\circ$.",
+              "Angle at P: the direction P to O is S15°W and P to Q is S85°E; the angle between them is $15^\\circ + 85^\\circ = 100^\\circ$.",
+              "Angle at Q: $180^\\circ - 75^\\circ - 100^\\circ = 5^\\circ$.",
+              "Sine rule: $\\frac{OQ}{\\sin(100^\\circ)} = \\frac{10}{\\sin(5^\\circ)}$",
+              "$OQ = \\frac{10\\sin(100^\\circ)}{\\sin(5^\\circ)} = \\frac{10 \\times 0.984808}{0.087156} \\approx 112.99$ km",
+              "$OQ \\approx 113$ km (nearest km)"
+            ],
+            "finalAnswer": "Therefore the boat is approximately 113 km from the starting point.",
+            "solutionFigures": [],
+            "tip": "Draw a north line at every point where the direction changes, then use parallel lines to find angles."
+          }
+        },
+        {
+          "id": "ch15_ex2_q19",
+          "number": "19",
+          "category": "Consolidate",
+          "questionText": "A hill slopes at an angle of $30^\\circ$ to the horizontal. A tree that is 8 m tall and leaning downhill is growing at an angle of $10^\\circ$ to the vertical and is part-way up the slope. Evaluate the vertical height of the top of the tree above the slope (correct to 2 decimal places). Show all your working.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)}$",
+            "steps": [
+              "Given: slope $30^\\circ$, tree $TP = 8$ m (T = base, P = top), tree leans downhill at $10^\\circ$ to the vertical. Goal: vertical distance $PQ$ from the top P down to the slope at Q.",
+              "Q lies on the slope directly below P, downhill from T.",
+              "Angle at P (between the tree and the vertical) $= 10^\\circ$.",
+              "Angle at Q: the vertical makes $90^\\circ - 30^\\circ = 60^\\circ$ with the uphill direction of the slope, so $\\angle PQT = 60^\\circ$.",
+              "Angle at T: $180^\\circ - 10^\\circ - 60^\\circ = 110^\\circ$.",
+              "Sine rule: $\\frac{PQ}{\\sin(110^\\circ)} = \\frac{8}{\\sin(60^\\circ)}$",
+              "$PQ = \\frac{8\\sin(110^\\circ)}{\\sin(60^\\circ)} = \\frac{8 \\times 0.939693}{0.866025} \\approx 8.68$ m"
+            ],
+            "finalAnswer": "Therefore the top of the tree is approximately 8.68 m vertically above the slope.",
+            "solutionFigures": [],
+            "tip": "The angle between a vertical line and a $30^\\circ$ slope is $60^\\circ$, not $30^\\circ$."
+          }
+        },
+        {
+          "id": "ch15_ex2_q20",
+          "number": "20",
+          "category": "Master",
+          "questionText": "A cliff is 37 m high. The rock slopes outward at an angle of $50^\\circ$ to the horizontal and then cuts back at an angle of $25^\\circ$ to the vertical, meeting the ground directly below the top of the cliff. Carol wishes to abseil from the top of the cliff to the ground as shown in the diagram (the rope runs from the top, down the outward-sloping rock to the point where it cuts back, then straight down to the ground along the $25^\\circ$ face). Her climbing rope is 45 m long and is secured to a tree at the top of the cliff. Determine if the rope will be long enough to allow her to reach the ground.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)} = \\frac{c}{\\sin(C)}$",
+            "steps": [
+              "Given: top T, ground point G directly below T with $TG = 37$ m, outermost rock point R. Goal: $TR + RG$ compared with 45 m.",
+              "Angle at T: TR slopes down at $50^\\circ$ to the horizontal, so it makes $90^\\circ - 50^\\circ = 40^\\circ$ with the vertical TG. $\\angle RTG = 40^\\circ$.",
+              "Angle at G: RG makes $25^\\circ$ with the vertical. $\\angle RGT = 25^\\circ$.",
+              "Angle at R: $180^\\circ - 40^\\circ - 25^\\circ = 115^\\circ$.",
+              "$TR = \\frac{37\\sin(25^\\circ)}{\\sin(115^\\circ)} = \\frac{37 \\times 0.422618}{0.906308} \\approx 17.25$ m",
+              "$RG = \\frac{37\\sin(40^\\circ)}{\\sin(115^\\circ)} = \\frac{37 \\times 0.642788}{0.906308} \\approx 26.24$ m",
+              "Total rope needed $= 17.25 + 26.24 \\approx 43.50$ m, about 43 m.",
+              "$43.5 < 45$, so the rope is long enough."
+            ],
+            "finalAnswer": "Yes. She needs about 43 m of rope altogether (43.50 m), which is less than 45 m.",
+            "solutionFigures": [],
+            "tip": "Convert each angle given 'to the horizontal' or 'to the vertical' into an angle inside the triangle before using the sine rule."
+          }
+        },
+        {
+          "id": "ch15_ex2_q21a",
+          "number": "21(a)",
+          "category": "Practice",
+          "questionText": "A river has parallel banks that run directly east–west. From the south bank, Kylie takes a bearing to a tree on the north side. The bearing is $047^\\circ$T. She then walks 10 m due east and takes a second bearing to the tree. This is $305^\\circ$T. Determine her distance from the second measuring point to the tree (correct to 2 decimal places).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)}$ with angles from true bearings",
+            "steps": [
+              "Given: first point P, second point Q 10 m due east, tree T. Bearing of T from P is $047^\\circ$T; from Q is $305^\\circ$T. Goal: $QT$.",
+              "Angle at P: east is $090^\\circ$, so $\\angle TPQ = 90^\\circ - 47^\\circ = 43^\\circ$.",
+              "Angle at Q: west is $270^\\circ$, so $\\angle TQP = 305^\\circ - 270^\\circ = 35^\\circ$.",
+              "Angle at T: $180^\\circ - 43^\\circ - 35^\\circ = 102^\\circ$.",
+              "$\\frac{QT}{\\sin(43^\\circ)} = \\frac{10}{\\sin(102^\\circ)}$",
+              "$QT = \\frac{10\\sin(43^\\circ)}{\\sin(102^\\circ)} = \\frac{10 \\times 0.681998}{0.978148} \\approx 6.97$ m"
+            ],
+            "finalAnswer": "Therefore the tree is approximately 6.97 m from the second measuring point.",
+            "solutionFigures": [],
+            "tip": "The side you want (QT) is opposite the angle at P, so pair it with $\\sin(43^\\circ)$."
+          }
+        },
+        {
+          "id": "ch15_ex2_q21b",
+          "number": "21(b)",
+          "category": "Practice",
+          "questionText": "A river has parallel banks that run directly east–west. From the south bank, Kylie takes a bearing to a tree on the north side. The bearing is $047^\\circ$T. She then walks 10 m due east and takes a second bearing to the tree. This is $305^\\circ$T. Determine the width of the river, to the nearest metre.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = \\frac{\\text{opposite}}{\\text{hypotenuse}}$ in the right-angled triangle formed by the perpendicular from the tree to the south bank",
+            "steps": [
+              "Given: from part (a), $QT \\approx 6.9723$ m and $\\angle TQP = 35^\\circ$. Goal: the perpendicular distance $w$ from T to the south bank.",
+              "$w = QT\\sin(35^\\circ) = 6.9723 \\times 0.573576 \\approx 3.999$ m",
+              "Check using P: $PT = \\frac{10\\sin(35^\\circ)}{\\sin(102^\\circ)} \\approx 5.864$, and $5.864\\sin(43^\\circ) \\approx 3.999$ ✓",
+              "$w \\approx 4$ m (nearest metre)"
+            ],
+            "finalAnswer": "Therefore the river is approximately 4 m wide.",
+            "solutionFigures": [],
+            "tip": "The width is the perpendicular distance, not the slanted distance to the tree."
+          }
+        },
+        {
+          "id": "ch15_ex2_q22a",
+          "number": "22(a)",
+          "category": "Consolidate",
+          "questionText": "A ship sails on a bearing of S$20^\\circ$W for 14 km; then it changes direction, sails for 20 km and drops anchor. Its bearing from the starting point is now N$65^\\circ$W. Determine the distance of the ship from its starting point (correct to 2 decimal places).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)} = \\frac{c}{\\sin(C)}$",
+            "steps": [
+              "Given: start O, turning point P with $OP = 14$ km on S20°W, anchor point Q with $PQ = 20$ km, Q on N65°W from O. Goal: $OQ$.",
+              "Angle at O between S20°W and N65°W: $180^\\circ - 20^\\circ - 65^\\circ = 95^\\circ$.",
+              "Angle at Q: $\\frac{\\sin(Q)}{14} = \\frac{\\sin(95^\\circ)}{20}$, so $\\sin(Q) = \\frac{14 \\times 0.996195}{20} \\approx 0.697336$, $Q \\approx 44.214^\\circ$ (Q must be acute because O is obtuse).",
+              "Angle at P: $180^\\circ - 95^\\circ - 44.214^\\circ = 40.786^\\circ$.",
+              "$OQ = \\frac{20\\sin(40.786^\\circ)}{\\sin(95^\\circ)} = \\frac{20 \\times 0.653247}{0.996195} \\approx 13.11$ km"
+            ],
+            "finalAnswer": "Therefore the ship is approximately 13.11 km from its starting point.",
+            "solutionFigures": [],
+            "tip": "With an obtuse angle already in the triangle, the other angles must be acute, so there is no ambiguous case."
+          }
+        },
+        {
+          "id": "ch15_ex2_q22b",
+          "number": "22(b)",
+          "category": "Consolidate",
+          "questionText": "A ship sails on a bearing of S$20^\\circ$W for 14 km; then it changes direction, sails for 20 km and drops anchor. Its bearing from the starting point is now N$65^\\circ$W. Calculate the bearing on which the ship sails for the 20 km leg.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Bearings with alternate angles on parallel north–south lines",
+            "steps": [
+              "Given: from part (a), $\\angle OPQ \\approx 40.786^\\circ$. Goal: the bearing of Q from P.",
+              "From P, the starting point O lies on the bearing N20°E (the reverse of S20°W).",
+              "Q is west of the line PO, so turn $40.786^\\circ$ anticlockwise from N20°E.",
+              "$40.786^\\circ - 20^\\circ = 20.786^\\circ$ west of north.",
+              "$20.786^\\circ = 20^\\circ 47'$, so the bearing is N$20^\\circ 47'$W."
+            ],
+            "finalAnswer": "Therefore the ship sails on a bearing of N$20^\\circ 47'$W (about $339^\\circ 13'$T) for the 20 km leg.",
+            "solutionFigures": [],
+            "tip": "Reverse a bearing by swapping N/S and E/W: S20°W reversed is N20°E."
+          }
+        },
+        {
+          "id": "ch15_ex2_q23a",
+          "number": "23(a)",
+          "category": "Master",
+          "questionText": "A cross-country runner runs at 8 km/h on a bearing of $150^\\circ$T for 45 minutes; then she changes direction to a bearing of $053^\\circ$T and runs for 80 minutes at a different speed until she is due east of the starting point. Calculate the distance of the second part of the run (correct to 2 decimal places).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "distance = speed × time; sine rule $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)}$",
+            "steps": [
+              "Given: start O, turning point P, finish Q due east of O. Goal: $PQ$.",
+              "$OP = 8 \\times \\frac{45}{60} = 6$ km.",
+              "Angle at O: bearing $150^\\circ$ is $150^\\circ - 90^\\circ = 60^\\circ$ from east, so $\\angle POQ = 60^\\circ$.",
+              "Angle at P: from P, O is on $330^\\circ$T and Q is on $053^\\circ$T; the angle between them is $(360^\\circ - 330^\\circ) + 53^\\circ = 83^\\circ$.",
+              "Angle at Q: $180^\\circ - 60^\\circ - 83^\\circ = 37^\\circ$.",
+              "$PQ = \\frac{6\\sin(60^\\circ)}{\\sin(37^\\circ)} = \\frac{6 \\times 0.866025}{0.601815} \\approx 8.63$ km"
+            ],
+            "finalAnswer": "Therefore the second part of the run is approximately 8.63 km.",
+            "solutionFigures": [],
+            "tip": "Change minutes into hours (45 min = 0.75 h) before multiplying by a speed in km/h."
+          }
+        },
+        {
+          "id": "ch15_ex2_q23b",
+          "number": "23(b)",
+          "category": "Master",
+          "questionText": "A cross-country runner runs at 8 km/h on a bearing of $150^\\circ$T for 45 minutes; then she changes direction to a bearing of $053^\\circ$T and runs for 80 minutes at a different speed until she is due east of the starting point. Calculate her speed for this section, correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "speed $= \\frac{\\text{distance}}{\\text{time}}$",
+            "steps": [
+              "Given: from part (a), $PQ \\approx 8.6341$ km; time $= 80$ min $= \\frac{80}{60} = \\frac{4}{3}$ h. Goal: speed.",
+              "Speed $= \\frac{8.6341}{4/3} = 8.6341 \\times \\frac{3}{4} \\approx 6.476$ km/h",
+              "Speed $\\approx 6.5$ km/h (1 decimal place)"
+            ],
+            "finalAnswer": "Therefore her speed for the second section is approximately 6.5 km/h.",
+            "solutionFigures": [],
+            "tip": "Use the unrounded distance from part (a) when dividing."
+          }
+        },
+        {
+          "id": "ch15_ex2_q23c",
+          "number": "23(c)",
+          "category": "Master",
+          "questionText": "A cross-country runner runs at 8 km/h on a bearing of $150^\\circ$T for 45 minutes; then she changes direction to a bearing of $053^\\circ$T and runs for 80 minutes at a different speed until she is due east of the starting point. Evaluate how far she needs to run to get back to the starting point (correct to 2 decimal places).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)}$",
+            "steps": [
+              "Given: $OP = 6$ km, $\\angle P = 83^\\circ$, $\\angle Q = 37^\\circ$ (from part a). Goal: $OQ$.",
+              "$\\frac{OQ}{\\sin(83^\\circ)} = \\frac{6}{\\sin(37^\\circ)}$",
+              "$OQ = \\frac{6 \\times 0.992546}{0.601815} \\approx 9.90$ km",
+              "Check with the cosine rule: $OQ^2 = 6^2 + 8.6341^2 - 2(6)(8.6341)\\cos(83^\\circ) = 36 + 74.548 - 12.627 \\approx 97.92$, $OQ \\approx 9.90$ ✓"
+            ],
+            "finalAnswer": "Therefore she needs to run approximately 9.90 km to get back to the starting point.",
+            "solutionFigures": [],
+            "tip": "The side opposite the largest angle ($83^\\circ$) is the longest side, so expect $OQ$ to be the longest."
+          }
+        },
+        {
+          "id": "ch15_ex2_q24",
+          "number": "24",
+          "category": "Master",
+          "questionText": "From a fire tower, A, a fire is spotted on a bearing of N$42^\\circ$E. From a second tower, B, the fire is on a bearing of N$12^\\circ$W. The two fire towers are 23 km apart, and A is N$63^\\circ$W of B. Determine how far the fire is from each tower (correct to 2 decimal places).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)} = \\frac{c}{\\sin(C)}$",
+            "steps": [
+              "Given: towers A and B with $AB = 23$ km, fire F. Goal: $AF$ and $BF$.",
+              "Angle at A: from A, B is on S63°E ($117^\\circ$T) and F is on N42°E ($042^\\circ$T); $\\angle FAB = 117^\\circ - 42^\\circ = 75^\\circ$.",
+              "Angle at B: from B, A is on N63°W ($297^\\circ$T) and F is on N12°W ($348^\\circ$T); $\\angle FBA = 348^\\circ - 297^\\circ = 51^\\circ$.",
+              "Angle at F: $180^\\circ - 75^\\circ - 51^\\circ = 54^\\circ$.",
+              "$AF = \\frac{23\\sin(51^\\circ)}{\\sin(54^\\circ)} = \\frac{23 \\times 0.777146}{0.809017} \\approx 22.09$ km",
+              "$BF = \\frac{23\\sin(75^\\circ)}{\\sin(54^\\circ)} = \\frac{23 \\times 0.965926}{0.809017} \\approx 27.46$ km"
+            ],
+            "finalAnswer": "Therefore the fire is approximately 22.09 km from tower A and 27.46 km from tower B.",
+            "solutionFigures": [],
+            "tip": "Converting compass bearings to true bearings ($000^\\circ$–$360^\\circ$) makes the angle differences easier to find."
+          }
+        },
+        {
+          "id": "ch15_ex2_q25a",
+          "number": "25(a)",
+          "category": "Master",
+          "questionText": "A yacht sets sail from a marina and sails on a bearing of $065^\\circ$T for 3.5 km. It then turns and sails on a bearing of $127^\\circ$T for another 5 km. Evaluate the distance of the yacht from the marina, correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine rule $c^2 = a^2 + b^2 - 2ab\\cos(C)$",
+            "steps": [
+              "Given: marina M, turning point P with $MP = 3.5$ km, yacht Y with $PY = 5$ km. Goal: $MY$.",
+              "Angle at P: from P, M is on $065^\\circ + 180^\\circ = 245^\\circ$T and Y is on $127^\\circ$T; $\\angle MPY = 245^\\circ - 127^\\circ = 118^\\circ$.",
+              "Two sides and the included angle are known, so use the cosine rule.",
+              "$MY^2 = 3.5^2 + 5^2 - 2(3.5)(5)\\cos(118^\\circ)$",
+              "$= 12.25 + 25 - 35 \\times (-0.469472) = 37.25 + 16.4315 = 53.6815$",
+              "$MY = \\sqrt{53.6815} \\approx 7.327$ km $\\approx 7.3$ km"
+            ],
+            "finalAnswer": "Therefore the yacht is approximately 7.3 km from the marina.",
+            "solutionFigures": [],
+            "tip": "$\\cos$ of an obtuse angle is negative, so subtracting it adds to the total."
+          }
+        },
+        {
+          "id": "ch15_ex2_q25b",
+          "number": "25(b)",
+          "category": "Master",
+          "questionText": "A yacht sets sail from a marina and sails on a bearing of $065^\\circ$T for 3.5 km. It then turns and sails on a bearing of $127^\\circ$T for another 5 km. If the yacht was to sail directly back to the marina, on what bearing should it travel? Give your answer rounded to the nearest minute.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule $\\frac{\\sin(M)}{PY} = \\frac{\\sin(P)}{MY}$; back bearing = bearing $+ 180^\\circ$",
+            "steps": [
+              "Given: $MP = 3.5$, $PY = 5$, $\\angle P = 118^\\circ$, $MY \\approx 7.32677$ km. Goal: bearing of M from Y.",
+              "$\\sin(\\angle PMY) = \\frac{5\\sin(118^\\circ)}{7.32677} = \\frac{5 \\times 0.882948}{7.32677} \\approx 0.602549$",
+              "$\\angle PMY \\approx 37.053^\\circ$ (acute because $P$ is obtuse).",
+              "Bearing of Y from M $= 65^\\circ + 37.053^\\circ = 102.053^\\circ$T.",
+              "Bearing of M from Y $= 102.053^\\circ + 180^\\circ = 282.053^\\circ$T.",
+              "$0.053^\\circ \\times 60 \\approx 3'$, so the bearing is $282^\\circ 3'$T."
+            ],
+            "finalAnswer": "Therefore the yacht should sail on a bearing of approximately $282^\\circ 3'$T to return to the marina.",
+            "solutionFigures": [],
+            "tip": "The return bearing is the outward bearing plus (or minus) $180^\\circ$."
+          }
+        }
+      ]
+    }
+  ]
+}

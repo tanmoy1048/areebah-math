@@ -1,0 +1,976 @@
+{
+  "chapterId": "ch11",
+  "chapterTitle": "Probability",
+  "topics": [
+    {
+      "topicId": "11.4",
+      "topicTitle": "Independent and dependent events",
+      "exercises": [
+        {
+          "id": "ch11_ex4_q1a",
+          "number": "1(a)",
+          "category": "Practice",
+          "questionText": "If $A$ and $B$ are independent events and $\\Pr(A) = 0.7$ and $\\Pr(B) = 0.4$, calculate $\\Pr(A \\text{ and } B)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication Law for independent events: $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B)$",
+            "steps": [
+              "Given: $A$ and $B$ independent, $\\Pr(A) = 0.7$, $\\Pr(B) = 0.4$. Goal: $\\Pr(A \\cap B)$.",
+              "Because the events are independent, use the Multiplication Law: $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B)$.",
+              "$\\Pr(A \\cap B) = 0.7 \\times 0.4$",
+              "$= 0.28$"
+            ],
+            "finalAnswer": "$\\Pr(A \\text{ and } B) = 0.28$",
+            "solutionFigures": [],
+            "tip": "Only multiply probabilities directly like this when the events are independent."
+          }
+        },
+        {
+          "id": "ch11_ex4_q1b",
+          "number": "1(b)",
+          "category": "Practice",
+          "questionText": "If $A$ and $B$ are independent events and $\\Pr(A) = 0.7$ and $\\Pr(B) = 0.4$, calculate $\\Pr(A' \\text{ and } B)$ where $A'$ is the complement of $A$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complement rule $\\Pr(A') = 1 - \\Pr(A)$; Multiplication Law $\\Pr(A' \\cap B) = \\Pr(A') \\times \\Pr(B)$",
+            "steps": [
+              "Given: $A$, $B$ independent, $\\Pr(A) = 0.7$, $\\Pr(B) = 0.4$. Goal: $\\Pr(A' \\cap B)$.",
+              "Complement rule: $\\Pr(A') = 1 - 0.7 = 0.3$.",
+              "If $A$ and $B$ are independent, so are $A'$ and $B$, so multiply: $\\Pr(A' \\cap B) = 0.3 \\times 0.4$",
+              "$= 0.12$"
+            ],
+            "finalAnswer": "$\\Pr(A' \\text{ and } B) = 0.12$",
+            "solutionFigures": [],
+            "tip": "Find the complement first, then multiply; do not compute $1 - 0.28$."
+          }
+        },
+        {
+          "id": "ch11_ex4_q1c",
+          "number": "1(c)",
+          "category": "Practice",
+          "questionText": "If $A$ and $B$ are independent events and $\\Pr(A) = 0.7$ and $\\Pr(B) = 0.4$, calculate $\\Pr(A \\text{ and } B')$ where $B'$ is the complement of $B$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complement rule $\\Pr(B') = 1 - \\Pr(B)$; Multiplication Law $\\Pr(A \\cap B') = \\Pr(A) \\times \\Pr(B')$",
+            "steps": [
+              "Given: $A$, $B$ independent, $\\Pr(A) = 0.7$, $\\Pr(B) = 0.4$. Goal: $\\Pr(A \\cap B')$.",
+              "Complement rule: $\\Pr(B') = 1 - 0.4 = 0.6$.",
+              "Multiplication Law: $\\Pr(A \\cap B') = 0.7 \\times 0.6$",
+              "$= 0.42$"
+            ],
+            "finalAnswer": "$\\Pr(A \\text{ and } B') = 0.42$",
+            "solutionFigures": [],
+            "tip": "Complements of independent events are also independent, so the Multiplication Law still applies."
+          }
+        },
+        {
+          "id": "ch11_ex4_q1d",
+          "number": "1(d)",
+          "category": "Practice",
+          "questionText": "If $A$ and $B$ are independent events and $\\Pr(A) = 0.7$ and $\\Pr(B) = 0.4$, calculate $\\Pr(A' \\text{ and } B')$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication Law: $\\Pr(A' \\cap B') = \\Pr(A') \\times \\Pr(B')$",
+            "steps": [
+              "Given: $\\Pr(A') = 1 - 0.7 = 0.3$ and $\\Pr(B') = 1 - 0.4 = 0.6$. Goal: $\\Pr(A' \\cap B')$.",
+              "Multiplication Law: $\\Pr(A' \\cap B') = 0.3 \\times 0.6$",
+              "$= 0.18$",
+              "Check: $0.28 + 0.12 + 0.42 + 0.18 = 1$, so the four regions cover the whole sample space."
+            ],
+            "finalAnswer": "$\\Pr(A' \\text{ and } B') = 0.18$",
+            "solutionFigures": [],
+            "tip": "Checking that all four combinations sum to 1 is a quick way to catch arithmetic slips."
+          }
+        },
+        {
+          "id": "ch11_ex4_q2",
+          "number": "2",
+          "category": "Consolidate",
+          "questionText": "Determine whether two events $A$ and $B$ with $\\Pr(A) = 0.6$, $\\Pr(B') = 0.84$ and $\\Pr(A \\cap B) = 0.96$ are independent or dependent.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Test for independence: $A$ and $B$ are independent if and only if $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B)$",
+            "steps": [
+              "Given: $\\Pr(A) = 0.6$, $\\Pr(B') = 0.84$, $\\Pr(A \\cap B) = 0.96$. Goal: decide whether $A$ and $B$ are independent.",
+              "Complement rule: $\\Pr(B) = 1 - \\Pr(B') = 1 - 0.84 = 0.16$.",
+              "Multiply: $\\Pr(A) \\times \\Pr(B) = 0.6 \\times 0.16 = 0.096$.",
+              "Compare: $\\Pr(A \\cap B) = 0.96 \\neq 0.096 = \\Pr(A) \\times \\Pr(B)$.",
+              "Since the product does not equal the given intersection, the events are not independent.",
+              "Note: as printed, $\\Pr(A \\cap B) = 0.96$ is larger than $\\Pr(A) = 0.6$, which cannot happen ($A \\cap B$ is inside $A$). If the value was meant to be $0.096$, the events would be independent. Using the values exactly as given, the answer is dependent."
+            ],
+            "finalAnswer": "$\\Pr(A) \\times \\Pr(B) = 0.096 \\neq 0.96$, so $A$ and $B$ are dependent (using the data as printed).",
+            "solutionFigures": [],
+            "tip": "Always convert $\\Pr(B')$ to $\\Pr(B)$ before testing $\\Pr(A \\cap B) = \\Pr(A)\\Pr(B)$."
+          }
+        },
+        {
+          "id": "ch11_ex4_q3",
+          "number": "3",
+          "category": "Master",
+          "questionText": "Determine whether two events $A$ and $B$ with $\\Pr(A) = 0.25$, $\\Pr(B) = 0.72$ and $\\Pr(A \\cup B) = 0.79$ are independent or dependent.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Addition Law $\\Pr(A \\cup B) = \\Pr(A) + \\Pr(B) - \\Pr(A \\cap B)$; independence test $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B)$",
+            "steps": [
+              "Given: $\\Pr(A) = 0.25$, $\\Pr(B) = 0.72$, $\\Pr(A \\cup B) = 0.79$. Goal: test for independence.",
+              "Rearrange the Addition Law: $\\Pr(A \\cap B) = \\Pr(A) + \\Pr(B) - \\Pr(A \\cup B)$.",
+              "$\\Pr(A \\cap B) = 0.25 + 0.72 - 0.79 = 0.18$.",
+              "Product: $\\Pr(A) \\times \\Pr(B) = 0.25 \\times 0.72 = 0.18$.",
+              "Since $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B) = 0.18$, the events are independent."
+            ],
+            "finalAnswer": "$\\Pr(A \\cap B) = 0.18 = \\Pr(A)\\Pr(B)$, so $A$ and $B$ are independent.",
+            "solutionFigures": [],
+            "tip": "You need $\\Pr(A \\cap B)$, not $\\Pr(A \\cup B)$, for the independence test, so use the Addition Law first."
+          }
+        },
+        {
+          "id": "ch11_ex4_q4a",
+          "number": "4(a)",
+          "category": "Practice",
+          "questionText": "A die is rolled and a coin is tossed. Explain whether the outcomes are independent.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Events are independent when the outcome of one does not affect the probability of the other.",
+            "steps": [
+              "Given: one die roll and one coin toss. Goal: decide whether the outcomes are independent.",
+              "The die and the coin are separate objects; what the die shows cannot change the chance of a Head or Tail on the coin, and vice versa.",
+              "So the probability of each outcome is unchanged by the other, which is the definition of independence."
+            ],
+            "finalAnswer": "Yes, the outcomes are independent: the result of the die has no effect on the result of the coin.",
+            "solutionFigures": [],
+            "tip": "Separate physical devices (coins, dice, spinners) used together almost always give independent events."
+          }
+        },
+        {
+          "id": "ch11_ex4_q4bi",
+          "number": "4(b)(i)",
+          "category": "Practice",
+          "questionText": "A die is rolled and a coin is tossed. Calculate $\\Pr(\\text{Head})$ on the coin.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$ for equally likely outcomes",
+            "steps": [
+              "Given: a fair coin has 2 equally likely outcomes {H, T}. Goal: $\\Pr(H)$.",
+              "$\\Pr(H) = \\dfrac{1}{2}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{Head}) = \\frac{1}{2}$",
+            "solutionFigures": [],
+            "tip": "Count favourable outcomes over total outcomes of the coin only; the die is irrelevant here."
+          }
+        },
+        {
+          "id": "ch11_ex4_q4bii",
+          "number": "4(b)(ii)",
+          "category": "Practice",
+          "questionText": "A die is rolled and a coin is tossed. Calculate $\\Pr(6)$ on the die.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$ for equally likely outcomes",
+            "steps": [
+              "Given: a fair die has 6 equally likely outcomes {1, 2, 3, 4, 5, 6}. Goal: $\\Pr(6)$.",
+              "One favourable outcome: $\\Pr(6) = \\dfrac{1}{6}$"
+            ],
+            "finalAnswer": "$\\Pr(6) = \\frac{1}{6}$",
+            "solutionFigures": [],
+            "tip": "A standard die has 6 faces, so each face has probability $\\frac{1}{6}$."
+          }
+        },
+        {
+          "id": "ch11_ex4_q4c",
+          "number": "4(c)",
+          "category": "Practice",
+          "questionText": "A die is rolled and a coin is tossed. Calculate $\\Pr(6 \\text{ on the die and Head on the coin})$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication Law for independent events: $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B)$",
+            "steps": [
+              "Given: $\\Pr(6) = \\frac{1}{6}$, $\\Pr(H) = \\frac{1}{2}$, events independent. Goal: $\\Pr(6 \\cap H)$.",
+              "Multiplication Law: $\\Pr(6 \\cap H) = \\dfrac{1}{6} \\times \\dfrac{1}{2}$",
+              "$= \\dfrac{1}{12}$",
+              "Check with the sample space: there are $6 \\times 2 = 12$ equally likely outcomes and only (6, H) is favourable, giving $\\frac{1}{12}$."
+            ],
+            "finalAnswer": "$\\Pr(6 \\text{ and Head}) = \\frac{1}{12}$",
+            "solutionFigures": [],
+            "tip": "'And' for independent events means multiply, not add."
+          }
+        },
+        {
+          "id": "ch11_ex4_q5",
+          "number": "5",
+          "category": "Consolidate",
+          "questionText": "A tetrahedral (4-faced) die and a 10-sided die are rolled simultaneously. Calculate the probability of getting a 3 on the tetrahedral die and an 8 on the 10-sided die.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication Law for independent events: $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B)$",
+            "steps": [
+              "Given: $\\Pr(3 \\text{ on 4-sided die}) = \\frac{1}{4}$, $\\Pr(8 \\text{ on 10-sided die}) = \\frac{1}{10}$. The dice are independent. Goal: probability of both.",
+              "Multiplication Law: $\\Pr = \\dfrac{1}{4} \\times \\dfrac{1}{10}$",
+              "$= \\dfrac{1}{40}$"
+            ],
+            "finalAnswer": "$\\Pr(3 \\text{ and } 8) = \\frac{1}{40}$",
+            "solutionFigures": [],
+            "tip": "Use each die's own number of faces as the denominator."
+          }
+        },
+        {
+          "id": "ch11_ex4_q6",
+          "number": "6",
+          "category": "Master",
+          "questionText": "A blue die and a green die are rolled. Calculate the probability of getting a 5 on the blue die and not a 5 on the green die.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complement rule $\\Pr(5') = 1 - \\Pr(5)$; Multiplication Law for independent events",
+            "steps": [
+              "Given: $\\Pr(5 \\text{ on blue}) = \\frac{1}{6}$. Goal: $\\Pr(5 \\text{ on blue} \\cap \\text{not } 5 \\text{ on green})$.",
+              "Complement rule: $\\Pr(\\text{not } 5 \\text{ on green}) = 1 - \\frac{1}{6} = \\frac{5}{6}$.",
+              "The dice are independent, so multiply: $\\dfrac{1}{6} \\times \\dfrac{5}{6} = \\dfrac{5}{36}$"
+            ],
+            "finalAnswer": "$\\Pr = \\frac{5}{36}$",
+            "solutionFigures": [],
+            "tip": "'Not a 5' has 5 favourable faces, so its probability is $\\frac{5}{6}$, not $\\frac{1}{6}$."
+          }
+        },
+        {
+          "id": "ch11_ex4_q7a",
+          "number": "7(a)",
+          "category": "Master",
+          "questionText": "Dean is an archer. The experimental probability that Dean will hit the target is $\\frac{4}{5}$. Calculate the probability that Dean will hit the target on two successive attempts.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication Law for independent events: $\\Pr(H \\cap H) = \\Pr(H) \\times \\Pr(H)$",
+            "steps": [
+              "Given: $\\Pr(H) = \\frac{4}{5}$ on each attempt, attempts independent. Goal: $\\Pr(HH)$.",
+              "$\\Pr(HH) = \\dfrac{4}{5} \\times \\dfrac{4}{5} = \\dfrac{16}{25}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{hit twice}) = \\frac{16}{25}$",
+            "solutionFigures": [],
+            "tip": "Multiply numerators and denominators separately: $4 \\times 4 = 16$, $5 \\times 5 = 25$."
+          }
+        },
+        {
+          "id": "ch11_ex4_q7b",
+          "number": "7(b)",
+          "category": "Master",
+          "questionText": "Dean is an archer. The experimental probability that Dean will hit the target is $\\frac{4}{5}$. Calculate the probability that Dean will hit the target on three successive attempts.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication Law for independent events: $\\Pr(HHH) = \\Pr(H)^3$",
+            "steps": [
+              "Given: $\\Pr(H) = \\frac{4}{5}$, attempts independent. Goal: $\\Pr(HHH)$.",
+              "$\\Pr(HHH) = \\dfrac{4}{5} \\times \\dfrac{4}{5} \\times \\dfrac{4}{5} = \\dfrac{64}{125}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{hit three times}) = \\frac{64}{125}$",
+            "solutionFigures": [],
+            "tip": "Each extra independent attempt adds another factor to the product."
+          }
+        },
+        {
+          "id": "ch11_ex4_q7c",
+          "number": "7(c)",
+          "category": "Master",
+          "questionText": "Dean is an archer. The experimental probability that Dean will hit the target is $\\frac{4}{5}$. Calculate the probability that Dean will not hit the target on two successive attempts.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complement rule $\\Pr(M) = 1 - \\Pr(H)$; Multiplication Law $\\Pr(MM) = \\Pr(M) \\times \\Pr(M)$",
+            "steps": [
+              "Given: $\\Pr(H) = \\frac{4}{5}$. Goal: $\\Pr(\\text{miss, miss})$.",
+              "Complement rule: $\\Pr(M) = 1 - \\frac{4}{5} = \\frac{1}{5}$.",
+              "Multiplication Law: $\\Pr(MM) = \\dfrac{1}{5} \\times \\dfrac{1}{5} = \\dfrac{1}{25}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{miss twice}) = \\frac{1}{25}$",
+            "solutionFigures": [],
+            "tip": "'Not hit on two attempts' means miss both, which is not the same as $1 - \\frac{16}{25}$ (that would be 'not hit both')."
+          }
+        },
+        {
+          "id": "ch11_ex4_q7d",
+          "number": "7(d)",
+          "category": "Master",
+          "questionText": "Dean is an archer. The experimental probability that Dean will hit the target is $\\frac{4}{5}$. Calculate the probability that Dean will hit the target on the first attempt but miss on the second attempt.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication Law for independent events: $\\Pr(HM) = \\Pr(H) \\times \\Pr(M)$",
+            "steps": [
+              "Given: $\\Pr(H) = \\frac{4}{5}$, $\\Pr(M) = \\frac{1}{5}$. Goal: $\\Pr(H \\text{ then } M)$.",
+              "$\\Pr(HM) = \\dfrac{4}{5} \\times \\dfrac{1}{5} = \\dfrac{4}{25}$",
+              "Check: $\\Pr(HH) + \\Pr(HM) + \\Pr(MH) + \\Pr(MM) = \\frac{16}{25} + \\frac{4}{25} + \\frac{4}{25} + \\frac{1}{25} = 1$."
+            ],
+            "finalAnswer": "$\\Pr(\\text{hit then miss}) = \\frac{4}{25}$",
+            "solutionFigures": [],
+            "tip": "The order is specified, so do not double the answer."
+          }
+        },
+        {
+          "id": "ch11_ex4_q8a",
+          "number": "8(a)",
+          "category": "Practice",
+          "questionText": "MC A bag contains 20 apples, of which 5 are bruised. Peter picks an apple and realises that it is bruised. He puts the apple back in the bag and picks another one. The probability that Peter picks 2 bruised apples is: A. $\\frac{1}{4}$ B. $\\frac{1}{2}$ C. $\\frac{1}{16}$ D. $\\frac{3}{4}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "With replacement the picks are independent: $\\Pr(BB) = \\Pr(B) \\times \\Pr(B)$",
+            "steps": [
+              "Given: 5 bruised out of 20, apple replaced. Goal: $\\Pr(\\text{bruised, bruised})$.",
+              "$\\Pr(B) = \\dfrac{5}{20} = \\dfrac{1}{4}$ on each pick (replacement keeps it the same).",
+              "Multiplication Law: $\\Pr(BB) = \\dfrac{1}{4} \\times \\dfrac{1}{4} = \\dfrac{1}{16}$"
+            ],
+            "finalAnswer": "$\\Pr(BB) = \\frac{1}{16}$, option C",
+            "solutionFigures": [],
+            "tip": "Replacement means the bag is the same for the second pick, so the events are independent."
+          }
+        },
+        {
+          "id": "ch11_ex4_q8b",
+          "number": "8(b)",
+          "category": "Practice",
+          "questionText": "MC A bag contains 20 apples, of which 5 are bruised. Peter picks an apple and realises that it is bruised. He puts the apple back in the bag and picks another one. The probability that Peter picks a bruised apple first but a good one on his second attempt is: A. $\\frac{1}{4}$ B. $\\frac{1}{2}$ C. $\\frac{3}{4}$ D. $\\frac{3}{16}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication Law for independent events: $\\Pr(BG) = \\Pr(B) \\times \\Pr(G)$",
+            "steps": [
+              "Given: $\\Pr(B) = \\frac{5}{20} = \\frac{1}{4}$; good apples $= 15$, so $\\Pr(G) = \\frac{15}{20} = \\frac{3}{4}$. Goal: $\\Pr(B \\text{ then } G)$.",
+              "$\\Pr(BG) = \\dfrac{1}{4} \\times \\dfrac{3}{4} = \\dfrac{3}{16}$"
+            ],
+            "finalAnswer": "$\\Pr(BG) = \\frac{3}{16}$, option D",
+            "solutionFigures": [],
+            "tip": "Option C ($\\frac{3}{4}$) is only the second pick; you must multiply by the first pick's probability."
+          }
+        },
+        {
+          "id": "ch11_ex4_q9a",
+          "number": "9(a)",
+          "category": "Consolidate",
+          "questionText": "The probability that John will be late for a meeting is $\\frac{1}{7}$ and the probability that Phil will be late for a meeting is $\\frac{3}{11}$. Calculate the probability that John and Phil are both late.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication Law for independent events: $\\Pr(J \\cap P) = \\Pr(J) \\times \\Pr(P)$",
+            "steps": [
+              "Given: $\\Pr(J) = \\frac{1}{7}$, $\\Pr(P) = \\frac{3}{11}$, assumed independent. Goal: $\\Pr(J \\cap P)$.",
+              "$\\Pr(J \\cap P) = \\dfrac{1}{7} \\times \\dfrac{3}{11} = \\dfrac{3}{77}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{both late}) = \\frac{3}{77}$",
+            "solutionFigures": [],
+            "tip": "Assume the two people's lateness is independent unless told otherwise."
+          }
+        },
+        {
+          "id": "ch11_ex4_q9b",
+          "number": "9(b)",
+          "category": "Consolidate",
+          "questionText": "The probability that John will be late for a meeting is $\\frac{1}{7}$ and the probability that Phil will be late for a meeting is $\\frac{3}{11}$. Calculate the probability that neither of them is late.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complement rule and Multiplication Law: $\\Pr(J' \\cap P') = \\Pr(J') \\times \\Pr(P')$",
+            "steps": [
+              "Given: $\\Pr(J) = \\frac{1}{7}$, $\\Pr(P) = \\frac{3}{11}$. Goal: $\\Pr(J' \\cap P')$.",
+              "Complements: $\\Pr(J') = 1 - \\frac{1}{7} = \\frac{6}{7}$, $\\Pr(P') = 1 - \\frac{3}{11} = \\frac{8}{11}$.",
+              "$\\Pr(J' \\cap P') = \\dfrac{6}{7} \\times \\dfrac{8}{11} = \\dfrac{48}{77}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{neither late}) = \\frac{48}{77}$",
+            "solutionFigures": [],
+            "tip": "'Neither' means both not late; it is not $1 - \\Pr(\\text{both late})$."
+          }
+        },
+        {
+          "id": "ch11_ex4_q9c",
+          "number": "9(c)",
+          "category": "Consolidate",
+          "questionText": "The probability that John will be late for a meeting is $\\frac{1}{7}$ and the probability that Phil will be late for a meeting is $\\frac{3}{11}$. Calculate the probability that John is late but Phil is not late.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication Law: $\\Pr(J \\cap P') = \\Pr(J) \\times \\Pr(P')$",
+            "steps": [
+              "Given: $\\Pr(J) = \\frac{1}{7}$, $\\Pr(P') = \\frac{8}{11}$. Goal: $\\Pr(J \\cap P')$.",
+              "$\\Pr(J \\cap P') = \\dfrac{1}{7} \\times \\dfrac{8}{11} = \\dfrac{8}{77}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{John late, Phil not}) = \\frac{8}{77}$",
+            "solutionFigures": [],
+            "tip": "Use the complement for the person who is not late."
+          }
+        },
+        {
+          "id": "ch11_ex4_q9d",
+          "number": "9(d)",
+          "category": "Consolidate",
+          "questionText": "The probability that John will be late for a meeting is $\\frac{1}{7}$ and the probability that Phil will be late for a meeting is $\\frac{3}{11}$. Calculate the probability that Phil is late but John is not late.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication Law: $\\Pr(J' \\cap P) = \\Pr(J') \\times \\Pr(P)$",
+            "steps": [
+              "Given: $\\Pr(J') = \\frac{6}{7}$, $\\Pr(P) = \\frac{3}{11}$. Goal: $\\Pr(J' \\cap P)$.",
+              "$\\Pr(J' \\cap P) = \\dfrac{6}{7} \\times \\dfrac{3}{11} = \\dfrac{18}{77}$",
+              "Check: $\\frac{3}{77} + \\frac{48}{77} + \\frac{8}{77} + \\frac{18}{77} = \\frac{77}{77} = 1$."
+            ],
+            "finalAnswer": "$\\Pr(\\text{Phil late, John not}) = \\frac{18}{77}$",
+            "solutionFigures": [],
+            "tip": "The four outcomes for two people must add to 1, a useful check."
+          }
+        },
+        {
+          "id": "ch11_ex4_q10a",
+          "number": "10(a)",
+          "category": "Master",
+          "questionText": "On the roulette wheel at the casino there are 37 numbers, 0 to 36 inclusive. Bidesi puts his chip on number 8 in game 20 and on number 13 in game 21. Calculate the probability that he will win in game 20.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$",
+            "steps": [
+              "Given: 37 equally likely numbers (0 to 36). Goal: $\\Pr(\\text{ball lands on } 8)$.",
+              "$\\Pr(\\text{win game 20}) = \\dfrac{1}{37}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{win game 20}) = \\frac{1}{37}$",
+            "solutionFigures": [],
+            "tip": "Remember to include 0: there are 37 numbers, not 36."
+          }
+        },
+        {
+          "id": "ch11_ex4_q10b",
+          "number": "10(b)",
+          "category": "Master",
+          "questionText": "On the roulette wheel at the casino there are 37 numbers, 0 to 36 inclusive. Bidesi puts his chip on number 8 in game 20 and on number 13 in game 21. Calculate the probability that he will win in both games.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication Law for independent events: $\\Pr(W_{20} \\cap W_{21}) = \\Pr(W_{20}) \\times \\Pr(W_{21})$",
+            "steps": [
+              "Given: each game is independent with $\\Pr(\\text{win}) = \\frac{1}{37}$. Goal: $\\Pr(\\text{win both})$.",
+              "$\\Pr = \\dfrac{1}{37} \\times \\dfrac{1}{37} = \\dfrac{1}{1369}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{win both}) = \\frac{1}{1369}$",
+            "solutionFigures": [],
+            "tip": "$37^2 = 1369$."
+          }
+        },
+        {
+          "id": "ch11_ex4_q10c",
+          "number": "10(c)",
+          "category": "Master",
+          "questionText": "On the roulette wheel at the casino there are 37 numbers, 0 to 36 inclusive. Bidesi puts his chip on number 8 in game 20 and on number 13 in game 21. Calculate the probability that he wins at least one of the games.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complement rule: $\\Pr(\\text{at least one win}) = 1 - \\Pr(\\text{no wins})$",
+            "steps": [
+              "Given: $\\Pr(\\text{lose a game}) = 1 - \\frac{1}{37} = \\frac{36}{37}$, games independent. Goal: $\\Pr(\\text{at least one win})$.",
+              "Multiplication Law: $\\Pr(\\text{lose both}) = \\dfrac{36}{37} \\times \\dfrac{36}{37} = \\dfrac{1296}{1369}$.",
+              "Complement rule: $\\Pr(\\text{at least one win}) = 1 - \\dfrac{1296}{1369} = \\dfrac{73}{1369}$.",
+              "Check another way: $\\Pr(WL) + \\Pr(LW) + \\Pr(WW) = \\frac{36}{1369} + \\frac{36}{1369} + \\frac{1}{1369} = \\frac{73}{1369}$."
+            ],
+            "finalAnswer": "$\\Pr(\\text{at least one win}) = \\frac{73}{1369}$",
+            "solutionFigures": [],
+            "tip": "For 'at least one', it is usually quickest to subtract 'none' from 1."
+          }
+        },
+        {
+          "id": "ch11_ex4_q11",
+          "number": "11",
+          "category": "Practice",
+          "questionText": "Based on her progress through the year, Karen was given a probability of 0.8 of passing the Physics exam. If the probability of passing both Maths and Physics is 0.72, determine her probability of passing the Maths exam.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication Law for independent events, rearranged: $\\Pr(M) = \\dfrac{\\Pr(M \\cap P)}{\\Pr(P)}$",
+            "steps": [
+              "Given: $\\Pr(P) = 0.8$, $\\Pr(M \\cap P) = 0.72$; assume passing the two exams are independent. Goal: $\\Pr(M)$.",
+              "Multiplication Law: $\\Pr(M \\cap P) = \\Pr(M) \\times \\Pr(P)$, so $0.72 = \\Pr(M) \\times 0.8$.",
+              "Divide both sides by 0.8: $\\Pr(M) = \\dfrac{0.72}{0.8} = 0.9$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{passing Maths}) = 0.9$",
+            "solutionFigures": [],
+            "tip": "Solve for the unknown by dividing, not subtracting."
+          }
+        },
+        {
+          "id": "ch11_ex4_q12",
+          "number": "12",
+          "category": "Consolidate",
+          "questionText": "Suresh found that, on average, he is delayed 2 times out of 7 at Melbourne airport. Rakesh made similar observations at Brisbane airport but found that he was delayed 1 out of every 4 times. Determine the probability that both Suresh and Rakesh will be delayed if they are flying out of their respective airports.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication Law for independent events: $\\Pr(S \\cap R) = \\Pr(S) \\times \\Pr(R)$",
+            "steps": [
+              "Given: $\\Pr(S) = \\frac{2}{7}$, $\\Pr(R) = \\frac{1}{4}$; different airports, so independent. Goal: $\\Pr(S \\cap R)$.",
+              "$\\Pr(S \\cap R) = \\dfrac{2}{7} \\times \\dfrac{1}{4} = \\dfrac{2}{28}$",
+              "Simplify (divide by 2): $= \\dfrac{1}{14}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{both delayed}) = \\frac{1}{14}$",
+            "solutionFigures": [],
+            "tip": "Always simplify the final fraction."
+          }
+        },
+        {
+          "id": "ch11_ex4_q13a",
+          "number": "13(a)",
+          "category": "Master",
+          "questionText": "Bronwyn has 3 pairs of Reebok and 2 pairs of Adidas running shoes. She has 2 pairs of Reebok, 3 pairs of Rio and 1 pair of Red Robin socks. Preparing for an early morning run, she grabs at random for a pair of socks and a pair of shoes. Calculate the probability that she chooses Reebok shoes and Reebok socks.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication Law for independent events: $\\Pr(\\text{shoes} \\cap \\text{socks}) = \\Pr(\\text{shoes}) \\times \\Pr(\\text{socks})$",
+            "steps": [
+              "Given: shoes: 3 Reebok, 2 Adidas (5 pairs); socks: 2 Reebok, 3 Rio, 1 Red Robin (6 pairs). The two choices are independent. Goal: $\\Pr(\\text{Reebok shoes} \\cap \\text{Reebok socks})$.",
+              "$\\Pr(\\text{Reebok shoes}) = \\frac{3}{5}$, $\\Pr(\\text{Reebok socks}) = \\frac{2}{6} = \\frac{1}{3}$.",
+              "$\\Pr = \\dfrac{3}{5} \\times \\dfrac{1}{3} = \\dfrac{3}{15} = \\dfrac{1}{5}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{Reebok shoes and Reebok socks}) = \\frac{1}{5}$",
+            "solutionFigures": [],
+            "tip": "Shoes and socks are separate collections, so use each collection's own total."
+          }
+        },
+        {
+          "id": "ch11_ex4_q13b",
+          "number": "13(b)",
+          "category": "Master",
+          "questionText": "Bronwyn has 3 pairs of Reebok and 2 pairs of Adidas running shoes. She has 2 pairs of Reebok, 3 pairs of Rio and 1 pair of Red Robin socks. Preparing for an early morning run, she grabs at random for a pair of socks and a pair of shoes. Calculate the probability that she chooses Rio socks and Adidas shoes.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication Law for independent events",
+            "steps": [
+              "Given: $\\Pr(\\text{Rio socks}) = \\frac{3}{6} = \\frac{1}{2}$, $\\Pr(\\text{Adidas shoes}) = \\frac{2}{5}$. Goal: probability of both.",
+              "$\\Pr = \\dfrac{1}{2} \\times \\dfrac{2}{5} = \\dfrac{2}{10} = \\dfrac{1}{5}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{Rio socks and Adidas shoes}) = \\frac{1}{5}$",
+            "solutionFigures": [],
+            "tip": "Simplify each fraction first to keep the numbers small."
+          }
+        },
+        {
+          "id": "ch11_ex4_q13c",
+          "number": "13(c)",
+          "category": "Master",
+          "questionText": "Bronwyn has 3 pairs of Reebok and 2 pairs of Adidas running shoes. She has 2 pairs of Reebok, 3 pairs of Rio and 1 pair of Red Robin socks. Preparing for an early morning run, she grabs at random for a pair of socks and a pair of shoes. Calculate the probability that she chooses Reebok shoes and Red Robin socks.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication Law for independent events",
+            "steps": [
+              "Given: $\\Pr(\\text{Reebok shoes}) = \\frac{3}{5}$, $\\Pr(\\text{Red Robin socks}) = \\frac{1}{6}$. Goal: probability of both.",
+              "$\\Pr = \\dfrac{3}{5} \\times \\dfrac{1}{6} = \\dfrac{3}{30} = \\dfrac{1}{10}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{Reebok shoes and Red Robin socks}) = \\frac{1}{10}$",
+            "solutionFigures": [],
+            "tip": "Read carefully which brand belongs to shoes and which to socks."
+          }
+        },
+        {
+          "id": "ch11_ex4_q13d",
+          "number": "13(d)",
+          "category": "Master",
+          "questionText": "Bronwyn has 3 pairs of Reebok and 2 pairs of Adidas running shoes. She has 2 pairs of Reebok, 3 pairs of Rio and 1 pair of Red Robin socks. Preparing for an early morning run, she grabs at random for a pair of socks and a pair of shoes. Calculate the probability that she chooses Adidas shoes and socks that are not Red Robin.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complement rule and Multiplication Law for independent events",
+            "steps": [
+              "Given: $\\Pr(\\text{Adidas shoes}) = \\frac{2}{5}$. Goal: $\\Pr(\\text{Adidas shoes} \\cap \\text{not Red Robin socks})$.",
+              "Complement rule: $\\Pr(\\text{not Red Robin}) = 1 - \\frac{1}{6} = \\frac{5}{6}$.",
+              "$\\Pr = \\dfrac{2}{5} \\times \\dfrac{5}{6} = \\dfrac{10}{30} = \\dfrac{1}{3}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{Adidas shoes and not Red Robin socks}) = \\frac{1}{3}$",
+            "solutionFigures": [],
+            "tip": "'Not Red Robin' covers both Reebok and Rio socks: 5 of the 6 pairs."
+          }
+        },
+        {
+          "id": "ch11_ex4_q14a",
+          "number": "14(a)",
+          "category": "Practice",
+          "questionText": "Two cards are drawn successively and without replacement from a pack of 52 playing cards. Calculate the probability of drawing 2 hearts.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for dependent events: $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B \\mid A)$",
+            "steps": [
+              "Given: 13 hearts in 52 cards, no replacement. Goal: $\\Pr(\\text{heart, heart})$.",
+              "First card: $\\Pr(H_1) = \\frac{13}{52}$.",
+              "Second card: 12 hearts left in 51 cards, so $\\Pr(H_2 \\mid H_1) = \\frac{12}{51}$.",
+              "$\\Pr(HH) = \\dfrac{13}{52} \\times \\dfrac{12}{51} = \\dfrac{1}{4} \\times \\dfrac{4}{17} = \\dfrac{1}{17}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{2 hearts}) = \\frac{1}{17}$",
+            "solutionFigures": [],
+            "tip": "Without replacement, reduce both the favourable count and the total by 1 for the second draw."
+          }
+        },
+        {
+          "id": "ch11_ex4_q14b",
+          "number": "14(b)",
+          "category": "Practice",
+          "questionText": "Two cards are drawn successively and without replacement from a pack of 52 playing cards. Calculate the probability of drawing 2 kings.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for dependent events: $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B \\mid A)$",
+            "steps": [
+              "Given: 4 kings in 52 cards, no replacement. Goal: $\\Pr(KK)$.",
+              "$\\Pr(K_1) = \\frac{4}{52} = \\frac{1}{13}$; then 3 kings left in 51 cards: $\\Pr(K_2 \\mid K_1) = \\frac{3}{51} = \\frac{1}{17}$.",
+              "$\\Pr(KK) = \\dfrac{1}{13} \\times \\dfrac{1}{17} = \\dfrac{1}{221}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{2 kings}) = \\frac{1}{221}$",
+            "solutionFigures": [],
+            "tip": "With replacement the answer would be $\\frac{1}{169}$; removing the first king lowers the chance."
+          }
+        },
+        {
+          "id": "ch11_ex4_q14c",
+          "number": "14(c)",
+          "category": "Practice",
+          "questionText": "Two cards are drawn successively and without replacement from a pack of 52 playing cards. Calculate the probability of drawing 2 red cards.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for dependent events: $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B \\mid A)$",
+            "steps": [
+              "Given: 26 red cards in 52, no replacement. Goal: $\\Pr(RR)$.",
+              "$\\Pr(R_1) = \\frac{26}{52} = \\frac{1}{2}$; then 25 red left in 51: $\\Pr(R_2 \\mid R_1) = \\frac{25}{51}$.",
+              "$\\Pr(RR) = \\dfrac{1}{2} \\times \\dfrac{25}{51} = \\dfrac{25}{102}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{2 red cards}) = \\frac{25}{102}$",
+            "solutionFigures": [],
+            "tip": "Half the pack is red (hearts and diamonds), so start with $\\frac{26}{52}$."
+          }
+        },
+        {
+          "id": "ch11_ex4_q15a",
+          "number": "15(a)",
+          "category": "Consolidate",
+          "questionText": "In a class of 30 students there are 17 students who study Music. Two students are picked randomly to represent the class in the Student Representative Council. Calculate the probability that both students don't study Music.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for dependent events (no replacement): $\\Pr(N_1 \\cap N_2) = \\Pr(N_1) \\times \\Pr(N_2 \\mid N_1)$",
+            "steps": [
+              "Given: 30 students, 17 study Music (M), so $30 - 17 = 13$ do not (N). Two different students are chosen. Goal: $\\Pr(NN)$.",
+              "$\\Pr(N_1) = \\frac{13}{30}$; then 12 non-Music students remain out of 29: $\\Pr(N_2 \\mid N_1) = \\frac{12}{29}$.",
+              "$\\Pr(NN) = \\dfrac{13}{30} \\times \\dfrac{12}{29} = \\dfrac{156}{870}$",
+              "Simplify (divide by 6): $= \\dfrac{26}{145}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{neither studies Music}) = \\frac{26}{145}$",
+            "solutionFigures": [],
+            "tip": "The same student cannot be picked twice, so the events are dependent."
+          }
+        },
+        {
+          "id": "ch11_ex4_q15b",
+          "number": "15(b)",
+          "category": "Consolidate",
+          "questionText": "In a class of 30 students there are 17 students who study Music. Two students are picked randomly to represent the class in the Student Representative Council. Calculate the probability that both students do study Music.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for dependent events: $\\Pr(M_1 \\cap M_2) = \\Pr(M_1) \\times \\Pr(M_2 \\mid M_1)$",
+            "steps": [
+              "Given: 17 Music students out of 30. Goal: $\\Pr(MM)$.",
+              "$\\Pr(M_1) = \\frac{17}{30}$; then 16 Music students remain out of 29: $\\Pr(M_2 \\mid M_1) = \\frac{16}{29}$.",
+              "$\\Pr(MM) = \\dfrac{17}{30} \\times \\dfrac{16}{29} = \\dfrac{272}{870}$",
+              "Simplify (divide by 2): $= \\dfrac{136}{435}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{both study Music}) = \\frac{136}{435}$",
+            "solutionFigures": [],
+            "tip": "Check that the fraction is fully simplified: $136 = 2^3 \\times 17$ and $435 = 3 \\times 5 \\times 29$ share no factors."
+          }
+        },
+        {
+          "id": "ch11_ex4_q15c",
+          "number": "15(c)",
+          "category": "Consolidate",
+          "questionText": "In a class of 30 students there are 17 students who study Music. Two students are picked randomly to represent the class in the Student Representative Council. Calculate the probability that one of the students doesn't study Music.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for dependent events plus the addition rule for mutually exclusive orders: $\\Pr(\\text{one } N) = \\Pr(MN) + \\Pr(NM)$",
+            "steps": [
+              "Given: 17 Music (M), 13 non-Music (N), 30 students, no repeats. Goal: probability that exactly one of the two does not study Music.",
+              "Order M then N: $\\dfrac{17}{30} \\times \\dfrac{13}{29} = \\dfrac{221}{870}$.",
+              "Order N then M: $\\dfrac{13}{30} \\times \\dfrac{17}{29} = \\dfrac{221}{870}$.",
+              "Addition rule: $\\Pr = \\dfrac{221}{870} + \\dfrac{221}{870} = \\dfrac{442}{870} = \\dfrac{221}{435}$",
+              "Check: $\\frac{156}{870} + \\frac{272}{870} + \\frac{442}{870} = \\frac{870}{870} = 1$."
+            ],
+            "finalAnswer": "$\\Pr(\\text{exactly one doesn't study Music}) = \\frac{221}{435}$",
+            "solutionFigures": [],
+            "tip": "'One of the students' can happen in two orders; remember to add both branches."
+          }
+        },
+        {
+          "id": "ch11_ex4_q16",
+          "number": "16",
+          "category": "Practice",
+          "questionText": "Greg has tossed a Tail on each of 9 successive coin tosses. He believes that his chances of tossing a Head on his next toss must be very high. Explain whether Greg is correct.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Coin tosses are independent: $\\Pr(H \\text{ on toss } 10 \\mid 9 \\text{ Tails}) = \\Pr(H) = \\frac{1}{2}$",
+            "steps": [
+              "Given: 9 Tails in a row. Goal: decide whether a Head is now more likely.",
+              "A coin has no memory; each toss is independent of the previous tosses.",
+              "So the probability of a Head on the next toss is still $\\frac{1}{2}$ for a fair coin.",
+              "Greg's belief is the 'gambler's fallacy'."
+            ],
+            "finalAnswer": "Greg is not correct. The tosses are independent, so the chance of a Head on the next toss is still $\\frac{1}{2}$ (50%).",
+            "solutionFigures": [],
+            "tip": "Past results of independent trials do not change future probabilities."
+          }
+        },
+        {
+          "id": "ch11_ex4_q17",
+          "number": "17",
+          "category": "Consolidate",
+          "questionText": "The Multiplication Law of probability relates to independent events. Tree diagrams can illustrate the sample space of successive dependent events, and the probability of any one combination of events can be calculated by multiplying the stated probabilities along the branches. Explain whether this is a contradiction to the Multiplication Law of probability.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Independent: $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B)$; dependent: $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B \\mid A)$",
+            "steps": [
+              "Goal: decide whether multiplying along branches for dependent events contradicts the Multiplication Law.",
+              "On a tree diagram for dependent events, the probability on the second-stage branch is already adjusted for what happened on the first branch; it is the conditional probability $\\Pr(B \\mid A)$.",
+              "Multiplying along the branch gives $\\Pr(A) \\times \\Pr(B \\mid A)$, the general multiplication rule.",
+              "When events are independent, $\\Pr(B \\mid A) = \\Pr(B)$, and the rule reduces to the Multiplication Law. So the two agree."
+            ],
+            "finalAnswer": "No, it is not a contradiction. The branch probabilities for dependent events are already altered by the previous event, so multiplying along them uses $\\Pr(A) \\times \\Pr(B \\mid A)$; the Multiplication Law is the special case where $\\Pr(B \\mid A) = \\Pr(B)$.",
+            "solutionFigures": [],
+            "tip": "On a dependent tree, update the second-stage probabilities before multiplying."
+          }
+        },
+        {
+          "id": "ch11_ex4_q18",
+          "number": "18",
+          "category": "Master",
+          "questionText": "Explain whether it is possible for two events, $A$ and $B$, to be mutually exclusive and independent.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Mutually exclusive: $\\Pr(A \\cap B) = 0$; independent: $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B)$",
+            "steps": [
+              "Goal: decide whether both conditions can hold at once.",
+              "If $A$ and $B$ are mutually exclusive, $\\Pr(A \\cap B) = 0$.",
+              "If they are also independent, $\\Pr(A) \\times \\Pr(B) = \\Pr(A \\cap B) = 0$.",
+              "A product is 0 only if a factor is 0, so $\\Pr(A) = 0$ or $\\Pr(B) = 0$.",
+              "An event with probability 0 is impossible, so this is only a trivial case. For any two possible events, mutually exclusive events are dependent: if one happens, the other cannot."
+            ],
+            "finalAnswer": "Only in the trivial case where $\\Pr(A) = 0$ or $\\Pr(B) = 0$ (an impossible event). Otherwise, mutually exclusive events cannot be independent.",
+            "solutionFigures": [],
+            "tip": "Do not confuse 'mutually exclusive' (cannot happen together) with 'independent' (do not affect each other)."
+          }
+        },
+        {
+          "id": "ch11_ex4_q19a",
+          "number": "19(a)",
+          "category": "Master",
+          "questionText": "Consider the sets $\\xi = \\{1, 2, 3, \\ldots, 20\\}$, $A = \\{\\text{evens in } \\xi\\}$ and $B = \\{\\text{multiples of 3 in } \\xi\\}$. Explain whether the events $A$ and $B$ are independent.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Independence test: $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B)$",
+            "steps": [
+              "Given: $n(\\xi) = 20$. $A = \\{2, 4, 6, \\ldots, 20\\}$, so $n(A) = 10$. $B = \\{3, 6, 9, 12, 15, 18\\}$, so $n(B) = 6$. $A \\cap B = \\{6, 12, 18\\}$, so $n(A \\cap B) = 3$. Goal: test independence.",
+              "$\\Pr(A) = \\frac{10}{20} = \\frac{1}{2}$, $\\Pr(B) = \\frac{6}{20} = \\frac{3}{10}$, $\\Pr(A \\cap B) = \\frac{3}{20}$.",
+              "$\\Pr(A) \\times \\Pr(B) = \\frac{1}{2} \\times \\frac{3}{10} = \\frac{3}{20}$.",
+              "Since $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B)$, the events are independent."
+            ],
+            "finalAnswer": "Yes, $A$ and $B$ are independent, because $\\Pr(A \\cap B) = \\frac{3}{20} = \\Pr(A) \\times \\Pr(B)$.",
+            "solutionFigures": [],
+            "tip": "List the elements carefully; missing one multiple changes the conclusion."
+          }
+        },
+        {
+          "id": "ch11_ex4_q19b",
+          "number": "19(b)",
+          "category": "Master",
+          "questionText": "Consider $A = \\{\\text{evens in } \\xi\\}$ and $B = \\{\\text{multiples of 3 in } \\xi\\}$. If $\\xi$ is changed to the integers from 1 to 10 only, explain whether the result from part (a) (that $A$ and $B$ are independent when $\\xi = \\{1, \\ldots, 20\\}$) changes.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Independence test: $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B)$",
+            "steps": [
+              "Given: $\\xi = \\{1, \\ldots, 10\\}$, $n(\\xi) = 10$. $A = \\{2, 4, 6, 8, 10\\}$, $n(A) = 5$. $B = \\{3, 6, 9\\}$, $n(B) = 3$. $A \\cap B = \\{6\\}$, $n(A \\cap B) = 1$.",
+              "$\\Pr(A) = \\frac{5}{10} = \\frac{1}{2}$, $\\Pr(B) = \\frac{3}{10}$, $\\Pr(A \\cap B) = \\frac{1}{10}$.",
+              "$\\Pr(A) \\times \\Pr(B) = \\frac{1}{2} \\times \\frac{3}{10} = \\frac{3}{20}$.",
+              "$\\frac{1}{10} = \\frac{2}{20} \\neq \\frac{3}{20}$, so the events are not independent."
+            ],
+            "finalAnswer": "Yes, the result changes: with $\\xi = \\{1, \\ldots, 10\\}$, $\\Pr(A \\cap B) = \\frac{1}{10} \\neq \\frac{3}{20} = \\Pr(A)\\Pr(B)$, so $A$ and $B$ are not independent.",
+            "solutionFigures": [],
+            "tip": "Independence depends on the sample space, not just on how the events are described."
+          }
+        },
+        {
+          "id": "ch11_ex4_q20",
+          "number": "20",
+          "category": "Practice",
+          "questionText": "There are three coins in a box. One coin is a fair coin, one coin is biased with an 80% chance of landing Heads, and the third is a biased coin with a 40% chance of landing Heads. A coin is selected at random and flipped. If the result is a Head, determine the probability that the fair coin was selected.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule along tree branches and conditional probability: $\\Pr(F \\mid H) = \\dfrac{\\Pr(F \\cap H)}{\\Pr(H)}$",
+            "steps": [
+              "Given: each coin chosen with probability $\\frac{1}{3}$. $\\Pr(H \\mid \\text{fair}) = 0.5$, $\\Pr(H \\mid 80\\%) = 0.8$, $\\Pr(H \\mid 40\\%) = 0.4$. Goal: $\\Pr(\\text{fair} \\mid H)$.",
+              "Tree diagram: first stage chooses the coin ($\\frac{1}{3}$ each); second stage is H or T with that coin's probabilities.",
+              "Fair and Head: $\\frac{1}{3} \\times 0.5 = \\frac{0.5}{3}$.",
+              "80% coin and Head: $\\frac{1}{3} \\times 0.8 = \\frac{0.8}{3}$.",
+              "40% coin and Head: $\\frac{1}{3} \\times 0.4 = \\frac{0.4}{3}$.",
+              "Addition rule: $\\Pr(H) = \\dfrac{0.5 + 0.8 + 0.4}{3} = \\dfrac{1.7}{3}$.",
+              "Conditional probability: $\\Pr(F \\mid H) = \\dfrac{0.5/3}{1.7/3} = \\dfrac{0.5}{1.7} = \\dfrac{5}{17}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{fair coin} \\mid \\text{Head}) = \\frac{5}{17}$",
+            "solutionFigures": [],
+            "tip": "Divide by the total probability of a Head from all three coins, not by 1."
+          }
+        },
+        {
+          "id": "ch11_ex4_q21a",
+          "number": "21(a)",
+          "category": "Consolidate",
+          "questionText": "A game at a carnival requires blindfolded contestants to throw balls at numbered ducks sitting on 3 shelves. The game ends when 3 ducks have been knocked off the shelves. The ducks are numbered: top shelf 1, 2, 3, 1, 3; middle shelf 1, 1, 2, 1, 3; bottom shelf 2, 2, 1, 1, 2 (15 ducks: seven 1s, five 2s, three 3s). Assume that the probability of hitting each duck is equal. Explain whether the events described in the game are dependent or independent.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Events are dependent when the outcome of one changes the probabilities for the next.",
+            "steps": [
+              "Given: 15 ducks; each duck hit is knocked off and not replaced. Goal: decide dependence.",
+              "After the first hit, only 14 ducks remain and one number has one fewer duck, so the probabilities for the second throw change.",
+              "Similarly the third throw depends on the first two."
+            ],
+            "finalAnswer": "The events are dependent, because each duck knocked off is removed, changing the probabilities for later throws.",
+            "solutionFigures": [],
+            "tip": "Removal without replacement is the signal for dependent events."
+          }
+        },
+        {
+          "id": "ch11_ex4_q21b",
+          "number": "21(b)",
+          "category": "Consolidate",
+          "questionText": "A carnival game has 15 numbered ducks on 3 shelves: top shelf 1, 2, 3, 1, 3; middle shelf 1, 1, 2, 1, 3; bottom shelf 2, 2, 1, 1, 2. The probability of hitting each duck is equal. Determine the initial probabilities of hitting each number.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$",
+            "steps": [
+              "Count the ducks: number 1 appears $2 + 3 + 2 = 7$ times; number 2 appears $1 + 1 + 3 = 5$ times; number 3 appears $2 + 1 + 0 = 3$ times. Total $7 + 5 + 3 = 15$.",
+              "$\\Pr(1) = \\frac{7}{15}$",
+              "$\\Pr(2) = \\frac{5}{15} = \\frac{1}{3}$",
+              "$\\Pr(3) = \\frac{3}{15} = \\frac{1}{5}$",
+              "Check: $\\frac{7}{15} + \\frac{5}{15} + \\frac{3}{15} = 1$."
+            ],
+            "finalAnswer": "$\\Pr(1) = \\frac{7}{15}$, $\\Pr(2) = \\frac{1}{3}$, $\\Pr(3) = \\frac{1}{5}$",
+            "solutionFigures": [],
+            "tip": "Count each number shelf by shelf so none are missed."
+          }
+        },
+        {
+          "id": "ch11_ex4_q21c",
+          "number": "21(c)",
+          "category": "Consolidate",
+          "questionText": "A carnival game has 15 numbered ducks (seven 1s, five 2s, three 3s). The game ends when 3 ducks have been knocked off (ducks are not replaced). The probability of hitting each duck is equal. Draw a labelled tree diagram to show the possible outcomes for a contestant.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Dependent tree: branch probability $= \\dfrac{\\text{ducks of that number left}}{\\text{ducks left}}$",
+            "steps": [
+              "Stage 1 (15 ducks): 1 with $\\frac{7}{15}$, 2 with $\\frac{5}{15}$, 3 with $\\frac{3}{15}$.",
+              "Stage 2 (14 ducks): after a 1: 1 $\\frac{6}{14}$, 2 $\\frac{5}{14}$, 3 $\\frac{3}{14}$. After a 2: 1 $\\frac{7}{14}$, 2 $\\frac{4}{14}$, 3 $\\frac{3}{14}$. After a 3: 1 $\\frac{7}{14}$, 2 $\\frac{5}{14}$, 3 $\\frac{2}{14}$.",
+              "Stage 3 (13 ducks): the numerator for each number is 7, 5 or 3 minus the number of times it has already been hit. For example after (1, 1): 1 $\\frac{5}{13}$, 2 $\\frac{5}{13}$, 3 $\\frac{3}{13}$; after (3, 3): 1 $\\frac{7}{13}$, 2 $\\frac{5}{13}$, 3 $\\frac{1}{13}$; after (2, 3): 1 $\\frac{7}{13}$, 2 $\\frac{4}{13}$, 3 $\\frac{2}{13}$.",
+              "The tree has $3 \\times 3 \\times 3 = 27$ outcomes (111, 112, 113, ..., 333); the probability of each is the product of its three branches, e.g. $\\Pr(1,2,3) = \\frac{7}{15} \\times \\frac{5}{14} \\times \\frac{3}{13} = \\frac{105}{2730} = \\frac{1}{26}$."
+            ],
+            "finalAnswer": "A three-stage tree with branches 1, 2, 3 at each stage; first-stage probabilities $\\frac{7}{15}, \\frac{5}{15}, \\frac{3}{15}$, second-stage denominators 14 and third-stage denominators 13, with numerators reduced by one for each duck of that number already hit; 27 outcomes in total.",
+            "solutionFigures": [],
+            "tip": "At every stage the branch probabilities from one node must add to 1."
+          }
+        },
+        {
+          "id": "ch11_ex4_q21di",
+          "number": "21(d)(i)",
+          "category": "Consolidate",
+          "questionText": "A carnival game has 15 numbered ducks (seven 1s, five 2s, three 3s). Three ducks are knocked off without replacement, each duck equally likely to be hit. Calculate $\\Pr(1, 1, 1)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for dependent events: multiply along the branches",
+            "steps": [
+              "Given: seven 1s among 15 ducks. Goal: $\\Pr(1, 1, 1)$.",
+              "$\\Pr(1,1,1) = \\dfrac{7}{15} \\times \\dfrac{6}{14} \\times \\dfrac{5}{13} = \\dfrac{210}{2730}$",
+              "Simplify (divide by 210): $= \\dfrac{1}{13}$"
+            ],
+            "finalAnswer": "$\\Pr(1, 1, 1) = \\frac{1}{13}$",
+            "solutionFigures": [],
+            "tip": "Reduce both numerator and denominator by 1 after each hit."
+          }
+        },
+        {
+          "id": "ch11_ex4_q21dii",
+          "number": "21(d)(ii)",
+          "category": "Consolidate",
+          "questionText": "A carnival game has 15 numbered ducks (seven 1s, five 2s, three 3s). Three ducks are knocked off without replacement, each duck equally likely to be hit. Calculate $\\Pr(2, 2, 2)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for dependent events",
+            "steps": [
+              "Given: five 2s among 15 ducks. Goal: $\\Pr(2, 2, 2)$.",
+              "$\\Pr(2,2,2) = \\dfrac{5}{15} \\times \\dfrac{4}{14} \\times \\dfrac{3}{13} = \\dfrac{60}{2730}$",
+              "Simplify (divide by 30): $= \\dfrac{2}{91}$"
+            ],
+            "finalAnswer": "$\\Pr(2, 2, 2) = \\frac{2}{91}$",
+            "solutionFigures": [],
+            "tip": "$2730 = 15 \\times 14 \\times 13$ is the common denominator for every three-duck outcome."
+          }
+        },
+        {
+          "id": "ch11_ex4_q21diii",
+          "number": "21(d)(iii)",
+          "category": "Consolidate",
+          "questionText": "A carnival game has 15 numbered ducks (seven 1s, five 2s, three 3s). Three ducks are knocked off without replacement, each duck equally likely to be hit. Calculate $\\Pr(3, 3, 3)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for dependent events",
+            "steps": [
+              "Given: three 3s among 15 ducks. Goal: $\\Pr(3, 3, 3)$.",
+              "$\\Pr(3,3,3) = \\dfrac{3}{15} \\times \\dfrac{2}{14} \\times \\dfrac{1}{13} = \\dfrac{6}{2730}$",
+              "Simplify (divide by 6): $= \\dfrac{1}{455}$"
+            ],
+            "finalAnswer": "$\\Pr(3, 3, 3) = \\frac{1}{455}$",
+            "solutionFigures": [],
+            "tip": "There are only three 3s, so this needs every 3 to be hit."
+          }
+        },
+        {
+          "id": "ch11_ex4_q21div",
+          "number": "21(d)(iv)",
+          "category": "Consolidate",
+          "questionText": "A carnival game has 15 numbered ducks (seven 1s, five 2s, three 3s). Three ducks are knocked off without replacement, each duck equally likely to be hit. Calculate $\\Pr(\\text{at least one } 3)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complement rule: $\\Pr(\\text{at least one } 3) = 1 - \\Pr(\\text{no } 3\\text{s})$",
+            "steps": [
+              "Given: 12 ducks are not 3s. Goal: $\\Pr(\\text{at least one } 3)$.",
+              "Multiplication rule (dependent): $\\Pr(\\text{no } 3\\text{s}) = \\dfrac{12}{15} \\times \\dfrac{11}{14} \\times \\dfrac{10}{13} = \\dfrac{1320}{2730} = \\dfrac{44}{91}$.",
+              "Complement rule: $\\Pr(\\text{at least one } 3) = 1 - \\dfrac{44}{91} = \\dfrac{47}{91}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{at least one } 3) = \\frac{47}{91}$",
+            "solutionFigures": [],
+            "tip": "Use the complement to avoid adding up many branches of the tree."
+          }
+        },
+        {
+          "id": "ch11_ex4_q22a",
+          "number": "22(a)",
+          "category": "Master",
+          "questionText": "Question 21 described a carnival game with 15 ducks (seven numbered 1, five numbered 2, three numbered 3); three ducks are knocked off without replacement, each duck equally likely. A contestant pays $\\$3$ to play and must make 3 direct hits to be eligible for a prize. The numbers on the ducks hit are summed and the prize is given by the winners' table: total 9: major prize ($\\$30$ value); total 7 or 8: minor prize ($\\$10$ value); total 5 or 6: $\\$2$ prize; total 3 or 4: no prize. Determine the probability of winning each prize listed.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for dependent events along each branch; addition rule over all orders. All outcomes have denominator $15 \\times 14 \\times 13 = 2730$.",
+            "steps": [
+              "Given: 7 ones, 5 twos, 3 threes; denominator $2730$. Goal: $\\Pr$ of each total band.",
+              "Total 9 = (3,3,3): $3 \\times 2 \\times 1 = 6$, so $\\Pr(9) = \\frac{6}{2730} = \\frac{1}{455}$.",
+              "Total 8 = two 3s and one 2: 3 orders, each $3 \\times 2 \\times 5 = 30$; total $90$.",
+              "Total 7 = two 3s and one 1: 3 orders $\\times (3 \\times 2 \\times 7 = 42) = 126$; or one 3 and two 2s: 3 orders $\\times (3 \\times 5 \\times 4 = 60) = 180$. Total for 7: $306$.",
+              "$\\Pr(7 \\text{ or } 8) = \\frac{90 + 306}{2730} = \\frac{396}{2730} = \\frac{66}{455}$.",
+              "Total 6 = (1,2,3): 6 orders $\\times (7 \\times 5 \\times 3 = 105) = 630$; or (2,2,2): $5 \\times 4 \\times 3 = 60$. Total $690$.",
+              "Total 5 = (1,1,3): 3 orders $\\times (7 \\times 6 \\times 3 = 126) = 378$; or (1,2,2): 3 orders $\\times (7 \\times 5 \\times 4 = 140) = 420$. Total $798$.",
+              "$\\Pr(5 \\text{ or } 6) = \\frac{690 + 798}{2730} = \\frac{1488}{2730} = \\frac{248}{455}$.",
+              "Total 3 = (1,1,1): $7 \\times 6 \\times 5 = 210$. Total 4 = (1,1,2): 3 orders $\\times (7 \\times 6 \\times 5 = 210) = 630$.",
+              "$\\Pr(3 \\text{ or } 4) = \\frac{840}{2730} = \\frac{4}{13}$.",
+              "Check: $6 + 396 + 1488 + 840 = 2730$, so the probabilities sum to 1."
+            ],
+            "finalAnswer": "$\\Pr(\\text{major}, 9) = \\frac{1}{455}$; $\\Pr(\\text{minor}, 7 \\text{ or } 8) = \\frac{66}{455}$; $\\Pr(\\$2, 5 \\text{ or } 6) = \\frac{248}{455}$; $\\Pr(\\text{no prize}, 3 \\text{ or } 4) = \\frac{4}{13}$",
+            "solutionFigures": [],
+            "tip": "For a set of numbers that are not all the same, count every order (3 orders for two alike, 6 for all different)."
+          }
+        },
+        {
+          "id": "ch11_ex4_q22b",
+          "number": "22(b)",
+          "category": "Master",
+          "questionText": "In the carnival duck game of Question 21, a contestant pays $\\$3$ to play. Prizes: total 9: $\\$30$ value (probability $\\frac{1}{455}$); total 7 or 8: $\\$10$ value (probability $\\frac{66}{455}$); total 5 or 6: $\\$2$ (probability $\\frac{248}{455}$); total 3 or 4: no prize (probability $\\frac{4}{13}$). Suppose 1000 games are played on an average show day. Evaluate the profit that could be expected to be made by the sideshow owner on any average show day.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Expected payout per game $= \\sum (\\text{prize value} \\times \\Pr(\\text{prize}))$; profit $=$ income $-$ expected payouts",
+            "steps": [
+              "Given: 1000 games at $\\$3$ each and the prize probabilities from part (a). Goal: expected profit.",
+              "Income: $1000 \\times \\$3 = \\$3000$.",
+              "Expected payout per game: $30 \\times \\frac{1}{455} + 10 \\times \\frac{66}{455} + 2 \\times \\frac{248}{455} + 0 \\times \\frac{4}{13} = \\frac{30 + 660 + 496}{455} = \\frac{1186}{455} \\approx \\$2.6066$.",
+              "Expected payout for 1000 games: $1000 \\times \\frac{1186}{455} = \\frac{1\\,186\\,000}{455} \\approx \\$2606.59$.",
+              "Expected profit: $\\$3000 - \\$2606.59 = \\$393.41$ (exactly $\\frac{179\\,000}{455}$, rounded to the nearest cent)."
+            ],
+            "finalAnswer": "The sideshow owner can expect a profit of about $\\$393.41$ per average show day (to the nearest cent).",
+            "solutionFigures": [],
+            "tip": "Keep exact fractions until the last step to avoid rounding errors in money answers."
+          }
+        }
+      ]
+    }
+  ]
+}

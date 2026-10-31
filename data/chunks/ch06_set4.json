@@ -1,0 +1,1639 @@
+{
+  "chapterId": "ch06",
+  "chapterTitle": "Surface area and volume",
+  "topics": [
+    {
+      "topicId": "6.4",
+      "topicTitle": "Volume",
+      "exercises": [
+        {
+          "id": "ch6_ex4_q1a",
+          "number": "1(a)",
+          "category": "Practice",
+          "questionText": "Calculate the volume of the following prism: a cube with edge length $3\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a cube: $V = l^3$",
+            "steps": [
+              "Given: $l = 3\\text{ cm}$. Goal: the volume.",
+              "$V = l^3$",
+              "$V = 3^3 = 3 \\times 3 \\times 3$",
+              "$V = 27\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the cube is $27\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "Volume units are cubed: $\\text{cm}^3$."
+          }
+        },
+        {
+          "id": "ch6_ex4_q1b",
+          "number": "1(b)",
+          "category": "Practice",
+          "questionText": "Calculate the volume of the following prism: a cube with edge length $4.2\\text{ m}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a cube: $V = l^3$",
+            "steps": [
+              "Given: $l = 4.2\\text{ m}$. Goal: the volume.",
+              "$V = 4.2^3 = 4.2 \\times 4.2 \\times 4.2$",
+              "$V = 17.64 \\times 4.2$",
+              "$V = 74.088\\text{ m}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the cube is $74.088\\text{ m}^3$.",
+            "solutionFigures": [],
+            "tip": "$4.2^3$ means $4.2 \\times 4.2 \\times 4.2$, not $4.2 \\times 3$."
+          }
+        },
+        {
+          "id": "ch6_ex4_q1c",
+          "number": "1(c)",
+          "category": "Practice",
+          "questionText": "Calculate the volume of the following prism: a rectangular prism $20\\text{ cm}$ long, $12\\text{ cm}$ wide and $15\\text{ cm}$ high.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a rectangular prism: $V = lwh$",
+            "steps": [
+              "Given: $l = 20$, $w = 12$, $h = 15$ (cm). Goal: the volume.",
+              "$V = 20 \\times 12 \\times 15$",
+              "$V = 240 \\times 15$",
+              "$V = 3600\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the prism is $3600\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "The order of multiplication doesn't matter; pick an easy order."
+          }
+        },
+        {
+          "id": "ch6_ex4_q1d",
+          "number": "1(d)",
+          "category": "Practice",
+          "questionText": "Calculate the volume of the following prism: a rectangular prism $3\\text{ cm}$ wide, $7.5\\text{ cm}$ long and $4.2\\text{ cm}$ high.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a rectangular prism: $V = lwh$",
+            "steps": [
+              "Given: $l = 7.5$, $w = 3$, $h = 4.2$ (cm). Goal: the volume.",
+              "$V = 7.5 \\times 3 \\times 4.2$",
+              "$V = 22.5 \\times 4.2$",
+              "$V = 94.5\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the prism is $94.5\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "Check you have used all three different dimensions exactly once."
+          }
+        },
+        {
+          "id": "ch6_ex4_q2a",
+          "number": "2(a)",
+          "category": "Consolidate",
+          "questionText": "Calculate the volume of the solid: a prism with an irregular cross-section of base area $25\\text{ mm}^2$ and height $18\\text{ mm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a solid with uniform cross-section: $V = AH$",
+            "steps": [
+              "Given: $A = 25\\text{ mm}^2$, $H = 18\\text{ mm}$. Goal: the volume.",
+              "$V = AH$",
+              "$V = 25 \\times 18$",
+              "$V = 450\\text{ mm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume is $450\\text{ mm}^3$.",
+            "solutionFigures": [],
+            "tip": "Any shape of cross-section works with $V = AH$ as long as it is the same all the way through."
+          }
+        },
+        {
+          "id": "ch6_ex4_q2b",
+          "number": "2(b)",
+          "category": "Consolidate",
+          "questionText": "Calculate the volume of the solid: a prism with an irregular cross-section of base area $24\\text{ cm}^2$ and height $15\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a solid with uniform cross-section: $V = AH$",
+            "steps": [
+              "Given: $A = 24\\text{ cm}^2$, $H = 15\\text{ cm}$. Goal: the volume.",
+              "$V = 24 \\times 15$",
+              "$V = 360\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume is $360\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "Area ($\\text{cm}^2$) times length (cm) gives volume ($\\text{cm}^3$)."
+          }
+        },
+        {
+          "id": "ch6_ex4_q3a",
+          "number": "3(a)",
+          "category": "Practice",
+          "questionText": "Calculate the volume, correct to 1 decimal place: a cylinder with radius $12\\text{ cm}$ and height $14\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a cylinder: $V = \\pi r^2 h$",
+            "steps": [
+              "Given: $r = 12\\text{ cm}$, $h = 14\\text{ cm}$. Goal: the volume.",
+              "$V = \\pi \\times 12^2 \\times 14$",
+              "$V = \\pi \\times 144 \\times 14 = 2016\\pi$",
+              "$V = 6333.450...$",
+              "Rounded to 1 decimal place: $6333.5\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the cylinder is $6333.5\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "Square the radius only, then multiply by the height."
+          }
+        },
+        {
+          "id": "ch6_ex4_q3b",
+          "number": "3(b)",
+          "category": "Practice",
+          "questionText": "Calculate the volume, correct to 1 decimal place: a cylinder with radius $1.5\\text{ m}$ and height $2.7\\text{ m}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a cylinder: $V = \\pi r^2 h$",
+            "steps": [
+              "Given: $r = 1.5\\text{ m}$, $h = 2.7\\text{ m}$. Goal: the volume.",
+              "$V = \\pi \\times 1.5^2 \\times 2.7$",
+              "$V = \\pi \\times 2.25 \\times 2.7 = 6.075\\pi$",
+              "$V = 19.085...$",
+              "Rounded to 1 decimal place: $19.1\\text{ m}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the cylinder is $19.1\\text{ m}^3$.",
+            "solutionFigures": [],
+            "tip": "Keep the full calculator value until the last step."
+          }
+        },
+        {
+          "id": "ch6_ex4_q3c",
+          "number": "3(c)",
+          "category": "Practice",
+          "questionText": "Calculate the volume: a triangular prism whose right-angled triangular cross-section has base $8\\text{ cm}$ and height $7\\text{ cm}$, and whose length is $10\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a triangular prism: $V = \\frac{1}{2}bh \\times H$",
+            "steps": [
+              "Given: $b = 8\\text{ cm}$, $h = 7\\text{ cm}$, $H = 10\\text{ cm}$. Goal: the volume.",
+              "$V = \\frac{1}{2} \\times 8 \\times 7 \\times 10$",
+              "$V = 28 \\times 10$",
+              "$V = 280\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the prism is $280\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "$h$ is the triangle's height, $H$ is the prism's length — keep them separate."
+          }
+        },
+        {
+          "id": "ch6_ex4_q4a",
+          "number": "4(a)",
+          "category": "Master",
+          "questionText": "Calculate the volume: a triangular prism with a right-angled triangular cross-section of base $6\\text{ mm}$ and height $8\\text{ mm}$, and length $12\\text{ mm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a triangular prism: $V = \\frac{1}{2}bh \\times H$",
+            "steps": [
+              "Given: $b = 6\\text{ mm}$, $h = 8\\text{ mm}$, $H = 12\\text{ mm}$. Goal: the volume.",
+              "$V = \\frac{1}{2} \\times 6 \\times 8 \\times 12$",
+              "$V = 24 \\times 12$",
+              "$V = 288\\text{ mm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the prism is $288\\text{ mm}^3$.",
+            "solutionFigures": [],
+            "tip": "Find the shaded cross-section first, then multiply by the length."
+          }
+        },
+        {
+          "id": "ch6_ex4_q4b",
+          "number": "4(b)",
+          "category": "Master",
+          "questionText": "Calculate the volume, correct to 1 decimal place: a prism whose cross-section is a sector of a circle with radius $6.5\\text{ m}$ and angle $35^\\circ$, and whose height is $7.1\\text{ m}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$V = AH$ with sector area $A = \\frac{\\theta}{360^\\circ} \\times \\pi r^2$",
+            "steps": [
+              "Given: $r = 6.5\\text{ m}$, $\\theta = 35^\\circ$, $H = 7.1\\text{ m}$. Goal: the volume.",
+              "$A = \\frac{35^\\circ}{360^\\circ} \\times \\pi \\times 6.5^2 = \\frac{35}{360} \\times 42.25\\pi = 12.904...\\text{ m}^2$",
+              "$V = 12.904... \\times 7.1$",
+              "$V = 91.622...$",
+              "Rounded to 1 decimal place: $91.6\\text{ m}^3$"
+            ],
+            "finalAnswer": "Therefore the volume is $91.6\\text{ m}^3$.",
+            "solutionFigures": [],
+            "tip": "The cross-section is a sector, so start with the sector area formula."
+          }
+        },
+        {
+          "id": "ch6_ex4_q4c",
+          "number": "4(c)",
+          "category": "Master",
+          "questionText": "Calculate the volume, correct to 1 decimal place: a cylinder of diameter $45\\text{ cm}$ and height $18\\text{ cm}$ from which a quarter (a $90^\\circ$ wedge) has been removed.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$V = AH$ with $A = \\frac{\\theta}{360^\\circ} \\times \\pi r^2$, $\\theta = 270^\\circ$",
+            "steps": [
+              "Given: $r = \\frac{45}{2} = 22.5\\text{ cm}$, $H = 18\\text{ cm}$, a $90^\\circ$ wedge removed so $\\theta = 270^\\circ$. Goal: the volume.",
+              "$A = \\frac{270^\\circ}{360^\\circ} \\times \\pi \\times 22.5^2 = \\frac{3}{4} \\times 506.25\\pi = 379.6875\\pi$",
+              "$V = 379.6875\\pi \\times 18 = 6834.375\\pi$",
+              "$V = 21\\,470.809...$",
+              "Rounded to 1 decimal place: $21\\,470.8\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume is $21\\,470.8\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "The 45 cm spans the whole circle, so it is the diameter; and three-quarters of the cylinder remains."
+          }
+        },
+        {
+          "id": "ch6_ex4_q5a",
+          "number": "5(a)",
+          "category": "Practice",
+          "questionText": "Determine the volume of a sphere (correct to 1 decimal place) with a radius of $1.2\\text{ m}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a sphere: $V = \\frac{4}{3}\\pi r^3$",
+            "steps": [
+              "Given: $r = 1.2\\text{ m}$. Goal: the volume.",
+              "$V = \\frac{4}{3} \\times \\pi \\times 1.2^3$",
+              "$V = \\frac{4}{3} \\times \\pi \\times 1.728 = 2.304\\pi$",
+              "$V = 7.238...$",
+              "Rounded to 1 decimal place: $7.2\\text{ m}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the sphere is $7.2\\text{ m}^3$.",
+            "solutionFigures": [],
+            "tip": "The radius is cubed in the volume formula (but squared in the surface area formula)."
+          }
+        },
+        {
+          "id": "ch6_ex4_q5b",
+          "number": "5(b)",
+          "category": "Practice",
+          "questionText": "Determine the volume of a sphere (correct to 1 decimal place) with a radius of $15\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a sphere: $V = \\frac{4}{3}\\pi r^3$",
+            "steps": [
+              "Given: $r = 15\\text{ cm}$. Goal: the volume.",
+              "$V = \\frac{4}{3} \\times \\pi \\times 15^3 = \\frac{4}{3} \\times 3375\\pi = 4500\\pi$",
+              "$V = 14\\,137.166...$",
+              "Rounded to 1 decimal place: $14\\,137.2\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the sphere is $14\\,137.2\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "Multiply by 4 and divide by 3 — both parts of $\\frac{4}{3}$ matter."
+          }
+        },
+        {
+          "id": "ch6_ex4_q5c",
+          "number": "5(c)",
+          "category": "Practice",
+          "questionText": "Determine the volume of a sphere (correct to 1 decimal place) with a radius of $7\\text{ mm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a sphere: $V = \\frac{4}{3}\\pi r^3$",
+            "steps": [
+              "Given: $r = 7\\text{ mm}$. Goal: the volume.",
+              "$V = \\frac{4}{3} \\times \\pi \\times 7^3 = \\frac{4}{3} \\times 343\\pi = \\frac{1372\\pi}{3}$",
+              "$V = 1436.755...$",
+              "Rounded to 1 decimal place: $1436.8\\text{ mm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the sphere is $1436.8\\text{ mm}^3$.",
+            "solutionFigures": [],
+            "tip": "$7^3 = 343$; check cubes carefully."
+          }
+        },
+        {
+          "id": "ch6_ex4_q5d",
+          "number": "5(d)",
+          "category": "Practice",
+          "questionText": "Determine the volume of a sphere (correct to 1 decimal place) with a radius of $50\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a sphere: $V = \\frac{4}{3}\\pi r^3$",
+            "steps": [
+              "Given: $r = 50\\text{ cm}$. Goal: the volume.",
+              "$V = \\frac{4}{3} \\times \\pi \\times 50^3 = \\frac{4}{3} \\times 125\\,000\\pi = \\frac{500\\,000\\pi}{3}$",
+              "$V = 523\\,598.775...$",
+              "Rounded to 1 decimal place: $523\\,598.8\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the sphere is $523\\,598.8\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "Large answers are easier to read with spaces between groups of three digits."
+          }
+        },
+        {
+          "id": "ch6_ex4_q6a",
+          "number": "6(a)",
+          "category": "Consolidate",
+          "questionText": "Calculate the volume of the figure, correct to 2 decimal places: a sphere with radius $30\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a sphere: $V = \\frac{4}{3}\\pi r^3$",
+            "steps": [
+              "Given: $r = 30\\text{ cm}$. Goal: the volume.",
+              "$V = \\frac{4}{3} \\times \\pi \\times 30^3 = \\frac{4}{3} \\times 27\\,000\\pi = 36\\,000\\pi$",
+              "$V = 113\\,097.335...$",
+              "Rounded to 2 decimal places: $113\\,097.34\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the sphere is $113\\,097.34\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "The 30 cm line goes from the centre to the edge, so it is the radius."
+          }
+        },
+        {
+          "id": "ch6_ex4_q6b",
+          "number": "6(b)",
+          "category": "Consolidate",
+          "questionText": "Calculate the volume of the figure, correct to 2 decimal places: a sphere with diameter $1.4\\text{ m}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a sphere: $V = \\frac{4}{3}\\pi r^3$",
+            "steps": [
+              "Given: diameter $1.4\\text{ m}$, so $r = 0.7\\text{ m}$. Goal: the volume.",
+              "$V = \\frac{4}{3} \\times \\pi \\times 0.7^3 = \\frac{4}{3} \\times 0.343\\pi$",
+              "$V = 1.436...$",
+              "Rounded to 2 decimal places: $1.44\\text{ m}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the sphere is $1.44\\text{ m}^3$.",
+            "solutionFigures": [],
+            "tip": "Halve the diameter before cubing; cubing the diameter gives an answer 8 times too big."
+          }
+        },
+        {
+          "id": "ch6_ex4_q6c",
+          "number": "6(c)",
+          "category": "Consolidate",
+          "questionText": "Calculate the volume of the figure, correct to 2 decimal places: a hemisphere with radius $18\\text{ mm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a hemisphere: $V = \\frac{1}{2} \\times \\frac{4}{3}\\pi r^3 = \\frac{2}{3}\\pi r^3$",
+            "steps": [
+              "Given: $r = 18\\text{ mm}$. Goal: the volume.",
+              "$V = \\frac{2}{3} \\times \\pi \\times 18^3 = \\frac{2}{3} \\times 5832\\pi = 3888\\pi$",
+              "$V = 12\\,214.512...$",
+              "Rounded to 2 decimal places: $12\\,214.51\\text{ mm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the hemisphere is $12\\,214.51\\text{ mm}^3$.",
+            "solutionFigures": [],
+            "tip": "A hemisphere is half a sphere: halve the sphere volume."
+          }
+        },
+        {
+          "id": "ch6_ex4_q6d",
+          "number": "6(d)",
+          "category": "Consolidate",
+          "questionText": "Calculate the volume of the figure, correct to 2 decimal places: a quarter of a sphere (half of a hemisphere) with radius $4.6\\text{ m}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a quarter-sphere: $V = \\frac{1}{4} \\times \\frac{4}{3}\\pi r^3 = \\frac{1}{3}\\pi r^3$",
+            "steps": [
+              "Given: $r = 4.6\\text{ m}$. Goal: the volume.",
+              "$V = \\frac{1}{3} \\times \\pi \\times 4.6^3 = \\frac{1}{3} \\times 97.336\\pi$",
+              "$V = 101.930...$",
+              "Rounded to 2 decimal places: $101.93\\text{ m}^3$"
+            ],
+            "finalAnswer": "Therefore the volume is $101.93\\text{ m}^3$.",
+            "solutionFigures": [],
+            "tip": "Identify what fraction of a sphere the solid is before calculating."
+          }
+        },
+        {
+          "id": "ch6_ex4_q7a",
+          "number": "7(a)",
+          "category": "Practice",
+          "questionText": "Determine the volume of the cone, correct to 1 decimal place: a cone with base radius $6\\text{ cm}$ and perpendicular height $10\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a cone: $V = \\frac{1}{3}\\pi r^2 h$",
+            "steps": [
+              "Given: $r = 6\\text{ cm}$, $h = 10\\text{ cm}$. Goal: the volume.",
+              "$V = \\frac{1}{3} \\times \\pi \\times 6^2 \\times 10$",
+              "$V = \\frac{1}{3} \\times 360\\pi = 120\\pi$",
+              "$V = 376.991...$",
+              "Rounded to 1 decimal place: $377.0\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the cone is $377.0\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "Use the perpendicular height, not the slant height, for volume."
+          }
+        },
+        {
+          "id": "ch6_ex4_q7b",
+          "number": "7(b)",
+          "category": "Practice",
+          "questionText": "Determine the volume of the cone, correct to 1 decimal place: a cone lying on its side with base diameter $20\\text{ mm}$ and perpendicular height $22\\text{ mm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a cone: $V = \\frac{1}{3}\\pi r^2 h$",
+            "steps": [
+              "Given: diameter $20\\text{ mm}$ so $r = 10\\text{ mm}$; $h = 22\\text{ mm}$. Goal: the volume.",
+              "$V = \\frac{1}{3} \\times \\pi \\times 10^2 \\times 22$",
+              "$V = \\frac{2200\\pi}{3}$",
+              "$V = 2303.834...$",
+              "Rounded to 1 decimal place: $2303.8\\text{ mm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the cone is $2303.8\\text{ mm}^3$.",
+            "solutionFigures": [],
+            "tip": "The 20 mm spans the whole base, so it is the diameter."
+          }
+        },
+        {
+          "id": "ch6_ex4_q8a",
+          "number": "8(a)",
+          "category": "Consolidate",
+          "questionText": "Calculate the volume of the pyramid: a square-based pyramid with base side $10\\text{ cm}$ and perpendicular height $12\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a pyramid: $V = \\frac{1}{3}AH$",
+            "steps": [
+              "Given: base $10\\text{ cm} \\times 10\\text{ cm}$, $H = 12\\text{ cm}$. Goal: the volume.",
+              "$A = 10^2 = 100\\text{ cm}^2$",
+              "$V = \\frac{1}{3} \\times 100 \\times 12$",
+              "$V = 400\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the pyramid is $400\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "A pyramid holds one-third of the prism with the same base and height."
+          }
+        },
+        {
+          "id": "ch6_ex4_q8b",
+          "number": "8(b)",
+          "category": "Consolidate",
+          "questionText": "Calculate the volume of the pyramid: a rectangular-based pyramid with base $30\\text{ cm}$ by $24\\text{ cm}$ and perpendicular height $42\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a pyramid: $V = \\frac{1}{3}AH$",
+            "steps": [
+              "Given: base $30\\text{ cm} \\times 24\\text{ cm}$, $H = 42\\text{ cm}$. Goal: the volume.",
+              "$A = 30 \\times 24 = 720\\text{ cm}^2$",
+              "$V = \\frac{1}{3} \\times 720 \\times 42$",
+              "$V = 240 \\times 42$",
+              "$V = 10\\,080\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the pyramid is $10\\,080\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "Divide 720 by 3 first to keep the arithmetic simple."
+          }
+        },
+        {
+          "id": "ch6_ex4_q9a",
+          "number": "9(a)",
+          "category": "Practice",
+          "questionText": "Calculate the volume of the composite solid: a prism of depth $10\\text{ cm}$ with an L-shaped (step) cross-section. The cross-section is $20\\text{ cm}$ long; the tall part is $8\\text{ cm}$ wide and $10\\text{ cm}$ high ($5 + 5$), and the low part is $12\\text{ cm}$ long and $5\\text{ cm}$ high.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a prism: $V = AH$",
+            "steps": [
+              "Given: L-shaped cross-section as described, depth $H = 10\\text{ cm}$. Goal: the volume.",
+              "Cross-section area $= 8 \\times 10 + 12 \\times 5 = 80 + 60 = 140\\text{ cm}^2$",
+              "$V = 140 \\times 10$",
+              "$V = 1400\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the solid is $1400\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "Split the L-shaped face into two rectangles to find its area."
+          }
+        },
+        {
+          "id": "ch6_ex4_q9b",
+          "number": "9(b)",
+          "category": "Practice",
+          "questionText": "Calculate the volume of the composite solid, correct to 2 decimal places: a solid of length $35\\text{ cm}$ whose cross-section is a rectangle $12\\text{ cm}$ wide and $20\\text{ cm}$ high topped by a semicircle of diameter $12\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a prism: $V = AH$; semicircle area $= \\frac{1}{2}\\pi r^2$",
+            "steps": [
+              "Given: rectangle $12 \\times 20$, semicircle $r = 6\\text{ cm}$, length $35\\text{ cm}$. Goal: the volume.",
+              "Cross-section area $= 12 \\times 20 + \\frac{1}{2} \\times \\pi \\times 6^2 = 240 + 18\\pi$",
+              "$V = (240 + 18\\pi) \\times 35 = 8400 + 630\\pi$",
+              "$V = 8400 + 1979.203... = 10\\,379.203...$",
+              "Rounded to 2 decimal places: $10\\,379.20\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the solid is $10\\,379.20\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "Only half a circle sits on top, so use $\\frac{1}{2}\\pi r^2$."
+          }
+        },
+        {
+          "id": "ch6_ex4_q10a",
+          "number": "10(a)",
+          "category": "Consolidate",
+          "questionText": "Calculate the volume of the composite solid, correct to 2 decimal places: a cube of edge $3\\text{ cm}$ with a square-based pyramid on top. The pyramid's base is the top of the cube and the slant height of each triangular face (from the apex to the midpoint of a base edge) is $5\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$V_{\\text{cube}} = l^3$; $V_{\\text{pyramid}} = \\frac{1}{3}AH$; Pythagoras for the height",
+            "steps": [
+              "Given: cube edge $3\\text{ cm}$; face slant height $5\\text{ cm}$. Goal: the total volume.",
+              "Cube: $V = 3^3 = 27\\text{ cm}^3$",
+              "Pyramid height: the slant height, the perpendicular height $H$ and half the base edge ($1.5\\text{ cm}$) form a right-angled triangle.",
+              "$H^2 = 5^2 - 1.5^2 = 25 - 2.25 = 22.75$, so $H = \\sqrt{22.75} = 4.769...\\text{ cm}$",
+              "Pyramid: $V = \\frac{1}{3} \\times 3^2 \\times 4.769... = 3 \\times 4.769... = 14.309...\\text{ cm}^3$",
+              "Total $V = 27 + 14.309... = 41.309...$",
+              "Rounded to 2 decimal places: $41.31\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the solid is $41.31\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "The 5 cm runs up a sloping face, so it is not the pyramid's height — use Pythagoras."
+          }
+        },
+        {
+          "id": "ch6_ex4_q10b",
+          "number": "10(b)",
+          "category": "Consolidate",
+          "questionText": "Calculate the volume of the composite solid, correct to 2 decimal places: a cylinder of radius $2\\text{ cm}$ and length $3\\text{ cm}$ joined to a cone with the same radius and perpendicular height $2.5\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$V_{\\text{cylinder}} = \\pi r^2 h$; $V_{\\text{cone}} = \\frac{1}{3}\\pi r^2 h$",
+            "steps": [
+              "Given: $r = 2\\text{ cm}$, cylinder length $3\\text{ cm}$, cone height $2.5\\text{ cm}$. Goal: the volume.",
+              "Cylinder: $\\pi \\times 2^2 \\times 3 = 12\\pi$",
+              "Cone: $\\frac{1}{3} \\times \\pi \\times 2^2 \\times 2.5 = \\frac{10\\pi}{3}$",
+              "$V = 12\\pi + \\frac{10\\pi}{3} = \\frac{46\\pi}{3}$",
+              "$V = 48.171...$",
+              "Rounded to 2 decimal places: $48.17\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the solid is $48.17\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "Collect the multiples of $\\pi$ before evaluating to reduce rounding error."
+          }
+        },
+        {
+          "id": "ch6_ex4_q11a",
+          "number": "11(a)",
+          "category": "Master",
+          "questionText": "Calculate the volume of the composite solid, correct to 2 decimal places: a hemisphere of radius $3.5\\text{ cm}$ on top of an inverted cone with the same radius and perpendicular height $10\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$V_{\\text{hemisphere}} = \\frac{2}{3}\\pi r^3$; $V_{\\text{cone}} = \\frac{1}{3}\\pi r^2 h$",
+            "steps": [
+              "Given: $r = 3.5\\text{ cm}$, cone height $10\\text{ cm}$. Goal: the volume.",
+              "Hemisphere: $\\frac{2}{3} \\times \\pi \\times 3.5^3 = \\frac{2}{3} \\times 42.875\\pi = 89.797...\\text{ cm}^3$",
+              "Cone: $\\frac{1}{3} \\times \\pi \\times 3.5^2 \\times 10 = \\frac{122.5\\pi}{3} = 128.281...\\text{ cm}^3$",
+              "$V = 89.797... + 128.281... = 218.078...$",
+              "Rounded to 2 decimal places: $218.08\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the solid is $218.08\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "The radius is cubed for the hemisphere but squared for the cone."
+          }
+        },
+        {
+          "id": "ch6_ex4_q11b",
+          "number": "11(b)",
+          "category": "Master",
+          "questionText": "Calculate the volume of the composite solid, correct to 2 decimal places: a small cylinder of radius $5\\text{ cm}$ and height $20\\text{ cm}$ standing on a large cylinder of diameter $15\\text{ cm}$ and height $12\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a cylinder: $V = \\pi r^2 h$",
+            "steps": [
+              "Given: large $R = 7.5$, $H = 12$; small $r = 5$, $h = 20$ (cm). Goal: the total volume.",
+              "Large cylinder: $\\pi \\times 7.5^2 \\times 12 = 675\\pi$",
+              "Small cylinder: $\\pi \\times 5^2 \\times 20 = 500\\pi$",
+              "$V = 675\\pi + 500\\pi = 1175\\pi$",
+              "$V = 3691.371...$",
+              "Rounded to 2 decimal places: $3691.37\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the solid is $3691.37\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "Halve the 15 cm diameter to get the large radius."
+          }
+        },
+        {
+          "id": "ch6_ex4_q12a",
+          "number": "12(a)",
+          "category": "Practice",
+          "questionText": "If the side length of a cube is tripled, then determine the effect on its volume.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a cube: $V = l^3$",
+            "steps": [
+              "Given: original $V = l^3$; new side $3l$. Goal: compare volumes.",
+              "$V_{\\text{new}} = (3l)^3 = 27l^3$",
+              "$V_{\\text{new}} = 27V$"
+            ],
+            "finalAnswer": "Therefore $V_{\\text{new}} = 27l^3$: the volume will be 27 times as large as the original volume.",
+            "solutionFigures": [],
+            "tip": "Cube the scale factor too: $(3l)^3 = 3^3 l^3$."
+          }
+        },
+        {
+          "id": "ch6_ex4_q12b",
+          "number": "12(b)",
+          "category": "Practice",
+          "questionText": "If the side length of a cube is halved, then determine the effect on its volume.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a cube: $V = l^3$",
+            "steps": [
+              "Given: new side $\\frac{l}{2}$. Goal: compare volumes.",
+              "$V_{\\text{new}} = \\left(\\frac{l}{2}\\right)^3 = \\frac{l^3}{8}$",
+              "$V_{\\text{new}} = \\frac{1}{8}V$"
+            ],
+            "finalAnswer": "Therefore $V_{\\text{new}} = \\frac{1}{8}l^3$: the volume will be $\\frac{1}{8}$ of the original volume.",
+            "solutionFigures": [],
+            "tip": "Halving every edge does not halve the volume; it divides it by $2^3 = 8$."
+          }
+        },
+        {
+          "id": "ch6_ex4_q12c",
+          "number": "12(c)",
+          "category": "Practice",
+          "questionText": "If the radius is doubled and the height of a cylinder is halved, then determine the effect on its volume.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a cylinder: $V = \\pi r^2 h$",
+            "steps": [
+              "Given: new radius $2r$, new height $\\frac{h}{2}$. Goal: compare volumes.",
+              "$V_{\\text{new}} = \\pi(2r)^2 \\times \\frac{h}{2}$",
+              "$V_{\\text{new}} = \\pi \\times 4r^2 \\times \\frac{h}{2} = 2\\pi r^2 h$",
+              "$V_{\\text{new}} = 2V$"
+            ],
+            "finalAnswer": "Therefore $V_{\\text{new}} = 2\\pi r^2 h$: the volume will be twice as large as the original volume.",
+            "solutionFigures": [],
+            "tip": "Doubling the radius multiplies the volume by 4 because $r$ is squared."
+          }
+        },
+        {
+          "id": "ch6_ex4_q12d",
+          "number": "12(d)",
+          "category": "Practice",
+          "questionText": "If the radius is doubled and the height of a cylinder is divided by four, then determine the effect on its volume.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a cylinder: $V = \\pi r^2 h$",
+            "steps": [
+              "Given: new radius $2r$, new height $\\frac{h}{4}$. Goal: compare volumes.",
+              "$V_{\\text{new}} = \\pi(2r)^2 \\times \\frac{h}{4}$",
+              "$V_{\\text{new}} = \\pi \\times 4r^2 \\times \\frac{h}{4} = \\pi r^2 h$",
+              "$V_{\\text{new}} = V$"
+            ],
+            "finalAnswer": "Therefore $V_{\\text{new}} = \\pi r^2 h$: the volume will remain the same.",
+            "solutionFigures": [],
+            "tip": "The factor of 4 from the radius cancels the division by 4 in the height."
+          }
+        },
+        {
+          "id": "ch6_ex4_q12e",
+          "number": "12(e)",
+          "category": "Practice",
+          "questionText": "If the length is doubled, the width is halved and the height of a rectangular prism is tripled, then determine the effect on its volume.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a rectangular prism: $V = lwh$",
+            "steps": [
+              "Given: new dimensions $2l$, $\\frac{w}{2}$, $3h$. Goal: compare volumes.",
+              "$V_{\\text{new}} = 2l \\times \\frac{w}{2} \\times 3h$",
+              "$V_{\\text{new}} = (2 \\times \\frac{1}{2} \\times 3) lwh = 3lwh$",
+              "$V_{\\text{new}} = 3V$"
+            ],
+            "finalAnswer": "Therefore $V_{\\text{new}} = 3lwh$: the volume will be 3 times as large as the original volume.",
+            "solutionFigures": [],
+            "tip": "Multiply all the scale factors together: $2 \\times \\frac{1}{2} \\times 3 = 3$."
+          }
+        },
+        {
+          "id": "ch6_ex4_q13",
+          "number": "13",
+          "category": "Consolidate",
+          "questionText": "MC A hemispherical bowl has a thickness of $2\\text{ cm}$ and an outer diameter of $25\\text{ cm}$. If the bowl is filled with water, the capacity of the water will be closest to:\nA. $1.526\\text{ L}$  B. $1.308\\,33\\text{ L}$  C. $3.052\\,08\\text{ L}$  D. $2.424\\,52\\text{ L}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a hemisphere: $V = \\frac{2}{3}\\pi r^3$; $1000\\text{ cm}^3 = 1\\text{ L}$",
+            "steps": [
+              "Given: outer radius $= \\frac{25}{2} = 12.5\\text{ cm}$; thickness $2\\text{ cm}$. Goal: the volume of water inside.",
+              "Inner radius $= 12.5 - 2 = 10.5\\text{ cm}$",
+              "$V = \\frac{2}{3} \\times \\pi \\times 10.5^3 = \\frac{2}{3} \\times 1157.625\\pi = 771.75\\pi$",
+              "$V = 2424.52...\\text{ cm}^3$",
+              "In litres: $\\frac{2424.52}{1000} = 2.424\\,52\\text{ L}$, which is option D."
+            ],
+            "finalAnswer": "Therefore the bowl holds about $2.424\\,52\\text{ L}$ of water; the answer is D.",
+            "solutionFigures": [],
+            "tip": "Water fills the inside of the bowl, so use the inner radius (outer radius minus thickness)."
+          }
+        },
+        {
+          "id": "ch6_ex4_q14a",
+          "number": "14(a)",
+          "category": "Master",
+          "questionText": "Tennis balls of diameter $8\\text{ cm}$ are packed in a box $40\\text{ cm} \\times 32\\text{ cm} \\times 10\\text{ cm}$ in a single layer of 5 rows of 4 balls (20 balls). Estimate the volume of one tennis ball. (Hint: Use $\\pi$ as approximately equal to 3.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a sphere: $V = \\frac{4}{3}\\pi r^3$ with $\\pi \\approx 3$",
+            "steps": [
+              "Given: diameter $8\\text{ cm}$, so $r = 4\\text{ cm}$; $\\pi \\approx 3$. Goal: an estimate of one ball's volume.",
+              "$V \\approx \\frac{4}{3} \\times 3 \\times 4^3$",
+              "$V \\approx 4 \\times 64$",
+              "$V \\approx 256\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore one tennis ball has a volume of about $256\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "With $\\pi \\approx 3$, the $\\frac{4}{3} \\times 3$ simplifies to 4."
+          }
+        },
+        {
+          "id": "ch6_ex4_q14b",
+          "number": "14(b)",
+          "category": "Master",
+          "questionText": "Twenty tennis balls of diameter $8\\text{ cm}$ (each with estimated volume $256\\text{ cm}^3$, using $\\pi \\approx 3$) are packed in a box $40\\text{ cm} \\times 32\\text{ cm} \\times 10\\text{ cm}$. Estimate the volume of all the tennis balls in the box.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Total volume = number of balls × volume of one ball",
+            "steps": [
+              "Given: the box holds $\\frac{40}{8} \\times \\frac{32}{8} = 5 \\times 4 = 20$ balls in one layer (the box is only 10 cm high). Goal: total ball volume.",
+              "Total $\\approx 20 \\times 256$",
+              "Total $\\approx 5120\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the tennis balls have a total volume of about $5120\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "Count the balls from the box dimensions: 5 along 40 cm and 4 along 32 cm."
+          }
+        },
+        {
+          "id": "ch6_ex4_q14c",
+          "number": "14(c)",
+          "category": "Master",
+          "questionText": "Tennis balls are packed in a box $40\\text{ cm} \\times 32\\text{ cm} \\times 10\\text{ cm}$. Estimate the volume of the box.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a rectangular prism: $V = lwh$ (using rounded dimensions for an estimate)",
+            "steps": [
+              "Given: box $40 \\times 32 \\times 10$ (cm). Goal: an estimate of the volume.",
+              "Round $32$ to $30$ for an easy estimate: $V \\approx 40 \\times 30 \\times 10$",
+              "$V \\approx 12\\,000\\text{ cm}^3$",
+              "(The exact volume is $40 \\times 32 \\times 10 = 12\\,800\\text{ cm}^3$.)"
+            ],
+            "finalAnswer": "Therefore the box has a volume of about $12\\,000\\text{ cm}^3$ (exactly $12\\,800\\text{ cm}^3$).",
+            "solutionFigures": [],
+            "tip": "Estimates use rounded numbers; state the exact value too if it helps your comparison later."
+          }
+        },
+        {
+          "id": "ch6_ex4_q14d",
+          "number": "14(d)",
+          "category": "Master",
+          "questionText": "Tennis balls with an estimated total volume of $5120\\text{ cm}^3$ are packed in a box with an estimated volume of $12\\,000\\text{ cm}^3$. Estimate the unfilled volume of the box.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Unfilled volume = box volume $-$ volume of balls",
+            "steps": [
+              "Given: box $\\approx 12\\,000\\text{ cm}^3$, balls $\\approx 5120\\text{ cm}^3$. Goal: the unfilled volume.",
+              "Unfilled $\\approx 12\\,000 - 5120$",
+              "Unfilled $\\approx 6880\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the estimated unfilled volume is $6880\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "Subtract the contents from the container, not the other way round."
+          }
+        },
+        {
+          "id": "ch6_ex4_q14e",
+          "number": "14(e)",
+          "category": "Master",
+          "questionText": "Twenty tennis balls of diameter $8\\text{ cm}$ are packed in a box $40\\text{ cm} \\times 32\\text{ cm} \\times 10\\text{ cm}$. Determine, correct to 2 decimal places, how much space is left unfilled.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Unfilled = $lwh - 20 \\times \\frac{4}{3}\\pi r^3$ (exact $\\pi$)",
+            "steps": [
+              "Given: $r = 4\\text{ cm}$, 20 balls, box $40 \\times 32 \\times 10$. Goal: exact unfilled volume.",
+              "Box $= 40 \\times 32 \\times 10 = 12\\,800\\text{ cm}^3$",
+              "One ball $= \\frac{4}{3} \\times \\pi \\times 4^3 = \\frac{256\\pi}{3} = 268.082...\\text{ cm}^3$",
+              "20 balls $= 20 \\times 268.082... = 5361.651...\\text{ cm}^3$",
+              "Unfilled $= 12\\,800 - 5361.651... = 7438.348...$",
+              "Rounded to 2 decimal places: $7438.35\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore $7438.35\\text{ cm}^3$ of the box is left unfilled.",
+            "solutionFigures": [],
+            "tip": "Use the calculator's $\\pi$ and the exact box dimensions for an accurate answer."
+          }
+        },
+        {
+          "id": "ch6_ex4_q14f",
+          "number": "14(f)",
+          "category": "Master",
+          "questionText": "For the box of tennis balls, the estimated unfilled volume was $6880\\text{ cm}^3$ and the accurate unfilled volume is $7438.35\\text{ cm}^3$. Compare your estimate of the unfilled volume to your answer in part e.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Difference = accurate value $-$ estimate",
+            "steps": [
+              "Given: estimate $6880\\text{ cm}^3$, accurate $7438.35\\text{ cm}^3$. Goal: compare.",
+              "Difference $= 7438.35 - 6880 = 558.35\\text{ cm}^3$",
+              "The estimate is too small, mainly because the box's 32 cm was rounded down to 30 cm (losing $800\\text{ cm}^3$), partly offset by $\\pi \\approx 3$ making the balls seem smaller."
+            ],
+            "finalAnswer": "Therefore the estimate is $558.35\\text{ cm}^3$ less than the accurate unfilled volume.",
+            "solutionFigures": [],
+            "tip": "When comparing, say both how big the difference is and why it happened."
+          }
+        },
+        {
+          "id": "ch6_ex4_q15",
+          "number": "15",
+          "category": "Practice",
+          "questionText": "A cylindrical water tank has a diameter of $1.5\\text{ m}$ and a height of $2.5\\text{ m}$. Determine the capacity (in litres) of the tank, correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a cylinder: $V = \\pi r^2 h$; $1\\text{ m}^3 = 1000\\text{ L}$",
+            "steps": [
+              "Given: $r = \\frac{1.5}{2} = 0.75\\text{ m}$, $h = 2.5\\text{ m}$. Goal: capacity in litres.",
+              "$V = \\pi \\times 0.75^2 \\times 2.5$",
+              "$V = \\pi \\times 0.5625 \\times 2.5 = 1.40625\\pi$",
+              "$V = 4.417\\,864...\\text{ m}^3$",
+              "In litres: $4.417\\,864... \\times 1000 = 4417.864...\\text{ L}$",
+              "Rounded to 1 decimal place: $4417.9\\text{ L}$"
+            ],
+            "finalAnswer": "Therefore the capacity of the tank is $4417.9\\text{ L}$.",
+            "solutionFigures": [],
+            "tip": "$1\\text{ m}^3$ holds 1000 L; multiply cubic metres by 1000 to get litres."
+          }
+        },
+        {
+          "id": "ch6_ex4_q16",
+          "number": "16",
+          "category": "Consolidate",
+          "questionText": "A monument in the shape of a rectangular pyramid (base length of $10\\text{ cm}$, base width of $6\\text{ cm}$, height of $8\\text{ cm}$), a spherical glass ball (diameter of $17\\text{ cm}$) and conical glassware (radius of $14\\text{ cm}$, height of $10\\text{ cm}$) are packed in a rectangular prism of dimensions $30\\text{ cm}$ by $25\\text{ cm}$ by $20\\text{ cm}$. The extra space in the box is filled up by a packing material. Determine, correct to 2 decimal places, the volume of packing material that is required.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Packing = box $-$ (pyramid + sphere + cone); $V = lwh$, $\\frac{1}{3}AH$, $\\frac{4}{3}\\pi r^3$, $\\frac{1}{3}\\pi r^2 h$",
+            "steps": [
+              "Given: dimensions above. Goal: volume of packing material.",
+              "Box $= 30 \\times 25 \\times 20 = 15\\,000\\text{ cm}^3$",
+              "Pyramid $= \\frac{1}{3} \\times 10 \\times 6 \\times 8 = 160\\text{ cm}^3$",
+              "Sphere ($r = 8.5$) $= \\frac{4}{3} \\times \\pi \\times 8.5^3 = 2572.440...\\text{ cm}^3$",
+              "Cone $= \\frac{1}{3} \\times \\pi \\times 14^2 \\times 10 = 2052.507...\\text{ cm}^3$",
+              "Total of items $= 160 + 2572.440... + 2052.507... = 4784.947...\\text{ cm}^3$",
+              "Packing $= 15\\,000 - 4784.947... = 10\\,215.052...$",
+              "Rounded to 2 decimal places: $10\\,215.05\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore $10\\,215.05\\text{ cm}^3$ of packing material is required.",
+            "solutionFigures": [],
+            "tip": "Use the radius (8.5 cm) for the glass ball, not its 17 cm diameter."
+          }
+        },
+        {
+          "id": "ch6_ex4_q17a",
+          "number": "17(a)",
+          "category": "Master",
+          "questionText": "A swimming pool is being constructed so that it is the upper part of an inverted square-based pyramid. The top of the pool is a square of side $8\\text{ m}$, the bottom of the pool is a square of side $4\\text{ m}$, and the pool is $3\\text{ m}$ deep. $H$ is the height of the full inverted pyramid (from the top of the pool down to the apex). Calculate $H$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Similar figures: corresponding lengths are in proportion",
+            "steps": [
+              "Given: top side $8\\text{ m}$, bottom side $4\\text{ m}$, depth $3\\text{ m}$. Goal: $H$.",
+              "The small pyramid below the pool (base side 4, height $H - 3$) is similar to the full pyramid (base side 8, height $H$).",
+              "$\\frac{H - 3}{H} = \\frac{4}{8}$",
+              "$8(H - 3) = 4H$",
+              "$8H - 24 = 4H$",
+              "$4H = 24$",
+              "$H = 6$"
+            ],
+            "finalAnswer": "Therefore $H = 6\\text{ m}$.",
+            "solutionFigures": [],
+            "tip": "Since the bottom side is half the top side, the small pyramid's height is half of $H$."
+          }
+        },
+        {
+          "id": "ch6_ex4_q17b",
+          "number": "17(b)",
+          "category": "Master",
+          "questionText": "The swimming pool is the upper part of an inverted square-based pyramid of height $H = 6\\text{ m}$ with top side $8\\text{ m}$; the pool's bottom is a square of side $4\\text{ m}$ and the pool is $3\\text{ m}$ deep. Calculate the volume of the pool.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a pyramid: $V = \\frac{1}{3}AH$; pool = large pyramid $-$ small pyramid",
+            "steps": [
+              "Given: large pyramid base $8 \\times 8$, height 6; small pyramid base $4 \\times 4$, height $6 - 3 = 3$. Goal: pool volume.",
+              "Large pyramid $= \\frac{1}{3} \\times 64 \\times 6 = 128\\text{ m}^3$",
+              "Small pyramid $= \\frac{1}{3} \\times 16 \\times 3 = 16\\text{ m}^3$",
+              "Pool $= 128 - 16 = 112\\text{ m}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the pool is $112\\text{ m}^3$.",
+            "solutionFigures": [],
+            "tip": "A frustum's volume is the big pyramid minus the small pyramid cut away."
+          }
+        },
+        {
+          "id": "ch6_ex4_q17c",
+          "number": "17(c)",
+          "category": "Master",
+          "questionText": "The swimming pool has a volume of $112\\text{ m}^3$. Determine how many $6\\text{-m}^3$ bins will be required to take the dirt away.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Number of bins = volume $\\div$ bin capacity, rounded up",
+            "steps": [
+              "Given: $112\\text{ m}^3$ of dirt, bins of $6\\text{ m}^3$. Goal: number of bins.",
+              "$\\frac{112}{6} = 18.67$",
+              "18 bins are not enough, so round up to 19."
+            ],
+            "finalAnswer": "Therefore 19 bins will be required.",
+            "solutionFigures": [],
+            "tip": "Round up when every bit must be carried away."
+          }
+        },
+        {
+          "id": "ch6_ex4_q17d",
+          "number": "17(d)",
+          "category": "Master",
+          "questionText": "The swimming pool has a volume of $112\\text{ m}^3$. Determine how many litres of water are required to fill this pool.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$1\\text{ m}^3 = 1000\\text{ L}$",
+            "steps": [
+              "Given: $V = 112\\text{ m}^3$. Goal: capacity in litres.",
+              "$112 \\times 1000 = 112\\,000\\text{ L}$"
+            ],
+            "finalAnswer": "Therefore $112\\,000\\text{ L}$ of water is required to fill the pool.",
+            "solutionFigures": [],
+            "tip": "Remember the conversion $1\\text{ m}^3 = 1000\\text{ L}$."
+          }
+        },
+        {
+          "id": "ch6_ex4_q17e",
+          "number": "17(e)",
+          "category": "Master",
+          "questionText": "The swimming pool is the upper part of an inverted square-based pyramid of height $6\\text{ m}$ and top side $8\\text{ m}$; the pool is $3\\text{ m}$ deep with a $4\\text{ m}$ square bottom and a volume of $112\\text{ m}^3$. Determine how deep the pool is when it is half-filled.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a pyramid: $V = \\frac{1}{3}AH$; similar figures (side length $= \\frac{8}{6} \\times$ height from apex)",
+            "steps": [
+              "Given: half the pool $= 56\\text{ m}^3$; the missing tip below the pool has volume $16\\text{ m}^3$. Goal: water depth.",
+              "Let $y$ be the height from the apex to the water surface. The water plus the tip form a pyramid of height $y$ with side $\\frac{8}{6}y = \\frac{4y}{3}$.",
+              "Its volume: $\\frac{1}{3} \\times \\left(\\frac{4y}{3}\\right)^2 \\times y = \\frac{16y^3}{27}$",
+              "Water + tip $= 56 + 16 = 72$: $\\frac{16y^3}{27} = 72$",
+              "$y^3 = \\frac{72 \\times 27}{16} = 121.5$",
+              "$y = \\sqrt[3]{121.5} = 4.9529...\\text{ m}$",
+              "Water depth $= y - 3 = 1.9529... \\approx 1.95\\text{ m}$"
+            ],
+            "finalAnswer": "Therefore when the pool is half-filled the water is about $1.95\\text{ m}$ deep (from the floor of the pool).",
+            "solutionFigures": [],
+            "tip": "Half the volume is not half the depth, because the pool is wider at the top."
+          }
+        },
+        {
+          "id": "ch6_ex4_q18ai",
+          "number": "18(a)(i)",
+          "category": "Practice",
+          "questionText": "A soft drink manufacturer is looking to repackage cans of soft drink to minimise the cost of packaging while keeping the volume constant. Consider a can of soft drink with a capacity of $400\\text{ mL}$. If the soft drink was packaged in a spherical can, calculate the radius of the sphere, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a sphere: $V = \\frac{4}{3}\\pi r^3$; $400\\text{ mL} = 400\\text{ cm}^3$",
+            "steps": [
+              "Given: $V = 400\\text{ cm}^3$. Goal: the radius.",
+              "$\\frac{4}{3}\\pi r^3 = 400$",
+              "$r^3 = \\frac{3 \\times 400}{4\\pi} = \\frac{300}{\\pi} = 95.492...$",
+              "$r = \\sqrt[3]{95.492...} = 4.5707...$",
+              "Rounded to 2 decimal places: $r \\approx 4.57\\text{ cm}$"
+            ],
+            "finalAnswer": "Therefore the radius of the spherical can is $4.57\\text{ cm}$.",
+            "solutionFigures": [],
+            "tip": "$1\\text{ mL} = 1\\text{ cm}^3$, so the volume is $400\\text{ cm}^3$."
+          }
+        },
+        {
+          "id": "ch6_ex4_q18aii",
+          "number": "18(a)(ii)",
+          "category": "Practice",
+          "questionText": "A $400\\text{ mL}$ spherical soft drink can has radius $r = \\sqrt[3]{\\frac{300}{\\pi}} \\approx 4.57\\text{ cm}$. Determine the total surface area of this can, correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA of a sphere: $\\text{TSA} = 4\\pi r^2$",
+            "steps": [
+              "Given: $r = 4.5707...\\text{ cm}$. Goal: the surface area.",
+              "$\\text{TSA} = 4 \\times \\pi \\times 4.5707...^2$",
+              "$\\text{TSA} = 4 \\times \\pi \\times 20.892... = 262.537...$",
+              "Rounded to 1 decimal place: $262.5\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the spherical can has a surface area of $262.5\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "Use the unrounded radius from your calculator to avoid rounding error."
+          }
+        },
+        {
+          "id": "ch6_ex4_q18bi",
+          "number": "18(b)(i)",
+          "category": "Practice",
+          "questionText": "A soft drink can has a capacity of $400\\text{ mL}$. If the soft drink was packaged in a cylindrical can with a radius of $3\\text{ cm}$, calculate the height of the cylinder, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a cylinder: $V = \\pi r^2 h$",
+            "steps": [
+              "Given: $V = 400\\text{ cm}^3$, $r = 3\\text{ cm}$. Goal: the height.",
+              "$\\pi \\times 3^2 \\times h = 400$",
+              "$9\\pi h = 400$",
+              "$h = \\frac{400}{9\\pi} = 14.147...$",
+              "Rounded to 2 decimal places: $h \\approx 14.15\\text{ cm}$"
+            ],
+            "finalAnswer": "Therefore the height of the cylindrical can is $14.15\\text{ cm}$.",
+            "solutionFigures": [],
+            "tip": "Divide by the whole of $9\\pi$, not just by 9."
+          }
+        },
+        {
+          "id": "ch6_ex4_q18bii",
+          "number": "18(b)(ii)",
+          "category": "Practice",
+          "questionText": "A $400\\text{ mL}$ cylindrical can has radius $3\\text{ cm}$ and height $h = \\frac{400}{9\\pi} \\approx 14.15\\text{ cm}$. Determine the total surface area of this can, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA of a cylinder: $\\text{TSA} = 2\\pi r^2 + 2\\pi rh$",
+            "steps": [
+              "Given: $r = 3\\text{ cm}$, $h = \\frac{400}{9\\pi}\\text{ cm}$. Goal: the surface area.",
+              "Two ends $= 2 \\times \\pi \\times 3^2 = 18\\pi = 56.548...\\text{ cm}^2$",
+              "Curved surface $= 2 \\times \\pi \\times 3 \\times \\frac{400}{9\\pi} = \\frac{2400}{9} = 266.666...\\text{ cm}^2$",
+              "$\\text{TSA} = 56.548... + 266.666... = 323.215...$",
+              "Rounded to 2 decimal places: $323.22\\text{ cm}^2$ (using the rounded height $14.15\\text{ cm}$ gives $323.27\\text{ cm}^2$)"
+            ],
+            "finalAnswer": "Therefore the cylindrical can has a surface area of about $323.22\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "Rounding the height before calculating changes the second decimal place; keep exact values until the end."
+          }
+        },
+        {
+          "id": "ch6_ex4_q18ci",
+          "number": "18(c)(i)",
+          "category": "Practice",
+          "questionText": "A soft drink can has a capacity of $400\\text{ mL}$. If the soft drink was packaged in a square-based pyramid with a base side length of $6\\text{ cm}$, calculate the height of the pyramid, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a pyramid: $V = \\frac{1}{3}AH$",
+            "steps": [
+              "Given: $V = 400\\text{ cm}^3$, base $6 \\times 6 = 36\\text{ cm}^2$. Goal: the height $H$.",
+              "$\\frac{1}{3} \\times 36 \\times H = 400$",
+              "$12H = 400$",
+              "$H = \\frac{400}{12} = 33.333...$",
+              "Rounded to 2 decimal places: $H \\approx 33.33\\text{ cm}$"
+            ],
+            "finalAnswer": "Therefore the height of the pyramid is $33.33\\text{ cm}$.",
+            "solutionFigures": [],
+            "tip": "$\\frac{1}{3}$ of 36 is 12, which simplifies the equation."
+          }
+        },
+        {
+          "id": "ch6_ex4_q18cii",
+          "number": "18(c)(ii)",
+          "category": "Practice",
+          "questionText": "A $400\\text{ mL}$ square-based pyramid can has base side $6\\text{ cm}$ and height $H = \\frac{100}{3} \\approx 33.33\\text{ cm}$. Determine the total surface area of this can, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA = square base + 4 triangles; slant height $l = \\sqrt{H^2 + \\left(\\frac{b}{2}\\right)^2}$",
+            "steps": [
+              "Given: base side $6\\text{ cm}$, $H = 33.333...\\text{ cm}$. Goal: the surface area.",
+              "Slant height of each face: $l = \\sqrt{33.333...^2 + 3^2} = \\sqrt{1111.11... + 9} = \\sqrt{1120.11...} = 33.468...\\text{ cm}$",
+              "One triangular face $= \\frac{1}{2} \\times 6 \\times 33.468... = 100.404...\\text{ cm}^2$",
+              "Four faces $= 4 \\times 100.404... = 401.616...\\text{ cm}^2$",
+              "Base $= 6^2 = 36\\text{ cm}^2$",
+              "$\\text{TSA} = 36 + 401.616... = 437.616...$",
+              "Rounded to 2 decimal places: $437.62\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the pyramid can has a surface area of $437.62\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "The face triangles need their slant height, found from the vertical height and half the base side."
+          }
+        },
+        {
+          "id": "ch6_ex4_q18d",
+          "number": "18(d)",
+          "category": "Practice",
+          "questionText": "Three $400\\text{ mL}$ soft drink cans have surface areas: sphere $262.5\\text{ cm}^2$, cylinder (radius $3\\text{ cm}$) $323.22\\text{ cm}^2$, square-based pyramid (base $6\\text{ cm}$) $437.62\\text{ cm}^2$. Explain which can you would recommend the soft drink manufacturer use for its repackaging.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Packaging cost depends on surface area: least surface area = least material",
+            "steps": [
+              "Goal: choose the can that minimises packaging for the same 400 mL.",
+              "Compare: $262.5 < 323.22 < 437.62$ ($\\text{cm}^2$)",
+              "The sphere uses the least material for the same volume."
+            ],
+            "finalAnswer": "Therefore I would recommend the spherical can, because it has the smallest surface area and so costs the least to make (although it may be harder to stack or hold).",
+            "solutionFigures": [],
+            "tip": "For a fixed volume, a sphere always has the smallest possible surface area."
+          }
+        },
+        {
+          "id": "ch6_ex4_q19a",
+          "number": "19(a)",
+          "category": "Consolidate",
+          "questionText": "The volume of a cylinder is given by the formula $V = \\pi r^2 h$. Transpose the formula to make $h$ the subject.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$V = \\pi r^2 h$",
+            "steps": [
+              "Goal: make $h$ the subject.",
+              "$V = \\pi r^2 h$",
+              "Divide both sides by $\\pi r^2$: $\\frac{V}{\\pi r^2} = h$"
+            ],
+            "finalAnswer": "Therefore $h = \\frac{V}{\\pi r^2}$.",
+            "solutionFigures": [],
+            "tip": "Divide by the whole product $\\pi r^2$ in one step."
+          }
+        },
+        {
+          "id": "ch6_ex4_q19bi",
+          "number": "19(b)(i)",
+          "category": "Consolidate",
+          "questionText": "A given cylinder has a volume of $1600\\text{ cm}^3$. Calculate its height, correct to 1 decimal place, if it has a radius of $4\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$h = \\frac{V}{\\pi r^2}$",
+            "steps": [
+              "Given: $V = 1600\\text{ cm}^3$, $r = 4\\text{ cm}$. Goal: the height.",
+              "$h = \\frac{1600}{\\pi \\times 4^2} = \\frac{1600}{16\\pi} = \\frac{100}{\\pi}$",
+              "$h = 31.830...$",
+              "Rounded to 1 decimal place: $h \\approx 31.8\\text{ cm}$"
+            ],
+            "finalAnswer": "Therefore the height is $31.8\\text{ cm}$.",
+            "solutionFigures": [],
+            "tip": "Square the radius before multiplying by $\\pi$."
+          }
+        },
+        {
+          "id": "ch6_ex4_q19bii",
+          "number": "19(b)(ii)",
+          "category": "Consolidate",
+          "questionText": "A given cylinder has a volume of $1600\\text{ cm}^3$. Calculate its height, correct to 1 decimal place, if it has a radius of $8\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$h = \\frac{V}{\\pi r^2}$",
+            "steps": [
+              "Given: $V = 1600\\text{ cm}^3$, $r = 8\\text{ cm}$. Goal: the height.",
+              "$h = \\frac{1600}{\\pi \\times 8^2} = \\frac{1600}{64\\pi} = \\frac{25}{\\pi}$",
+              "$h = 7.957...$",
+              "Rounded to 1 decimal place: $h \\approx 8.0\\text{ cm}$"
+            ],
+            "finalAnswer": "Therefore the height is $8.0\\text{ cm}$.",
+            "solutionFigures": [],
+            "tip": "Doubling the radius makes the height a quarter as big for the same volume."
+          }
+        },
+        {
+          "id": "ch6_ex4_q19c",
+          "number": "19(c)",
+          "category": "Consolidate",
+          "questionText": "The volume of a cylinder is given by the formula $V = \\pi r^2 h$. Transpose the formula to make $r$ the subject.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$V = \\pi r^2 h$",
+            "steps": [
+              "Goal: make $r$ the subject.",
+              "Divide both sides by $\\pi h$: $r^2 = \\frac{V}{\\pi h}$",
+              "Take the positive square root (a radius is positive): $r = \\sqrt{\\frac{V}{\\pi h}}$"
+            ],
+            "finalAnswer": "Therefore $r = \\sqrt{\\frac{V}{\\pi h}}$.",
+            "solutionFigures": [],
+            "tip": "Undo the square last, after isolating $r^2$."
+          }
+        },
+        {
+          "id": "ch6_ex4_q19d",
+          "number": "19(d)",
+          "category": "Consolidate",
+          "questionText": "For a cylinder, $r = \\sqrt{\\frac{V}{\\pi h}}$. Explain what restrictions must be placed on $r$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$r = \\sqrt{\\frac{V}{\\pi h}}$",
+            "steps": [
+              "Goal: state the restriction on $r$.",
+              "$r$ is a length, so it cannot be negative.",
+              "Taking a square root gives a non-negative value, so only $r \\ge 0$ (in practice $r > 0$ for a real cylinder) is accepted."
+            ],
+            "finalAnswer": "Therefore $r \\ge 0$, since $r$ is a length (the negative square root is rejected).",
+            "solutionFigures": [],
+            "tip": "When solving $r^2 = k$ for a length, discard the negative solution."
+          }
+        },
+        {
+          "id": "ch6_ex4_q19ei",
+          "number": "19(e)(i)",
+          "category": "Consolidate",
+          "questionText": "A given cylinder has a volume of $1800\\text{ cm}^3$. Determine its radius, correct to 1 decimal place, if it has a height of $10\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$r = \\sqrt{\\frac{V}{\\pi h}}$",
+            "steps": [
+              "Given: $V = 1800\\text{ cm}^3$, $h = 10\\text{ cm}$. Goal: the radius.",
+              "$r = \\sqrt{\\frac{1800}{\\pi \\times 10}} = \\sqrt{\\frac{180}{\\pi}}$",
+              "$r = \\sqrt{57.295...} = 7.569...$",
+              "Rounded to 1 decimal place: $r \\approx 7.6\\text{ cm}$"
+            ],
+            "finalAnswer": "Therefore the radius is $7.6\\text{ cm}$.",
+            "solutionFigures": [],
+            "tip": "Evaluate the fraction fully before taking the square root."
+          }
+        },
+        {
+          "id": "ch6_ex4_q19eii",
+          "number": "19(e)(ii)",
+          "category": "Consolidate",
+          "questionText": "A given cylinder has a volume of $1800\\text{ cm}^3$. Determine its radius, correct to 1 decimal place, if it has a height of $15\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$r = \\sqrt{\\frac{V}{\\pi h}}$",
+            "steps": [
+              "Given: $V = 1800\\text{ cm}^3$, $h = 15\\text{ cm}$. Goal: the radius.",
+              "$r = \\sqrt{\\frac{1800}{\\pi \\times 15}} = \\sqrt{\\frac{120}{\\pi}}$",
+              "$r = \\sqrt{38.197...} = 6.180...$",
+              "Rounded to 1 decimal place: $r \\approx 6.2\\text{ cm}$"
+            ],
+            "finalAnswer": "Therefore the radius is $6.2\\text{ cm}$.",
+            "solutionFigures": [],
+            "tip": "A taller cylinder with the same volume needs a smaller radius."
+          }
+        },
+        {
+          "id": "ch6_ex4_q20",
+          "number": "20",
+          "category": "Master",
+          "questionText": "A toy maker has enough rubber to make one super-ball of radius $30\\text{ cm}$. Determine how many balls of radius $3\\text{ cm}$ he can make from this rubber.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a sphere: $V = \\frac{4}{3}\\pi r^3$",
+            "steps": [
+              "Given: large ball $r = 30\\text{ cm}$, small balls $r = 3\\text{ cm}$. Goal: number of small balls.",
+              "Large ball: $\\frac{4}{3}\\pi \\times 30^3 = \\frac{4}{3}\\pi \\times 27\\,000$",
+              "Small ball: $\\frac{4}{3}\\pi \\times 3^3 = \\frac{4}{3}\\pi \\times 27$",
+              "Number $= \\frac{\\frac{4}{3}\\pi \\times 27\\,000}{\\frac{4}{3}\\pi \\times 27} = \\frac{27\\,000}{27} = 1000$"
+            ],
+            "finalAnswer": "Therefore he can make 1000 small balls.",
+            "solutionFigures": [],
+            "tip": "The radius is 10 times smaller, so the volume is $10^3 = 1000$ times smaller."
+          }
+        },
+        {
+          "id": "ch6_ex4_q21a",
+          "number": "21(a)",
+          "category": "Consolidate",
+          "questionText": "A manufacturer plans to make a cylindrical water tank to hold $2000\\text{ L}$ of water. Calculate the height, correct to 2 decimal places, if he uses a radius of $500\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$h = \\frac{V}{\\pi r^2}$; $1\\text{ L} = 1000\\text{ cm}^3$",
+            "steps": [
+              "Given: $V = 2000\\text{ L} = 2\\,000\\,000\\text{ cm}^3$, $r = 500\\text{ cm}$. Goal: the height.",
+              "$h = \\frac{2\\,000\\,000}{\\pi \\times 500^2} = \\frac{2\\,000\\,000}{250\\,000\\pi} = \\frac{8}{\\pi}$",
+              "$h = 2.546...$",
+              "Rounded to 2 decimal places: $h \\approx 2.55\\text{ cm}$"
+            ],
+            "finalAnswer": "Therefore the height would be $2.55\\text{ cm}$ (a very flat tank).",
+            "solutionFigures": [],
+            "tip": "Convert litres to $\\text{cm}^3$ (×1000) so the units match the radius in cm."
+          }
+        },
+        {
+          "id": "ch6_ex4_q21b",
+          "number": "21(b)",
+          "category": "Consolidate",
+          "questionText": "A manufacturer plans to make a cylindrical water tank to hold $2000\\text{ L}$ of water. Calculate the radius, correct to 2 decimal places, if he uses a height of $500\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$r = \\sqrt{\\frac{V}{\\pi h}}$",
+            "steps": [
+              "Given: $V = 2\\,000\\,000\\text{ cm}^3$, $h = 500\\text{ cm}$. Goal: the radius.",
+              "$r = \\sqrt{\\frac{2\\,000\\,000}{500\\pi}} = \\sqrt{\\frac{4000}{\\pi}}$",
+              "$r = \\sqrt{1273.239...} = 35.682...$",
+              "Rounded to 2 decimal places: $r \\approx 35.68\\text{ cm}$"
+            ],
+            "finalAnswer": "Therefore the radius would be $35.68\\text{ cm}$.",
+            "solutionFigures": [],
+            "tip": "Take the square root only after dividing."
+          }
+        },
+        {
+          "id": "ch6_ex4_q21c",
+          "number": "21(c)",
+          "category": "Consolidate",
+          "questionText": "Two closed cylindrical tanks each hold $2000\\text{ L}$: tank (a) has radius $500\\text{ cm}$ and height $\\frac{8}{\\pi} \\approx 2.55\\text{ cm}$; tank (b) has height $500\\text{ cm}$ and radius $\\sqrt{\\frac{4000}{\\pi}} \\approx 35.68\\text{ cm}$. Determine the surface area of each of the two tanks. Give your answer in square metres correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA of a cylinder: $\\text{TSA} = 2\\pi r^2 + 2\\pi rh$ (work in metres)",
+            "steps": [
+              "Goal: the surface area of each tank in $\\text{m}^2$.",
+              "Tank (a): $r = 5\\text{ m}$, $h = 0.025\\,46...\\text{ m}$",
+              "$\\text{TSA}_a = 2\\pi \\times 5^2 + 2\\pi \\times 5 \\times 0.025\\,46... = 157.079... + 0.8 = 157.879...$",
+              "$\\text{TSA}_a \\approx 157.88\\text{ m}^2$",
+              "Tank (b): $r = 0.356\\,82...\\text{ m}$, $h = 5\\text{ m}$",
+              "$\\text{TSA}_b = 2\\pi \\times 0.356\\,82...^2 + 2\\pi \\times 0.356\\,82... \\times 5 = 0.8 + 11.209... = 12.009...$",
+              "$\\text{TSA}_b \\approx 12.01\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore tank (a) has a surface area of $157.88\\text{ m}^2$ and tank (b) has a surface area of $12.01\\text{ m}^2$.",
+            "solutionFigures": [],
+            "tip": "Convert cm to m (÷100) before calculating so the area comes out in $\\text{m}^2$."
+          }
+        },
+        {
+          "id": "ch6_ex4_q22a",
+          "number": "22(a)",
+          "category": "Master",
+          "questionText": "The ancient Egyptians knew that the volume of the frustum of a square-based pyramid was given by the formula $V = \\frac{1}{3}h(x^2 + xy + y^2)$, where $x$ is the bottom side, $y$ is the top side and $h$ is the height. Calculate the volume of the frustum below, correct to 2 decimal places: bottom square side $6\\text{ m}$, top square side $4\\text{ m}$, height $5\\text{ m}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$V = \\frac{1}{3}h(x^2 + xy + y^2)$",
+            "steps": [
+              "Given: $x = 6$, $y = 4$, $h = 5$ (m). Goal: the volume.",
+              "$V = \\frac{1}{3} \\times 5 \\times (6^2 + 6 \\times 4 + 4^2)$",
+              "$V = \\frac{5}{3} \\times (36 + 24 + 16)$",
+              "$V = \\frac{5}{3} \\times 76 = \\frac{380}{3}$",
+              "$V = 126.666...$",
+              "Rounded to 2 decimal places: $126.67\\text{ m}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the frustum is $126.67\\text{ m}^3$.",
+            "solutionFigures": [],
+            "tip": "Remember the middle term $xy$ in the bracket."
+          }
+        },
+        {
+          "id": "ch6_ex4_q22b",
+          "number": "22(b)",
+          "category": "Master",
+          "questionText": "A frustum with bottom square side $6\\text{ m}$, top square side $4\\text{ m}$ and height $5\\text{ m}$ is part of a square-based pyramid. Determine the volume of the missing portion (the small top pyramid) of the square-based pyramid shown, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Similar figures for the heights; $V = \\frac{1}{3}AH$",
+            "steps": [
+              "Given: bottom side 6, top side 4, frustum height 5. Goal: the volume of the small pyramid on top.",
+              "Let $H$ be the full height. By similar triangles: $\\frac{H - 5}{H} = \\frac{4}{6}$",
+              "$6(H - 5) = 4H \\Rightarrow 6H - 30 = 4H \\Rightarrow 2H = 30 \\Rightarrow H = 15\\text{ m}$",
+              "Height of the missing pyramid $= 15 - 5 = 10\\text{ m}$",
+              "$V = \\frac{1}{3} \\times 4^2 \\times 10 = \\frac{160}{3}$",
+              "$V = 53.333...$",
+              "Rounded to 2 decimal places: $53.33\\text{ m}^3$"
+            ],
+            "finalAnswer": "Therefore the missing portion has a volume of $53.33\\text{ m}^3$.",
+            "solutionFigures": [],
+            "tip": "Check: the full pyramid is $\\frac{1}{3} \\times 36 \\times 15 = 180$, and $180 - 53.33 = 126.67$ matches part (a)."
+          }
+        },
+        {
+          "id": "ch6_ex4_q23",
+          "number": "23",
+          "category": "Practice",
+          "questionText": "The Hastings' family house has a rectangular roof with dimensions $17\\text{ m} \\times 10\\text{ m}$ providing water to three cylindrical water tanks, each with a radius of $1.25\\text{ m}$ and a height of $2.1\\text{ m}$. Show that approximately 182 millimetres of rain must fall on the roof to fill the tanks.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of rain = roof area × rainfall depth; $V_{\\text{cylinder}} = \\pi r^2 h$",
+            "steps": [
+              "Given: roof $17 \\times 10 = 170\\text{ m}^2$; 3 tanks, $r = 1.25\\text{ m}$, $h = 2.1\\text{ m}$. Goal: show rainfall $\\approx 182\\text{ mm}$.",
+              "One tank $= \\pi \\times 1.25^2 \\times 2.1 = 3.28125\\pi\\text{ m}^3$",
+              "Three tanks $= 9.84375\\pi = 30.925...\\text{ m}^3$",
+              "Rainfall depth $d$: $170 \\times d = 30.925...$",
+              "$d = \\frac{30.925...}{170} = 0.18191...\\text{ m}$",
+              "$0.18191\\text{ m} \\times 1000 = 181.9\\text{ mm} \\approx 182\\text{ mm}$"
+            ],
+            "finalAnswer": "Therefore about $182\\text{ mm}$ of rain must fall on the roof to fill the three tanks.",
+            "solutionFigures": [],
+            "tip": "The rain on the roof forms a thin rectangular prism whose volume equals the tank volume."
+          }
+        },
+        {
+          "id": "ch6_ex4_q24",
+          "number": "24",
+          "category": "Consolidate",
+          "questionText": "Archimedes is considered to be one of the greatest mathematicians of all time. He discovered several of the formulas used in this topic. Inscribed on his tombstone was a diagram of his proudest discovery. It shows a sphere inscribed (fitting exactly) into a cylinder. Show that: $\\frac{\\text{volume of the cylinder}}{\\text{volume of the sphere}} = \\frac{\\text{surface area of the cylinder}}{\\text{surface area of the sphere}}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$V_{\\text{cyl}} = \\pi r^2 h$, $V_{\\text{sph}} = \\frac{4}{3}\\pi r^3$, $\\text{SA}_{\\text{cyl}} = 2\\pi r^2 + 2\\pi rh$, $\\text{SA}_{\\text{sph}} = 4\\pi r^2$",
+            "steps": [
+              "Given: the sphere fits exactly, so the cylinder has radius $r$ and height $h = 2r$. Goal: show the two ratios are equal.",
+              "$V_{\\text{cyl}} = \\pi r^2 \\times 2r = 2\\pi r^3$",
+              "$\\frac{V_{\\text{cyl}}}{V_{\\text{sph}}} = \\frac{2\\pi r^3}{\\frac{4}{3}\\pi r^3} = 2 \\times \\frac{3}{4} = \\frac{3}{2}$",
+              "$\\text{SA}_{\\text{cyl}} = 2\\pi r^2 + 2\\pi r \\times 2r = 2\\pi r^2 + 4\\pi r^2 = 6\\pi r^2$",
+              "$\\frac{\\text{SA}_{\\text{cyl}}}{\\text{SA}_{\\text{sph}}} = \\frac{6\\pi r^2}{4\\pi r^2} = \\frac{3}{2}$",
+              "Both ratios equal $\\frac{3}{2}$."
+            ],
+            "finalAnswer": "Therefore both ratios equal $\\frac{3}{2}$, so $\\frac{\\text{volume of cylinder}}{\\text{volume of sphere}} = \\frac{\\text{surface area of cylinder}}{\\text{surface area of sphere}}$.",
+            "solutionFigures": [],
+            "tip": "'Fitting exactly' means the cylinder's height equals the sphere's diameter, $2r$."
+          }
+        },
+        {
+          "id": "ch6_ex4_q25",
+          "number": "25",
+          "category": "Master",
+          "questionText": "Marion has mixed together ingredients for a cake. The recipe requires a baking tin that is cylindrical in shape with a diameter of $20\\text{ cm}$ and a height of $5\\text{ cm}$. Marion only has a tin in the shape of a trapezoidal prism and a muffin tray consisting of 24 muffin cups. Each of the muffin cups in the tray is a portion of a cone. The tin has a trapezium cross-section with parallel sides $8\\text{ cm}$ (bottom) and $12\\text{ cm}$ (top) and height $10\\text{ cm}$, and the tin is $15\\text{ cm}$ long. Each muffin cup has a top diameter of $8\\text{ cm}$, a bottom diameter of $4\\text{ cm}$ and a depth of $4\\text{ cm}$. Explain whether Marion should use the tin or the muffin tray.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$V_{\\text{cylinder}} = \\pi r^2 h$; prism $V = AH$ with trapezium $A = \\frac{1}{2}(a+b)h$; frustum = large cone $-$ small cone, $V_{\\text{cone}} = \\frac{1}{3}\\pi r^2 h$",
+            "steps": [
+              "Goal: compare the mixture volume with the capacity of the tin and of the muffin tray.",
+              "Mixture (recipe tin): $r = 10$, $h = 5$: $V = \\pi \\times 10^2 \\times 5 = 500\\pi = 1570.80\\text{ cm}^3$",
+              "Trapezoidal tin: $V = \\frac{1}{2}(8 + 12) \\times 10 \\times 15 = 100 \\times 15 = 1500\\text{ cm}^3$",
+              "Muffin cup: radii 4 and 2, depth 4. By similar triangles the full cone has height $H$ with $\\frac{H - 4}{H} = \\frac{2}{4}$, so $H = 8\\text{ cm}$ and the removed tip has height 4.",
+              "One cup $= \\frac{1}{3}\\pi \\times 4^2 \\times 8 - \\frac{1}{3}\\pi \\times 2^2 \\times 4 = \\frac{128\\pi}{3} - \\frac{16\\pi}{3} = \\frac{112\\pi}{3} = 117.29\\text{ cm}^3$",
+              "24 cups $= 24 \\times \\frac{112\\pi}{3} = 896\\pi = 2814.87\\text{ cm}^3$",
+              "Tin: $1500 < 1570.80$, so the tin is full with about $70.80\\text{ cm}^3$ of mixture left over.",
+              "Muffin tray: $\\frac{1570.80}{117.29} = 13.39$, so the mixture fills about 13 cups (and part of a 14th), leaving the other cups empty."
+            ],
+            "finalAnswer": "Therefore the mixture ($1570.80\\text{ cm}^3$) slightly overfills the tin ($1500\\text{ cm}^3$), leaving a small amount over, while the muffin tray ($2814.87\\text{ cm}^3$) can hold it all in about 13–14 cups. Marion could use the tin and have a little mixture left over, or use the muffin tray and leave about 10 cups empty.",
+            "solutionFigures": [],
+            "tip": "A muffin cup is a frustum: find the full cone's height with similar triangles, then subtract the missing tip."
+          }
+        },
+        {
+          "id": "ch6_ex4_q26",
+          "number": "26",
+          "category": "Master",
+          "questionText": "Sam is having his 16th birthday party and wants to make an ice trough to keep drinks cold. He has found a square piece of sheet metal with a side length of 2 metres. He cuts squares of side length $x$ metres from each corner, then bends the sides of the remaining sheet. When four squares of the appropriate side length are cut from the corners, the capacity of the trough can be maximised at 588 litres. Explain how Sam should proceed to maximise the capacity of the trough.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Open box: $V = x(2 - 2x)^2$ (in $\\text{m}^3$); $588\\text{ L} = 0.588\\text{ m}^3$",
+            "steps": [
+              "Given: sheet $2\\text{ m} \\times 2\\text{ m}$, corner squares of side $x$; capacity $0.588\\text{ m}^3$. Goal: find $x$.",
+              "After cutting and folding, the base is $(2 - 2x) \\times (2 - 2x)$ and the height is $x$, so $V = x(2 - 2x)^2 = 4x(1 - x)^2$.",
+              "$4x(1 - x)^2 = 0.588 \\Rightarrow x(1 - x)^2 = 0.147$",
+              "Try $x = 0.3$: $0.3 \\times 0.7^2 = 0.3 \\times 0.49 = 0.147$ ✓",
+              "Expand: $x^3 - 2x^2 + x - 0.147 = 0$. Dividing by $(x - 0.3)$ gives $x^2 - 1.7x + 0.49 = 0$.",
+              "$x = \\frac{1.7 \\pm \\sqrt{1.7^2 - 4 \\times 0.49}}{2} = \\frac{1.7 \\pm \\sqrt{0.93}}{2}$, so $x \\approx 0.368$ or $x \\approx 1.332$",
+              "$x$ must be less than 1 (half the sheet), so reject 1.332.",
+              "Valid solutions: $x = 0.3\\text{ m}$ or $x \\approx 0.368\\text{ m}$."
+            ],
+            "finalAnswer": "Therefore Sam should cut squares of side $0.3\\text{ m}$ (or about $0.368\\text{ m}$) from each corner and fold up the four sides; either gives a trough holding 588 litres.",
+            "solutionFigures": [],
+            "tip": "Check that answers make physical sense: the cut squares cannot be wider than half the sheet."
+          }
+        },
+        {
+          "id": "ch6_ex4_q27",
+          "number": "27",
+          "category": "Practice",
+          "questionText": "Nathaniel and Annie are going to the snow for survival camp. They plan to construct an igloo, consisting of an entrance and a hemispherical living section as shown. The hemisphere has a height (radius) of $1.5\\text{ m}$. The entrance is a half-cylinder tunnel $1\\text{ m}$ wide (radius $0.5\\text{ m}$) and $1.5\\text{ m}$ long. Nathaniel and Annie are asked to redraw their plans and increase the height of the liveable region (hemispherical structure) so that the total volume (including the entrance) is doubled. Determine what must the new height of the hemisphere be to achieve this so that the total volume (including the entrance) is doubled. Write your answer in metres correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$V_{\\text{hemisphere}} = \\frac{2}{3}\\pi r^3$; $V_{\\text{half-cylinder}} = \\frac{1}{2}\\pi r^2 h$",
+            "steps": [
+              "Given: hemisphere $r = 1.5\\text{ m}$; entrance half-cylinder $r = 0.5\\text{ m}$, length $1.5\\text{ m}$ (unchanged). Goal: new hemisphere radius $R$.",
+              "Hemisphere $= \\frac{2}{3}\\pi \\times 1.5^3 = \\frac{2}{3}\\pi \\times 3.375 = 2.25\\pi$",
+              "Entrance $= \\frac{1}{2}\\pi \\times 0.5^2 \\times 1.5 = 0.1875\\pi$",
+              "Total $= 2.25\\pi + 0.1875\\pi = 2.4375\\pi\\ (\\approx 7.66\\text{ m}^3)$",
+              "New total $= 2 \\times 2.4375\\pi = 4.875\\pi$",
+              "New hemisphere $= 4.875\\pi - 0.1875\\pi = 4.6875\\pi$",
+              "$\\frac{2}{3}\\pi R^3 = 4.6875\\pi \\Rightarrow R^3 = \\frac{3 \\times 4.6875}{2} = 7.031\\,25$",
+              "$R = \\sqrt[3]{7.031\\,25} = 1.9158...$",
+              "Rounded to 2 decimal places: $R \\approx 1.92\\text{ m}$"
+            ],
+            "finalAnswer": "Therefore the new height of the hemisphere must be about $1.92\\text{ m}$.",
+            "solutionFigures": [],
+            "tip": "Only the hemisphere changes; keep the entrance volume fixed when you share out the doubled total."
+          }
+        },
+        {
+          "id": "ch6_ex4_q28a",
+          "number": "28(a)",
+          "category": "Consolidate",
+          "questionText": "Six tennis balls are just contained in a cylinder as the balls touch the sides and the end sections of the cylinder. Each tennis ball has a radius of $R\\text{ cm}$. Express the height of the cylinder in terms of $R$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Height = number of balls × diameter",
+            "steps": [
+              "Given: 6 balls stacked in a line, each of diameter $2R$. Goal: the cylinder's height.",
+              "$H = 6 \\times 2R$",
+              "$H = 12R$"
+            ],
+            "finalAnswer": "Therefore the height of the cylinder is $H = 12R\\text{ cm}$.",
+            "solutionFigures": [],
+            "tip": "Each ball takes up its diameter, $2R$, not its radius."
+          }
+        },
+        {
+          "id": "ch6_ex4_q28b",
+          "number": "28(b)",
+          "category": "Consolidate",
+          "questionText": "Six tennis balls, each of radius $R\\text{ cm}$, are just contained in a cylinder. Evaluate the total volume of the tennis balls.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a sphere: $V = \\frac{4}{3}\\pi R^3$",
+            "steps": [
+              "Given: 6 balls of radius $R$. Goal: total volume.",
+              "$V = 6 \\times \\frac{4}{3}\\pi R^3$",
+              "$V = 8\\pi R^3$"
+            ],
+            "finalAnswer": "Therefore the total volume of the balls is $8\\pi R^3\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "$6 \\times \\frac{4}{3} = 8$."
+          }
+        },
+        {
+          "id": "ch6_ex4_q28c",
+          "number": "28(c)",
+          "category": "Consolidate",
+          "questionText": "Six tennis balls of radius $R\\text{ cm}$ just fit in a cylinder of radius $R$ and height $12R$. Determine the volume of the cylinder in terms of $R$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a cylinder: $V = \\pi r^2 h$",
+            "steps": [
+              "Given: radius $R$, height $12R$. Goal: the volume.",
+              "$V = \\pi \\times R^2 \\times 12R$",
+              "$V = 12\\pi R^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the cylinder is $12\\pi R^3\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "The balls touch the sides, so the cylinder's radius equals the ball's radius."
+          }
+        },
+        {
+          "id": "ch6_ex4_q28d",
+          "number": "28(d)",
+          "category": "Consolidate",
+          "questionText": "Six tennis balls have total volume $8\\pi R^3$ and the cylinder that just contains them has volume $12\\pi R^3$. Show that the ratio of the volume of the tennis balls to the volume of the cylinder is $2 : 3$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Ratio $a : b$, simplified by dividing by common factors",
+            "steps": [
+              "Goal: show the ratio is $2 : 3$.",
+              "$V_{\\text{balls}} : V_{\\text{cylinder}} = 8\\pi R^3 : 12\\pi R^3$",
+              "Divide both parts by $\\pi R^3$: $8 : 12$",
+              "Divide both parts by 4: $2 : 3$"
+            ],
+            "finalAnswer": "Therefore the ratio of the volume of the balls to the volume of the cylinder is $8 : 12 = 2 : 3$.",
+            "solutionFigures": [],
+            "tip": "Common factors like $\\pi R^3$ cancel in a ratio, so the result is true for any size of ball."
+          }
+        },
+        {
+          "id": "ch6_ex4_q29a",
+          "number": "29(a)",
+          "category": "Master",
+          "questionText": "A frustum of a square-based pyramid is a square pyramid with the top sliced off. $H$ is the height of the full pyramid and $h$ is the height of the frustum. The full pyramid has a square base of side $X\\text{ cm}$ and the top of the frustum is a square of side $x\\text{ cm}$. Determine the volume of the large pyramid that has a square base side of $X\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a pyramid: $V = \\frac{1}{3}AH$",
+            "steps": [
+              "Given: base side $X$, height $H$. Goal: the volume.",
+              "$A = X^2$",
+              "$V = \\frac{1}{3}X^2 H$"
+            ],
+            "finalAnswer": "Therefore the volume of the large pyramid is $\\frac{1}{3}X^2H\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "The base area of a square pyramid is the side squared."
+          }
+        },
+        {
+          "id": "ch6_ex4_q29b",
+          "number": "29(b)",
+          "category": "Master",
+          "questionText": "A full square-based pyramid of height $H$ and base side $X$ is sliced to make a frustum of height $h$ whose top is a square of side $x$. Evaluate the volume of the small pyramid that has a square base side of $x\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a pyramid: $V = \\frac{1}{3}AH$",
+            "steps": [
+              "Given: small pyramid base side $x$; its height is the full height minus the frustum height, $H - h$. Goal: its volume.",
+              "$V = \\frac{1}{3}x^2(H - h)$"
+            ],
+            "finalAnswer": "Therefore the volume of the small pyramid is $\\frac{1}{3}x^2(H - h)\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "The small pyramid's height is $H - h$, not $h$."
+          }
+        },
+        {
+          "id": "ch6_ex4_q29c",
+          "number": "29(c)",
+          "category": "Master",
+          "questionText": "A full square-based pyramid of height $H$ and base side $X$ is sliced to make a frustum of height $h$ whose top is a square of side $x$. Show that the relationship between $H$ and $h$ is given by $H = \\frac{Xh}{X - x}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Similar pyramids: $\\frac{\\text{small height}}{\\text{large height}} = \\frac{\\text{small side}}{\\text{large side}}$",
+            "steps": [
+              "Goal: show $H = \\frac{Xh}{X - x}$.",
+              "The small and large pyramids are similar: $\\frac{H - h}{H} = \\frac{x}{X}$",
+              "Cross-multiply: $X(H - h) = xH$",
+              "$XH - Xh = xH$",
+              "$XH - xH = Xh$",
+              "$H(X - x) = Xh$",
+              "$H = \\frac{Xh}{X - x}$"
+            ],
+            "finalAnswer": "Therefore $H = \\frac{Xh}{X - x}$, as required.",
+            "solutionFigures": [],
+            "tip": "Collect the $H$ terms on one side and factorise before dividing."
+          }
+        },
+        {
+          "id": "ch6_ex4_q29d",
+          "number": "29(d)",
+          "category": "Master",
+          "questionText": "A full square-based pyramid has base side $X$ and height $H = \\frac{Xh}{X - x}$; it is sliced to make a frustum of height $h$ whose top is a square of side $x$. Show that the volume of the frustum is given by $\\frac{1}{3}h(X^2 + x^2 + Xx)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$V_{\\text{frustum}} = \\frac{1}{3}X^2H - \\frac{1}{3}x^2(H - h)$; difference of cubes $X^3 - x^3 = (X - x)(X^2 + Xx + x^2)$",
+            "steps": [
+              "Goal: show $V = \\frac{1}{3}h(X^2 + x^2 + Xx)$.",
+              "$H = \\frac{Xh}{X - x}$, so $H - h = \\frac{Xh - h(X - x)}{X - x} = \\frac{xh}{X - x}$",
+              "$V = \\frac{1}{3}X^2 \\times \\frac{Xh}{X - x} - \\frac{1}{3}x^2 \\times \\frac{xh}{X - x}$",
+              "$V = \\frac{1}{3} \\times \\frac{h(X^3 - x^3)}{X - x}$",
+              "Using $X^3 - x^3 = (X - x)(X^2 + Xx + x^2)$: $V = \\frac{1}{3} \\times \\frac{h(X - x)(X^2 + Xx + x^2)}{X - x}$",
+              "$V = \\frac{1}{3}h(X^2 + x^2 + Xx)$"
+            ],
+            "finalAnswer": "Therefore the volume of the frustum is $\\frac{1}{3}h(X^2 + x^2 + Xx)$, as required.",
+            "solutionFigures": [],
+            "tip": "Spotting the difference of two cubes is the key step that lets $(X - x)$ cancel."
+          }
+        },
+        {
+          "id": "ch6_ex4_q30",
+          "number": "30",
+          "category": "Master",
+          "questionText": "A large container is five-eighths full of ice-cream. After removing 27 identical scoops, it is one-quarter full. Determine how many scoops of ice-cream are left in the container.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Fraction removed = starting fraction $-$ final fraction",
+            "steps": [
+              "Given: starts $\\frac{5}{8}$ full, ends $\\frac{1}{4}$ full after 27 scoops. Goal: scoops remaining.",
+              "Fraction removed $= \\frac{5}{8} - \\frac{1}{4} = \\frac{5}{8} - \\frac{2}{8} = \\frac{3}{8}$",
+              "$\\frac{3}{8}$ of the container $= 27$ scoops, so $\\frac{1}{8} = 27 \\div 3 = 9$ scoops",
+              "Remaining $\\frac{1}{4} = \\frac{2}{8} = 2 \\times 9 = 18$ scoops"
+            ],
+            "finalAnswer": "Therefore 18 scoops of ice-cream are left in the container.",
+            "solutionFigures": [],
+            "tip": "Use a common denominator (eighths) to compare the fractions."
+          }
+        }
+      ]
+    }
+  ]
+}

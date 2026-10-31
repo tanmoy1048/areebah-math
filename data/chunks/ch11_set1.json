@@ -1,0 +1,307 @@
+{
+  "chapterId": "ch11",
+  "chapterTitle": "Probability",
+  "topics": [
+    {
+      "topicId": "11.1",
+      "topicTitle": "Pre-test",
+      "exercises": [
+        {
+          "id": "ch11_ex1_q1",
+          "number": "1",
+          "category": null,
+          "questionText": "Calculate $\\Pr(A \\cap B)$ if $\\Pr(A) = 0.4$, $\\Pr(B) = 0.3$ and $\\Pr(A \\cup B) = 0.5$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Addition Law of probability: $\\Pr(A \\cup B) = \\Pr(A) + \\Pr(B) - \\Pr(A \\cap B)$, rearranged to $\\Pr(A \\cap B) = \\Pr(A) + \\Pr(B) - \\Pr(A \\cup B)$",
+            "steps": [
+              "Given: $\\Pr(A) = 0.4$, $\\Pr(B) = 0.3$, $\\Pr(A \\cup B) = 0.5$. Goal: $\\Pr(A \\cap B)$.",
+              "Use the Addition Law: $\\Pr(A \\cup B) = \\Pr(A) + \\Pr(B) - \\Pr(A \\cap B)$.",
+              "Substitute: $0.5 = 0.4 + 0.3 - \\Pr(A \\cap B)$",
+              "$0.5 = 0.7 - \\Pr(A \\cap B)$",
+              "$\\Pr(A \\cap B) = 0.7 - 0.5 = 0.2$"
+            ],
+            "finalAnswer": "$\\Pr(A \\cap B) = 0.2$",
+            "solutionFigures": [],
+            "tip": "Adding $\\Pr(A)$ and $\\Pr(B)$ counts the overlap twice, which is why the intersection is subtracted in the Addition Law."
+          }
+        },
+        {
+          "id": "ch11_ex1_q2",
+          "number": "2",
+          "category": null,
+          "questionText": "If events $A$ and $B$ are mutually exclusive, and $\\Pr(B) = 0.38$ and $\\Pr(A \\cup B) = 0.89$, calculate $\\Pr(A)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Addition rule for mutually exclusive events: $\\Pr(A \\cup B) = \\Pr(A) + \\Pr(B)$ (since $\\Pr(A \\cap B) = 0$)",
+            "steps": [
+              "Given: $A$ and $B$ are mutually exclusive, $\\Pr(B) = 0.38$, $\\Pr(A \\cup B) = 0.89$. Goal: $\\Pr(A)$.",
+              "Mutually exclusive means $\\Pr(A \\cap B) = 0$, so $\\Pr(A \\cup B) = \\Pr(A) + \\Pr(B)$.",
+              "Substitute: $0.89 = \\Pr(A) + 0.38$",
+              "$\\Pr(A) = 0.89 - 0.38 = 0.51$"
+            ],
+            "finalAnswer": "$\\Pr(A) = 0.51$",
+            "solutionFigures": [],
+            "tip": "Only drop the $\\Pr(A \\cap B)$ term when the events are mutually exclusive (they cannot happen together)."
+          }
+        },
+        {
+          "id": "ch11_ex1_q3",
+          "number": "3",
+          "category": null,
+          "questionText": "State whether the events $A = \\{\\text{drawing a red marble from a bag}\\}$ and $B = \\{\\text{rolling a 1 on a die}\\}$ are independent or dependent.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Events are independent if the outcome of one does not affect the probability of the other, i.e. $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B)$",
+            "steps": [
+              "Given: event $A$ is drawing a red marble from a bag; event $B$ is rolling a 1 on a die. Goal: decide if they are independent.",
+              "Drawing a marble from a bag has no physical connection to rolling a die.",
+              "Whatever colour marble is drawn, the probability of rolling a 1 stays $\\frac{1}{6}$.",
+              "So the outcome of $A$ does not change the probability of $B$ (and vice versa)."
+            ],
+            "finalAnswer": "The events are independent.",
+            "solutionFigures": [],
+            "tip": "Ask yourself: does knowing the result of one event change the chances of the other? If not, the events are independent."
+          }
+        },
+        {
+          "id": "ch11_ex1_q4",
+          "number": "4",
+          "category": null,
+          "questionText": "The Venn diagram shows the number of university students in a group of 25 who own a computer and/or tablet. The two circles are 'Tablet' and 'Computer': 5 students are in Tablet only, 13 are in both, and 7 are in Computer only. In simplest form, calculate the probability that a university student selected at random will own only a tablet.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$",
+            "steps": [
+              "Given: Tablet only $= 5$, both $= 13$, Computer only $= 7$; $n(\\xi) = 25$. Goal: $\\Pr(\\text{tablet only})$.",
+              "Check the total: $5 + 13 + 7 = 25$, so no student is outside both circles.",
+              "$n(\\text{tablet only}) = 5$",
+              "$\\Pr(\\text{tablet only}) = \\dfrac{5}{25}$",
+              "Simplify by dividing top and bottom by 5: $\\dfrac{5}{25} = \\dfrac{1}{5}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{tablet only}) = \\frac{1}{5}$",
+            "solutionFigures": [],
+            "tip": "'Only a tablet' means the part of the Tablet circle outside the overlap, so do not add the 13 who own both."
+          }
+        },
+        {
+          "id": "ch11_ex1_q5",
+          "number": "5",
+          "category": null,
+          "questionText": "MC Two unbiased four-sided dice are rolled. Determine the probability that the total sum of the two face-down numbers obtained is 6.\nA. $\\frac{1}{8}$  B. $\\frac{1}{16}$  C. $\\frac{3}{16}$  D. $\\frac{1}{4}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$ with equally likely outcomes; multiplication principle for the sample space size",
+            "steps": [
+              "Given: two fair four-sided dice, faces 1 to 4. Goal: $\\Pr(\\text{sum} = 6)$.",
+              "Sample space size: $4 \\times 4 = 16$ equally likely ordered pairs.",
+              "Pairs with sum 6: $(2, 4), (3, 3), (4, 2)$, so $n(E) = 3$.",
+              "$\\Pr(\\text{sum} = 6) = \\dfrac{3}{16}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{sum} = 6) = \\frac{3}{16}$, option C",
+            "solutionFigures": [],
+            "tip": "Count $(2,4)$ and $(4,2)$ as different outcomes, because the two dice are different."
+          }
+        },
+        {
+          "id": "ch11_ex1_q6",
+          "number": "6",
+          "category": null,
+          "questionText": "MC Identify which Venn diagram best illustrates $\\Pr(A \\cup B)'$. Options A to D each show two overlapping circles $A$ and $B$ inside a rectangle with a different region shaded.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$(A \\cup B)'$ is the complement of the union: every outcome that is in neither $A$ nor $B$, so $(A \\cup B)' = A' \\cap B'$",
+            "steps": [
+              "Goal: identify the shading for $(A \\cup B)'$.",
+              "$A \\cup B$ is everything inside either circle (both circles, including the overlap).",
+              "The complement $'$ means everything NOT in that region.",
+              "So the correct diagram has both circles unshaded and only the area of the rectangle outside both circles shaded.",
+              "In the book this is diagram D."
+            ],
+            "finalAnswer": "Option D: only the region outside both circles is shaded.",
+            "solutionFigures": [],
+            "tip": "Do the bracket first: shade $A \\cup B$ in your head, then flip it to get the complement."
+          }
+        },
+        {
+          "id": "ch11_ex1_q7",
+          "number": "7",
+          "category": null,
+          "questionText": "MC From a group of 25 people, 12 use Facebook (F), 14 use Snapchat (S), and 6 use both Facebook and Snapchat applications. The Venn diagram shows 6 in F only, 6 in both, and 8 in S only. Determine the probability that a person selected will use neither application.\nA. $\\frac{1}{5}$  B. $\\frac{6}{25}$  C. $\\frac{8}{25}$  D. $\\frac{12}{25}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$n(F \\cup S) = n(F) + n(S) - n(F \\cap S)$; then $\\Pr(\\text{neither}) = \\dfrac{n(\\xi) - n(F \\cup S)}{n(\\xi)}$",
+            "steps": [
+              "Given: $n(\\xi) = 25$, $n(F) = 12$, $n(S) = 14$, $n(F \\cap S) = 6$. Goal: $\\Pr(\\text{neither})$.",
+              "$n(F \\cup S) = 12 + 14 - 6 = 20$ (check with the diagram: $6 + 6 + 8 = 20$).",
+              "$n(\\text{neither}) = 25 - 20 = 5$",
+              "$\\Pr(\\text{neither}) = \\dfrac{5}{25} = \\dfrac{1}{5}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{neither}) = \\frac{1}{5}$, option A",
+            "solutionFigures": [],
+            "tip": "Do not subtract 12 and 14 straight from 25; the 6 people who use both would be removed twice."
+          }
+        },
+        {
+          "id": "ch11_ex1_q8",
+          "number": "8",
+          "category": null,
+          "questionText": "The probability that a student will catch a bus to school is 0.7 and the independent probability that a student will be late to school is 0.2. Determine the probability, in simplest form, that a student catches a bus and is not late to school.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complement rule $\\Pr(L') = 1 - \\Pr(L)$ and the Multiplication Law for independent events $\\Pr(B \\cap L') = \\Pr(B) \\times \\Pr(L')$",
+            "steps": [
+              "Given: $\\Pr(B) = 0.7$ (catches bus), $\\Pr(L) = 0.2$ (late), $B$ and $L$ independent. Goal: $\\Pr(B \\cap L')$.",
+              "Complement rule: $\\Pr(L') = 1 - 0.2 = 0.8$",
+              "Multiplication Law (independent): $\\Pr(B \\cap L') = 0.7 \\times 0.8 = 0.56$",
+              "As a fraction: $0.56 = \\dfrac{56}{100} = \\dfrac{14}{25}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{bus and not late}) = 0.56 = \\frac{14}{25}$",
+            "solutionFigures": [],
+            "tip": "Read carefully: 'not late' uses $1 - 0.2$, not $0.2$."
+          }
+        },
+        {
+          "id": "ch11_ex1_q9",
+          "number": "9",
+          "category": null,
+          "questionText": "MC From events $A$ and $B$ in the Venn diagram, calculate $\\Pr(A \\mid B)$. The Venn diagram shows 2 in $A$ only, 4 in both $A$ and $B$, 3 in $B$ only and 1 outside both circles.\nA. $\\frac{4}{7}$  B. $\\frac{4}{9}$  C. $\\frac{2}{5}$  D. $\\frac{1}{3}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Conditional probability: $\\Pr(A \\mid B) = \\dfrac{\\Pr(A \\cap B)}{\\Pr(B)} = \\dfrac{n(A \\cap B)}{n(B)}$",
+            "steps": [
+              "Given: $A$ only $= 2$, $A \\cap B = 4$, $B$ only $= 3$, neither $= 1$; total $= 10$. Goal: $\\Pr(A \\mid B)$.",
+              "Given $B$ has happened, the sample space shrinks to $B$: $n(B) = 4 + 3 = 7$.",
+              "$n(A \\cap B) = 4$",
+              "$\\Pr(A \\mid B) = \\dfrac{4}{7}$"
+            ],
+            "finalAnswer": "$\\Pr(A \\mid B) = \\frac{4}{7}$, option A",
+            "solutionFigures": [],
+            "tip": "With 'given $B$', divide by the number in $B$ (7), not by the whole total (10)."
+          }
+        },
+        {
+          "id": "ch11_ex1_q10",
+          "number": "10",
+          "category": null,
+          "questionText": "In the Venn diagram, events $A$ and $B$ are independent. The diagram shows 7 in $A$ only, 20 in both $A$ and $B$, 13 in $B$ only and 10 outside both circles. State whether this statement is true or false.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Test for independence: $A$ and $B$ are independent if and only if $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B)$",
+            "steps": [
+              "Given: $A$ only $= 7$, both $= 20$, $B$ only $= 13$, neither $= 10$. Goal: test whether $\\Pr(A \\cap B) = \\Pr(A) \\times \\Pr(B)$.",
+              "Total: $n(\\xi) = 7 + 20 + 13 + 10 = 50$",
+              "$\\Pr(A) = \\dfrac{7 + 20}{50} = \\dfrac{27}{50} = 0.54$",
+              "$\\Pr(B) = \\dfrac{20 + 13}{50} = \\dfrac{33}{50} = 0.66$",
+              "$\\Pr(A \\cap B) = \\dfrac{20}{50} = 0.4$",
+              "$\\Pr(A) \\times \\Pr(B) = 0.54 \\times 0.66 = 0.3564$",
+              "$0.4 \\neq 0.3564$, so $A$ and $B$ are not independent."
+            ],
+            "finalAnswer": "False: $\\Pr(A \\cap B) = 0.4$ but $\\Pr(A) \\times \\Pr(B) = 0.3564$, so the events are not independent.",
+            "solutionFigures": [],
+            "tip": "Remember to include the region outside both circles (10) in the total."
+          }
+        },
+        {
+          "id": "ch11_ex1_q11",
+          "number": "11",
+          "category": null,
+          "questionText": "If $\\Pr(A) = 0.5$, $\\Pr(B) = 0.4$ and $\\Pr(A \\cup B) = 0.8$, calculate $\\Pr(B \\mid A)$, correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Addition Law $\\Pr(A \\cap B) = \\Pr(A) + \\Pr(B) - \\Pr(A \\cup B)$, then conditional probability $\\Pr(B \\mid A) = \\dfrac{\\Pr(A \\cap B)}{\\Pr(A)}$",
+            "steps": [
+              "Given: $\\Pr(A) = 0.5$, $\\Pr(B) = 0.4$, $\\Pr(A \\cup B) = 0.8$. Goal: $\\Pr(B \\mid A)$.",
+              "Addition Law: $\\Pr(A \\cap B) = 0.5 + 0.4 - 0.8 = 0.1$",
+              "Conditional probability: $\\Pr(B \\mid A) = \\dfrac{0.1}{0.5} = 0.2$"
+            ],
+            "finalAnswer": "$\\Pr(B \\mid A) = 0.2$ (exact, so 0.2 to 1 decimal place)",
+            "solutionFigures": [],
+            "tip": "For $\\Pr(B \\mid A)$ divide by $\\Pr(A)$, the event that is given, not by $\\Pr(B)$."
+          }
+        },
+        {
+          "id": "ch11_ex1_q12",
+          "number": "12",
+          "category": null,
+          "questionText": "MC From 20 students, 10 play soccer, while 15 play Aussie Rules and 8 play both soccer and Aussie Rules. Calculate the probability that a student randomly selected plays soccer given that he or she plays Aussie Rules.\nA. $\\frac{8}{15}$  B. $\\frac{2}{5}$  C. $\\frac{2}{3}$  D. $\\frac{10}{23}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Conditional probability: $\\Pr(S \\mid R) = \\dfrac{\\Pr(S \\cap R)}{\\Pr(R)} = \\dfrac{n(S \\cap R)}{n(R)}$",
+            "steps": [
+              "Given: $n(\\xi) = 20$, $n(S) = 10$ (soccer), $n(R) = 15$ (Aussie Rules), $n(S \\cap R) = 8$. Goal: $\\Pr(S \\mid R)$.",
+              "Restrict to students who play Aussie Rules: $n(R) = 15$.",
+              "Of these, 8 also play soccer.",
+              "$\\Pr(S \\mid R) = \\dfrac{8}{15}$ (equivalently $\\dfrac{8/20}{15/20} = \\dfrac{8}{15}$)"
+            ],
+            "finalAnswer": "$\\Pr(\\text{soccer} \\mid \\text{Aussie Rules}) = \\frac{8}{15}$, option A",
+            "solutionFigures": [],
+            "tip": "The 'given' group (Aussie Rules, 15) becomes the denominator."
+          }
+        },
+        {
+          "id": "ch11_ex1_q13",
+          "number": "13",
+          "category": null,
+          "questionText": "MC Two cards are drawn successively without replacement from a pack of 52 playing cards. Calculate the probability of drawing 2 spades.\nA. $\\frac{1}{17}$  B. $\\frac{2}{2652}$  C. $\\frac{1}{2652}$  D. $\\frac{1}{2704}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Multiplication rule for dependent events: $\\Pr(S_1 \\cap S_2) = \\Pr(S_1) \\times \\Pr(S_2 \\mid S_1)$",
+            "steps": [
+              "Given: 52 cards, 13 spades, drawn without replacement. Goal: $\\Pr(\\text{spade then spade})$.",
+              "First card: $\\Pr(S_1) = \\dfrac{13}{52} = \\dfrac{1}{4}$",
+              "After one spade is removed: 12 spades out of 51 cards, so $\\Pr(S_2 \\mid S_1) = \\dfrac{12}{51} = \\dfrac{4}{17}$",
+              "$\\Pr(S_1 \\cap S_2) = \\dfrac{1}{4} \\times \\dfrac{4}{17} = \\dfrac{4}{68} = \\dfrac{1}{17}$"
+            ],
+            "finalAnswer": "$\\Pr(2 \\text{ spades}) = \\frac{1}{17}$, option A",
+            "solutionFigures": [],
+            "tip": "Without replacement, reduce both the number of spades and the total number of cards for the second draw."
+          }
+        },
+        {
+          "id": "ch11_ex1_q14",
+          "number": "14",
+          "category": null,
+          "questionText": "A survey of a school of 800 students found that 100 used a bus ($B$) to get to school, 75 used a train ($T$) and 650 used neither. In simplest form, determine the probability that a student uses both a bus and a train to get to school.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$n(B \\cup T) = n(B) + n(T) - n(B \\cap T)$, then $\\Pr(B \\cap T) = \\dfrac{n(B \\cap T)}{n(\\xi)}$",
+            "steps": [
+              "Given: $n(\\xi) = 800$, $n(B) = 100$, $n(T) = 75$, neither $= 650$. Goal: $\\Pr(B \\cap T)$.",
+              "Students using at least one: $n(B \\cup T) = 800 - 650 = 150$",
+              "Addition rule for counts: $150 = 100 + 75 - n(B \\cap T)$",
+              "$n(B \\cap T) = 175 - 150 = 25$",
+              "$\\Pr(B \\cap T) = \\dfrac{25}{800} = \\dfrac{1}{32}$ (divide top and bottom by 25)"
+            ],
+            "finalAnswer": "$\\Pr(\\text{bus and train}) = \\frac{1}{32} = 0.03125$",
+            "solutionFigures": [],
+            "tip": "Find the union first from the 'neither' count, then use the Addition Law to get the overlap."
+          }
+        },
+        {
+          "id": "ch11_ex1_q15",
+          "number": "15",
+          "category": null,
+          "questionText": "MC On the first day at school, students are asked to tell the class about their holidays. There are 30 students in the class and all have spent part or all of their holidays at one of the following: a coastal resort, interstate, or overseas. The teacher finds that:\n- 5 students went to a coastal resort only\n- 2 students went interstate only\n- 2 students holidayed in all three ways\n- 8 students went to a coastal resort and travelled overseas only\n- 20 students went to a coastal resort\n- no less than 4 students went overseas only\n- no less than 13 students travelled interstate.\nDetermine the probability that a student travelled overseas and interstate only.\nA. $\\frac{2}{15}$  B. $\\frac{5}{6}$  C. $\\frac{3}{15}$  D. $\\frac{1}{3}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Fill a three-circle Venn diagram region by region; the regions add to $n(\\xi)$; then $\\Pr(E) = \\dfrac{n(E)}{n(\\xi)}$",
+            "steps": [
+              "Given: Coastal (C), Interstate (I), Overseas (O); $n(\\xi) = 30$ and every student is in at least one circle. Goal: $\\Pr(I \\cap O \\text{ only})$.",
+              "Known regions: C only $= 5$, I only $= 2$, all three $= 2$, C and O only $= 8$.",
+              "C total is 20: C and I only $= 20 - 5 - 2 - 8 = 5$.",
+              "Let $x$ = I and O only, $y$ = O only. All regions sum to 30: $5 + 2 + 2 + 8 + 5 + x + y = 30$, so $x + y = 8$.",
+              "Interstate total $\\geq 13$: $2 + 5 + 2 + x \\geq 13$, so $x \\geq 4$.",
+              "Overseas only $\\geq 4$: $y = 8 - x \\geq 4$, so $x \\leq 4$.",
+              "Therefore $x = 4$ (and $y = 4$).",
+              "$\\Pr(I \\cap O \\text{ only}) = \\dfrac{4}{30} = \\dfrac{2}{15}$"
+            ],
+            "finalAnswer": "$\\Pr(\\text{overseas and interstate only}) = \\frac{2}{15}$, option A",
+            "solutionFigures": [],
+            "tip": "Start with the most specific regions (all three, then the 'only' pairs) and work outwards to the single-circle totals."
+          }
+        }
+      ]
+    }
+  ]
+}

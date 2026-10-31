@@ -1,0 +1,1057 @@
+{
+  "chapterId": "ch15",
+  "chapterTitle": "Trigonometry II (10A)",
+  "topics": [
+    {
+      "topicId": "15.8",
+      "topicTitle": "Review questions",
+      "exercises": [
+        {
+          "id": "ch15_ex8_q1",
+          "number": "1",
+          "category": null,
+          "questionText": "Calculate the value of $x$, correct to 2 decimal places. The diagram shows a triangle with a horizontal base of length 12 cm. The angle at the top vertex is $55^\\circ$ and the angle at the bottom-right vertex is $75^\\circ$. The side $x$ is the left side, joining the top vertex to the bottom-left vertex.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule: $$\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)} = \\frac{c}{\\sin(C)}$$",
+            "steps": [
+              "Given: base $= 12$ cm, which is opposite the $55^\\circ$ angle; the $75^\\circ$ angle is at the bottom right. Goal: find $x$, the left side.",
+              "The side $x$ joins the top vertex and the bottom-left vertex, so it is opposite the $75^\\circ$ angle.",
+              "We know two angles and one side, so we use the sine rule.",
+              "$$\\frac{x}{\\sin(75^\\circ)} = \\frac{12}{\\sin(55^\\circ)}$$",
+              "$$x = \\frac{12\\sin(75^\\circ)}{\\sin(55^\\circ)}$$",
+              "$$x = \\frac{12 \\times 0.965\\,926}{0.819\\,152} = \\frac{11.591\\,11}{0.819\\,152} \\approx 14.1501$$",
+              "Rounded to 2 decimal places: $x \\approx 14.15$ cm.",
+              "Check: the third angle is $180^\\circ - 55^\\circ - 75^\\circ = 50^\\circ$. The largest angle ($75^\\circ$) should face the longest side, and $14.15 > 12$, which fits."
+            ],
+            "finalAnswer": "Therefore $x \\approx 14.15$ cm (2 decimal places).",
+            "solutionFigures": [],
+            "tip": "Always pair each side with the angle directly opposite it before substituting into the sine rule."
+          }
+        },
+        {
+          "id": "ch15_ex8_q2",
+          "number": "2",
+          "category": null,
+          "questionText": "Calculate the value of $\\theta$, correct to the nearest minute. The diagram shows a triangle with a horizontal base of length 10.2 m. The angle $\\theta$ is at the left end of the base. The angle at the top-right vertex is $105^\\circ$, and the short right-hand side (from the top vertex down to the right end of the base) is 3.7 m.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule for an angle: $$\\frac{\\sin(A)}{a} = \\frac{\\sin(B)}{b}$$",
+            "steps": [
+              "Given: the side 10.2 m is opposite the $105^\\circ$ angle; the side 3.7 m is opposite $\\theta$. Goal: find $\\theta$.",
+              "We know two sides and an angle opposite one of them, so we use the sine rule.",
+              "$$\\frac{\\sin(\\theta)}{3.7} = \\frac{\\sin(105^\\circ)}{10.2}$$",
+              "$$\\sin(\\theta) = \\frac{3.7\\sin(105^\\circ)}{10.2} = \\frac{3.7 \\times 0.965\\,926}{10.2} \\approx 0.350\\,385$$",
+              "$$\\theta = \\sin^{-1}(0.350\\,385) \\approx 20.5109^\\circ$$",
+              "Convert to minutes: $0.5109 \\times 60 \\approx 30.7'$, so $\\theta \\approx 20^\\circ 31'$.",
+              "Ambiguous case check: the other possibility would be $180^\\circ - 20^\\circ 31' = 159^\\circ 29'$, but the triangle already has a $105^\\circ$ angle, and $159^\\circ 29' + 105^\\circ > 180^\\circ$. So only the acute answer is possible."
+            ],
+            "finalAnswer": "Therefore $\\theta \\approx 20^\\circ 31'$ (nearest minute).",
+            "solutionFigures": [],
+            "tip": "When the sine rule gives an angle, check whether the obtuse alternative $180^\\circ - \\theta$ could also fit in the triangle."
+          }
+        },
+        {
+          "id": "ch15_ex8_q3",
+          "number": "3",
+          "category": null,
+          "questionText": "Determine all unknown sides (correct to 2 decimal places) and angles (correct to the nearest minute) of triangle ABC, given $a = 25$ m, $A = 120^\\circ$ and $B = 50^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Angle sum $A + B + C = 180^\\circ$ and the sine rule $$\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)} = \\frac{c}{\\sin(C)}$$",
+            "steps": [
+              "Given: $a = 25$ m, $A = 120^\\circ$, $B = 50^\\circ$. Goal: find $C$, $b$ and $c$.",
+              "Angle sum: $C = 180^\\circ - 120^\\circ - 50^\\circ = 10^\\circ$.",
+              "Find $b$: $$\\frac{b}{\\sin(50^\\circ)} = \\frac{25}{\\sin(120^\\circ)}$$",
+              "$$b = \\frac{25\\sin(50^\\circ)}{\\sin(120^\\circ)} = \\frac{25 \\times 0.766\\,044}{0.866\\,025} \\approx 22.1138$$",
+              "So $b \\approx 22.11$ m.",
+              "Find $c$: $$\\frac{c}{\\sin(10^\\circ)} = \\frac{25}{\\sin(120^\\circ)}$$",
+              "$$c = \\frac{25\\sin(10^\\circ)}{\\sin(120^\\circ)} = \\frac{25 \\times 0.173\\,648}{0.866\\,025} \\approx 5.0128$$",
+              "So $c \\approx 5.01$ m.",
+              "Check with the cosine rule: $a^2 = b^2 + c^2 - 2bc\\cos(A) = 22.1138^2 + 5.0128^2 - 2(22.1138)(5.0128)\\cos(120^\\circ) \\approx 489.02 + 25.13 + 110.85 = 625.0$, and $\\sqrt{625} = 25$. Correct."
+            ],
+            "finalAnswer": "Therefore $C = 10^\\circ$, $b \\approx 22.11$ m and $c \\approx 5.01$ m.",
+            "solutionFigures": [],
+            "tip": "Find the third angle first with the angle sum; it saves work and is exact."
+          }
+        },
+        {
+          "id": "ch15_ex8_q4",
+          "number": "4",
+          "category": null,
+          "questionText": "Calculate the value of $x$, correct to 2 decimal places. The diagram shows a triangle with two sides of 4.5 cm and 2.8 cm meeting at the left vertex, where the angle between them is $54^\\circ$. The third side, opposite the $54^\\circ$ angle, is $x$ cm.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine rule: $$a^2 = b^2 + c^2 - 2bc\\cos(A)$$",
+            "steps": [
+              "Given: two sides 4.5 cm and 2.8 cm with an included angle of $54^\\circ$. Goal: find the third side $x$.",
+              "Two sides and the included angle are known, so we use the cosine rule.",
+              "$$x^2 = 4.5^2 + 2.8^2 - 2 \\times 4.5 \\times 2.8 \\times \\cos(54^\\circ)$$",
+              "$$x^2 = 20.25 + 7.84 - 25.2 \\times 0.587\\,785$$",
+              "$$x^2 = 28.09 - 14.8122 = 13.2778$$",
+              "$$x = \\sqrt{13.2778} \\approx 3.6439$$",
+              "Rounded to 2 decimal places: $x \\approx 3.64$ cm."
+            ],
+            "finalAnswer": "Therefore $x \\approx 3.64$ cm (2 decimal places).",
+            "solutionFigures": [],
+            "tip": "Do the multiplication $2bc\\cos(A)$ before subtracting; a common error is to compute $(b^2 + c^2 - 2bc)\\cos(A)$."
+          }
+        },
+        {
+          "id": "ch15_ex8_q5",
+          "number": "5",
+          "category": null,
+          "questionText": "Calculate the value of $\\theta$, correct to the nearest degree. The diagram shows a triangle with sides 6 cm, 6 cm and 10 cm. The angle $\\theta$ is at the bottom-left vertex, between the 6 cm side and the 10 cm side. The other 6 cm side is opposite $\\theta$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine rule for an angle: $$\\cos(A) = \\frac{b^2 + c^2 - a^2}{2bc}$$",
+            "steps": [
+              "Given: the sides next to $\\theta$ are 6 cm and 10 cm; the side opposite $\\theta$ is 6 cm. Goal: find $\\theta$.",
+              "Three sides are known, so we use the cosine rule rearranged for an angle.",
+              "$$\\cos(\\theta) = \\frac{6^2 + 10^2 - 6^2}{2 \\times 6 \\times 10}$$",
+              "$$\\cos(\\theta) = \\frac{36 + 100 - 36}{120} = \\frac{100}{120} = 0.8333$$",
+              "$$\\theta = \\cos^{-1}(0.8333) \\approx 33.56^\\circ$$",
+              "Rounded to the nearest degree: $\\theta \\approx 34^\\circ$.",
+              "Check: the triangle is isosceles (two 6 cm sides), so a perpendicular from the top vertex bisects the 10 cm side into 5 cm halves, and $\\cos(\\theta) = \\frac{5}{6} = 0.8333$. Same result."
+            ],
+            "finalAnswer": "Therefore $\\theta \\approx 34^\\circ$ (nearest degree).",
+            "solutionFigures": [],
+            "tip": "The side in the subtracted term ($a^2$) must be the side opposite the angle you are finding."
+          }
+        },
+        {
+          "id": "ch15_ex8_q6",
+          "number": "6",
+          "category": null,
+          "questionText": "A triangle has sides of length 12 m, 15 m and 20 m. Calculate the magnitude (size) of the largest angle, correct to the nearest minute.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine rule for an angle: $$\\cos(C) = \\frac{a^2 + b^2 - c^2}{2ab}$$",
+            "steps": [
+              "Given: sides 12 m, 15 m and 20 m. Goal: the largest angle.",
+              "The largest angle is opposite the longest side, so let $c = 20$, $a = 12$, $b = 15$ and find $C$.",
+              "$$\\cos(C) = \\frac{12^2 + 15^2 - 20^2}{2 \\times 12 \\times 15}$$",
+              "$$\\cos(C) = \\frac{144 + 225 - 400}{360} = \\frac{-31}{360} \\approx -0.086\\,111$$",
+              "$$C = \\cos^{-1}(-0.086\\,111) \\approx 94.9399^\\circ$$",
+              "The negative cosine tells us the angle is obtuse.",
+              "Convert to minutes: $0.9399 \\times 60 \\approx 56.4'$, so $C \\approx 94^\\circ 56'$."
+            ],
+            "finalAnswer": "Therefore the largest angle is approximately $94^\\circ 56'$.",
+            "solutionFigures": [],
+            "tip": "The cosine rule handles obtuse angles automatically: a negative cosine gives an angle above $90^\\circ$."
+          }
+        },
+        {
+          "id": "ch15_ex8_q7a",
+          "number": "7(a)",
+          "category": null,
+          "questionText": "A triangle has two sides of 18 cm and 25 cm. The angle between the two sides is $45^\\circ$. Calculate its area, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a triangle: $$\\text{Area} = \\frac{1}{2}ab\\sin(C)$$ where $C$ is the angle between sides $a$ and $b$.",
+            "steps": [
+              "Given: $a = 18$ cm, $b = 25$ cm, included angle $C = 45^\\circ$. Goal: the area.",
+              "$$\\text{Area} = \\frac{1}{2} \\times 18 \\times 25 \\times \\sin(45^\\circ)$$",
+              "$$\\text{Area} = 225 \\times 0.707\\,107 \\approx 159.099$$",
+              "Rounded to 2 decimal places: $159.10\\text{ cm}^2$."
+            ],
+            "finalAnswer": "Therefore the area is approximately $159.10\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "The angle in the area formula must be the one between the two sides you use."
+          }
+        },
+        {
+          "id": "ch15_ex8_q7b",
+          "number": "7(b)",
+          "category": null,
+          "questionText": "A triangle has two sides of 18 cm and 25 cm. The angle between the two sides is $45^\\circ$. Calculate the length of its third side, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine rule: $$c^2 = a^2 + b^2 - 2ab\\cos(C)$$",
+            "steps": [
+              "Given: $a = 18$ cm, $b = 25$ cm, included angle $C = 45^\\circ$. Goal: the third side $c$.",
+              "$$c^2 = 18^2 + 25^2 - 2 \\times 18 \\times 25 \\times \\cos(45^\\circ)$$",
+              "$$c^2 = 324 + 625 - 900 \\times 0.707\\,107$$",
+              "$$c^2 = 949 - 636.396 = 312.604$$",
+              "$$c = \\sqrt{312.604} \\approx 17.6806$$",
+              "Rounded to 2 decimal places: $c \\approx 17.68$ cm."
+            ],
+            "finalAnswer": "Therefore the third side is approximately $17.68$ cm.",
+            "solutionFigures": [],
+            "tip": "Keep your calculator in degree mode; in radian mode $\\cos(45)$ gives a completely different value."
+          }
+        },
+        {
+          "id": "ch15_ex8_q8",
+          "number": "8",
+          "category": null,
+          "questionText": "If an angle of $\\theta = 290^\\circ$ was represented on the unit circle, state which quadrant the triangle to show this would be drawn in.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadrants: Q1 $0^\\circ$ to $90^\\circ$, Q2 $90^\\circ$ to $180^\\circ$, Q3 $180^\\circ$ to $270^\\circ$, Q4 $270^\\circ$ to $360^\\circ$ (measured anticlockwise from the positive $x$-axis).",
+            "steps": [
+              "Given: $\\theta = 290^\\circ$. Goal: its quadrant.",
+              "$270^\\circ < 290^\\circ < 360^\\circ$.",
+              "So the terminal ray lies in the 4th quadrant, $20^\\circ$ below the positive $x$-axis (reference angle $360^\\circ - 290^\\circ = 70^\\circ$)."
+            ],
+            "finalAnswer": "The triangle would be drawn in the 4th quadrant.",
+            "solutionFigures": [],
+            "tip": "Angles on the unit circle are measured anticlockwise from the positive $x$-axis."
+          }
+        },
+        {
+          "id": "ch15_ex8_q9a",
+          "number": "9(a)",
+          "category": null,
+          "questionText": "On the unit circle, draw an appropriate triangle for the angle $110^\\circ$ in quadrant 2. Determine the value of $\\sin(110^\\circ)$ and $\\cos(110^\\circ)$, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "On the unit circle, the point at angle $\\theta$ is $(\\cos(\\theta), \\sin(\\theta))$. In quadrant 2: $\\sin(180^\\circ - \\theta) = \\sin(\\theta)$ and $\\cos(180^\\circ - \\theta) = -\\cos(\\theta)$.",
+            "steps": [
+              "Given: $\\theta = 110^\\circ$ (quadrant 2). Goal: $\\sin(110^\\circ)$ and $\\cos(110^\\circ)$.",
+              "Draw the radius of length 1 from the origin at $110^\\circ$. Drop a perpendicular from its end point P to the negative $x$-axis. The triangle has hypotenuse 1 and an angle of $180^\\circ - 110^\\circ = 70^\\circ$ at the origin.",
+              "Vertical side (the $y$-coordinate of P): $\\sin(110^\\circ) = \\sin(70^\\circ) \\approx 0.9397$.",
+              "Horizontal side is to the left of the origin, so the $x$-coordinate is negative: $\\cos(110^\\circ) = -\\cos(70^\\circ) \\approx -0.3420$.",
+              "Rounded to 2 decimal places: $\\sin(110^\\circ) \\approx 0.94$, $\\cos(110^\\circ) \\approx -0.34$.",
+              "Check: $0.9397^2 + (-0.3420)^2 = 0.8830 + 0.1170 = 1$, as required by $\\sin^2\\theta + \\cos^2\\theta = 1$."
+            ],
+            "finalAnswer": "$\\sin(110^\\circ) \\approx 0.94$ and $\\cos(110^\\circ) \\approx -0.34$.",
+            "solutionFigures": [],
+            "tip": "In quadrant 2 sine is positive but cosine is negative."
+          }
+        },
+        {
+          "id": "ch15_ex8_q9b",
+          "number": "9(b)",
+          "category": null,
+          "questionText": "On the unit circle, draw an appropriate triangle for the angle $110^\\circ$ in quadrant 2. Determine the value of $\\tan(110^\\circ)$, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$$\\tan(\\theta) = \\frac{\\sin(\\theta)}{\\cos(\\theta)}$$ and in quadrant 2, $\\tan(180^\\circ - \\theta) = -\\tan(\\theta)$.",
+            "steps": [
+              "Given: $\\theta = 110^\\circ$, with $\\sin(110^\\circ) \\approx 0.9397$ and $\\cos(110^\\circ) \\approx -0.3420$. Goal: $\\tan(110^\\circ)$.",
+              "$$\\tan(110^\\circ) = \\frac{\\sin(110^\\circ)}{\\cos(110^\\circ)} = \\frac{0.939\\,693}{-0.342\\,020} \\approx -2.7475$$",
+              "Check: $\\tan(110^\\circ) = -\\tan(70^\\circ) = -2.7475$.",
+              "Rounded to 2 decimal places: $-2.75$."
+            ],
+            "finalAnswer": "$\\tan(110^\\circ) \\approx -2.75$.",
+            "solutionFigures": [],
+            "tip": "Use unrounded sine and cosine values when dividing, or the second decimal place may be wrong."
+          }
+        },
+        {
+          "id": "ch15_ex8_q10",
+          "number": "10",
+          "category": null,
+          "questionText": "MC The value of $\\sin(53^\\circ)$ is equal to: A. $\\cos(53^\\circ)$ B. $\\cos(37^\\circ)$ C. $\\sin(37^\\circ)$ D. $\\tan(53^\\circ)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Complementary angles: $$\\sin(\\theta) = \\cos(90^\\circ - \\theta)$$",
+            "steps": [
+              "Given: $\\sin(53^\\circ)$. Goal: an equal expression.",
+              "$$\\sin(53^\\circ) = \\cos(90^\\circ - 53^\\circ) = \\cos(37^\\circ)$$",
+              "Check: $\\sin(53^\\circ) \\approx 0.7986$ and $\\cos(37^\\circ) \\approx 0.7986$."
+            ],
+            "finalAnswer": "The answer is B: $\\cos(37^\\circ)$.",
+            "solutionFigures": [],
+            "tip": "Sine of an angle equals cosine of its complement, because in a right triangle they describe the same side."
+          }
+        },
+        {
+          "id": "ch15_ex8_q11",
+          "number": "11",
+          "category": null,
+          "questionText": "Simplify $\\dfrac{\\sin(53^\\circ)}{\\sin(37^\\circ)}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = \\cos(90^\\circ - \\theta)$ and $$\\tan(\\theta) = \\frac{\\sin(\\theta)}{\\cos(\\theta)}$$",
+            "steps": [
+              "Given: $\\frac{\\sin(53^\\circ)}{\\sin(37^\\circ)}$. Goal: simplify.",
+              "Since $37^\\circ = 90^\\circ - 53^\\circ$: $\\sin(37^\\circ) = \\cos(53^\\circ)$.",
+              "$$\\frac{\\sin(53^\\circ)}{\\sin(37^\\circ)} = \\frac{\\sin(53^\\circ)}{\\cos(53^\\circ)} = \\tan(53^\\circ)$$",
+              "Check: $\\frac{0.7986}{0.6018} \\approx 1.327$ and $\\tan(53^\\circ) \\approx 1.327$."
+            ],
+            "finalAnswer": "$\\dfrac{\\sin(53^\\circ)}{\\sin(37^\\circ)} = \\tan(53^\\circ)$.",
+            "solutionFigures": [],
+            "tip": "Look for angles that add to $90^\\circ$; they let you swap sine for cosine."
+          }
+        },
+        {
+          "id": "ch15_ex8_q12",
+          "number": "12",
+          "category": null,
+          "questionText": "Draw a sketch of $y = \\sin(x)$ from $0^\\circ \\le x \\le 360^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\sin(x)$ has amplitude 1 and period $360^\\circ$; it starts at the origin and rises first.",
+            "steps": [
+              "Goal: sketch $y = \\sin(x)$ for $0^\\circ \\le x \\le 360^\\circ$.",
+              "Key points: $(0^\\circ, 0)$, $(90^\\circ, 1)$, $(180^\\circ, 0)$, $(270^\\circ, -1)$, $(360^\\circ, 0)$.",
+              "Plot these points and join them with a smooth wave: rising from 0 to a maximum of 1 at $90^\\circ$, back through 0 at $180^\\circ$, down to a minimum of $-1$ at $270^\\circ$, and back to 0 at $360^\\circ$.",
+              "Label the axes, the $x$-intercepts and the maximum and minimum values."
+            ],
+            "finalAnswer": "A smooth wave through $(0^\\circ, 0)$, $(90^\\circ, 1)$, $(180^\\circ, 0)$, $(270^\\circ, -1)$ and $(360^\\circ, 0)$.",
+            "solutionFigures": [],
+            "tip": "Draw a smooth curve, not straight-line zigzags, and keep the peaks rounded."
+          }
+        },
+        {
+          "id": "ch15_ex8_q13",
+          "number": "13",
+          "category": null,
+          "questionText": "Draw a sketch of $y = \\cos(x)$ from $0^\\circ \\le x \\le 360^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = \\cos(x)$ has amplitude 1 and period $360^\\circ$; it starts at its maximum of 1.",
+            "steps": [
+              "Goal: sketch $y = \\cos(x)$ for $0^\\circ \\le x \\le 360^\\circ$.",
+              "Key points: $(0^\\circ, 1)$, $(90^\\circ, 0)$, $(180^\\circ, -1)$, $(270^\\circ, 0)$, $(360^\\circ, 1)$.",
+              "Join with a smooth wave: falling from 1 through 0 at $90^\\circ$ to a minimum of $-1$ at $180^\\circ$, then rising through 0 at $270^\\circ$ back to 1 at $360^\\circ$.",
+              "Label the axes, the $x$-intercepts ($90^\\circ$, $270^\\circ$) and the maximum and minimum values."
+            ],
+            "finalAnswer": "A smooth wave through $(0^\\circ, 1)$, $(90^\\circ, 0)$, $(180^\\circ, -1)$, $(270^\\circ, 0)$ and $(360^\\circ, 1)$.",
+            "solutionFigures": [],
+            "tip": "The cosine graph is the sine graph shifted $90^\\circ$ to the left, so it starts at the top."
+          }
+        },
+        {
+          "id": "ch15_ex8_q14",
+          "number": "14",
+          "category": null,
+          "questionText": "Draw a sketch of $y = \\tan(x)$ from $0^\\circ \\le x \\le 360^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$$\\tan(x) = \\frac{\\sin(x)}{\\cos(x)}$$ has period $180^\\circ$ and vertical asymptotes where $\\cos(x) = 0$.",
+            "steps": [
+              "Goal: sketch $y = \\tan(x)$ for $0^\\circ \\le x \\le 360^\\circ$.",
+              "Asymptotes: $\\cos(x) = 0$ at $x = 90^\\circ$ and $x = 270^\\circ$. Draw these as dashed vertical lines.",
+              "$x$-intercepts: $\\sin(x) = 0$ at $x = 0^\\circ, 180^\\circ, 360^\\circ$.",
+              "Other points: $(45^\\circ, 1)$, $(135^\\circ, -1)$, $(225^\\circ, 1)$, $(315^\\circ, -1)$.",
+              "From $0^\\circ$ the curve rises through $(45^\\circ, 1)$ and shoots up towards the asymptote at $90^\\circ$. It comes up from below on the other side, passes through $(135^\\circ, -1)$ and $(180^\\circ, 0)$ and rises towards $270^\\circ$. The same shape repeats, ending at $(360^\\circ, 0)$."
+            ],
+            "finalAnswer": "An increasing curve in each branch, through $(0^\\circ, 0)$, $(180^\\circ, 0)$, $(360^\\circ, 0)$, with vertical asymptotes at $x = 90^\\circ$ and $x = 270^\\circ$.",
+            "solutionFigures": [],
+            "tip": "The tangent graph never touches its asymptotes and has no maximum or minimum, so it has no amplitude."
+          }
+        },
+        {
+          "id": "ch15_ex8_q15",
+          "number": "15",
+          "category": null,
+          "questionText": "Label the triangle shown so that $\\dfrac{x}{\\sin(46^\\circ)} = \\dfrac{y}{\\sin(68^\\circ)}$. The diagram shows triangle ABC with A on the left, B at the top right and C at the bottom right; no sides or angles are marked.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule: $$\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)} = \\frac{c}{\\sin(C)}$$ where each side is opposite its angle.",
+            "steps": [
+              "Goal: place $x$, $y$, $46^\\circ$ and $68^\\circ$ so the given equation is a sine rule.",
+              "In the sine rule each side is divided by the sine of the angle opposite it. So $x$ must be opposite the $46^\\circ$ angle and $y$ must be opposite the $68^\\circ$ angle.",
+              "One labelling: put $46^\\circ$ at A and $68^\\circ$ at C.",
+              "The side opposite A is BC, so label BC as $x$.",
+              "The side opposite C is AB, so label AB as $y$.",
+              "Then angle B $= 180^\\circ - 46^\\circ - 68^\\circ = 66^\\circ$, and $\\frac{x}{\\sin(46^\\circ)} = \\frac{y}{\\sin(68^\\circ)}$ holds."
+            ],
+            "finalAnswer": "Angle A $= 46^\\circ$, angle C $= 68^\\circ$, side BC $= x$ and side AB $= y$ (any labelling with $x$ opposite $46^\\circ$ and $y$ opposite $68^\\circ$ is correct).",
+            "solutionFigures": [],
+            "tip": "The opposite side is the one that does not touch the angle's vertex."
+          }
+        },
+        {
+          "id": "ch15_ex8_q16a",
+          "number": "16(a)",
+          "category": null,
+          "questionText": "State the period and amplitude of the graph of $y = 2\\sin(3x)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a\\sin(nx)$ or $y = a\\cos(nx)$: amplitude $= |a|$, period $= \\dfrac{360^\\circ}{n}$.",
+            "steps": [
+              "Given: $y = 2\\sin(3x)$, so $a = 2$ and $n = 3$.",
+              "Period $= \\frac{360^\\circ}{3} = 120^\\circ$.",
+              "Amplitude $= |2| = 2$."
+            ],
+            "finalAnswer": "Period $= 120^\\circ$, amplitude $= 2$.",
+            "solutionFigures": [],
+            "tip": "The number multiplying $x$ changes the period, not the height."
+          }
+        },
+        {
+          "id": "ch15_ex8_q16b",
+          "number": "16(b)",
+          "category": null,
+          "questionText": "State the period and amplitude of the graph of $y = -3\\cos(2x)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a\\cos(nx)$: amplitude $= |a|$, period $= \\dfrac{360^\\circ}{n}$.",
+            "steps": [
+              "Given: $y = -3\\cos(2x)$, so $a = -3$ and $n = 2$.",
+              "Period $= \\frac{360^\\circ}{2} = 180^\\circ$.",
+              "Amplitude $= |-3| = 3$. The negative sign only reflects the graph in the $x$-axis."
+            ],
+            "finalAnswer": "Period $= 180^\\circ$, amplitude $= 3$.",
+            "solutionFigures": [],
+            "tip": "Amplitude is a distance, so it is never negative."
+          }
+        },
+        {
+          "id": "ch15_ex8_q16c",
+          "number": "16(c)",
+          "category": null,
+          "questionText": "State the period and amplitude of the graph shown. The graph is a wave on $0^\\circ \\le x \\le 360^\\circ$ that starts at $(0^\\circ, 1)$, falls to a minimum of $-1$ at $90^\\circ$, rises to a maximum of 1 at $180^\\circ$, falls to $-1$ at $270^\\circ$ and returns to 1 at $360^\\circ$. The $y$-axis is marked at $1$ and $-1$; the $x$-axis is marked at $90^\\circ$, $180^\\circ$ and $360^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Period = horizontal length of one full cycle; amplitude = (maximum $-$ minimum)$\\div 2$.",
+            "steps": [
+              "Read the graph: maximum $= 1$, minimum $= -1$.",
+              "Amplitude $= \\frac{1 - (-1)}{2} = 1$.",
+              "One full cycle goes from the maximum at $0^\\circ$ to the next maximum at $180^\\circ$.",
+              "Period $= 180^\\circ - 0^\\circ = 180^\\circ$. (The graph is $y = \\cos(2x)$.)"
+            ],
+            "finalAnswer": "Period $= 180^\\circ$, amplitude $= 1$.",
+            "solutionFigures": [],
+            "tip": "Measure the period from one maximum to the next, not from a maximum to a minimum."
+          }
+        },
+        {
+          "id": "ch15_ex8_q17a",
+          "number": "17(a)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = 2\\sin(x)$, $x \\in [0^\\circ, 360^\\circ]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a\\sin(nx)$: amplitude $= |a|$, period $= \\dfrac{360^\\circ}{n}$.",
+            "steps": [
+              "Given: $a = 2$, $n = 1$. Amplitude $= 2$, period $= 360^\\circ$.",
+              "Key points: $(0^\\circ, 0)$, $(90^\\circ, 2)$, $(180^\\circ, 0)$, $(270^\\circ, -2)$, $(360^\\circ, 0)$.",
+              "Join with a smooth sine wave that reaches 2 at the top and $-2$ at the bottom."
+            ],
+            "finalAnswer": "A sine wave through $(0^\\circ, 0)$, maximum $(90^\\circ, 2)$, $(180^\\circ, 0)$, minimum $(270^\\circ, -2)$, $(360^\\circ, 0)$.",
+            "solutionFigures": [],
+            "tip": "Multiplying by 2 stretches the graph vertically; the $x$-intercepts stay the same."
+          }
+        },
+        {
+          "id": "ch15_ex8_q17b",
+          "number": "17(b)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = \\cos(2x)$, $x \\in [-180^\\circ, 180^\\circ]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a\\cos(nx)$: amplitude $= |a|$, period $= \\dfrac{360^\\circ}{n}$.",
+            "steps": [
+              "Given: $a = 1$, $n = 2$. Amplitude $= 1$, period $= \\frac{360^\\circ}{2} = 180^\\circ$.",
+              "Quarter period $= 45^\\circ$, so plot points every $45^\\circ$.",
+              "Key points: $(-180^\\circ, 1)$, $(-135^\\circ, 0)$, $(-90^\\circ, -1)$, $(-45^\\circ, 0)$, $(0^\\circ, 1)$, $(45^\\circ, 0)$, $(90^\\circ, -1)$, $(135^\\circ, 0)$, $(180^\\circ, 1)$.",
+              "Join with a smooth wave: two full cycles over the domain."
+            ],
+            "finalAnswer": "A cosine wave with maxima of 1 at $x = -180^\\circ, 0^\\circ, 180^\\circ$, minima of $-1$ at $x = -90^\\circ, 90^\\circ$, and $x$-intercepts at $\\pm 45^\\circ$ and $\\pm 135^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Split the period into quarters to find where the maxima, minima and intercepts fall."
+          }
+        },
+        {
+          "id": "ch15_ex8_q18a",
+          "number": "18(a)",
+          "category": null,
+          "questionText": "Use technology to write down the solutions to the equation $\\sin(x) = -0.2$ for the domain $0^\\circ \\le x \\le 360^\\circ$, to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Reference angle $\\alpha = \\sin^{-1}(0.2)$; sine is negative in quadrants 3 and 4, so $x = 180^\\circ + \\alpha$ or $x = 360^\\circ - \\alpha$.",
+            "steps": [
+              "Given: $\\sin(x) = -0.2$, $0^\\circ \\le x \\le 360^\\circ$.",
+              "Reference angle: $\\alpha = \\sin^{-1}(0.2) \\approx 11.537^\\circ$ (degree mode).",
+              "Quadrant 3: $x = 180^\\circ + 11.537^\\circ = 191.537^\\circ$.",
+              "Quadrant 4: $x = 360^\\circ - 11.537^\\circ = 348.463^\\circ$.",
+              "Rounded: $x = 191.54^\\circ, 348.46^\\circ$."
+            ],
+            "finalAnswer": "$x \\approx 191.54^\\circ$ or $x \\approx 348.46^\\circ$.",
+            "solutionFigures": [],
+            "tip": "A calculator gives only $\\sin^{-1}(-0.2) = -11.54^\\circ$, which is outside the domain; use the reference angle and quadrants instead."
+          }
+        },
+        {
+          "id": "ch15_ex8_q18b",
+          "number": "18(b)",
+          "category": null,
+          "questionText": "Use technology to write down the solutions to the equation $\\cos(2x) = 0.7$ for the domain $0^\\circ \\le x \\le 360^\\circ$, to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Reference angle $\\alpha = \\cos^{-1}(0.7)$; cosine is positive in quadrants 1 and 4. For $\\cos(2x)$, solve for $2x$ over $[0^\\circ, 720^\\circ]$.",
+            "steps": [
+              "Given: $\\cos(2x) = 0.7$, $0^\\circ \\le x \\le 360^\\circ$, so $0^\\circ \\le 2x \\le 720^\\circ$.",
+              "Reference angle: $\\alpha = \\cos^{-1}(0.7) \\approx 45.573^\\circ$.",
+              "First revolution: $2x = 45.573^\\circ$ or $2x = 360^\\circ - 45.573^\\circ = 314.427^\\circ$.",
+              "Second revolution (add $360^\\circ$): $2x = 405.573^\\circ$ or $2x = 674.427^\\circ$.",
+              "Divide by 2: $x = 22.787^\\circ, 157.213^\\circ, 202.787^\\circ, 337.213^\\circ$.",
+              "Rounded: $x = 22.79^\\circ, 157.21^\\circ, 202.79^\\circ, 337.21^\\circ$."
+            ],
+            "finalAnswer": "$x \\approx 22.79^\\circ, 157.21^\\circ, 202.79^\\circ, 337.21^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Double the domain before solving for $2x$, or you will miss half the solutions."
+          }
+        },
+        {
+          "id": "ch15_ex8_q18c",
+          "number": "18(c)",
+          "category": null,
+          "questionText": "Use technology to write down the solutions to the equation $3\\cos(x) = 0.1$ for the domain $0^\\circ \\le x \\le 360^\\circ$, to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Make $\\cos(x)$ the subject, then use the reference angle; cosine is positive in quadrants 1 and 4: $x = \\alpha$ or $x = 360^\\circ - \\alpha$.",
+            "steps": [
+              "Given: $3\\cos(x) = 0.1$.",
+              "Divide by 3: $\\cos(x) = \\frac{0.1}{3} = \\frac{1}{30} \\approx 0.033\\,33$.",
+              "Reference angle: $\\alpha = \\cos^{-1}\\left(\\frac{1}{30}\\right) \\approx 88.090^\\circ$.",
+              "Quadrant 1: $x = 88.090^\\circ$. Quadrant 4: $x = 360^\\circ - 88.090^\\circ = 271.910^\\circ$.",
+              "Rounded: $x = 88.09^\\circ, 271.91^\\circ$."
+            ],
+            "finalAnswer": "$x \\approx 88.09^\\circ$ or $x \\approx 271.91^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Isolate the trig function before taking the inverse."
+          }
+        },
+        {
+          "id": "ch15_ex8_q18d",
+          "number": "18(d)",
+          "category": null,
+          "questionText": "Use technology to write down the solutions to the equation $2\\tan(2x) = 0.5$ for the domain $0^\\circ \\le x \\le 360^\\circ$, to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Tangent has period $180^\\circ$: if $\\tan(\\theta) = k$ then $\\theta = \\tan^{-1}(k) + 180^\\circ n$.",
+            "steps": [
+              "Given: $2\\tan(2x) = 0.5$, so $\\tan(2x) = 0.25$.",
+              "Since $0^\\circ \\le x \\le 360^\\circ$, we need $0^\\circ \\le 2x \\le 720^\\circ$.",
+              "Reference angle: $\\tan^{-1}(0.25) \\approx 14.036^\\circ$.",
+              "Tangent is positive in quadrants 1 and 3, repeating every $180^\\circ$: $2x = 14.036^\\circ, 194.036^\\circ, 374.036^\\circ, 554.036^\\circ$.",
+              "Divide by 2: $x = 7.018^\\circ, 97.018^\\circ, 187.018^\\circ, 277.018^\\circ$.",
+              "Rounded: $x = 7.02^\\circ, 97.02^\\circ, 187.02^\\circ, 277.02^\\circ$."
+            ],
+            "finalAnswer": "$x \\approx 7.02^\\circ, 97.02^\\circ, 187.02^\\circ, 277.02^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Tangent repeats every $180^\\circ$, not $360^\\circ$, so add $180^\\circ$ each time."
+          }
+        },
+        {
+          "id": "ch15_ex8_q19a",
+          "number": "19(a)",
+          "category": null,
+          "questionText": "Solve $\\sin(x) = \\dfrac{1}{2}$, $x \\in [0^\\circ, 360^\\circ]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Exact value $\\sin(30^\\circ) = \\frac{1}{2}$; sine is positive in quadrants 1 and 2: $x = \\alpha$ or $180^\\circ - \\alpha$.",
+            "steps": [
+              "Given: $\\sin(x) = \\frac{1}{2}$.",
+              "Reference angle: $\\alpha = 30^\\circ$.",
+              "Quadrant 1: $x = 30^\\circ$. Quadrant 2: $x = 180^\\circ - 30^\\circ = 150^\\circ$."
+            ],
+            "finalAnswer": "$x = 30^\\circ$ or $x = 150^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Use the CAST rule to find which quadrants give the right sign."
+          }
+        },
+        {
+          "id": "ch15_ex8_q19b",
+          "number": "19(b)",
+          "category": null,
+          "questionText": "Solve $\\cos(x) = \\dfrac{\\sqrt{3}}{2}$, $x \\in [0^\\circ, 360^\\circ]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Exact value $\\cos(30^\\circ) = \\frac{\\sqrt{3}}{2}$; cosine is positive in quadrants 1 and 4: $x = \\alpha$ or $360^\\circ - \\alpha$.",
+            "steps": [
+              "Given: $\\cos(x) = \\frac{\\sqrt{3}}{2}$.",
+              "Reference angle: $\\alpha = 30^\\circ$.",
+              "Quadrant 1: $x = 30^\\circ$. Quadrant 4: $x = 360^\\circ - 30^\\circ = 330^\\circ$."
+            ],
+            "finalAnswer": "$x = 30^\\circ$ or $x = 330^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Cosine is positive in quadrants 1 and 4, not 1 and 2."
+          }
+        },
+        {
+          "id": "ch15_ex8_q19c",
+          "number": "19(c)",
+          "category": null,
+          "questionText": "Solve $\\cos(x) = \\dfrac{1}{\\sqrt{2}}$, $x \\in [0^\\circ, 360^\\circ]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Exact value $\\cos(45^\\circ) = \\frac{1}{\\sqrt{2}}$; cosine is positive in quadrants 1 and 4.",
+            "steps": [
+              "Given: $\\cos(x) = \\frac{1}{\\sqrt{2}}$.",
+              "Reference angle: $\\alpha = 45^\\circ$.",
+              "Quadrant 1: $x = 45^\\circ$. Quadrant 4: $x = 360^\\circ - 45^\\circ = 315^\\circ$."
+            ],
+            "finalAnswer": "$x = 45^\\circ$ or $x = 315^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Remember $\\frac{1}{\\sqrt{2}} = \\frac{\\sqrt{2}}{2}$; both are the exact value for $45^\\circ$."
+          }
+        },
+        {
+          "id": "ch15_ex8_q19d",
+          "number": "19(d)",
+          "category": null,
+          "questionText": "Solve $\\sin(x) = \\dfrac{1}{\\sqrt{2}}$, $x \\in [0^\\circ, 360^\\circ]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Exact value $\\sin(45^\\circ) = \\frac{1}{\\sqrt{2}}$; sine is positive in quadrants 1 and 2.",
+            "steps": [
+              "Given: $\\sin(x) = \\frac{1}{\\sqrt{2}}$.",
+              "Reference angle: $\\alpha = 45^\\circ$.",
+              "Quadrant 1: $x = 45^\\circ$. Quadrant 2: $x = 180^\\circ - 45^\\circ = 135^\\circ$."
+            ],
+            "finalAnswer": "$x = 45^\\circ$ or $x = 135^\\circ$.",
+            "solutionFigures": [],
+            "tip": "For quadrant 2 subtract the reference angle from $180^\\circ$."
+          }
+        },
+        {
+          "id": "ch15_ex8_q20",
+          "number": "20",
+          "category": null,
+          "questionText": "MC The equation that represents the graph shown could be: A. $y = 3\\sin(2x)$ B. $y = 2\\cos(3x)$ C. $y = 3\\cos(2x)$ D. $y = 2\\sin(3x)$. The graph starts at the origin, rises to a maximum of 2 at $x = 30^\\circ$, crosses the $x$-axis at $60^\\circ$, falls to a minimum of $-2$ at $90^\\circ$, crosses the $x$-axis again at $120^\\circ$ and rises towards 2. The $y$-axis runs from $-3$ to 3.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a\\sin(nx)$: amplitude $= |a|$, period $= \\dfrac{360^\\circ}{n}$.",
+            "steps": [
+              "The graph passes through the origin and rises first, so it is a sine graph (not cosine, which starts at its maximum). This rules out B and C.",
+              "Maximum $= 2$, minimum $= -2$, so amplitude $= 2$. This rules out A.",
+              "One full cycle runs from $0^\\circ$ to $120^\\circ$, so period $= 120^\\circ$.",
+              "$\\frac{360^\\circ}{n} = 120^\\circ \\Rightarrow n = 3$.",
+              "Equation: $y = 2\\sin(3x)$."
+            ],
+            "finalAnswer": "The answer is D: $y = 2\\sin(3x)$.",
+            "solutionFigures": [],
+            "tip": "Check the starting point first: sine starts at 0, cosine starts at its maximum."
+          }
+        },
+        {
+          "id": "ch15_ex8_q21a",
+          "number": "21(a)",
+          "category": null,
+          "questionText": "Use technology to help sketch the graph of $y = 2\\sin(2x) - 3$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a\\sin(nx) + k$: amplitude $|a|$, period $\\dfrac{360^\\circ}{n}$, centre line $y = k$.",
+            "steps": [
+              "Given: $a = 2$, $n = 2$, $k = -3$. Amplitude 2, period $180^\\circ$, the graph is shifted down 3 units.",
+              "Centre line $y = -3$; maximum $= -3 + 2 = -1$; minimum $= -3 - 2 = -5$.",
+              "Key points for $0^\\circ \\le x \\le 360^\\circ$: $(0^\\circ, -3)$, $(45^\\circ, -1)$, $(90^\\circ, -3)$, $(135^\\circ, -5)$, $(180^\\circ, -3)$, $(225^\\circ, -1)$, $(270^\\circ, -3)$, $(315^\\circ, -5)$, $(360^\\circ, -3)$.",
+              "Join with a smooth wave lying entirely below the $x$-axis, between $y = -5$ and $y = -1$."
+            ],
+            "finalAnswer": "A sine wave with centre line $y = -3$, maxima of $-1$ at $45^\\circ$ and $225^\\circ$, minima of $-5$ at $135^\\circ$ and $315^\\circ$, passing through $(0^\\circ, -3)$, $(90^\\circ, -3)$, $(180^\\circ, -3)$, $(270^\\circ, -3)$, $(360^\\circ, -3)$.",
+            "solutionFigures": [],
+            "tip": "The $-3$ moves the whole graph down; it does not change the amplitude."
+          }
+        },
+        {
+          "id": "ch15_ex8_q21b",
+          "number": "21(b)",
+          "category": null,
+          "questionText": "Write down the period and the amplitude of the graph of $y = 2\\sin(2x) - 3$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a\\sin(nx) + k$: amplitude $= |a|$, period $= \\dfrac{360^\\circ}{n}$.",
+            "steps": [
+              "Given: $a = 2$, $n = 2$.",
+              "Period $= \\frac{360^\\circ}{2} = 180^\\circ$.",
+              "Amplitude $= |2| = 2$ (check: $\\frac{\\max - \\min}{2} = \\frac{-1 - (-5)}{2} = 2$)."
+            ],
+            "finalAnswer": "Period $= 180^\\circ$, amplitude $= 2$.",
+            "solutionFigures": [],
+            "tip": "A vertical shift never changes the period or amplitude."
+          }
+        },
+        {
+          "id": "ch15_ex8_q22a",
+          "number": "22(a)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = 2\\cos(2x)$, $x \\in [0^\\circ, 360^\\circ]$, stating: i. the period ii. the amplitude.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a\\cos(nx)$: amplitude $= |a|$, period $= \\dfrac{360^\\circ}{n}$.",
+            "steps": [
+              "Given: $a = 2$, $n = 2$.",
+              "i. Period $= \\frac{360^\\circ}{2} = 180^\\circ$.",
+              "ii. Amplitude $= 2$.",
+              "Quarter period $= 45^\\circ$. Key points: $(0^\\circ, 2)$, $(45^\\circ, 0)$, $(90^\\circ, -2)$, $(135^\\circ, 0)$, $(180^\\circ, 2)$, $(225^\\circ, 0)$, $(270^\\circ, -2)$, $(315^\\circ, 0)$, $(360^\\circ, 2)$.",
+              "Join with a smooth wave: two full cycles."
+            ],
+            "finalAnswer": "i. Period $= 180^\\circ$; ii. amplitude $= 2$. The graph has maxima of 2 at $0^\\circ, 180^\\circ, 360^\\circ$ and minima of $-2$ at $90^\\circ, 270^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Mark quarter-period points on the $x$-axis first to place each turning point and intercept."
+          }
+        },
+        {
+          "id": "ch15_ex8_q22b",
+          "number": "22(b)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = 3\\sin(4x)$, $x \\in [0^\\circ, 180^\\circ]$, stating: i. the period ii. the amplitude.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a\\sin(nx)$: amplitude $= |a|$, period $= \\dfrac{360^\\circ}{n}$.",
+            "steps": [
+              "Given: $a = 3$, $n = 4$.",
+              "i. Period $= \\frac{360^\\circ}{4} = 90^\\circ$.",
+              "ii. Amplitude $= 3$.",
+              "Quarter period $= 22.5^\\circ$. Key points: $(0^\\circ, 0)$, $(22.5^\\circ, 3)$, $(45^\\circ, 0)$, $(67.5^\\circ, -3)$, $(90^\\circ, 0)$, $(112.5^\\circ, 3)$, $(135^\\circ, 0)$, $(157.5^\\circ, -3)$, $(180^\\circ, 0)$.",
+              "Join with a smooth wave: two full cycles."
+            ],
+            "finalAnswer": "i. Period $= 90^\\circ$; ii. amplitude $= 3$. The graph has maxima of 3 at $22.5^\\circ, 112.5^\\circ$, minima of $-3$ at $67.5^\\circ, 157.5^\\circ$ and $x$-intercepts every $45^\\circ$.",
+            "solutionFigures": [],
+            "tip": "A larger $n$ squeezes more cycles into the same interval."
+          }
+        },
+        {
+          "id": "ch15_ex8_q22c",
+          "number": "22(c)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = -2\\cos(3x)$, $x \\in [-60^\\circ, 60^\\circ]$, stating: i. the period ii. the amplitude.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a\\cos(nx)$: amplitude $= |a|$, period $= \\dfrac{360^\\circ}{n}$; a negative $a$ reflects the graph in the $x$-axis.",
+            "steps": [
+              "Given: $a = -2$, $n = 3$.",
+              "i. Period $= \\frac{360^\\circ}{3} = 120^\\circ$.",
+              "ii. Amplitude $= |-2| = 2$.",
+              "Because $a$ is negative the graph starts at a minimum at $x = 0^\\circ$.",
+              "Key points: $(-60^\\circ, 2)$, $(-30^\\circ, 0)$, $(0^\\circ, -2)$, $(30^\\circ, 0)$, $(60^\\circ, 2)$. (Check: $x = 60^\\circ$ gives $-2\\cos(180^\\circ) = 2$.)",
+              "Join with a smooth U-shaped wave: one full cycle."
+            ],
+            "finalAnswer": "i. Period $= 120^\\circ$; ii. amplitude $= 2$. The graph has a minimum of $-2$ at $0^\\circ$, maxima of 2 at $\\pm 60^\\circ$ and $x$-intercepts at $\\pm 30^\\circ$.",
+            "solutionFigures": [],
+            "tip": "The negative sign flips the cosine graph upside down, so it starts at its minimum."
+          }
+        },
+        {
+          "id": "ch15_ex8_q22d",
+          "number": "22(d)",
+          "category": null,
+          "questionText": "Sketch the graph of $y = 4\\sin(2x)$, $x \\in [-90^\\circ, 90^\\circ]$, stating: i. the period ii. the amplitude.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a\\sin(nx)$: amplitude $= |a|$, period $= \\dfrac{360^\\circ}{n}$.",
+            "steps": [
+              "Given: $a = 4$, $n = 2$.",
+              "i. Period $= \\frac{360^\\circ}{2} = 180^\\circ$.",
+              "ii. Amplitude $= 4$.",
+              "Key points: $(-90^\\circ, 0)$, $(-45^\\circ, -4)$, $(0^\\circ, 0)$, $(45^\\circ, 4)$, $(90^\\circ, 0)$.",
+              "Join with a smooth wave: one full cycle."
+            ],
+            "finalAnswer": "i. Period $= 180^\\circ$; ii. amplitude $= 4$. The graph has a minimum of $-4$ at $-45^\\circ$, a maximum of 4 at $45^\\circ$ and $x$-intercepts at $-90^\\circ, 0^\\circ, 90^\\circ$.",
+            "solutionFigures": [],
+            "tip": "For negative $x$-values, sine is negative just left of the origin: $\\sin(-\\theta) = -\\sin(\\theta)$."
+          }
+        },
+        {
+          "id": "ch15_ex8_q23a",
+          "number": "23(a)",
+          "category": null,
+          "questionText": "Solve $\\cos(2x) = \\dfrac{\\sqrt{3}}{2}$, $x \\in [0^\\circ, 360^\\circ]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(30^\\circ) = \\frac{\\sqrt{3}}{2}$; cosine is positive in quadrants 1 and 4. Solve for $2x$ over the doubled domain.",
+            "steps": [
+              "Given: $x \\in [0^\\circ, 360^\\circ]$, so $2x \\in [0^\\circ, 720^\\circ]$.",
+              "Reference angle: $30^\\circ$.",
+              "First revolution: $2x = 30^\\circ$ or $2x = 360^\\circ - 30^\\circ = 330^\\circ$.",
+              "Second revolution: $2x = 390^\\circ$ or $2x = 690^\\circ$.",
+              "Divide by 2: $x = 15^\\circ, 165^\\circ, 195^\\circ, 345^\\circ$."
+            ],
+            "finalAnswer": "$x = 15^\\circ, 165^\\circ, 195^\\circ, 345^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Adjust the domain for $2x$ before solving, then divide every answer by 2."
+          }
+        },
+        {
+          "id": "ch15_ex8_q23b",
+          "number": "23(b)",
+          "category": null,
+          "questionText": "Solve $\\sin(3x) = \\dfrac{1}{2}$, $x \\in [-90^\\circ, 90^\\circ]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(30^\\circ) = \\frac{1}{2}$; sine is positive in quadrants 1 and 2. Solve for $3x$ over the tripled domain.",
+            "steps": [
+              "Given: $x \\in [-90^\\circ, 90^\\circ]$, so $3x \\in [-270^\\circ, 270^\\circ]$.",
+              "Reference angle: $30^\\circ$. Basic solutions: $3x = 30^\\circ$ and $3x = 180^\\circ - 30^\\circ = 150^\\circ$.",
+              "Subtract $360^\\circ$ to find solutions in the negative part: $30^\\circ - 360^\\circ = -330^\\circ$ (outside), $150^\\circ - 360^\\circ = -210^\\circ$ (inside).",
+              "So $3x = -210^\\circ, 30^\\circ, 150^\\circ$.",
+              "Divide by 3: $x = -70^\\circ, 10^\\circ, 50^\\circ$.",
+              "Check: $\\sin(3 \\times -70^\\circ) = \\sin(-210^\\circ) = \\frac{1}{2}$. Correct."
+            ],
+            "finalAnswer": "$x = -70^\\circ, 10^\\circ, 50^\\circ$.",
+            "solutionFigures": [],
+            "tip": "With a negative domain, also subtract $360^\\circ$ from the basic solutions."
+          }
+        },
+        {
+          "id": "ch15_ex8_q23c",
+          "number": "23(c)",
+          "category": null,
+          "questionText": "Solve $\\sin(2x) = \\dfrac{1}{\\sqrt{2}}$, $x \\in [0^\\circ, 360^\\circ]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(45^\\circ) = \\frac{1}{\\sqrt{2}}$; sine is positive in quadrants 1 and 2.",
+            "steps": [
+              "Given: $2x \\in [0^\\circ, 720^\\circ]$.",
+              "Reference angle: $45^\\circ$.",
+              "First revolution: $2x = 45^\\circ$ or $2x = 135^\\circ$.",
+              "Second revolution: $2x = 405^\\circ$ or $2x = 495^\\circ$.",
+              "Divide by 2: $x = 22.5^\\circ, 67.5^\\circ, 202.5^\\circ, 247.5^\\circ$."
+            ],
+            "finalAnswer": "$x = 22.5^\\circ, 67.5^\\circ, 202.5^\\circ, 247.5^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Add $360^\\circ$ to the angles for $2x$ before dividing, not after."
+          }
+        },
+        {
+          "id": "ch15_ex8_q23d",
+          "number": "23(d)",
+          "category": null,
+          "questionText": "Solve $\\cos(3x) = -\\dfrac{1}{\\sqrt{2}}$, $x \\in [0^\\circ, 360^\\circ]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Reference angle $45^\\circ$; cosine is negative in quadrants 2 and 3: $180^\\circ - 45^\\circ$ and $180^\\circ + 45^\\circ$.",
+            "steps": [
+              "Given: $3x \\in [0^\\circ, 1080^\\circ]$ (three revolutions).",
+              "Reference angle: $45^\\circ$. Basic solutions: $3x = 135^\\circ$ and $3x = 225^\\circ$.",
+              "Add $360^\\circ$: $3x = 495^\\circ, 585^\\circ$. Add $720^\\circ$: $3x = 855^\\circ, 945^\\circ$.",
+              "So $3x = 135^\\circ, 225^\\circ, 495^\\circ, 585^\\circ, 855^\\circ, 945^\\circ$.",
+              "Divide by 3: $x = 45^\\circ, 75^\\circ, 165^\\circ, 195^\\circ, 285^\\circ, 315^\\circ$."
+            ],
+            "finalAnswer": "$x = 45^\\circ, 75^\\circ, 165^\\circ, 195^\\circ, 285^\\circ, 315^\\circ$.",
+            "solutionFigures": [],
+            "tip": "The reference angle is always positive; the negative sign only tells you which quadrants to use."
+          }
+        },
+        {
+          "id": "ch15_ex8_q23e",
+          "number": "23(e)",
+          "category": null,
+          "questionText": "Solve $\\sin(4x) = 0$, $x \\in [0^\\circ, 180^\\circ]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta) = 0$ when $\\theta = 0^\\circ, 180^\\circ, 360^\\circ, \\ldots$ (multiples of $180^\\circ$).",
+            "steps": [
+              "Given: $x \\in [0^\\circ, 180^\\circ]$, so $4x \\in [0^\\circ, 720^\\circ]$.",
+              "$4x = 0^\\circ, 180^\\circ, 360^\\circ, 540^\\circ, 720^\\circ$.",
+              "Divide by 4: $x = 0^\\circ, 45^\\circ, 90^\\circ, 135^\\circ, 180^\\circ$."
+            ],
+            "finalAnswer": "$x = 0^\\circ, 45^\\circ, 90^\\circ, 135^\\circ, 180^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Include the end points of the domain when they are solutions."
+          }
+        },
+        {
+          "id": "ch15_ex8_q23f",
+          "number": "23(f)",
+          "category": null,
+          "questionText": "Solve $\\tan(4x) = -1$, $x \\in [0^\\circ, 180^\\circ]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\tan(45^\\circ) = 1$; tangent is negative in quadrants 2 and 4 and repeats every $180^\\circ$.",
+            "steps": [
+              "Given: $4x \\in [0^\\circ, 720^\\circ]$.",
+              "Reference angle: $45^\\circ$. First solution (quadrant 2): $4x = 180^\\circ - 45^\\circ = 135^\\circ$.",
+              "Add $180^\\circ$ repeatedly: $4x = 135^\\circ, 315^\\circ, 495^\\circ, 675^\\circ$ (the next, $855^\\circ$, is outside).",
+              "Divide by 4: $x = 33.75^\\circ, 78.75^\\circ, 123.75^\\circ, 168.75^\\circ$."
+            ],
+            "finalAnswer": "$x = 33.75^\\circ, 78.75^\\circ, 123.75^\\circ, 168.75^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Tangent's period is $180^\\circ$, so step by $180^\\circ$ for $4x$."
+          }
+        },
+        {
+          "id": "ch15_ex8_q24a",
+          "number": "24(a)",
+          "category": null,
+          "questionText": "Solve $2\\cos(x) - 1 = 0$ for $x \\in [0^\\circ, 360^\\circ]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Isolate $\\cos(x)$; $\\cos(60^\\circ) = \\frac{1}{2}$; cosine is positive in quadrants 1 and 4.",
+            "steps": [
+              "$2\\cos(x) - 1 = 0 \\Rightarrow 2\\cos(x) = 1 \\Rightarrow \\cos(x) = \\frac{1}{2}$.",
+              "Reference angle: $60^\\circ$.",
+              "Quadrant 1: $x = 60^\\circ$. Quadrant 4: $x = 360^\\circ - 60^\\circ = 300^\\circ$."
+            ],
+            "finalAnswer": "$x = 60^\\circ$ or $x = 300^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Rearrange to get the trig function on its own before using exact values."
+          }
+        },
+        {
+          "id": "ch15_ex8_q24b",
+          "number": "24(b)",
+          "category": null,
+          "questionText": "Solve $2\\sin(x) = -\\sqrt{3}$ for $x \\in [0^\\circ, 360^\\circ]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(60^\\circ) = \\frac{\\sqrt{3}}{2}$; sine is negative in quadrants 3 and 4: $180^\\circ + \\alpha$ and $360^\\circ - \\alpha$.",
+            "steps": [
+              "$2\\sin(x) = -\\sqrt{3} \\Rightarrow \\sin(x) = -\\frac{\\sqrt{3}}{2}$.",
+              "Reference angle: $60^\\circ$.",
+              "Quadrant 3: $x = 180^\\circ + 60^\\circ = 240^\\circ$. Quadrant 4: $x = 360^\\circ - 60^\\circ = 300^\\circ$."
+            ],
+            "finalAnswer": "$x = 240^\\circ$ or $x = 300^\\circ$.",
+            "solutionFigures": [],
+            "tip": "A negative sine value means quadrants 3 and 4."
+          }
+        },
+        {
+          "id": "ch15_ex8_q24c",
+          "number": "24(c)",
+          "category": null,
+          "questionText": "Solve $-\\sqrt{2}\\cos(x) + 1 = 0$ for $x \\in [0^\\circ, 360^\\circ]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\cos(45^\\circ) = \\frac{1}{\\sqrt{2}}$; cosine is positive in quadrants 1 and 4.",
+            "steps": [
+              "$-\\sqrt{2}\\cos(x) + 1 = 0 \\Rightarrow \\sqrt{2}\\cos(x) = 1 \\Rightarrow \\cos(x) = \\frac{1}{\\sqrt{2}}$.",
+              "Reference angle: $45^\\circ$.",
+              "Quadrant 1: $x = 45^\\circ$. Quadrant 4: $x = 360^\\circ - 45^\\circ = 315^\\circ$."
+            ],
+            "finalAnswer": "$x = 45^\\circ$ or $x = 315^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Watch the signs when moving terms: here $\\cos(x)$ ends up positive."
+          }
+        },
+        {
+          "id": "ch15_ex8_q24d",
+          "number": "24(d)",
+          "category": null,
+          "questionText": "Solve $\\sqrt{2}\\sin(x) + 1 = 0$ for $x \\in [0^\\circ, 360^\\circ]$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(45^\\circ) = \\frac{1}{\\sqrt{2}}$; sine is negative in quadrants 3 and 4.",
+            "steps": [
+              "$\\sqrt{2}\\sin(x) + 1 = 0 \\Rightarrow \\sqrt{2}\\sin(x) = -1 \\Rightarrow \\sin(x) = -\\frac{1}{\\sqrt{2}}$.",
+              "Reference angle: $45^\\circ$.",
+              "Quadrant 3: $x = 180^\\circ + 45^\\circ = 225^\\circ$. Quadrant 4: $x = 360^\\circ - 45^\\circ = 315^\\circ$."
+            ],
+            "finalAnswer": "$x = 225^\\circ$ or $x = 315^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Find the reference angle from the positive value, then use the sign to pick quadrants."
+          }
+        },
+        {
+          "id": "ch15_ex8_q25",
+          "number": "25",
+          "category": null,
+          "questionText": "Sketch the graph of $y = \\tan(2x)$, $x \\in [0^\\circ, 180^\\circ]$. Write down the period, amplitude and the equations of any asymptotes.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = \\tan(nx)$: period $= \\dfrac{180^\\circ}{n}$; asymptotes where $nx = 90^\\circ + 180^\\circ k$.",
+            "steps": [
+              "Given: $n = 2$. Period $= \\frac{180^\\circ}{2} = 90^\\circ$.",
+              "Asymptotes: $2x = 90^\\circ$ or $2x = 270^\\circ$, so $x = 45^\\circ$ and $x = 135^\\circ$.",
+              "$x$-intercepts: $2x = 0^\\circ, 180^\\circ, 360^\\circ$, so $x = 0^\\circ, 90^\\circ, 180^\\circ$.",
+              "Other points: $(22.5^\\circ, 1)$, $(67.5^\\circ, -1)$, $(112.5^\\circ, 1)$, $(157.5^\\circ, -1)$.",
+              "Sketch: from $(0^\\circ, 0)$ rise through $(22.5^\\circ, 1)$ towards the asymptote at $45^\\circ$; then come up from below through $(67.5^\\circ, -1)$, $(90^\\circ, 0)$, $(112.5^\\circ, 1)$ towards $135^\\circ$; then from below through $(157.5^\\circ, -1)$ to $(180^\\circ, 0)$.",
+              "The tangent graph has no maximum or minimum, so its amplitude is undefined."
+            ],
+            "finalAnswer": "Period $= 90^\\circ$; amplitude is undefined; asymptotes at $x = 45^\\circ$ and $x = 135^\\circ$.",
+            "solutionFigures": [],
+            "tip": "The period of tangent is based on $180^\\circ$, not $360^\\circ$."
+          }
+        },
+        {
+          "id": "ch15_ex8_q26",
+          "number": "26",
+          "category": null,
+          "questionText": "A satellite dish is placed on top of an apartment building as shown in the diagram. Determine the height of the satellite dish in metres, correct to 2 decimal places. The diagram shows an observer on the ground 450 m horizontally from the base of the building. The angle of elevation from the observer to the top of the building is $48.3^\\circ$, and the extra angle between the line to the top of the building and the line to the top of the dish is $0.22^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Right-angled trigonometry $\\tan(\\theta) = \\dfrac{\\text{opposite}}{\\text{adjacent}}$, checked with the sine rule.",
+            "steps": [
+              "Given: horizontal distance 450 m; elevation to top of building $48.3^\\circ$; elevation to top of dish $48.3^\\circ + 0.22^\\circ = 48.52^\\circ$. Goal: height of the dish.",
+              "Height to top of building: $h_1 = 450\\tan(48.3^\\circ) = 450 \\times 1.122\\,375 \\approx 505.069$ m.",
+              "Height to top of dish: $h_2 = 450\\tan(48.52^\\circ) = 450 \\times 1.131\\,090 \\approx 508.990$ m.",
+              "Dish height $= h_2 - h_1 = 450(\\tan(48.52^\\circ) - \\tan(48.3^\\circ)) \\approx 3.9214$ m.",
+              "Check with the sine rule: line of sight to the building top $= \\frac{450}{\\cos(48.3^\\circ)} \\approx 676.457$ m. In the thin triangle (observer, building top, dish top), the angle at the observer is $0.22^\\circ$ and the angle at the dish top is $90^\\circ - 48.52^\\circ = 41.48^\\circ$.",
+              "$$d = \\frac{676.457 \\times \\sin(0.22^\\circ)}{\\sin(41.48^\\circ)} \\approx 3.9214 \\text{ m}$$ Same result.",
+              "Rounded to 2 decimal places: 3.92 m."
+            ],
+            "finalAnswer": "Therefore the satellite dish is approximately 3.92 m tall.",
+            "solutionFigures": [],
+            "tip": "Do not round the intermediate heights; the dish height is a small difference of two large numbers."
+          }
+        },
+        {
+          "id": "ch15_ex8_q27a",
+          "number": "27(a)",
+          "category": null,
+          "questionText": "Australian power points supply voltage, $V$, in volts, where $V = 240\\sin(18\\,000t)$ and $t$ is measured in seconds. Copy and complete the table (for $t = 0.000, 0.005, 0.010, 0.015, 0.020, 0.025, 0.030, 0.035, 0.040$) and sketch the graph, showing the fluctuations in voltage over time.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute each $t$ into $V = 240\\sin(18\\,000t)$, with $18\\,000t$ in degrees.",
+            "steps": [
+              "$t = 0.000$: $18\\,000 \\times 0 = 0^\\circ$, $V = 240\\sin(0^\\circ) = 0$.",
+              "$t = 0.005$: $18\\,000 \\times 0.005 = 90^\\circ$, $V = 240\\sin(90^\\circ) = 240$.",
+              "$t = 0.010$: $180^\\circ$, $V = 240\\sin(180^\\circ) = 0$.",
+              "$t = 0.015$: $270^\\circ$, $V = 240\\sin(270^\\circ) = -240$.",
+              "$t = 0.020$: $360^\\circ$, $V = 0$.",
+              "$t = 0.025$: $450^\\circ$, $V = 240$.",
+              "$t = 0.030$: $540^\\circ$, $V = 0$.",
+              "$t = 0.035$: $630^\\circ$, $V = -240$.",
+              "$t = 0.040$: $720^\\circ$, $V = 0$.",
+              "Plot $V$ (volts) against $t$ (seconds) and join with a smooth sine wave of amplitude 240: two full cycles between $t = 0$ and $t = 0.04$."
+            ],
+            "finalAnswer": "Table: $V = 0, 240, 0, -240, 0, 240, 0, -240, 0$ for $t = 0.000$ to $0.040$. The graph is a sine wave oscillating between 240 V and $-240$ V, with two cycles in 0.04 s.",
+            "solutionFigures": [],
+            "tip": "Set the calculator to degree mode; $18\\,000t$ here is measured in degrees."
+          }
+        },
+        {
+          "id": "ch15_ex8_q27b",
+          "number": "27(b)",
+          "category": null,
+          "questionText": "Australian power points supply voltage, $V$, in volts, where $V = 240\\sin(18\\,000t)$ and $t$ is measured in seconds. State the times at which the maximum voltage output occurs.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(\\theta)$ is maximum ($=1$) when $\\theta = 90^\\circ, 450^\\circ, 810^\\circ, \\ldots$",
+            "steps": [
+              "Maximum $V = 240$ when $\\sin(18\\,000t) = 1$.",
+              "$18\\,000t = 90^\\circ \\Rightarrow t = \\frac{90}{18\\,000} = 0.005$ s.",
+              "$18\\,000t = 450^\\circ \\Rightarrow t = \\frac{450}{18\\,000} = 0.025$ s.",
+              "These are the maxima in the table's range $0 \\le t \\le 0.04$ (in general $t = 0.005 + 0.02k$)."
+            ],
+            "finalAnswer": "Maximum voltage occurs at $t = 0.005$ s and $t = 0.025$ s (and every 0.02 s after that).",
+            "solutionFigures": [],
+            "tip": "Maxima repeat once every period."
+          }
+        },
+        {
+          "id": "ch15_ex8_q27c",
+          "number": "27(c)",
+          "category": null,
+          "questionText": "Australian power points supply voltage, $V$, in volts, where $V = 240\\sin(18\\,000t)$ and $t$ is measured in seconds. Determine how many seconds there are between times of maximum voltage output.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Period of $y = a\\sin(nt)$ is $\\dfrac{360^\\circ}{n}$.",
+            "steps": [
+              "The time between maxima is one period.",
+              "$$\\text{Period} = \\frac{360}{18\\,000} = 0.02 \\text{ s}$$",
+              "Check: $0.025 - 0.005 = 0.02$ s."
+            ],
+            "finalAnswer": "There are 0.02 seconds between maximum voltage outputs.",
+            "solutionFigures": [],
+            "tip": "The gap between consecutive maxima is exactly one period."
+          }
+        },
+        {
+          "id": "ch15_ex8_q27d",
+          "number": "27(d)",
+          "category": null,
+          "questionText": "Australian power points supply voltage, $V$, in volts, where $V = 240\\sin(18\\,000t)$ and $t$ is measured in seconds. Determine how many periods (or cycles) there are per second.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cycles per second $= \\dfrac{1}{\\text{period}}$.",
+            "steps": [
+              "Period $= 0.02$ s.",
+              "$$\\text{Cycles per second} = \\frac{1}{0.02} = 50$$"
+            ],
+            "finalAnswer": "There are 50 cycles per second (50 Hz).",
+            "solutionFigures": [],
+            "tip": "Frequency is the reciprocal of the period."
+          }
+        }
+      ]
+    }
+  ]
+}

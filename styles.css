@@ -1,0 +1,258 @@
+:root {
+  --bg: #f7f7f5;
+  --panel: #ffffff;
+  --text: #1d1d1f;
+  --muted: #6b6b70;
+  --border: #dcdcd8;
+  --accent: #2a6fdb;
+  --practice: #2e8b57;
+  --consolidate: #c27a00;
+  --master: #8a3ffc;
+  --none: #6b6b70;
+  --star: #e0a100;
+}
+
+:root[data-theme="dark"] {
+  --bg: #161618;
+  --panel: #1f1f22;
+  --text: #ececef;
+  --muted: #9a9aa2;
+  --border: #36363c;
+  --accent: #6aa3ff;
+  --practice: #4cc38a;
+  --consolidate: #f0a92e;
+  --master: #b98cff;
+  --none: #9a9aa2;
+  --star: #ffc93c;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #161618;
+    --panel: #1f1f22;
+    --text: #ececef;
+    --muted: #9a9aa2;
+    --border: #36363c;
+    --accent: #6aa3ff;
+    --practice: #4cc38a;
+    --consolidate: #f0a92e;
+    --master: #b98cff;
+    --none: #9a9aa2;
+    --star: #ffc93c;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.5;
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--panel);
+  border-bottom: 1px solid var(--border);
+  padding: 12px 16px;
+}
+
+.topbar h1 {
+  margin: 0 0 8px;
+  font-size: 1.2rem;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.controls input,
+.controls select,
+.chip {
+  font: inherit;
+  font-size: 0.9rem;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.controls input { flex: 1 1 200px; min-width: 0; }
+
+.chip { cursor: pointer; }
+.chip[aria-pressed="true"] {
+  border-color: var(--star);
+  color: var(--star);
+}
+
+main {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.status {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.toc a {
+  font-size: 0.85rem;
+  color: var(--accent);
+  text-decoration: none;
+  padding: 3px 8px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+}
+
+#list { scroll-margin-top: 140px; }
+
+.pager {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin: 12px 0;
+}
+
+.pager button {
+  font: inherit;
+  font-size: 0.9rem;
+  min-width: 36px;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--panel);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.pager button.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.pager button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.pager .gap {
+  color: var(--muted);
+  padding: 0 4px;
+}
+
+.topic-heading {
+  margin: 28px 0 10px;
+  font-size: 1.1rem;
+  scroll-margin-top: 140px;
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+}
+
+.card-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.qnum {
+  font-weight: 600;
+}
+
+.badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 999px;
+  color: #fff;
+  background: var(--none);
+}
+.badge.Practice { background: var(--practice); }
+.badge.Consolidate { background: var(--consolidate); }
+.badge.Master { background: var(--master); }
+
+.fav {
+  margin-left: auto;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--muted);
+  padding: 2px 6px;
+}
+.fav.on { color: var(--star); }
+
+.question img,
+.solution img {
+  max-width: 100%;
+  height: auto;
+  background: #fff;
+  border-radius: 6px;
+  margin: 6px 0;
+}
+
+.question { margin-bottom: 8px; }
+
+details summary {
+  cursor: pointer;
+  color: var(--accent);
+  font-weight: 600;
+  margin: 6px 0;
+}
+
+.solution ol {
+  padding-left: 1.2em;
+  margin: 6px 0;
+}
+
+.solution li { margin-bottom: 6px; }
+
+.formula,
+.final,
+.tip {
+  margin: 8px 0;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: var(--bg);
+}
+
+.final { border-left: 3px solid var(--practice); }
+.tip { border-left: 3px solid var(--consolidate); font-size: 0.95rem; }
+
+.katex-display { overflow-x: auto; overflow-y: hidden; }
+
+.empty {
+  text-align: center;
+  color: var(--muted);
+  padding: 40px 0;
+}
+
+@media (max-width: 600px) {
+  main { padding: 12px 16px; }
+  .topbar h1 { font-size: 1.05rem; }
+}

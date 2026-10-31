@@ -1,0 +1,1556 @@
+{
+  "chapterId": "ch09",
+  "chapterTitle": "Non-linear relationships",
+  "topics": [
+    {
+      "topicId": "9.4",
+      "topicTitle": "Sketching parabolas using turning point form",
+      "exercises": [
+        {
+          "id": "ch9_ex4_q1a",
+          "number": "1(a)",
+          "category": "Practice",
+          "questionText": "State the coordinates of the turning point of the graph of $y = (x - 1)^2 + 2$ and whether it is a maximum or a minimum.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Turning point form: $y = a(x - h)^2 + k$ has turning point $(h, k)$; minimum if $a > 0$, maximum if $a < 0$.",
+            "steps": [
+              "Given: $y = (x - 1)^2 + 2$.",
+              "Goal: Find the turning point and its type.",
+              "Compare with $y = a(x - h)^2 + k$: $a = 1$, $h = 1$, $k = 2$.",
+              "Turning point $(h, k) = (1, 2)$.",
+              "Since $a = 1 > 0$, the parabola opens upwards, so the turning point is a minimum.",
+              "Check: at $x = 1$, $y = 0^2 + 2 = 2$ ✓."
+            ],
+            "finalAnswer": "Therefore the turning point is $(1, 2)$, a minimum.",
+            "solutionFigures": [],
+            "tip": "The x-coordinate of the turning point has the opposite sign to the number inside the bracket: $(x - 1)$ gives $h = 1$."
+          }
+        },
+        {
+          "id": "ch9_ex4_q1b",
+          "number": "1(b)",
+          "category": "Practice",
+          "questionText": "State the coordinates of the turning point of the graph of $y = (x + 2)^2 - 1$ and whether it is a maximum or a minimum.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Turning point form: $y = a(x - h)^2 + k$ has turning point $(h, k)$; minimum if $a > 0$, maximum if $a < 0$.",
+            "steps": [
+              "Given: $y = (x + 2)^2 - 1$.",
+              "Goal: Find the turning point and its type.",
+              "Rewrite: $y = (x - (-2))^2 + (-1)$, so $a = 1$, $h = -2$, $k = -1$.",
+              "Turning point $(h, k) = (-2, -1)$.",
+              "Since $a = 1 > 0$, the turning point is a minimum.",
+              "Check: at $x = -2$, $y = 0^2 - 1 = -1$ ✓."
+            ],
+            "finalAnswer": "Therefore the turning point is $(-2, -1)$, a minimum.",
+            "solutionFigures": [],
+            "tip": "$(x + 2)$ means $h = -2$, not $+2$."
+          }
+        },
+        {
+          "id": "ch9_ex4_q1c",
+          "number": "1(c)",
+          "category": "Practice",
+          "questionText": "State the coordinates of the turning point of the graph of $y = (x + 1)^2 + 1$ and whether it is a maximum or a minimum.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Turning point form: $y = a(x - h)^2 + k$ has turning point $(h, k)$; minimum if $a > 0$, maximum if $a < 0$.",
+            "steps": [
+              "Given: $y = (x + 1)^2 + 1$.",
+              "Goal: Find the turning point and its type.",
+              "Rewrite: $y = (x - (-1))^2 + 1$, so $a = 1$, $h = -1$, $k = 1$.",
+              "Turning point $(h, k) = (-1, 1)$.",
+              "Since $a = 1 > 0$, the turning point is a minimum.",
+              "Check: at $x = -1$, $y = 0 + 1 = 1$ ✓."
+            ],
+            "finalAnswer": "Therefore the turning point is $(-1, 1)$, a minimum.",
+            "solutionFigures": [],
+            "tip": "Only the number inside the bracket changes sign; the number outside ($k$) keeps its sign."
+          }
+        },
+        {
+          "id": "ch9_ex4_q2a",
+          "number": "2(a)",
+          "category": "Consolidate",
+          "questionText": "State the coordinates of the turning point of the graph of $y = -(x - 2)^2 + 3$ and whether it is a maximum or a minimum.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Turning point form: $y = a(x - h)^2 + k$ has turning point $(h, k)$; minimum if $a > 0$, maximum if $a < 0$.",
+            "steps": [
+              "Given: $y = -(x - 2)^2 + 3$.",
+              "Goal: Find the turning point and its type.",
+              "Compare with $y = a(x - h)^2 + k$: $a = -1$, $h = 2$, $k = 3$.",
+              "Turning point $(h, k) = (2, 3)$.",
+              "Since $a = -1 < 0$, the parabola opens downwards, so the turning point is a maximum.",
+              "Check: at $x = 2$, $y = -0 + 3 = 3$ ✓."
+            ],
+            "finalAnswer": "Therefore the turning point is $(2, 3)$, a maximum.",
+            "solutionFigures": [],
+            "tip": "A negative sign in front of the bracket flips the parabola, turning a minimum into a maximum."
+          }
+        },
+        {
+          "id": "ch9_ex4_q2b",
+          "number": "2(b)",
+          "category": "Consolidate",
+          "questionText": "State the coordinates of the turning point of the graph of $y = -(x - 5)^2 + 3$ and whether it is a maximum or a minimum.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Turning point form: $y = a(x - h)^2 + k$ has turning point $(h, k)$; minimum if $a > 0$, maximum if $a < 0$.",
+            "steps": [
+              "Given: $y = -(x - 5)^2 + 3$.",
+              "Goal: Find the turning point and its type.",
+              "Compare: $a = -1$, $h = 5$, $k = 3$.",
+              "Turning point $(h, k) = (5, 3)$.",
+              "Since $a = -1 < 0$, the turning point is a maximum.",
+              "Check: at $x = 5$, $y = -0 + 3 = 3$ ✓."
+            ],
+            "finalAnswer": "Therefore the turning point is $(5, 3)$, a maximum.",
+            "solutionFigures": [],
+            "tip": "Read the sign of $a$ first: it tells you max or min before you do anything else."
+          }
+        },
+        {
+          "id": "ch9_ex4_q2c",
+          "number": "2(c)",
+          "category": "Consolidate",
+          "questionText": "State the coordinates of the turning point of the graph of $y = (x + 2)^2 - 6$ and whether it is a maximum or a minimum.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Turning point form: $y = a(x - h)^2 + k$ has turning point $(h, k)$; minimum if $a > 0$, maximum if $a < 0$.",
+            "steps": [
+              "Given: $y = (x + 2)^2 - 6$.",
+              "Goal: Find the turning point and its type.",
+              "Rewrite: $y = (x - (-2))^2 + (-6)$, so $a = 1$, $h = -2$, $k = -6$.",
+              "Turning point $(h, k) = (-2, -6)$.",
+              "Since $a = 1 > 0$, the turning point is a minimum.",
+              "Check: at $x = -2$, $y = 0 - 6 = -6$ ✓."
+            ],
+            "finalAnswer": "Therefore the turning point is $(-2, -6)$, a minimum.",
+            "solutionFigures": [],
+            "tip": "Write $(x + 2)$ as $(x - (-2))$ to read $h$ correctly."
+          }
+        },
+        {
+          "id": "ch9_ex4_q3a",
+          "number": "3(a)",
+          "category": "Master",
+          "questionText": "State the coordinates of the turning point of the graph of $y = \\left(x - \\frac{1}{2}\\right)^2 - \\frac{3}{4}$ and whether it is a maximum or a minimum.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Turning point form: $y = a(x - h)^2 + k$ has turning point $(h, k)$; minimum if $a > 0$, maximum if $a < 0$.",
+            "steps": [
+              "Given: $y = \\left(x - \\frac{1}{2}\\right)^2 - \\frac{3}{4}$.",
+              "Goal: Find the turning point and its type.",
+              "Compare: $a = 1$, $h = \\frac{1}{2}$, $k = -\\frac{3}{4}$.",
+              "Turning point $(h, k) = \\left(\\frac{1}{2}, -\\frac{3}{4}\\right)$.",
+              "Since $a = 1 > 0$, the turning point is a minimum."
+            ],
+            "finalAnswer": "Therefore the turning point is $\\left(\\frac{1}{2}, -\\frac{3}{4}\\right)$, a minimum.",
+            "solutionFigures": [],
+            "tip": "Fractions behave exactly like whole numbers in turning point form; keep them exact."
+          }
+        },
+        {
+          "id": "ch9_ex4_q3b",
+          "number": "3(b)",
+          "category": "Master",
+          "questionText": "State the coordinates of the turning point of the graph of $y = \\left(x - \\frac{1}{3}\\right)^2 + \\frac{2}{3}$ and whether it is a maximum or a minimum.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Turning point form: $y = a(x - h)^2 + k$ has turning point $(h, k)$; minimum if $a > 0$, maximum if $a < 0$.",
+            "steps": [
+              "Given: $y = \\left(x - \\frac{1}{3}\\right)^2 + \\frac{2}{3}$.",
+              "Goal: Find the turning point and its type.",
+              "Compare: $a = 1$, $h = \\frac{1}{3}$, $k = \\frac{2}{3}$.",
+              "Turning point $(h, k) = \\left(\\frac{1}{3}, \\frac{2}{3}\\right)$.",
+              "Since $a = 1 > 0$, the turning point is a minimum."
+            ],
+            "finalAnswer": "Therefore the turning point is $\\left(\\frac{1}{3}, \\frac{2}{3}\\right)$, a minimum.",
+            "solutionFigures": [],
+            "tip": "Do not convert to rounded decimals; exact fractions are expected."
+          }
+        },
+        {
+          "id": "ch9_ex4_q3c",
+          "number": "3(c)",
+          "category": "Master",
+          "questionText": "State the coordinates of the turning point of the graph of $y = (x + 0.3)^2 - 0.4$ and whether it is a maximum or a minimum.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Turning point form: $y = a(x - h)^2 + k$ has turning point $(h, k)$; minimum if $a > 0$, maximum if $a < 0$.",
+            "steps": [
+              "Given: $y = (x + 0.3)^2 - 0.4$.",
+              "Goal: Find the turning point and its type.",
+              "Rewrite: $y = (x - (-0.3))^2 + (-0.4)$, so $a = 1$, $h = -0.3$, $k = -0.4$.",
+              "Turning point $(h, k) = (-0.3, -0.4)$.",
+              "Since $a = 1 > 0$, the turning point is a minimum."
+            ],
+            "finalAnswer": "Therefore the turning point is $(-0.3, -0.4)$, a minimum.",
+            "solutionFigures": [],
+            "tip": "$+0.3$ inside the bracket gives $h = -0.3$."
+          }
+        },
+        {
+          "id": "ch9_ex4_q4a",
+          "number": "4(a)",
+          "category": "Practice",
+          "questionText": "For $y = 2(x + 3)^2 - 5$, state: i. the coordinates of the turning point; ii. whether the graph has a maximum or a minimum turning point; iii. whether the graph is wider, narrower or the same width as that of $y = x^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: turning point $(h, k)$; $a > 0$ minimum, $a < 0$ maximum; $|a| > 1$ narrower, $|a| < 1$ wider, $|a| = 1$ same width as $y = x^2$.",
+            "steps": [
+              "Given: $y = 2(x + 3)^2 - 5$.",
+              "Goal: Turning point, its type, and width compared with $y = x^2$.",
+              "Rewrite: $y = 2(x - (-3))^2 + (-5)$, so $a = 2$, $h = -3$, $k = -5$.",
+              "i. Turning point $(-3, -5)$.",
+              "ii. $a = 2 > 0$, so minimum.",
+              "iii. $|a| = 2 > 1$, so the graph is narrower than $y = x^2$."
+            ],
+            "finalAnswer": "Therefore: i. $(-3, -5)$; ii. minimum; iii. narrower.",
+            "solutionFigures": [],
+            "tip": "A larger $|a|$ stretches the graph away from the x-axis, making it look narrower."
+          }
+        },
+        {
+          "id": "ch9_ex4_q4b",
+          "number": "4(b)",
+          "category": "Practice",
+          "questionText": "For $y = -(x - 1)^2 + 1$, state: i. the coordinates of the turning point; ii. whether the graph has a maximum or a minimum turning point; iii. whether the graph is wider, narrower or the same width as that of $y = x^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: turning point $(h, k)$; $a > 0$ minimum, $a < 0$ maximum; $|a| > 1$ narrower, $|a| < 1$ wider, $|a| = 1$ same width.",
+            "steps": [
+              "Given: $y = -(x - 1)^2 + 1$.",
+              "Goal: Turning point, its type, and width.",
+              "Compare: $a = -1$, $h = 1$, $k = 1$.",
+              "i. Turning point $(1, 1)$.",
+              "ii. $a = -1 < 0$, so maximum.",
+              "iii. $|a| = 1$, so the graph is the same width as $y = x^2$."
+            ],
+            "finalAnswer": "Therefore: i. $(1, 1)$; ii. maximum; iii. same width.",
+            "solutionFigures": [],
+            "tip": "A negative $a$ reflects the graph but does not change its width; use $|a|$ for width."
+          }
+        },
+        {
+          "id": "ch9_ex4_q5a",
+          "number": "5(a)",
+          "category": "Consolidate",
+          "questionText": "For $y = -5(x + 2)^2 - 4$, state: i. the coordinates of the turning point; ii. whether the graph has a maximum or a minimum turning point; iii. whether the graph is wider, narrower or the same width as that of $y = x^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: turning point $(h, k)$; $a > 0$ minimum, $a < 0$ maximum; $|a| > 1$ narrower, $|a| < 1$ wider.",
+            "steps": [
+              "Given: $y = -5(x + 2)^2 - 4$.",
+              "Goal: Turning point, its type, and width.",
+              "Rewrite: $y = -5(x - (-2))^2 + (-4)$, so $a = -5$, $h = -2$, $k = -4$.",
+              "i. Turning point $(-2, -4)$.",
+              "ii. $a = -5 < 0$, so maximum.",
+              "iii. $|a| = 5 > 1$, so narrower."
+            ],
+            "finalAnswer": "Therefore: i. $(-2, -4)$; ii. maximum; iii. narrower.",
+            "solutionFigures": [],
+            "tip": "Use the size of $a$ for width and the sign of $a$ for max/min; they are separate questions."
+          }
+        },
+        {
+          "id": "ch9_ex4_q5b",
+          "number": "5(b)",
+          "category": "Consolidate",
+          "questionText": "For $y = \\frac{1}{4}(x - 3)^2 + 2$, state: i. the coordinates of the turning point; ii. whether the graph has a maximum or a minimum turning point; iii. whether the graph is wider, narrower or the same width as that of $y = x^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: turning point $(h, k)$; $a > 0$ minimum, $a < 0$ maximum; $|a| > 1$ narrower, $|a| < 1$ wider.",
+            "steps": [
+              "Given: $y = \\frac{1}{4}(x - 3)^2 + 2$.",
+              "Goal: Turning point, its type, and width.",
+              "Compare: $a = \\frac{1}{4}$, $h = 3$, $k = 2$.",
+              "i. Turning point $(3, 2)$.",
+              "ii. $a = \\frac{1}{4} > 0$, so minimum.",
+              "iii. $|a| = \\frac{1}{4} < 1$, so wider."
+            ],
+            "finalAnswer": "Therefore: i. $(3, 2)$; ii. minimum; iii. wider.",
+            "solutionFigures": [],
+            "tip": "A value of $a$ between 0 and 1 compresses the graph towards the x-axis, making it wider."
+          }
+        },
+        {
+          "id": "ch9_ex4_q6a",
+          "number": "6(a)",
+          "category": "Master",
+          "questionText": "For $y = -\\frac{1}{2}(x + 1)^2 + 7$, state: i. the coordinates of the turning point; ii. whether the graph has a maximum or a minimum turning point; iii. whether the graph is wider, narrower or the same width as that of $y = x^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: turning point $(h, k)$; $a > 0$ minimum, $a < 0$ maximum; $|a| > 1$ narrower, $|a| < 1$ wider.",
+            "steps": [
+              "Given: $y = -\\frac{1}{2}(x + 1)^2 + 7$.",
+              "Goal: Turning point, its type, and width.",
+              "Rewrite: $y = -\\frac{1}{2}(x - (-1))^2 + 7$, so $a = -\\frac{1}{2}$, $h = -1$, $k = 7$.",
+              "i. Turning point $(-1, 7)$.",
+              "ii. $a < 0$, so maximum.",
+              "iii. $|a| = \\frac{1}{2} < 1$, so wider."
+            ],
+            "finalAnswer": "Therefore: i. $(-1, 7)$; ii. maximum; iii. wider.",
+            "solutionFigures": [],
+            "tip": "$-\\frac{1}{2}$ is less than 1 but its size $\\frac{1}{2}$ is what decides width."
+          }
+        },
+        {
+          "id": "ch9_ex4_q6b",
+          "number": "6(b)",
+          "category": "Master",
+          "questionText": "For $y = 0.2\\left(x - \\frac{1}{5}\\right)^2 - \\frac{1}{2}$, state: i. the coordinates of the turning point; ii. whether the graph has a maximum or a minimum turning point; iii. whether the graph is wider, narrower or the same width as that of $y = x^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: turning point $(h, k)$; $a > 0$ minimum, $a < 0$ maximum; $|a| > 1$ narrower, $|a| < 1$ wider.",
+            "steps": [
+              "Given: $y = 0.2\\left(x - \\frac{1}{5}\\right)^2 - \\frac{1}{2}$.",
+              "Goal: Turning point, its type, and width.",
+              "Compare: $a = 0.2$, $h = \\frac{1}{5}$, $k = -\\frac{1}{2}$.",
+              "i. Turning point $\\left(\\frac{1}{5}, -\\frac{1}{2}\\right)$.",
+              "ii. $a = 0.2 > 0$, so minimum.",
+              "iii. $|a| = 0.2 < 1$, so wider."
+            ],
+            "finalAnswer": "Therefore: i. $\\left(\\frac{1}{5}, -\\frac{1}{2}\\right)$; ii. minimum; iii. wider.",
+            "solutionFigures": [],
+            "tip": "Don't confuse $a = 0.2$ with $h = \\frac{1}{5}$; they happen to be equal here but play different roles."
+          }
+        },
+        {
+          "id": "ch9_ex4_q7a",
+          "number": "7(a)",
+          "category": "Practice",
+          "questionText": "Select which of three graphs best suits the equation $y = (x + 1)^2 - 3$. Graph i: an inverted parabola (maximum turning point) at about $(2, 3)$, with 3 marked on the y-axis and 2 marked on the x-axis. Graph ii: an inverted parabola with maximum turning point $(0, 1)$ on the y-axis. Graph iii: an upright parabola with minimum turning point at $(-1, -3)$ (with $-1$ and $-3$ marked).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$ has turning point $(h, k)$; $a > 0$ upright (minimum), $a < 0$ inverted (maximum).",
+            "steps": [
+              "Given: $y = (x + 1)^2 - 3$ and three graphs.",
+              "Goal: Match the equation with a graph.",
+              "$a = 1 > 0$, so the parabola is upright with a minimum.",
+              "$h = -1$, $k = -3$, so the turning point is $(-1, -3)$.",
+              "Only graph iii is upright with minimum turning point $(-1, -3)$."
+            ],
+            "finalAnswer": "Therefore $y = (x + 1)^2 - 3$ matches graph iii.",
+            "solutionFigures": [],
+            "tip": "Check both the direction of opening and the turning point before matching."
+          }
+        },
+        {
+          "id": "ch9_ex4_q7b",
+          "number": "7(b)",
+          "category": "Practice",
+          "questionText": "Select which of three graphs best suits the equation $y = -(x - 2)^2 + 3$. Graph i: an inverted parabola (maximum turning point) at about $(2, 3)$, with 3 marked on the y-axis and 2 marked on the x-axis. Graph ii: an inverted parabola with maximum turning point $(0, 1)$ on the y-axis. Graph iii: an upright parabola with minimum turning point at $(-1, -3)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$ has turning point $(h, k)$; $a > 0$ upright (minimum), $a < 0$ inverted (maximum).",
+            "steps": [
+              "Given: $y = -(x - 2)^2 + 3$ and three graphs.",
+              "Goal: Match the equation with a graph.",
+              "$a = -1 < 0$, so the parabola is inverted with a maximum.",
+              "$h = 2$, $k = 3$, so the turning point is $(2, 3)$.",
+              "Graph i is inverted with maximum at $(2, 3)$."
+            ],
+            "finalAnswer": "Therefore $y = -(x - 2)^2 + 3$ matches graph i.",
+            "solutionFigures": [],
+            "tip": "A negative leading coefficient always means a 'frown' shape."
+          }
+        },
+        {
+          "id": "ch9_ex4_q7c",
+          "number": "7(c)",
+          "category": "Practice",
+          "questionText": "Select which of three graphs best suits the equation $y = -x^2 + 1$. Graph i: an inverted parabola (maximum turning point) at about $(2, 3)$. Graph ii: an inverted parabola with maximum turning point $(0, 1)$ on the y-axis. Graph iii: an upright parabola with minimum turning point at $(-1, -3)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$ has turning point $(h, k)$; $a > 0$ upright (minimum), $a < 0$ inverted (maximum).",
+            "steps": [
+              "Given: $y = -x^2 + 1 = -(x - 0)^2 + 1$.",
+              "Goal: Match the equation with a graph.",
+              "$a = -1 < 0$, so inverted with a maximum.",
+              "$h = 0$, $k = 1$, so the turning point is $(0, 1)$.",
+              "Graph ii is inverted with maximum at $(0, 1)$."
+            ],
+            "finalAnswer": "Therefore $y = -x^2 + 1$ matches graph ii.",
+            "solutionFigures": [],
+            "tip": "When there is no bracket, $h = 0$ and the turning point lies on the y-axis."
+          }
+        },
+        {
+          "id": "ch9_ex4_q8a",
+          "number": "8(a)",
+          "category": "Consolidate",
+          "questionText": "Select which of three graphs best suits the equation $y = (x - 1)^2 - 3$. Graph i: an inverted parabola with maximum turning point at $(-2, 3)$. Graph ii: an upright parabola with minimum turning point $(0, -1)$ on the y-axis. Graph iii: an upright parabola with minimum turning point at $(1, -3)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$ has turning point $(h, k)$; $a > 0$ upright (minimum), $a < 0$ inverted (maximum).",
+            "steps": [
+              "Given: $y = (x - 1)^2 - 3$.",
+              "Goal: Match the equation with a graph.",
+              "$a = 1 > 0$: upright, minimum.",
+              "$h = 1$, $k = -3$: turning point $(1, -3)$.",
+              "Graph iii is upright with minimum $(1, -3)$."
+            ],
+            "finalAnswer": "Therefore $y = (x - 1)^2 - 3$ matches graph iii.",
+            "solutionFigures": [],
+            "tip": "Graphs ii and iii are both upright, so the turning point decides the match."
+          }
+        },
+        {
+          "id": "ch9_ex4_q8b",
+          "number": "8(b)",
+          "category": "Consolidate",
+          "questionText": "Select which of three graphs best suits the equation $y = -(x + 2)^2 + 3$. Graph i: an inverted parabola with maximum turning point at $(-2, 3)$. Graph ii: an upright parabola with minimum turning point $(0, -1)$. Graph iii: an upright parabola with minimum turning point at $(1, -3)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$ has turning point $(h, k)$; $a > 0$ upright (minimum), $a < 0$ inverted (maximum).",
+            "steps": [
+              "Given: $y = -(x + 2)^2 + 3 = -(x - (-2))^2 + 3$.",
+              "Goal: Match the equation with a graph.",
+              "$a = -1 < 0$: inverted, maximum.",
+              "$h = -2$, $k = 3$: turning point $(-2, 3)$.",
+              "Graph i is inverted with maximum $(-2, 3)$."
+            ],
+            "finalAnswer": "Therefore $y = -(x + 2)^2 + 3$ matches graph i.",
+            "solutionFigures": [],
+            "tip": "$(x + 2)$ puts the turning point to the left of the y-axis."
+          }
+        },
+        {
+          "id": "ch9_ex4_q8c",
+          "number": "8(c)",
+          "category": "Consolidate",
+          "questionText": "Select which of three graphs best suits the equation $y = x^2 - 1$. Graph i: an inverted parabola with maximum turning point at $(-2, 3)$. Graph ii: an upright parabola with minimum turning point $(0, -1)$. Graph iii: an upright parabola with minimum turning point at $(1, -3)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$ has turning point $(h, k)$; $a > 0$ upright (minimum), $a < 0$ inverted (maximum).",
+            "steps": [
+              "Given: $y = x^2 - 1 = (x - 0)^2 - 1$.",
+              "Goal: Match the equation with a graph.",
+              "$a = 1 > 0$: upright, minimum.",
+              "$h = 0$, $k = -1$: turning point $(0, -1)$.",
+              "Graph ii is upright with minimum $(0, -1)$."
+            ],
+            "finalAnswer": "Therefore $y = x^2 - 1$ matches graph ii.",
+            "solutionFigures": [],
+            "tip": "A constant added to $x^2$ only moves the graph up or down."
+          }
+        },
+        {
+          "id": "ch9_ex4_q9",
+          "number": "9",
+          "category": "Practice",
+          "questionText": "MC The translations required to change $y = x^2$ into $y = \\left(x - \\frac{1}{2}\\right)^2 + \\frac{1}{3}$ are: A. right $\\frac{1}{2}$, up $\\frac{1}{3}$  B. left $\\frac{1}{2}$, down $\\frac{1}{3}$  C. right $\\frac{1}{2}$, down $\\frac{1}{3}$  D. left $\\frac{1}{2}$, up $\\frac{1}{3}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = (x - h)^2 + k$ is $y = x^2$ translated $h$ units horizontally (right if $h > 0$) and $k$ units vertically (up if $k > 0$).",
+            "steps": [
+              "Given: $y = x^2$ becomes $y = \\left(x - \\frac{1}{2}\\right)^2 + \\frac{1}{3}$.",
+              "Goal: Identify the translations.",
+              "$h = \\frac{1}{2} > 0$: translate right $\\frac{1}{2}$.",
+              "$k = \\frac{1}{3} > 0$: translate up $\\frac{1}{3}$.",
+              "Check: the turning point moves from $(0, 0)$ to $\\left(\\frac{1}{2}, \\frac{1}{3}\\right)$ ✓."
+            ],
+            "finalAnswer": "Therefore the answer is A: right $\\frac{1}{2}$, up $\\frac{1}{3}$.",
+            "solutionFigures": [],
+            "tip": "A minus sign inside the bracket means a shift to the right, not the left."
+          }
+        },
+        {
+          "id": "ch9_ex4_q10",
+          "number": "10",
+          "category": "Consolidate",
+          "questionText": "MC For the graph $y = \\frac{1}{4}\\left(x - \\frac{1}{2}\\right)^2 + \\frac{1}{3}$, the effect of the $\\frac{1}{4}$ on the graph is: A. no effect  B. to make the graph narrower  C. to make the graph wider  D. to invert the graph",
+          "questionFigures": [],
+          "solution": {
+            "formula": "In $y = a(x - h)^2 + k$: $0 < |a| < 1$ makes the graph wider than $y = x^2$; $|a| > 1$ makes it narrower; $a < 0$ inverts it.",
+            "steps": [
+              "Given: $a = \\frac{1}{4}$.",
+              "Goal: Describe the effect of $a$.",
+              "$a > 0$, so the graph is not inverted.",
+              "$|a| = \\frac{1}{4} < 1$, so the graph is dilated by factor $\\frac{1}{4}$ from the x-axis, which makes it wider."
+            ],
+            "finalAnswer": "Therefore the answer is C: it makes the graph wider.",
+            "solutionFigures": [],
+            "tip": "A fraction in front of the bracket squashes the parabola, so it looks wider."
+          }
+        },
+        {
+          "id": "ch9_ex4_q11",
+          "number": "11",
+          "category": "Master",
+          "questionText": "MC Compared to the graph of $y = x^2$, $y = -2(x + 1)^2 - 4$ is: A. inverted and wider  B. inverted and narrower  C. upright and wider  D. upright and narrower",
+          "questionFigures": [],
+          "solution": {
+            "formula": "In $y = a(x - h)^2 + k$: $a < 0$ inverted; $|a| > 1$ narrower, $|a| < 1$ wider.",
+            "steps": [
+              "Given: $a = -2$.",
+              "Goal: Describe orientation and width.",
+              "$a = -2 < 0$: inverted.",
+              "$|a| = 2 > 1$: narrower."
+            ],
+            "finalAnswer": "Therefore the answer is B: inverted and narrower.",
+            "solutionFigures": [],
+            "tip": "Treat the sign and the size of $a$ separately."
+          }
+        },
+        {
+          "id": "ch9_ex4_q12",
+          "number": "12",
+          "category": "Practice",
+          "questionText": "MC A graph that has a minimum turning point $(1, 5)$ and that is narrower than the graph of $y = x^2$ is: A. $y = (x - 1)^2 + 5$  B. $y = \\frac{1}{2}(x + 1)^2 + 5$  C. $y = 2(x - 1)^2 + 5$  D. $y = 2(x + 1)^2 + 5$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: turning point $(h, k)$; minimum if $a > 0$; narrower if $|a| > 1$.",
+            "steps": [
+              "Given: minimum TP $(1, 5)$, narrower than $y = x^2$.",
+              "Goal: Choose the matching equation.",
+              "TP $(1, 5)$ requires $(x - 1)^2 + 5$: this rules out B and D (they give TP $(-1, 5)$).",
+              "Narrower requires $|a| > 1$: A has $a = 1$ (same width), C has $a = 2$.",
+              "C: $a = 2 > 0$ gives a minimum ✓."
+            ],
+            "finalAnswer": "Therefore the answer is C: $y = 2(x - 1)^2 + 5$.",
+            "solutionFigures": [],
+            "tip": "Eliminate options one condition at a time."
+          }
+        },
+        {
+          "id": "ch9_ex4_q13",
+          "number": "13",
+          "category": "Consolidate",
+          "questionText": "MC Compared to the graph of $y = x^2$, the graph of $y = -3(x - 1)^2 - 2$ has the following features. A. Maximum TP at $(-1, -2)$, narrower  B. Maximum TP at $(1, -2)$, narrower  C. Maximum TP at $(1, 2)$, wider  D. Minimum TP at $(1, -2)$, narrower",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: turning point $(h, k)$; maximum if $a < 0$; narrower if $|a| > 1$.",
+            "steps": [
+              "Given: $y = -3(x - 1)^2 - 2$, so $a = -3$, $h = 1$, $k = -2$.",
+              "Goal: Identify TP, type and width.",
+              "TP $(1, -2)$.",
+              "$a = -3 < 0$: maximum.",
+              "$|a| = 3 > 1$: narrower."
+            ],
+            "finalAnswer": "Therefore the answer is B: maximum TP at $(1, -2)$, narrower.",
+            "solutionFigures": [],
+            "tip": "The sign of $k$ is read directly; only $h$ changes sign."
+          }
+        },
+        {
+          "id": "ch9_ex4_q14a",
+          "number": "14(a)",
+          "category": "Practice",
+          "questionText": "For the parabola $y = (x + 1)^2 - 4$: i. determine the y-intercept; ii. determine the x-intercepts (where they exist).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "y-intercept: substitute $x = 0$. x-intercepts: set $y = 0$ and solve $(x - h)^2 = -\\frac{k}{a}$ by taking square roots.",
+            "steps": [
+              "Given: $y = (x + 1)^2 - 4$.",
+              "Goal: Find the y- and x-intercepts.",
+              "i. $x = 0$: $y = (0 + 1)^2 - 4 = 1 - 4 = -3$.",
+              "ii. $y = 0$: $(x + 1)^2 - 4 = 0$",
+              "$(x + 1)^2 = 4$",
+              "$x + 1 = \\pm 2$",
+              "$x = -1 + 2 = 1$ or $x = -1 - 2 = -3$.",
+              "Check: $(1 + 1)^2 - 4 = 0$ ✓, $(-3 + 1)^2 - 4 = 0$ ✓."
+            ],
+            "finalAnswer": "Therefore the y-intercept is $-3$ and the x-intercepts are $x = -3$ and $x = 1$.",
+            "solutionFigures": [],
+            "tip": "Remember both the positive and negative square root when solving."
+          }
+        },
+        {
+          "id": "ch9_ex4_q14b",
+          "number": "14(b)",
+          "category": "Practice",
+          "questionText": "For the parabola $y = 3(x - 2)^2$: i. determine the y-intercept; ii. determine the x-intercepts (where they exist).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "y-intercept: substitute $x = 0$. x-intercepts: set $y = 0$ and solve.",
+            "steps": [
+              "Given: $y = 3(x - 2)^2$.",
+              "Goal: Find the y- and x-intercepts.",
+              "i. $x = 0$: $y = 3(0 - 2)^2 = 3 \\times 4 = 12$.",
+              "ii. $y = 0$: $3(x - 2)^2 = 0$",
+              "$(x - 2)^2 = 0$",
+              "$x = 2$ (one x-intercept; the turning point $(2, 0)$ touches the x-axis)."
+            ],
+            "finalAnswer": "Therefore the y-intercept is $12$ and there is one x-intercept at $x = 2$.",
+            "solutionFigures": [],
+            "tip": "When $k = 0$ the turning point sits on the x-axis, giving just one x-intercept."
+          }
+        },
+        {
+          "id": "ch9_ex4_q15a",
+          "number": "15(a)",
+          "category": "Consolidate",
+          "questionText": "For the parabola $y = -(x + 4)^2 - 2$: i. determine the y-intercept; ii. determine the x-intercepts (where they exist).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "y-intercept: substitute $x = 0$. x-intercepts: set $y = 0$; if $(x - h)^2$ must equal a negative number there are none.",
+            "steps": [
+              "Given: $y = -(x + 4)^2 - 2$.",
+              "Goal: Find the y- and x-intercepts.",
+              "i. $x = 0$: $y = -(0 + 4)^2 - 2 = -16 - 2 = -18$.",
+              "ii. $y = 0$: $-(x + 4)^2 - 2 = 0$",
+              "$-(x + 4)^2 = 2$",
+              "$(x + 4)^2 = -2$, which has no real solution because a square cannot be negative.",
+              "Also: maximum TP $(-4, -2)$ lies below the x-axis, so the graph never reaches it."
+            ],
+            "finalAnswer": "Therefore the y-intercept is $-18$ and there are no x-intercepts.",
+            "solutionFigures": [],
+            "tip": "Square $(0 + 4)$ first, then apply the negative sign: $-(4)^2 = -16$."
+          }
+        },
+        {
+          "id": "ch9_ex4_q15b",
+          "number": "15(b)",
+          "category": "Consolidate",
+          "questionText": "For the parabola $y = (x - 2)^2 - 9$: i. determine the y-intercept; ii. determine the x-intercepts (where they exist).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "y-intercept: substitute $x = 0$. x-intercepts: set $y = 0$ and solve.",
+            "steps": [
+              "Given: $y = (x - 2)^2 - 9$.",
+              "Goal: Find the y- and x-intercepts.",
+              "i. $x = 0$: $y = (0 - 2)^2 - 9 = 4 - 9 = -5$.",
+              "ii. $y = 0$: $(x - 2)^2 = 9$",
+              "$x - 2 = \\pm 3$",
+              "$x = 2 + 3 = 5$ or $x = 2 - 3 = -1$."
+            ],
+            "finalAnswer": "Therefore the y-intercept is $-5$ and the x-intercepts are $x = -1$ and $x = 5$.",
+            "solutionFigures": [],
+            "tip": "The x-intercepts are symmetric about the axis $x = 2$: $2 \\pm 3$."
+          }
+        },
+        {
+          "id": "ch9_ex4_q16a",
+          "number": "16(a)",
+          "category": "Master",
+          "questionText": "For the parabola $y = 2x^2 + 4$: i. determine the y-intercept; ii. determine the x-intercepts (where they exist).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "y-intercept: substitute $x = 0$. x-intercepts: set $y = 0$ and solve.",
+            "steps": [
+              "Given: $y = 2x^2 + 4$.",
+              "Goal: Find the y- and x-intercepts.",
+              "i. $x = 0$: $y = 2(0)^2 + 4 = 4$.",
+              "ii. $y = 0$: $2x^2 + 4 = 0$",
+              "$x^2 = -2$, which has no real solution.",
+              "Also: minimum TP $(0, 4)$ is above the x-axis."
+            ],
+            "finalAnswer": "Therefore the y-intercept is $4$ and there are no x-intercepts.",
+            "solutionFigures": [],
+            "tip": "Upright parabola with TP above the x-axis means no x-intercepts."
+          }
+        },
+        {
+          "id": "ch9_ex4_q16b",
+          "number": "16(b)",
+          "category": "Master",
+          "questionText": "For the parabola $y = (x + 3)^2 - 5$: i. determine the y-intercept; ii. determine the x-intercepts (where they exist).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "y-intercept: substitute $x = 0$. x-intercepts: set $y = 0$ and solve $(x - h)^2 = c$ giving $x = h \\pm \\sqrt{c}$.",
+            "steps": [
+              "Given: $y = (x + 3)^2 - 5$.",
+              "Goal: Find the y- and x-intercepts.",
+              "i. $x = 0$: $y = (0 + 3)^2 - 5 = 9 - 5 = 4$.",
+              "ii. $y = 0$: $(x + 3)^2 = 5$",
+              "$x + 3 = \\pm\\sqrt{5}$",
+              "$x = -3 - \\sqrt{5}$ or $x = -3 + \\sqrt{5}$.",
+              "Approximately: $x \\approx -5.24$ or $x \\approx -0.76$ (2 decimal places)."
+            ],
+            "finalAnswer": "Therefore the y-intercept is $4$ and the x-intercepts are $x = -3 \\pm \\sqrt{5}$ (approx. $-5.24$ and $-0.76$).",
+            "solutionFigures": [],
+            "tip": "Leave answers as exact surds unless asked to round."
+          }
+        },
+        {
+          "id": "ch9_ex4_q17a",
+          "number": "17(a)",
+          "category": "Practice",
+          "questionText": "For $y = (x - 4)^2 + 2$: i. write the coordinates of the turning point; ii. state whether the graph has a maximum or a minimum turning point; iii. state whether the graph is wider, narrower or the same width as the graph of $y = x^2$; iv. calculate the y-intercept; v. calculate the x-intercepts; vi. sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: TP $(h, k)$; sign of $a$ gives max/min; $|a|$ gives width; $x = 0$ gives the y-intercept; $y = 0$ gives the x-intercepts.",
+            "steps": [
+              "Given: $y = (x - 4)^2 + 2$, so $a = 1$, $h = 4$, $k = 2$.",
+              "Goal: Find all key features and sketch.",
+              "i. TP $(4, 2)$.",
+              "ii. $a = 1 > 0$: minimum.",
+              "iii. $|a| = 1$: same width as $y = x^2$.",
+              "iv. $x = 0$: $y = (0 - 4)^2 + 2 = 16 + 2 = 18$.",
+              "v. $y = 0$: $(x - 4)^2 = -2$, no real solution, so no x-intercepts.",
+              "vi. Sketch: an upright parabola, same width as $y = x^2$, with minimum TP $(4, 2)$, axis of symmetry $x = 4$, passing through $(0, 18)$ and (by symmetry) $(8, 18)$, lying entirely above the x-axis."
+            ],
+            "finalAnswer": "Therefore: TP $(4, 2)$, minimum, same width, y-intercept $18$, no x-intercepts.",
+            "solutionFigures": [],
+            "tip": "Use symmetry about the axis to plot a second point matching the y-intercept."
+          }
+        },
+        {
+          "id": "ch9_ex4_q17b",
+          "number": "17(b)",
+          "category": "Practice",
+          "questionText": "For $y = (x - 3)^2 - 4$: i. write the coordinates of the turning point; ii. state whether the graph has a maximum or a minimum turning point; iii. state whether the graph is wider, narrower or the same width as the graph of $y = x^2$; iv. calculate the y-intercept; v. calculate the x-intercepts; vi. sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: TP $(h, k)$; sign of $a$ gives max/min; $|a|$ gives width; $x = 0$ gives the y-intercept; $y = 0$ gives the x-intercepts.",
+            "steps": [
+              "Given: $y = (x - 3)^2 - 4$, so $a = 1$, $h = 3$, $k = -4$.",
+              "Goal: Find all key features and sketch.",
+              "i. TP $(3, -4)$.",
+              "ii. $a = 1 > 0$: minimum.",
+              "iii. $|a| = 1$: same width.",
+              "iv. $x = 0$: $y = (0 - 3)^2 - 4 = 9 - 4 = 5$.",
+              "v. $y = 0$: $(x - 3)^2 = 4$, so $x - 3 = \\pm 2$, giving $x = 1$ or $x = 5$.",
+              "vi. Sketch: an upright parabola with minimum TP $(3, -4)$, axis of symmetry $x = 3$, y-intercept $(0, 5)$, x-intercepts $(1, 0)$ and $(5, 0)$."
+            ],
+            "finalAnswer": "Therefore: TP $(3, -4)$, minimum, same width, y-intercept $5$, x-intercepts $x = 1$ and $x = 5$.",
+            "solutionFigures": [],
+            "tip": "The x-intercepts should be equally spaced either side of the axis of symmetry."
+          }
+        },
+        {
+          "id": "ch9_ex4_q17c",
+          "number": "17(c)",
+          "category": "Practice",
+          "questionText": "For $y = (x + 1)^2 + 2$: i. write the coordinates of the turning point; ii. state whether the graph has a maximum or a minimum turning point; iii. state whether the graph is wider, narrower or the same width as the graph of $y = x^2$; iv. calculate the y-intercept; v. calculate the x-intercepts; vi. sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: TP $(h, k)$; sign of $a$ gives max/min; $|a|$ gives width; $x = 0$ gives the y-intercept; $y = 0$ gives the x-intercepts.",
+            "steps": [
+              "Given: $y = (x + 1)^2 + 2$, so $a = 1$, $h = -1$, $k = 2$.",
+              "Goal: Find all key features and sketch.",
+              "i. TP $(-1, 2)$.",
+              "ii. $a = 1 > 0$: minimum.",
+              "iii. $|a| = 1$: same width.",
+              "iv. $x = 0$: $y = (0 + 1)^2 + 2 = 3$.",
+              "v. $y = 0$: $(x + 1)^2 = -2$, no real solution, so no x-intercepts.",
+              "vi. Sketch: an upright parabola with minimum TP $(-1, 2)$, axis $x = -1$, y-intercept $(0, 3)$, symmetric point $(-2, 3)$, entirely above the x-axis."
+            ],
+            "finalAnswer": "Therefore: TP $(-1, 2)$, minimum, same width, y-intercept $3$, no x-intercepts.",
+            "solutionFigures": [],
+            "tip": "If the minimum is above the x-axis, don't waste time solving for x-intercepts."
+          }
+        },
+        {
+          "id": "ch9_ex4_q18a",
+          "number": "18(a)",
+          "category": "Consolidate",
+          "questionText": "For $y = (x + 5)^2 - 3$: i. write the coordinates of the turning point; ii. state whether the graph has a maximum or a minimum turning point; iii. state whether the graph is wider, narrower or the same width as the graph of $y = x^2$; iv. calculate the y-intercept; v. calculate the x-intercepts; vi. sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: TP $(h, k)$; sign of $a$ gives max/min; $|a|$ gives width; $x = 0$ gives the y-intercept; $y = 0$ gives the x-intercepts.",
+            "steps": [
+              "Given: $y = (x + 5)^2 - 3$, so $a = 1$, $h = -5$, $k = -3$.",
+              "Goal: Find all key features and sketch.",
+              "i. TP $(-5, -3)$.",
+              "ii. $a = 1 > 0$: minimum.",
+              "iii. $|a| = 1$: same width.",
+              "iv. $x = 0$: $y = (5)^2 - 3 = 25 - 3 = 22$.",
+              "v. $y = 0$: $(x + 5)^2 = 3$, so $x + 5 = \\pm\\sqrt{3}$, giving $x = -5 - \\sqrt{3}$ or $x = -5 + \\sqrt{3}$.",
+              "Approximately $x \\approx -6.73$ or $x \\approx -3.27$ (2 decimal places).",
+              "vi. Sketch: upright parabola, minimum TP $(-5, -3)$, axis $x = -5$, x-intercepts at about $-6.73$ and $-3.27$, y-intercept $(0, 22)$."
+            ],
+            "finalAnswer": "Therefore: TP $(-5, -3)$, minimum, same width, y-intercept $22$, x-intercepts $x = -5 \\pm \\sqrt{3}$ (approx. $-6.73$, $-3.27$).",
+            "solutionFigures": [],
+            "tip": "Keep $\\pm\\sqrt{3}$ exact and only round at the end."
+          }
+        },
+        {
+          "id": "ch9_ex4_q18b",
+          "number": "18(b)",
+          "category": "Consolidate",
+          "questionText": "For $y = -(x - 1)^2 + 2$: i. write the coordinates of the turning point; ii. state whether the graph has a maximum or a minimum turning point; iii. state whether the graph is wider, narrower or the same width as the graph of $y = x^2$; iv. calculate the y-intercept; v. calculate the x-intercepts; vi. sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: TP $(h, k)$; sign of $a$ gives max/min; $|a|$ gives width; $x = 0$ gives the y-intercept; $y = 0$ gives the x-intercepts.",
+            "steps": [
+              "Given: $y = -(x - 1)^2 + 2$, so $a = -1$, $h = 1$, $k = 2$.",
+              "Goal: Find all key features and sketch.",
+              "i. TP $(1, 2)$.",
+              "ii. $a = -1 < 0$: maximum.",
+              "iii. $|a| = 1$: same width.",
+              "iv. $x = 0$: $y = -(0 - 1)^2 + 2 = -1 + 2 = 1$.",
+              "v. $y = 0$: $-(x - 1)^2 + 2 = 0$, so $(x - 1)^2 = 2$, $x - 1 = \\pm\\sqrt{2}$, $x = 1 \\pm \\sqrt{2}$.",
+              "Approximately $x \\approx -0.41$ or $x \\approx 2.41$ (2 decimal places).",
+              "vi. Sketch: inverted parabola, maximum TP $(1, 2)$, axis $x = 1$, y-intercept $(0, 1)$, x-intercepts at about $-0.41$ and $2.41$."
+            ],
+            "finalAnswer": "Therefore: TP $(1, 2)$, maximum, same width, y-intercept $1$, x-intercepts $x = 1 \\pm \\sqrt{2}$ (approx. $-0.41$, $2.41$).",
+            "solutionFigures": [],
+            "tip": "Move the negative across carefully: $-(x - 1)^2 = -2$ becomes $(x - 1)^2 = 2$."
+          }
+        },
+        {
+          "id": "ch9_ex4_q18c",
+          "number": "18(c)",
+          "category": "Consolidate",
+          "questionText": "For $y = -(x + 2)^2 - 3$: i. write the coordinates of the turning point; ii. state whether the graph has a maximum or a minimum turning point; iii. state whether the graph is wider, narrower or the same width as the graph of $y = x^2$; iv. calculate the y-intercept; v. calculate the x-intercepts; vi. sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: TP $(h, k)$; sign of $a$ gives max/min; $|a|$ gives width; $x = 0$ gives the y-intercept; $y = 0$ gives the x-intercepts.",
+            "steps": [
+              "Given: $y = -(x + 2)^2 - 3$, so $a = -1$, $h = -2$, $k = -3$.",
+              "Goal: Find all key features and sketch.",
+              "i. TP $(-2, -3)$.",
+              "ii. $a = -1 < 0$: maximum.",
+              "iii. $|a| = 1$: same width.",
+              "iv. $x = 0$: $y = -(2)^2 - 3 = -4 - 3 = -7$.",
+              "v. $y = 0$: $(x + 2)^2 = -3$, no real solution, so no x-intercepts.",
+              "vi. Sketch: inverted parabola, maximum TP $(-2, -3)$, axis $x = -2$, y-intercept $(0, -7)$, entirely below the x-axis."
+            ],
+            "finalAnswer": "Therefore: TP $(-2, -3)$, maximum, same width, y-intercept $-7$, no x-intercepts.",
+            "solutionFigures": [],
+            "tip": "A maximum below the x-axis means the graph never crosses it."
+          }
+        },
+        {
+          "id": "ch9_ex4_q19a",
+          "number": "19(a)",
+          "category": "Master",
+          "questionText": "For $y = -(x + 3)^2 - 2$: i. write the coordinates of the turning point; ii. state whether the graph has a maximum or a minimum turning point; iii. state whether the graph is wider, narrower or the same width as the graph of $y = x^2$; iv. calculate the y-intercept; v. calculate the x-intercepts; vi. sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: TP $(h, k)$; sign of $a$ gives max/min; $|a|$ gives width; $x = 0$ gives the y-intercept; $y = 0$ gives the x-intercepts.",
+            "steps": [
+              "Given: $y = -(x + 3)^2 - 2$, so $a = -1$, $h = -3$, $k = -2$.",
+              "Goal: Find all key features and sketch.",
+              "i. TP $(-3, -2)$.",
+              "ii. $a = -1 < 0$: maximum.",
+              "iii. $|a| = 1$: same width.",
+              "iv. $x = 0$: $y = -(3)^2 - 2 = -9 - 2 = -11$.",
+              "v. $y = 0$: $(x + 3)^2 = -2$, no real solution, so no x-intercepts.",
+              "vi. Sketch: inverted parabola, maximum TP $(-3, -2)$, axis $x = -3$, y-intercept $(0, -11)$, entirely below the x-axis."
+            ],
+            "finalAnswer": "Therefore: TP $(-3, -2)$, maximum, same width, y-intercept $-11$, no x-intercepts.",
+            "solutionFigures": [],
+            "tip": "Compute $(0 + 3)^2 = 9$ before applying the minus sign."
+          }
+        },
+        {
+          "id": "ch9_ex4_q19b",
+          "number": "19(b)",
+          "category": "Master",
+          "questionText": "For $y = 2(x - 1)^2 + 3$: i. write the coordinates of the turning point; ii. state whether the graph has a maximum or a minimum turning point; iii. state whether the graph is wider, narrower or the same width as the graph of $y = x^2$; iv. calculate the y-intercept; v. calculate the x-intercepts; vi. sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: TP $(h, k)$; sign of $a$ gives max/min; $|a|$ gives width; $x = 0$ gives the y-intercept; $y = 0$ gives the x-intercepts.",
+            "steps": [
+              "Given: $y = 2(x - 1)^2 + 3$, so $a = 2$, $h = 1$, $k = 3$.",
+              "Goal: Find all key features and sketch.",
+              "i. TP $(1, 3)$.",
+              "ii. $a = 2 > 0$: minimum.",
+              "iii. $|a| = 2 > 1$: narrower.",
+              "iv. $x = 0$: $y = 2(0 - 1)^2 + 3 = 2 + 3 = 5$.",
+              "v. $y = 0$: $2(x - 1)^2 = -3$, so $(x - 1)^2 = -\\frac{3}{2}$, no real solution; no x-intercepts.",
+              "vi. Sketch: narrow upright parabola, minimum TP $(1, 3)$, axis $x = 1$, y-intercept $(0, 5)$, symmetric point $(2, 5)$, entirely above the x-axis."
+            ],
+            "finalAnswer": "Therefore: TP $(1, 3)$, minimum, narrower, y-intercept $5$, no x-intercepts.",
+            "solutionFigures": [],
+            "tip": "Multiply by $a$ after squaring: $2(-1)^2 = 2$, not $(-2)^2$."
+          }
+        },
+        {
+          "id": "ch9_ex4_q19c",
+          "number": "19(c)",
+          "category": "Master",
+          "questionText": "For $y = -3(x + 2)^2 + 1$: i. write the coordinates of the turning point; ii. state whether the graph has a maximum or a minimum turning point; iii. state whether the graph is wider, narrower or the same width as the graph of $y = x^2$; iv. calculate the y-intercept; v. calculate the x-intercepts; vi. sketch the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: TP $(h, k)$; sign of $a$ gives max/min; $|a|$ gives width; $x = 0$ gives the y-intercept; $y = 0$ gives the x-intercepts.",
+            "steps": [
+              "Given: $y = -3(x + 2)^2 + 1$, so $a = -3$, $h = -2$, $k = 1$.",
+              "Goal: Find all key features and sketch.",
+              "i. TP $(-2, 1)$.",
+              "ii. $a = -3 < 0$: maximum.",
+              "iii. $|a| = 3 > 1$: narrower.",
+              "iv. $x = 0$: $y = -3(2)^2 + 1 = -12 + 1 = -11$.",
+              "v. $y = 0$: $-3(x + 2)^2 + 1 = 0$, so $(x + 2)^2 = \\frac{1}{3}$.",
+              "$x + 2 = \\pm\\frac{1}{\\sqrt{3}}$, so $x = -2 \\pm \\frac{1}{\\sqrt{3}} = -2 \\pm \\frac{\\sqrt{3}}{3}$.",
+              "Approximately $x \\approx -2.58$ or $x \\approx -1.42$ (2 decimal places).",
+              "vi. Sketch: narrow inverted parabola, maximum TP $(-2, 1)$, axis $x = -2$, x-intercepts at about $-2.58$ and $-1.42$, y-intercept $(0, -11)$."
+            ],
+            "finalAnswer": "Therefore: TP $(-2, 1)$, maximum, narrower, y-intercept $-11$, x-intercepts $x = -2 \\pm \\frac{1}{\\sqrt{3}}$ (approx. $-2.58$, $-1.42$).",
+            "solutionFigures": [],
+            "tip": "Divide by $-3$ carefully: $-3(x+2)^2 = -1$ gives $(x+2)^2 = \\frac{1}{3}$."
+          }
+        },
+        {
+          "id": "ch9_ex4_q20a",
+          "number": "20(a)",
+          "category": "Practice",
+          "questionText": "Consider the equation $2x^2 - 3x - 8 = 0$. Complete the square.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Completing the square: $x^2 + bx = \\left(x + \\frac{b}{2}\\right)^2 - \\left(\\frac{b}{2}\\right)^2$; first factor out the coefficient of $x^2$.",
+            "steps": [
+              "Given: $2x^2 - 3x - 8 = 0$.",
+              "Goal: Write it in the form $a(x - h)^2 + k = 0$.",
+              "Factor out 2: $2\\left(x^2 - \\frac{3}{2}x - 4\\right) = 0$.",
+              "Half of $-\\frac{3}{2}$ is $-\\frac{3}{4}$; its square is $\\frac{9}{16}$.",
+              "$2\\left(x^2 - \\frac{3}{2}x + \\frac{9}{16} - \\frac{9}{16} - 4\\right) = 0$",
+              "$2\\left(\\left(x - \\frac{3}{4}\\right)^2 - \\frac{9}{16} - \\frac{64}{16}\\right) = 0$",
+              "$2\\left(\\left(x - \\frac{3}{4}\\right)^2 - \\frac{73}{16}\\right) = 0$",
+              "$2\\left(x - \\frac{3}{4}\\right)^2 - \\frac{73}{8} = 0$.",
+              "Check: $2\\left(x^2 - \\frac{3}{2}x + \\frac{9}{16}\\right) - \\frac{73}{8} = 2x^2 - 3x + \\frac{9}{8} - \\frac{73}{8} = 2x^2 - 3x - 8$ ✓."
+            ],
+            "finalAnswer": "Therefore $2\\left(x - \\frac{3}{4}\\right)^2 - \\frac{73}{8} = 0$.",
+            "solutionFigures": [],
+            "tip": "Factor out the leading coefficient before halving the x-coefficient."
+          }
+        },
+        {
+          "id": "ch9_ex4_q20b",
+          "number": "20(b)",
+          "category": "Practice",
+          "questionText": "Consider the equation $2x^2 - 3x - 8 = 0$. Use the completed-square form $2\\left(x - \\frac{3}{4}\\right)^2 - \\frac{73}{8} = 0$ to determine the exact solutions to the original equation.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Solve $(x - h)^2 = c$ with $x = h \\pm \\sqrt{c}$.",
+            "steps": [
+              "Given: $2\\left(x - \\frac{3}{4}\\right)^2 - \\frac{73}{8} = 0$.",
+              "Goal: Exact solutions for $x$.",
+              "$2\\left(x - \\frac{3}{4}\\right)^2 = \\frac{73}{8}$",
+              "$\\left(x - \\frac{3}{4}\\right)^2 = \\frac{73}{16}$",
+              "$x - \\frac{3}{4} = \\pm\\frac{\\sqrt{73}}{4}$",
+              "$x = \\frac{3}{4} \\pm \\frac{\\sqrt{73}}{4} = \\frac{3 \\pm \\sqrt{73}}{4}$.",
+              "Check (approx.): $x \\approx 2.886$ or $x \\approx -1.386$; $2(2.886)^2 - 3(2.886) - 8 \\approx 0$ ✓."
+            ],
+            "finalAnswer": "Therefore $x = \\frac{3 \\pm \\sqrt{73}}{4}$.",
+            "solutionFigures": [],
+            "tip": "$\\sqrt{16} = 4$ comes out of the denominator: $\\sqrt{\\frac{73}{16}} = \\frac{\\sqrt{73}}{4}$."
+          }
+        },
+        {
+          "id": "ch9_ex4_q20c",
+          "number": "20(c)",
+          "category": "Practice",
+          "questionText": "Consider the equation $2x^2 - 3x - 8 = 0$. Determine the turning point of $y = 2x^2 - 3x - 8$ and indicate its type.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$ has TP $(h, k)$; minimum if $a > 0$.",
+            "steps": [
+              "Given: $y = 2x^2 - 3x - 8 = 2\\left(x - \\frac{3}{4}\\right)^2 - \\frac{73}{8}$ (from part a).",
+              "Goal: Turning point and type.",
+              "$h = \\frac{3}{4}$, $k = -\\frac{73}{8}$, so TP $\\left(\\frac{3}{4}, -\\frac{73}{8}\\right)$.",
+              "$a = 2 > 0$: minimum."
+            ],
+            "finalAnswer": "Therefore the turning point is $\\left(\\frac{3}{4}, -\\frac{73}{8}\\right)$, a minimum.",
+            "solutionFigures": [],
+            "tip": "Reuse your completed-square form; there's no need to start again."
+          }
+        },
+        {
+          "id": "ch9_ex4_q21a",
+          "number": "21(a)",
+          "category": "Consolidate",
+          "questionText": "Determine the equation of a quadratic that has a turning point of $(-4, 6)$ and has an x-intercept at $(-1, 0)$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$; substitute a known point to find $a$.",
+            "steps": [
+              "Given: TP $(-4, 6)$, point $(-1, 0)$.",
+              "Goal: Find the equation.",
+              "$y = a(x + 4)^2 + 6$.",
+              "Substitute $(-1, 0)$: $0 = a(-1 + 4)^2 + 6$",
+              "$0 = 9a + 6$",
+              "$a = -\\frac{6}{9} = -\\frac{2}{3}$.",
+              "$y = -\\frac{2}{3}(x + 4)^2 + 6$.",
+              "Check: $x = -1$: $-\\frac{2}{3}(9) + 6 = -6 + 6 = 0$ ✓."
+            ],
+            "finalAnswer": "Therefore $y = -\\frac{2}{3}(x + 4)^2 + 6$.",
+            "solutionFigures": [],
+            "tip": "Always substitute a point other than the turning point to find $a$."
+          }
+        },
+        {
+          "id": "ch9_ex4_q21b",
+          "number": "21(b)",
+          "category": "Consolidate",
+          "questionText": "A quadratic has a turning point of $(-4, 6)$ and an x-intercept at $(-1, 0)$. State the other x-intercept (if any).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "A parabola is symmetric about its axis $x = h$; x-intercepts are equally spaced either side.",
+            "steps": [
+              "Given: axis of symmetry $x = -4$, x-intercept $x = -1$.",
+              "Goal: The other x-intercept.",
+              "Distance from axis: $-1 - (-4) = 3$.",
+              "Other intercept: $-4 - 3 = -7$.",
+              "Check with $y = -\\frac{2}{3}(x + 4)^2 + 6$: $x = -7$ gives $-\\frac{2}{3}(9) + 6 = 0$ ✓."
+            ],
+            "finalAnswer": "Therefore the other x-intercept is $(-7, 0)$.",
+            "solutionFigures": [],
+            "tip": "Use symmetry to save time instead of solving the equation again."
+          }
+        },
+        {
+          "id": "ch9_ex4_q22a",
+          "number": "22(a)",
+          "category": "Master",
+          "questionText": "Write the new equation for the parabola $y = x^2$ that has been reflected in the x-axis.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Reflection in the x-axis: $y = f(x) \\to y = -f(x)$.",
+            "steps": [
+              "Given: $y = x^2$.",
+              "Goal: Reflect in the x-axis.",
+              "Replace $y$-values by their negatives: $y = -x^2$."
+            ],
+            "finalAnswer": "Therefore the new equation is $y = -x^2$.",
+            "solutionFigures": [],
+            "tip": "Reflecting in the x-axis turns every y-value upside down."
+          }
+        },
+        {
+          "id": "ch9_ex4_q22b",
+          "number": "22(b)",
+          "category": "Master",
+          "questionText": "Write the new equation for the parabola $y = x^2$ that has been dilated by a factor of 7 away from the x-axis.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Dilation by factor $a$ from the x-axis: $y = f(x) \\to y = a f(x)$.",
+            "steps": [
+              "Given: $y = x^2$, dilation factor 7 from the x-axis.",
+              "Goal: New equation.",
+              "Multiply the y-values by 7: $y = 7x^2$."
+            ],
+            "finalAnswer": "Therefore the new equation is $y = 7x^2$.",
+            "solutionFigures": [],
+            "tip": "Dilation from the x-axis multiplies the whole right-hand side."
+          }
+        },
+        {
+          "id": "ch9_ex4_q22c",
+          "number": "22(c)",
+          "category": "Master",
+          "questionText": "Write the new equation for the parabola $y = x^2$ that has been translated 3 units in the negative direction of the x-axis.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Horizontal translation by $h$: $y = (x - h)^2$; left 3 means $h = -3$.",
+            "steps": [
+              "Given: $y = x^2$, translate 3 units left.",
+              "Goal: New equation.",
+              "$h = -3$: $y = (x - (-3))^2 = (x + 3)^2$.",
+              "Check: TP moves from $(0, 0)$ to $(-3, 0)$ ✓."
+            ],
+            "finalAnswer": "Therefore the new equation is $y = (x + 3)^2$.",
+            "solutionFigures": [],
+            "tip": "Moving left means adding inside the bracket."
+          }
+        },
+        {
+          "id": "ch9_ex4_q22d",
+          "number": "22(d)",
+          "category": "Master",
+          "questionText": "Write the new equation for the parabola $y = x^2$ that has been translated 6 units in the positive direction of the y-axis.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Vertical translation by $k$: $y = x^2 + k$.",
+            "steps": [
+              "Given: $y = x^2$, translate 6 units up.",
+              "Goal: New equation.",
+              "$k = 6$: $y = x^2 + 6$."
+            ],
+            "finalAnswer": "Therefore the new equation is $y = x^2 + 6$.",
+            "solutionFigures": [],
+            "tip": "Vertical shifts are added outside the square."
+          }
+        },
+        {
+          "id": "ch9_ex4_q22e",
+          "number": "22(e)",
+          "category": "Master",
+          "questionText": "Write the new equation for the parabola $y = x^2$ that has been dilated by a factor of $\\frac{1}{4}$ from the x-axis, reflected in the x-axis, and translated 5 units in the positive direction of the x-axis and 3 units in the negative direction of the y-axis.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: dilation gives $|a|$, reflection gives the sign of $a$, translations give $h$ and $k$.",
+            "steps": [
+              "Given: dilation $\\frac{1}{4}$, reflection in x-axis, right 5, down 3.",
+              "Goal: New equation.",
+              "Dilation: $y = \\frac{1}{4}x^2$.",
+              "Reflection: $y = -\\frac{1}{4}x^2$.",
+              "Right 5: $y = -\\frac{1}{4}(x - 5)^2$.",
+              "Down 3: $y = -\\frac{1}{4}(x - 5)^2 - 3$.",
+              "Check: TP $(5, -3)$, maximum, wider ✓."
+            ],
+            "finalAnswer": "Therefore the new equation is $y = -\\frac{1}{4}(x - 5)^2 - 3$.",
+            "solutionFigures": [],
+            "tip": "Apply dilation and reflection before translations so the translations are not scaled."
+          }
+        },
+        {
+          "id": "ch9_ex4_q23a",
+          "number": "23(a)",
+          "category": "Practice",
+          "questionText": "The share price of 'Lollies'r'us' in the afternoon follows $P = 0.1(t - 3)^2 + 1$, where $\\$P$ is the price of shares $t$ hours after noon (trade closes at 5 pm). Sketch a graph of the relationship between time and share price to represent the situation.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$P = a(t - h)^2 + k$ has TP $(h, k)$; evaluate endpoints of the domain.",
+            "steps": [
+              "Given: $P = 0.1(t - 3)^2 + 1$, $0 \\le t \\le 5$.",
+              "Goal: Sketch the graph.",
+              "TP: $(3, 1)$, minimum since $a = 0.1 > 0$; graph is wider than $P = t^2$.",
+              "Start ($t = 0$): $P = 0.1(-3)^2 + 1 = 0.9 + 1 = 1.9$.",
+              "End ($t = 5$): $P = 0.1(2)^2 + 1 = 0.4 + 1 = 1.4$.",
+              "Sketch: a section of an upright parabola from $(0, 1.9)$ falling to the minimum $(3, 1)$, then rising to the endpoint $(5, 1.4)$; horizontal axis 't (hours after 12 pm)', vertical axis 'P ($)'."
+            ],
+            "finalAnswer": "Therefore the sketch is the part of an upright parabola from $(0, 1.90)$ down to the minimum $(3, 1)$ and up to $(5, 1.40)$.",
+            "solutionFigures": [],
+            "tip": "Restrict the sketch to the time interval given; don't draw beyond 5 pm."
+          }
+        },
+        {
+          "id": "ch9_ex4_q23b",
+          "number": "23(b)",
+          "category": "Practice",
+          "questionText": "The share price follows $P = 0.1(t - 3)^2 + 1$, where $\\$P$ is the price of shares $t$ hours after noon. Determine the initial share price.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Initial value: substitute $t = 0$.",
+            "steps": [
+              "Given: $P = 0.1(t - 3)^2 + 1$.",
+              "Goal: $P$ when $t = 0$.",
+              "$P = 0.1(0 - 3)^2 + 1 = 0.1 \\times 9 + 1 = 0.9 + 1 = 1.9$."
+            ],
+            "finalAnswer": "Therefore the initial share price was $\\$1.90$.",
+            "solutionFigures": [],
+            "tip": "'Initial' always means time zero."
+          }
+        },
+        {
+          "id": "ch9_ex4_q23c",
+          "number": "23(c)",
+          "category": "Practice",
+          "questionText": "The share price follows $P = 0.1(t - 3)^2 + 1$, where $\\$P$ is the price of shares $t$ hours after noon. Determine the lowest price of shares that afternoon.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The minimum value of $a(t - h)^2 + k$ with $a > 0$ is $k$.",
+            "steps": [
+              "Given: $P = 0.1(t - 3)^2 + 1$, $a > 0$.",
+              "Goal: Minimum $P$.",
+              "TP $(3, 1)$ is a minimum, so lowest $P = 1$."
+            ],
+            "finalAnswer": "Therefore the lowest share price was $\\$1.00$.",
+            "solutionFigures": [],
+            "tip": "The squared term is never negative, so its smallest value 0 gives the minimum."
+          }
+        },
+        {
+          "id": "ch9_ex4_q23d",
+          "number": "23(d)",
+          "category": "Practice",
+          "questionText": "The share price follows $P = 0.1(t - 3)^2 + 1$, where $\\$P$ is the price of shares $t$ hours after noon. Evaluate the time when the price was at its lowest.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The minimum occurs at $t = h$.",
+            "steps": [
+              "Given: TP $(3, 1)$.",
+              "Goal: Time of the minimum.",
+              "$t = 3$ hours after noon, i.e. 12 pm + 3 h = 3 pm."
+            ],
+            "finalAnswer": "Therefore the price was lowest at 3 pm.",
+            "solutionFigures": [],
+            "tip": "Convert 'hours after noon' into a clock time."
+          }
+        },
+        {
+          "id": "ch9_ex4_q23e",
+          "number": "23(e)",
+          "category": "Practice",
+          "questionText": "The share price follows $P = 0.1(t - 3)^2 + 1$, where $\\$P$ is the price of shares $t$ hours after noon. Determine the final price of 'Lollies'r'us' shares as trade closed at 5 pm.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute the closing time $t = 5$.",
+            "steps": [
+              "Given: 5 pm is $t = 5$.",
+              "Goal: $P(5)$.",
+              "$P = 0.1(5 - 3)^2 + 1 = 0.1 \\times 4 + 1 = 0.4 + 1 = 1.4$."
+            ],
+            "finalAnswer": "Therefore the closing share price was $\\$1.40$.",
+            "solutionFigures": [],
+            "tip": "Write money answers to two decimal places."
+          }
+        },
+        {
+          "id": "ch9_ex4_q24a",
+          "number": "24(a)",
+          "category": "Consolidate",
+          "questionText": "The path of a kicked football is modelled by $h = -\\frac{1}{30}(d - 15)^2 + 8$, where $h$ is the vertical distance (m) and $d$ is the horizontal distance (m). Determine the initial vertical height of the ball.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Initial height: substitute $d = 0$.",
+            "steps": [
+              "Given: $h = -\\frac{1}{30}(d - 15)^2 + 8$.",
+              "Goal: $h$ when $d = 0$.",
+              "$h = -\\frac{1}{30}(0 - 15)^2 + 8 = -\\frac{225}{30} + 8 = -7.5 + 8 = 0.5$."
+            ],
+            "finalAnswer": "Therefore the initial height of the ball is $0.5$ m.",
+            "solutionFigures": [],
+            "tip": "Square first: $(-15)^2 = 225$, then divide by 30."
+          }
+        },
+        {
+          "id": "ch9_ex4_q24b",
+          "number": "24(b)",
+          "category": "Consolidate",
+          "questionText": "The path of a kicked football is modelled by $h = -\\frac{1}{30}(d - 15)^2 + 8$, where $h$ is the vertical distance (m) and $d$ is the horizontal distance (m). Determine the exact maximum horizontal distance the ball travels.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The ball lands when $h = 0$; solve $(d - h)^2 = c$.",
+            "steps": [
+              "Given: $h = -\\frac{1}{30}(d - 15)^2 + 8$.",
+              "Goal: Positive $d$ where $h = 0$ (beyond the kick).",
+              "$0 = -\\frac{1}{30}(d - 15)^2 + 8$",
+              "$\\frac{1}{30}(d - 15)^2 = 8$",
+              "$(d - 15)^2 = 240$",
+              "$d - 15 = \\pm\\sqrt{240} = \\pm\\sqrt{16 \\times 15} = \\pm 4\\sqrt{15}$",
+              "$d = 15 \\pm 4\\sqrt{15}$.",
+              "$15 - 4\\sqrt{15} \\approx -0.49$ is behind the kicker, so reject it.",
+              "$d = 15 + 4\\sqrt{15} \\approx 30.49$ m."
+            ],
+            "finalAnswer": "Therefore the maximum horizontal distance is $(15 + 4\\sqrt{15})$ m (about $30.49$ m).",
+            "solutionFigures": [],
+            "tip": "Simplify the surd: $\\sqrt{240} = 4\\sqrt{15}$."
+          }
+        },
+        {
+          "id": "ch9_ex4_q24c",
+          "number": "24(c)",
+          "category": "Consolidate",
+          "questionText": "The path of a kicked football is modelled by $h = -\\frac{1}{30}(d - 15)^2 + 8$, where $h$ is the vertical distance (m) and $d$ is the horizontal distance (m). Write down both the maximum height and the horizontal distance when the maximum height is reached.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$h = a(d - p)^2 + q$ with $a < 0$ has maximum $q$ at $d = p$.",
+            "steps": [
+              "Given: $a = -\\frac{1}{30} < 0$, TP $(15, 8)$.",
+              "Goal: Maximum height and where it occurs.",
+              "Maximum height $= 8$ m at $d = 15$ m."
+            ],
+            "finalAnswer": "Therefore the maximum height is 8 m, reached at a horizontal distance of 15 m.",
+            "solutionFigures": [],
+            "tip": "Read the maximum directly from turning point form, no calculation needed."
+          }
+        },
+        {
+          "id": "ch9_ex4_q25a",
+          "number": "25(a)",
+          "category": "Master",
+          "questionText": "If the turning point of a particular parabola is $(2, 6)$, suggest a possible equation for the parabola.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$ with $(h, k) = (2, 6)$ and any $a \\ne 0$.",
+            "steps": [
+              "Given: TP $(2, 6)$.",
+              "Goal: A possible equation.",
+              "$y = a(x - 2)^2 + 6$ for any non-zero $a$.",
+              "Choose $a = 1$: $y = (x - 2)^2 + 6$."
+            ],
+            "finalAnswer": "Therefore one possible equation is $y = (x - 2)^2 + 6$ (any $y = a(x - 2)^2 + 6$, $a \\ne 0$, works).",
+            "solutionFigures": [],
+            "tip": "A turning point alone does not fix $a$; you need one more point."
+          }
+        },
+        {
+          "id": "ch9_ex4_q25b",
+          "number": "25(b)",
+          "category": "Master",
+          "questionText": "A parabola has turning point $(2, 6)$. If its y-intercept is $(0, 4)$, determine the exact equation for the parabola.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$; substitute a known point to find $a$.",
+            "steps": [
+              "Given: TP $(2, 6)$, point $(0, 4)$.",
+              "Goal: Find $a$.",
+              "$y = a(x - 2)^2 + 6$.",
+              "Substitute $(0, 4)$: $4 = a(0 - 2)^2 + 6 = 4a + 6$.",
+              "$4a = -2$, so $a = -\\frac{1}{2}$.",
+              "$y = -\\frac{1}{2}(x - 2)^2 + 6$.",
+              "Check: $x = 0$: $-\\frac{1}{2}(4) + 6 = 4$ ✓."
+            ],
+            "finalAnswer": "Therefore $y = -\\frac{1}{2}(x - 2)^2 + 6$.",
+            "solutionFigures": [],
+            "tip": "The y-intercept is below the turning point, so $a$ must be negative."
+          }
+        },
+        {
+          "id": "ch9_ex4_q26a",
+          "number": "26(a)",
+          "category": "Master",
+          "questionText": "If the turning point of a particular parabola is $(p, q)$, suggest a possible equation for the parabola.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$ with $(h, k) = (p, q)$.",
+            "steps": [
+              "Given: TP $(p, q)$.",
+              "Goal: A possible equation.",
+              "$y = a(x - p)^2 + q$, $a \\ne 0$.",
+              "Choose $a = 1$: $y = (x - p)^2 + q$."
+            ],
+            "finalAnswer": "Therefore one possible equation is $y = (x - p)^2 + q$.",
+            "solutionFigures": [],
+            "tip": "Pronumerals substitute exactly like numbers in turning point form."
+          }
+        },
+        {
+          "id": "ch9_ex4_q26b",
+          "number": "26(b)",
+          "category": "Master",
+          "questionText": "A parabola has turning point $(p, q)$. If its y-intercept is $(0, r)$, determine the exact equation for the parabola.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - p)^2 + q$; substitute $(0, r)$ to find $a$.",
+            "steps": [
+              "Given: TP $(p, q)$, point $(0, r)$, with $p \\ne 0$.",
+              "Goal: Find $a$.",
+              "$r = a(0 - p)^2 + q = ap^2 + q$.",
+              "$ap^2 = r - q$, so $a = \\frac{r - q}{p^2}$.",
+              "$y = \\frac{r - q}{p^2}(x - p)^2 + q$.",
+              "Check: $x = 0$: $\\frac{r - q}{p^2} \\cdot p^2 + q = r$ ✓."
+            ],
+            "finalAnswer": "Therefore $y = \\frac{r - q}{p^2}(x - p)^2 + q$ (for $p \\ne 0$).",
+            "solutionFigures": [],
+            "tip": "Note $(0 - p)^2 = p^2$, which is positive whatever the sign of $p$."
+          }
+        },
+        {
+          "id": "ch9_ex4_q27a",
+          "number": "27(a)",
+          "category": "Practice",
+          "questionText": "Use the completing the square method to write $y = x^2 - 8x + 1$ in turning point form and sketch the parabola.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$x^2 + bx + c = \\left(x + \\frac{b}{2}\\right)^2 - \\left(\\frac{b}{2}\\right)^2 + c$.",
+            "steps": [
+              "Given: $y = x^2 - 8x + 1$.",
+              "Goal: Turning point form and sketch.",
+              "Half of $-8$ is $-4$; $(-4)^2 = 16$.",
+              "$y = x^2 - 8x + 16 - 16 + 1 = (x - 4)^2 - 15$.",
+              "TP $(4, -15)$, minimum ($a = 1 > 0$), same width as $y = x^2$.",
+              "y-intercept: $x = 0$, $y = 1$.",
+              "x-intercepts: $(x - 4)^2 = 15$, $x = 4 \\pm \\sqrt{15}$, approx. $0.13$ and $7.87$.",
+              "Sketch: upright parabola, minimum $(4, -15)$, axis $x = 4$, y-intercept $(0, 1)$, x-intercepts $(4 - \\sqrt{15}, 0)$ and $(4 + \\sqrt{15}, 0)$."
+            ],
+            "finalAnswer": "Therefore $y = (x - 4)^2 - 15$, with minimum $(4, -15)$, y-intercept $1$ and x-intercepts $4 \\pm \\sqrt{15}$.",
+            "solutionFigures": [],
+            "tip": "Add and subtract the same number so the equation's value does not change."
+          }
+        },
+        {
+          "id": "ch9_ex4_q27b",
+          "number": "27(b)",
+          "category": "Practice",
+          "questionText": "Use the completing the square method to write $y = x^2 + 4x - 5$ in turning point form and sketch the parabola.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$x^2 + bx + c = \\left(x + \\frac{b}{2}\\right)^2 - \\left(\\frac{b}{2}\\right)^2 + c$.",
+            "steps": [
+              "Given: $y = x^2 + 4x - 5$.",
+              "Goal: Turning point form and sketch.",
+              "Half of $4$ is $2$; $2^2 = 4$.",
+              "$y = x^2 + 4x + 4 - 4 - 5 = (x + 2)^2 - 9$.",
+              "TP $(-2, -9)$, minimum.",
+              "y-intercept: $y = -5$.",
+              "x-intercepts: $(x + 2)^2 = 9$, $x + 2 = \\pm 3$, $x = 1$ or $x = -5$.",
+              "Sketch: upright parabola, minimum $(-2, -9)$, axis $x = -2$, y-intercept $(0, -5)$, x-intercepts $(-5, 0)$ and $(1, 0)$."
+            ],
+            "finalAnswer": "Therefore $y = (x + 2)^2 - 9$, with minimum $(-2, -9)$, y-intercept $-5$ and x-intercepts $-5$ and $1$.",
+            "solutionFigures": [],
+            "tip": "Check by expanding: $(x + 2)^2 - 9 = x^2 + 4x - 5$."
+          }
+        },
+        {
+          "id": "ch9_ex4_q27c",
+          "number": "27(c)",
+          "category": "Practice",
+          "questionText": "Use the completing the square method to write $y = x^2 + 3x + 2$ in turning point form and sketch the parabola.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$x^2 + bx + c = \\left(x + \\frac{b}{2}\\right)^2 - \\left(\\frac{b}{2}\\right)^2 + c$.",
+            "steps": [
+              "Given: $y = x^2 + 3x + 2$.",
+              "Goal: Turning point form and sketch.",
+              "Half of $3$ is $\\frac{3}{2}$; $\\left(\\frac{3}{2}\\right)^2 = \\frac{9}{4}$.",
+              "$y = x^2 + 3x + \\frac{9}{4} - \\frac{9}{4} + 2 = \\left(x + \\frac{3}{2}\\right)^2 - \\frac{9}{4} + \\frac{8}{4} = \\left(x + \\frac{3}{2}\\right)^2 - \\frac{1}{4}$.",
+              "TP $\\left(-\\frac{3}{2}, -\\frac{1}{4}\\right) = (-1.5, -0.25)$, minimum.",
+              "y-intercept: $y = 2$.",
+              "x-intercepts: $\\left(x + \\frac{3}{2}\\right)^2 = \\frac{1}{4}$, $x + \\frac{3}{2} = \\pm\\frac{1}{2}$, $x = -1$ or $x = -2$.",
+              "Sketch: upright parabola, minimum $(-1.5, -0.25)$, axis $x = -1.5$, y-intercept $(0, 2)$, x-intercepts $(-2, 0)$ and $(-1, 0)$."
+            ],
+            "finalAnswer": "Therefore $y = \\left(x + \\frac{3}{2}\\right)^2 - \\frac{1}{4}$, with minimum $(-1.5, -0.25)$, y-intercept $2$ and x-intercepts $-2$ and $-1$.",
+            "solutionFigures": [],
+            "tip": "With an odd x-coefficient, work with fractions rather than decimals."
+          }
+        },
+        {
+          "id": "ch9_ex4_q28a",
+          "number": "28(a)",
+          "category": "Consolidate",
+          "questionText": "A graph shows an upright parabola with local minimum $(2, -8)$ and y-intercept $(0, 4)$. Determine the equation of the parabola shown.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$; substitute a known point to find $a$.",
+            "steps": [
+              "Given: TP $(2, -8)$, point $(0, 4)$.",
+              "Goal: Find the equation.",
+              "$y = a(x - 2)^2 - 8$.",
+              "Substitute $(0, 4)$: $4 = a(0 - 2)^2 - 8 = 4a - 8$.",
+              "$4a = 12$, so $a = 3$.",
+              "$y = 3(x - 2)^2 - 8$.",
+              "Check: $x = 0$: $3(4) - 8 = 4$ ✓."
+            ],
+            "finalAnswer": "Therefore $y = 3(x - 2)^2 - 8$.",
+            "solutionFigures": [],
+            "tip": "Read the y-intercept from the graph carefully; it determines $a$."
+          }
+        },
+        {
+          "id": "ch9_ex4_q28b",
+          "number": "28(b)",
+          "category": "Consolidate",
+          "questionText": "A graph shows the parabola $y = 3(x - 2)^2 - 8$ (local minimum $(2, -8)$, y-intercept $(0, 4)$). State the dilation and translation transformations that have been applied to $y = x^2$ to achieve this parabola.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: dilation factor $|a|$ from the x-axis, translation $h$ horizontally and $k$ vertically.",
+            "steps": [
+              "Given: $a = 3$, $h = 2$, $k = -8$.",
+              "Goal: List the transformations.",
+              "Dilation by factor 3 from the x-axis (parallel to the y-axis).",
+              "Translation 2 units right.",
+              "Translation 8 units down."
+            ],
+            "finalAnswer": "Therefore $y = x^2$ was dilated by a factor of 3 from the x-axis, translated 2 units right and 8 units down.",
+            "solutionFigures": [],
+            "tip": "'From the x-axis' and 'parallel to the y-axis' describe the same dilation."
+          }
+        },
+        {
+          "id": "ch9_ex4_q28c",
+          "number": "28(c)",
+          "category": "Consolidate",
+          "questionText": "The parabola $y = 3(x - 2)^2 - 8$ is reflected in the x-axis. Determine the equation of the reflected graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Reflection in the x-axis: $y = f(x) \\to y = -f(x)$.",
+            "steps": [
+              "Given: $y = 3(x - 2)^2 - 8$.",
+              "Goal: Reflect in the x-axis.",
+              "$y = -[3(x - 2)^2 - 8] = -3(x - 2)^2 + 8$."
+            ],
+            "finalAnswer": "Therefore the reflected graph is $y = -3(x - 2)^2 + 8$.",
+            "solutionFigures": [],
+            "tip": "Negate the whole right-hand side, including $k$."
+          }
+        },
+        {
+          "id": "ch9_ex4_q28d",
+          "number": "28(d)",
+          "category": "Consolidate",
+          "questionText": "Sketch the graph of the reflected parabola $y = -3(x - 2)^2 + 8$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Key features of $y = a(x - h)^2 + k$: TP, y-intercept ($x = 0$), x-intercepts ($y = 0$).",
+            "steps": [
+              "Given: $y = -3(x - 2)^2 + 8$.",
+              "Goal: Key features for a sketch.",
+              "TP $(2, 8)$, maximum ($a = -3 < 0$), narrower than $y = x^2$.",
+              "y-intercept: $y = -3(4) + 8 = -4$.",
+              "x-intercepts: $3(x - 2)^2 = 8$, $(x - 2)^2 = \\frac{8}{3}$, $x = 2 \\pm \\sqrt{\\frac{8}{3}} \\approx 2 \\pm 1.633$.",
+              "So $x \\approx 0.37$ or $x \\approx 3.63$ (2 decimal places).",
+              "Sketch: narrow inverted parabola, maximum $(2, 8)$, axis $x = 2$, x-intercepts $(0.37, 0)$ and $(3.63, 0)$, y-intercept $(0, -4)$."
+            ],
+            "finalAnswer": "Therefore the sketch is an inverted parabola with maximum $(2, 8)$, x-intercepts at about $0.37$ and $3.63$, and y-intercept $-4$.",
+            "solutionFigures": [],
+            "tip": "Reflection in the x-axis keeps the x-intercepts the same and negates the y-intercept."
+          }
+        },
+        {
+          "id": "ch9_ex4_q29a",
+          "number": "29(a)",
+          "category": "Master",
+          "questionText": "The graph of a quadratic equation has a turning point at $(-3, 8)$ and passes through the point $(-1, 6)$. Determine the equation of this parabola.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$; substitute a known point to find $a$.",
+            "steps": [
+              "Given: TP $(-3, 8)$, point $(-1, 6)$.",
+              "Goal: Find the equation.",
+              "$y = a(x + 3)^2 + 8$.",
+              "Substitute: $6 = a(-1 + 3)^2 + 8 = 4a + 8$.",
+              "$4a = -2$, $a = -\\frac{1}{2}$.",
+              "$y = -\\frac{1}{2}(x + 3)^2 + 8$."
+            ],
+            "finalAnswer": "Therefore $y = -\\frac{1}{2}(x + 3)^2 + 8$.",
+            "solutionFigures": [],
+            "tip": "Check the sign: the point is lower than the turning point, so $a < 0$."
+          }
+        },
+        {
+          "id": "ch9_ex4_q29b",
+          "number": "29(b)",
+          "category": "Master",
+          "questionText": "A parabola has turning point $(-3, 8)$ and passes through $(-1, 6)$, so its equation is $y = -\\frac{1}{2}(x + 3)^2 + 8$. State the transformations that have been applied to $y = x^2$ to produce this parabola.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$: dilation $|a|$ from x-axis, reflection if $a < 0$, translations $h$ and $k$.",
+            "steps": [
+              "Given: $a = -\\frac{1}{2}$, $h = -3$, $k = 8$.",
+              "Goal: List the transformations in order.",
+              "Dilation by factor $\\frac{1}{2}$ from the x-axis.",
+              "Reflection in the x-axis.",
+              "Translation 3 units left and 8 units up."
+            ],
+            "finalAnswer": "Therefore: dilation by factor $\\frac{1}{2}$ from the x-axis, reflection in the x-axis, then translation 3 units left and 8 units up.",
+            "solutionFigures": [],
+            "tip": "Do dilations and reflections before translations."
+          }
+        },
+        {
+          "id": "ch9_ex4_q29c",
+          "number": "29(c)",
+          "category": "Master",
+          "questionText": "A parabola has turning point $(-3, 8)$ and passes through $(-1, 6)$, so its equation is $y = -\\frac{1}{2}(x + 3)^2 + 8$. Calculate the x- and y-intercepts of this parabola.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "y-intercept: $x = 0$; x-intercepts: $y = 0$.",
+            "steps": [
+              "Given: $y = -\\frac{1}{2}(x + 3)^2 + 8$.",
+              "Goal: Intercepts.",
+              "y-intercept: $y = -\\frac{1}{2}(9) + 8 = -\\frac{9}{2} + \\frac{16}{2} = \\frac{7}{2}$.",
+              "x-intercepts: $\\frac{1}{2}(x + 3)^2 = 8$, $(x + 3)^2 = 16$, $x + 3 = \\pm 4$.",
+              "$x = 1$ or $x = -7$."
+            ],
+            "finalAnswer": "Therefore the x-intercepts are $(-7, 0)$ and $(1, 0)$ and the y-intercept is $\\left(0, \\frac{7}{2}\\right)$.",
+            "solutionFigures": [],
+            "tip": "Multiply both sides by 2 to clear the fraction before taking square roots."
+          }
+        },
+        {
+          "id": "ch9_ex4_q29d",
+          "number": "29(d)",
+          "category": "Master",
+          "questionText": "The parabola $y = -\\frac{1}{2}(x + 3)^2 + 8$ is reflected in the x-axis, dilated by a factor of 2 from the x-axis, and then reflected in the y-axis. Sketch the graph of this new parabola.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Reflect in x-axis: $y \\to -y$; dilate factor 2 from x-axis: multiply by 2; reflect in y-axis: replace $x$ by $-x$.",
+            "steps": [
+              "Given: $y = -\\frac{1}{2}(x + 3)^2 + 8$.",
+              "Goal: New equation and its key features.",
+              "Reflect in x-axis: $y = \\frac{1}{2}(x + 3)^2 - 8$.",
+              "Dilate by 2: $y = (x + 3)^2 - 16$.",
+              "Reflect in y-axis: $y = (-x + 3)^2 - 16 = (x - 3)^2 - 16$.",
+              "TP $(3, -16)$, minimum, same width as $y = x^2$.",
+              "y-intercept: $y = 9 - 16 = -7$.",
+              "x-intercepts: $(x - 3)^2 = 16$, $x - 3 = \\pm 4$, $x = 7$ or $x = -1$.",
+              "Sketch: upright parabola, minimum $(3, -16)$, axis $x = 3$, x-intercepts $(-1, 0)$ and $(7, 0)$, y-intercept $(0, -7)$."
+            ],
+            "finalAnswer": "Therefore the new parabola is $y = (x - 3)^2 - 16$: upright, minimum $(3, -16)$, x-intercepts $-1$ and $7$, y-intercept $-7$.",
+            "solutionFigures": [],
+            "tip": "$(-x + 3)^2 = (x - 3)^2$ because squaring removes the sign."
+          }
+        }
+      ]
+    }
+  ]
+}

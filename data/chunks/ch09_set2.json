@@ -1,0 +1,1451 @@
+{
+  "chapterId": "ch09",
+  "chapterTitle": "Non-linear relationships",
+  "topics": [
+    {
+      "topicId": "9.2",
+      "topicTitle": "Plotting parabolas from a table of values",
+      "exercises": [
+        {
+          "id": "ch9_ex2_q1a",
+          "number": "1(a)",
+          "category": "Practice",
+          "questionText": "Plot the graph of $y = 3x^2$ for $-3 \\le x \\le 3$, using these values of $x$ in your table. State the equation of the axis of symmetry and the coordinates of the turning point.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Table of values: substitute each $x$ into the rule. For $y = ax^2$ the turning point is $(0, 0)$ and the axis of symmetry is $x = 0$.",
+            "steps": [
+              "Given: $y = 3x^2$, $x = -3, -2, -1, 0, 1, 2, 3$.",
+              "Goal: table, graph, axis of symmetry and turning point.",
+              "$x = -3$: $y = 3(-3)^2 = 3(9) = 27$",
+              "$x = -2$: $y = 3(4) = 12$",
+              "$x = -1$: $y = 3(1) = 3$",
+              "$x = 0$: $y = 3(0) = 0$",
+              "$x = 1$: $y = 3$; $x = 2$: $y = 12$; $x = 3$: $y = 27$ (same as the negative values, since $(-x)^2 = x^2$).",
+              "Table: $x$: $-3, -2, -1, 0, 1, 2, 3$; $y$: $27, 12, 3, 0, 3, 12, 27$.",
+              "Plot the points and join them with a smooth U-shaped curve. The graph opens upward, is narrower than $y = x^2$, and its lowest point is at the origin.",
+              "The $y$-values are symmetric about $x = 0$, so the axis of symmetry is $x = 0$.",
+              "The lowest point is $(0, 0)$, a minimum turning point."
+            ],
+            "finalAnswer": "Therefore the axis of symmetry is $x = 0$ and the turning point is $(0, 0)$ (minimum).",
+            "solutionFigures": [],
+            "tip": "Square $x$ first, then multiply by 3: $3(-2)^2 = 3 \\times 4 = 12$, not $(3 \\times -2)^2 = 36$."
+          }
+        },
+        {
+          "id": "ch9_ex2_q1b",
+          "number": "1(b)",
+          "category": "Practice",
+          "questionText": "Plot the graph of $y = \\frac{1}{4}x^2$ for $-3 \\le x \\le 3$, using these values of $x$ in your table. State the equation of the axis of symmetry and the coordinates of the turning point.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Table of values: substitute each $x$ into the rule. For $y = ax^2$ the turning point is $(0, 0)$ and the axis of symmetry is $x = 0$.",
+            "steps": [
+              "Given: $y = \\frac{1}{4}x^2$, $x = -3, -2, -1, 0, 1, 2, 3$.",
+              "Goal: table, graph, axis of symmetry and turning point.",
+              "$x = \\pm 3$: $y = \\frac{1}{4}(9) = 2.25$",
+              "$x = \\pm 2$: $y = \\frac{1}{4}(4) = 1$",
+              "$x = \\pm 1$: $y = \\frac{1}{4}(1) = 0.25$",
+              "$x = 0$: $y = 0$",
+              "Table: $x$: $-3, -2, -1, 0, 1, 2, 3$; $y$: $2.25, 1, 0.25, 0, 0.25, 1, 2.25$.",
+              "Plot the points and join with a smooth curve. The graph opens upward and is wider (flatter) than $y = x^2$, with its lowest point at the origin.",
+              "Symmetric about the $y$-axis: axis of symmetry $x = 0$.",
+              "Lowest point $(0, 0)$: a minimum turning point."
+            ],
+            "finalAnswer": "Therefore the axis of symmetry is $x = 0$ and the turning point is $(0, 0)$ (minimum).",
+            "solutionFigures": [],
+            "tip": "Choose a $y$-axis scale with small steps (e.g. 0.5) so the flat shape near the origin shows clearly."
+          }
+        },
+        {
+          "id": "ch9_ex2_q2",
+          "number": "2",
+          "category": "Consolidate",
+          "questionText": "Compare the graphs drawn for question 1 ($y = 3x^2$ and $y = \\frac{1}{4}x^2$) with that of $y = x^2$. Explain how placing a number in front of $x^2$ affects the graph obtained.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = ax^2$: if $|a| > 1$ the graph is narrower than $y = x^2$; if $0 < |a| < 1$ it is wider.",
+            "steps": [
+              "Given: $y = 3x^2$, $y = \\frac{1}{4}x^2$ and $y = x^2$.",
+              "Goal: describe the effect of the coefficient of $x^2$.",
+              "At $x = 2$: $y = x^2$ gives 4; $y = 3x^2$ gives 12; $y = \\frac{1}{4}x^2$ gives 1.",
+              "So $y = 3x^2$ rises 3 times as fast as $y = x^2$: its arms are steeper and closer to the $y$-axis (narrower).",
+              "$y = \\frac{1}{4}x^2$ rises only a quarter as fast: its arms are flatter (wider).",
+              "All three graphs keep the same turning point $(0, 0)$ and axis $x = 0$."
+            ],
+            "finalAnswer": "Therefore placing a number greater than 1 in front of $x^2$ makes the graph narrower (thinner), and placing a number between 0 and 1 in front of $x^2$ makes it wider; the turning point stays at $(0, 0)$.",
+            "solutionFigures": [],
+            "tip": "Compare $y$-values at the same $x$: bigger $y$-values mean a steeper, narrower parabola."
+          }
+        },
+        {
+          "id": "ch9_ex2_q3a",
+          "number": "3(a)",
+          "category": "Practice",
+          "questionText": "Plot the graph of $y = x^2 + 1$ for values of $x$ between $-3$ and $3$. State the equation of the axis of symmetry, the coordinates of the turning point and the $y$-intercept.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = x^2 + k$, the turning point is $(0, k)$, the axis of symmetry is $x = 0$ and the $y$-intercept is $k$.",
+            "steps": [
+              "Given: $y = x^2 + 1$, $-3 \\le x \\le 3$.",
+              "Goal: table, graph, axis of symmetry, turning point, $y$-intercept.",
+              "$x = \\pm 3$: $y = 9 + 1 = 10$; $x = \\pm 2$: $y = 4 + 1 = 5$; $x = \\pm 1$: $y = 1 + 1 = 2$; $x = 0$: $y = 0 + 1 = 1$.",
+              "Table: $x$: $-3, -2, -1, 0, 1, 2, 3$; $y$: $10, 5, 2, 1, 2, 5, 10$.",
+              "The graph is the shape of $y = x^2$ moved up 1 unit, opening upward.",
+              "Axis of symmetry: $x = 0$.",
+              "Turning point (lowest point): $(0, 1)$, a minimum.",
+              "$y$-intercept: at $x = 0$, $y = 1$."
+            ],
+            "finalAnswer": "Therefore the axis of symmetry is $x = 0$, the turning point is $(0, 1)$ and the $y$-intercept is $1$.",
+            "solutionFigures": [],
+            "tip": "For graphs of the form $y = x^2 + k$, the turning point and the $y$-intercept are the same point."
+          }
+        },
+        {
+          "id": "ch9_ex2_q3b",
+          "number": "3(b)",
+          "category": "Practice",
+          "questionText": "Plot the graph of $y = x^2 + 3$ for values of $x$ between $-3$ and $3$. State the equation of the axis of symmetry, the coordinates of the turning point and the $y$-intercept.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = x^2 + k$, the turning point is $(0, k)$, the axis of symmetry is $x = 0$ and the $y$-intercept is $k$.",
+            "steps": [
+              "Given: $y = x^2 + 3$, $-3 \\le x \\le 3$.",
+              "Goal: table, graph, axis of symmetry, turning point, $y$-intercept.",
+              "$x = \\pm 3$: $y = 9 + 3 = 12$; $x = \\pm 2$: $y = 4 + 3 = 7$; $x = \\pm 1$: $y = 1 + 3 = 4$; $x = 0$: $y = 3$.",
+              "Table: $x$: $-3, -2, -1, 0, 1, 2, 3$; $y$: $12, 7, 4, 3, 4, 7, 12$.",
+              "The graph is $y = x^2$ moved up 3 units, opening upward.",
+              "Axis of symmetry: $x = 0$.",
+              "Turning point: $(0, 3)$, a minimum.",
+              "$y$-intercept: $y = 3$."
+            ],
+            "finalAnswer": "Therefore the axis of symmetry is $x = 0$, the turning point is $(0, 3)$ and the $y$-intercept is $3$.",
+            "solutionFigures": [],
+            "tip": "Use the symmetry of the table to check your arithmetic: matching $\\pm x$ values must give equal $y$-values."
+          }
+        },
+        {
+          "id": "ch9_ex2_q3c",
+          "number": "3(c)",
+          "category": "Practice",
+          "questionText": "Plot the graph of $y = x^2 - 3$ for values of $x$ between $-3$ and $3$. State the equation of the axis of symmetry, the coordinates of the turning point and the $y$-intercept.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = x^2 + k$, the turning point is $(0, k)$, the axis of symmetry is $x = 0$ and the $y$-intercept is $k$.",
+            "steps": [
+              "Given: $y = x^2 - 3$, $-3 \\le x \\le 3$.",
+              "Goal: table, graph, axis of symmetry, turning point, $y$-intercept.",
+              "$x = \\pm 3$: $y = 9 - 3 = 6$; $x = \\pm 2$: $y = 4 - 3 = 1$; $x = \\pm 1$: $y = 1 - 3 = -2$; $x = 0$: $y = -3$.",
+              "Table: $x$: $-3, -2, -1, 0, 1, 2, 3$; $y$: $6, 1, -2, -3, -2, 1, 6$.",
+              "The graph is $y = x^2$ moved down 3 units, opening upward; it crosses the $x$-axis between 1 and 2 and between $-2$ and $-1$ (at $x = \\pm\\sqrt{3} \\approx \\pm 1.73$).",
+              "Axis of symmetry: $x = 0$.",
+              "Turning point: $(0, -3)$, a minimum.",
+              "$y$-intercept: $y = -3$."
+            ],
+            "finalAnswer": "Therefore the axis of symmetry is $x = 0$, the turning point is $(0, -3)$ and the $y$-intercept is $-3$.",
+            "solutionFigures": [],
+            "tip": "Your $y$-axis must extend below zero to show the turning point at $-3$."
+          }
+        },
+        {
+          "id": "ch9_ex2_q3d",
+          "number": "3(d)",
+          "category": "Practice",
+          "questionText": "Plot the graph of $y = x^2 - 1$ for values of $x$ between $-3$ and $3$. State the equation of the axis of symmetry, the coordinates of the turning point and the $y$-intercept.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = x^2 + k$, the turning point is $(0, k)$, the axis of symmetry is $x = 0$ and the $y$-intercept is $k$.",
+            "steps": [
+              "Given: $y = x^2 - 1$, $-3 \\le x \\le 3$.",
+              "Goal: table, graph, axis of symmetry, turning point, $y$-intercept.",
+              "$x = \\pm 3$: $y = 9 - 1 = 8$; $x = \\pm 2$: $y = 4 - 1 = 3$; $x = \\pm 1$: $y = 1 - 1 = 0$; $x = 0$: $y = -1$.",
+              "Table: $x$: $-3, -2, -1, 0, 1, 2, 3$; $y$: $8, 3, 0, -1, 0, 3, 8$.",
+              "The graph is $y = x^2$ moved down 1 unit, opening upward, crossing the $x$-axis at $x = -1$ and $x = 1$.",
+              "Axis of symmetry: $x = 0$.",
+              "Turning point: $(0, -1)$, a minimum.",
+              "$y$-intercept: $y = -1$."
+            ],
+            "finalAnswer": "Therefore the axis of symmetry is $x = 0$, the turning point is $(0, -1)$ and the $y$-intercept is $-1$.",
+            "solutionFigures": [],
+            "tip": "Points where $y = 0$ in your table are the $x$-intercepts; label them on the graph."
+          }
+        },
+        {
+          "id": "ch9_ex2_q4",
+          "number": "4",
+          "category": "Master",
+          "questionText": "Compare the graphs drawn for question 3 ($y = x^2 + 1$, $y = x^2 + 3$, $y = x^2 - 3$, $y = x^2 - 1$) with the graph of $y = x^2$. Explain how adding to or subtracting from $x^2$ affects the graph obtained.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = x^2 + k$ is $y = x^2$ translated vertically by $k$ units (up if $k > 0$, down if $k < 0$).",
+            "steps": [
+              "Given: $y = x^2 + 1$, $y = x^2 + 3$, $y = x^2 - 3$, $y = x^2 - 1$ and $y = x^2$.",
+              "Goal: describe the effect of adding or subtracting a constant.",
+              "For every $x$, the $y$-value of $y = x^2 + 3$ is exactly 3 more than that of $y = x^2$ (e.g. $x = 2$: $7$ vs $4$).",
+              "So every point moves up 3 units; the turning point moves from $(0, 0)$ to $(0, 3)$.",
+              "Similarly $y = x^2 - 3$ moves every point down 3 units, turning point $(0, -3)$.",
+              "The shape (width) and the axis of symmetry $x = 0$ do not change."
+            ],
+            "finalAnswer": "Therefore adding a number raises the graph of $y = x^2$ vertically by that number of units, and subtracting a number lowers it vertically by that number of units; the shape and axis of symmetry stay the same.",
+            "solutionFigures": [],
+            "tip": "A constant added outside the square moves the graph up or down, never left or right."
+          }
+        },
+        {
+          "id": "ch9_ex2_q5",
+          "number": "5",
+          "category": "Practice",
+          "questionText": "Plot the graph of $y = (x + 1)^2$ for $-5 \\le x \\le 3$, using these values of $x$ in your table. State the equation of the axis of symmetry, the coordinates of the turning point and the $y$-intercept.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = (x - h)^2$, the turning point is $(h, 0)$ and the axis of symmetry is $x = h$; the $y$-intercept is found by letting $x = 0$.",
+            "steps": [
+              "Given: $y = (x + 1)^2$, $x = -5, -4, \\ldots, 3$.",
+              "Goal: table, graph, axis of symmetry, turning point, $y$-intercept.",
+              "$x = -5$: $(-4)^2 = 16$; $x = -4$: $(-3)^2 = 9$; $x = -3$: $(-2)^2 = 4$; $x = -2$: $(-1)^2 = 1$; $x = -1$: $0^2 = 0$.",
+              "$x = 0$: $1^2 = 1$; $x = 1$: $2^2 = 4$; $x = 2$: $3^2 = 9$; $x = 3$: $4^2 = 16$.",
+              "Table: $x$: $-5, -4, -3, -2, -1, 0, 1, 2, 3$; $y$: $16, 9, 4, 1, 0, 1, 4, 9, 16$.",
+              "The graph is the shape of $y = x^2$ moved 1 unit left, opening upward and touching the $x$-axis at $(-1, 0)$.",
+              "The $y$-values are symmetric about $x = -1$: axis of symmetry $x = -1$.",
+              "Turning point: $(-1, 0)$, a minimum.",
+              "$y$-intercept: at $x = 0$, $y = (0 + 1)^2 = 1$."
+            ],
+            "finalAnswer": "Therefore the axis of symmetry is $x = -1$, the turning point is $(-1, 0)$ and the $y$-intercept is $1$.",
+            "solutionFigures": [],
+            "tip": "$(x + 1)^2$ moves the graph LEFT 1 unit, the opposite of what the plus sign suggests."
+          }
+        },
+        {
+          "id": "ch9_ex2_q6",
+          "number": "6",
+          "category": "Consolidate",
+          "questionText": "Plot the graph of $y = (x - 2)^2$ for $-1 \\le x \\le 5$, using these values of $x$ in your table. State the equation of the axis of symmetry, the coordinates of the turning point and the $y$-intercept.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = (x - h)^2$, the turning point is $(h, 0)$ and the axis of symmetry is $x = h$; the $y$-intercept is found by letting $x = 0$.",
+            "steps": [
+              "Given: $y = (x - 2)^2$, $x = -1, 0, \\ldots, 5$.",
+              "Goal: table, graph, axis of symmetry, turning point, $y$-intercept.",
+              "$x = -1$: $(-3)^2 = 9$; $x = 0$: $(-2)^2 = 4$; $x = 1$: $(-1)^2 = 1$; $x = 2$: $0$.",
+              "$x = 3$: $1^2 = 1$; $x = 4$: $2^2 = 4$; $x = 5$: $3^2 = 9$.",
+              "Table: $x$: $-1, 0, 1, 2, 3, 4, 5$; $y$: $9, 4, 1, 0, 1, 4, 9$.",
+              "The graph is $y = x^2$ moved 2 units right, opening upward, touching the $x$-axis at $(2, 0)$.",
+              "Axis of symmetry: $x = 2$.",
+              "Turning point: $(2, 0)$, a minimum.",
+              "$y$-intercept: $y = (0 - 2)^2 = 4$."
+            ],
+            "finalAnswer": "Therefore the axis of symmetry is $x = 2$, the turning point is $(2, 0)$ and the $y$-intercept is $4$.",
+            "solutionFigures": [],
+            "tip": "$(0 - 2)^2 = (-2)^2 = 4$, not $-4$: a squared bracket is never negative."
+          }
+        },
+        {
+          "id": "ch9_ex2_q7",
+          "number": "7",
+          "category": "Master",
+          "questionText": "Plot the graph of $y = (x - 1)^2$ for $-2 \\le x \\le 4$, using these values of $x$ in your table. State the equation of the axis of symmetry, the coordinates of the turning point and the $y$-intercept.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = (x - h)^2$, the turning point is $(h, 0)$ and the axis of symmetry is $x = h$; the $y$-intercept is found by letting $x = 0$.",
+            "steps": [
+              "Given: $y = (x - 1)^2$, $x = -2, -1, \\ldots, 4$.",
+              "Goal: table, graph, axis of symmetry, turning point, $y$-intercept.",
+              "$x = -2$: $(-3)^2 = 9$; $x = -1$: $(-2)^2 = 4$; $x = 0$: $(-1)^2 = 1$; $x = 1$: $0$.",
+              "$x = 2$: $1$; $x = 3$: $4$; $x = 4$: $9$.",
+              "Table: $x$: $-2, -1, 0, 1, 2, 3, 4$; $y$: $9, 4, 1, 0, 1, 4, 9$.",
+              "The graph is $y = x^2$ moved 1 unit right, opening upward, touching the $x$-axis at $(1, 0)$.",
+              "Axis of symmetry: $x = 1$.",
+              "Turning point: $(1, 0)$, a minimum.",
+              "$y$-intercept: $y = (0 - 1)^2 = 1$."
+            ],
+            "finalAnswer": "Therefore the axis of symmetry is $x = 1$, the turning point is $(1, 0)$ and the $y$-intercept is $1$.",
+            "solutionFigures": [],
+            "tip": "The axis of symmetry passes through the $x$-value that makes the bracket zero."
+          }
+        },
+        {
+          "id": "ch9_ex2_q8",
+          "number": "8",
+          "category": "Consolidate",
+          "questionText": "Plot the graph of $y = (x + 2)^2$ for $-6 \\le x \\le 2$, using these values of $x$ in your table. State the equation of the axis of symmetry, the coordinates of the turning point and the $y$-intercept.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = (x - h)^2$, the turning point is $(h, 0)$ and the axis of symmetry is $x = h$; the $y$-intercept is found by letting $x = 0$.",
+            "steps": [
+              "Given: $y = (x + 2)^2$, $x = -6, -5, \\ldots, 2$.",
+              "Goal: table, graph, axis of symmetry, turning point, $y$-intercept.",
+              "$x = -6$: $(-4)^2 = 16$; $x = -5$: $(-3)^2 = 9$; $x = -4$: $(-2)^2 = 4$; $x = -3$: $(-1)^2 = 1$; $x = -2$: $0$.",
+              "$x = -1$: $1$; $x = 0$: $4$; $x = 1$: $9$; $x = 2$: $16$.",
+              "Table: $x$: $-6, -5, -4, -3, -2, -1, 0, 1, 2$; $y$: $16, 9, 4, 1, 0, 1, 4, 9, 16$.",
+              "The graph is $y = x^2$ moved 2 units left, opening upward, touching the $x$-axis at $(-2, 0)$.",
+              "Axis of symmetry: $x = -2$.",
+              "Turning point: $(-2, 0)$, a minimum.",
+              "$y$-intercept: $y = (0 + 2)^2 = 4$."
+            ],
+            "finalAnswer": "Therefore the axis of symmetry is $x = -2$, the turning point is $(-2, 0)$ and the $y$-intercept is $4$.",
+            "solutionFigures": [],
+            "tip": "Solve $x + 2 = 0$ to find the turning point's $x$-coordinate: $x = -2$."
+          }
+        },
+        {
+          "id": "ch9_ex2_q9",
+          "number": "9",
+          "category": "Master",
+          "questionText": "Compare the graphs drawn for questions 5 to 8 ($y = (x + 1)^2$, $y = (x - 2)^2$, $y = (x - 1)^2$, $y = (x + 2)^2$) with that for $y = x^2$. Explain how adding to or subtracting from $x$ before squaring affects the graph obtained.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = (x - h)^2$ is $y = x^2$ translated horizontally $h$ units (right if $h > 0$, left if $h < 0$).",
+            "steps": [
+              "Given: the turning points found: $(x + 1)^2 \\to (-1, 0)$, $(x - 2)^2 \\to (2, 0)$, $(x - 1)^2 \\to (1, 0)$, $(x + 2)^2 \\to (-2, 0)$.",
+              "Goal: describe the effect of adding or subtracting inside the bracket.",
+              "For $y = (x + 2)^2$, the value $y = 0$ now occurs at $x = -2$ instead of $x = 0$: the whole graph has slid 2 units left.",
+              "For $y = (x - 2)^2$, $y = 0$ occurs at $x = 2$: the graph has slid 2 units right.",
+              "The shape (width) and the direction of opening do not change; only the axis of symmetry moves."
+            ],
+            "finalAnswer": "Therefore adding a number to $x$ before squaring moves the graph of $y = x^2$ horizontally to the left by that number of units, and subtracting a number moves it horizontally to the right by that number of units.",
+            "solutionFigures": [],
+            "tip": "Horizontal shifts go the opposite way to the sign in the bracket."
+          }
+        },
+        {
+          "id": "ch9_ex2_q10",
+          "number": "10",
+          "category": "Consolidate",
+          "questionText": "Plot the graph of $y = -x^2 + 1$ for $-3 \\le x \\le 3$, using these values of $x$ in your table. State the equation of the axis of symmetry, the coordinates of the turning point and the $y$-intercept.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = -x^2 + k$, the graph opens downward with maximum turning point $(0, k)$, axis of symmetry $x = 0$ and $y$-intercept $k$.",
+            "steps": [
+              "Given: $y = -x^2 + 1$, $x = -3, \\ldots, 3$.",
+              "Goal: table, graph, axis of symmetry, turning point, $y$-intercept.",
+              "$x = \\pm 3$: $y = -9 + 1 = -8$; $x = \\pm 2$: $y = -4 + 1 = -3$; $x = \\pm 1$: $y = -1 + 1 = 0$; $x = 0$: $y = 1$.",
+              "Table: $x$: $-3, -2, -1, 0, 1, 2, 3$; $y$: $-8, -3, 0, 1, 0, -3, -8$.",
+              "The graph is an upside-down (inverted) parabola with its highest point at $(0, 1)$, crossing the $x$-axis at $x = -1$ and $x = 1$.",
+              "Axis of symmetry: $x = 0$.",
+              "Turning point: $(0, 1)$, a maximum.",
+              "$y$-intercept: $y = 1$."
+            ],
+            "finalAnswer": "Therefore the axis of symmetry is $x = 0$, the turning point is $(0, 1)$ (maximum) and the $y$-intercept is $1$.",
+            "solutionFigures": [],
+            "tip": "$-x^2$ means $-(x^2)$: for $x = -3$ it gives $-9$, not $+9$."
+          }
+        },
+        {
+          "id": "ch9_ex2_q11",
+          "number": "11",
+          "category": "Practice",
+          "questionText": "Plot the graph of $y = -(x + 2)^2$ for $-5 \\le x \\le 1$, using these values of $x$ in your table. State the equation of the axis of symmetry, the coordinates of the turning point and the $y$-intercept.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = -(x - h)^2$, the graph opens downward with maximum turning point $(h, 0)$ and axis of symmetry $x = h$.",
+            "steps": [
+              "Given: $y = -(x + 2)^2$, $x = -5, \\ldots, 1$.",
+              "Goal: table, graph, axis of symmetry, turning point, $y$-intercept.",
+              "$x = -5$: $-(-3)^2 = -9$; $x = -4$: $-(-2)^2 = -4$; $x = -3$: $-(-1)^2 = -1$; $x = -2$: $-(0)^2 = 0$.",
+              "$x = -1$: $-(1)^2 = -1$; $x = 0$: $-(2)^2 = -4$; $x = 1$: $-(3)^2 = -9$.",
+              "Table: $x$: $-5, -4, -3, -2, -1, 0, 1$; $y$: $-9, -4, -1, 0, -1, -4, -9$.",
+              "The graph is an inverted parabola moved 2 units left, with its highest point touching the $x$-axis at $(-2, 0)$.",
+              "Axis of symmetry: $x = -2$.",
+              "Turning point: $(-2, 0)$, a maximum.",
+              "$y$-intercept: $y = -(0 + 2)^2 = -4$."
+            ],
+            "finalAnswer": "Therefore the axis of symmetry is $x = -2$, the turning point is $(-2, 0)$ (maximum) and the $y$-intercept is $-4$.",
+            "solutionFigures": [],
+            "tip": "Square the bracket first, then apply the negative sign."
+          }
+        },
+        {
+          "id": "ch9_ex2_q12",
+          "number": "12",
+          "category": "Master",
+          "questionText": "Plot the graph of $y = -x^2 - 3$ for $-3 \\le x \\le 3$, using these values of $x$ in your table. State the equation of the axis of symmetry, the coordinates of the turning point and the $y$-intercept.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = -x^2 + k$, the graph opens downward with maximum turning point $(0, k)$, axis of symmetry $x = 0$ and $y$-intercept $k$.",
+            "steps": [
+              "Given: $y = -x^2 - 3$, $x = -3, \\ldots, 3$.",
+              "Goal: table, graph, axis of symmetry, turning point, $y$-intercept.",
+              "$x = \\pm 3$: $y = -9 - 3 = -12$; $x = \\pm 2$: $y = -4 - 3 = -7$; $x = \\pm 1$: $y = -1 - 3 = -4$; $x = 0$: $y = -3$.",
+              "Table: $x$: $-3, -2, -1, 0, 1, 2, 3$; $y$: $-12, -7, -4, -3, -4, -7, -12$.",
+              "The graph is an inverted parabola with highest point $(0, -3)$; it lies entirely below the $x$-axis (no $x$-intercepts).",
+              "Axis of symmetry: $x = 0$.",
+              "Turning point: $(0, -3)$, a maximum.",
+              "$y$-intercept: $y = -3$."
+            ],
+            "finalAnswer": "Therefore the axis of symmetry is $x = 0$, the turning point is $(0, -3)$ (maximum) and the $y$-intercept is $-3$.",
+            "solutionFigures": [],
+            "tip": "A maximum turning point below the $x$-axis means the graph never crosses the $x$-axis."
+          }
+        },
+        {
+          "id": "ch9_ex2_q13",
+          "number": "13",
+          "category": "Practice",
+          "questionText": "Plot the graph of $y = -(x - 1)^2$ for $-2 \\le x \\le 4$, using these values of $x$ in your table. State the equation of the axis of symmetry, the coordinates of the turning point and the $y$-intercept.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = -(x - h)^2$, the graph opens downward with maximum turning point $(h, 0)$ and axis of symmetry $x = h$.",
+            "steps": [
+              "Given: $y = -(x - 1)^2$, $x = -2, \\ldots, 4$.",
+              "Goal: table, graph, axis of symmetry, turning point, $y$-intercept.",
+              "$x = -2$: $-(-3)^2 = -9$; $x = -1$: $-(-2)^2 = -4$; $x = 0$: $-(-1)^2 = -1$; $x = 1$: $0$.",
+              "$x = 2$: $-1$; $x = 3$: $-4$; $x = 4$: $-9$.",
+              "Table: $x$: $-2, -1, 0, 1, 2, 3, 4$; $y$: $-9, -4, -1, 0, -1, -4, -9$.",
+              "The graph is an inverted parabola moved 1 unit right, its highest point touching the $x$-axis at $(1, 0)$.",
+              "Axis of symmetry: $x = 1$.",
+              "Turning point: $(1, 0)$, a maximum.",
+              "$y$-intercept: $y = -(0 - 1)^2 = -1$."
+            ],
+            "finalAnswer": "Therefore the axis of symmetry is $x = 1$, the turning point is $(1, 0)$ (maximum) and the $y$-intercept is $-1$.",
+            "solutionFigures": [],
+            "tip": "$-(0 - 1)^2 = -(1) = -1$: the square is positive, then the negative sign makes it negative."
+          }
+        },
+        {
+          "id": "ch9_ex2_q14",
+          "number": "14",
+          "category": "Master",
+          "questionText": "Compare the graphs drawn for questions 10 to 13 ($y = -x^2 + 1$, $y = -(x + 2)^2$, $y = -x^2 - 3$, $y = -(x - 1)^2$) with that for $y = x^2$. Explain how a negative sign in front of $x^2$ affects the graph obtained. Also compare the graphs obtained in questions 10 to 13 with those in questions 3 ($y = x^2 + 1$, $y = x^2 + 3$, $y = x^2 - 3$, $y = x^2 - 1$) and 5 to 8 ($y = (x + 1)^2$, $y = (x - 2)^2$, $y = (x - 1)^2$, $y = (x + 2)^2$). State which graphs have the same turning point. Describe how they are different.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = -f(x)$ is the reflection of $y = f(x)$ in the $x$-axis; for $y = a(x - h)^2 + k$ the turning point is $(h, k)$ whatever the sign of $a$.",
+            "steps": [
+              "Given: turning points from questions 10 to 13: $(0, 1)$, $(-2, 0)$, $(0, -3)$, $(1, 0)$, all maximums.",
+              "Goal: describe the effect of the negative sign and match turning points.",
+              "The negative sign makes every $y$-value of $y = x^2$ change sign, so the graph is flipped upside down (reflected in the $x$-axis): it opens downward with a maximum turning point.",
+              "Turning points from question 3: $(0, 1)$, $(0, 3)$, $(0, -3)$, $(0, -1)$; from questions 5 to 8: $(-1, 0)$, $(2, 0)$, $(1, 0)$, $(-2, 0)$.",
+              "Matching pairs: $y = x^2 + 1$ and $y = -x^2 + 1$ share $(0, 1)$.",
+              "$y = (x - 1)^2$ and $y = -(x - 1)^2$ share $(1, 0)$.",
+              "$y = (x + 2)^2$ and $y = -(x + 2)^2$ share $(-2, 0)$.",
+              "$y = x^2 - 3$ and $y = -x^2 - 3$ share $(0, -3)$.",
+              "In each pair the first graph is upright (minimum) and the second is inverted (maximum)."
+            ],
+            "finalAnswer": "Therefore the negative sign inverts the graph of $y = x^2$. The graphs with the same turning points are $y = x^2 + 1$ and $y = -x^2 + 1$; $y = (x - 1)^2$ and $y = -(x - 1)^2$; $y = (x + 2)^2$ and $y = -(x + 2)^2$; $y = x^2 - 3$ and $y = -x^2 - 3$. They differ in that the first graph is upright while the second is inverted.",
+            "solutionFigures": [],
+            "tip": "A reflection in the $x$-axis does not move a turning point that lies on the $x$-axis, but it does change $(0, 1)$ to $(0, -1)$ when applied to the whole equation; here the constants were kept, so the turning points match."
+          }
+        },
+        {
+          "id": "ch9_ex2_q15a",
+          "number": "15(a)",
+          "category": "Practice",
+          "questionText": "For $y = (x - 5)^2 + 1$, $0 \\le x \\le 6$: plot the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Table of values: substitute each $x$ into $y = (x - 5)^2 + 1$.",
+            "steps": [
+              "Given: $y = (x - 5)^2 + 1$, $x = 0, 1, \\ldots, 6$.",
+              "Goal: table of values and graph.",
+              "$x = 0$: $(-5)^2 + 1 = 25 + 1 = 26$",
+              "$x = 1$: $(-4)^2 + 1 = 16 + 1 = 17$",
+              "$x = 2$: $(-3)^2 + 1 = 9 + 1 = 10$",
+              "$x = 3$: $(-2)^2 + 1 = 4 + 1 = 5$",
+              "$x = 4$: $(-1)^2 + 1 = 1 + 1 = 2$",
+              "$x = 5$: $0 + 1 = 1$",
+              "$x = 6$: $1^2 + 1 = 2$",
+              "Table: $x$: $0, 1, 2, 3, 4, 5, 6$; $y$: $26, 17, 10, 5, 2, 1, 2$.",
+              "Plot and join with a smooth curve: an upright parabola starting at $(0, 26)$, falling to its lowest point $(5, 1)$ and rising again to $(6, 2)$. It never touches the $x$-axis."
+            ],
+            "finalAnswer": "Therefore the graph is an upright parabola through $(0, 26)$, $(3, 5)$, $(5, 1)$ and $(6, 2)$, with lowest point $(5, 1)$.",
+            "solutionFigures": [],
+            "tip": "The domain is not centred on the turning point, so the graph will look lopsided; that is expected."
+          }
+        },
+        {
+          "id": "ch9_ex2_q15b",
+          "number": "15(b)",
+          "category": "Practice",
+          "questionText": "For $y = (x - 5)^2 + 1$, $0 \\le x \\le 6$: state the equation of the axis of symmetry.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a(x - h)^2 + k$, the axis of symmetry is $x = h$.",
+            "steps": [
+              "Given: $y = (x - 5)^2 + 1$.",
+              "Goal: the axis of symmetry.",
+              "Compare with $y = a(x - h)^2 + k$: $h = 5$.",
+              "Check with the table: $x = 4$ and $x = 6$ both give $y = 2$, so the graph is symmetric about $x = 5$."
+            ],
+            "finalAnswer": "Therefore the axis of symmetry is $x = 5$.",
+            "solutionFigures": [],
+            "tip": "The axis of symmetry is a vertical line, so write it as $x = \\ldots$."
+          }
+        },
+        {
+          "id": "ch9_ex2_q15c",
+          "number": "15(c)",
+          "category": "Practice",
+          "questionText": "For $y = (x - 5)^2 + 1$, $0 \\le x \\le 6$: state the coordinates of the turning point and whether it is a maximum or a minimum.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a(x - h)^2 + k$, the turning point is $(h, k)$; it is a minimum if $a > 0$ and a maximum if $a < 0$.",
+            "steps": [
+              "Given: $y = (x - 5)^2 + 1$, so $a = 1$, $h = 5$, $k = 1$.",
+              "Goal: turning point and its type.",
+              "Turning point $(h, k) = (5, 1)$.",
+              "$a = 1 > 0$, so the parabola opens upward and the turning point is a minimum.",
+              "Check: at $x = 5$, $y = 0 + 1 = 1$, the smallest value in the table."
+            ],
+            "finalAnswer": "Therefore the turning point is $(5, 1)$, a minimum.",
+            "solutionFigures": [],
+            "tip": "Read the turning point straight from turning point form, then confirm with your table."
+          }
+        },
+        {
+          "id": "ch9_ex2_q15d",
+          "number": "15(d)",
+          "category": "Practice",
+          "questionText": "For $y = (x - 5)^2 + 1$, $0 \\le x \\le 6$: state the $y$-intercept.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The $y$-intercept is the value of $y$ when $x = 0$.",
+            "steps": [
+              "Given: $y = (x - 5)^2 + 1$.",
+              "Goal: the $y$-intercept.",
+              "Let $x = 0$: $y = (0 - 5)^2 + 1 = 25 + 1 = 26$."
+            ],
+            "finalAnswer": "Therefore the $y$-intercept is $26$.",
+            "solutionFigures": [],
+            "tip": "The $y$-intercept is not the constant 1; you must substitute $x = 0$ into the whole expression."
+          }
+        },
+        {
+          "id": "ch9_ex2_q16a",
+          "number": "16(a)",
+          "category": "Consolidate",
+          "questionText": "For $y = 2(x + 2)^2 - 3$, $-5 \\le x \\le 1$: plot the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Table of values: substitute each $x$ into $y = 2(x + 2)^2 - 3$.",
+            "steps": [
+              "Given: $y = 2(x + 2)^2 - 3$, $x = -5, \\ldots, 1$.",
+              "Goal: table of values and graph.",
+              "$x = -5$: $2(-3)^2 - 3 = 2(9) - 3 = 15$",
+              "$x = -4$: $2(-2)^2 - 3 = 8 - 3 = 5$",
+              "$x = -3$: $2(-1)^2 - 3 = 2 - 3 = -1$",
+              "$x = -2$: $2(0)^2 - 3 = -3$",
+              "$x = -1$: $2(1)^2 - 3 = -1$",
+              "$x = 0$: $2(2)^2 - 3 = 8 - 3 = 5$",
+              "$x = 1$: $2(3)^2 - 3 = 18 - 3 = 15$",
+              "Table: $x$: $-5, -4, -3, -2, -1, 0, 1$; $y$: $15, 5, -1, -3, -1, 5, 15$.",
+              "Plot and join: an upright parabola, narrower than $y = x^2$, with lowest point $(-2, -3)$, crossing the $x$-axis between $-4$ and $-3$ and between $-1$ and $0$."
+            ],
+            "finalAnswer": "Therefore the graph is a narrow upright parabola through $(-5, 15)$, $(-2, -3)$, $(0, 5)$ and $(1, 15)$, with lowest point $(-2, -3)$.",
+            "solutionFigures": [],
+            "tip": "Square the bracket, then multiply by 2, then subtract 3: keep that order every time."
+          }
+        },
+        {
+          "id": "ch9_ex2_q16b",
+          "number": "16(b)",
+          "category": "Consolidate",
+          "questionText": "For $y = 2(x + 2)^2 - 3$, $-5 \\le x \\le 1$: state the equation of the axis of symmetry.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a(x - h)^2 + k$, the axis of symmetry is $x = h$.",
+            "steps": [
+              "Given: $y = 2(x + 2)^2 - 3 = 2(x - (-2))^2 - 3$.",
+              "Goal: the axis of symmetry.",
+              "$h = -2$.",
+              "Check: $x = -3$ and $x = -1$ both give $y = -1$, symmetric about $x = -2$."
+            ],
+            "finalAnswer": "Therefore the axis of symmetry is $x = -2$.",
+            "solutionFigures": [],
+            "tip": "$(x + 2)$ gives $h = -2$, not $+2$."
+          }
+        },
+        {
+          "id": "ch9_ex2_q16c",
+          "number": "16(c)",
+          "category": "Consolidate",
+          "questionText": "For $y = 2(x + 2)^2 - 3$, $-5 \\le x \\le 1$: state the coordinates of the turning point and whether it is a maximum or a minimum.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a(x - h)^2 + k$, the turning point is $(h, k)$; minimum if $a > 0$, maximum if $a < 0$.",
+            "steps": [
+              "Given: $y = 2(x + 2)^2 - 3$, so $a = 2$, $h = -2$, $k = -3$.",
+              "Goal: turning point and type.",
+              "Turning point $(-2, -3)$.",
+              "$a = 2 > 0$: the parabola opens upward, so it is a minimum."
+            ],
+            "finalAnswer": "Therefore the turning point is $(-2, -3)$, a minimum.",
+            "solutionFigures": [],
+            "tip": "The dilation factor 2 changes the width, not the position of the turning point."
+          }
+        },
+        {
+          "id": "ch9_ex2_q16d",
+          "number": "16(d)",
+          "category": "Consolidate",
+          "questionText": "For $y = 2(x + 2)^2 - 3$, $-5 \\le x \\le 1$: state the $y$-intercept.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The $y$-intercept is the value of $y$ when $x = 0$.",
+            "steps": [
+              "Given: $y = 2(x + 2)^2 - 3$.",
+              "Goal: the $y$-intercept.",
+              "Let $x = 0$: $y = 2(0 + 2)^2 - 3 = 2(4) - 3 = 8 - 3 = 5$."
+            ],
+            "finalAnswer": "Therefore the $y$-intercept is $5$.",
+            "solutionFigures": [],
+            "tip": "Do not multiply 2 by 2 before squaring: $2(2)^2 = 2 \\times 4 = 8$, not $4^2 = 16$."
+          }
+        },
+        {
+          "id": "ch9_ex2_q17a",
+          "number": "17(a)",
+          "category": "Consolidate",
+          "questionText": "For $y = -(x - 3)^2 + 4$, $0 \\le x \\le 6$: plot the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Table of values: substitute each $x$ into $y = -(x - 3)^2 + 4$.",
+            "steps": [
+              "Given: $y = -(x - 3)^2 + 4$, $x = 0, \\ldots, 6$.",
+              "Goal: table of values and graph.",
+              "$x = 0$: $-(-3)^2 + 4 = -9 + 4 = -5$",
+              "$x = 1$: $-(-2)^2 + 4 = -4 + 4 = 0$",
+              "$x = 2$: $-(-1)^2 + 4 = -1 + 4 = 3$",
+              "$x = 3$: $-(0)^2 + 4 = 4$",
+              "$x = 4$: $-(1)^2 + 4 = 3$",
+              "$x = 5$: $-(2)^2 + 4 = 0$",
+              "$x = 6$: $-(3)^2 + 4 = -5$",
+              "Table: $x$: $0, 1, 2, 3, 4, 5, 6$; $y$: $-5, 0, 3, 4, 3, 0, -5$.",
+              "Plot and join: an inverted (downward-opening) parabola with highest point $(3, 4)$, crossing the $x$-axis at $x = 1$ and $x = 5$."
+            ],
+            "finalAnswer": "Therefore the graph is an inverted parabola through $(0, -5)$, $(1, 0)$, $(3, 4)$, $(5, 0)$ and $(6, -5)$.",
+            "solutionFigures": [],
+            "tip": "$-(-3)^2 = -9$: square first, then apply the negative."
+          }
+        },
+        {
+          "id": "ch9_ex2_q17b",
+          "number": "17(b)",
+          "category": "Consolidate",
+          "questionText": "For $y = -(x - 3)^2 + 4$, $0 \\le x \\le 6$: state the equation of the axis of symmetry.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a(x - h)^2 + k$, the axis of symmetry is $x = h$.",
+            "steps": [
+              "Given: $y = -(x - 3)^2 + 4$, so $h = 3$.",
+              "Goal: the axis of symmetry.",
+              "Check: $x = 1$ and $x = 5$ both give $y = 0$; their midpoint is $\\frac{1 + 5}{2} = 3$."
+            ],
+            "finalAnswer": "Therefore the axis of symmetry is $x = 3$.",
+            "solutionFigures": [],
+            "tip": "The axis of symmetry is halfway between the two $x$-intercepts."
+          }
+        },
+        {
+          "id": "ch9_ex2_q17c",
+          "number": "17(c)",
+          "category": "Consolidate",
+          "questionText": "For $y = -(x - 3)^2 + 4$, $0 \\le x \\le 6$: state the coordinates of the turning point and whether it is a maximum or a minimum.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a(x - h)^2 + k$, the turning point is $(h, k)$; minimum if $a > 0$, maximum if $a < 0$.",
+            "steps": [
+              "Given: $y = -(x - 3)^2 + 4$, so $a = -1$, $h = 3$, $k = 4$.",
+              "Goal: turning point and type.",
+              "Turning point $(3, 4)$.",
+              "$a = -1 < 0$: the parabola opens downward, so it is a maximum."
+            ],
+            "finalAnswer": "Therefore the turning point is $(3, 4)$, a maximum.",
+            "solutionFigures": [],
+            "tip": "A negative coefficient of the squared bracket always gives a maximum."
+          }
+        },
+        {
+          "id": "ch9_ex2_q17d",
+          "number": "17(d)",
+          "category": "Consolidate",
+          "questionText": "For $y = -(x - 3)^2 + 4$, $0 \\le x \\le 6$: state the $y$-intercept.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The $y$-intercept is the value of $y$ when $x = 0$.",
+            "steps": [
+              "Given: $y = -(x - 3)^2 + 4$.",
+              "Goal: the $y$-intercept.",
+              "Let $x = 0$: $y = -(0 - 3)^2 + 4 = -9 + 4 = -5$."
+            ],
+            "finalAnswer": "Therefore the $y$-intercept is $-5$.",
+            "solutionFigures": [],
+            "tip": "$-(−3)^2$ is $-9$, so the $y$-intercept is negative even though the turning point is above the $x$-axis."
+          }
+        },
+        {
+          "id": "ch9_ex2_q18a",
+          "number": "18(a)",
+          "category": "Master",
+          "questionText": "For $y = -3(x - 1)^2 + 2$, $-2 \\le x \\le 4$: plot the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Table of values: substitute each $x$ into $y = -3(x - 1)^2 + 2$.",
+            "steps": [
+              "Given: $y = -3(x - 1)^2 + 2$, $x = -2, \\ldots, 4$.",
+              "Goal: table of values and graph.",
+              "$x = -2$: $-3(-3)^2 + 2 = -27 + 2 = -25$",
+              "$x = -1$: $-3(-2)^2 + 2 = -12 + 2 = -10$",
+              "$x = 0$: $-3(-1)^2 + 2 = -3 + 2 = -1$",
+              "$x = 1$: $-3(0)^2 + 2 = 2$",
+              "$x = 2$: $-3(1)^2 + 2 = -1$",
+              "$x = 3$: $-3(2)^2 + 2 = -10$",
+              "$x = 4$: $-3(3)^2 + 2 = -25$",
+              "Table: $x$: $-2, -1, 0, 1, 2, 3, 4$; $y$: $-25, -10, -1, 2, -1, -10, -25$.",
+              "Plot and join: a narrow inverted parabola with highest point $(1, 2)$, crossing the $x$-axis just either side of $x = 1$ (between 0 and 1 and between 1 and 2)."
+            ],
+            "finalAnswer": "Therefore the graph is a narrow inverted parabola through $(-2, -25)$, $(0, -1)$, $(1, 2)$, $(2, -1)$ and $(4, -25)$.",
+            "solutionFigures": [],
+            "tip": "Use a large $y$-scale (steps of 5) because the values fall quickly to $-25$."
+          }
+        },
+        {
+          "id": "ch9_ex2_q18b",
+          "number": "18(b)",
+          "category": "Master",
+          "questionText": "For $y = -3(x - 1)^2 + 2$, $-2 \\le x \\le 4$: state the equation of the axis of symmetry.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a(x - h)^2 + k$, the axis of symmetry is $x = h$.",
+            "steps": [
+              "Given: $y = -3(x - 1)^2 + 2$, so $h = 1$.",
+              "Goal: the axis of symmetry.",
+              "Check: $x = 0$ and $x = 2$ both give $y = -1$, symmetric about $x = 1$."
+            ],
+            "finalAnswer": "Therefore the axis of symmetry is $x = 1$.",
+            "solutionFigures": [],
+            "tip": "The dilation factor $-3$ has no effect on the axis of symmetry."
+          }
+        },
+        {
+          "id": "ch9_ex2_q18c",
+          "number": "18(c)",
+          "category": "Master",
+          "questionText": "For $y = -3(x - 1)^2 + 2$, $-2 \\le x \\le 4$: state the coordinates of the turning point and whether it is a maximum or a minimum.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a(x - h)^2 + k$, the turning point is $(h, k)$; minimum if $a > 0$, maximum if $a < 0$.",
+            "steps": [
+              "Given: $y = -3(x - 1)^2 + 2$, so $a = -3$, $h = 1$, $k = 2$.",
+              "Goal: turning point and type.",
+              "Turning point $(1, 2)$.",
+              "$a = -3 < 0$: opens downward, so it is a maximum."
+            ],
+            "finalAnswer": "Therefore the turning point is $(1, 2)$, a maximum.",
+            "solutionFigures": [],
+            "tip": "The sign of $a$ decides max or min; its size only decides the width."
+          }
+        },
+        {
+          "id": "ch9_ex2_q18d",
+          "number": "18(d)",
+          "category": "Master",
+          "questionText": "For $y = -3(x - 1)^2 + 2$, $-2 \\le x \\le 4$: state the $y$-intercept.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The $y$-intercept is the value of $y$ when $x = 0$.",
+            "steps": [
+              "Given: $y = -3(x - 1)^2 + 2$.",
+              "Goal: the $y$-intercept.",
+              "Let $x = 0$: $y = -3(0 - 1)^2 + 2 = -3(1) + 2 = -1$."
+            ],
+            "finalAnswer": "Therefore the $y$-intercept is $-1$.",
+            "solutionFigures": [],
+            "tip": "$(0 - 1)^2 = 1$, so the $y$-intercept is $-3 + 2 = -1$."
+          }
+        },
+        {
+          "id": "ch9_ex2_q19a",
+          "number": "19(a)",
+          "category": "Practice",
+          "questionText": "For $y = x^2 + 4x - 5$, $-6 \\le x \\le 2$: plot the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Table of values: substitute each $x$ into $y = x^2 + 4x - 5$.",
+            "steps": [
+              "Given: $y = x^2 + 4x - 5$, $x = -6, \\ldots, 2$.",
+              "Goal: table of values and graph.",
+              "$x = -6$: $36 - 24 - 5 = 7$",
+              "$x = -5$: $25 - 20 - 5 = 0$",
+              "$x = -4$: $16 - 16 - 5 = -5$",
+              "$x = -3$: $9 - 12 - 5 = -8$",
+              "$x = -2$: $4 - 8 - 5 = -9$",
+              "$x = -1$: $1 - 4 - 5 = -8$",
+              "$x = 0$: $0 + 0 - 5 = -5$",
+              "$x = 1$: $1 + 4 - 5 = 0$",
+              "$x = 2$: $4 + 8 - 5 = 7$",
+              "Table: $x$: $-6, -5, -4, -3, -2, -1, 0, 1, 2$; $y$: $7, 0, -5, -8, -9, -8, -5, 0, 7$.",
+              "Plot and join: an upright parabola crossing the $x$-axis at $x = -5$ and $x = 1$, with lowest point $(-2, -9)$ and $y$-intercept $-5$."
+            ],
+            "finalAnswer": "Therefore the graph is an upright parabola with $x$-intercepts $-5$ and $1$, $y$-intercept $-5$ and lowest point $(-2, -9)$.",
+            "solutionFigures": [],
+            "tip": "With a negative $x$, $4x$ is negative: $4(-3) = -12$."
+          }
+        },
+        {
+          "id": "ch9_ex2_q19b",
+          "number": "19(b)",
+          "category": "Practice",
+          "questionText": "For $y = x^2 + 4x - 5$, $-6 \\le x \\le 2$: state the equation of the axis of symmetry.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = ax^2 + bx + c$, the axis of symmetry is $x = -\\frac{b}{2a}$ (equivalently, halfway between the $x$-intercepts).",
+            "steps": [
+              "Given: $y = x^2 + 4x - 5$, so $a = 1$, $b = 4$.",
+              "Goal: the axis of symmetry.",
+              "$x = -\\frac{4}{2(1)} = -2$.",
+              "Check with the table: $x$-intercepts $-5$ and $1$; midpoint $\\frac{-5 + 1}{2} = -2$ ✓"
+            ],
+            "finalAnswer": "Therefore the axis of symmetry is $x = -2$.",
+            "solutionFigures": [],
+            "tip": "Look for equal $y$-values in the table; the axis is midway between them."
+          }
+        },
+        {
+          "id": "ch9_ex2_q19c",
+          "number": "19(c)",
+          "category": "Practice",
+          "questionText": "For $y = x^2 + 4x - 5$, $-6 \\le x \\le 2$: state the coordinates of the turning point and whether it is a maximum or a minimum.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The turning point lies on the axis of symmetry: $x = -\\frac{b}{2a}$, then substitute to find $y$. Minimum if $a > 0$.",
+            "steps": [
+              "Given: $y = x^2 + 4x - 5$, axis of symmetry $x = -2$.",
+              "Goal: turning point and type.",
+              "Substitute $x = -2$: $y = (-2)^2 + 4(-2) - 5 = 4 - 8 - 5 = -9$.",
+              "Turning point $(-2, -9)$.",
+              "$a = 1 > 0$: opens upward, so it is a minimum."
+            ],
+            "finalAnswer": "Therefore the turning point is $(-2, -9)$, a minimum.",
+            "solutionFigures": [],
+            "tip": "The turning point is the smallest $y$-value in the table for an upright parabola."
+          }
+        },
+        {
+          "id": "ch9_ex2_q19d",
+          "number": "19(d)",
+          "category": "Practice",
+          "questionText": "For $y = x^2 + 4x - 5$, $-6 \\le x \\le 2$: state the $y$-intercept.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = ax^2 + bx + c$, the $y$-intercept is $c$ (the value of $y$ when $x = 0$).",
+            "steps": [
+              "Given: $y = x^2 + 4x - 5$.",
+              "Goal: the $y$-intercept.",
+              "Let $x = 0$: $y = 0 + 0 - 5 = -5$."
+            ],
+            "finalAnswer": "Therefore the $y$-intercept is $-5$.",
+            "solutionFigures": [],
+            "tip": "In expanded form the $y$-intercept is simply the constant term."
+          }
+        },
+        {
+          "id": "ch9_ex2_q20a",
+          "number": "20(a)",
+          "category": "Consolidate",
+          "questionText": "For $y = -3x^2 - 6x + 24$, $-5 \\le x \\le 3$: plot the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Table of values: substitute each $x$ into $y = -3x^2 - 6x + 24$.",
+            "steps": [
+              "Given: $y = -3x^2 - 6x + 24$, $x = -5, \\ldots, 3$.",
+              "Goal: table of values and graph.",
+              "$x = -5$: $-3(25) - 6(-5) + 24 = -75 + 30 + 24 = -21$",
+              "$x = -4$: $-3(16) + 24 + 24 = -48 + 48 = 0$",
+              "$x = -3$: $-3(9) + 18 + 24 = -27 + 42 = 15$",
+              "$x = -2$: $-3(4) + 12 + 24 = -12 + 36 = 24$",
+              "$x = -1$: $-3(1) + 6 + 24 = 27$",
+              "$x = 0$: $24$",
+              "$x = 1$: $-3 - 6 + 24 = 15$",
+              "$x = 2$: $-12 - 12 + 24 = 0$",
+              "$x = 3$: $-27 - 18 + 24 = -21$",
+              "Table: $x$: $-5, -4, -3, -2, -1, 0, 1, 2, 3$; $y$: $-21, 0, 15, 24, 27, 24, 15, 0, -21$.",
+              "Plot and join: a narrow inverted parabola crossing the $x$-axis at $x = -4$ and $x = 2$, highest point $(-1, 27)$, $y$-intercept $24$."
+            ],
+            "finalAnswer": "Therefore the graph is an inverted parabola with $x$-intercepts $-4$ and $2$, $y$-intercept $24$ and highest point $(-1, 27)$.",
+            "solutionFigures": [],
+            "tip": "$-3x^2$ with $x = -5$ is $-3 \\times 25 = -75$; the square is always done before the multiplication."
+          }
+        },
+        {
+          "id": "ch9_ex2_q20b",
+          "number": "20(b)",
+          "category": "Consolidate",
+          "questionText": "For $y = -3x^2 - 6x + 24$, $-5 \\le x \\le 3$: state the equation of the axis of symmetry.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = ax^2 + bx + c$, the axis of symmetry is $x = -\\frac{b}{2a}$.",
+            "steps": [
+              "Given: $a = -3$, $b = -6$.",
+              "Goal: the axis of symmetry.",
+              "$x = -\\frac{-6}{2(-3)} = -\\frac{-6}{-6} = -1$.",
+              "Check: $x$-intercepts $-4$ and $2$ have midpoint $\\frac{-4 + 2}{2} = -1$ ✓"
+            ],
+            "finalAnswer": "Therefore the axis of symmetry is $x = -1$.",
+            "solutionFigures": [],
+            "tip": "Watch the double negative in $-\\frac{b}{2a}$ when both $a$ and $b$ are negative."
+          }
+        },
+        {
+          "id": "ch9_ex2_q20c",
+          "number": "20(c)",
+          "category": "Consolidate",
+          "questionText": "For $y = -3x^2 - 6x + 24$, $-5 \\le x \\le 3$: state the coordinates of the turning point and whether it is a maximum or a minimum.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Turning point at $x = -\\frac{b}{2a}$; maximum if $a < 0$.",
+            "steps": [
+              "Given: $y = -3x^2 - 6x + 24$, axis $x = -1$.",
+              "Goal: turning point and type.",
+              "Substitute $x = -1$: $y = -3(1) - 6(-1) + 24 = -3 + 6 + 24 = 27$.",
+              "Turning point $(-1, 27)$.",
+              "$a = -3 < 0$: opens downward, so it is a maximum."
+            ],
+            "finalAnswer": "Therefore the turning point is $(-1, 27)$, a maximum.",
+            "solutionFigures": [],
+            "tip": "$-6(-1) = +6$; sign errors here are the most common mistake."
+          }
+        },
+        {
+          "id": "ch9_ex2_q20d",
+          "number": "20(d)",
+          "category": "Consolidate",
+          "questionText": "For $y = -3x^2 - 6x + 24$, $-5 \\le x \\le 3$: state the $y$-intercept.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = ax^2 + bx + c$, the $y$-intercept is $c$.",
+            "steps": [
+              "Given: $y = -3x^2 - 6x + 24$.",
+              "Goal: the $y$-intercept.",
+              "Let $x = 0$: $y = 0 - 0 + 24 = 24$."
+            ],
+            "finalAnswer": "Therefore the $y$-intercept is $24$.",
+            "solutionFigures": [],
+            "tip": "The $y$-intercept (24) is not the maximum (27); the turning point is not on the $y$-axis here."
+          }
+        },
+        {
+          "id": "ch9_ex2_q21a",
+          "number": "21(a)",
+          "category": "Master",
+          "questionText": "Use the equation $y = a(x - b)^2 + c$ to answer the following. Explain how you can determine whether a parabola has a minimum or maximum turning point by looking only at its equation.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "In $y = a(x - b)^2 + c$: $a > 0$ gives an upright parabola (minimum); $a < 0$ gives an inverted parabola (maximum).",
+            "steps": [
+              "Given: $y = a(x - b)^2 + c$.",
+              "Goal: decide max or min from the equation.",
+              "$(x - b)^2 \\ge 0$ for every $x$, and equals 0 only at $x = b$.",
+              "If $a > 0$, then $a(x - b)^2 \\ge 0$, so $y \\ge c$: the smallest value is $c$, a minimum.",
+              "If $a < 0$, then $a(x - b)^2 \\le 0$, so $y \\le c$: the largest value is $c$, a maximum."
+            ],
+            "finalAnswer": "Therefore if the coefficient of the $x^2$ term ($a$) is positive the parabola has a minimum turning point, and if it is negative the parabola has a maximum turning point.",
+            "solutionFigures": [],
+            "tip": "In expanded form, the same rule applies to the coefficient of $x^2$."
+          }
+        },
+        {
+          "id": "ch9_ex2_q21b",
+          "number": "21(b)",
+          "category": "Master",
+          "questionText": "Use the equation $y = a(x - b)^2 + c$ to answer the following. Explain how you can determine the coordinates of the turning point of a parabola by looking only at the equation.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Turning point form: $y = a(x - b)^2 + c$ has turning point $(b, c)$.",
+            "steps": [
+              "Given: $y = a(x - b)^2 + c$.",
+              "Goal: read the turning point from the equation.",
+              "The squared term $(x - b)^2$ is smallest (zero) when $x = b$.",
+              "At $x = b$: $y = a(0)^2 + c = c$.",
+              "So the turning point is $(b, c)$."
+            ],
+            "finalAnswer": "Therefore, if the equation is in the form $y = a(x - b)^2 + c$, the turning point has coordinates $(b, c)$.",
+            "solutionFigures": [],
+            "tip": "Take $b$ with the opposite sign to that shown in the bracket, but take $c$ with the sign shown."
+          }
+        },
+        {
+          "id": "ch9_ex2_q21c",
+          "number": "21(c)",
+          "category": "Master",
+          "questionText": "Use the equation $y = a(x - b)^2 + c$ to answer the following. Explain how you can obtain the equation of the axis of symmetry by looking only at the equation of the parabola.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The axis of symmetry is the vertical line through the turning point $(b, c)$: $x = b$.",
+            "steps": [
+              "Given: $y = a(x - b)^2 + c$, turning point $(b, c)$.",
+              "Goal: the axis of symmetry.",
+              "Points equally far either side of $x = b$ (i.e. $x = b + d$ and $x = b - d$) give $(x - b)^2 = d^2$ in both cases, so equal $y$-values.",
+              "So the graph is symmetric about the vertical line through the turning point."
+            ],
+            "finalAnswer": "Therefore the equation of the axis of symmetry is found from the $x$-coordinate of the turning point: $x = b$.",
+            "solutionFigures": [],
+            "tip": "The axis of symmetry uses only the $x$-coordinate of the turning point."
+          }
+        },
+        {
+          "id": "ch9_ex2_q22",
+          "number": "22",
+          "category": "Practice",
+          "questionText": "MC For the graph of $y = (x - 2)^2 + 5$, the turning point is:\nA. $(5, 2)$\nB. $(2, -5)$\nC. $(2, 5)$\nD. $(-2, -5)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$ has turning point $(h, k)$.",
+            "steps": [
+              "Given: $y = (x - 2)^2 + 5$.",
+              "Goal: the turning point.",
+              "$h = 2$, $k = 5$, so the turning point is $(2, 5)$.",
+              "Check: at $x = 2$, $y = 0 + 5 = 5$ ✓"
+            ],
+            "finalAnswer": "Therefore the turning point is $(2, 5)$: option C.",
+            "solutionFigures": [],
+            "tip": "The $x$-coordinate comes from the bracket, the $y$-coordinate from the constant outside."
+          }
+        },
+        {
+          "id": "ch9_ex2_q23",
+          "number": "23",
+          "category": "Consolidate",
+          "questionText": "MC For the graph of $y = 3(x - 1)^2 + 12$, the turning point is:\nA. $(3, 12)$\nB. $(1, 12)$\nC. $(-1, 12)$\nD. $(-3, 12)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$ has turning point $(h, k)$; $a$ does not affect the turning point.",
+            "steps": [
+              "Given: $y = 3(x - 1)^2 + 12$.",
+              "Goal: the turning point.",
+              "$h = 1$, $k = 12$; the 3 is the dilation factor.",
+              "Turning point $(1, 12)$."
+            ],
+            "finalAnswer": "Therefore the turning point is $(1, 12)$: option B.",
+            "solutionFigures": [],
+            "tip": "Do not use the coefficient 3 as a coordinate; it only controls the width."
+          }
+        },
+        {
+          "id": "ch9_ex2_q24",
+          "number": "24",
+          "category": "Master",
+          "questionText": "MC For the graph of $y = (x + 2)^2 - 7$, the $y$-intercept is:\nA. $-2$\nB. $-7$\nC. $-3$\nD. $-11$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The $y$-intercept is found by letting $x = 0$.",
+            "steps": [
+              "Given: $y = (x + 2)^2 - 7$.",
+              "Goal: the $y$-intercept.",
+              "Let $x = 0$: $y = (0 + 2)^2 - 7 = 4 - 7 = -3$."
+            ],
+            "finalAnswer": "Therefore the $y$-intercept is $-3$: option C.",
+            "solutionFigures": [],
+            "tip": "$-7$ is the $y$-coordinate of the turning point, not the $y$-intercept."
+          }
+        },
+        {
+          "id": "ch9_ex2_q25",
+          "number": "25",
+          "category": "Master",
+          "questionText": "MC Select which of the following is true for the graph of $y = -(x - 3)^2 + 4$.\nA. Turning point $(3, 4)$, $y$-intercept $-5$\nB. Turning point $(3, 4)$, $y$-intercept $5$\nC. Turning point $(-3, 4)$, $y$-intercept $-5$\nD. Turning point $(-3, 4)$, $y$-intercept $5$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a(x - h)^2 + k$ has turning point $(h, k)$; the $y$-intercept is $y$ at $x = 0$.",
+            "steps": [
+              "Given: $y = -(x - 3)^2 + 4$.",
+              "Goal: turning point and $y$-intercept.",
+              "Turning point: $h = 3$, $k = 4$, so $(3, 4)$.",
+              "$y$-intercept: $y = -(0 - 3)^2 + 4 = -9 + 4 = -5$."
+            ],
+            "finalAnswer": "Therefore the turning point is $(3, 4)$ and the $y$-intercept is $-5$: option A.",
+            "solutionFigures": [],
+            "tip": "$-(0 - 3)^2 = -9$, not $+9$; the negative is applied after squaring."
+          }
+        },
+        {
+          "id": "ch9_ex2_q26a",
+          "number": "26(a)",
+          "category": "Practice",
+          "questionText": "A ball is thrown into the air. The height, $h$ metres, of the ball at any time, $t$ seconds, can be found by using the equation $h = -(t - 4)^2 + 16$. Plot the graph for values of $t$ between 0 and 8.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Table of values: substitute $t = 0, 1, \\ldots, 8$ into $h = -(t - 4)^2 + 16$.",
+            "steps": [
+              "Given: $h = -(t - 4)^2 + 16$, $0 \\le t \\le 8$.",
+              "Goal: table and graph.",
+              "$t = 0$: $-(-4)^2 + 16 = -16 + 16 = 0$",
+              "$t = 1$: $-(-3)^2 + 16 = -9 + 16 = 7$",
+              "$t = 2$: $-(-2)^2 + 16 = -4 + 16 = 12$",
+              "$t = 3$: $-(-1)^2 + 16 = 15$",
+              "$t = 4$: $-(0)^2 + 16 = 16$",
+              "$t = 5$: $15$; $t = 6$: $12$; $t = 7$: $7$; $t = 8$: $0$ (by symmetry about $t = 4$).",
+              "Table: $t$: $0, 1, 2, 3, 4, 5, 6, 7, 8$; $h$: $0, 7, 12, 15, 16, 15, 12, 7, 0$.",
+              "Plot $h$ (vertical) against $t$ (horizontal): an inverted parabola starting at $(0, 0)$, rising to its highest point $(4, 16)$ and returning to the ground at $(8, 0)$."
+            ],
+            "finalAnswer": "Therefore the graph is an arch from $(0, 0)$ up to the maximum $(4, 16)$ and down to $(8, 0)$.",
+            "solutionFigures": [],
+            "tip": "Put time on the horizontal axis and height on the vertical axis."
+          }
+        },
+        {
+          "id": "ch9_ex2_q26b",
+          "number": "26(b)",
+          "category": "Practice",
+          "questionText": "A ball is thrown into the air. The height, $h$ metres, of the ball at any time, $t$ seconds, can be found by using the equation $h = -(t - 4)^2 + 16$. Use the graph (plotted for $0 \\le t \\le 8$) to determine: i. the maximum height of the ball; ii. how long it takes for the ball to fall back to the ground from the moment it is thrown.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Maximum height is the $h$-coordinate of the turning point $(4, 16)$; the ball is on the ground when $h = 0$.",
+            "steps": [
+              "Given: $h = -(t - 4)^2 + 16$, turning point $(4, 16)$.",
+              "Goal: i. maximum height; ii. time until it returns to the ground.",
+              "i. The highest point of the graph is the turning point $(4, 16)$, so the maximum height is 16 m (reached at $t = 4$ s).",
+              "ii. Solve $h = 0$: $-(t - 4)^2 + 16 = 0 \\Rightarrow (t - 4)^2 = 16 \\Rightarrow t - 4 = \\pm 4$.",
+              "$t = 0$ (when it is thrown) or $t = 8$ (when it lands).",
+              "Time in the air $= 8 - 0 = 8$ s."
+            ],
+            "finalAnswer": "Therefore i. the maximum height is 16 m, and ii. the ball takes 8 seconds to return to the ground.",
+            "solutionFigures": [],
+            "tip": "The time to land is the second $t$-intercept, not the time of the maximum."
+          }
+        },
+        {
+          "id": "ch9_ex2_q27a",
+          "number": "27(a)",
+          "category": "Consolidate",
+          "questionText": "From a crouching position in a ditch, an archer wants to fire an arrow over a horizontal tree branch, which is 15 metres above the ground. The height, in metres ($h$), of the arrow $t$ seconds after it has been fired is given by the equation $h = -8t(t - 3)$. Plot the graph for $t = 0, 1, 1.5, 2, 3$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Table of values: substitute each $t$ into $h = -8t(t - 3)$.",
+            "steps": [
+              "Given: $h = -8t(t - 3)$, $t = 0, 1, 1.5, 2, 3$.",
+              "Goal: table and graph.",
+              "$t = 0$: $-8(0)(-3) = 0$",
+              "$t = 1$: $-8(1)(-2) = 16$",
+              "$t = 1.5$: $-8(1.5)(-1.5) = -8(-2.25) = 18$",
+              "$t = 2$: $-8(2)(-1) = 16$",
+              "$t = 3$: $-8(3)(0) = 0$",
+              "Table: $t$: $0, 1, 1.5, 2, 3$; $h$: $0, 16, 18, 16, 0$.",
+              "Plot $h$ against $t$: an inverted parabola from $(0, 0)$ up to $(1.5, 18)$ and back down to $(3, 0)$."
+            ],
+            "finalAnswer": "Therefore the graph is an arch through $(0, 0)$, $(1, 16)$, $(1.5, 18)$, $(2, 16)$ and $(3, 0)$.",
+            "solutionFigures": [],
+            "tip": "Multiply the three factors carefully: two negatives make a positive."
+          }
+        },
+        {
+          "id": "ch9_ex2_q27b",
+          "number": "27(b)",
+          "category": "Consolidate",
+          "questionText": "From a crouching position in a ditch, an archer wants to fire an arrow over a horizontal tree branch, which is 15 metres above the ground. The height, in metres ($h$), of the arrow $t$ seconds after it has been fired is given by the equation $h = -8t(t - 3)$. From the graph (table: $t = 0, 1, 1.5, 2, 3$ gives $h = 0, 16, 18, 16, 0$), determine: i. the maximum height the arrow reaches; ii. whether the arrow clears the branch and the distance by which it clears or falls short of the branch; iii. the time it takes to reach maximum height; iv. how long it takes for the arrow to hit the ground after it has been fired.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The turning point of $h = -8t(t - 3)$ lies midway between the $t$-intercepts $t = 0$ and $t = 3$.",
+            "steps": [
+              "Given: $h = -8t(t - 3)$, $t$-intercepts $0$ and $3$, branch height 15 m.",
+              "Goal: maximum height, clearance, time to maximum, time in the air.",
+              "Axis of symmetry: $t = \\frac{0 + 3}{2} = 1.5$.",
+              "i. $h = -8(1.5)(1.5 - 3) = -8(1.5)(-1.5) = 18$, so the maximum height is 18 m.",
+              "ii. $18 - 15 = 3$, so the arrow clears the branch by 3 m.",
+              "iii. The maximum occurs at $t = 1.5$ s.",
+              "iv. $h = 0$ when $t = 0$ or $t = 3$, so the arrow hits the ground 3 s after being fired."
+            ],
+            "finalAnswer": "Therefore i. the maximum height is 18 m; ii. yes, the arrow clears the branch by 3 m; iii. it takes 1.5 s to reach maximum height; iv. it hits the ground after 3 s.",
+            "solutionFigures": [],
+            "tip": "The maximum height is reached exactly halfway through the flight time."
+          }
+        },
+        {
+          "id": "ch9_ex2_q28a",
+          "number": "28(a)",
+          "category": "Master",
+          "questionText": "There are 0, 1, 2 and infinite possible points of intersection for two parabolas. Illustrate these on separate graphs.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Two parabolas $y = f(x)$ and $y = g(x)$ intersect where $f(x) = g(x)$; $f(x) - g(x)$ is at most quadratic, so it has 0, 1 or 2 solutions, or is identically zero (infinitely many).",
+            "steps": [
+              "Given: two parabolas of the form $y = ax^2 + bx + c$.",
+              "Goal: give an example sketch for 0, 1, 2 and infinitely many intersections.",
+              "0 points: $y = x^2 + 1$ (upright, minimum $(0, 1)$) and $y = -x^2 - 1$ (inverted, maximum $(0, -1)$). Solving $x^2 + 1 = -x^2 - 1$ gives $2x^2 = -2$, no real solution. Sketch: one curve above the $x$-axis, the other below, never meeting.",
+              "1 point: $y = x^2$ and $y = -x^2$. Solving $x^2 = -x^2$ gives $2x^2 = 0$, $x = 0$. Sketch: upright and inverted parabolas touching only at the origin.",
+              "2 points: $y = x^2$ and $y = -x^2 + 2$. Solving $x^2 = -x^2 + 2$ gives $x^2 = 1$, $x = \\pm 1$; points $(-1, 1)$ and $(1, 1)$. Sketch: the inverted parabola with maximum $(0, 2)$ cuts the upright one twice.",
+              "Infinitely many: $y = x^2 + 4x + 3$ and $2y = 2x^2 + 8x + 6$ are the same parabola, so the curves lie on top of each other."
+            ],
+            "finalAnswer": "Therefore, for example: 0 points, $y = x^2 + 1$ and $y = -x^2 - 1$; 1 point, $y = x^2$ and $y = -x^2$ meeting at $(0, 0)$; 2 points, $y = x^2$ and $y = -x^2 + 2$ meeting at $(\\pm 1, 1)$; infinitely many, two equations of the same parabola, such as $y = x^2 + 4x + 3$ and $2y = 2x^2 + 8x + 6$.",
+            "solutionFigures": [],
+            "tip": "Check each example algebraically by solving the two equations simultaneously."
+          }
+        },
+        {
+          "id": "ch9_ex2_q28b",
+          "number": "28(b)",
+          "category": "Master",
+          "questionText": "There are 0, 1, 2 and infinite possible points of intersection for two parabolas. Explain why infinite points of intersection are possible. Give an example.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Two equations describe the same graph if one is a non-zero multiple of the other.",
+            "steps": [
+              "Given: two parabolas.",
+              "Goal: explain how they can share infinitely many points.",
+              "If the two equations are equivalent, every point on one parabola is also on the other.",
+              "Example: $2y = 2x^2 + 8x + 6$; dividing every term by 2 gives $y = x^2 + 4x + 3$.",
+              "So the two graphs coincide (superimpose) and every one of their infinitely many points is a point of intersection."
+            ],
+            "finalAnswer": "Therefore an infinite number of points of intersection occurs when the two equations represent the same parabola, so the graphs superimpose; for example, $y = x^2 + 4x + 3$ and $2y = 2x^2 + 8x + 6$.",
+            "solutionFigures": [],
+            "tip": "Simplify both equations to the form $y = \\ldots$ before deciding whether they are different parabolas."
+          }
+        },
+        {
+          "id": "ch9_ex2_q28c",
+          "number": "28(c)",
+          "category": "Master",
+          "questionText": "Determine how many points of intersection are possible for a parabola and a straight line. Illustrate these.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Solving $ax^2 + bx + c = mx + d$ gives a quadratic equation, which has 0, 1 or 2 real solutions.",
+            "steps": [
+              "Given: a parabola and a straight line.",
+              "Goal: the possible numbers of intersection points, with examples.",
+              "Substituting the line into the parabola gives a quadratic equation, which can have no, one or two real solutions.",
+              "0 points: $y = x^2$ and $y = -1$; $x^2 = -1$ has no solution. Sketch: the horizontal line lies below the parabola.",
+              "1 point: $y = x^2$ and $y = 2x - 1$; $x^2 - 2x + 1 = 0 \\Rightarrow (x - 1)^2 = 0$, $x = 1$. Sketch: the line is a tangent touching at $(1, 1)$.",
+              "2 points: $y = x^2$ and $y = 4$; $x^2 = 4$, $x = \\pm 2$. Sketch: the line cuts the parabola at $(-2, 4)$ and $(2, 4)$."
+            ],
+            "finalAnswer": "Therefore a parabola and a straight line can have 0, 1 or 2 points of intersection (illustrated by $y = x^2$ with $y = -1$, $y = 2x - 1$ and $y = 4$ respectively).",
+            "solutionFigures": [],
+            "tip": "A line cannot meet a parabola more than twice, because the resulting equation is quadratic."
+          }
+        },
+        {
+          "id": "ch9_ex2_q29a",
+          "number": "29(a)",
+          "category": "Practice",
+          "questionText": "The area of a rectangle in cm$^2$ is given by the equation $A = \\frac{-8w}{5}(w - 6)$, where $w$ is the width of the rectangle in centimetres. Complete a table of values for $-1 \\le w \\le 7$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute each $w$ into $A = \\frac{-8w}{5}(w - 6)$.",
+            "steps": [
+              "Given: $A = \\frac{-8w}{5}(w - 6)$, $w = -1, 0, \\ldots, 7$.",
+              "Goal: table of values.",
+              "$w = -1$: $\\frac{-8(-1)}{5}(-7) = \\frac{8}{5}(-7) = -11.2$",
+              "$w = 0$: $0$",
+              "$w = 1$: $\\frac{-8}{5}(-5) = 8$",
+              "$w = 2$: $\\frac{-16}{5}(-4) = \\frac{64}{5} = 12.8$",
+              "$w = 3$: $\\frac{-24}{5}(-3) = \\frac{72}{5} = 14.4$",
+              "$w = 4$: $\\frac{-32}{5}(-2) = \\frac{64}{5} = 12.8$",
+              "$w = 5$: $\\frac{-40}{5}(-1) = 8$",
+              "$w = 6$: $\\frac{-48}{5}(0) = 0$",
+              "$w = 7$: $\\frac{-56}{5}(1) = -11.2$"
+            ],
+            "finalAnswer": "Therefore the table is: $w$: $-1, 0, 1, 2, 3, 4, 5, 6, 7$; $A$: $-11.2, 0, 8, 12.8, 14.4, 12.8, 8, 0, -11.2$.",
+            "solutionFigures": [],
+            "tip": "Use the symmetry about $w = 3$ to check your values."
+          }
+        },
+        {
+          "id": "ch9_ex2_q29b",
+          "number": "29(b)",
+          "category": "Practice",
+          "questionText": "The area of a rectangle in cm$^2$ is given by the equation $A = \\frac{-8w}{5}(w - 6)$, where $w$ is the width of the rectangle in centimetres. A table of values for $-1 \\le w \\le 7$ gives $A = -11.2, 0, 8, 12.8, 14.4, 12.8, 8, 0, -11.2$. Explain which of the values for $w$ from part a should be discarded and why.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "A real rectangle must have positive width and positive area: $w > 0$ and $A > 0$.",
+            "steps": [
+              "Given: the table from part a.",
+              "Goal: decide which $w$-values are not physically possible.",
+              "$w = -1$: a negative width is impossible (and $A = -11.2$ is negative).",
+              "$w = 0$ and $w = 6$: $A = 0$, so there is no rectangle.",
+              "$w = 7$: $A = -11.2$, a negative area is impossible.",
+              "So only $0 < w < 6$ gives a real rectangle."
+            ],
+            "finalAnswer": "Therefore $w = -1, 0, 6$ and $7$ should be discarded, because the width and the area of a rectangle must both be positive.",
+            "solutionFigures": [],
+            "tip": "Always check that a model's inputs and outputs make sense in the real situation."
+          }
+        },
+        {
+          "id": "ch9_ex2_q29c",
+          "number": "29(c)",
+          "category": "Practice",
+          "questionText": "The area of a rectangle in cm$^2$ is given by the equation $A = \\frac{-8w}{5}(w - 6)$, where $w$ is the width of the rectangle in centimetres. Sketch the graph of $A$ for suitable values of $w$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$A = \\frac{-8w}{5}(w - 6)$ is an inverted parabola with $w$-intercepts $0$ and $6$ and axis of symmetry $w = 3$.",
+            "steps": [
+              "Given: $A = \\frac{-8w}{5}(w - 6)$, suitable domain $0 < w < 6$.",
+              "Goal: sketch $A$ against $w$.",
+              "$w$-intercepts: $A = 0$ when $w = 0$ or $w = 6$.",
+              "Axis of symmetry: $w = \\frac{0 + 6}{2} = 3$; $A = 14.4$ there, so the turning point is $(3, 14.4)$, a maximum (coefficient of $w^2$ is $-\\frac{8}{5} < 0$).",
+              "Other points: $(1, 8)$, $(2, 12.8)$, $(4, 12.8)$, $(5, 8)$.",
+              "Sketch: an inverted arch drawn from $(0, 0)$ (open circle) up to $(3, 14.4)$ and down to $(6, 0)$ (open circle), with $w$ on the horizontal axis and $A$ on the vertical axis."
+            ],
+            "finalAnswer": "Therefore the sketch is an inverted parabola for $0 < w < 6$ with endpoints $(0, 0)$ and $(6, 0)$ and maximum $(3, 14.4)$.",
+            "solutionFigures": [],
+            "tip": "Use open circles at the endpoints because $w = 0$ and $w = 6$ are excluded."
+          }
+        },
+        {
+          "id": "ch9_ex2_q29d",
+          "number": "29(d)",
+          "category": "Practice",
+          "questionText": "The area of a rectangle in cm$^2$ is given by the equation $A = \\frac{-8w}{5}(w - 6)$, where $w$ is the width of the rectangle in centimetres. Evaluate the maximum possible area of the rectangle. Show your working.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "The maximum of an inverted parabola is at its turning point, on the axis of symmetry midway between the intercepts.",
+            "steps": [
+              "Given: $A = \\frac{-8w}{5}(w - 6)$, intercepts $w = 0$ and $w = 6$.",
+              "Goal: the maximum area.",
+              "Axis of symmetry: $w = \\frac{0 + 6}{2} = 3$.",
+              "$A = \\frac{-8(3)}{5}(3 - 6) = \\frac{-24}{5}(-3) = \\frac{72}{5} = 14.4$."
+            ],
+            "finalAnswer": "Therefore the maximum possible area is $14.4$ cm$^2$.",
+            "solutionFigures": [],
+            "tip": "State units of area as cm$^2$, not cm."
+          }
+        },
+        {
+          "id": "ch9_ex2_q29e",
+          "number": "29(e)",
+          "category": "Practice",
+          "questionText": "The area of a rectangle in cm$^2$ is given by the equation $A = \\frac{-8w}{5}(w - 6)$, where $w$ is the width of the rectangle in centimetres. The maximum area is $14.4$ cm$^2$. Determine the dimensions of the rectangle that produce this maximum area.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a rectangle: $A = \\text{length} \\times \\text{width}$, so $\\text{length} = \\frac{A}{w}$.",
+            "steps": [
+              "Given: maximum area $14.4$ cm$^2$ at $w = 3$ cm.",
+              "Goal: the length and width.",
+              "Width $w = 3$ cm.",
+              "Length $= \\frac{14.4}{3} = 4.8$ cm.",
+              "Check from the formula: $A = w \\times \\frac{-8}{5}(w - 6)$, so length $= \\frac{-8}{5}(3 - 6) = \\frac{24}{5} = 4.8$ cm ✓"
+            ],
+            "finalAnswer": "Therefore the rectangle with maximum area measures $3$ cm by $4.8$ cm.",
+            "solutionFigures": [],
+            "tip": "The width at the maximum comes from the axis of symmetry; divide the area by it to get the length."
+          }
+        },
+        {
+          "id": "ch9_ex2_q30a",
+          "number": "30(a)",
+          "category": "Consolidate",
+          "questionText": "The path taken by a netball thrown by a rising Australian player is given by the quadratic equation $y = -x^2 + 3.2x + 1.8$, where $y$ is the height of the ball and $x$ is the horizontal distance from the player's upstretched hand. Complete a table of values for $-1 \\le x \\le 4$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute each $x$ into $y = -x^2 + 3.2x + 1.8$.",
+            "steps": [
+              "Given: $y = -x^2 + 3.2x + 1.8$, $x = -1, 0, 1, 2, 3, 4$.",
+              "Goal: table of values.",
+              "$x = -1$: $-1 - 3.2 + 1.8 = -2.4$",
+              "$x = 0$: $0 + 0 + 1.8 = 1.8$",
+              "$x = 1$: $-1 + 3.2 + 1.8 = 4$",
+              "$x = 2$: $-4 + 6.4 + 1.8 = 4.2$",
+              "$x = 3$: $-9 + 9.6 + 1.8 = 2.4$",
+              "$x = 4$: $-16 + 12.8 + 1.8 = -1.4$"
+            ],
+            "finalAnswer": "Therefore the table is: $x$: $-1, 0, 1, 2, 3, 4$; $y$: $-2.4, 1.8, 4, 4.2, 2.4, -1.4$.",
+            "solutionFigures": [],
+            "tip": "$-x^2$ at $x = -1$ is $-1$, not $+1$."
+          }
+        },
+        {
+          "id": "ch9_ex2_q30b",
+          "number": "30(b)",
+          "category": "Consolidate",
+          "questionText": "The path taken by a netball thrown by a rising Australian player is given by the quadratic equation $y = -x^2 + 3.2x + 1.8$, where $y$ is the height of the ball and $x$ is the horizontal distance from the player's upstretched hand. Using the table for $-1 \\le x \\le 4$ ($y = -2.4, 1.8, 4, 4.2, 2.4, -1.4$), plot the graph.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = ax^2 + bx + c$ with $a < 0$ is an inverted parabola with axis $x = -\\frac{b}{2a}$ and $y$-intercept $c$.",
+            "steps": [
+              "Given: points $(-1, -2.4)$, $(0, 1.8)$, $(1, 4)$, $(2, 4.2)$, $(3, 2.4)$, $(4, -1.4)$.",
+              "Goal: plot the graph.",
+              "Axis of symmetry: $x = -\\frac{3.2}{2(-1)} = 1.6$; $y = -(1.6)^2 + 3.2(1.6) + 1.8 = -2.56 + 5.12 + 1.8 = 4.36$.",
+              "Plot the points and draw a smooth inverted parabola: it crosses the $y$-axis at $1.8$, rises to the maximum $(1.6, 4.36)$, and crosses the $x$-axis between $x = -1$ and $0$ (near $-0.49$) and between $x = 3$ and $4$ (near $3.69$)."
+            ],
+            "finalAnswer": "Therefore the graph is an inverted parabola through the tabled points with $y$-intercept $1.8$ and maximum about $(1.6, 4.36)$.",
+            "solutionFigures": [],
+            "tip": "The turning point is between $x = 1$ and $x = 2$, not at a table value, so draw a smooth curve rather than joining with straight lines."
+          }
+        },
+        {
+          "id": "ch9_ex2_q30c",
+          "number": "30(c)",
+          "category": "Consolidate",
+          "questionText": "The path taken by a netball thrown by a rising Australian player is given by the quadratic equation $y = -x^2 + 3.2x + 1.8$, where $y$ is the height of the ball and $x$ is the horizontal distance from the player's upstretched hand. Explain what values of $x$ are 'not reasonable'.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "In a real-life model, distances in front of the player must be $x \\ge 0$ and heights must be $y \\ge 0$.",
+            "steps": [
+              "Given: $y = -x^2 + 3.2x + 1.8$, table values $x = -1 \\to y = -2.4$ and $x = 4 \\to y = -1.4$.",
+              "Goal: identify unreasonable values of $x$.",
+              "Negative $x$ (e.g. $x = -1$) would place the ball behind the player's hand, but the ball travels forward from the hand.",
+              "Values of $x$ beyond where the ball lands (about $3.69$ m), such as $x = 4$, give negative heights, meaning the ball would be under ground level."
+            ],
+            "finalAnswer": "Therefore $x = -1$ (and any negative $x$) is not reasonable because it puts the ball behind the player, and $x = 4$ (any $x$ beyond about 3.69 m) is not reasonable because the ball would be under ground level.",
+            "solutionFigures": [],
+            "tip": "A negative height means below the ground, which a netball cannot reach."
+          }
+        },
+        {
+          "id": "ch9_ex2_q30d",
+          "number": "30(d)",
+          "category": "Consolidate",
+          "questionText": "The path taken by a netball thrown by a rising Australian player is given by the quadratic equation $y = -x^2 + 3.2x + 1.8$, where $y$ is the height of the ball and $x$ is the horizontal distance from the player's upstretched hand. Evaluate the maximum height reached by the netball.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = ax^2 + bx + c$, the turning point is at $x = -\\frac{b}{2a}$.",
+            "steps": [
+              "Given: $a = -1$, $b = 3.2$, $c = 1.8$.",
+              "Goal: the maximum height.",
+              "$x = -\\frac{3.2}{2(-1)} = 1.6$.",
+              "$y = -(1.6)^2 + 3.2(1.6) + 1.8 = -2.56 + 5.12 + 1.8 = 4.36$.",
+              "$a < 0$, so this is a maximum."
+            ],
+            "finalAnswer": "Therefore the maximum height reached by the netball is $4.36$ m (at a horizontal distance of $1.6$ m).",
+            "solutionFigures": [],
+            "tip": "The table's largest value (4.2) is not the maximum; the true maximum lies between table values."
+          }
+        },
+        {
+          "id": "ch9_ex2_q30e",
+          "number": "30(e)",
+          "category": "Consolidate",
+          "questionText": "The path taken by a netball thrown by a rising Australian player is given by the quadratic equation $y = -x^2 + 3.2x + 1.8$, where $y$ is the height of the ball and $x$ is the horizontal distance from the player's upstretched hand. Assuming that nothing hits the netball, determine how far away from the player the netball will strike the ground.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadratic formula: $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.",
+            "steps": [
+              "Given: $y = -x^2 + 3.2x + 1.8$.",
+              "Goal: the positive $x$ where $y = 0$.",
+              "Set $-x^2 + 3.2x + 1.8 = 0$; multiply by $-1$: $x^2 - 3.2x - 1.8 = 0$ ($a = 1$, $b = -3.2$, $c = -1.8$).",
+              "$\\Delta = (-3.2)^2 - 4(1)(-1.8) = 10.24 + 7.2 = 17.44$.",
+              "$x = \\frac{3.2 \\pm \\sqrt{17.44}}{2} = \\frac{3.2 \\pm 4.17612}{2}$.",
+              "$x = \\frac{7.37612}{2} = 3.688$ or $x = \\frac{-0.97612}{2} = -0.488$.",
+              "Reject the negative value (behind the player).",
+              "Rounded to 3 decimal places: $x \\approx 3.688$ m."
+            ],
+            "finalAnswer": "Therefore the netball strikes the ground about $3.688$ m (approximately 3.69 m) from the player.",
+            "solutionFigures": [],
+            "tip": "Keep several decimal places in $\\sqrt{17.44}$ until the final step to avoid rounding errors."
+          }
+        },
+        {
+          "id": "ch9_ex2_q31",
+          "number": "31",
+          "category": "Master",
+          "questionText": "The values of $a$, $b$ and $c$ in the equation $y = ax^2 + bx + c$ can be calculated using three points that lie on the parabola. This requires solving triple simultaneous equations by algebra (or using a CAS calculator). If the points $(0, 1)$, $(1, 0)$ and $(2, 3)$ all lie on one parabola, determine the equation of the parabola.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Substitute each point into $y = ax^2 + bx + c$ and solve the resulting simultaneous equations.",
+            "steps": [
+              "Given: points $(0, 1)$, $(1, 0)$, $(2, 3)$ on $y = ax^2 + bx + c$.",
+              "Goal: find $a$, $b$, $c$.",
+              "$(0, 1)$: $1 = a(0) + b(0) + c \\Rightarrow c = 1$.",
+              "$(1, 0)$: $0 = a + b + 1 \\Rightarrow a + b = -1$ ... (1)",
+              "$(2, 3)$: $3 = 4a + 2b + 1 \\Rightarrow 4a + 2b = 2 \\Rightarrow 2a + b = 1$ ... (2)",
+              "(2) $-$ (1): $(2a + b) - (a + b) = 1 - (-1) \\Rightarrow a = 2$.",
+              "Substitute into (1): $2 + b = -1 \\Rightarrow b = -3$.",
+              "So $y = 2x^2 - 3x + 1$.",
+              "Check: $x = 1$: $2 - 3 + 1 = 0$ ✓; $x = 2$: $8 - 6 + 1 = 3$ ✓"
+            ],
+            "finalAnswer": "Therefore the equation of the parabola is $y = 2x^2 - 3x + 1$.",
+            "solutionFigures": [],
+            "tip": "Use the point with $x = 0$ first: it gives $c$ immediately and reduces the problem to two equations."
+          }
+        }
+      ]
+    }
+  ]
+}

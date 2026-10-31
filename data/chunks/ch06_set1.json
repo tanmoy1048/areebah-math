@@ -1,0 +1,330 @@
+{
+  "chapterId": "ch06",
+  "chapterTitle": "Surface area and volume",
+  "topics": [
+    {
+      "topicId": "6.1",
+      "topicTitle": "Pre-test",
+      "exercises": [
+        {
+          "id": "ch6_ex1_q1",
+          "number": "1",
+          "category": null,
+          "questionText": "Calculate the area of the shape, correct to 2 decimal places. The shape is a trapezium with parallel sides $7.3\\text{ mm}$ (top) and $15.2\\text{ mm}$ (bottom) and a perpendicular height of $6.1\\text{ mm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a trapezium: $A = \\frac{1}{2}(a+b)h$",
+            "steps": [
+              "Given: parallel sides $a = 7.3\\text{ mm}$, $b = 15.2\\text{ mm}$, height $h = 6.1\\text{ mm}$. Goal: the area $A$.",
+              "$A = \\frac{1}{2}(a+b)h$",
+              "$A = \\frac{1}{2}(7.3 + 15.2) \\times 6.1$",
+              "$A = \\frac{1}{2} \\times 22.5 \\times 6.1$",
+              "$A = 11.25 \\times 6.1$",
+              "$A = 68.625$",
+              "Rounded to 2 decimal places: $A \\approx 68.63\\text{ mm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the trapezium is $68.63\\text{ mm}^2$ (correct to 2 decimal places).",
+            "solutionFigures": [],
+            "tip": "Add the two parallel sides first, then halve, then multiply by the perpendicular height."
+          }
+        },
+        {
+          "id": "ch6_ex1_q2",
+          "number": "2",
+          "category": null,
+          "questionText": "Calculate the area of the ellipse, correct to 1 decimal place. The ellipse has semi-major axis $8\\text{ cm}$ and semi-minor axis $5\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of an ellipse: $A = \\pi ab$, where $a$ and $b$ are the semi-major and semi-minor axes",
+            "steps": [
+              "Given: $a = 8\\text{ cm}$, $b = 5\\text{ cm}$. Goal: the area $A$.",
+              "$A = \\pi ab$",
+              "$A = \\pi \\times 8 \\times 5$",
+              "$A = 40\\pi$",
+              "$A = 125.663...$",
+              "Rounded to 1 decimal place: $A \\approx 125.7\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the ellipse is $125.7\\text{ cm}^2$ (correct to 1 decimal place).",
+            "solutionFigures": [],
+            "tip": "Use the half-lengths (semi-axes), not the full widths of the ellipse."
+          }
+        },
+        {
+          "id": "ch6_ex1_q3",
+          "number": "3",
+          "category": null,
+          "questionText": "MC Select the total surface area of the rectangular prism from the following. The prism has length $3.2\\text{ m}$, width $2\\text{ m}$ and height $1.5\\text{ m}$.\nA. $9.6\\text{ m}^2$  B. $14.2\\text{ m}^2$  C. $22.0\\text{ m}^2$  D. $28.4\\text{ m}^2$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA of a rectangular prism: $\\text{TSA} = 2(lw + lh + wh)$",
+            "steps": [
+              "Given: $l = 3.2\\text{ m}$, $w = 2\\text{ m}$, $h = 1.5\\text{ m}$. Goal: the total surface area.",
+              "$\\text{TSA} = 2(lw + lh + wh)$",
+              "$\\text{TSA} = 2(3.2 \\times 2 + 3.2 \\times 1.5 + 2 \\times 1.5)$",
+              "$\\text{TSA} = 2(6.4 + 4.8 + 3)$",
+              "$\\text{TSA} = 2 \\times 14.2$",
+              "$\\text{TSA} = 28.4\\text{ m}^2$, which is option D."
+            ],
+            "finalAnswer": "Therefore the total surface area is $28.4\\text{ m}^2$; the answer is D.",
+            "solutionFigures": [],
+            "tip": "Option B (14.2) is only half the answer: each face appears twice, so remember to multiply by 2."
+          }
+        },
+        {
+          "id": "ch6_ex1_q4",
+          "number": "4",
+          "category": null,
+          "questionText": "Calculate the total surface area of the sphere, correct to 1 decimal place. The sphere has a diameter of $15\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA of a sphere: $\\text{TSA} = 4\\pi r^2$",
+            "steps": [
+              "Given: diameter $= 15\\text{ cm}$, so $r = \\frac{15}{2} = 7.5\\text{ cm}$. Goal: the total surface area.",
+              "$\\text{TSA} = 4\\pi r^2$",
+              "$\\text{TSA} = 4 \\times \\pi \\times 7.5^2$",
+              "$\\text{TSA} = 4 \\times \\pi \\times 56.25$",
+              "$\\text{TSA} = 225\\pi$",
+              "$\\text{TSA} = 706.858...$",
+              "Rounded to 1 decimal place: $\\text{TSA} \\approx 706.9\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area of the sphere is $706.9\\text{ cm}^2$ (correct to 1 decimal place).",
+            "solutionFigures": [],
+            "tip": "The 15 cm line passes through the centre, so it is the diameter; halve it to get the radius."
+          }
+        },
+        {
+          "id": "ch6_ex1_q5",
+          "number": "5",
+          "category": null,
+          "questionText": "Calculate the volume of the solid. The solid is a cone with base area $A = 3\\text{ cm}^2$ and perpendicular height $4\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a cone (pyramid-type solid): $V = \\frac{1}{3}AH$",
+            "steps": [
+              "Given: base area $A = 3\\text{ cm}^2$, height $H = 4\\text{ cm}$. Goal: the volume $V$.",
+              "$V = \\frac{1}{3}AH$",
+              "$V = \\frac{1}{3} \\times 3 \\times 4$",
+              "$V = 1 \\times 4$",
+              "$V = 4\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the cone is $4\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "A cone holds one-third of the volume of a cylinder with the same base and height, so don't forget the $\\frac{1}{3}$."
+          }
+        },
+        {
+          "id": "ch6_ex1_q6",
+          "number": "6",
+          "category": null,
+          "questionText": "Calculate the area of the shape, correct to 1 decimal place. The shape is part of a ring (annulus): a large circle of radius $2 + 3 = 5\\text{ cm}$ with a small circle of radius $2\\text{ cm}$ removed from its centre (the ring is $3\\text{ cm}$ wide), and a $45^\\circ$ sector cut out of the ring.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a sector: $A = \\frac{\\theta}{360^\\circ} \\times \\pi r^2$; shaded area = outer sector $-$ inner sector",
+            "steps": [
+              "Given: inner radius $r = 2\\text{ cm}$, outer radius $R = 2 + 3 = 5\\text{ cm}$, missing angle $45^\\circ$. Goal: the area of the shape.",
+              "Angle of the shape: $\\theta = 360^\\circ - 45^\\circ = 315^\\circ$",
+              "$A = \\frac{\\theta}{360^\\circ} \\times \\pi R^2 - \\frac{\\theta}{360^\\circ} \\times \\pi r^2 = \\frac{\\theta}{360^\\circ} \\times \\pi (R^2 - r^2)$",
+              "$A = \\frac{315^\\circ}{360^\\circ} \\times \\pi \\times (5^2 - 2^2)$",
+              "$A = \\frac{7}{8} \\times \\pi \\times (25 - 4)$",
+              "$A = \\frac{7}{8} \\times 21\\pi$",
+              "$A = \\frac{147\\pi}{8} = 18.375\\pi$",
+              "$A = 57.726...$",
+              "Rounded to 1 decimal place: $A \\approx 57.7\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the shape is $57.7\\text{ cm}^2$ (correct to 1 decimal place).",
+            "solutionFigures": [],
+            "tip": "The outer radius is measured from the centre: $2 + 3 = 5$ cm, not 3 cm."
+          }
+        },
+        {
+          "id": "ch6_ex1_q7",
+          "number": "7",
+          "category": null,
+          "questionText": "A council park is shown below. The park is an L-shape: the top side is $240\\text{ m}$ and the left side is $100\\text{ m}$. Along the bottom, a $80\\text{ m}$ horizontal edge runs from the bottom-left corner, then the boundary steps down $30\\text{ m}$, and continues to the right side, so the right-hand part of the park extends $30\\text{ m}$ further down than the left. All corners are right angles.\nA worker charges $\\$30$ per $1000\\text{ m}^2$ to mow the grass. Determine how much it will cost the council to have the grass mown.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Composite area = sum of rectangles; cost = (area $\\div 1000$) $\\times$ rate",
+            "steps": [
+              "Given: top rectangle $240\\text{ m} \\times 100\\text{ m}$; lower rectangle of width $240 - 80 = 160\\text{ m}$ and height $30\\text{ m}$; rate $\\$30$ per $1000\\text{ m}^2$. Goal: the cost of mowing.",
+              "Area of top rectangle $= 240 \\times 100 = 24\\,000\\text{ m}^2$",
+              "Width of lower part $= 240 - 80 = 160\\text{ m}$",
+              "Area of lower rectangle $= 160 \\times 30 = 4800\\text{ m}^2$",
+              "Total area $= 24\\,000 + 4800 = 28\\,800\\text{ m}^2$",
+              "Number of $1000\\text{ m}^2$ units $= \\frac{28\\,800}{1000} = 28.8$",
+              "Cost $= 28.8 \\times \\$30 = \\$864$"
+            ],
+            "finalAnswer": "Therefore it will cost the council $\\$864$ to have the grass mown.",
+            "solutionFigures": [],
+            "tip": "Split an L-shape into two rectangles and find any missing side by subtracting known lengths."
+          }
+        },
+        {
+          "id": "ch6_ex1_q8",
+          "number": "8",
+          "category": null,
+          "questionText": "MC Select the total surface area of the object shown from the following. The object is a cone with a hemisphere on top. The radius of the hemisphere and of the cone is $2.5\\text{ cm}$, and the perpendicular height of the cone is $9\\text{ cm}$.\nA. $109.96\\text{ cm}^2$  B. $112.63\\text{ cm}^2$  C. $151.9\\text{ cm}^2$  D. $124.36\\text{ cm}^2$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Curved surface of a hemisphere $= 2\\pi r^2$; curved surface of a cone $= \\pi rl$ with $l = \\sqrt{r^2 + h^2}$ (Pythagoras)",
+            "steps": [
+              "Given: $r = 2.5\\text{ cm}$, cone height $h = 9\\text{ cm}$. Goal: the total outside surface area.",
+              "Slant height: $l = \\sqrt{r^2 + h^2} = \\sqrt{2.5^2 + 9^2} = \\sqrt{6.25 + 81} = \\sqrt{87.25} = 9.3408...\\text{ cm}$",
+              "Hemisphere curved surface $= 2\\pi r^2 = 2 \\times \\pi \\times 2.5^2 = 12.5\\pi = 39.2699...\\text{ cm}^2$",
+              "Cone curved surface $= \\pi rl = \\pi \\times 2.5 \\times 9.3408... = 73.3618...\\text{ cm}^2$",
+              "$\\text{TSA} = 39.2699... + 73.3618... = 112.6317...$",
+              "$\\text{TSA} \\approx 112.63\\text{ cm}^2$, which is option B."
+            ],
+            "finalAnswer": "Therefore the total surface area is $112.63\\text{ cm}^2$; the answer is B.",
+            "solutionFigures": [],
+            "tip": "The 9 cm is the vertical height, not the slant height; option A comes from wrongly using 9 cm as the slant height."
+          }
+        },
+        {
+          "id": "ch6_ex1_q9",
+          "number": "9",
+          "category": null,
+          "questionText": "Determine the volume of the triangular prism. The cross-section is a right-angled triangle with one shorter side $3\\text{ mm}$ and hypotenuse $5\\text{ mm}$; the length of the prism is $10\\text{ mm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a prism: $V = AH$, with triangle area $A = \\frac{1}{2}bh$; Pythagoras' theorem $a^2 + b^2 = c^2$",
+            "steps": [
+              "Given: right-angled triangle with side $3\\text{ mm}$ and hypotenuse $5\\text{ mm}$; prism length $H = 10\\text{ mm}$. Goal: the volume.",
+              "Find the missing side $h$ of the triangle: $h^2 = 5^2 - 3^2 = 25 - 9 = 16$",
+              "$h = \\sqrt{16} = 4\\text{ mm}$",
+              "Area of the triangle: $A = \\frac{1}{2} \\times 3 \\times 4 = 6\\text{ mm}^2$",
+              "$V = AH = 6 \\times 10$",
+              "$V = 60\\text{ mm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the triangular prism is $60\\text{ mm}^3$.",
+            "solutionFigures": [],
+            "tip": "The triangle's area needs the two perpendicular sides, so use Pythagoras to find the missing one first."
+          }
+        },
+        {
+          "id": "ch6_ex1_q10",
+          "number": "10",
+          "category": null,
+          "questionText": "MC Select the volume of the object from the following. The object is a cylinder of diameter $10\\text{ cm}$ and height $20\\text{ cm}$ with a cone of the same diameter and height $15\\text{ cm}$ on top.\nA. $2748.9\\text{ cm}^3$  B. $1701.7\\text{ cm}^3$  C. $1963.5\\text{ cm}^3$  D. $7854\\text{ cm}^3$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$V_{\\text{cylinder}} = \\pi r^2 h$; $V_{\\text{cone}} = \\frac{1}{3}\\pi r^2 h$",
+            "steps": [
+              "Given: $r = \\frac{10}{2} = 5\\text{ cm}$, cylinder height $20\\text{ cm}$, cone height $15\\text{ cm}$. Goal: the total volume.",
+              "$V_{\\text{cylinder}} = \\pi \\times 5^2 \\times 20 = \\pi \\times 25 \\times 20 = 500\\pi$",
+              "$V_{\\text{cone}} = \\frac{1}{3} \\times \\pi \\times 5^2 \\times 15 = \\frac{1}{3} \\times 375\\pi = 125\\pi$",
+              "$V = 500\\pi + 125\\pi = 625\\pi$",
+              "$V = 1963.495...$",
+              "$V \\approx 1963.5\\text{ cm}^3$, which is option C."
+            ],
+            "finalAnswer": "Therefore the volume is $1963.5\\text{ cm}^3$; the answer is C.",
+            "solutionFigures": [],
+            "tip": "Halve the 10 cm diameter to get the radius before squaring."
+          }
+        },
+        {
+          "id": "ch6_ex1_q11",
+          "number": "11",
+          "category": null,
+          "questionText": "MC The volume of the frustum of a square-based pyramid, with top square side $y$, bottom square side $x$ and height $h$, is given by:\nA. $V = \\frac{1}{3}\\pi(x^2 + y^2)$  B. $V = \\frac{1}{3}\\pi(x^2 + xy + y^2)$  C. $V = \\frac{1}{3}h\\pi(x^2 + xy + y^2)$  D. $V = \\frac{1}{3}h(x^2 + xy + y^2)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a frustum: $V = \\frac{1}{3}h(A_1 + \\sqrt{A_1A_2} + A_2)$, where $A_1$, $A_2$ are the areas of the two parallel faces",
+            "steps": [
+              "Given: square faces of side $x$ and $y$, height $h$. Goal: choose the volume formula.",
+              "$A_1 = x^2$, $A_2 = y^2$, so $\\sqrt{A_1 A_2} = \\sqrt{x^2y^2} = xy$",
+              "$V = \\frac{1}{3}h(x^2 + xy + y^2)$",
+              "Check: a volume must contain the height, and the faces are squares (no $\\pi$), so only D is possible."
+            ],
+            "finalAnswer": "Therefore $V = \\frac{1}{3}h(x^2 + xy + y^2)$; the answer is D.",
+            "solutionFigures": [],
+            "tip": "$\\pi$ only appears when there are circles; a square-based solid has no $\\pi$ in its volume."
+          }
+        },
+        {
+          "id": "ch6_ex1_q12",
+          "number": "12",
+          "category": null,
+          "questionText": "The volume of a ball is given by the formula $V = \\frac{4}{3}\\pi r^3$. Evaluate the radius of a ball with a volume of $384.66\\text{ cm}^3$. Give your answer correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a sphere: $V = \\frac{4}{3}\\pi r^3$, rearranged to $r = \\sqrt[3]{\\frac{3V}{4\\pi}}$",
+            "steps": [
+              "Given: $V = 384.66\\text{ cm}^3$. Goal: the radius $r$.",
+              "$384.66 = \\frac{4}{3}\\pi r^3$",
+              "Multiply both sides by 3: $1153.98 = 4\\pi r^3$",
+              "Divide both sides by $4\\pi$: $r^3 = \\frac{1153.98}{4\\pi} = 91.831...$",
+              "$r = \\sqrt[3]{91.831...} = 4.510...$",
+              "Rounded to 1 decimal place: $r \\approx 4.5\\text{ cm}$"
+            ],
+            "finalAnswer": "Therefore the radius of the ball is $4.5\\text{ cm}$ (correct to 1 decimal place).",
+            "solutionFigures": [],
+            "tip": "Undo the operations in reverse order and finish with a cube root, not a square root."
+          }
+        },
+        {
+          "id": "ch6_ex1_q13",
+          "number": "13",
+          "category": null,
+          "questionText": "MC Determine what effect doubling the radius and halving the height of a cone will have on its volume.\nA. The volume will be the same.\nB. The volume will be halved.\nC. The volume will be doubled.\nD. The volume will be quadrupled.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a cone: $V = \\frac{1}{3}\\pi r^2 h$",
+            "steps": [
+              "Given: original cone $V = \\frac{1}{3}\\pi r^2 h$; new radius $2r$, new height $\\frac{h}{2}$. Goal: compare the volumes.",
+              "$V_{\\text{new}} = \\frac{1}{3}\\pi (2r)^2 \\times \\frac{h}{2}$",
+              "$V_{\\text{new}} = \\frac{1}{3}\\pi \\times 4r^2 \\times \\frac{h}{2}$",
+              "$V_{\\text{new}} = 2 \\times \\frac{1}{3}\\pi r^2 h$",
+              "$V_{\\text{new}} = 2V$, so the volume is doubled (option C)."
+            ],
+            "finalAnswer": "Therefore the volume will be doubled; the answer is C.",
+            "solutionFigures": [],
+            "tip": "The radius is squared, so doubling it multiplies the volume by 4, not 2."
+          }
+        },
+        {
+          "id": "ch6_ex1_q14",
+          "number": "14",
+          "category": null,
+          "questionText": "Using Heron's formula, evaluate the area of the triangle, correct to 1 decimal place. The triangle has sides $9\\text{ cm}$, $4\\text{ cm}$ and $7\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Heron's formula: $A = \\sqrt{s(s-a)(s-b)(s-c)}$, where $s = \\frac{a+b+c}{2}$",
+            "steps": [
+              "Given: $a = 9$, $b = 4$, $c = 7$ (cm). Goal: the area.",
+              "$s = \\frac{9 + 4 + 7}{2} = \\frac{20}{2} = 10$",
+              "$A = \\sqrt{10(10-9)(10-4)(10-7)}$",
+              "$A = \\sqrt{10 \\times 1 \\times 6 \\times 3}$",
+              "$A = \\sqrt{180}$",
+              "$A = 13.416...$",
+              "Rounded to 1 decimal place: $A \\approx 13.4\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the triangle is $13.4\\text{ cm}^2$ (correct to 1 decimal place).",
+            "solutionFigures": [],
+            "tip": "$s$ is the semi-perimeter: half of the perimeter, not the full perimeter."
+          }
+        },
+        {
+          "id": "ch6_ex1_q15",
+          "number": "15",
+          "category": null,
+          "questionText": "A cylindrical soft drink can has a diameter of $6.4\\text{ cm}$ and a height of $14.3\\text{ cm}$. If the can is only half full, determine what capacity of soft drink remains, to the nearest millilitre.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a cylinder: $V = \\pi r^2 h$; $1\\text{ cm}^3 = 1\\text{ mL}$",
+            "steps": [
+              "Given: $r = \\frac{6.4}{2} = 3.2\\text{ cm}$, $h = 14.3\\text{ cm}$, the can is half full. Goal: the volume of drink in mL.",
+              "$V = \\pi r^2 h = \\pi \\times 3.2^2 \\times 14.3$",
+              "$V = \\pi \\times 10.24 \\times 14.3 = 146.432\\pi$",
+              "$V = 460.03...\\text{ cm}^3$",
+              "Half full: $\\frac{460.03...}{2} = 230.01...\\text{ cm}^3$",
+              "Since $1\\text{ cm}^3 = 1\\text{ mL}$: $230.01...\\text{ mL} \\approx 230\\text{ mL}$"
+            ],
+            "finalAnswer": "Therefore about $230\\text{ mL}$ of soft drink remains (to the nearest millilitre).",
+            "solutionFigures": [],
+            "tip": "Remember to halve the full volume, and that $1\\text{ cm}^3$ holds exactly $1\\text{ mL}$."
+          }
+        }
+      ]
+    }
+  ]
+}

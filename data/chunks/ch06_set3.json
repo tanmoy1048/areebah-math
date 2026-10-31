@@ -1,0 +1,1107 @@
+{
+  "chapterId": "ch06",
+  "chapterTitle": "Surface area and volume",
+  "topics": [
+    {
+      "topicId": "6.3",
+      "topicTitle": "Total surface area",
+      "exercises": [
+        {
+          "id": "ch6_ex3_q1a",
+          "number": "1(a)",
+          "category": "Practice",
+          "questionText": "Calculate the total surface area of the solid shown: a cube with edge length $10\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA of a cube: $\\text{TSA} = 6l^2$",
+            "steps": [
+              "Given: $l = 10\\text{ cm}$. Goal: the total surface area.",
+              "$\\text{TSA} = 6l^2$",
+              "$\\text{TSA} = 6 \\times 10^2$",
+              "$\\text{TSA} = 6 \\times 100$",
+              "$\\text{TSA} = 600\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area of the cube is $600\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "A cube has 6 identical square faces."
+          }
+        },
+        {
+          "id": "ch6_ex3_q1b",
+          "number": "1(b)",
+          "category": "Practice",
+          "questionText": "Calculate the total surface area of the solid shown: a cube with edge length $8\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA of a cube: $\\text{TSA} = 6l^2$",
+            "steps": [
+              "Given: $l = 8\\text{ cm}$. Goal: the total surface area.",
+              "$\\text{TSA} = 6 \\times 8^2$",
+              "$\\text{TSA} = 6 \\times 64$",
+              "$\\text{TSA} = 384\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area of the cube is $384\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "Square the edge first, then multiply by 6 (not $(6l)^2$)."
+          }
+        },
+        {
+          "id": "ch6_ex3_q1c",
+          "number": "1(c)",
+          "category": "Practice",
+          "questionText": "Calculate the total surface area of the solid shown: a rectangular prism $20\\text{ cm}$ long, $12\\text{ cm}$ wide and $15\\text{ cm}$ high.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA of a rectangular prism: $\\text{TSA} = 2(lw + lh + wh)$",
+            "steps": [
+              "Given: $l = 20$, $w = 12$, $h = 15$ (cm). Goal: the total surface area.",
+              "$\\text{TSA} = 2(20 \\times 12 + 20 \\times 15 + 12 \\times 15)$",
+              "$\\text{TSA} = 2(240 + 300 + 180)$",
+              "$\\text{TSA} = 2 \\times 720$",
+              "$\\text{TSA} = 1440\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area of the prism is $1440\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "There are three different pairs of faces; each pair is counted twice."
+          }
+        },
+        {
+          "id": "ch6_ex3_q1d",
+          "number": "1(d)",
+          "category": "Practice",
+          "questionText": "Calculate the total surface area of the solid shown: a rectangular prism $3\\text{ m}$ long, $2\\text{ m}$ wide and $1.5\\text{ m}$ high.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA of a rectangular prism: $\\text{TSA} = 2(lw + lh + wh)$",
+            "steps": [
+              "Given: $l = 3$, $w = 2$, $h = 1.5$ (m). Goal: the total surface area.",
+              "$\\text{TSA} = 2(3 \\times 2 + 3 \\times 1.5 + 2 \\times 1.5)$",
+              "$\\text{TSA} = 2(6 + 4.5 + 3)$",
+              "$\\text{TSA} = 2 \\times 13.5$",
+              "$\\text{TSA} = 27\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area of the prism is $27\\text{ m}^2$.",
+            "solutionFigures": [],
+            "tip": "Write the three products separately before adding to avoid missing a face."
+          }
+        },
+        {
+          "id": "ch6_ex3_q2a",
+          "number": "2(a)",
+          "category": "Consolidate",
+          "questionText": "Calculate the total surface area of the solid shown, correct to 1 decimal place: a sphere of radius $r = 3\\text{ m}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA of a sphere: $\\text{TSA} = 4\\pi r^2$",
+            "steps": [
+              "Given: $r = 3\\text{ m}$. Goal: the total surface area.",
+              "$\\text{TSA} = 4 \\times \\pi \\times 3^2$",
+              "$\\text{TSA} = 36\\pi$",
+              "$\\text{TSA} = 113.097...$",
+              "Rounded to 1 decimal place: $113.1\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area of the sphere is $113.1\\text{ m}^2$.",
+            "solutionFigures": [],
+            "tip": "Only the radius is squared, not the 4 or $\\pi$."
+          }
+        },
+        {
+          "id": "ch6_ex3_q2b",
+          "number": "2(b)",
+          "category": "Consolidate",
+          "questionText": "Calculate the total surface area of the solid shown, correct to 1 decimal place: a closed cylinder with radius $21\\text{ cm}$ and height $30\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA of a cylinder: $\\text{TSA} = 2\\pi r(r + h)$",
+            "steps": [
+              "Given: $r = 21\\text{ cm}$, $h = 30\\text{ cm}$. Goal: the total surface area.",
+              "$\\text{TSA} = 2 \\times \\pi \\times 21 \\times (21 + 30)$",
+              "$\\text{TSA} = 2 \\times \\pi \\times 21 \\times 51$",
+              "$\\text{TSA} = 2142\\pi$",
+              "$\\text{TSA} = 6729.291...$",
+              "Rounded to 1 decimal place: $6729.3\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area of the cylinder is $6729.3\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "$2\\pi r(r + h)$ includes both circular ends and the curved surface."
+          }
+        },
+        {
+          "id": "ch6_ex3_q2c",
+          "number": "2(c)",
+          "category": "Consolidate",
+          "questionText": "Calculate the total surface area of the solid shown, correct to 1 decimal place: a closed cylinder with radius $0.5\\text{ m}$ and height $2.1\\text{ m}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA of a cylinder: $\\text{TSA} = 2\\pi r(r + h)$",
+            "steps": [
+              "Given: $r = 0.5\\text{ m}$, $h = 2.1\\text{ m}$. Goal: the total surface area.",
+              "$\\text{TSA} = 2 \\times \\pi \\times 0.5 \\times (0.5 + 2.1)$",
+              "$\\text{TSA} = \\pi \\times 2.6$",
+              "$\\text{TSA} = 8.168...$",
+              "Rounded to 1 decimal place: $8.2\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area of the cylinder is $8.2\\text{ m}^2$.",
+            "solutionFigures": [],
+            "tip": "Add $r + h$ inside the bracket before multiplying."
+          }
+        },
+        {
+          "id": "ch6_ex3_q2d",
+          "number": "2(d)",
+          "category": "Consolidate",
+          "questionText": "Calculate the total surface area of the solid shown, correct to 1 decimal place: a sphere with diameter $12\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA of a sphere: $\\text{TSA} = 4\\pi r^2$",
+            "steps": [
+              "Given: diameter $12\\text{ cm}$, so $r = 6\\text{ cm}$. Goal: the total surface area.",
+              "$\\text{TSA} = 4 \\times \\pi \\times 6^2$",
+              "$\\text{TSA} = 144\\pi$",
+              "$\\text{TSA} = 452.389...$",
+              "Rounded to 1 decimal place: $452.4\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area of the sphere is $452.4\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "The 12 cm runs right across the sphere, so it is the diameter."
+          }
+        },
+        {
+          "id": "ch6_ex3_q3a",
+          "number": "3(a)",
+          "category": "Master",
+          "questionText": "Calculate the total surface area of the cone, correct to 1 decimal place: a cone with base radius $14\\text{ cm}$ and slant height $20\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA of a cone: $\\text{TSA} = \\pi r(r + l)$",
+            "steps": [
+              "Given: $r = 14\\text{ cm}$, $l = 20\\text{ cm}$. Goal: the total surface area.",
+              "$\\text{TSA} = \\pi \\times 14 \\times (14 + 20)$",
+              "$\\text{TSA} = \\pi \\times 14 \\times 34$",
+              "$\\text{TSA} = 476\\pi$",
+              "$\\text{TSA} = 1495.398...$",
+              "Rounded to 1 decimal place: $1495.4\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area of the cone is $1495.4\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "Use the slant height $l$ in $\\pi rl$, not the vertical height."
+          }
+        },
+        {
+          "id": "ch6_ex3_q3b",
+          "number": "3(b)",
+          "category": "Master",
+          "questionText": "Calculate the total surface area of the cone, correct to 1 decimal place: a cone with base radius $8\\text{ cm}$ and slant height $12\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA of a cone: $\\text{TSA} = \\pi r(r + l)$",
+            "steps": [
+              "Given: $r = 8\\text{ cm}$, $l = 12\\text{ cm}$. Goal: the total surface area.",
+              "$\\text{TSA} = \\pi \\times 8 \\times (8 + 12)$",
+              "$\\text{TSA} = \\pi \\times 8 \\times 20$",
+              "$\\text{TSA} = 160\\pi$",
+              "$\\text{TSA} = 502.654...$",
+              "Rounded to 1 decimal place: $502.7\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area of the cone is $502.7\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "An upside-down cone has the same surface area as an upright one."
+          }
+        },
+        {
+          "id": "ch6_ex3_q4a",
+          "number": "4(a)",
+          "category": "Master",
+          "questionText": "Calculate the total surface area of the solid, correct to 1 decimal place: a square-based pyramid with base side $15\\text{ cm}$ and slant edges (from apex to each base corner) of $12\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA = square base + 4 triangles; triangle height by Pythagoras: $h^2 = c^2 - \\left(\\frac{b}{2}\\right)^2$",
+            "steps": [
+              "Given: base side $15\\text{ cm}$, slant edge $12\\text{ cm}$. Goal: the total surface area.",
+              "Base area $= 15^2 = 225\\text{ cm}^2$",
+              "Each face is an isosceles triangle with sides 12, 12, 15. Its height: $h^2 = 12^2 - 7.5^2 = 144 - 56.25 = 87.75$",
+              "$h = \\sqrt{87.75} = 9.367...\\text{ cm}$",
+              "Area of one face $= \\frac{1}{2} \\times 15 \\times 9.367... = 70.256...\\text{ cm}^2$",
+              "$\\text{TSA} = 225 + 4 \\times 70.256... = 225 + 281.025... = 506.025...$",
+              "Rounded to 1 decimal place: $506.0\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area of the pyramid is $506.0\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "The 12 cm is the slant edge, not the height of the triangular face; find that height with Pythagoras."
+          }
+        },
+        {
+          "id": "ch6_ex3_q4b",
+          "number": "4(b)",
+          "category": "Master",
+          "questionText": "Calculate the total surface area of the solid, correct to 1 decimal place: a square-based pyramid with base side $1.5\\text{ m}$ and slant edges of $2.5\\text{ m}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA = square base + 4 triangles; triangle height by Pythagoras",
+            "steps": [
+              "Given: base side $1.5\\text{ m}$, slant edge $2.5\\text{ m}$. Goal: the total surface area.",
+              "Base area $= 1.5^2 = 2.25\\text{ m}^2$",
+              "Height of each triangular face: $h^2 = 2.5^2 - 0.75^2 = 6.25 - 0.5625 = 5.6875$",
+              "$h = \\sqrt{5.6875} = 2.384...\\text{ m}$",
+              "Area of one face $= \\frac{1}{2} \\times 1.5 \\times 2.384... = 1.788...\\text{ m}^2$",
+              "$\\text{TSA} = 2.25 + 4 \\times 1.788... = 2.25 + 7.154... = 9.404...$",
+              "Rounded to 1 decimal place: $9.4\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area of the pyramid is $9.4\\text{ m}^2$.",
+            "solutionFigures": [],
+            "tip": "Halve the base side for the Pythagoras step: the face height meets the base at its midpoint."
+          }
+        },
+        {
+          "id": "ch6_ex3_q4c",
+          "number": "4(c)",
+          "category": "Master",
+          "questionText": "Calculate the total surface area of the solid, correct to 1 decimal place: a triangular prism of height (length) $14\\text{ cm}$. The triangular end has sides $9.1\\text{ cm}$, $5.1\\text{ cm}$ and $7.2\\text{ cm}$, and the perpendicular height of the triangle drawn to the $5.1\\text{ cm}$ side is labelled $8\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA of a prism = 2 × (area of triangular end) + perimeter of end × length; $A_{\\triangle} = \\frac{1}{2}bh$",
+            "steps": [
+              "Given: triangle base $5.1\\text{ cm}$ with height $8\\text{ cm}$; triangle sides $9.1$, $5.1$, $7.2\\text{ cm}$; prism length $14\\text{ cm}$. Goal: the total surface area.",
+              "Area of one triangular end $= \\frac{1}{2} \\times 5.1 \\times 8 = 20.4\\text{ cm}^2$",
+              "Two ends $= 2 \\times 20.4 = 40.8\\text{ cm}^2$",
+              "Perimeter of the triangle $= 9.1 + 5.1 + 7.2 = 21.4\\text{ cm}$",
+              "Three rectangular faces $= 21.4 \\times 14 = 299.6\\text{ cm}^2$",
+              "$\\text{TSA} = 40.8 + 299.6 = 340.4\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area of the prism is $340.4\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "The rectangular sides of any prism together equal the perimeter of the end times the length."
+          }
+        },
+        {
+          "id": "ch6_ex3_q4d",
+          "number": "4(d)",
+          "category": "Master",
+          "questionText": "Calculate the total surface area of the solid, correct to 1 decimal place: a triangular prism of length $10\\text{ cm}$ whose triangular end is isosceles with two equal sides of $6\\text{ cm}$ and a base of $7\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Heron's formula for the end: $A = \\sqrt{s(s-a)(s-b)(s-c)}$; TSA = 2 ends + perimeter × length",
+            "steps": [
+              "Given: triangle sides $6$, $6$, $7\\text{ cm}$; length $10\\text{ cm}$. Goal: the total surface area.",
+              "$s = \\frac{6 + 6 + 7}{2} = 9.5$",
+              "$A = \\sqrt{9.5(9.5-6)(9.5-6)(9.5-7)} = \\sqrt{9.5 \\times 3.5 \\times 3.5 \\times 2.5} = \\sqrt{290.9375} = 17.057...\\text{ cm}^2$",
+              "Two ends $= 2 \\times 17.057... = 34.113...\\text{ cm}^2$",
+              "Rectangular faces $= (6 + 6 + 7) \\times 10 = 19 \\times 10 = 190\\text{ cm}^2$",
+              "$\\text{TSA} = 34.113... + 190 = 224.113...$",
+              "Rounded to 1 decimal place: $224.1\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area of the prism is $224.1\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "Matching tick marks tell you which sides are equal — use them to fill in missing lengths."
+          }
+        },
+        {
+          "id": "ch6_ex3_q5a",
+          "number": "5(a)",
+          "category": "Practice",
+          "questionText": "Calculate the surface area of a cube of side length $1.5\\text{ m}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA of a cube: $\\text{TSA} = 6l^2$",
+            "steps": [
+              "Given: $l = 1.5\\text{ m}$. Goal: the surface area.",
+              "$\\text{TSA} = 6 \\times 1.5^2$",
+              "$\\text{TSA} = 6 \\times 2.25$",
+              "$\\text{TSA} = 13.5\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore the surface area of the cube is $13.5\\text{ m}^2$.",
+            "solutionFigures": [],
+            "tip": "$1.5^2 = 2.25$, not 3."
+          }
+        },
+        {
+          "id": "ch6_ex3_q5b",
+          "number": "5(b)",
+          "category": "Practice",
+          "questionText": "Calculate the surface area of a rectangular prism $6\\text{ m} \\times 4\\text{ m} \\times 2.1\\text{ m}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA of a rectangular prism: $\\text{TSA} = 2(lw + lh + wh)$",
+            "steps": [
+              "Given: $l = 6$, $w = 4$, $h = 2.1$ (m). Goal: the surface area.",
+              "$\\text{TSA} = 2(6 \\times 4 + 6 \\times 2.1 + 4 \\times 2.1)$",
+              "$\\text{TSA} = 2(24 + 12.6 + 8.4)$",
+              "$\\text{TSA} = 2 \\times 45$",
+              "$\\text{TSA} = 90\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore the surface area of the prism is $90\\text{ m}^2$.",
+            "solutionFigures": [],
+            "tip": "Double the sum at the end — each face has an identical opposite face."
+          }
+        },
+        {
+          "id": "ch6_ex3_q5c",
+          "number": "5(c)",
+          "category": "Practice",
+          "questionText": "Calculate the surface area of a cylinder of radius $30\\text{ cm}$ and height $45\\text{ cm}$, open at one end, correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Open cylinder: $\\text{SA} = \\pi r^2 + 2\\pi rh$ (one circular end + curved surface)",
+            "steps": [
+              "Given: $r = 30\\text{ cm}$, $h = 45\\text{ cm}$, one end open. Goal: the surface area.",
+              "One circular end $= \\pi \\times 30^2 = 900\\pi$",
+              "Curved surface $= 2 \\times \\pi \\times 30 \\times 45 = 2700\\pi$",
+              "$\\text{SA} = 900\\pi + 2700\\pi = 3600\\pi$",
+              "$\\text{SA} = 11\\,309.733...$",
+              "Rounded to 1 decimal place: $11\\,309.7\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the surface area of the open cylinder is $11\\,309.7\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "'Open at one end' means include only one circle."
+          }
+        },
+        {
+          "id": "ch6_ex3_q6a",
+          "number": "6(a)",
+          "category": "Consolidate",
+          "questionText": "Calculate the surface area of a sphere of radius $28\\text{ mm}$, correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA of a sphere: $\\text{TSA} = 4\\pi r^2$",
+            "steps": [
+              "Given: $r = 28\\text{ mm}$. Goal: the surface area.",
+              "$\\text{TSA} = 4 \\times \\pi \\times 28^2$",
+              "$\\text{TSA} = 4 \\times \\pi \\times 784 = 3136\\pi$",
+              "$\\text{TSA} = 9852.034...$",
+              "Rounded to 1 decimal place: $9852.0\\text{ mm}^2$"
+            ],
+            "finalAnswer": "Therefore the surface area of the sphere is $9852.0\\text{ mm}^2$.",
+            "solutionFigures": [],
+            "tip": "Keep the trailing zero (9852.0) to show the rounding to 1 decimal place."
+          }
+        },
+        {
+          "id": "ch6_ex3_q6b",
+          "number": "6(b)",
+          "category": "Consolidate",
+          "questionText": "Calculate the surface area of an open cone of radius $4\\text{ cm}$ and slant height $10\\text{ cm}$, correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Curved surface of a cone: $A = \\pi rl$",
+            "steps": [
+              "Given: $r = 4\\text{ cm}$, $l = 10\\text{ cm}$; open, so no base. Goal: the surface area.",
+              "$A = \\pi \\times 4 \\times 10$",
+              "$A = 40\\pi$",
+              "$A = 125.663...$",
+              "Rounded to 1 decimal place: $125.7\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the surface area of the open cone is $125.7\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "An open cone has no circular base, so leave out $\\pi r^2$."
+          }
+        },
+        {
+          "id": "ch6_ex3_q6c",
+          "number": "6(c)",
+          "category": "Consolidate",
+          "questionText": "Calculate the surface area of a square pyramid of base length $20\\text{ cm}$ and slant edge $30\\text{ cm}$, correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA = square base + 4 triangles; face height by Pythagoras",
+            "steps": [
+              "Given: base $20\\text{ cm}$, slant edge $30\\text{ cm}$. Goal: the surface area.",
+              "Base area $= 20^2 = 400\\text{ cm}^2$",
+              "Face height: $h^2 = 30^2 - 10^2 = 900 - 100 = 800$, so $h = \\sqrt{800} = 28.284...\\text{ cm}$",
+              "Area of one face $= \\frac{1}{2} \\times 20 \\times 28.284... = 282.842...\\text{ cm}^2$",
+              "$\\text{TSA} = 400 + 4 \\times 282.842... = 400 + 1131.370... = 1531.370...$",
+              "Rounded to 1 decimal place: $1531.4\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the surface area of the pyramid is $1531.4\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "The slant edge is the hypotenuse; half the base side and the face height are the other two sides."
+          }
+        },
+        {
+          "id": "ch6_ex3_q7a",
+          "number": "7(a)",
+          "category": "Practice",
+          "questionText": "Calculate the total surface area of the object shown: a prism of depth $10\\text{ cm}$ with an L-shaped (step) cross-section. The cross-section is $20\\text{ cm}$ long at the bottom; the left (tall) part is $8\\text{ cm}$ wide and $5 + 5 = 10\\text{ cm}$ high, and the right (low) part is $12\\text{ cm}$ long and $5\\text{ cm}$ high, with a $5\\text{ cm}$ vertical step between them.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA of a prism = 2 × (cross-section area) + (perimeter of cross-section) × depth",
+            "steps": [
+              "Given: L-shaped cross-section as described, depth $10\\text{ cm}$. Goal: the total surface area.",
+              "Cross-section area $= 8 \\times 10 + 12 \\times 5 = 80 + 60 = 140\\text{ cm}^2$",
+              "Two L-shaped ends $= 2 \\times 140 = 280\\text{ cm}^2$",
+              "Perimeter of the L $= 20 + 10 + 8 + 5 + 12 + 5 = 60\\text{ cm}$",
+              "Rectangular faces $= 60 \\times 10 = 600\\text{ cm}^2$",
+              "$\\text{TSA} = 280 + 600 = 880\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area of the object is $880\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "Walk around the cross-section's perimeter edge by edge so no face is missed."
+          }
+        },
+        {
+          "id": "ch6_ex3_q7b",
+          "number": "7(b)",
+          "category": "Practice",
+          "questionText": "Calculate the total surface area of the object shown, correct to 1 decimal place: a solid of length $35\\text{ cm}$ whose cross-section is a rectangle $12\\text{ cm}$ wide and $20\\text{ cm}$ high topped by a semicircle of diameter $12\\text{ cm}$ (like a letterbox shape).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA = 2 ends + base + 2 sides + curved half-cylinder; semicircle area $= \\frac{1}{2}\\pi r^2$; half-cylinder curved area $= \\pi rh$",
+            "steps": [
+              "Given: $r = 6\\text{ cm}$, rectangle $12 \\times 20$, length $35\\text{ cm}$. Goal: the total surface area.",
+              "One end $= 12 \\times 20 + \\frac{1}{2} \\times \\pi \\times 6^2 = 240 + 18\\pi$",
+              "Two ends $= 480 + 36\\pi$",
+              "Base $= 12 \\times 35 = 420\\text{ cm}^2$",
+              "Two flat sides $= 2 \\times 20 \\times 35 = 1400\\text{ cm}^2$",
+              "Curved top (half a cylinder) $= \\frac{1}{2} \\times 2\\pi \\times 6 \\times 35 = 210\\pi$",
+              "$\\text{TSA} = 480 + 420 + 1400 + 36\\pi + 210\\pi = 2300 + 246\\pi$",
+              "$\\text{TSA} = 2300 + 772.831... = 3072.831...$",
+              "Rounded to 1 decimal place: $3072.8\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area of the object is $3072.8\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "The curved top is half of a cylinder's curved surface: $\\pi rh$, not $2\\pi rh$."
+          }
+        },
+        {
+          "id": "ch6_ex3_q7c",
+          "number": "7(c)",
+          "category": "Practice",
+          "questionText": "Calculate the total surface area of the object shown: a cube with edge length $3\\text{ cm}$ with a square-based pyramid on top. The pyramid's base is the top face of the cube and each triangular face has a perpendicular height (slant height) of $5\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA = 5 exposed cube faces + 4 triangular faces; $A = l^2$, $A = \\frac{1}{2}bh$",
+            "steps": [
+              "Given: cube edge $3\\text{ cm}$; triangular faces with $b = 3\\text{ cm}$, $h = 5\\text{ cm}$. Goal: the total surface area.",
+              "The top face of the cube is covered, so 5 square faces show: $5 \\times 3^2 = 5 \\times 9 = 45\\text{ cm}^2$",
+              "One triangular face $= \\frac{1}{2} \\times 3 \\times 5 = 7.5\\text{ cm}^2$",
+              "Four triangular faces $= 4 \\times 7.5 = 30\\text{ cm}^2$",
+              "$\\text{TSA} = 45 + 30 = 75\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area of the object is $75\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "Faces that are joined together are hidden, so don't count the cube's top face or the pyramid's base."
+          }
+        },
+        {
+          "id": "ch6_ex3_q8a",
+          "number": "8(a)",
+          "category": "Master",
+          "questionText": "Calculate the total surface area of the object shown, correct to 1 decimal place: a cylinder of radius $2\\text{ cm}$ and length $3\\text{ cm}$ joined to a cone of the same radius whose perpendicular height is $2.5\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA = circular end + curved cylinder + curved cone; $\\pi r^2$, $2\\pi rh$, $\\pi rl$ with $l = \\sqrt{r^2 + h^2}$",
+            "steps": [
+              "Given: $r = 2\\text{ cm}$, cylinder length $3\\text{ cm}$, cone height $2.5\\text{ cm}$. Goal: the total surface area.",
+              "Cone slant height: $l = \\sqrt{2^2 + 2.5^2} = \\sqrt{4 + 6.25} = \\sqrt{10.25} = 3.201...\\text{ cm}$",
+              "Circular end $= \\pi \\times 2^2 = 4\\pi = 12.566...\\text{ cm}^2$",
+              "Curved cylinder $= 2 \\times \\pi \\times 2 \\times 3 = 12\\pi = 37.699...\\text{ cm}^2$",
+              "Curved cone $= \\pi \\times 2 \\times 3.201... = 20.116...\\text{ cm}^2$",
+              "$\\text{TSA} = 12.566... + 37.699... + 20.116... = 70.382...$",
+              "Rounded to 1 decimal place: $70.4\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area of the object is $70.4\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "The 2.5 cm is measured along the axis (height), so find the slant height with Pythagoras."
+          }
+        },
+        {
+          "id": "ch6_ex3_q8b",
+          "number": "8(b)",
+          "category": "Master",
+          "questionText": "Calculate the total surface area of the object shown, correct to 1 decimal place: a hemisphere of radius $3.5\\text{ cm}$ sitting on top of an inverted cone with the same radius and perpendicular height $10\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Hemisphere curved area $= 2\\pi r^2$; cone curved area $= \\pi rl$, $l = \\sqrt{r^2 + h^2}$",
+            "steps": [
+              "Given: $r = 3.5\\text{ cm}$, cone height $10\\text{ cm}$. Goal: the total surface area.",
+              "Slant height: $l = \\sqrt{3.5^2 + 10^2} = \\sqrt{12.25 + 100} = \\sqrt{112.25} = 10.594...\\text{ cm}$",
+              "Hemisphere $= 2 \\times \\pi \\times 3.5^2 = 24.5\\pi = 76.969...\\text{ cm}^2$",
+              "Cone $= \\pi \\times 3.5 \\times 10.594... = 116.495...\\text{ cm}^2$",
+              "$\\text{TSA} = 76.969... + 116.495... = 193.464...$",
+              "Rounded to 1 decimal place: $193.5\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area of the object is $193.5\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "A hemisphere's curved surface is half of $4\\pi r^2$, i.e. $2\\pi r^2$."
+          }
+        },
+        {
+          "id": "ch6_ex3_q8c",
+          "number": "8(c)",
+          "category": "Master",
+          "questionText": "Calculate the total surface area of the object shown, correct to 1 decimal place: a small cylinder of radius $5\\text{ cm}$ and height $20\\text{ cm}$ standing centred on top of a large cylinder of diameter $15\\text{ cm}$ and height $12\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cylinder parts: circle $\\pi r^2$, curved surface $2\\pi rh$",
+            "steps": [
+              "Given: small $r = 5$, $h = 20$; large $R = 7.5$, $H = 12$ (cm). Goal: the total exposed surface area.",
+              "Large cylinder bottom $= \\pi \\times 7.5^2 = 56.25\\pi$",
+              "Large cylinder curved surface $= 2 \\times \\pi \\times 7.5 \\times 12 = 180\\pi$",
+              "Large cylinder top (exposed ring) $= 56.25\\pi - \\pi \\times 5^2 = 56.25\\pi - 25\\pi = 31.25\\pi$",
+              "Small cylinder curved surface $= 2 \\times \\pi \\times 5 \\times 20 = 200\\pi$",
+              "Small cylinder top $= 25\\pi$",
+              "$\\text{TSA} = 56.25\\pi + 180\\pi + 31.25\\pi + 200\\pi + 25\\pi = 492.5\\pi$",
+              "$\\text{TSA} = 1547.234...$",
+              "Rounded to 1 decimal place: $1547.2\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area of the object is $1547.2\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "The ring plus the small top together equal one full large circle, so the top view area is unchanged."
+          }
+        },
+        {
+          "id": "ch6_ex3_q9",
+          "number": "9",
+          "category": "Consolidate",
+          "questionText": "MC A cube has a total surface area of $384\\text{ cm}^2$. Calculate the length of the edge of the cube.\nA. $9\\text{ cm}$  B. $8\\text{ cm}$  C. $7\\text{ cm}$  D. $6\\text{ cm}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA of a cube: $\\text{TSA} = 6l^2$",
+            "steps": [
+              "Given: $\\text{TSA} = 384\\text{ cm}^2$. Goal: the edge length $l$.",
+              "$6l^2 = 384$",
+              "$l^2 = \\frac{384}{6} = 64$",
+              "$l = \\sqrt{64} = 8\\text{ cm}$ (length is positive)"
+            ],
+            "finalAnswer": "Therefore the edge of the cube is $8\\text{ cm}$; the answer is B.",
+            "solutionFigures": [],
+            "tip": "Divide by 6 first, then take the square root."
+          }
+        },
+        {
+          "id": "ch6_ex3_q10a",
+          "number": "10(a)",
+          "category": "Practice",
+          "questionText": "The greenhouse shown is to be built using shade cloth. It has a wooden door of dimensions $1.2\\text{ m} \\times 0.5\\text{ m}$. The greenhouse is $5\\text{ m}$ long; its end is a rectangle $3\\text{ m}$ wide and $2.5\\text{ m}$ high topped by a semicircle of diameter $3\\text{ m}$. Calculate the total area of shade cloth needed to complete the greenhouse (no floor), correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area = 2 ends (rectangle + semicircle) $-$ door + 2 rectangular sides + half-cylinder roof",
+            "steps": [
+              "Given: width $3\\text{ m}$ ($r = 1.5\\text{ m}$), wall height $2.5\\text{ m}$, length $5\\text{ m}$, door $1.2 \\times 0.5$. Goal: area of shade cloth.",
+              "One end $= 3 \\times 2.5 + \\frac{1}{2}\\pi \\times 1.5^2 = 7.5 + 1.125\\pi = 11.034...\\text{ m}^2$",
+              "Two ends $= 2 \\times 11.034... = 22.068...\\text{ m}^2$",
+              "Subtract the door: $22.068... - 1.2 \\times 0.5 = 22.068... - 0.6 = 21.468...\\text{ m}^2$",
+              "Two sides $= 2 \\times 2.5 \\times 5 = 25\\text{ m}^2$",
+              "Curved roof (half cylinder) $= \\pi \\times 1.5 \\times 5 = 7.5\\pi = 23.561...\\text{ m}^2$",
+              "Total $= 21.468... + 25 + 23.561... = 70.030...$",
+              "Rounded to 1 decimal place: $70.0\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore $70.0\\text{ m}^2$ of shade cloth is needed.",
+            "solutionFigures": [],
+            "tip": "Remember to subtract the wooden door and not to include a floor."
+          }
+        },
+        {
+          "id": "ch6_ex3_q10b",
+          "number": "10(b)",
+          "category": "Practice",
+          "questionText": "The greenhouse needs $70.0\\text{ m}^2$ of shade cloth. Determine the cost of the shade cloth at $\\$6.50$ per $\\text{m}^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cost = area × price per $\\text{m}^2$",
+            "steps": [
+              "Given: area $70.0\\text{ m}^2$, price $\\$6.50$ per $\\text{m}^2$. Goal: the cost.",
+              "Cost $= 70.0 \\times 6.50$",
+              "Cost $= \\$455.00$",
+              "(Using the unrounded area $70.03\\text{ m}^2$ gives $\\$455.20$, which is still about $\\$455$.)"
+            ],
+            "finalAnswer": "Therefore the shade cloth costs about $\\$455$.",
+            "solutionFigures": [],
+            "tip": "Money answers are given to the nearest cent (or dollar if asked)."
+          }
+        },
+        {
+          "id": "ch6_ex3_q11a",
+          "number": "11(a)",
+          "category": "Consolidate",
+          "questionText": "A cylinder is joined to a hemisphere to make a cake holder, as shown. The cylinder has radius $15\\text{ cm}$ and height $10\\text{ cm}$, and the hemisphere (the lid) has the same radius. The surface of the cake holder is to be chromed at 5.5 cents per $\\text{cm}^2$. Calculate the total surface area to be chromed, correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA = cylinder base + cylinder curved surface + hemisphere: $\\pi r^2 + 2\\pi rh + 2\\pi r^2$",
+            "steps": [
+              "Given: $r = 15\\text{ cm}$, $h = 10\\text{ cm}$. Goal: the total surface area.",
+              "Base $= \\pi \\times 15^2 = 225\\pi$",
+              "Curved cylinder $= 2 \\times \\pi \\times 15 \\times 10 = 300\\pi$",
+              "Hemisphere $= 2 \\times \\pi \\times 15^2 = 450\\pi$",
+              "$\\text{TSA} = 225\\pi + 300\\pi + 450\\pi = 975\\pi$",
+              "$\\text{TSA} = 3063.052...$",
+              "Rounded to 1 decimal place: $3063.1\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area to be chromed is $3063.1\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "The top of the cylinder is covered by the hemisphere, so only one circle (the base) is counted."
+          }
+        },
+        {
+          "id": "ch6_ex3_q11b",
+          "number": "11(b)",
+          "category": "Consolidate",
+          "questionText": "The cake holder has a total surface area of $975\\pi \\approx 3063.05\\text{ cm}^2$. The surface is to be chromed at 5.5 cents per $\\text{cm}^2$. Determine the cost of chroming the cake holder.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cost = area × rate (convert cents to dollars: $5.5\\text{c} = \\$0.055$)",
+            "steps": [
+              "Given: area $3063.052...\\text{ cm}^2$, rate $\\$0.055$ per $\\text{cm}^2$. Goal: the cost.",
+              "Cost $= 3063.052... \\times 0.055$",
+              "Cost $= \\$168.467...$",
+              "To the nearest cent: $\\$168.47$"
+            ],
+            "finalAnswer": "Therefore chroming the cake holder costs $\\$168.47$.",
+            "solutionFigures": [],
+            "tip": "Convert cents to dollars by dividing by 100 before multiplying."
+          }
+        },
+        {
+          "id": "ch6_ex3_q12",
+          "number": "12",
+          "category": "Practice",
+          "questionText": "A steel girder is to be painted. Calculate the area of the surface to be painted. The girder is $120\\text{ cm}$ long with an I-shaped cross-section: top and bottom flanges are each $12\\text{ cm}$ wide and $2\\text{ cm}$ thick, joined by a vertical web $20\\text{ cm}$ high. The flanges overhang the web by $5\\text{ cm}$ on each side, so the web is $12 - 2 \\times 5 = 2\\text{ cm}$ thick.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA of a prism = 2 × (cross-section area) + (perimeter of cross-section) × length",
+            "steps": [
+              "Given: I-section as described, length $120\\text{ cm}$. Goal: the total surface area.",
+              "Cross-section area $= 2 \\times (12 \\times 2) + 20 \\times 2 = 48 + 40 = 88\\text{ cm}^2$",
+              "Two ends $= 2 \\times 88 = 176\\text{ cm}^2$",
+              "Perimeter: top and bottom faces $12 + 12 = 24$; flange edges $4 \\times 2 = 8$; flange undersides/tops beside the web $4 \\times 5 = 20$; web sides $2 \\times 20 = 40$",
+              "Perimeter $= 24 + 8 + 20 + 40 = 92\\text{ cm}$",
+              "Long faces $= 92 \\times 120 = 11\\,040\\text{ cm}^2$",
+              "$\\text{TSA} = 176 + 11\\,040 = 11\\,216\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area to be painted is $11\\,216\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "Go all the way around the I-shape's outline; there are 12 edges to add."
+          }
+        },
+        {
+          "id": "ch6_ex3_q13",
+          "number": "13",
+          "category": "Master",
+          "questionText": "Open cones are made from nets cut from a large sheet of paper $1.2\\text{ m} \\times 1.0\\text{ m}$. If a cone has a radius of $6\\text{ cm}$ and a slant height of $10\\text{ cm}$, determine how many cones can be made from the sheet. (Assume there is 5% wastage of paper.)",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Open cone surface area $= \\pi rl$; usable paper $= 95\\%$ of the sheet",
+            "steps": [
+              "Given: sheet $120\\text{ cm} \\times 100\\text{ cm}$; $r = 6\\text{ cm}$, $l = 10\\text{ cm}$; 5% wasted. Goal: number of cones.",
+              "Sheet area $= 120 \\times 100 = 12\\,000\\text{ cm}^2$",
+              "Usable area $= 0.95 \\times 12\\,000 = 11\\,400\\text{ cm}^2$",
+              "Area of one open cone $= \\pi \\times 6 \\times 10 = 60\\pi = 188.495...\\text{ cm}^2$",
+              "Number of cones $= \\frac{11\\,400}{188.495...} = 60.47...$",
+              "Only whole cones can be made, so round down to 60."
+            ],
+            "finalAnswer": "Therefore 60 cones can be made from the sheet.",
+            "solutionFigures": [],
+            "tip": "Round down here: you cannot make part of a cone from the leftover paper."
+          }
+        },
+        {
+          "id": "ch6_ex3_q14",
+          "number": "14",
+          "category": "Consolidate",
+          "questionText": "A prism of height $25\\text{ cm}$ has a base in the shape of a rhombus with diagonals of $12\\text{ cm}$ and $16\\text{ cm}$. Calculate the total surface area of the prism.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Rhombus area $= \\frac{1}{2}xy$; side by Pythagoras (diagonals bisect at right angles); TSA = 2 bases + perimeter × height",
+            "steps": [
+              "Given: diagonals $12\\text{ cm}$ and $16\\text{ cm}$; prism height $25\\text{ cm}$. Goal: the total surface area.",
+              "Base area $= \\frac{1}{2} \\times 12 \\times 16 = 96\\text{ cm}^2$",
+              "Two bases $= 2 \\times 96 = 192\\text{ cm}^2$",
+              "Half-diagonals are 6 and 8, so each side $= \\sqrt{6^2 + 8^2} = \\sqrt{36 + 64} = \\sqrt{100} = 10\\text{ cm}$",
+              "Perimeter of base $= 4 \\times 10 = 40\\text{ cm}$",
+              "Rectangular faces $= 40 \\times 25 = 1000\\text{ cm}^2$",
+              "$\\text{TSA} = 192 + 1000 = 1192\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area of the prism is $1192\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "The diagonals of a rhombus bisect each other at right angles, so use half of each diagonal in Pythagoras."
+          }
+        },
+        {
+          "id": "ch6_ex3_q15",
+          "number": "15",
+          "category": "Consolidate",
+          "questionText": "A hemispherical glass dome, with a diameter of $24\\text{ cm}$, sits on a concrete cube with sides of $50\\text{ cm}$. To protect the structure, all exposed sides are to be treated. The glass costs $\\$1.50/\\text{cm}^2$ to treat and the concrete costs $5\\text{c}/\\text{cm}^2$. Calculate the cost in treating the structure if the base of the cube is already fixed to the ground. Give your answer to the nearest dollar.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Hemisphere curved area $= 2\\pi r^2$; exposed concrete = 5 faces $-$ circle under the dome",
+            "steps": [
+              "Given: dome $r = 12\\text{ cm}$; cube side $50\\text{ cm}$; glass $\\$1.50$ per $\\text{cm}^2$; concrete $\\$0.05$ per $\\text{cm}^2$. Goal: total cost.",
+              "Glass area $= 2 \\times \\pi \\times 12^2 = 288\\pi = 904.778...\\text{ cm}^2$",
+              "Glass cost $= 904.778... \\times 1.50 = \\$1357.17$",
+              "Concrete: 4 sides + top (base is on the ground) $= 5 \\times 50^2 = 12\\,500\\text{ cm}^2$",
+              "Subtract the circle covered by the dome: $12\\,500 - \\pi \\times 12^2 = 12\\,500 - 452.389... = 12\\,047.610...\\text{ cm}^2$",
+              "Concrete cost $= 12\\,047.610... \\times 0.05 = \\$602.38$",
+              "Total $= 1357.17 + 602.38 = \\$1959.55$",
+              "To the nearest dollar: $\\$1960$"
+            ],
+            "finalAnswer": "Therefore treating the structure costs $\\$1960$ (to the nearest dollar).",
+            "solutionFigures": [],
+            "tip": "The part of the cube's top under the dome is not exposed, and the base on the ground is not treated."
+          }
+        },
+        {
+          "id": "ch6_ex3_q16a",
+          "number": "16(a)",
+          "category": "Master",
+          "questionText": "An inverted cone with side length 4 metres is placed on top of a sphere such that the centre of the cone's base is $0.5$ metres above the centre of the sphere. The radius of the sphere is $\\sqrt{2}$ metres. Calculate the exact total surface area of the sphere.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA of a sphere: $\\text{TSA} = 4\\pi r^2$",
+            "steps": [
+              "Given: $r = \\sqrt{2}\\text{ m}$. Goal: the exact surface area.",
+              "$\\text{TSA} = 4 \\times \\pi \\times (\\sqrt{2})^2$",
+              "$\\text{TSA} = 4 \\times \\pi \\times 2$",
+              "$\\text{TSA} = 8\\pi\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore the exact total surface area of the sphere is $8\\pi\\text{ m}^2$.",
+            "solutionFigures": [],
+            "tip": "$(\\sqrt{2})^2 = 2$ exactly; keep $\\pi$ in an exact answer."
+          }
+        },
+        {
+          "id": "ch6_ex3_q16b",
+          "number": "16(b)",
+          "category": "Master",
+          "questionText": "An inverted cone with side (slant) length 4 metres is placed on top of a sphere such that the centre of the cone's base is $0.5$ metres above the centre of the sphere. The radius of the sphere is $\\sqrt{2}$ metres, and the rim of the cone's base lies on the sphere. Calculate the radius of the cone exactly.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: (sphere radius)$^2$ = (distance between centres)$^2$ + (cone radius)$^2$",
+            "steps": [
+              "Given: sphere radius $\\sqrt{2}$, the cone's base circle is $0.5\\text{ m}$ above the sphere's centre. Goal: the cone's radius $r$.",
+              "A line from the sphere's centre to the rim of the cone's base has length $\\sqrt{2}$ (a radius of the sphere). It forms a right-angled triangle with the $0.5\\text{ m}$ vertical and the cone's radius $r$.",
+              "$r^2 + 0.5^2 = (\\sqrt{2})^2$",
+              "$r^2 + 0.25 = 2$",
+              "$r^2 = 1.75 = \\frac{7}{4}$",
+              "$r = \\sqrt{\\frac{7}{4}} = \\frac{\\sqrt{7}}{2}$"
+            ],
+            "finalAnswer": "Therefore the radius of the cone is exactly $\\frac{\\sqrt{7}}{2}\\text{ m}$.",
+            "solutionFigures": [],
+            "tip": "The rim of the cone touches the sphere, so the hypotenuse of the right triangle is the sphere's radius."
+          }
+        },
+        {
+          "id": "ch6_ex3_q16c",
+          "number": "16(c)",
+          "category": "Master",
+          "questionText": "An inverted cone with side (slant) length 4 metres sits on a sphere of radius $\\sqrt{2}$ metres; the radius of the cone is $\\frac{\\sqrt{7}}{2}$ metres. Calculate the area of the curved surface of the cone exactly.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Curved surface of a cone: $A = \\pi rl$",
+            "steps": [
+              "Given: $r = \\frac{\\sqrt{7}}{2}\\text{ m}$, slant height $l = 4\\text{ m}$. Goal: exact curved surface area.",
+              "$A = \\pi \\times \\frac{\\sqrt{7}}{2} \\times 4$",
+              "$A = 2\\sqrt{7}\\pi\\text{ m}^2$ (about $16.62\\text{ m}^2$)"
+            ],
+            "finalAnswer": "Therefore the curved surface area of the cone is exactly $2\\sqrt{7}\\pi\\text{ m}^2$.",
+            "solutionFigures": [],
+            "tip": "Use the cone's own radius from part (b), not the sphere's radius $\\sqrt{2}$."
+          }
+        },
+        {
+          "id": "ch6_ex3_q17a",
+          "number": "17(a)",
+          "category": "Practice",
+          "questionText": "A shower recess with dimensions $1500\\text{ mm}$ (back wall) by $900\\text{ mm}$ (side wall) needs to have the back and two side walls tiled to a height of $2\\text{ m}$. Calculate the area to be tiled in $\\text{m}^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a rectangle: $A = lw$; $1000\\text{ mm} = 1\\text{ m}$",
+            "steps": [
+              "Given: back wall $1.5\\text{ m}$ wide, two side walls $0.9\\text{ m}$ wide, height $2\\text{ m}$. Goal: tiled area in $\\text{m}^2$.",
+              "Convert: $1500\\text{ mm} = 1.5\\text{ m}$, $900\\text{ mm} = 0.9\\text{ m}$",
+              "Back wall $= 1.5 \\times 2 = 3\\text{ m}^2$",
+              "Two side walls $= 2 \\times 0.9 \\times 2 = 3.6\\text{ m}^2$",
+              "Total $= 3 + 3.6 = 6.6\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore the area to be tiled is $6.6\\text{ m}^2$.",
+            "solutionFigures": [],
+            "tip": "Convert mm to m first so the answer is in square metres."
+          }
+        },
+        {
+          "id": "ch6_ex3_q17b",
+          "number": "17(b)",
+          "category": "Practice",
+          "questionText": "A shower recess with dimensions $1500\\text{ mm}$ (back wall) by $900\\text{ mm}$ (side wall) needs to have the back and two side walls tiled to a height of $2\\text{ m}$. Justify that 180 tiles (including those that need to be cut) of dimension $20\\text{ cm}$ by $20\\text{ cm}$ will be required. Disregard the grout and assume that once a tile is cut, only one piece of the tile can be used.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Tiles per wall = (tiles across, rounded up) × (rows, rounded up)",
+            "steps": [
+              "Given: walls $150\\text{ cm}$ and $90\\text{ cm}$ wide, $200\\text{ cm}$ high; tiles $20\\text{ cm} \\times 20\\text{ cm}$. Goal: show 180 tiles.",
+              "Rows: $\\frac{200}{20} = 10$ rows on every wall.",
+              "Back wall across: $\\frac{150}{20} = 7.5$, so 8 tiles (one cut). Back wall $= 8 \\times 10 = 80$ tiles.",
+              "Side wall across: $\\frac{90}{20} = 4.5$, so 5 tiles (one cut). Each side wall $= 5 \\times 10 = 50$ tiles.",
+              "Total $= 80 + 50 + 50 = 180$ tiles"
+            ],
+            "finalAnswer": "Therefore 180 tiles are needed: 80 on the back wall and 50 on each side wall.",
+            "solutionFigures": [],
+            "tip": "Since only one piece of a cut tile can be used, round up on each wall separately rather than dividing total area."
+          }
+        },
+        {
+          "id": "ch6_ex3_q17c",
+          "number": "17(c)",
+          "category": "Practice",
+          "questionText": "The shower recess (back wall $1500\\text{ mm}$, side walls $900\\text{ mm}$, height $2\\text{ m}$; area $6.6\\text{ m}^2$) needs 180 tiles of $20\\text{ cm} \\times 20\\text{ cm}$. Evaluate the cheapest option of tiling: $\\$1.50$/tile or $\\$39.50$/box, where a box covers $1\\text{ m}^2$, or tiles of dimension $30\\text{ cm}$ by $30\\text{ cm}$ costing $\\$3.50$/tile.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cost = number of items × price; count tiles per wall, rounding up",
+            "steps": [
+              "Goal: compare the three options.",
+              "Option 1, 20 cm tiles individually: $180 \\times \\$1.50 = \\$270$",
+              "Option 2, 20 cm tiles by the box: area $6.6\\text{ m}^2$ needs 7 boxes, so $7 \\times \\$39.50 = \\$276.50$ (a box holds 25 tiles; if the 180 tiles are counted strictly, 8 boxes at $\\$316$ are needed, which is even dearer).",
+              "Option 3, 30 cm tiles: rows $= \\frac{200}{30} = 6.67 \\to 7$; back wall across $= \\frac{150}{30} = 5$; side walls across $= \\frac{90}{30} = 3$",
+              "Tiles $= 5 \\times 7 + 2 \\times (3 \\times 7) = 35 + 42 = 77$",
+              "Cost $= 77 \\times \\$3.50 = \\$269.50$",
+              "Compare: $\\$269.50 < \\$270 < \\$276.50$"
+            ],
+            "finalAnswer": "Therefore the cheapest option is the $30\\text{ cm} \\times 30\\text{ cm}$ tiles at $\\$269.50$ (20 cm tiles individually cost $\\$270$; by the box $\\$276.50$).",
+            "solutionFigures": [],
+            "tip": "Bigger tiles mean fewer cuts and fewer tiles, but always check the total cost rather than the price per tile."
+          }
+        },
+        {
+          "id": "ch6_ex3_q18",
+          "number": "18",
+          "category": "Consolidate",
+          "questionText": "The table shown below is to be varnished (including the base of each leg). The tabletop is $80\\text{ cm}$ by $60\\text{ cm}$, the total height of the table is $70\\text{ cm}$, the tabletop has a thickness of $180\\text{ mm}$ and the cross-sectional dimensions of the legs are $50\\text{ mm}$ by $50\\text{ mm}$. A friend completes the calculation without a calculator as shown:\nTabletop (inc. leg bases): $0.96$, from $2 \\times (0.8 \\times 0.6)$\nLegs: $0.416$, from $16 \\times (0.52 \\times 0.05)$\nTabletop edging: $0.504$, from $0.18 \\times (2(0.8 + 0.6))$\nTSA: $1.88\\text{ m}^2$\nAssume there are no simple calculating errors. Analyse the working presented and justify if the TSA calculated is correct.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA = sum of the areas of every exposed face (all in metres)",
+            "steps": [
+              "Given: top $0.8\\text{ m} \\times 0.6\\text{ m}$, thickness $0.18\\text{ m}$, height $0.7\\text{ m}$, legs $0.05\\text{ m} \\times 0.05\\text{ m}$. Goal: check each line of working.",
+              "Tabletop top and underside: $2 \\times 0.8 \\times 0.6 = 0.96\\text{ m}^2$. The leg tops cover 4 squares of the underside, but the 4 leg bases (same size) are also varnished, so these cancel. Correct.",
+              "Leg length $= 0.70 - 0.18 = 0.52\\text{ m}$. Each leg has 4 side faces of $0.52 \\times 0.05$, so 4 legs give $16$ faces: $16 \\times 0.52 \\times 0.05 = 0.416\\text{ m}^2$. Correct.",
+              "Edging: perimeter $= 2(0.8 + 0.6) = 2.8\\text{ m}$, times thickness $0.18\\text{ m}$: $0.18 \\times 2.8 = 0.504\\text{ m}^2$. Correct.",
+              "TSA $= 0.96 + 0.416 + 0.504 = 1.88\\text{ m}^2$. Correct."
+            ],
+            "finalAnswer": "Therefore the calculation is correct: the TSA to be varnished is $1.88\\text{ m}^2$.",
+            "solutionFigures": [],
+            "tip": "The legs are shorter than the table's height: subtract the tabletop thickness first."
+          }
+        },
+        {
+          "id": "ch6_ex3_q19a",
+          "number": "19(a)",
+          "category": "Master",
+          "questionText": "A soccer ball is made up of a number of hexagons sewn together on its surface. Each hexagon is a regular hexagon with side length $2\\text{ cm}$. In the diagram, $\\theta$ is an interior angle of the hexagon. Calculate $\\theta^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sum of interior angles of an $n$-sided polygon $= (n - 2) \\times 180^\\circ$",
+            "steps": [
+              "Given: a regular hexagon, $n = 6$. Goal: one interior angle $\\theta$.",
+              "Angle sum $= (6 - 2) \\times 180^\\circ = 720^\\circ$",
+              "$\\theta = \\frac{720^\\circ}{6} = 120^\\circ$"
+            ],
+            "finalAnswer": "Therefore $\\theta = 120^\\circ$.",
+            "solutionFigures": [],
+            "tip": "A regular polygon has all angles equal, so divide the angle sum by the number of angles."
+          }
+        },
+        {
+          "id": "ch6_ex3_q19b",
+          "number": "19(b)",
+          "category": "Master",
+          "questionText": "Each hexagon on a soccer ball is regular with side length $2\\text{ cm}$ and interior angles of $120^\\circ$. The hexagon is split by a horizontal line through its left and right vertices. From the left vertex, $x$ is the horizontal distance to the vertical line through the top-left vertex, and $y$ is the vertical height of the top-left vertex above the horizontal line. Calculate the values of $x$ and $y$ exactly.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Right-angled triangle with hypotenuse 2 and angle $60^\\circ$: $x = 2\\cos 60^\\circ$, $y = 2\\sin 60^\\circ$ (or Pythagoras)",
+            "steps": [
+              "Given: the slanted side (hypotenuse) is $2\\text{ cm}$. The horizontal line bisects the $120^\\circ$ angle at the left vertex, so the angle in the triangle there is $60^\\circ$. Goal: $x$ and $y$.",
+              "$x = 2\\cos 60^\\circ = 2 \\times \\frac{1}{2} = 1$",
+              "Pythagoras: $y^2 = 2^2 - 1^2 = 4 - 1 = 3$",
+              "$y = \\sqrt{3}$"
+            ],
+            "finalAnswer": "Therefore $x = 1\\text{ cm}$ and $y = \\sqrt{3}\\text{ cm}$.",
+            "solutionFigures": [],
+            "tip": "Exact values mean leaving the surd $\\sqrt{3}$ rather than writing 1.73."
+          }
+        },
+        {
+          "id": "ch6_ex3_q19c",
+          "number": "19(c)",
+          "category": "Master",
+          "questionText": "The top half of a regular hexagon of side $2\\text{ cm}$ is a trapezium with parallel sides $2\\text{ cm}$ (top) and $2 + 2x = 4\\text{ cm}$ (the horizontal diagonal), and height $y = \\sqrt{3}\\text{ cm}$. Calculate the area of the trapezium.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a trapezium: $A = \\frac{1}{2}(a+b)h$",
+            "steps": [
+              "Given: $a = 2$, $b = 1 + 2 + 1 = 4$, $h = \\sqrt{3}$ (cm). Goal: the area.",
+              "$A = \\frac{1}{2}(2 + 4) \\times \\sqrt{3}$",
+              "$A = \\frac{1}{2} \\times 6 \\times \\sqrt{3}$",
+              "$A = 3\\sqrt{3}\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the trapezium is $3\\sqrt{3}\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "The long parallel side is $x + 2 + x$, not just 2."
+          }
+        },
+        {
+          "id": "ch6_ex3_q19d",
+          "number": "19(d)",
+          "category": "Master",
+          "questionText": "A regular hexagon of side $2\\text{ cm}$ is made of two identical trapeziums, each of area $3\\sqrt{3}\\text{ cm}^2$. Hence, determine the area of the hexagon.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Hexagon = 2 identical trapeziums",
+            "steps": [
+              "Given: each trapezium has area $3\\sqrt{3}\\text{ cm}^2$. Goal: the hexagon's area.",
+              "$A = 2 \\times 3\\sqrt{3}$",
+              "$A = 6\\sqrt{3}\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the hexagon is $6\\sqrt{3}\\text{ cm}^2$ (about $10.39\\text{ cm}^2$).",
+            "solutionFigures": [],
+            "tip": "The horizontal line through the hexagon is a line of symmetry, so the two halves are equal."
+          }
+        },
+        {
+          "id": "ch6_ex3_q19e",
+          "number": "19(e)",
+          "category": "Master",
+          "questionText": "Each hexagon on a soccer ball has an area of $6\\sqrt{3}\\text{ cm}^2$. If the total surface area of the soccer ball is $192\\sqrt{3}\\text{ cm}^2$, determine how many hexagons are on its surface.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Number of hexagons = total area $\\div$ area of one hexagon",
+            "steps": [
+              "Given: total $192\\sqrt{3}\\text{ cm}^2$, one hexagon $6\\sqrt{3}\\text{ cm}^2$. Goal: number of hexagons.",
+              "Number $= \\frac{192\\sqrt{3}}{6\\sqrt{3}}$",
+              "The $\\sqrt{3}$ cancels: $\\frac{192}{6} = 32$"
+            ],
+            "finalAnswer": "Therefore there are 32 hexagons on the surface of the ball.",
+            "solutionFigures": [],
+            "tip": "Keep the surds exact so they cancel neatly."
+          }
+        },
+        {
+          "id": "ch6_ex3_q20",
+          "number": "20",
+          "category": "Practice",
+          "questionText": "Tina is re-covering a footstool in the shape of a cylinder with diameter $50\\text{ cm}$ and height $30\\text{ cm}$. She also intends to cover the base of the cushion. She has $1\\text{ m}^2$ of fabric to make this footstool. When calculating the area of fabric required, allow an extra 20% of the total surface area to cater for seams and pattern placings. Explain whether Tina has enough material to cover the footstool.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA of a cylinder: $\\text{TSA} = 2\\pi r^2 + 2\\pi rh$; fabric needed $= 1.2 \\times \\text{TSA}$",
+            "steps": [
+              "Given: $r = 25\\text{ cm}$, $h = 30\\text{ cm}$; top, side and base covered; 20% extra; $1\\text{ m}^2 = 10\\,000\\text{ cm}^2$ available. Goal: decide if there is enough fabric.",
+              "Top and base $= 2 \\times \\pi \\times 25^2 = 1250\\pi$",
+              "Side $= 2 \\times \\pi \\times 25 \\times 30 = 1500\\pi$",
+              "$\\text{TSA} = 1250\\pi + 1500\\pi = 2750\\pi = 8639.38\\text{ cm}^2$",
+              "Add 20%: $1.2 \\times 8639.38 = 10\\,367.26\\text{ cm}^2 \\approx 1.04\\text{ m}^2$",
+              "$1.04\\text{ m}^2 > 1\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore Tina needs about $1.04\\text{ m}^2$ of fabric, which is slightly more than the $1\\text{ m}^2$ she has; she is just short, although with very careful placing of the pattern pieces she may be able to manage.",
+            "solutionFigures": [],
+            "tip": "Convert $\\text{m}^2$ to $\\text{cm}^2$ by multiplying by $100^2 = 10\\,000$, not 100."
+          }
+        },
+        {
+          "id": "ch6_ex3_q21",
+          "number": "21",
+          "category": "Consolidate",
+          "questionText": "If the surface area of a sphere to that of a cylinder is in the ratio $4 : 3$ and the sphere has a radius of $3a$, show that if the radius of the cylinder is equal to its height, then the radius of the cylinder is $\\frac{3\\sqrt{3}a}{2}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\text{TSA}_{\\text{sphere}} = 4\\pi r^2$; $\\text{TSA}_{\\text{cylinder}} = 2\\pi r^2 + 2\\pi rh$",
+            "steps": [
+              "Given: sphere radius $3a$; $\\text{SA}_{\\text{sphere}} : \\text{SA}_{\\text{cylinder}} = 4 : 3$; cylinder has $h = r$. Goal: show $r = \\frac{3\\sqrt{3}a}{2}$.",
+              "Sphere: $\\text{SA} = 4\\pi(3a)^2 = 36\\pi a^2$",
+              "Cylinder with $h = r$: $\\text{SA} = 2\\pi r^2 + 2\\pi r \\times r = 4\\pi r^2$",
+              "Ratio: $\\frac{36\\pi a^2}{4\\pi r^2} = \\frac{4}{3}$",
+              "$\\frac{9a^2}{r^2} = \\frac{4}{3}$",
+              "$4r^2 = 27a^2$",
+              "$r^2 = \\frac{27a^2}{4}$",
+              "$r = \\frac{\\sqrt{27}\\,a}{2} = \\frac{3\\sqrt{3}a}{2}$ (taking the positive root)"
+            ],
+            "finalAnswer": "Therefore the radius of the cylinder is $\\frac{3\\sqrt{3}a}{2}$, as required.",
+            "solutionFigures": [],
+            "tip": "Simplify $\\sqrt{27} = \\sqrt{9 \\times 3} = 3\\sqrt{3}$."
+          }
+        },
+        {
+          "id": "ch6_ex3_q22a",
+          "number": "22(a)",
+          "category": "Master",
+          "questionText": "A frustum of a cone is a cone with the top sliced off. It has top radius $t$, base radius $r$ and slant side length $s$. When the curved side is 'opened up', it creates a shape ABYX: a large sector XVY with radius $x + s$ minus a small sector AVB with radius $x$, both with angle $\\theta$ at V. Arc AB has length $2\\pi t$ and arc XY has length $2\\pi r$. Write an expression for the arc length XY in terms of the angle $\\theta$. Write another expression for the arc length AB in terms of the same angle $\\theta$. Show that, in radians, $\\theta = \\frac{2\\pi(r - t)}{s}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Arc length (radians): $\\text{arc} = \\text{radius} \\times \\theta$",
+            "steps": [
+              "Goal: express both arcs in terms of $\\theta$ and derive $\\theta$.",
+              "Arc XY has radius $x + s$: $\\text{XY} = (x + s)\\theta$",
+              "Arc AB has radius $x$: $\\text{AB} = x\\theta$",
+              "But $\\text{XY} = 2\\pi r$ and $\\text{AB} = 2\\pi t$, so $(x + s)\\theta = 2\\pi r$ and $x\\theta = 2\\pi t$.",
+              "Subtract the second equation from the first: $(x + s)\\theta - x\\theta = 2\\pi r - 2\\pi t$",
+              "$s\\theta = 2\\pi(r - t)$",
+              "$\\theta = \\frac{2\\pi(r - t)}{s}$"
+            ],
+            "finalAnswer": "Therefore $\\text{XY} = (x + s)\\theta$, $\\text{AB} = x\\theta$, and $\\theta = \\frac{2\\pi(r - t)}{s}$ radians.",
+            "solutionFigures": [],
+            "tip": "The formula arc $= r\\theta$ only works when $\\theta$ is in radians."
+          }
+        },
+        {
+          "id": "ch6_ex3_q22bi",
+          "number": "22(b)(i)",
+          "category": "Master",
+          "questionText": "For the opened-up frustum (small sector radius $x$, slant side $s$, top radius $t$, base radius $r$), arc AB $= x\\theta = 2\\pi t$ and $\\theta = \\frac{2\\pi(r - t)}{s}$. Using the above formula for $\\theta$, show that $x = \\frac{st}{r - t}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$x\\theta = 2\\pi t$ with $\\theta = \\frac{2\\pi(r - t)}{s}$",
+            "steps": [
+              "Goal: show $x = \\frac{st}{r - t}$.",
+              "From $x\\theta = 2\\pi t$: $x = \\frac{2\\pi t}{\\theta}$",
+              "Substitute $\\theta$: $x = 2\\pi t \\div \\frac{2\\pi(r - t)}{s}$",
+              "$x = 2\\pi t \\times \\frac{s}{2\\pi(r - t)}$",
+              "$x = \\frac{st}{r - t}$"
+            ],
+            "finalAnswer": "Therefore $x = \\frac{st}{r - t}$, as required.",
+            "solutionFigures": [],
+            "tip": "Dividing by a fraction is the same as multiplying by its reciprocal."
+          }
+        },
+        {
+          "id": "ch6_ex3_q22bii",
+          "number": "22(b)(ii)",
+          "category": "Master",
+          "questionText": "A frustum has top radius $t$, base radius $r$ and slant side $s$. It is part of a full cone whose small removed top cone has slant height $x$. Use similar triangles to confirm the formula $x = \\frac{st}{r - t}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Similar triangles: corresponding sides are in the same ratio",
+            "steps": [
+              "Goal: confirm $x = \\frac{st}{r - t}$ using similar triangles.",
+              "Take a vertical cross-section through the apex. The small cone gives a right-angled triangle with slant $x$ and radius $t$; the full cone gives a similar triangle with slant $x + s$ and radius $r$.",
+              "Corresponding sides are in proportion: $\\frac{x}{t} = \\frac{x + s}{r}$",
+              "Cross-multiply: $xr = t(x + s) = tx + ts$",
+              "$xr - xt = st$",
+              "$x(r - t) = st$",
+              "$x = \\frac{st}{r - t}$"
+            ],
+            "finalAnswer": "Therefore similar triangles also give $x = \\frac{st}{r - t}$, confirming the formula.",
+            "solutionFigures": [],
+            "tip": "Match slant with slant and radius with radius when setting up the ratio."
+          }
+        },
+        {
+          "id": "ch6_ex3_q22c",
+          "number": "22(c)",
+          "category": "Master",
+          "questionText": "For the opened-up frustum (small sector AVB of radius $x$, large sector XVY of radius $x + s$, both with angle $\\theta$; frustum top radius $t$ and base radius $r$), determine the areas of sectors AVB and XVY and hence determine the area of ABYX. Add the areas of the 2 circles to the area of ABYX to determine the TSA of a frustum.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a sector (radians): $A = \\frac{1}{2}R^2\\theta$",
+            "steps": [
+              "Goal: the area of ABYX and the TSA of the frustum.",
+              "Area of sector AVB $= \\frac{1}{2}x^2\\theta$",
+              "Area of sector XVY $= \\frac{1}{2}(x + s)^2\\theta$",
+              "Area of ABYX $= \\frac{1}{2}(x + s)^2\\theta - \\frac{1}{2}x^2\\theta = \\frac{\\theta}{2}\\left[(x + s)^2 - x^2\\right]$",
+              "$= \\frac{\\theta}{2}(x^2 + 2xs + s^2 - x^2) = \\frac{\\theta}{2}(2xs + s^2) = \\frac{s\\theta(s + 2x)}{2}$",
+              "The two circular ends have areas $\\pi t^2$ and $\\pi r^2$.",
+              "$\\text{TSA} = \\pi(t^2 + r^2) + \\frac{s\\theta(s + 2x)}{2}$",
+              "(Using $s\\theta = 2\\pi(r - t)$ and $x = \\frac{st}{r - t}$, the curved part simplifies to $\\pi s(r + t)$, so $\\text{TSA} = \\pi(t^2 + r^2) + \\pi s(r + t)$.)"
+            ],
+            "finalAnswer": "Therefore sector AVB $= \\frac{x^2\\theta}{2}$, sector XVY $= \\frac{(s + x)^2\\theta}{2}$, ABYX $= \\frac{s\\theta(s + 2x)}{2}$, and $\\text{TSA}_{\\text{frustum}} = \\pi(t^2 + r^2) + \\frac{s\\theta(s + 2x)}{2}$ $\\left(= \\pi(t^2 + r^2) + \\pi s(r + t)\\right)$.",
+            "solutionFigures": [],
+            "tip": "Expand $(x + s)^2$ carefully: it is $x^2 + 2xs + s^2$, not $x^2 + s^2$."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,946 @@
+{
+  "chapterId": "ch06",
+  "chapterTitle": "Surface area and volume",
+  "topics": [
+    {
+      "topicId": "6.5",
+      "topicTitle": "Review questions",
+      "exercises": [
+        {
+          "id": "ch6_ex5_q1",
+          "number": "1",
+          "category": null,
+          "questionText": "MC If all measurements are in cm, the area of the figure is:\nThe figure is bounded by three semicircles along a straight line of length $7 + 3 = 10\\text{ cm}$: a large semicircle of diameter $10\\text{ cm}$ below the line, a medium semicircle of diameter $7\\text{ cm}$ (on the left part of the line) curving down inside it and removed, and a small semicircle of diameter $3\\text{ cm}$ (on the right part of the line) added above the line.\nA. $16.49\\text{ cm}^2$  B. $39.25\\text{ cm}^2$  C. $9.81\\text{ cm}^2$  D. $23.56\\text{ cm}^2$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a semicircle: $A = \\frac{1}{2}\\pi r^2$",
+            "steps": [
+              "Given: semicircles with radii $5$, $3.5$ and $1.5\\text{ cm}$. Goal: the area of the figure.",
+              "Large semicircle: $\\frac{1}{2}\\pi \\times 5^2 = 12.5\\pi$",
+              "Medium semicircle (removed): $\\frac{1}{2}\\pi \\times 3.5^2 = 6.125\\pi$",
+              "Small semicircle (added): $\\frac{1}{2}\\pi \\times 1.5^2 = 1.125\\pi$",
+              "$A = 12.5\\pi - 6.125\\pi + 1.125\\pi = 7.5\\pi$",
+              "$A = 23.56\\text{ cm}^2$ (2 d.p.), which is option D."
+            ],
+            "finalAnswer": "Therefore the area of the figure is $23.56\\text{ cm}^2$; the answer is D.",
+            "solutionFigures": [],
+            "tip": "Decide which semicircles are added and which are cut away before calculating."
+          }
+        },
+        {
+          "id": "ch6_ex5_q2",
+          "number": "2",
+          "category": null,
+          "questionText": "MC If all measurements are in centimetres, the area of the figure is:\nThe figure is a rectangle $6\\text{ cm}$ wide and $5 + 5 + 5 = 15\\text{ cm}$ tall. Its right-hand side is divided into three $5\\text{ cm}$ sections: semicircles of diameter $5\\text{ cm}$ are cut out of the top and bottom sections, and a semicircle of diameter $5\\text{ cm}$ is added outward on the middle section.\nA. $50.73\\text{ cm}^2$  B. $99.82\\text{ cm}^2$  C. $80.18\\text{ cm}^2$  D. $90\\text{ cm}^2$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area = rectangle $-$ 2 semicircles + 1 semicircle; $A_{\\text{semicircle}} = \\frac{1}{2}\\pi r^2$",
+            "steps": [
+              "Given: rectangle $6 \\times 15$; semicircles with $r = 2.5\\text{ cm}$. Goal: the area.",
+              "Rectangle $= 6 \\times 15 = 90\\text{ cm}^2$",
+              "One semicircle $= \\frac{1}{2}\\pi \\times 2.5^2 = 3.125\\pi = 9.817...\\text{ cm}^2$",
+              "Net effect: two removed, one added, so one semicircle is lost overall.",
+              "$A = 90 - 9.817... = 80.18\\text{ cm}^2$ (2 d.p.), which is option C."
+            ],
+            "finalAnswer": "Therefore the area of the figure is $80.18\\text{ cm}^2$; the answer is C.",
+            "solutionFigures": [],
+            "tip": "Identical pieces added and removed cancel, which can save calculation."
+          }
+        },
+        {
+          "id": "ch6_ex5_q3",
+          "number": "3",
+          "category": null,
+          "questionText": "MC If all measurements are in centimetres, the shaded area of the figure is:\nThe shaded figure is a ring with inner radius $2\\text{ cm}$ and outer radius $7\\text{ cm}$, with a $30^\\circ$ sector cut out.\nA. $3.93\\text{ cm}^2$  B. $11.52\\text{ cm}^2$  C. $388.77\\text{ cm}^2$  D. $129.59\\text{ cm}^2$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of an annular sector: $A = \\frac{\\theta}{360^\\circ} \\times \\pi(R^2 - r^2)$",
+            "steps": [
+              "Given: $r = 2$, $R = 7$, gap $30^\\circ$ so $\\theta = 330^\\circ$. Goal: the shaded area.",
+              "$A = \\frac{330^\\circ}{360^\\circ} \\times \\pi(7^2 - 2^2)$",
+              "$A = \\frac{11}{12} \\times 45\\pi = 41.25\\pi$",
+              "$A = 129.59\\text{ cm}^2$ (2 d.p.), which is option D."
+            ],
+            "finalAnswer": "Therefore the shaded area is $129.59\\text{ cm}^2$; the answer is D.",
+            "solutionFigures": [],
+            "tip": "Here the 7 is measured from the centre, so it is the outer radius."
+          }
+        },
+        {
+          "id": "ch6_ex5_q4",
+          "number": "4",
+          "category": null,
+          "questionText": "MC The total surface area of the solid is:\nThe solid is a hemisphere of radius $28\\text{ mm}$ on top of a cone with the same radius and slant height $40\\text{ mm}$.\nA. $8444.6\\text{ mm}^2$  B. $9221\\text{ mm}^2$  C. $14\\,146.5\\text{ mm}^2$  D. $50\\,271.1\\text{ mm}^2$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Hemisphere curved area $= 2\\pi r^2$; cone curved area $= \\pi rl$",
+            "steps": [
+              "Given: $r = 28\\text{ mm}$, $l = 40\\text{ mm}$. Goal: the total surface area.",
+              "Hemisphere: $2\\pi \\times 28^2 = 1568\\pi$",
+              "Cone: $\\pi \\times 28 \\times 40 = 1120\\pi$",
+              "$\\text{TSA} = 1568\\pi + 1120\\pi = 2688\\pi$",
+              "$\\text{TSA} = 8444.6\\text{ mm}^2$ (1 d.p.), which is option A."
+            ],
+            "finalAnswer": "Therefore the total surface area is $8444.6\\text{ mm}^2$; the answer is A.",
+            "solutionFigures": [],
+            "tip": "The flat circle where the two parts meet is inside the solid, so it is not counted."
+          }
+        },
+        {
+          "id": "ch6_ex5_q5a",
+          "number": "5(a)",
+          "category": null,
+          "questionText": "Calculate the area of the following plane figure (all measurements in cm): a triangle with base $12$ and perpendicular height $14$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a triangle: $A = \\frac{1}{2}bh$",
+            "steps": [
+              "Given: $b = 12$, $h = 14$. Goal: the area.",
+              "$A = \\frac{1}{2} \\times 12 \\times 14$",
+              "$A = 84\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the triangle is $84\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "Use the dashed perpendicular height, not a sloping side."
+          }
+        },
+        {
+          "id": "ch6_ex5_q5b",
+          "number": "5(b)",
+          "category": null,
+          "questionText": "Calculate the area of the following plane figure (all measurements in cm): a trapezium with parallel sides $10$ and $15$ and perpendicular height $8$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a trapezium: $A = \\frac{1}{2}(a+b)h$",
+            "steps": [
+              "Given: $a = 10$, $b = 15$, $h = 8$. Goal: the area.",
+              "$A = \\frac{1}{2}(10 + 15) \\times 8$",
+              "$A = \\frac{1}{2} \\times 25 \\times 8$",
+              "$A = 100\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the trapezium is $100\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "The arrows on the sides show which two sides are parallel."
+          }
+        },
+        {
+          "id": "ch6_ex5_q5c",
+          "number": "5(c)",
+          "category": null,
+          "questionText": "Calculate the area of the following plane figure (all measurements in cm), correct to 2 decimal places: a triangle with sides $3$, $7$ and $5$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Heron's formula: $A = \\sqrt{s(s-a)(s-b)(s-c)}$, $s = \\frac{a+b+c}{2}$",
+            "steps": [
+              "Given: $a = 3$, $b = 7$, $c = 5$. Goal: the area.",
+              "$s = \\frac{3 + 7 + 5}{2} = 7.5$",
+              "$A = \\sqrt{7.5 \\times 4.5 \\times 0.5 \\times 2.5}$",
+              "$A = \\sqrt{42.1875} = 6.495...$",
+              "Rounded to 2 decimal places: $6.50\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the triangle is $6.50\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "With only side lengths given, Heron's formula is the tool to use."
+          }
+        },
+        {
+          "id": "ch6_ex5_q6a",
+          "number": "6(a)",
+          "category": null,
+          "questionText": "Calculate the area of the following plane figure (all measurements in cm), correct to 2 decimal places: an ellipse with semi-major axis $6$ and semi-minor axis $3$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of an ellipse: $A = \\pi ab$",
+            "steps": [
+              "Given: $a = 6$, $b = 3$. Goal: the area.",
+              "$A = \\pi \\times 6 \\times 3 = 18\\pi$",
+              "$A = 56.548...$",
+              "Rounded to 2 decimal places: $56.55\\text{ cm}^2$ (using $\\pi = 3.14$ gives $56.52\\text{ cm}^2$)"
+            ],
+            "finalAnswer": "Therefore the area of the ellipse is $56.55\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "Use the calculator's $\\pi$ key for the most accurate answer."
+          }
+        },
+        {
+          "id": "ch6_ex5_q6b",
+          "number": "6(b)",
+          "category": null,
+          "questionText": "Calculate the area of the following plane figure (all measurements in cm): a rhombus with diagonals $10$ and $12$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a rhombus: $A = \\frac{1}{2}xy$",
+            "steps": [
+              "Given: diagonals $x = 10$, $y = 12$. Goal: the area.",
+              "$A = \\frac{1}{2} \\times 10 \\times 12$",
+              "$A = 60\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the rhombus is $60\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "The dashed lines are the diagonals, not sides."
+          }
+        },
+        {
+          "id": "ch6_ex5_q6c",
+          "number": "6(c)",
+          "category": null,
+          "questionText": "Calculate the area of the following plane figure (all measurements in cm), correct to 2 decimal places: a circle of radius $10$ with an $80^\\circ$ sector removed.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a sector: $A = \\frac{\\theta}{360^\\circ} \\times \\pi r^2$",
+            "steps": [
+              "Given: $r = 10$, gap $80^\\circ$, so $\\theta = 280^\\circ$. Goal: the area.",
+              "$A = \\frac{280^\\circ}{360^\\circ} \\times \\pi \\times 10^2$",
+              "$A = \\frac{7}{9} \\times 100\\pi = \\frac{700\\pi}{9}$",
+              "$A = 244.346...$",
+              "Rounded to 2 decimal places: $244.35\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the shape is $244.35\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "Subtract the missing angle from $360^\\circ$ first."
+          }
+        },
+        {
+          "id": "ch6_ex5_q7a",
+          "number": "7(a)",
+          "category": null,
+          "questionText": "Calculate the area of the following figure (all measurements in cm): a rectangle $20$ long and $15$ high with a semicircle of diameter $15$ cut out of its left end and an identical semicircle added to its right end.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area of a rectangle: $A = lw$ (the semicircles cancel)",
+            "steps": [
+              "Given: rectangle $20 \\times 15$; equal semicircles removed and added. Goal: the area.",
+              "The semicircle removed on the left equals the semicircle added on the right, so they cancel.",
+              "$A = 20 \\times 15 = 300\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the figure is $300\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "Look for pieces that can be moved to make a simple shape."
+          }
+        },
+        {
+          "id": "ch6_ex5_q7b",
+          "number": "7(b)",
+          "category": null,
+          "questionText": "Calculate the area of the following figure (all measurements in cm), correct to 2 decimal places: a rectangle $12$ wide and $10$ high, with a semicircle of diameter $12$ on top and a triangle of base $12$ and height $8$ below.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$A_{\\text{rect}} = lw$, $A_{\\text{semicircle}} = \\frac{1}{2}\\pi r^2$, $A_{\\triangle} = \\frac{1}{2}bh$",
+            "steps": [
+              "Given: rectangle $12 \\times 10$, semicircle $r = 6$, triangle $b = 12$, $h = 8$. Goal: the area.",
+              "Rectangle $= 12 \\times 10 = 120\\text{ cm}^2$",
+              "Semicircle $= \\frac{1}{2}\\pi \\times 6^2 = 18\\pi = 56.548...\\text{ cm}^2$",
+              "Triangle $= \\frac{1}{2} \\times 12 \\times 8 = 48\\text{ cm}^2$",
+              "$A = 120 + 56.548... + 48 = 224.548...$",
+              "Rounded to 2 decimal places: $224.55\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the figure is $224.55\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "The dashed 12 cm line is the diameter of the semicircle."
+          }
+        },
+        {
+          "id": "ch6_ex5_q7c",
+          "number": "7(c)",
+          "category": null,
+          "questionText": "Calculate the area of the following figure (all measurements in cm): a shape with a bottom edge of $20$ and a left edge of $10$. The top edge runs $10$ from the top-left corner, then a sloping edge goes down to the right to a point $5$ above the bottom, then a horizontal edge of $6$ runs to the right, and the right edge drops $5$ to the bottom.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area = rectangle $-$ removed rectangle $-$ removed triangle",
+            "steps": [
+              "Given: bounding rectangle $20 \\times 10$. Goal: the area.",
+              "Bounding rectangle $= 20 \\times 10 = 200\\text{ cm}^2$",
+              "Removed rectangle at top right: $6$ wide and $10 - 5 = 5$ high: $6 \\times 5 = 30\\text{ cm}^2$",
+              "Removed triangle under the slope: horizontal leg $20 - 10 - 6 = 4$, vertical leg $5$: $\\frac{1}{2} \\times 4 \\times 5 = 10\\text{ cm}^2$",
+              "$A = 200 - 30 - 10 = 160\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the figure is $160\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "Work out the missing lengths from the given ones before splitting the shape."
+          }
+        },
+        {
+          "id": "ch6_ex5_q8a",
+          "number": "8(a)",
+          "category": null,
+          "questionText": "Calculate the blue shaded area (all measurements in cm), correct to 2 decimal places: a circle with centre O and radius $QO = 15\\text{ cm}$. Triangle PQR is inscribed in the circle with base $PR = 18\\text{ cm}$; its height QS passes through O, with S on PR and $SO = 8\\text{ cm}$. The shaded region is the circle outside the triangle.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Shaded = circle $-$ triangle; $A = \\pi r^2$, $A = \\frac{1}{2}bh$",
+            "steps": [
+              "Given: $r = 15$, $PR = 18$, $QS = QO + OS = 15 + 8 = 23$. Goal: the shaded area.",
+              "Circle $= \\pi \\times 15^2 = 225\\pi = 706.858...\\text{ cm}^2$",
+              "Triangle $= \\frac{1}{2} \\times 18 \\times 23 = 207\\text{ cm}^2$",
+              "Shaded $= 706.858... - 207 = 499.858...$",
+              "Rounded to 2 decimal places: $499.86\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the shaded area is $499.86\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "The triangle's height runs from Q all the way to S, so add QO and OS."
+          }
+        },
+        {
+          "id": "ch6_ex5_q8b",
+          "number": "8(b)",
+          "category": null,
+          "questionText": "Calculate the blue shaded area (all measurements in cm), correct to 2 decimal places: a quarter circle of radius $12.5$ with the chord joining the ends of its arc drawn; the shaded region is the segment between the chord and the arc.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Segment = quarter circle $-$ right-angled triangle",
+            "steps": [
+              "Given: $r = 12.5$. Goal: the shaded segment area.",
+              "Quarter circle $= \\frac{1}{4}\\pi \\times 12.5^2 = 39.0625\\pi = 122.718...\\text{ cm}^2$",
+              "Triangle $= \\frac{1}{2} \\times 12.5 \\times 12.5 = 78.125\\text{ cm}^2$",
+              "Shaded $= 122.718... - 78.125 = 44.593...$",
+              "Rounded to 2 decimal places: $44.59\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the shaded area is $44.59\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "Both legs of the triangle are radii, so both equal 12.5."
+          }
+        },
+        {
+          "id": "ch6_ex5_q8c",
+          "number": "8(c)",
+          "category": null,
+          "questionText": "Calculate the blue shaded area (all measurements in cm), correct to 2 decimal places: six circles of radius $5$, arranged in 2 rows of 3, fit exactly inside a rectangle; the shaded region is the rectangle outside the circles.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Shaded = rectangle $-$ 6 circles",
+            "steps": [
+              "Given: $r = 5$, so each diameter is 10. Rectangle $= 3 \\times 10$ by $2 \\times 10$, i.e. $30 \\times 20$. Goal: shaded area.",
+              "Rectangle $= 30 \\times 20 = 600\\text{ cm}^2$",
+              "Six circles $= 6 \\times \\pi \\times 5^2 = 150\\pi = 471.238...\\text{ cm}^2$",
+              "Shaded $= 600 - 471.238... = 128.761...$",
+              "Rounded to 2 decimal places: $128.76\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the shaded area is $128.76\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "Find the rectangle's size from the number of diameters along each side."
+          }
+        },
+        {
+          "id": "ch6_ex5_q9a",
+          "number": "9(a)",
+          "category": null,
+          "questionText": "Calculate the total surface area of the solid, correct to 2 decimal places: a closed cylinder with radius $35\\text{ cm}$ and height $50\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA of a cylinder: $\\text{TSA} = 2\\pi r(r + h)$",
+            "steps": [
+              "Given: $r = 35\\text{ cm}$, $h = 50\\text{ cm}$. Goal: the TSA.",
+              "$\\text{TSA} = 2 \\times \\pi \\times 35 \\times (35 + 50)$",
+              "$\\text{TSA} = 2 \\times \\pi \\times 35 \\times 85 = 5950\\pi$",
+              "$\\text{TSA} = 18\\,692.476...$",
+              "Rounded to 2 decimal places: $18\\,692.48\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area is $18\\,692.48\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "Include both circular ends for a closed cylinder."
+          }
+        },
+        {
+          "id": "ch6_ex5_q9b",
+          "number": "9(b)",
+          "category": null,
+          "questionText": "Calculate the total surface area of the solid, correct to 2 decimal places: a cone with base radius $14\\text{ mm}$ and slant height $20\\text{ mm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA of a cone: $\\text{TSA} = \\pi r(r + l)$",
+            "steps": [
+              "Given: $r = 14\\text{ mm}$, $l = 20\\text{ mm}$. Goal: the TSA.",
+              "$\\text{TSA} = \\pi \\times 14 \\times (14 + 20) = 476\\pi$",
+              "$\\text{TSA} = 1495.398...$",
+              "Rounded to 2 decimal places: $1495.40\\text{ mm}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area is $1495.40\\text{ mm}^2$.",
+            "solutionFigures": [],
+            "tip": "The 20 mm is along the sloping side, so it is the slant height $l$."
+          }
+        },
+        {
+          "id": "ch6_ex5_q9c",
+          "number": "9(c)",
+          "category": null,
+          "questionText": "Calculate the total surface area of the solid, correct to 2 decimal places: a sphere with radius $8\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA of a sphere: $\\text{TSA} = 4\\pi r^2$",
+            "steps": [
+              "Given: $r = 8\\text{ cm}$. Goal: the TSA.",
+              "$\\text{TSA} = 4 \\times \\pi \\times 8^2 = 256\\pi$",
+              "$\\text{TSA} = 804.247...$",
+              "Rounded to 2 decimal places: $804.25\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area is $804.25\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "Surface area uses $r^2$; volume uses $r^3$."
+          }
+        },
+        {
+          "id": "ch6_ex5_q10a",
+          "number": "10(a)",
+          "category": null,
+          "questionText": "Calculate the total surface area of the solid, correct to 2 decimal places: a triangular prism of length $18\\text{ cm}$ whose triangular ends are isosceles with two equal sides of $14\\text{ cm}$ and a third side of $12\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA = 2 triangular ends + perimeter × length; triangle height by Pythagoras",
+            "steps": [
+              "Given: triangle sides $14$, $14$, $12$; length $18$. Goal: the TSA.",
+              "Height of triangle onto the 12 cm side: $h = \\sqrt{14^2 - 6^2} = \\sqrt{196 - 36} = \\sqrt{160} = 12.649...\\text{ cm}$",
+              "One end $= \\frac{1}{2} \\times 12 \\times 12.649... = 75.894...\\text{ cm}^2$",
+              "Two ends $= 151.789...\\text{ cm}^2$",
+              "Rectangular faces $= (14 + 14 + 12) \\times 18 = 40 \\times 18 = 720\\text{ cm}^2$",
+              "$\\text{TSA} = 151.789... + 720 = 871.789...$",
+              "Rounded to 2 decimal places: $871.79\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area is $871.79\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "In an isosceles triangle the height bisects the unequal side, so use half of 12 in Pythagoras."
+          }
+        },
+        {
+          "id": "ch6_ex5_q10b",
+          "number": "10(b)",
+          "category": null,
+          "questionText": "Calculate the total surface area of the solid, correct to 2 decimal places: a cylinder of diameter $14\\text{ mm}$ and length $10\\text{ mm}$ with a smaller cylinder of diameter $4\\text{ mm}$ and length $10\\text{ mm}$ attached centrally to one end [closed at both ends].",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cylinder parts: circle $\\pi r^2$, curved surface $2\\pi rh$",
+            "steps": [
+              "Given: large $R = 7$, length 10; small $r = 2$, length 10 (mm). Goal: the exposed surface area.",
+              "Large cylinder: two ends $2\\pi \\times 7^2 = 98\\pi$, curved $2\\pi \\times 7 \\times 10 = 140\\pi$",
+              "The small cylinder covers $\\pi \\times 2^2 = 4\\pi$ of one large end, but its own far end ($4\\pi$) is exposed, so these cancel.",
+              "Small cylinder curved surface $= 2\\pi \\times 2 \\times 10 = 40\\pi$",
+              "$\\text{TSA} = 98\\pi + 140\\pi + 40\\pi = 278\\pi$",
+              "$\\text{TSA} = 873.362...$",
+              "Rounded to 2 decimal places: $873.36\\text{ mm}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area is $873.36\\text{ mm}^2$.",
+            "solutionFigures": [],
+            "tip": "The covered circle and the small cylinder's end have the same area, so they cancel."
+          }
+        },
+        {
+          "id": "ch6_ex5_q10c",
+          "number": "10(c)",
+          "category": null,
+          "questionText": "Calculate the total surface area of the solid: a cube of edge $10\\text{ cm}$ with a square-based pyramid of perpendicular height $12\\text{ cm}$ on top (the pyramid's base is the top face of the cube).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA = 5 cube faces + 4 triangles; slant height by Pythagoras",
+            "steps": [
+              "Given: edge $10\\text{ cm}$, pyramid height $12\\text{ cm}$. Goal: the TSA.",
+              "Slant height of each face: $l = \\sqrt{12^2 + 5^2} = \\sqrt{144 + 25} = \\sqrt{169} = 13\\text{ cm}$",
+              "Five cube faces $= 5 \\times 10^2 = 500\\text{ cm}^2$",
+              "Four triangles $= 4 \\times \\frac{1}{2} \\times 10 \\times 13 = 260\\text{ cm}^2$",
+              "$\\text{TSA} = 500 + 260 = 760\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area is $760\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "The slant height uses half the base edge (5 cm) and the vertical height (12 cm)."
+          }
+        },
+        {
+          "id": "ch6_ex5_q11a",
+          "number": "11(a)",
+          "category": null,
+          "questionText": "Calculate the volume of a cube with edge length $7\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a cube: $V = l^3$",
+            "steps": [
+              "Given: $l = 7\\text{ cm}$. Goal: the volume.",
+              "$V = 7^3 = 343\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the cube is $343\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "$7 \\times 7 = 49$, then $49 \\times 7 = 343$."
+          }
+        },
+        {
+          "id": "ch6_ex5_q11b",
+          "number": "11(b)",
+          "category": null,
+          "questionText": "Calculate the volume of a rectangular prism $12\\text{ cm}$ long, $8\\text{ cm}$ wide and $7\\text{ cm}$ high.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a rectangular prism: $V = lwh$",
+            "steps": [
+              "Given: $l = 12$, $w = 8$, $h = 7$ (cm). Goal: the volume.",
+              "$V = 12 \\times 8 \\times 7$",
+              "$V = 96 \\times 7 = 672\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the prism is $672\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "Multiply all three dimensions."
+          }
+        },
+        {
+          "id": "ch6_ex5_q11c",
+          "number": "11(c)",
+          "category": null,
+          "questionText": "Calculate the volume, correct to 2 decimal places, of a cylinder with radius $35\\text{ cm}$ and height $40\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a cylinder: $V = \\pi r^2 h$",
+            "steps": [
+              "Given: $r = 35\\text{ cm}$, $h = 40\\text{ cm}$. Goal: the volume.",
+              "$V = \\pi \\times 35^2 \\times 40 = \\pi \\times 1225 \\times 40 = 49\\,000\\pi$",
+              "$V = 153\\,938.040...$",
+              "Rounded to 2 decimal places: $153\\,938.04\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the cylinder is $153\\,938.04\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "Square the radius before multiplying by the height."
+          }
+        },
+        {
+          "id": "ch6_ex5_q12a",
+          "number": "12(a)",
+          "category": null,
+          "questionText": "Determine the volume, correct to 2 decimal places, of a half-cylinder with diameter $1\\text{ m}$ and length $3.7\\text{ m}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a half-cylinder: $V = \\frac{1}{2}\\pi r^2 h$",
+            "steps": [
+              "Given: $r = 0.5\\text{ m}$, $h = 3.7\\text{ m}$. Goal: the volume.",
+              "$V = \\frac{1}{2} \\times \\pi \\times 0.5^2 \\times 3.7$",
+              "$V = \\frac{1}{2} \\times \\pi \\times 0.25 \\times 3.7 = 0.4625\\pi$",
+              "$V = 1.452...$",
+              "Rounded to 2 decimal places: $1.45\\text{ m}^3$"
+            ],
+            "finalAnswer": "Therefore the volume is $1.45\\text{ m}^3$.",
+            "solutionFigures": [],
+            "tip": "The cross-section is a semicircle, so halve the cylinder volume."
+          }
+        },
+        {
+          "id": "ch6_ex5_q12b",
+          "number": "12(b)",
+          "category": null,
+          "questionText": "Determine the volume of a triangular prism whose triangular cross-section has base $12\\text{ cm}$ and perpendicular height $10\\text{ cm}$, and whose length is $30\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a triangular prism: $V = \\frac{1}{2}bh \\times H$",
+            "steps": [
+              "Given: $b = 12$, $h = 10$, $H = 30$ (cm). Goal: the volume.",
+              "$V = \\frac{1}{2} \\times 12 \\times 10 \\times 30$",
+              "$V = 60 \\times 30 = 1800\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the prism is $1800\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "Find the triangle's area first, then multiply by the length."
+          }
+        },
+        {
+          "id": "ch6_ex5_q12c",
+          "number": "12(c)",
+          "category": null,
+          "questionText": "Determine the volume, correct to 2 decimal places, of a cone with base radius $10\\text{ cm}$ and perpendicular height $12\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a cone: $V = \\frac{1}{3}\\pi r^2 h$",
+            "steps": [
+              "Given: $r = 10$, $h = 12$ (cm). Goal: the volume.",
+              "$V = \\frac{1}{3} \\times \\pi \\times 10^2 \\times 12 = 400\\pi$",
+              "$V = 1256.637...$",
+              "Rounded to 2 decimal places: $1256.64\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the cone is $1256.64\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "Don't forget the $\\frac{1}{3}$ for a cone."
+          }
+        },
+        {
+          "id": "ch6_ex5_q13a",
+          "number": "13(a)",
+          "category": null,
+          "questionText": "Determine the volume of a square-based pyramid with base side $9\\text{ cm}$ and perpendicular height $11\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a pyramid: $V = \\frac{1}{3}AH$",
+            "steps": [
+              "Given: base $9 \\times 9 = 81\\text{ cm}^2$, $H = 11\\text{ cm}$. Goal: the volume.",
+              "$V = \\frac{1}{3} \\times 81 \\times 11$",
+              "$V = 27 \\times 11 = 297\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the pyramid is $297\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "The 11 cm is the vertical (dashed) height, so it can be used directly."
+          }
+        },
+        {
+          "id": "ch6_ex5_q13b",
+          "number": "13(b)",
+          "category": null,
+          "questionText": "Determine the volume of a rectangular-based pyramid with base $42\\text{ cm}$ by $20\\text{ cm}$ and perpendicular height $30\\text{ cm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a pyramid: $V = \\frac{1}{3}AH$",
+            "steps": [
+              "Given: base $42 \\times 20 = 840\\text{ cm}^2$, $H = 30\\text{ cm}$. Goal: the volume.",
+              "$V = \\frac{1}{3} \\times 840 \\times 30$",
+              "$V = 840 \\times 10 = 8400\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the pyramid is $8400\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "$\\frac{1}{3}$ of 30 is 10, which makes the multiplication easy."
+          }
+        },
+        {
+          "id": "ch6_ex5_q13c",
+          "number": "13(c)",
+          "category": null,
+          "questionText": "Determine the volume, correct to 2 decimal places, of a sphere with radius $12\\text{ mm}$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a sphere: $V = \\frac{4}{3}\\pi r^3$",
+            "steps": [
+              "Given: $r = 12\\text{ mm}$. Goal: the volume.",
+              "$V = \\frac{4}{3} \\times \\pi \\times 12^3 = \\frac{4}{3} \\times 1728\\pi = 2304\\pi$",
+              "$V = 7238.229...$",
+              "Rounded to 2 decimal places: $7238.23\\text{ mm}^3$"
+            ],
+            "finalAnswer": "Therefore the volume of the sphere is $7238.23\\text{ mm}^3$.",
+            "solutionFigures": [],
+            "tip": "Cube the radius: $12^3 = 1728$."
+          }
+        },
+        {
+          "id": "ch6_ex5_q14a",
+          "number": "14(a)",
+          "category": null,
+          "questionText": "A rectangular block of land $4\\text{ m} \\times 25\\text{ m}$ is surrounded by a concrete path $1\\text{ m}$ wide. Calculate the area of the path.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Path area = outer rectangle $-$ inner rectangle",
+            "steps": [
+              "Given: block $4 \\times 25$, path 1 m wide. Goal: path area.",
+              "Outer rectangle: $(4 + 2) \\times (25 + 2) = 6 \\times 27 = 162\\text{ m}^2$",
+              "Inner rectangle: $4 \\times 25 = 100\\text{ m}^2$",
+              "Path $= 162 - 100 = 62\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore the area of the path is $62\\text{ m}^2$.",
+            "solutionFigures": [],
+            "tip": "Add the path width to both sides of each dimension."
+          }
+        },
+        {
+          "id": "ch6_ex5_q14b",
+          "number": "14(b)",
+          "category": null,
+          "questionText": "A concrete path around a block of land has an area of $62\\text{ m}^2$. Determine the cost of concreting at $\\$45$ per square metre.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cost = area × rate",
+            "steps": [
+              "Given: area $62\\text{ m}^2$, rate $\\$45$ per $\\text{m}^2$. Goal: the cost.",
+              "Cost $= 62 \\times 45 = \\$2790$"
+            ],
+            "finalAnswer": "Therefore the cost of concreting is $\\$2790$.",
+            "solutionFigures": [],
+            "tip": "Check units: $\\text{m}^2 \\times \\$/\\text{m}^2$ gives dollars."
+          }
+        },
+        {
+          "id": "ch6_ex5_q15",
+          "number": "15",
+          "category": null,
+          "questionText": "If the radius is tripled and the height of a cylinder is divided by six, then determine the effect on its volume (in comparison with the original shape).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a cylinder: $V = \\pi r^2 h$",
+            "steps": [
+              "Given: new radius $3r$, new height $\\frac{h}{6}$. Goal: compare volumes.",
+              "$V_{\\text{new}} = \\pi(3r)^2 \\times \\frac{h}{6}$",
+              "$V_{\\text{new}} = \\pi \\times 9r^2 \\times \\frac{h}{6} = \\frac{9}{6}\\pi r^2 h = \\frac{3}{2}\\pi r^2 h$",
+              "$V_{\\text{new}} = 1.5V$"
+            ],
+            "finalAnswer": "Therefore $V_{\\text{new}} = \\frac{3}{2}\\pi r^2 h$: the volume will be 1.5 times as large as the original volume.",
+            "solutionFigures": [],
+            "tip": "Tripling the radius multiplies the volume by $3^2 = 9$."
+          }
+        },
+        {
+          "id": "ch6_ex5_q16",
+          "number": "16",
+          "category": null,
+          "questionText": "If the length is halved, the width is tripled and the height of a rectangular prism is doubled, then determine the effect on its volume (in comparison with the original shape).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Volume of a rectangular prism: $V = lwh$",
+            "steps": [
+              "Given: new dimensions $\\frac{l}{2}$, $3w$, $2h$. Goal: compare volumes.",
+              "$V_{\\text{new}} = \\frac{l}{2} \\times 3w \\times 2h$",
+              "$V_{\\text{new}} = \\left(\\frac{1}{2} \\times 3 \\times 2\\right)lwh = 3lwh$",
+              "$V_{\\text{new}} = 3V$"
+            ],
+            "finalAnswer": "Therefore $V_{\\text{new}} = 3lwh$: the volume will be 3 times as large as (triple) the original volume.",
+            "solutionFigures": [],
+            "tip": "Multiply the three scale factors together."
+          }
+        },
+        {
+          "id": "ch6_ex5_q17a",
+          "number": "17(a)",
+          "category": null,
+          "questionText": "A cylinder of radius $14\\text{ cm}$ and height $20\\text{ cm}$ is joined to a hemisphere of radius $14\\text{ cm}$ to form a bread holder. Calculate the total surface area, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "TSA = circular base + cylinder curved surface + hemisphere: $\\pi r^2 + 2\\pi rh + 2\\pi r^2$",
+            "steps": [
+              "Given: $r = 14\\text{ cm}$, $h = 20\\text{ cm}$. Goal: the TSA.",
+              "Circular end $= \\pi \\times 14^2 = 196\\pi$",
+              "Cylinder curved surface $= 2\\pi \\times 14 \\times 20 = 560\\pi$",
+              "Hemisphere $= 2\\pi \\times 14^2 = 392\\pi$",
+              "$\\text{TSA} = 196\\pi + 560\\pi + 392\\pi = 1148\\pi$",
+              "$\\text{TSA} = 3606.548...$",
+              "Rounded to 2 decimal places: $3606.55\\text{ cm}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area is $3606.55\\text{ cm}^2$.",
+            "solutionFigures": [],
+            "tip": "The joined faces are hidden, so only one flat circle is counted."
+          }
+        },
+        {
+          "id": "ch6_ex5_q17b",
+          "number": "17(b)",
+          "category": null,
+          "questionText": "The bread holder (cylinder radius $14\\text{ cm}$, height $20\\text{ cm}$, joined to a hemisphere of radius $14\\text{ cm}$) has a total surface area of $1148\\pi \\approx 3606.55\\text{ cm}^2$. Determine the cost of chroming the bread holder on the outside at $\\$0.05$ per $\\text{cm}^2$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cost = area × rate",
+            "steps": [
+              "Given: area $3606.548...\\text{ cm}^2$, rate $\\$0.05$ per $\\text{cm}^2$. Goal: the cost.",
+              "Cost $= 3606.548... \\times 0.05 = \\$180.327...$",
+              "To the nearest cent: $\\$180.33$"
+            ],
+            "finalAnswer": "Therefore chroming the bread holder costs $\\$180.33$.",
+            "solutionFigures": [],
+            "tip": "Round money to the nearest cent at the end."
+          }
+        },
+        {
+          "id": "ch6_ex5_q17c",
+          "number": "17(c)",
+          "category": null,
+          "questionText": "A cylinder of radius $14\\text{ cm}$ and height $20\\text{ cm}$ is joined to a hemisphere of radius $14\\text{ cm}$ to form a bread holder. Calculate the storage volume of the bread holder, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$V_{\\text{cylinder}} = \\pi r^2 h$; $V_{\\text{hemisphere}} = \\frac{2}{3}\\pi r^3$",
+            "steps": [
+              "Given: $r = 14\\text{ cm}$, $h = 20\\text{ cm}$. Goal: the volume.",
+              "Cylinder $= \\pi \\times 14^2 \\times 20 = 3920\\pi$",
+              "Hemisphere $= \\frac{2}{3}\\pi \\times 14^3 = \\frac{2}{3} \\times 2744\\pi = \\frac{5488\\pi}{3}$",
+              "$V = 3920\\pi + \\frac{5488\\pi}{3} = \\frac{17\\,248\\pi}{3}$",
+              "$V = 18\\,062.063...$",
+              "Rounded to 2 decimal places: $18\\,062.06\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the storage volume is $18\\,062.06\\text{ cm}^3$.",
+            "solutionFigures": [],
+            "tip": "Use a common denominator to add the two $\\pi$ terms exactly."
+          }
+        },
+        {
+          "id": "ch6_ex5_q17d",
+          "number": "17(d)",
+          "category": null,
+          "questionText": "The new bread holder has a storage volume of $\\frac{17\\,248\\pi}{3} \\approx 18\\,062.06\\text{ cm}^3$. Determine how much more space is in this new bread holder than the one it is replacing, which had a quarter circle end with a radius of $18\\text{ cm}$ and a length of $35\\text{ cm}$. Give your answer correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Prism volume $V = AH$ with quarter-circle area $A = \\frac{1}{4}\\pi r^2$",
+            "steps": [
+              "Given: old holder quarter-circle end $r = 18\\text{ cm}$, length $35\\text{ cm}$. Goal: the extra space.",
+              "Old volume $= \\frac{1}{4}\\pi \\times 18^2 \\times 35 = \\frac{1}{4} \\times 324 \\times 35\\pi = 2835\\pi = 8906.415...\\text{ cm}^3$",
+              "Extra $= 18\\,062.063... - 8906.415... = 9155.648...$",
+              "Rounded to 2 decimal places: $9155.65\\text{ cm}^3$"
+            ],
+            "finalAnswer": "Therefore the new bread holder has $9155.65\\text{ cm}^3$ more space.",
+            "solutionFigures": [],
+            "tip": "The old holder is a prism with a quarter-circle cross-section."
+          }
+        },
+        {
+          "id": "ch6_ex5_q18a",
+          "number": "18(a)",
+          "category": null,
+          "questionText": "Bella Silos has two rows of silos for storing wheat. Each row has 16 silos and all the silos are identical, with a cylindrical base (height of $5\\text{ m}$, diameter of $1.5\\text{ m}$) and conical top (diameter of $1.5\\text{ m}$, height of $1.1\\text{ m}$). Calculate the slant height of the conical tops, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Pythagoras' theorem: $l = \\sqrt{r^2 + h^2}$",
+            "steps": [
+              "Given: cone $r = 0.75\\text{ m}$, $h = 1.1\\text{ m}$. Goal: slant height $l$.",
+              "$l = \\sqrt{0.75^2 + 1.1^2}$",
+              "$l = \\sqrt{0.5625 + 1.21} = \\sqrt{1.7725}$",
+              "$l = 1.331...$",
+              "Rounded to 2 decimal places: $l \\approx 1.33\\text{ m}$"
+            ],
+            "finalAnswer": "Therefore the slant height of each conical top is $1.33\\text{ m}$.",
+            "solutionFigures": [],
+            "tip": "Use the radius (half the diameter) in Pythagoras."
+          }
+        },
+        {
+          "id": "ch6_ex5_q18b",
+          "number": "18(b)",
+          "category": null,
+          "questionText": "Bella Silos has 32 identical silos (2 rows of 16), each with a cylindrical base (height $5\\text{ m}$, diameter $1.5\\text{ m}$) and a conical top (diameter $1.5\\text{ m}$, height $1.1\\text{ m}$, slant height $\\approx 1.3314\\text{ m}$). Determine the total surface area of all the silos, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Each silo: base circle $\\pi r^2$ + cylinder curved $2\\pi rh$ + cone curved $\\pi rl$",
+            "steps": [
+              "Given: $r = 0.75\\text{ m}$, $h = 5\\text{ m}$, $l = 1.3314...\\text{ m}$, 32 silos. Goal: total surface area.",
+              "Base $= \\pi \\times 0.75^2 = 0.5625\\pi = 1.767...\\text{ m}^2$",
+              "Cylinder curved $= 2\\pi \\times 0.75 \\times 5 = 7.5\\pi = 23.562...\\text{ m}^2$",
+              "Cone curved $= \\pi \\times 0.75 \\times 1.3314... = 3.137...\\text{ m}^2$",
+              "One silo $= 1.767... + 23.562... + 3.137... = 28.466...\\text{ m}^2$",
+              "32 silos $= 32 \\times 28.466... = 910.912...$",
+              "Rounded to 2 decimal places: $910.91\\text{ m}^2$"
+            ],
+            "finalAnswer": "Therefore the total surface area of all the silos is $910.91\\text{ m}^2$ (including their bases).",
+            "solutionFigures": [],
+            "tip": "Multiply the area of one silo by the number of silos ($2 \\times 16 = 32$)."
+          }
+        },
+        {
+          "id": "ch6_ex5_q18c",
+          "number": "18(c)",
+          "category": null,
+          "questionText": "Bella Silos has 32 identical silos, each with a cylindrical base (height $5\\text{ m}$, radius $0.75\\text{ m}$) and a conical top (radius $0.75\\text{ m}$, slant height $\\approx 1.3314\\text{ m}$). Evaluate the cost of painting the silos if one litre of paint covers $40\\text{ m}^2$ at a bulk order price of $\\$28.95$ per litre.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Litres = painted area $\\div 40$; cost = litres × $\\$28.95$",
+            "steps": [
+              "Given: the bases sit on the ground and are not painted. Goal: cost of paint.",
+              "Painted area per silo $= 7.5\\pi + 0.75\\pi \\times 1.3314... = 23.562... + 3.137... = 26.699...\\text{ m}^2$",
+              "Painted area for 32 silos $= 32 \\times 26.699... = 854.36\\text{ m}^2$",
+              "Litres $= \\frac{854.36}{40} = 21.36\\text{ L}$",
+              "Cost $= 21.36 \\times \\$28.95 = \\$618.35$",
+              "If only whole litres can be bought: 22 L, costing $22 \\times \\$28.95 = \\$636.90$"
+            ],
+            "finalAnswer": "Therefore painting the silos costs $\\$618.35$, or $\\$636.90$ if you have to buy 22 full litres.",
+            "solutionFigures": [],
+            "tip": "The base of each silo sits on the ground, so it is not painted."
+          }
+        },
+        {
+          "id": "ch6_ex5_q18d",
+          "number": "18(d)",
+          "category": null,
+          "questionText": "Bella Silos has 32 identical silos, each with a cylindrical base (height $5\\text{ m}$, diameter $1.5\\text{ m}$) and a conical top (diameter $1.5\\text{ m}$, height $1.1\\text{ m}$). Determine how much wheat can be stored altogether in these silos, correct to 2 decimal places.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$V_{\\text{cylinder}} = \\pi r^2 h$; $V_{\\text{cone}} = \\frac{1}{3}\\pi r^2 h$",
+            "steps": [
+              "Given: $r = 0.75\\text{ m}$; cylinder $h = 5$, cone $h = 1.1$; 32 silos. Goal: total volume.",
+              "Cylinder $= \\pi \\times 0.5625 \\times 5 = 2.8125\\pi$",
+              "Cone $= \\frac{1}{3} \\times \\pi \\times 0.5625 \\times 1.1 = 0.20625\\pi$",
+              "One silo $= 3.01875\\pi\\text{ m}^3$",
+              "32 silos $= 96.6\\pi = 303.477...$",
+              "Rounded to 2 decimal places: $303.48\\text{ m}^3$"
+            ],
+            "finalAnswer": "Therefore the silos can store $303.48\\text{ m}^3$ of wheat altogether.",
+            "solutionFigures": [],
+            "tip": "Volume uses the vertical height of the cone (1.1 m), not the slant height."
+          }
+        },
+        {
+          "id": "ch6_ex5_q18e",
+          "number": "18(e)",
+          "category": null,
+          "questionText": "The 32 silos hold $303.48\\text{ m}^3$ of wheat. Wheat is pumped from these silos into cartage trucks with rectangular containers $2.4\\text{ m}$ wide, $5\\text{ m}$ long and $2.5\\text{ m}$ high. Determine how many truckloads are necessary to empty all the silos.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Truck volume $V = lwh$; truckloads = total $\\div$ truck volume, rounded up",
+            "steps": [
+              "Given: total $303.48\\text{ m}^3$; truck $2.4 \\times 5 \\times 2.5$. Goal: number of truckloads.",
+              "Truck volume $= 2.4 \\times 5 \\times 2.5 = 30\\text{ m}^3$",
+              "Truckloads $= \\frac{303.48}{30} = 10.12$",
+              "Round up: 11 truckloads"
+            ],
+            "finalAnswer": "Therefore 11 truckloads are necessary to empty all the silos.",
+            "solutionFigures": [],
+            "tip": "10 trucks leave some wheat behind, so round up."
+          }
+        },
+        {
+          "id": "ch6_ex5_q18f",
+          "number": "18(f)",
+          "category": null,
+          "questionText": "A cartage truck container is $2.4\\text{ m}$ wide, $5\\text{ m}$ long and $2.5\\text{ m}$ high. If wheat is pumped out of the silos at $2.5\\text{ m}^3/\\text{min}$, determine how long it will take to fill one truck.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Time = volume $\\div$ rate",
+            "steps": [
+              "Given: truck volume $= 2.4 \\times 5 \\times 2.5 = 30\\text{ m}^3$; rate $2.5\\text{ m}^3/\\text{min}$. Goal: time.",
+              "Time $= \\frac{30}{2.5} = 12$ minutes"
+            ],
+            "finalAnswer": "Therefore it takes 12 minutes to fill one truck.",
+            "solutionFigures": [],
+            "tip": "Divide the volume by the flow rate; check the units cancel to minutes."
+          }
+        },
+        {
+          "id": "ch6_ex5_q19a",
+          "number": "19(a)",
+          "category": null,
+          "questionText": "The Greek mathematician Eratosthenes developed an accurate method for calculating the circumference of the Earth 2200 years ago. In the figure, C is the centre of the Earth, A is the town of Alexandria and S is the town of Syene, exactly $787\\text{ km}$ due south. When the sun's rays (parallel lines) were vertical at Syene (so the ray through S passes through C), they formed an angle of $7.2^\\circ$ at Alexandria ($\\angle BVA = 7.2^\\circ$), obtained by placing a stick VA at A (pointing along CA extended) and measuring the angle formed by the sun's shadow with the stick. Assuming that the sun's rays are parallel, evaluate the angle $\\angle SCA$, correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Alternate angles between parallel lines are equal",
+            "steps": [
+              "Given: $\\angle BVA = 7.2^\\circ$; the ray at V and the ray through S and C are parallel. Goal: $\\angle SCA$.",
+              "The line CAV crosses both parallel rays (a transversal).",
+              "$\\angle BVA$ and $\\angle SCA$ are alternate angles, so they are equal.",
+              "$\\angle SCA = 7.2^\\circ$"
+            ],
+            "finalAnswer": "Therefore $\\angle SCA = 7.2^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Look for a 'Z' shape formed by the two parallel lines and the transversal."
+          }
+        },
+        {
+          "id": "ch6_ex5_q19b",
+          "number": "19(b)",
+          "category": null,
+          "questionText": "In Eratosthenes' method, $\\angle SCA = 7.2^\\circ$ at the centre C of the Earth. Given that the arc $AS = 787\\text{ km}$, determine the radius of the Earth, SC. Write your answer correct to the nearest kilometre.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Arc length: $l = \\frac{\\theta}{360^\\circ} \\times 2\\pi r$",
+            "steps": [
+              "Given: $\\theta = 7.2^\\circ$, arc $= 787\\text{ km}$. Goal: radius $r$.",
+              "$787 = \\frac{7.2^\\circ}{360^\\circ} \\times 2\\pi r$",
+              "$\\frac{7.2}{360} = \\frac{1}{50}$, so $787 = \\frac{2\\pi r}{50}$",
+              "$2\\pi r = 787 \\times 50 = 39\\,350\\text{ km}$ (the circumference)",
+              "$r = \\frac{39\\,350}{2\\pi} = 6262.747...$",
+              "To the nearest kilometre: $r \\approx 6263\\text{ km}$"
+            ],
+            "finalAnswer": "Therefore Eratosthenes' method gives the radius of the Earth as $6263\\text{ km}$.",
+            "solutionFigures": [],
+            "tip": "$7.2^\\circ$ is $\\frac{1}{50}$ of a full turn, so the circumference is 50 times the arc."
+          }
+        },
+        {
+          "id": "ch6_ex5_q19c",
+          "number": "19(c)",
+          "category": null,
+          "questionText": "Eratosthenes' method gave the radius of the Earth as $6263\\text{ km}$. Given that the true radius is $6380\\text{ km}$, determine Eratosthenes' percentage error, correct to 1 decimal place.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Percentage error $= \\frac{|\\text{true} - \\text{estimate}|}{\\text{true}} \\times 100\\%$",
+            "steps": [
+              "Given: estimate $6263\\text{ km}$, true $6380\\text{ km}$. Goal: percentage error.",
+              "Error $= 6380 - 6263 = 117\\text{ km}$",
+              "Percentage error $= \\frac{117}{6380} \\times 100\\% = 1.833...\\%$",
+              "Rounded to 1 decimal place: $1.8\\%$"
+            ],
+            "finalAnswer": "Therefore Eratosthenes' percentage error was $1.8\\%$.",
+            "solutionFigures": [],
+            "tip": "Divide the error by the true value, not by the estimate."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,949 @@
+{
+ "ch11_ex1_q15a": [
+  "assets/extracted_images/ch11_ex1_q15_fig1.png",
+  "assets/extracted_images/ch11_ex1_q15_fig2.png",
+  "assets/extracted_images/ch11_ex1_q15_fig3.png",
+  "assets/extracted_images/ch11_ex1_q15_fig4.png",
+  "assets/extracted_images/ch11_ex1_q15_fig5.png"
+ ],
+ "ch11_ex1_q15b": [
+  "assets/extracted_images/ch11_ex1_q15_fig1.png",
+  "assets/extracted_images/ch11_ex1_q15_fig2.png",
+  "assets/extracted_images/ch11_ex1_q15_fig3.png",
+  "assets/extracted_images/ch11_ex1_q15_fig4.png",
+  "assets/extracted_images/ch11_ex1_q15_fig5.png"
+ ],
+ "ch11_ex1_q15c": [
+  "assets/extracted_images/ch11_ex1_q15_fig1.png",
+  "assets/extracted_images/ch11_ex1_q15_fig2.png",
+  "assets/extracted_images/ch11_ex1_q15_fig3.png",
+  "assets/extracted_images/ch11_ex1_q15_fig4.png",
+  "assets/extracted_images/ch11_ex1_q15_fig5.png"
+ ],
+ "ch11_ex1_q4": [
+  "assets/extracted_images/ch11_ex1_q4_fig1.png"
+ ],
+ "ch11_ex1_q7": [
+  "assets/extracted_images/ch11_ex1_q7_fig1.png"
+ ],
+ "ch11_ex1_q9": [
+  "assets/extracted_images/ch11_ex1_q9_fig1.png"
+ ],
+ "ch11_ex2_q19": [
+  "assets/extracted_images/ch11_ex2_q19_fig1.png"
+ ],
+ "ch11_ex2_q1a": [
+  "assets/extracted_images/ch11_ex2_q1_fig1.png",
+  "assets/extracted_images/ch11_ex2_q1_fig2.png"
+ ],
+ "ch11_ex2_q1b": [
+  "assets/extracted_images/ch11_ex2_q1_fig1.png",
+  "assets/extracted_images/ch11_ex2_q1_fig2.png"
+ ],
+ "ch11_ex2_q1c": [
+  "assets/extracted_images/ch11_ex2_q1_fig1.png",
+  "assets/extracted_images/ch11_ex2_q1_fig2.png"
+ ],
+ "ch11_ex2_q20a": [
+  "assets/extracted_images/ch11_ex2_q20_fig1.png",
+  "assets/extracted_images/ch11_ex2_q20_fig2.png",
+  "assets/extracted_images/ch11_ex2_q20_fig3.png"
+ ],
+ "ch11_ex2_q20b": [
+  "assets/extracted_images/ch11_ex2_q20_fig1.png"
+ ],
+ "ch11_ex2_q20c": [
+  "assets/extracted_images/ch11_ex2_q20_fig1.png"
+ ],
+ "ch11_ex2_q20d": [
+  "assets/extracted_images/ch11_ex2_q20_fig1.png"
+ ],
+ "ch11_ex2_q20e": [
+  "assets/extracted_images/ch11_ex2_q20_fig1.png"
+ ],
+ "ch11_ex2_q20f": [
+  "assets/extracted_images/ch11_ex2_q20_fig1.png"
+ ],
+ "ch11_ex2_q21a": [
+  "assets/extracted_images/ch11_ex2_q21_fig1.png"
+ ],
+ "ch11_ex2_q22d": [
+  "assets/extracted_images/ch11_ex2_q22_fig1.png"
+ ],
+ "ch11_ex2_q23a": [
+  "assets/extracted_images/ch11_ex2_q23_fig1.png",
+  "assets/extracted_images/ch11_ex2_q23_fig2.png",
+  "assets/extracted_images/ch11_ex2_q23_fig3.png"
+ ],
+ "ch11_ex2_q23b": [
+  "assets/extracted_images/ch11_ex2_q23_fig1.png",
+  "assets/extracted_images/ch11_ex2_q23_fig2.png",
+  "assets/extracted_images/ch11_ex2_q23_fig3.png"
+ ],
+ "ch11_ex2_q7a": [
+  "assets/extracted_images/ch11_ex2_q7_fig1.png"
+ ],
+ "ch11_ex3_q10a": [
+  "assets/extracted_images/ch11_ex3_q10_fig1.png"
+ ],
+ "ch11_ex3_q10b": [
+  "assets/extracted_images/ch11_ex3_q10_fig1.png"
+ ],
+ "ch11_ex3_q10c": [
+  "assets/extracted_images/ch11_ex3_q10_fig1.png"
+ ],
+ "ch11_ex3_q14a": [
+  "assets/extracted_images/ch11_ex3_q14_fig1.png"
+ ],
+ "ch11_ex3_q14b": [
+  "assets/extracted_images/ch11_ex3_q14_fig1.png"
+ ],
+ "ch11_ex3_q14c": [
+  "assets/extracted_images/ch11_ex3_q14_fig1.png"
+ ],
+ "ch11_ex3_q14d": [
+  "assets/extracted_images/ch11_ex3_q14_fig1.png"
+ ],
+ "ch11_ex3_q2a": [
+  "assets/extracted_images/ch11_ex3_q2_fig1.png"
+ ],
+ "ch11_ex3_q2b": [
+  "assets/extracted_images/ch11_ex3_q2_fig1.png"
+ ],
+ "ch11_ex3_q2c": [
+  "assets/extracted_images/ch11_ex3_q2_fig1.png",
+  "assets/extracted_images/ch11_ex3_q2_fig3.png"
+ ],
+ "ch11_ex3_q2d": [
+  "assets/extracted_images/ch11_ex3_q2_fig1.png",
+  "assets/extracted_images/ch11_ex3_q2_fig2.png"
+ ],
+ "ch11_ex3_q2e": [
+  "assets/extracted_images/ch11_ex3_q2_fig1.png"
+ ],
+ "ch11_ex3_q3a": [
+  "assets/extracted_images/ch11_ex3_q3_fig1.png",
+  "assets/extracted_images/ch11_ex3_q3_fig2.png",
+  "assets/extracted_images/ch11_ex3_q3_fig3.png"
+ ],
+ "ch11_ex3_q3b": [
+  "assets/extracted_images/ch11_ex3_q3_fig1.png",
+  "assets/extracted_images/ch11_ex3_q3_fig2.png"
+ ],
+ "ch11_ex3_q4b": [
+  "assets/extracted_images/ch11_ex3_q4_fig1.png",
+  "assets/extracted_images/ch11_ex3_q4_fig2.png",
+  "assets/extracted_images/ch11_ex3_q4_fig3.png"
+ ],
+ "ch11_ex3_q6a": [
+  "assets/extracted_images/ch11_ex3_q6_fig1.png"
+ ],
+ "ch11_ex3_q6b": [
+  "assets/extracted_images/ch11_ex3_q6_fig1.png"
+ ],
+ "ch11_ex3_q8a": [
+  "assets/extracted_images/ch11_ex3_q8_fig1.png"
+ ],
+ "ch11_ex3_q8b": [
+  "assets/extracted_images/ch11_ex3_q8_fig2.png"
+ ],
+ "ch11_ex4_q10b": [
+  "assets/extracted_images/ch11_ex4_q10_fig1.png"
+ ],
+ "ch11_ex4_q13a": [
+  "assets/extracted_images/ch11_ex4_q13_fig1.png"
+ ],
+ "ch11_ex4_q13b": [
+  "assets/extracted_images/ch11_ex4_q13_fig1.png"
+ ],
+ "ch11_ex4_q13c": [
+  "assets/extracted_images/ch11_ex4_q13_fig1.png"
+ ],
+ "ch11_ex4_q13d": [
+  "assets/extracted_images/ch11_ex4_q13_fig1.png"
+ ],
+ "ch11_ex4_q14a": [
+  "assets/extracted_images/ch11_ex4_q14_fig1.png"
+ ],
+ "ch11_ex4_q1a": [
+  "assets/extracted_images/ch11_ex4_q1_fig1.png"
+ ],
+ "ch11_ex4_q1b": [
+  "assets/extracted_images/ch11_ex4_q1_fig1.png"
+ ],
+ "ch11_ex4_q1c": [
+  "assets/extracted_images/ch11_ex4_q1_fig1.png"
+ ],
+ "ch11_ex4_q1d": [
+  "assets/extracted_images/ch11_ex4_q1_fig1.png"
+ ],
+ "ch11_ex4_q21a": [
+  "assets/extracted_images/ch11_ex4_q21_fig1.png",
+  "assets/extracted_images/ch11_ex4_q21_fig2.png"
+ ],
+ "ch11_ex4_q21b": [
+  "assets/extracted_images/ch11_ex4_q21_fig1.png"
+ ],
+ "ch11_ex4_q21c": [
+  "assets/extracted_images/ch11_ex4_q21_fig1.png"
+ ],
+ "ch11_ex4_q21d": [
+  "assets/extracted_images/ch11_ex4_q21_fig1.png"
+ ],
+ "ch11_ex4_q22a": [
+  "assets/extracted_images/ch11_ex4_q22_fig1.png"
+ ],
+ "ch11_ex4_q22b": [
+  "assets/extracted_images/ch11_ex4_q22_fig1.png"
+ ],
+ "ch11_ex4_q7a": [
+  "assets/extracted_images/ch11_ex4_q7_fig1.png"
+ ],
+ "ch11_ex4_q7b": [
+  "assets/extracted_images/ch11_ex4_q7_fig1.png"
+ ],
+ "ch11_ex4_q7c": [
+  "assets/extracted_images/ch11_ex4_q7_fig1.png"
+ ],
+ "ch11_ex4_q7d": [
+  "assets/extracted_images/ch11_ex4_q7_fig1.png"
+ ],
+ "ch11_ex5_q13a": [
+  "assets/extracted_images/ch11_ex5_q13_fig1.png"
+ ],
+ "ch11_ex5_q13b": [
+  "assets/extracted_images/ch11_ex5_q13_fig1.png"
+ ],
+ "ch11_ex5_q13c": [
+  "assets/extracted_images/ch11_ex5_q13_fig1.png"
+ ],
+ "ch11_ex5_q17a": [
+  "assets/extracted_images/ch11_ex5_q17_fig1.png",
+  "assets/extracted_images/ch11_ex5_q17_fig2.png",
+  "assets/extracted_images/ch11_ex5_q17_fig3.png",
+  "assets/extracted_images/ch11_ex5_q17_fig4.png",
+  "assets/extracted_images/ch11_ex5_q17_fig5.png",
+  "assets/extracted_images/ch11_ex5_q17_fig6.png",
+  "assets/extracted_images/ch11_ex5_q17_fig7.png",
+  "assets/extracted_images/ch11_ex5_q17_fig8.png",
+  "assets/extracted_images/ch11_ex5_q17_fig9.png"
+ ],
+ "ch11_ex5_q17b": [
+  "assets/extracted_images/ch11_ex5_q17_fig1.png",
+  "assets/extracted_images/ch11_ex5_q17_fig2.png",
+  "assets/extracted_images/ch11_ex5_q17_fig3.png",
+  "assets/extracted_images/ch11_ex5_q17_fig4.png",
+  "assets/extracted_images/ch11_ex5_q17_fig5.png",
+  "assets/extracted_images/ch11_ex5_q17_fig6.png",
+  "assets/extracted_images/ch11_ex5_q17_fig7.png",
+  "assets/extracted_images/ch11_ex5_q17_fig8.png",
+  "assets/extracted_images/ch11_ex5_q17_fig9.png"
+ ],
+ "ch11_ex5_q17c": [
+  "assets/extracted_images/ch11_ex5_q17_fig1.png",
+  "assets/extracted_images/ch11_ex5_q17_fig2.png",
+  "assets/extracted_images/ch11_ex5_q17_fig3.png",
+  "assets/extracted_images/ch11_ex5_q17_fig4.png",
+  "assets/extracted_images/ch11_ex5_q17_fig5.png",
+  "assets/extracted_images/ch11_ex5_q17_fig6.png",
+  "assets/extracted_images/ch11_ex5_q17_fig7.png",
+  "assets/extracted_images/ch11_ex5_q17_fig8.png",
+  "assets/extracted_images/ch11_ex5_q17_fig9.png"
+ ],
+ "ch11_ex5_q17d": [
+  "assets/extracted_images/ch11_ex5_q17_fig1.png",
+  "assets/extracted_images/ch11_ex5_q17_fig2.png",
+  "assets/extracted_images/ch11_ex5_q17_fig3.png",
+  "assets/extracted_images/ch11_ex5_q17_fig4.png",
+  "assets/extracted_images/ch11_ex5_q17_fig5.png",
+  "assets/extracted_images/ch11_ex5_q17_fig6.png",
+  "assets/extracted_images/ch11_ex5_q17_fig7.png",
+  "assets/extracted_images/ch11_ex5_q17_fig8.png",
+  "assets/extracted_images/ch11_ex5_q17_fig9.png"
+ ],
+ "ch11_ex5_q2a": [
+  "assets/extracted_images/ch11_ex5_q2_fig1.png"
+ ],
+ "ch11_ex5_q2b": [
+  "assets/extracted_images/ch11_ex5_q2_fig1.png"
+ ],
+ "ch11_ex5_q3a": [
+  "assets/extracted_images/ch11_ex5_q3_fig1.png"
+ ],
+ "ch11_ex5_q8": [
+  "assets/extracted_images/ch11_ex5_q8_fig1.png"
+ ],
+ "ch11_ex6_q12": [
+  "assets/extracted_images/ch11_ex6_q12_fig1.png"
+ ],
+ "ch11_ex6_q14a": [
+  "assets/extracted_images/ch11_ex6_q14_fig1.png"
+ ],
+ "ch11_ex6_q19": [
+  "assets/extracted_images/ch11_ex6_q19_fig1.png"
+ ],
+ "ch11_ex6_q1a": [
+  "assets/extracted_images/ch11_ex6_q1_fig1.png"
+ ],
+ "ch11_ex6_q1b": [
+  "assets/extracted_images/ch11_ex6_q1_fig1.png"
+ ],
+ "ch11_ex6_q1c": [
+  "assets/extracted_images/ch11_ex6_q1_fig1.png"
+ ],
+ "ch11_ex6_q1d": [
+  "assets/extracted_images/ch11_ex6_q1_fig1.png"
+ ],
+ "ch11_ex6_q20a": [
+  "assets/extracted_images/ch11_ex6_q20_fig1.png"
+ ],
+ "ch11_ex6_q22": [
+  "assets/extracted_images/ch11_ex6_q22_fig1.png"
+ ],
+ "ch11_ex6_q28a": [
+  "assets/extracted_images/ch11_ex6_q28_fig1.png"
+ ],
+ "ch11_ex6_q28b": [
+  "assets/extracted_images/ch11_ex6_q28_fig1.png"
+ ],
+ "ch11_ex6_q30a": [
+  "assets/extracted_images/ch11_ex6_q30_fig1.png"
+ ],
+ "ch11_ex6_q31a": [
+  "assets/extracted_images/ch11_ex6_q31_fig1.png"
+ ],
+ "ch11_ex6_q31b": [
+  "assets/extracted_images/ch11_ex6_q31_fig1.png"
+ ],
+ "ch11_ex6_q31c": [
+  "assets/extracted_images/ch11_ex6_q31_fig1.png"
+ ],
+ "ch11_ex6_q31d": [
+  "assets/extracted_images/ch11_ex6_q31_fig1.png"
+ ],
+ "ch11_ex6_q31e": [
+  "assets/extracted_images/ch11_ex6_q31_fig1.png"
+ ],
+ "ch11_ex6_q31f": [
+  "assets/extracted_images/ch11_ex6_q31_fig1.png"
+ ],
+ "ch11_ex6_q31g": [
+  "assets/extracted_images/ch11_ex6_q31_fig1.png"
+ ],
+ "ch11_ex6_q31h": [
+  "assets/extracted_images/ch11_ex6_q31_fig1.png"
+ ],
+ "ch11_ex6_q4": [
+  "assets/extracted_images/ch11_ex6_q4_fig1.png"
+ ],
+ "ch11_ex6_q7a": [
+  "assets/extracted_images/ch11_ex6_q7_fig1.png"
+ ],
+ "ch11_ex7_q27a": [
+  "assets/extracted_images/ch11_ex7_q27_fig1.png"
+ ],
+ "ch11_ex7_q27b": [
+  "assets/extracted_images/ch11_ex7_q27_fig1.png"
+ ],
+ "ch15_ex1_q12": [
+  "assets/extracted_images/ch15_ex1_q12_fig1.png"
+ ],
+ "ch15_ex1_q15": [
+  "assets/extracted_images/ch15_ex1_q15_fig1.png"
+ ],
+ "ch15_ex1_q2": [
+  "assets/extracted_images/ch15_ex1_q2_fig1.png"
+ ],
+ "ch15_ex1_q3": [
+  "assets/extracted_images/ch15_ex1_q3_fig1.png"
+ ],
+ "ch15_ex1_q5": [
+  "assets/extracted_images/ch15_ex1_q5_fig1.png"
+ ],
+ "ch15_ex1_q6": [
+  "assets/extracted_images/ch15_ex1_q6_fig1.png"
+ ],
+ "ch15_ex1_q7": [
+  "assets/extracted_images/ch15_ex1_q7_fig1.png"
+ ],
+ "ch15_ex1_q9": [
+  "assets/extracted_images/ch15_ex1_q9_fig1.png"
+ ],
+ "ch15_ex2_q17": [
+  "assets/extracted_images/ch15_ex2_q17_fig1.png"
+ ],
+ "ch15_ex2_q20": [
+  "assets/extracted_images/ch15_ex2_q20_fig1.png"
+ ],
+ "ch15_ex2_q25a": [
+  "assets/extracted_images/ch15_ex2_q25_fig1.png"
+ ],
+ "ch15_ex3_q15": [
+  "assets/extracted_images/ch15_ex3_q15_fig1.png"
+ ],
+ "ch15_ex3_q16b": [
+  "assets/extracted_images/ch15_ex3_q16_fig1.png"
+ ],
+ "ch15_ex4_q15": [
+  "assets/extracted_images/ch15_ex4_q15_fig1.png"
+ ],
+ "ch15_ex4_q20": [
+  "assets/extracted_images/ch15_ex4_q20_fig1.png"
+ ],
+ "ch15_ex4_q21": [
+  "assets/extracted_images/ch15_ex4_q21_fig1.png"
+ ],
+ "ch15_ex4_q22": [
+  "assets/extracted_images/ch15_ex4_q22_fig1.png"
+ ],
+ "ch15_ex4_q23a": [
+  "assets/extracted_images/ch15_ex4_q23_fig1.png"
+ ],
+ "ch15_ex4_q24a": [
+  "assets/extracted_images/ch15_ex4_q24_fig1.png",
+  "assets/extracted_images/ch15_ex4_q24_fig2.png",
+  "assets/extracted_images/ch15_ex4_q24_fig3.png",
+  "assets/extracted_images/ch15_ex4_q24_fig4.png",
+  "assets/extracted_images/ch15_ex4_q24_fig5.png"
+ ],
+ "ch15_ex4_q24b": [
+  "assets/extracted_images/ch15_ex4_q24_fig1.png",
+  "assets/extracted_images/ch15_ex4_q24_fig2.png",
+  "assets/extracted_images/ch15_ex4_q24_fig3.png",
+  "assets/extracted_images/ch15_ex4_q24_fig5.png",
+  "assets/extracted_images/ch15_ex4_q24_fig6.png",
+  "assets/extracted_images/ch15_ex4_q24_fig7.png",
+  "assets/extracted_images/ch15_ex4_q24_fig8.png",
+  "assets/extracted_images/ch15_ex4_q24_fig9.png",
+  "assets/extracted_images/ch15_ex4_q24_fig10.png"
+ ],
+ "ch15_ex4_q24c": [
+  "assets/extracted_images/ch15_ex4_q24_fig1.png",
+  "assets/extracted_images/ch15_ex4_q24_fig2.png",
+  "assets/extracted_images/ch15_ex4_q24_fig3.png",
+  "assets/extracted_images/ch15_ex4_q24_fig5.png"
+ ],
+ "ch15_ex5_q10b": [
+  "assets/extracted_images/ch15_ex5_q10_fig1.png"
+ ],
+ "ch15_ex5_q10c": [
+  "assets/extracted_images/ch15_ex5_q10_fig2.png"
+ ],
+ "ch15_ex5_q11c": [
+  "assets/extracted_images/ch15_ex5_q11_fig1.png"
+ ],
+ "ch15_ex5_q11d": [
+  "assets/extracted_images/ch15_ex5_q11_fig2.png"
+ ],
+ "ch15_ex5_q12c": [
+  "assets/extracted_images/ch15_ex5_q12_fig1.png"
+ ],
+ "ch15_ex5_q13a": [
+  "assets/extracted_images/ch15_ex5_q13_fig2.png"
+ ],
+ "ch15_ex5_q13b": [
+  "assets/extracted_images/ch15_ex5_q13_fig1.png"
+ ],
+ "ch15_ex5_q14c": [
+  "assets/extracted_images/ch15_ex5_q14_fig1.png"
+ ],
+ "ch15_ex5_q15a": [
+  "assets/extracted_images/ch15_ex5_q15_fig1.png"
+ ],
+ "ch15_ex5_q15b": [
+  "assets/extracted_images/ch15_ex5_q15_fig1.png"
+ ],
+ "ch15_ex5_q15c": [
+  "assets/extracted_images/ch15_ex5_q15_fig1.png"
+ ],
+ "ch15_ex5_q15d": [
+  "assets/extracted_images/ch15_ex5_q15_fig1.png"
+ ],
+ "ch15_ex5_q15e": [
+  "assets/extracted_images/ch15_ex5_q15_fig1.png"
+ ],
+ "ch15_ex5_q15f": [
+  "assets/extracted_images/ch15_ex5_q15_fig1.png"
+ ],
+ "ch15_ex5_q1a": [
+  "assets/extracted_images/ch15_ex5_q1_fig1.png"
+ ],
+ "ch15_ex5_q22a": [
+  "assets/extracted_images/ch15_ex5_q22_fig1.png",
+  "assets/extracted_images/ch15_ex5_q22_fig2.png",
+  "assets/extracted_images/ch15_ex5_q22_fig3.png",
+  "assets/extracted_images/ch15_ex5_q22_fig4.png",
+  "assets/extracted_images/ch15_ex5_q22_fig5.png",
+  "assets/extracted_images/ch15_ex5_q22_fig6.png",
+  "assets/extracted_images/ch15_ex5_q22_fig7.png",
+  "assets/extracted_images/ch15_ex5_q22_fig8.png"
+ ],
+ "ch15_ex5_q22b": [
+  "assets/extracted_images/ch15_ex5_q22_fig1.png",
+  "assets/extracted_images/ch15_ex5_q22_fig2.png",
+  "assets/extracted_images/ch15_ex5_q22_fig3.png",
+  "assets/extracted_images/ch15_ex5_q22_fig4.png",
+  "assets/extracted_images/ch15_ex5_q22_fig5.png",
+  "assets/extracted_images/ch15_ex5_q22_fig6.png",
+  "assets/extracted_images/ch15_ex5_q22_fig7.png",
+  "assets/extracted_images/ch15_ex5_q22_fig9.png",
+  "assets/extracted_images/ch15_ex5_q22_fig10.png"
+ ],
+ "ch15_ex5_q22c": [
+  "assets/extracted_images/ch15_ex5_q22_fig1.png",
+  "assets/extracted_images/ch15_ex5_q22_fig2.png",
+  "assets/extracted_images/ch15_ex5_q22_fig3.png",
+  "assets/extracted_images/ch15_ex5_q22_fig4.png",
+  "assets/extracted_images/ch15_ex5_q22_fig5.png",
+  "assets/extracted_images/ch15_ex5_q22_fig6.png",
+  "assets/extracted_images/ch15_ex5_q22_fig7.png"
+ ],
+ "ch15_ex5_q4a": [
+  "assets/extracted_images/ch15_ex5_q4_fig1.png"
+ ],
+ "ch15_ex5_q8a": [
+  "assets/extracted_images/ch15_ex5_q8_fig1.png"
+ ],
+ "ch15_ex5_q9a": [
+  "assets/extracted_images/ch15_ex5_q9_fig2.png"
+ ],
+ "ch15_ex5_q9b": [
+  "assets/extracted_images/ch15_ex5_q9_fig1.png"
+ ],
+ "ch15_ex6_q1": [
+  "assets/extracted_images/ch15_ex6_q1_fig1.png"
+ ],
+ "ch15_ex6_q16": [
+  "assets/extracted_images/ch15_ex6_q16_fig1.png"
+ ],
+ "ch15_ex6_q26a": [
+  "assets/extracted_images/ch15_ex6_q26_fig1.png"
+ ],
+ "ch15_ex6_q26b": [
+  "assets/extracted_images/ch15_ex6_q26_fig1.png"
+ ],
+ "ch15_ex6_q26c": [
+  "assets/extracted_images/ch15_ex6_q26_fig1.png"
+ ],
+ "ch15_ex6_q30": [
+  "assets/extracted_images/ch15_ex6_q30_fig1.png"
+ ],
+ "ch15_ex6_q8": [
+  "assets/extracted_images/ch15_ex6_q8_fig1.png"
+ ],
+ "ch15_ex7_q15c": [
+  "assets/extracted_images/ch15_ex7_q15_fig1.png"
+ ],
+ "ch15_ex7_q8a": [
+  "assets/extracted_images/ch15_ex7_q8_fig1.png"
+ ],
+ "ch15_ex8_q1": [
+  "assets/extracted_images/ch15_ex8_q1_fig1.png"
+ ],
+ "ch15_ex8_q15": [
+  "assets/extracted_images/ch15_ex8_q15_fig1.png"
+ ],
+ "ch15_ex8_q2": [
+  "assets/extracted_images/ch15_ex8_q2_fig1.png"
+ ],
+ "ch15_ex8_q27a": [
+  "assets/extracted_images/ch15_ex8_q27_fig1.png"
+ ],
+ "ch15_ex8_q27b": [
+  "assets/extracted_images/ch15_ex8_q27_fig1.png"
+ ],
+ "ch15_ex8_q27c": [
+  "assets/extracted_images/ch15_ex8_q27_fig1.png"
+ ],
+ "ch15_ex8_q27d": [
+  "assets/extracted_images/ch15_ex8_q27_fig1.png"
+ ],
+ "ch15_ex8_q4": [
+  "assets/extracted_images/ch15_ex8_q4_fig1.png"
+ ],
+ "ch15_ex8_q5": [
+  "assets/extracted_images/ch15_ex8_q5_fig1.png"
+ ],
+ "ch6_ex1_q1": [
+  "assets/extracted_images/ch6_ex1_q1_fig1.png"
+ ],
+ "ch6_ex1_q10": [
+  "assets/extracted_images/ch6_ex1_q10_fig1.png"
+ ],
+ "ch6_ex1_q14": [
+  "assets/extracted_images/ch6_ex1_q14_fig1.png"
+ ],
+ "ch6_ex1_q15a": [
+  "assets/extracted_images/ch6_ex1_q15_fig1.png",
+  "assets/extracted_images/ch6_ex1_q15_fig2.png",
+  "assets/extracted_images/ch6_ex1_q15_fig3.png",
+  "assets/extracted_images/ch6_ex1_q15_fig4.png",
+  "assets/extracted_images/ch6_ex1_q15_fig5.png",
+  "assets/extracted_images/ch6_ex1_q15_fig6.png",
+  "assets/extracted_images/ch6_ex1_q15_fig7.png",
+  "assets/extracted_images/ch6_ex1_q15_fig8.png",
+  "assets/extracted_images/ch6_ex1_q15_fig9.png",
+  "assets/extracted_images/ch6_ex1_q15_fig10.png",
+  "assets/extracted_images/ch6_ex1_q15_fig11.png",
+  "assets/extracted_images/ch6_ex1_q15_fig12.png",
+  "assets/extracted_images/ch6_ex1_q15_fig13.png",
+  "assets/extracted_images/ch6_ex1_q15_fig14.png",
+  "assets/extracted_images/ch6_ex1_q15_fig15.png"
+ ],
+ "ch6_ex1_q2": [
+  "assets/extracted_images/ch6_ex1_q2_fig1.png"
+ ],
+ "ch6_ex1_q4": [
+  "assets/extracted_images/ch6_ex1_q4_fig1.png"
+ ],
+ "ch6_ex1_q5": [
+  "assets/extracted_images/ch6_ex1_q5_fig1.png"
+ ],
+ "ch6_ex1_q6": [
+  "assets/extracted_images/ch6_ex1_q6_fig1.png"
+ ],
+ "ch6_ex1_q7": [
+  "assets/extracted_images/ch6_ex1_q7_fig1.png"
+ ],
+ "ch6_ex1_q9": [
+  "assets/extracted_images/ch6_ex1_q9_fig1.png"
+ ],
+ "ch6_ex2_q18a": [
+  "assets/extracted_images/ch6_ex2_q18_fig2.png",
+  "assets/extracted_images/ch6_ex2_q18_fig3.png"
+ ],
+ "ch6_ex2_q18b": [
+  "assets/extracted_images/ch6_ex2_q18_fig1.png",
+  "assets/extracted_images/ch6_ex2_q18_fig3.png"
+ ],
+ "ch6_ex2_q18c": [
+  "assets/extracted_images/ch6_ex2_q18_fig3.png"
+ ],
+ "ch6_ex2_q20d": [
+  "assets/extracted_images/ch6_ex2_q20_fig1.png"
+ ],
+ "ch6_ex2_q23a": [
+  "assets/extracted_images/ch6_ex2_q23_fig1.png"
+ ],
+ "ch6_ex2_q24a": [
+  "assets/extracted_images/ch6_ex2_q24_fig1.png",
+  "assets/extracted_images/ch6_ex2_q24_fig2.png",
+  "assets/extracted_images/ch6_ex2_q24_fig3.png",
+  "assets/extracted_images/ch6_ex2_q24_fig4.png",
+  "assets/extracted_images/ch6_ex2_q24_fig5.png",
+  "assets/extracted_images/ch6_ex2_q24_fig6.png",
+  "assets/extracted_images/ch6_ex2_q24_fig7.png"
+ ],
+ "ch6_ex2_q24b": [
+  "assets/extracted_images/ch6_ex2_q24_fig1.png",
+  "assets/extracted_images/ch6_ex2_q24_fig2.png",
+  "assets/extracted_images/ch6_ex2_q24_fig3.png",
+  "assets/extracted_images/ch6_ex2_q24_fig4.png",
+  "assets/extracted_images/ch6_ex2_q24_fig5.png",
+  "assets/extracted_images/ch6_ex2_q24_fig6.png",
+  "assets/extracted_images/ch6_ex2_q24_fig7.png"
+ ],
+ "ch6_ex2_q4a": [
+  "assets/extracted_images/ch6_ex2_q4_fig1.png"
+ ],
+ "ch6_ex2_q5a": [
+  "assets/extracted_images/ch6_ex2_q5_fig1.png"
+ ],
+ "ch6_ex2_q6a": [
+  "assets/extracted_images/ch6_ex2_q6_fig1.png"
+ ],
+ "ch6_ex2_q8": [
+  "assets/extracted_images/ch6_ex2_q8_fig1.png"
+ ],
+ "ch6_ex3_q11a": [
+  "assets/extracted_images/ch6_ex3_q11_fig1.png"
+ ],
+ "ch6_ex3_q11b": [
+  "assets/extracted_images/ch6_ex3_q11_fig1.png"
+ ],
+ "ch6_ex3_q12": [
+  "assets/extracted_images/ch6_ex3_q12_fig1.png"
+ ],
+ "ch6_ex3_q16a": [
+  "assets/extracted_images/ch6_ex3_q16_fig1.png",
+  "assets/extracted_images/ch6_ex3_q16_fig2.png"
+ ],
+ "ch6_ex3_q16b": [
+  "assets/extracted_images/ch6_ex3_q16_fig1.png"
+ ],
+ "ch6_ex3_q16c": [
+  "assets/extracted_images/ch6_ex3_q16_fig1.png"
+ ],
+ "ch6_ex3_q18": [
+  "assets/extracted_images/ch6_ex3_q18_fig1.png",
+  "assets/extracted_images/ch6_ex3_q18_fig2.png"
+ ],
+ "ch6_ex3_q19d": [
+  "assets/extracted_images/ch6_ex3_q19_fig1.png"
+ ],
+ "ch6_ex3_q20": [
+  "assets/extracted_images/ch6_ex3_q20_fig1.png"
+ ],
+ "ch6_ex4_q12c": [
+  "assets/extracted_images/ch6_ex4_q12_fig1.png"
+ ],
+ "ch6_ex4_q13": [
+  "assets/extracted_images/ch6_ex4_q13_fig1.png"
+ ],
+ "ch6_ex4_q14b": [
+  "assets/extracted_images/ch6_ex4_q14_fig1.png"
+ ],
+ "ch6_ex4_q15": [
+  "assets/extracted_images/ch6_ex4_q15_fig1.png",
+  "assets/extracted_images/ch6_ex4_q15_fig2.png"
+ ],
+ "ch6_ex4_q17a": [
+  "assets/extracted_images/ch6_ex4_q17_fig1.png",
+  "assets/extracted_images/ch6_ex4_q17_fig2.png"
+ ],
+ "ch6_ex4_q17b": [
+  "assets/extracted_images/ch6_ex4_q17_fig2.png"
+ ],
+ "ch6_ex4_q17c": [
+  "assets/extracted_images/ch6_ex4_q17_fig2.png",
+  "assets/extracted_images/ch6_ex4_q17_fig3.png"
+ ],
+ "ch6_ex4_q17d": [
+  "assets/extracted_images/ch6_ex4_q17_fig2.png"
+ ],
+ "ch6_ex4_q17e": [
+  "assets/extracted_images/ch6_ex4_q17_fig2.png"
+ ],
+ "ch6_ex4_q18b": [
+  "assets/extracted_images/ch6_ex4_q18_fig1.png"
+ ],
+ "ch6_ex4_q24": [
+  "assets/extracted_images/ch6_ex4_q24_fig1.png"
+ ],
+ "ch6_ex4_q26": [
+  "assets/extracted_images/ch6_ex4_q26_fig1.png"
+ ],
+ "ch6_ex4_q27": [
+  "assets/extracted_images/ch6_ex4_q27_fig1.png"
+ ],
+ "ch6_ex4_q28a": [
+  "assets/extracted_images/ch6_ex4_q28_fig1.png"
+ ],
+ "ch6_ex4_q30": [
+  "assets/extracted_images/ch6_ex4_q30_fig1.png",
+  "assets/extracted_images/ch6_ex4_q30_fig2.png",
+  "assets/extracted_images/ch6_ex4_q30_fig3.png",
+  "assets/extracted_images/ch6_ex4_q30_fig4.png"
+ ],
+ "ch6_ex4_q5a": [
+  "assets/extracted_images/ch6_ex4_q5_fig1.png"
+ ],
+ "ch6_ex4_q7a": [
+  "assets/extracted_images/ch6_ex4_q7_fig1.png"
+ ],
+ "ch6_ex4_q8a": [
+  "assets/extracted_images/ch6_ex4_q8_fig1.png"
+ ],
+ "ch6_ex4_q9a": [
+  "assets/extracted_images/ch6_ex4_q9_fig1.png"
+ ],
+ "ch6_ex5_q1": [
+  "assets/extracted_images/ch6_ex5_q1_fig1.png"
+ ],
+ "ch6_ex5_q18a": [
+  "assets/extracted_images/ch6_ex5_q18_fig1.png"
+ ],
+ "ch6_ex5_q2": [
+  "assets/extracted_images/ch6_ex5_q2_fig1.png"
+ ],
+ "ch6_ex5_q3": [
+  "assets/extracted_images/ch6_ex5_q3_fig1.png"
+ ],
+ "ch9_ex10_q14a": [
+  "assets/extracted_images/ch9_ex10_q14_fig1.png"
+ ],
+ "ch9_ex10_q23": [
+  "assets/extracted_images/ch9_ex10_q23_fig1.png"
+ ],
+ "ch9_ex10_q3": [
+  "assets/extracted_images/ch9_ex10_q3_fig1.png"
+ ],
+ "ch9_ex10_q30a": [
+  "assets/extracted_images/ch9_ex10_q30_fig1.png"
+ ],
+ "ch9_ex10_q30b": [
+  "assets/extracted_images/ch9_ex10_q30_fig1.png"
+ ],
+ "ch9_ex10_q30c": [
+  "assets/extracted_images/ch9_ex10_q30_fig1.png"
+ ],
+ "ch9_ex10_q30d": [
+  "assets/extracted_images/ch9_ex10_q30_fig1.png"
+ ],
+ "ch9_ex10_q31a": [
+  "assets/extracted_images/ch9_ex10_q31_fig1.png"
+ ],
+ "ch9_ex1_q1": [
+  "assets/extracted_images/ch9_ex1_q1_fig1.png"
+ ],
+ "ch9_ex1_q14": [
+  "assets/extracted_images/ch9_ex1_q14_fig1.png"
+ ],
+ "ch9_ex1_q15a": [
+  "assets/extracted_images/ch9_ex1_q15_fig1.png",
+  "assets/extracted_images/ch9_ex1_q15_fig2.png",
+  "assets/extracted_images/ch9_ex1_q15_fig3.png",
+  "assets/extracted_images/ch9_ex1_q15_fig4.png",
+  "assets/extracted_images/ch9_ex1_q15_fig5.png",
+  "assets/extracted_images/ch9_ex1_q15_fig6.png",
+  "assets/extracted_images/ch9_ex1_q15_fig7.png",
+  "assets/extracted_images/ch9_ex1_q15_fig8.png",
+  "assets/extracted_images/ch9_ex1_q15_fig9.png",
+  "assets/extracted_images/ch9_ex1_q15_fig10.png"
+ ],
+ "ch9_ex2_q31a": [
+  "assets/extracted_images/ch9_ex2_q31_fig1.png",
+  "assets/extracted_images/ch9_ex2_q31_fig2.png",
+  "assets/extracted_images/ch9_ex2_q31_fig3.png",
+  "assets/extracted_images/ch9_ex2_q31_fig4.png",
+  "assets/extracted_images/ch9_ex2_q31_fig5.png"
+ ],
+ "ch9_ex2_q3a": [
+  "assets/extracted_images/ch9_ex2_q3_fig1.png"
+ ],
+ "ch9_ex2_q9": [
+  "assets/extracted_images/ch9_ex2_q9_fig1.png"
+ ],
+ "ch9_ex3_q22a": [
+  "assets/extracted_images/ch9_ex3_q22_fig1.png"
+ ],
+ "ch9_ex3_q24b": [
+  "assets/extracted_images/ch9_ex3_q24_fig1.png"
+ ],
+ "ch9_ex3_q28a": [
+  "assets/extracted_images/ch9_ex3_q28_fig1.png",
+  "assets/extracted_images/ch9_ex3_q28_fig2.png",
+  "assets/extracted_images/ch9_ex3_q28_fig3.png"
+ ],
+ "ch9_ex4_q7a": [
+  "assets/extracted_images/ch9_ex4_q7_fig1.png",
+  "assets/extracted_images/ch9_ex4_q7_fig2.png",
+  "assets/extracted_images/ch9_ex4_q7_fig3.png"
+ ],
+ "ch9_ex4_q8a": [
+  "assets/extracted_images/ch9_ex4_q8_fig1.png",
+  "assets/extracted_images/ch9_ex4_q8_fig2.png",
+  "assets/extracted_images/ch9_ex4_q8_fig3.png"
+ ],
+ "ch9_ex5_q1a": [
+  "assets/extracted_images/ch9_ex5_q1_fig1.png"
+ ],
+ "ch9_ex5_q4a": [
+  "assets/extracted_images/ch9_ex5_q4_fig1.png"
+ ],
+ "ch9_ex6_q1": [
+  "assets/extracted_images/ch9_ex6_q1_fig1.png"
+ ],
+ "ch9_ex6_q11a": [
+  "assets/extracted_images/ch9_ex6_q11_fig1.png"
+ ],
+ "ch9_ex6_q11b": [
+  "assets/extracted_images/ch9_ex6_q11_fig1.png"
+ ],
+ "ch9_ex6_q20a": [
+  "assets/extracted_images/ch9_ex6_q20_fig1.png",
+  "assets/extracted_images/ch9_ex6_q20_fig2.png",
+  "assets/extracted_images/ch9_ex6_q20_fig3.png",
+  "assets/extracted_images/ch9_ex6_q20_fig4.png",
+  "assets/extracted_images/ch9_ex6_q20_fig5.png",
+  "assets/extracted_images/ch9_ex6_q20_fig6.png"
+ ],
+ "ch9_ex6_q20b": [
+  "assets/extracted_images/ch9_ex6_q20_fig1.png",
+  "assets/extracted_images/ch9_ex6_q20_fig2.png",
+  "assets/extracted_images/ch9_ex6_q20_fig3.png",
+  "assets/extracted_images/ch9_ex6_q20_fig4.png",
+  "assets/extracted_images/ch9_ex6_q20_fig5.png",
+  "assets/extracted_images/ch9_ex6_q20_fig6.png"
+ ],
+ "ch9_ex6_q8a": [
+  "assets/extracted_images/ch9_ex6_q8_fig1.png",
+  "assets/extracted_images/ch9_ex6_q8_fig2.png"
+ ],
+ "ch9_ex6_q8b": [
+  "assets/extracted_images/ch9_ex6_q8_fig2.png"
+ ],
+ "ch9_ex6_q8c": [
+  "assets/extracted_images/ch9_ex6_q8_fig2.png"
+ ],
+ "ch9_ex7_q11b": [
+  "assets/extracted_images/ch9_ex7_q11_fig1.png"
+ ],
+ "ch9_ex7_q15a": [
+  "assets/extracted_images/ch9_ex7_q15_fig1.png"
+ ],
+ "ch9_ex7_q15b": [
+  "assets/extracted_images/ch9_ex7_q15_fig1.png"
+ ],
+ "ch9_ex7_q15c": [
+  "assets/extracted_images/ch9_ex7_q15_fig1.png"
+ ],
+ "ch9_ex7_q3a": [
+  "assets/extracted_images/ch9_ex7_q3_fig1.png"
+ ],
+ "ch9_ex7_q3b": [
+  "assets/extracted_images/ch9_ex7_q3_fig1.png"
+ ],
+ "ch9_ex7_q6a": [
+  "assets/extracted_images/ch9_ex7_q6_fig1.png"
+ ],
+ "ch9_ex7_q6b": [
+  "assets/extracted_images/ch9_ex7_q6_fig1.png"
+ ],
+ "ch9_ex7_q6c": [
+  "assets/extracted_images/ch9_ex7_q6_fig1.png"
+ ],
+ "ch9_ex7_q6d": [
+  "assets/extracted_images/ch9_ex7_q6_fig1.png"
+ ],
+ "ch9_ex7_q9b": [
+  "assets/extracted_images/ch9_ex7_q9_fig1.png"
+ ],
+ "ch9_ex8_q10": [
+  "assets/extracted_images/ch9_ex8_q10_fig1.png"
+ ],
+ "ch9_ex8_q13a": [
+  "assets/extracted_images/ch9_ex8_q13_fig1.png"
+ ],
+ "ch9_ex8_q1a": [
+  "assets/extracted_images/ch9_ex8_q1_fig1.png",
+  "assets/extracted_images/ch9_ex8_q1_fig2.png",
+  "assets/extracted_images/ch9_ex8_q1_fig3.png"
+ ],
+ "ch9_ex8_q1b": [
+  "assets/extracted_images/ch9_ex8_q1_fig1.png",
+  "assets/extracted_images/ch9_ex8_q1_fig2.png",
+  "assets/extracted_images/ch9_ex8_q1_fig3.png"
+ ],
+ "ch9_ex8_q20": [
+  "assets/extracted_images/ch9_ex8_q20_fig1.png"
+ ],
+ "ch9_ex8_q7": [
+  "assets/extracted_images/ch9_ex8_q7_fig1.png"
+ ],
+ "ch9_ex9_q10": [
+  "assets/extracted_images/ch9_ex9_q10_fig1.png",
+  "assets/extracted_images/ch9_ex9_q10_fig2.png",
+  "assets/extracted_images/ch9_ex9_q10_fig3.png",
+  "assets/extracted_images/ch9_ex9_q10_fig4.png"
+ ],
+ "ch9_ex9_q20": [
+  "assets/extracted_images/ch9_ex9_q20_fig1.png"
+ ],
+ "ch9_ex9_q3a": [
+  "assets/extracted_images/ch9_ex9_q3_fig1.png"
+ ],
+ "ch9_ex9_q6a": [
+  "assets/extracted_images/ch9_ex9_q6_fig1.png"
+ ]
+}

@@ -1,0 +1,324 @@
+{
+  "chapterId": "ch15",
+  "chapterTitle": "Trigonometry II (10A)",
+  "topics": [
+    {
+      "topicId": "15.1",
+      "topicTitle": "Pre-test",
+      "exercises": [
+        {
+          "id": "ch15_ex1_q1",
+          "number": "1",
+          "category": null,
+          "questionText": "MC From the following options select the exact value of $\\sin(30^\\circ)$.\nA. $\\frac{1}{\\sqrt{2}}$  B. $\\frac{1}{2}$  C. $\\frac{\\sqrt{3}}{2}$  D. $1$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Exact values from the half-equilateral triangle (sides $1, \\sqrt{3}, 2$): $\\sin(30^\\circ) = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{1}{2}$",
+            "steps": [
+              "Given: the angle $30^\\circ$. Goal: the exact value of $\\sin(30^\\circ)$.",
+              "Cut an equilateral triangle of side 2 in half. This gives a right-angled triangle with angles $30^\\circ, 60^\\circ, 90^\\circ$ and sides $1$, $\\sqrt{3}$ and $2$.",
+              "The side opposite the $30^\\circ$ angle is $1$ and the hypotenuse is $2$.",
+              "$\\sin(30^\\circ) = \\frac{1}{2}$, which is option B."
+            ],
+            "finalAnswer": "B. $\\sin(30^\\circ) = \\frac{1}{2}$",
+            "solutionFigures": [],
+            "tip": "Do not mix up $\\sin(30^\\circ) = \\frac{1}{2}$ with $\\cos(30^\\circ) = \\frac{\\sqrt{3}}{2}$; the side opposite $30^\\circ$ is the shortest side."
+          }
+        },
+        {
+          "id": "ch15_ex1_q2",
+          "number": "2",
+          "category": null,
+          "questionText": "Solve for $x$, correct to 2 decimal places. The diagram shows triangle ABC with $\\angle A = 42^\\circ$, $\\angle C = 60^\\circ$, side $CB = 7$ m (opposite the $42^\\circ$ angle) and side $AB = x$ (opposite the $60^\\circ$ angle).",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule: $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)} = \\frac{c}{\\sin(C)}$",
+            "steps": [
+              "Given: $A = 42^\\circ$, $C = 60^\\circ$, $a = CB = 7$ m. Goal: $x = c = AB$.",
+              "We know two angles and one side, so use the sine rule.",
+              "$\\frac{c}{\\sin(C)} = \\frac{a}{\\sin(A)}$",
+              "$\\frac{x}{\\sin(60^\\circ)} = \\frac{7}{\\sin(42^\\circ)}$",
+              "$x = \\frac{7\\sin(60^\\circ)}{\\sin(42^\\circ)} = \\frac{7 \\times 0.866025}{0.669131}$",
+              "$x \\approx 9.0597$",
+              "$x \\approx 9.06$ m (2 decimal places)",
+              "Check: $x$ is opposite the larger angle ($60^\\circ > 42^\\circ$), so $x$ should be longer than 7 m. It is."
+            ],
+            "finalAnswer": "Therefore $x \\approx 9.06$ m.",
+            "solutionFigures": [],
+            "tip": "Always pair each side with the angle directly opposite it, and make sure your calculator is in degree mode."
+          }
+        },
+        {
+          "id": "ch15_ex1_q3",
+          "number": "3",
+          "category": null,
+          "questionText": "Solve for $y$, correct to 2 decimal places. The diagram shows a triangle with angles $55^\\circ$ and $75^\\circ$. The side of length 10 cm is opposite the $55^\\circ$ angle, and the side $y$ is opposite the third (unmarked) angle.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Angle sum of a triangle $= 180^\\circ$; sine rule $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)}$",
+            "steps": [
+              "Given: angles $55^\\circ$ and $75^\\circ$; the 10 cm side is opposite $55^\\circ$. Goal: side $y$, opposite the third angle.",
+              "Third angle $= 180^\\circ - 55^\\circ - 75^\\circ = 50^\\circ$.",
+              "Sine rule: $\\frac{y}{\\sin(50^\\circ)} = \\frac{10}{\\sin(55^\\circ)}$",
+              "$y = \\frac{10\\sin(50^\\circ)}{\\sin(55^\\circ)} = \\frac{10 \\times 0.766044}{0.819152}$",
+              "$y \\approx 9.3517$",
+              "$y \\approx 9.35$ cm (2 decimal places)",
+              "Check: $50^\\circ < 55^\\circ$, so $y$ should be a little shorter than 10 cm. It is."
+            ],
+            "finalAnswer": "Therefore $y \\approx 9.35$ cm.",
+            "solutionFigures": [],
+            "tip": "Find the missing angle first if the side you want is opposite an angle that is not given."
+          }
+        },
+        {
+          "id": "ch15_ex1_q4",
+          "number": "4",
+          "category": null,
+          "questionText": "MC Choose the values of the angles B and B′ in the triangle below, to the nearest degree. (Assume $BC = B'C$.) The diagram shows triangle ABC with $\\angle A = 25^\\circ$, $AC = 19$ and $BC = 11$; point B′ lies on AB between A and B with $B'C = 11$.\nA. $47^\\circ$ and $133^\\circ$  B. $46^\\circ$ and $134^\\circ$  C. $47^\\circ$ and $153^\\circ$  D. $25^\\circ$ and $155^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule $\\frac{\\sin(B)}{b} = \\frac{\\sin(A)}{a}$; ambiguous case: $B' = 180^\\circ - B$",
+            "steps": [
+              "Given: $A = 25^\\circ$, $b = AC = 19$, $a = BC = 11$. Goal: the two possible angles at B.",
+              "$\\frac{\\sin(B)}{19} = \\frac{\\sin(25^\\circ)}{11}$",
+              "$\\sin(B) = \\frac{19\\sin(25^\\circ)}{11} = \\frac{19 \\times 0.422618}{11} \\approx 0.729977$",
+              "$B = \\sin^{-1}(0.729977) \\approx 46.88^\\circ \\approx 47^\\circ$",
+              "Because $\\sin(180^\\circ - B) = \\sin(B)$, the other solution is $B' = 180^\\circ - 46.88^\\circ \\approx 133.12^\\circ \\approx 133^\\circ$.",
+              "Check: $25^\\circ + 133^\\circ = 158^\\circ < 180^\\circ$, so the obtuse triangle is possible too.",
+              "This matches option A."
+            ],
+            "finalAnswer": "A. $47^\\circ$ and $133^\\circ$",
+            "solutionFigures": [],
+            "tip": "When finding an angle with the sine rule, always test whether $180^\\circ$ minus your answer also fits in the triangle."
+          }
+        },
+        {
+          "id": "ch15_ex1_q5",
+          "number": "5",
+          "category": null,
+          "questionText": "Calculate the perimeter of the following triangle, correct to 2 decimal places. The diagram shows triangle ABC with $AC = 7$, $BC = 5$, the angle at B equal to $63^\\circ$, and the base $AB = x$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Sine rule $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)} = \\frac{c}{\\sin(C)}$; perimeter = sum of the three sides",
+            "steps": [
+              "Given: $b = AC = 7$, $a = BC = 5$, $B = 63^\\circ$. Goal: $x = c = AB$, then the perimeter.",
+              "Find A: $\\frac{\\sin(A)}{5} = \\frac{\\sin(63^\\circ)}{7}$",
+              "$\\sin(A) = \\frac{5\\sin(63^\\circ)}{7} = \\frac{5 \\times 0.891007}{7} \\approx 0.636433$",
+              "$A \\approx 39.53^\\circ$ (the obtuse option $140.47^\\circ$ is impossible because $140.47^\\circ + 63^\\circ > 180^\\circ$).",
+              "$C = 180^\\circ - 63^\\circ - 39.53^\\circ = 77.47^\\circ$",
+              "$\\frac{x}{\\sin(77.47^\\circ)} = \\frac{7}{\\sin(63^\\circ)}$",
+              "$x = \\frac{7\\sin(77.47^\\circ)}{\\sin(63^\\circ)} \\approx \\frac{7 \\times 0.976194}{0.891007} \\approx 7.6693$",
+              "Perimeter $= 7 + 5 + 7.6693 = 19.6693 \\approx 19.67$",
+              "Check with the cosine rule: $7^2 = 5^2 + 7.6693^2 - 2(5)(7.6693)\\cos(63^\\circ) = 25 + 58.818 - 34.818 = 49.0$ ✓"
+            ],
+            "finalAnswer": "Therefore the perimeter is approximately 19.67 units.",
+            "solutionFigures": [],
+            "tip": "Keep unrounded values in your calculator until the last step so the perimeter is not thrown off by rounding."
+          }
+        },
+        {
+          "id": "ch15_ex1_q6",
+          "number": "6",
+          "category": null,
+          "questionText": "Solve for $x$, correct to 1 decimal place. The diagram shows a triangle with two sides of 10 m and 12 m and an included angle of $37^\\circ$ between them; $x$ is the third side, opposite the $37^\\circ$ angle.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Cosine rule: $a^2 = b^2 + c^2 - 2bc\\cos(A)$",
+            "steps": [
+              "Given: $b = 10$ m, $c = 12$ m, included angle $A = 37^\\circ$. Goal: the third side $x = a$.",
+              "Two sides and the included angle are known, so use the cosine rule.",
+              "$x^2 = 10^2 + 12^2 - 2 \\times 10 \\times 12 \\times \\cos(37^\\circ)$",
+              "$x^2 = 100 + 144 - 240 \\times 0.798636$",
+              "$x^2 = 244 - 191.6726 = 52.3274$",
+              "$x = \\sqrt{52.3274} \\approx 7.234$",
+              "$x \\approx 7.2$ m (1 decimal place)"
+            ],
+            "finalAnswer": "Therefore $x \\approx 7.2$ m.",
+            "solutionFigures": [],
+            "tip": "Evaluate $2bc\\cos(A)$ as one product before subtracting; do not subtract $2bc$ first."
+          }
+        },
+        {
+          "id": "ch15_ex1_q7",
+          "number": "7",
+          "category": null,
+          "questionText": "MC Calculate the area of the triangle shown. The diagram shows a triangle with sides 7 cm and 6.5 cm and an included angle of $55^\\circ$ between them.\nA. $13.05\\text{ cm}^2$  B. $18.64\\text{ cm}^2$  C. $22.75\\text{ cm}^2$  D. $26.1\\text{ cm}^2$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Area $= \\frac{1}{2}ab\\sin(C)$, where $C$ is the angle between sides $a$ and $b$",
+            "steps": [
+              "Given: sides 7 cm and 6.5 cm with included angle $55^\\circ$. Goal: area.",
+              "Area $= \\frac{1}{2} \\times 7 \\times 6.5 \\times \\sin(55^\\circ)$",
+              "$= 22.75 \\times 0.819152$",
+              "$\\approx 18.64\\text{ cm}^2$",
+              "This is option B."
+            ],
+            "finalAnswer": "B. Area $\\approx 18.64\\text{ cm}^2$",
+            "solutionFigures": [],
+            "tip": "Option C (22.75) is what you get if you forget to multiply by $\\sin(55^\\circ)$."
+          }
+        },
+        {
+          "id": "ch15_ex1_q8",
+          "number": "8",
+          "category": null,
+          "questionText": "State in which quadrant of the unit circle the angle $203^\\circ$ is located.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Quadrants: 1st $0^\\circ$–$90^\\circ$, 2nd $90^\\circ$–$180^\\circ$, 3rd $180^\\circ$–$270^\\circ$, 4th $270^\\circ$–$360^\\circ$ (measured anticlockwise from the positive $x$-axis)",
+            "steps": [
+              "Given: $\\theta = 203^\\circ$. Goal: its quadrant.",
+              "$180^\\circ < 203^\\circ < 270^\\circ$",
+              "So the angle lies in the third quadrant."
+            ],
+            "finalAnswer": "$203^\\circ$ lies in the 3rd quadrant.",
+            "solutionFigures": [],
+            "tip": "Quadrants are numbered anticlockwise starting from the positive $x$-axis."
+          }
+        },
+        {
+          "id": "ch15_ex1_q9",
+          "number": "9",
+          "category": null,
+          "questionText": "Determine the value of $\\cos(60^\\circ)$ using part of the unit circle. The diagram shows the first quadrant of the unit circle, with the $y$-axis marked 0.2, 0.4, 0.6, 0.8, 1 and the $x$-axis marked 0.5 and 1.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For a point P on the unit circle at angle $\\theta$: $P = (\\cos(\\theta), \\sin(\\theta))$, so $\\cos(\\theta)$ is the $x$-coordinate",
+            "steps": [
+              "Given: $\\theta = 60^\\circ$. Goal: $\\cos(60^\\circ)$ from the unit circle.",
+              "Draw a ray from the origin at $60^\\circ$ to the positive $x$-axis until it meets the circle at P.",
+              "Drop a perpendicular from P to the $x$-axis. It meets the axis at $x = 0.5$.",
+              "So $\\cos(60^\\circ) = 0.5$ (exact value $\\frac{1}{2}$)."
+            ],
+            "finalAnswer": "$\\cos(60^\\circ) = 0.5$",
+            "solutionFigures": [],
+            "tip": "On the unit circle cosine is the $x$-coordinate and sine is the $y$-coordinate; remember 'x comes before y, c comes before s'."
+          }
+        },
+        {
+          "id": "ch15_ex1_q10",
+          "number": "10",
+          "category": null,
+          "questionText": "MC If $\\cos(x^\\circ) = p$ for $0 \\le x \\le 90^\\circ$, then $\\sin(180^\\circ - x^\\circ)$ in terms of $p$ is:\nA. $p$  B. $180 - p$  C. $1 - p$  D. $\\sqrt{1 - p^2}$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$\\sin(180^\\circ - x) = \\sin(x)$ and $\\sin^2(x) + \\cos^2(x) = 1$",
+            "steps": [
+              "Given: $\\cos(x) = p$ with $x$ in the first quadrant. Goal: $\\sin(180^\\circ - x)$ in terms of $p$.",
+              "Supplementary angle identity: $\\sin(180^\\circ - x) = \\sin(x)$.",
+              "From $\\sin^2(x) + \\cos^2(x) = 1$: $\\sin^2(x) = 1 - p^2$.",
+              "Since $0 \\le x \\le 90^\\circ$, $\\sin(x) \\ge 0$, so $\\sin(x) = \\sqrt{1 - p^2}$.",
+              "Therefore $\\sin(180^\\circ - x) = \\sqrt{1 - p^2}$, option D."
+            ],
+            "finalAnswer": "D. $\\sqrt{1 - p^2}$",
+            "solutionFigures": [],
+            "tip": "Choose the positive square root here because sine is positive in the first and second quadrants."
+          }
+        },
+        {
+          "id": "ch15_ex1_q11",
+          "number": "11",
+          "category": null,
+          "questionText": "MC Select the amplitude and period, respectively, of $y = -2\\sin(2x)$ from the following options.\nA. $-2, 360^\\circ$  B. $-2, 180^\\circ$  C. $2, 2$  D. $2, 180^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "For $y = a\\sin(nx)$: amplitude $= |a|$, period $= \\frac{360^\\circ}{n}$",
+            "steps": [
+              "Given: $y = -2\\sin(2x)$, so $a = -2$ and $n = 2$. Goal: amplitude and period.",
+              "Amplitude $= |-2| = 2$ (the negative sign only reflects the graph in the $x$-axis).",
+              "Period $= \\frac{360^\\circ}{2} = 180^\\circ$",
+              "This is option D."
+            ],
+            "finalAnswer": "D. Amplitude 2, period $180^\\circ$",
+            "solutionFigures": [],
+            "tip": "Amplitude is a distance, so it is never negative."
+          }
+        },
+        {
+          "id": "ch15_ex1_q12",
+          "number": "12",
+          "category": null,
+          "questionText": "MC Select the correct equation for the graph shown. The graph is drawn for $0^\\circ \\le x \\le 360^\\circ$ with the $y$-axis from $-4$ to $4$; the curve starts at its minimum $(0^\\circ, -4)$, rises to its maximum $4$ at $90^\\circ$, falls to $-4$ at $180^\\circ$, rises to $4$ at $270^\\circ$ and returns to $-4$ at $360^\\circ$.\nA. $y = 4\\cos(2x)$  B. $y = -4\\cos(2x)$  C. $y = -4\\sin(2x)$  D. $y = 4\\sin(2x)$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "$y = a\\cos(nx)$ has amplitude $|a|$, period $\\frac{360^\\circ}{n}$ and value $a$ at $x = 0$",
+            "steps": [
+              "Given: graph with maximum 4 and minimum $-4$, two full cycles in $360^\\circ$, value $-4$ at $x = 0$. Goal: its equation.",
+              "Amplitude $= 4$.",
+              "Two cycles in $360^\\circ$ means period $= 180^\\circ$, so $n = \\frac{360^\\circ}{180^\\circ} = 2$.",
+              "A sine graph is 0 at $x = 0$, but this graph is at $-4$, so it is a cosine graph.",
+              "$\\cos(0) = 1$, so to get $-4$ at $x = 0$ we need $a = -4$.",
+              "Equation: $y = -4\\cos(2x)$, option B.",
+              "Check: at $x = 90^\\circ$, $y = -4\\cos(180^\\circ) = -4(-1) = 4$ ✓"
+            ],
+            "finalAnswer": "B. $y = -4\\cos(2x)$",
+            "solutionFigures": [],
+            "tip": "Look at the $y$-intercept first: sine graphs start at 0, cosine graphs start at a maximum or minimum."
+          }
+        },
+        {
+          "id": "ch15_ex1_q13",
+          "number": "13",
+          "category": null,
+          "questionText": "MC Select the correct solutions for the equation $\\sin(x) = \\frac{1}{2}$ for $x$ over the domain $0 \\le x \\le 360^\\circ$.\nA. $x = 30^\\circ$ and $x = 150^\\circ$  B. $x = 30^\\circ$ and $x = 210^\\circ$  C. $x = 60^\\circ$ and $x = 120^\\circ$  D. $x = 60^\\circ$ and $x = 240^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "If $\\sin(x) = k > 0$, the solutions in $[0^\\circ, 360^\\circ]$ are $x = \\theta$ (1st quadrant) and $x = 180^\\circ - \\theta$ (2nd quadrant), where $\\theta = \\sin^{-1}(k)$",
+            "steps": [
+              "Given: $\\sin(x) = \\frac{1}{2}$, $0 \\le x \\le 360^\\circ$. Goal: all solutions.",
+              "Reference angle: $\\sin^{-1}\\left(\\frac{1}{2}\\right) = 30^\\circ$.",
+              "Sine is positive in quadrants 1 and 2.",
+              "Quadrant 1: $x = 30^\\circ$. Quadrant 2: $x = 180^\\circ - 30^\\circ = 150^\\circ$.",
+              "This is option A."
+            ],
+            "finalAnswer": "A. $x = 30^\\circ$ and $x = 150^\\circ$",
+            "solutionFigures": [],
+            "tip": "Use the ASTC rule to decide which quadrants hold the solutions before writing them down."
+          }
+        },
+        {
+          "id": "ch15_ex1_q14",
+          "number": "14",
+          "category": null,
+          "questionText": "MC Select the correct solutions for the equation $\\cos(2x) = -\\frac{\\sqrt{2}}{2}$ for $x$ over the domain $0 \\le x \\le 360^\\circ$.\nA. $x = 22.5^\\circ$ and $x = 337.5^\\circ$  B. $x = 45^\\circ$ and $x = 315^\\circ$  C. $x = 67.5^\\circ$ and $x = 112.5^\\circ$  D. $x = 157.5^\\circ$ and $x = 202.5^\\circ$",
+          "questionFigures": [],
+          "solution": {
+            "formula": "If $\\cos(\\theta) = -k$ ($k > 0$), then $\\theta = 180^\\circ \\pm \\alpha$ (+ multiples of $360^\\circ$), where $\\alpha = \\cos^{-1}(k)$. For $\\cos(2x)$, the range of $2x$ is doubled.",
+            "steps": [
+              "Given: $\\cos(2x) = -\\frac{\\sqrt{2}}{2}$, $0 \\le x \\le 360^\\circ$. Goal: solutions for $x$.",
+              "Since $0 \\le x \\le 360^\\circ$, we need $0 \\le 2x \\le 720^\\circ$.",
+              "Reference angle: $\\cos^{-1}\\left(\\frac{\\sqrt{2}}{2}\\right) = 45^\\circ$.",
+              "Cosine is negative in quadrants 2 and 3: $2x = 180^\\circ - 45^\\circ = 135^\\circ$ or $2x = 180^\\circ + 45^\\circ = 225^\\circ$.",
+              "Add $360^\\circ$ for the second revolution: $2x = 495^\\circ$ or $2x = 585^\\circ$.",
+              "Divide by 2: $x = 67.5^\\circ, 112.5^\\circ, 247.5^\\circ, 292.5^\\circ$.",
+              "The only option containing correct solutions is C ($67.5^\\circ$ and $112.5^\\circ$)."
+            ],
+            "finalAnswer": "C. $x = 67.5^\\circ$ and $x = 112.5^\\circ$ (over the full domain, $247.5^\\circ$ and $292.5^\\circ$ are also solutions)",
+            "solutionFigures": [],
+            "tip": "For $\\cos(2x)$, extend the domain for $2x$ to $0^\\circ$–$720^\\circ$ before solving, then halve every answer."
+          }
+        },
+        {
+          "id": "ch15_ex1_q15",
+          "number": "15",
+          "category": null,
+          "questionText": "Using the graph shown, solve the equation $7\\sin(x) = -7$ for $0 \\le x \\le 360^\\circ$. The graph shows $y = \\sin(x)$ for $0^\\circ \\le x \\le 360^\\circ$, with the $y$-axis marked from $-1$ to $1$ and the $x$-axis marked at $90^\\circ, 180^\\circ, 270^\\circ, 360^\\circ$.",
+          "questionFigures": [],
+          "solution": {
+            "formula": "Rearrange to $\\sin(x) = k$, then read off where the graph of $y = \\sin(x)$ meets $y = k$",
+            "steps": [
+              "Given: $7\\sin(x) = -7$, $0 \\le x \\le 360^\\circ$. Goal: $x$.",
+              "Divide both sides by 7: $\\sin(x) = -1$.",
+              "On the graph of $y = \\sin(x)$, the line $y = -1$ touches the curve only at its minimum point.",
+              "The minimum occurs at $x = 270^\\circ$.",
+              "Check: $7\\sin(270^\\circ) = 7 \\times (-1) = -7$ ✓"
+            ],
+            "finalAnswer": "Therefore $x = 270^\\circ$.",
+            "solutionFigures": [],
+            "tip": "Always reduce the equation to $\\sin(x) = $ a number before reading from the graph of $y = \\sin(x)$."
+          }
+        }
+      ]
+    }
+  ]
+}
