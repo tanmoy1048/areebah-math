@@ -172,7 +172,10 @@
           '<h1>Choose a chapter</h1>' +
           '<p>Every exercise question with a step-by-step worked solution. Pick a chapter to browse its questions.</p>' +
         '</section>' +
-        '<div class="tiles">' + tiles + savedTile + '</div>' +
+        '<h2 class="group-title">Chapters</h2>' +
+        '<div class="tiles">' + tiles + '</div>' +
+        '<h2 class="group-title">Saved &amp; exams</h2>' +
+        '<div class="tiles">' + examHomeTile() + savedTile + '</div>' +
       '</div>';
   }
 
@@ -339,9 +342,337 @@
     scrim.classList.toggle('show', open);
   }
 
-  // ---------- Routing: #/ (home) and #/c/<scope>[/<exerciseId>] ----------
+  // ---------- Mock exam: #/exam (setup), #/exam/run, #/exam/result ----------
+  // The exam is kept in memory, so it survives moving between pages in this tab but not a reload.
+  var EXAM_SIZES = [10, 15, 20, 25];
+  var TIME_OPTIONS = [
+    { key: 'off', label: 'No timer', mins: 0 },
+    { key: '1', label: '1 minute per question', mins: 1 },
+    { key: '1.5', label: '1.5 minutes per question', mins: 1.5 },
+    { key: '2', label: '2 minutes per question', mins: 2 }
+  ];
+  var setup = { size: 10, chapters: null, timeKey: '1.5' };  // chapters null = all chapters
+  var exam = null;
+
+  function examPool() {
+    return all.filter(function (it) { return setup.chapters.indexOf(it.ch.chapterId) !== -1; });
+  }
+
+  function shuffled(list) {
+    var a = list.slice();
+    for (var i = a.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = a[i]; a[i] = a[j]; a[j] = t;
+    }
+    return a;
+  }
+
+  function clock(ms) {
+    var s = Math.max(0, Math.ceil(ms / 1000));
+    var m = Math.floor(s / 60);
+    var r = s % 60;
+    return (m < 10 ? '0' : '') + m + ':' + (r < 10 ? '0' : '') + r;
+  }
+
+  function examBar(title, right) {
+    return '<header class="bar">' +
+      '<a class="btn" href="#/">⌂ Home</a>' +
+      '<span class="crumb">' + esc(title) + '</span>' +
+      (right || '') +
+      '<button type="button" class="btn" data-act="theme" aria-label="Toggle light or dark theme">Theme</button>' +
+      '</header>';
+  }
+
+  function examHomeTile() {
+    if (exam && !exam.submittedAt) {
+      var left = exam.endsAt ? ' · ' + clock(exam.endsAt - Date.now()) + ' left' : '';
+      return '<a class="tile tile-exam" href="#/exam/run"><span class="tile-num">In progress</span>' +
+        '<h2>Resume your mock exam</h2><p class="tile-meta">' + exam.size + ' questions' + left + '</p>' +
+        '<span class="tile-go">Continue →</span></a>';
+    }
+    return '<a class="tile tile-exam" href="#/exam"><span class="tile-num">Exam mode</span>' +
+      '<h2>Create a mock exam</h2>' +
+      '<p class="tile-meta">Choose 10, 15, 20 or 25 questions from any chapters, with an optional timer.</p>' +
+      '<span class="tile-go">Set up exam →</span></a>';
+  }
+
+  function renderExamSetup() {
+    if (!setup.chapters) setup.chapters = data.map(function (ch) { return ch.chapterId; });
+    var pool = examPool().length;
+    var enough = pool >= setup.size;
+
+    var sizes = EXAM_SIZES.map(function (n) {
+      var on = setup.size === n;
+      return '<button type="button" class="choice' + (on ? ' on' : '') + '" data-act="exam-size" data-n="' + n +
+        '" aria-pressed="' + on + '">' + n + '</button>';
+    }).join('');
+
+    var times = TIME_OPTIONS.map(function (o) {
+      return '<option value="' + o.key + '"' + (setup.timeKey === o.key ? ' selected' : '') + '>' + esc(o.label) + '</option>';
+    }).join('');
+
+    var boxes = data.map(function (ch) {
+      var count = all.filter(function (it) { return it.ch.chapterId === ch.chapterId; }).length;
+      var checked = setup.chapters.indexOf(ch.chapterId) !== -1;
+      return '<label class="check"><input type="checkbox" data-act="exam-chapter" value="' + esc(ch.chapterId) + '"' +
+        (checked ? ' checked' : '') + '>' +
+        '<span>Chapter ' + esc(chapterNumber(ch)) + ' · ' + esc(ch.chapterTitle) + '</span>' +
+        '<span class="muted">' + count + '</span></label>';
+    }).join('');
+
+    app.innerHTML =
+      '<div class="home">' +
+        examBar('Mock exam') +
+        '<section class="exam-setup">' +
+          '<h1>Create a mock exam</h1>' +
+          '<p class="muted">Answers are marked at the end, not as you go. Work each question, then compare with the worked solution.</p>' +
+          '<h2>1. Number of questions</h2>' +
+          '<div class="choices">' + sizes + '</div>' +
+          '<h2>2. Chapters</h2>' +
+          '<div class="checks">' + boxes + '</div>' +
+          '<div class="row-actions">' +
+            '<button type="button" class="btn" data-act="exam-all">Select all</button>' +
+            '<button type="button" class="btn" data-act="exam-none">Clear</button>' +
+          '</div>' +
+          '<h2>3. Timer</h2>' +
+          '<select id="exam-time" aria-label="Timer">' + times + '</select>' +
+          '<p class="' + (enough ? 'muted' : 'warn') + '">' + pool + ' questions available in the chosen chapters' +
+            (enough ? '.' : ' — choose fewer questions or more chapters.') + '</p>' +
+          '<button type="button" class="btn primary big" data-act="exam-start"' + (enough ? '' : ' disabled') + '>Start exam</button>' +
+        '</section>' +
+      '</div>';
+  }
+
+  function startExam() {
+    if (exam && !exam.submittedAt &&
+        !window.confirm('You have an exam in progress. Abandon it and start a new one?')) return;
+    var picked = shuffled(examPool()).slice(0, setup.size);
+    var option = TIME_OPTIONS.filter(function (o) { return o.key === setup.timeKey; })[0];
+    var now = Date.now();
+    var limit = option && option.mins ? option.mins * 60000 * picked.length : 0;
+    exam = {
+      items: picked,
+      size: picked.length,
+      index: 0,
+      answers: {},
+      marks: {},
+      flags: {},
+      startedAt: now,
+      endsAt: limit ? now + limit : null,
+      submittedAt: null,
+      timedOut: false
+    };
+    location.hash = '#/exam/run';
+  }
+
+  function renderExamRun() {
+    var it = exam.items[exam.index];
+    var ex = it.ex;
+    var timer = exam.endsAt
+      ? '<span class="timer" id="exam-timer">' + clock(exam.endsAt - Date.now()) + '</span>'
+      : '<span class="muted">No timer</span>';
+    var palette = exam.items.map(function (x, i) {
+      var cls = ['pal'];
+      if (i === exam.index) cls.push('current');
+      if ((exam.answers[x.ex.id] || '').trim()) cls.push('answered');
+      if (exam.flags[x.ex.id]) cls.push('flagged');
+      return '<button type="button" class="' + cls.join(' ') + '" data-act="exam-go" data-i="' + i +
+        '" aria-label="Question ' + (i + 1) + '">' + (i + 1) + '</button>';
+    }).join('');
+    var flagged = !!exam.flags[ex.id];
+
+    app.innerHTML =
+      '<div class="home">' +
+        examBar('Mock exam · ' + (exam.index + 1) + ' of ' + exam.size, timer) +
+        '<nav class="palette" aria-label="Questions">' + palette + '</nav>' +
+        '<article class="ex" aria-labelledby="exam-q">' +
+          '<div class="ex-crumb">Chapter ' + esc(chapterNumber(it.ch)) + ' · ' + esc(it.topic.topicId + ' ' + it.topic.topicTitle) + '</div>' +
+          '<h1 id="exam-q" class="exam-qhead">Question ' + esc(ex.number) + '</h1>' +
+          '<div class="ex-question">' + textBlock(ex.questionText) + figures(ex.questionFigures) + '</div>' +
+          '<label class="answer-label" for="exam-answer">Your answer</label>' +
+          '<textarea id="exam-answer" rows="5" placeholder="Write your working and final answer. You can leave this blank.">' +
+            esc(exam.answers[ex.id] || '') + '</textarea>' +
+          '<div class="exam-actions">' +
+            '<button type="button" class="btn" data-act="exam-prev"' + (exam.index === 0 ? ' disabled' : '') + '>← Previous</button>' +
+            '<button type="button" class="btn' + (flagged ? ' on' : '') + '" data-act="exam-flag" aria-pressed="' + flagged + '">' +
+              (flagged ? '⚑ Flagged' : '⚐ Flag for review') + '</button>' +
+            '<button type="button" class="btn" data-act="exam-next"' +
+              (exam.index === exam.size - 1 ? ' disabled' : '') + '>Next →</button>' +
+          '</div>' +
+          '<div class="exam-submit">' +
+            '<button type="button" class="btn primary" data-act="exam-submit">Finish and see results</button>' +
+          '</div>' +
+        '</article>' +
+      '</div>';
+    // Only the question is typeset, so maths never rewrites the answer box.
+    typeset([app.querySelector('.ex-question')]);
+  }
+
+  function submitExam(timedOut) {
+    if (!exam || exam.submittedAt) return;
+    exam.submittedAt = Date.now();
+    exam.timedOut = !!timedOut;
+    location.hash = '#/exam/result';
+  }
+
+  function confirmSubmit() {
+    var unanswered = exam.items.filter(function (it) { return !(exam.answers[it.ex.id] || '').trim(); }).length;
+    var msg = unanswered
+      ? 'You have ' + unanswered + ' unanswered question' + (unanswered === 1 ? '' : 's') + '. Finish the exam now?'
+      : 'Finish the exam and see your results?';
+    if (window.confirm(msg)) submitExam(false);
+  }
+
+  function updateScore() {
+    if (!exam) return;
+    var right = exam.items.filter(function (it) { return exam.marks[it.ex.id] === true; }).length;
+    var el = document.getElementById('exam-score');
+    if (el) el.textContent = right + ' / ' + exam.size + ' (' + Math.round(right / exam.size * 100) + '%)';
+    document.querySelectorAll('[data-act="exam-mark"]').forEach(function (b) {
+      var v = b.getAttribute('data-v') === '1';
+      var on = exam.marks[b.getAttribute('data-id')] === v;
+      b.classList.toggle('on', on);
+      b.setAttribute('aria-pressed', String(on));
+    });
+  }
+
+  function renderExamResult() {
+    var answered = exam.items.filter(function (it) { return (exam.answers[it.ex.id] || '').trim(); }).length;
+    var cards = exam.items.map(function (it, i) {
+      var ex = it.ex;
+      var ans = (exam.answers[ex.id] || '').trim();
+      return '<article class="result-card">' +
+        '<div class="card-top">' +
+          '<span class="rnum">' + (i + 1) + '</span>' +
+          '<span class="ex-crumb">Question ' + esc(ex.number) + ' · Chapter ' + esc(chapterNumber(it.ch)) + ' · ' + esc(it.topic.topicId) + '</span>' +
+          (exam.flags[ex.id] ? '<span class="flag-note">⚑ flagged</span>' : '') +
+        '</div>' +
+        '<div class="ex-question">' + textBlock(ex.questionText) + figures(ex.questionFigures) + '</div>' +
+        '<div class="your-answer"><strong>Your answer:</strong> ' +
+          (ans ? esc(ans).replace(/\n/g, '<br>') : '<em class="muted">No answer given</em>') + '</div>' +
+        '<details><summary>Show worked solution</summary>' + solutionHtml(ex.solution || {}, ex.tricks) + '</details>' +
+        '<div class="mark-row"><span>Mark your answer:</span>' +
+          '<button type="button" class="mark correct" data-act="exam-mark" data-id="' + esc(ex.id) + '" data-v="1" aria-pressed="false">✓ Correct</button>' +
+          '<button type="button" class="mark wrong" data-act="exam-mark" data-id="' + esc(ex.id) + '" data-v="0" aria-pressed="false">✗ Incorrect</button>' +
+        '</div>' +
+      '</article>';
+    }).join('');
+
+    var used = exam.submittedAt - exam.startedAt;
+    app.innerHTML =
+      '<div class="home">' +
+        examBar('Exam results') +
+        '<section class="result-head">' +
+          '<h1>Your results</h1>' +
+          (exam.timedOut ? '<p class="warn">Time ran out, so the exam was submitted as it stood.</p>' : '') +
+          '<div class="score"><span id="exam-score"></span><span class="muted">self-marked</span></div>' +
+          '<p class="muted">' + answered + ' of ' + exam.size + ' answered · time used ' + clock(used) + '</p>' +
+          '<p class="muted">Compare your working with each worked solution, then mark it correct or incorrect. The score updates as you mark.</p>' +
+          '<div class="result-actions"><a class="btn primary" href="#/exam">New exam</a><a class="btn" href="#/">Home</a></div>' +
+        '</section>' +
+        cards +
+      '</div>';
+    updateScore();
+    typeset([app]);
+  }
+
+  function examAction(act, t) {
+    if (act === 'exam-size') {
+      setup.size = parseInt(t.getAttribute('data-n'), 10);
+      renderExamSetup();
+    } else if (act === 'exam-all') {
+      setup.chapters = data.map(function (ch) { return ch.chapterId; });
+      renderExamSetup();
+    } else if (act === 'exam-none') {
+      setup.chapters = [];
+      renderExamSetup();
+    } else if (act === 'exam-start') {
+      startExam();
+    } else if (act === 'exam-go') {
+      exam.index = parseInt(t.getAttribute('data-i'), 10);
+      renderExamRun();
+    } else if (act === 'exam-prev' && exam.index > 0) {
+      exam.index--;
+      renderExamRun();
+    } else if (act === 'exam-next' && exam.index < exam.size - 1) {
+      exam.index++;
+      renderExamRun();
+    } else if (act === 'exam-flag') {
+      var fid = exam.items[exam.index].ex.id;
+      exam.flags[fid] = !exam.flags[fid];
+      renderExamRun();
+    } else if (act === 'exam-submit') {
+      confirmSubmit();
+    } else if (act === 'exam-mark') {
+      var mid = t.getAttribute('data-id');
+      var v = t.getAttribute('data-v') === '1';
+      exam.marks[mid] = exam.marks[mid] === v ? undefined : v;
+      updateScore();
+    }
+  }
+
+  function routeExam(sub) {
+    view.scope = null;
+    view.exId = null;
+    if (sub === 'run' && exam && !exam.submittedAt) {
+      renderExamRun();
+    } else if (sub === 'result' && exam && exam.submittedAt) {
+      renderExamResult();
+    } else if (sub === 'run' || sub === 'result') {
+      location.hash = '#/exam';
+      return;
+    } else {
+      renderExamSetup();
+    }
+    window.scrollTo(0, 0);
+  }
+
+  // Exam inputs: the answer box saves as you type, without re-rendering (so typing keeps focus).
+  app.addEventListener('input', function (e) {
+    if (e.target.id !== 'exam-answer' || !exam) return;
+    var id = exam.items[exam.index].ex.id;
+    exam.answers[id] = e.target.value;
+    var pal = app.querySelectorAll('.pal')[exam.index];
+    if (pal) pal.classList.toggle('answered', e.target.value.trim() !== '');
+  });
+
+  app.addEventListener('change', function (e) {
+    if (e.target.id === 'exam-time') {
+      setup.timeKey = e.target.value;
+      return;
+    }
+    if (e.target.getAttribute && e.target.getAttribute('data-act') === 'exam-chapter') {
+      var cid = e.target.value;
+      setup.chapters = e.target.checked
+        ? setup.chapters.concat(cid)
+        : setup.chapters.filter(function (c) { return c !== cid; });
+      renderExamSetup();
+    }
+  });
+
+  // Once the timer runs out the exam submits itself, even if the user is on another page.
+  function tickExam() {
+    if (!exam || exam.submittedAt || !exam.endsAt) return;
+    var left = exam.endsAt - Date.now();
+    if (left <= 0) {
+      submitExam(true);
+      return;
+    }
+    var el = document.getElementById('exam-timer');
+    if (el) {
+      el.textContent = clock(left);
+      el.classList.toggle('low', left < 60000);
+    }
+  }
+  setInterval(tickExam, 1000);
+
+  // ---------- Routing: #/ (home), #/c/<scope>[/<exerciseId>] and #/exam ----------
   function route() {
     var parts = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean).map(decodeURIComponent);
+    if (parts[0] === 'exam') {
+      routeExam(parts[1]);
+      return;
+    }
     var valid = parts[0] === 'c' && parts[1] && (parts[1] === 'saved' || byChapter[parts[1]]);
 
     if (!valid) {
@@ -394,6 +725,8 @@
       view.favOnly = !view.favOnly;
       t.setAttribute('aria-pressed', String(view.favOnly));
       renderBody();
+    } else if (act.indexOf('exam-') === 0) {
+      examAction(act, t);
     } else if (act === 'clear') {
       view.search = '';
       view.category = '';

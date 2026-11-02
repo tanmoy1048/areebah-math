@@ -139,7 +139,8 @@ Rules:
 
 ## 7. Viewer behaviour (for changes)
 
-- Routes: `#/` home (chapter tiles and a Saved tile); `#/c/<chapterId>` chapter view; `#/c/<chapterId>/<entryId>` one exercise; `#/c/saved` saved questions across chapters.
+- Routes: `#/` home (chapter tiles, a Mock exam tile and a Saved tile); `#/c/<chapterId>` chapter view; `#/c/<chapterId>/<entryId>` one exercise; `#/c/saved` saved questions across chapters; `#/exam` exam setup; `#/exam/run` the timed exam; `#/exam/result` results.
+- Mock exam: pick 10/15/20/25 questions, tick chapters, pick a timer (none, or 1, 1.5 or 2 minutes per question). Questions are drawn at random from the chosen chapters. Answers are typed in and are not marked during the exam. The results page shows the worked solutions, and the user self-marks each question, so the score is self-marked. The exam is held in memory, so it survives moving between pages but not a reload. When the timer runs out, the exam submits itself. Tests cover setup, answering, submitting and marking. The timeout path is not covered by the automated test.
 - Chapter view: left sidebar with search, difficulty filter, "Saved only", and the exercise list grouped by topic. Right panel: one exercise, "Show solution", Prev/Next, position counter.
 - Keyboard: ← / → move between questions, S toggles the solution, Esc closes the drawer on phones.
 - `localStorage` holds only saved questions (`maths-favourites`) and the theme (`maths-theme`). Every access is wrapped in try/catch.

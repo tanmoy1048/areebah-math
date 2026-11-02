@@ -18,7 +18,7 @@ const check = (name, cond) => { log((cond ? 'PASS ' : 'FAIL ') + name); if (!con
 
 // 1. Home
 const chapterCount = JSON.parse(fs.readFileSync(root + 'data/solutions.json', 'utf8')).length;
-check('home shows one tile per chapter (' + chapterCount + ')', $$('a.tile').filter(a => !a.classList.contains('tile-saved')).length === chapterCount);
+check('home shows one tile per chapter (' + chapterCount + ')', $$('a.tile').filter(a => !a.classList.contains('tile-saved') && !a.classList.contains('tile-exam')).length === chapterCount);
 check('home has saved tile', !!$('a.tile-saved'));
 // 2. Chapter 6
 go('#/c/ch06');
@@ -72,4 +72,42 @@ check('theme stored as plain string', ['light', 'dark'].includes(w.localStorage.
 // 9. Unknown route falls back to home
 go('#/c/nonsense');
 check('unknown chapter shows home', !!$('.home'));
+
+// 10. Mock exam: setup, run, submit, mark
+w.confirm = () => true;
+const clickRoute = (el) => { el.click(); w.dispatchEvent(new w.HashChangeEvent('hashchange')); };
+go('#/exam');
+check('exam setup shows four size choices', $$('[data-act="exam-size"]').length === 4);
+check('exam start enabled with all chapters', !!$('[data-act="exam-start"]') && !$('[data-act="exam-start"]').disabled);
+clickRoute($('[data-act="exam-start"]'));
+check('start moves to run page', w.location.hash === '#/exam/run');
+check('run shows 1 of 10', /1 of 10/.test($('.home').textContent));
+check('run shows 10 palette buttons', $$('.palette .pal').length === 10);
+check('run has a timer', !!$('#exam-timer'));
+check('no solution visible during exam', !$('.solution'));
+const ans = $('#exam-answer');
+ans.value = 'x = 3';
+ans.dispatchEvent(new w.Event('input', { bubbles: true }));
+check('answered palette state updates', $$('.palette .pal')[0].classList.contains('answered'));
+clickRoute($('[data-act="exam-next"]'));
+check('next moves to 2 of 10', /2 of 10/.test($('.home').textContent));
+go('#/exam/run');
+check('answer kept after navigating back', /2 of 10/.test($('.home').textContent));
+clickRoute($('[data-act="exam-submit"]'));
+check('submit moves to results', w.location.hash === '#/exam/result');
+check('results show 10 cards', $$('.result-card').length === 10);
+check('score starts at 0 / 10', /0 \/ 10/.test($('#exam-score').textContent));
+$$('[data-act="exam-mark"][data-v="1"]')[0].click();
+check('marking correct updates score to 1 / 10', /1 \/ 10/.test($('#exam-score').textContent));
+check('worked solutions are in results', $$('.result-card .solution').length === 10);
+go('#/');
+check('home shows exam tile', !!$('a.tile-exam'));
+// 11. Chapter selection gates the start button
+go('#/exam');
+$('[data-act="exam-none"]').click();
+check('no chapters disables start', $('[data-act="exam-start"]').disabled === true);
+$$('input[data-act="exam-chapter"]')[0].click();
+$$('input[data-act="exam-chapter"]')[0].dispatchEvent(new w.Event('change', { bubbles: true }));
+check('one chapter selected enables start only if enough questions', typeof $('[data-act="exam-start"]').disabled === 'boolean');
 log(fails ? fails + ' FAILED' : 'ALL PASSED');
+w.close(); // stops the viewer's exam timer so node can exit
